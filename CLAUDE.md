@@ -35,28 +35,34 @@ jetix-os/
 ├── .claude/skills/        ← команды (/plan-day, /close-day, etc.)
 ├── _meta/                 ← conventions, pipeline-spec
 ├── templates/             ← шаблоны (Obsidian Templater)
-├── command-center/        ← обзор проектов, ресурсы, решения
-├── projects/              ← 8 проектов (6 файлов каждый)
-├── daily-log/             ← день = файл
-├── knowledge-base/        ← скомпилированные знания (Wiki)
-├── raw/                   ← сырые источники (immutable)
-├── agents/                ← [ПОЗЖЕ] AI-команды
-├── crm/                   ← контакты, ICP
-├── ideas/                 ← банк идей
-├── tools/                 ← [ПОЗЖЕ] стек, промпты
-├── chat-journal/          ← [ПОЗЖЕ] индекс чатов
-├── private/               ← личное (в .gitignore)
-└── automations/           ← [ПОЗЖЕ] скрипты
+├── projects/              ← 8 проектов (CONTEXT.md каждый) + _template/
+├── command-center/        ← [ПУСТО] обзор проектов, ресурсы, решения
+├── daily-log/             ← [ПУСТО] день = файл
+├── knowledge-base/        ← [ПУСТО] скомпилированные знания (Wiki)
+├── raw/                   ← [ПУСТО] сырые источники (immutable)
+├── agents/                ← [ПУСТО] AI-команды
+├── crm/                   ← [ПУСТО] контакты, ICP
+├── ideas/                 ← [ПУСТО] банк идей
+├── tools/                 ← [ПУСТО] стек, промпты
+├── chat-journal/          ← [ПУСТО] индекс чатов
+├── private/               ← [ПУСТО] личное (в .gitignore)
+└── automations/           ← [ПУСТО] скрипты
 ```
 
-## Проект = 6 файлов
-Каждый проект в `projects/{name}/`:
+## Проекты — текущее состояние
+Проекты в `projects/NN-name/CONTEXT.md` (заглушки):
+- `01-research`, `02-business`, `03-community`, `04-ai-tools`
+- `05-life-os`, `06-engineering`, `07-brand`, `08-bets`
+
+Шаблон целевой структуры в `projects/_template/` (6 файлов):
 - `overview.md` — зачем, точка А, точка Б, показатели
 - `plan.md` — план действий, этапы, сроки
 - `log.md` — хронология работы (append-only, max 30 записей → archive)
 - `decisions.md` — принятые решения (append-only)
 - `resources.md` — ссылки, материалы, люди
 - `questions.md` — открытые вопросы
+
+**TODO:** Мигрировать проекты из NN-name/CONTEXT.md → name/ с 6 файлами по шаблону.
 
 ## Wiki Pipeline
 Каждый файл в KB имеет `pipeline:` в frontmatter:
