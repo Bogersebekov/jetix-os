@@ -1,0 +1,29 @@
+# Private data - never commit
+private/
+
+# Obsidian
+.obsidian/
+
+# Environment
+.env
+.env.*
+
+# Temp files
+*.tmp
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Future: vector DB
+.vectordb/
+
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
