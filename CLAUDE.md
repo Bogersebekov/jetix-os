@@ -44,6 +44,29 @@
 - Банк идей: bf0e9a11-0e6f-4717-9ae5-e19f9a096ce7
 - Журнал чатов: 89c2ac5e-797e-4bff-bd53-4316026f8094
 
+## Структура репозитория
+```
+projects/          — 8 проектов, каждый с CONTEXT.md
+  01-research/     — ресёрч рынка и технологий
+  02-business/     — запуск бизнеса, клиенты, revenue
+  03-community/    — нетворкинг, community
+  04-ai-tools/     — AI-инструменты, Jetix OS
+  05-life-os/      — продуктивность, ритуалы
+  06-engineering/  — системное мышление
+  07-brand/        — LinkedIn, контент
+  08-bets/         — стратегические эксперименты
+logs/              — daily logs (YYYY-MM/YYYY-MM-DD.md)
+templates/         — шаблоны (daily-log, weekly-review)
+system/            — workflows.md, decisions.md
+inbox/             — быстрые заметки и идеи
+```
+
+## Как работать с Jetix OS
+- В начале сессии: прочитай последний daily log и CONTEXT.md нужного проекта
+- После работы: обнови CONTEXT.md и daily log
+- Стратегические решения → system/decisions.md
+- Идеи без привязки к проекту → inbox/
+
 ## Безопасность — НЕ делай
 - Не трогай ~/.ssh/
 - Не трогай /etc/ без явного запроса
