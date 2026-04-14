@@ -1,0 +1,14 @@
+{
+  "status": "green",
+  "checked_at": "2026-04-14T00:00:00Z",
+  "checked_by": "system-admin",
+  "components": {
+    "agents": {"status": "green", "details": "12 agents configured"},
+    "comms": {"status": "green", "details": "JSONL mailboxes initialized"},
+    "shared_state": {"status": "green", "details": "All state files present"},
+    "scripts": {"status": "green", "details": "6 pipeline scripts ready"},
+    "git": {"status": "green", "details": "Repository active"}
+  },
+  "issues": [],
+  "next_check": null
+}

@@ -1,0 +1,13 @@
+{
+  "date": null,
+  "generated_by": "manager",
+  "generated_at": null,
+  "system_health": {
+    "status": "green",
+    "issues": []
+  },
+  "priorities": [],
+  "overnight_messages": 0,
+  "escalations": [],
+  "day_type": null
+}

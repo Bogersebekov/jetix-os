@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DailyBriefing",
+  "type": "object",
+  "required": ["date", "generated_by", "generated_at"],
+  "properties": {
+    "date": {
+      "type": "string",
+      "format": "date"
+    },
+    "generated_by": {
+      "type": "string",
+      "enum": ["manager"]
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "system_health": {
+      "type": "object",
+      "properties": {
+        "status": { "type": "string", "enum": ["green", "yellow", "red"] },
+        "issues": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "priorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "project": { "type": "string" },
+          "tasks": { "type": "array", "items": { "type": "string" } },
+          "blockers": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "overnight_messages": {
+      "type": "integer"
+    },
+    "escalations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "day_type": {
+      "type": "string",
+      "enum": ["sprint", "deep-work", "meetings", "recovery", "mixed"]
+    }
+  }
+}
