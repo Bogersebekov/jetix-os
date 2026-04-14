@@ -44,6 +44,24 @@ export function initDb(dbPath) {
       data TEXT,
       created_at TEXT DEFAULT (datetime('now'))
     );
+
+    CREATE TABLE IF NOT EXISTS kanban_cards (
+      id TEXT PRIMARY KEY,
+      view TEXT NOT NULL DEFAULT 'projects',
+      column_id TEXT NOT NULL,
+      title TEXT NOT NULL,
+      description TEXT DEFAULT '',
+      priority TEXT DEFAULT 'medium',
+      assignee TEXT,
+      project TEXT,
+      due_date TEXT,
+      tags TEXT DEFAULT '[]',
+      subtasks TEXT DEFAULT '[]',
+      comments TEXT DEFAULT '[]',
+      position INTEGER DEFAULT 0,
+      created_at TEXT DEFAULT (datetime('now')),
+      updated_at TEXT DEFAULT (datetime('now'))
+    );
   `);
 
   console.log('SQLite database initialized');
