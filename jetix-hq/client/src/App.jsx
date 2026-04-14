@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
+import { ToastProvider } from './components/ui/Toast';
 import Layout from './components/Layout';
 import HQ from './pages/HQ';
 import Agents from './pages/Agents';
@@ -9,16 +10,18 @@ import Settings from './pages/Settings';
 
 export default function App() {
   return (
-    <Layout>
-      <Routes>
-        <Route path="/" element={<Navigate to="/hq" replace />} />
-        <Route path="/hq" element={<HQ />} />
-        <Route path="/agents" element={<Agents />} />
-        <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/kanban" element={<Kanban />} />
-        <Route path="/knowledge" element={<Knowledge />} />
-        <Route path="/settings" element={<Settings />} />
-      </Routes>
-    </Layout>
+    <ToastProvider>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Navigate to="/hq" replace />} />
+          <Route path="/hq" element={<HQ />} />
+          <Route path="/agents" element={<Agents />} />
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/kanban" element={<Kanban />} />
+          <Route path="/knowledge" element={<Knowledge />} />
+          <Route path="/settings" element={<Settings />} />
+        </Routes>
+      </Layout>
+    </ToastProvider>
   );
 }

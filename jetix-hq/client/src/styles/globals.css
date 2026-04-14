@@ -37,34 +37,50 @@
   box-sizing: border-box;
 }
 
-html {
-  image-rendering: pixelated;
-}
-
 body {
-  font-family: 'JetBrains Mono', 'Fira Code', monospace;
+  font-family: 'Inter', system-ui, sans-serif;
   background-color: var(--ctp-base);
   color: var(--ctp-text);
   min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
 }
 
 #root {
   min-height: 100vh;
 }
 
+/* Pixel layer: only for pixel-art elements */
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+.font-pixel {
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+}
+
+/* RPG card clip-path: notched corners */
+.rpg-clip {
+  clip-path: polygon(
+    0 6px, 6px 6px, 6px 0,
+    calc(100% - 6px) 0, calc(100% - 6px) 6px, 100% 6px,
+    100% calc(100% - 6px), calc(100% - 6px) calc(100% - 6px), calc(100% - 6px) 100%,
+    6px 100%, 6px calc(100% - 6px), 0 calc(100% - 6px)
+  );
+}
+
+/* Scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
-
 ::-webkit-scrollbar-track {
   background: var(--ctp-mantle);
 }
-
 ::-webkit-scrollbar-thumb {
   background: var(--ctp-surface1);
   border-radius: 4px;
 }
-
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ctp-surface2);
 }
