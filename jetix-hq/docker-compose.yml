@@ -1,0 +1,32 @@
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./client/src:/app/src
+      - ./client/index.html:/app/index.html
+    environment:
+      - VITE_API_URL=http://localhost:3001
+    depends_on:
+      - server
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./server:/app
+      - /app/node_modules
+      - ./data:/app/data
+      - ../shared:/jetix/shared:ro
+      - ../comms:/jetix/comms:ro
+      - ../agents:/jetix/agents:ro
+    environment:
+      - PORT=3001
+      - JETIX_ROOT=/jetix
+      - DB_PATH=/app/data/jetix-hq.db
