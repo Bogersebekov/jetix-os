@@ -1,52 +1,44 @@
+import { useState } from 'react';
 import { Users } from 'lucide-react';
-import { Card, Badge, ProgressBar, EmptyState } from '../components/ui';
-
-const mockAgents = [
-  { name: 'Manager', dept: 'MGMT', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Personal Assistant', dept: 'OPS', model: 'Haiku 4.5', level: 1, xp: 0, status: 'offline' },
-  { name: 'System Admin', dept: 'OPS', model: 'Haiku 4.5', level: 1, xp: 0, status: 'offline' },
-  { name: 'Sales Lead', dept: 'SALES', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Sales Researcher', dept: 'SALES', model: 'Haiku 4.5', level: 1, xp: 0, status: 'offline' },
-  { name: 'Sales Outreach', dept: 'SALES', model: 'Haiku 4.5', level: 1, xp: 0, status: 'offline' },
-  { name: 'Inbox Processor', dept: 'BRAIN', model: 'Haiku 4.5', level: 1, xp: 0, status: 'offline' },
-  { name: 'Crazy Agent', dept: 'META', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Knowledge Synth', dept: 'BRAIN', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Strategist', dept: 'MGMT', model: 'Opus 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Life Coach', dept: 'LIFE', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-  { name: 'Meta Agent', dept: 'META', model: 'Sonnet 4.6', level: 1, xp: 0, status: 'offline' },
-];
+import useFetch from '../hooks/useFetch';
+import AgentList from '../components/agents/AgentList';
+import AgentDetail from '../components/agents/AgentDetail';
 
 export default function Agents() {
+  const [selectedId, setSelectedId] = useState('manager');
+  const { data, loading } = useFetch('/api/v1/agents', { interval: 10000 });
+
+  const agents = data?.agents || [];
+
   return (
-    <div className="space-y-6">
-      <div className="flex items-center gap-3">
-        <Users size={24} className="text-ctp-mauve" />
-        <h2 className="font-pixel text-sm text-ctp-text">AGENT ROSTER</h2>
-        <span className="text-xs text-ctp-overlay1 font-mono">12 agents</span>
+    <div className="flex h-[calc(100vh-5rem)] -m-6">
+      {/* Left panel: agent list */}
+      <div className="w-80 shrink-0 border-r-2 border-ctp-surface0 bg-ctp-mantle/30 overflow-hidden">
+        {loading && agents.length === 0 ? (
+          <div className="flex items-center justify-center h-full">
+            <p className="text-xs text-ctp-overlay0">Loading agents...</p>
+          </div>
+        ) : (
+          <AgentList
+            agents={agents}
+            selectedId={selectedId}
+            onSelect={setSelectedId}
+          />
+        )}
       </div>
 
-      <div className="grid grid-cols-3 gap-4">
-        {mockAgents.map((agent) => (
-          <Card key={agent.name} className="hover:border-ctp-surface2 transition-colors">
-            <div className="flex items-start justify-between mb-3">
-              <div>
-                <p className="font-pixel text-[10px] text-ctp-text">{agent.name}</p>
-                <p className="text-[10px] text-ctp-overlay1 font-mono mt-1">
-                  {agent.dept} · {agent.model}
-                </p>
-              </div>
-              <Badge status={agent.status} />
+      {/* Right panel: agent detail */}
+      <div className="flex-1 overflow-hidden bg-ctp-base">
+        {selectedId ? (
+          <AgentDetail agentId={selectedId} />
+        ) : (
+          <div className="flex items-center justify-center h-full">
+            <div className="text-center">
+              <Users size={32} className="text-ctp-overlay0 mx-auto mb-3" />
+              <p className="text-sm text-ctp-overlay1">Select an agent to view details</p>
             </div>
-            <ProgressBar
-              value={agent.xp}
-              max={100}
-              color="mauve"
-              label={`Lv.${agent.level}`}
-              showValue
-              size="sm"
-            />
-          </Card>
-        ))}
+          </div>
+        )}
       </div>
     </div>
   );
