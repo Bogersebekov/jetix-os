@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { BarChart3, Layers, Eye } from 'lucide-react';
 import useFetch from '../hooks/useFetch';
+import { useWs } from '../hooks/useWebSocket';
 import PeriodSelector from '../components/dashboard/PeriodSelector';
 import KpiRow from '../components/dashboard/KpiRow';
 import CostTrendChart from '../components/dashboard/CostTrendChart';
@@ -12,7 +13,12 @@ import ResourcesSection from '../components/dashboard/ResourcesSection';
 export default function Dashboard() {
   const [period, setPeriod] = useState('week');
   const [section, setSection] = useState('both'); // resources | observability | both
-  const { data, loading } = useFetch(`/api/v1/metrics?period=${period}`, { interval: 10000 });
+  const { on } = useWs();
+  const { data, loading } = useFetch(`/api/v1/metrics?period=${period}`, {
+    interval: 30000,
+    wsEvents: ['resources:updated', 'agent:status'],
+    onWs: on,
+  });
 
   const showResources = section === 'resources' || section === 'both';
   const showObservability = section === 'observability' || section === 'both';

@@ -1,12 +1,18 @@
 import { useState } from 'react';
 import { Users } from 'lucide-react';
 import useFetch from '../hooks/useFetch';
+import { useWs } from '../hooks/useWebSocket';
 import AgentList from '../components/agents/AgentList';
 import AgentDetail from '../components/agents/AgentDetail';
 
 export default function Agents() {
   const [selectedId, setSelectedId] = useState('manager');
-  const { data, loading } = useFetch('/api/v1/agents', { interval: 10000 });
+  const { on } = useWs();
+  const { data, loading } = useFetch('/api/v1/agents', {
+    interval: 30000,
+    wsEvents: ['agent:status', 'comms:message'],
+    onWs: on,
+  });
 
   const agents = data?.agents || [];
 

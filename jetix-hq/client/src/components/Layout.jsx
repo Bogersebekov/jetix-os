@@ -12,8 +12,12 @@ import {
   Activity,
   CheckCircle2,
   AlertCircle,
+  Wifi,
+  WifiOff,
 } from 'lucide-react';
 import Badge from './ui/Badge';
+import { StatusDot } from './ui';
+import { useWs } from '../hooks/useWebSocket';
 
 const navItems = [
   { to: '/hq', label: 'HQ', icon: Building2 },
@@ -40,6 +44,7 @@ export default function Layout({ children }) {
   const [collapsed, setCollapsed] = useState(false);
   const location = useLocation();
   const currentPage = breadcrumbMap[location.pathname] || 'Jetix HQ';
+  const { connected } = useWs();
 
   return (
     <div className="flex h-screen overflow-hidden">
@@ -130,6 +135,14 @@ export default function Layout({ children }) {
             <span className="font-mono text-sm text-ctp-text">{currentPage}</span>
           </div>
           <div className="flex items-center gap-3">
+            <div className="flex items-center gap-1.5 text-xs font-mono" title={connected ? 'WebSocket connected' : 'WebSocket disconnected'}>
+              {connected ? (
+                <Wifi size={14} className="text-ctp-green" />
+              ) : (
+                <WifiOff size={14} className="text-ctp-red" />
+              )}
+              <StatusDot status={connected ? 'active' : 'error'} size={6} />
+            </div>
             <Badge status="active" label="running" />
             <Badge status="offline" label="0 done" />
             <Badge status="offline" label="0 errors" />

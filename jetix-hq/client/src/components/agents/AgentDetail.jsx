@@ -3,6 +3,7 @@ import { Pause, Play, RotateCcw, Mail, BarChart3, ListTodo, FileCode } from 'luc
 import { Badge, Button, ProgressBar } from '../ui';
 import { deptColors, getInitials } from '../../data/agents';
 import useFetch from '../../hooks/useFetch';
+import { useWs } from '../../hooks/useWebSocket';
 import AgentMailbox from './AgentMailbox';
 import AgentMetrics from './AgentMetrics';
 import AgentQueue from './AgentQueue';
@@ -17,7 +18,12 @@ const tabs = [
 
 export default function AgentDetail({ agentId }) {
   const [activeTab, setActiveTab] = useState('mailbox');
-  const { data, loading } = useFetch(`/api/v1/agents/${agentId}`, { interval: 10000 });
+  const { on } = useWs();
+  const { data, loading } = useFetch(`/api/v1/agents/${agentId}`, {
+    interval: 30000,
+    wsEvents: ['agent:status', 'comms:message'],
+    onWs: on,
+  });
 
   if (loading && !data) {
     return (
