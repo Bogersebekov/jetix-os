@@ -1,0 +1,27 @@
+services:
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+    restart: unless-stopped
+
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile.prod
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./data:/app/data
+      - ${JETIX_ROOT:-../}:/jetix:ro
+      - ${OBSIDIAN_PATH:-../}:/obsidian:ro
+    environment:
+      - PORT=3001
+      - JETIX_ROOT=/jetix
+      - OBSIDIAN_PATH=/obsidian
+      - DB_PATH=/app/data/jetix-hq.db
+    restart: unless-stopped

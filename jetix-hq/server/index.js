@@ -9,11 +9,12 @@ import projectsRouter from './routes/projects.js';
 import metricsRouter from './routes/metrics.js';
 import kanbanRouter from './routes/kanban.js';
 import knowledgeRouter from './routes/knowledge.js';
+import systemRouter from './routes/system.js';
 
 const app = express();
 const server = createServer(app);
 
-app.use(cors({ origin: 'http://localhost:3000' }));
+app.use(cors({ origin: ['http://localhost:3000', 'http://localhost:3001'] }));
 app.use(express.json());
 
 // Health check
@@ -27,6 +28,7 @@ app.use('/api/v1/projects', projectsRouter);
 app.use('/api/v1/metrics', metricsRouter);
 app.use('/api/v1/kanban', kanbanRouter);
 app.use('/api/v1/knowledge', knowledgeRouter);
+app.use('/api/v1/system', systemRouter);
 
 // Init DB
 const db = initDb(config.dbPath);
