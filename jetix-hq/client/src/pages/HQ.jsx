@@ -1,16 +1,22 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import useFetch from '../hooks/useFetch';
 import { useWs } from '../hooks/useWebSocket';
 import { rooms } from '../data/rooms';
+import { getCompanyLevel } from '../data/rooms';
 import CompanyHeader from '../components/hq/CompanyHeader';
-import OfficeRoom from '../components/hq/OfficeRoom';
+import PixelOffice from '../components/pixel/PixelOffice';
 import AgentPopup from '../components/hq/AgentPopup';
 import ProjectCards from '../components/hq/ProjectCards';
 import ActivityFeed from '../components/hq/ActivityFeed';
 import ResourceBar from '../components/hq/ResourceBar';
+import XpPopup from '../components/pixel/XpPopup';
+import LevelUpOverlay from '../components/pixel/LevelUpOverlay';
 
 export default function HQ() {
   const [popupAgent, setPopupAgent] = useState(null);
+  const [xpPopups, setXpPopups] = useState([]);
+  const [levelUp, setLevelUp] = useState(null);
+  const [companyXp, setCompanyXp] = useState(1250);
   const { on } = useWs();
 
   const { data } = useFetch('/api/v1/agents', {
@@ -20,13 +26,35 @@ export default function HQ() {
   });
 
   const agents = data?.agents || [];
-  const agentMap = Object.fromEntries(agents.map((a) => [a.id, a]));
   const activeCount = agents.filter((a) => a.status === 'active').length;
 
-  // Mock company data
-  const companyXp = 1250;
-  const streak = 3;
   const budget = { spent: 4.20, total: 150 };
+  const streak = 3;
+
+  // Demo XP gain on header XP bar click
+  const handleXpClick = useCallback(() => {
+    const amount = [25, 50, 100][Math.floor(Math.random() * 3)];
+    const prevLevel = getCompanyLevel(companyXp);
+    const newXp = companyXp + amount;
+    const newLevel = getCompanyLevel(newXp);
+
+    // XP popup
+    const id = Date.now();
+    setXpPopups((prev) => [...prev, { id, amount, x: window.innerWidth / 2, y: 80 }]);
+
+    setCompanyXp(newXp);
+
+    // Level up check
+    if (newLevel.level > prevLevel.level) {
+      setTimeout(() => {
+        setLevelUp({ level: newLevel.level, name: newLevel.name, icon: newLevel.icon });
+      }, 500);
+    }
+  }, [companyXp]);
+
+  const removeXpPopup = useCallback((id) => {
+    setXpPopups((prev) => prev.filter((p) => p.id !== id));
+  }, []);
 
   return (
     <div className="space-y-4 -m-6 p-6 min-h-[calc(100vh-5rem)]">
@@ -37,22 +65,15 @@ export default function HQ() {
         budget={budget}
         activeAgents={activeCount}
         totalAgents={agents.length || 12}
+        onXpClick={handleXpClick}
       />
 
-      {/* Virtual Office: CSS Grid 4x2 */}
-      <div className="grid grid-cols-4 grid-rows-2 gap-3">
-        {rooms.map((room) => {
-          const roomAgents = room.agents.map((id) => agentMap[id]).filter(Boolean);
-          return (
-            <OfficeRoom
-              key={room.id}
-              room={room}
-              agents={roomAgents}
-              onAgentClick={setPopupAgent}
-            />
-          );
-        })}
-      </div>
+      {/* Pixel Office */}
+      <PixelOffice
+        agents={agents}
+        rooms={rooms}
+        onAgentClick={setPopupAgent}
+      />
 
       {/* Bottom: Projects + Activity Feed */}
       <div className="grid grid-cols-3 gap-3">
@@ -83,6 +104,21 @@ export default function HQ() {
       {/* Agent popup */}
       {popupAgent && (
         <AgentPopup agent={popupAgent} onClose={() => setPopupAgent(null)} />
+      )}
+
+      {/* XP popups */}
+      {xpPopups.map((p) => (
+        <XpPopup key={p.id} amount={p.amount} x={p.x} y={p.y} onDone={() => removeXpPopup(p.id)} />
+      ))}
+
+      {/* Level up overlay */}
+      {levelUp && (
+        <LevelUpOverlay
+          level={levelUp.level}
+          levelName={levelUp.name}
+          levelIcon={levelUp.icon}
+          onDone={() => setLevelUp(null)}
+        />
       )}
     </div>
   );

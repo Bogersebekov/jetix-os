@@ -1,10 +1,25 @@
+import { useRef, useEffect, useState } from 'react';
 import { Flame, Users, Coins } from 'lucide-react';
 import { ProgressBar } from '../ui';
 import { getCompanyLevel, getXpToNext } from '../../data/rooms';
 
-export default function CompanyHeader({ companyXp, streak, budget, activeAgents, totalAgents }) {
+export default function CompanyHeader({ companyXp, streak, budget, activeAgents, totalAgents, onXpClick }) {
   const level = getCompanyLevel(companyXp);
   const xpInfo = getXpToNext(companyXp);
+  const [xpAnim, setXpAnim] = useState(false);
+  const prevXp = useRef(companyXp);
+
+  useEffect(() => {
+    if (companyXp > prevXp.current) {
+      setXpAnim(true);
+      const t = setTimeout(() => setXpAnim(false), 1000);
+      prevXp.current = companyXp;
+      return () => clearTimeout(t);
+    }
+    prevXp.current = companyXp;
+  }, [companyXp]);
+
+  const streakHigh = streak >= 7;
 
   return (
     <div className="bg-ctp-mantle border-2 border-ctp-surface1 rpg-clip px-4 py-3">
@@ -20,8 +35,11 @@ export default function CompanyHeader({ companyXp, streak, budget, activeAgents,
           </div>
         </div>
 
-        {/* XP bar */}
-        <div className="flex-1 max-w-xs">
+        {/* XP bar — animated on gain */}
+        <div
+          className={`flex-1 max-w-xs cursor-pointer transition-transform ${xpAnim ? 'scale-105' : ''}`}
+          onClick={onXpClick}
+        >
           <ProgressBar
             value={xpInfo.current}
             max={xpInfo.target}
@@ -32,10 +50,10 @@ export default function CompanyHeader({ companyXp, streak, budget, activeAgents,
           />
         </div>
 
-        {/* Streak */}
-        <div className="flex items-center gap-1.5 px-3 py-1 bg-ctp-surface0 border border-ctp-surface1">
-          <Flame size={14} className="text-ctp-peach" />
-          <span className="font-pixel text-[10px] text-ctp-peach">{streak}</span>
+        {/* Streak — pulses at 7+ */}
+        <div className={`flex items-center gap-1.5 px-3 py-1 bg-ctp-surface0 border ${streakHigh ? 'border-ctp-peach animate-pulse' : 'border-ctp-surface1'}`}>
+          <Flame size={14} className={streakHigh ? 'text-ctp-red' : 'text-ctp-peach'} />
+          <span className={`font-pixel text-[10px] ${streakHigh ? 'text-ctp-red' : 'text-ctp-peach'}`}>{streak}</span>
         </div>
 
         {/* Budget mini-bar */}
