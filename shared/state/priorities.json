@@ -1,0 +1,12 @@
+{
+  "priorities": [
+    {
+      "project": "quick-money",
+      "weight": 10,
+      "reason": "Primary revenue target: $50K by June 30, 2026",
+      "set_by": "human",
+      "set_date": "2026-04-14"
+    }
+  ],
+  "last_updated": "2026-04-14T00:00:00Z"
+}

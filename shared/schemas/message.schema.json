@@ -1,0 +1,61 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "JetixMessage",
+  "type": "object",
+  "required": ["id", "timestamp", "from", "to", "type", "priority", "subject", "body"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^msg-[0-9]{8}-[0-9]{3,}$",
+      "description": "Format: msg-YYYYMMDD-NNN"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "from": {
+      "type": "string",
+      "enum": ["strategist", "manager", "sales-lead", "sales-researcher",
+               "sales-outreach", "inbox-processor", "knowledge-synth",
+               "personal-assistant", "system-admin", "life-coach",
+               "meta-agent", "crazy-agent", "human"]
+    },
+    "to": {
+      "type": "string",
+      "description": "Agent name, 'broadcast', or 'human'"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["task", "report", "question", "escalation", "info", "idea", "feedback", "digest"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["critical", "high", "normal", "low"]
+    },
+    "subject": {
+      "type": "string",
+      "maxLength": 120
+    },
+    "body": {
+      "type": "string"
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "project": { "type": "string" },
+        "parent_message_id": { "type": "string" },
+        "attachments": { "type": "array", "items": { "type": "string" } },
+        "notion_page_id": { "type": "string" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["pending", "read", "in_progress", "done", "blocked"],
+      "default": "pending"
+    },
+    "deadline": {
+      "type": "string",
+      "format": "date-time"
+    }
+  }
+}
