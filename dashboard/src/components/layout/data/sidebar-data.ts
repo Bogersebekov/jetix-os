@@ -54,7 +54,7 @@ export const sidebarData: SidebarData = {
         },
         {
           title: 'Agents',
-          url: '/users',
+          url: '/agents',
           icon: Users,
         },
       ],

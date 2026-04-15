@@ -30,9 +30,28 @@ export type DecisionsPayload = {
   decisions: string[]
 }
 
+export type MailboxMessage = {
+  id: string
+  timestamp?: string
+  from?: string
+  to?: string
+  type?: string
+  priority?: string
+  subject?: string
+  body?: string
+  status?: string
+}
+
+export type MailboxPayload = {
+  agent: string
+  total: number
+  messages: MailboxMessage[]
+}
+
 export const api = {
   projects: () => j<{ updated_at?: string; projects: Project[] }>('/api/projects'),
   decisions: () => j<DecisionsPayload>('/api/decisions'),
   agents: () => j<{ agents: Agent[] }>('/api/agents'),
+  mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
   health: () => j<{ status: string; jetix_root: string }>('/api/health'),
 }
