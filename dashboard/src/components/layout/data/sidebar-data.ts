@@ -15,6 +15,7 @@ import {
   UserX,
   Users,
   MessagesSquare,
+  Activity,
   ShieldCheck,
   Rocket,
 } from 'lucide-react'
@@ -51,6 +52,11 @@ export const sidebarData: SidebarData = {
           title: 'Chat',
           url: '/chats',
           icon: MessagesSquare,
+        },
+        {
+          title: 'Observability',
+          url: '/observability',
+          icon: Activity,
         },
         {
           title: 'Agents',

@@ -32,6 +32,17 @@ export type KanbanColumn = {
 
 export type KanbanState = { columns: KanbanColumn[] }
 
+export type ObservabilityData = {
+  summary: {
+    total_tokens: number
+    total_cost: number
+    total_sessions: number
+    avg_tokens_per_session: number
+  }
+  daily: { date: string; tokens: number; cost: number; sessions: number }[]
+  by_agent: { agent: string; tokens: number; cost: number }[]
+}
+
 export type Project = {
   name: string
   status: string
@@ -80,6 +91,7 @@ export const api = {
   agents: () => j<{ agents: Agent[] }>('/api/agents'),
   mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
   kanban: () => j<KanbanState>('/api/kanban'),
+  observability: () => j<ObservabilityData>('/api/observability'),
   saveKanban: (state: KanbanState) => jput<{ ok: boolean }, KanbanState>('/api/kanban', state),
   health: () => j<{ status: string; jetix_root: string }>('/api/health'),
 }
