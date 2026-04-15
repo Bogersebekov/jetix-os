@@ -32,6 +32,13 @@ export type KanbanColumn = {
 
 export type KanbanState = { columns: KanbanColumn[] }
 
+export type ChatAgent = {
+  name: string
+  department: string
+  unread: number
+  total: number
+}
+
 export type ObservabilityData = {
   summary: {
     total_tokens: number
@@ -92,6 +99,19 @@ export const api = {
   mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
   kanban: () => j<KanbanState>('/api/kanban'),
   observability: () => j<ObservabilityData>('/api/observability'),
+  chatAgents: () => j<{ agents: ChatAgent[] }>('/api/chat/agents'),
+  chatMailbox: (name: string) =>
+    j<MailboxPayload>(`/api/chat/mailbox/${encodeURIComponent(name)}`),
+  chatHuman: () => j<MailboxPayload>('/api/chat/human'),
+  chatSend: (payload: { to: string; from?: string; subject?: string; content: string }) =>
+    fetch(`${API_URL}/api/chat/send`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(payload),
+    }).then((r) => {
+      if (!r.ok) throw new Error(`send → ${r.status}`)
+      return r.json() as Promise<{ ok: boolean; message: MailboxMessage }>
+    }),
   saveKanban: (state: KanbanState) => jput<{ ok: boolean }, KanbanState>('/api/kanban', state),
   health: () => j<{ status: string; jetix_root: string }>('/api/health'),
 }

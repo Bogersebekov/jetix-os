@@ -10,6 +10,7 @@ import agentsRoute from './routes/agents.js';
 import stateRoute from './routes/state.js';
 import kanbanRoute from './routes/kanban.js';
 import observabilityRoute from './routes/observability.js';
+import chatRoute from './routes/chat.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -37,6 +38,7 @@ app.use('/api/agents', agentsRoute(JETIX_ROOT));
 app.use('/api/state', stateRoute(JETIX_ROOT));
 app.use('/api/kanban', kanbanRoute(JETIX_ROOT));
 app.use('/api/observability', observabilityRoute());
+app.use('/api/chat', chatRoute(JETIX_ROOT));
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`[jetix-dashboard-server] :${PORT} JETIX_ROOT=${JETIX_ROOT}`);
