@@ -1,0 +1,97 @@
+{
+  "source": "audio_438@14-04-2026_11-09-17.txt",
+  "processed_at": "2026-04-15T20:45:54",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Фокусироваться только на голодных предпринимателях, темщиках и стартаперах — остальные целевые аудитории исключаются из фокуса.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Составить несколько персон целевой аудитории с описанием ниш и характеристик для использования как фильтр.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать позиционирование в формате личных качеств (голодный, мощный, полезный и т.д.).",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать веб-сайт с несколькими видео на русском и английском языках в голодном тоне.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать клуб/сообщество для обмена контактами с партнерами и обсуждения умных вещей с еженедельными звонками.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Сделать два типа видео: одно с упором на партнерство, другое на продажи консалтинга, на русском и английском.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Начать тестирование и привлечение трафика на сайт через форумы, чаты, платную рекламу и другие каналы.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Реализовать весь план по привлечению клиентов до конца недели.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix будет выигрывать за счет узкого фокуса на конкретную аудиторию вместо работы с широким рынком.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "audio_417@11-04-2026_02-57-37.txt",
+  "processed_at": "2026-04-15T20:42:34",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Власть — это способность принимать решения без необходимости перед кем-то оправдываться или объяснять свои действия.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Возможность действовать без оправданий дает приятное ощущение и является одновременно ответственностью и полезным инструментом.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать и не забывать понимание власти как способности принимать решения без оправданий.",
+      "priority": "low",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

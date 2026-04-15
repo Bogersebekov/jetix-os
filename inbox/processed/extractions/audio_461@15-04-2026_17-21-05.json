@@ -1,0 +1,67 @@
+{
+  "source": "audio_461@15-04-2026_17-21-05.txt",
+  "processed_at": "2026-04-15T20:49:06",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Настроить Claude Code для анализа заметок с автосохранением результатов на сервер",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать отдельную страницу и таблицу для структурированного вывода анализа заметок (ключевые идеи, задачи, гипотезы)",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Объединить текущий план с новыми идеями и создать обновленный мегаплан",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Проанализировать видео с помощью созданного инструмента для получения дополнительных инсайтов",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать более адекватный инструмент и workflow для анализа контента (заметки + видео)",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Сейчас небольшая каша между старым планом и новым видением - пришло время все обновить",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

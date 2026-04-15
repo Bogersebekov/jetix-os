@@ -1,0 +1,161 @@
+#!/usr/bin/env python3
+"""Distribute filtered items into Jetix OS knowledge base folders."""
+
+import os
+import sys
+import json
+import re
+from pathlib import Path
+from datetime import datetime
+
+HOME = Path.home()
+FILTERED = HOME / "jetix-os" / "inbox" / "processed" / "filtered"
+
+TASKS_MD = HOME / "jetix-os" / "inbox" / "processed" / "tasks.md"
+IDEAS_DIR = HOME / "jetix-os" / "ideas"
+KB_DIR = HOME / "jetix-os" / "knowledge-base"
+DECISIONS_MD = HOME / "jetix-os" / "private" / "strategy" / "decisions.md"
+CONTACTS_DIR = HOME / "jetix-os" / "crm" / "contacts"
+VISION_MD = HOME / "jetix-os" / "private" / "strategy" / "vision.md"
+BACKLOG_MD = HOME / "jetix-os" / "inbox" / "processed" / "backlog.md"
+
+# category -> destination tag
+CAT_ROUTING = {
+    "Задачи": "tasks",
+    "Идеи": "ideas",
+    "Идеи для проектов": "ideas",
+    "Инсайты": "kb",
+    "Принципы": "kb",
+    "Личные наблюдения": "kb",
+    "Стратегические гипотезы": "kb",
+    "Решения": "decisions",
+    "Контакты": "contacts",
+    "Видение": "vision",
+}
+
+
+def slugify(s: str, maxlen: int = 60) -> str:
+    s = s.lower().strip()
+    s = re.sub(r"[^\w\s\-а-яё]", "", s, flags=re.UNICODE)
+    s = re.sub(r"\s+", "-", s)
+    return (s[:maxlen] or "item").strip("-")
+
+
+def fmt_line(item: dict) -> str:
+    date = item.get("date") or datetime.now().strftime("%Y-%m-%d")
+    sources = ", ".join(item.get("sources") or []) or "—"
+    cat = item.get("category", "—")
+    prio = item.get("priority", "—")
+    hor = item.get("horizon", "—")
+    proj = item.get("project") or "—"
+    content = (item.get("content") or "").strip().replace("\n", " ")
+    return (
+        f"- [{date}] ({cat} | prio:{prio} | horizon:{hor} | project:{proj}) "
+        f"{content} _src: {sources}_"
+    )
+
+
+def append_md(path: Path, header: str, lines: list[str]):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    existing = path.read_text(encoding="utf-8") if path.exists() else ""
+    block = f"\n\n## {header}\n" + "\n".join(lines) + "\n"
+    # append-only, newest on top per jetix conventions
+    new_content = block + existing if existing else block.lstrip()
+    path.write_text(new_content, encoding="utf-8")
+
+
+def write_single_md(dir_path: Path, item: dict, prefix: str) -> Path:
+    dir_path.mkdir(parents=True, exist_ok=True)
+    date = item.get("date") or datetime.now().strftime("%Y-%m-%d")
+    slug = slugify(item.get("content", "") or prefix)
+    fname = f"{date}-{slug}.md"
+    path = dir_path / fname
+    n = 1
+    while path.exists():
+        path = dir_path / f"{date}-{slug}-{n}.md"
+        n += 1
+    sources = ", ".join(item.get("sources") or [])
+    front = (
+        "---\n"
+        f"date: {date}\n"
+        f"category: {item.get('category','')}\n"
+        f"priority: {item.get('priority','')}\n"
+        f"horizon: {item.get('horizon','')}\n"
+        f"project: {item.get('project') or ''}\n"
+        f"sources: [{sources}]\n"
+        "---\n\n"
+        f"{item.get('content','').strip()}\n"
+    )
+    path.write_text(front, encoding="utf-8")
+    return path
+
+
+def main():
+    if not FILTERED.exists():
+        print(f"ERROR: нет папки {FILTERED}", file=sys.stderr)
+        sys.exit(1)
+    batches = sorted(FILTERED.glob("batch_*.json"))
+    if not batches:
+        print(f"Нет batch_*.json в {FILTERED}", file=sys.stderr)
+        sys.exit(1)
+
+    batch_path = batches[-1]
+    print(f"Обрабатываю: {batch_path.name}")
+    data = json.loads(batch_path.read_text(encoding="utf-8"))
+    items = data.get("items", []) or []
+
+    today = datetime.now().strftime("%Y-%m-%d %H:%M")
+    stats = {k: 0 for k in ["tasks", "ideas", "kb", "decisions", "contacts", "vision", "backlog"]}
+    header = f"Batch {batch_path.name} — {today}"
+
+    tasks_lines, decisions_lines, vision_lines, backlog_lines = [], [], [], []
+    kb_groups: dict[str, list[str]] = {}
+
+    for it in items:
+        cat = it.get("category", "")
+        route = CAT_ROUTING.get(cat, "backlog")
+        line = fmt_line(it)
+
+        if route == "tasks":
+            tasks_lines.append(line)
+            stats["tasks"] += 1
+        elif route == "ideas":
+            write_single_md(IDEAS_DIR, it, "idea")
+            stats["ideas"] += 1
+        elif route == "kb":
+            key = slugify(cat) or "insights"
+            kb_groups.setdefault(key, []).append(line)
+            stats["kb"] += 1
+        elif route == "decisions":
+            decisions_lines.append(line)
+            stats["decisions"] += 1
+        elif route == "contacts":
+            write_single_md(CONTACTS_DIR, it, "contact")
+            stats["contacts"] += 1
+        elif route == "vision":
+            vision_lines.append(line)
+            stats["vision"] += 1
+        else:
+            backlog_lines.append(line)
+            stats["backlog"] += 1
+
+    if tasks_lines:
+        append_md(TASKS_MD, header, tasks_lines)
+    if decisions_lines:
+        append_md(DECISIONS_MD, header, decisions_lines)
+    if vision_lines:
+        append_md(VISION_MD, header, vision_lines)
+    if backlog_lines:
+        append_md(BACKLOG_MD, header, backlog_lines)
+    for key, lines in kb_groups.items():
+        append_md(KB_DIR / f"{key}.md", header, lines)
+
+    print("\n===== ОТЧЁТ =====")
+    print(f"Источник: {batch_path}")
+    print(f"Всего единиц: {len(items)}")
+    for k, v in stats.items():
+        print(f"  {k}: {v}")
+
+
+if __name__ == "__main__":
+    main()

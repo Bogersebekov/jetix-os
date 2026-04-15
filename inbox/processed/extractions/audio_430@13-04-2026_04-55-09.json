@@ -1,0 +1,47 @@
+{
+  "source": "audio_430@13-04-2026_04-55-09.txt",
+  "processed_at": "2026-04-15T20:44:53",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Создание сообщества на основе репутации, где люди объединяются для взаимной пользы — от захватнического подхода к реально полезному для участников",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Бизнес-модель на основе комиссии за поиск и привод клиентов, учителей или решение задач через сообщество",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Основа сообщества — репутация участников, которые ценят и поддерживают свою репутацию в чистоте",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Масштабировать идею сообщества в нужном месте, рассказать нужным людям эффективными способами",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

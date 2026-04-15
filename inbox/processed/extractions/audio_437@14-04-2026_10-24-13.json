@@ -1,0 +1,47 @@
+{
+  "source": "audio_437@14-04-2026_10-24-13.txt",
+  "processed_at": "2026-04-15T20:45:39",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Принято окончательное решение сфокусироваться на позиционировании и продажах для быстрого получения денег. Время экспериментов закончено.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Состояние крайней мотивации и решимости. Готов к агрессивным действиям для достижения финансовых целей.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Цель получить несколько сотен тысяч долларов как можно быстрее, это только начало для более масштабных амбиций.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Готов идти по головам и действовать агрессивно для достижения финансовых целей. Никаких компромиссов.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

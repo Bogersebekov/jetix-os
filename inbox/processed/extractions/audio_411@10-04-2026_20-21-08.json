@@ -1,0 +1,87 @@
+{
+  "source": "audio_411@10-04-2026_20-21-08.txt",
+  "processed_at": "2026-04-15T20:41:41",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Создать защищенную семейную систему, где негативные внешние факторы получают жесткий отпор, а внутри царит любовь и взаимная поддержка.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Мы можем выбирать, как относиться к тому, что на нас влияет, и менять окружение (обстановку, круг общения, страну) для улучшения влияющих факторов.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Не расслабляться и не заниматься ерундой, пока семья не в безопасности и не достигнута финансовая устойчивость.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Жесткая борьба с внешними негативными факторами и направление агрессии на них повысит защищенность семьи и создаст условия для внутреннего развития.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Разобраться с личными слабостями (неспособность контролировать мысли, порывы) и влиять на себя адекватно в первую очередь.",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Устранить финансовую нищету и неспособность что-то позволить себе и семье финансово.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "К семье и близким людям относиться ответственно и считать их реально переживающими за тебя людьми, а не задолбоебами.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Важно реально заботиться о том, что происходит в жизни близких людей, и делать все возможное, чтобы им помочь.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "source": "audio_451@14-04-2026_13-24-43.txt",
+  "processed_at": "2026-04-15T20:47:35",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать open source систему на GitHub с качественной защитой и философией для научного использования, копирования и распространения",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Делать систему готовой к использованию и сразу пригодной для распространения с открытым исходным кодом",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать философию проекта и организовать качественную защищенную систему на GitHub",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

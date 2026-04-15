@@ -1,0 +1,37 @@
+{
+  "source": "audio_440@14-04-2026_11-25-28.txt",
+  "processed_at": "2026-04-15T20:46:04",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Заметил паттерн обучения: многие навыки (например, работа с консолью) казались недоступными, но потом быстро освоились.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Важнее не полное понимание инструмента, а умение использовать его для получения результата и прибыли.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Когда действия приносят профит, чувствуешь их правильность — это важный индикатор для принятия решений.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

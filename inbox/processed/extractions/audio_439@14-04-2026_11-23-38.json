@@ -1,0 +1,27 @@
+{
+  "source": "audio_439@14-04-2026_11-23-38.txt",
+  "processed_at": "2026-04-15T20:45:58",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "Игра для миллионеров в стиле Stardew Valley/Hay Day, где игроки управляют реальными ресурсами (машины, спортзал, тренеры) вместо игровой валюты",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Концепция геймификации управления реальными активами и услугами через игровой интерфейс для богатых людей",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

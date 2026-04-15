@@ -1,0 +1,67 @@
+{
+  "source": "audio_448@14-04-2026_13-06-35.txt",
+  "processed_at": "2026-04-15T20:47:11",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Ресурсы",
+      "content": "Новый AI-инструмент Mifas доступен только компаниям из Fortune 500",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Посчитать сколько нужно капитала чтобы попасть в Fortune 500 и получить доступ к Mifas",
+      "priority": "high",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Исследовать теорию шести рукопожатий для получения доступа к Mifas через связи",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Найти и соединить нужных людей из безопасности, Германии, Anthropic для получения доступа к закрытым AI-инструментам",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Посчитать сколько людей должны скинуться чтобы получить доступ к Mifas",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить подробно workflow упомянутого человека для максимизации эффективности",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "source": "audio_393@09-04-2026_04-00-41.txt",
+  "processed_at": "2026-04-15T20:38:30",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Глубокое погружение в тему на 3 часа с AI-инструментами дает огромное преимущество над обычными предпринимателями - это отрыв ебальника от конкурентов",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Позиционирование через демонстрацию превосходства в аналитике и инструментах - показать что работаю на другом уровне",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Предлагать 2-часовые неформальные консультации как обмен - помощь инструментами в обмен на обратную связь и контакты",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать целевых людей для работы и начать плотный поиск завтра-послезавтра с утра с лютым фокусом",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Добавление людей в систему через сообщества может дать бурный рост - рычаг для масштабирования",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Все ищут где заработать деньги и получить влияние, но получив информацию часто не делятся ей",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти и пообщаться с венчурными инвесторами и коннекторами на тему поиска возможностей",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Обдумать и описать подход к работе с бизнесменами, включая того гуманитарщика",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

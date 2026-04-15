@@ -1,0 +1,27 @@
+{
+  "source": "audio_455@15-04-2026_03-36-47.txt",
+  "processed_at": "2026-04-15T20:48:13",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи",
+      "content": "Изучить возможности сотрудничества с Google: гранты, партнерские программы, контакты с сотрудниками Google",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Партнерство или коллаборация с Google может стать значимой частью развития проекта",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

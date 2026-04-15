@@ -1,0 +1,57 @@
+{
+  "source": "audio_421@12-04-2026_21-13-34.txt",
+  "processed_at": "2026-04-15T20:43:13",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Создать детальное описание системы жизни, включая планирование дня, агентов и подагентов",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать отдельный проект по защите методологии и патентованию системы жизни для конкурентного преимущества",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить возможности патентования AI-агентов и методологии улучшения жизни",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Патентование системы жизни и AI-агентов даст сильный рычаг для доминирования на рынке",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Целевой рынок для патентования: сначала Германия, затем весь Европейский Союз",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

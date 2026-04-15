@@ -1,0 +1,29 @@
+{
+  "general": {
+    "theme": "catppuccin-mocha",
+    "language": "ru",
+    "refreshRate": 15
+  },
+  "agentDefaults": {
+    "model": "claude-sonnet-4-6",
+    "maxTurns": 30,
+    "maxCostPerDay": 5,
+    "autoRestart": false,
+    "retryOnError": true
+  },
+  "notifications": {
+    "agentError": true,
+    "taskCompleted": true,
+    "budgetWarning": true,
+    "pipelineComplete": true,
+    "newMessage": false,
+    "weeklyReport": true
+  },
+  "paths": {
+    "jetixRoot": "/home/ruslan/jetix-os",
+    "obsidianPath": "/home/ruslan/jetix-os",
+    "dbPath": "/home/ruslan/jetix-os/jetix-hq/data/jetix-hq.db",
+    "comms": "/home/ruslan/jetix-os/comms",
+    "shared": "/home/ruslan/jetix-os/shared"
+  }
+}

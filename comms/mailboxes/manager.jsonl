@@ -1,1 +1,3 @@
 {"id":"msg-20260414-001","timestamp":"2026-04-14T10:00:00Z","from":"human","to":"manager","type":"task","priority":"normal","subject":"System test","body":"Testing mailbox integration with dashboard","context":{"project":"quick-money"},"status":"pending"}
+{"id":"msg-20260414-004","timestamp":"2026-04-14T12:02:00Z","from":"human","to":"manager","type":"task","priority":"normal","subject":"WS live test","body":"Testing real-time delivery","context":{},"status":"pending"}
+{"id":"msg-20260414-010","timestamp":"2026-04-14T13:00:00Z","from":"human","to":"manager","type":"task","priority":"high","subject":"Real-time test SUCCESS","body":"This should appear instantly","context":{},"status":"pending"}

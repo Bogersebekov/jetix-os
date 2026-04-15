@@ -1,0 +1,57 @@
+{
+  "source": "audio_406@10-04-2026_04-23-37.txt",
+  "processed_at": "2026-04-15T20:40:51",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Нужно соединить два типа людей: авантюристов и психопатов, детально описав характеристики каждой группы.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Ресурсы",
+      "content": "Фильм 'Облачный Атлас' как пример про авантюристов - основной посыл фильма про то, чтобы быть авантюристами.",
+      "priority": "low",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти и пообщаться с людьми-авантюристами, настроить с ними качественную коммуникацию.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как настроить качественную коммуникацию с миллионами потенциальных авантюристов?",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Внедрять идеи в жизнь дисциплинированно, адекватно и ответственно.",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

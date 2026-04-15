@@ -1,0 +1,47 @@
+{
+  "source": "audio_400@09-04-2026_05-04-49.txt",
+  "processed_at": "2026-04-15T20:40:03",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Общество будущего с бесплатными базовыми потребностями, где люди разделяются на потребителей и исследователей/энтузиастов в разных пропорциях.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "У людей разный процент потребления vs исследования: у одних 90% потребления и 10% исследований, у других наоборот — минимум времени на базовые потребности, максимум на новые интересные вещи.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Хотел бы для себя модель, где базовые потребности закрыты быстро, а большая часть времени тратится на интересные эксперименты и то, что хочется попробовать.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать все идеи в кучу и подумать что делать дальше с концепцией разделения общества.",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

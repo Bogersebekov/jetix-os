@@ -1,0 +1,37 @@
+{
+  "source": "audio_436@14-04-2026_10-15-04.txt",
+  "processed_at": "2026-04-15T20:45:32",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Фокус только на заработке 50 тысяч долларов, никаких исследований и побочных проектов до достижения цели.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Искать людей и клиентов, которые также нацелены на быстрый заработок, игнорировать исследователей и теоретиков.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Сильная фрустрация от текущего финансового положения, желание кардинально изменить ситуацию.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

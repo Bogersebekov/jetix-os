@@ -1,0 +1,57 @@
+{
+  "source": "audio_423@13-04-2026_03-49-59.txt",
+  "processed_at": "2026-04-15T20:43:33",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "У человека в голове есть что-то вроде промпта для ИИ — базовые убеждения и ценности, которые влияют на все его действия и решения в жизни.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Случайно услышанная информация, цитаты или видео могут кардинально изменить видение мира человека и повлиять на все его дальнейшие действия.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Коллективные убеждения человечества работают как самоисполняющиеся пророчества и влияют на будущее всей цивилизации.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "К своим верованиям и убеждениям нужно относиться осознанно, так как они определяют качество жизни и результаты.",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как выбирать правильные убеждения и верования? Что такое 'инженерная вера' и как её применять?",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

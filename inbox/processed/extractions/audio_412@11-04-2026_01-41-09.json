@@ -1,0 +1,47 @@
+{
+  "source": "audio_412@11-04-2026_01-41-09.txt",
+  "processed_at": "2026-04-15T20:41:48",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Агенты - это то, что давно было нужно. Понял структуру работы с AI через практику дисциплинированной работы, теперь могу эффективно описывать планы и этапы.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Раньше занимался monkey job вместо того чтобы сразу использовать агентов. Через практику научился качественно работать с AI и описывать задачи.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Агенты будут использоваться для получения нужных результатов более эффективно, чем текущий подход.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Протестировать работу с агентами в ближайшее время.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

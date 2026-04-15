@@ -1,0 +1,27 @@
+{
+  "source": "audio_409@10-04-2026_05-29-14.txt",
+  "processed_at": "2026-04-15T20:41:17",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Деятельные люди узнают друг друга независимо от возраста и естественно находят общие темы для обсуждения благодаря глубокому подходу к работе и жизни.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Деятельность и активная жизненная позиция не зависят от возраста — человек может быть как продуктивным, так и пассивным в любом возрасте.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

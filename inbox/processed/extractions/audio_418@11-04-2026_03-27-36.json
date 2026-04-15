@@ -1,0 +1,37 @@
+{
+  "source": "audio_418@11-04-2026_03-27-36.txt",
+  "processed_at": "2026-04-15T20:42:40",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Claude Code и AI в целом могут помочь достигать невообразимых результатов, если использовать их на максимум и изучать их философию",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Плотно работать с Claude Code - использовать их софты на максимум и изучать их философию",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Jetix должен быть показателем того, что Claude Code и AI помогают достигать мощных результатов в работе",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

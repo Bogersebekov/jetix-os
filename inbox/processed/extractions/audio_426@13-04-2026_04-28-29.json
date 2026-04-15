@@ -1,0 +1,127 @@
+{
+  "source": "audio_426@13-04-2026_04-28-29.txt",
+  "processed_at": "2026-04-15T20:44:18",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Создать мир, где еда создается из воздуха - бесконечные пиццы, хот-доги, гамбургеры для всех. Плюс у всех квартиры, компьютеры и необходимая инфраструктура.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix как многомиллионная корпорация с сотнями тысяч связанных людей, успешными проектами и крутой командой.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Документировать каждый созвон (голосовые/видео), записывать все в базу данных и пополнять вики с самого начала работы с клиентами.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Предлагать клиентам автоматизацию и одновременно задавать глобальные вопросы типа 'как сделать мир лучше' для вовлечения и исследований.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать сообщество вокруг глобальных вопросов - от 'как сделать мир лучше' до 'как лучше готовить пасту', где люди тестируют идеи друг с другом.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Предлагать людям ценную информацию стоимостью $10-100K в обмен на 5 минут участия в исследовании/тесте.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как я могу сделать свою жизнь лучше прямо сейчас? Когда последний раз задавал себе этот вопрос?",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как зарабатывать деньги? Какие самые эффективные методы заработка для начала изучать?",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить автоматизации для документирования созвонов и обработки информации через AI-агентов.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать маппинг людей с ресурсами и влиянием, кто за что голосует и готов инвестировать.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Обдумать и проработать эти идеи более детально - сейчас они сырые.",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Не решать все стратегические вопросы сразу с самого начала - когда поднимешься выше, оттуда лучше видно что делать дальше.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

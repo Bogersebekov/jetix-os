@@ -87,6 +87,22 @@ and personal life. Owner: Ruslan (Berlin, Germany).
 Skills: `/ingest` (raw→ingested), `/compile` (ingested→compiled), `/search-kb` (поиск).
 Provenance: `sources:` в frontmatter + inline `[src:filename]`.
 
+## Voice-Notes Pipeline
+
+**Автоматическая часть** (`tools/run_pipeline.sh` или по шагам):
+1. `python3 tools/transcribe.py`    — OGG/MP3 → транскрипты (Groq Whisper)
+2. `python3 tools/extract.py`       — транскрипты → structured items (Claude)
+3. `python3 tools/filter.py`        — дедуп + мета-анализ по всем items (Claude)
+4. `python3 tools/review_report.py` — markdown-отчёт в `reports/review_YYYY-MM-DD.md`
+   и копия в `~/review-latest.md`
+
+**СТОП.** Руслан скачивает `~/review-latest.md`, читает, принимает решения.
+
+**Ручная часть** (только после ревью):
+Распределение по KB делается вручную либо отдельной командой.
+`tools/distribute.py` архивирован в `distribute.py.bak` — автоматически не запускается,
+чтобы Claude-выводы не попадали в knowledge base без человеческого ревью.
+
 ## Конвенции
 - Файлы: `kebab-case.md`
 - Даты: `YYYY-MM-DD`

@@ -1,0 +1,107 @@
+{
+  "source": "audio_453@15-04-2026_03-08-39.txt",
+  "processed_at": "2026-04-15T20:48:02",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Есть два уровня влияния: просто выполнять указания (нажимать кнопку) и проектировать систему — думать кто, что, почему и как должно происходить.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Развивать силу влияния для быстрого превращения мыслей в реальность — свобода выбора, жизнь на широкую ногу, не смотреть на ценники, менять локации.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Сосредоточиться на зарабатывании денег и повышении уровня комфорта жизни — уже готовится презентация и видео для этого.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать и проработать всю информацию для позиционирования, воплотить в жизнь за текущую неделю.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Анализировать жизнь не по последним часам или дням, а по более длительным периодам (недели, месяцы, полгода) для адекватных решений.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Большинство людей живут по шаблону день-в-день (Ctrl-C, Ctrl-V), но важно иногда смотреть стратегически сверху на себя, бизнес и мир.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Текущий режим работы и отдыха очень нравится — отдых внутри работы и работа внутри отдыха, последние две недели устраивают.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Человечество движется к соединению в одну большую мега-семью, если смотреть на масштабах 50 тысяч лет развития.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Окружать себя людьми, которые используют возможности на все сто процентов и живут ответственно.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Учесть концепцию развития человечества и ответственного использования возможностей в позиционировании.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

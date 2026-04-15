@@ -1,0 +1,17 @@
+{
+  "source": "audio_431@13-04-2026_06-27-15.txt",
+  "processed_at": "2026-04-15T20:44:56",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "Подход определяет инструмент, а инструмент определяет подход — они взаимосвязаны. Выбор должен основываться на целесообразности.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

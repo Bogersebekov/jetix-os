@@ -1,0 +1,77 @@
+{
+  "source": "audio_420@12-04-2026_21-09-54.txt",
+  "processed_at": "2026-04-15T20:43:06",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Создать полуавтоматическую систему управления проектами с агентами, которая работает без постоянного вмешательства и сама продвигает/улучшает процессы.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать полную структуру всех проектов с детализацией задач по исследованиям и исполнению.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить иерархию агентов: главный агент-менеджер и подчиненные агенты-исполнители для каждого проекта.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать отдельные проекты с агентами для поиска и описания сообществ.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать агента для написания системы жизни и сбора идей в банке идей.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать агента для управления интернет-влиянием и продвижением, включая планирование видеоконтента.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Переход на полустратегический уровень управления с недельными циклами планирования ускорит достижение целей.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

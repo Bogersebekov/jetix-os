@@ -1,0 +1,147 @@
+{
+  "source": "audio_395@09-04-2026_04-18-29.txt",
+  "processed_at": "2026-04-15T20:39:03",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Создать глобальную систему взаимодействия между предпринимателями и гиками, которая ускорит поиск возможностей, людей и приведет к бурному экономическому росту для всей системы и каждого участника.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если качественно описать технологию взаимодействия в сообществе, создать рабочую инфраструктуру и шаблоны, то можно запустить Jetix масштабно с мировым резонансом.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать технологию взаимодействия в сообществе, создать рабочие шаблоны и инфраструктуру.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Исследовать возможность патентирования системы взаимодействия в сообществе и выделить бюджет на патентирование.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать презентацию на уровне Илона Маска с привлечением медийных личностей и ключевых фигур для максимального эффекта.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально проработать соцсети, описать 'кто я' и создать несколько разговорных видео для конверсии трафика.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить мега-CRM для записи контактов, их задач и возможностей помощи.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Продумать целевую аудиторию клуба, стратегию публикации контента и философию системы.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти и посадить нескольких специалистов на важные места для масштабного запуска Jetix.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Продумать безопасность данных в системе и методы защиты от утечек.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать многоязычную версию системы Jetix для глобального распространения среди предпринимателей и гиков.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Система взаимодействия между людьми — это как дороги и машины: машины разные, но дорога одна, и вместе они создают невероятную эффективность.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как можно побить мировые рекорды по продажам, размеру клуба или скорости продвижения при запуске Jetix?",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Предпринимателей легче убедить участвовать в системе, поэтому стоит начать именно с них, а потом расширяться на весь мир.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

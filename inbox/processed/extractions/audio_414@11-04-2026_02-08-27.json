@@ -1,0 +1,77 @@
+{
+  "source": "audio_414@11-04-2026_02-08-27.txt",
+  "processed_at": "2026-04-15T20:42:12",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Все в мире является системой или технологией, и для понимания сложных систем нужно владеть соответствующими технологиями разного уровня сложности.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Для создания и использования технологий должна быть система аккредитации и аттестации, особенно когда от решений зависит жизнь людей.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "У каждой технологии должна быть инструкция и защита от дурака для безопасного использования.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Изучить метатехнологии - технологии по созданию технологий, понять отличительные черты хороших и плохих технологий.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Доверие - это социальная технология, которая существует только в головах людей и является основой для функционирования сообществ.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как работает и зарабатывается доверие между людьми? Нужно детально проанализировать механизмы формирования доверия.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Злоупотребление технологиями должно строго караться внутри профессионального сообщества, так как подрывает основу доверия.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

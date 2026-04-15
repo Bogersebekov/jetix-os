@@ -1,0 +1,57 @@
+{
+  "source": "audio_456@15-04-2026_04-06-44.txt",
+  "processed_at": "2026-04-15T20:48:21",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Сделать детальный анализ рынка для поиска клиентов и партнеров",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать методы поиска клиентов и партнеров из сообществ, составить инструкции",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить AI-агентов для автоматизации процессов поиска и коммуникации с клиентами",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если система автоматизации сработает эффективно, это станет доказательством работоспособности подхода и конкурентным преимуществом",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использовать успешную автоматизацию как демонстрацию возможностей для привлечения клиентов",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

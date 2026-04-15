@@ -1,0 +1,67 @@
+{
+  "source": "audio_433@13-04-2026_18-02-33.txt",
+  "processed_at": "2026-04-15T20:45:10",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Составить подробную инструкцию по Claude Code: что это, как работает, к чему имеет доступ, что можно создавать с его помощью",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать детально работу Claude Code человеческим языком и все инструкции для быстрого доступа",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать полноценное рабочее пространство на сервере с Claude Code, подключением Obsidian и экосистемой AI-агентов",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Сервер с AI-агентами, скриптами и промптами позволит в разы быстрее двигаться и автоматизировать процессы",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Полностью выжимать возможности AI-инструментов на 100-200%, изучать и использовать по максимуму",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Высокая мотивация к максимальному использованию AI-возможностей, нацеленность на автоматизацию и свободу",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "audio_432@13-04-2026_06-33-22.txt",
+  "processed_at": "2026-04-15T20:45:01",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Собрать все идеи в кучу и рассказать команде Anthropic о концепциях описания ежедневной памяти",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Концепция описания ежедневной памяти может быть интересна для команды Anthropic",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

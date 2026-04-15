@@ -1,0 +1,57 @@
+{
+  "source": "audio_457@15-04-2026_07-38-09.txt",
+  "processed_at": "2026-04-15T20:48:29",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix как инвестфонд для предпринимателей, работающих с искусственным интеллектом, с тысячами умных партнеров и многомиллиардной капитализацией.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Собирая предпринимателей, заинтересованных в AI, можно создать синергию и получить максимальные иксы через их связи и совместную работу.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Написать качественный код на GitHub для повышения мощности AI-решений и демонстрации экспертизы.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Фокусироваться на продвижении компании, развитии и поиске новых инвесторов и партнеров как основной деятельности.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Очень заряжен и мотивирован по поводу развития проекта, высыпаюсь и готов активно действовать.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

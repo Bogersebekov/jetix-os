@@ -1,0 +1,87 @@
+{
+  "source": "audio_413@11-04-2026_01-58-10.txt",
+  "processed_at": "2026-04-15T20:42:01",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи",
+      "content": "Глубоко разобраться в понятиях 'технология', 'метод', 'методология' — как они работают и применяются",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Технология — это инструмент, который позволяет объединять разрозненные части и делать невозможное, эффективнее использовать ресурсы и расширять возможности",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Проанализировать какие технологии я использую в жизни сейчас и какие еще могу создать или внедрить",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "AI-агенты как рычаг можно использовать для создания мега-технологий при объединении с другими людьми",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Создать сообщество людей, заинтересованных в AI-технологиях, для совместного развития и получения большего рычага влияния",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Рассказывать про технологии AI-агентов, показывать возможности и привлекать людей к совместной работе в незанятом рынке",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Какие конкретно цепочки и процессы можно контролировать через AI-агентов для получения власти и влияния?",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Контроль основных цепочек через AI-технологии даст значительную власть, но также принесет ответственность",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

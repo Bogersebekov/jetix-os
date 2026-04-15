@@ -1,0 +1,67 @@
+{
+  "source": "audio_408@10-04-2026_04-55-25.txt",
+  "processed_at": "2026-04-15T20:41:12",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Объединить авантюристов под единым мифом улучшения: себя → семьи → сообщества → человечества, чтобы избежать растраты ресурсов на конфликты между ними.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Авантюристы тратят ресурсы впустую, работая на противоречащие друг другу цели разных стран, компаний и идей, вместо общей миссии.",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "С развитием технологий и доступности базового минимума страны потеряют влияние, а авантюристы смогут работать на благо всего человечества.",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти 5-10 умных людей, вооружить их инструментами для обсуждения и проработки концепции Jetix более детально.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Сосредоточиться именно на теме Jetix, остальное отложить. Найти людей, которые будут гореть этой идеей для детальной проработки.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Проверить результаты через неделю после начала поиска команды и проработки концепции.",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

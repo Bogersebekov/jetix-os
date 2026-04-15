@@ -1,0 +1,47 @@
+{
+  "source": "audio_454@15-04-2026_03-34-42.txt",
+  "processed_at": "2026-04-15T20:48:09",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Цена консультации 50 евро за час, минимум 2 часа",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Подробно описать чем занимаюсь и чем могу быть полезен для клиентов",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать систему мониторинга вакансий через агентов, которые будут записывать кто кого ищет и какие нужны навыки",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Соединять запросы на работу с кандидатами - работа с кадровым рынком",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

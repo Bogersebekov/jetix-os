@@ -1,0 +1,107 @@
+{
+  "source": "audio_419@12-04-2026_21-01-46.txt",
+  "processed_at": "2026-04-15T20:42:55",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Создать мета-систему, объединяющую все AI-инструменты (Notion, Perplexity, агенты) в единый командный центр с полуавтоматической обработкой информации для фокуса на клиентской работе",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "У нас уже есть базовый стек AI-инструментов (Notion, Perplexity, агенты, фреймворк Карпатого), теперь нужно их интегрировать в единую систему",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать новую мета-систему и создать единый командный центр для всех проектов с интеграцией AI-агентов",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Добавить RAG-память в систему агентов для улучшения их работы с контекстом",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать командные центры для каждого подпроекта с распределением задач между агентами",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Проработать безопасность системы, чтобы личная информация не утекала при работе с агентами",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать и визуализировать всю интегрированную систему со всех сторон",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Агенты по фреймворку Карпатого смогут самостоятельно доулучшать и дособирать систему после получения четкого описания задач",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Перевести уровень обработки информации, тестирования гипотез и выдачи заданий из ручного режима в полуавтоматический",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Решения",
+      "content": "Использовать Notion как центральную платформу для сбора всей мета-системы в единое целое",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

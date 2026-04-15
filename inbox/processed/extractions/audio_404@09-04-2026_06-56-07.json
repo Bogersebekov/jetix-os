@@ -1,0 +1,27 @@
+{
+  "source": "audio_404@09-04-2026_06-56-07.txt",
+  "processed_at": "2026-04-15T20:40:36",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "Важно избежать эффекта «10 мудрецов» — когда все рассчитывают на других и в итоге никто не вкладывается по-настоящему.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "При создании сообщества нужно предусмотреть механизмы, которые мотивируют реальный вклад участников, а не только потребление.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

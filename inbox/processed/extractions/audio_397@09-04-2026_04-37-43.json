@@ -1,0 +1,137 @@
+{
+  "source": "audio_397@09-04-2026_04-37-43.txt",
+  "processed_at": "2026-04-15T20:39:31",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Построить мощную систему, которая принесёт миллионы выручки, популярность и влияние через последовательную проработку и подготовку.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Стать управляющим всемирной корпорации в молодом возрасте (22-23 года), используя AI как мощный инструмент для масштабирования.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "AI даёт намного больше инструментов, чем было у предпринимателей прошлого — он читает тысячи страниц, ищет партнёров, автоматизирует процессы.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Главная задача системы — подчеркнуть командность и системность, а не индивидуальные достижения. Команда и сплочённость побеждают.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать команду из 10-20 человек для настройки сайта, кибербезопасности, аналитики, философии, контента и продвижения.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать первый шаг в одиночку — что это, кто это, какие люди нужны, что делать, какие смыслы и как обезопасить.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Кто именно нужен в команде из 10 человек на первых этапах — просто работники или идейные качественные люди?",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Обсудить и вытянуть на бумагу планы по увеличению команды, определить кого именно искать и с кем связываться.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Подключая команду, улучшаешь инструменты, а инструменты улучшают тебя. Благодаря сообществу инструменты развиваются в разы круче.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать систему по методу open source, но с закрытым доступом, чтобы туда не попадали неподходящие люди.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использовать AI для поиска людей в сообществе по темам, соединения и предложения возможностей сотрудничества.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Люди в сообществе должны делиться — нельзя только пользоваться благами, созданными миллионами людей до тебя.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Одни и те же люди могут быть клиентами, партнёрами, тиммейтами — у людей разные роли в разное время.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

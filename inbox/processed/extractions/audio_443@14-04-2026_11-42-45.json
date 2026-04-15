@@ -1,0 +1,67 @@
+{
+  "source": "audio_443@14-04-2026_11-42-45.txt",
+  "processed_at": "2026-04-15T20:46:27",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Найти эксперта по брендингу и позиционированию для консультации по позиционированию Jetix",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти эксперта по продажам и воронкам продаж для построения адекватной системы продаж",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Подготовить описание, видео, текст задачи и запрос для поиска экспертов, определить бюджет на консультации",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix идет в атаку - вооружен, с настроенной базой и фундаментом, рабочими инструментами, готов к нападению и развитию",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Важность глубокого погружения в работу - дни полного фокуса на одной задаче дают мощные результаты и должны быть чаще",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Для глубокого погружения нужны свободное время и ресурсы, которые требуют работы с людьми, кооперации и наращивания влияния",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}

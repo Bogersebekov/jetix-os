@@ -1,0 +1,67 @@
+{
+  "source": "audio_394@09-04-2026_04-06-23.txt",
+  "processed_at": "2026-04-15T20:38:41",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать систему обмена ресурсами между предпринимателями - время, жильё, рабочие места, где люди могут делиться тем, что у них в избытке, и получать то, что им нужно",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Задачи",
+      "content": "Четко описать портрет системного инженера-предпринимателя для входа в систему - кто подходит, кто нет, какие условия",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Сообщество системных предпринимателей может расти органически через сарафанное радио, если продукт действительно ценный",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Идеи",
+      "content": "AI-агент может искать людей вне системы для коннекта с участниками сообщества по их профилю и потребностям",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Принципы",
+      "content": "Важно изначально заложить адекватные ценности в сообщество для правильного развития системы",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Чувствую, что делаю сейчас ключевые действия и через неделю уже будут видны первые результаты",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-15"
+    }
+  ]
+}
