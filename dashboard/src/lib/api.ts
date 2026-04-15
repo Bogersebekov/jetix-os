@@ -32,6 +32,19 @@ export type KanbanColumn = {
 
 export type KanbanState = { columns: KanbanColumn[] }
 
+export type CoordinationActivity = {
+  timestamp: string
+  from: string
+  to: string
+  subject: string
+}
+
+export type CoordinationData = {
+  departments: { name: string; agents: string[]; active: number }[]
+  agents: Agent[]
+  recent_activity: CoordinationActivity[]
+}
+
 export type ChatAgent = {
   name: string
   department: string
@@ -99,6 +112,7 @@ export const api = {
   mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
   kanban: () => j<KanbanState>('/api/kanban'),
   observability: () => j<ObservabilityData>('/api/observability'),
+  coordination: () => j<CoordinationData>('/api/coordination'),
   chatAgents: () => j<{ agents: ChatAgent[] }>('/api/chat/agents'),
   chatMailbox: (name: string) =>
     j<MailboxPayload>(`/api/chat/mailbox/${encodeURIComponent(name)}`),

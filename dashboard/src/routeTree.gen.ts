@@ -27,6 +27,7 @@ import { Route as AuthenticatedSettingsIndexRouteImport } from './routes/_authen
 import { Route as AuthenticatedObservabilityIndexRouteImport } from './routes/_authenticated/observability/index'
 import { Route as AuthenticatedKanbanIndexRouteImport } from './routes/_authenticated/kanban/index'
 import { Route as AuthenticatedHelpCenterIndexRouteImport } from './routes/_authenticated/help-center/index'
+import { Route as AuthenticatedCoordinationIndexRouteImport } from './routes/_authenticated/coordination/index'
 import { Route as AuthenticatedChatsIndexRouteImport } from './routes/_authenticated/chats/index'
 import { Route as AuthenticatedAppsIndexRouteImport } from './routes/_authenticated/apps/index'
 import { Route as AuthenticatedAgentsIndexRouteImport } from './routes/_authenticated/agents/index'
@@ -130,6 +131,12 @@ const AuthenticatedHelpCenterIndexRoute =
     path: '/help-center/',
     getParentRoute: () => AuthenticatedRouteRoute,
   } as any)
+const AuthenticatedCoordinationIndexRoute =
+  AuthenticatedCoordinationIndexRouteImport.update({
+    id: '/coordination/',
+    path: '/coordination/',
+    getParentRoute: () => AuthenticatedRouteRoute,
+  } as any)
 const AuthenticatedChatsIndexRoute = AuthenticatedChatsIndexRouteImport.update({
   id: '/chats/',
   path: '/chats/',
@@ -198,6 +205,7 @@ export interface FileRoutesByFullPath {
   '/agents/': typeof AuthenticatedAgentsIndexRoute
   '/apps/': typeof AuthenticatedAppsIndexRoute
   '/chats/': typeof AuthenticatedChatsIndexRoute
+  '/coordination/': typeof AuthenticatedCoordinationIndexRoute
   '/help-center/': typeof AuthenticatedHelpCenterIndexRoute
   '/kanban/': typeof AuthenticatedKanbanIndexRoute
   '/observability/': typeof AuthenticatedObservabilityIndexRoute
@@ -224,6 +232,7 @@ export interface FileRoutesByTo {
   '/agents': typeof AuthenticatedAgentsIndexRoute
   '/apps': typeof AuthenticatedAppsIndexRoute
   '/chats': typeof AuthenticatedChatsIndexRoute
+  '/coordination': typeof AuthenticatedCoordinationIndexRoute
   '/help-center': typeof AuthenticatedHelpCenterIndexRoute
   '/kanban': typeof AuthenticatedKanbanIndexRoute
   '/observability': typeof AuthenticatedObservabilityIndexRoute
@@ -253,6 +262,7 @@ export interface FileRoutesById {
   '/_authenticated/agents/': typeof AuthenticatedAgentsIndexRoute
   '/_authenticated/apps/': typeof AuthenticatedAppsIndexRoute
   '/_authenticated/chats/': typeof AuthenticatedChatsIndexRoute
+  '/_authenticated/coordination/': typeof AuthenticatedCoordinationIndexRoute
   '/_authenticated/help-center/': typeof AuthenticatedHelpCenterIndexRoute
   '/_authenticated/kanban/': typeof AuthenticatedKanbanIndexRoute
   '/_authenticated/observability/': typeof AuthenticatedObservabilityIndexRoute
@@ -282,6 +292,7 @@ export interface FileRouteTypes {
     | '/agents/'
     | '/apps/'
     | '/chats/'
+    | '/coordination/'
     | '/help-center/'
     | '/kanban/'
     | '/observability/'
@@ -308,6 +319,7 @@ export interface FileRouteTypes {
     | '/agents'
     | '/apps'
     | '/chats'
+    | '/coordination'
     | '/help-center'
     | '/kanban'
     | '/observability'
@@ -336,6 +348,7 @@ export interface FileRouteTypes {
     | '/_authenticated/agents/'
     | '/_authenticated/apps/'
     | '/_authenticated/chats/'
+    | '/_authenticated/coordination/'
     | '/_authenticated/help-center/'
     | '/_authenticated/kanban/'
     | '/_authenticated/observability/'
@@ -485,6 +498,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AuthenticatedHelpCenterIndexRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
+    '/_authenticated/coordination/': {
+      id: '/_authenticated/coordination/'
+      path: '/coordination'
+      fullPath: '/coordination/'
+      preLoaderRoute: typeof AuthenticatedCoordinationIndexRouteImport
+      parentRoute: typeof AuthenticatedRouteRoute
+    }
     '/_authenticated/chats/': {
       id: '/_authenticated/chats/'
       path: '/chats'
@@ -574,6 +594,7 @@ interface AuthenticatedRouteRouteChildren {
   AuthenticatedAgentsIndexRoute: typeof AuthenticatedAgentsIndexRoute
   AuthenticatedAppsIndexRoute: typeof AuthenticatedAppsIndexRoute
   AuthenticatedChatsIndexRoute: typeof AuthenticatedChatsIndexRoute
+  AuthenticatedCoordinationIndexRoute: typeof AuthenticatedCoordinationIndexRoute
   AuthenticatedHelpCenterIndexRoute: typeof AuthenticatedHelpCenterIndexRoute
   AuthenticatedKanbanIndexRoute: typeof AuthenticatedKanbanIndexRoute
   AuthenticatedObservabilityIndexRoute: typeof AuthenticatedObservabilityIndexRoute
@@ -587,6 +608,7 @@ const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedAgentsIndexRoute: AuthenticatedAgentsIndexRoute,
   AuthenticatedAppsIndexRoute: AuthenticatedAppsIndexRoute,
   AuthenticatedChatsIndexRoute: AuthenticatedChatsIndexRoute,
+  AuthenticatedCoordinationIndexRoute: AuthenticatedCoordinationIndexRoute,
   AuthenticatedHelpCenterIndexRoute: AuthenticatedHelpCenterIndexRoute,
   AuthenticatedKanbanIndexRoute: AuthenticatedKanbanIndexRoute,
   AuthenticatedObservabilityIndexRoute: AuthenticatedObservabilityIndexRoute,
