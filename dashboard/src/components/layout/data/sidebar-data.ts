@@ -44,7 +44,7 @@ export const sidebarData: SidebarData = {
         },
         {
           title: 'Kanban',
-          url: '/tasks',
+          url: '/kanban',
           icon: ListTodo,
         },
         {

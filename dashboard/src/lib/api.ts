@@ -6,6 +6,32 @@ async function j<T>(path: string): Promise<T> {
   return res.json() as Promise<T>
 }
 
+async function jput<T, B>(path: string, body: B): Promise<T> {
+  const res = await fetch(`${API_URL}${path}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(body),
+  })
+  if (!res.ok) throw new Error(`${path} → ${res.status}`)
+  return res.json() as Promise<T>
+}
+
+export type KanbanCard = {
+  id: string
+  title: string
+  description?: string
+  priority: number
+  assignee?: string
+}
+
+export type KanbanColumn = {
+  id: string
+  title: string
+  cards: KanbanCard[]
+}
+
+export type KanbanState = { columns: KanbanColumn[] }
+
 export type Project = {
   name: string
   status: string
@@ -53,5 +79,7 @@ export const api = {
   decisions: () => j<DecisionsPayload>('/api/decisions'),
   agents: () => j<{ agents: Agent[] }>('/api/agents'),
   mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
+  kanban: () => j<KanbanState>('/api/kanban'),
+  saveKanban: (state: KanbanState) => jput<{ ok: boolean }, KanbanState>('/api/kanban', state),
   health: () => j<{ status: string; jetix_root: string }>('/api/health'),
 }

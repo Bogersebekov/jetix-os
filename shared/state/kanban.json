@@ -1,0 +1,67 @@
+{
+  "columns": [
+    {
+      "id": "backlog",
+      "title": "Backlog",
+      "cards": [
+        {
+          "id": "c-1",
+          "title": "Ревью 380 заметок",
+          "description": "Разобрать накопленные голосовые заметки",
+          "priority": 1,
+          "assignee": "inbox-processor"
+        },
+        {
+          "id": "c-2",
+          "title": "Настроить Miro-борд",
+          "description": "Визуализация архитектуры Jetix OS",
+          "priority": 2,
+          "assignee": "system-admin"
+        }
+      ]
+    },
+    {
+      "id": "todo",
+      "title": "To Do",
+      "cards": [
+        {
+          "id": "c-3",
+          "title": "Описать ICP для клиентов",
+          "description": "Идеальный профиль клиента для AI-услуг",
+          "priority": 1,
+          "assignee": "sales-lead"
+        },
+        {
+          "id": "c-4",
+          "title": "Создать веб-сайт",
+          "description": "Лендинг под quick-money проект",
+          "priority": 2,
+          "assignee": "brand"
+        }
+      ]
+    },
+    {
+      "id": "in-progress",
+      "title": "In Progress",
+      "cards": [
+        {
+          "id": "c-5",
+          "title": "Внедрение дашборда",
+          "description": "Command Center + Agents + Kanban",
+          "priority": 1,
+          "assignee": "system-admin"
+        }
+      ]
+    },
+    {
+      "id": "review",
+      "title": "Review",
+      "cards": []
+    },
+    {
+      "id": "done",
+      "title": "Done",
+      "cards": []
+    }
+  ]
+}
