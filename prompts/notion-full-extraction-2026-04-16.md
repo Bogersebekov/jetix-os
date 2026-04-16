@@ -255,22 +255,41 @@ Commit: `[notion-α.4] Daily Log digest: N dates, M insights extracted`.
 
 **Цель:** обновить `design/SYSTEM-DESIGN-INPUTS.md` новым Notion-материалом.
 
-Spawn 6 **staging-writer** sub-agents через Task tool, по одному на часть (1-6).
+**ВАЖНО — обновлённая структура:** staging-файл имеет **7 частей** (v0.2):
+1. Видение / Стратегия
+2. Цели и результаты (**NEW** — особое внимание: в ней только seed, её надо
+   прицельно наполнять Notion-материалом)
+3. Пользователи / Роли
+4. Потоки информации
+5. Действия / Триггеры
+6. Состояния / Жизненный цикл
+7. Открытые вопросы (сквозные)
 
-**ВАЖНО:** staging-writer должен **дополнять**, не переписывать с нуля. Инструкция:
+Spawn **7 параллельных `staging-writer`** sub-agents через Task tool, по одному
+на часть (1-7).
 
-> "В `design/SYSTEM-DESIGN-INPUTS.md` уже есть секция Inputs для Части N.
-> Прочти её. Потом прочти новые материалы (wiki/sources/* созданные 2026-04-16
-> в этой сессии, новые wiki/ideas с `topics: system-design`, digest из
-> `wiki/sources/2026-04-16-daily-log-insights-digest.md`). Дополни секцию
-> новыми тезисами (с attribution), не удаляя существующие. Помечай новые
-> тезисы строкой `[NEW 2026-04-16α]` чтобы Ruslan видел что добавлено.
-> Цель — закрыть пробелы N.Ω (список "Что НЕ покрыто") насколько возможно."
+**Инструкция каждому writer'у:**
 
-После всех 6 writer'ов — Edit update frontmatter staging файла:
+> "В `design/SYSTEM-DESIGN-INPUTS.md` уже есть секция Inputs для Части N
+> (`## Inputs для Части N. ...`). Прочти её. Потом прочти новые материалы
+> (wiki/sources/* созданные 2026-04-16 в этой сессии, новые wiki/ideas с
+> `topics: system-design`, digest из `wiki/sources/2026-04-16-daily-log-insights-digest.md`).
+>
+> Дополни секцию новыми тезисами (с attribution), не удаляя существующие.
+> Помечай новые тезисы строкой `[NEW 2026-04-16α]` чтобы Ruslan видел что добавлено.
+>
+> Цель — закрыть пробелы N.Ω (список 'Что НЕ покрыто') насколько возможно.
+>
+> **Особое внимание Части 2 (Цели и результаты):** там сейчас только seed.
+> Эта часть наиболее слабо покрыта локальной wiki (outputs/metrics/goals —
+> были в Notion). Ищи: Key Action из Daily Log (что делал → что получил),
+> ICP Page (outputs для клиентов), Research Hub (цели ресёрча), Life OS
+> (метрики энергии/состояния)."
+
+После всех 7 writer'ов — Edit update frontmatter staging файла:
 `stats.relevant_ingested: {новое число}`, `updated: 2026-04-16`.
 
-Commit: `[notion-α.5] staging enriched with Notion material (+N theses across 6 parts)`.
+Commit: `[notion-α.5] staging enriched with Notion material (+N theses across 7 parts)`.
 Push.
 
 ### Фаза α.6 — Rebuild graph + lint + финальный отчёт (10-20 мин)
@@ -386,7 +405,9 @@ Push main.
 - [ ] Минимум 100 RELEVANT идей ingested (новых) — wiki выросла на +100 страниц
 - [ ] 11/11 Notion-страниц о системе — в wiki/sources/
 - [ ] Daily Log digest в wiki/sources/
-- [ ] `design/SYSTEM-DESIGN-INPUTS.md` расширен, Часть 4 и Часть 5 наполнены
+- [ ] `design/SYSTEM-DESIGN-INPUTS.md` расширен во всех 7 частях, особенно
+      Часть 2 (Цели/результаты — NEW), Часть 5 (Действия — ритуалы из Notion),
+      Часть 6 (Состояния — lifecycle из Daily Log)
 - [ ] `reports/notion-alpha-extraction-2026-04-16.md` существует
 - [ ] Все коммиты запушены
 - [ ] Отчёт в чат
