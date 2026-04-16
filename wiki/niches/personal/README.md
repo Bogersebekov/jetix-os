@@ -24,4 +24,6 @@ updated: 2026-04-16
 Обновляется автоматически через `/ingest` или вручную.
 
 ## Pages
-(empty)
+
+### Ideas
+- [[ideas/cannabis-refusal-beast-mode-orientation]] — habit / private practice

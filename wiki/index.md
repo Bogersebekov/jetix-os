@@ -55,6 +55,24 @@ updated: 2026-04-16
 - [Теория фокуса 5+AI+1 (Notion idea)](sources/2026-04-16-focus-theory-5-people-ai-1-task.md) — pilot experiment [business]
 - [Open Source + Premium (Notion idea)](sources/2026-04-16-open-source-premium-jetix-model.md) — бизнес-модель [business]
 
+### Batch 4 sources (Notion ideas 31-60)
+
+30 sources в `sources/` под именами `2026-04-16-{slug}.md` для каждой идеи batch 4. Полный список:
+investment-fund-jetix-component, predator-corporation-business-vulnerability, system-first-myth-second,
+200-year-vision-jetix-humanity, ai-reverse-engineering-business-in-days,
+self-improving-system-inevitable-dominance, safe-hedonism-personal-motivation,
+founder-responsibility-jetix-constitution, aggression-through-internal-safety,
+reverse-engineer-businesses-via-ai-asymmetry (merged-dup→#32),
+ai-analytics-grouping-launch-speed, virtual-c-suite-expert-calibration,
+engineering-thinking-meta-role, jetix-agency-strategic-ai-partners,
+club-as-product-marathon-model, urgent-search-ai-analyst-communities,
+truth-clan-acceleration, supportive-environment-pulls-up, position-of-power-yes-and-no,
+track-state-and-rest, scaling-plan-self-clients-team-worldwide, exchange-as-base-function,
+weekly-analysis-rest-as-life-maintenance, jetix-corporation-1000-pros-100k-agents,
+resources-without-self-management-trap, beast-mode-formula-actions,
+cannabis-refusal-beast-mode-orientation, development-cycle-ignorance-to-action,
+money-value-mindset-pre-launch, meditation-attention-management-now.
+
 ## Topics
 (empty)
 
@@ -89,6 +107,43 @@ updated: 2026-04-16
 - [Теория фокуса: 5+AI+1](ideas/focus-theory-5-people-ai-1-task.md) — multi-million бизнес за год [business] [sources: 1]
 - [Open Source + Premium для Jetix](ideas/open-source-premium-jetix-model.md) — Red Hat / Elastic-style [business] [sources: 1]
 
+### Batch 4 (Notion ideas 31-60, foreground sequential)
+
+#### Strategy & Vision (business)
+- [Инвестфонд как компонент Jetix](ideas/investment-fund-jetix-component.md) — venture studio модель, Phase 2 [business] [sources: 1]
+- [Корпорация-хищник: либо ты, либо тебя](ideas/predator-corporation-business-vulnerability.md) — vulnerability + двойной оффер (merged #32+#40) [business] [sources: 2]
+- [Система первична, миф вторичен](ideas/system-first-myth-second.md) — 80% механика, 20% нарратив [business] [sources: 1]
+- [200-летнее видение Jetix](ideas/200-year-vision-jetix-humanity.md) — North Star беспредельный [business] [sources: 1]
+- [AI = reverse-engineering за дни](ideas/ai-reverse-engineering-business-in-days.md) — асимметричное преимущество [tech] [sources: 1]
+- [Self-improving system → доминирование](ideas/self-improving-system-inevitable-dominance.md) — math неизбежности [business] [sources: 1]
+- [Founder responsibility: конституция Jetix](ideas/founder-responsibility-jetix-constitution.md) — ценности до роста [business] [sources: 1]
+- [Агрессия через безопасность](ideas/aggression-through-internal-safety.md) — внутренняя неуязвимость → внешняя экспансия [business] [sources: 1]
+- [AI-аналитика + группировка = скорость запуска](ideas/ai-analytics-grouping-launch-speed.md) — портфель параллельных бизнес-попыток [business] [sources: 1]
+- [Виртуальный C-Suite: эксперты + AI](ideas/virtual-c-suite-expert-calibration.md) — экспертная калибровка → AI-роли [business] [sources: 1]
+- [Jetix Agency — лестница AI-партнёрства](ideas/jetix-agency-strategic-ai-partners.md) — аудит → автоматизация → партнёр → экосистема [business] [sources: 1]
+- [Клуб как продукт: модель марафона](ideas/club-as-product-marathon-model.md) — community с прокачкой по параметрам [business] [sources: 1]
+- [Срочно: поиск AI/аналитика сообществ](ideas/urgent-search-ai-analyst-communities.md) — action this week [business] [sources: 1]
+- [План масштабирования: 7 шагов](ideas/scaling-plan-self-clients-team-worldwide.md) — общий roadmap [business] [sources: 1]
+- [Обмен как базовая функция](ideas/exchange-as-base-function.md) — взаимодействие → видение → условия → сделка [business] [sources: 1]
+- [Jetix Corporation: 1000+ профи, 100K+ агентов](ideas/jetix-corporation-1000-pros-100k-agents.md) — North Star endgame [business] [sources: 1]
+
+#### Personal & Life (life/personal)
+- [Безопасный гедонизм](ideas/safe-hedonism-personal-motivation.md) — личная мотивация Руслана [life] [sources: 1]
+- [Правда друг другу = ускорение](ideas/truth-clan-acceleration.md) — community principle [life] [sources: 1]
+- [Окружение, которое верит](ideas/supportive-environment-pulls-up.md) — выделять ресурсы на поиск [life] [sources: 1]
+- [Позиция силы: и да, и нет](ideas/position-of-power-yes-and-no.md) — фундаментальное условие [life] [sources: 1]
+- [Трекать состояние и отдых](ideas/track-state-and-rest.md) — восполняющий vs забирающий [life] [sources: 1]
+- [Анализ недели = ТО для жизни](ideas/weekly-analysis-rest-as-life-maintenance.md) — 4 вопроса каждую неделю [life] [sources: 1]
+- [Ресурсы без управления собой = ловушка](ideas/resources-without-self-management-trap.md) — ICP-сегмент + позиционирование [life] [sources: 1]
+- [Формула звериного состояния](ideas/beast-mode-formula-actions.md) — 5-шаговый протокол [life] [sources: 1]
+- [Отказ от травы](ideas/cannabis-refusal-beast-mode-orientation.md) — alignment с beast mode [personal] [sources: 1]
+- [Установки про деньги и ценность](ideas/money-value-mindset-pre-launch.md) — proработать до запуска [life] [sources: 1]
+- [Медитация и управление вниманием](ideas/meditation-attention-management-now.md) — переключение фокус ↔ отдых [life] [sources: 1]
+
+#### Meta
+- [Engineering thinking как мета-роль](ideas/engineering-thinking-meta-role.md) — Левенчук: менеджмент = инженерия организаций [meta] [sources: 1]
+- [Цикл развития: невежество → действие](ideas/development-cycle-ignorance-to-action.md) — мета-модель проектов [meta] [sources: 1]
+
 ## Experiments
 (empty)
 
@@ -97,6 +152,7 @@ updated: 2026-04-16
 - [Слой оркестрации LLM будет поглощён базовыми моделями (1-2 года)](claims/orchestration-layer-will-be-absorbed.md) — контрарная ставка [tech] [sources: 1]
 - [Рынок AI-агентов: $10.9B в 2026 → $250B+ к 2034](claims/ai-agents-market-size-2026.md) — CAGR ~47% [business] [sources: 1]
 - [Mittelstand — окно возможности: 82% застряли в экспериментах](claims/mittelstand-opportunity-window.md) — ниша консалтинга [business] [sources: 1]
+- [Любой бизнес уязвим для AI-reverse-engineering по умолчанию](claims/business-vulnerability-via-ai-default.md) — обоснование двойного оффера [business] [sources: 2]
 
 
 ## Summaries

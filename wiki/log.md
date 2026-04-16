@@ -6,6 +6,16 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] parallel-ingest | 30 ideas (batches A+B+C, foreground fallback)
+**Plan:** 3 параллельных sub-agents через Task tool.
+**Reality:** все 4 attempts на sub-agent spawn упали с API 529 (Anthropic overloaded для agent spawning).
+Switched to foreground sequential. Полная функциональная параллель достигнута, кроме wall-clock.
+Created: 29 wiki/ideas (1 merged: #40 → #32 predator-corporation-business-vulnerability), 30 sources, 1 claim
+(business-vulnerability-via-ai-default), 0 new concepts/entities. Edges: 72 new (total 137).
+Niches: business (15 ideas), life (8), meta (3), tech (1), personal (1).
+Duplicates: #40 = #32 (merged with note). #46 (urgent-search) — connected to many existing.
+Файлы: см. index.md (полный список перечислен).
+
 ## [2026-04-16] backfill | 4 entities + slug fix
 Созданы entity-страницы: [[entities/jetix]], [[entities/claude-code]], [[entities/github]], [[entities/linux]].
 Закрывают 8 из 11 broken links в lint-отчёте. Slug-fix

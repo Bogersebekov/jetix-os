@@ -23,6 +23,7 @@ updated: 2026-04-16
 ### Ideas
 - [[ideas/orchestration-is-temporary-feature-gap]] — ставка на бизнес-логику, не склейку
 - [[ideas/automate-research-via-crewai]] — multi-agent research pipeline
+- [[ideas/ai-reverse-engineering-business-in-days]] — AI как «информационный экскаватор»
 
 ### Claims
 - [[claims/orchestration-layer-will-be-absorbed]] — контрарная ставка на 1-2 года

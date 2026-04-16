@@ -41,6 +41,24 @@ updated: 2026-04-16
 - [[ideas/merchants-analogy-jetix-unifies-via-ai]] — позиционная аналогия
 - [[ideas/focus-theory-5-people-ai-1-task]] — кандидат на первый experiment
 - [[ideas/open-source-premium-jetix-model]] — бизнес-модель
+- [[ideas/investment-fund-jetix-component]] — venture studio
+- [[ideas/predator-corporation-business-vulnerability]] — двойной оффер (vulnerability + защита+нападение)
+- [[ideas/system-first-myth-second]] — 80/20 mechanics/narrative
+- [[ideas/200-year-vision-jetix-humanity]] — North Star
+- [[ideas/self-improving-system-inevitable-dominance]] — math неизбежности
+- [[ideas/founder-responsibility-jetix-constitution]] — ценности до роста
+- [[ideas/aggression-through-internal-safety]] — внутренняя неуязвимость
+- [[ideas/ai-analytics-grouping-launch-speed]] — портфель параллельных запусков
+- [[ideas/virtual-c-suite-expert-calibration]] — эксперты+AI
+- [[ideas/jetix-agency-strategic-ai-partners]] — лестница ценности
+- [[ideas/club-as-product-marathon-model]] — community модель
+- [[ideas/urgent-search-ai-analyst-communities]] — action this week
+- [[ideas/scaling-plan-self-clients-team-worldwide]] — 7-step roadmap
+- [[ideas/exchange-as-base-function]] — обмен как mechanism
+- [[ideas/jetix-corporation-1000-pros-100k-agents]] — endgame
+
+### Claims (batch 4)
+- [[claims/business-vulnerability-via-ai-default]]
 
 ### Concepts
 - [[concepts/curated-community-access]] — качество участников > массовость

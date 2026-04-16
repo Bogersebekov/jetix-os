@@ -28,6 +28,8 @@ updated: 2026-04-16
 - [[ideas/think-do-feedback-loop]] — принцип культуры работы
 - [[ideas/information-discipline-as-core-skill]] — навык + продукт
 - [[ideas/engineering-faith]] — план + инструменты + вера
+- [[ideas/engineering-thinking-meta-role]] — Левенчук: универсальный навык
+- [[ideas/development-cycle-ignorance-to-action]] — мета-модель проектов
 
 ### Concepts
 - [[concepts/writing-as-telepathy]] — образ автора = образ читателя
