@@ -42,6 +42,15 @@ updated: 2026-04-16
 - [Дорога+машины (Notion idea)](sources/2026-04-16-jetix-as-infrastructure-metaphor.md) — позиционирование [business]
 - [Три слоя ценности (Notion idea)](sources/2026-04-16-value-three-layers.md) — life-os модель [life]
 - [Дозировка действий (Notion idea)](sources/2026-04-16-action-dosage-principle.md) — принцип распределения [life]
+- [Шкала влияния (Notion idea)](sources/2026-04-16-day-influence-scale-0-100.md) — life-os метрика [life]
+- [Стань ценным рынку (Notion idea)](sources/2026-04-16-become-valuable-before-going-to-market.md) — preparation principle [business]
+- [Продажи = лампочка (Notion idea)](sources/2026-04-16-sales-as-lighting-up-value.md) — sales-фреймворк [business]
+- [Заряжен / на чиле (Notion idea)](sources/2026-04-16-charged-vs-chill-modes.md) — двухрежимная модель [life]
+- [Information discipline #2 — дубликат (Notion idea)](sources/2026-04-16-information-discipline-as-core-skill-2.md) — слит с #15 [meta]
+- [Revenue Share Jetix (Notion idea)](sources/2026-04-16-revenue-share-jetix-philosophy.md) — 70%-принцип [business]
+- [Коммерсанты (Notion idea)](sources/2026-04-16-merchants-analogy-jetix-unifies-via-ai.md) — позиционирование [business]
+- [Теория фокуса 5+AI+1 (Notion idea)](sources/2026-04-16-focus-theory-5-people-ai-1-task.md) — pilot experiment [business]
+- [Open Source + Premium (Notion idea)](sources/2026-04-16-open-source-premium-jetix-model.md) — бизнес-модель [business]
 
 ## Topics
 (empty)
@@ -68,6 +77,14 @@ updated: 2026-04-16
 - [Метафора дорога+машины](ideas/jetix-as-infrastructure-metaphor.md) — Jetix как инфраструктура [business] [sources: 1]
 - [Три слоя ценности](ideas/value-three-layers.md) — ценить → знать → делать [life] [sources: 1]
 - [Дозировка действий](ideas/action-dosage-principle.md) — распределение ≠ сумма [life] [sources: 1]
+- [Шкала влияния 0-100% на день](ideas/day-influence-scale-0-100.md) — ежедневная метрика контроля [life] [sources: 1]
+- [Стань ценным рынку, потом иди на рынок](ideas/become-valuable-before-going-to-market.md) — 100ч vs 10ч [business] [sources: 1]
+- [Продажи = зажечь лампочку в голове](ideas/sales-as-lighting-up-value.md) — активация внимания через образ [business] [sources: 1]
+- [Заряжен и на чиле — оба регулярно](ideas/charged-vs-chill-modes.md) — recovery как часть цикла [life] [sources: 1]
+- [Revenue Share Jetix](ideas/revenue-share-jetix-philosophy.md) — мог бы 70%, не забирает [business] [sources: 1]
+- [Аналогия с коммерсантами](ideas/merchants-analogy-jetix-unifies-via-ai.md) — Jetix объединяет через AI [business] [sources: 1]
+- [Теория фокуса: 5+AI+1](ideas/focus-theory-5-people-ai-1-task.md) — multi-million бизнес за год [business] [sources: 1]
+- [Open Source + Premium для Jetix](ideas/open-source-premium-jetix-model.md) — Red Hat / Elastic-style [business] [sources: 1]
 
 ## Experiments
 (empty)

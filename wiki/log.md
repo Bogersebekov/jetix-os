@@ -6,6 +6,13 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] ingest | notion-ideas batch 3/3 (ideas 22-30)
+Создано: 17 страниц wiki (8 новых ideas, 0 новых concepts, 9 sources). Edges: 22.
+Niches: business (5), life (3). Дубликат: #26 → объединён в [[ideas/information-discipline-as-core-skill]]
+(добавлен 2-й source, обновлены frontmatter и тело).
+Ключевые pages: [[ideas/revenue-share-jetix-philosophy]], [[ideas/open-source-premium-jetix-model]],
+[[ideas/sales-as-lighting-up-value]], [[ideas/focus-theory-5-people-ai-1-task]] (кандидат на experiment).
+
 ## [2026-04-16] ingest | notion-ideas batch 2/3 (ideas 12-21)
 Создано: 23 страницы (10 ideas, 3 concepts, 10 sources). Edges: 20.
 Niches: business (7), meta (2), life (2). Дубликат-ноут: ideas/information-discipline-as-core-skill

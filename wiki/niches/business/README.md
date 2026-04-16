@@ -35,6 +35,12 @@ updated: 2026-04-16
 - [[ideas/anti-free-riding-accountability]] — open question
 - [[ideas/consulting-as-trojan-horse]] — бизнес-модель
 - [[ideas/jetix-as-infrastructure-metaphor]] — Jetix как инфраструктура (дорога+машины)
+- [[ideas/become-valuable-before-going-to-market]] — preparation principle
+- [[ideas/sales-as-lighting-up-value]] — sales-фреймворк
+- [[ideas/revenue-share-jetix-philosophy]] — 70%-принцип
+- [[ideas/merchants-analogy-jetix-unifies-via-ai]] — позиционная аналогия
+- [[ideas/focus-theory-5-people-ai-1-task]] — кандидат на первый experiment
+- [[ideas/open-source-premium-jetix-model]] — бизнес-модель
 
 ### Concepts
 - [[concepts/curated-community-access]] — качество участников > массовость

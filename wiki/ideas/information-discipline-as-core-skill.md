@@ -5,14 +5,17 @@ niche: meta
 status: raw
 sources:
   - raw/notion-ideas/2026-04-16-information-discipline-as-core-skill.md
+  - raw/notion-ideas/2026-04-16-information-discipline-as-core-skill-2.md
 related:
   - concepts/think-do-feedback-loop.md
   - ideas/automate-research-via-crewai.md
+  - ideas/become-valuable-before-going-to-market.md
   - sources/2026-04-16-information-discipline-as-core-skill.md
-tags: [#type/idea, #topic/skill, #topic/ai, #topic/product]
+  - sources/2026-04-16-information-discipline-as-core-skill-2.md
+tags: [#type/idea, #topic/skill, #topic/ai, #topic/product, #topic/training]
 created: 2026-04-16
 updated: 2026-04-16
-confidence: medium
+confidence: high
 pipeline: ingested
 ---
 
@@ -43,9 +46,20 @@ AI делает генерацию информации дешёвой. Дифф
 
 AI — усилитель, но не замена. См. [[ideas/automate-research-via-crewai]] — пайплайн, но не замена человеку.
 
-## Внимание: дубликат
+## Дополнение из дубликата (Notion #26, ingest 2026-04-16)
 
-Идея #26 в Notion («Дисциплина работы с информацией — ключевой навык и потенциальный продукт») — де-факто тот же смысл с чуть иной формулировкой. При ingest #26 обновить эту страницу, не создавать новую.
+Notion-идея #26 содержит дополнения, объединённые в эту страницу:
+
+- **«Читы на максималках»** — кто умеет, выигрывает кратно; кто не умеет — отстаёт. Дисциплина работы с информацией = новое цифровое неравенство.
+- **Конкретное продуктовое предложение:** Training-продукт (€1K) в воронке Jetix.
+- **Темы:** AI + Навыки + Продуктивность (расширение по сравнению с #15).
+
+Обе Notion-записи теперь ссылаются на эту wiki-страницу через `wiki_page` в frontmatter raw-копий.
+
+## Возможный продукт Jetix
+
+- **Training-продукт «Information Discipline»** (€1K) — фреймворк + практика + AI-инструменты.
+- Положение в воронке: после первого касания (см. [[ideas/tools-feedback-community-flywheel]]), перед глубоким partnership-этапом.
 
 ## Связи
 
