@@ -6,6 +6,19 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] build-graph v2 | edges: 137 | communities: 4 (by niche fallback)
+После импорта 60 идей. Один gigantic connected component (74 нод — все идеи Jetix плотно
+связаны). Fallback по niche: business 44, life 15, meta 10, tech 4. Communities + summaries
+обновлены с расширенным summary-текстом для GraphRAG.
+
+## [2026-04-16] lint v2 | report | total: 135 pages, broken: 1, orphans: 3 (false-pos: same-slug ideas/concepts), missing FM: 0, drift: 30 (cosmetic — batch 4 sources в paragraph-format)
+Отчёт: wiki/_lint-report-2026-04-16-v2.md.
+
+## [2026-04-16] consolidate | scan | 0 real duplicates found
+58 ideas pages проверены попарно. Один pair >0.55 similarity (jetix-open-source-philosophy
+vs open-source-premium-jetix-model) — это уже linked соседи, не dup. Earlier merges
+(#15+#26 information-discipline, #32+#40 predator/reverse-engineering) уже интегрированы.
+
 ## [2026-04-16] parallel-ingest | 30 ideas (batches A+B+C, foreground fallback)
 **Plan:** 3 параллельных sub-agents через Task tool.
 **Reality:** все 4 attempts на sub-agent spawn упали с API 529 (Anthropic overloaded для agent spawning).

@@ -4,27 +4,27 @@ updated: 2026-04-16
 ---
 # Community Summaries — Jetix OS Wiki Graph
 
-Текстовые обобщения кластеров для GraphRAG / быстрого контекста в /ask.
+Текстовые summaries для GraphRAG / быстрого контекста в /ask.
 
 ## Summaries
 
-### C1: Business — central: github-for-business-projects
-_27 pages._
+### C1: Life — central: charged-vs-chill-modes
+_15 pages._
 
-Главный кластер: бизнес-философия и архитектура Jetix. Объединяет философию (open-source, Revenue Share, цифровой суверенитет, метафора дорога+машины), бизнес-модель (Open Source + Premium, консалтинг как троянский конь), позиционирование (объединение авантюристов, аналогия с коммерсантами), правила сообщества (curated access, anti-free-riding, портрет участника, динамические команды) и практику продаж (стань ценным рынку, продажи = лампочка, tools-feedback-community-flywheel, петля симбиоза). Открытые вопросы: anti-free-riding механики, точные границы open vs premium, скорость теории фокуса 5+AI+1 (кандидат на experiment).
+Life OS: ценить → знать → делать (карта), шкала влияния 0-100% (метрика), режимы заряжен/чил (recovery cycle), дозировка действий (распределение), трекать состояние (восполняющий vs забирающий отдых), еженедельный анализ (ТО для жизни), безопасный гедонизм Руслана (личная мотивация → продукт), beast mode формула (5-step protocol), правда в клане + supportive environment + позиция силы (community/relational layer), ресурсы без self-management = ловушка (ICP-сегмент), медитация и управление вниманием, money/value mindset prep.
 
-### C2: Tech — central: orchestration-is-temporary-feature-gap
-_3 pages._
+### C2: Business — central: jetix-open-source-philosophy
+_44 pages._
 
-Контрарная ставка: оркестрация — временное отсутствие фичи. Базовые модели поглотят слой склейки за 1-2 года, поэтому экспертиза должна сидеть в бизнес-логике. Тактически — CrewAI/LlamaIndex/LangGraph для research-автоматизации сейчас. Tension: между «не строить на оркестраторах» и «использовать CrewAI прямо сейчас». Связан с business через рынок AI-агентов и Mittelstand-окно.
+Главный кластер: бизнес-стратегия и архитектура Jetix. Объединяет философию (open-source, Revenue Share, цифровой суверенитет, founder-конституция, дорога+машины), предательство-и-защиту (predator vs защита через safety, business vulnerability via AI), бизнес-модели (consulting troyan + investment fund + Jetix Agency lestnitsa + Open Source + Premium), позиционирование (объединение авантюристов, аналогия с коммерсантами, 200-летнее видение, Jetix Corporation), правила сообщества (curated access, anti-free-riding, портрет участника, динамические команды, club marathon), AI-возможности (reverse-engineering, analytics+grouping, virtual C-Suite) и продажи (стань ценным первым, лампочка, exchange, money mindset, position of power, scaling roadmap).
 
-### C3: Meta — central: think-do-feedback-loop
-_8 pages._
+### C3: Tech — central: automate-research-via-crewai
+_4 pages._
 
-Когнитивные модели и навыки: цикл думать↔делать как базовый паттерн прогресса, дисциплина работы с информацией как центральный навык AI-эпохи (с продуктовым выходом — €1K Training-продукт), инженерная вера как операционная позиция (план + инструменты + вера) и writing as telepathy как фреймворк для коммуникации.
+Tech-кластер: контрарная ставка на orchestration (LangChain/CrewAI как временный костыль), CrewAI как тактический инструмент сейчас, AI как «информационный экскаватор» для reverse-engineering бизнесов за дни. Tension сохраняется между «не строить на оркестраторах» и «использовать CrewAI прямо сейчас».
 
-### C4: Life — central: value-three-layers
-_5 pages._
+### C4: Meta — central: think-do-feedback-loop
+_10 pages._
 
-Life OS: три слоя ценности (ценить → знать → делать) задают карту, шкала влияния 0-100% даёт ежедневную метрику, режимы заряжен/чил обеспечивают устойчивый цикл, дозировка действий регулирует распределение нагрузки. Связь с meta-кластером через ценностный мост к инженерной вере и думать↔делать.
+Когнитивные модели и универсальные навыки: цикл думать↔делать как базовый паттерн, дисциплина работы с информацией (с продуктовым выходом €1K Training), инженерная вера (план + инструменты + вера) как операционная позиция, инженерное мышление как мета-роль управления любыми системами, цикл развития ignorance→action как мета-модель проектов, writing as telepathy как фреймворк коммуникации.
 
