@@ -259,6 +259,74 @@ miro_board: https://miro.com/app/board/uXjVG2-05Ns=/
 
 ---
 
-## 3. Component-Level Detail
+## 3. Agent Interactions — departments + sequences
 
-_Заполняется на следующем уровне._
+**Miro header doc:** [`3. Agent Interactions`](https://miro.com/app/board/uXjVG2-05Ns=/?moveToWidget=3458764668118991506).
+Четыре диаграммы расположены вертикально по `x≈-100000`, `y` от `15000` до `32000`.
+
+Цвет агента = департамент: MGMT жёлтый, OPS оранжевый, Sales розовый, Brain
+синий, Meta фиолетовый, Life зелёный, human серый. Все стрелки — mailbox-связи
+по `shared/schemas/message.schema.json` (id-формат `msg-YYYYMMDD-NNN`,
+8 типов, 4 приоритета, 5 статусов).
+
+### 3.1 Departments map
+
+[`3.0 Agent Interactions — 12 agents in 6 departments`](https://miro.com/app/board/uXjVG2-05Ns=/?moveToWidget=3458764668118991808)
+
+#### Agent × department × niche × mailbox peers
+
+| Agent | Dept | Model | Niches (symlinks) | Mailbox-peers (по interaction pattern) |
+|-------|------|-------|-------------------|-----------------------------------------|
+| **manager** | MGMT | Sonnet 4.6 | business, meta | strategist (↔), sales-lead (↔), personal-assistant (↔), inbox-processor (↔), crazy-agent (→), meta-agent (↔), life-coach (↔), human (↔) |
+| **strategist** | MGMT | Opus 4.6 | business, personal | manager (↔), knowledge-synth (←), crazy-agent (←), meta-agent (←), sales-lead (←) |
+| **personal-assistant** | OPS | Haiku 4.5 | personal, meta | manager (↔), system-admin (↔), human (↔) |
+| **system-admin** | OPS | Haiku 4.5 | meta, tech | personal-assistant (↔), meta-agent (←), manager (→ critical only) |
+| **sales-lead** | Sales | Sonnet 4.6 | sales, business | manager (↔), sales-researcher (↔), sales-outreach (↔), strategist (→) |
+| **sales-researcher** | Sales | Haiku 4.5 | sales | sales-lead (↔) — НЕ говорит с manager напрямую |
+| **sales-outreach** | Sales | Haiku 4.5 | sales | sales-lead (↔) — НЕ говорит с manager напрямую |
+| **knowledge-synth** | Brain | Sonnet 4.6 | все 6 (Brain Lead) | manager (↔), strategist (↔), inbox-processor (↔) |
+| **inbox-processor** | Brain | Haiku 4.5 | meta | manager (↔), knowledge-synth (↔), crazy-agent (←) |
+| **meta-agent** | Meta | Sonnet 4.6 (`permissionMode: plan`) | meta | manager (↔), strategist (→), system-admin (→) |
+| **crazy-agent** | Meta | Sonnet 4.6 | meta, tech | manager (←), strategist (→), inbox-processor (→) |
+| **life-coach** | Life | Sonnet 4.6 | life, personal | manager (↔) |
+
+Hub-and-spoke factually работает только в Sales (Researcher/Outreach
+рапортуют в Lead, не в Manager). Brain объявлен hub-and-spoke в роли
+knowledge-synth, но Inbox-processor по своему промпту шлёт в Manager
+напрямую.
+
+### 3.2 Sequence diagrams
+
+- [`3.1 Sequence A`](https://miro.com/app/board/uXjVG2-05Ns=/?moveToWidget=3458764668118991922) —
+  user → Claude Code → manager → delegation в department (на примере
+  prospect research через Sales). Показывает: read mailbox → read state →
+  append task в sales-lead.jsonl → sales-lead делегирует sales-researcher →
+  результат в `shared/knowledge/research-summaries/` → доклад наверх.
+- [`3.2 Sequence B`](https://miro.com/app/board/uXjVG2-05Ns=/?moveToWidget=3458764668119183102) —
+  `/ingest <path|url>` workflow. WebFetch / Read raw → (если URL: persist
+  в `raw/web/`) → load template → create/update entity pages →
+  source card → append index.md, log.md, edges.jsonl, niche README.
+- [`3.3 Sequence C`](https://miro.com/app/board/uXjVG2-05Ns=/?moveToWidget=3458764668119183240) —
+  `/close-day` workflow. Read today's `daily-log/YYYY-MM-DD.md` → ask 4
+  questions (что сделал? insights? energy 1-5? на завтра?) → fill sections
+  → append `[date]` записи в `projects/{p}/log.md` → update `next_action`
+  в `projects/{p}/overview.md` frontmatter → (если existential)
+  notion-update-page MCP → `git add -A && git commit -m daily: ... && git push`.
+
+### 3.3 Honest gap list — что заявлено vs что работает
+
+| # | Заявлено | Реально на 2026-04-16 |
+|---|----------|------------------------|
+| 1 | 12 mailboxes активны, hub-and-spoke коммуникация | 6 mailbox'ов **пустые** (inbox-processor, knowledge-synth, meta-agent, personal-assistant, sales-outreach, sales-researcher); остальные 6 содержат **только тестовый трафик** от 14-15 апреля (`msg-20260414-001..010`, `msg-20260415-001`). Production-сообщений не было. |
+| 2 | Утреннее/вечернее pipeline'ы Manager (`Morning Pipeline` / `Evening Pipeline` в `manager.md`) | Скрипты `scripts/morning-pipeline.sh`/`evening-pipeline.sh` существуют, но не на cron'е. Запускаются только вручную. Daily Log в Notion не создаётся автоматически. |
+| 3 | `tools/distribute.py` распределяет items по KB | **Архивирован** как `distribute.py.bak`. CLAUDE.md явно говорит «не запускается, чтобы Claude-выводы не попадали в KB без человеческого ревью». |
+| 4 | `meta-agent` делает weekly audit + A/B prompt proposals | `permissionMode: plan` — агент только пишет планы, не выполняет действия. Никаких записей в `logs/audits/` или `shared/state/metrics/ab-tests.json` за всё время. |
+| 5 | `strategist` принимает решения, пишет в `shared/knowledge/decisions-log.jsonl` | `permissionMode: plan` тоже. Файла `decisions-log.jsonl` нет. |
+| 6 | `baseline.md` (immutable v1.0) vs `system.md` (рабочая версия) | Обе содержат идентичный текст; canonical-источник не выбран (открытый вопрос #1 в `arch-migration-2026-04-16.md`). |
+| 7 | Crazy-agent имеет `mcp__notion` (по CLAUDE.md roster) | В фактическом frontmatter `crazy-agent.md`: только `web_search`, нет `mcp__notion`. |
+| 8 | Notion MCP активен | На этой сессии MCP `notion` отключился среди работы (был помечен «no longer available»). Skill'ы `/plan-day`, `/close-day`, `inbox-processor`, `manager`, `knowledge-synth`, `personal-assistant`, `life-coach`, `sales-lead`, `strategist` все полагаются на `mcp__notion-*` — нестабильно. |
+| 9 | `agents/{id}/strategies.md` — System Prompt Learning накопления | Все 12 файлов — пустые seeds. Никаких накоплений за 3+ дня после миграции. |
+| 10 | 12 агентов в `.claude/agents/` | 12 есть. Но в `agents/` лежат ещё 4 «orphan»-папки: `agents/content-team/`, `agents/research-team/`, `agents/sales-team/`, `agents/_shared/` — не упомянуты в CLAUDE.md roster. |
+| 11 | `comms/escalation.jsonl` (упомянут в `sales-lead.md` как exception path) | Файла нет. Канал не реализован. |
+| 12 | `agents/{id}/niche/` symlinks | 24 symlinks существуют (по 1 на пару agent×niche). Это работает. ✓ |
+| 13 | `wiki/` import: 60 идей, 137 edges, 4 communities | Подтверждается `wiki/log.md`, `wiki/graph/edges.jsonl` (137 строк). ✓ |
