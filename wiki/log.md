@@ -6,6 +6,13 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] ingest | notion-ideas batch 2/3 (ideas 12-21)
+Создано: 23 страницы (10 ideas, 3 concepts, 10 sources). Edges: 20.
+Niches: business (7), meta (2), life (2). Дубликат-ноут: ideas/information-discipline-as-core-skill
+будет update'нут при ingest #26 (та же тема в Notion разделена на две записи).
+Ключевые pages: [[ideas/engineering-faith]], [[ideas/tool-community-symbiosis-loop]],
+[[ideas/jetix-as-infrastructure-metaphor]], [[ideas/value-three-layers]].
+
 ## [2026-04-16] ingest | notion-ideas batch 1/3 (ideas 2-11)
 Создано: 22 страницы wiki (10 ideas, 5 concepts, 3 claims, 10 sources — некоторые concepts/sources расшарены).
 Edges: 17. Niches: business (7 ideas), tech (2), meta (2). Conflict: tension edge between

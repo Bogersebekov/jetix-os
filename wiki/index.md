@@ -14,6 +14,8 @@ updated: 2026-04-16
 - [Jetix open source principles](concepts/jetix-open-source-principles.md) — Revenue Share + прозрачность + платформа [business] [sources: 1]
 - [Think-Do feedback loop](concepts/think-do-feedback-loop.md) — два режима мозга, прогресс в циклах [meta] [sources: 1]
 - [Writing as telepathy](concepts/writing-as-telepathy.md) — образ автора = образ читателя через слова [meta] [sources: 1]
+- [Engineering faith](concepts/engineering-faith.md) — вера = план + инструменты + убеждённость [meta] [sources: 1]
+- [Value three layers](concepts/value-three-layers.md) — ценить → знать → делать [life] [sources: 1]
 
 ## Entities
 (empty)
@@ -30,6 +32,16 @@ updated: 2026-04-16
 - [Динамические команды (Notion idea)](sources/2026-04-16-dynamic-teams-by-topic-level.md) — живой организм, AI-матчмейкер [business]
 - [Цикл мозга (Notion idea)](sources/2026-04-16-think-do-feedback-loop.md) — думать ↔ делать [meta]
 - [Модель обмена tools→feedback→community (Notion idea)](sources/2026-04-16-tools-feedback-community-flywheel.md) — маховик привлечения [business]
+- [Петля симбиоза (Notion idea)](sources/2026-04-16-tool-community-symbiosis-loop.md) — core value prop [business]
+- [Объединить авантюристов (Notion idea)](sources/2026-04-16-unite-adventurers-biggest-adventure.md) — позиционирование [business]
+- [Портрет участника (Notion idea)](sources/2026-04-16-ideal-member-portrait.md) — ICP [business]
+- [Дисциплина работы с информацией (Notion idea)](sources/2026-04-16-information-discipline-as-core-skill.md) — навык + продукт [meta]
+- [Anti-free-riding (Notion idea)](sources/2026-04-16-anti-free-riding-accountability.md) — accountability механизмы [business]
+- [Консалтинг как троянский конь (Notion idea)](sources/2026-04-16-consulting-as-trojan-horse.md) — бизнес-модель [business]
+- [Инженерная вера (Notion idea)](sources/2026-04-16-engineering-faith.md) — принцип Jetix [meta]
+- [Дорога+машины (Notion idea)](sources/2026-04-16-jetix-as-infrastructure-metaphor.md) — позиционирование [business]
+- [Три слоя ценности (Notion idea)](sources/2026-04-16-value-three-layers.md) — life-os модель [life]
+- [Дозировка действий (Notion idea)](sources/2026-04-16-action-dosage-principle.md) — принцип распределения [life]
 
 ## Topics
 (empty)
@@ -46,6 +58,16 @@ updated: 2026-04-16
 - [Динамические команды](ideas/dynamic-teams-by-topic-level.md) — AI-matchmaker вместо отделов [business] [sources: 1]
 - [Цикл мозга: думать → делать → feedback](ideas/think-do-feedback-loop.md) — принцип культуры работы [meta] [sources: 1]
 - [Tools → feedback → community flywheel](ideas/tools-feedback-community-flywheel.md) — маховик привлечения Jetix [business] [sources: 1]
+- [Петля симбиоза инструмент-участник](ideas/tool-community-symbiosis-loop.md) — core value prop Jetix [business] [sources: 1]
+- [Объединить авантюристов в самую большую авантюру](ideas/unite-adventurers-biggest-adventure.md) — позиционирование [business] [sources: 1]
+- [Портрет участника Jetix](ideas/ideal-member-portrait.md) — психопат-CEO + системный инженер [business] [sources: 1]
+- [Дисциплина работы с информацией](ideas/information-discipline-as-core-skill.md) — навык + продукт [meta] [sources: 1]
+- [Anti-free-riding accountability](ideas/anti-free-riding-accountability.md) — притча о 10 мудрецах [business] [sources: 1]
+- [Консалтинг как троянский конь](ideas/consulting-as-trojan-horse.md) — cashflow + доступ + инкубатор [business] [sources: 1]
+- [Инженерная вера](ideas/engineering-faith.md) — план + инструменты + вера [meta] [sources: 1]
+- [Метафора дорога+машины](ideas/jetix-as-infrastructure-metaphor.md) — Jetix как инфраструктура [business] [sources: 1]
+- [Три слоя ценности](ideas/value-three-layers.md) — ценить → знать → делать [life] [sources: 1]
+- [Дозировка действий](ideas/action-dosage-principle.md) — распределение ≠ сумма [life] [sources: 1]
 
 ## Experiments
 (empty)
@@ -55,6 +77,7 @@ updated: 2026-04-16
 - [Слой оркестрации LLM будет поглощён базовыми моделями (1-2 года)](claims/orchestration-layer-will-be-absorbed.md) — контрарная ставка [tech] [sources: 1]
 - [Рынок AI-агентов: $10.9B в 2026 → $250B+ к 2034](claims/ai-agents-market-size-2026.md) — CAGR ~47% [business] [sources: 1]
 - [Mittelstand — окно возможности: 82% застряли в экспериментах](claims/mittelstand-opportunity-window.md) — ниша консалтинга [business] [sources: 1]
+
 
 ## Summaries
 (empty)

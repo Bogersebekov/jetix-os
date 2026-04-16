@@ -26,10 +26,13 @@ updated: 2026-04-16
 ### Ideas
 - [[ideas/writing-is-telepathy]] — фреймворк для контент-маркетинга
 - [[ideas/think-do-feedback-loop]] — принцип культуры работы
+- [[ideas/information-discipline-as-core-skill]] — навык + продукт
+- [[ideas/engineering-faith]] — план + инструменты + вера
 
 ### Concepts
 - [[concepts/writing-as-telepathy]] — образ автора = образ читателя
 - [[concepts/think-do-feedback-loop]] — два режима мозга
+- [[concepts/engineering-faith]] — вера через план и инструменты
 
 ### Sources
 - [[sources/2026-04-16-writing-is-telepathy]]

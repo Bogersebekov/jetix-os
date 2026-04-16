@@ -29,6 +29,12 @@ updated: 2026-04-16
 - [[ideas/b2g-ai-security-germany]] — путь в госконтракты
 - [[ideas/dynamic-teams-by-topic-level]] — AI-matchmaker живой организм
 - [[ideas/tools-feedback-community-flywheel]] — маховик привлечения через помощь
+- [[ideas/tool-community-symbiosis-loop]] — core value prop (петля симбиоза)
+- [[ideas/unite-adventurers-biggest-adventure]] — позиционная метафора
+- [[ideas/ideal-member-portrait]] — ICP (психопат-CEO + системный инженер)
+- [[ideas/anti-free-riding-accountability]] — open question
+- [[ideas/consulting-as-trojan-horse]] — бизнес-модель
+- [[ideas/jetix-as-infrastructure-metaphor]] — Jetix как инфраструктура (дорога+машины)
 
 ### Concepts
 - [[concepts/curated-community-access]] — качество участников > массовость

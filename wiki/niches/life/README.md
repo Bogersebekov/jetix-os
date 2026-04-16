@@ -18,4 +18,14 @@ updated: 2026-04-16
 - knowledge-synth
 
 ## Pages
-(empty)
+
+### Ideas
+- [[ideas/value-three-layers]] — ценить → знать → делать
+- [[ideas/action-dosage-principle]] — распределение ≠ сумма
+
+### Concepts
+- [[concepts/value-three-layers]] — три слоя как life-os модель
+
+### Sources
+- [[sources/2026-04-16-value-three-layers]]
+- [[sources/2026-04-16-action-dosage-principle]]
