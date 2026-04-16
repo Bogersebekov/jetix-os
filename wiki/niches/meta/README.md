@@ -22,4 +22,15 @@ updated: 2026-04-16
 - personal-assistant
 
 ## Pages
-(empty)
+
+### Ideas
+- [[ideas/writing-is-telepathy]] — фреймворк для контент-маркетинга
+- [[ideas/think-do-feedback-loop]] — принцип культуры работы
+
+### Concepts
+- [[concepts/writing-as-telepathy]] — образ автора = образ читателя
+- [[concepts/think-do-feedback-loop]] — два режима мозга
+
+### Sources
+- [[sources/2026-04-16-writing-is-telepathy]]
+- [[sources/2026-04-16-think-do-feedback-loop]]

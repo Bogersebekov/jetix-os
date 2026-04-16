@@ -19,4 +19,14 @@ updated: 2026-04-16
 - knowledge-synth
 
 ## Pages
-(empty)
+
+### Ideas
+- [[ideas/orchestration-is-temporary-feature-gap]] — ставка на бизнес-логику, не склейку
+- [[ideas/automate-research-via-crewai]] — multi-agent research pipeline
+
+### Claims
+- [[claims/orchestration-layer-will-be-absorbed]] — контрарная ставка на 1-2 года
+
+### Sources
+- [[sources/2026-04-16-orchestration-is-temporary-feature-gap]]
+- [[sources/2026-04-16-automate-research-via-crewai]]
