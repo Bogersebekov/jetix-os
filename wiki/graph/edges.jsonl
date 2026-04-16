@@ -566,3 +566,7 @@
 {"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-life-os.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
 {"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-research-hub.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
 {"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-icp-page.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-daily-log-insights-digest.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "ideas/charged-vs-chill-modes.md", "type": "supports", "created": "2026-04-16", "confidence": "high"}
+{"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "ideas/weekly-analysis-rest-as-life-maintenance.md", "type": "supports", "created": "2026-04-16", "confidence": "medium"}
+{"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "concepts/think-do-feedback-loop.md", "type": "supports", "created": "2026-04-16", "confidence": "medium"}
