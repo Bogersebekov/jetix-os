@@ -395,7 +395,8 @@ _(seed — заполняется по ходу работы над частям
 |------|------|
 | **SYSTEM-DESIGN-HUMAN.md** ⬅️ ты здесь | Шаг 2: целевая система на человеческом (7 частей + мета) |
 | [design/SYSTEM-DESIGN-INPUTS.md](design/SYSTEM-DESIGN-INPUTS.md) | Staging inputs (пишет серверный Claude, дополняется на Фазе α) |
-| [design/NOTION-MIGRATION-PLAN.md](design/NOTION-MIGRATION-PLAN.md) | **Мастер-план** декомиссии Notion (4 фазы α/β/γ/δ, 10-шаговый roadmap) |
+| [design/NOTION-MIGRATION-PLAN.md](design/NOTION-MIGRATION-PLAN.md) | Мастер-план декомиссии Notion (4 фазы α/β/γ/δ, 10-шаговый roadmap) |
+| [design/FOUNDATION-DOCS-RESEARCH.md](design/FOUNDATION-DOCS-RESEARCH.md) | **Research** — как описывают системы гиганты (Linux, Windows, iOS, патенты, RFC, Google Design Doc и т.д.) + методологии (arc42, C4, ADR). Берём лучшее для SYSTEM-DESIGN-HUMAN. |
 
 ### 📊 Inventory (Шаг 1 — СЕЙЧАС)
 
