@@ -6,6 +6,20 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] notion-α.2 bulk ingest | RELEVANT: +199 ideas | sources: +199 | edges: +398
+Phase α.2 rule-based ingest из raw/notion-ideas-sweep-2026-04-16.jsonl (260 total):
+60 already imported, 200 new, 199 RELEVANT ingested (3 runs с фиксами regex +
+permissive rule для Life OS/Бизнес themes). 1 UNCLEAR: `(untitled)` запись.
+wiki/ideas: 58 → 257, wiki/sources: 60 → 259, edges: 159 → 557.
+Tool: `tools/_notion_alpha_2_classify_ingest.py` (idempotent, словарный матч +
+category/themes rules). Full Notion-fetch deferred to γ (preview-only content сейчас).
+
+## [2026-04-16] notion-α.1 JSONL sweep Банка идей | 260 unique ideas
+Query 4 из 5 views (default + Ключевые + Проекты + Бизнес/рынок) → dedup по url →
+raw/notion-ideas-sweep-2026-04-16.jsonl (260 lines, 464K). query-database-view
+не поддерживает cursor-пагинацию, used filter-views для разных подмножеств.
+Voprosy view (Вопросы/Гипотезы) skipped (inline result, высокий overlap).
+
 ## [2026-04-16] system-design sweep | tagged: 65 (54 ideas + 8 concepts + 1 claim + 2 entities) | hub created
 Phase 5 (system-design sweep run): 65 wiki-страниц помечены `topics: [system-design]`
 через `tools/_tag_system_design.py` (idempotent). 10 UNCLEAR пропущены.
