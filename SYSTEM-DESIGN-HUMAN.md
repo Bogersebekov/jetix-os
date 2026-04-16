@@ -270,6 +270,7 @@ _(seed — заполняется по ходу работы над частям
 | Дата | Версия | Что изменилось |
 |------|--------|----------------|
 | 2026-04-16 | draft-v0 | Создан каркас: точка А/Б, Definition of Done, план работы, 6 частей seed, приложения |
+| 2026-04-16 | draft-v0.1 | Добавлены "Рабочий стол" + ссылка на NOTION-MIGRATION-PLAN (новый трек миграции) |
 
 ## Приложение 3. Открытые мета-вопросы (про сам документ)
 
@@ -277,3 +278,62 @@ _(seed — заполняется по ходу работы над частям
 - Miro-визуализации — делать параллельно с каждой частью или после всех 6 частей единым блоком?
 - Глоссарий терминов — как отдельная часть или как hover-tooltips по ходу?
 - Если после заполнения 6 частей окажется что документ раздут до неудобоваримого размера — как разбивать (на 2-3 файла или оставить монолитом)?
+- **Новая Часть 7 "Правила миграции Notion"** — фиксируется на Фазе β согласно NOTION-MIGRATION-PLAN §9.2. Не сейчас, после первого прохода Частей 1-6.
+
+---
+
+## Рабочий стол (навигация к связанным файлам)
+
+Держи это панно открытым. Остальные документы — по ссылкам:
+
+### 📐 Design-документы (живая работа)
+
+| Файл | Роль |
+|------|------|
+| **SYSTEM-DESIGN-HUMAN.md** ⬅️ ты здесь | Шаг 2: целевая система на человеческом |
+| [design/SYSTEM-DESIGN-INPUTS.md](design/SYSTEM-DESIGN-INPUTS.md) | Staging inputs под 6 частей (пишет серверный Claude) |
+| [design/NOTION-MIGRATION-PLAN.md](design/NOTION-MIGRATION-PLAN.md) | **Мастер-план** декомиссии Notion (4 фазы α/β/γ/δ, 10-шаговый roadmap) |
+
+### 📊 Inventory (Шаг 1 — СЕЙЧАС)
+
+- [ARCHITECTURE-CURRENT.md](ARCHITECTURE-CURRENT.md) — snapshot системы, 3 уровня детализации
+- [reports/architecture-inventory-2026-04-16.md](reports/architecture-inventory-2026-04-16.md) — 3 находки + 3 gap'а
+- [CLAUDE.md](CLAUDE.md) — мастер-конфиг
+- [MIGRATION.md](MIGRATION.md) — legacy план `knowledge-base/`
+
+### 🧠 Knowledge base
+
+- [wiki/index.md](wiki/index.md) — каталог всех страниц
+- [wiki/log.md](wiki/log.md) — хронология
+- `wiki/ideas/` — 60 идей (58 с `topics:[system-design]`)
+- `wiki/graph/edges.jsonl` — 137 edges, 4 communities
+- `wiki/topics/system-design-hub.md` — navigation hub
+
+### 🤖 Инфраструктура для Шага 2
+
+- [.claude/agents/sweep-worker.md](.claude/agents/sweep-worker.md) — batch worker
+- [.claude/agents/staging-writer.md](.claude/agents/staging-writer.md) — section writer
+- [.claude/skills/sweep-notion-bank.md](.claude/skills/sweep-notion-bank.md) — `/sweep-notion-bank`
+- [prompts/system-design-sweep-2026-04-16.md](prompts/system-design-sweep-2026-04-16.md) — 10-фазный инструктаж
+- [prompts/system-design-sweep-trigger.md](prompts/system-design-sweep-trigger.md) — короткий trigger
+
+### 🌐 Внешние системы
+
+| Ресурс | Адрес |
+|--------|-------|
+| GitHub | https://github.com/Bogersebekov/jetix-os |
+| Miro | https://miro.com/app/board/uXjVG2-05Ns=/ |
+| Сервер | `ssh ruslan@100.99.156.28` → `tmux a -t jetix` |
+| Notion Манифест | https://www.notion.so/3442496333bf818184a1fbc3108b38cb |
+| Notion Command Center | https://www.notion.so/3322496333bf8161b6d3ea789d039356 |
+
+### 🗺️ Roadmap-статус
+
+Полный план — в §10 [NOTION-MIGRATION-PLAN.md](design/NOTION-MIGRATION-PLAN.md).
+
+- ✅ Шаг 1 Inventory
+- ✅ Шаг 1.5 Birds-eye на человеческом
+- 🔄 **Шаг 2 (этот документ)** — в работе
+- 🔄 Шаг 2.α Quick extract Notion — в работе (сервер + локально)
+- ⏳ Шаг 2.β Заполнение 6 частей + новая Часть 7 "Правила миграции"
+- ⏳ Шаги 3-10 (см. migration plan)
