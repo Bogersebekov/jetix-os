@@ -58,6 +58,37 @@ and personal life. Owner: Ruslan (Berlin, Germany).
 - Commit messages: "[agent] action: description"
 - Message IDs: msg-YYYYMMDD-NNN
 
+## Wiki Architecture v2 (Karpathy LLM Wiki + OmegaWiki)
+
+**Главный KB:** `wiki/` (не `knowledge-base/` — тот в миграции, см. MIGRATION.md).
+
+**Структура:**
+- `wiki/index.md` — каталог всех страниц (обновляется /ingest)
+- `wiki/log.md` — append-only хронология
+- 9 entity types: concepts/, entities/, sources/, topics/, ideas/, experiments/, claims/, summaries/, foundations/
+- `wiki/comparisons/` — bonus, filing loop из /ask
+- `wiki/niches/` — 6 срезов (personal, business, sales, life, tech, meta)
+- `wiki/graph/edges.jsonl` — typed edges (9 типов)
+- `wiki/_templates/` — шаблоны
+
+**Skills (wiki pipeline v2):**
+- `/ingest <path-or-url>` — источник → wiki/ страницы + index + log + edges
+- `/ask <question>` — поиск + синтез с citations + опциональная запись в comparisons/
+- `/lint` — health check (orphans, contradictions, stale claims)
+- `/consolidate` — merge дубликатов
+- `/build-graph` — пересборка communities
+
+**Per-agent memory (5 layers):**
+- `agents/{id}/system.md` — Core (system prompt)
+- `agents/{id}/strategies.md` — System Prompt Learning накопления
+- `agents/{id}/scratchpad.md` — Working memory
+- `agents/{id}/niche/` — symlinks в wiki/niches/{niche}/
+- `comms/mailboxes/{id}.jsonl` — Recall
+
+**Принцип:** у агентов НЕТ изолированной KB. Общая wiki/, каждый агент видит свой срез через niche/ symlinks.
+
+**Legacy:** `knowledge-base/`, старый pipeline raw→ingested→compiled→linted→ready — в миграции, см. `MIGRATION.md`.
+
 ## Кто ты
 Ты — AI-оператор системы Jetix OS. Владелец: Руслан (Берлин).
 Языки: русский (основной), английский, немецкий.
