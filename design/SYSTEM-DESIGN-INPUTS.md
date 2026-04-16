@@ -7,11 +7,15 @@ created: 2026-04-16
 updated: 2026-04-16
 structure: 7-parts-aligned-with-SYSTEM-DESIGN-HUMAN-v0.2
 stats:
-  sources_scanned: 66
-  relevant_ingested: 65
-  total_wiki_pages_with_system-design_tag: 66
-  unclear_for_manual_review: 10
-  notion_phases_blocked: 3
+  sources_scanned: 326                 # 66 wiki + 260 Notion sweep
+  relevant_ingested: 264               # 65 wiki + 199 new Notion
+  total_wiki_pages_with_system-design_tag: 466
+  unclear_for_manual_review: 11        # 10 wiki + 1 untitled Notion
+  notion_phases_blocked: 0             # все α-фазы выполнены
+  notion_alpha_phases_complete: [α.1, α.2, α.3, α.4, α.5]
+  daily_log_dates_processed: 43
+  notion_system_pages_ingested: 11
+  staging_new_markers: 75              # [NEW 2026-04-16α] на 75 тезисах
 ---
 
 # SYSTEM-DESIGN-INPUTS — выжимки под 7 частей SYSTEM-DESIGN-HUMAN.md
