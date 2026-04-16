@@ -12,6 +12,7 @@ import kanbanRoute from './routes/kanban.js';
 import observabilityRoute from './routes/observability.js';
 import chatRoute from './routes/chat.js';
 import coordinationRoute from './routes/coordination.js';
+import focusRoute from './routes/focus.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -29,18 +30,19 @@ app.use((_req, res, next) => {
 });
 app.use(express.json());
 
-app.get('/api/health', (_req, res) => {
+app.get('/api/v1/health', (_req, res) => {
   res.json({ status: 'ok', jetix_root: JETIX_ROOT, timestamp: new Date().toISOString() });
 });
 
-app.use('/api/projects', projectsRoute(JETIX_ROOT));
-app.use('/api/decisions', decisionsRoute(JETIX_ROOT));
-app.use('/api/agents', agentsRoute(JETIX_ROOT));
-app.use('/api/state', stateRoute(JETIX_ROOT));
-app.use('/api/kanban', kanbanRoute(JETIX_ROOT));
-app.use('/api/observability', observabilityRoute());
-app.use('/api/chat', chatRoute(JETIX_ROOT));
-app.use('/api/coordination', coordinationRoute(JETIX_ROOT));
+app.use('/api/v1/projects', projectsRoute(JETIX_ROOT));
+app.use('/api/v1/decisions', decisionsRoute(JETIX_ROOT));
+app.use('/api/v1/agents', agentsRoute(JETIX_ROOT));
+app.use('/api/v1/state', stateRoute(JETIX_ROOT));
+app.use('/api/v1/kanban', kanbanRoute(JETIX_ROOT));
+app.use('/api/v1/observability', observabilityRoute());
+app.use('/api/v1/chat', chatRoute(JETIX_ROOT));
+app.use('/api/v1/coordination', coordinationRoute(JETIX_ROOT));
+app.use('/api/v1/focus', focusRoute(JETIX_ROOT));
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`[jetix-dashboard-server] :${PORT} JETIX_ROOT=${JETIX_ROOT}`);

@@ -10,31 +10,29 @@ export function RecentDecisions({
 }) {
   if (isLoading) {
     return (
-      <div className='space-y-3'>
-        {Array.from({ length: 5 }).map((_, i) => (
-          <Skeleton key={i} className='h-10 w-full' />
+      <div className='space-y-2'>
+        {Array.from({ length: 3 }).map((_, i) => (
+          <Skeleton key={i} className='h-6 w-full' />
         ))}
       </div>
     )
   }
 
-  const decisions = data?.decisions || []
+  const decisions = (data?.decisions || []).slice(0, 5)
   const date = data?.updated_at ? new Date(data.updated_at).toISOString().slice(0, 10) : '—'
 
   if (!decisions.length)
     return <p className='text-muted-foreground text-sm'>Нет решений</p>
 
   return (
-    <div className='space-y-4'>
+    <div className='space-y-1.5'>
       {decisions.map((d, i) => (
-        <div key={i} className='flex items-start gap-3 text-sm'>
-          <div className='text-muted-foreground min-w-[2rem] text-xs font-mono'>
+        <div key={i} className='flex items-baseline gap-2 text-sm'>
+          <span className='text-muted-foreground text-xs font-mono shrink-0'>
             #{decisions.length - i}
-          </div>
-          <div className='flex-1'>
-            <p className='leading-snug'>{d}</p>
-            <p className='text-muted-foreground text-xs mt-1'>{date}</p>
-          </div>
+          </span>
+          <span className='flex-1 leading-snug'>{d}</span>
+          <span className='text-muted-foreground text-xs shrink-0'>{date}</span>
         </div>
       ))}
     </div>

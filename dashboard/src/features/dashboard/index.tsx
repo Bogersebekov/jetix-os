@@ -1,6 +1,8 @@
 import { useQuery } from '@tanstack/react-query'
-import { Rocket, Users, CheckCircle2, ListTodo } from 'lucide-react'
+import { CalendarDays } from 'lucide-react'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { Separator } from '@/components/ui/separator'
+import { Skeleton } from '@/components/ui/skeleton'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
@@ -11,42 +13,12 @@ import { api } from '@/lib/api'
 import { ProjectList } from './components/project-list'
 import { RecentDecisions } from './components/recent-decisions'
 
-function KpiCard({
-  title,
-  value,
-  icon: Icon,
-  loading,
-  hint,
-}: {
-  title: string
-  value: string | number
-  icon: React.ComponentType<{ className?: string }>
-  loading?: boolean
-  hint?: string
-}) {
-  return (
-    <Card>
-      <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-2'>
-        <CardTitle className='text-sm font-medium'>{title}</CardTitle>
-        <Icon className='text-muted-foreground h-4 w-4' />
-      </CardHeader>
-      <CardContent>
-        <div className='text-2xl font-bold'>{loading ? '—' : value}</div>
-        {hint && <p className='text-muted-foreground text-xs'>{hint}</p>}
-      </CardContent>
-    </Card>
-  )
-}
-
 export function Dashboard() {
+  const focusQ = useQuery({ queryKey: ['focus'], queryFn: api.focus })
   const projectsQ = useQuery({ queryKey: ['projects'], queryFn: api.projects })
-  const agentsQ = useQuery({ queryKey: ['agents'], queryFn: api.agents })
   const decisionsQ = useQuery({ queryKey: ['decisions'], queryFn: api.decisions })
 
-  const activeProjects =
-    projectsQ.data?.projects.filter((p) => p.status === 'Активный').length ?? 0
-  const agentsOnline = agentsQ.data?.agents.length ?? 0
-  const decisionsCount = decisionsQ.data?.decisions.length ?? 0
+  const focus = focusQ.data
 
   return (
     <>
@@ -60,62 +32,102 @@ export function Dashboard() {
       </Header>
 
       <Main>
-        <div className='mb-4 flex items-center justify-between'>
-          <div>
-            <h1 className='text-2xl font-bold tracking-tight'>Command Center</h1>
-            <p className='text-muted-foreground text-sm'>
-              Jetix OS — обзор проектов, агентов и решений
-            </p>
-          </div>
+        <div className='mb-4'>
+          <h1 className='text-2xl font-bold tracking-tight'>Command Center</h1>
+          <p className='text-muted-foreground text-sm'>
+            Jetix OS — стратегия, фокус, проекты
+          </p>
         </div>
 
-        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4 mb-4'>
-          <KpiCard
-            title='Active Projects'
-            value={activeProjects}
-            icon={Rocket}
-            loading={projectsQ.isLoading}
-            hint={`всего ${projectsQ.data?.projects.length ?? 0}`}
-          />
-          <KpiCard
-            title='Agents Online'
-            value={agentsOnline}
-            icon={Users}
-            loading={agentsQ.isLoading}
-          />
-          <KpiCard
-            title='Decisions Made'
-            value={decisionsCount}
-            icon={CheckCircle2}
-            loading={decisionsQ.isLoading}
-          />
-          <KpiCard title='Pending Tasks' value={0} icon={ListTodo} />
-        </div>
+        {/* Стратегия */}
+        <Card className='mb-4'>
+          <CardContent className='pt-6'>
+            {focusQ.isLoading ? (
+              <div className='space-y-3'>
+                <Skeleton className='h-8 w-3/4' />
+                <Skeleton className='h-4 w-1/2' />
+              </div>
+            ) : (
+              <div className='flex flex-col gap-4 md:flex-row md:gap-8'>
+                <div className='flex-[2] min-w-0'>
+                  <p className='text-xl font-bold tracking-tight md:text-2xl'>
+                    {focus?.global_goal ?? '—'}
+                  </p>
+                  <p className='text-muted-foreground text-xs mt-1'>Глобальная цель</p>
+                </div>
+                <Separator orientation='vertical' className='hidden md:block h-auto' />
+                <div className='flex-1 min-w-0'>
+                  <p className='text-muted-foreground text-xs mb-2'>Фокус недели</p>
+                  <ol className='list-decimal list-inside space-y-0.5 text-sm'>
+                    {focus?.week_focus.items.map((item, i) => (
+                      <li key={i} className='leading-snug'>{item}</li>
+                    ))}
+                  </ol>
+                  <p className='text-muted-foreground text-[11px] mt-2'>
+                    Неделя: {focus?.week_focus.week ?? '—'}
+                  </p>
+                </div>
+              </div>
+            )}
+          </CardContent>
+        </Card>
 
-        <div className='grid grid-cols-1 gap-4 lg:grid-cols-7'>
-          <Card className='col-span-1 lg:col-span-4'>
-            <CardHeader>
-              <CardTitle>Проекты</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ProjectList
-                projects={projectsQ.data?.projects}
-                isLoading={projectsQ.isLoading}
-              />
-            </CardContent>
-          </Card>
-          <Card className='col-span-1 lg:col-span-3'>
-            <CardHeader>
-              <CardTitle>Recent Decisions</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <RecentDecisions
-                data={decisionsQ.data}
-                isLoading={decisionsQ.isLoading}
-              />
-            </CardContent>
-          </Card>
-        </div>
+        {/* Фокус дня */}
+        <Card className='mb-4 border-l-4 border-l-amber-500'>
+          <CardContent className='flex items-start gap-3 py-3'>
+            <CalendarDays className='text-amber-500 mt-0.5 h-5 w-5 shrink-0' />
+            <div className='flex-1 min-w-0'>
+              {focusQ.isLoading ? (
+                <Skeleton className='h-5 w-1/2' />
+              ) : (
+                <>
+                  <div className='flex items-baseline gap-2 flex-wrap'>
+                    <span className='font-semibold text-sm'>Фокус дня</span>
+                    <span className='text-muted-foreground text-xs'>
+                      {focus?.day_focus.date ?? '—'}
+                    </span>
+                  </div>
+                  <div className='flex flex-wrap gap-x-3 gap-y-0.5 mt-1 text-sm'>
+                    {focus?.day_focus.items.map((item, i) => (
+                      <span key={i} className='flex items-center gap-1.5'>
+                        {i > 0 && (
+                          <span className='text-muted-foreground hidden sm:inline'>·</span>
+                        )}
+                        {item}
+                      </span>
+                    ))}
+                  </div>
+                </>
+              )}
+            </div>
+          </CardContent>
+        </Card>
+
+        {/* Активные проекты */}
+        <Card className='mb-4'>
+          <CardHeader className='pb-3'>
+            <CardTitle className='text-base'>Активные проекты</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <ProjectList
+              projects={projectsQ.data?.projects}
+              isLoading={projectsQ.isLoading}
+            />
+          </CardContent>
+        </Card>
+
+        {/* Последние решения */}
+        <Card>
+          <CardHeader className='pb-3'>
+            <CardTitle className='text-base'>Последние решения</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <RecentDecisions
+              data={decisionsQ.data}
+              isLoading={decisionsQ.isLoading}
+            />
+          </CardContent>
+        </Card>
       </Main>
     </>
   )

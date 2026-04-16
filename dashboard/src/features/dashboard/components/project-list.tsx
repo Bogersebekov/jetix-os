@@ -1,17 +1,21 @@
 import { Badge } from '@/components/ui/badge'
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Skeleton } from '@/components/ui/skeleton'
 import type { Project } from '@/lib/api'
 
-const PRIORITY_COLORS: Record<number, { label: string; bg: string; fg: string }> = {
-  1: { label: 'P1', bg: '#f38ba8', fg: '#1e1e2e' },
-  2: { label: 'P2', bg: '#fab387', fg: '#1e1e2e' },
-  3: { label: 'P3', bg: '#f9e2af', fg: '#1e1e2e' },
-  4: { label: 'P4', bg: '#6c7086', fg: '#ffffff' },
+const PRIORITY_COLORS: Record<number, { label: string; className: string }> = {
+  1: { label: 'P1', className: 'bg-red-500 text-white' },
+  2: { label: 'P2', className: 'bg-orange-500 text-white' },
+  3: { label: 'P3', className: 'bg-yellow-500 text-black' },
+  4: { label: 'P4', className: 'bg-muted text-muted-foreground' },
 }
 
-function prioStyle(p: number) {
-  return PRIORITY_COLORS[p] || { label: `P${p}`, bg: '#6c7086', fg: '#ffffff' }
+function prioBadge(p: number) {
+  const s = PRIORITY_COLORS[p] || { label: `P${p}`, className: 'bg-muted text-muted-foreground' }
+  return (
+    <span className={`inline-flex items-center rounded px-1.5 py-0.5 text-[11px] font-bold leading-none ${s.className}`}>
+      {s.label}
+    </span>
+  )
 }
 
 export function ProjectList({
@@ -23,48 +27,38 @@ export function ProjectList({
 }) {
   if (isLoading) {
     return (
-      <div className='space-y-3'>
+      <div className='space-y-2'>
         {Array.from({ length: 4 }).map((_, i) => (
-          <Skeleton key={i} className='h-24 w-full' />
+          <Skeleton key={i} className='h-8 w-full' />
         ))}
       </div>
     )
   }
 
-  const sorted = [...(projects || [])].sort((a, b) => a.priority - b.priority)
+  const active = [...(projects || [])]
+    .filter((p) => p.status === 'Активный' || p.status === 'Active')
+    .sort((a, b) => a.priority - b.priority)
+
+  if (!active.length)
+    return <p className='text-muted-foreground text-sm'>Нет активных проектов</p>
 
   return (
-    <div className='space-y-3'>
-      {sorted.map((p) => {
-        const s = prioStyle(p.priority)
-        return (
-          <Card key={p.name}>
-            <CardHeader className='pb-2'>
-              <div className='flex items-center gap-2'>
-                <span
-                  className='rounded px-2 py-0.5 text-xs font-bold'
-                  style={{ backgroundColor: s.bg, color: s.fg }}
-                >
-                  {s.label}
-                </span>
-                <CardTitle className='text-base'>{p.name}</CardTitle>
-                <Badge variant='outline' className='ms-auto'>
-                  {p.status}
-                </Badge>
-              </div>
-            </CardHeader>
-            <CardContent className='space-y-1 pt-0'>
-              <p className='text-muted-foreground text-xs'>
-                <span className='font-medium'>Фаза:</span> {p.current_phase}
-              </p>
-              <p className='text-sm'>{p.description}</p>
-            </CardContent>
-          </Card>
-        )
-      })}
-      {sorted.length === 0 && (
-        <p className='text-muted-foreground text-sm'>Нет проектов</p>
-      )}
+    <div className='space-y-1'>
+      {active.map((p) => (
+        <div
+          key={p.name}
+          className='flex items-center gap-3 rounded-md px-2 py-1.5 text-sm hover:bg-muted/50'
+        >
+          {prioBadge(p.priority)}
+          <span className='font-medium flex-1 truncate'>{p.name}</span>
+          <span className='text-muted-foreground text-xs truncate max-w-[160px]'>
+            {p.current_phase}
+          </span>
+          <Badge variant='outline' className='text-[11px]'>
+            {p.status}
+          </Badge>
+        </div>
+      ))}
     </div>
   )
 }

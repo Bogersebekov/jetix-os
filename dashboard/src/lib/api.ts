@@ -63,6 +63,18 @@ export type ObservabilityData = {
   by_agent: { agent: string; tokens: number; cost: number }[]
 }
 
+export type FocusData = {
+  global_goal: string
+  week_focus: {
+    week: string
+    items: string[]
+  }
+  day_focus: {
+    date: string
+    items: string[]
+  }
+}
+
 export type Project = {
   name: string
   status: string
@@ -106,19 +118,20 @@ export type MailboxPayload = {
 }
 
 export const api = {
-  projects: () => j<{ updated_at?: string; projects: Project[] }>('/api/projects'),
-  decisions: () => j<DecisionsPayload>('/api/decisions'),
-  agents: () => j<{ agents: Agent[] }>('/api/agents'),
-  mailbox: (name: string) => j<MailboxPayload>(`/api/agents/${encodeURIComponent(name)}/mailbox`),
-  kanban: () => j<KanbanState>('/api/kanban'),
-  observability: () => j<ObservabilityData>('/api/observability'),
-  coordination: () => j<CoordinationData>('/api/coordination'),
-  chatAgents: () => j<{ agents: ChatAgent[] }>('/api/chat/agents'),
+  focus: () => j<FocusData>('/api/v1/focus'),
+  projects: () => j<{ updated_at?: string; projects: Project[] }>('/api/v1/projects'),
+  decisions: () => j<DecisionsPayload>('/api/v1/decisions'),
+  agents: () => j<{ agents: Agent[] }>('/api/v1/agents'),
+  mailbox: (name: string) => j<MailboxPayload>(`/api/v1/agents/${encodeURIComponent(name)}/mailbox`),
+  kanban: () => j<KanbanState>('/api/v1/kanban'),
+  observability: () => j<ObservabilityData>('/api/v1/observability'),
+  coordination: () => j<CoordinationData>('/api/v1/coordination'),
+  chatAgents: () => j<{ agents: ChatAgent[] }>('/api/v1/chat/agents'),
   chatMailbox: (name: string) =>
-    j<MailboxPayload>(`/api/chat/mailbox/${encodeURIComponent(name)}`),
-  chatHuman: () => j<MailboxPayload>('/api/chat/human'),
+    j<MailboxPayload>(`/api/v1/chat/mailbox/${encodeURIComponent(name)}`),
+  chatHuman: () => j<MailboxPayload>('/api/v1/chat/human'),
   chatSend: (payload: { to: string; from?: string; subject?: string; content: string }) =>
-    fetch(`${API_URL}/api/chat/send`, {
+    fetch(`${API_URL}/api/v1/chat/send`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(payload),
@@ -126,6 +139,6 @@ export const api = {
       if (!r.ok) throw new Error(`send → ${r.status}`)
       return r.json() as Promise<{ ok: boolean; message: MailboxMessage }>
     }),
-  saveKanban: (state: KanbanState) => jput<{ ok: boolean }, KanbanState>('/api/kanban', state),
-  health: () => j<{ status: string; jetix_root: string }>('/api/health'),
+  saveKanban: (state: KanbanState) => jput<{ ok: boolean }, KanbanState>('/api/v1/kanban', state),
+  health: () => j<{ status: string; jetix_root: string }>('/api/v1/health'),
 }
