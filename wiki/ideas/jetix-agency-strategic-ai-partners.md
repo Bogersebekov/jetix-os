@@ -13,6 +13,7 @@ related:
   - entities/jetix.md
   - sources/2026-04-16-jetix-agency-strategic-ai-partners.md
 tags: [#type/idea, #topic/business-model, #topic/jetix-vision]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

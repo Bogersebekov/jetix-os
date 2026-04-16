@@ -12,6 +12,7 @@ related:
   - ideas/open-source-premium-jetix-model.md
   - sources/2026-04-16-revenue-share-jetix-philosophy.md
 tags: [#type/idea, #topic/philosophy, #topic/business-model, #topic/jetix-principle]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

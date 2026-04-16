@@ -11,6 +11,7 @@ related:
   - ideas/become-valuable-before-going-to-market.md
   - sources/2026-04-16-system-first-myth-second.md
 tags: [#type/idea, #topic/jetix-principle, #topic/strategy, #topic/philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

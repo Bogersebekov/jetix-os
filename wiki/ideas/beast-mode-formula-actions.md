@@ -12,6 +12,7 @@ related:
   - ideas/resources-without-self-management-trap.md
   - sources/2026-04-16-beast-mode-formula-actions.md
 tags: [#type/idea, #topic/life-os, #topic/personal, #topic/protocol]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

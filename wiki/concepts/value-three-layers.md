@@ -7,6 +7,7 @@ sources:
 related:
   - ideas/value-three-layers.md
 tags: [#type/concept, #topic/life-os, #topic/philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

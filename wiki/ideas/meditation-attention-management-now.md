@@ -12,6 +12,7 @@ related:
   - ideas/track-state-and-rest.md
   - sources/2026-04-16-meditation-attention-management-now.md
 tags: [#type/idea, #status/planned, #topic/life-os, #topic/skill, #topic/this-week]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

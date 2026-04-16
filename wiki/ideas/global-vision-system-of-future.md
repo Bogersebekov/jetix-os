@@ -10,6 +10,7 @@ related:
   - ideas/github-for-business-projects.md
   - sources/2026-04-16-global-vision-system-of-future.md
 tags: [#type/idea, #topic/vision, #topic/community]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

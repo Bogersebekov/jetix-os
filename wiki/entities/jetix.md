@@ -19,6 +19,7 @@ related:
   - concepts/digital-sovereignty.md
   - claims/business-projects-like-code.md
 tags: [#type/entity, #topic/jetix-core]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

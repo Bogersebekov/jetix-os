@@ -10,6 +10,7 @@ related:
   - concepts/think-do-feedback-loop.md
   - sources/2026-04-16-tools-feedback-community-flywheel.md
 tags: [#type/idea, #topic/sales, #topic/community, #topic/outreach]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

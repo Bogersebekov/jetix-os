@@ -10,6 +10,7 @@ related:
   - ideas/github-for-business-projects.md
   - sources/2026-04-16-anti-free-riding-accountability.md
 tags: [#type/idea, #topic/community, #topic/governance, #status/open-question]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

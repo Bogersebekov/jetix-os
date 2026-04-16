@@ -7,6 +7,7 @@ sources:
 related:
   - ideas/think-do-feedback-loop.md
 tags: [#type/concept, #topic/thinking, #topic/productivity, #topic/life-os]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

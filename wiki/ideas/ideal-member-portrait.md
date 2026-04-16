@@ -11,6 +11,7 @@ related:
   - concepts/curated-community-access.md
   - sources/2026-04-16-ideal-member-portrait.md
 tags: [#type/idea, #topic/icp, #topic/community]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

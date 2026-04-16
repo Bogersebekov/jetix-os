@@ -12,6 +12,7 @@ related:
   - ideas/value-three-layers.md
   - sources/2026-04-16-development-cycle-ignorance-to-action.md
 tags: [#type/idea, #topic/meta, #topic/development]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

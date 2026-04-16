@@ -12,6 +12,7 @@ related:
   - entities/jetix.md
   - sources/2026-04-16-200-year-vision-jetix-humanity.md
 tags: [#type/idea, #topic/vision, #topic/long-term, #topic/jetix-philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

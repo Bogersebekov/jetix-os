@@ -12,6 +12,7 @@ related:
   - ideas/focus-theory-5-people-ai-1-task.md
   - sources/2026-04-16-ai-analytics-grouping-launch-speed.md
 tags: [#type/idea, #topic/strategy, #topic/ai, #topic/business-model]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

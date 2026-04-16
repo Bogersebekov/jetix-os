@@ -12,6 +12,7 @@ related:
   - ideas/jetix-open-source-philosophy.md
   - sources/2026-04-16-merchants-analogy-jetix-unifies-via-ai.md
 tags: [#type/idea, #topic/positioning, #topic/vision, #topic/historical-analogy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

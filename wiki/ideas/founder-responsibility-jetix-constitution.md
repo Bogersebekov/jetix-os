@@ -13,6 +13,7 @@ related:
   - entities/jetix.md
   - sources/2026-04-16-founder-responsibility-jetix-constitution.md
 tags: [#type/idea, #topic/governance, #topic/jetix-principle]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

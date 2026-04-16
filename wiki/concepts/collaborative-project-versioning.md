@@ -9,6 +9,7 @@ related:
   - claims/business-projects-like-code.md
   - concepts/curated-community-access.md
 tags: [#type/concept, #topic/collaboration, #topic/platform]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

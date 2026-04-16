@@ -8,6 +8,7 @@ related:
   - ideas/jetix-open-source-philosophy.md
   - ideas/github-for-business-projects.md
 tags: [#type/concept, #topic/open-source, #topic/philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

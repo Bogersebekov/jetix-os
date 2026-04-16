@@ -12,6 +12,7 @@ related:
   - ideas/automate-research-via-crewai.md
   - sources/2026-04-16-ai-reverse-engineering-business-in-days.md
 tags: [#type/idea, #topic/ai, #topic/capability, #topic/jetix-edge]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

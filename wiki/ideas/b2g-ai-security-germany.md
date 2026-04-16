@@ -10,6 +10,7 @@ related:
   - concepts/digital-sovereignty.md
   - sources/2026-04-16-b2g-ai-security-germany.md
 tags: [#type/idea, #topic/b2g, #topic/germany, #topic/ai-security]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

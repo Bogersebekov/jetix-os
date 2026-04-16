@@ -11,6 +11,7 @@ related:
   - ideas/unite-adventurers-biggest-adventure.md
   - sources/2026-04-16-jetix-as-infrastructure-metaphor.md
 tags: [#type/idea, #topic/positioning, #topic/metaphor]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

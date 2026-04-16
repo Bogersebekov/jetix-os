@@ -12,6 +12,7 @@ related:
   - concepts/think-do-feedback-loop.md
   - sources/2026-04-16-weekly-analysis-rest-as-life-maintenance.md
 tags: [#type/idea, #topic/life-os, #topic/ritual]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

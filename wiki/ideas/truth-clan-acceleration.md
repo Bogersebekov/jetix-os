@@ -11,6 +11,7 @@ related:
   - ideas/tool-community-symbiosis-loop.md
   - sources/2026-04-16-truth-clan-acceleration.md
 tags: [#type/idea, #topic/relationships, #topic/community-principle]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

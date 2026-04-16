@@ -12,6 +12,7 @@ related:
   - ideas/curated-community-access.md
   - sources/2026-04-16-club-as-product-marathon-model.md
 tags: [#type/idea, #topic/community, #topic/product]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

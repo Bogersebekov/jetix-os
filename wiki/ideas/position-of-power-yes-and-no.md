@@ -11,6 +11,7 @@ related:
   - ideas/urgent-search-ai-analyst-communities.md
   - sources/2026-04-16-position-of-power-yes-and-no.md
 tags: [#type/idea, #topic/personal, #topic/strategy, #topic/foundational]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

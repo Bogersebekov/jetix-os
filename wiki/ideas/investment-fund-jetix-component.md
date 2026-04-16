@@ -12,6 +12,7 @@ related:
   - entities/jetix.md
   - sources/2026-04-16-investment-fund-jetix-component.md
 tags: [#type/idea, #status/planned, #topic/business-model, #topic/finance, #topic/phase-2]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

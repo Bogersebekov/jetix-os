@@ -12,6 +12,7 @@ related:
   - ideas/revenue-share-jetix-philosophy.md
   - sources/2026-04-16-aggression-through-internal-safety.md
 tags: [#type/idea, #topic/strategy, #topic/jetix-philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

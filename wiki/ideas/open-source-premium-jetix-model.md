@@ -12,6 +12,7 @@ related:
   - concepts/digital-sovereignty.md
   - sources/2026-04-16-open-source-premium-jetix-model.md
 tags: [#type/idea, #topic/business-model, #topic/open-source, #topic/jetix-principle]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

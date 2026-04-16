@@ -11,6 +11,7 @@ related:
   - claims/business-projects-like-code.md
   - sources/2026-04-16-github-for-business-projects.md
 tags: [#type/idea, #status/raw, #topic/community, #topic/platform]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

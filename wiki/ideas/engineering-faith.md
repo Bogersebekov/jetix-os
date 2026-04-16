@@ -9,6 +9,7 @@ related:
   - concepts/engineering-faith.md
   - sources/2026-04-16-engineering-faith.md
 tags: [#type/idea, #topic/philosophy, #topic/mindset, #topic/jetix-principle]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

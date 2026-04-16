@@ -10,6 +10,7 @@ related:
   - concepts/jetix-open-source-principles.md
   - sources/2026-04-16-jetix-open-source-philosophy.md
 tags: [#type/idea, #topic/open-source, #topic/philosophy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

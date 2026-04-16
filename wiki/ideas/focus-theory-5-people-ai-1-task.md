@@ -11,6 +11,7 @@ related:
   - ideas/automate-research-via-crewai.md
   - sources/2026-04-16-focus-theory-5-people-ai-1-task.md
 tags: [#type/idea, #status/planned, #topic/productivity, #topic/team, #topic/ai]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

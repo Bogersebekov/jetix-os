@@ -12,6 +12,7 @@ related:
   - ideas/automate-research-via-crewai.md
   - sources/2026-04-16-scaling-plan-self-clients-team-worldwide.md
 tags: [#type/idea, #status/planned, #topic/roadmap, #topic/strategy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

@@ -11,6 +11,7 @@ related:
   - ideas/money-value-mindset-pre-launch.md
   - sources/2026-04-16-exchange-as-base-function.md
 tags: [#type/idea, #topic/economics, #topic/sales, #topic/foundational]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

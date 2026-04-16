@@ -12,6 +12,7 @@ related:
   - ideas/action-dosage-principle.md
   - sources/2026-04-16-track-state-and-rest.md
 tags: [#type/idea, #topic/life-os, #topic/recovery, #topic/metrics]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

@@ -11,6 +11,7 @@ related:
   - ideas/ideal-member-portrait.md
   - sources/2026-04-16-supportive-environment-pulls-up.md
 tags: [#type/idea, #topic/relationships, #topic/personal]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

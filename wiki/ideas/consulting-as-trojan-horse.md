@@ -10,6 +10,7 @@ related:
   - ideas/jetix-open-source-philosophy.md
   - sources/2026-04-16-consulting-as-trojan-horse.md
 tags: [#type/idea, #topic/business-model, #topic/strategy]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

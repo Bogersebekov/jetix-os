@@ -10,6 +10,7 @@ related:
   - ideas/value-three-layers.md
   - sources/2026-04-16-day-influence-scale-0-100.md
 tags: [#type/idea, #topic/life-os, #topic/productivity, #topic/metrics]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

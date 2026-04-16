@@ -11,6 +11,7 @@ related:
   - ideas/system-first-myth-second.md
   - sources/2026-04-16-engineering-thinking-meta-role.md
 tags: [#type/idea, #topic/philosophy, #topic/skill, #topic/meta]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

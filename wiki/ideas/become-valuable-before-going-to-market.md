@@ -10,6 +10,7 @@ related:
   - ideas/sales-as-lighting-up-value.md
   - sources/2026-04-16-become-valuable-before-going-to-market.md
 tags: [#type/idea, #topic/sales, #topic/positioning, #topic/skill]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

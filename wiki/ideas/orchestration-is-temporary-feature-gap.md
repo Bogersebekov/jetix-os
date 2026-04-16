@@ -10,6 +10,7 @@ related:
   - ideas/automate-research-via-crewai.md
   - sources/2026-04-16-orchestration-is-temporary-feature-gap.md
 tags: [#type/idea, #topic/ai, #topic/architecture, #status/contrarian]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

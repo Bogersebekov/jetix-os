@@ -10,6 +10,7 @@ related:
   - ideas/engineering-faith.md
   - sources/2026-04-16-value-three-layers.md
 tags: [#type/idea, #topic/philosophy, #topic/life-os]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

@@ -7,6 +7,7 @@ sources:
 related:
   - ideas/engineering-faith.md
 tags: [#type/concept, #topic/philosophy, #topic/mindset]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

@@ -11,6 +11,7 @@ related:
   - ideas/focus-theory-5-people-ai-1-task.md
   - sources/2026-04-16-virtual-c-suite-expert-calibration.md
 tags: [#type/idea, #status/planned, #topic/ai, #topic/agents, #topic/expertise]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

@@ -12,6 +12,7 @@ related:
   - ideas/charged-vs-chill-modes.md
   - sources/2026-04-16-resources-without-self-management-trap.md
 tags: [#type/idea, #topic/personal, #topic/positioning]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

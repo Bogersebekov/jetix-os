@@ -8,6 +8,7 @@ related:
   - ideas/jetix-open-source-philosophy.md
   - concepts/jetix-open-source-principles.md
 tags: [#type/concept, #topic/open-source, #topic/positioning]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

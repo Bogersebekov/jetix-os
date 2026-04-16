@@ -8,6 +8,7 @@ sources:
 related:
   - sources/2026-04-16-action-dosage-principle.md
 tags: [#type/idea, #topic/productivity, #topic/life-os, #topic/health]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

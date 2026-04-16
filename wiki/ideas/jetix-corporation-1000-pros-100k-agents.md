@@ -14,6 +14,7 @@ related:
   - entities/jetix.md
   - sources/2026-04-16-jetix-corporation-1000-pros-100k-agents.md
 tags: [#type/idea, #topic/north-star, #topic/long-term, #topic/jetix-vision]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

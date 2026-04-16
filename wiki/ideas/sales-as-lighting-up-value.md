@@ -11,6 +11,7 @@ related:
   - ideas/become-valuable-before-going-to-market.md
   - sources/2026-04-16-sales-as-lighting-up-value.md
 tags: [#type/idea, #topic/sales, #topic/communication]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

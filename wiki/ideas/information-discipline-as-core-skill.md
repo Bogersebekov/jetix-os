@@ -13,6 +13,7 @@ related:
   - sources/2026-04-16-information-discipline-as-core-skill.md
   - sources/2026-04-16-information-discipline-as-core-skill-2.md
 tags: [#type/idea, #topic/skill, #topic/ai, #topic/product, #topic/training]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: high

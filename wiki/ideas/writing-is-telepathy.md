@@ -9,6 +9,7 @@ related:
   - concepts/writing-as-telepathy.md
   - sources/2026-04-16-writing-is-telepathy.md
 tags: [#type/idea, #topic/writing, #topic/philosophy, #topic/marketing]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium

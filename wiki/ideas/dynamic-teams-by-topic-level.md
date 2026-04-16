@@ -10,6 +10,7 @@ related:
   - ideas/jetix-open-source-philosophy.md
   - sources/2026-04-16-dynamic-teams-by-topic-level.md
 tags: [#type/idea, #topic/community, #topic/organization, #topic/ai]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: low

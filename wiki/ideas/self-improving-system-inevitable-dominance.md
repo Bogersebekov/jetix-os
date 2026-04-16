@@ -12,6 +12,7 @@ related:
   - ideas/jetix-corporation-1000-pros-100k-agents.md
   - sources/2026-04-16-self-improving-system-inevitable-dominance.md
 tags: [#type/idea, #topic/strategy, #topic/long-term, #topic/jetix-thesis]
+topics: [system-design]
 created: 2026-04-16
 updated: 2026-04-16
 confidence: medium
