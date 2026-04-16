@@ -6,6 +6,18 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] build-graph | edges total: 65 | communities: 4 (by niche)
+Запущен после полного импорта 30 идей. degree-based community detection дал
+один гигантский связный компонент (43 ноды — все идеи Jetix переплетены),
+поэтому fallback по niche: business (27), tech (3), meta (8), life (5).
+Communities + summaries обновлены в wiki/graph/.
+
+## [2026-04-16] lint | report | total pages: 71, broken links: 11 (forward refs to entities/), orphans: 0, missing FM: 0
+Большинство broken links — намеренные ссылки на будущие entity-страницы
+(GitHub, Linux, Claude Code, knowledge-wiki-layer). Один битый slug исправлен:
+ideas/open-source-premium-model → ideas/open-source-premium-jetix-model.
+Отчёт: wiki/_lint-report-2026-04-16.md.
+
 ## [2026-04-16] ingest | notion-ideas batch 3/3 (ideas 22-30)
 Создано: 17 страниц wiki (8 новых ideas, 0 новых concepts, 9 sources). Edges: 22.
 Niches: business (5), life (3). Дубликат: #26 → объединён в [[ideas/information-discipline-as-core-skill]]

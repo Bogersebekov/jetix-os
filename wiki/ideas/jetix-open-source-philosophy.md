@@ -40,7 +40,7 @@ Linux — прецедент: открытый код, тысячи контри
 
 - Расширяет: [[concepts/jetix-open-source-principles]]
 - Поддерживает: [[ideas/github-for-business-projects]]
-- Связано с: [[ideas/open-source-premium-model]] (будет от #30)
+- Связано с: [[ideas/open-source-premium-jetix-model]]
 
 ## Источники
 
