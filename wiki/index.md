@@ -74,7 +74,7 @@ cannabis-refusal-beast-mode-orientation, development-cycle-ignorance-to-action,
 money-value-mindset-pre-launch, meditation-attention-management-now.
 
 ## Topics
-(empty)
+- [System Design — Управление проектами, философия работы](topics/system-design-hub.md) — hub-узел навигации по 65 страницам wiki/ с `topics: [system-design]`, структурированный по 6 частям SYSTEM-DESIGN-HUMAN.md [meta]
 
 ## Ideas
 - [GitHub для бизнес-проектов](ideas/github-for-business-projects.md) — платформа коллаборации с курацией и AI [business] [sources: 1]

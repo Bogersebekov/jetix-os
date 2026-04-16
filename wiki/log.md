@@ -6,6 +6,13 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] system-design sweep | tagged: 65 (54 ideas + 8 concepts + 1 claim + 2 entities) | hub created
+Phase 5 (system-design sweep run): 65 wiki-страниц помечены `topics: [system-design]`
+через `tools/_tag_system_design.py` (idempotent). 10 UNCLEAR пропущены.
+Phase 6: создан `wiki/topics/system-design-hub.md` — hub с навигацией по 6 частям
+SYSTEM-DESIGN-HUMAN.md. Добавлено 22 edges типа `part_of` (hub → ключевые ноды).
+**Notion-фазы (2/3/4) пропущены:** Notion MCP не аутентифицирован в этой сессии.
+
 ## [2026-04-16] build-graph v2 | edges: 137 | communities: 4 (by niche fallback)
 После импорта 60 идей. Один gigantic connected component (74 нод — все идеи Jetix плотно
 связаны). Fallback по niche: business 44, life 15, meta 10, tech 4. Communities + summaries
