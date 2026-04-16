@@ -136,7 +136,7 @@ export function Observability() {
                           border: '1px solid #3f3f46',
                           borderRadius: 6,
                         }}
-                        formatter={(v: number) => fmtNum(v)}
+                        formatter={(v) => fmtNum(Number(v))}
                       />
                       <Area
                         type='monotone'
@@ -173,7 +173,7 @@ export function Observability() {
                             border: '1px solid #3f3f46',
                             borderRadius: 6,
                           }}
-                          formatter={(v: number) => fmtUsd(v)}
+                          formatter={(v) => fmtUsd(Number(v))}
                         />
                         <Bar dataKey='cost' fill='#3b82f6' radius={[4, 4, 0, 0]} />
                       </BarChart>
@@ -208,7 +208,7 @@ export function Observability() {
                             border: '1px solid #3f3f46',
                             borderRadius: 6,
                           }}
-                          formatter={(v: number) => fmtNum(v)}
+                          formatter={(v) => fmtNum(Number(v))}
                         />
                         <Legend wrapperStyle={{ fontSize: 12 }} />
                       </PieChart>
