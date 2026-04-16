@@ -53,6 +53,9 @@ updated: 2026-04-16
 - [[claims/ai-agents-market-size-2026]] — $10.9B→$250B, CAGR ~47%
 - [[claims/mittelstand-opportunity-window]] — 82% застряли в PoC
 
+### Entities
+- [[entities/jetix]] — компания + сообщество + open-source платформа
+
 ### Sources
 - [[sources/2026-04-16-github-for-business-projects]]
 - [[sources/2026-04-16-jetix-open-source-philosophy]]

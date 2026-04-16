@@ -6,6 +6,12 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] backfill | 4 entities + slug fix
+Созданы entity-страницы: [[entities/jetix]], [[entities/claude-code]], [[entities/github]], [[entities/linux]].
+Закрывают 8 из 11 broken links в lint-отчёте. Slug-fix
+(open-source-premium-model → open-source-premium-jetix-model) уже сделан ранее.
+Niche backfill: business (1), tech (3).
+
 ## [2026-04-16] build-graph | edges total: 65 | communities: 4 (by niche)
 Запущен после полного импорта 30 идей. degree-based community detection дал
 один гигантский связный компонент (43 ноды — все идеи Jetix переплетены),

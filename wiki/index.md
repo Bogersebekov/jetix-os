@@ -18,7 +18,10 @@ updated: 2026-04-16
 - [Value three layers](concepts/value-three-layers.md) — ценить → знать → делать [life] [sources: 1]
 
 ## Entities
-(empty)
+- [Jetix](entities/jetix.md) — AI-консалтинговая компания + сообщество + open-source платформа [business]
+- [Claude Code](entities/claude-code.md) — основной AI-инструмент Jetix OS [tech]
+- [GitHub](entities/github.md) — платформа коллаборации, метафора для Jetix [tech]
+- [Linux](entities/linux.md) — open-source ОС, философская основа [tech]
 
 ## Sources
 - [GitHub для бизнес-проектов (Notion idea)](sources/2026-04-16-github-for-business-projects.md) — Jetix-сообщество по модели GitHub [business]

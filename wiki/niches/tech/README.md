@@ -27,6 +27,11 @@ updated: 2026-04-16
 ### Claims
 - [[claims/orchestration-layer-will-be-absorbed]] — контрарная ставка на 1-2 года
 
+### Entities
+- [[entities/claude-code]] — Anthropic CLI harness, основной AI-инструмент
+- [[entities/github]] — git-платформа, метафора Jetix
+- [[entities/linux]] — open-source OS, философская основа
+
 ### Sources
 - [[sources/2026-04-16-orchestration-is-temporary-feature-gap]]
 - [[sources/2026-04-16-automate-research-via-crewai]]
