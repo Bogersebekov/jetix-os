@@ -6,6 +6,16 @@ updated: 2026-04-16
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-04-16] notion-α.3 ingest 11 Notion-страниц о системе | sources: +11 | edges: +11
+11 ключевых Notion-страниц fetched через 3 параллельных sub-agents:
+Манифест, Архитектура Memory+KB Karpathy+, Command Center (191 строк + 17 sub-pages),
+Pipeline рабочего дня, Анализ недели, Типы чатов AI rules, Потоки информации,
+Формат страницы дня, Life OS, Research Hub (645 строк + 18 sub-pages — большая),
+ICP Page (409 строк + 1 sub-page). Все с frontmatter `topics: [system-design]`.
+Raw: raw/notion-pages/{slug}-2026-04-16.md (11 files). Source cards: wiki/sources/.
+Sub-pages — отмечены "for γ-фазы" в каждом raw dump.
+11 edges `part_of` добавлены hub → sources.
+
 ## [2026-04-16] notion-α.2 bulk ingest | RELEVANT: +199 ideas | sources: +199 | edges: +398
 Phase α.2 rule-based ingest из raw/notion-ideas-sweep-2026-04-16.jsonl (260 total):
 60 already imported, 200 new, 199 RELEVANT ingested (3 runs с фиксами regex +

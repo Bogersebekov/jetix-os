@@ -555,3 +555,14 @@
 {"from": "topics/system-design-hub.md", "to": "ideas/dekompozitsiya-zhizni-na-podproekty.md", "type": "part_of", "created": "2026-04-16", "confidence": "medium"}
 {"from": "ideas/audit-deystviy-po-vykhlopu-chtoby-bylo-na-ladoni.md", "to": "sources/2026-04-16-audit-deystviy-po-vykhlopu-chtoby-bylo-na-ladoni.md", "type": "derived_from", "created": "2026-04-16", "confidence": "high"}
 {"from": "topics/system-design-hub.md", "to": "ideas/audit-deystviy-po-vykhlopu-chtoby-bylo-na-ladoni.md", "type": "part_of", "created": "2026-04-16", "confidence": "medium"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-manifest-system-building.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-architecture-memory-kb-karpathy.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-command-center.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-pipeline-rabochego-dnia.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-analiz-nedeli.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-tipy-chatov-ai-rules.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-potoki-informatsii.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-format-stranitsy-dnia.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-life-os.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-research-hub.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}
+{"from": "topics/system-design-hub.md", "to": "sources/2026-04-16-icp-page.md", "type": "part_of", "created": "2026-04-16", "confidence": "high"}

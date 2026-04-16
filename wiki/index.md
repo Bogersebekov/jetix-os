@@ -74,7 +74,28 @@ cannabis-refusal-beast-mode-orientation, development-cycle-ignorance-to-action,
 money-value-mindset-pre-launch, meditation-attention-management-now.
 
 ## Topics
-- [System Design — Управление проектами, философия работы](topics/system-design-hub.md) — hub-узел навигации по 65 страницам wiki/ с `topics: [system-design]`, структурированный по 6 частям SYSTEM-DESIGN-HUMAN.md [meta]
+- [System Design — Управление проектами, философия работы](topics/system-design-hub.md) — hub-узел навигации по 466+ страницам wiki/ с `topics: [system-design]`, структурированный по 6 частям SYSTEM-DESIGN-HUMAN.md [meta]
+
+## Notion system pages (α.3, 11 новых)
+
+- [Манифест: как мы строим систему (Notion)](sources/2026-04-16-manifest-system-building.md) — 7 принципов строительства Jetix OS, цитата Ruslan [meta]
+- [Архитектура Memory+KB Karpathy+ (Notion)](sources/2026-04-16-architecture-memory-kb-karpathy.md) — скелет архитектуры памяти + KB [meta]
+- [Command Center (Notion)](sources/2026-04-16-command-center.md) — корневой hub Notion, 17 sub-pages + 3 databases [meta]
+- [Pipeline рабочего дня (Notion)](sources/2026-04-16-pipeline-rabochego-dnia.md) — утро/день/вечер ритуалы [meta]
+- [Анализ недели (Notion)](sources/2026-04-16-analiz-nedeli.md) — еженедельная ретроспектива [meta]
+- [Типы чатов и правила AI (Notion)](sources/2026-04-16-tipy-chatov-ai-rules.md) — 1 чат = 1 тема [meta]
+- [Потоки информации (Notion)](sources/2026-04-16-potoki-informatsii.md) — куда что сохранять [meta]
+- [Формат страницы дня (Notion)](sources/2026-04-16-format-stranitsy-dnia.md) — шаблон Daily Log v1.0 [meta]
+- [Life OS (Notion)](sources/2026-04-16-life-os.md) — система жизни [life]
+- [Research Hub (Notion)](sources/2026-04-16-research-hub.md) — исследования, блоки A-F, 18 sub-pages [meta]
+- [ICP Jetix (Notion)](sources/2026-04-16-icp-page.md) — Ideal Customer Profile, 1 sub-page [business]
+
+## Notion ideas bulk ingest (α.2, +199 новых)
+
+199 новых ideas импортированы в `wiki/ideas/` из Notion Bank of Ideas
+(полный список — Total wiki/ideas = 257, индекс обновляется при /build-graph).
+Все с `topics: [system-design]`. Content preview (500 chars) + metadata;
+полный Notion-fetch per idea отложен в γ-фазу.
 
 ## Ideas
 - [GitHub для бизнес-проектов](ideas/github-for-business-projects.md) — платформа коллаборации с курацией и AI [business] [sources: 1]
