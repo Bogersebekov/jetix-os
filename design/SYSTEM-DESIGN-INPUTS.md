@@ -30,22 +30,605 @@ stats:
 > диктует часть документа, опираясь на тезисы и attribution.
 
 ## Inputs для Части 1. Видение / Стратегия
-_(staging-writer 1 работает)_
+
+### 1.1 Зачем существует Jetix OS (одно предложение + раскрытие)
+
+- Jetix OS — операционная инфраструктура для человека и агентов, которая делает AI-консалтинговый бизнес масштабируемым без потери интеллектуального контроля Ruslan'а — [[entities/jetix]]
+- Три роли одновременно: бизнес (быстрые деньги через AI-консалтинг), сообщество (предприниматели + эксперты + AI), open-source инфраструктура (методологии, фреймворки) — [[entities/jetix]]
+- «Мы строим не компанию, а инфраструктуру для мира, в котором хочется жить через 200 лет» — вот почему Jetix OS строится на принципах, а не только на фичах — [[ideas/200-year-vision-jetix-humanity]]
+- Система должна быть первична, миф — вторичен: 80% усилий на механику (то, что Jetix OS и есть), 20% на нарратив — [[ideas/system-first-myth-second]]
+- Инфраструктура по модели «дорога + машины»: Jetix — дорога, партнёры и клиенты — машины; без дороги машины бесполезны — [[ideas/jetix-as-infrastructure-metaphor]]
+
+### 1.2 Горизонт: 5 / 200 лет (North Star)
+
+- **200-летний горизонт:** Jetix вписывается в решение глобальных проблем (голод, болезни, неравенство) через два рычага — AI-эффективность и AI-безопасность; каждый кейс = кирпичик — [[ideas/200-year-vision-jetix-humanity]]
+- **Миссия крупнее бизнеса:** собрать лучших инженеров, изобретателей, CEO и дать ответ, как система должна работать, чтобы планета процветала — [[ideas/global-vision-system-of-future]]
+- **North Star (операционный endgame):** 1000+ профессиональных управленцев, 100K+ AI-агентов, миллиардная капитализация, офисы как посольства во всех странах — [[ideas/jetix-corporation-1000-pros-100k-agents]]
+- Этот North Star — не немедленная цель, а **компас** для принятия сегодняшних решений — [[ideas/jetix-corporation-1000-pros-100k-agents]]
+- Система, улучшающая себя, математически неизбежно доминирует: каждый кейс → +1 к базе решений, каждый партнёр → +1 к экспертизе, каждый инструмент → ускорение — [[ideas/self-improving-system-inevitable-dominance]]
+- Историческая параллель: как коммерсанты объединили мир торговлей, Jetix объединяет бизнесы и людей через AI-кооперацию — следующий уровень общей инфраструктуры — [[ideas/merchants-analogy-jetix-unifies-via-ai]]
+
+### 1.3 Связь с тактической целью $50K до 30.06.2026
+
+- $50K — Шаг 4 из 7-шагового roadmap: «сам зарабатывать» (шаг 3) → «помогать клиентам» (шаг 4) → создать команду → обезопаситься → worldwide — [[ideas/scaling-plan-self-clients-team-worldwide]]
+- Текущая фаза Jetix OS — шаг 2 roadmap'а: «настроить AI-агентов под себя»; $50K закрывает proof-of-concept на собственном кейсе, прежде чем привлекать клиентов — [[ideas/scaling-plan-self-clients-team-worldwide]]
+- Консалтинг как троянский конь: cashflow (→ $50K) + доступ к десяткам бизнесов + экспертиза — инкубатор для будущих продуктов и сообщества — [[ideas/consulting-as-trojan-horse]]
+- Опасность «consulting trap»: привязка к часам убивает масштаб; нужно планировать переход к productization заранее — [[ideas/consulting-as-trojan-horse]]
+- Принцип «стать ценным до выхода на рынок»: 100ч ценности vs. 10ч поверхностного нетворкинга — $50K = проверка этого принципа — [[ideas/system-first-myth-second]] [требует уточнения при диктовке: есть ли отдельный файл ideas/become-valuable-before-going-to-market?]
+
+### 1.4 Место Jetix OS внутри большей идеи Jetix (open-source, инфраструктура, клуб)
+
+- Jetix OS — не продукт для клиентов, а **операционный слой** для Ruslan'а + 12 агентов; снаружи клиенты видят консалтинг, изнутри работает Jetix OS — [[entities/jetix]]
+- Три принципа открытости (Linux-модель): Revenue Share + Прозрачность подхода + Платформа (не клуб) — Jetix OS реализует их технически — [[concepts/jetix-open-source-principles]]
+- Бизнес-модель: базовые фреймворки и инструменты — открыты (open-source); монетизация — через доступ к людям, глубокую работу, проверенных исполнителей (Red Hat / Elastic-style) — [[ideas/open-source-premium-jetix-model]]
+- Revenue Share: Jetix мог бы забирать до 70% прибыли партнёра — сознательно не делает; партнёр сохраняет ресурсы даже если Jetix исчезнет — контрактно закреплено — [[ideas/revenue-share-jetix-philosophy]]
+- Цифровой суверенитет как позиционирование: Linux + open-source компоненты + задокументированные процессы → клиент не зависит от lock-in; особо ценно в Германии (GDPR, NIS2, AI Act) — [[concepts/digital-sovereignty]]
+- Позиционирование для привлечения: не «присоединяйтесь к бизнесу», а «самое большое приключение нашего времени» — Jetix OS как платформа авантюры — [[ideas/unite-adventurers-biggest-adventure]]
+
+### 1.5 Границы — что Jetix OS НЕ решает
+
+- Jetix OS НЕ заменяет стратегическое мышление Ruslan'а — он остаётся единственным источником целеполагания, агенты — исполнительный слой — [[entities/jetix]] [требует уточнения при диктовке]
+- Система НЕ управляет клиентскими проектами напрямую — она управляет Ruslan'ом + агентами, которые управляют клиентами — [[ideas/consulting-as-trojan-horse]]
+- Jetix OS НЕ решает проблему «мифа»: нарратив, манифест, бренд — это 20% которые следуют ЗА работающей механикой, а не раньше — [[ideas/system-first-myth-second]]
+- Система НЕ гарантирует доминирование сама по себе: нужен постоянный input (кейсы, партнёры, инструменты), иначе снежный ком не катится — [[ideas/self-improving-system-inevitable-dominance]]
+- Граница агрессии: внешняя экспансия (reverse-engineering, захват рынка) возможна только при максимальной внутренней безопасности партнёров — Jetix OS обеспечивает внутреннюю часть — [[ideas/aggression-through-internal-safety]]
+- Ценности и «конституция» закладываются ДО роста: когда система станет большой — контролировать напрямую невозможно; предохранители нужны сейчас — [[ideas/founder-responsibility-jetix-constitution]]
+- «Инженерная вера» = план + инструменты + вера; без любого из трёх компонентов — не вера, а wishful thinking; Jetix OS — это «инструменты», но нужен ещё план и вера — [[ideas/engineering-faith]]
+
+### 1.K Прямые цитаты Ruslan
+
+> «Мы строим не компанию, а инфраструктуру для мира, в котором хочется жить через 200 лет.» — [[ideas/200-year-vision-jetix-humanity]]
+
+> «За год делает больше, чем BMW/Ford. Я — владелец и CEO. Защищённая виртуальная корпорация.» — [[ideas/jetix-corporation-1000-pros-100k-agents]]
+
+> «Jetix мог бы забирать до 70% прибыли партнёра за счёт экосистемы, инструментов и знаний. Мы этого не делаем — потому что верим, что устойчивее платформа, в которой каждый участник сохраняет свою силу. Если завтра Jetix исчезнет, ваши ресурсы, контакты и навыки останутся у вас. Это закреплено контрактно.» — [[ideas/revenue-share-jetix-philosophy]]
+
+### 1.Z Напряжения/противоречия
+
+- [[ideas/system-first-myth-second]] vs [[ideas/200-year-vision-jetix-humanity]] — tension: если «сначала механика, потом нарратив», зачем сейчас формулировать 200-летнее видение? Разрешение: видение — это не нарратив для рынка, а внутренний компас для принятия решений, не публичный манифест (пока).
+- [[ideas/consulting-as-trojan-horse]] vs [[ideas/open-source-premium-jetix-model]] — tension: консалтинг монетизирует время (ограничен), open-source premium монетизирует платформу (масштабируем); $50K цель тянет к консалтингу, долгосрочная логика тянет к продукту; переход не запланирован явно — [[ideas/scaling-plan-self-clients-team-worldwide]] обозначает шаги, но не триггеры перехода [требует уточнения при диктовке].
+- [[ideas/aggression-through-internal-safety]] vs [[ideas/predator-corporation-business-vulnerability]] — tension не в противоречии, а в этике: «хищник либо ты, либо тебя» — жёсткая позиция; «агрессия через безопасность» — более консервативная; как это будет звучать в «конституции Jetix»? — [[ideas/founder-responsibility-jetix-constitution]]
+
+### 1.Ω Что НЕ покрыто (пробелы, нужно обсудить при диктовке)
+
+- **Личный pipeline как часть видения:** [[ideas/safe-hedonism-personal-motivation]] и [[ideas/money-value-mindset-pre-launch]] — есть ли у Ruslan'а личный «зачем» отдельный от корпоративного? Входит ли он в Часть 1 или это Часть 5?
+- **Конкретный горизонт 5 лет:** источники есть только по 200 годам и по $50K (3 месяца); что между ними — нет ни одного тезиса о 5-летнем плане — нужно обсудить на диктовке
+- **Что такое Jetix OS vs Jetix:** чёткого разграничения в wiki нет; entity описывает компанию, но операционная система и компания — разные уровни; где граница?
+- **Governance после роста:** [[ideas/founder-responsibility-jetix-constitution]] говорит о «конституции», но она ещё не написана; каков её статус относительно Jetix OS?
+- **Триггер перехода консалтинг → продукт:** roadmap есть, но критерии перехода (когда именно шаг 4 → шаг 5) не формализованы ни в одном источнике
 
 ## Inputs для Части 2. Пользователи / Роли
-_(staging-writer 2 работает)_
+
+### 2.1 Ruslan — что видит, что делает, что делегирует системе
+
+- Ruslan — единственный человек-оператор системы; работает 4ч утром + 1ч вечером на Jetix, параллельно нанятому (€2100-2300/mo) — [CLAUDE.md Agent Roster + agents/manager/system.md]
+- Ruslan видит систему как **инженер организаций**: менеджмент = инженерия организаций, обучение = инженерия личности — [[wiki/ideas/engineering-thinking-meta-role]]
+- Ruslan делает: стратегические решения, диктовку контекста (голос→wiki), ревью отчётов, одобрение A/B-тестов перед деплоем — [CLAUDE.md Global Rules]
+- Ruslan НЕ делает (делегирует системе): тривиальное планирование дня, поиск по KB, triage входящих, outreach-черновики, мониторинг состояния проектов — [CLAUDE.md Skills + Agent Roster]
+- Запрет на автоматизацию без одобрения Ruslan: финансовые транзакции, публичные публикации, удаление данных, git push — [CLAUDE.md Global Rules]
+- Текущая тактическая цель Ruslan: ~$50K до 30.06.2026 через AI-консалтинг — [agents/manager/system.md]
+
+### 2.2 12 агентов — роли на человеческом языке
+
+- **manager** (MGMT, Sonnet 4.6) — диспетчерский центр: маршрутизирует задачи, разрешает конфликты между отделами, держит список из не более 20 активных задач — [CLAUDE.md Agent Roster]
+- **personal-assistant** (OPS, Haiku 4.5) — правая рука по продуктивности: plan-day, close-day, ежедневные ритуалы, лид OPS-отдела — [CLAUDE.md Agent Roster]
+- **system-admin** (OPS, Haiku 4.5) — технический смотритель инфраструктуры: файлы, mailboxes, state, healthcheck — [CLAUDE.md Agent Roster]
+- **sales-lead** (Sales, Sonnet 4.6) — координатор продаж: стратегия outreach, лид Sales-отдела — [CLAUDE.md Agent Roster]
+- **sales-researcher** (Sales, Haiku 4.5) — разведка рынка: исследование проспектов, сбор данных — [CLAUDE.md Agent Roster]
+- **sales-outreach** (Sales, Haiku 4.5) — точка контакта с внешним миром: черновики outreach, работа с сообществом — [CLAUDE.md Agent Roster]
+- **inbox-processor** (Brain, Haiku 4.5) — triage входящих: сортирует информацию, назначает приоритеты до попадания в wiki — [CLAUDE.md Agent Roster]
+- **crazy-agent** (Meta, Sonnet 4.6) — провокатор идей: творческий дизраптор, выбивает из колеи шаблонов — [CLAUDE.md Agent Roster]
+- **knowledge-synth** (Brain, Sonnet 4.6) — главный аналитик знаний: глубокий синтез, лид Brain-отдела — [CLAUDE.md Agent Roster]
+- **strategist** (MGMT, Opus 4.6) — стратег высшего уровня: долгосрочные решения, самая мощная модель — [CLAUDE.md Agent Roster]
+- **life-coach** (Life, Sonnet 4.6) — менеджер благополучия Ruslan: wellness, energy management, баланс — [CLAUDE.md Agent Roster]
+- **meta-agent** (Meta, Sonnet 4.6) — аудитор системы: системная интроспекция, здоровье Jetix OS — [CLAUDE.md Agent Roster]
+
+Принцип hub-and-spoke: субагенты отчитываются перед лидом отдела, не перед manager напрямую — [CLAUDE.md Global Rule 8]
+
+Claude Code — основной AI-инструмент: каждый из 12 агентов реализован как отдельный конфиг Claude Code через `.claude/agents/` — [[wiki/entities/claude-code]]
+
+### 2.3 Клиенты — когда появляются, как взаимодействуют
+
+- Клиенты появляются через консалтинговый вход: лестница аудит ($1K-5K) → автоматизация ($5K-50K) → стратегический партнёр (retainer/equity) → совладелец экосистемы (equity) — [[wiki/ideas/jetix-agency-strategic-ai-partners]]
+- Клиенты взаимодействуют с системой через Ruslan, не напрямую с агентами; агенты готовят черновики, Ruslan выносит их в точку контакта — [[wiki/ideas/consulting-as-trojan-horse]]
+- Задача первого касания — «зажечь лампочку», не закрыть сделку; активация внимания предшествует любым аргументам — [[wiki/ideas/sales-as-lighting-up-value]]
+- Клиенты-B2G (Германия) — отдельный сегмент с циклом 12-36 месяцев; кэш-флоу-несовместим с текущей фазой Jetix — [[wiki/ideas/b2g-ai-security-germany]]
+- Все клиенты образуют экосистему Jetix: matchmaking, lead-share, joint-products; Jetix владеет методологией, не отдельными контрактами — [[wiki/ideas/jetix-agency-strategic-ai-partners]]
+
+### 2.4 Сообщество Jetix — на какой фазе и как включается
+
+- Сообщество на плановой/будущей фазе (Phase 3+); сейчас только Ruslan + 12 агентов + менторы/эксперты; проект `community` в статусе Planned — [CLAUDE.md Проекты]
+- Целевой участник сообщества — «психопат-CEO» + системный инженер в одном человеке: автономный, глубокий, нуждающийся в «семье» (плотное взаимодействие при сохранении автономии) — [[wiki/ideas/ideal-member-portrait]]
+- Модель клуба — «Берлинский марафон»: вначале участник получает больше, прокачивается по слабым направлениям (дисциплина, питание, бизнес, финансы, продажи), потом отдаёт обратно — [[wiki/ideas/club-as-product-marathon-model]]
+- Принцип качество > массовость: входной фильтр (адекватность, готовность контрибьютить), доверие по умолчанию, репутация и вклад как валюта — [[wiki/concepts/curated-community-access]]
+- Принцип truth-telling как норма клуба: говорить правду = держать контакт + ускорять развитие друг друга — [[wiki/ideas/truth-clan-acceleration]]
+- Механика динамических команд: AI-matchmaker под конкретную задачу собирает нужных людей (не статичные отделы) — [[wiki/ideas/dynamic-teams-by-topic-level]]
+- Теория фокуса: 5 человек + AI + 1 задача = x3-x5 скорость относительно одиночки — [[wiki/ideas/focus-theory-5-people-ai-1-task]]
+- Нерешённый вопрос: механики accountability против free-riding (притча о 10 мудрецах: каждый надеется на вклад других) — [[wiki/ideas/anti-free-riding-accountability]]
+
+### 2.5 Ментор (Антон), эксперты (Владислав, Родион) — что втекает в систему
+
+- **Антон** (ментор, системное мышление + психология) — ключевой человек в сети Ruslan; его связи — приоритетный канал поиска первых 5 участников сообщества — [[wiki/ideas/ideal-member-portrait]] + [CLAUDE.md Ключевые люди]
+- **Владислав** (экономист, value-based pricing) — эксперт по позиционированию и ценообразованию; кандидат на роль виртуального CFO/стратега по ценам (1-2 сессии 100-300€ → запись → извлечение фреймворков → AI-роль с его калибровкой) — [[wiki/ideas/virtual-c-suite-expert-calibration]] + [CLAUDE.md Ключевые люди]
+- **Родион** (YouTuber, AI-темы) — эксперт по аудитории и бренду AI; кандидат на роль виртуального CMO — [[wiki/ideas/virtual-c-suite-expert-calibration]] + [CLAUDE.md Ключевые люди]
+- Принцип virtual C-Suite: эксперт даёт ядро (1-2 консультации), AI мультиплицирует на много задач; создаётся виртуальный COO/CMO/CFO как Claude-агент с экспертной калибровкой — [[wiki/ideas/virtual-c-suite-expert-calibration]]
+- Точный формат взаимодействия экспертов с системой (синхронная диктовка vs async запись vs wiki-страница) — [требует уточнения при диктовке]
+
+### 2.K Прямые цитаты Ruslan
+
+> "Целевой участник — профессиональный одиночка (CEO-тип), глубоко работающий, но нуждающийся в «семье»." — [[wiki/sources/2026-04-16-ideal-member-portrait]]
+
+> "В одиночку даже сильным надают по ебучкам." — [[wiki/sources/2026-04-16-ideal-member-portrait]]
+
+> "Верить в себя когда никто не верит — сильно. Но лучше когда ещё и окружение верит. Это надо строить и искать, выделять ресурсы. Не проводить время с долбоёбами — лучше тишина или работа." — [[wiki/sources/2026-04-16-supportive-environment-pulls-up]]
+
+> "Команда из 5 человек с разной экспертизой, фокусом на одной задаче и AI-инструментами может построить многомиллионный бизнес за год (вместо 3-5 лет у одиночки)." — [[wiki/sources/2026-04-16-focus-theory-5-people-ai-1-task]]
+
+> "Каждый надеется на вклад других, а сам приносит воду вместо вина." — [[wiki/sources/2026-04-16-anti-free-riding-accountability]]
+
+### 2.Z Напряжения/противоречия
+
+- **Ruslan-одиночка vs сообщество:** сейчас всё завязано на Ruslan (bottleneck внимания); сообщество решает это через формулу 5+AI+1, но оно в фазе Planned — [[wiki/ideas/focus-theory-5-people-ai-1-task]] vs [CLAUDE.md статус `community: Planned`] — когда и как переходить не описано
+- **Курированное качество vs скорость:** [[wiki/concepts/curated-community-access]] требует медленного отбора; $50K до 30.06.2026 давит на скорость; tension между качеством сообщества и кэшфлоу-целью не разрешён
+- **Консалтинг как Trojan Horse vs consulting trap:** консалтинг = быстрый cashflow, но ловушка привязки к часам без productization — [[wiki/ideas/consulting-as-trojan-horse]]; переход не триггерирован явно
+
+### 2.Ω Пробелы
+
+- Нет источника: как агенты Jetix OS взаимодействуют с внешними людьми (клиентами, менторами) — через какие артефакты и каналы — нужно обсудить на диктовке
+- Нет источника: процедура онбординга первого участника сообщества (кто инициирует, что проверяется, кто одобряет) — нужно обсудить на диктовке
+- Нет источника: разграничение ролей manager vs strategist в реальной практике (оба MGMT, но разные модели и горизонты) — нужно обсудить на диктовке
+- Нет источника: как именно Антон участвует в системе сейчас (ментор Ruslan-человека вовне или входит в систему через wiki/inbox?) — нужно обсудить на диктовке
+- Notion-страница ICP Page (3372496333bf8125a72cd7352124b5ee) не ingested — вероятно содержит детальный портрет клиента/участника — [Notion MCP блокер]
 
 ## Inputs для Части 3. Потоки информации
-_(staging-writer 3 работает)_
+
+### 3.1 Откуда приходит сырая информация (источники)
+
+- **Голос (OGG/MP3):** voice-memos Ruslan → `inbox/voice/` → `tools/transcribe.py`
+  (Groq Whisper) → `raw/transcripts/` → ждут `/ingest`. Пока не транскрибированы —
+  потенциальные прямые цитаты. [ARCHITECTURE-CURRENT.md 2.1 IO Layer]
+- **Текст / заметки:** `inbox/text/`, `inbox/chats/`, `inbox/articles/` — drop zones
+  для неструктурированного ввода; triage вручную (distribute.py.bak отключён).
+  [ARCHITECTURE-CURRENT.md 2.1 IO Layer]
+- **Notion (external truth):** Банк идей (99 идей, 60 импортировано), Daily Log DB,
+  Journal of Chats, ICP Page, Research Hub, Life OS — 8 DB. Export идёт в
+  `raw/notion-ideas/` → `/ingest`. [ARCHITECTURE-CURRENT.md 2.5 External Layer]
+- **Web / articles:** URL → `/ingest <url>` → persist в `raw/web/` → wiki.
+  Источник для market intelligence. [ARCHITECTURE-CURRENT.md 2.6 Data Flow]
+- **AI-reverse-engineering ниш:** промпты + парсеры + LLM = «информационный экскаватор»;
+  покрывает YouTube, LinkedIn, FB Ad Library, builtwith.com, PR/M&A docs за дни вместо месяцев.
+  [[wiki/ideas/ai-reverse-engineering-business-in-days]]
+- **Разговоры с менторами:** Антон, Владислав, Родион — входят через voice-memos
+  или вручную. Формальный путь в wiki не прописан. [требует уточнения при диктовке]
+
+### 3.2 Где оседает (raw → wiki → niches → decisions)
+
+- **Путь знания:** `raw/{type}/` → `/ingest <path>` → создаёт/обновляет страницы в
+  `wiki/{entity-type}/`, source-карточку в `wiki/sources/`, append в `wiki/index.md`,
+  `wiki/log.md`, `wiki/graph/edges.jsonl`, линкует в `wiki/niches/{niche}/README.md`.
+  [ARCHITECTURE-CURRENT.md 2.6 Data Flow]
+- **Wiki — единая KB:** 9 типов сущностей (concepts, ideas, claims, sources, entities,
+  summaries, experiments, foundations, topics), ~135 страниц, 137 edges, 4 communities.
+  Не фрагментирована по агентам — у каждого агента symlinks в свой niche-срез.
+  [ARCHITECTURE-CURRENT.md 2.2 Knowledge Layer]
+- **6 niches — срезы одной wiki:** personal, business, sales, life, tech, meta.
+  `wiki/niches/{niche}/README.md` + `agents/{id}/niche/` symlinks (24 шт).
+  knowledge-synth — единственный агент с доступом ко всем 6. [[wiki/topics/system-design-hub.md]]
+- **Decisions → state:** выводы агентов → `shared/knowledge/research-summaries/`,
+  `client-insights/`, `life/`, `crazy-ideas/`. strategist пишет решения в
+  `decisions-log.jsonl` (пока только plan-mode, файла нет). [ARCHITECTURE-CURRENT.md 2.2]
+- **Legacy knowledge-base/:** 4 кластера (ai-consulting, market, sales, health) —
+  0% перенесено в wiki. Содержит ранний sales- и health-материал. [ARCHITECTURE-CURRENT.md 2.2]
+
+### 3.3 Как возвращается (writeback loops, /ask → comparisons → edges)
+
+- **Цикл /ask → writeback:** `/ask <вопрос>` → skill читает `index.md`, `summaries.md` →
+  синтезирует с `[[citations]]` → если ценный результат (новая связь 2+ страниц,
+  противоречие, synthesis по 5+) → `wiki/comparisons/YYYY-MM-DD-slug.md` +
+  append новых edges в `edges.jsonl`. [ARCHITECTURE-CURRENT.md 2.6 Data Flow]
+- **Graph-build loop:** `/build-graph` сканирует все wiki-страницы → добивает edges
+  по типам секций (extends, contradicts, derived_from и др., 9 типов) → перезаписывает
+  `wiki/graph/communities.md` и `summaries.md` (HippoRAG layer). [ARCHITECTURE-CURRENT.md 2.6]
+- **Инструмент → feedback → сообщество:** бесплатные 2 часа с клиентом → feedback
+  о боли и том, что работает → обогащает инструменты и позиционирование →
+  привлекает более качественный ICP. [[wiki/ideas/tools-feedback-community-flywheel]]
+- **Тезис телепатии:** каждая «запись» (wiki, outreach, landing) = передача образа
+  из sending place в receiving place. Качество writeback = совпадение образов.
+  [[wiki/concepts/writing-as-telepathy]] + [[wiki/ideas/writing-is-telepathy]]
+- **Human gate:** `distribute.py.bak` отключён — люди не теряют контроль, но
+  это тормозит throughput распределения знания в wiki. [ARCHITECTURE-CURRENT.md 3.3 Gap #3]
+
+### 3.4 Как знание компаундится
+
+- **Каждый /ingest обогащает граф, не заменяет:** append-only log + edges.jsonl;
+  старое знание остаётся, новое добавляет связи. Граф плотнеет с каждой итерацией.
+  [ARCHITECTURE-CURRENT.md 2.6 Data Flow]
+- **Think-Do цикл как движок компаундинга:** мозг переключается think ↔ do; каждый цикл
+  генерирует feedback. AI ускоряет цикл (анализ трекинга, подсветка паттернов).
+  [[wiki/concepts/think-do-feedback-loop]] + [[wiki/ideas/think-do-feedback-loop]]
+- **Самоулучшающаяся петля:** каждый кейс → +1 к базе решений → 50+ кейсов через год
+  → система решает проблемы более высокого порядка. Математическая неизбежность
+  при устойчивом цикле. [[wiki/ideas/self-improving-system-inevitable-dominance]]
+- **Симбиоз участника и системы:** вклад → обогащённая система → обогащённый участник →
+  больший вклад. Core value prop Jetix, не SaaS-логика.
+  [[wiki/ideas/tool-community-symbiosis-loop]]
+- **Дисциплина обработки — дифференциатор:** AI делает генерацию информации дешёвой;
+  преимущество в умении пройти raw → insight → action быстро и чисто.
+  Одновременно навык агентов и потенциальный продукт (€1K training).
+  [[wiki/ideas/information-discipline-as-core-skill]]
+- **Портфель параллельных research-попыток:** AI-аналитика ниши за дни → много
+  параллельных бизнес-попыток → риск распределён, успехи финансируют следующие итерации.
+  [[wiki/ideas/ai-analytics-grouping-launch-speed]]
+
+### 3.5 Различение 6 niches (personal / business / sales / life / tech / meta)
+
+- **personal** — Ruslan как человек: состояния, мотивация, саморегуляция, личные стратегии.
+  Агенты: life-coach + personal-assistant. [ARCHITECTURE-CURRENT.md 3.1 Departments]
+- **business** — Jetix как компания: ICP, обменные модели, монетизация, портфель направлений.
+  Агенты: sales-lead + manager. [[wiki/ideas/exchange-as-base-function]]
+- **sales** — воронка, outreach, research проспектов. sales-researcher + sales-outreach
+  работают только здесь; не говорят с manager напрямую (hub-and-spoke enforced).
+  [ARCHITECTURE-CURRENT.md 3.1 Departments]
+- **life** — физическое и ментальное поддержание Ruslan: режим, восстановление, быт.
+  life-coach пишет в `shared/knowledge/life/`. [ARCHITECTURE-CURRENT.md 3.1 Departments]
+- **tech** — инструменты, стек, AI-фреймворки, архитектурные решения.
+  system-admin + crazy-agent. [ARCHITECTURE-CURRENT.md 3.1 Departments]
+- **meta** — система о себе: аудиты, A/B промпты, wiki pipeline, архитектурные решения.
+  meta-agent + knowledge-synth (все 6 niche, Brain Lead). [ARCHITECTURE-CURRENT.md 3.1]
+- **Нет niche «global»:** папки нет, только enum в конфиге — нужна ли? [ARCHITECTURE-CURRENT.md 1]
+
+### 3.K Прямые цитаты Ruslan
+
+> «Умение дисциплинированно искать, анализировать и синтезировать информацию —
+> главный навык.» — [[wiki/sources/2026-04-16-information-discipline-as-core-skill]]
+
+> «Потенциальный элемент оффера Jetix и отдельный продукт.» —
+> [[wiki/sources/2026-04-16-information-discipline-as-core-skill]]
+
+### 3.Z Напряжения/противоречия
+
+- [[wiki/ideas/automate-research-via-crewai]] vs [[wiki/ideas/orchestration-is-temporary-feature-gap]] —
+  «автоматизируй research через CrewAI» vs «CrewAI — временный костыль, слой оркестрации
+  схлопнется». Разрешение: CrewAI как тактический инструмент сейчас, не долгосрочная ставка.
+  [wiki/graph/edges.jsonl: type=contradicts]
+- **Human gate vs throughput:** distribute.py.bak отключён — контроль сохранён, но скорость
+  распределения знания в wiki ограничена. Баланс human-in-the-loop vs скорость не прописан.
+  [ARCHITECTURE-CURRENT.md 3.3 Gap #3]
+- **Notion (external truth) vs wiki/ (internal truth):** при недоступном MCP два источника
+  правды рассинхронизируются. Протокол при конфликте отсутствует. [требует уточнения при диктовке]
+
+### 3.Ω Что НЕ покрыто (пробелы)
+
+- Notion-страница «Потоки информации» (ID: `3342496333bf81fa9950cbb53bd0e8f5`) —
+  не ingested из-за MCP-блокера; вероятно содержит ключевую схему потоков от Ruslan.
+  [нужно обсудить на диктовке]
+- Голосовые заметки не транскрибированы — потенциально лучшие цитаты и детали flow.
+  Когда запустить pipeline? [нужно обсудить на диктовке]
+- Схема синхронизации Notion ↔ wiki/ отсутствует. Что происходит при расхождении?
+  [нужно обсудить на диктовке]
+- Разговоры с менторами (Антон, Владислав) — нет формализованного пути в wiki.
+  Голос → транскрипт → /ingest? Или вручную? [нужно обсудить на диктовке]
+- Исходящие потоки: как знание из wiki попадает к клиентам / сообществу / публично
+  (landing, контент, outreach)? Поток «внутрь» описан лучше чем «наружу».
+  [нужно обсудить на диктовке]
 
 ## Inputs для Части 4. Действия / Триггеры
-_(staging-writer 4 работает)_
+
+### 4.1 Автоматические действия (cron, события)
+
+- `scripts/morning-pipeline.sh` и `scripts/evening-pipeline.sh` существуют как скрипты запуска утреннего/вечернего цикла — [ARCHITECTURE-CURRENT.md §1, scripts/]
+- `tools/run_pipeline.sh` запускает voice-notes pipeline: `transcribe.py` → `extract.py` → `filter.py` → `review_report.py`; результат в `reports/review_YYYY-MM-DD.md` и `~/review-latest.md` — [CLAUDE.md Voice-Notes Pipeline]
+- `tools/distribute.py` намеренно отключён (`distribute.py.bak`): автораспределение Claude-выводов в KB без человеческого ревью — ЗАПРЕЩЕНО — [CLAUDE.md Voice-Notes Pipeline, ARCHITECTURE-CURRENT.md §1]
+- Агенты читают входящую почту (`comms/mailboxes/{id}.jsonl`) как первый шаг перед любой работой — [CLAUDE.md Global Rules п.1]
+- `life-coach-agent` планируется для ежедневного сбора energy-input (1-2 мин) и мониторинга шкалы 0-100 — [[ideas/track-state-and-rest]], [[ideas/day-influence-scale-0-100]]
+- `inbox-processor` (Phase 3): триаж входящей информации → автоматически на `/ingest` — [ARCHITECTURE-CURRENT.md §1, "Phase-3 фичи"]
+- `dashboard/` читает `shared/state/` и агентов непрерывно для отображения статуса — [ARCHITECTURE-CURRENT.md §1 dashboard/]
+- `automations/` — папка существует, но пустая; cron-задачи не реализованы — [ARCHITECTURE-CURRENT.md §1, "Что упомянуто, но НЕ построено"]
+
+### 4.2 Действия по команде Ruslan (human-in-loop)
+
+- `/plan-day` — утреннее открытие: загрузка контекста + генерация плана дня — [CLAUDE.md Skills]
+- `/close-day` — итог дня: обновление логов проектов + git commit + push — [CLAUDE.md Skills]
+- `/ingest {file}` — ручная команда: извлечь факты из raw, обновить frontmatter, записать в wiki — [CLAUDE.md Skills, Wiki Architecture v2]
+- `/ask <question>` — поиск + синтез по wiki с citations; опционально пишет в `wiki/comparisons/` — [CLAUDE.md Wiki Architecture v2]
+- `/lint` — health check (orphans, contradictions, stale claims); результат = `_lint-report-*.md` — [CLAUDE.md Wiki Architecture v2]
+- `/compile {topic}` — синтез из ingested в KB-статью — [CLAUDE.md Skills]
+- `/focus` — skill для управления фокусом (реализован в `.claude/skills/`) — [ARCHITECTURE-CURRENT.md §1 skills/]
+- После voice-pipeline: Ruslan скачивает `~/review-latest.md`, читает, принимает решения — система СТОП до ревью человека — [CLAUDE.md Voice-Notes Pipeline]
+- A/B тесты промптов агентов: ВСЕГДА статус `awaiting_approval`, никогда auto-deploy — [CLAUDE.md Global Rules п.10]
+- Ротация логов при >30 записей — вручную или по команде, не автоматически — [.claude/rules/global.md]
+
+### 4.3 Ритуалы (утро / вечер / неделя / месяц)
+
+**Утро:**
+- `/plan-day` → загрузка контекста → план → 1-2 рабочие сессии → git commit — [CLAUDE.md Рабочий процесс]
+- Утренний фокус-блок на уровне внимания: медитация + переключение в режим работы — [[ideas/meditation-attention-management-now]]
+- Beast mode чек-лист (5 пунктов): понимание себя + цели / тактические приоритеты / ноль отвлечений / тело в порядке / отказ от ослабляющего — [[ideas/beast-mode-formula-actions]]
+- Оценка шкалы влияния на день (0-100%): 70% = план + ритуалы, 90% = план + ритуалы + проактивность — [[ideas/day-influence-scale-0-100]]
+
+**Вечер:**
+- `/close-day` → итог дня → обновление логов → git push — [CLAUDE.md Рабочий процесс]
+- Вечерний отдых-блок и pre-sleep routine: протокол переключения из focus в recovery — [[ideas/meditation-attention-management-now]]
+- Ежедневный tracking: энергия утром/вечером (1-10), тип отдыха, часы сна, спорт да/нет, время вне сети — [[ideas/track-state-and-rest]]
+
+**Неделя (воскресенье вечер / понедельник утро, 30-60 мин):**
+- Анализ недели по 4 вопросам: что сделано / что хорошего случилось / что сломалось / точки роста — [[ideas/weekly-analysis-rest-as-life-maintenance]]
+- Output: `wiki/summaries/weekly-YYYY-Wnn.md` (планируется, пока не реализовано) — [[ideas/weekly-analysis-rest-as-life-maintenance]]
+- Закладывать оба режима в недельный план — заряжен (action) и на чиле (recovery) — [[ideas/charged-vs-chill-modes]]
+- Дозировка активностей: outreach / контент / обучение — не сумма, а распределение во времени — [[ideas/action-dosage-principle]]
+
+**Месяц:**
+- Тренды по daily/weekly данным — смотреть раз в месяц; `life-coach-agent` должен генерировать — [[ideas/weekly-analysis-rest-as-life-maintenance]]
+- Пересмотр roadmap: сам → клиенты → команда → безопасность → worldwide — [[ideas/scaling-plan-self-clients-team-worldwide]]
+- [требует уточнения при диктовке] Конкретный формат месячного ретро не описан в источниках
+
+### 4.4 Бизнес-действия (sales, scaling, become valuable)
+
+- Перед выходом на рынок: 100ч практики + теории → истории, которые нельзя подделать → только потом оффер — [[ideas/become-valuable-before-going-to-market]]
+- Sales-действия: первое касание = «зажечь» (показать ценность), не «продать»; аргументы — только когда клиент уже видит — [[ideas/sales-as-lighting-up-value]]
+- Перед любым outreach: проверить позицию силы (могу сказать и да, и нет) — [[ideas/position-of-power-yes-and-no]]
+- Срочный триггер (action-this-week): поиск AI/аналитика сообществ через Perplexity/Telegram за 2-3 часа → таблица + конкретные люди — [[ideas/urgent-search-ai-analyst-communities]]
+- Focus ritual для команды: 5 людей + AI + 1 задача → закрыть → следующая; не распылять — [[ideas/focus-theory-5-people-ai-1-task]]
+- Цикл развития проекта: признание невежества → поиск → подготовка → действие → новая точка А; пропустить любой шаг = застрять — [[ideas/development-cycle-ignorance-to-action]]
+- Roadmap (7 шагов): 1.PM → 2.AI-агенты → 3.сам зарабатывает → 4.клиенты ($50K к 30.06.2026) → 5.команда → 6.защита → 7.worldwide — [[ideas/scaling-plan-self-clients-team-worldwide]]
+
+### 4.5 Эскалация (агент → lead → manager → Ruslan)
+
+- Hub-and-spoke: субагенты отчитываются лидам департамента, не напрямую Manager — [CLAUDE.md Global Rules п.8]
+- Manager: budget внимания = max 20 активных задач одновременно — [CLAUDE.md Global Rules п.9]
+- При неясности маршрута → Manager роутит вопрос; агент не решает самостоятельно — [CLAUDE.md Global Rules п.5]
+- Финансовые решения, публикации, удаление данных — всегда требуют подтверждения Ruslan — [CLAUDE.md Global Rules п.10, .claude/rules/global.md]
+- Коммуникация между агентами только через JSONL-шину по схеме `shared/schemas/message.schema.json` — [CLAUDE.md Architecture, ARCHITECTURE-CURRENT.md §1]
+- [требует уточнения при диктовке] Механизм явной эскалации «агент заблокирован → как именно пишет лиду» не описан детально
+
+### 4.6 Запреты (что НЕ автоматизируется)
+
+- Финансовые транзакции — НЕ автоматизируются ни при каком условии — [CLAUDE.md Global Rules п.10, .claude/rules/global.md]
+- Публикации (контент, посты, outreach) — проходят ревью Ruslan перед отправкой — [CLAUDE.md Global Rules п.10]
+- Удаление файлов — требует явного подтверждения — [.claude/rules/global.md Безопасность]
+- `private/`, `~/.ssh/`, `.env` — зоны запрета для агентов без исключений — [CLAUDE.md Global Rules п.6, .claude/rules/global.md]
+- Установка пакетов без одобрения Ruslan — [.claude/rules/global.md Безопасность]
+- `distribute.py` (автораспределение KB) — архивирован; Claude-выводы не попадают в wiki без ревью — [CLAUDE.md Voice-Notes Pipeline]
+- A/B тесты промптов агентов — никогда auto-deploy, всегда `awaiting_approval` — [CLAUDE.md Global Rules п.10]
+- Редактирование старых записей логов (append-only) — [.claude/rules/global.md Логи]
+
+### 4.K Цитаты Ruslan
+
+> "Хорошее состояние не берётся из воздуха — как и накачанное тело. Есть формула, есть протокол." — [[ideas/beast-mode-formula-actions]]
+
+> "«Мне похуй» — не пофигизм, а осознанное снятие фоновой тревоги." — [[ideas/charged-vs-chill-modes]]
+
+> "Башка работает на пределе и не может остановиться, мешает спать. Нужно научиться: фокусироваться когда нужно, отдыхать когда нужно, не смешивать." — [[ideas/meditation-attention-management-now]]
+
+> "Сделать за 2-3 часа. Сначала убедиться в позиции силы — приходить с предложением, не с запросом." — [[ideas/urgent-search-ai-analyst-communities]]
+
+### 4.Z Напряжения
+
+- [[ideas/beast-mode-formula-actions]] vs [[ideas/charged-vs-chill-modes]] — beast mode предполагает максимальную интенсивность, но постоянный «заряжен» = выгорание. Частичное решение: beast mode — не постоянный режим, а протокол входа в него.
+- [[ideas/focus-theory-5-people-ai-1-task]] vs [[ideas/action-dosage-principle]] — «все на одну задачу» vs «распределение во времени важнее суммы». Дозировка командного фокуса не решена явно.
+- Автоматизация (`scripts/morning-pipeline.sh`) vs human-in-loop — скрипты существуют, но содержимое не прочитано. Граница автоматики неясна.
+
+### 4.Ω Пробелы
+
+- Содержимое `scripts/morning-pipeline.sh` и `scripts/evening-pipeline.sh` не прочитано — неизвестно, есть ли cron и авто-действия без участия Ruslan — нужно обсудить на диктовке
+- Месячный ритуал (ретроспектива / планирование месяца) — не описан ни в одном источнике — нужно обсудить на диктовке
+- Механизм явной эскалации внутри системы агентов не специфицирован детально (только принцип hub-and-spoke) — нужно обсудить на диктовке
+- Ритуал «начало проекта» (kickoff) — [[ideas/development-cycle-ignorance-to-action]] даёт абстрактный цикл, но не конкретный SOP — нужно обсудить на диктовке
+- Notion-страница «Pipeline рабочего дня» (`3342496333bf8150a87ece4cfacab815`) не ingested (Notion MCP блокер) — вероятно содержит детальные триггеры и расписание
 
 ## Inputs для Части 5. Состояния / Жизненный цикл
-_(staging-writer 5 работает)_
+
+### 5.1 Жизненный цикл идеи (raw → ingested → claim → experiment → validated/refuted)
+
+- Wiki Pipeline — `raw → ingested → compiled → linted → ready`: пять стадий, каждая с явным статусом в frontmatter `pipeline:` — [CLAUDE.md Wiki Pipeline]
+- `/ingest <path>` переводит источник в ingested: создаёт wiki-страницы + обновляет index + log + edges — [CLAUDE.md Skills wiki pipeline v2]
+- Идея живёт как `idea` (один тезис), потом может кристаллизоваться в `claim` (утверждение с аргументами за/против) или `experiment` (проверяемый, в `wiki/experiments/`) — [[wiki/concepts/collaborative-project-versioning]]
+- Бизнес-проекты = код: принципы git (ветки, review перед merge, audit trail) применимы к стратегиям и запускам продуктов — [[wiki/claims/business-projects-like-code]]
+- Validated/refuted: у каждого claim есть секция «Что опровергнуло бы это» — явная falsifiability; статус `confidence: low/medium/high` — [[wiki/claims/business-projects-like-code]]
+- Мета-модель цикла: невежество → поиск → подготовка → действие → новая точка А → новые проблемы → невежество; пропустить любой шаг = застрять — [[wiki/ideas/development-cycle-ignorance-to-action]]
+- Think-Do feedback loop: прогресс = частота цикла между thinking (план, рефлексия) и doing (действие); внешний мир — источник истины — [[wiki/concepts/think-do-feedback-loop]]
+
+### 5.2 Жизненный цикл задачи (backlog → today → in-progress → done / blocked)
+
+- Задачи агентов проходят через mailbox → scratchpad → done/reported; mailbox — JSONL, append-only — [CLAUDE.md Comms/mailboxes]
+- Агент ОБЯЗАН читать mailbox перед началом работы — явный transition: входящее сообщение → рабочее состояние — [CLAUDE.md Global Rules, Rule 1]
+- Статусы State: JSON-файлы в `shared/state/`, все изменения состояния логируются — [CLAUDE.md Architecture]
+- Manager ведёт attention budget: max 20 активных задач одновременно; превышение = очередь — [CLAUDE.md Global Rules, Rule 9]
+- A/B тесты: ВСЕГДА `awaiting_approval`, никогда не auto-deploy — явный human gate перед переходом в done — [CLAUDE.md Global Rules, Rule 10]
+- Задача у subagent'а: не передаётся напрямую Manager'у, а через department Lead (hub-and-spoke) — [CLAUDE.md Global Rules, Rule 8]
+- Жизненный цикл проекта как git: ветка = гипотеза, review перед merge = approval, fork = новый sub-проект — [[wiki/concepts/collaborative-project-versioning]]
+
+### 5.3 Жизненный цикл клиента (prospect → lead → qualified → customer → case study)
+
+- Sales lifecycle детально: стадии prospect → lead → qualified → customer → case study — [требует уточнения при диктовке; Notion ICP Page не ingested]
+- ICP-портрет ("психопат-CEO + системный инженер"): квалификация не по размеру компании, а по типу мышления — [[wiki/ideas/ideal-member-portrait]]
+- Consulting as trojan horse: клиент приходит за cashflow-сервисом → получает доступ к системе → становится частью экосистемы — [[wiki/ideas/consulting-as-trojan-horse]]
+- Sales = "зажечь лампочку в голове клиента": не продать, а создать осознание ценности — [[wiki/ideas/sales-as-lighting-up-value]]
+- Позиция силы при продаже: приходить как ровный, не как нуждающийся; возможность сказать «нет» = prerequisite outreach'а — [[wiki/ideas/position-of-power-yes-and-no]]
+- Ресурсы без управления собой = ловушка: целевой ICP-сегмент — люди с деньгами, которые не могут управлять вниманием и телом — [[wiki/ideas/resources-without-self-management-trap]]
+- После сделки: case study = проект-репозиторий с audit trail; доступен как reference для следующего клиента — [[wiki/claims/business-projects-like-code]]
+
+### 5.4 Жизненный цикл дня (/plan-day → work → /close-day → weekly)
+
+- `/plan-day` = утреннее открытие, загрузка контекста, генерация плана; `/close-day` = итог дня, обновление логов проектов, git commit+push — [CLAUDE.md Skills]
+- Шкала влияния 0-100% на день: 0% хаос → 70% план + ритуалы (утро, спорт, рефлексия) → 100% идеальный день; ежедневная самодиагностика — [[wiki/ideas/day-influence-scale-0-100]]
+- «Заряжен» и «на чиле» — оба режима необходимы регулярно; только «заряжен» = выгорание; только «на чиле» = деградация — [[wiki/ideas/charged-vs-chill-modes]]
+- Трекать состояние в целом: энергия утром/вечером, тип отдыха (восполняющий vs забирающий), часы сна, спорт, время вне сети — [[wiki/ideas/track-state-and-rest]]
+- Beast mode формула: понимание себя + большой цели → тактические приоритеты дня → никаких отвлечений → тело в порядке → отказ от ослабляющего — [[wiki/ideas/beast-mode-formula-actions]]
+- Дозировка действий: распределение во времени ≠ сумма; оптимальная доза подбирается под цель и восстановление — [[wiki/ideas/action-dosage-principle]]
+- Think-Do на уровне дня: план (thinking) → выполнение (doing) → вечерняя рефлексия (feedback) → новый план — [[wiki/ideas/think-do-feedback-loop]]
+
+### 5.5 Жизненный цикл недели/месяца (plan → execute → retro → adjust strategy)
+
+- Анализ недели = ТО для системы жизни: 4 вопроса — что сделано, что хорошего, что сломалось/болит, какие точки роста — [[wiki/ideas/weekly-analysis-rest-as-life-maintenance]]
+- Слот: воскресенье вечером или понедельник утром, 30-60 мин; output: `wiki/summaries/weekly-YYYY-Wnn.md` (планируется) — [[wiki/ideas/weekly-analysis-rest-as-life-maintenance]]
+- Тренды смотрятся раз в месяц: недельные summaries → месячная агрегация → корректировка стратегии — [[wiki/ideas/weekly-analysis-rest-as-life-maintenance]]
+- Три слоя ценности как компас ретроспективы: ценить (апатия?), знать (работа на чужие приоритеты?), делать (пассивность?) — диагностика какой слой западает — [[wiki/ideas/value-three-layers]]
+- Life OS на нескольких горизонтах: daily (day-influence-scale) → weekly (analysis + rest) → monthly (стратегическая корректировка) — [[wiki/concepts/value-three-layers]]
+- Position of power как индикатор здоровья системы: могу сказать «нет» плохому клиенту? Подождать? Защитить себя? — [[wiki/ideas/position-of-power-yes-and-no]]
+
+### 5.6 Жизненный цикл промпта агента (baseline → strategies → A/B → version bump → rollback)
+
+- 5-layer per-agent memory: `system.md` (Core, stable), `strategies.md` (System Prompt Learning), `scratchpad.md` (Working memory), `niche/` (symlinks к wiki/niches), `comms/mailboxes/{id}.jsonl` (Recall) — [CLAUDE.md Per-agent memory 5 layers]
+- Baseline = `agents/{id}/system.md` — не меняется без явного решения; strategies накапливаются в `agents/{id}/strategies.md` (аппендинг, не перезапись) — [CLAUDE.md Per-agent memory]
+- A/B тест промпта: ВСЕГДА `awaiting_approval`; auto-deploy запрещён — [CLAUDE.md Global Rules, Rule 10]
+- Version bump: изменение system.md после A/B = новая версия; старая остаётся в git-истории (rollback = git revert) — [CLAUDE.md File Conventions + Git workflow]
+- Wiki как shared knowledge (не изолированный KB): агент видит срез через `agents/{id}/niche/` → symlinks в `wiki/niches/{niche}/` — [CLAUDE.md Per-agent memory]
+- Слой склейки (оркестрация) временный: LangChain/CrewAI/n8n — костыли пока модели не дорастут; ставить на бизнес-логику поверх, а не на layer склейки — [[wiki/ideas/orchestration-is-temporary-feature-gap]]
+- Промпт агента = «конституция» до масштабирования: нужно зафиксировать принципы до роста, иначе первые решения замораживаются навсегда — [[wiki/ideas/founder-responsibility-jetix-constitution]]
+
+### 5.K Цитаты Ruslan
+
+> "Отдых и анализ — логическое действие для любой системы которая хочет хорошо работать и не ломаться. Нужно обслуживать, осматривать на повреждения и точки роста. Анализ недели: что сделано, что хорошего, что улучшить, что обезопасить." — [sources/2026-04-16-weekly-analysis-rest-as-life-maintenance]
+
+> "Трекать не только отдых, а состояние в целом. Есть отдых который восполняет (прогулка, сон, общение, обнимашки), есть который забирает (YouTube всю ночь, бухать, тупняки)." — [sources/2026-04-16-track-state-and-rest]
+
+> "Хорошее состояние не берётся из воздуха, как и накачанное тело. Формула: 1) понимание себя и большой цели, 2) чёткие тактические приоритеты на день, 3) никаких отвлечений — голова принадлежит мне..." — [sources/2026-04-16-beast-mode-formula-actions]
+
+> "Если есть ресурсы, но не можешь управлять собой (телом, вниманием, отношениями) — ресурсы бесполезны. Сам себя в клетку сажаешь." — [sources/2026-04-16-resources-without-self-management-trap]
+
+> "Цикл жизни и развития: признание невежества → поиск решений → воплощение → новая точка А → новые проблемы → признание невежества → подготовка → действие. Все компоненты должны быть вместе как единое целое. Если одного нет — весь цикл умирает." — [sources/2026-04-16-development-cycle-ignorance-to-action]
+
+### 5.Z Напряжения/противоречия
+
+- [[wiki/ideas/orchestration-is-temporary-feature-gap]] vs [[wiki/ideas/automate-research-via-crewai]]: слой склейки временный → не ставь на него стратегически; но параллельно используем CrewAI для research сейчас. Tension внешнее: инструмент текущего момента vs долгосрочная ставка — [wiki/graph/edges.jsonl, type=contradicts]
+- [[wiki/ideas/charged-vs-chill-modes]] vs [[wiki/ideas/beast-mode-formula-actions]]: beast mode ≠ always-on; но формула состояния создаёт давление постоянного протокола. Решение: beast mode = временное состояние внутри charged-цикла, чил — обязательная пара.
+- [[wiki/ideas/value-three-layers]] vs [[wiki/ideas/resources-without-self-management-trap]]: «ценить → делать» предполагает субъектность; но если управление собой провалено — ценности не помогают. Что первично: восстановление (слой 1) или дисциплина (слой 3)? Не разрешено явно.
+
+### 5.Ω Пробелы (нужно обсудить на диктовке)
+
+- **Lifecycle клиента не задокументирован локально**: стадии prospect → customer → case study не раскрыты в wiki; Notion ICP Page не ingested — нужно уточнить при диктовке.
+- **Промпт-версионирование без конкретного протокола**: есть принцип A/B-approval, но нет SOP: кто инициирует bump, как измеряется regression, что такое rollback threshold.
+- **Месячный lifecycle не описан**: недельный ritual есть, дневной есть, месячный (Monthly Review) — только упомянут как «тренды раз в месяц»; нет формата страницы.
+- **Lifecycle идеи на стадии experiment → validated**: нет примера experiment-файла в wiki/experiments/; неясно как фиксируется validated/refuted — нужно создать шаблон.
+- **Lifecycle задачи Sales pipeline**: нет описания как задача переходит через sales-researcher → sales-lead → Ruslan approve → outreach; требует уточнения из Notion Pipeline рабочего дня.
 
 ## Inputs для Части 6. Открытые вопросы (сквозные)
-_(staging-writer 6 работает)_
+
+### 6.1 Архитектурные open questions (наследие Phase 2, не разрешены)
+
+Все 5 вопросов зафиксированы в `reports/arch-migration-2026-04-16.md` (OQ#1-5)
+и подтверждены в `reports/architecture-inventory-2026-04-16.md` gap #3.
+На 2026-04-16 ни один не закрыт, поверх них строятся новые слои.
+
+- `agents/{id}/baseline.md` vs `agents/{id}/system.md` — обе существуют, содержимое
+  идентично, canonical не выбран; latent inconsistency для любого агента, читающего
+  свой prompt. — [reports/arch-migration-2026-04-16.md OQ#1]
+- `.claude/skills/ingest.md` (старый raw→KB) vs `ingest.md.new` (новый raw→wiki) —
+  конфликт не ревьювился; 60 ingest'ов прошли через новый, но `ingest.md.new`
+  не переименован. — [reports/arch-migration-2026-04-16.md OQ#2]
+- `knowledge-base/` → `wiki/` миграция: 0/4 кластеров начаты (ai-consulting, market,
+  sales, health). Sales и health legacy недоступны агентам wiki-pipeline. —
+  [MIGRATION.md + reports/architecture-inventory-2026-04-16.md gap #3]
+- Obsidian vault scope — только `wiki/` или весь репо? Без явного решения vault
+  может открыться неправильно. — [reports/arch-migration-2026-04-16.md OQ#4]
+- Niche `global` — есть в enum frontmatter, нет папки `wiki/niches/global/`;
+  никто не использует. Создать или убрать из enum? — [reports/arch-migration-2026-04-16.md OQ#5]
+
+### 6.2 Orphan-структуры и новые drift'ы (расширение gap #3)
+
+- `agents/content-team/`, `agents/research-team/`, `agents/sales-team/` — папки без
+  агентов в CLAUDE.md roster; не удалены, не задокументированы. —
+  [reports/architecture-inventory-2026-04-16.md §3.3 gap-list]
+- `crazy-agent` tools mismatch — в CLAUDE.md tools-set расходится с реальным
+  frontmatter агента. — [reports/architecture-inventory-2026-04-16.md §3.3]
+- `comms/escalation.jsonl` — упомянут в схеме, файл отсутствует. —
+  [reports/architecture-inventory-2026-04-16.md §3.3]
+
+### 6.3 Multi-agent orchestration — разрыв между дизайном и реальностью
+
+- 6 из 12 mailbox'ов пусты полностью, 6 содержат только тестовый трафик 14-15 апреля;
+  production-сообщений = 0. — [reports/architecture-inventory-2026-04-16.md gap #1]
+- Pipelines (`morning-pipeline.sh`, `evening-pipeline.sh`) не на cron'е; автоматизация
+  декларативна, не работающая. — [reports/architecture-inventory-2026-04-16.md gap #1]
+- `agents/{id}/strategies.md` пусты у всех 12 агентов — System Prompt Learning не
+  накапливается. — [reports/architecture-inventory-2026-04-16.md gap #1]
+- `logs/audits/` пуст — audit trail системы отсутствует. —
+  [reports/architecture-inventory-2026-04-16.md gap #1]
+- Вопрос для диктовки: когда начинать «оживлять» агентов — до закрытия OQ#1-5 или
+  параллельно? [требует уточнения при диктовке]
+
+### 6.4 Notion MCP — single-point-of-failure без fallback'а
+
+- 8 из 12 агентов + 4 skill'а (`/plan-day`, `/close-day`, inbox-processor, manager
+  workflow) зависят от `mcp__notion-*` методов для Daily Log, Банка идей, Command
+  Center, project pages. — [reports/architecture-inventory-2026-04-16.md gap #2]
+- MCP отключился в середине текущей сессии — ключевые функции исчезли мгновенно,
+  без деградации или fallback. — [reports/architecture-inventory-2026-04-16.md gap #2]
+- Fallback на `raw/notion-export/` отсутствует; `tools/sync_context.py` существует,
+  но не вызывается из skill'ов автоматически. —
+  [reports/architecture-inventory-2026-04-16.md gap #2]
+- Вопрос для диктовки: fallback — offline-export по расписанию или зеркало в
+  `wiki/sources/`? [требует уточнения при диктовке]
+
+### 6.5 Противоречие: orchestration — временный слой vs. строим прямо сейчас
+
+- [[ideas/orchestration-is-temporary-feature-gap]] — слой склейки агентов исчезнет,
+  когда модели сами научатся координироваться; инвестиции в оркестрацию временны. —
+  [[wiki/ideas/orchestration-is-temporary-feature-gap]]
+- [[ideas/automate-research-via-crewai]] — строить multi-agent pipeline уже сейчас на
+  CrewAI; конкретные шаги автоматизации research. — [[wiki/ideas/automate-research-via-crewai]]
+- Edge `contradicts` зафиксирован в `wiki/graph/edges.jsonl` (строка 12) — не
+  разрешён. Tension: инвестировать в оркестрацию сейчас vs. ждать нативной
+  координации. — [wiki/graph/edges.jsonl]
+- Вопрос для диктовки: какая ставка на 2026 — строить оркестрацию или быть
+  «опытным оператором одного Claude Code»? [требует уточнения при диктовке]
+
+### 6.6 Мета-вопросы про сам документ SYSTEM-DESIGN-HUMAN.md
+
+- Нужна ли Часть 7 "Границы / Не-система" (что Jetix OS НЕ делает) — или тема
+  вплетается в Часть 1 (Видение) и Часть 4 (Триггеры)? —
+  [SYSTEM-DESIGN-HUMAN.md Приложение 3, п.1]
+- Miro-визуализации — делать параллельно с каждой частью или после всех 6 единым
+  блоком? — [SYSTEM-DESIGN-HUMAN.md Приложение 3, п.2]
+- Глоссарий терминов — отдельная часть или hover-tooltips по ходу текста? —
+  [SYSTEM-DESIGN-HUMAN.md Приложение 3, п.3]
+- Если документ раздут — разбивать на 2-3 файла или оставить монолитом?
+  Критерий "раздутости" не определён. — [SYSTEM-DESIGN-HUMAN.md Приложение 3, п.4]
+
+### 6.7 UNCLEAR — 10 пунктов на ручное ревью Ruslan (сводка)
+
+Полный список с аргументами — Приложение B этого файла. Краткая сводка:
+
+| Группа | ID | Ключевой вопрос |
+|--------|----|-----------------|
+| ideas (личные) | cannabis-refusal, safe-hedonism | входят ли личные практики в life-system protocol? |
+| ideas (операц.) | money-mindset, urgent-search | какой sub-topic Части 1 / 4? |
+| ideas (внимание) | meditation-attention-management-now | Часть 4 ritual или Часть 1 мета-навык? |
+| claims (рынок) | market-size-2026, vulnerability, mittelstand | справочные данные или системный принцип? |
+| claims (архит.) | orchestration-layer-will-be-absorbed | влияет на Часть 5 lifecycle + gap #1 |
+| entities | github, linux | философские метафоры Части 1, entity сами по себе не описывают Jetix OS |
+
+— [Приложение B этого файла]
+
+### 6.8 Что заблокировано Notion MCP (для Шага 2 v2 / диктовки)
+
+- **39 оставшихся идей** в Банке идей не импортированы — могут добавить sub-topics
+  к любой из 6 частей; 60 из 99 уже в wiki. —
+  [SYSTEM-DESIGN-HUMAN.md Приложение 1 + Приложение C этого файла]
+- **11 Notion-страниц** о системе не ingested: Манифест, Архитектура+Karpathy,
+  Command Center, Pipeline рабочего дня, Анализ недели, Типы чатов, Потоки
+  информации, Формат страницы дня, Life OS, Research Hub, ICP Page. —
+  [Приложение C этого файла]
+- **Daily Log scan** (Фаза 4) не выполнен — нет insights из ежедневных заметок Ruslan. —
+  [Приложение C этого файла]
+- **Voice-memos** (`raw/voice-memos/*.ogg`) не транскрибированы — возможны прямые
+  цитаты Ruslan для всех 6 частей. — [MIGRATION.md + Приложение C этого файла]
+- **knowledge-base/ legacy** (sales, health, ai-consulting, market) — 0% перенесено,
+  полезно для Части 2 (sales role) и Части 4-5 (life rituals). — [MIGRATION.md]
+
+### 6.Ω Пробелы (нет источника — нужно обсудить на диктовке)
+
+- **Критерии «готовности» системы** — при каком состоянии Jetix OS считается
+  работающей (не проектом-документом, а работающим бизнесом)? Ни в ideas, ни в
+  concepts нет explicit definition of done для системы в целом. [нужно обсудить на диктовке]
+- **Governance модель** — кто принимает решение, если агент и Ruslan расходятся?
+  Hub и ideas описывают роли, но не conflict-resolution protocol. [нужно обсудить на диктовке]
+- **Версионирование SYSTEM-DESIGN-HUMAN.md** — changelog, major/minor, кто и когда
+  ревьюит? Приложение 2 (история итераций) есть, но процесс не описан. [нужно обсудить на диктовке]
+- **Среднесрочный горизонт (3-12 месяцев)** — 200-летний North Star есть
+  [[ideas/200-year-vision-jetix-humanity]], ближняя цель (quick-money P1) есть,
+  но явный 3-12 месячный уровень как отдельный слой в sources отсутствует. [нужно обсудить на диктовке]
 
 ## Приложение A. Отбраковка (IRRELEVANT) — только счётчики
 
