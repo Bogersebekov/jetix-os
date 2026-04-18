@@ -1,7 +1,7 @@
 ---
 type: design-document
 status: v1-beta-FINAL
-approval-status: pending-ruslan-review
+approval-status: approved-by-ruslan-2026-04-18
 stage: human-language
 version: v1-beta-FINAL-2026-04-18
 owner: ruslan

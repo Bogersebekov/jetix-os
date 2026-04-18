@@ -1,7 +1,7 @@
 ---
 type: architecture-target
 status: v1-beta-FINAL
-approval-status: pending-ruslan-review
+approval-status: approved-by-ruslan-2026-04-18
 stage: technical-synthesis
 version: v1-beta-FINAL-2026-04-18
 owner: ruslan
