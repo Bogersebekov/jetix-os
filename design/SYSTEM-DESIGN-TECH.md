@@ -1,10 +1,13 @@
 ---
 type: design-document
-status: v1-beta
+status: v1-beta-FINAL
+approval-status: pending-ruslan-review
 stage: technical-synthesis
-version: v1-beta-2026-04-18
+version: v1-beta-FINAL-2026-04-18
 owner: ruslan
 created: 2026-04-18
+finalized: 2026-04-18
+summary-ref: design/SYSTEM-DESIGN-TECH-SUMMARY.md
 synthesized-from:
   - SYSTEM-DESIGN-HUMAN.md (v1-beta-2026-04-18)
   - reviews/tech-doc-1-critic-weaknesses-2026-04-18.md
@@ -15,9 +18,11 @@ structure: C4-backbone + arc42-quality + event-sourcing + Nygard-ADRs
 mandatory-read-for: [future-claude, new-contributors, new-agents]
 reading-time: 90 minutes to productive contribution
 related:
+  - design/SYSTEM-DESIGN-TECH-SUMMARY.md
   - design/AGENT-PROTOCOLS.md
   - design/DATA-FLOWS.md
   - design/ARCHITECTURE-TARGET.md
+  - design/IMPLEMENTATION-PLAN-2026-04-18.md
   - reports/tech-doc-synthesis-2026-04-18.md
 ---
 

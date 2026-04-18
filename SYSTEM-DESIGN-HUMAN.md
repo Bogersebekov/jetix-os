@@ -1,12 +1,16 @@
 ---
 type: design-document
-status: released
+status: v1-beta-FINAL
+approval-status: pending-ruslan-review
 stage: human-language
-version: v1-beta-2026-04-18
+version: v1-beta-FINAL-2026-04-18
 owner: ruslan
 created: 2026-04-16
 updated: 2026-04-18
 released: 2026-04-18
+finalized: 2026-04-18
+tech-synthesis-complete: true
+summary-ref: design/SYSTEM-DESIGN-TECH-SUMMARY.md
 structure: 7-parts-plus-meta
 scope: "v1-beta — работоспособная, не перфекционистская. Дальше — проект улучшения."
 primary-goal: "$50K revenue до 30.06.2026. Документ — инструмент, не самоцель."
@@ -18,6 +22,13 @@ parts:
   part-5-actions-triggers: complete
   part-6-states-lifecycle: complete
   part-7-open-questions: complete
+tech-docs:
+  - design/SYSTEM-DESIGN-TECH.md
+  - design/SYSTEM-DESIGN-TECH-SUMMARY.md
+  - design/AGENT-PROTOCOLS.md
+  - design/DATA-FLOWS.md
+  - design/ARCHITECTURE-TARGET.md
+  - design/IMPLEMENTATION-PLAN-2026-04-18.md
 next-milestone: v1-final (после 2+ недель использования)
 ---
 

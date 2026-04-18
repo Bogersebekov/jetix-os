@@ -1,14 +1,19 @@
 ---
 type: design-document
-status: v1-beta
+status: v1-beta-FINAL
+approval-status: pending-ruslan-review
 stage: technical-synthesis
-version: v1-beta-2026-04-18
+version: v1-beta-FINAL-2026-04-18
 owner: ruslan
 created: 2026-04-18
+finalized: 2026-04-18
+summary-ref: design/SYSTEM-DESIGN-TECH-SUMMARY.md
 related:
   - design/SYSTEM-DESIGN-TECH.md
+  - design/SYSTEM-DESIGN-TECH-SUMMARY.md
   - design/AGENT-PROTOCOLS.md
   - design/ARCHITECTURE-TARGET.md
+  - design/IMPLEMENTATION-PLAN-2026-04-18.md
 ---
 
 # DATA-FLOWS.md — Jetix OS data flows v1-beta

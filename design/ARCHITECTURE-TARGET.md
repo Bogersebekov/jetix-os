@@ -1,15 +1,20 @@
 ---
 type: architecture-target
-status: v1-beta
+status: v1-beta-FINAL
+approval-status: pending-ruslan-review
 stage: technical-synthesis
-version: v1-beta-2026-04-18
+version: v1-beta-FINAL-2026-04-18
 owner: ruslan
 created: 2026-04-18
+finalized: 2026-04-18
+summary-ref: design/SYSTEM-DESIGN-TECH-SUMMARY.md
 contrast-with: ARCHITECTURE-CURRENT.md (2026-04-16)
 related:
   - design/SYSTEM-DESIGN-TECH.md
+  - design/SYSTEM-DESIGN-TECH-SUMMARY.md
   - design/AGENT-PROTOCOLS.md
   - design/DATA-FLOWS.md
+  - design/IMPLEMENTATION-PLAN-2026-04-18.md
   - design/NOTION-MIGRATION-PLAN.md
   - ARCHITECTURE-CURRENT.md
   - reports/architecture-inventory-2026-04-16.md
