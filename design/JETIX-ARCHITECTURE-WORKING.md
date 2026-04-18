@@ -1,7 +1,7 @@
 ---
 type: working-draft
 status: in-progress
-version: v0.6-working
+version: v0.7-working
 owner: ruslan
 created: 2026-04-18
 finalized: null
@@ -34,7 +34,7 @@ commit-policy: append-only в секциях Log / Decisions; в секциях 
 next-output: decisions/2026-04-18-jetix-architecture-final.md по T-02
 ---
 
-# Jetix Architecture — Working Draft v0.6
+# Jetix Architecture — Working Draft v0.7
 
 > **Это рабочий черновик.** Документ живёт и растёт пока мы обсуждаем. Финальная
 > зафиксированная версия переедет в `decisions/2026-04-18-jetix-architecture-final.md`
@@ -1233,15 +1233,47 @@ credibility.
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Концепция подтверждена 100%** (Ruslan 2026-04-19): L5 = **мембрана
+  двустороннего обмена ценностью**.
+- **Ключевая формулировка Ruslan'а** (фиксируем как суть слоя):
+  > «Мы даём рынку ценность, потом рынок даёт ценность нам».
+- **Принцип «место-слот» применяется.** Описываем что слой ЕСТЬ:
+  - три регистра (public funnel / Jetix Club / Jetix Alliance)
+  - двусторонний обмен ценностью
+  - compound flow L4 → L5 (case study factory)
+  Но **конкретное наполнение** (какой именно newsletter topic, какой
+  Alliance Forum schedule, какой Club Tier pricing final) —
+  **не придумываем сейчас**.
+- **По мере появления людей/клиентов/партнёров — лаконично вливается.**
+  Newsletter subscribers растут → L5 growing. Первый L4 client закрылся →
+  Alliance founding slot активируется. Первые Club members paying → Tier
+  структура уточняется. Система готова принять всё это без rebuild.
+- **Варианты наполнения** (три регистра + примеры) уже описаны выше как
+  **кандидатные шаблоны** — могут меняться, но структура слоя стабильна.
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Все «Ключевые вопросы» (язык newsletter, founding member механика,
+  LinkedIn personal vs company, burnout cap, Club/Alliance границы,
+  Chatham NDA текст, concierge matchmaking, Summit timing) — решаются
+  по мере появления реальных членов аудитории, не заранее.
+- Specific compound flow L4 → L5: agent prompt для case-study-generation
+  + Ruslan review SOP.
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.7 pass по L5)
 
-- _(пусто)_
+- **L5 Membrane = APPROVED.** Слой двустороннего обмена ценностью между
+  Jetix и рынком: мы даём value → рынок даёт value нам.
+- **Три регистра** (public funnel / Club / Alliance) зафиксированы как
+  места-слоты.
+- **Секвенсирование зафиксировано:** newsletter с Day 1, LinkedIn с Day 1,
+  Club Tier 1 soft launch end Q2, Alliance founding members только после
+  первых paid L4 клиентов, annual Summit не раньше H2 2026.
+- **Compound flow L4 → L5** (каждый проект → anonymized case study) —
+  заложен как обязательный.
+- Конкретное наполнение (topics, tiers, pricing, members) — по мере
+  появления людей и клиентов, лаконично встраивается.
+- Статус: ✅ концептуально утверждено, место-слот готов.
 
 ---
 
@@ -1320,15 +1352,49 @@ hyper-focus на Mittelstand нишу.
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Концепция подтверждена 100%** (Ruslan 2026-04-19): L6 = **видение на
+  потом**. Форма в которую эволюционируют L3+L4+L5 через 18-36 месяцев.
+- **Ключевая формулировка:** L6 **не строим** в Q2 — это форма, которая
+  появляется сама как emergence из правильно работающих L3+L4+L5. Здесь
+  мы просто **фиксируем место** куда будущая платформа впишется.
+- **В Q2 активно не делаем ничего для platform** — только standalone
+  assets (EU AI Act Kit), которые сами по себе lead magnets + future
+  platform building blocks.
+- **Strict sequencing зафиксировано:**
+  - Q2 2026: standalone assets only
+  - Q3-Q4 2026: Readiness Assessment productized
+  - H1 2027: soft marketplace (0% take rate)
+  - H2 2027: 10% take rate + first Benchmark report
+  - 2028+: full platform mode
+- **Data network effects seed с Day 1.** Каждый L4 SOW включает opt-in
+  clause для anonymized data aggregation. Через 2 года — уникальный
+  Mittelstand AI dataset, через который никто кроме Jetix не пройдёт
+  (data moat).
+- **Три компонента будущей platform** зафиксированы как места-слоты:
+  - Marketplace (curated AI vendors для Mittelstand)
+  - Alliance-as-platform-network (Forum Groups → membership tier)
+  - Mittelstand AI Benchmark (annual monetizable research €5-20K license)
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Все «Ключевые вопросы» (EU AI Act Kit Q2 vs Q3, Benchmark opt-in
+  wording, Platform vs Alliance разница, big player conflict mitigation,
+  Bavaria-first rationale) — уходят на 2027 decision window.
+- SOW clause для data opt-in — template нужен (related: L4 SOW
+  standardization).
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.7 pass по L6)
 
-- _(пусто)_
+- **L6 Topology = APPROVED как видение 18-36 месяцев.** Форма, в которую
+  эволюционируют L3+L4+L5.
+- **В Q2 только standalone assets** (EU AI Act Kit). Platform construction
+  не начинаем.
+- **Три компонента** (Marketplace / Alliance network / Benchmark Report)
+  зафиксированы как места-слоты.
+- **Data opt-in clause в L4 SOW** — закладывается с Day 1 (required для
+  future Benchmark moat).
+- Статус: ✅ концептуально утверждено как horizon. Активно passive в
+  Q2 — pop up ритуалов и ownership нет.
 
 ---
 
@@ -1709,6 +1775,14 @@ L1-L7 сохраняются, каждый имеет два регистра:
   реальное наполнение. Не придумываем SKU/pricing/Club design заранее —
   встроятся лаконично когда реальные кейсы появятся. Compound flow
   L4 → L3 (artifact extraction) и L4 → L5 (case study) заложены.
+- **§5 L5 и L6 — APPROVED (v0.7, 2026-04-19).**
+  L5 Membrane = мембрана двустороннего обмена ценностью: «мы даём рынку
+  ценность → рынок даёт ценность нам» (формулировка Ruslan'а). Три
+  регистра (public / Club / Alliance) как места-слоты, секвенсирование
+  зафиксировано, compound L4 → L5 case study factory — обязателен.
+  L6 Topology = видение на потом. Форма в которую эволюционируют
+  L3+L4+L5 через 18-36 мес. В Q2 только standalone assets (EU AI Act Kit).
+  Data opt-in clause в L4 SOW с Day 1 для future Benchmark moat.
 
 ### Убрано
 
@@ -1762,6 +1836,21 @@ L1-L7 сохраняются, каждый имеет два регистра:
 
 > **Append-only**, новые записи СВЕРХУ. Каждая запись = короткая пометка
 > что сделано в этой сессии.
+
+### 2026-04-19 — v0.7: L5 и L6 APPROVED (мембрана + видение)
+
+- **L5 Membrane — APPROVED.** Ruslan подтвердил 100%. Слой двустороннего
+  обмена ценностью. Ключевая формулировка Ruslan'а (зафиксирована как
+  суть слоя): «мы даём рынку ценность, потом рынок даёт ценность нам».
+  Три регистра (public funnel / Club / Alliance) — места-слоты. По мере
+  появления людей лаконично вливается.
+- **L6 Topology — APPROVED как видение на потом.** Форма в которую
+  эволюционируют L3+L4+L5 через 18-36 мес. В Q2 не строим platform —
+  только standalone assets (EU AI Act Kit). Три компонента будущей
+  platform (Marketplace / Alliance-network / Benchmark Report) — места-слоты.
+- **Data opt-in clause** в L4 SOW — required с Day 1 (для future Benchmark
+  moat).
+- Оба слоя следуют принципу «место-слот» установленному в v0.6.
 
 ### 2026-04-19 — v0.6: L3 и L4 APPROVED (принцип «место-слот»)
 
