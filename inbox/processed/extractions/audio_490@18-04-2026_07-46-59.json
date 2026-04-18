@@ -1,0 +1,47 @@
+{
+  "source": "audio_490@18-04-2026_07-46-59.txt",
+  "processed_at": "2026-04-18T16:52:15",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Решения",
+      "content": "Обработка забросов и идей должна включать стадию критического переосмысления с фокусом на 10x улучшения эффективности и скорости",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить подробно последние наработки и подходы Илона Маска и внедрить нужные в workflow",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "С адекватно настроенными агентами возможно создать one million, one person company",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить и продлить работу агентов для достижения максимальной эффективности",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "source": "audio_482@17-04-2026_08-08-39.txt",
+  "processed_at": "2026-04-18T16:51:03",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "Информация должна циркулировать в любой здоровой системе - есть вход и выход, потребление и производство. Это признак жизни системы.",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Здоровая система должна чередовать напряжение и расслабление - работает, потом отдыхает, изучает, потом производит.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Бизнес должен работать как система: лиды заходят - клиенты выходят, информация находится - потом используется.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Можно жить в квартире за $150K, где кто-то жил до тебя - не обязательно строить всё с нуля под себя.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Жить с кайфом: работать с друзьями, периодически собираться на шашлыки, ездить на море на две недели, но в рамках нормальной рабочей системы.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Высчитать базовые метрики input/output для Jetix как критерии здоровья системы.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Посчитать финансовые модели для Jetix: сколько людей понадобится, маржинальность, прикидки по касаниям.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Полностью настроить pipeline по продажам и начать зарабатывать деньги.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

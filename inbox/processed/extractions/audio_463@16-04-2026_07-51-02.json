@@ -1,0 +1,77 @@
+{
+  "source": "audio_463@16-04-2026_07-51-02.txt",
+  "processed_at": "2026-04-18T16:47:38",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "AI сейчас имеет огромное преимущество перед людьми в обработке информации, анализе, написании кода — это как электричество, которое можно использовать везде",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Можно превзойти McKinsey и Big Four консалтинговые фирмы за счет AI-инструментов и качественной автоматизации",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать Wikipedia по рынкам с автоматическим анализом и генерацией отчетов для конкретных клиентов",
+      "priority": "high",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить wiki-систему для анализа рынков и автоматизации исследований",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать себя для позиционирования, создать презентации, описать ICP",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать персонализированные истории и контент для конкретных ICP на базе wiki-данных",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Повезло жить в эпоху AI и иметь интерес к системам второго мозга для записи идей",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

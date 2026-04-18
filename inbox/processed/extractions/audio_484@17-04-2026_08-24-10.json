@@ -1,0 +1,47 @@
+{
+  "source": "audio_484@17-04-2026_08-24-10.txt",
+  "processed_at": "2026-04-18T16:51:16",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Делать что-то в одиночку (изучение, работа, жизнь) не прикольно, с командой или напарником в разы веселее и эффективнее.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти похожих партнеров для Jetix, чтобы не заниматься развитием проекта в одиночку.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать платформу для безопасного, быстрого обмена ресурсами между партнерами.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Работать в команде/с напарниками эффективнее и веселее, чем в одиночку.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

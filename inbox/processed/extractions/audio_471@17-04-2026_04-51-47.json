@@ -1,0 +1,87 @@
+{
+  "source": "audio_471@17-04-2026_04-51-47.txt",
+  "processed_at": "2026-04-18T16:49:00",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Поиск партнеров-авантюристов с предложением высокого дохода (100К$/мес) в обмен на помощь, где их доля 10К$/мес при успехе проекта",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать конкретно ICP (идеальных клиентов), что можем предложить и желаемый уровень заработка",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Определиться, какая именно помощь нужна от партнеров и что от них требуется",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "AI-агенты могут создавать персонализированные сообщения высокого качества, как научные отчеты по бизнесу клиента",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Решения",
+      "content": "Использовать систему AI-агентов для ежедневного поиска и контакта с потенциальными клиентами везде, где только можно",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Jetix стратегия - бизнес-консультант на максималках, который быстро решает проблемы, поднимает выручку, настраивает команды",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Готовился быть бизнес-консультантом, а в итоге накопил экспертизу для подготовки других консультантов, но сам еще не консультировал",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Амбиции работать на уровне задавания трендов в области работы с информацией и ведения бизнеса",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

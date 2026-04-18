@@ -1,0 +1,67 @@
+{
+  "source": "audio_464@16-04-2026_07-58-40.txt",
+  "processed_at": "2026-04-18T16:47:49",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix как умная сеть, соединяющая консультантов и бизнес в реальном времени с автоматизацией, AI-инструментами и максимальной безопасностью данных",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix может стать платформой, под которой будут работать консалтинговые агентства типа McKinsey, предоставляя им инфраструктуру и инструменты",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Решения",
+      "content": "Сосредоточиться на захвате ниши среднего бизнеса как достаточной для долгосрочного развития",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать концепцию сети Jetix с разных сторон, но пока никому не показывать",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Кто конкретно нужен для реализации концепции сети Jetix и как их найти",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использование личных серверов клиентов и серверов в Германии для максимальной безопасности и скорости работы с данными",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

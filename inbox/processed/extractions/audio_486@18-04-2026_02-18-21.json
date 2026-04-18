@@ -1,0 +1,47 @@
+{
+  "source": "audio_486@18-04-2026_02-18-21.txt",
+  "processed_at": "2026-04-18T16:51:28",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Важно подходить к любому делу на 100% с концентрацией, глубиной и качеством, без распыления внимания на несколько задач одновременно.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Работать без отвлечений (музыка, прочие помехи), полностью сфокусированно на одной задаче в текущий момент.",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Перед началом работы тратить несколько минут на обдумывание подхода к задаче и формулирование конкретных действий.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать словами конкретные принципы качественного выполнения задач для разных ситуаций.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

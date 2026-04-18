@@ -1,0 +1,27 @@
+{
+  "source": "audio_485@17-04-2026_08-25-22.txt",
+  "processed_at": "2026-04-18T16:51:21",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи",
+      "content": "Механизм обмена между партнерами должен работать через деньги или как деньги, где участники могут обмениваться всем на все.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи",
+      "content": "Различные типы партнерских отношений: ученик-учитель, инвестор-ищущий инвестиции, научные деятели, путешественники.",
+      "priority": "low",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

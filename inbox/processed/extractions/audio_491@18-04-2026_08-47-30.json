@@ -1,0 +1,57 @@
+{
+  "source": "audio_491@18-04-2026_08-47-30.txt",
+  "processed_at": "2026-04-18T16:52:24",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи",
+      "content": "Еду можно записывать как код, сохранять варианты блюд и делиться рецептами. Концепция инженерии еды с базовыми версиями блюд и кастомизацией под предпочтения пользователей.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Автоматические кухни и роботы-повара полностью заменят человеческий труд в приготовлении еды, делая это быстрее, дешевле и качественнее.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Мегафабрики еды в каждом районе, объединенные в единую сеть без конкуренции. Система работает более эффективно, чем существующие сервисы доставки еды.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Единая сеть производства еды сможет победить существующих игроков типа Lieferando за счет отсутствия внутренней конкуренции и большей эффективности.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи",
+      "content": "Модель white label или франшизы для масштабирования системы автоматизированного производства еды и других инструментов для бизнеса.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

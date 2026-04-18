@@ -1,0 +1,77 @@
+{
+  "source": "audio_476@17-04-2026_05-37-44.txt",
+  "processed_at": "2026-04-18T16:49:52",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "All-in подход ко всему: каждая продажа, встреча с партнерами, видео, презентация должны делаться с максимальной отдачей и полной концентрацией.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "All-in настрой будет одним из самых удачных подходов в текущей экономике и эпохе AI-агентов.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти 10 all-in профессионалов, которые верят в AI и готовы работать с максимальной отдачей.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Собрать команду из 10 all-in профессионалов, дать им по $10K в месяц, токены и инфраструктуру - за год вырастет мощная корпорация с огромным отрывом от конкурентов.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Все карты на руках уже сейчас - появились инструменты и понимание как искать людей и что предлагать. Возможность была всегда, просто раньше не видел и не использовал.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Чувство, что успех очень близко, нужно просто идти и брать. Высокий уровень мотивации и готовности к действию.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Качественно настроить все AI-инструменты для перехода к активной фазе работы с клиентами и партнерами.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "audio_468@16-04-2026_09-44-43.txt",
+  "processed_at": "2026-04-18T16:48:22",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "Привлечь в Jetix мотиваторов, спикеров типа Тони Робинса, спортсменов - людей с высокой энергией и мотивацией к плотной работе",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Мотивированные люди (мотиваторы, спортсмены) разделяют философию плотной работы, что делает их потенциально подходящими для Jetix",
+      "priority": "low",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "source": "audio_473@17-04-2026_04-57-21.txt",
+  "processed_at": "2026-04-18T16:49:16",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Сделать глубокий анализ продаж: как они работают, какие есть варианты продавать, в чем суть продаж и как происходит обмен",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать 'википедию' по продажам - собрать все способы продавать из видео и других источников",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти все способы описать продукт самым эффективным способом",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Решения",
+      "content": "Потратить больше времени (даже неделю) на изучение продаж, чтобы вытянуть все возможные способы и подходы",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "После изучения продаж запустить тестирование и смотреть на эффекты",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

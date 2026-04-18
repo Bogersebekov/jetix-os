@@ -1,0 +1,57 @@
+{
+  "source": "audio_472@17-04-2026_04-55-06.txt",
+  "processed_at": "2026-04-18T16:49:09",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "История с красной скрепкой показывает медленность офлайн-обменов, но сейчас с интернетом можно мгновенно дотянуться до любого человека и показать свой проект за 5-10 минут внимания.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix должен стать хабом для людей, которые работают над глобальными изменениями - помогать им и получать помощь от таких же людей.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать концепцию Jetix как хаба для людей, работающих над глобальными изменениями.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать подробный анализ рынка и составить детальную таблицу по ICP с помощью Claude.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": "Claude",
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Составить мегапортрет ICP с описанием всех возможных вариантов для последующего тестирования.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": "Claude",
+      "date": "2026-04-18"
+    }
+  ]
+}

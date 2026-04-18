@@ -1,0 +1,87 @@
+{
+  "source": "audio_469@17-04-2026_00-58-51.txt",
+  "processed_at": "2026-04-18T16:48:34",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Life OS система как универсальный инструмент (велосипед, машина) - не может существовать сама по себе, создана для конкретных пользователей и их задач",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Видение",
+      "content": "Система как инструмент для трекинга и управления ресурсами: информация, время, финансы, связи/нетворкинг",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Система превращает сырую информацию из внешних источников в полезный ресурс, который можно использовать",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Система помогает находить взаимосвязи между ресурсами, соединять то что маловероятно соединилось бы само",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Эффективность системы зависит от управляющего - как машина под управлением профана vs профессионала",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Решения",
+      "content": "Jetix базовая структура: база знаний + агенты + daily log + трекинг себя = это основа, базовая 'машина'",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "На базовую систему будут наслаиваться специализированные версии: гоночная для предпринимателей, грузовая для исследователей, etc",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Система должна быстро перестраиваться под цели и задачи конкретного пользователя - это показатель хорошей системы",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "source": "audio_487@18-04-2026_04-11-30.txt",
+  "processed_at": "2026-04-18T16:51:46",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix как AI-корпорация с командой 70 человек, 20 грантов, 2 философских работы, 3 приложения, аудитория 200+ млн, оценка в миллиарды евро - единорог мирового масштаба",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Система из трех усилителей: 1) research и анализ для большего контекста, 2) Claude Code для выполнения сложных задач, 3) синергия между ними дает космически быстрое улучшение",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Решения",
+      "content": "Как CEO Jetix заниматься только стратегическим управлением компанией, не продажами, настройкой кода и операционными задачами",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Продажи через предложение 'пару миллионов долларов можешь заработать на минимальный риск' - лучший подход для привлечения клиентов",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Составить список всех потенциальных клиентов Jetix и написать каждому в ДМ через друзей с предложением сотрудничества",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Обратиться ко всем инвесторам, миллиардерам через ДМ, детально описать миссию Jetix и объяснить выгоды сотрудничества",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Задачи",
+      "content": "Детальнее описать миссию и задачу Jetix для презентации инвесторам",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использовать AI-агентов для автоматического поиска и анализа профилей потенциальных клиентов и их связей в соцсетях",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Принципы",
+      "content": "Во время 'землетрясения' в AI-индустрии соединять философию фокуса, рычаги, адекватных людей и ресурсы для масштабных дел",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Система скоро будет готова и можно будет тестировать то, что так долго ждал",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-18"
+    }
+  ]
+}
