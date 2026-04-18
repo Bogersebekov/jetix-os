@@ -1,7 +1,7 @@
 ---
 type: working-draft
 status: in-progress
-version: v0.5-working
+version: v0.6-working
 owner: ruslan
 created: 2026-04-18
 finalized: null
@@ -34,7 +34,7 @@ commit-policy: append-only в секциях Log / Decisions; в секциях 
 next-output: decisions/2026-04-18-jetix-architecture-final.md по T-02
 ---
 
-# Jetix Architecture — Working Draft v0.5
+# Jetix Architecture — Working Draft v0.6
 
 > **Это рабочий черновик.** Документ живёт и растёт пока мы обсуждаем. Финальная
 > зафиксированная версия переедет в `decisions/2026-04-18-jetix-architecture-final.md`
@@ -983,15 +983,47 @@ pricing, SOC 2 Type II в Year 1.
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Концепция подтверждена 100%** (Ruslan 2026-04-19): L3 = слой для
+  **повторяемых (repetitive) услуг и продуктов**. Понятно, берём.
+- **⚠️ Принцип «место-слот, не содержание».** На этапе конструирования
+  **ничего конкретного придумывать не надо** (не делаем сейчас Jetix Club
+  Tier 1 design, не выбираем конкретные SKU из 3 векторов). Задача сейчас —
+  **описать что этот слой ЕСТЬ, под что он подготовлен, как в него
+  встраивается будущее наполнение**. Когда реальный повторяемый продукт
+  появится (reusable prompt из L4, subscription-идея) — он **лаконично
+  встраивается** в готовый слот L3.
+- **Compound L4 → L3 — ключевой flow.** Каждый bespoke L4 проект должен
+  производить reusable компонент (промпт / workflow / playbook), который
+  при повторном спросе превращается в L3 SKU. Это надо заложить в SOP
+  delivery L4 (шаг «artifact extraction» при закрытии каждого проекта).
+- **Pricing flexibility заложена.** Tiers (€29/€99/€299 или €300-3000/mo
+  subscription или €500-5000 fixed) — не фиксированы. Подбираются под
+  реальную аудиторию после первых клиентов.
+- **Self-serve как horizon.** В Q2/Q3 всё human-in-the-loop (delivery с
+  участием Ruslan + агентов). Self-serve — 2027+. Не торопимся.
+- **L3 = потенциальный распространитель Jetix framework** (связь с
+  `project_jetix_hybrid_framework_vision`). Через 2-3 года Jetix Club
+  может стать core community для licensing Jetix methodology другим
+  solo-operators.
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Все «Ключевые вопросы» уходят в будущее (когда появится реальный
+  product-candidate) — решаются в моменте, не заранее.
+- Artifact extraction SOP для L4 delivery (как конкретно выделяется
+  reusable компонент для потенциального L3 SKU).
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.6 pass по L3)
 
-- _(пусто)_
+- **L3 Product = APPROVED на концептуальном уровне.** Это слой повторяемых
+  продуктов и услуг. Параллельный к L4.
+- **Принцип «место-слот».** Слой описан, инфраструктура готова, но
+  **не наполнен**. Наполнение произойдёт когда реальные повторяемые
+  продукты появятся — они лаконично встроятся в готовый слот.
+- **Compound L4 → L3 — обязательный flow.** Каждый L4 проект оставляет
+  artifact-candidate для L3.
+- Статус: ✅ концептуально утверждено, конкретное наполнение — по мере
+  появления реальных кейсов.
 
 ---
 
@@ -1067,15 +1099,56 @@ Unit economics Jetix vs traditional:
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Концепция подтверждена 100%** (Ruslan 2026-04-19): L4 = hybrid
+  **agency + consulting**. Именно этот слой — основной упор в Q2 2026.
+  Все 4 SKU (Audit / Quick Win / Custom / Retainer), unit economics, MBB
+  toolkit, DACH specifics — берём.
+- **⚠️ Принцип «место-слот, не содержание» применяется и здесь.** Сейчас
+  на этапе конструирования **не придумываем конкретные SKU final pricing,
+  не пишем полные SOW**. Описываем что этот слой ЕСТЬ, что в нём живут
+  4 SKU-шаблона с value-based pricing, что требует MBB toolkit и DACH
+  specifics. **Реальные SKU + proposals + SOW** — создаются по мере
+  появления первых клиентов, лаконично встраиваясь в готовый слот.
+- **Q2 focus = L4 delivery engine.** Ресурсы Ruslan'а (human time + роли
+  агентов) приоритизированы под L4. Остальные слои (L3, L5, L6, L7) —
+  support, не parallel effort.
+- **Shape Up adaptation.** L4 проекты режем как **«bets»** длительностью
+  2-6 недель, не бесконечные engagements (→ L1 methodology).
+- **Case study factory.** После закрытия каждого L4 проекта **автоматически**
+  делаем anonymized case study (agent-generated draft + Ruslan review) —
+  питание для L5 Membrane (newsletter + authority).
+- **Client onboarding standardization.** Каждый новый L4 client получает
+  единый onboarding experience (Notion intake template + intro deck +
+  SOW template + Cal.com для meetings). Экономит время + даёт
+  professional impression.
+- **Money-back guarantee для первых 3 клиентов.** DACH-friendly
+  mechanism reducing barrier: «если после Audit ты не видишь value —
+  возврат 50%». Работает потому что показывает confidence в product.
+  Применимо только на first clients для case-study generation.
+- **Language strategy.** Ruslan DE B2-C1 — proposals/SOW пишутся с
+  agent-assisted DE translation + Ruslan polish. Нужен SOP для этого
+  (writer-роль → DE output → Ruslan review).
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Все «Ключевые вопросы» (pricing для first, Quick Win без Audit,
+  retainer attachment, Ruslan-vs-agent split, scope creep template,
+  first 3 fail scenario, positioning, IHK membership) — решаются в
+  моменте первых реальных клиентов.
+- Artifact extraction SOP (связь с L3 compound flow).
+- Case study auto-generation workflow — agent prompt + Ruslan review.
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.6 pass по L4)
 
-- _(пусто)_
+- **L4 Delivery = APPROVED на концептуальном уровне.** Hybrid
+  agency + consulting. Основной revenue engine Q2 2026.
+- **Принцип «место-слот».** 4 SKU-шаблона описаны, структура готова,
+  методологии (MBB toolkit) встроены. **Реальные proposals + SOW**
+  создаются по мере появления клиентов, встраиваются в готовые слоты.
+- **Compound flow:** каждый L4 проект оставляет (a) artifact-candidate
+  для L3 (b) case study для L5.
+- Статус: ✅ концептуально утверждено, конкретное наполнение — по мере
+  появления реальных кейсов.
 
 ---
 
@@ -1629,6 +1702,13 @@ L1-L7 сохраняются, каждый имеет два регистра:
   L1 Foundation (бизнес как кодовая база) и L2 Cognitive (Левенчук как руль) —
   оба 100% берём. Детали откладываются на agent-driven follow-up research +
   internal tests. Возможно объединить L0 + L2 research в один waveset.
+- **§5 L3 и L4 — APPROVED с принципом «место-слот» (v0.6, 2026-04-19).**
+  L3 (повторяемые продукты) и L4 (agency+consulting hybrid, primary Q2
+  engine) концептуально утверждены. **Важный принцип:** на этапе
+  конструирования описываем слои как *места-слоты*, готовые принять
+  реальное наполнение. Не придумываем SKU/pricing/Club design заранее —
+  встроятся лаконично когда реальные кейсы появятся. Compound flow
+  L4 → L3 (artifact extraction) и L4 → L5 (case study) заложены.
 
 ### Убрано
 
@@ -1682,6 +1762,27 @@ L1-L7 сохраняются, каждый имеет два регистра:
 
 > **Append-only**, новые записи СВЕРХУ. Каждая запись = короткая пометка
 > что сделано в этой сессии.
+
+### 2026-04-19 — v0.6: L3 и L4 APPROVED (принцип «место-слот»)
+
+- **L3 Product — APPROVED.** Слой повторяемых продуктов/услуг. Ruslan
+  подтвердил 100%.
+- **L4 Delivery — APPROVED.** Agency + Consulting hybrid. Primary revenue
+  engine Q2 2026. Ruslan подтвердил 100%.
+- **⚠️ Ключевой принцип зафиксирован для обоих слоёв и для всей системы:
+  «место-слот, не содержание».** На этапе конструирования описываем слои
+  как места готовые принять наполнение. Не придумываем конкретные SKU,
+  pricing, Club design, SOW прямо сейчас. Когда реальные продукты/клиенты
+  появятся — встроятся лаконично.
+- **Compound flows зафиксированы:**
+  - L4 → L3: каждый проект оставляет artifact-candidate (для future SKU)
+  - L4 → L5: каждый проект → anonymized case study (agent-generated)
+- **Инсайты для L4 добавлены:** Shape Up adaptation (2-6 week bets),
+  case study factory, onboarding standardization, money-back для первых 3,
+  DE language strategy.
+- **Инсайты для L3 добавлены:** compound flow требует SOP, pricing
+  flexibility, self-serve как horizon 2027+, L3 как распространитель
+  Jetix framework (связь с hybrid-framework vision).
 
 ### 2026-04-19 — v0.5: L1 и L2 APPROVED на концептуальном уровне
 
