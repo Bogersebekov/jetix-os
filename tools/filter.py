@@ -18,7 +18,7 @@ HOME = Path.home()
 EXTRACTIONS = HOME / "jetix-os" / "inbox" / "processed" / "extractions"
 OUT_DIR = HOME / "jetix-os" / "inbox" / "processed" / "filtered"
 CONTEXT_FILE = HOME / "jetix-os" / "config" / "context.md"
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-opus-4-7"
 
 
 def load_context() -> str:
