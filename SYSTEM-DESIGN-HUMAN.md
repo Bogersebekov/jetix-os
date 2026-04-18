@@ -1032,6 +1032,14 @@ jetix-os/
 └── prompts/                      # ✅ Inструктажи для серверного Claude
 ```
 
+**Migration note 2026-04-18 (Шаг 4 v1-beta):**
+- Все NEW папки из схемы выше созданы: `strategy/`, `decisions/`, `tasks/`, `hypotheses/`, `tools-catalog/`, `reflection/`, `health/`, `ideas-pool/`, `daily-log/drafts/`, `docs/adr/`.
+- **B-4.1 resolved:** named-версии — canonical. 8 numbered папок (`01-research`…`08-bets`) содержали только `CONTEXT.md` → перемещены в `projects/_archive/` для будущей интеграции в `overview.md` namedных (Шаг 6+).
+- **B-4.2 resolved:** 4 orphan agent папки (`content-team`, `research-team`, `sales-team`, `_shared`) были пустые (0 файлов в git) → удалены `rm -rf`. Архивация не потребовалась.
+- **B-4.3 deferred:** `knowledge-base/` не трогаем на этой фазе (см. `MIGRATION.md`).
+- `automations/` (TD-08) удалена; `test-sync.md` удалён; `ARCHITECTURE.md` перемещён в `docs/legacy/ARCHITECTURE-2026-04-14.md` (замещён `ARCHITECTURE-CURRENT.md` + `ARCHITECTURE-TARGET.md`).
+- Детали: `reports/step4-folders-closure-2026-04-18.md`.
+
 **Принципы чистоты:**
 
 1. **Каждый файл имеет YAML frontmatter** — type, status, tags, sources

@@ -39,6 +39,16 @@ WHITELIST = {
     "test-sync.md",
 }
 
+# Path segments that mark "archived" content — historical snapshots that
+# pre-date invariants and should not be validated. Any .md whose path contains
+# one of these segments is skipped.
+SKIP_PATH_SEGMENTS = {
+    "_archive",
+    "_archived",
+    "legacy",
+    "archive",
+}
+
 # Baseline для ВСЕХ типов.
 BASE_REQUIRED = {"type", "created"}
 
@@ -123,6 +133,8 @@ def check_file(path: Path, root: Path) -> list[str]:
     if path.name in WHITELIST:
         return []
     if path.suffix != ".md":
+        return []
+    if any(seg in SKIP_PATH_SEGMENTS for seg in path.parts):
         return []
 
     fields, err = extract_frontmatter(path)
