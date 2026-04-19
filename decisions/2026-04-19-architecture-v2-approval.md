@@ -312,6 +312,64 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 6 — Part 2 Areas 6-9 (D6-D9 details)
 
+### Area 8 → D8 docs/INSTRUCTIONS ✅ APPROVED 2026-04-20
+
+**Ruslan directive:** "Главное план фиксировать, чтобы потом по нему адекватно идти и трекать что сделано. Всё остальное добавим по ходу."
+
+**7+7 day rollout accepted + realistic tolerance:**
+
+**Days 1-7 Sales Infrastructure:**
+- Day 1: jetix.de domain + git init + directions/_active/ai-consulting-dach/ init
+- Day 2: First SKU + 4 pre-commit hooks (asymmetric ref / Rechnungsnummer / role-manifest / past-participle)
+- Day 3: Cold outreach list 50 Mittelstand (IHK directory + Perplexity research)
+- Day 4: Discovery call template (DE+EN) + Cal.com booking
+- Day 5: Proposal template + Audit SKU pricing
+- Day 6: Contract + invoice template + Stripe account setup
+- Day 7: Steuerberater intake + first hypothesis direction stub
+
+**Days 8-14+ Foundation (realistic 7+10-12 timeline):**
+- Day 8: SOPS+age + Life-OS ≠ Jetix folder separation
+- Day 9 (may extend to 9a+9b): 18 role.md migration full depth + 18 executor-bindings
+- Day 10: First golden dataset sales-lead + 5-й auto-translation hook
+- Day 11: Diátaxis 2-form docs + D6 FPF first-pass (parallel track может extend)
+- Day 12: First RFD + Constitution §11 с TBD trustee placeholder
+- Day 13: ops/ artifacts text (hit-by-bus + continuity + incident-playbook + disaster-recovery + gdpr-art-33) с TBD trustee
+- Day 14: Backup restic → Backblaze B2 + Healthchecks.io
+
+**Parallel tracks:**
+- D6 FPF full writing (30-50 pages, 3 passes) — parallel к Foundation Days 10-14+
+- Migration script existing 568 wiki files (Life-OS vs Jetix classification) — post-Day 14
+- First attention-theme setup — Day 14
+- Per-agent compute contract activation — Day 9
+
+**Tool stack Phase 1 (5 tools + Claude Code + git):**
+- git + GitHub
+- Claude Code
+- SOPS + age (1 key)
+- restic → Backblaze B2
+- Healthchecks.io free tier
+- + Stripe (payment)
+- + Toggl (Deep Hours tracking per P7)
+- + Perplexity (research)
+
+**Cost model Phase 1 Run Rate:**
+- Total monthly: €275-737
+- 12-month run rate: €3,300-8,850
+- Break-even: 1st Audit SKU €5K = 7-18 months covered
+- Per-direction compute breakdown (per Item 9 Variant B): ai-consulting ~70-80%, hypotheses ~15-20%, meta ~10-15%
+
+**4 rituals cadence:**
+- Daily morning (30 min): inbox + pipeline + intent
+- Weekly Friday (60 min): Shape Up + commits + close-week
+- Monthly last Friday (2h): P&L + OKR + founder note + meta-review
+- Quarterly (1 day): letter + OKR-next + role-manifest delta + strategy
+
+**Strategizing:** trigger-driven event, НЕ ceremony.
+
+**Ruslan's stance:** plan-as-tracker primary purpose. Additional items can be added по ходу rollout без formal review.
+
+---
+
 ### Area 7 → D7 JETIX-CAREER-LEVELS ✅ APPROVED 2026-04-20
 
 **Preserved decisions** (уже fixed через Chunks 1-4):
