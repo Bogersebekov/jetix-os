@@ -308,6 +308,31 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+### Step 1 Items 8-10 ✅ APPROVED 2026-04-19
+
+**Item 8 — Pre-commit hooks — Вариант B (3 + past-participle check):**
+- Hook 1: Asymmetric reference check (Jetix → Life-OS blocked)
+- Hook 2: Rechnungsnummer sequential monotonicity
+- Hook 3: Role-manifest required-fields lint
+- **Hook 4: Past-participle state check** (block commit если state.yaml имеет gerunds) — +1h для regex check по state files
+
+**Item 9 — Cost model section — Вариант B (+per-direction breakdown):**
+- `docs/INSTRUCTIONS.md` Section 8.3 «Phase 1 Run Rate»
+- Компоненты: API spend / Hetzner / Backblaze / domain / Langfuse cloud free = ~€150-350/mo Phase 1
+- Break-even: First Audit SKU €2000 = 6-13 мес covered
+- **Per-direction compute allocation** breakdown (ai-consulting vs shaurma research vs ...) для portfolio visibility
+- Monthly review: actual vs estimate; trigger >€500/mo → Anthropic volume tier
+
+**Item 10 — Constitution §11 Succession protocol — Вариант A (Day 1 с TBD placeholder):**
+- §11.1 unavailable >7d → automated client template
+- §11.2 unavailable >14d → trustee notification (trustee: TBD, NOT Anton per Chunk 1)
+- §11.3 unavailable >30d → trustee formal authority (limited scope)
+- §11.4 return: debrief + authority transfer back
+- 30 мин Day 1 для написания текста; trustee name filled позже
+- Consistent с MC4 deferred (text создаётся, execution artifacts отложены)
+
+---
+
 ### Step 1 Item 7 — Career Ladder dual system ✅ APPROVED 2026-04-19
 
 **Accepted полностью без modifications.**

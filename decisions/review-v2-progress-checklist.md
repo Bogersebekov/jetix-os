@@ -77,9 +77,11 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
   - Edges 9 → 6 (3 baseline + 3 portfolio-specific: belongs-to-direction / applies-to-direction / sames-as-crm)
   - Wiki Skills 5 → 2 accepted
 - [x] **7. Career ladder J0-JX ref + 3 operational** (J-Auto/J-Approve/J-Strategic + 5-line decision_rights + Direction authority mapping)
-- [ ] 8. #36 Pre-commit hooks
-- [ ] 9. #37 Cost model section
-- [ ] 10. #38 Constitution §11 succession
+- [x] **8. Pre-commit hooks — Вариант B** (3 v2 hooks + 4-й past-participle check)
+- [x] **9. Cost model section — Вариант B** (+ per-direction compute breakdown)
+- [x] **10. Constitution §11 — Вариант A** (Day 1 с TBD trustee placeholder)
+
+**Step 1 COMPLETE — 10/10 items judged.**
 
 ### Step 2 — R10 multi-currency REVISIT [PENDING]
 - [ ] Due to P6 DACH mod (+US +RU с Day 1)
