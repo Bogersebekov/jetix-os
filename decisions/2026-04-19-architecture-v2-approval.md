@@ -310,6 +310,65 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
 
+### Area 3 → D3 JETIX-ROLE-MANIFESTS ✅ APPROVED 2026-04-19
+
+**Template:** 5-block role.md (identity / ontological / method / production_dependencies / evolution) + separate `executor-binding.yaml`.
+
+**All additions accepted:**
+- Direction authority в Block 5 seniority-lite (per Item 7 + Portfolio model)
+- Compute contract в executor-binding.yaml (per P7 override)
+- FPF-Steward sub-role в meta-agent (per R12 override)
+- EN-primary body в roles/ (per OT2)
+- english-summary mandatory в frontmatter
+- agent_onboarding (initial_context_pack + warm_up_tasks + calibration_checkpoint)
+- reasoning_examples optional field (per Левенчук Part 3)
+
+**Role list Phase 1: 18 full-depth manifests:**
+
+- **5 Ruslan atomic sub-roles:** strategy-lead / framing-lead / sales-closer / acceptance-authority / external-relations (+ `executors/ruslan.yaml` with multi-role-binding flag)
+- **11 agent roles:** manager / personal-assistant / system-admin / sales-lead / sales-research / sales-outreach / inbox-processor / crazy-agent / knowledge-synth / strategy-support-analyst (renamed от strategist, J3) / meta-agent (+FPF-Steward sub-role)
+- **2 Phase 2a stubs:** dpo (external-mode) / customer-success (J2)
+
+**Decisions:**
+
+- **Q1 Family field:** **Functional** (sales, knowledge, meta, admin, research, etc.) — more practical than L-layer
+- **Q2 All 18 manifests Phase 1 full depth:** APPROVED (Ruslan override my recommendation core+skeleton)
+  - Ruslan quote: "всё, сука, писать сразу, глубоко, качественно, насколько это возможно"
+  - Cost: ~35-45h writing работы (up from 25-30h)
+  - Rationale: foundational contracts, no compression
+- **Q3 Strategic-management decomposition:** already resolved Chunk 1 P5 — 5 atomic now + multi-binding
+- **Q4 Compute contract в executor-binding:** YES (per P7)
+- **Q5 D3 size accepted:** no compression, full depth
+
+**Block 5 Lite list (per Item 7):**
+
+```yaml
+seniority-lite:
+  current_level: J-Approve  # J-Auto | J-Approve | J-Strategic
+  autonomous: [...]
+  approve-required: [...]
+  never: [...]
+  direction_authority:
+    - "Open hypothesis direction: J-Auto"
+    - "Activate direction: J-Strategic"
+    - "Archive direction: J-Strategic"
+```
+
+**Compute contract в executor-binding:**
+
+```yaml
+compute_contract:
+  model_preference: claude-opus-4-7
+  fallback_models: [claude-sonnet-4-6]
+  thinking_mode: auto
+  max_tokens_per_session: 50000
+  cache_strategy: high
+  latency_class: batch-ok | real-time
+  escalation_rules: [...]
+```
+
+---
+
 ### Area 2 → D2 JETIX-FOLDER-STRUCTURE ✅ APPROVED 2026-04-19
 
 **All 6 additions to v2 structure ACCEPTED:**
