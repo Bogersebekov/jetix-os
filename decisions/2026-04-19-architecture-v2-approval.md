@@ -299,6 +299,34 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 2 — Meta-conflicts resolved
 
+### MC3: Левенчук vs Pragmatic — Onto purity vs Tooling ✅ APPROVED + 1 OVERRIDE 2026-04-19
+
+**Status:** v2 accept 13 из 15 Левенчук changes полностью; 1 preservation confirmed; **1 OVERRIDE на full mereological graph**.
+
+**Ruslan decisions:**
+
+1. **Member preserved as alpha** ✅ (v2 rejection of Левенчук drop confirmed)
+   - Ruslan quote: "Member — это альфа, да, мы это оставляем. Фиксируем, что member будет у нас альфой."
+   - `alphas/member/` Phase 1 schema + empty instances; активация при 1st L4 client → Founding Alliance Member
+
+2. **3-level mereological creation graph — FULL Phase 1** ⚠️ **OVERRIDE v2 partial deferral**
+   - Ruslan quote: "Три уровня mereological важно, обязательно мы делаем все три уровня максимально глубоко, как говорит Левенчук. Качественно, удобно, глубоко. Мы это полностью принимаем от него. Никаких упрощений."
+   - **CHANGE vs synthesis:** v2 accepted Lite version Phase 1 + Full Phase 2. Ruslan overrides → **Full 3-level Phase 1**.
+   - **Cost Phase 1:** +4-8h ontology work (встроено в D6 writing)
+   - **Deliverable:** `jetix-creation-graph.md` (separate artifact в D6) с 3-level structure:
+     - **Level 1 Target systems:** client-relationship, deal-opportunity, product-SKU, content-item, member-engagement, hypothesis, way-of-working
+     - **Level 2 Creation systems:** роли (все 5 Ruslan sub-roles + 12 agent roles), методологии, processes
+     - **Level 3 Supersystems:** Jetix-Sales-Function, Jetix-Revenue-Engine, Jetix-Delivery-Function, Jetix-Ecosystem (Phase 3 hooks)
+     - **Mereological relationships:** part-of / creates / operates-in / methodologically-uses / constrained-by
+   - **Implication:** D6 (JETIX-FPF-LITE) получает expanded section. Meta-agent reference this graph для onboarding новых agents/humans.
+
+3. **Остальные 13 Левенчук changes** — все ACCEPTED:
+   - Alpha/WP split (10→7+3+1), past-participle strict, role/executor separation, 5 sub-roles, forbid dynamic assignment, production_dependencies rename, strategist rename, «What ШСМ is NOT», lightweight mereology, 25K exocortex reservation, agent_onboarding field, reasoning_examples field, U-Types 4→6, strategizing as event
+
+**Outcome:** v2 accept + 1 override в strengthening direction (больше Левенчук, не меньше).
+
+---
+
 ### MC1: Critic vs Mega-Corp — Scaffolding vs Execution ✅ APPROVED 2026-04-19
 
 **Status:** v2 resolution принято полностью.
