@@ -134,7 +134,7 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 - [x] **Area 1 → D1 JETIX-ARCHITECTURE-FINAL** — 15-20 pages; no exit strategy mention; Portfolio of Directions added as 8-й first-class principle (7→8 principles)
 - [x] **Area 2 → D2 JETIX-FOLDER-STRUCTURE** — 15 folders Phase 1 (added: directions/, inbox/, outreach/); 8-я alpha direction/; physical separation life-os ≠ jetix (parallel); compute+resource tracking files
-- [ ] Area 3 → D3 JETIX-ROLE-MANIFESTS
+- [x] **Area 3 → D3 JETIX-ROLE-MANIFESTS** — 18 full-depth manifests Phase 1 (5 Ruslan sub-roles + 11 agents + 2 Phase 2a stubs); functional family; direction authority + compute contract + FPF-Steward sub-role; ~35-45h writing work
 - [ ] Area 4 → D4 JETIX-VS-LIFE-OS
 - [ ] Area 5 → D5 JETIX-KNOWLEDGE-ARCHITECTURE
 
