@@ -148,7 +148,7 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 - [x] **Area 6 → D6 JETIX-FPF** (RENAMED from FPF-Lite) — **FULL maximum depth, 30-50 pages, NO compromises с Левенчук**; 17 trans-disciplines included; advanced mereology + holons + category theory + constructor theory applications; 3-pass writing; ~25-40h total foundational work
 - [x] **Area 7 → D7 JETIX-CAREER-LEVELS** — dual ladder preserved; AI promotion external review + Ruslan sign-off (no self-grading); strategic client = any Phase 1; C-suite timing € corrected; crazy-agent J-Approve special mode; life-coach moves to Life-OS; FPF-Steward trigger to separate role at 30+ agents / 1+ human hire / audit >4h
-- [ ] Area 8 → D8 docs/INSTRUCTIONS
+- [x] **Area 8 → D8 docs/INSTRUCTIONS** — 7+7 rollout с realistic 7+10-12 tolerance; 5 tools + Stripe/Toggl/Perplexity; cost model €275-737/mo; 4 rituals; parallel tracks для D6 FPF + migration; plan-as-tracker primary
 - [ ] Area 9 → D9 decision record
 
 ---
