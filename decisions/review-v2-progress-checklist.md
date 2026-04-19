@@ -31,7 +31,13 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
   - [x] Bus-factor mitigation — accepted но deferred (делаем чуть потом)
   - [ ] ⚠️ **Trustee ≠ Anton — TBD** (identity to be determined later)
 - [x] P6 DACH — PARTIAL (+ US + RU с unified funnel)
-- [x] P7 Capital+Hours+Attention+Ecosystem — APPROVED в foundation основные
+- [x] P7 Resource Accounting — APPROVED FINAL (3 итерации обсуждения):
+  - [x] Tier 1 quantitative ledger: Capital + Compute + Deep Hours
+  - [x] Tier 2 strategic: Attention Budget (quarterly)
+  - [x] Phase 3 first-class: Ecosystem Resources (11 категорий detailed)
+  - [x] Deep Hours definition (deep vs shallow) confirmed
+  - [x] Compute tracking via `finance/compute-ledger.yaml` + executor binding fields
+  - [x] Attention Budget via `decisions/quarterly/YYYY-QN-attention-theme.md`
 
 **3 additional principles (Part 1.4):**
 - [x] Место-слот, не содержание — implicit approved
