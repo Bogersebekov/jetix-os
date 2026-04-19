@@ -312,6 +312,44 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 6 — Part 2 Areas 6-9 (D6-D9 details)
 
+### Area 9 → D9 Final Decision Record ✅ APPROVED 2026-04-20 — **3-stage process**
+
+**Ruslan decision: Option C — 3-stage evolution.**
+
+**Stage 3.5 (next action after Chunk 7):**
+- **Action:** Claude Code writes `decisions/2026-04-20-jetix-architecture-final-DRAFT.md`
+- **Purpose:** clean consolidation всех decisions из messy approval ADR + 11 overrides
+- **Size:** 10-15 pages
+- **Format:** T-02 Oxide RFD template
+- **State tag:** `draft`
+- **Content:** 8 principles + Reference/Operational split + 15 folders + 8 alphas + 18 role-manifests list + 7+7 rollout + cost model + overrides table (v1 → v2 → v2-Ruslan-approved)
+- **Purpose:** single source of truth для Stage 4 writers (не весь 30+ page messy ADR)
+
+**Stage 4 (D1-D8 writing):**
+- Claude Code пишет D1-D8 используя D9 draft как authoritative input
+- Каждый D references D9 draft как source
+- 8 documents total (D1-D8)
+
+**Stage 4.5 (after D1-D8):**
+- Review D9 draft
+- Update если actual writing diverged от draft
+- State change: `draft` → `committed`
+- Rename: `DRAFT` removed → `decisions/2026-04-20-jetix-architecture-final.md`
+- Final approved architecture
+
+**Rationale:**
+- Clean reference для Stage 4 writers (avoid forcing writers через messy 30+ page history)
+- Incremental refinement — draft evolves to final based on реальный writing experience
+- Matches Ruslan's stated flow "consolidate → write → finalize"
+
+**Accept all formatting defaults:**
+- Size 10-15 pages ✓
+- State tag draft→committed ✓
+- 3-column diff table (v1/v2/v2-Ruslan) ✓
+- Write post-D1-D8 for final ✓
+
+---
+
 ### Area 8 → D8 docs/INSTRUCTIONS ✅ APPROVED 2026-04-20
 
 **Ruslan directive:** "Главное план фиксировать, чтобы потом по нему адекватно идти и трекать что сделано. Всё остальное добавим по ходу."
