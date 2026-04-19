@@ -312,6 +312,43 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 6 — Part 2 Areas 6-9 (D6-D9 details)
 
+### Area 7 → D7 JETIX-CAREER-LEVELS ✅ APPROVED 2026-04-20
+
+**Preserved decisions** (уже fixed через Chunks 1-4):
+- Dual system J0-JX reference + Phase 1 3 operational (J-Auto / J-Approve / J-Strategic) — Item 7
+- 5 Ruslan atomic sub-roles — Chunk 1 P5
+- strategy-support-analyst rename + J3 mapping — Chunk 1 P5
+- Customer Success J2 stub (Phase 2a trigger) — MC1
+- DPO role external-mode — MC1
+- Compensation matrix — MC1
+- EU AI Act calendar — OT3
+- Triple-AND Phase 2a trigger — Area 4
+
+**New decisions:**
+
+1. **AI promotion mechanism:** external review (meta-agent compiles evidence) + Ruslan sign-off.
+   - ❌ 90-day self-graded (v1 original) — rejected
+   - ✅ Monthly external audit + human ratification — accepted
+   - `decisions/promotions/YYYY-MM-DD-<agent>-J<X>-to-J<Y>.md` format
+
+2. **Strategic client definition:** Phase 1 — "any client likely = strategic" (informal, Phase 1 все clients treated как strategic because each = >5% ARR). Formal criteria (ARR >5% OR ≥3 stakeholders OR referrer) applies Phase 2a+.
+
+3. **C-suite timing:** accept v2 corrections (CFO fractional €1M, FTE €10M; Head of Finance €100-140K; all in €).
+
+4. **Phase transitions timeline:** accept (Phase 2a 2027, 2b 2027-2028, 2c 2028-2030, 3 2030+).
+
+5. **crazy-agent placement — Variant B (Claude decision):** J2 operational (J-Approve) + special "brainstorming mode outside normal ladder" documentation. Evaluation criteria: novelty + cross-domain connection quality (не accuracy). Different promotion signals than other J2 agents.
+
+6. **life-coach placement:** **Life-OS only** — migrates to `life-os/agents/life-coach/`. НЕ part of Jetix career ladder. Consistent с Item 6 physical separation.
+
+7. **Ecosystem Resources governance roles:** DEFERRED discussion. Add при Phase 3 activation trigger.
+
+8. **FPF-Steward as separate role:** APPROVED evolution — currently sub-role в meta-agent (R12). Trigger to separate role: **30+ agents OR 1+ human hire in meta-function OR quarterly audit burden >4h** (whichever fires first — Phase 2b likely).
+
+**Ruslan quote:** "основное всё уже зафиксировали, мы оставляем, не трогаем."
+
+---
+
 ### Area 6 → D6 JETIX-FPF ✅ APPROVED 2026-04-20 — **RENAMED from FPF-Lite к FULL FPF, MAXIMUM DEPTH**
 
 **CRITICAL RENAME:** `FPF-Lite` → `FPF` (drop "Lite" качество — документ становится full constitutional).
