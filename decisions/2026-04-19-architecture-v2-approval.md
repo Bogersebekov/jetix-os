@@ -308,6 +308,29 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+### Steps 3+4 — Rejections + Flag scan ✅ RESOLVED 2026-04-19
+
+**R11 IPO readiness placeholder:** ✅ **REJECT confirmed** (Variant A — no placeholder Phase 1; add при Series A contemplation 2029-2031).
+
+**R12 FPF-Steward sub-role:** ⚠️ **OVERRIDE — Variant B** (add FPF-Steward sub-role в meta-agent Phase 1).
+
+Ruslan quote: "Здесь мне нужен Левенчук на максимум. Всё что его техника предлагает, мы используем на 100% на максимум. Берем вариант B и внедряем глубоко."
+
+**Implementation:**
+- Sub-role section в `agents/meta-agent/system.md`
+- Scope: FPF-Lite consistency, Alpha/WP/Entity classification, past-participle (automated via Hook 4 + manual audit cross-check), concept duplication detection, role-manifest structural integrity, Direction-concept boundary clarity, frontmatter schema
+- Cycle: Quarterly audit (Q1/Q2/Q3/Q4 within 2 weeks of quarter close) + ad-hoc при major ontology changes
+- Output: `decisions/fpf-stewardship/YYYY-QN-ontology-audit.md`
+- Critical для portfolio model (8 directions increases drift risk)
+
+**Other 9 rejections (R1-R9):** confirmed implicit через Chunks 1-2 — nothing to revise.
+
+**R10 Multi-currency:** resolved via Stripe/Wise pattern (Step 2 above).
+
+**Flag scan 38 accepted:** no flags — все 38 items integrated через Chunks 1-2 + Chunk 3 Items 1-10.
+
+---
+
 ### Step 2 — R10 Multi-currency REVISIT ✅ RESOLVED 2026-04-19
 
 **Context:** v2 synthesis отверг multi-currency scaffolding Phase 1 (Rejection R10). Ruslan P6 modification (+US +RU с Day 1) переворачивает основание rejection — trigger «1st non-EUR client» срабатывает.
