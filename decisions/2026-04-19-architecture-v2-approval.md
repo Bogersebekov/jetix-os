@@ -125,15 +125,141 @@ blocks: D1-D9 чистовики (Stage 4)
 - D8 (Instructions) — include "first non-EUR client onboarding checklist" в Phase 2 trigger list
 - OT2 (bilingual frontmatter) — Chunk 4 judgment должен учесть этот modification
 
-#### P7 — Capital + Hours + Attention accounting + (Phase 3) Ecosystem Resources
-- **Status:** ✅ APPROVED (все три ресурса Phase 1 + Ecosystem подготовка)
-- **Ruslan quote:** "полностью все три подтверждаю принципа; потом ещё вот это сразу надо будет дофиксировать что ecosystem resources на потом это тоже надо будет; мы для этого тоже всё что нужно там будем подготавливать; этот принцип седьмой он будет ложиться в foundation основные"
-- **Phase breakdown:**
-  - Phase 1: Capital + Hours + Attention (solo, Toggl-based, discipline + 2-3 файла в `finance/` и `ops/`)
-  - Phase 2: + team's hours + attention
-  - Phase 3: + Ecosystem Resources (advisory, community, partnerships)
-- **Infrastructure prep:** готовим инфраструктуру для Ecosystem Resources заранее (schema placeholders, не материализация)
-- **Placement:** этот принцип входит в foundation основные (наравне с Company-as-Code)
+#### P7 — Resource Accounting (FINAL formulation 2026-04-19)
+
+**Статус:** ✅ APPROVED с EVOLUTION через обсуждение Chunk 1 (3 итерации).
+
+**Evolution history:**
+1. v2 synthesis proposed: Capital + Hours + Attention (+ Phase 3 Ecosystem)
+2. Ruslan raised Compute question → добавлен Compute как 4-й ресурс
+3. Ruslan raised Attention-vs-Hours question → Attention collapsed to quarterly-level concept, Hours refined to "Deep Hours"
+
+**Финальная формулировка (accepted Вариант C hybrid):**
+
+> Jetix учитывает ресурсы в двух измерениях:
+>
+> **Tier 1 — Quantitative ledger (daily/monthly tracking):**
+> - **Capital** — деньги, runway, commitments
+> - **Compute** — machine cognition (tokens, models, thinking-time, cache)
+> - **Deep Hours** — focused human cognition (attention-weighted time)
+>
+> **Tier 2 — Strategic allocation (quarterly-level decisions):**
+> - **Attention Budget** — focus-theme квартала, % распределение внимания по направлениям (не ledger-metric, а decision-concept в `decisions/quarterly/`)
+>
+> **Phase 3 addition:**
+> - **Ecosystem Resources** — relational capital (first-class при триггере mega-corp stage)
+
+**Ruslan quotes 2026-04-19:**
+- Compute: "заносим в first principles"
+- Deep Hours: "мне понравился вариант C; capital + compute + deep hours; attention budget — квартальный уровень"
+- Ecosystem: "фаза 3 ecosystem это тоже очень важно, она будет довольно мощной и массивной и она тоже будет приносить довольно много ресурсов"
+
+### P7.1 Deep Hours definition
+
+| Counts as Deep Hour | Does NOT count (shallow, tracked for awareness only) |
+|---------------------|-------------------------------------------------------|
+| Session с Claude Code (создание нового) | Email triage (→ inbox-processor agent) |
+| Стратегическое мышление / планирование | Data entry / form filling |
+| Sales conversations (live) | Routine admin |
+| Deep learning (Левенчук, книги, деконструкция) | Meetings без decision-making |
+| Deep writing (мышление на бумаге) | Social media scroll "ради идей" |
+| Architectural work | Чтение новостей |
+| Client deliverable creation | Tool configuration (одноразовое) |
+
+**Tracking:** Toggl tag system (`[deep]` / `[shallow]`). Shallow трекается для self-awareness но НЕ идёт в главный счётчик.
+
+**Target range:** 25-30 deep hours/week founder-mode Phase 1. Recalibrate при Phase 2+.
+
+**Natural incentive:** избыток shallow hours = системная ошибка, сигнал делегировать больше AI-агентам.
+
+### P7.2 Compute tracking
+
+`finance/compute-ledger.yaml` — monthly:
+- Tokens per model (Opus/Sonnet/Haiku)
+- API spend (EUR)
+- Cache hit ratio
+- Rate limit incidents
+- Thinking mode usage
+
+Per-executor `executors/<id>/binding.yaml` fields:
+- `model_preference`, `fallback_models`
+- `thinking_mode`, `max_tokens_per_session`
+- `cache_strategy`, `latency_class`
+- `escalation_rules`
+
+### P7.3 Attention Budget (quarterly)
+
+Lives в `decisions/quarterly/YYYY-QN-attention-theme.md`:
+
+```markdown
+---
+quarter: 2026-Q2
+attention_theme: "First €50K revenue from DACH Mittelstand"
+---
+## Attention allocation
+- 60% Sales (outreach, conversations, closings)
+- 25% Delivery (first client audit execution)
+- 10% Architecture (Jetix OS evolution Phase 2 prep)
+- 5% Learning (Левенчук, domain expertise)
+```
+
+НЕ ledger-metric, а decision-record. Review при quarterly ritual.
+
+### P7.4 Ecosystem Resources (Phase 3 first-class — но infrastructure prep Phase 1)
+
+**Что входит в Ecosystem Resources:**
+
+| Категория | Что считается | Когда активируется |
+|-----------|---------------|-------------------|
+| **Advisory relationships** | Anton (ментор, системное мышление), Vladislav (экономист, pricing), Rodion (YouTuber, AI-темы) + future Beirat | Phase 1 informal; Phase 2a formal Beirat (4-6 members); Phase 3 Aufsichtsrat |
+| **Community members** | Alliance members (L5 Membrane), Club subscribers, newsletter list | Phase 2a при первом L4 client closed |
+| **Partnerships** | Cross-referral partners, co-marketing deals, JV agreements, technology integrations | Phase 2a expand; Phase 3 multiplicative |
+| **Brand equity / reputation** | Testimonials, case studies, media mentions, NPS, Net Promoter Score, inbound-vs-outbound lead ratio | Phase 2a начало; Phase 3 dominant |
+| **DACH institutional networks** | IHK (Industrie- und Handelskammer), VDMA (Verband Deutscher Maschinen- und Anlagenbau), Bundesverband der Deutschen Industrie, BITKOM | Phase 2 (first clients дают access); Phase 3 institutional presence |
+| **Alumni / reference network** | Former clients giving references, introductions, testimonials | Phase 2a при 5+ clients delivered |
+| **Media / content relationships** | Journalists, podcast hosts, YouTubers (Rodion уже есть), LinkedIn influencer network, newsletter cross-promotion | Phase 2+ growth |
+| **Talent network** | Fractional experts, future hire candidates, AI agent community, open-source contributor relationships | Phase 2b при scaling team |
+| **Capital relationships** | Angels, VCs, banks, Steuerberater network, grant/subsidy programs (KfW, EXIST) | Phase 2b pre-Series-A; Phase 3 institutional |
+| **Academic / research** | TU Berlin, TU München, Fraunhofer Institutes, academic advisory | Phase 3 если relevant to Jetix product |
+| **Regulatory / government** | BaFin (finance), Bundeskartellamt (competition), EU AI Act regulators, state-level (Berlin Senat) | Phase 3 institutional presence |
+
+**Как измеряется (примеры metrics Phase 3):**
+- Advisory: quarterly consult sessions count, decisions influenced by advisors
+- Community: active members, engagement rate, user-generated testimonials
+- Partnerships: joint pipeline €, cross-referrals count, co-marketing reach
+- Brand: inbound lead % vs outbound, NPS, unprompted mentions
+- DACH networks: speaking invitations, referral introductions, industry report inclusions
+- Alumni: reference calls requested, LinkedIn recommendations, case study participation
+
+**Почему это first-class resource в mega-corp stage:**
+- Network effects: 1 strong advisor может открыть 10 клиентов
+- Brand equity: снижает CAC (customer acquisition cost) радикально vs cold outbound
+- Partnerships: multiplicative, не аддитивные (1+1=10)
+- Institutional access: unlocks enterprise deals которые cold outreach не закрывает
+
+**Phase 1 infrastructure prep:**
+- `governance/advisory-board/members.yaml` (Anton/Vladislav/Rodion formalized informally)
+- `decisions/policy/ecosystem-strategy.md` (placeholder — how we'll invest in ecosystem when triggered)
+- Schema ready для Phase 3 activation
+
+### P7.5 Implications
+
+**D2 (Folder Structure):**
+- `finance/resource-ledger.yaml` — tri-resource monthly tracking (Capital, Compute, Deep Hours)
+- `finance/compute-ledger.yaml` — detailed compute breakdown
+- `decisions/quarterly/YYYY-QN-attention-theme.md` — attention budget records
+- `governance/advisory-board/` — Ecosystem infrastructure Phase 1 stub
+- `decisions/policy/ecosystem-strategy.md` — Phase 3 placeholder
+
+**D3 (Role Manifests):**
+- `executors/<id>/binding.yaml` получает compute contract fields
+
+**D8 (Instructions / weekly rituals):**
+- Weekly review проходка по 3 ресурсам (Capital, Compute, Deep Hours) + attention-theme check
+- Monthly resource ledger commit
+- Quarterly attention-theme setting ceremony
+
+**Placement:** этот принцип входит в foundation основные (Ruslan quote: "будет ложиться в foundation основные").
 
 ### 1.3 Three additional principles (Part 1.4) — implicit APPROVED
 
