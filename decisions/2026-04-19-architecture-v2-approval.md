@@ -297,6 +297,52 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ---
 
+## Chunk 2 — Meta-conflicts resolved
+
+### MC1: Critic vs Mega-Corp — Scaffolding vs Execution ✅ APPROVED 2026-04-19
+
+**Status:** v2 resolution принято полностью.
+
+**Ruslan quote 2026-04-19:**
+> "То что у нас Version 2 предложил, мы в итоге для начала его и примем. То что там надо было, всё что там надо мы построим уже с первого дня адекватно. Остальное просто оставим на потом, все чертежи. Фиксируем версию 2."
+
+**Accepted resolution:**
+
+- **Reference vs Operational Architecture split** — already approved Chunk 1
+- **9 Mega-Corp P1 additions** accepted в Phase 1 (~28h scaffolding):
+  1. `entities/jetix-gmbh/` namespace stub (4h)
+  2. `roles/l1-foundation/dpo/role.md` external-executor mode (2h)
+  3. `governance/` + `advisory-board/members.yaml` (Anton/Vladislav/Rodion) (2h)
+  4. `ops/` crisis playbooks full stack (incident / hit-by-bus / continuity / disaster-recovery / gdpr-art-33) (6h)
+  5. Bilingual frontmatter convention в policy/decisions/roles (2h)
+  6. Strategic-management 5 sub-roles decomposition (4h) — already confirmed
+  7. Customer Success J2 role-manifest stub (2h)
+  8. Compensation matrix `policy/compensation.md` (4h)
+  9. EU AI Act compliance calendar `policy/eu-ai-act.md` (2h)
+
+- **5 Mega-Corp P2 items DEFERRED Phase 2a:**
+  - Org-chart visualization pipeline
+  - Auto-generated org-index.yaml
+  - Acquisition playbook stub
+  - Onboarding content week-by-week
+  - Performance review framework
+
+- **3 Mega-Corp P3 items REJECTED:**
+  - FPF-Steward sub-role (meta-agent sufficient Phase 1)
+  - IPO readiness placeholder (premature)
+  - ⚠️ **Multi-currency scaffolding** — formally rejected by v2 BUT Ruslan P6 modification (+ US + RU с Day 1) triggers revisit в Chunk 3 (R10)
+
+- **Federation pattern:** stub only (`entities/jetix-gmbh/` 4h), NOT full Day 1 pattern
+
+- **3 Strategic concerns addressed:**
+  - C1 Centralization choke-point — via 5 sub-roles decomposition + Chief of Staff reserved Phase 2a
+  - C2 Federation — via entities/ stub
+  - C3 Bus factor — via ops/ stack + Constitution §11 + trustee (**trustee TBD per Ruslan override, not Anton**)
+
+**Ruslan directive:** "по этому вопросу всё понятно, фиксируем версию 2, больше смотреть не буду".
+
+---
+
 ## ⏳ Chunks 2-7 — PENDING
 
 - [ ] **Chunk 2** — 6 Meta-conflicts resolved (MC1-MC6) — review resolutions, особенно MC4 с trustee change

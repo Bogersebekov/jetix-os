@@ -51,15 +51,14 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 2 — 6 Meta-conflicts resolved [PENDING]
+## Chunk 2 — 6 Meta-conflicts resolved [IN PROGRESS — 1/6]
 
-Review resolutions MC1-MC6:
-- [ ] MC1 Critic vs Mega-Corp (Reference/Operational split) — already approved в Chunk 1, confirm resolution wording
+- [x] **MC1** Critic vs Mega-Corp — ACCEPT v2 resolution полностью (9 P1 additions, 5 P2 deferred, 3 P3 rejected; trustee TBD ≠ Anton)
 - [ ] MC2 Simplifier vs Mega-Corp (22 → 11 folders)
 - [ ] MC3 Левенчук vs Pragmatic (ontological purity vs tooling)
 - [ ] MC4 Critic vs Simplifier (bus-factor) — **⚠️ trustee TBD, Ruslan override**
-- [ ] MC5 Mega-Corp vs Simplifier (federation)
-- [ ] MC6 Левенчук past-participle — already implicit approved
+- [ ] MC5 Mega-Corp vs Simplifier (federation) — implicit accept (entities/ stub)
+- [ ] MC6 Левенчук past-participle — already implicit approved через P3
 
 ---
 
