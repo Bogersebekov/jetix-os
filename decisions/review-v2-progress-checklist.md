@@ -116,10 +116,10 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 4 — Outstanding Tensions [PENDING — reduced 5 → 4]
+## Chunk 4 — Outstanding Tensions [IN PROGRESS — 1/4]
 
 - [x] ~~OT1 Strategic-management decomposition~~ — **RESOLVED early in Chunk 1** (5 sub-roles hybrid accepted)
-- [ ] OT2 Bilingual frontmatter timing — **consider RU addition due to P6 mod**
+- [x] **OT2 Bilingual frontmatter — Scenario E (Hybrid):** EN summary в policy/decisions; EN-primary в roles/ops; RU default wiki/directions; auto-translation hook для wiki/concepts/summaries; client folders per language в outreach/de/en/ru
 - [ ] OT3 EU AI Act tier classification
 - [ ] OT4 Trademark Jetix vs Disney
 - [ ] OT5 FPF-Lite token-budget treatment + publishing

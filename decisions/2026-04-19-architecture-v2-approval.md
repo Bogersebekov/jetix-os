@@ -308,6 +308,44 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+## Chunk 4 — Outstanding Tensions (4 items — OT1 resolved early в Chunk 1)
+
+### OT2 — Bilingual Frontmatter: Scenario E (Hybrid) ✅ APPROVED 2026-04-19
+
+**Status:** accept Hybrid scenario — best discipline + minimum burden.
+
+**Implementation:**
+
+**Namespace language conventions:**
+- `policy/`, `decisions/` — **bilingual** (`lang: [ru, en]`): EN summary mandatory (~150-300 words) + RU body allowed
+- `roles/` — **EN primary** (`lang: en`): agents + hires + Mittelstand Geschäftsführer read; DE добавляется Phase 2a closer to hire
+- `ops/` — **EN primary** (emergency accessibility для trustee)
+- `wiki/concepts/`, `wiki/summaries/`, `directions/*/direction.md` — RU primary + **auto-translation hook** (`auto_en: true` → pre-commit hook translates via Claude Opus 4.7, saves sibling `.en.md`)
+- `wiki/sources/`, `wiki/ideas/`, `alphas/` — RU default
+- `finance/` — DE mandatory (HGB compliance)
+- `clients/<id>.md` — internal notes RU; `client_language: de|en|ru` for client-facing
+- `outreach/` — **separate folders per language** (`outreach/de/`, `outreach/en/`, `outreach/ru/`): different copy, not translations; cultural tuning
+
+**Auto-translation hook (5-й pre-commit hook на top of 4 принятых в Item 8):**
+- Detects `auto_en: true` в frontmatter
+- Extracts content, runs Opus 4.7 translation
+- Saves sibling `.en.md`
+- Cost: 2-3h setup + ongoing €1-5/mo API
+
+**Cost breakdown:**
+- Phase 1 setup: 5-10h existing EN summaries (30-50 docs) + 2-3h hook setup = ~8-13h total
+- Ongoing: ~5 min per new critical doc + auto-translation for auto_en docs
+- Phase 2a (first non-RU hire): ~4-6h targeted just-in-time translation (no mass burst)
+
+**Consistent с:**
+- Левенчук max discipline (structural conventions)
+- P6 DACH +US +RU (client folders per language)
+- Item 8 pre-commit hooks (5-й hook integrates naturally)
+- Mega-corp scalability (EN-ready foundation)
+- MC3 Left мереологический override (concepts auto-translate quality-preserving)
+
+---
+
 ### Steps 3+4 — Rejections + Flag scan ✅ RESOLVED 2026-04-19
 
 **R11 IPO readiness placeholder:** ✅ **REJECT confirmed** (Variant A — no placeholder Phase 1; add при Series A contemplation 2029-2031).
