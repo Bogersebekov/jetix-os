@@ -310,6 +310,61 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
 
+### Area 5 → D5 JETIX-KNOWLEDGE-ARCHITECTURE ✅ APPROVED 2026-04-20
+
+**3-layer model:**
+- Layer 1 wiki/ (Karpathy LLM Wiki pattern)
+- Layer 2 alphas/ (8 true alphas с past-participle state machines)
+- Layer 3 per-agent memory (3 layers: system.md + scratchpad + mailbox)
+
+**All previously-decided components confirmed:**
+- 9 entity types preserved (concepts/entities/sources/topics/ideas/experiments/claims/summaries/foundations)
+- 1 общая wiki/ Phase 1 (не 6 niches — Item 6)
+- 6 edges (3 baseline + 3 portfolio: belongs-to-direction / applies-to / sames-as-crm)
+- 2 skills /ingest /ask (Item 6)
+- 8 true alphas с Direction added (Item 6)
+- Past-participle strict (MC6)
+- Per-agent memory 3 layers (Item 5)
+- 25K exocortex HARD reservation (MC3)
+- Single event log Phase 1 (Item 4)
+
+**8 alpha state machines past-participle:**
+
+| # | Alpha | States |
+|---|-------|--------|
+| 1 | Client | lead-identified → qualified → proposed → in-negotiation → won / lost → churned |
+| 2 | Project | scoped → kicked-off → started → delivered → closed → in-follow-up |
+| 3 | Deal | drafted → signed → activated → completed / cancelled |
+| 4 | Content Item | drafted → in-review → approved → published → retired |
+| 5 | Hypothesis | formulated → under-validation → validated / invalidated → implemented |
+| 6 | Member | applied → invited → activated → flagged-at-risk → churned |
+| 7 | Way of Working | drafted → implemented → refined → deprecated |
+| 8 | Direction (NEW) | hypothesized → under-validation → validated → activated → scaled → plateaued / invalidated / dropped → archived |
+
+**Reclassified as NOT alphas:**
+- Invoice → work product (clients/invoices/YYYY/)
+- SKU → entity (entities/skus/)
+- Postmortem → work product (decisions/postmortem/)
+- Research Note → work product (wiki/sources/)
+
+**Context loading budget (per call):**
+- 25K HARD reservation exocortex (Full FPF 7-10K + role.md 2-3K + alpha states 3-5K + FPF-Steward context 3-5K)
+- 25K SOFT (current task + scratchpad + recent decisions + mailbox)
+- Total fixed: 50K + 950K flexible (Opus 4.7 1M window)
+
+**German legal compliance:**
+- Invoice YAML schema preserved (11 Pflichtangaben § 14 UStG)
+- Rechnungsnummer monotonicity hook (Item 8 Hook 2)
+- Steuerberater backup contact в ops/hit-by-bus.md
+- ZUGFeRD 2.x — **proactive Q3 2026** (Q3 Variant A — before 2027-01 mandatory)
+
+**Decisions:**
+- **Q1 Writeback в comparisons/:** Manual (Variant B) — Ruslan approves writeback selectively
+- **Q2 GraphRAG trigger:** Latency-based (Variant B) — migrate при >3s p95 retrieval latency, не firm page count
+- **Q3 ZUGFeRD timing:** Proactive Q3 2026 (Variant A)
+
+---
+
 ### Area 4 → D4 JETIX-VS-LIFE-OS ✅ APPROVED 2026-04-20
 
 **Folder-level separation Day 1:**
