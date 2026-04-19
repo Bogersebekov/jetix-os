@@ -310,6 +310,74 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
 
+### Area 2 → D2 JETIX-FOLDER-STRUCTURE ✅ APPROVED 2026-04-19
+
+**All 6 additions to v2 structure ACCEPTED:**
+
+1. **`directions/`** top-level folder (Item 6 Portfolio model) — _active / _hypotheses / _archived
+2. **8-я alpha `direction/`** в alphas/ — state machine + instances
+3. **`inbox/`** top-level folder (Critic Weakness 2.4) — voice-notes pipeline outputs land here
+4. **`outreach/`** с split model (Q5 Вариант C accepted):
+   - Top-level `jetix/outreach/_shared/` — cross-direction templates
+   - Per-direction `jetix/directions/*/outreach/{de,en,ru}/` — personalized content per language per direction
+5. **Physical separation Life-OS ≠ Jetix** — Parallel structure (Q4 Вариант B):
+   - `~/jetix-os/life-os/` — personal namespace
+   - `~/jetix-os/jetix/` — business namespace
+   - Asymmetric reference rule enforced (Jetix → Life-OS blocked via pre-commit hook)
+   - Phase 2+ trigger: git filter-repo extraction
+6. **Compute + Resource tracking files** (Chunk 1 P7 override):
+   - `jetix/finance/compute-ledger.yaml`
+   - `jetix/finance/resource-ledger.yaml` (Capital + Deep Hours)
+   - `jetix/decisions/quarterly/YYYY-QN-attention-theme.md`
+
+**Other Open Questions resolved:**
+
+- **Q1 wiki separation:** SEPARATE fully confirmed (already decided Item 6; not shared)
+- **Q2 `shared/` location:** top-level (accept Ruslan via "все остальное по рекомендациям")
+- **Q3 entities/jetix-gmbh/ stub:** yes, write now (already decided MC1)
+- **Q6 15 folders:** accept (no premature compression)
+
+**Final Phase 1 folder count в `jetix/`: 15 folders:**
+
+1. agents/<id>/ (combined role+executor+system+scratchpad)
+2. alphas/ (8 subfolders including NEW direction/)
+3. alpha-log/
+4. clients/ (markdown CRM)
+5. **directions/** (NEW — portfolio model)
+6. wiki/ (cross-cutting knowledge, scope: jetix)
+7. decisions/ (adr + postmortem + letter + strategy + weekly + okr + policy + quarterly + promotions + fpf-stewardship + backlog + templates)
+8. evals/<role>/
+9. docs/ (Diátaxis how-to + reference)
+10. finance/ (invoices + ledger + compute-ledger + resource-ledger)
+11. **inbox/** (NEW — voice-notes pipeline output)
+12. **outreach/** (NEW — _shared templates)
+13. entities/jetix-gmbh/ (federation stub)
+14. governance/ (advisory-board, trustee-designations, beirat/, aufsichtsrat/)
+15. ops/ (hit-by-bus, business-continuity, incident-playbook, regulatory-incidents)
+
+Plus files: CONSTITUTION.md, CLAUDE.md, README.md.
+
+**Life-OS structure (`~/jetix-os/life-os/`):**
+- wiki/ (personal knowledge, NOT shared)
+- daily-log/{YYYY}/, reflection/, health/, relationships/, personal-goals/
+- decisions/ (personal ADRs), okrs/, letters/
+
+**Top-level shared (`~/jetix-os/shared/`):**
+- role-framework/ (meta methodology — used by both life-os and jetix)
+- levenchuk-ontology/ (ШСМ reference)
+- writing-templates/
+
+**Deferred Phase 1 (Simplifier triggers):**
+- `comms/mailboxes/` — при inter-agent dependency
+- `state/` — при DuckDB real usage
+- `sales/` — при 2+ продавцах
+- `templates/` — при 2+ авторе (currently в docs/reference/)
+- `processes/` — при formal procedures
+- `products/` — при 1-м SaaS commit
+- `roles/` separate — при 30+ agents OR 1-й human
+
+---
+
 ### Area 1 → D1 JETIX-ARCHITECTURE-FINAL ✅ APPROVED 2026-04-19
 
 **4 decisions:**
