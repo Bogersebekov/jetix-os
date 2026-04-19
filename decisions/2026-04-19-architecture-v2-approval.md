@@ -308,6 +308,47 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
+
+### Area 1 → D1 JETIX-ARCHITECTURE-FINAL ✅ APPROVED 2026-04-19
+
+**4 decisions:**
+
+- **Q1 Exit strategy:** **не упоминаем вообще** в D1. Focus на Phase 1 + mega-corp target, no exit path specifics.
+- **Q2 Length:** **15-20 pages accepted** — инженерный структурный документ без воды; sufficient space для all overrides reflected.
+- **Q3 Structure 8 sections:** accept as-is (Context / Reference Architecture / Operational Architecture (Phase 1 MVA) / Decision / Consequences / Alternatives / Migration / Review triggers).
+- **Q4 Portfolio of Directions как 8-й first-class principle:** ✅ APPROVED.
+
+**IMPORTANT — 7 principles → 8 principles:**
+
+После Chunk 1 было 7 core principles. Теперь добавляется 8-й:
+
+**P8 — Jetix operates as Portfolio of Directions (holding-style pattern).**
+
+- Directions = business verticals / research tracks / portfolio bets
+- Каждое direction: hypothesis → research → experiment → activated / dropped
+- Cross-functional observation через wiki/concepts/ + edges.jsonl
+- CRM ↔ Wiki ↔ Direction graph
+- Jetix = research engine + operational infrastructure для multiple bets
+- 8-я true alpha (Direction) materializes this principle operationally
+
+**Ruslan quote:** "портфолио модель как first-class принцип, это фундаментальная архитектурная парадигма."
+
+**D1 final structure:**
+
+1. Context (vision, DACH + US + RU markets, portfolio thinking intro)
+2. Reference Architecture (full 7-layer + 8 principles + 8 alphas)
+3. Operational Architecture Phase 1 MVA (4 layers materialized, 11 folders, 8 alphas, directions/)
+4. Decision (key architectural commitments)
+5. Consequences (what enables / costs)
+6. Alternatives (considered + rejected)
+7. Migration (Phase 1 Min → Phase 2 Add → Phase 3 Add; 7+7 rollout)
+8. Review triggers
+
+**Link-backs к D2-D9 (folder/roles/life-os-sep/knowledge/fpf-lite/career/instructions/decision-record).**
+
+---
+
 ## Chunk 4 — Outstanding Tensions (4 items — OT1 resolved early в Chunk 1)
 
 ### OT5 — FPF-Lite Token-budget + Publishing ✅ APPROVED 2026-04-19

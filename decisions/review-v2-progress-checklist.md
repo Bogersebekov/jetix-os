@@ -130,9 +130,9 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 5 — Part 2 Areas 1-5 → D1-D5 [PENDING]
+## Chunk 5 — Part 2 Areas 1-5 → D1-D5 [IN PROGRESS — 1/5]
 
-- [ ] Area 1 → D1 JETIX-ARCHITECTURE-FINAL
+- [x] **Area 1 → D1 JETIX-ARCHITECTURE-FINAL** — 15-20 pages; no exit strategy mention; Portfolio of Directions added as 8-й first-class principle (7→8 principles)
 - [ ] Area 2 → D2 JETIX-FOLDER-STRUCTURE
 - [ ] Area 3 → D3 JETIX-ROLE-MANIFESTS
 - [ ] Area 4 → D4 JETIX-VS-LIFE-OS
