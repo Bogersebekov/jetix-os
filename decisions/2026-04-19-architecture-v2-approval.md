@@ -308,6 +308,23 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+### Step 1 Item 7 — Career Ladder dual system ✅ APPROVED 2026-04-19
+
+**Accepted полностью без modifications.**
+
+- **J0-JX Reference Framework** в D7 (hiring + compensation + promotion criteria)
+- **Phase 1 Operational levels:** J-Auto / J-Approve / J-Strategic
+- **5-line decision_rights list** per role (не 13×6 matrix)
+- Promotion process: meta-agent compiles evidence → decisions/promotions/ → Ruslan approves
+- **Direction authority** (из Item 6 portfolio model):
+  - Open hypothesis direction: J-Auto (strategy-support-analyst agent может propose)
+  - Activate direction: J-Strategic (Ruslan only)
+  - Archive direction: J-Strategic (Ruslan only, с post-mortem)
+
+**Agent `strategy-support-analyst` reference level:** J3 (downgraded от J4 per Левенчук §1.4 — agents не стратегируют).
+
+---
+
 ### Step 1 Item 6 — Wiki + Portfolio Directions [MAJOR DECISION] ✅ APPROVED 2026-04-19
 
 **Two intertwined decisions locked:**
