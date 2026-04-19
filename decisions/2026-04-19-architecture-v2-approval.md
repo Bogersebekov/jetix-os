@@ -308,6 +308,37 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
 - #19 Per-agent memory 5 → 3 layers ✅
 
+### Step 2 — R10 Multi-currency REVISIT ✅ RESOLVED 2026-04-19
+
+**Context:** v2 synthesis отверг multi-currency scaffolding Phase 1 (Rejection R10). Ruslan P6 modification (+US +RU с Day 1) переворачивает основание rejection — trigger «1st non-EUR client» срабатывает.
+
+**Ruslan decision — Payment-processor pattern (не internal multi-currency):**
+
+| Question | Decision |
+|----------|----------|
+| **Q1 Currency handling** | **Option C** — currency-agnostic payment processor (Stripe / Wise) handles all conversion externally |
+| **Q2 Scaffolding** | Minimum Mega-Corp P3 placeholder: `finance/currencies.yaml` (1h setup) — держим место |
+| **Q3 Tax implications** | **Defer** — «это на потом, глубже разбираться» (Steuerberater consultation later) |
+| **Q4 Legal entity multi-currency** | **Defer** — «оставим место под это, потом глубже» |
+
+**Ruslan quote:** "Мы пока тут систему для финансов не делаем, всё будет через Stripe."
+
+**Architectural implication:**
+- External: Stripe/Wise as single source of truth для currency conversion + invoicing + tax handling
+- Internal: минимальный `finance/` Phase 1 — ledger.md (EUR reported) + invoices YAML + placeholder `currencies.yaml`
+- No internal multi-currency bookkeeping до Phase 2a
+- When Phase 2a triggers (Steuerberater escalation или DPA client requires audit trail) → real multi-currency scaffolding
+
+**Partial R10 reversal:** technically rejection confirmed (no internal multi-currency scaffolding Phase 1), но practical pathway created (Stripe routes around внутреннюю complexity).
+
+**Action items Phase 1:**
+- Stripe / Wise account setup (external)
+- `finance/currencies.yaml` placeholder (1h)
+- Invoice template parameterizable on currency (Stripe handles format)
+- **НЕ делаем:** internal ledger.md multi-currency columns, FX rate tracking, tax calculations
+
+---
+
 ### Step 1 Items 8-10 ✅ APPROVED 2026-04-19
 
 **Item 8 — Pre-commit hooks — Вариант B (3 + past-participle check):**
