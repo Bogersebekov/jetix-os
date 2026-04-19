@@ -88,10 +88,17 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 - [x] Minimum scaffolding: `finance/currencies.yaml` placeholder (1h)
 - [x] Tax/legal-entity: deferred, место зарезервировано в системе
 
-### Step 3 — Confirm остальные rejections [PENDING]
-- [ ] R11 IPO readiness, R12 FPF-Steward
+### Step 3 — Confirm остальные rejections ✅ RESOLVED 2026-04-19
+- [x] R11 IPO readiness placeholder — REJECT confirmed (Variant A)
+- [x] R12 FPF-Steward — **OVERRIDE Variant B** (add sub-role Phase 1, Левенчук на максимум)
+- [x] R1-R9 — all confirmed implicit via Chunks 1-2
 
-### Step 4 — Scan 38 accepted для flags [PENDING]
+### Step 4 — Scan 38 accepted для flags ✅ NO FLAGS
+- [x] All 38 items integrated через Chunks 1-2 + Chunk 3 Items 1-10
+
+---
+
+## ✅ Chunk 3 — COMPLETE 2026-04-19 (10 items + 3 steps done)
 
 ---
 
