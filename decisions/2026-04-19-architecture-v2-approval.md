@@ -310,6 +310,40 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
 
+### Area 4 → D4 JETIX-VS-LIFE-OS ✅ APPROVED 2026-04-20
+
+**Folder-level separation Day 1:**
+- Parallel structure `~/jetix-os/life-os/` + `~/jetix-os/jetix/`
+- Разные wiki, разные decisions, разные everything
+- Ruslan quote: "разные папки, чтобы мы не запутались и чтобы наш Claude Code тоже не запутался"
+
+**Asymmetric reference rule:** accepted — Jetix files НЕ МОГУТ reference Life-OS paths. Hook 1 (Item 8) enforces Day 1.
+
+**SOPS:** 1 key Phase 1 (no business/personal split). All private, no public sharing. Accept v2 default.
+
+**Phase 2a trigger Triple-AND:** accepted — extraction в отдельный repo когда все 3 условия:
+1. ≥€20K MRR × 3 consecutive months
+2. Ruslan >40% time на L1/L2 ops (Toggl-tracked)
+3. ≥1 active client requesting GDPR DPA
+
+**Phase 3 trigger:** different servers / different clouds (Ruslan explicit).
+
+**Grey zone / Insight sanitization:**
+- Dual tracking accepted в principle (Anton pattern: life-os/relationships/ + jetix/governance/advisory-board/)
+- Insight sanitization rule accepted (Life-OS → Jetix insights generalized, personal identifiers removed)
+- **BUT Phase 1 execution:** informal, manual mode. No strict enforcement. Ruslan quote: "пока тоже будет всё, буду там ручным режимом ещё дописывать, дофиксировать".
+
+**Geschäftskonto:** deferred — не Phase 1 week 1-2 priority. Add когда реально понадобится (Stripe integration активируется или first invoice готовится).
+
+**`shared/` Phase 2 evolution:** accept my recommendation C (move into Jetix, Life-OS references externally).
+
+**3 evolution phases formalized:**
+- **Phase 1 (Day 1):** folder-level separation, parallel structure, hook enforcement
+- **Phase 2a (Triple-AND trigger):** git filter-repo extraction → life-os и jetix-os separate repos
+- **Phase 3+:** different servers / clouds
+
+---
+
 ### Area 3 → D3 JETIX-ROLE-MANIFESTS ✅ APPROVED 2026-04-19
 
 **Template:** 5-block role.md (identity / ontological / method / production_dependencies / evolution) + separate `executor-binding.yaml`.
