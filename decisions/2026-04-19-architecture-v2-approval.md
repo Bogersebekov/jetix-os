@@ -310,6 +310,76 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
 
+## Chunk 6 — Part 2 Areas 6-9 (D6-D9 details)
+
+### Area 6 → D6 JETIX-FPF ✅ APPROVED 2026-04-20 — **RENAMED from FPF-Lite к FULL FPF, MAXIMUM DEPTH**
+
+**CRITICAL RENAME:** `FPF-Lite` → `FPF` (drop "Lite" качество — документ становится full constitutional).
+
+**Ruslan directive:**
+> "Мы к этому документу подходим глубоко. Он не должен быть light — он должен быть constitutional, адекватный, глубокий. Максимально глубоко всё что можно, прописываем по Левенчуку, добавляем, внедряем, делаем, потом ещё один дополнительный прогон. Этот документ очень критически важен. Делаем прям full, мега full, как только возможно, по всем данным которые только есть от Левенчука. Вообще никакого компромисса."
+
+**Implications:**
+- **Document rename:** D6 JETIX-FPF-LITE.md → **D6 JETIX-FPF.md** (full framework)
+- **Size:** 30-50 pages (vs v2 3-5 pages) — constitutional depth
+- **NO EXCLUSIONS** что касается Левенчук — всё что is reasonable applicable → included:
+  - ✅ Full 17 trans-disciplines (reference + selected application) — было v2 excluded
+  - ✅ Advanced mereology (Kit Fine acknowledgment, holon hierarchy fully documented) — было v2 excluded
+  - ✅ Holons recursive (Ruslan-as-executor → role → Jetix → Life-OS) — materialize в spec syntax
+  - ✅ Category theory considerations (где applicable — objects, morphisms, functors if useful)
+  - ✅ Constructor theory (если reasonable fit — для Creation Graph depth)
+  - ✅ Full FPF architectural invariants — applied
+
+**Writing process:**
+- **First pass:** all 10 sections + creation graph + exclusions-turned-inclusions
+- **Second pass (дополнительный прогон):** deepen each section, verify Левенчук fidelity
+- **Third pass validation:** FPF-Steward audit (meta-agent) review against Левенчук source material
+
+**Full 10 sections preserved + expanded:**
+1. Target System (full L0-L7 + Model D)
+2. Stakeholders (all 11 Ecosystem categories per P7)
+3. **Creation Graph** — full 3-level mereological (per MC3)
+4. Client Principles
+5. **Internal Principles** — 8 (включая agents-as-master-class)
+6. **8 True Alphas** (Client/Project/Deal/Content/Hypothesis/Member/WayOfWorking/**Direction**) с states past-participle
+7. Ritual Cadence (4 rituals/quarter + strategizing event-not-ceremony)
+8. **U-Types Full** — expand от 6 (Lite) до full set (Левенчук max: System/Role/Method/Stakeholder/Objective/Decision/Practice/Case/Knowledge/Artifact/... всё что применимо)
+9. What ШСМ is NOT (expanded protection section)
+10. **Mereology** — full (не "lightweight" — holons recursive fully documented)
+11. **NEW: 17 trans-disciplines reference** (which apply, which referenced)
+12. **NEW: Full FPF architectural invariants**
+13. **NEW: Constructor/Category theory applications** (где relevant)
+
+Plus separate artifacts:
+- `wiki/foundations/jetix-creation-graph.md` (full 3-level mereological graph, 4-8 pages)
+- `wiki/foundations/shsm-primitives.md` (5 primitives deep reference)
+- `wiki/foundations/holon-hierarchy.md` (Jetix holon structure full)
+
+**Loading:** full text в каждый agent system.md (OT5 Scenario A — full everywhere). Context budget 25K exocortex hard reservation handles.
+
+**Publishing:** internal only Phase 1+ (OT5 — secret sauce protected).
+
+**Evolution rules:**
+- Major changes (ontological shifts) → RFD approved by Ruslan
+- Minor clarifications → FPF-Steward quarterly audit + Ruslan approve
+- Breaking changes → Constitution-level amendment with wide reflection
+
+**Cost Phase 1:**
+- D6 FPF writing: ~15-25h (3 passes)
+- Creation graph artifact: 4-8h
+- Supplementary artifacts (holon hierarchy, ШСМ primitives): 3-6h
+- Total: ~25-40h foundational work
+
+**Consistency с previously-decided principles:**
+- Full 3-level mereological (MC3 override)
+- Full text loading во всех agents (OT5)
+- Direction as 8th alpha (Item 6)
+- FPF-Steward quarterly audit (R12)
+- Past-participle strict (MC6)
+- Forbidden dynamic role + founder exception (Chunk 1 P5)
+
+---
+
 ### Area 5 → D5 JETIX-KNOWLEDGE-ARCHITECTURE ✅ APPROVED 2026-04-20
 
 **3-layer model:**

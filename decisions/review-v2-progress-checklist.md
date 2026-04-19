@@ -144,9 +144,9 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 6 — Part 2 Areas 6-9 → D6-D9 [PENDING]
+## Chunk 6 — Part 2 Areas 6-9 → D6-D9 [IN PROGRESS — 1/4]
 
-- [ ] Area 6 → D6 JETIX-FPF-LITE
+- [x] **Area 6 → D6 JETIX-FPF** (RENAMED from FPF-Lite) — **FULL maximum depth, 30-50 pages, NO compromises с Левенчук**; 17 trans-disciplines included; advanced mereology + holons + category theory + constructor theory applications; 3-pass writing; ~25-40h total foundational work
 - [ ] Area 7 → D7 JETIX-CAREER-LEVELS
 - [ ] Area 8 → D8 docs/INSTRUCTIONS
 - [ ] Area 9 → D9 decision record
