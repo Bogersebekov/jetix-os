@@ -120,7 +120,7 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 - [x] ~~OT1 Strategic-management decomposition~~ — **RESOLVED early in Chunk 1** (5 sub-roles hybrid accepted)
 - [x] **OT2 Bilingual frontmatter — Scenario E (Hybrid):** EN summary в policy/decisions; EN-primary в roles/ops; RU default wiki/directions; auto-translation hook для wiki/concepts/summaries; client folders per language в outreach/de/en/ru
-- [ ] OT3 EU AI Act tier classification
+- [x] **OT3 EU AI Act tier — Scenario C (Risk-proportional)** + compliance calendar + DPA template Phase 1
 - [ ] OT4 Trademark Jetix vs Disney
 - [ ] OT5 FPF-Lite token-budget treatment + publishing
 

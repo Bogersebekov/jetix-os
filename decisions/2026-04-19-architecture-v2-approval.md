@@ -310,6 +310,38 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 4 — Outstanding Tensions (4 items — OT1 resolved early в Chunk 1)
 
+### OT3 — EU AI Act Tier: Scenario C (Risk-proportional) ✅ APPROVED 2026-04-19
+
+**Status:** accept Scenario C + compliance calendar + DPA template Phase 1.
+
+**4 risk categories с different human gates:**
+
+| Category | Risk | Gate | Examples |
+|----------|------|------|----------|
+| **Internal-only** | Minimal | None (J-Auto) | Research, wiki ingestion, internal notes, summaries |
+| **External reversible** | Low-medium | Batch approval (J-Approve batch) | Outreach drafts (batch 20/week), social media scheduling |
+| **External non-reversible / client-affecting** | High | Per-action approval (J-Approve per) | Send specific email, publish content, commit to client deliverable |
+| **Strategic / regulatory** | Critical | Ruslan explicit (J-Strategic) | Sign contract, offer discount, compliance claim, legal liability |
+
+**Policy document:** `decisions/policy/ai-agent-decision-authority.md` — defines categories + examples.
+
+**Art. 22 GDPR compliance:** all client-affecting AI decisions have human approval gate — automated Art. 22 protection.
+
+**Complementary (applied defaults per recommendation):**
+
+- ✅ **Compliance calendar Phase 1:** `decisions/policy/eu-ai-act.md` с quarterly review triggers (2h cost). Timeline: 2025 GPAI monitor → 2026 Q2 internal AI inventory → 2026 Q3 tier classification → Aug 2026 High-risk obligations go live.
+
+- ✅ **DPA template Phase 1:** `decisions/templates/client-dpa-template.md` (3-4h, may need IP lawyer consult). Critical для ai-consulting-dach direction — client engagement часто requires DPA ДО data sharing. Having template ready accelerates first enterprise close.
+
+**Consistent с:**
+- Item 7 Career Ladder (J-Auto / J-Approve / J-Strategic already maps decisions)
+- R12 FPF-Steward (max Левенчук discipline — compliance thinking integrated)
+- P6 DACH +US +RU (GDPR territorial scope covered)
+
+**Outcome:** Ruslan не bottleneck для internal work; batch approvals scale; high-risk protected; DPA-ready Day 1.
+
+---
+
 ### OT2 — Bilingual Frontmatter: Scenario E (Hybrid) ✅ APPROVED 2026-04-19
 
 **Status:** accept Hybrid scenario — best discipline + minimum burden.
