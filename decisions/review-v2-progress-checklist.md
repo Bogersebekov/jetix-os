@@ -1,7 +1,8 @@
 ---
 name: Review V2 Synthesis — Progress Checklist
 created: 2026-04-19
-status: in-progress (1/7 chunks complete)
+closed: 2026-04-20
+status: ✅ APPROVED (7/7 chunks complete)
 adr: decisions/2026-04-19-architecture-v2-approval.md
 source: raw/research/architecture-synthesis-v2-final.md
 notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
@@ -157,16 +158,13 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 7 — Final sign-off + Roadmap [PENDING]
+## Chunk 7 — Final sign-off + Roadmap ✅ COMPLETE 2026-04-20
 
-- [ ] Part 5.1 D1-D9 writing order confirmation
-- [ ] Part 5.2 timeline
-- [ ] Part 5.3 7+7 rollout post-deploy
-- [ ] Part 6.1 v2 vs v1 verify list
-- [ ] Part 6.2 open questions judgment
-- [ ] Part 6.3 recommended actions
+- [x] Part 5 Implementation Roadmap Preview — accepted implicit через Chunks 1-6
+- [x] Part 6 Final Sign-Off Checklist — all pending items resolved
 
-**Output после Chunk 7:**
-- [ ] ADR финализован (status: approved)
-- [ ] Commit + push
-- [ ] Stage 4 unblocks → D1-D9 writing start
+**Output:**
+- [x] ADR status: `in-progress` → `APPROVED` ✅
+- [x] Commit + push
+- [x] Stage 3.5 unblocks → D9 draft writing
+- [x] Stage 4 unblocks → D1-D8 writing (using D9 draft as source)

@@ -2,15 +2,16 @@
 id: ADR-2026-04-19-architecture-v2-approval
 title: Architecture Synthesis v2 — Ruslan Approval Record
 date: 2026-04-19
-status: in-progress
-phase: Stage 3 — Review v2 synthesis chunk-by-chunk
-chunks-complete: [1]
-chunks-pending: [2, 3, 4, 5, 6, 7]
+date-closed: 2026-04-20
+status: APPROVED
+phase: Stage 3 COMPLETE — review finished 2026-04-20
+chunks-complete: [1, 2, 3, 4, 5, 6, 7]
+chunks-pending: []
+unblocks: Stage 3.5 (D9 draft) + Stage 4 (D1-D8 writing)
 type: architecture-decision
 author: ruslan
 scribe: claude-opus-4-7
 source: raw/research/architecture-synthesis-v2-final.md
-blocks: D1-D9 чистовики (Stage 4)
 ---
 
 # ADR: Architecture Synthesis v2 — Approval Record
@@ -309,6 +310,27 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 - #19 Per-agent memory 5 → 3 layers ✅
 
 ## Chunk 5 — Part 2 Areas 1-5 (D1-D5 details)
+
+## Chunk 7 — Final Sign-off ✅ APPROVED 2026-04-20
+
+**Status:** Stage 3 review COMPLETE. ADR closed. Ready for Stage 3.5 (D9 draft) и Stage 4 (D1-D8 writing).
+
+**Ruslan final directive:** "в целом okey, я всё подтверждаю на данный момент. Можем этот этап проверки закрывать, менять статус".
+
+**Part 5 Implementation Roadmap Preview:** accepted implicit через Chunks 1-6.
+
+**Part 6 Final Sign-Off Checklist:** all pending items resolved через Chunks 1-6.
+
+**ADR status change:** `in-progress` → `APPROVED`.
+
+**Next steps (Stage 3.5+):**
+- Stage 3.5: write `decisions/2026-04-20-jetix-architecture-final-DRAFT.md` (clean D9 v0.5 consolidation)
+- Stage 4: write D1-D8 using D9 draft as source of truth
+- Stage 4.5: finalize D9 (draft→committed)
+
+Дальнейший roadmap + план work будет обсуждён отдельным разговором.
+
+---
 
 ## Chunk 6 — Part 2 Areas 6-9 (D6-D9 details)
 
