@@ -51,14 +51,14 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 2 — 6 Meta-conflicts resolved [IN PROGRESS — 1/6]
+## Chunk 2 — 6 Meta-conflicts resolved ✅ COMPLETE 2026-04-19 (6/6)
 
 - [x] **MC1** Critic vs Mega-Corp — ACCEPT v2 (9 P1 additions, 5 P2 deferred, 3 P3 rejected; trustee TBD ≠ Anton)
 - [x] **MC2** Simplifier vs Mega-Corp — ACCEPT v2 (11 folders: 8 baseline + 3 Mega-Corp P1)
 - [x] **MC3** Левенчук vs Pragmatic — ACCEPT v2 + 1 OVERRIDE: Full 3-level mereological graph Phase 1 (не Lite + Phase 2). Member preserved. 13 Левенчук changes accepted.
-- [ ] MC4 Critic vs Simplifier (bus-factor) — **⚠️ trustee TBD, Ruslan override**
-- [ ] MC5 Mega-Corp vs Simplifier (federation) — implicit accept (entities/ stub)
-- [ ] MC6 Левенчук past-participle — already implicit approved через P3
+- [x] **MC4** Critic vs Simplifier (bus-factor) — ACKNOWLEDGED, DEFERRED (v2 structure ok, Phase 1 execution не priority; trustee TBD ≠ Anton)
+- [x] **MC5** Mega-Corp vs Simplifier (federation) — ACCEPT v2 (entities/jetix-gmbh/ stub 4h)
+- [x] **MC6** Левенчук past-participle — ACCEPT v2 (strict enforce, 52% rename)
 
 ---
 
