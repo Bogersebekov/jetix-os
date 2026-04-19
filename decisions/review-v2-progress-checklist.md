@@ -122,7 +122,11 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 - [x] **OT2 Bilingual frontmatter — Scenario E (Hybrid):** EN summary в policy/decisions; EN-primary в roles/ops; RU default wiki/directions; auto-translation hook для wiki/concepts/summaries; client folders per language в outreach/de/en/ru
 - [x] **OT3 EU AI Act tier — Scenario C (Risk-proportional)** + compliance calendar + DPA template Phase 1
 - [x] **OT4 Trademark Jetix vs Disney** — DEFER (Perplexity research now, formal resolution at first revenue €20-50K range; backlog entry)
-- [ ] OT5 FPF-Lite token-budget treatment + publishing
+- [x] **OT5 FPF-Lite token-budget + publishing** — Full text во всех agents (~$5-10/mo ok); Internal only (secret sauce) Phase 1+, backlog review trigger at €1M+ ARR
+
+---
+
+## ✅ Chunk 4 — COMPLETE 2026-04-19 (4/4 tensions resolved, OT1 resolved early в Chunk 1)
 
 ---
 
