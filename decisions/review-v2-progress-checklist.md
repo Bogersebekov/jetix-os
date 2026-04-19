@@ -83,8 +83,10 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 **Step 1 COMPLETE — 10/10 items judged.**
 
-### Step 2 — R10 multi-currency REVISIT [PENDING]
-- [ ] Due to P6 DACH mod (+US +RU с Day 1)
+### Step 2 — R10 multi-currency REVISIT ✅ RESOLVED 2026-04-19
+- [x] Decision: payment-processor pattern (Stripe/Wise handles conversion externally)
+- [x] Minimum scaffolding: `finance/currencies.yaml` placeholder (1h)
+- [x] Tax/legal-entity: deferred, место зарезервировано в системе
 
 ### Step 3 — Confirm остальные rejections [PENDING]
 - [ ] R11 IPO readiness, R12 FPF-Steward
