@@ -310,6 +310,37 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 4 — Outstanding Tensions (4 items — OT1 resolved early в Chunk 1)
 
+### OT5 — FPF-Lite Token-budget + Publishing ✅ APPROVED 2026-04-19
+
+**Sub-question 1 — Token-budget loading: Вариант A (full text везде)**
+
+Ruslan quote: "Мы оставляем эти FPF контексты полностью на всех. Мы можем себе это позволить. Главное чтобы это глубоко и качественно использовалось и работало."
+
+**Decision:** full FPF-Lite text (7-10K tokens) loaded в каждый agent system.md.
+
+- Глубина > efficiency
+- Quality over token savings
+- Monthly cost estimate: $5-10/month (negligible при €150-350 total API spend)
+- Context window pressure: minimal (10K = 1% of Opus 4.7 1M context, 5% of Sonnet/Haiku 200K)
+- Consistent с Левенчук #11 exocortex reservation (25K hard-pinned) — full FPF fits comfortably
+
+**Все 11 agents (+meta-agent) получают full FPF-Lite в system prompt.** No differentiation.
+
+**Sub-question 2 — Publishing: Вариант A (internal forever — initially)**
+
+Ruslan quote: "Мы оставляем это в GitHub пока как секретный соус. Нигде не публикуем, это должно быть в секрете. Потом по мере роста будем смотреть."
+
+**Decision:** FPF-Lite — **internal only** Phase 1+. No public release without explicit decision.
+
+- Protect methodology during iteration
+- Secret sauce defense
+- Phase 2c-3+ trigger: revisit publishing decision когда methodology proven + case studies accumulated
+- Backlog entry: `decisions/backlog/fpf-lite-publishing-review.md` — review trigger at €1M+ ARR
+
+**Outcome:** Maximum ontology depth Day 1 + competitive moat protected.
+
+---
+
 ### OT4 — Trademark Jetix vs Disney: DEFER (Perplexity research + backlog) ✅ RESOLVED 2026-04-19
 
 **Ruslan decision:**
