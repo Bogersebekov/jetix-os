@@ -1,7 +1,7 @@
 ---
 type: working-draft
 status: in-progress
-version: v0.8-working
+version: v0.9-working
 owner: ruslan
 created: 2026-04-18
 finalized: null
@@ -34,7 +34,7 @@ commit-policy: append-only в секциях Log / Decisions; в секциях 
 next-output: decisions/2026-04-18-jetix-architecture-final.md по T-02
 ---
 
-# Jetix Architecture — Working Draft v0.8
+# Jetix Architecture — Working Draft v0.9
 
 > **Это рабочий черновик.** Документ живёт и растёт пока мы обсуждаем. Финальная
 > зафиксированная версия переедет в `decisions/2026-04-18-jetix-architecture-final.md`
@@ -1579,15 +1579,24 @@ Annually: Leonard-style 3-year letter, stress-test всей архитектур
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Ритмы подтверждены 100%** (Ruslan 2026-04-19). Именно то что нужно:
+  daily digest, weekly review, monthly P&L, quarterly letter, annual
+  stress-test. Всё как описано — берём, будем делать.
+- Детали (exact time, agent-owners, template) — настраиваются через
+  практику первых месяцев, не заранее.
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Все «Ключевые вопросы» (weekly Sunday vs Saturday, missing-week
+  handling, agent-owner каждого ритма, letter Q2 только-для-себя или
+  share, ритуалы vs execution границы) — настраиваются в практике.
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.9 pass по Ритмам)
 
-- _(пусто)_
+- **Ритмы синхронизации = APPROVED.** Подтверждены все 5 уровней (daily /
+  weekly / monthly / quarterly / annually).
+- Бюджет ~12h/мес на meta-работу (ритуалы) — принят.
+- Настройка деталей — через практику Q2.
 
 ---
 
@@ -1602,29 +1611,106 @@ Annually: Leonard-style 3-year letter, stress-test всей архитектур
 (как мы рассказываем Jetix клиентам, partner'ам, инвесторам) и на priority
 (какой слой важнее и почему).
 
-#### 📜 Тезисы
+#### 📜 Тезисы (финализировано 2026-04-19)
 
 1. **Software foundation + Левенчук cognitive — два окончания одного континуума.**
    Software версионирует артефакты (*что*), Левенчук — методы (*как*).
    Prompt-as-code и FPF = один принцип на двух уровнях абстракции.
+   ✅ Approved.
 
 2. **Agency и Community — два конца одной трубы.** Первый agency-клиент =
    первый член Alliance. Первый Alliance-член = первый referral для второго
    agency. Long-runway-vs-fast-cashflow разрешается не компромиссом, а
    взаимным питанием.
+   ✅ Approved (интересная идея).
 
-3. **Holding-дисциплина на масштабе solo = attention allocation, а не capital
-   allocation.** Buffett/Leonard распределяют капитал. Solo-operator распределяет
-   внимание. Метрики те же (ROIC, IRR, kill-criteria), но вход — часы, а не
-   доллары.
+3. **Holding-дисциплина = attention allocation, а не только capital
+   allocation + уникальное расширение Jetix: orchestration внешних
+   ресурсов.** Buffett/Leonard распределяют капитал между компаниями.
+   Solo-operator распределяет собственное внимание. **Jetix идёт дальше:**
+   применяет holding-дисциплину не только к *своим* ресурсам (капитал +
+   часы + внимание Ruslan'а и его команды), но и к **внешним ресурсам
+   экосистемы** — вниманию клиентов, времени партнёров, капиталу
+   ecosystem-участников (Antоn, Владислав, IHK/VDMA/Bitkom networks,
+   Alliance members). Через L5 Membrane и L6 Platform мы получаем
+   visibility + leverage в распределении этих ресурсов. Это возможно
+   только потому, что мы не «чисто consultancy» (как MBB) и не «чисто
+   investor» (как Berkshire) — а **infrastructure layer с orchestration
+   capability**.
+   ✅ Approved + расширено (Ruslan 2026-04-19).
 
 4. **Platform — не цель, а форма в которую эволюционируют Agency + Community
    через 2 года.** Стратегировать секвенсирование, не platform с нуля.
+   Platform появляется как emergence, когда L3+L4+L5 достигли critical
+   mass. Мы её **не строим** — она вырастает.
+   ✅ Approved (логично, супер).
 
-5. **12 Claude-Code агентов = не инструмент, а организационная структура.**
-   Первая в истории company где org chart рисуется не в HR-системе, а в
-   Git-репозитории. И это делает company принципиально иным объектом аудита,
-   рефакторинга и передачи.
+5. **Агенты и роли = организационная структура, живущая в Git, а не в
+   HR-системе.** Это **фундаментальный сдвиг** в том, что такое компания:
+   org chart = файлы в git-репозитории. Это открывает целый класс
+   возможностей, которых нет у классических компаний.
+   ✅ Approved + развёрнуто (переписано 2026-04-19 по правке Ruslan'а).
+
+   **Развёртка Тезиса 5:**
+
+   **Что это значит технически:**
+   - Каждая роль = файл в git (`roles/<role-name>.md` или `.yaml`) —
+     role-manifest с целевой системой / альфой / методом / acceptance
+   - Каждое изменение роли = commit с понятным сообщением
+   - Каждое структурное решение (новая роль / закрытие роли / split /
+     merge) = pull request с рецензией
+   - Org chart = set of files + их связи, визуализируется через git graph
+     или tools like Obsidian
+   - Полная история структурных изменений = `git log`
+   - Diff между «Jetix Q2 2026» vs «Jetix Q4 2027» = `git diff`
+   - «What-if» варианты организации = git branches (experimental orgs)
+
+   **Что это даёт (6 возможностей):**
+
+   1. **Transparency.** Вся структура компании — в 1 месте, diff-абельно,
+      читаемо любым агентом (и любым человеком-executor'ом когда
+      появится).
+   2. **Rollback.** Ошибочные org-changes откатываются через `git revert`.
+      Не нужно проводить «обратный HR-процесс».
+   3. **Version control на уровне организации.** Можно честно компарить
+      «какая компания была 6 мес назад» vs «какая сейчас». Делать
+      post-mortem структурных решений.
+   4. **Transferability.** Org chart — **передаваемый артефакт**. Другая
+      компания может fork-нуть Jetix org structure как template
+      (связь с hybrid-framework vision: Jetix framework становится
+      transferable methodology → licensing / partnership / community
+      revenue streams).
+   5. **AI-native governance.** Агенты **читают свои role-manifests
+      напрямую** — нет human-mediated tribal knowledge, нет «я не знал
+      что это моя ответственность». Role = contract, codified.
+   6. **Refactorable org.** Org chart можно рефакторить теми же
+      операциями что и code: extract role (выделить новую роль),
+      inline (слить роль обратно), rename (переименовать),
+      move (перенести в другой отдел/слой), split (разделить на две).
+
+   **Новые возможности которые open-up:**
+
+   - 🔍 **Automated org health checks** — lint-правила на организацию
+     (никакая альфа не имеет двух owners, нет orphan-ролей, нет
+     duplicate responsibilities)
+   - 📊 **Org diff между компаниями** — comparative analysis Jetix org
+     vs MBB-firm org vs startup org. Что общее, что уникально?
+   - 🌐 **Open-source org charts** — как open-source projects. Jetix
+     публикует свою org structure, другие солоpreneurs fork-ают и
+     адаптируют.
+   - 🧪 **A/B testing структур** — branch A с манажером на L7, branch B
+     без. Запустить обе, смотреть результат, merge победителя.
+   - 📚 **Org как learning artifact** — через 3 года можно дать
+     новому executor'у читать `git log org/` как обучающий курс
+     «как эволюционировала эта компания».
+   - 🏛️ **Constitutional layer.** Org rules (инварианты из §11 tech-doc)
+     тоже в git. Меняется правило → видно весь impact.
+
+   **Мета-мысль.** Когда компания — это git-репозиторий, **она становится
+   принципиально иным объектом** аудита, рефакторинга, передачи, learning,
+   scale. Это первая в истории architecture-pattern где company это
+   **software artefact**, не legal-plus-HR-plus-tribal-knowledge
+   конструкция. Это конкретный operational advantage AI-эры.
 
 #### ❓ Ключевые вопросы для обсуждения
 
@@ -1644,15 +1730,49 @@ Annually: Leonard-style 3-year letter, stress-test всей архитектур
 
 #### 💡 Инсайты / что добавить / убрать / перефразировать
 
-- _(пусто)_
+- **Все 5 тезисов подтверждены / обновлены** (Ruslan 2026-04-19):
+  - T1 (Software + Левенчук) — супер, используем.
+  - T2 (Agency + Community) — интересная идея, используем.
+  - **T3 (Holding-дисциплина) — APPROVED + РАСШИРЕНО.** Мы применяем
+    holding не только к **своим** ресурсам, но и к **внешним** (внимание
+    клиентов, время партнёров, капитал ecosystem-участников). Это
+    уникальное преимущество Jetix vs классический MBB (чистый consulting)
+    или Berkshire (чистый investor).
+  - T4 (Platform как форма, не цель) — логично, супер.
+  - **T5 (Org chart в Git) — APPROVED + РАЗВЁРНУТО.** Не «12 агентов»,
+    а общая формулировка: **роли = организационная структура в Git, а
+    не в HR**. Развёрнуто 6 возможностей (transparency, rollback, version
+    control, transferability, AI-native governance, refactorable org)
+    и 6 новых use-cases (lint, diff, open-source, A/B, learning,
+    constitutional layer).
+- **T3 расширение — конкурентное преимущество Jetix.** Мы infrastructure
+  layer с orchestration capability. Клиенты и партнёры платят не только
+  за delivery (L4), но за **orchestration** их ресурсов в ecosystem.
+  Это возможно через L5 Membrane (relationships) + L6 Platform (future
+  visibility).
+- **T5 переформулировка — key positioning для external narrative.**
+  Когда рассказываем Jetix клиентам / инвесторам / партнёрам — **org
+  chart в Git** это ключевая отличительная черта, которую можно
+  demonstrate (показать репозиторий), а не только заявить.
 
 #### 🟡 Open questions (накопитель)
 
-- _(пусто)_
+- Как именно в T3 расширении считать attention клиентов/партнёров
+  (метрика? observability?)
+- T5 visual representation org chart — через git log + graph tool
+  (Sourcetree / GitKraken) или custom Obsidian plugin?
+- T5 open-source org charts — когда делаем first public release?
 
-#### ✅ Финальные правки в архитектуру
+#### ✅ Финальные правки в архитектуру (v0.9 pass по 5 тезисам)
 
-- _(пусто)_
+- **Все 5 тезисов APPROVED.**
+- **T3 расширение зафиксировано:** Jetix holding orchestrates не только
+  свои ресурсы, но и внешние (клиенты, партнёры, ecosystem). Уникальное
+  преимущество vs MBB / Berkshire / Constellation.
+- **T5 переформулирован:** «Роли = организационная структура в Git» +
+  6 возможностей + 6 новых use-cases. Готов стать центральным narrative
+  для Jetix positioning.
+- 5 тезисов готовы быть включены в decision-doc и PRD как philosophy-layer.
 
 ---
 
@@ -1912,6 +2032,20 @@ L1-L7 сохраняются, каждый имеет два регистра:
   7-слойной архитектурой внутри. Полное разделение ресурсов. Сейчас один
   физический сервер разные папки; будущее — отдельные серверы/репозитории.
   Закладываем с Day 1 чтобы при scale не было rebuild.
+- **§5 Ритмы — APPROVED (v0.9, 2026-04-19).** Все 5 уровней (daily /
+  weekly / monthly / quarterly / annually) подтверждены. Детали настройки
+  — через практику Q2.
+- **§5 5 тезисов — ALL APPROVED + T3 и T5 РАСШИРЕНЫ (v0.9, 2026-04-19):**
+  - **T3 расширение:** Holding orchestrates не только свои ресурсы, но и
+    **внешние** — внимание клиентов, время партнёров, капитал
+    ecosystem-участников. Jetix = infrastructure layer с orchestration
+    capability. Уникальное преимущество vs MBB / Berkshire / Constellation.
+  - **T5 переформулирован и развёрнут:** не «12 агентов», а **«роли =
+    организационная структура в Git, а не в HR»**. Развёрнуто 6
+    возможностей (transparency / rollback / version control /
+    transferability / AI-native governance / refactorable org) + 6
+    новых use-cases (automated lint / org diff / open-source orgs /
+    A/B testing / org как learning artifact / constitutional layer).
 
 ### Убрано
 
@@ -1970,6 +2104,32 @@ L1-L7 сохраняются, каждый имеет два регистра:
 
 > **Append-only**, новые записи СВЕРХУ. Каждая запись = короткая пометка
 > что сделано в этой сессии.
+
+### 2026-04-19 — v0.9: Ритмы APPROVED + 5 тезисов финализированы (T3 и T5 расширены)
+
+- **Ритмы синхронизации — APPROVED 100%.** Все 5 уровней (daily / weekly
+  / monthly / quarterly / annually) подтверждены Ruslan'ом. Берём как есть.
+- **5 синтетических тезисов — ALL APPROVED.** Два из них расширены:
+  - **T3 (Holding-дисциплина) расширен:** Jetix holding orchestrates не
+    только свои ресурсы (капитал + часы + внимание Ruslan'а и команды),
+    но и **внешние** — внимание клиентов, время партнёров, капитал
+    ecosystem-участников. Это уникальное конкурентное преимущество vs
+    MBB (чистый consulting) и Berkshire (чистый investor). Jetix =
+    infrastructure layer с orchestration capability.
+  - **T5 (Org chart в Git) переформулирован и развёрнут.** Удалена
+    формулировка «12 агентов», заменена на общую: «роли = организационная
+    структура в Git, а не в HR-системе». Развёрнуто:
+    - 6 возможностей (transparency / rollback / version control /
+      transferability / AI-native governance / refactorable org)
+    - 6 новых use-cases (automated org lint / org diff между
+      компаниями / open-source orgs / A/B testing структур / org как
+      learning artifact / constitutional layer)
+    - Meta-мысль: компания становится software artefact, а не
+      legal+HR+tribal-knowledge конструкция. Это концепт-основа
+      positioning Jetix.
+- Теперь **все 8 слоёв + ритмы + 5 тезисов APPROVED.** Все секции §5
+  пройдены. §7 Company vs Life-OS решён. Готовы собирать §10 Финальная
+  архитектура.
 
 ### 2026-04-19 — v0.8: L7 APPROVED + §7 Company vs Life-OS РЕШЕНО
 
