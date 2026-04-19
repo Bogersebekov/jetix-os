@@ -147,7 +147,7 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 ## Chunk 6 — Part 2 Areas 6-9 → D6-D9 [IN PROGRESS — 1/4]
 
 - [x] **Area 6 → D6 JETIX-FPF** (RENAMED from FPF-Lite) — **FULL maximum depth, 30-50 pages, NO compromises с Левенчук**; 17 trans-disciplines included; advanced mereology + holons + category theory + constructor theory applications; 3-pass writing; ~25-40h total foundational work
-- [ ] Area 7 → D7 JETIX-CAREER-LEVELS
+- [x] **Area 7 → D7 JETIX-CAREER-LEVELS** — dual ladder preserved; AI promotion external review + Ruslan sign-off (no self-grading); strategic client = any Phase 1; C-suite timing € corrected; crazy-agent J-Approve special mode; life-coach moves to Life-OS; FPF-Steward trigger to separate role at 30+ agents / 1+ human hire / audit >4h
 - [ ] Area 8 → D8 docs/INSTRUCTIONS
 - [ ] Area 9 → D9 decision record
 
