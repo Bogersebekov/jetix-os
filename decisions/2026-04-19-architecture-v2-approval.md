@@ -299,6 +299,50 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 2 — Meta-conflicts resolved
 
+### MC5: Mega-Corp vs Simplifier — Federation pattern ✅ APPROVED 2026-04-19
+
+**Status:** v2 resolution accepted (already implicit через MC1 9 P1 additions).
+
+- Phase 1: `entities/jetix-gmbh/` namespace stub (4h) — empty skeleton mirroring current `jetix/`
+- `jetix/` paths активны, stub inactive
+- Activation trigger: 2nd entity emergence (Phase 2c acquisition или Holdings split)
+
+### MC6: Левенчук strict past-participle vs AI-readability ✅ APPROVED 2026-04-19
+
+**Status:** Strict-enforce past-participle accepted (already implicit через Chunk 1 P3).
+
+- Systematic rename: 52% v1 violations fixed
+- Trade-off accepted: 1-2 weeks reading-discomfort → permanent semantic clarity
+- Applied to: all `alphas/` state machines, all role-manifests, all decision records
+
+---
+
+### MC4: Critic vs Simplifier — Bus-factor mitigation ⏳ ACKNOWLEDGED, DEFERRED 2026-04-19
+
+**Status:** v2 structure acknowledged. Phase 1 execution deferred — не priority сейчас.
+
+**Ruslan directive 2026-04-19:**
+> "На данный момент это не сильно уж важная штука. Что-то там зафиксируй, что v2 предлагал. На это мы пока время тратить не будем. Просто учитываем в архитектуре, что у нас будет какой-то ответственный человек на внезапные ситуации. Но пока не критично."
+
+**v2 structure acknowledged (будет готов к execution когда time comes):**
+- `ops/hit-by-bus.md` (~2h) — 1-page operational guide с 1Password vault, contacts, open commitments
+- Constitution §11 Service Continuity protocol (unavailable >7d / >14d / >30d escalations)
+- `ops/business-continuity.md` — scenarios 1 week / 1 month / permanent
+- `ops/incident-playbook.md` — generic incident response
+- `governance/trustee-designations.md` — с placeholder `{trustee: TBD, NOT Anton}`
+- Phase 2 trigger: dead-man's-switch script при first retainer client
+- Phase 2b trigger: Chief of Staff formal role
+
+**Ruslan overrides из Chunk 1 preserved:**
+- Trustee ≠ Anton (identity TBD)
+- Timing: Phase 1 но не Day 1 priority — execution «чуть потом»
+
+**Implicit trigger (моя рекомендация):** complete bus-factor artifacts **до first client contract signed** — это hard deadline после которого risk становится non-theoretical.
+
+**Outcome:** v2 structure будет materialized когда Ruslan решит (либо до first contract, либо позже). Сейчас — acknowledged, не executed. Architectural seams preserved для painless future add.
+
+---
+
 ### MC3: Левенчук vs Pragmatic — Onto purity vs Tooling ✅ APPROVED + 1 OVERRIDE 2026-04-19
 
 **Status:** v2 accept 13 из 15 Левенчук changes полностью; 1 preservation confirmed; **1 OVERRIDE на full mereological graph**.
