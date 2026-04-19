@@ -310,6 +310,25 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ## Chunk 4 — Outstanding Tensions (4 items — OT1 resolved early в Chunk 1)
 
+### OT4 — Trademark Jetix vs Disney: DEFER (Perplexity research + backlog) ✅ RESOLVED 2026-04-19
+
+**Ruslan decision:**
+> "Мы просто сейчас сделаем research c Perplexity глубокий, нам этого на данный момент будет достаточно. Будем в неофициальном режиме двигаться. Потом, как только получим финансы, с этим вопросом разберемся более подробно."
+
+**Plan:**
+
+1. **Phase 1 (immediate):** Ruslan runs Perplexity deep research — DPMA/EUIPO trademark status для "Jetix", Disney brand history post-2009, preliminary risk assessment. Cost: ~30 min, €0.
+2. **Phase 1 (ongoing):** Unofficial / informal brand usage — continue using "Jetix" без formal trademark registration.
+3. **Trigger for formal resolution:** first meaningful revenue (€20-50K range, когда brand equity starts forming).
+4. **Phase 2a action:** IP lawyer consultation + full trademark search + defensive registration OR rename decision (~€2000-3500 budget allocated).
+5. **Backlog entry:** создать в `decisions/backlog/trademark-jetix-formal-resolution.md` с trigger conditions + budget estimate + action checklist.
+
+**Risk accepted Phase 1:** Disney может send cease-and-desist — probability low при €0-50K revenue + unofficial usage. Defense: rename burden lower сейчас чем Phase 2b+.
+
+**Outcome:** Zero cost Phase 1. Formal resolution triggered by revenue. Backlog tracked.
+
+---
+
 ### OT3 — EU AI Act Tier: Scenario C (Risk-proportional) ✅ APPROVED 2026-04-19
 
 **Status:** accept Scenario C + compliance calendar + DPA template Phase 1.
