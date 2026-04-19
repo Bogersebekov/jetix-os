@@ -62,7 +62,36 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
 
 ---
 
-## Chunk 3 — Accepted 38 / Rejected 12 [PENDING]
+## Chunk 3 — Accepted 38 / Rejected 12 [IN PROGRESS — Step 1 almost done]
+
+### Step 1 — Not-yet-discussed accepted items (10 items)
+- [x] 1. #25 Tools 14 → 5 + Healthchecks.io
+- [x] 2. #27 Rollout 14-day → 7+7 split
+- [x] 3. #26 Manual eval + Langfuse cloud
+- [x] 4. #23 Single event log Phase 1
+- [x] 5. #19 Memory 5 → 3 layers
+- [x] **6. Wiki + Portfolio Directions — MAJOR DECISION LOCKED:**
+  - Physical separation Life-OS ≠ Jetix (Вариант A) с Day 1
+  - Portfolio-of-Directions model (Hybrid 1+4): folder-per-direction + Direction как 8-й alpha + wiki cross-refs
+  - **7 true alphas → 8 true alphas** (Direction added)
+  - Edges 9 → 6 (3 baseline + 3 portfolio-specific: belongs-to-direction / applies-to-direction / sames-as-crm)
+  - Wiki Skills 5 → 2 accepted
+- [ ] 7. #24 Career ladder J0-JX ref + 3 operational
+- [ ] 8. #36 Pre-commit hooks
+- [ ] 9. #37 Cost model section
+- [ ] 10. #38 Constitution §11 succession
+
+### Step 2 — R10 multi-currency REVISIT [PENDING]
+- [ ] Due to P6 DACH mod (+US +RU с Day 1)
+
+### Step 3 — Confirm остальные rejections [PENDING]
+- [ ] R11 IPO readiness, R12 FPF-Steward
+
+### Step 4 — Scan 38 accepted для flags [PENDING]
+
+---
+
+## OLD (replaced by above)
 
 - [ ] Scan accepted 38 — flag anything that feels wrong
 - [ ] Scan rejected 12 — especially R10 (multi-currency) — **⚠️ needs revisit due to P6 modification**

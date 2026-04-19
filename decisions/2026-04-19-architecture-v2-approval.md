@@ -297,6 +297,195 @@ attention_theme: "First €50K revenue from DACH Mittelstand"
 
 ---
 
+## Chunk 3 — Accepted 38 / Rejected 12
+
+### Step 1 — Accepted items judgment
+
+**Items 1-5 CONFIRMED 2026-04-19:**
+- #25 Tools 14 → 5 + Healthchecks.io ✅
+- #27 Rollout 14-day → 7+7 split (sales 1-7, foundation 8-14) ✅
+- #26 Manual eval Phase 1 + Langfuse cloud free tier ✅
+- #23 Single event log Phase 1 (drop per-alpha history.jsonl) ✅
+- #19 Per-agent memory 5 → 3 layers ✅
+
+### Step 1 Item 6 — Wiki + Portfolio Directions [MAJOR DECISION] ✅ APPROVED 2026-04-19
+
+**Two intertwined decisions locked:**
+
+#### Decision 6.1 — Physical separation Life-OS ≠ Jetix (Вариант A)
+
+**Status:** ACCEPTED с Day 1 as architectural principle.
+
+**Ruslan directive:**
+> "Life-OS и Jetix должны быть принципиально вообще разделены, никак не коим образом не смешиваться. Ничего с Life-OS не должно попадать в Jetix. В Jetix только суть бизнес и всё что важно для процветания компании. Потом физически разделим на разных серверах."
+
+**Implementation:**
+- `life-os/wiki/` — PERSONAL (reflections, relationships, book-notes, health, personal-concepts)
+- `life-os/projects/jetix/wiki/` — JETIX (business-only cross-cutting knowledge)
+- **Asymmetric reference rule** (per R7): Jetix НЕ может ссылаться в Life-OS; Life-OS может ссылаться в Jetix.
+- Pre-commit hook enforces separation.
+- Phase 2+ trigger: `git filter-repo --path life-os/` → extract Life-OS в отдельный repo.
+- Phase 3+ trigger: physical separation на разные servers.
+
+**Migration plan:**
+- Structure подготавливается в D1/D2.
+- Claude Code task: классифицировать existing 568 wiki files → распихать по life-os/ vs jetix/.
+- Outcome: clean separation по всему repo.
+
+#### Decision 6.2 — Jetix as Portfolio of Directions (Hybrid 1+4) 🏢
+
+**Status:** ACCEPTED — maximum depth implementation.
+
+**Ruslan vision:**
+> "Jetix = большая корпорация, десятки направлений. Шаурмечные, кибербезопасность, AI-tools, и т.д. Гипотезы, эксперименты, всё должно где-то храниться. Википедия должна работать с людьми, с CRM, cross-functional. Jetix как **холдинг для кросс-функционального наблюдения**."
+
+**Model:** Hybrid Variant 1 (folder per direction) + Variant 4 (Direction как 8-й true alpha).
+
+**Implication:** **7 true alphas → 8 true alphas** (adding Direction).
+
+#### Full Structure — `life-os/projects/jetix/`
+
+```
+life-os/projects/jetix/
+│
+├── directions/                          ⭐ PORTFOLIO LAYER
+│   ├── _active/
+│   │   └── ai-consulting-dach/          (primary Q2 revenue bet)
+│   │       ├── direction.md             (thesis, ICP, economics, conviction)
+│   │       ├── hypotheses/              (testable hypotheses within direction)
+│   │       │   ├── h-001-<slug>.md
+│   │       │   └── ...
+│   │       ├── experiments/             (planned + running experiments)
+│   │       │   ├── e-001-<slug>.md      (status, design, results)
+│   │       │   └── ...
+│   │       ├── research/                (direction-specific research)
+│   │       │   └── ...
+│   │       ├── pipeline.md              (active deals/prospects in this direction)
+│   │       └── state.yaml               (past-participle state machine)
+│   │
+│   ├── _hypotheses/                     (directions under validation)
+│   │   ├── shaurma-chains-automation/   (example hypothesis direction)
+│   │   ├── cybersecurity-dach-mittelstand/
+│   │   └── <others>/
+│   │
+│   ├── _archived/                       (dropped directions с post-mortem)
+│   │
+│   └── README.md                        (portfolio dashboard — all directions + status)
+│
+├── alphas/                              ⭐ OPERATIONAL STATE MACHINES (8 true alphas)
+│   ├── client/                          (1) all clients with direction frontmatter
+│   ├── project/                         (2) active projects
+│   ├── deal/                            (3) active negotiations
+│   ├── content-item/                    (4) content pieces
+│   ├── hypothesis/                      (5) hypotheses с state machines
+│   │   └── instances/                   (symlinks в directions/*/hypotheses/)
+│   ├── member/                          (6) Alliance members
+│   ├── way-of-working/                  (7) Jetix methodology evolution
+│   └── direction/                       (8) ⭐ NEW 8th alpha
+│       ├── states.yaml                  (lifecycle past-participle)
+│       │   # hypothesized → under-validation → validated → activated →
+│       │   # scaled → plateaued | invalidated | dropped | archived
+│       └── instances/                   (symlinks в directions/*/state.yaml)
+│
+├── wiki/                                ⭐ CROSS-CUTTING KNOWLEDGE
+│   ├── concepts/                        (reusable across directions)
+│   ├── entities/                        (companies, people, tools — cross-direction)
+│   ├── sources/                         (research — tagged с directions relevant)
+│   ├── topics/
+│   ├── claims/
+│   ├── experiments/                     (cross-direction experimental insights)
+│   ├── summaries/
+│   ├── foundations/                     (FPF-Lite, Constitution, creation-graph)
+│   ├── graph/
+│   │   └── edges.jsonl                  (typed edges: related/supports/contradicts
+│   │                                     + belongs-to-direction / sames-as-crm /
+│   │                                     applies-to-direction)
+│   ├── index.md                         (catalog)
+│   └── log.md                           (append-only chronology)
+│
+├── clients/                             ⭐ CRM (frontmatter references direction)
+│   └── companies/
+│       └── <slug>.md                    (frontmatter: direction: <slug>; alpha_ref; wiki_ref)
+│
+├── decisions/                           (cross-direction + per-direction)
+├── governance/                          (advisory board, etc.)
+├── ops/                                 (deferred — bus factor)
+├── entities/jetix-gmbh/                 (federation stub)
+├── finance/
+├── evals/
+├── agents/
+└── docs/
+```
+
+#### Graph edges (typed)
+
+Phase 1 edges (3 Simplifier baseline + 3 portfolio-specific):
+
+**Cross-cutting (Simplifier Phase 1 baseline):**
+- `related` — generic connection
+- `supports` — evidence/argument supports claim
+- `contradicts` — evidence against claim
+
+**Portfolio-specific (NEW for Hybrid 1+4):**
+- `belongs-to-direction` — file belongs to specific direction's scope
+- `applies-to-direction` — concept/entity applies to multiple directions
+- `sames-as-crm` — wiki entity ↔ CRM entry cross-ref
+
+**Phase 2+ triggered additions:** part-of, instance-of, causes, etc. (при growth wiki content)
+
+#### Frontmatter convention (critical for graph)
+
+Каждый file в `wiki/` или `clients/` имеет:
+
+```yaml
+---
+type: concept | entity | source | claim | ...
+scope: jetix                           # жёстко после separation (no Life-OS here)
+direction: ai-consulting-dach          # single direction scope
+# OR
+directions: [ai-consulting-dach, shaurma-chains]  # applies to multiple
+crm_ref: clients/companies/<slug>.md   # if entity has CRM counterpart
+alpha_ref: alphas/<alpha>/instances/<slug>.yaml  # if has operational state
+---
+```
+
+#### Wiki simplifications (Simplifier accept с modification)
+
+- ✅ **Niches 6 → 0 PERSONAL niches** (personal/business/sales/life/tech/meta dropped) — **НО** portfolio replaced через `directions/` top-level (richer abstraction)
+- ✅ **Edges 9 → 6** (3 baseline + 3 portfolio-specific, не 3 как Simplifier predложил)
+- ✅ **Skills 5 → 2** (`/ingest`, `/ask`) — `/lint`, `/consolidate`, `/build-graph` triggered at 500+ orphans
+
+#### Use case example — CRM ↔ Wiki ↔ Direction graph
+
+Scenario: Müller GmbH prospect в ai-consulting-dach direction.
+
+- `clients/companies/muller-gmbh.md` (CRM: operational state, contacts, deal state)
+- `wiki/entities/muller-gmbh.md` (Knowledge: background, research, decision-makers)
+- `directions/_active/ai-consulting-dach/pipeline.md` (portfolio context: где в sales cycle)
+- `alphas/client/instances/muller-gmbh.yaml` (state machine: qualified → in-negotiation → ...)
+
+Query `/ask "что знаю про Müller"` → agent traverses graph:
+CRM → wiki entity → related research → direction context → operational state → synthesis.
+
+#### Phase evolution
+
+- **Phase 1 Day 1:** `directions/_active/ai-consulting-dach/` created (minimum). Other directions added как возникают hypotheses.
+- **Phase 1 rolling:** каждая новая idea от Ruslan → new `directions/_hypotheses/<slug>/` folder с direction.md (thesis + kill criteria)
+- **Phase 2a:** validated directions → `_active/`, invalidated → `_archived/` с post-mortem
+- **Phase 2b+:** multiple active directions одновременно, cross-functional learning через wiki/concepts/
+
+#### Cross-references к другим principles
+
+- **P4 Model D Nested** — this confirms and deepens: Jetix nested portfolio внутри Life-OS
+- **P7 Attention Budget (quarterly)** — attention allocation per direction (50% ai-consulting, 25% shaurma research, ...)
+- **P7 Capital** — budget allocation per direction
+- **MC3 3-level mereological graph** — Direction = Level 3 supersystem containing hypothesis/experiment creation systems
+- **Mega-Corp Holdings thinking** — теперь аккуратно моделируется portfolio layer
+
+**Outcome:** wiki/ работает максимально глубоко как portfolio engine + cross-functional observation tool. Ruslan quote: "это тоже очень важно будет".
+
+---
+
 ## Chunk 2 — Meta-conflicts resolved
 
 ### MC5: Mega-Corp vs Simplifier — Federation pattern ✅ APPROVED 2026-04-19
