@@ -76,7 +76,7 @@ notion: https://www.notion.so/3472496333bf81d39978cc6e43c57b40
   - **7 true alphas → 8 true alphas** (Direction added)
   - Edges 9 → 6 (3 baseline + 3 portfolio-specific: belongs-to-direction / applies-to-direction / sames-as-crm)
   - Wiki Skills 5 → 2 accepted
-- [ ] 7. #24 Career ladder J0-JX ref + 3 operational
+- [x] **7. Career ladder J0-JX ref + 3 operational** (J-Auto/J-Approve/J-Strategic + 5-line decision_rights + Direction authority mapping)
 - [ ] 8. #36 Pre-commit hooks
 - [ ] 9. #37 Cost model section
 - [ ] 10. #38 Constitution §11 succession
