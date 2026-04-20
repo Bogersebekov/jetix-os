@@ -143,11 +143,43 @@ Previous 11 Ruslan overrides — все в +Левенчук direction. Здес
 - **Timing:** **Concurrent с D6 FPF writing** (OQ-08 Variant B) — UTS rows = U.Types = D6 Section 8 ontology. Ensures consistency.
 - **Maintenance:** FPF-Steward quarterly audit includes UTS review scope.
 
-### Gap 5 — Multi-View Publication (E.17)
+### Gap 5 — Multi-View Publication (E.17) ✅ APPROVED
 
-- [ ] Discussed
-- **Decision:** [TBD]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Decision:** ✅ **ACCEPT full + deep adoption (Option A — modified)** — Viewpoint Bundle defined Phase 1 + **mandatory multi-view для all Audit SKU deliveries from first delivery onward** (ne pilot-only).
+- **Plus:** E.18 TGA simpler form — A.6.3.CR (Same-Entity Retextualization) для safe cross-view translation.
+- **Plus:** ISO/IEC/IEEE 42010 alignment noted (professionalism signal).
+- **Jetix Viewpoint Bundle (5 viewpoints Phase 1):**
+  - Executive (CEO, Aufsichtsrat; 2-3 pages; plain + finance)
+  - Technical (CTO, engineers; 20-40 pages; technical + specs)
+  - Governance (board, risk committee; 3-7 pages; governance + legal)
+  - Regulatory (BfDI, EU AI Act auditors; 3-5 pages; regulatory + legal)
+  - Internal-learning (Jetix team; 5-10 pages; internal + FPF)
+- **Cost:** 3-5h setup (Viewpoint Bundle + canonical template + first view templates) + 8-12h first pilot + marginal ongoing after templates mature.
+- **Rationale:** Ruslan directive — "подтверждаю все глубоко, максимально фиксируем". Mittelstand deal acceleration; audit-readiness; scale-prep для Phase 2a+.
+- **Ties to:** Rec-09 P2 (elevated via max-depth stance), OQ-04 (pilot threshold — override to mandatory).
+- **Implementation:**
+  - `decisions/templates/jetix-viewpoint-bundle.yaml` — Viewpoint definitions
+  - `decisions/templates/audit-canonical-template.md` — underlying artifact structure
+  - `decisions/templates/views/` — 5 view templates
+  - Correspondences table — canonical section → view section mapping
+  - Update protocol: canonical changes → views regenerated
+  - First pilot: Müller GmbH audit (or first actual Audit SKU client)
+
+---
+
+## ✅ Step 2 COMPLETE 2026-04-20 — All 5 Critical Gaps APPROVED Full Depth
+
+All 5 critical gaps adopted **maximum depth**, no compromises:
+- Gap 1 Boundary Discipline (A.6.*) — full L/A/D/E + A.6.C/0/P/Q/H cluster
+- Gap 2 Trust & Assurance (B.3 F-G-R) — ADRs + client deliverables + agent output
+- Gap 3 Characteristic Space (A.17-21) — SKU pricing + direction kill + agent promotion CHR
+- Gap 4 UTS (F.17) — 30-50 rows table + LEX-BUNDLE + SenseCells + Bridges
+- Gap 5 Multi-View (E.17) — Viewpoint Bundle + mandatory multi-view all Audit SKUs
+
+**Total Gap 1-5 work estimate:** ~30-45h Phase 1 + ongoing discipline.
+
+**Promoted to P1-equivalent:** Rec-09 (Multi-View), Rec-11 (CHR Space) — были P2, elevated via max-depth stance.
 
 ---
 
