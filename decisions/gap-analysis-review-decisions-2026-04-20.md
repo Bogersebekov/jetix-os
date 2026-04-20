@@ -283,57 +283,44 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 
 ---
 
-## Step 4 — 10 P2 Valuable Recommendations
+## Step 4 — 10 P2 Valuable Recommendations ✅ ALL APPROVED 2026-04-20
 
-### Rec-07 — Portfolio через C.18 NQD-CAL + C.19 E/E-LOG
+**Ruslan directive:** "All full + Deep Adoption. Подтверждаю."
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-07 — Portfolio через C.18 NQD-CAL + C.19 E/E-LOG ✅ APPROVED
+- **Decision:** ACCEPT full (3-5h). C.18 NQD distinctions + C.19 Exploration/Exploitation log per direction. Strengthens Portfolio model.
+- **Implementation:** per-direction `ee-log.yaml` + `nqd-distinctions` sections.
 
-### Rec-08 — A.13:4.3 Agency-CHR fallback
+### Rec-08 — A.13:4.3 Agency-CHR fallback ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Agency-CHR adds formal agency-scale 0.0-1.0 dimension к 3-tier J-Auto/Approve/Strategic.
+- **Implementation:** `executor-binding.yaml` gets `agency-profile` section + fallback rule.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-09 — E.17 Multi-View Publication ✅ APPROVED via Gap 5 (elevated)
 
-### Rec-09 — E.17 Multi-View Publication Kit (client deliverables)
+### Rec-10 — F.9 Bridge + CL convention ✅ APPROVED
+- **Decision:** ACCEPT full (2-3h). Bridges между contexts + Congruence Level measurement для semantic drift.
+- **Implementation:** convention applied в cross-direction wiki + UTS bridge section.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-11 — A.18 CSLC Characteristic Space ✅ APPROVED via Gap 3 (elevated)
 
-### Rec-10 — F.9 Bridge + CL convention (cross-direction wiki)
+### Rec-12 — E.10 LEX-BUNDLE ✅ APPROVED via Gap 4 UTS (via LEX-BUNDLE 4-register naming)
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-13 — E.5.1 DevOps Lexical Firewall (D6 Core/Tooling split) ✅ APPROVED
+- **Decision:** ACCEPT full (Option C OQ-07 soft split, 3-5h). D6 JETIX-FPF Core-focused (20-30 pages); `wiki/foundations/fpf-tooling.md` companion (10-20 pages).
+- **E.5.3 Unidirectional Dependency** preserved (Core → Tooling, not reverse).
 
-### Rec-11 — A.18 CSLC Characteristic Space (SKU pricing, direction kill criteria)
+### Rec-14 — B.4 Canonical Evolution Loop в 4 rituals ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Observe/Reflect/Decide/Act mapped к daily/weekly/monthly/quarterly.
+- **Implementation:** D8 4-rituals section updated с explicit evolution loop framing.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-15 — F.6 Role Assignment cycle (agent onboarding) ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Extends already-accepted `agent_onboarding` (Левенчук Part 3 #2) с full cycle + retrospective step + template.
 
-### Rec-12 — E.10 LEX-BUNDLE naming convention
+### Rec-16 — C.22 Problem-CHR TaskSignature ✅ APPROVED
+- **Decision:** ACCEPT full (2-3h). Structured client problem intake: Problem-CHR coordinate + TaskSignature (inputs/outputs/constraints/acceptance-criteria).
+- **Implementation:** template в `decisions/templates/client-intake-problem-chr.yaml`; applied per client engagement.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-13 — E.5.1 DevOps Lexical Firewall (Core/Tooling split в D6)
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-14 — B.4 Canonical Evolution Loop в 4 rituals
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-15 — F.6 Role Assignment cycle (agent onboarding)
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-16 — C.22 Problem-CHR TaskSignature (client intake)
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+**Total P2 new work: ~13-22h Phase 1.**
 
 ---
 
