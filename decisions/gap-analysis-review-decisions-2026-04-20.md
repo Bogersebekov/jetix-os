@@ -446,23 +446,32 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 
 ---
 
-## Step 7 — 9 Innovations confirmation + contribute-back
+## Step 7 — 9 Innovations confirmation ✅ COMPLETE 2026-04-20
 
-### Innovations list
+### All 9 confirmed internal-only (per OQ-09 A)
 
-1. Portfolio of Directions (P8 + 8-я alpha) — high contribution potential
-2. 4-tier resource accounting — high potential
-3. 18-manifest AI-native architecture — medium
-4. FPF-Steward sub-role — medium
-5. Physical Life-OS ≠ Jetix separation — medium
-6. DACH + US + RU unified funnel — low-medium
-7. 7+7 day rollout — low
-8. Company-as-Code + Git = SoT — high
-9. Full-FPF-Permeation pattern — low-medium
+1. ✅ **Portfolio of Directions** (P8 + 8-я alpha) — Strategic, Phase 1 implemented
+2. ✅ **4-tier Resource Accounting** (Capital+Compute+Deep Hours+Attention+Ecosystem) — Operational
+3. ✅ **18-manifest AI-native architecture** — Organizational, Day 9 implementation
+4. ✅ **FPF-Steward sub-role** (meta-agent) — Methodological, via R12
+5. ✅ **Physical Life-OS ≠ Jetix separation** — Architectural, Day 8
+6. ✅ **DACH + US + RU unified funnel** — Market, P6 adopted
+7. ✅ **7+7 day rollout** (sales-first) — Operational
+8. ✅ **Company-as-Code + Git = SoT** — Foundational, P1 core
+9. ✅ **Full-FPF-Permeation pattern** — Methodological, OT5 adopted
 
-- [ ] All 9 confirmed
-- **Contribute-back timeline:** [TBD — likely tied to OT5 publishing trigger]
-- **Documentation strategy Phase 1:** [TBD]
+### Contribute-back: NO (per OQ-09 A)
+
+- **Никакого sharing, publishing, proposals к ailev/FPF community**
+- All innovations remain Jetix internal secret sauce
+- No review trigger Phase 1-2
+- Phase 3+ — только если OT5 publishing decision **explicitly revisited** (unlikely per current stance)
+
+### Documentation strategy Phase 1
+
+- **Single internal reference:** `wiki/foundations/jetix-innovations.md` — живой document listing all 9 + rationale + current implementation status
+- **Preservation, not publishing** — innovations retained с context для own methodology evolution
+- Reference-only (не active sharing)
 
 ---
 
