@@ -230,14 +230,22 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 - **Ruslan decision:** [TBD]
 - **Rationale:** [TBD]
 
-### Rec-05 — A.14 typed mereology edges (ComponentOf / PortionOf / PhaseOf)
+### Rec-05 — A.14 typed mereology edges (ComponentOf / PortionOf / PhaseOf) ✅ APPROVED
 
-- **FPF basis:** A.14 Advanced Mereology
-- **Cost:** 2-4h
-- **Claude rec:** accept (P1)
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-- **Rationale:** [TBD]
+- **FPF basis:** A.14 Advanced Mereology + A.6.H Wholeness
+- **Cost:** 2-4h Phase 1 + 5 min per new edge ongoing
+- [x] Discussed 2026-04-20
+- **Ruslan decision:** ✅ **ACCEPT full + deep adoption (Option A)**
+- **Rationale:** "полностью подтверждаю, внедряем глубоко". Cheap finishing touch для MC3 full-depth mereological graph. Reasoning accuracy; semantic clarity; FPF-Steward auditability.
+- **Implementation:**
+  - `wiki/foundations/jetix-creation-graph.md` — retag existing 5 generic edges с A.14 typed edges
+  - `decisions/policy/mereology-edge-types.md` — documentation 10 edge types:
+    - A.14 core 6: ComponentOf / ConstituentOf / PortionOf / PhaseOf / MemberOf / AspectOf
+    - Jetix-introduced 4: creates / operates-in / methodologically-uses / constrained-by / fills
+    - When-to-use-which guide + anti-patterns
+  - A.6.H Wholeness patterns applied где relevant
+  - FPF-Steward quarterly audit scope includes edge type verification
+- **Ties to:** MC3 (already accepted full 3-level graph), Gap 3 (CHR foundations relate).
 
 ### Rec-06 — B.2 MHT для Jetix phase transitions
 
