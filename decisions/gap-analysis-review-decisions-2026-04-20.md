@@ -204,14 +204,22 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 - **Ruslan decision:** [TBD]
 - **Rationale:** [TBD]
 
-### Rec-03 — D.5 Bias-Audit Cycle для EU AI Act compliance
+### Rec-03 — D.5 Bias-Audit Cycle для EU AI Act compliance ✅ APPROVED
 
 - **FPF basis:** D.5 Bias-Audit & Ethical Assurance
-- **Cost:** 3-5h
-- **Claude rec:** accept (P1)
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-- **Rationale:** [TBD]
+- **Cost:** 3-5h setup + 1h per deliverable + 2h quarterly
+- [x] Discussed 2026-04-20
+- **Ruslan decision:** ✅ **ACCEPT full + deep adoption (Option A)**
+- **Rationale:** "подтверждаю полностью, внедряем глубоко". EU AI Act compliance + Art. 22 GDPR defense + enterprise client readiness.
+- **Implementation:**
+  - `decisions/policy/bias-audit-cycle.md` — policy + 4-stage cycle (BA-0/BA-1/BA-2/BA-3)
+  - Templates: BA-0 kickoff / BA-1 scan / BA-3 closure
+  - `bias-register.yaml` schema per deliverable
+  - Per-deliverable structure: `clients/<client>/audits/<audit>/bias-audit/`
+  - Quarterly aggregation: `decisions/bias-audit/YYYY-QN-bias-audit.md`
+  - Bias Taxonomy (REP / ALG / VIS / MET / LNG) structured
+  - Phase 1 simplified: BA-0 + BA-1 + BA-3 (solo Ruslan, no BA-2 Panel Review until Phase 2a Beirat Ethics advisor)
+  - Integration с `decisions/policy/eu-ai-act.md` (OT3 approved) + FPF-Steward quarterly audit scope (R12 approved)
 
 ### Rec-04 — F (Formality) + R (Reliability) tags в ADR/deliverable frontmatter
 
