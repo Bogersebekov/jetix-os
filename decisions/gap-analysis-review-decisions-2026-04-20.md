@@ -110,11 +110,20 @@ Previous 11 Ruslan overrides — все в +Левенчук direction. Здес
   - Meta-agent prompt update: enforce F-G-R tagging
   - FPF-Steward quarterly audit scope includes F-G-R compliance check
 
-### Gap 3 — Characteristic Space (A.17-A.21)
+### Gap 3 — Characteristic Space (A.17-A.21) ✅ APPROVED
 
-- [ ] Discussed
-- **Decision:** [TBD]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Decision:** ✅ **ACCEPT full + deep adoption (Option A)** — все 5 patterns (A.17 CHR-NORM, A.18 CSLC, A.19 CharacteristicSpace + mechanisms, A.20 Dynamics, A.21 MM-CHR) adopted Phase 1.
+- **Scope: 3 concrete applications Phase 1:**
+  1. SKU pricing CHR space — `decisions/policy/sku-pricing-chr.yaml` (3-5h)
+  2. Direction kill criteria CHR — template в `directions/_templates/kill-chr-template.yaml` + applied к existing directions (3-5h)
+  3. Agent promotion CHR — `decisions/policy/agent-promotion-chr.yaml` (2-5h)
+- **Plus:** `decisions/policy/characteristic-space-conventions.md` — общие conventions для Jetix CSLC usage.
+- **Plus deep:** NQD-CAL (C.18), E/E-LOG (C.19), MM-CHR (A.21), Pareto dominance — adopted где applicable.
+- **Cost:** 8-15h Phase 1 + 30-60 min per new SKU/direction/promotion ongoing.
+- **Rationale:** Ruslan directive — "максимально подтверждаю". Измеримые decisions > subjective; defensible pricing; objective agent promotion; consistent comparison framework.
+- **Ties to:** Rec-11 P2 (elevated to P1-equivalent per Ruslan stance), OQ-11 (agent promotion CSLC).
+- **Elevation note:** Rec-11 was P2 в gap analysis; Ruslan max-depth stance elevates effective priority to P1.
 
 ### Gap 4 — Unified Term Sheet (F.17 UTS)
 
