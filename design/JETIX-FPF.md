@@ -3,8 +3,17 @@ id: JETIX-FPF
 title: Jetix First Principles Framework — Constitutional Document
 subtitle: Jetix-specific adaptation of First Principles Framework (FPF) by Anatoly Levenchuk
 date: 2026-04-20
-version: v1.0
-state: draft
+version: v2.0
+previous-version: v1.0 (commit 2a41927)
+state: draft-synthesized (awaiting Stage D verification)
+synthesized-from:
+  - v1 Stage A (commit 2a41927)
+  - Reviewer 1 Левенчук Purist critique (commit a4cfac2)
+  - Reviewer 2 DACH Compliance critique (commit 8dd5420)
+  - Reviewer 3 AI-Agent Designer critique (commit 0e15f52)
+  - Reviewer 4 Enterprise Reader critique (commit 582450b)
+structural-decision: Option C (hybrid) — D6 keeps deep ontology core (Sections 1-9, 12-14) + Jetix application of mereology (10.6-10.11) + trans-discipline Jetix-subset (11.6); academic lineage material (10.1-10.5, 11.3-11.5, 11.7) compressed in-place with pointers к wiki/foundations/ companions. Preserves Ruslan "max Левенчук depth" hard requirement через companion files; restores constitutional-doc clarity per R4 readability critique.
+conflict-resolution-ranking: ontology-fidelity > reader-clarity > compliance > ai-agent-operational (per Stage C prompt; R1 wins direct conflicts)
 based-on:
   - FPF-Spec.md (Anatoly Levenchuk, March 2026 version, raw/external/ailev-FPF/)
   - Knowledge Base compilation (raw/research/levenchuk-fpf-knowledge-base-2026-04-20.md)
@@ -18,68 +27,192 @@ attribution: >
   no formal license; citation explicitly requested and provided.
   Internal Jetix use с adaptation. No contribute-back (per OQ-09 A hard stance).
 lang: [ru, en]
+language-policy: >
+  D6 itself RU-primary (Ruslan-Claude working language). Левенчук verbatim
+  quotes bilingual format (RU original + EN translation). German-native hires
+  route: read §0 + §0.5 + §2 + §4 + §6 + §7 first (EN sections); §5/§9/§11
+  require translation aids. Client-facing artifacts DE-primary per CP-1.
+  Sister artifact design/JETIX-FPF-BRIEF.md (EN-only, 5-8 pages, Phase 1 ETA)
+  planned для external audiences.
 scope: internal-only (per OT5 + OQ-09 A)
-status: draft (unblocks Stage 4 D1/D2/D3/D4/D5/D7/D8 writing)
+status: draft-synthesized v2.0 (unblocks Stage 4 D1/D2/D3/D4/D5/D7/D8 writing after Stage D verify)
 formality: F2
 reliability: R-medium
 claim-scope: jetix/methodology/constitutional
 ---
 
-# JETIX-FPF — Jetix First Principles Framework (Constitutional Document v1.0)
+# JETIX-FPF — Jetix First Principles Framework (Constitutional Document v2.0)
+
+---
+
+## §0 — Jetix in 90 seconds (plain language)
+
+**What Jetix does.** Jetix is a solo-founder-plus-AI-agents consultancy
+focused on DACH Mittelstand AI-audit services. One founder (Ruslan,
+Berlin) collaborates with 11 Claude-agents across 6 internal departments
+to deliver AI governance audits, research, and advisory work to
+€10M-€500M revenue companies in Germany/Austria/Switzerland.
+
+**What this document does.** JETIX-FPF is the **constitutional document**
+of Jetix OS — it fixes the vocabulary, roles, lifecycles, decision-
+authorities, and quality-gates used throughout the business. Every role
+manifest, every agent system prompt, every client contract, every
+strategic decision references this document as the source-of-truth for
+"what counts as a client", "what states a project can be in", "who is
+authorized to decide what", and "how we prove our work is trustworthy".
+
+**Why this document exists.** Without a single constitutional anchor, a
+multi-agent AI business drifts — each agent invents its own vocabulary,
+each contract mixes categories, each decision loses its rationale.
+JETIX-FPF freezes the shared conceptual backbone so the business scales
+coherently from Phase 1 (solo + 11 agents) к Phase 2+ (team 5-20) к
+Phase 3 (multi-entity federation).
+
+**Where the depth comes from.** JETIX-FPF adapts the **First Principles
+Framework (FPF)** by Anatoly Levenchuk ([github.com/ailev/FPF](https://github.com/ailev/FPF),
+March 2026, ~62K lines of pattern language). FPF supplies a vocabulary
+for coordinating complex multi-actor work; JETIX-FPF specializes it for
+AI-native DACH consulting. Internal-only adaptation (per OQ-09 A); no
+contribute-back upstream.
+
+---
+
+## §0.5 — Reader routes (which sections should you read?)
+
+| Audience | Priority sections | Est. time | Skip-for-now |
+|----------|-------------------|-----------|--------------|
+| **Investor / Aufsichtsrat** | §0 + §1 + §4 + §6 (overview) + §12.13 MHT + §12.6bis "defensible moat" | ~45 min | §8, §10 (academic), §11 (trans-disciplines) |
+| **First hire — Sales Lead (DACH-native)** | §0 + §0.5 + §2 + §4 + §6 + §7 | ~2 hours | §5 deep, §10, §11; return to these after onboarding |
+| **Enterprise client (Geschäftsführer)** | §0 + §4 Client Principles + §4.4 Multi-View + §4.5.1 EU AI Act tier | ~15 min | everything else (defer к DE executive brief Phase 1) |
+| **AI agent booting up** | §0 + full doc per assigned loading tier (see §5.4a) | Session init | Tier 3 agents: reference-only с on-demand section fetch |
+| **External DPO / compliance auditor** | §0 + §2.3 DPO triggers + §4.3 L/A/D/E + §4.5 CP-5 + §4.5.1 EU AI Act matrix + §9 incident response + §12.10 bias-audit | ~1 hour | §10, §11, §13 |
+| **Internal team member (Ruslan, agents, methodology authors)** | Full document | ~3-4 hours | nothing |
+| **FPF-Steward quarterly audit** | Full document + §14 references | ~4-6 hours | nothing; this is the scope |
+
+### Navigation principles
+
+- **Ontological core** (must-read for anyone authoring role-manifests or
+  decisions): §1 Target System, §2 Stakeholders, §3 Creation Graph,
+  §5 Internal Principles, §6 Alphas, §12 Invariants.
+- **Client-facing** (must-read before any client interaction): §4 Client
+  Principles, §4.4 Multi-View Publication, §4.5 CP-5 Human Gate, §4.5.1
+  EU AI Act Matrix, §7 Rituals.
+- **Operational** (must-read before agent boots or hire starts): §0.7
+  Glossary, §2.1 Agency-CHR, §5.4a Per-agent loading tier, §5.8
+  Onboarding, §5.9 Role-switching prevention.
+- **Deep background** (read-once, then reference): §8 U-Types,
+  §10 Mereology, §11 Trans-disciplines, §13 Constructor theory.
+
+---
+
+## §0.7 — Quick Glossary (12 essential terms before §1)
+
+| Term | Plain-English | Reference |
+|------|---------------|-----------|
+| **FPF** | First Principles Framework (Левенчук, ~62K lines) — upstream parent methodology | §14.1 |
+| **JETIX-FPF** | Jetix-adapted FPF (this document) — internal only | Preamble |
+| **Holon** | Something that is simultaneously a whole (has its own boundary) and a part (nested inside larger wholes). Koestler 1967. | §1.1, §10.5 |
+| **U.Type** | A "universal kind" — kernel-level concept like U.Role, U.System, U.Episteme. Capital-U prefix = FPF-canonical Kernel concept. | §8.1 |
+| **Alpha** | A thing whose lifecycle we track via explicit past-participle state machine (e.g., Client goes `lead-identified` → `qualified` → `won`). 8 alphas in Jetix Phase 1. | §6 |
+| **Creation Graph** | 3-level directed mereological graph showing who creates what where: target systems / creation systems / supersystems. | §3 |
+| **Direction** | Portfolio-of-directions pattern (Jetix innovation) — a revenue bet with its own hypothesis, kill criteria, and lifecycle. 8th alpha. | §6.3.8 |
+| **L/A/D/E** | Contract lane discipline: Laws / Admissibility / Deontics / Effects. Prevents category-mixing in client deliverables. (FPF A.6.B) | §4.3 |
+| **F-G-R** | Trust tagging triad: Formality (F0-F9), claim-Scope (G), Reliability (R-low/medium/high/certified). Surfaced on every deliverable. | §4.2, §12.7 |
+| **J-level** | Career/authority level of a role: J-Auto (autonomous execution), J-Approve (requires sign-off), J-Strategic (founder-only). See D7 for matrix. | §2.2, §5.12 |
+| **MHT** | Meta-Holon Transition — phase change where composition yields genuinely new coherent whole (e.g., solo→team, team→multi-entity). 4 MHTs планируются. | §12.13 |
+| **Γ** | Universal aggregation operator — how wholes compose from parts (revenue aggregation, knowledge aggregation, method composition). 6 flavours. | §12.6 |
+
+Full 33-row U-Types table в §8.1. Full JETIX-UTS 30-50 rows в `wiki/foundations/jetix-uts.md` (concurrent Phase 1 write).
+
+---
+
+## §0.9 — Document Table of Contents
+
+1. [§1 — Target System (Jetix as holon)](#section-1--target-system-jetix-as-holon)
+2. [§2 — Stakeholders](#section-2--stakeholders)
+3. [§3 — Creation Graph (3-level mereological)](#section-3--creation-graph-full-3-level-mereological-mc3-override)
+4. [§4 — Client Principles (CP-1..CP-5 + EU AI Act tier matrix)](#section-4--client-principles)
+5. [§5 — Internal Principles (IP-1..IP-8 + ШСМ 5 foundational concepts)](#section-5--internal-principles-8-principles--шсм-5-primitives)
+6. [§6 — 8 True Alphas](#section-6--8-true-alphas-with-a14-typed-mereology)
+7. [§7 — Ritual Cadence + Strategizing as Event](#section-7--ritual-cadence--strategizing-as-event)
+8. [§8 — U-Types Full (Deep Левенчук treatment)](#section-8--u-types-full-deep-левенчук-treatment)
+9. [§9 — "What ШСМ is NOT" (protection section)](#section-9--what-шсм-is-not-protection-section-expanded)
+10. [§10 — Mereology + Holon Hierarchy (Jetix application + companion pointer)](#section-10--mereology--holon-hierarchy-jetix-application)
+11. [§11 — 16 Trans-disciplines (Jetix-subset + companion pointer)](#section-11--16-trans-disciplines-jetix-subset--companion-pointer)
+12. [§12 — Full FPF Architectural Invariants](#section-12--full-fpf-architectural-invariants-deep-левенчук)
+13. [§13 — Constructor/Category Theory Applications](#section-13--constructorcategory-theory-applications-where-applicable)
+14. [§14 — References + Cross-docs](#section-14--references--cross-docs)
+
+---
+
+## Preamble — For methodology authors (depth context)
 
 > *Максимальная глубина + качество, на 100%. Никаких compromises. Всё что
 > применимо из FPF — внедряем. Стратегический курс как с 11 overrides —
 > +Левенчук direction.* — Ruslan, 2026-04-20
-
----
-
-## Preamble — Why this document exists
+>
+> **[EN translation]** *Maximum depth and quality, 100%. No compromises.
+> Everything applicable from FPF — we incorporate. Strategic course held
+> with the 11 overrides — plus Levenchuk direction.*
 
 JETIX-FPF — конституционный документ Jetix OS. Он описывает **онтологический
 каркас** в котором оперирует каждая роль, агент, альфа, direction, client-
 relationship и management ritual компании. Источник первичный — **First
 Principles Framework (FPF)** Анатолия Левенчука
 ([github.com/ailev/FPF](https://github.com/ailev/FPF)), март 2026, 62,202
-строки pattern language'а. Jetix-адаптация **"JETIX-FPF"** — специфическая
-для нашего business-context и AI-native реальности, но с максимальной
-fidelity Левенчуковской онтологии.
+строки pattern language'а (FPF **E.1 Vision & Mission**, FPF-Spec L.40088).
+Jetix-адаптация **"JETIX-FPF"** — специфическая для нашего business-context
+и AI-native реальности, но с максимальной fidelity Левенчуковской онтологии.
 
 ### Role в архитектуре
 
 D6 — **primary reference** для всех 18 role-manifests. Агенты загружают
-полный текст D6 в system.md (OT5 Scenario A — full-text везде). D6 —
+текст D6 в system.md **через tiered loading** (per §5.4a, не full-text
+uniformly — per AI-Agent Designer cost critique integrated Stage C). D6 —
 основа для D1 (Architecture Final), D3 (Role Manifests), D5 (Knowledge
-Architecture), D7 (Career Levels), D8 (Instructions). **Это sacred text
-Jetix methodology.**
+Architecture), D7 (Career Levels), D8 (Instructions). **Это primary
+methodology reference** (v1 slogan "sacred text" retired per Enterprise
+Reader critique — overstatement).
 
 ### Scope stance
 
 **Internal-only hard** (per OT5 + OQ-09 A). Ruslan explicit 2026-04-20:
-> "всё держим, ничего никуда не отправляем, нигде не публикуем."
+> «всё держим, ничего никуда не отправляем, нигде не публикуем.»
+>
+> **[EN translation]** *"We keep everything, send nothing anywhere,
+> publish nowhere."*
 
 Semi-annual FPF upstream sync reminder (OQ-10 C modified) — Q2 close и Q4
 close FPF-Steward flags "upstream sync review due"; Ruslan manual decision.
 
 ### What reader will find here
 
-14 sections. ~40-50 pages. Constitutional depth. Максимум Левенчука.
-Full 8 true alphas, Nested Holonic Structure (A.1 + A.14), Boundary
-Discipline (A.6.*), Trust & Assurance (B.3 F-G-R), Characteristic Spaces
-(A.17-21), UTS (F.17), Multi-View Publication (E.17), Eleven Pillars
-(E.2), Four Guard-Rails (E.5), plus Jetix-specific innovations (Portfolio-
-of-Directions, FPF-Steward sub-role, 4-tier Resource Accounting, Full-FPF-
-Permeation).
+14 sections + §0..§0.9 reader-orientation block. ~40-50 pages. Constitutional
+depth. Max Левенчук fidelity, with academic-lineage material externalized
+to `wiki/foundations/` companions (per Option C hybrid Stage C structural
+decision). Full 8 true alphas, Nested Holonic Structure (**FPF A.1 +
+A.14**), Boundary Discipline (**FPF A.6.* family**), Trust & Assurance
+(**FPF B.3** F-G-R triad), Characteristic Spaces (**FPF A.17-A.21**), UTS
+(**FPF F.17**), Multi-View Publication (**FPF E.17**), Eleven Pillars
+(**FPF E.2**), Four Guard-Rails (**FPF E.5**), plus Jetix-specific innovations
+(Portfolio-of-Directions, FPF-Steward sub-role, 4-tier Resource Accounting,
+tiered Full-FPF-Permeation).
 
 ### What reader will NOT find here
 
 - **Tooling specifics** (YAML schemas, git commit conventions, CLI flags).
   Уходят в companion: `wiki/foundations/fpf-tooling.md` (per Rec-13 + OQ-07
-  C soft split; E.5.1 DevOps Lexical Firewall + E.5.3 Unidirectional
-  Dependency).
-- **Curriculum / pedagogical expansion**. Уходят в отдельные foundations
-  artifacts: `shsm-primitives.md`, `trans-disciplines.md`, `holon-
-  hierarchy.md`, `jetix-creation-graph.md`.
-- **Implementation roadmap**. Уходит в D8 (Instructions).
+  C soft split; **FPF E.5.1 DevOps Lexical Firewall** + **E.5.3
+  Unidirectional Dependency**).
+- **Pure academic-lineage expansion** (mereology Leśniewski→Lewis→Fine,
+  trans-discipline 17-vs-16 history, full Koestler/Wilber treatment).
+  Уходят в отдельные foundations artifacts: `shsm-primitives.md`,
+  `trans-disciplines.md`, `holon-hierarchy.md`, `jetix-creation-graph.md`
+  (Option C hybrid — depth preserved в companions, clarity restored in D6).
+- **Implementation roadmap** (Phase 1 Day 1-14 rollout schedule). Уходит
+  в D8 (Instructions).
+- **Policy documents operational detail** — D6 references policies; full
+  content в `decisions/policy/*.md` per §14.4 ETA schedule.
 
 ---
 
@@ -273,9 +406,9 @@ higher levels reference-only.
 
 ## Section 2 — Stakeholders
 
-Stakeholders = U.RoleAssignment instances (FPF **A.2.1**, per Role Taxonomy
-L.~1500-3000) — holders occupying roles в bounded contexts с committed
-obligations.
+Stakeholders = U.RoleAssignment instances (FPF **A.2.1**, FPF-Spec
+L.1613, per Role Taxonomy family L.1403-5465) — holders occupying roles
+в bounded contexts с committed obligations.
 
 ### 2.1 Ruslan (primary executor, 5 atomic sub-roles)
 
@@ -292,19 +425,112 @@ obligations.
 | **acceptance-authority** | L4 | Delivery quality sign-off, bias-audit BA-3 closure authority, F-G-R tagging enforcement |
 | **external-relations** | L5 + L6 | Advisory board conversations (Anton/Vladislav/Rodion), DACH institutional outreach (IHK/VDMA), media (Rodion YouTube) |
 
-**Agency profile** (per Rec-08 A.13:4.3 Agency-CHR fallback): Ruslan
-default agency 1.0 (founder full-stack); agents default 0.4 with override
-per decision class.
+**Agency profile** (per Rec-08 **FPF A.13:4.3 Agency-CHR** fallback):
+Ruslan default agency 1.0 (founder full-stack); agents default 0.4 with
+override per decision class (see §2.1a canonical schema).
 
 **Left-hand rule** (Jetix custom, not FPF canonical): При conflict между
 sub-roles, **strategy-lead** имеет meta-authority (analogous к Левенчук's
 meta-method стратегирование selecting which sub-method dominates).
 
+### 2.1a Agency-CHR canonical schema + storage (P1-R3-4 resolution)
+
+**Canonical storage location decision** (per Stage C synthesis):
+**Option D hybrid** (defaults in policy, per-binding overrides in executor-
+binding):
+- `decisions/policy/agent-promotion-chr.yaml` — **default matrix per role**
+  (authoritative).
+- `executors/<id>/executor-binding.yaml` — `agency_profile:` block
+  **overrides defaults per-holder instance**.
+
+Other 3 locations considered (`agents/<id>/agency-chr.yaml`, inline-in-
+executor-binding as sole source, separate `agency-chr.yaml` без policy
+defaults) — rejected because either (a) creates N different sources of
+truth when holder/role combinations grow, or (b) loses role-level policy
+authority needed for FPF-Steward quarterly audit.
+
+**Canonical schema (v1 Phase 1):**
+
+```yaml
+# decisions/policy/agent-promotion-chr.yaml (default CHR by role)
+version: v1
+authoritative: role-level defaults (binding overrides in executor-binding.yaml)
+dimensions:
+  bmc: Boundary Maintenance Capacity (0.0-1.0)
+  ph:  Predictive Horizon (0.0-1.0, 0 = <1day / 1 = >quarter)
+  mp:  Model Plasticity (0.0-1.0)
+  per: Policy Enactment Reliability (0.0-1.0)
+  oc:  Objective Complexity (0.0-1.0)
+default_by_role:
+  strategy-lead:   # Ruslan sub-role
+    bmc: 1.0; ph: 1.0; mp: 0.8; per: 1.0; oc: 1.0
+    agency_grade: 4  # "Strategizing" per FPF A.13:4.4
+  sales-lead:      # agent role
+    bmc: 0.6; ph: 0.5; mp: 0.3; per: 0.7; oc: 0.5
+    agency_grade: 2  # "Operating"
+  manager:
+    bmc: 0.7; ph: 0.4; mp: 0.2; per: 0.8; oc: 0.4
+    agency_grade: 2
+  strategy-support-analyst:
+    bmc: 0.5; ph: 0.7; mp: 0.1; per: 0.6; oc: 0.8
+    agency_grade: 3  # "Adaptive" per FPF A.13:4.4
+  # ... (other 8 roles filled Phase 1 Day 5-7 in policy doc)
+promotion_rules:
+  promote_to_j_strategic:
+    ruling: "never for AI agents (hard rule per §5.10.4)"
+    exception: "Ruslan only"
+  promote_to_j_approve:
+    threshold:
+      bmc: ">= 0.5"
+      per: ">= 0.6"
+      evidence_tasks_passed: ">= 10"
+evidence_ref_requirement:
+  phase_1_bootstrap: "R-low acceptable; evidence_ref: pending OK для Day 1"
+  phase_2a_and_beyond: "R-medium minimum; evidence_ref must cite concrete task-log artifact (per FPF CC-A13.3)"
+task_family_overrides:
+  # Per FPF A.13:4.3.1 — context-bounded task-family specialization
+  # Per-agent override when same holder has diff reliability по task-family
+  sales-lead:
+    - task_family: discovery-call
+      bmc: 0.8  # higher reliability in discovery
+    - task_family: de-contract-negotiation
+      bmc: 0.2  # low reliability — German-language contract requires escalation
+      per: 0.3
+```
+
+**Per-holder override syntax** (excerpt `executors/sales-lead/executor-
+binding.yaml` — full example §5.8.1):
+
+```yaml
+agency_profile:
+  inherit: decisions/policy/agent-promotion-chr.yaml#default_by_role.sales-lead
+  overrides:
+    - decision_class: outbound-email-draft
+      bmc: 0.7  # overrides role default 0.6
+    - decision_class: discount-above-10-pct
+      bmc: 0.0  # must escalate
+  bmc: 0.6  # explicit repeat of inherited (for audit clarity)
+  ph: 0.4   # smaller predictive horizon than role-default (holder-specific)
+  evidence_ref: decisions/fpf-stewardship/2026-Q2-agency-chr-bootstrap.md
+```
+
+**Phase 1 Day 1 bootstrap caveat (per FPF CC-A13.3 pre-compliance):**
+Initial profiles labeled `R-low, evidence_ref: pending` acceptable for
+Day-1 boot; FPF-Steward Q2 2026 audit scope includes populating
+`evidence_ref:` from actual task-logs (see §5.4 FPF-Steward audit items).
+
+**Per-task-family Agency-CHR discipline** (per FPF A.13:4.3.1 context-
+bounded specialization) — same holder may have different BMC/PH/PER in
+different task-families (e.g., sales-lead high-reliability in discovery-
+calls, low in German-language contract-negotiation). Overrides section
+above operationalizes this; D3 role-manifest authors must enumerate
+decision-classes per role.
+
 ### 2.2 11 Claude agents (L2 Cognitive + L0 support)
 
 Per ADR Chunk 6 Area 3 + D3:
 
-| # | Agent | Dept | Model | J-level |
+| # | Agent | Dept | Model | Primary J-level* |
 |---|-------|------|-------|---------|
 | 1 | manager | MGMT | Sonnet 4.6 | J-Approve |
 | 2 | personal-assistant | OPS | Haiku 4.5 | J-Auto |
@@ -318,18 +544,98 @@ Per ADR Chunk 6 Area 3 + D3:
 | 10 | strategy-support-analyst | MGMT | Opus 4.6 | J-Approve (NOT J-Strategic per Левенчук §1.4 — agents не стратегируют) |
 | 11 | meta-agent (+ FPF-Steward sub-role R12) | Meta | Sonnet 4.6 | J-Approve |
 
-**Role ≠ Executor strict** (P2) — каждый agent — `executor-binding.yaml`
+> **\* J-level dimensionality note (P1-R3-2 resolution):** This table shows
+> each agent's **primary (global default) J-level**. Real operational
+> authority is **2D: agent × decision-category × J-level**. Per-category
+> granular matrix lives в D3 role-manifests Block 5 `autonomous:` /
+> `approve_required:` / `never:` enumerations, with D7 Career Levels
+> documenting promotion-path transitions across J-levels. Example for
+> sales-lead: `draft-proposal` = J-Auto; `discount 0-10%` = J-Approve;
+> `discount >10%` = J-Strategic; `sign-contract` = J-Strategic (founder
+> only). D3 role.md Block 5 MUST enumerate decision-classes per role;
+> this D6 table is the primary-bucket header, not the full specification.
+
+**Ground-truth reconciliation (P1-R3 ground-truth findings):** Agent IDs
+in D6 §2.2 table are canonical; `shared/schemas/message.schema.json` enum
+MUST match (e.g., v2 uses `sales-research` not `sales-researcher`;
+`strategy-support-analyst` not `strategist`; `life-coach` removed from
+Jetix namespace per §1.3). Schema update is Phase 1 Day 1 task (per D8
+rollout) — **blocker для inter-agent message validation**.
+
+**Role ≠ Executor strict** (IP-1) — каждый agent — `executor-binding.yaml`
 bound к defined role.md. Holder (agent instance) может change (Claude
 Haiku 4.5 → Haiku 5.x upgrade) — role remains stable. **Agency-CHR
-fallback** (Rec-08 A.13:4.3) per-binding.
+fallback** (Rec-08 **FPF A.13:4.3**) per-binding (schema §2.1a).
+
+### 2.2a Coordination principles (P1-R3-6 addition)
+
+Multi-agent coordination primitives — constitutional level (implementation
+detail в D8):
+
+1. **Hub-and-spoke discipline** (per CLAUDE.md global rule #8): subagents
+   report к Department Lead, not Manager. Manager attention budget: max
+   20 active tasks. No skip-level unless escalation (classified как
+   `escalation` type message). Structural pattern matches **FPF A.2.5
+   U.RoleStateGraph** supervisor-subordinate semantics при A.14
+   `ComponentOf` edges between role-department-function levels.
+2. **Message schema** — all agent-to-agent messages follow
+   `shared/schemas/message.schema.json`. Canonical `type:` enum:
+   `task` / `result` / `question` / `escalation` / `notification` /
+   `handoff`. Each message carries **`acting_as:` field** (per P1-R3-3
+   enforcement mechanism — see §5.9) binding message к sender's current
+   role.
+3. **Escalation taxonomy** — `dept-internal` (stays within dept-lead) /
+   `cross-dept` (routes через manager) / `strategic` (routes к Ruslan
+   strategy-lead sub-role) / `safety` (routes к meta-agent + Ruslan
+   immediately — halts current task).
+4. **Async default, sync only at named synchronous points** — default
+   all inter-agent коммуникация async (mailbox-polling). Synchronous
+   blocking only at: proposal-signing (sales-closer ↔ Ruslan), client
+   deliverable acceptance (acceptance-authority), bias-audit BA-3
+   closure (per §12.10), trigger-driven strategizing event convening
+   (per §7.2).
+5. **Stale-dependency timeout** — if `depends_on_roles:` target не
+   responds в 48h business hours → dependent agent emits `escalation`
+   type message к department lead; proceeds с stale data only if flagged
+   `R-low` in output F-G-R tag.
+6. **Ground-truth sync invariant** — `shared/schemas/message.schema.json`
+   agent-ID enum ← D6 §2.2 table ← `executor-binding.yaml` role_ref.
+   If divergence detected (FPF-Steward Q-audit item) — schema is
+   regenerated from D6 authoritative table.
+
+### 2.3 Future human hires (Phase 2a+)
 
 ### 2.3 Future human hires (Phase 2a+)
 
 Stub role-manifests Phase 1 (per MC1 + Area 3):
 
-- `dpo` (Data Protection Officer, external-mode Phase 1; activated Phase
-  2a when ≥1 client requests GDPR DPA)
-- `customer-success` (J2 Phase 2a activation)
+**`dpo` — Data Protection Officer (P1-R2-1 legal-error correction).**
+D6 v1 incorrectly conflated **Art. 28 GDPR DPA** (processor contract
+obligation) с **§38 BDSG DPO** (headcount-driven appointment obligation).
+These are **distinct regulatory duties** с different triggers. v2
+separates them:
+
+| Obligation | Legal basis | Trigger | Jetix Phase |
+|------------|-------------|---------|-------------|
+| **Art. 28 DPA capability** (have template, capable signatory) | Art. 28 GDPR processor obligation | Processor relationship = any client handling personal data | **Phase 1 readiness required** (template Day 5-6) |
+| **Art. 30 RoPA** (Records of Processing) | Art. 30 GDPR | 250+ employees OR non-occasional OR risk-likely OR Art. 9 special-category | **Phase 1 likely triggered** (non-occasional) |
+| **Art. 37(1)(a) DPO appointment** | Art. 37 GDPR | Public authority deployer | N/A (Jetix non-public) |
+| **Art. 37(1)(b) DPO** | Art. 37 GDPR | Core activity = regular systematic monitoring | **Trigger at first HR/behaviour audit client** |
+| **Art. 37(1)(c) DPO** | Art. 37 GDPR | Core activity = large-scale Art. 9/10 data | **Trigger at first Art. 9 data client** |
+| **§38(1) BDSG DPO** (headcount) | §38 BDSG (post-2019 Zweites Datenschutz-Anpassungs- und Umsetzungsgesetz) | "In der Regel mindestens 20 Personen ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt" | **Phase 2b headcount trigger** |
+| **§38(1) BDSG DPO** (DPIA) | §38 BDSG + Art. 35 | DPIA mandatory (high-risk processing) | **Possible earlier trigger per-engagement** |
+
+**External-mode DPO Phase 1 strategy** (Ruslan directive — single cheapest
+de-risking move for first 10 client contracts): engage
+Datenschutzkanzlei или external Datenschutz-Beratungsfirma by Phase 1
+Day 7; budget ~€200-500/month. DPO competence criteria per Art. 37(5):
+independence, expertise, DACH residency preferred, conflict-of-interest
+avoidance per Art. 38(6), registered with BfDI или equivalent Länder DSB.
+**NOT "Phase 2a when ≥1 client requests DPA"** — that conflates Art. 28
+DPA readiness (Phase 1) с §38/Art. 37 DPO appointment (different
+triggers).
+
+**`customer-success`** (J2 Phase 2a activation — per MC1).
 
 Phase 2b additions triggered:
 - Chief of Staff (team 5-20)
@@ -435,7 +741,7 @@ OMG Essence 2.0:2024") = ориентированный мереологичес
    as-whole + Jetix subordinate functions + external market ecosystem).
 
 **FPF correlation** ✅: **A.14 Advanced Mereology** (L.17478) supplies
-typed edges; **B.1 Γ Universal Algebra** (L.~26000) aggregates; **A.1
+typed edges; **B.1 Γ Universal Algebra** (L.25581) aggregates; **A.1
 Holonic Foundation** (L.1017) grounds holons.
 
 ### 3.2 Level 1 — Target systems
@@ -581,8 +887,8 @@ typed portfolio-specific edges.
 ### 3.7 Cross-refs
 
 - **FPF A.14 Advanced Mereology** (L.17478) — typed edges canonical
-- **FPF A.15 Role-Method-Work Alignment** (L.~17200) — firewall
-- **FPF B.1 Γ Universal Algebra** (L.~26000) — aggregation
+- **FPF A.15 Role-Method-Work Alignment** (L.17754) — firewall
+- **FPF B.1 Γ Universal Algebra** (L.25581) — aggregation
 - **Rec-05** — A.14 typed edges adoption
 - `wiki/foundations/jetix-creation-graph.md` — full 3-level graph
 - `decisions/policy/mereology-edge-types.md` — edge type guide
@@ -661,6 +967,43 @@ modified).
 **Operational:** Proposal, contract, DPA templates — all три carry full
 L/A/D/E Phase 1 (per Day 5-6 rollout).
 
+**Example — L/A/D/E applied к Audit SKU proposal for Müller GmbH Q2 2026:**
+
+```yaml
+# alphas/deal/instances/muller-gmbh-audit-q2-2026-proposal.yaml (excerpt)
+L (Laws):
+  - GDPR Art. 22 (automated decision defence — relevant к any AI-tool audit recommendations)
+  - GDPR Art. 28 (Jetix = processor under Müller controller; DPA required)
+  - EU AI Act Aug 2026 high-risk obligations IF Müller HR-tool audit triggers Annex III 4(a)
+  - HGB §238 Buchführungspflicht (Müller retains delivered audit artifact ≥10 years per §257)
+  - BGB §187 business-day calculation for all SLA references
+
+A (Admissibility):
+  - Müller accepts intermediate milestone within 3 business days (else default-accepted)
+  - Rework bounded к 2 cycles per deliverable; third cycle = scope-change conversation
+  - Multi-View bundle (5 viewpoints) mandatory — not negotiable per CP-4
+  - Bias-audit BA-3 closure document required for Project.closed transition
+
+D (Deontics):
+  - Jetix obliged to retain anonymized project data 6 years (HGB §257 + GDPR proportionality per §4.5.9)
+  - Müller obliged to provide access to AI-tool inventory by Day 5 of engagement
+  - Jetix permitted to reference anonymized Müller learnings в future wiki/sources/ entries post-closure
+  - Müller permitted to extend engagement at same price within 30 days of delivery
+
+E (Effects):
+  - Audit PDF ≥40 pages, 5 viewpoints (Executive 2-3pp / Technical 20-40pp / Governance 3-7pp / Regulatory 3-5pp / Internal-learning 5-10pp)
+  - Identified bias count ≥ N per 5-class taxonomy (REP/ALG/VIS/MET/LNG)
+  - SLA: response within 24h business hours (Berlin CET); incident 4h per Art. 33(2) processor notification
+  - F-G-R tag on each major recommendation: F2-F3 / G: müller-internal-2026-q2 / R-medium-to-high
+  - EU AI Act Art. 14 human-oversight disclosure included в Regulatory viewpoint
+```
+
+**Reader sees at glance:** which parts of this proposal are statute-
+bound (L), which are negotiated with client (A), which are obligations/
+permissions (D), which are measurable outcomes (E). Audit filter:
+"show all L-lane in Müller contract" answers "what statutes bind this
+engagement" в seconds.
+
 ### 4.4 CP-4 — Multi-View Publication mandatory (Gap 5, OQ-04 modified)
 
 **Statement:** All Audit SKU deliveries — **mandatory multi-view from first
@@ -682,12 +1025,229 @@ automated rendering check, FPF-Steward quarterly audit scope.
 view templates (`decisions/templates/views/`). First pilot: Müller GmbH
 audit (or first actual Audit SKU client).
 
-### 4.5 CP-5 — Respect the no-prompt-injection rule
+### 4.5 CP-5 — Human Approval Gate (GDPR Art. 22 + EU AI Act Art. 14)
 
-**Statement:** AI-agent outputs к client go through human approval gate
-(Art. 22 GDPR defence). Human gate = sales-closer / acceptance-authority /
-Ruslan. No purely autonomous client-affecting AI decisions. EU AI Act
-risk-proportional Scenario C per OT3.
+**Statement:** AI-agent outputs affecting clients go through **human
+approval gate** designed to satisfy (a) GDPR Art. 22(3) automated-
+decision safeguards, (b) EU AI Act Art. 14 human-oversight obligations
+(for high-risk deployments per §4.5.1), and (c) Jetix internal
+accountability discipline. No purely autonomous client-affecting AI
+decisions. Gate = sales-closer / acceptance-authority / Ruslan
+(founder strategic gate).
+
+**Operational specification** (P1-R2-3 resolution — full 9-element
+expansion):
+
+#### 4.5.1 Gate scope — what requires the gate ("client-affecting" taxonomy)
+
+Three tiers с different SLAs:
+
+| Tier | Content | SLA (business-hours) | Example |
+|------|---------|----------------------|---------|
+| **L1 — Contractual** | Content binding legal obligations, payment, or material deliverable commitment | 4h | Signed proposal, DPA signature, deliverable acceptance sign-off, pricing change >10% |
+| **L2 — Substantive** | Content materially influencing client decisions or perceptions | 24h | Audit recommendations, research conclusions, governance advice emails, risk assessments |
+| **L3 — Cosmetic** | Minor format/language edits, scheduling, acknowledgments | No gate required (J-Auto); post-hoc log only | Calendar invite, typo fix, neutral acknowledgment |
+
+**Default rule для unlisted:** escalate to L2 (conservative default).
+
+#### 4.5.2 Gate-keepers — competence + Vertretung (escalation alternates)
+
+| Gate-keeper | Primary scope | Backup (Vertretung) | If both unavailable |
+|-------------|---------------|---------------------|---------------------|
+| **sales-closer** (Ruslan sub-role) | L1 contractual / pricing / signature decisions | acceptance-authority (Ruslan) | Queue; no auto-release |
+| **acceptance-authority** (Ruslan sub-role) | L2 deliverable quality sign-off / bias-audit closure | sales-closer for contractual overlap | Queue; no auto-release |
+| **Ruslan (founder strategic)** | Anything flagged `strategic` escalation class | — (no alternate Phase 1) | Queue с 24h extension; if still unavailable, client notified of delay |
+
+All gate-keepers must satisfy **Art. 22(3) + WP251rev.01** "meaningful
+intervention" criteria: authority AND competence to change outcome,
+not rubber-stamp. Phase 2a Beirat member may act как alternate for
+non-urgent L2 decisions.
+
+#### 4.5.3 Approval SLA windows
+
+- **L1 Contractual**: 4h business-hours (Berlin CET 08:00-18:00 Mon-Fri).
+- **L2 Substantive**: 24h business-hours default; 72h maximum with
+  client-visible delay notification.
+- **L3 Cosmetic**: no gate.
+- **Off-hours (18:00 Fri — 08:00 Mon)**: AI outputs queue, не auto-
+  release. Feierabend-respecting. Exception: `safety` classification
+  escalation pages Ruslan via notification channel; Ruslan decides
+  whether to gate off-hours.
+
+#### 4.5.4 Audit trail schema (YAML frontmatter для every gated decision)
+
+```yaml
+# comms/approval-log/YYYY-MM-DD-<decision-slug>.yaml
+decision_id: dec-20260421-0042
+tier: L2                            # L1/L2/L3
+client_affecting_category: [audit-recommendation]
+ai_output_ref:                       # versioned
+  source_agent: sales-lead
+  output_version: v1
+  artifact_path: alphas/client/instances/muller-gmbh/drafts/audit-rec-v1.md
+  f_g_r: F2/G:jetix-audit-dach-2026-q2/R-medium
+gate_keeper:
+  role: acceptance-authority
+  holder: ruslan-berlin
+  approved_at: 2026-04-21T14:32:00+02:00
+  decision: approved                 # approved | rejected | modified | escalated
+  modification_if_any: none
+  reason: "MECE matrix satisfied; bias-audit REP class flagged appropriate; EU AI Act Art. 14 disclosure-to-deployer present"
+  time_to_review_seconds: 420        # cognitive engagement proxy
+client_notice:
+  sent_at: 2026-04-21T14:35:00+02:00
+  channel: email
+  art_22_right_to_contest_included: true
+retention:
+  retention_until: 2032-04-21        # 6 years per HGB §257 + GDPR Art. 5(1)(e) proportionality
+```
+
+#### 4.5.5 Escalation protocol — when gate-keeper unavailable
+
+```
+IF primary gate-keeper unavailable >SLA:
+  1. Message queued in comms/mailboxes/ruslan.jsonl с priority flag
+  2. Vertretung notified (see §4.5.2)
+  3. IF Vertretung accepts → delegates decision с full audit trail
+  4. IF no-one available within 2x SLA window:
+     a. Client notified: "decision delayed, new ETA YYYY-MM-DD"
+     b. Meta-agent logs `escalation`-type message (FPF-Steward quarterly review item)
+     c. AI output held; NO auto-release
+  5. Off-hours policy overrides SLA counter — queue resumes at 08:00 CET next business day
+```
+
+#### 4.5.6 Contestation mechanism (Art. 22(3) + WP251rev.01)
+
+Every client deliverable derived through AI-gated decision carries:
+- **Contest right notice** в Executive + Regulatory viewpoints of
+  Multi-View bundle (§4.4).
+- **Contact channel**: `contest@jetix.ai` (Phase 2a) or
+  `ruslan@jetix-domain` (Phase 1) с SLA 10 business days for initial
+  response.
+- **Data-subject portal** (Phase 2a+ activation) — self-service
+  contestation submission.
+- **Re-review by alternate gate-keeper** guaranteed per WP251rev.01
+  "meaningful review" (same person cannot be original approver and
+  contest reviewer, per conflict-of-interest).
+
+#### 4.5.7 Meaningful-review safeguard
+
+Per WP251rev.01 "actual cognitive engagement" requirement:
+
+- Maximum **8 L2 approvals per gate-keeper per 4-hour block** (hard
+  cap — prevents rubber-stamp batch approvals).
+- Audit trail `time_to_review_seconds` field <60s flagged as
+  quality-risk в FPF-Steward quarterly audit (per §5.4).
+- Batch approval forbidden for L1 contractual; each reviewed individually.
+
+#### 4.5.8 Explanation generation (Art. 22(3) "meaningful information")
+
+Every L1/L2 gated decision emits per-deliverable explanation template
+(derived from canonical artifact + agency-CHR evidence):
+
+```
+Explanation fields:
+- Decision summary (plain language)
+- AI-component role (which agent, which method)
+- Evidence sources (citations, data references)
+- Bias-audit classes checked (REP/ALG/VIS/MET/LNG per §4.3)
+- F-G-R trust tag с rationale
+- Contest pathway
+- Retention + access rights
+```
+
+Template lives в `decisions/templates/art22-explanation.md` (Phase 1
+Day 5-6 write).
+
+#### 4.5.9 Retention policy
+
+- **Minimum 6 months** (EU AI Act Art. 12 event-log requirement).
+- **Default 6 years** (HGB §257 commercial record retention; aligns с
+  tax/audit record discipline per §1.3).
+- **Maximum** bounded by GDPR Art. 5(1)(e) proportionality — purge
+  approval logs containing identifying personal data at 6 years
+  unless legal hold applies.
+- **Retention policy artifact**: `decisions/policy/retention-gdpr-hgb.md`
+  (Phase 1 Day 7 write).
+
+#### 4.5.10 Art. 22 per-decision evidence package (for contestation)
+
+If data-subject contests AI-derived recommendation, Jetix assembles:
+- Agent output (versioned)
+- Human-gate approval record (§4.5.4 schema)
+- Most recent BA-3 bias-audit closure referencing this decision class
+- Bias-taxonomy coverage per §4.3 5-class таксономия
+- Art. 22(3) explanation (§4.5.8)
+- Agency-CHR profile of AI-component (§2.1a) showing BMC/PH/PER/evidence_ref
+
+**Delivery SLA**: 10 business days от contest submission to package
+delivery к data subject or supervisory authority.
+
+### 4.5.1 EU AI Act Risk-Tier Self-Classification Matrix (P1-R2-2)
+
+D6 v1 cited EU AI Act Scenario C (OT3 internal code) без explicit
+EU AI Act taxonomy. v2 resolves: every Jetix offering carries explicit
+EU AI Act risk-tier classification, Annex reference, and obligation
+roadmap к Aug 2026 high-risk deadline.
+
+**EU AI Act 4-tier taxonomy** (Regulation (EU) 2024/1689):
+1. **Prohibited** (Art. 5) — social scoring, subliminal manipulation, etc.
+2. **High-risk** (Annex I product safety + Annex III listed uses)
+3. **Limited-risk / transparency** (Art. 52 — chatbots, emotion
+   recognition, deepfakes, AI-generated content labelling)
+4. **Minimal-risk**
+
+Plus **GPAI deployer obligations** (Art. 29a post-Oct 2024) — Jetix как
+deployer of Claude triggers downstream GPAI deployer obligations.
+
+| Jetix offering | Likely Tier | Annex/Article | Key obligations | Aug 2026 deadline status | Responsible role |
+|----------------|-------------|---------------|------------------|---------------------------|------------------|
+| **Audit SKU для Mittelstand** | **Annex III high-risk IF output materially affects employment/credit/essential-service/critical-infra decisions** | Annex III 4(a) employment; 5(a)/(b) essential services; 2 critical infra | Arts. 9 (risk mgmt) / 10 (data gov) / 11 (tech docs) / 12 (records 6mo) / 13 (transparency) / 14 (human oversight) / 15 (accuracy) + Art. 29 deployer + FRIA per Art. 29a if public-authority context | **High-risk obligations Aug 2, 2026** — per-engagement self-classification (if audit includes HR/credit/infra → full Annex III) | acceptance-authority (sub-role) + external-mode DPO |
+| **Internal 11-agent automation** | **Limited-risk / GPAI deployer** | Art. 52 + Art. 29a | Art. 52 disclosure if agent outputs reach client без human gate; Art. 29a GPAI deployer logs; use per Anthropic-stated instructions | — (applies at deployment; ongoing) | system-admin |
+| **Lead-scoring + sales-research agent** | **Minimal-risk** (internal use, no automated client-affecting decisions due CP-5 gate) | n/a | Voluntary codes of conduct; internal documentation | n/a | sales-lead |
+| **Content-Item production (Alpha 4 — newsletter, LinkedIn, YouTube)** | **Limited-risk / transparency** — Art. 52(3) AI-generated content labelling IF published без explicit human authorship | Art. 52(3) + (4) | Disclosure "generated with AI assistance" on AI-involved content; framing-lead ensures labelling | Ongoing from now | framing-lead |
+| **Multi-View deliverables (Audit SKU output)** | **Flow-through from Audit SKU tier** — depends on underlying audit subject matter | Same as Audit SKU row | Same as Audit SKU row | Same as Audit SKU row | acceptance-authority |
+| **Future hires onboarding content (internal)** | **Minimal-risk** | n/a | Internal docs; no client-affecting AI decisions | n/a | meta-agent |
+| **Strategic advisory (sales-closer conversations + founder letters)** | **Minimal-risk** (human-originated; AI assists research, не produces final) | n/a | F-G-R tagging per §4.2 discipline | n/a | sales-closer + Ruslan |
+
+**Per-engagement self-classification protocol:**
+1. Before accepting Audit SKU contract → framing-lead runs classification
+   questionnaire against Annex III taxonomy.
+2. Result documented в `alphas/project/instances/<slug>/eu-ai-act-
+   classification.yaml`.
+3. If Annex III triggered: Art. 9-15 obligations + FRIA (Art. 29a)
+   activated; contract E-lane includes explicit Art. 14 human-oversight
+   clause; pricing reflects compliance overhead.
+4. If limited/minimal: standard L/A/D/E contract; Art. 52 disclosure if
+   applicable.
+
+**Full operational template**: `decisions/policy/eu-ai-act-risk-tier.yaml`
+(Phase 1 Day 7 write, ETA 2026-04-30). **EU AI Act FAQ для sales
+conversations**: `decisions/policy/eu-ai-act-client-faq.md` (Phase 1
+Day 10).
+
+**Aug 2, 2026 high-risk obligations coverage snapshot** (for Audit SKU
+Annex III engagements):
+
+| EU AI Act Article | Jetix implementation | Artifact |
+|-------------------|----------------------|----------|
+| **Art. 9 Risk management** | Bias-audit (§12.10) + risk taxonomy expansion Phase 2a | `decisions/policy/bias-audit-cycle.md` |
+| **Art. 10 Data governance** | NQD-CAL + E/E-LOG (§7.5) per-direction + data-quality gates в SoW | `directions/<slug>/nqd-distinctions.yaml` |
+| **Art. 11 Technical documentation** | Multi-View Technical (§4.4, 20-40 pages) + Annex IV template | `decisions/templates/views/technical.md` |
+| **Art. 12 Record-keeping (6mo min)** | Retention policy §4.5.9 + commit log | `decisions/policy/retention-gdpr-hgb.md` |
+| **Art. 13 Transparency-to-deployer** | F-G-R tagging §4.2 + explanation generation §4.5.8 | Per-deliverable |
+| **Art. 14 Human oversight** | CP-5 gate §4.5.1-4.5.10 | This section |
+| **Art. 15 Accuracy/robustness** | Bias-audit + Multi-View correspondences check + ISO/IEC 24029-2 alignment (Phase 2a) | `decisions/policy/robustness-testing.md` (Phase 2a) |
+| **Art. 29 Deployer obligations** | Use-per-instructions + human oversight assignment + Art. 12 logs + FRIA if applicable | CP-5 + §4.5.4 audit trail |
+| **Art. 29a GPAI deployer** | Anthropic usage documentation + deployer-role acknowledgment | `decisions/policy/anthropic-deployment.md` (Phase 1 Day 7) |
+
+### 4.5.2 GDPR processor-to-controller incident notification (Art. 33(2))
+
+Per Art. 33(2) GDPR processor obligation: Jetix notifies client controller
+of confirmed breach **within 24h from confirmation** (Jetix internal SLA;
+default in DPA E-lane). Jetix Art. 33(5) documentation duty begins Day 1
+of first personal-data processing. Full Art. 33 breach framework в `ops/
+gdpr-art-33-playbook.md` (Phase 1 Day 10 ETA).
 
 ### 4.6 Cross-refs
 
@@ -705,7 +1265,7 @@ risk-proportional Scenario C per OT3.
 
 ---
 
-## Section 5 — Internal Principles (8 principles + ШСМ 5 primitives)
+## Section 5 — Internal Principles (8 principles + ШСМ 5 foundational concepts)
 
 8 principles governing internal Jetix discipline. Каждый grounded в FPF
 pattern + Левенчук primitive.
@@ -769,12 +1329,19 @@ stays в chat window.
 artifact of writing-as-thinking. Preface explicit: "Thinking Through
 Writing: The FPF Discipline of Conceptual Work."
 
-**Левенчук grounding:** *Системное мышление 2024* т.1 — "Системное
-мышление происходит путём мышления моделированием и письмом (с текстами
-на естественных языках, но с отслеживанием типов объектов и видов
-отношений объектов в этих текстах), поэтому внимание не только наводится
-на важные предметы, но и удерживается на них всё время проекта: записанное
-не так легко забыть в суете."
+**Левенчук grounding:** *Системное мышление 2024* т.1:
+> «Системное мышление происходит путём мышления моделированием и письмом
+> (с текстами на естественных языках, но с отслеживанием типов объектов
+> и видов отношений объектов в этих текстах), поэтому внимание не только
+> наводится на важные предметы, но и удерживается на них всё время
+> проекта: записанное не так легко забыть в суете.»
+>
+> **[EN translation]** *"Systems thinking proceeds through thinking-by-
+> modelling and thinking-by-writing (with natural-language texts, but
+> with tracked object-types and relation-types between those objects in
+> those texts). Thus attention is not only directed к important subjects
+> but also retained on them throughout the project: what is written down
+> is not so easily forgotten amidst the bustle."*
 
 **Operational:**
 - Every Ruslan session ends с commit (daily, weekly, monthly, quarterly
@@ -788,6 +1355,11 @@ Writing: The FPF Discipline of Conceptual Work."
 > «Без внешнего по отношению к LLM контуру обработки текста — никак, LLM
 > всегда обманет. Если и сам текст пишет LLM — исчезает 'мышление письмом'
 > как когнитивный процесс.»
+>
+> **[EN translation]** *"Without an external-to-LLM circuit of text
+> processing — no way; the LLM will always deceive. If the LLM itself
+> writes the text, 'thinking-by-writing' disappears as a cognitive
+> process."*
 
 → Ruslan primary writer для critical strategic artifacts; agents support,
 не substitute.
@@ -822,38 +1394,152 @@ Guard-Rails**.
 - **Separation trigger** (FPF-Steward → separate role, Phase 2b):
   30+ agents OR 1+ human meta-hire OR quarterly audit burden >4h.
 
-### 5.5 IP-5 — Explicit alpha state transitions (past-participle, MC6 + Hook 4)
+### 5.4a Per-agent FPF-loading tier (P1-R3-1 resolution)
 
-**Statement:** Alpha states — past-participle глаголы. No gerunds, no
-present-continuous.
+**Context (R3 cost-model critique, Stage C synthesis).** OT5 Scenario A
+(full-text D6 в каждый agent system.md) unexamined for per-agent cost.
+Back-of-envelope: D6 ~10K tokens × 11 agents × 40-80 invocations/day ×
+per-model pricing = **€40-60/day (€1100-1650/mo) before any useful work**
+(~3-8% of €50K Q2 revenue target burned on ontology-permeation overhead).
 
-**Левенчук grounding:** *Методология 2025* — "Состояния предмета метода в
+**Resolution:** **Tiered loading strategy** — retains Full-FPF-Permeation
+target (shared ontology across agents) while respecting cost discipline.
+
+| Tier | Agents | Loading pattern | Tokens loaded | Rationale |
+|------|--------|------------------|----------------|-----------|
+| **Tier 1 — Full-text** | strategy-support-analyst (Opus), knowledge-synth (Sonnet), meta-agent (+ FPF-Steward sub-role, Sonnet), manager (Sonnet in deep-coord mode) | Full D6 via system.md | ~10K tokens baseline + sections as needed | These agents **reason over** the ontology — synthesis, coordination, audit require full apparatus |
+| **Tier 2 — Distilled essence** | sales-lead (Sonnet), crazy-agent (Sonnet), manager (Sonnet in routine-route mode) | Distilled summary ~2K tokens + on-demand section fetch | ~2-3K baseline | These agents **apply** the ontology в bounded decision domains; distilled summary covers §0-§1 + §2 + §4 + §5.1-5.5 + §6 + §12 headers; deep sections fetched via `Read` tool only when needed |
+| **Tier 3 — Reference-only с on-demand fetch** | personal-assistant (Haiku), system-admin (Haiku), sales-research (Haiku), sales-outreach (Haiku), inbox-processor (Haiku) | Section-indexed TOC + on-demand section fetch | ~500-1000 tokens baseline | These agents **execute narrow tasks** that don't need full ontology; inbox-processor classifying a voice note does not need A.14 mereology edges |
+
+**Distilled essence** (~2K tokens, Tier 2 content) = §0 + §0.5 + §0.7
+Glossary + §2.1 Ruslan sub-roles + §2.2 agents + §2.2a coordination +
+§4.1-4.5 CP headlines + §5.1-5.5 IP headlines + §6.1-6.2 alpha table +
+§12 headers. Generated artifact `wiki/foundations/jetix-fpf-distilled.md`
+(Phase 1 Day 5-7 write, ETA 2026-04-27).
+
+**Prompt-caching amortization** (per Anthropic prompt-cache TTL 5min):
+All agents share identical D6 preamble → **single cache entry amortizes
+across agents**. Tier 1 full-text agents benefit most (~90% input-cost
+reduction when cache-hit). Tier 2/3 distilled-essence similarly cached.
+
+**Per-agent context-budget** (§1.5 operational clarification, per R3
+FP1):
+
+| Layer | Budget | Content |
+|-------|--------|---------|
+| System preamble | 1K | role.md Blocks 1-2 |
+| D6 load (tier-dependent) | 0.5-10K | Tier 1-3 per above |
+| Exocortex hard | 25K | Accessible wiki/ slices через niche/ symlinks |
+| Task context soft | 25K | per-task KB-pulls, prior messages |
+| Working budget | ~20K | reasoning + output |
+| **Total floor** | **~70-80K of 200K (Sonnet/Haiku) / 1M (Opus)** | ~40% ctx floor |
+
+**Per-session startup sequence** (all tiers):
+1. Read role.md (full).
+2. Read D6 loading-pattern-per-tier (system.md preamble).
+3. Glob `niche/` symlinks + Read index.md of niche.
+4. Proceed к task.
+
+**Cost projection Phase 1 with tiered loading:** ~€15-25/day (reduction
+of ~60% vs uniform full-text). Monthly €450-750 — absorbed within P7
+compute budget без revenue-target impact.
+
+### 5.5 IP-5 — Explicit alpha state transitions (past-participle discipline, MC6 + Hook 4)
+
+**Statement:** Alpha states — past-participle глаголы (preferred) OR
+explicitly-scoped **in-progress phase labels** (narrow exception, see
+§5.5a). No gerunds, no present-continuous verbs-as-states.
+
+**Левенчук grounding:** *Методология 2025* — «Состояния предмета метода в
 альфе даются глаголами в прошедшем времени, эти глаголы соответствуют
-применённым составляющих разных методов к какому-то объекту."
+применённым составляющих разных методов к какому-то объекту.»
 
-**FPF grounding:** **A.2.5 U.RoleStateGraph** (past-tense state names
-implicit throughout); **A.4 Temporal Duality** (design vs run stance).
+> **[EN translation]** *"States of a method-subject in an alpha are given
+> as past-participle verbs; these verbs correspond to applied components
+> of various methods against some object."*
 
-**Operational (MC6 + Hook 4):**
+**FPF grounding:** **FPF A.2.5 U.RoleStateGraph** (FPF-Spec L.3282 —
+past-tense state names implicit throughout); **FPF A.4 Temporal Duality**
+(FPF-Spec L.6489 — design vs run stance).
 
-| Неправильно (gerund) | Правильно (past-participle) |
-|---------------------|-----------------------------|
+**Operational primary rule (MC6 + Hook 4):**
+
+| Неправильно (gerund/present-continuous) | Правильно (past-participle) |
+|------------------------------------------|-----------------------------|
 | "qualifying" | `qualified` |
-| "in qualification" | `qualified` |
 | "active" | `activated` |
 | "in progress" | `started` |
 | "delivering" | `delivered` |
+| "reviewing" | `reviewed` |
 
 **For Russian** (краткие причастия): "квалифицирован", "активирован",
-"начат", "доставлен", "закрыт".
+"начат", "доставлен", "закрыт", "отрефакторен".
 
-Pre-commit **Hook 4** blocks commits с gerunds в `state.yaml` (52% v1
-violations fixed Phase 1 rename).
+### 5.5a In-progress phase exception (P1-R1-3 resolution)
 
-**Semantic justification:**
-- State — fact, not process. Verifiable (checklist for completed event).
-- Machine-readable (`IF Client.state == "Qualified" THEN ...`).
-- Preserves epistemological precision (fact vs ongoing).
+**Exception rule (policy decision Stage C):** Past-participle discipline
+**preferred universally**; **`in-X` / `under-X` compound labels ALLOWED**
+for genuine in-progress phases where past-participle lexeme either
+(a) loses semantic precision (collapses distinct lifecycle stages) или
+(b) creates unavoidable ambiguity с terminal-done states.
+
+**Rationale:** Certain lifecycle alphas have a **pending-state** between
+entry and resolution that is meaningfully distinct from either. Examples:
+
+- `Client.in-negotiation` ≠ `Client.negotiated` — "negotiated" reads как
+  terminal (negotiation concluded), but in sales pipeline we need
+  distinct mid-negotiation state where parties exchange actively, before
+  either `won` or `lost` is reached. "negotiated" would incorrectly
+  collapse `won`/`lost` into parent "negotiated" state.
+- `Project.in-follow-up` ≠ `Project.followed-up` — in-follow-up = active
+  period of post-delivery support; followed-up would read как single
+  past event.
+- `Content Item.in-review` ≠ `Content Item.reviewed` — reviewed implies
+  review complete (approval or rejection decision made); in-review =
+  active review window.
+- `Hypothesis.under-validation` ≠ `Hypothesis.validated` — "validated"
+  claims truth established; "under-validation" = experiment running,
+  outcome pending.
+- `Direction.under-validation` — same semantic as Hypothesis.
+
+**Policy decision** (per Ontology > Clarity ranking): **allow** `in-X` /
+`under-X` labels **only при explicit semantic distinction от past-
+participle sibling state**; Hook 4 enforcement updated к allow these
+specific compound forms when both labels exist в same state machine AND
+distinction documented в state checklist.
+
+**5 Phase 1 whitelisted exceptions** (Hook 4 explicit allow-list):
+
+| Alpha | State | Why exception | Past-participle would-be ambiguous with |
+|-------|-------|---------------|-----------------------------------------|
+| Client | `in-negotiation` | Active mid-negotiation phase, distinct from terminal won/lost | would collapse won/lost into single "negotiated" |
+| Project | `in-follow-up` | Active post-delivery support window, distinct from "followed-up" terminal | "followed-up" reads как single event, не window |
+| Content Item | `in-review` | Active review window, decision pending | "reviewed" implies decision made |
+| Hypothesis | `under-validation` | Experiment running, outcome pending | "validated" claims truth established |
+| Direction | `under-validation` | Direction thesis tested, outcome pending | same as Hypothesis |
+
+**All 5 documented в `decisions/policy/past-participle-exceptions.md`**
+(Phase 1 Day 7 ETA) с per-exception semantic distinction rationale.
+
+**Hook 4 logic (updated):**
+```
+Block IF state.name ends with -ing AND state.name NOT in whitelist.
+Allow IF state.name matches in-X or under-X pattern
+      AND (alpha, state.name) in decisions/policy/past-participle-exceptions.md
+      AND state machine also contains corresponding past-participle terminal state
+            (OR explicit "no-terminal: true" annotation).
+Flag to FPF-Steward review IF state added as in-X/under-X WITHOUT exception registration.
+```
+
+**Semantic justification preserved:**
+- State = fact, NOT process. In-progress exception preserves fact
+  character — "fact of being in this specific bounded-pending phase".
+  Verifiable через checklist (e.g., in-negotiation = proposal sent +
+  ≥1 response received + no final-decision-yet).
+- Machine-readable: `IF Client.state == "in-negotiation" THEN trigger
+  follow-up-at-day-3 handler`.
+- Past-participle preserved for terminal states (won, lost, delivered,
+  closed, archived) — where "fact of X happened" is unambiguous.
 
 ### 5.6 IP-6 — No role left undefined (5-block role.md mandatory)
 
@@ -942,17 +1628,205 @@ master class, не tools. "Создатели — это агенты, всё ч
   - `initial_context_pack` (wiki refs, role ref, alpha refs).
   - `warm_up_tasks` (calibration tasks, trivial success criteria).
   - `calibration_checkpoint` (meta-agent reviews output quality).
-  - F.6 6-step cycle retrospective (30/90/180-day).
-- Full JETIX-FPF text loaded в system.md (per OT5 Scenario A).
+  - **FPF F.6 6-step cycle retrospective** (30/90/180-day).
+- JETIX-FPF text loaded в system.md per **tiered loading** (§5.4a — не
+  uniform full-text).
+
+### 5.8.1 Concrete example — sales-lead Day-1 executor-binding (P1-R3-5 resolution)
+
+Canonical example of fully-populated `executor-binding.yaml` для first
+agent onboarding. D3 role-manifest authors MUST derive their YAML from
+this template structure — prevents 11-agent schema divergence (P-6
+Lexical Stratification violation).
+
+```yaml
+# executors/sales-lead/executor-binding-v1.yaml
+# ===========================================================================
+# HOLDER + ROLE BINDING (U.RoleAssignment per FPF A.2.1)
+# ===========================================================================
+holder:
+  kind: claude-agent
+  model: claude-sonnet-4-6
+  instance_id: sales-lead-claude-sonnet-4-6-v1-20260425
+role_ref: roles/sales-lead/role.md
+context: jetix/l4-revenue/dach-mittelstand        # FPF A.1.1 U.BoundedContext
+stance: run                                         # FPF F.6 M2 (design|run)
+window:                                             # FPF F.6 M4 Window W
+  start: 2026-04-25T08:00:00+02:00
+  end: open
+  renewal_trigger: 180-day retrospective OR model-upgrade
+loading_tier: 2                                     # per §5.4a — distilled essence
+primary_j_level: J-Approve                          # per §2.2 table
+# ===========================================================================
+# AGENCY-CHR PROFILE (per §2.1a canonical schema + FPF A.13:4.3)
+# ===========================================================================
+agency_profile:
+  inherit: decisions/policy/agent-promotion-chr.yaml#default_by_role.sales-lead
+  # Base defaults from policy: bmc 0.6 / ph 0.5 / mp 0.3 / per 0.7 / oc 0.5
+  # Instance-specific overrides:
+  overrides_by_decision_class:
+    - class: draft-proposal
+      j_level: J-Auto
+      bmc: 0.7
+    - class: schedule-call
+      j_level: J-Auto
+      bmc: 0.8
+    - class: send-DPA-first-time
+      j_level: J-Approve
+      bmc: 0.5
+      note: "First send of DPA template requires gate; subsequent sends J-Auto once validated"
+    - class: send-DPA-subsequent
+      j_level: J-Auto
+      bmc: 0.7
+    - class: discount-offer-0-to-10-pct
+      j_level: J-Approve
+      bmc: 0.3
+    - class: discount-offer-above-10-pct
+      j_level: J-Strategic
+      bmc: 0.0
+      note: "Hard escalation к Ruslan sales-closer sub-role"
+    - class: custom-terms
+      j_level: J-Strategic
+      bmc: 0.0
+    - class: sign-contract
+      j_level: J-Strategic
+      bmc: 0.0
+      note: "Founder only per §5.10.4"
+    - class: withdraw-from-deal
+      j_level: J-Strategic
+      bmc: 0.0
+  task_family_overrides:                            # per FPF A.13:4.3.1
+    - task_family: discovery-call
+      bmc: 0.8                                       # high reliability in English-discovery
+      per: 0.8
+    - task_family: de-contract-negotiation
+      bmc: 0.2                                       # low — German-language legal escalates
+      per: 0.3
+  bmc: 0.6
+  ph: 0.5
+  mp: 0.3
+  per: 0.7
+  oc: 0.5
+  agency_grade: 2                                    # "Operating" per FPF A.13:4.4
+  evidence_ref: decisions/fpf-stewardship/2026-Q2-agency-chr-bootstrap.md#sales-lead
+  evidence_status: R-low-pending-phase-1-bootstrap   # upgraded к R-medium Q2 audit
+# ===========================================================================
+# ONBOARDING (IP-8 + FPF F.6 6-step cycle)
+# ===========================================================================
+agent_onboarding:
+  # FPF F.6 M1 Locate — which context does this role-assignment live in?
+  m1_locate: jetix/l4-revenue/dach-mittelstand
+  # FPF F.6 M2 Stance — design vs run
+  m2_stance: run
+  # FPF F.6 M3 Qualify — Holder eligibility verification
+  m3_qualify:
+    reviewer: meta-agent (FPF-Steward sub-role)
+    criteria:
+      - Claude Sonnet 4.6 system-prompt integration verified
+      - past-participle + in-X exception discipline understood
+      - L/A/D/E vocabulary usable by agent on read-test
+      - F-G-R tagging syntax demonstrable
+    status: passed | pending | failed
+    evidence: decisions/fpf-stewardship/2026-Q2-sales-lead-m3-qualify.md
+  # FPF F.6 M4 Bind/Assert — the assignment artifact itself
+  m4_bind_assert:
+    window_stamped_on: this file (executor-binding-v1.yaml)
+    role_stamped_on: roles/sales-lead/role.md
+    mutual_references_verified: true
+  # FPF F.6 M5 Evidence — Σ(Context) evidence shape
+  m5_evidence_shape:
+    warm_up_task_id_pattern: wu-YYYYMMDD-NNN
+    calibration_task_id_pattern: cal-YYYYMMDD-NNN
+    production_task_id_pattern: task-YYYYMMDD-NNN
+  # FPF F.6 M6 Conclude — confidence γ threshold for promotion
+  m6_promotion_threshold:
+    to_j_approve_from_j_auto: agency_profile.bmc >= 0.5 AND agency_profile.per >= 0.6 AND warm_up_tasks_passed >= 10
+    never_to_j_strategic: true  # hard rule per §5.10.4
+  # Initial context pack (loaded at session start per §5.4a Tier 2)
+  initial_context_pack:
+    mandatory:
+      - wiki/foundations/jetix-fpf-distilled.md         # ~2K tokens, Tier 2
+      - roles/sales-lead/role.md                         # role-archetype
+      - alphas/client/states.yaml                        # state machine
+      - alphas/deal/states.yaml
+      - directions/_active/ai-consulting-dach/direction.md
+      - directions/_active/ai-consulting-dach/pipeline.md
+      - wiki/niches/sales/_moc.md                        # niche MOC
+    on_demand:
+      - design/JETIX-FPF.md § 4 (Client Principles)      # fetch when proposal work
+      - design/JETIX-FPF.md § 4.5 (CP-5 Human Gate)      # fetch before sending
+      - decisions/policy/boundary-discipline.md           # L/A/D/E detail
+      - decisions/policy/trust-tagging.md                 # F-G-R detail
+  # Warm-up tasks (calibration before live client work)
+  warm_up_tasks:
+    - id: wu-20260425-001
+      description: Classify 3 mock leads against MECE eligibility matrix; route to qualified/unqualified; emit L/A/D/E-tagged disposition note per lead
+      success_criteria:
+        - past_participle_violation_count: 0
+        - role_executor_conflation_count: 0
+        - missing_f_g_r_tag_rate: 0
+        - state-name-correctly-uses in-negotiation-exception-if-applicable
+    - id: wu-20260425-002
+      description: Draft proposal для mock client Müller GmbH per template; structure per A.6.B lanes; do NOT include executor details (no "sonnet-4-6 will perform..."); mark each lane
+      success_criteria:
+        - L-lane contains ≥1 DACH-legal source (GDPR Art, BGB §, HGB §, EU AI Act Art)
+        - A-lane has ≥2 client-acceptance gates
+        - D-lane has explicit Jetix+client obligations
+        - E-lane contains ≥1 SLA metric + deliverable spec
+        - no-exec-details-in-role-archetype: true
+    - id: wu-20260425-003
+      description: Write F-G-R-tagged response к mock sales inquiry; include R-medium rationale; do NOT overstate certainty
+      success_criteria:
+        - F-level declared in frontmatter
+        - G-scope explicit bounded context
+        - R-level matches evidence strength (auto-check against evidence_ref list)
+  calibration_checkpoint:
+    reviewer: meta-agent (FPF-Steward sub-role)
+    at_n_production_tasks: 5
+    pass_threshold:
+      past_participle_violation_rate: 0.0
+      role_executor_conflation_count: 0
+      missing_f_g_r_tag_rate: < 0.1
+      avg_time_to_review_seconds: > 60   # meaningful-engagement floor per §4.5.7
+    failure_action: escalate к Ruslan + retraining via extra warm-up tasks
+  retrospective:
+    intervals_days: [30, 90, 180]
+    format: decisions/fpf-stewardship/YYYY-MM-DD-<agent>-retrospective.md
+    items:
+      - warm_up_to_live_drift (did agent behavior change post-calibration?)
+      - agency_chr_re_measurement (update bmc/per/ph based on actuals)
+      - method_description_updates (any method refinements?)
+      - decision_class_taxonomy_changes (new categories emerging?)
+      - cost_actuals_vs_budget (tokens/day per §5.4a)
+# ===========================================================================
+# COMPUTE CONTRACT (per P7 Compute budget framework)
+# ===========================================================================
+compute_contract:
+  daily_token_budget_input: 500_000
+  daily_token_budget_output: 100_000
+  cost_cap_daily_eur: 3.0
+  on_exceed_action: soft-throttle-then-notify-ruslan
+# ===========================================================================
+# COMMUNICATION BINDING
+# ===========================================================================
+mailbox_address: comms/mailboxes/sales-lead.jsonl
+department_lead_for_escalation: sales-lead (self)   # dept head; escalate к Ruslan
+acting_as_default: sales-lead                       # per §5.9 enforcement
+```
+
+**Lines: ~120.** Covers all D6-mandated fields. D3 role-manifest writers
+derive their agent-specific executor-binding по этому pattern. Full
+canonical **`shared/schemas/executor-binding.schema.json`** JSON-schema
+(Phase 1 Day 5-7 write, ETA 2026-04-27) validates each binding.
 
 ### 5.9 Forbidden: dynamic role-switching by agent at task-time
 
 **Statement (negative principle):** Agent cannot dynamically switch role
-during task execution. Role assignment happens при task creation (F.6 M4
-Bind/Assert), не runtime mid-task.
+during task execution. Role assignment happens при task creation (**FPF
+F.6 M4 Bind/Assert**), не runtime mid-task.
 
-**Founder exception:** Ruslan multi-role-binding explicit (executors/
-ruslan.yaml `multi-role-binding: true` flag). Allowed because founder has
+**Founder exception:** Ruslan multi-role-binding explicit (`executors/
+ruslan.yaml` `multi-role-binding: true` flag). Allowed because founder has
 long-term identity + commitment + skin-in-game (Taleb) — preconditions
 для true strategizing per Левенчук.
 
@@ -960,15 +1834,78 @@ long-term identity + commitment + skin-in-game (Taleb) — preconditions
 > «Если наплодить много-много ролей, то в текущих многоагентных архитектурах
 > типичный рост расхода токенов в 3-10 раз и идут провалы при handoff
 > между рольными агентами.»
+>
+> **[EN translation]** *"If you proliferate many-many roles, in current
+> multi-agent architectures typical token-spend increase is 3-10×, and
+> handoff failures between role-agents occur."*
 
 → Role stability > role flexibility (at Phase 1 scale).
 
-### 5.10 ШСМ 5 primitives — full treatment
+### 5.9a Enforcement mechanism (P1-R3-3 resolution)
 
-Per ADR reference — 5 primitives ШСМ foundational для Jetix methodology.
-Note: **"5 primitives" is R-B analytical synthesis**, не Левенчук's
-published taxonomy (per KB Section 3.1). Each primitive — first-class
-concept в specific Левенчук texts. For Jetix they serve as didactic frame.
+**Three-layered enforcement** (constitutional mechanism — D6 specifies,
+D8 implements):
+
+**Layer 1 — Message-schema tagging (primary, mechanical).** Every agent-
+to-agent message carries **`acting_as: <role-id>`** field bound к
+sender's `executor-binding.yaml` role_ref. `shared/schemas/message.
+schema.json` (Phase 1 Day 1 update) enforces the field; messages without
+`acting_as:` fail schema validation and are rejected at mailbox write.
+
+```json
+// shared/schemas/message.schema.json excerpt
+{
+  "required": ["id", "type", "from", "acting_as", "to", "body"],
+  "properties": {
+    "acting_as": {
+      "type": "string",
+      "description": "Role-id from D6 §2.2 table — MUST match sender's executor-binding.yaml role_ref",
+      "enum": ["strategy-lead", "framing-lead", "sales-closer", "acceptance-authority", "external-relations", "manager", "personal-assistant", "system-admin", "sales-lead", "sales-research", "sales-outreach", "inbox-processor", "crazy-agent", "knowledge-synth", "strategy-support-analyst", "meta-agent"]
+    }
+  }
+}
+```
+
+Pre-commit hook on `comms/mailboxes/` additions verifies `acting_as`
+field presence + binding-consistency. Violations block commit.
+
+**Layer 2 — Manager-agent monitoring (secondary, detection).** Manager
+scans mailbox deltas periodically (morning + evening pipeline). Flags
+for review any message where:
+- `acting_as` mismatches expected role for current task, OR
+- Message body contains role-switch language ("я также как [other-role]
+  подготовлю..." / "switching to strategist mode", etc.).
+
+Flagged messages routed к meta-agent for FPF-Steward quarterly audit
+aggregation (see §5.4 audit scope item added).
+
+**Layer 3 — FPF-Steward quarterly audit (tertiary, strategic).** Added
+к §5.4 audit scope: *"Role-switching compliance — scan mailbox
+аggregates; flag pattern-level drift (e.g., sales-lead consistently
+acting_as sales-closer)"*. Output: quarterly report + remediation ADR
+if pattern detected.
+
+**Founder exception enforcement.** Ruslan's multi-role-binding messages
+declare `acting_as:` с current sub-role (strategy-lead / framing-lead /
+etc.); sub-role transitions documented inline in commit frontmatter
+when consequential (e.g., "sub-role active: strategy-lead" for
+strategic-decision commits). Not monitored same как agent role-switch
+(founder has identity + commitment), но quarterly review still
+aggregates sub-role time-allocation к inform Phase 2a hiring triggers.
+
+**Agreement with D8 (Instructions).** Detailed hook implementation,
+manager monitoring logic, audit scripts в D8 §<TBD>. D6 specifies
+WHAT is enforced; D8 specifies HOW.
+
+### 5.10 ШСМ 5 foundational concepts — full treatment
+
+Per ADR reference — 5 ШСМ foundational concepts that ground Jetix
+methodology. Note (P2-R1-2 terminology honesty — applied consistently
+throughout v2): **"5 primitives" was v1 shorthand — actually an R-B
+analytical synthesis, не Левенчук's published taxonomy** (per KB Section
+3.1). v2 uses «5 ШСМ foundational concepts» или «5 ШСМ method-objects»
+consistently. Each concept — first-class в specific Левенчук texts;
+для Jetix they serve as didactic frame.
 
 #### 5.10.1 Роль (Role)
 
@@ -983,6 +1920,11 @@ Formula: **Роль = signature метода × interest к системе × н
 > «Альфа — это предмет метода, который может быть и физическим объектом
 > (системой), и абстрактным объектом (описанием). Альфа позволяет
 > управлять вниманием создателя в ходе исполнения длинных цепочек операций.»
+>
+> **[EN translation]** *"Alpha is a method-subject that can be either a
+> physical object (system) or an abstract object (description). Alpha
+> enables managing the creator's attention over the execution of long
+> operation chains."*
 
 **FPF correlation ⚠ CONFLICT:** FPF-Spec не preserves "alpha" as standalone
 term. Alpha-as-track dispersed в FPF на:
@@ -1008,6 +1950,11 @@ Fully covered Section 3. FPF correlation ✅ A.1 + A.14 + B.1.
 > непонятно, что делать. А если непонятно, что именно делать, то и
 > планировать ещё ничего нельзя (потребные ресурсы неизвестны), и работать
 > нельзя.»
+>
+> **[EN translation]** *"The method of method-selection is strategizing.
+> In conditions where it is entirely unclear what to do. And if it's
+> unclear what exactly to do, then nothing can yet be planned (required
+> resources unknown), and work cannot yet begin."*
 
 **Structural positioning:**
 ```
@@ -1034,7 +1981,7 @@ Decsn-CAL** + **C.18/C.19 NQD + E/E-LOG**.
 
 Fully covered IP-3 + IP-7. FPF correlation ✅ throughout.
 
-### 5.11 Composition of 5 primitives
+### 5.11 Composition of 5 ШСМ foundational concepts
 
 ```
 ГРАФ СОЗДАНИЯ
@@ -1109,22 +2056,36 @@ alphas материализуются в `alphas/` с past-participle state mach
 #### 6.3.1 Alpha 1 — Client
 
 **Cross-refs:** FPF U.Episteme slot `DescribedEntitySlot` holds Client-as-
-entity; RoleStateGraph (A.2.5) applied per-instance; ClaimGraphSlot tracks
-pipeline-stage claims.
+entity; **RoleStateGraph (FPF A.2.5)** applied per-instance; ClaimGraphSlot
+tracks pipeline-stage claims.
 
 **State checklist examples (verifiable):**
 - `qualified`: MECE eligibility matrix passed (jurisdiction DACH|US|RU;
   industry Jetix-ICP; revenue >€10M; decision-maker identified;
   pain-signal explicit).
 - `in-negotiation`: Proposal sent; 1+ call scheduled; decision-maker
-  engaged; A.6.B L/A/D/E template applied.
+  engaged; A.6.B L/A/D/E template applied. (In-progress exception per §5.5a.)
 - `won`: Contract signed (wet signature OR DocuSign); 1st invoice paid
   OR Scope-of-Work acknowledged.
 
-**A.14 typed edges:**
+**FPF A.14 typed edges:**
 - Client ComponentOf Jetix-Sales-Function (at operational runtime).
 - Client fills ICP slot (directions/_active/ai-consulting-dach/).
 - Client methodologically-uses MECE-qualification method.
+
+**Example — Müller GmbH Client transitions over 3 months (Mar-May 2026):**
+
+| Date | Transition | Trigger | Evidence |
+|------|------------|---------|----------|
+| 2026-03-05 | → `lead-identified` | LinkedIn connection from sales-outreach agent after Rodion podcast mention | `clients/companies/muller-gmbh.md` created; source=linkedin |
+| 2026-03-18 | → `qualified` | MECE eligibility: DE jurisdiction + Maschinenbau industry (ICP) + €80M revenue + CTO+CDO identified + AI-compliance pain explicit | MECE matrix committed к `alphas/client/instances/muller-gmbh.yaml` |
+| 2026-04-02 | → `proposed` | Proposal sent per L/A/D/E template (§4.3 example above) | `directions/_active/ai-consulting-dach/proposals/muller-gmbh-v1.md` |
+| 2026-04-09 | → `in-negotiation` | Client CTO called with 3 counter-proposals (discount request, timeline extension, additional viewpoint) | `alphas/deal/instances/muller-gmbh-audit-q2-2026/negotiation-log.md` — sales-closer (Ruslan) engaged |
+| 2026-04-22 | → `won` | Contract signed; DPA Anlage 2 TOMs attached; first invoice paid €15K retainer | `finance/invoices/2026/R-2026-0042.yaml`; contract `clients/companies/muller-gmbh/contract-v1.md` |
+| 2026-07-15 | → `churned` (hypothetical) | End of audit engagement + post-close no renewal at 90-day mark | would emit `post-mortem-muller-gmbh.md` |
+
+Each transition documented через git commit; state machine enforced при
+YAML update; Hook 4 verifies past-participle + in-X exception discipline.
 
 #### 6.3.2 Alpha 2 — Project
 
@@ -1245,6 +2206,17 @@ Jetix alphas evolve SEMAT Essence kernel:
 | Way of Working | Alpha 7 Way of Working |
 | Team | Implicit в 11 agent roster + Ruslan multi-binding |
 
+**Protective note (P2-R1-3 addition — SEMAT generalization honesty):**
+SEMAT Essence cross-reference = **legacy bridge for SEMAT-literate
+audiences only**. Jetix ontology aligned с **Левенчук's generalization
+of SEMAT Essence**, NOT с SEMAT software-specific kernel. Per R-D
+analysis: Левенчук replaced Requirements → System Definition; Software
+System → System Embodiment; Way of Working → Technology (temp) → Method;
+Stakeholders → External Project Roles. **Essence Language (type system)
+preserved в JETIX-FPF; Essence Kernel (7 software-specific alphas)
+superseded by Jetix domain-independent 8-alpha set**. Do not infer SEMAT
+Essence software-semantics into Jetix alphas.
+
 ### 6.6 FPF pattern cross-refs
 
 - **FPF A.2.5 U.RoleStateGraph** (role state machine) — all 8 alphas
@@ -1302,6 +2274,35 @@ mapped к 4 rituals:
 - **Example attention-theme Q2 2026:** "First €50K revenue from DACH
   Mittelstand" с 60% Sales / 25% Delivery / 10% Architecture / 5%
   Learning allocation.
+
+**Example — Weekly Friday close agenda (60 min):**
+
+```
+14:00-14:10  Shape Up commits review
+             - What shipped this week (per direction)?
+             - Which alpha states transitioned?
+             - Any Hook 4 violations flagged by meta-agent?
+
+14:10-14:25  Close-week log
+             - Revenue status (pipeline + signed + invoiced + collected)
+             - Direction-level NQD distinctions (new novelty observed?)
+             - E/E-LOG actions taken (widen/narrow/reroute)
+             - F-G-R compliance sampling (3 random deliverables)
+
+14:25-14:45  Next-week framing
+             - Top 3 tasks per direction
+             - Any strategizing-trigger signals accumulating?
+             - Mailbox triage — escalations, stale deps, handoffs
+
+14:45-15:00  Founder reflection (written, not spoken)
+             - 1-page note to `decisions/weekly/YYYY-WW.md`
+             - Writing-as-thinking primitive: externalize insights
+             - Commit + push — artifact persists across sessions
+```
+
+**Outputs:** `decisions/weekly/YYYY-WW.md` (founder-written),
+`decisions/weekly/YYYY-WW-metrics.yaml` (revenue + state snapshots),
+plus `alphas/*/states.yaml` updates.
 
 ### 7.2 Strategizing as trigger-driven event (NOT scheduled)
 
@@ -1444,13 +2445,31 @@ Per **E.10 LEX-BUNDLE** (L.41604) naming discipline:
 | 29 | **U.AbductivePrompt** | `abductive-prompt` | Prompt for hypothesis work | — (B.5.2.0) | AbP |
 | 30 | **U.ClaimScope** | `claim-scope` | Bounded context path of claim | — (new canonical) | CS |
 | 31 | **U.WorkScope** | `work-scope` | Capability scope | — (new canonical) | WS |
-| 32 | **U.Holon** | `direction-holon` | Direction (Jetix innovation) | — (P8) | Dir |
-| 33 | **U.Case** | `chr-space` | Characteristic Space (SKU / direction-kill / agent-promotion) | — (Gap 3) | CHR |
+| 32 | **U.Direction ⊑ U.Holon** | `jetix-direction` | Direction (Jetix innovation, Stratum-3 specialization of U.Holon) | — (P8) | Dir |
+| 33 | **U.CHRSpace ⊑ U.Case** | `chr-space` | Characteristic Space (SKU / direction-kill / agent-promotion — Stratum-3 specialization of U.Case) | — (Gap 3) | CHR |
 
 **Note:** Actual UTS `wiki/foundations/jetix-uts.md` Layout A Kernel-first
 carries 30-50 rows × 6-8 context columns (concurrent с D6 writing per
 OQ-08 B). This D6 Section 8 list provides ontology foundation; UTS provides
 cross-context mapping.
+
+**Stratum discipline clarification (P1-R1-2 resolution).** Per **FPF E.10
+LEX-BUNDLE** §2 Vertical Stratification (FPF-Spec L.41604):
+- **Stratum 1-2 (Kernel + Extension)**: U-Types like U.System, U.Holon,
+  U.Episteme, U.Role, U.Method, U.Case — exactly one Kernel entry per
+  U-Type. Rows #1-31 above = Kernel/Extension Stratum-1/2.
+- **Stratum 3 (Context specialization)**: Context-specific subtypes
+  declared via `⊑` (subtype-of) relation. Row #32 U.Direction ⊑ U.Holon
+  (Direction is a Jetix-context specialization of Kernel U.Holon, not a
+  second U.Holon Kernel entry). Row #33 U.CHRSpace ⊑ U.Case (CHR-space
+  is a Gap 3 Jetix-context specialization of Kernel U.Case).
+- **Stratum 4 (Instance)**: concrete identifiers (Ruslan-as-holder,
+  specific role-assignments, specific client instances). Not in this
+  table; lives в alphas/ + executors/ + clients/.
+
+D6 v1 presented Rows #3 & #32 both as Kernel U.Holon (violation),
+and Rows #15 & #33 both as Kernel U.Case (violation). v2 corrects via
+Stratum-3 subtyping labels.
 
 ### 8.2 LEX-BUNDLE 4-register discipline (per Rec-12 via Gap 4 UTS)
 
@@ -1522,10 +2541,10 @@ Explicit Bridges (F.9) с CL per E.10 + Gap 4:
 ### 8.6 Cross-refs
 
 - **FPF A.2.*** Role Taxonomy family
-- **FPF A.3 Transformer Quartet** (L.~1700) — System-in-Role /
+- **FPF A.3 Transformer Constitution (Quartet)** (L.5466) — System-in-Role /
   MethodDescription / Method / Work
 - **FPF A.6.0 U.Signature** (L.8062)
-- **FPF A.15 Role-Method-Work Alignment** (L.~17200)
+- **FPF A.15 Role-Method-Work Alignment** (L.17754)
 - **FPF C.2.1 U.EpistemeSlotGraph** (L.30495)
 - **FPF C.3 Kind-CAL** (L.33185)
 - **FPF E.10 LEX-BUNDLE** (L.41604)
@@ -1550,8 +2569,12 @@ Per R-B opening principled distinction:
 - **Violation by omission:** practitioner не uses ШСМ terms но models
   reality correctly → less dangerous.
 
-**For Jetix:** "Лучше говорить 'задача' и корректно моделировать, чем
-говорить 'альфа' и думать о Jira-тикете."
+**For Jetix:**
+> «Лучше говорить 'задача' и корректно моделировать, чем говорить 'альфа'
+> и думать о Jira-тикете.»
+>
+> **[EN translation]** *"Better to say 'task' and model correctly, than
+> to say 'alpha' and think about a Jira ticket."*
 
 ### 9.2 Core protection table
 
@@ -1601,9 +2624,13 @@ adaptation).
 **Why matters:**
 - Attribution clarity (no confusion about authorship).
 - Freedom to adapt without misrepresenting Левенчук.
-- Hard internal-only stance (OQ-09 A) preserved — JETIX-FPF secret sauce,
-  FPF community-open (sort of — upstream "all rights reserved" default
-  anyway).
+- Hard internal-only stance (OQ-09 A) preserved. **FPF licensing clarity
+  (P2-R1-4 rewording):** FPF = Левенчук-authored single-source-of-truth
+  (no formal license; citation requested per `raw/external/ailev-FPF/
+  ATTRIBUTION.md`). JETIX-FPF = Jetix-internal adaptation (internal-only
+  per OQ-09 A hard stance; no contribute-back). Former is **not
+  community-open**; it is all-rights-reserved с informal citation
+  expectation. v1 phrasing "community-open (sort of)" was misleading.
 
 **Cross-reference convention** в Jetix documents:
 - Cite **FPF canonical** for authoritative reference: "FPF A.6.B Boundary
@@ -1626,140 +2653,125 @@ cannot substitute. Strategy-support-analyst = J3 support, not J4.
 
 ### 9.8 Cross-refs
 
-- **FPF A.7 Strict Distinction** (Clarity Lattice)
+- **FPF A.7 Strict Distinction** (Clarity Lattice, L.16217)
 - **FPF E.5.1 DevOps Lexical Firewall** (L.40589)
 - **FPF K Lexical Debt** (L.62123)
 - **R-B anti-patterns** (KB Section 3.*)
 - `decisions/policy/mereology-edge-types.md` — A.14 firewall
 
+### 9.9 What's defensible about JETIX-FPF (proprietary moat vs forkable)
+
+Addresses R4 FP11 investor-readiness critique. JETIX-FPF = adaptation
+of unlicensed third-party framework; what stops competitor forking
+FPF and out-shipping? **9 genuine Jetix-specific innovations** (documented
+`wiki/foundations/jetix-innovations.md` Phase 1 write):
+
+1. **Portfolio-of-Directions (Alpha 8)** — Direction as first-class
+   8th alpha с state machine (`hypothesized` → ... → `archived`), NQD-
+   CAL per-direction, E/E-LOG per-direction, kill-CHR formal. Not
+   canonical FPF.
+2. **FPF-Steward sub-role** — dedicated quarterly-audit immune system
+   для ontological integrity. 13-item audit scope (ontology sanity,
+   past-participle, dedup, role-manifest integrity, direction-concept
+   boundary, frontmatter schema, UTS review, F-G-R compliance, A.14
+   edge verification, CHR space integrity, Viewpoint Bundle
+   correspondences, semi-annual FPF upstream sync, role-switching
+   compliance, bias-audit aggregate).
+3. **Tiered Full-FPF-Permeation** (per §5.4a) — operationalized
+   ontology-permeation с per-agent loading tier (Tier 1/2/3) respecting
+   cost discipline. Not in canonical FPF.
+4. **4-tier Resource Accounting** (per P7 + D8) — compute / time /
+   attention / relational capital as first-class tracked resources.
+5. **DACH-specific L/A/D/E template stack** (proposal + contract + DPA
+   Phase 1 Day 5-6) с jurisdiction-aware L-lane citations (BGB/HGB/
+   GDPR/EU AI Act/DACH-legal) + A-lane Konsenskultur adaptations.
+6. **Müller-style traversal pattern** (§3.6) — CRM + KB + portfolio +
+   alpha + regulatory supersystem unified query across A.14 typed
+   edges. Concrete implementation; not in canonical FPF.
+7. **Hybrid founder-mode multi-role-binding** (executors/ruslan.yaml
+   `multi-role-binding: true`) + agent role-stability discipline
+   enforced via message-schema `acting_as:` (§5.9a). Specific operational
+   synthesis.
+8. **Past-participle discipline + Hook 4 + in-X exception whitelist**
+   (§5.5 + §5.5a) — ML/LLM-friendly binary state reasoning surface,
+   operational rigor preventing drift.
+9. **JETIX-UTS 30-50 rows Layout-A Kernel-first** — Jetix-specific UTS
+   with 5 Phase-1 contexts (jetix-ops, FPF-canonical, DACH-legal,
+   AI-industry, ШСМ-Russian) concurrent с D6. Bridges + CL discipline
+   Gap 4 adoption.
+
+**Investor story:** not "fork of unlicensed framework" but
+"**opinionated DACH-AI-native commercial extension of FPF с 9 Jetix-
+proprietary innovations + Phase-1 operational discipline + Q2
+audit-defensibility baseline**". These 9 items + 14 Invariants deep
+application (§12) + client-facing discipline (§4) constitute moat
+against forks.
+
 ---
 
-## Section 10 — Mereology + Holon Hierarchy (full, not lightweight)
+## Section 10 — Mereology + Holon Hierarchy (Jetix application)
 
-Per MC3 override — "Три уровня mereological важно, обязательно мы делаем
-все три уровня максимально глубоко... Никаких упрощений."
+Per MC3 Ruslan override — «Три уровня mereological важно, обязательно мы
+делаем все три уровня максимально глубоко... Никаких упрощений.» Depth
+preserved via hybrid structure (per Option C Stage C structural decision):
+Jetix application of mereology stays in D6 (§10.6-§10.11); full academic
+lineage material moves к `wiki/foundations/holon-hierarchy.md` companion
+(ETA Phase 1 post-D6).
 
-### 10.1 Classical mereology lineage
+### 10.1 Academic lineage (compressed + companion pointer)
 
-**Foundational:**
-- **Stanisław Leśniewski** *Foundations of the General Theory of Sets*
-  (1916), *Foundations of Mathematics* (1927-1931). Polish nominalist
-  motivation: alternative к Cantorian set theory без abstract objects.
-- **Henry Leonard + Nelson Goodman** *The Calculus of Individuals* (1940).
-  Modern accessible formulation.
-- **Aristotle, Husserl, Leibniz** — pre-formal antecedents.
+**Lineage summary:** Classical mereology Leśniewski (1916) → Leonard-
+Goodman *Calculus of Individuals* (1940) → Lewis *Parts of Classes*
+(1991) → Kit Fine *Things and Their Parts* (1999) → Koestler *Ghost in
+the Machine* (1967) → Wilber *Sex, Ecology, Spirituality* (1995) →
+Mella / Jantsch / Maturana-Varela extensions.
 
-**Distinction from set theory:**
-- Set theory: {A, B} is abstract, contains А, B as *members*.
-- Mereology: whole is **nothing over and above** parts; concrete fusion.
-- Tarski (1935): Models of GEM isomorphic to complete Boolean algebras
-  minus zero element — algebraic character.
+**FPF canonical stance (Jetix adopts):** **Lewis mereological
+universalism with relevance restricted** — composition unrestricted as
+formal device; operationally only intentional/lifecycle-relevant
+compositions matter. **GEM (General Extensional Mereology) foundations
+adopted**, CEM unrestricted-composition excluded for operations. **Kit
+Fine qua-objects excluded** — FPF uses **RoleMask** (**FPF C.3.4
+RoleMask**, FPF-Spec L.34687 — Contextual Adaptation of Kinds without
+cloning) pattern instead; agency semantics routed via **FPF A.13**
+(L.17328).
 
-**Major formal systems:**
+**Koestler holon three essentials preserved for Jetix:**
+- **Janus phenomenon** (Koestler Prop 1.4) — holons face inward (parts)
+  AND outward (containing whole) simultaneously. Jetix = U.System AND
+  U.Episteme simultaneously (§1.1).
+- **S-A vs INT tendencies** (Prop 4.1) — healthy holon balances self-
+  assertive wholeness AND integrative partness. Failure modes: S-A
+  excess (Prop 9.4 "monopolizing") / INT excess (Prop 9.5 groupthink).
+  Used в bias-audit reasoning (§12.10).
+- **Any stable bio/social sub-whole applies** (Prop 1.5) — licences
+  calling Jetix departments / alphas / roles holons.
 
-| System | Additions | Character |
-|--------|-----------|-----------|
-| M (Minimal) | Reflexivity + Transitivity + Antisymmetry | Partial ordering |
-| MM | + Weak Supplementation | Proper part implies disjoint companion |
-| EM | + Strong Supplementation | No two distinct wholes с same proper parts |
-| GEM | + Unrestricted Composition | Classical (Leonard-Goodman) |
-| CEM | = GEM | Classical Extensional Mereology |
+**Wilber 4-quadrants** (UL "I" subjective / UR "It" observable / LL
+"We" culture / LR "Its" institutions) — used для Multi-View Publication
+(§4.4) analogical framing + bias-audit quadrant-coverage check.
 
-**Three core axioms:**
-- Reflexivity (P.1): ∀x Pxx
-- Transitivity (P.2): (Pxy ∧ Pyz) → Pxz
-- Antisymmetry (P.3): (Pxy ∧ Pyx) → x=y
+**Full academic treatment (Leśniewski axiom derivation, GEM ⇄ Boolean
+algebra isomorphism per Tarski 1935, Kit Fine hylomorphism, Monster
+Objection, autopoiesis critique)**: moved к `wiki/foundations/holon-
+hierarchy.md` (Phase 1 post-D6 write). D6 retains Jetix-application
+depth (§10.6-§10.11) + exclusion justification (§10.8).
 
-**Critical supplementation:**
-- **Weak Supplementation (P.4):** Proper part has companion disjoint part.
-- **Strong Supplementation (P.5):** Entails extensionality.
+**Critical exclusions (unchanged from v1):** CEM unrestricted composition
+operationally ignored; BFO explicitly rejected (per ailev/1451832
+«негодная онтология для инженерных задач» / "unfit ontology for
+engineering tasks"); Van Inwagen's organicism excluded (would deny non-
+biological composites). Full exclusion list + rationales в §10.8.
 
-**GEM Unrestricted Composition (P.15):** Any non-empty collection has
-fusion. Implies "fusion of Cleopatra's nose and Eiffel Tower" exists.
-Operationally irrelevant для Jetix (only intentional compositions matter).
+### 10.2 (Lewis, Fine, constructor-theory vocabulary — moved к companion)
 
-### 10.2 David Lewis mereological universalism
-
-*Parts of Classes* (1991) — applied GEM к set theory; defended mereological
-universalism (composition unrestricted, relevance restricted). **The
-pragmatic stance FPF effectively adopts** (Левенчук-favored approach).
-
-### 10.3 Kit Fine hylomorphic mereology (acknowledged, applicable где useful)
-
-*Things and Their Parts* (1999):
-- **Hylomorphism** — form as constitutive element.
-- **Qua-objects** — object qua playing a role.
-- **Mereological coincidence** — distinct objects same location, different
-  modal profiles (statue vs clay).
-- **"Monster Objection"** against CEM: ham + cheese + bread fuse to ham-
-  sandwich BEFORE assembly (since fusion exists whenever parts exist).
-
-**Most philosophically sophisticated departure from CEM.**
-
-**FPF stance (per KB Section 7.3):** Kit Fine qua-objects excluded — FPF
-uses **RoleMask** (C.3.4) pattern instead (role as mask holon wears в
-context, no separate qua-object needed).
-
-**For Jetix:** Kit Fine granular mereology vocabulary **acknowledged where
-useful**; full formal apparatus skipped. Per Section 7.6 KB evaluation,
-extract concept "granularity level"; skip formal apparatus.
-
-### 10.4 Constructor theory (Deutsch + Marletto, vocabulary only)
-
-**Constructor theory** (2012-present): Meta-theory of physics — possible
-vs impossible transformations (tasks). Not mereology per se but provides
-vocabulary for FPF creation graph. FPF imports **vocabulary only** (not
-physics foundations) per ailev/1776793.
-
-**For Jetix:** applicable где useful (Section 13 Constructor/Category
-applications).
-
-### 10.5 Koestler holons + Wilber four-quadrants
-
-**Arthur Koestler** *The Ghost in the Machine* (1967). Coined "holon"
-from Greek *holos* (whole) + *-on* (part).
-
-**Definition:** "Sub-wholes on any level of the hierarchy are referred to
-as holons."
-
-**Key propositions:**
-- (1.2) Multi-levelled hierarchy of semi-autonomous sub-wholes.
-- (1.3) Parts and wholes in absolute sense don't exist.
-- (1.4) **Janus phenomenon** — holons face inward (parts) AND outward
-  (containing whole) simultaneously.
-- (1.5) Applies к any stable bio/social sub-whole с rule-governed behaviour.
-
-**S-A vs INT tendencies (Proposition 4.1):**
-> Every holon has dual tendency to preserve and assert its individuality
-> as quasi-autonomous whole; AND to function as integrated part of larger
-> whole.
-
-- **S-A (Self-assertive)** — wholeness expression.
-- **INT (Integrative)** — partness expression.
-
-**Dynamic equilibrium (Prop 9.1):** Healthy organism balances S-A and INT
-tendencies. Two failure modes:
-- (9.4) S-A excess: holon "monopolizes functions".
-- (9.5) INT excess: "power of whole erodes part autonomy" (groupthink).
-
-**Ken Wilber** (*Sex, Ecology, Spirituality*, 1995) — Four Quadrants:
-
-| Quadrant | Label | Description |
-|----------|-------|-------------|
-| UL | "I" | Subjective experience, consciousness |
-| UR | "It" | Physical form, observable behavior |
-| LL | "We" | Shared culture, values |
-| LR | "Its" | Social systems, institutions |
-
-**Tetra-arising:** Every holon enacts all four quadrants simultaneously.
-
-**Other extensions acknowledged:**
-- **Piero Mella** *The Holonic Revolution* — functional emergence beyond
-  structural.
-- **Erich Jantsch** *The Self-Organizing Universe* — self-organization
-  through coherence thresholds.
-- **Maturana + Varela autopoiesis** — strong version of holonic self-
-  assertion.
+*Placeholder — full content в `wiki/foundations/holon-hierarchy.md`.*
+D6 retains only D6-operationally-consequential residue:
+- Lewis pragmatic stance = FPF canonical (above §10.1).
+- Kit Fine qua-objects **excluded**; A.13 RoleMask used instead (see
+  §10.8).
+- Constructor theory vocabulary imported only (not physics); operational
+  residue в §13 + §10.10 Compose-CAL.
 
 ### 10.6 Jetix holon hierarchy fully documented
 
@@ -1819,7 +2831,12 @@ From **CEM/GEM:**
 - Flat "no preferred decomposition" stance (privileges partonomy).
 
 From **Kit Fine:**
-- Qua-objects (role-as-mask sufficient via C.3.4 RoleMask).
+- Qua-objects (role-as-mask sufficient via **FPF C.3.4 RoleMask** —
+  Contextual Adaptation of Kinds, FPF-Spec L.34687; coexists with **FPF
+  A.13 Agential Role & Agency Spectrum** L.17328 which covers agency
+  semantics — v1 citation was correct; P3-R1-5 reviewer-finding rejected
+  per FPF-Spec verification `grep -n "^## C\.3\.4" raw/external/ailev-FPF/
+  FPF-Spec.md` → L.34687).
 - Mereological coincidence as general principle.
 - Full location pluralism.
 
@@ -1881,6 +2898,11 @@ canonical), not 17 (2021 retired version).
 > «Дисциплины интеллект-стека называют часто трансдисциплинами, это
 > 'дисциплины для рассуждения в ходе задействования прикладных дисциплин'
 > (trans- — это 'находящиеся по ту сторону' от прикладных дисциплин).»
+>
+> **[EN translation]** *"Intellect-stack disciplines are often called
+> trans-disciplines — 'disciplines for reasoning during the engagement of
+> applied disciplines' (trans- meaning 'located on the other side of'
+> applied disciplines)."*
 
 **Scale-freeness:** Применимы к elementary particles, организмам,
 organizations, galactic structures equally.
@@ -1930,60 +2952,47 @@ organizations, galactic structures equally.
 **Action/engineering layer — disciplines 15-16:**
 
 15. **Методология (Methodology)** — scale-free teaching about agents'
-    activities changing world. **Home of 5 primitives: роль / альфа /
-    граф создания / стратегирование.**
+    activities changing world. **Home of 5 ШСМ foundational concepts:
+    роль / альфа / граф создания / стратегирование / мышление письмом.**
 16. **Системная инженерия (Systems Engineering)** — **2023 apex** —
     normatively prescribes how activities for creating systems should be
     structured.
 
-### 11.3 Dependency graph (simplified)
+### 11.3 Dependency structure (compressed + companion pointer)
 
-```
-Foundation:    Понятизация → Собранность → Семантика → Математика, Физика  [1-5]
-Formal:        Теория понятий → Онтология → Алгоритмика → Логика           [6-9]
-Knowledge:     Рациональность → Познание/Исследования                       [10-11]
-Coordination:  Эстетика → Этика → Риторика                                  [12-14]
-Action:        Методология → Системная инженерия                            [15-16]
-```
+Layered structure (Foundation 1-5 → Formal 6-9 → Knowledge 10-11 →
+Coordination 12-14 → Action 15-16). Per R-C Section 3.2: true structure
+is **graph (lattice), not sequence** — linearization is pedagogical
+convenience.
 
-Per R-C Section 3.2: true structure is **graph (lattice), not sequence**.
-Linearization — pedagogical convenience.
+**Full dependency graph + FPF-5-layer-vs-16-disciplines tension analysis
++ 17-vs-16 evolution history** moved к `wiki/foundations/trans-
+disciplines.md` companion (per Option C hybrid Stage C structural
+decision). D6 retains concept + enumeration + Jetix-subset.
 
-### 11.4 Relation к 5 primitives
+### 11.4 Relation к 5 ШСМ foundational concepts
 
 | Trans-discipline | Primary home of |
 |------------------|-----------------|
 | **Методология (15)** | ★★★ Роль, Альфа, Граф создания, Стратегирование |
-| **Собранность (2)** | ★★★ Мышление письмом (как practice экзокортекса) |
+| **Собранность (2)** | ★★★ Мышление письмом — primary home (экзокортекс practice); **BUT cross-cuts all disciplines** per R-C Executive Summary (scale-free practice, central instrument в every skill) |
 | **Системная инженерия (16)** | Normative role system + canonical alphas |
 
-Others 13 trans-disciplines provide foundational support.
+**Cross-cutting note (P3-R1-1 refinement):** «Мышление письмом» is
+scale-free practice, not exclusively housed в Собранность — per
+ailev/1513051 practised across all ШСМ courses. Primary home =
+Собранность (exocortex discipline); **applied instrument across all
+15 other disciplines**.
 
-### 11.5 Relation к FPF-Spec Parts A-K
+### 11.5 FPF-5-layer vs ШСМ-16-discipline — different abstractions
 
-⚠ **Critical note (per R-C):** FPF-Spec **does not mention** intellect-
-stack explicitly. FPF Part C (Kernel Extension Specifications) concerns
-**bounded-context reasoning tools** (logics, characterisation families),
-не educational intellect-stack taxonomy.
-
-**However** FPF-Spec Preface includes informative "Intellect Stack" section
-(5 layers, not 16 disciplines):
-
-| FPF Layer | Question | Patterns |
-|-----------|----------|----------|
-| 1 — Structure & Reality | What exists? | Kind-CAL, Sys-CAL |
-| 2 — Knowledge & Reasoning | Why trust claim? | KD-CAL (F-G-R), Arg-LOG |
-| 3 — Action & Execution | Intent → change? | Agent-CHR, Method-CAL, Resrc-CAL |
-| 4 — Strategy & Rationality | Option under uncertainty? | Decsn-CAL |
-| 5 — Governance & Purpose | Why act; what permissible? | Norm-CAL |
-
-**⚠ FPF Preface stack is pedagogical projection.** Per FPF-Spec L.730:
-"A full description of the Intellect Stack and its layers resides in the
-Pedagogical Companion."
-
-**For Jetix:** ШСМ 16 trans-disciplines = curriculum/competency frame;
-FPF 5-layer stack = patterns map. **Different abstractions для разных
-audiences** (не contradictory).
+Summary (full в companion): FPF-Spec **does not mention intellect-stack**
+explicitly; FPF-Preface 5-layer stack (Structure & Reality / Knowledge &
+Reasoning / Action & Execution / Strategy & Rationality / Governance &
+Purpose) is pedagogical projection (per FPF-Spec L.730). ШСМ 16
+trans-disciplines = curriculum/competency frame; FPF 5-layer = patterns
+map. **Not contradictory** — different abstractions для different
+audiences.
 
 ### 11.6 Jetix-specific subset — which trans-disciplines Jetix practitioners need
 
@@ -1997,7 +3006,7 @@ audiences** (не contradictory).
 - 10. **Рациональность** — Popperian discipline (conjectures + refutations
   в hypothesis management).
 - 11. **Познание / Исследования** — portfolio research methodology.
-- 15. **Методология** — 5 primitives + role-manifest authoring.
+- 15. **Методология** — 5 ШСМ foundational concepts + role-manifest authoring.
 - 16. **Системная инженерия** — Jetix-as-product + client audits.
 
 **Applied (functional):**
@@ -2012,24 +3021,13 @@ audiences** (не contradictory).
 - 8. **Алгоритмика** — implicit for compute/AI architecture choices.
 - 12. **Эстетика** — code quality, artifact quality.
 
-### 11.7 17 vs 16 — historical note
+### 11.7 17 vs 16 — historical note (compressed)
 
-Per R-C Section 1.2 + KB Section 4.2:
-
-- **Pre-2019 (STEM era):** Standard STEM. No "trans-discipline" framing.
-- **2019:** Three-block ШСМ structure (6 proto-trans-disciplines).
-- **Mid-2021 (6 trans-disciplines):** онтологика + коммуникации, научное
-  мышление, etc.
-- **August 2021 (16 levels):** "вместо 12 уровней стало 16" after splitting
-  онтологика.
-- **End-2021 (17 в Образование для образованных 2021):** added Труд
-  (инженерия + менеджмент + предпринимательство).
-- **2023 (16 в Интеллект-стек 2023):** Труд → Системная инженерия; added
-  Математика + Физика; removed Экономика, Объяснения, Теория информации
-  (last absorbed into Физика).
-
-**For Jetix:** Use **16** always; note "historical 17" if referenced в
-older Ruslan notes.
+Evolution: Pre-2019 STEM → 2019 6 proto-trans-disciplines → Aug 2021 16
+levels → End-2021 17 (Труд added) → 2023 16 (Труд → Системная инженерия,
+Математика + Физика added, Экономика/Объяснения/Теория-информации
+removed). **For Jetix: use 16 always.** Full historical detail в
+`wiki/foundations/trans-disciplines.md` companion.
 
 ### 11.8 Cross-refs
 
@@ -2254,6 +3252,72 @@ subholon-feedback.
 (`decisions/strategy/` or `decisions/adr/`). Every Chunk 8 adoption
 decision was DRR-grade.
 
+**Example — DRR for "Adopt Option C hybrid structural decision" (this Stage C):**
+
+```markdown
+# DRR-2026-04-20-d6-structural-decision-option-c
+
+Δ-class: Δ-3 (full semantic change — restructures D6 sections 10 + 11)
+
+## Problem frame
+Trigger: Stage B Reviewer 4 Enterprise Reader critique (commit 582349f)
+flagged Sections 10 + 11 as "constitutional-document cargo" — academic
+mereology lineage (Leśniewski→Lewis→Fine→Koestler→Wilber→Mella→Jantsch)
+and 16-trans-disciplines history reading as founder-syndrome perfectionism
+to investor/Aufsichtsrat audience. Concurrent Ruslan MC3 hard override:
+"full mereology, никаких упрощений, max Левенчук depth".
+
+## Decision
+**Option C (hybrid):** Keep D6 constitutional core + Jetix application of
+mereology (§10.6-10.11) + trans-discipline Jetix-subset (§11.6) в place;
+move academic-lineage content (§10.1-10.5 reduced к summary + pointer,
+§11.3-11.5 + 11.7 reduced к summary + pointer) к `wiki/foundations/holon-
+hierarchy.md` + `wiki/foundations/trans-disciplines.md` companions.
+
+## Rationale
+- **Ontology fidelity primary** (per Stage C prompt ranking): R1 Левенчук
+  Purist says "do not shrink Section 10" — depth is mereology requirement.
+- **Hybrid satisfies both**: depth preserved (in companions) + clarity
+  restored (D6 reads as constitutional doc). Ruslan MC3 literal text
+  "три уровня максимально глубоко" — depth in companion satisfies literal
+  text; full formalism не required in constitutional doc per GR-2
+  Notational Independence.
+- **R4 Enterprise Reader critique valid**: 55-y.o. Mittelstand
+  Geschäftsführer closing PDF at page 3 is real risk; founder-syndrome
+  signal unfavorable for Series A defensibility.
+- **Option A (keep monolithic)** rejected: ignores R4; 50-page constitutional
+  doc impossible to сoherently orient new hires.
+- **Option B (aggressive split — 6 companions)** rejected: too much
+  scaffolding overhead для Phase 1; loses constitutional coherence.
+
+## Pillars check (FPF E.2)
+- P-1 Cognitive Elegance ✓ (tighter structure; less ornamental)
+- P-2 Didactic Primacy ✓ (reader comprehension elevated)
+- P-3 Scalable Formality ✓ (depth available in companions when needed)
+- P-10 Open-Ended Evolution ✓ (companions can evolve independently)
+
+## Consequences
+- D6 length: ~40 pages (vs v1 ~50) — target fit for constitutional role.
+- Companion files become "deep-depth references" — writable Phase 1 post-D6.
+- Reader-routing table (§0.5) operational immediately.
+- FPF-Steward Q2 audit scope expands к verify companion-file integrity.
+
+## Kill conditions
+- If quarterly readership metrics show companions unused (<2 reads/qtr
+  by FPF-Steward + knowledge-synth combined) → reconsider whether split
+  justified (re-merge к monolithic possible).
+- If Ruslan writing workflow blocked by pointer-indirection — reconsider.
+
+## Review checkpoint
+2026-Q3 close (FPF-Steward quarterly audit) — verify companion files
+populated; measure D6 onboarding-to-usable-agent time baseline.
+```
+
+This DRR itself is a worked example: **Problem frame + Decision +
+Rationale + Consequences + Kill conditions + Review checkpoint**
+structure, ~250 words core, committed to `decisions/strategy/2026-04-20-
+d6-v2-structural-decision.md` alongside v2 commit.
+
 ### 12.15 Cross-refs
 
 - **FPF A.1, A.3, A.7-A.13, A.14, A.15, A.17-A.21, A.6.B**
@@ -2360,89 +3424,163 @@ problem informal language cannot solve. No more. (Per KB Section 7.6
 - **Upstream:** [github.com/ailev/FPF](https://github.com/ailev/FPF) — 320
   stars / 52 forks (April 2026).
 
-### 14.2 FPF patterns cited in JETIX-FPF (verified line numbers)
+### 14.2 FPF patterns cited in JETIX-FPF (exact verified line numbers)
 
-All patterns verified against FPF-Spec.md via Grep/Read:
+All line numbers verified against `raw/external/ailev-FPF/FPF-Spec.md`
+(62,202 lines, March 2026 vendored commit 0a22129) via reproducible
+`grep -n "^## <pattern-id> -"` commands. v1 contained ~17 citations off
+by 100-3766 lines (worst: A.3 off by 3766); v2 replaces all `~approx`
+values с exact line numbers (P1-R1-1 resolution).
 
 | Pattern ID | Name | Line | Section in D6 |
 |------------|------|------|---------------|
-| A.0 | NQD Onboarding | ~769 | Preamble |
+| A.0 | Onboarding Glossary (NQD & E/E-LOG) | 769 | Preamble |
 | A.1 | Holonic Foundation | 1017 | 1.1, 1.2, 1.7, 10.7, 12.1 |
 | A.1.1 | U.BoundedContext | 1202 | 1.1, 5.2 |
-| A.2 | Role Taxonomy | ~1500 | 2.1, 5.1, 8.1 |
-| A.2.1 | U.RoleAssignment | ~1600 | 2.1, 4.1, 8.1 |
-| A.2.5 | U.RoleStateGraph | ~2100 | 5.5, 6.1 |
-| A.3 | Transformer Quartet | ~1700 | 8.1, 12.2 |
-| A.4 | Temporal Duality | ~7000 | 5.5 |
+| A.2 | Role Taxonomy | 1403 | 2.1, 5.1, 8.1 |
+| A.2.1 | U.RoleAssignment | 1613 | 2.1, 4.1, 8.1 |
+| A.2.5 | U.RoleStateGraph | 3282 | 5.5, 6.1 |
+| A.3 | Transformer Constitution (Quartet) | 5466 | 8.1, 12.2 |
+| A.4 | Temporal Duality & Open-Ended Evolution | 6489 | 5.5 |
+| A.6 | Signature Stack & Boundary Discipline | 6671 | 12.9 |
 | A.6.0 | U.Signature | 8062 | 5.12 |
 | A.6.B | Boundary Norm Square | 7097 | 4.3, 4.6, 5.8, 12.9 |
 | A.6.C | Contract Unpacking | 7741 | 4.3 |
-| A.6.H | Wholeness Unpacking | 15851 | 4.3 |
-| A.6.P | Relational Precision | 10601 | 4.3 |
-| A.6.Q | Quality Term Precision | 11326 | 4.1, 4.3 |
+| A.6.H | Wholeness Unpacking (RPR-WHOLE) | 15851 | 4.3 |
+| A.6.P | Relational Precision (RPR) | 10601 | 4.3 |
+| A.6.Q | Quality Term Precision (Q-TERM) | 11326 | 4.1, 4.3 |
 | A.6.S | Signature Engineering Pair | 15419 | 6.4, 13.2 |
 | A.6.3.CR | Same-Entity Retextualization | 9521 | 4.4 |
-| A.7 | Strict Distinction | ~16500 | 9.8 |
-| A.8 | Universal Core | ~17000 | 8.2 |
-| A.13 | Agential Role & Agency Spectrum | 17328 | 2.1, 5.12 |
+| A.7 | Strict Distinction (Clarity Lattice) | 16217 | 9.8 |
+| A.8 | Universal Core Principle (C-1) | 16681 | 8.2 |
+| A.10 | Evidence Graph Referring (C-4) | 16930 | 2.1a |
+| A.12 | External Transformer & Reflexive Split | 17194 | 12.1 |
+| A.13 | Agential Role & Agency Spectrum | 17328 | 2.1, 2.1a, 5.12, 10.8 |
 | A.14 | Advanced Mereology | 17478 | 1.7, 3.1, 3.5, 3.7, 5.12, 9.4, 10.7, 12.1 |
-| A.15 | Role-Method-Work Alignment | ~17200 | 3.5, 5.12, 12.3 |
-| A.15.1 | U.Work | ~17250 | 6.6, 12.2 |
-| A.15.2 | U.WorkPlan | ~17280 | 6.6, 12.2 |
-| A.16 | PreArticulationCuePack | 18954 | Phase 1 Rec-17 integration |
-| A.16.1 | PACK extension | 19549 | Rec-17 |
-| A.17 | CHR-NORM | 20064 | 4.3, 12.8 |
+| A.15 | Role-Method-Work Alignment | 17754 | 3.5, 5.12, 12.3 |
+| A.15.1 | U.Work | 18020 | 6.6, 12.2 |
+| A.15.2 | U.WorkPlan | 18389 | 6.6, 12.2 |
+| A.16 | Language-State Transduction Coordination | 18954 | Phase 1 Rec-17 |
+| A.16.1 | U.PreArticulationCuePack | 19549 | Rec-17 |
+| A.17 | Canonical Characteristic (CHR-NORM) | 20064 | 4.3, 12.8 |
 | A.18 | Minimal CSLC Kernel | 20202 | 6.3.8, 12.8 |
-| A.19 | CharacteristicSpace | 20359 | 12.8 |
+| A.19 | CharacteristicSpace & Dynamics Hook | 20359 | 12.8 |
 | A.20 | Flow Constraint Validity | 24927 | 12.8 |
 | A.21 | GateProfilization | 25224 | 12.8 |
-| B.1 | Γ Universal Algebra | ~26000 | 3.1, 10.7, 12.6 |
-| B.2 | Meta-Holon Transition | 27444 | 7.2 trigger, 12.13 |
+| B.1 | Γ Universal Algebra of Aggregation | 25581 | 3.1, 10.7, 12.6 |
+| B.2 | Meta-Holon Transition (MHT) | 27444 | 7.2 trigger, 12.13 |
 | B.2.5 | Supervisor-Subholon Feedback | 28100 | 12.13 |
-| B.3 | Trust & Assurance Calculus | 28201 | 4.2, 12.7 |
+| B.3 | Trust & Assurance Calculus (F-G-R) | 28201 | 4.2, 12.7 |
+| B.3.4 | Evidence Decay & Epistemic Debt | 28670 | 4.2 |
 | B.4 | Canonical Evolution Loop | 29094 | 7.1, 7.6 |
-| B.5.2 | Abductive Loop | ~29500 | 5.10.4 |
-| B.5.2.0 | U.AbductivePrompt | ~29600 | 5.10.4, 8.1 |
-| C.2.1 | U.EpistemeSlotGraph | 30495 | 6.6, 8.1 |
-| C.2.2 | Reliability R | 31301 | 4.2 |
+| B.5.2 | Abductive Loop | 29606 | 5.10.4 |
+| B.5.2.0 | U.AbductivePrompt | 29905 | 5.10.4, 8.1 |
+| C.2.1 | U.Episteme — Epistemes and slot graph | 30495 | 6.6, 8.1 |
+| C.2.2 | Reliability R in F-G-R triad | 31301 | 4.2 |
 | C.2.2a | U.LanguageStateSpace | 31676 | 8.1 |
-| C.3 | Kind-CAL | 33185 | 8.1 |
-| C.11 | Decsn-CAL | ~35500 | 5.10.4 |
-| C.13 | Compose-CAL | 36503 | 10.7, 10.10, 13.2 |
-| C.18 | NQD-CAL | 37808 | 5.10.4, 6.3.5, 7.5 |
-| C.18.1 | Scaling-Law Lens | 37919 | 7.5 BLP |
-| C.19 | E/E-LOG | 38008 | 5.10.4, 6.3.5, 7.5 |
-| C.19.1 | Bitter-Lesson Preference | ~38100 | 7.5 BLP |
-| C.22 | Problem-CHR TaskSignature | 38734 | Phase 1 Rec-16 |
+| C.3 | Kinds, Intent/Extent, Typed Reasoning (Kind-CAL) | 33185 | 8.1 |
+| C.3.4 | RoleMask — Contextual Adaptation of Kinds | 34687 | 10.1, 10.8 |
+| C.11 | Decision Theory (Decsn-CAL) | 35856 | 5.10.4 |
+| C.13 | Constructional Mereology (Compose-CAL) | 36503 | 10.7, 10.10, 13.2 |
+| C.18 | Open-Ended Search Calculus (NQD-CAL) | 37808 | 5.10.4, 6.3.5, 7.5 |
+| C.18.1 | Scaling-Law Lens Binding | 37919 | 7.5 BLP |
+| C.19 | Explore-Exploit Governor (E/E-LOG) | 38008 | 5.10.4, 6.3.5, 7.5 |
+| C.19.1 | Bitter-Lesson Preference (BLP) | 38327 | 7.5 BLP |
+| C.22 | Problem Typing & TaskSignature (Problem-CHR) | 38734 | Phase 1 Rec-16 |
 | D.5 | Bias-Audit & Ethical Assurance | 39964 | 4.3, 12.10 |
 | E.1 | Vision & Mission | 40088 | Preamble |
 | E.2 | Eleven Pillars | 40148 | 12.4 |
 | E.3 | Principle Taxonomy & Precedence | 40264 | 12.4 |
-| E.5 | Four Guard-Rails | 40487 | 12.5 |
+| E.5 | Four Guard-Rails of FPF | 40487 | 12.5 |
 | E.5.1 | DevOps Lexical Firewall | 40589 | Preamble, 8.5 |
 | E.5.3 | Unidirectional Dependency | 40743 | Preamble |
-| E.9 | DRR Design-Rationale Record | 41506 | 7.2, 12.14 |
-| E.10 | LEX-BUNDLE | 41604 | 5.10.2, 8.1, 8.2, 8.3 |
-| E.17 | Multi-View Publication Kit | 45107 | 4.4, 13.1 |
+| E.9 | Design-Rationale Record (DRR) | 41506 | 7.2, 12.14 |
+| E.10 | LEX-BUNDLE (Unified Lexical Rules) | 41604 | 5.10.2, 8.1, 8.2, 8.3 |
 | E.17.0 | U.MultiViewDescribing | 43945 | 8.1 |
 | E.17.1 | U.ViewpointBundleLibrary | 44325 | 4.4 |
 | E.17.2 | TEVB | 44696 | 4.4 |
+| E.17 | Multi-View Publication Kit | 45107 | 4.4, 13.1 |
 | E.18 | Transduction Graph Architecture | 47502 | 13.1 |
 | E.20 | Mechanism Introduction Protocol | 48322 | Rec-20 |
 | F.0.1 | Contextual Lexicon Principles | 48660 | 5.2 |
-| F.1 | Domain-Family Landscape Survey | 49995 | 5.2 |
-| F.4 | Role Description | 50333 | 5.6 |
-| F.6 | Role Assignment Cycle | 50641 | 5.8 |
-| F.7 | Concept-Set Table | 51194 | 8.1 |
-| F.9 | Alignment & Bridge | 51539 | 5.2, 8.4 |
+| F.1 | Domain-Family Landscape Survey | 48995 | 5.2 |
+| F.4 | Role Description (RCS + RoleStateGraph + Checklists) | 49984 | 5.6 |
+| F.6 | Role Assignment & Enactment Cycle (Six-Step) | 50641 | 5.8, 5.8.1 |
+| F.7 | Concept-Set Table | 50898 | 8.1 |
+| F.9 | Alignment & Bridge across Contexts | 51539 | 5.2, 8.4 |
 | F.9.1 | Bridge Stance Overlay | 52071 | 8.4 |
 | F.11 | Method Quartet Harmonisation | 52604 | 7.3 |
 | F.17 | Unified Term Sheet (UTS) | 54586 | 5.2, 8.1, 12.12 |
-| G.5 | Multi-Method Dispatcher | 58316 | 7.4 |
+| G.5 | Multi-Method Dispatcher & MethodFamily Registry | 58316 | 7.4 |
 | J.4 | First Practical Entry Route Index | 62110 | 14.5 |
 | K | Lexical Debt & Mandatory Replacements | 62123 | 8.5 |
 
-**Total verified patterns: ~60+.**
+**Total verified patterns: 72.** All line numbers exact per FPF-Spec.md
+(March 2026 vendored commit 0a22129). Reproducible verification:
+```bash
+grep -n "^## <pattern-id> -" raw/external/ailev-FPF/FPF-Spec.md
+```
+Tooling commitment: `tools/verify-fpf-citations.sh` (Phase 1 Day 10 ETA)
+runs this check automatically в pre-commit hook; prevents recurrence of
+v1 line-number drift.
+
+### 14.2a Reference status audit table (P1-R2/R3 Theme-T3 reference-chain integrity)
+
+Addresses cross-reviewer theme **T3** — per R1 + R2 + R3: cross-references
+к non-existing artifacts create trust-erosion. Each policy/companion/
+template referenced throughout D6 carries explicit status + ETA:
+
+| Reference | Status | ETA | Writer |
+|-----------|--------|-----|--------|
+| `wiki/foundations/jetix-uts.md` | concurrent с D6 | 2026-04-26 | Ruslan + knowledge-synth |
+| `wiki/foundations/jetix-creation-graph.md` | placeholder | 2026-04-27 | Ruslan |
+| `wiki/foundations/fpf-tooling.md` | placeholder (Rec-13) | 2026-05-04 | Ruslan + system-admin |
+| `wiki/foundations/jetix-innovations.md` | placeholder | 2026-05-04 | knowledge-synth |
+| `wiki/foundations/shsm-primitives.md` | placeholder | 2026-05-04 | knowledge-synth |
+| `wiki/foundations/holon-hierarchy.md` | placeholder (Option C hybrid move) | 2026-05-04 | knowledge-synth |
+| `wiki/foundations/trans-disciplines.md` | placeholder (Option C hybrid move) | 2026-05-04 | knowledge-synth |
+| `wiki/foundations/jetix-fpf-distilled.md` | placeholder (P1-R3-1 loading tier) | 2026-04-27 | Ruslan |
+| `decisions/policy/boundary-discipline.md` | placeholder (Gap 1) | 2026-04-27 | Ruslan + external legal |
+| `decisions/policy/trust-tagging.md` | placeholder (Gap 2) | 2026-05-04 | Ruslan |
+| `decisions/policy/sku-pricing-chr.yaml` | placeholder (Gap 3) | 2026-05-11 | Ruslan + Vladislav advisor |
+| `decisions/policy/agent-promotion-chr.yaml` | placeholder (Gap 3 + P1-R3-4) | 2026-04-27 | Ruslan + meta-agent |
+| `decisions/policy/characteristic-space-conventions.md` | placeholder | 2026-05-11 | Ruslan |
+| `decisions/policy/mereology-edge-types.md` | placeholder (Rec-05) | 2026-05-04 | knowledge-synth |
+| `decisions/policy/phase-transitions-mht.md` | placeholder (Rec-06) | 2026-05-11 | Ruslan |
+| `decisions/policy/bias-audit-cycle.md` | placeholder (Rec-03) | 2026-05-04 | Ruslan + ethics advisor |
+| `decisions/policy/mechanism-introduction.md` | placeholder (Rec-20) | 2026-05-11 | Ruslan |
+| `decisions/policy/multi-method-dispatcher.md` | placeholder (Rec-21) | 2026-06-15 (Phase 2b relevance) | Ruslan |
+| `decisions/policy/past-participle-exceptions.md` | placeholder (P1-R1-3) | 2026-04-27 | Ruslan |
+| `decisions/policy/eu-ai-act-risk-tier.yaml` | placeholder (P1-R2-2) | 2026-04-30 | Ruslan + external DPO |
+| `decisions/policy/eu-ai-act-client-faq.md` | placeholder (P1-R2-2) | 2026-05-04 | framing-lead sub-role |
+| `decisions/policy/retention-gdpr-hgb.md` | placeholder (P1-R2-3) | 2026-05-04 | Ruslan + external DPO |
+| `decisions/policy/anthropic-deployment.md` | placeholder (EU AI Act Art. 29a) | 2026-05-04 | system-admin |
+| `decisions/policy/robustness-testing.md` | placeholder (Phase 2a ISO 24029-2) | 2026-09-01 | Ruslan |
+| `decisions/policy/dach-mittelstand-conventions.md` | placeholder (R2 FP8) | 2026-05-11 | Ruslan + external DACH advisor |
+| `decisions/policy/tom-security-measures.md` | placeholder (Art. 32 TOMs) | 2026-05-04 | system-admin |
+| `ops/gdpr-art-33-playbook.md` | placeholder (R2 FP6 breach framework) | 2026-05-11 | Ruslan + external DPO |
+| `ops/gdpr-art-30-ropa.yaml` | placeholder | 2026-05-11 | Ruslan |
+| `ops/gdpr-art-13-privacy-notice-template.md` | placeholder | 2026-05-04 | Ruslan |
+| `ops/gdpr-art-35-dpia-template.md` | placeholder (Art. 35 DPIA) | 2026-05-11 | Ruslan + external DPO |
+| `ops/gdpr-transfer-impact-assessment.md` | placeholder (Schrems II) | 2026-05-04 | system-admin |
+| `ops/regulatory-incidents/` | directory structure | 2026-05-11 | system-admin |
+| `decisions/templates/jetix-viewpoint-bundle.yaml` | placeholder (Gap 5) | 2026-05-11 | framing-lead sub-role |
+| `decisions/templates/audit-canonical-template.md` | placeholder | 2026-05-11 | Ruslan |
+| `decisions/templates/views/` (5 viewpoint templates) | placeholder | 2026-05-18 | framing-lead sub-role |
+| `decisions/templates/client-intake-problem-chr.yaml` | placeholder (Rec-16) | 2026-05-11 | sales-closer sub-role |
+| `decisions/templates/kill-chr-template.yaml` | placeholder (Gap 3) | 2026-05-11 | strategy-lead sub-role |
+| `decisions/templates/mht-template.yaml` | placeholder (Rec-06) | 2026-05-11 | Ruslan |
+| `decisions/templates/bias-audit/` (3 templates BA-0/1/3) | placeholder | 2026-05-11 | Ruslan + ethics advisor |
+| `decisions/templates/art22-explanation.md` | placeholder (P1-R2-3) | 2026-05-04 | Ruslan + external DPO |
+| `decisions/fpf-stewardship/2026-Q2-ontology-audit.md` | placeholder (Rec-22) | 2026-06-30 (Q2 close) | meta-agent + Ruslan |
+| `shared/schemas/executor-binding.schema.json` | placeholder (P1-R3-5) | 2026-04-27 | system-admin |
+| `shared/schemas/message.schema.json` update (`acting_as` field) | Phase 1 Day 1 update | 2026-04-25 | system-admin |
+| `design/JETIX-FPF-BRIEF.md` | placeholder (R4 external brief) | 2026-06-01 | Ruslan + framing-lead sub-role |
+| `design/diagrams/d6/` (6 SVG sister diagrams) | placeholder (R4) | 2026-06-30 | Ruslan |
+
+**FPF-Steward Q2 2026 audit scope includes:** verify each placeholder
+fulfilled by ETA OR ADR explains deferral. Missing artifacts past ETA
++ 2 weeks → escalation class `strategic` message к Ruslan.
 
 ### 14.3 Jetix cross-references (D1-D9 internal)
 
@@ -2476,7 +3614,7 @@ All patterns verified against FPF-Spec.md via Grep/Read:
 - `wiki/foundations/fpf-tooling.md` — Rec-13 companion (Core/Tooling split).
 - `wiki/foundations/jetix-innovations.md` — 9 innovations catalog (Chunk 8
   Section 6).
-- `wiki/foundations/shsm-primitives.md` — 5 primitives deep reference.
+- `wiki/foundations/shsm-primitives.md` — 5 ШСМ foundational concepts deep reference.
 - `wiki/foundations/holon-hierarchy.md` — full recursive structure.
 - `wiki/foundations/trans-disciplines.md` — 16 disciplines full reference.
 
@@ -2591,9 +3729,30 @@ due". Ruslan manual decision whether to sync.
 
 ---
 
-**END OF JETIX-FPF v1.0**
+**END OF JETIX-FPF v2.0**
 
-*Written 2026-04-20 by Claude Opus 4.7 (1M context) orchestration: 3
-parallel FPF Scholar subagents (Parts A-B / C-E / F-K) + Verifier subagent.
-Stage A complete per Hybrid Ultimate V5 methodology. Unblocks Stage B (4
-parallel perspective reviews) + Stage 4 D1/D2/D3/D4/D5/D7/D8 writing.*
+*Stage A v1.0 written 2026-04-20 by Claude Opus 4.7 (1M context)
+orchestration: 3 parallel FPF Scholar subagents (Parts A-B / C-E / F-K)
++ Verifier subagent. Commit 2a41927.*
+
+*Stage C v2.0 synthesized 2026-04-20 by Claude Opus 4.7 (1M context, main
+session, extended-thinking-max). Synthesis integrated 4 independent
+perspective reviews (commits a4cfac2 Левенчук Purist / 8dd5420 DACH
+Compliance / 0e15f52 AI-Agent Designer / 582349f Enterprise Reader).
+Structural decision: Option C hybrid — academic-lineage material
+moved к wiki/foundations/ companions, Jetix application preserved
+in-place. All 12 P1 findings from 4 reviewers addressed (fix-applied /
+deferred-to-companion / rejected-with-rationale). All 5 cross-reviewer
+themes (T1 RU/EN language / T2 Operationalization / T3 Reference-chain /
+T4 PP discipline / T5 Cost) addressed.*
+
+*Conflict-resolution ranking (per Stage C prompt): Ontology fidelity >
+Reader clarity > Compliance > AI-Agent operational. R1 Левенчук Purist
+wins direct conflicts. Exception: P3-R1-5 RoleMask cross-ref rejected-
+with-rationale — v1 citation C.3.4 actually correct per FPF-Spec
+verification `grep -n "^## C\.3\.4"` → L.34687 RoleMask; R1 reviewer
+finding was incorrect.*
+
+*D6 v2 state: **draft-synthesized** — awaiting Stage D independent
+final verification. Unblocks Stage 4 D1/D2/D3/D4/D5/D7/D8 writing after
+Stage D sign-off.*
