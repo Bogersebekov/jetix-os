@@ -125,11 +125,23 @@ Previous 11 Ruslan overrides — все в +Левенчук direction. Здес
 - **Ties to:** Rec-11 P2 (elevated to P1-equivalent per Ruslan stance), OQ-11 (agent promotion CSLC).
 - **Elevation note:** Rec-11 was P2 в gap analysis; Ruslan max-depth stance elevates effective priority to P1.
 
-### Gap 4 — Unified Term Sheet (F.17 UTS)
+### Gap 4 — Unified Term Sheet (F.17 UTS) ✅ APPROVED
 
-- [ ] Discussed
-- **Decision:** [TBD]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Decision:** ✅ **ACCEPT full + deep adoption (Option A)** — F.17 UTS + E.10 LEX-BUNDLE + SenseCells + Bridges adopted Phase 1.
+- **Plus deep:** Layout A (Kernel-first, 30-50 core rows × 6-8 context columns); 4-register LEX-BUNDLE per row (tech/plain/legacy/mnemonic); explicit Bridges between contexts; Rationale per row.
+- **Cost:** 6-10h Phase 1 setup + ~2h per quarter FPF-Steward audit.
+- **Rationale:** Ruslan directive — "полное и глубокое внедрение". Critical для 18 agents + future hires + clients; prevents ontological drift; onboarding hire-friendly.
+- **Ties to:** Rec-02 P1, OQ-08 (timing).
+- **Implementation:**
+  - `wiki/foundations/jetix-uts.md` — central UTS table
+  - Layout A (Kernel-first), 30-50 core rows
+  - Context columns: FPF U.Type / Jetix tech / Jetix plain / ШСМ-Russian / Essence-legacy / DACH-legal / AI-industry / Bridges / Rationale
+  - LEX-BUNDLE 4-register naming per row
+  - SenseCells per non-trivial cell
+  - Bridges explicit equivalence mappings
+- **Timing:** **Concurrent с D6 FPF writing** (OQ-08 Variant B) — UTS rows = U.Types = D6 Section 8 ontology. Ensures consistency.
+- **Maintenance:** FPF-Steward quarterly audit includes UTS review scope.
 
 ### Gap 5 — Multi-View Publication (E.17)
 
