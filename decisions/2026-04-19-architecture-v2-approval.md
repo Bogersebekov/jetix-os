@@ -1325,14 +1325,18 @@ Stage 3 ADR финализован. Stage 3.5 (D9 draft v0.5) выпущена 2
 прислал ссылку на `github.com/ailev/FPF` — **First Principles Framework**
 Анатолия Левенчука. Это тот самый источник, к которому Jetix Левенчук-
 ориентированная онтология уже апеллировала imlicitly через предыдущие
-waves research'а (8 deep-research waves + 4 reviewer-reports), но теперь
-доступна **первоисточник в полном виде — 62K строк spec'а + 64 files**.
+waves research'а (9 architectural research waves R1-R9 + 4 reviewer-reports),
+но теперь доступна **первоисточник в полном виде — 62,202 строки spec'а
+(FPF-Spec.md, 5.7 MB) + Readme.md**.
 
-**Vendor**: FPF-Spec вендорнут в `raw/external/ailev-FPF/` (commit
-0a22129), ATTRIBUTION.md оформлен (usage scope **internal-only**,
-public-domain CC0 license respected, attribution phrase: "Jetix uses
-patterns derived from FPF (First Principles Framework) by Anatoly
-Levenchuk, CC0").
+**Vendor**: FPF-Spec + Readme вендорнуты в `raw/external/ailev-FPF/`
+(commit 0a22129), **ATTRIBUTION.md** оформлен (usage scope **internal-only**,
+**no formal license stated в upstream repo** — GitHub default "all rights
+reserved"; **citation explicitly requested** upstream в Readme:
+`Levenchuk, Anatoly. First Principles Framework (FPF). GitHub repository:
+https://github.com/ailev/FPF`; **conservative interpretation**: internal
+reference + adaptation OK с citation; public redistribution requires
+explicit permission).
 
 **5 Perplexity researches выполнены** параллельно (R-A through R-E,
 `raw/research/levenchuk-fpf-research-2026-04-20/`):
@@ -1745,7 +1749,9 @@ Gaps/Recs adoption (OQ-02, 03, 04, 05, 07, 08, 11).**
 **OQ-01 JETIX-FPF rename:**
 - "FPF" → **"JETIX-FPF"** везде (D6 rename, D1/D2/D4/D5 refs updated).
 - Attribution phrase explicit: "JETIX-FPF — Jetix-specific adaptation
-  of First Principles Framework (FPF) by Anatoly Levenchuk, CC0."
+  of First Principles Framework (FPF) by Anatoly Levenchuk
+  (https://github.com/ailev/FPF) — internal Jetix use с citation;
+  upstream repo has no formal license, citation requested."
 - Cross-references в Chunk 1-7 retroactively read как "JETIX-FPF"
   (historical writing preserved, но ADR frontmatter + D9 v0.6 use new
   name).
