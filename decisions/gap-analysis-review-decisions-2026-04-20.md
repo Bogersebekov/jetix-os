@@ -324,37 +324,29 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 
 ---
 
-## Step 5 — 6 P3 Nice-to-have Recommendations
+## Step 5 — 6 P3 Nice-to-have Recommendations ✅ ALL APPROVED 2026-04-20
 
-### Rec-17 — A.16 PreArticulationCuePack (voice-notes pipeline)
+**Ruslan directive:** "all подтверждаю, deep adoption".
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-17 — A.16 PreArticulationCuePack (voice-notes pipeline) ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Template `inbox/cues/<slug>.md` с maturity layer pre-articulation → claim → hypothesis → direction progression.
 
-### Rec-18 — F.11 Method Quartet Harmonisation
+### Rec-18 — F.11 Method Quartet Harmonisation ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Monthly check per direction: method-design / method-work / method-plan / method-evidence alignment. Ties с Rec-14 B.4 Evolution Loop.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-19 — A.6.S Signature Engineering Pair (SKU evolution) ✅ APPROVED
+- **Decision:** ACCEPT full (1-2h). Versioned SKU signatures (v1 active для old clients + v2 для new).
 
-### Rec-19 — A.6.S Signature Engineering Pair (SKU evolution)
+### Rec-20 — E.20 Mechanism Introduction Protocol ✅ APPROVED
+- **Decision:** ACCEPT full (1h). Protocol doc для introducing new mechanisms — trial period, success criteria, rollback plan.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+### Rec-21 — G.5 Multi-Method Dispatcher ✅ APPROVED
+- **Decision:** ACCEPT full (2-3h). MethodFamily Registry + dispatcher rules для multi-method decisions.
 
-### Rec-20 — E.20 Mechanism Introduction Protocol
+### Rec-22 — First quarterly FPF-Steward audit Q2 2026 ✅ APPROVED
+- **Decision:** ACCEPT full (2-4h Q2 close). First `decisions/fpf-stewardship/2026-Q2-ontology-audit.md` validates Phase 1 FPF adoptions.
 
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-21 — G.5 Multi-Method Dispatcher
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-
-### Rec-22 — First quarterly FPF-Steward audit Q2 2026
-
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
+**Total P3 new work: ~8-14h Phase 1.**
 
 ---
 
