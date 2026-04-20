@@ -41,6 +41,80 @@ FPF, ontological correctness, нулевая tolerance к compromises.
 
 ---
 
+## Specific Focus Points для актуального D6 v1
+
+D6 v1 написан (commit `2a41927`, 2599 строк). При чтении ОБЯЗАТЕЛЬНО dedicated
+focus к следующим spots — каждый требует explicit verdict (correct / incorrect /
+needs clarification) с цитатой D6:
+
+**FP1 — Section 8.1 U-Types table — потенциальные дубликаты:** Table содержит
+33 rows, но #3 `U.Holon` (general "Whole-and-part entity") и #32 `U.Holon`
+(specifically "Direction (Jetix innovation)") — два entry для одного U-Type.
+Аналогично #15 `U.Case` (general "Case study") и #33 `U.Case` (CHR-space).
+Verdict: легитимно ли указывать один U-Type дважды с разным context/purpose
+per E.10 LEX-BUNDLE Stratum-3 instance distinction, или taxonomy error?
+
+**FP2 — Section 5.10.2 "Альфа" hybrid resolution:** Explicitly acknowledged
+"FPF correlation ⚠ CONFLICT" — alpha-as-track dispersed по A.2.5/C.2.1/A.1/
+A.15.1/A.15.2/A.14. Resolution = hybrid (Plain "альфа" + U.X Tech twin).
+Verdict: достаточно ли формализован этот Bridge per F.9 + E.10 LEX-BUNDLE 4-
+register? Должен ли появиться explicit Bridge entry в Section 8.4 (Bridges to
+external contexts) для ШСМ-альфа → FPF U-Types mapping с CL?
+
+**FP3 — Section 11.4 5 primitives → 16 trans-disciplines mapping:** Только 4
+of 5 primitives (Роль/Альфа/Граф создания/Стратегирование) mapped к Методология
+(#15). Мышление письмом mapped exclusively к Собранность (#2). Verdict: correct
+per Левенчук, или Мышление письмом cross-cutting (Методология + Собранность
+both)?
+
+**FP4 — Section 14.2 approximate line numbers (Stage A Verifier missed):**
+~12 patterns с `~approx` markers вместо exact line numbers (A.2 ~1500, A.3
+~1700, A.7 ~16500, A.8 ~17000, A.15 ~17200, A.15.1 ~17250, A.15.2 ~17280,
+B.1 ~26000, B.5.2 ~29500, B.5.2.0 ~29600, C.11 ~35500, C.19.1 ~38100). Action:
+Grep FPF-Spec.md для каждого, replace с exact line numbers в твоём review
+report (Section 5 — FPF pattern verification). Это P1 если 3+ wrong.
+
+**FP5 — Section 5.10 critical honesty note:** D6 explicitly states "5 primitives"
+= R-B analytical synthesis, not Левенчук's published taxonomy. Verdict:
+legitimate для Jetix didactic frame, или должно быть переименовано (e.g.,
+"5 ШСМ foundational concepts" вместо "5 primitives") чтобы избежать
+misrepresentation Левенчук corpus?
+
+**FP6 — Section 6.5 SEMAT Essence mapping table:** Cross-reference дан без
+critique. Per R-D research, Левенчук активно отошёл от SEMAT (Essence Kernel
+critique). Verdict: нужен ли protective note "SEMAT mapping = legacy bridge
+only, не endorsement Essence Kernel ontology"?
+
+**FP7 — Section 9.5 "FPF vs JETIX-FPF distinction" inconsistency:** Statement
+"FPF community-open (sort of), JETIX-FPF секретный sauce" — но FPF upstream
+Привлекательно "all rights reserved" по дефолту (no formal license, per
+ATTRIBUTION.md). Verdict: actual statement misleading? Должно быть "FPF =
+Левенчук-authored single-source-of-truth (no license but citation requested),
+JETIX-FPF = Jetix-internal adaptation"?
+
+**FP8 — Section 6 alpha reclassification + Member preservation:** Invoice/
+SKU/Postmortem/Research Note все reclassified из alphas → work products/
+entities. Member alpha (#6) preserved despite Левенчук drop recommendation
+("Ruslan MC3 override"). Verdict: per Левенчук Member-as-WP-в-CRM или
+Member-как-tracked-method-subject — какой стороной кальки лежит правда?
+Override defensible?
+
+**FP9 — Section 7.2 Strategizing-as-Trigger taxonomy:** 9 trigger types listed
+(market signal, alpha failure, method exhaustion, etc.). Verdict: exhaustive
+per Левенчук strategizing literature, или missing important triggers (e.g.,
+"founder personal life event" / "regulatory inflection across multiple
+domains"/"competitive landscape shift")?
+
+**FP10 — Section 12 Full FPF Architectural Invariants completeness:**
+Sections 12.1-12.14 cover holonic trinity, transformer quartet, role-method-
+work alignment, 11 Pillars, 4 Guard-Rails, Γ algebra, F-G-R, CSLC, A.6.B,
+D.5, E.17, F.17, B.2, E.9. Verdict: missing critical FPF invariants
+(e.g., A.4 Temporal Duality deep, B.5 Reasoning Cycle, C.13 Compose-CAL
+beyond mention, F.9 Bridge formalism)? Или 14 invariants adequate для
+constitutional scope?
+
+---
+
 ## Inputs
 
 1. **`design/JETIX-FPF.md`** v1 (just-written D6) — **primary review target**

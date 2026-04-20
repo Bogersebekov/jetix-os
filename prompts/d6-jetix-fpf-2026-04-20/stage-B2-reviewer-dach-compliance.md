@@ -36,6 +36,93 @@ GDPR, BDSG, Mittelstand regulatory patterns.
 
 ---
 
+## Specific Focus Points для актуального D6 v1
+
+D6 v1 написан (commit `2a41927`, 2599 строк). При чтении ОБЯЗАТЕЛЬНО focus
+на следующие compliance gaps — каждый с verdict + цитатой D6:
+
+**FP1 — EU AI Act risk-tier classification missing:** D6 Section 4.5 (CP-5)
++ Section 12.10 ссылаются на EU AI Act, но **НЕТ explicit таблицы Jetix
+offerings × EU AI Act risk tier**. Какой tier у Audit SKU (likely Annex III
+high-risk если automated decision-impacting)? У внутренней agent automation
+(general-purpose AI без direct decision authority — limited risk?)? Aug 2026
+high-risk obligations конкретно как mapped к Jetix processes? Verdict:
+P1 critical gap или адекватно для constitutional doc (delegated к D8/policy)?
+
+**FP2 — Section 4.5 CP-5 "Human approval gate" operational depth:** Stated
+briefly ("Human gate = sales-closer / acceptance-authority / Ruslan, no
+purely autonomous client-affecting AI decisions, EU AI Act risk-proportional
+Scenario C per OT3"). Missing: approval SLA window, audit trail format
+(хто, когда, почему approved), escalation если gate-keeper unavailable >X
+hours, fallback rules для off-hours decisions. Verdict: достаточно для
+GDPR Art. 22 defense + EU AI Act human-oversight requirements?
+
+**FP3 — Section 12.10 Bias-Audit Cycle Phase 1 simplification:** BA-0 + BA-1
++ BA-3 (no BA-2 Panel — solo Ruslan Phase 1; BA-2 activation Phase 2a).
+Verdict: достаточна ли эта 3-stage cycle для:
+  (a) GDPR Art. 22 individual decision defense
+  (b) EU AI Act Article 14 human oversight requirements
+  (c) ISO/IEC 24029-2 robustness testing expectations
+Какой compliance risk если первый Mittelstand client требует formal Panel?
+
+**FP4 — Section 4.4 Multi-View "Regulatory" view depth:** Listed как 3-5
+pages "pre-mapped EU AI Act / GDPR / DORA". Но **template, schema, process
+для regulatory pre-mapping** в D6 НЕ описаны deep — только promised "First
+pilot: Müller GmbH audit". Verdict: must-add framework к D6, или OK relegated
+к `decisions/templates/views/regulatory.yaml`?
+
+**FP5 — F-G-R audit trail mapping table missing:** Section 4.2 + 12.7 описывают
+F0-F9 + G + R abstract. Но **НЕТ explicit таблицы "Jetix artifact type ×
+required F-G-R level"**: ADRs F2 minimum? Client deliverables F3 obligatory?
+Strategy notes F1 acceptable? DPA contracts F3 + R-certified? Verdict:
+audit-defensibility gap или delegated к `decisions/policy/trust-tagging.md`
+(yet-to-be-written)?
+
+**FP6 — Art. 33 GDPR 72h breach notification framework absent:** D6 Section
+2.1 mentions `ops/gdpr-art-33.md` reference, но **НЕТ описания breach response
+flow** в constitutional doc. Verdict: для regulatory audit signal — must-have
+high-level framework в D6 (даже brief 1-page), или OK relegate к ops doc?
+
+**FP7 — DPO §38 BDSG threshold criteria mismatch:** Section 2.3 mentions DPO
+stub Phase 1 + activation Phase 2a "when ≥1 client requests GDPR DPA". Но
+**§38 BDSG actual trigger = 20+ data processors handling personal data
+regularly**, не client request. DPA request = Art. 28 GDPR processor obligation,
+не §38 BDSG DPO obligation. Verdict: trigger criteria conflated — должно
+быть 2 separate triggers (Art. 28 DPA = Phase 1 readiness; §38 BDSG DPO =
+Phase 2a/2b headcount trigger)?
+
+**FP8 — Konsenskultur (Section 4.1 CP-1) operational signals:** Stated, но
+**operational signals для DACH cultural alignment** генеризированы (Russian/
+English content). Missing: German-language proposal templates, Austrian
+formality patterns (Sehr geehrte… vs Hallo), Swiss precision conventions
+(Punkt-und-Komma in numbers), Mittelstand contract structure expectations
+(Vertragsgestaltung, AGBs reference). Verdict: достаточно для Mittelstand
+audit signal или red flag для Geschäftsführer review?
+
+**FP9 — Section 14.4 policy docs list — 9 placeholders only:** D6 references
+9 policy docs которые **ещё не написаны** (Phase 1 post-D6): boundary-
+discipline.md, trust-tagging.md, sku-pricing-chr.yaml, agent-promotion-chr.yaml,
+characteristic-space-conventions.md, mereology-edge-types.md, phase-transitions-
+mht.md, bias-audit-cycle.md, mechanism-introduction.md, multi-method-dispatcher.md.
+Verdict: для compliance audit это red flag (existing references to non-
+existing docs) или OK для internal constitutional doc Phase 1 если roadmap
+explicit?
+
+**FP10 — ISO/IEC/IEEE 42010 alignment absence:** Architecture description
+standard 42010 (stakeholders, concerns, viewpoints, views, models). Mittelstand
+auditor + investor due diligence likely expect alignment. D6 Section 4.4
+Multi-View Publication Kit — this is FPF E.17 framework, but **explicit
+mapping к 42010 vocabulary** missing. Verdict: gap или OK delegate к D1
+(Architecture Final)?
+
+**FP11 — DORA (Digital Operational Resilience Act) absence:** EU DORA
+applicable если Jetix handles financial-sector clients (BaFin scope). D6
+mentions DORA only once в Section 4.4 viewpoint. Verdict: insufficient для
+financial-sector ICP expansion, или OK Phase 1 since ai-consulting-dach
+direction primary?
+
+---
+
 ## Inputs
 
 1. **`design/JETIX-FPF.md`** v1 — primary review target
