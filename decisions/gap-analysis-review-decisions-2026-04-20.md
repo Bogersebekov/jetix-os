@@ -362,53 +362,53 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
   - Cross-references везде updated
   - Attribution explicit: "JETIX-FPF — Jetix-specific adaptation of First Principles Framework (FPF) by Anatoly Levenchuk"
 
-### OQ-02 — P1 adoption scope?
+### OQ-02 — P1 adoption scope? ✅ RESOLVED via Steps 2-3
 
-- **Claude rec:** A (all 6 P1)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** All 6 P1 accepted + 3 P2 elevated (Gap 3/5 → Rec-09/11/12) — effectively MORE than Claude rec A.
 
-### OQ-03 — Portfolio as NQD+E/E-LOG timing?
+### OQ-03 — Portfolio as NQD+E/E-LOG timing? ✅ RESOLVED via Rec-07
 
-- **Claude rec:** B (wiki artifact Phase 1)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** Phase 1 adoption (wiki artifact) — consistent с Step 4.
 
-### OQ-04 — E.17 Multi-View threshold?
+### OQ-04 — E.17 Multi-View threshold? ✅ RESOLVED via Gap 5
 
-- **Claude rec:** D (pilot first Audit SKU)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** Modified Option A — **Mandatory от first delivery onward** (stronger than Claude pilot rec).
 
-### OQ-05 — F-G-R scope (ADRs only vs + client deliverables)?
+### OQ-05 — F-G-R scope (ADRs only vs + client deliverables)? ✅ RESOLVED via Gap 2
 
-- **Claude rec:** B (ADRs + client deliverables)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** ADRs + client deliverables + agent outputs — full scope (more than Claude rec B).
 
-### OQ-06 — Model D terminology (Russian vs Anglicize)?
+### OQ-06 — Model D terminology (Russian vs Anglicize)? ✅ RESOLVED
 
 - **Claude rec:** D (explicit expansion в D6)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- [x] Discussed 2026-04-20
+- **Ruslan choice:** ✅ **B — Anglicize полностью, use FPF canonical terminology** ("похуй на историю, делай по FPF как правильно")
+- **Implementation:**
+  - "Model D Nested Hierarchy" → retire as primary term; replaced by **"Nested Holonic Structure"** (FPF A.1 + A.14 canonical)
+  - Всё документы updated: ADR, D6 JETIX-FPF, D1, D2, D4, D5 refer к "Nested Holonic Structure" primary
+  - "Model D" может appear как legacy alias only (footnote where historically referenced)
+  - D6 introduces concept using FPF canonical: "Jetix uses Nested Holonic Structure (A.1 Holonic Foundation + A.14 Advanced Mereology)"
 
-### OQ-07 — D6 FPF Core/Tooling split?
+### OQ-07 — D6 FPF Core/Tooling split? ✅ RESOLVED via Rec-13
 
-- **Claude rec:** D (soft split + wiki companion)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** Option C soft split — `design/JETIX-FPF.md` (Core, 20-30 pages) + `wiki/foundations/fpf-tooling.md` companion (10-20 pages).
 
-### OQ-08 — UTS timing (before D6 / concurrent / after)?
+### OQ-08 — UTS timing? ✅ RESOLVED via Gap 4
 
-- **Claude rec:** B (concurrent)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** Concurrent с D6 writing (Option B).
 
-### OQ-09 — Contribute-back к Левенчук community?
+### OQ-09 — Contribute-back к Левенчук community? ✅ RESOLVED
 
 - **Claude rec:** B (soft engagement)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- [x] Discussed 2026-04-20
+- **Ruslan choice:** ✅ **A — No contribution (hard stance)** ("всё держим, ничего никуда не отправляем, нигде не публикуем")
+- **Implementation:**
+  - All 9 Jetix innovations remain **internal-only**
+  - **No formal pull-requests, proposals, или public sharing** с Левенчук community
+  - Ruslan может attend курсы Левенчука sam для own learning — no obligation to share
+  - Full secret sauce preservation
+  - Review trigger: **none Phase 1-2** (consistent с OT5 internal-only). Phase 3+ — только если publishing decision explicit revisited
+- **Consistency с OT5:** strengthens internal-only stance (no soft engagement even)
 
 ### OQ-10 — Upstream FPF sync trigger (quarterly vs on-demand)? ✅ RESOLVED
 
@@ -422,11 +422,27 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
   - Sync involves: check github.com/ailev/FPF main branch для delta since last vendor; if substantive update → re-vendor FPF-Spec.md + Readme.md; update ATTRIBUTION.md version; propagate changes в Jetix adaptation as needed
   - Not every reminder becomes actual sync (trigger-based selective)
 
-### OQ-11 — Agent promotion (current vs A.18 CSLC formal)?
+### OQ-11 — Agent promotion (current vs A.18 CSLC formal)? ✅ RESOLVED via Gap 3
 
-- **Claude rec:** D (hybrid optional)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Ruslan choice:** A.18 CSLC adopted full (Gap 3) — formalism мandatory для agent promotion (stronger than Claude hybrid rec).
+
+---
+
+## ✅ Step 6 COMPLETE 2026-04-20 — All 11 Open Questions RESOLVED
+
+| OQ | Topic | Decision |
+|----|-------|----------|
+| OQ-01 | FPF rename | ✅ B — JETIX-FPF |
+| OQ-02 | P1 adoption scope | ✅ All 6 P1 + 3 P2 elevated |
+| OQ-03 | Portfolio NQD+E/E-LOG timing | ✅ Phase 1 (wiki artifact) |
+| OQ-04 | E.17 Multi-View threshold | ✅ Mandatory от first delivery |
+| OQ-05 | F-G-R scope | ✅ ADRs + client deliverables + agent outputs |
+| OQ-06 | Model D terminology | ✅ B — Anglicize (Nested Holonic Structure) |
+| OQ-07 | D6 Core/Tooling split | ✅ Soft split + wiki companion |
+| OQ-08 | UTS timing | ✅ Concurrent с D6 |
+| OQ-09 | Contribute-back | ✅ A — No contribution (hard stance) |
+| OQ-10 | Upstream FPF sync | ✅ Semi-annual reminder (Ruslan manual trigger) |
+| OQ-11 | Agent promotion CSLC | ✅ A.18 CSLC full (mandatory) |
 
 ---
 
