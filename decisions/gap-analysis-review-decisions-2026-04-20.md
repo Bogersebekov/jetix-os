@@ -82,11 +82,15 @@ Previous 11 Ruslan overrides — все в +Левенчук direction. Здес
 
 ## Step 2 — 5 Critical Gaps deep dive
 
-### Gap 1 — Boundary Unpacking (A.6.*)
+### Gap 1 — Boundary Unpacking (A.6.*) ✅ APPROVED
 
-- [ ] Discussed
-- **Decision:** [TBD]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Decision:** ✅ **ACCEPT full (Option A)** — адоптируем A.6.B Boundary Norm Square L/A/D/E routing во всех 3 templates (contract + DPA + proposal) Phase 1.
+- **Plus:** A.6.C Contract Unpacking, A.6.0 U.Signature, A.6.P Relational Precision, A.6.Q Quality Term, A.6.H Wholeness — adopted deeply во всех applicable places.
+- **Cost:** 4-6h Phase 1 + ~5 min per new clause ongoing.
+- **Rationale:** Ruslan directive — "подтверждаем полностью, внедряем глубоко, качественно". DACH enterprise compliance signal; audit-readiness; reusable L sections между contracts.
+- **Ties to:** Rec-01 P1 (это тот же scope).
+- **Implementation:** Day 5 (proposal template), Day 6 (contract + DPA template) — full L/A/D/E structure. Plus `decisions/policy/boundary-discipline.md` explaining routing convention.
 
 ### Gap 2 — Trust & Assurance Calculus (B.3 F-G-R)
 
