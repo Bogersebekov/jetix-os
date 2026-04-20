@@ -35,6 +35,110 @@ hire (Sales Lead J3). Будут ли они понимать? Доверять?
 
 ---
 
+## Specific Focus Points для актуального D6 v1
+
+D6 v1 написан (commit `2a41927`, 2599 строк). При чтении ОБЯЗАТЕЛЬНО focus
+на following enterprise readability gaps — каждый с verdict + конкретными
+quotes:
+
+**FP1 — First 5 pages impression test (Geschäftsführer DACH Mittelstand):**
+Reader: 55-летний Geschäftsführer mid-tech Mittelstand company, reads
+Preamble + Section 1 first. Page 1 (Preamble + 1.1) = dense FPF citations
+(A.1 Holonic Foundation L.1017, U.System, U.Episteme, three-tier root
+ontology). Verdict: professional signal для serious audience, or
+intimidating "academic theater"?
+
+**FP2 — Russian/English balance section-by-section scan:**
+  - Sections 1-4: mixed (FPF terms English, explanations Russian)
+  - Sections 5-6: heavy Russian (IP statements + Левенчук quotes verbatim)
+  - Sections 7-8: balanced
+  - Sections 9-10: heavy Russian (anti-patterns + mereology theory)
+  - Section 11: heavy Russian (16 disciplines)
+  - Sections 12-14: more English (FPF technical)
+Verdict для DACH hire Sales Lead J3 scenario (German-native, English-fluent,
+Russian zero): которые Sections completely opaque? Которые parseable с
+effort? Где needed translations или Bilingual rewrites?
+
+**FP3 — Section 1.2 well-formedness invariants intimidation factor:** WF-A1-1,
+WF-A1-2, WF-A1-3 с formula `Γ` (Greek capital gamma, universal aggregation
+operator). First 2 pages of body proper. Verdict: legitimate engineering rigor
+(positive signal), or intimidates non-mathematical reader (negative signal,
+suggest move to Section 12 invariants vs introductory Section 1)?
+
+**FP4 — Section 11 16 Trans-disciplines depth in constitutional doc:** 30+
+lines theoretical content (Понятизация → Системная инженерия). Mittelstand
+reader likely скип эту секцию entirely. Verdict: **keep this depth в D6,
+soften presentation, or move to companion `wiki/foundations/trans-disciplines.md`**
+с D6 retaining only 5-line summary + reference?
+
+**FP5 — Section 10 Mereology Hierarchy theoretical depth:** Леśniewski 1916
+→ Lewis 1991 → Fine 1999 → Koestler 1967 → Wilber 1995 → Mella → Jantsch.
+Heavy academic philosophy content. Verdict: signal of methodology depth
+(engineering trust building), or distracts от operational concerns
+(perfectionism signal)? Move to companion `wiki/foundations/holon-hierarchy.md`?
+
+**FP6 — Concrete examples concentration audit:** Müller GmbH walkthrough
+appears Section 3.6 only. Other sections mostly abstract. Verdict: где
+additional concrete examples needed для Mittelstand reader trust?
+  - Section 4 Client Principles — example Audit SKU proposal с L/A/D/E
+    structure (1-page sample)?
+  - Section 6 Alphas — example Müller state transitions over 3 months?
+  - Section 7 Rituals — example weekly Friday close agenda + outputs?
+  - Section 12 Invariants — example DRR (Decision-Rationale Record) для
+    real Jetix decision?
+Provide list 5-7 missing example slots.
+
+**FP7 — Diagrams ASCII vs image quality:** 6 ASCII diagrams (1.1 holon
+trinity, 1.7 nested holonic, 3.6 Müller traversal, 5.11 5 primitives, 10.6
+Level 0-10, 11.3 dependency graph). Verdict: ASCII OK для constitutional
+doc internal use, OR need **image diagrams** для:
+  - Series A pitch / investor due diligence package
+  - Website publication (about/methodology page)
+  - Mittelstand client onboarding deck
+  - Aufsichtsrat formal review
+
+**FP8 — Section 14 References quality vs noise ratio:** ~250 lines of
+references total — 60+ FPF pattern IDs + Левенчук primary sources + Jetix
+internal D1-D9 cross-refs + Perplexity researches + ADR trail + Левенчук
+LJ posts. Verdict: comprehensive (positive trust signal через transparency)
+or overwhelming (negative signal of perfectionism, не focus)?
+
+**FP9 — D6 vs comparable methodology docs (benchmarking):** Compare D6
+strengths/weaknesses к best-in-class methodology publications:
+  - **GitLab handbook** (operational depth, accessible language, examples-first)
+  - **Oxide RFDs** (engineering rigor, decision-explicit, plain prose)
+  - **Stripe Press / systems writings** (clarity, examples, narrative)
+  - **Airbnb Engineering blog patterns**
+  - **Basecamp Shape Up book** (referenced в D6 Section 3.3 — methodology
+    Jetix uses, so worth comparison)
+Verdict: где D6 strong relative, где weak? Specific dimension scores.
+
+**FP10 — Onboarding путь для first hire (Sales Lead J3):** Sales Lead must
+read D6 + understand: what they do (sales-closer + sales-lead roles per
+Section 2.1+2.2), how they coordinate (with framing-lead + agents per Section
+5.6 dependencies), what success looks like (8 alphas state transitions
+Section 6.2). Verdict: D6 makes этот путь self-evident (Sales Lead can
+onboard Day-1 без Ruslan walk-through), или confusing (hire бы спросил
+"но что мне РЕАЛЬНО делать в понедельник утром"?)?
+
+**FP11 — Investor due diligence test (Series A scenario):** Series A
+investor (HV Capital, Cherry Ventures, Earlybird) reviews D6 для methodology
+defensibility + scaling potential. Verdict per section:
+  - Which sections build trust? (point to specific sections)
+  - Which sections raise red flags? (perfectionism, insufficient operational
+    substance, founder-syndrome warning)
+  - Comparable depth signal к Stripe / Airbnb / Notion early-stage docs?
+  - Defensibility of "JETIX-FPF" as proprietary methodology vs fork of
+    open Левенчук work?
+
+**FP12 — Information architecture & navigation:** D6 = 14 sections, 2599
+строк, no in-doc table of contents (fronmatter has section list но не linked
+TOC). Verdict: navigation friction для reader scanning vs deep-reading?
+Recommend (a) add TOC at top, (b) add cross-references between related
+sections, (c) other navigational improvements?
+
+---
+
 ## Inputs
 
 1. **`design/JETIX-FPF.md`** v1 — primary review target
