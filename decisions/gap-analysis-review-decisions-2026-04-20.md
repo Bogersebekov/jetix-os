@@ -352,12 +352,15 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 
 ## Step 6 — 11 Open Questions (Ruslan judgment)
 
-### OQ-01 — Rename "FPF" → "JETIX-FPF"?
+### OQ-01 — Rename "FPF" → "JETIX-FPF"? ✅ RESOLVED
 
 - **Claude rec:** B (rename)
-- [ ] Discussed
-- **Ruslan choice:** [TBD — A/B/C/D или custom]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Ruslan choice:** ✅ **B — JETIX-FPF** ("переименуем в Jetix FPF, чтобы ничего не запуталось")
+- **Implementation:**
+  - D6 rename: `design/JETIX-FPF-LITE.md` → `design/JETIX-FPF.md` (already planned; now finalized naming)
+  - Cross-references везде updated
+  - Attribution explicit: "JETIX-FPF — Jetix-specific adaptation of First Principles Framework (FPF) by Anatoly Levenchuk"
 
 ### OQ-02 — P1 adoption scope?
 
@@ -407,11 +410,17 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
 - [ ] Discussed
 - **Ruslan choice:** [TBD]
 
-### OQ-10 — Upstream FPF sync trigger (quarterly vs on-demand)?
+### OQ-10 — Upstream FPF sync trigger (quarterly vs on-demand)? ✅ RESOLVED
 
-- **Claude rec:** A (quarterly integrated в FPF-Steward)
-- [ ] Discussed
-- **Ruslan choice:** [TBD]
+- **Claude rec:** A (quarterly auto)
+- [x] Discussed 2026-04-20
+- **Ruslan choice:** ✅ **Modified Option C — Semi-annual reminder, Ruslan triggers decision manually** ("не автоматом, будут напоминания, semi-annual, держим под контролем")
+- **Implementation:**
+  - Every 6 months (Q2 close + Q4 close) — FPF-Steward audit **flags** "upstream FPF sync review due"
+  - Reminder only — **не автоматический** fetch/apply
+  - Ruslan decides когда actually sync (может быть same quarter, может be defer)
+  - Sync involves: check github.com/ailev/FPF main branch для delta since last vendor; if substantive update → re-vendor FPF-Spec.md + Readme.md; update ATTRIBUTION.md version; propagate changes в Jetix adaptation as needed
+  - Not every reminder becomes actual sync (trigger-based selective)
 
 ### OQ-11 — Agent promotion (current vs A.18 CSLC formal)?
 
