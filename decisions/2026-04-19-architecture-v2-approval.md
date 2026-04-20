@@ -2,12 +2,12 @@
 id: ADR-2026-04-19-architecture-v2-approval
 title: Architecture Synthesis v2 — Ruslan Approval Record
 date: 2026-04-19
-date-closed: 2026-04-20
+date-closed: 2026-04-20 (Chunk 7) + 2026-04-20 (Chunk 8 — same day)
 status: APPROVED
-phase: Stage 3 COMPLETE — review finished 2026-04-20
-chunks-complete: [1, 2, 3, 4, 5, 6, 7]
+phase: Stage 3 + 3.6 COMPLETE — Gap Analysis review finished 2026-04-20
+chunks-complete: [1, 2, 3, 4, 5, 6, 7, 8]
 chunks-pending: []
-unblocks: Stage 3.5 (D9 draft) + Stage 4 (D1-D8 writing)
+unblocks: Stage 4 (D1-D8 writing) + D6 JETIX-FPF writing
 type: architecture-decision
 author: ruslan
 scribe: claude-opus-4-7
@@ -1302,17 +1302,688 @@ CRM → wiki entity → related research → direction context → operational s
 
 ---
 
-## ⏳ Chunks 2-7 — PENDING
+## ✅ All 7 Chunks COMPLETE 2026-04-20
 
-- [ ] **Chunk 2** — 6 Meta-conflicts resolved (MC1-MC6) — review resolutions, особенно MC4 с trustee change
-- [ ] **Chunk 3** — Accepted 38 / Rejected 12 changes — особенно R10 (multi-currency) revisit
-- [ ] **Chunk 4** — Outstanding Tensions (было 5, теперь 4 — OT1 resolved early)
-  - OT2 Bilingual frontmatter
-  - OT3 EU AI Act tier
-  - OT4 Trademark Jetix vs Disney
-  - OT5 FPF-Lite token-budget + publishing
-- [ ] **Chunk 5** — Part 2 Areas 1-5 (D1-D5 detailization)
-- [ ] **Chunk 6** — Part 2 Areas 6-9 (D6-D9 detailization)
-- [ ] **Chunk 7** — Part 6 Final sign-off checklist + Part 5 Roadmap
+- [x] Chunk 1 — High-level frame (7→8 principles + P7 evolution)
+- [x] Chunk 2 — 6 Meta-conflicts resolved (MC1-MC6)
+- [x] Chunk 3 — 38 Accepted + 12 Rejected + R10 multi-currency revisit
+- [x] Chunk 4 — 5 Outstanding Tensions resolved (OT1-OT5)
+- [x] Chunk 5 — Areas 1-5 (D1-D5 detailization)
+- [x] Chunk 6 — Areas 6-9 (D6-D9 detailization)
+- [x] Chunk 7 — Final sign-off (Stage 3 APPROVED)
 
-После Chunk 7 → ADR финализуется (status: approved) → Stage 4 unblocks → D1-D9 writing start.
+Stage 3 ADR финализован. Stage 3.5 (D9 draft v0.5) выпущена 2026-04-20.
+Затем Stage 3.6 review добавил Post-FPF-Discovery layer — см. **Chunk 8** ниже.
+
+---
+
+## Chunk 8 — Post-FPF-Discovery Additions ✅ APPROVED 2026-04-20
+
+### 8.1 Discovery context
+
+После closure Chunk 7 (Stage 3 ADR finalized 2026-04-20 morning), Ruslan
+прислал ссылку на `github.com/ailev/FPF` — **First Principles Framework**
+Анатолия Левенчука. Это тот самый источник, к которому Jetix Левенчук-
+ориентированная онтология уже апеллировала imlicitly через предыдущие
+waves research'а (8 deep-research waves + 4 reviewer-reports), но теперь
+доступна **первоисточник в полном виде — 62K строк spec'а + 64 files**.
+
+**Vendor**: FPF-Spec вендорнут в `raw/external/ailev-FPF/` (commit
+0a22129), ATTRIBUTION.md оформлен (usage scope **internal-only**,
+public-domain CC0 license respected, attribution phrase: "Jetix uses
+patterns derived from FPF (First Principles Framework) by Anatoly
+Levenchuk, CC0").
+
+**5 Perplexity researches выполнены** параллельно (R-A through R-E,
+`raw/research/levenchuk-fpf-research-2026-04-20/`):
+- R-A: 5 primitives + 16 trans-disciplines
+- R-B: holonic architecture + mereology
+- R-C: trust calculus + language-state transduction
+- R-D: characteristic spaces + CSLC
+- R-E: multi-view publication + method harmonization
+
+**KB compilation**: `raw/research/levenchuk-fpf-knowledge-base-2026-04-20.md`
+(~60 pages, commit 3cb5f81) — compiled digest FPF primitives / patterns /
+instruments / guard-rails structured for Jetix application.
+
+**Gap Analysis**: `raw/research/fpf-gap-analysis-2026-04-20.md` (2486 строк,
+commit 74cf858) — systematic сравнение current Jetix architecture (post-
+Chunk 7) vs FPF-Spec patterns. Output: **65/100 alignment** + 5 critical
+gaps + 22 recommendations + 11 open questions + 9 Jetix innovations
+identified.
+
+**Ruslan directive Stage 3.6 opening:**
+> "Я хочу всё что там ещё не дотягивается улучшить. Максимально глубоко.
+> Все критические gaps — качественно разбирать по одному."
+
+**Stage 3.6 review executed 2026-04-20** через tracking file
+`decisions/gap-analysis-review-decisions-2026-04-20.md`. Все 60+
+decisions locked тот же день:
+- 5 Gaps — full depth adoption
+- 22 Recommendations — all accepted
+- 11 Open Questions — resolved
+- 9 Innovations — confirmed internal-only
+
+Chunk 8 consolidates эти решения в ADR; D9 draft v0.6 (separate file)
+regenerates full architecture record с учётом Chunk 8 material.
+
+### 8.2 Overall alignment + Ruslan stance
+
+Gap analysis output: **65/100 alignment** score Jetix (post-Chunk 7) vs
+FPF-Spec. Strongest alignment: 5 primitives absorbed (Role ≠ Executor =
+U.Role split; past-participle = state-machine discipline; holonic 3-
+level mereology). Critical gaps: boundary unpacking A.6.*, trust
+calculus B.3 F-G-R, characteristic spaces A.17-21, unified term sheet
+F.17, multi-view publication E.17.
+
+**Post-adoption expected alignment: 85-90/100** (все 5 critical gaps +
+22 recs adopted).
+
+**Stance**: consistent с previous pattern 11 Ruslan overrides — все в
++Левенчук direction (Chunk 1 P7 Compute, MC3 full 3-level mereology, R12
+FPF-Steward sub-role, OT5 full-text FPF loading и т.д.). Здесь тот же
+course: **maximum depth, no compromises, all applicable FPF patterns
+adopted**. Ни одна P1 рекомендация не reject'нута; ни один P2 не
+deferred; P3 все accepted full depth; 2 P2 elevated к P1-equivalent
+(Rec-09 E.17 Multi-View, Rec-11 A.18 CSLC) через Gap-adoption.
+
+### 8.3 5 Critical Gaps adopted full depth
+
+#### Gap 1 — Boundary Unpacking (A.6.*) ✅ FULL ADOPT
+
+- **FPF basis:** A.6.B Boundary Norm Square (L/A/D/E — Laws /
+  Admissibility / Deontics / Work-Effects), plus A.6.C Contract
+  Unpacking, A.6.0 U.Signature, A.6.P Relational Precision, A.6.Q
+  Quality Term, A.6.H Wholeness
+- **Ruslan decision:** "подтверждаем полностью, внедряем глубоко,
+  качественно" (Option A full)
+- **Cost:** 4-6h Phase 1 + ~5 min per new clause ongoing
+- **Rationale:** DACH enterprise compliance signal; audit-readiness;
+  reusable L sections между contracts
+- **Implementation:**
+  - Day 5 (proposal template) + Day 6 (contract + DPA template) —
+    full L/A/D/E structure applied
+  - `decisions/policy/boundary-discipline.md` — routing convention
+    + A.6 cluster usage guide
+  - A.6.C Contract Unpacking applied к contract/DPA templates
+  - A.6.0 U.Signature для formal kind-explicit role-manifest headers
+  - A.6.P RPR-qualified relations в concept cross-references
+  - A.6.Q Q-TERM precision restoration в SKU/quality descriptions
+  - A.6.H Wholeness language unpacking в complex concepts
+- **Ties to:** Rec-01 P1 (same scope — fully subsumed)
+
+#### Gap 2 — Trust & Assurance Calculus (B.3 F-G-R) ✅ FULL + DEEP ADOPT
+
+- **FPF basis:** B.3 Trust & Assurance Calculus — Formality scale
+  (F0-F9), Ground-scale (G evidence types), Reliability scale (R-low
+  через R-formally-proven), plus B.3.3 Assurance Subtypes, B.3.4
+  Evidence Decay, B.3.5 Working-Model Relations (CT2R-LOG), Pathwise
+  Justification, Weakest-Link analysis, CL (Congruence Level)
+- **Ruslan decision:** "подтверждаем полностью + deep adoption"
+  (Option A full) — **ADRs + client deliverables + agent outputs**
+  (broader scope than Claude rec B)
+- **Cost:** 3-5h Phase 1 (policy + retrofit 10-15 existing ADRs +
+  template updates) + ~1 min per new ADR/deliverable ongoing
+- **Rationale:** Art. 22 GDPR defence strengthened; AI-agent output
+  discipline; audit trail quality; EU AI Act high-risk readiness
+- **Implementation:**
+  - `decisions/policy/trust-tagging.md` — policy document для F/G/R
+    conventions
+  - F-scale F0-F9 defined, Jetix expected range F0-F3
+  - ClaimScope naming convention (bounded-context paths,
+    `sales/dach-mittelstand/...`)
+  - R-levels: R-low / R-medium / R-high / R-certified / R-formally-proven
+  - **Frontmatter schema addition** (ADR + client deliverables):
+    ```yaml
+    formality: F0-F9
+    reliability: R-low | R-medium | R-high | R-certified | R-formally-proven
+    claim-scope: bounded-context-path
+    ```
+  - Retrofit existing 10-15 ADRs с F-G-R tags (mostly F1-F2 R-medium)
+  - Meta-agent prompt update: enforce F-G-R tagging
+  - FPF-Steward quarterly audit scope includes F-G-R compliance check
+- **Ties to:** Rec-04 P1 (same scope — fully subsumed)
+
+#### Gap 3 — Characteristic Space (A.17-A.21) ✅ FULL + DEEP ADOPT
+
+- **FPF basis:** A.17 CHR-NORM (Canonical Characteristic), A.18 Minimal
+  CSLC (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) Kernel, A.19
+  CharacteristicSpace + mechanisms (UNM / UINDM / USCM / ULSAM / CPM /
+  SelectorMechanism), A.20 Flow Constraint Validity, A.21 GateFit
+- **Ruslan decision:** "максимально подтверждаю" (Option A full) —
+  все 5 patterns + 3 concrete Phase 1 applications
+- **Cost:** 8-15h Phase 1 + 30-60 min per new SKU/direction/promotion
+  ongoing
+- **Rationale:** измеримые decisions > subjective; defensible pricing;
+  objective agent promotion; consistent comparison framework
+- **Implementation 3 concrete Phase 1 CHR spaces:**
+  1. **SKU pricing CHR** — `decisions/policy/sku-pricing-chr.yaml`
+     (3-5h). Scales: hours-invested, deliverable-complexity, client-
+     risk-tier, DACH-premium-factor. Gate profiles via A.21 для
+     acceptance criteria.
+  2. **Direction kill criteria CHR** —
+     `directions/_templates/kill-chr-template.yaml` + applied к
+     existing `ai-consulting-dach/` (3-5h). Scales: 90-day revenue-
+     generated, pipeline-health, unit-economics, strategic-fit.
+  3. **Agent promotion CHR** —
+     `decisions/policy/agent-promotion-chr.yaml` (2-5h). Scales:
+     task-success-rate, evidence-quality, autonomy-demonstrated,
+     critical-decisions-ratified. A.18 CSLC formal (OQ-11 resolution).
+- **Plus conventions doc:**
+  `decisions/policy/characteristic-space-conventions.md` — общие
+  правила для Jetix CSLC usage (when to formalize vs informal).
+- **Plus deep:** NQD-CAL (C.18), E/E-LOG (C.19), MM-CHR (A.21),
+  Pareto dominance — adopted где applicable в decisions.
+- **Ties to:** Rec-11 P2 elevated к P1-equivalent, OQ-11 resolved,
+  partial tie к Rec-07 (portfolio C.18/C.19 usage)
+
+#### Gap 4 — Unified Term Sheet (F.17 UTS) + LEX-BUNDLE (E.10) ✅ FULL + DEEP ADOPT
+
+- **FPF basis:** F.17 Unified Term Sheet (Kernel-first Layout A, 30-50
+  rows × 6-8 context columns), E.10 LEX-BUNDLE (4-register naming:
+  tech / plain / legacy / mnemonic), SenseCells per non-trivial cell,
+  explicit Bridges mappings
+- **Ruslan decision:** "полное и глубокое внедрение" (Option A full) +
+  **timing concurrent с D6 writing** (OQ-08 Variant B)
+- **Cost:** 6-10h Phase 1 setup + ~2h per quarter FPF-Steward audit
+- **Rationale:** critical для 18 agents + future hires + clients;
+  prevents ontological drift; onboarding hire-friendly; single source
+  of truth для Jetix terminology
+- **Implementation:**
+  - **`wiki/foundations/jetix-uts.md`** — central UTS table (Layout A
+    Kernel-first, 30-50 core rows)
+  - **Context columns** (6-8):
+    1. FPF U.Type (canonical)
+    2. Jetix tech (engineering-grade term)
+    3. Jetix plain (client-facing / plain English)
+    4. ШСМ-Russian (Левенчук legacy)
+    5. Essence-legacy (SEMAT / v1 mapping — historical)
+    6. DACH-legal (HGB / AktG / BGB / GDPR terms)
+    7. AI-industry (industry-standard vocabulary)
+    8. Bridges (explicit equivalence mappings between contexts)
+    + Rationale column per row
+  - **LEX-BUNDLE 4-register** naming per row (tech/plain/legacy/
+    mnemonic identifiers)
+  - **SenseCells** per non-trivial cell (clarify domain-specific sense)
+  - **Bridges** explicit equivalence mappings + CL (Congruence Level)
+    measurement for semantic drift between contexts
+- **Timing (OQ-08 B):** concurrent с D6 JETIX-FPF writing — UTS rows =
+  U.Types = D6 Section 8 ontology. Ensures consistency; avoids
+  dual-maintenance burden.
+- **Maintenance:** FPF-Steward quarterly audit scope includes UTS
+  review (row additions, Bridges updates, CL re-measurement).
+- **Ties to:** Rec-02 P1 (fully subsumed), Rec-12 P2 (LEX-BUNDLE fully
+  subsumed), Rec-10 P2 (Bridges/CL fully subsumed), OQ-08 resolved
+
+#### Gap 5 — Multi-View Publication (E.17) ✅ FULL + DEEP ADOPT (modified stronger)
+
+- **FPF basis:** E.17 Multi-View Publication Kit (Viewpoints / Views /
+  Correspondences), E.17.0 U.MultiViewDescribing, E.17.1
+  U.ViewpointBundleLibrary, E.17.2 TEVB Typical Engineering
+  Viewpoints Bundle, plus E.18 TGA Transduction Graph (simpler form
+  via A.6.3.CR ConservativeRetextualization for safe cross-view
+  translation)
+- **Ruslan decision:** "подтверждаю все глубоко, максимально фиксируем"
+  (Option A **modified stronger**) — **mandatory multi-view для ALL
+  Audit SKU deliveries from first delivery onward** (не pilot-only per
+  Claude rec; stronger than OQ-04 default)
+- **Cost:** 3-5h setup (Viewpoint Bundle + canonical template + first
+  view templates) + 8-12h first pilot delivery + marginal ongoing
+  after templates mature
+- **Rationale:** Mittelstand deal acceleration (5 audiences served in
+  parallel); audit-readiness; scale-prep для Phase 2a+; ISO/IEC/IEEE
+  42010 alignment (professionalism signal к Aufsichtsrat-grade clients)
+- **Jetix Viewpoint Bundle — 5 viewpoints Phase 1:**
+  1. **Executive** (CEO, Aufsichtsrat; 2-3 pages; plain + finance)
+  2. **Technical** (CTO, engineers; 20-40 pages; technical + specs)
+  3. **Governance** (board, risk committee; 3-7 pages; governance +
+     legal)
+  4. **Regulatory** (BfDI, EU AI Act auditors; 3-5 pages; regulatory +
+     legal — pre-mapped против EU AI Act / GDPR Art. 22 / EU DORA
+     obligations)
+  5. **Internal-learning** (Jetix team; 5-10 pages; internal + FPF
+     patterns referenced)
+- **Implementation:**
+  - `decisions/templates/jetix-viewpoint-bundle.yaml` — Viewpoint
+    definitions (name / audience / depth / language / canonical-
+    sections-mapping)
+  - `decisions/templates/audit-canonical-template.md` — underlying
+    canonical artifact structure (single source of truth per audit)
+  - `decisions/templates/views/` — 5 view templates (one per viewpoint)
+  - **Correspondences table** — canonical section → view section
+    mapping (automated rendering check)
+  - **Update protocol:** canonical changes → views regenerated
+    (A.6.3.CR Same-Entity Retextualization discipline prevents
+    semantic drift)
+  - First pilot: Müller GmbH audit (or first actual Audit SKU client)
+- **Ties to:** Rec-09 P2 elevated к P1-equivalent, OQ-04 resolved
+  (override to mandatory, stronger than pilot-only)
+
+**Total 5 Gaps work estimate Phase 1: ~30-45h** + ongoing discipline.
+
+### 8.4 22 Recommendations all accepted
+
+Summary table (все 22 accepted; P2/P3 conditionally elevated):
+
+| # | Rec | FPF basis | Status | Ties to Gap/OQ |
+|---|-----|-----------|--------|----------------|
+| 01 | Boundary Norm Square lanes в contract/DPA | A.6.B + A.6.C | ✅ Full | Gap 1 |
+| 02 | UTS skeleton для Jetix concepts | F.17 | ✅ Full | Gap 4 |
+| 03 | D.5 Bias-Audit Cycle для EU AI Act | D.5 | ✅ Full (standalone) | — |
+| 04 | F + R tags в ADR/deliverable frontmatter | B.3 | ✅ Full | Gap 2 |
+| 05 | A.14 typed mereology edges | A.14 + A.6.H | ✅ Full (standalone) | — |
+| 06 | B.2 MHT Jetix phase transitions | B.2 + B.2.1/2.2/2.5 | ✅ Full (standalone) | — |
+| 07 | Portfolio через C.18 NQD-CAL + C.19 E/E-LOG | C.18 + C.19 | ✅ Full | Gap 3 partial |
+| 08 | A.13:4.3 Agency-CHR fallback | A.13 | ✅ Full | — |
+| 09 | E.17 Multi-View Publication | E.17 + E.18 | ✅ Full (elevated) | Gap 5 |
+| 10 | F.9 Bridge + CL convention | F.9 / E.10 | ✅ Full | Gap 4 |
+| 11 | A.18 CSLC Characteristic Space | A.18 / A.19 | ✅ Full (elevated) | Gap 3 / OQ-11 |
+| 12 | E.10 LEX-BUNDLE | E.10 | ✅ Full | Gap 4 |
+| 13 | E.5.1 DevOps Lexical Firewall (D6 Core/Tooling split) | E.5.1 + E.5.3 | ✅ Full (Option C) | OQ-07 |
+| 14 | B.4 Canonical Evolution Loop в 4 rituals | B.4 + B.4.1 | ✅ Full | — |
+| 15 | F.6 Role Assignment cycle (agent onboarding) | F.6 | ✅ Full | — |
+| 16 | C.22 Problem-CHR TaskSignature | C.22 + C.22.1 | ✅ Full | — |
+| 17 | A.16 PreArticulationCuePack (voice-notes) | A.16 / A.16.1 | ✅ Full | — |
+| 18 | F.11 Method Quartet Harmonisation | F.11 | ✅ Full | — |
+| 19 | A.6.S Signature Engineering Pair (SKU evolution) | A.6.S | ✅ Full | — |
+| 20 | E.20 Mechanism Introduction Protocol | E.20 | ✅ Full | — |
+| 21 | G.5 Multi-Method Dispatcher | G.5 | ✅ Full | — |
+| 22 | First quarterly FPF-Steward audit Q2 2026 | — (Jetix-specific) | ✅ Full | — |
+
+#### P1 standalone recs (not covered в Gaps) — narrative
+
+**Rec-03 D.5 Bias-Audit Cycle ✅ FULL**
+
+- **FPF basis:** D.5 Bias-Audit & Ethical Assurance
+- **Cost:** 3-5h setup + 1h per deliverable + 2h quarterly
+- **Implementation:**
+  - `decisions/policy/bias-audit-cycle.md` — policy + 4-stage cycle
+    (BA-0 kickoff / BA-1 scan / BA-2 panel / BA-3 closure)
+  - Templates: BA-0 kickoff / BA-1 scan / BA-3 closure в
+    `decisions/templates/bias-audit/`
+  - `bias-register.yaml` schema per deliverable
+  - Per-deliverable structure:
+    `clients/<client>/audits/<audit>/bias-audit/`
+  - **Bias Taxonomy (5-class):** REP (representation) / ALG (algorithmic)
+    / VIS (visual) / MET (measurement) / LNG (linguistic)
+  - Quarterly aggregation:
+    `decisions/bias-audit/YYYY-QN-bias-audit.md`
+  - **Phase 1 simplified cycle:** BA-0 + BA-1 + BA-3 (solo Ruslan, no
+    BA-2 Panel Review until Phase 2a Beirat Ethics advisor)
+  - Integration: `decisions/policy/eu-ai-act.md` (OT3 compliance
+    calendar) + FPF-Steward quarterly audit scope (R12)
+- **Rationale:** EU AI Act compliance Aug 2026; Art. 22 GDPR defence;
+  enterprise client readiness (DACH Mittelstand Compliance VP expects
+  formal bias-audit trail)
+
+**Rec-05 A.14 typed mereology edges ✅ FULL**
+
+- **FPF basis:** A.14 Advanced Mereology (Components / Portions /
+  Aspects / Phases / Members) + A.6.H Wholeness
+- **Cost:** 2-4h Phase 1 + 5 min per new edge ongoing
+- **Implementation:**
+  - Retag existing 5 generic edges в `wiki/foundations/jetix-creation-
+    graph.md` с A.14 typed edges
+  - **`decisions/policy/mereology-edge-types.md`** documents 10 edge
+    types:
+    - **A.14 core 6:** ComponentOf / ConstituentOf / PortionOf /
+      PhaseOf / MemberOf / AspectOf
+    - **Jetix-introduced 4:** creates / operates-in /
+      methodologically-uses / constrained-by / fills
+    - When-to-use-which guide + anti-patterns
+  - A.6.H Wholeness patterns applied где relevant (client-relationship
+    wholeness, deal wholeness, direction wholeness)
+  - FPF-Steward quarterly audit scope: edge type verification
+- **Rationale:** reasoning accuracy; semantic clarity; FPF-Steward
+  auditability; cheap finishing touch для MC3 full-depth mereological
+  graph (повышает quality tractably)
+
+**Rec-06 B.2 MHT phase transitions ✅ FULL**
+
+- **FPF basis:** B.2 Meta-Holon Transition + B.2.1 Emergence + B.2.2
+  Re-identification + B.2.5 Supervisor-Subholon Feedback Loop
+- **Cost:** 2-4h Phase 1 + 2h per transition when happens
+- **Implementation:**
+  - **`decisions/policy/phase-transitions-mht.md`** — 4 MHTs documented:
+    - **MHT-1:** Phase 1 → 2a (solo + hire)
+    - **MHT-2:** Phase 2a → 2b (team 5-20)
+    - **MHT-3:** Phase 2b → 2c (€10-50M, multi-entity, first
+      acquisition)
+    - **MHT-4:** Phase 2c → 3 (€50M+, multi-entity federation)
+  - **Each MHT template:** from-holon / to-holon / trigger-conditions /
+    emergence-signals (early indicators) / re-identification
+    (invariants + mutables) / transition-process (pre/during/post
+    actions) / supervisor-subholon-feedback loop
+  - **`decisions/templates/mht-template.yaml`** — reusable template
+  - Integration: D8 rollout timeline + D7 career levels phase-column +
+    D4 Life-OS separation Phase 2a/3 triggers aligned
+- **Rationale:** systematic transition management; invariant preservation;
+  audit-readiness; bridge к scale. Предотвращает архитектурный хаос
+  при 1st hire, 5-20 team growth, 1st acquisition, multi-entity.
+
+#### P2 (10 recs) accepted narrative
+
+**Ruslan directive:** "All full + Deep Adoption. Подтверждаю."
+
+- **Rec-07 Portfolio C.18 NQD-CAL + C.19 E/E-LOG** (3-5h): per-direction
+  `ee-log.yaml` + `nqd-distinctions.yaml`; strengthens Portfolio
+  model's exploration/exploitation discipline.
+- **Rec-08 A.13:4.3 Agency-CHR fallback** (1-2h): `executor-binding.yaml`
+  получает `agency-profile` section + fallback rule; formal agency-
+  scale 0.0-1.0 dimension adds к 3-tier J-Auto/Approve/Strategic.
+- **Rec-09 E.17 Multi-View** → via Gap 5 (elevated).
+- **Rec-10 F.9 Bridge + CL convention** (2-3h): Bridges между contexts
+  + Congruence Level measurement для semantic drift; applied в
+  cross-direction wiki + UTS bridge section.
+- **Rec-11 A.18 CSLC** → via Gap 3 (elevated).
+- **Rec-12 E.10 LEX-BUNDLE** → via Gap 4 UTS (4-register naming).
+- **Rec-13 E.5.1 DevOps Lexical Firewall (D6 Core/Tooling split)**
+  (3-5h, OQ-07 Option C): D6 JETIX-FPF Core-focused (20-30 pages);
+  `wiki/foundations/fpf-tooling.md` companion (10-20 pages). E.5.3
+  Unidirectional Dependency preserved (Core → Tooling, not reverse).
+- **Rec-14 B.4 Canonical Evolution Loop в 4 rituals** (1-2h):
+  Observe/Reflect/Decide/Act mapped к daily/weekly/monthly/quarterly.
+  D8 4-rituals section updated с explicit evolution loop framing.
+- **Rec-15 F.6 Role Assignment cycle (agent onboarding)** (1-2h):
+  extends already-accepted `agent_onboarding` (Левенчук Part 3 #2) с
+  full cycle (6-step F.6 pattern: identify/request/propose/negotiate/
+  enact/retrospect) + retrospective step + template.
+- **Rec-16 C.22 Problem-CHR TaskSignature** (2-3h): structured client
+  problem intake (Problem-CHR coordinate + TaskSignature: inputs /
+  outputs / constraints / acceptance-criteria); template в
+  `decisions/templates/client-intake-problem-chr.yaml`.
+
+**Total P2 new work: ~13-22h Phase 1.**
+
+#### P3 (6 recs) accepted narrative
+
+**Ruslan directive:** "all подтверждаю, deep adoption".
+
+- **Rec-17 A.16 PreArticulationCuePack** (1-2h): template
+  `inbox/cues/<slug>.md` с maturity layer pre-articulation → claim →
+  hypothesis → direction progression. Voice-notes pipeline получает
+  PACK wrapping.
+- **Rec-18 F.11 Method Quartet Harmonisation** (1-2h): monthly check
+  per direction — method-design / method-work / method-plan / method-
+  evidence alignment. Ties с Rec-14 B.4 Evolution Loop.
+- **Rec-19 A.6.S Signature Engineering Pair (SKU evolution)** (1-2h):
+  versioned SKU signatures (v1 active для old clients + v2 для new).
+- **Rec-20 E.20 Mechanism Introduction Protocol** (1h): protocol doc
+  для introducing new mechanisms — trial period, success criteria,
+  rollback plan; applies perk mechanism additions к Jetix OS.
+- **Rec-21 G.5 Multi-Method Dispatcher** (2-3h): MethodFamily Registry
+  + dispatcher rules для multi-method decisions; integrates с F.11
+  Method Quartet.
+- **Rec-22 First quarterly FPF-Steward audit Q2 2026** (2-4h Q2 close):
+  first `decisions/fpf-stewardship/2026-Q2-ontology-audit.md` validates
+  Phase 1 FPF adoptions (all Gaps + 22 Recs sanity-checked against
+  FPF-Spec).
+
+**Total P3 new work: ~8-14h Phase 1.**
+
+### 8.5 11 Open Questions resolved
+
+| OQ | Topic | Decision | Rationale |
+|----|-------|----------|-----------|
+| 01 | FPF rename | ✅ **B — JETIX-FPF** | "переименуем в Jetix FPF, чтобы ничего не запуталось" — attribution clarity |
+| 02 | P1 adoption scope | ✅ All 6 P1 + 3 P2 elevated | Steps 2-3 full depth |
+| 03 | Portfolio NQD+E/E-LOG timing | ✅ Phase 1 (wiki artifact) | Consistent с Rec-07 |
+| 04 | E.17 Multi-View threshold | ✅ **Modified A — Mandatory от first delivery** | Stronger than Claude pilot rec |
+| 05 | F-G-R scope | ✅ ADRs + client deliverables + agent outputs | Broader than Claude rec B |
+| 06 | Model D terminology | ✅ **B — Anglicize (Nested Holonic Structure)** | "похуй на историю, делай по FPF как правильно" |
+| 07 | D6 Core/Tooling split | ✅ Soft split (Option C) + wiki companion | Rec-13 |
+| 08 | UTS timing | ✅ Concurrent с D6 (Variant B) | Single source consistency |
+| 09 | Contribute-back | ✅ **A — No contribution (hard)** | "всё держим, ничего никуда не отправляем, нигде не публикуем" |
+| 10 | Upstream FPF sync | ✅ **Modified C — Semi-annual reminder, Ruslan manual** | "не автоматом, будут напоминания, semi-annual, держим под контролем" |
+| 11 | Agent promotion CSLC | ✅ A.18 CSLC full (mandatory) | Gap 3 adoption |
+
+**4 explicitly resolved (OQ-01, 06, 09, 10); 7 implicitly resolved через
+Gaps/Recs adoption (OQ-02, 03, 04, 05, 07, 08, 11).**
+
+#### Narrative — 4 explicit resolutions
+
+**OQ-01 JETIX-FPF rename:**
+- "FPF" → **"JETIX-FPF"** везде (D6 rename, D1/D2/D4/D5 refs updated).
+- Attribution phrase explicit: "JETIX-FPF — Jetix-specific adaptation
+  of First Principles Framework (FPF) by Anatoly Levenchuk, CC0."
+- Cross-references в Chunk 1-7 retroactively read как "JETIX-FPF"
+  (historical writing preserved, но ADR frontmatter + D9 v0.6 use new
+  name).
+
+**OQ-06 Model D → Nested Holonic Structure:**
+- "Model D Nested Hierarchy" retired as primary term.
+- Replaced by **"Nested Holonic Structure"** (FPF A.1 Holonic
+  Foundation + A.14 Advanced Mereology canonical).
+- D6 introduces using FPF canonical: *"Jetix uses Nested Holonic
+  Structure (A.1 + A.14)"*.
+- "Model D" может appear как legacy alias only (footnote где
+  исторически referenced в v1/v2).
+- D1, D2, D4, D5 references updated к Nested Holonic Structure primary.
+- Russian lineage retired as primary terminology (consistent с OT2
+  Scenario E trajectory toward EN-primary ontological layer).
+
+**OQ-09 No contribute-back (hard internal-only):**
+- Все 9 Jetix innovations (см. 8.6) remain **internal-only**.
+- **No formal pull-requests, proposals, or public sharing** с ailev/FPF
+  community.
+- Ruslan может attend курсы Левенчука sam для own learning — no
+  obligation to share back.
+- Full secret sauce preservation.
+- Review trigger: **none Phase 1-2** (consistent с OT5 internal-only,
+  strengthened). Phase 3+ — только если publishing decision explicitly
+  revisited (unlikely per current stance).
+
+**OQ-10 Semi-annual FPF sync reminder:**
+- Every 6 months (Q2 close + Q4 close) — FPF-Steward audit **flags**
+  "upstream FPF sync review due".
+- **Reminder only — не автоматический** fetch/apply.
+- Ruslan decides когда actually sync (может быть same quarter, может
+  be defer).
+- Sync involves: check `github.com/ailev/FPF` main branch для delta
+  since last vendor; if substantive update → re-vendor FPF-Spec.md +
+  Readme.md; update ATTRIBUTION.md version; propagate changes в
+  JETIX-FPF adaptation as needed.
+- Not every reminder becomes actual sync (trigger-based selective).
+- Added к Review Triggers (Section 10).
+
+### 8.6 9 Innovations — internal-only preservation
+
+Gap analysis identified **9 Jetix-originated innovations** beyond FPF
+canonical patterns. Per OQ-09 A — **no public sharing, no publishing,
+no community contribution.** Documented internally только для own
+methodology evolution.
+
+| # | Innovation | Category | Phase 1 Status |
+|---|-----------|----------|----------------|
+| 1 | Portfolio of Directions (P8 + 8-я alpha) | Strategic | ✅ Phase 1 implemented |
+| 2 | 4-tier Resource Accounting (Capital + Compute + Deep Hours + Attention + Phase 3 Ecosystem) | Operational | ✅ Phase 1 ledgers live |
+| 3 | 18-manifest AI-native architecture (Day 9) | Organizational | ✅ Phase 1 Day 9 implementation |
+| 4 | FPF-Steward sub-role в meta-agent | Methodological | ✅ via R12 |
+| 5 | Physical Life-OS ≠ Jetix separation | Architectural | ✅ Day 8 |
+| 6 | DACH + US + RU unified funnel | Market | ✅ P6 adopted |
+| 7 | 7+7 day rollout (sales-first) | Operational | ✅ Phase 1 plan |
+| 8 | Company-as-Code + Git = SoT | Foundational | ✅ P1 core |
+| 9 | Full-FPF-Permeation pattern (full text loading) | Methodological | ✅ OT5 Scenario A |
+
+**Single internal reference artifact:**
+**`wiki/foundations/jetix-innovations.md`** — живой document listing
+all 9 + rationale + current implementation status + future evolution
+notes. Reference-only (не active sharing). Preservation, not
+publishing — innovations retained с context для own methodology
+evolution.
+
+**No review trigger Phase 1-2.** Phase 3+ publishing decision — только
+если OT5 publishing revisit происходит explicitly (highly unlikely per
+current stance).
+
+### 8.7 Architectural changes summary
+
+Key structural changes after Chunk 8 adoption.
+
+#### Terminology
+
+- **"FPF"** → **"JETIX-FPF"** везде (D6 rename primary; D1/D2/D4/D5
+  cross-references updated)
+- **"Model D Nested Hierarchy"** → **"Nested Holonic Structure"**
+  (FPF A.1 + A.14 canonical); Russian lineage retired as primary
+- **"FPF-Lite"** — retained as historical-alias only (legacy footnote);
+  never active term
+- **"Left мереологический"** legacy term — replaced в technical docs
+  by A.14 typed mereology (ComponentOf / ConstituentOf / etc.)
+
+#### New artifacts list (~20 new files/folders)
+
+**Policy documents (9):**
+- `decisions/policy/boundary-discipline.md` (Gap 1 L/A/D/E routing)
+- `decisions/policy/trust-tagging.md` (Gap 2 F-G-R conventions)
+- `decisions/policy/sku-pricing-chr.yaml` (Gap 3 SKU CHR)
+- `decisions/policy/agent-promotion-chr.yaml` (Gap 3 promotion CHR)
+- `decisions/policy/characteristic-space-conventions.md` (Gap 3
+  general CSLC conventions)
+- `decisions/policy/mereology-edge-types.md` (Rec-05 A.14 10 edge
+  types)
+- `decisions/policy/phase-transitions-mht.md` (Rec-06 4 MHTs)
+- `decisions/policy/bias-audit-cycle.md` (Rec-03 D.5 cycle)
+- `decisions/policy/mechanism-introduction.md` (Rec-20 E.20 protocol)
+
+**Wiki foundations (4):**
+- `wiki/foundations/jetix-uts.md` (Gap 4 UTS, 30-50 rows target)
+- `wiki/foundations/fpf-tooling.md` (Rec-13 D6 companion, 10-20 pages)
+- `wiki/foundations/jetix-innovations.md` (8.6 reference doc, 9
+  innovations catalog)
+- `wiki/foundations/jetix-creation-graph.md` (retagged A.14 typed
+  edges)
+
+**Templates (5):**
+- `decisions/templates/jetix-viewpoint-bundle.yaml` (Gap 5 Viewpoint
+  definitions)
+- `decisions/templates/audit-canonical-template.md` + 5 views
+  (`decisions/templates/views/` — executive / technical / governance /
+  regulatory / internal-learning)
+- `decisions/templates/client-intake-problem-chr.yaml` (Rec-16 C.22)
+- `decisions/templates/kill-chr-template.yaml` (Gap 3 direction kill)
+- `decisions/templates/mht-template.yaml` (Rec-06 B.2 transition)
+
+**Directions updates (per-direction):**
+- `directions/<slug>/ee-log.yaml` (Rec-07 C.19 exploration-exploitation)
+- `directions/<slug>/nqd-distinctions.yaml` (Rec-07 C.18)
+
+**Retrofits:**
+- 10-15 existing ADRs get F-G-R frontmatter tags retrofit (mostly
+  F1-F2 R-medium)
+- `wiki/foundations/jetix-creation-graph.md` retagged с A.14 typed
+  edges (5 generic → 10 typed)
+
+#### Structural additions к frontmatter conventions
+
+**role.md Block 5:**
+- `seniority-lite` with J-Auto/Approve/Strategic — preserved (Item 7)
+- `direction_authority` mapping — preserved (Item 7)
+
+**`executor-binding.yaml` new sections:**
+- `agency-profile` (Rec-08 A.13:4.3) — formal agency-scale 0.0-1.0
+- `agent_onboarding` (Левенчук Part 3 — already approved Chunk 5) +
+  F.6 6-step cycle (Rec-15)
+- `compute-contract` (P7 override — already approved Chunk 1)
+
+**ADR + client deliverable frontmatter (Gap 2):**
+```yaml
+formality: F0-F9
+reliability: R-low | R-medium | R-high | R-certified | R-formally-proven
+claim-scope: bounded-context-path
+```
+
+**Per-direction frontmatter (Rec-07):**
+```yaml
+ee-log-ref: directions/<slug>/ee-log.yaml
+nqd-distinctions-ref: directions/<slug>/nqd-distinctions.yaml
+```
+
+**Wiki + clients frontmatter (Rec-10 + Gap 4):**
+- `bridges-to: [context-a, context-b]` (where applicable)
+- `cl-level: 1-5` (Congruence Level)
+
+### 8.8 Updated Phase 1 work estimate
+
+| Category | Hours |
+|----------|-------|
+| Previous Stage 4 writing commitment (D1-D8, Chunks 1-7) | 80-120 |
+| **Post-FPF-Discovery additions (Chunk 8):** | |
+| — 5 Gaps full depth | 30-45 |
+| — P1 standalone recs (Rec-03 + Rec-05 + Rec-06) | 7-13 |
+| — P2 recs (excluding Gap-subsumed) | 13-22 |
+| — P3 recs | 8-14 |
+| — First FPF-Steward Q2 audit | 2-4 |
+| **Post-FPF-Discovery subtotal** | **60-98** |
+| **Total Phase 1** | **140-220** |
+| Realistic calendar | **3.5-5.5 weeks intensive** |
+
+**Timeline impact:**
+
+- **7+7 rollout** (Chunk 6 Area 8) — still valid strategic frame; Days
+  1-7 sales-first execution not impacted (Gap 2/4 adoption happens Day
+  5-6 в proposal/contract templates).
+- **Realistic tolerance:** 7+10-14 days (slightly extended from 7+10-12
+  per Chunk 6 — additional 2 days для UTS concurrent writing + CHR
+  space setup + MHT documentation).
+- **Parallel tracks heavier:** D6 JETIX-FPF writing (30-50 pages) +
+  UTS (Gap 4, concurrent per OQ-08 B) + CHR space artifacts Gap 3 +
+  Viewpoint Bundle Gap 5 + Bias-Audit Rec-03 — значительно больше
+  Phase 1 cognitive load чем Chunks 1-7 alone.
+- **Critical path:** D6 JETIX-FPF (Core 20-30 pages) — unblocks UTS
+  concurrent write; Gap 1/2 artifacts parallel к Day 5-6 sales
+  infrastructure; Gap 3 CHR spaces parallel к SKU pricing work Day 5.
+
+### 8.9 References
+
+**Decision artifacts:**
+- Stage 3 ADR (Chunks 1-7): `decisions/2026-04-19-architecture-v2-
+  approval.md` (APPROVED 2026-04-20)
+- Stage 3.6 tracking file: `decisions/gap-analysis-review-decisions-
+  2026-04-20.md`
+- Notion mirror: <https://www.notion.so/3482496333bf8174a7ffd6f30c02f0bf>
+- D9 draft v0.5: `decisions/2026-04-20-jetix-architecture-final-DRAFT.md`
+  (regenerated к v0.6 same commit as Chunk 8)
+
+**FPF source materials:**
+- FPF-Spec: `raw/external/ailev-FPF/FPF-Spec.md` (62K строк, commit
+  0a22129)
+- Attribution: `raw/external/ailev-FPF/ATTRIBUTION.md`
+- KB compilation: `raw/research/levenchuk-fpf-knowledge-base-
+  2026-04-20.md` (commit 3cb5f81)
+- Gap analysis: `raw/research/fpf-gap-analysis-2026-04-20.md` (2486
+  строк, commit 74cf858)
+- 5 Perplexity researches: `raw/research/levenchuk-fpf-research-
+  2026-04-20/R-{A,B,C,D,E}.md`
+
+**FPF patterns cited в Chunk 8 (verified against FPF-Spec.md):**
+- A.1 (L.1017), A.6.0 (L.8062), A.6.B (L.7097), A.6.C (L.7741), A.6.H
+  (L.15851), A.6.P (L.10601), A.6.Q (L.11326), A.6.S (L.15419),
+  A.6.3.CR (L.9521), A.13 (L.17328), A.14 (L.17478), A.16 (L.18954),
+  A.16.1 (L.19549), A.17 (L.20064), A.18 (L.20202), A.19 (L.20359),
+  A.20 (L.24927), A.21 (L.25224), B.2 (L.27444), B.2.5 (L.28100),
+  B.3 (L.28201), B.4 (L.29094), C.18 (L.37808), C.19 (L.38008), C.22
+  (L.38734), D.5 (L.39964), E.5.1 (L.40589), E.5.3 (L.40743), E.10
+  (L.41604), E.17 (L.45107), E.17.0 (L.43945), E.17.1 (L.44325),
+  E.17.2 (L.44696), E.18 (L.47502), E.20 (L.48322), F.6 (L.50641),
+  F.11 (L.52604), F.17 (L.54586), G.5 (L.58316).
+
+---
+
+## ✅ Chunk 8 COMPLETE 2026-04-20 — ADR FINAL CLOSED
+
+Stage 3.6 Gap Analysis review layer absorbed. 60+ Ruslan decisions
+locked (5 Gaps + 22 Recs + 11 OQs + 9 Innovations). Total Phase 1
+estimate: **~140-220h (3.5-5.5 weeks intensive)**.
+
+**Ruslan opening directive:** *"Максимальная глубина + качество, на 100%.
+Никаких compromises. Всё что применимо из FPF — внедряем. Стратегический
+курс как с 11 overrides — +Левенчук direction."*
+
+**Unblocks Stage 4 with enriched single source of truth:**
+- D9 Draft v0.6 (regenerated same commit) = primary input для Stage 4
+  writers
+- D6 JETIX-FPF (renamed) first up — Core (20-30 pages) + `wiki/
+  foundations/fpf-tooling.md` companion + concurrent UTS writing
+
+**All pending state:** NONE. ADR полностью finalized через Chunk 8.
