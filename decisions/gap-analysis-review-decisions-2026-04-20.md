@@ -247,14 +247,39 @@ All 5 critical gaps adopted **maximum depth**, no compromises:
   - FPF-Steward quarterly audit scope includes edge type verification
 - **Ties to:** MC3 (already accepted full 3-level graph), Gap 3 (CHR foundations relate).
 
-### Rec-06 — B.2 MHT для Jetix phase transitions
+### Rec-06 — B.2 MHT для Jetix phase transitions ✅ APPROVED
 
-- **FPF basis:** B.2 Meta-Holon Transition
-- **Cost:** 2-4h
-- **Claude rec:** accept (P1)
-- [ ] Discussed
-- **Ruslan decision:** [TBD]
-- **Rationale:** [TBD]
+- **FPF basis:** B.2 Meta-Holon Transition + B.2.1 Emergence + B.2.2 Re-identification + B.2.5 Supervisor-Subholon Feedback
+- **Cost:** 2-4h Phase 1 + 2h per transition when happens
+- [x] Discussed 2026-04-20
+- **Ruslan decision:** ✅ **ACCEPT full (Option A)** — 4 MHTs documented + template + integrations Phase 1
+- **Rationale:** "подтверждаем полностью, внедряем глубоко". Systematic transition management; invariant preservation; audit-readiness; bridge к scale.
+- **Implementation:**
+  - `decisions/policy/phase-transitions-mht.md` — 4 MHTs documented:
+    - Phase 1 → 2a (solo + hire)
+    - Phase 2a → 2b (team 5-20)
+    - Phase 2b → 2c (€10-50M, multi-entity, first acquisition)
+    - Phase 2c → 3 (€50M+, multi-entity federation)
+  - Each MHT: from-holon / to-holon / trigger-conditions / emergence-signals / re-identification (invariants + mutables) / transition-process (pre/during/post) / supervisor-subholon-feedback
+  - `decisions/templates/mht-template.yaml` — reusable template
+  - Integration: D8 rollout + D7 career levels + Area 4 Life-OS separation
+- **Ties to:** Area 4 Triple-AND Phase 2a trigger (already approved), D7 phase transitions table, Item 6 folder structure evolution.
+
+---
+
+## ✅ Step 3 COMPLETE 2026-04-20 — All 6 P1 Recommendations APPROVED Full Depth
+
+- Rec-01 Boundary Norm Square → ✅ via Gap 1
+- Rec-02 UTS skeleton → ✅ via Gap 4
+- Rec-03 D.5 Bias-Audit Cycle → ✅ Full
+- Rec-04 F+R tags ADR → ✅ via Gap 2
+- Rec-05 A.14 typed mereology edges → ✅ Full
+- Rec-06 B.2 MHT phase transitions → ✅ Full
+
+**Plus P2 elevated к P1-equivalent:**
+- Rec-09 E.17 Multi-View → ✅ via Gap 5
+- Rec-11 A.18 CSLC → ✅ via Gap 3
+- Rec-12 E.10 LEX-BUNDLE → ✅ via Gap 4 UTS
 
 ---
 
