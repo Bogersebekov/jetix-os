@@ -92,11 +92,23 @@ Previous 11 Ruslan overrides — все в +Левенчук direction. Здес
 - **Ties to:** Rec-01 P1 (это тот же scope).
 - **Implementation:** Day 5 (proposal template), Day 6 (contract + DPA template) — full L/A/D/E structure. Plus `decisions/policy/boundary-discipline.md` explaining routing convention.
 
-### Gap 2 — Trust & Assurance Calculus (B.3 F-G-R)
+### Gap 2 — Trust & Assurance Calculus (B.3 F-G-R) ✅ APPROVED
 
-- [ ] Discussed
-- **Decision:** [TBD]
-- **Rationale:** [TBD]
+- [x] Discussed 2026-04-20
+- **Decision:** ✅ **ACCEPT full + deep adoption (Option A)** — F-G-R tags в ADRs + client deliverables + agent output Phase 1.
+- **Plus deep:** Evidence Types catalog, CL (Congruence Level), Bridges, Pathwise Justification, Weakest-link analysis — adopted где applicable.
+- **Scope:** ADRs + client deliverables + agent outputs (sales-research, audit-reports, strategic analyses).
+- **Cost:** 3-5h Phase 1 (policy doc + retrofit 10-15 existing ADRs + template updates) + ~1 min per new ADR/deliverable ongoing.
+- **Rationale:** Ruslan directive — "подтверждаем полностью + deep adoption". Art. 22 GDPR defence strengthened; AI-agent output discipline; audit trail quality.
+- **Ties to:** Rec-04 P1 (same scope).
+- **Implementation:**
+  - `decisions/policy/trust-tagging.md` — policy document для F/G/R conventions
+  - F-scale F0-F9 defined + Jetix examples (expected range F0-F3)
+  - ClaimScope naming convention (bounded context paths)
+  - R-levels: R-low / R-medium / R-high / R-certified / R-formally-proven
+  - Retrofit existing ADRs with F-G-R tags
+  - Meta-agent prompt update: enforce F-G-R tagging
+  - FPF-Steward quarterly audit scope includes F-G-R compliance check
 
 ### Gap 3 — Characteristic Space (A.17-A.21)
 
