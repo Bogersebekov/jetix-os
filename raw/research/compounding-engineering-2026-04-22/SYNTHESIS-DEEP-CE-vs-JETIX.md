@@ -1,16 +1,21 @@
 ---
-id: CE-Synthesis-v1
-title: Compounding Engineering Research × Jetix Architecture — Deep Synthesis
+id: CE-Synthesis-v2
+title: Compounding Engineering Research × Jetix Architecture — Deep Synthesis (v2)
 date: 2026-04-21
-version: v1.0
+version: v2.0
+previous-version: v1.0 (commit 3cf7a67, 2243 lines, 137KB)
+v2-additions: R-9 agentic loop + R-10 continual learning + R-11 evals integration
 based-on:
-  - 8 Perplexity research outputs R-1...R-8 (~640KB, ~6370 lines)
+  - 11 Perplexity research outputs R-1...R-11 (~1018KB, ~10322 lines)
+  - R-9 agentic loop mechanics (1362 lines, 112KB)
+  - R-10 continual learning (1295 lines, 149KB)
+  - R-11 evals frameworks (1295 lines, 117KB)
   - JETIX-FPF v2 constitutional doc (3758 lines, D6)
   - ADR Chunks 1-8 (1995 lines)
   - D9 v0.6 draft (1880 lines)
   - Jetix CLAUDE.md + agents/ structure
-purpose: Strategic decision document для Ruslan — adopt / adapt / reject / defer findings из CE research
-state: draft (awaiting Ruslan review)
+purpose: Strategic decision document для Ruslan — adopt / adapt / reject / defer findings из CE research (now extended w/ agentic loop + continual learning + evals dimensions)
+state: draft-synthesized v2 (awaiting Ruslan review)
 formality: F2
 reliability: R-medium-to-high (multi-source for each claim)
 audience: Ruslan + future hires + Jetix archive
@@ -45,7 +50,38 @@ native Skills; custom wiki → native sub-agent `memory: project` + MCP
 memory; custom niche symlinks → `@imports`). Миграция даёт cost/discoverability/
 ecosystem benefits без compromise к ontological depth.
 
-### Top 5 strategic insights (cross-wave)
+### v2 update summary (added 2026-04-21)
+
+**Three new research waves integrated:** R-9 agentic loop mechanics (1362
+lines), R-10 continual learning state-of-the-art (1295 lines), R-11 evals
+frameworks (1295 lines). Total ~378KB new evidence.
+
+**Headline v2 findings:**
+1. **R-10 endorses Jetix's memory architecture verbatim** — wiki/+strategies.md
+   +scratchpad.md+mailboxes.jsonl+voice-notes pipeline IS the dominant
+   production pattern as of 2025-2026 ([R-10 §7.2](./R-10-continual-learning.md)). *"Not a technical
+   debt problem"* — endorsed by Karpathy ("LLM Wiki" April 2026) и Boris
+   Cherny. Hybrid augmentation only (Anthropic memory tool + sqlite-vec
+   Phase 2 + selective Letta sleep-time trial).
+2. **R-9 validates Jetix's hub-and-spoke as Hierarchical Orchestrator-Worker
+   pattern** ([R-9 §Recommendations](./R-9-agentic-loop.md)) — но adds critical 4-layer termination
+   stack mandate (maxTurns + Task Budget + machine-verifiable predicate +
+   HITL escalation) и per-department loop variant assignment. Anthropic
+   verbatim: **15× token cost для multi-agent** is the governing economic
+   constraint.
+3. **R-11 fills the v1 G4 evals gap fully** — Anthropic has NO standalone
+   eval product (Console UI-only); production teams build internal benchmarks.
+   **Promptfoo + Langfuse = minimum viable stack** ($50-209/mo Phase 1);
+   Hamel Husain Critique Shadowing 6-step workflow as judge-building method
+   (binary pass/fail, NEVER 1-5 Likert).
+
+**Three new strategic decisions added (D9/D10/D11):** memory architecture
+hybrid, Promptfoo+Langfuse adoption, per-department agentic loop variant
+assignment. Existing D1-D8 reviewed — recommendations remain valid с
+clarifications. Calendar updated к 14-16 days (was 13-15) for Option C
+hybrid с new tooling adoption.
+
+### Top 8 strategic insights (cross-wave, v2)
 
 1. **"Multi-agent" — это spectrum, не binary.** Хардкорная convergent finding
    по всем 8 reports: **hybrid = hierarchical orchestrator + homogeneous
@@ -93,6 +129,38 @@ ecosystem benefits без compromise к ontological depth.
    уже operationalize route (c). Phase 1 — keep it; Phase 2+ — harden с
    eval-based metrics (Hamel Husain, [R-3 §5.2](./R-3-self-improving-systems.md)).
 
+6. **(v2 from R-10) Jetix's file-based memory architecture is production
+   canonical, не technical debt.** R-10 §7.2 explicit endorsement: wiki/
+   +strategies.md+scratchpad+mailboxes+voice-notes = *"System Prompt Learning
+   + Voyager-style skill library + human-in-loop consolidation — the dominant
+   production pattern as of 2025-2026."* Echoed by Karpathy's "LLM Wiki"
+   framing (per Antigravity.codes April 2026 reporting) и Boris Cherny
+   ("multiple parallel sessions, shared team memory in git, plan mode for
+   everything non-trivial"). Hybrid augmentation only — Anthropic memory
+   tool (ZDR-eligible) Phase 1; sqlite-vec + selective Letta sleep-time
+   Phase 2. **NOT wholesale migration к Mem0/Letta/Zep.**
+
+7. **(v2 from R-9) 4-layer termination stack mandatory + per-department
+   loop variant.** R-9 §5 Q8 Ralph Wiggum problem: *"premature completion
+   is architectural, not promptable."* Each agent needs: maxTurns hard cap
+   + Task Budget soft limit + machine-verifiable completion predicate +
+   HITL escalation для irreversible actions. Per-department variant
+   assignment matters: ReAct + CodeAct для technical (system-admin), Plan-
+   and-Execute для research (knowledge-synth), Self-Refine для creative
+   (crazy-agent), Reflexion для CRM. **15× multi-agent token cost is the
+   governing economic constraint** (Anthropic verbatim).
+
+8. **(v2 from R-11) Eval framework is the missing infrastructure layer —
+   Promptfoo + Langfuse fills v1 G4 gap.** Anthropic has NO standalone eval
+   product as of April 2026 (Console UI-only, no API/CI/trajectory).
+   Production teams build internal benchmarks (Replit ABANDONED SWE-bench,
+   Cursor's CursorBench, Cognition's `cognition-golden`, Harvey BLB).
+   **Hamel Husain Critique Shadowing 6-step** (binary pass/fail NEVER
+   Likert; one criterion per call; "you can get quite far in 15 minutes")
+   delivers Honeycomb 30% accuracy gain в 3 iterations. 49% of public
+   benchmarks saturated; pass^k metric reveals reliability gap (~60% pass^1
+   → ~25% pass^8 on τ-bench).
+
 ### Top 5 recommended actions (priority order)
 
 | # | Action | Cost | ROI | Phase |
@@ -102,6 +170,9 @@ ecosystem benefits без compromise к ontological depth.
 | 3 | Install Compound Engineering plugin для 12-reviewer fan-out adaptation | 1h install + 3-5h customize к DACH/EU context | Error-to-rule pipeline operationalized; 2-3× quality gain (Boris Cherny) | Phase 1 Day 11 |
 | 4 | Shrink CLAUDE.md к <100 lines; move task-specific к `.claude/rules/` + skills | 2-3h audit | Compliance goes up (context rot reduction); Builder.io tip #29 | Phase 1 Day 11 |
 | 5 | Add `lessons.md` per-agent файл + session-close ritual appending structured entries | 1h setup + ongoing | Folkman showed 66.7→57.1% degradation от summarization; append-only ACE pattern +10.6% ([R-3 §6.1.6](./R-3-self-improving-systems.md)) | Phase 1 Day 9-10 |
+| **6 (v2)** | **Set up Promptfoo + Langfuse eval stack + 30-example golden sets per agent** (A9, A10) | 6h pilot (sales-researcher) + 4-6h per remaining agent over 4-6 weeks | Fills v1 G4 + new G8; quality compounds from Day 14; PR-gate prevents regression; Hamel Honeycomb +30% in 3 calibration iterations ([R-11 §4](./R-11-evals.md)) | **Phase 1 Day 14-17 + ongoing** |
+| **7 (v2)** | **Encode 4-layer termination stack + per-department loop variant в YAML role-manifests** (A14, A15) | 4-6h for all 11 agents | Solves R-9 Ralph Wiggum problem; prevents 4 of 6 R-9 anti-patterns (tool storms, doom loops, premature completion, rabbit holes); per-dept variant optimizes cost/quality | **Phase 1 Day 14-15** |
+| **8 (v2)** | **Adopt Anthropic memory tool (ZDR) для client-data agents + formalize strategies.md → SKILL.md** (A12, A13) | 2-3h memory tool integration + 2h SKILL.md template + 30 min/agent | GDPR Article 17 compliance (critical Berlin); 39% agentic search improvement, 84% token reduction в 100-turn web search; +10.6% ACE accuracy preserved ([R-10 §4.5, R-3 §6.1.6](./R-10-continual-learning.md)) | **Phase 1 Day 12** |
 
 ### Verdict: Substantial CE adoption, NOT full
 
@@ -789,6 +860,542 @@ Budget: 15-20h across Phase 1, saves ~38,000 tokens/session over lifetime.
 Cross-tool portability (AGENTS.md) opens optional Cursor/Codex interop without
 lock-in.
 
+### 1.9 Agentic loop deep dive (from R-9)
+
+**Canonical definition + 9-variant taxonomy.** R-9 establishes "agentic loop"
+as the fundamental while-loop primitive: *"LLMs using tools based on
+environmental feedback in a loop"* ([R-9 §1 Q1](./R-9-agentic-loop.md), Anthropic taxonomy). The
+formal grounding is **ReAct** (Yao et al., ICLR 2023, arXiv:2210.03629):
+agents augment action space к Â = A ∪ L, where L is language-space "thoughts"
+that update context cₜ₊₁ = (cₜ, âₜ) without external side effects. R-9 catalogs
+9 named loop variants ([R-9 §3 Q4](./R-9-agentic-loop.md)): **ReAct, Reflexion, Plan-and-Execute,
+Tree-of-Thoughts, CodeAct, Voyager, Self-Refine, Self-Consistency, AutoGPT-style**.
+Each has measured cost-tier (Low-Medium / Medium / High / Very High), production
+support level, and failure modes.
+
+**The single hardest economic constraint — Anthropic verbatim 15× claim**
+([R-9 §6 Q11, Exec Summary](./R-9-agentic-loop.md)): *"agents typically use about 4× more tokens
+than chat interactions, and multi-agent systems use about 15× more tokens
+than chats."* Combined with **triangular accumulation** ([R-9 §5 Q10](./R-9-agentic-loop.md)) — a
+20-step loop at 1,000 tokens/step produces 210,000 cumulative input tokens
+vs naïve estimate 20,000 (a **10.5× overrun**) — and **reliability tax**
+(95% per-step × 10 steps = 60% end-to-end success; failed runs cost 4–5×
+successful per SWE-Effi [R-9 §5 Q8 ref 87](./R-9-agentic-loop.md)) — the loop is *the* economic
+governing structure для Jetix's 11-agent system. SWE-bench data: 30,400 of
+48,400 total tokens come from tool results, 39.9–59.7% removable with no
+perf loss ([R-9 §5 Q10 ref 89](./R-9-agentic-loop.md)). MCP dynamic tool loading: 77K → 8.7K tokens
+(88.7% reduction, [R-9 §5 Q9 ref 90](./R-9-agentic-loop.md)).
+
+**Variant performance numbers (production-validated).**
+- **ReAct**: 0% hallucination vs 56% CoT-only on HotpotQA; ALFWorld +34pp vs
+  RL baselines; *"the default for most production systems"* ([R-9 §3 Q4](./R-9-agentic-loop.md))
+- **Reflexion**: 91% Pass@1 HumanEval (vs GPT-4 baseline 80.1%); +22% AlfWorld
+  vs ReAct; **fails after 4 trials if no improvement** ("local minima trap"); MBPP
+  false-positive rate 16.3% ([R-9 §3 Q4 + Critical Assessment Reflexion](./R-9-agentic-loop.md))
+- **Tree-of-Thoughts**: 74% Game of 24 vs 4% CoT (18.5× gain on GPT-4) but
+  $0.74/case vs $0.13 IO prompt; **NOT supported natively in Claude Code/SDK**
+  — requires LangGraph LATS ([R-9 §3 Q4 ref 18, 75, 76](./R-9-agentic-loop.md))
+- **CodeAct**: +20.7% absolute с GPT-4-1106-preview vs JSON tool calls;
+  closed-source 74.4% vs open-source 13.4% — pattern works only on frontier
+  models; native в Claude Code via Bash tool but sandbox-escape risk
+  ([R-9 §3 Q4 ref 21](./R-9-agentic-loop.md))
+- **Voyager**: persistent skill library (named JS functions с docstrings);
+  Minecraft-specific; closest analog к Jetix's `wiki/niches/` skill library
+  ([R-9 §3 Q4 ref 22](./R-9-agentic-loop.md))
+
+**Anthropic multi-agent research system — empirical case study**
+([R-9 §6 Q11 ref 3](./R-9-agentic-loop.md)). Opus 4 lead + Sonnet 4 subagents outperformed single-agent
+Opus 4 by **90.2%** on internal research eval; **token usage alone explains
+80% of performance variance** on BrowseComp; parallel execution cut research
+time **up to 90%**; tool description improvement gave **40% decrease in task
+completion time**. *"Each subagent needs an objective, an output format,
+guidance on the tools and sources to use, and clear task boundaries"*
+([R-9 §7 Q15](./R-9-agentic-loop.md)).
+
+**Claude Code's actual loop architecture — Boris's "thinnest wrapper" doctrine.**
+Boris Cherny ([R-9 §4 Q6 ref 26](./R-9-agentic-loop.md)): *"This is the thinnest possible wrapper over
+the model. We literally could not build anything more minimal."* Claude Code =
+ReAct + native JSON tools + agentic search + CLAUDE.md + auto-compaction at
+95%; **no LangGraph, no AutoGen, no LlamaIndex, no RAG, no embeddings**.
+Compaction every 10–15 tool calls saves 22.7% tokens at baseline accuracy;
+**aggressive ongoing summarization explodes turns 4.0 → 14.0 with only 14%
+net saving** ([R-9 §5 Q9 ref 89](./R-9-agentic-loop.md)). Key sub-agent constraint: receives only
+its own system prompt + working dir, **NOT parent's full context, tool history,
+or skills** — starts fresh each spawn.
+
+**The Cognition contradiction + reconciliation** ([R-9 §7 Q14 ref 62, 63](./R-9-agentic-loop.md)).
+Walden Yan, June 2025: *"running multiple agents in collaboration only results
+in fragile systems"*; *"The simplest way to follow the principles is to just
+use a single-threaded linear agent."* Then March 2026: Cognition launched
+Devin-manages-Devins. R-9 reconciles via two principles: (1) **share full
+traces, not just summaries** (Walden Yan Principle 1); (2) **isolated focus**.
+Anthropic's pattern conforms; Claude Code's stock sub-agent model does NOT
+(sub-agents start fresh без parent context). For Jetix: messages в `mailboxes/`
+must contain full traces, не only outcomes.
+
+**Eight termination mechanisms + the Ralph Wiggum problem** ([R-9 §5 Q8](./R-9-agentic-loop.md)).
+Mechanisms: max iterations / token budget / convergence / self-declared
+completion / external judge / timeout / budget-aware stop / HITL. Critical
+finding: **premature completion is architectural, not promptable**. Verbatim
+([R-9 §5 Q8 ref 84](./R-9-agentic-loop.md)): *"No prompt can enable the agent to validate its own
+fuzzy work. This issue is rooted in the architecture of the system rather
+than the language used."* Fix = external machine-verifiable completion
+predicate. Anthropic Task Budgets API (`task-budgets-2026-03-13` header)
+gives countdown server-side, BUT documented "desperate Claude" failure: when
+budget approaches exhaustion, internal activation pattern fires causing
+**silent quality degradation 20–44% of the time** ([R-9 §5 Q8 ref 86](./R-9-agentic-loop.md)).
+Practical workaround: phrase budgets in prose ("keep this under 400 words")
+rather than `max_tokens=400`.
+
+**Six anti-patterns documented** ([R-9 §5 Q10](./R-9-agentic-loop.md)):
+1. **Tool-call storms** — Anthropic's own early system spawned 50 subagents
+   for simple queries; enterprise cost overruns averaging **340% above
+   estimate** from infinite retry loops без backoff
+2. **Hallucinated tool args / phantom calls** — paradox: better reasoning
+   *increases* hallucination; o3 and o4-mini hit 33% and 48% rates
+3. **Context exhaustion** — 10.5× triangular overrun; "after 30–50 messages,
+   agents forget earlier conversation and contradict themselves"
+4. **Doom loops / infinite self-reflection** — Reflexion: "after only four
+   trials...does not show signs of improvement"; Goal Drift paper (arXiv:2603.03258,
+   2026): Sonnet 4.5 standard *"consistently fail to recognize the new goal"*
+   in 32-step experiments; only thinking variants pass
+5. **Premature completion (Ralph Wiggum)** — agents declare 100% done at 80%
+6. **Rabbit holes** — Devin Answer.AI post-mortem Jan 2025: *"spent over a
+   day attempting various approaches and hallucinating features that didn't
+   exist"*
+
+**Benchmarks at frontier are unreliable.** SWE-bench Verified 80.9% vs SWE-bench
+Pro 45.9% (contamination); OpenHands 72% Verified vs 19–25% live post-cutoff;
+SWE-EVO: GPT-5.4 with OpenHands **25%** vs 72.80% Verified ([R-9 §4 Q7 ref 109](./R-9-agentic-loop.md)).
+R-9 explicit: *"Jetix should not use SWE-bench scores as a guide for selecting
+agents for its own workflows."* Cost-adjusted GAIA: Claude Sonnet 4.5 at
+$178.20 / 74.55% = best cost-adjusted; Opus 4 High = 9× more expensive for
+similar outcome ([R-9 §6 Q11 ref 87](./R-9-agentic-loop.md)).
+
+**Jetix implications (R-9-specific, exhaustive).**
+
+1. **Coordination model already aligned.** R-9 explicitly recommends
+   **Hierarchical Orchestrator-Worker** pattern для Jetix ([R-9 Recommendations §"Coordination Model"](./R-9-agentic-loop.md));
+   matches Jetix's hub-and-spoke (Manager → dept leads → specialists). No
+   architectural change required — this validates D6 §2.2a.
+
+2. **Per-department variant assignment** ([R-9 Recommendations table](./R-9-agentic-loop.md)):
+   - system-admin / sales-outreach (technical) → ReAct + CodeAct (Bash tool)
+   - knowledge-synth / sales-researcher → Orchestrator-Worker + Plan-and-Execute
+   - crazy-agent (creative) → Self-Refine 3–4 iterations
+   - sales-lead / sales-outreach (CRM) → ReAct + Reflexion on outcome signals
+   - personal-assistant (operations) → Plan-and-Execute + HITL interrupts
+     at irreversible steps
+   - meta-agent (auditing) → Self-Refine + ReAct evaluator-optimizer pattern
+   - strategy-support-analyst → Plan-and-Execute с extended thinking
+     (counters goal drift per Sonnet-4.5 finding)
+
+3. **Four-layer termination stack mandatory per agent** ([R-9 Recommendations](./R-9-agentic-loop.md)):
+   (a) `maxTurns` hard cap в YAML; (b) Task Budget soft limit using
+   `task-budgets-2026-03-13` header; (c) machine-verifiable completion
+   predicate (NOT "when done" prose); (d) escalation trigger for irreversible
+   actions (matches Jetix's CP-5 + "A/B tests: ALWAYS awaiting_approval"
+   rule already в CLAUDE.md).
+
+4. **Per-agent maxTurns recommendations** ([R-9 Recommendations table](./R-9-agentic-loop.md)):
+   inbox-processor (lookup) → 5–8; sales-outreach / sales-researcher → 10–20;
+   personal-assistant (ops) → 15–25 + human gates; knowledge-synth (research)
+   → 30–50; crazy-agent (creative) → 8–12; strategy-support-analyst (deep
+   planning) → 15–25 + extended thinking. **These should be encoded в
+   role-manifest YAML** (D3 Block 3 — extends current "verification_signal"
+   recommendation AC2).
+
+5. **Pass full context on sub-agent delegation, NOT summaries.** Walden Yan
+   Principle 1; reconciliation finding ([R-9 §7 Q14 ref 62](./R-9-agentic-loop.md)). Implementation:
+   `mailboxes/<id>.jsonl` messages must include full reasoning trace, not
+   только outcomes. Update message schema.
+
+6. **DO NOT add LangGraph/AutoGen/LlamaIndex.** Explicit anti-recommendation
+   ([R-9 Recommendations §"What to Avoid" item 5](./R-9-agentic-loop.md)). Jetix's stack already complies.
+
+7. **Goal drift mitigation для long-horizon agents.** Sonnet-4.5 standard fails
+   goal-resilience в 32-step experiments; thinking variants pass ([R-9 §6 Q12 ref 103](./R-9-agentic-loop.md)).
+   **Enable extended thinking on strategist + knowledge-synth + meta-agent
+   FPF-Steward sub-role.**
+
+8. **Cost-optimal model choice.** Sonnet 4.5 = best cost-adjusted; Opus 4 at
+   9× rarely justified. Implication: only `strategist` (Opus 4.6) и 4 Sonnet
+   4.6 agents должны remain on top-tier; Haiku 4.5 для всё routine.
+
+9. **Wiki/niches as Voyager-style skill library** ([R-9 §3 Q4 Voyager + Comparison to Anthropic Ecosystem](./R-9-agentic-loop.md)).
+   Jetix's `wiki/niches/` symlink architecture is the closest stable analog
+   к Voyager's persistent skill library. Phase 2a: formalize as named
+   skill registry с executable bindings.
+
+**Critical limit от R-9.** R-9 documents that **no current loop pattern
+solves long-horizon strategic reasoning**. Goal drift hits all major models
+above 32 steps; thinking variants мitigate но не eliminate. Jetix's strategy-
+support-analyst (Opus 4.6) plus FPF-Steward audit + Ruslan strategy-lead
+atomic sub-role IS the architectural answer to this — *no agent loop pattern
+substitutes for human strategic agency at the top of the holon*.
+
+### 1.10 Continual learning state-of-the-art (from R-10)
+
+**Bottom-line headline.** R-10 explicitly **endorses Jetix's current
+architecture**. Verbatim ([R-10 §7.2, §Exec Summary](./R-10-continual-learning.md)): Jetix's `wiki/`
+markdown + per-agent `strategies.md` + `scratchpad.md` + `mailboxes.jsonl`
++ voice-notes pipeline is *"correctly classified as System Prompt Learning
++ Voyager-style skill library + human-in-loop consolidation — the dominant
+production pattern as of 2025–2026."* Echoed by Karpathy's "LLM Wiki"
+framing (per third-party Antigravity.codes reporting April 2026 [R-10 ref 4])
+и Boris Cherny ("multiple parallel sessions, shared team memory in git,
+plan mode for everything non-trivial"). **"Not a technical debt problem"**
+— deliberate transparency trade-off.
+
+**Three architectural families** ([R-10 §Exec Summary](./R-10-continual-learning.md)):
+1. **File-based / git-backed** (Anthropic memory tool, Claude Projects, Letta
+   Context Repositories Feb 2026, Jetix wiki) — transparency + GDPR + portability
+2. **Managed vector + graph** (Mem0, Zep+Graphiti, Cognee) — semantic search
+   at scale, vendor lock-in
+3. **Native Anthropic primitives** (memory tool beta `context-management-2025-06-27`,
+   Sept 29 2025) — ZDR-eligible, file-based, 6 commands
+
+**Cognitive memory taxonomy** ([R-10 §1.4](./R-10-continual-learning.md), Baddeley-style):
+- **Episodic** (timestamped events) — Generative Agents memory stream;
+  **Jetix `mailboxes/<id>.jsonl`**
+- **Semantic** (extracted facts / KG) — GraphRAG, HippoRAG;
+  **Jetix `wiki/concepts/` + `wiki/entities/` + `wiki/graph/edges.jsonl`**
+- **Procedural** (executable skills) — Voyager skill library;
+  **Jetix per-agent `strategies.md` + `wiki/foundations/`**
+- **Working** (live context window) — finite even at 200K tokens;
+  **Jetix per-agent `scratchpad.md`**
+
+Jetix already implements all four implicitly. R-10 calls this **the optimal
+pattern** for solo-founder consultancy.
+
+**Key product comparisons** ([R-10 §4](./R-10-continual-learning.md)):
+
+| Tool | Architecture | License | Pricing | Verdict for Jetix |
+|------|--------------|---------|---------|---------------------|
+| **Mem0** ([§4.1](./R-10-continual-learning.md)) | Vector+graph hybrid, LLM extraction loop (ADD/UPDATE/DELETE/NOOP) | Apache 2.0 + Cloud | $0/$19/$249 | **Defer** — no temporal modelling; independent LongMemEval 49.0% (15pt below Zep) |
+| **Letta (MemGPT)** ([§4.2](./R-10-continual-learning.md)) | OS-tiered (core/archival/recall) + sleep-time agent | Apache 2.0 + Pro $20/mo | $0 self-host | **Trial Phase 2** on ONE agent с human-approval gate |
+| **Zep + Graphiti** ([§4.3](./R-10-continual-learning.md)) | Bitemporal KG (T + T' + valid_from/valid_to/invalid_at) | Apache (Graphiti) + Cloud | $25/mo Flex | **Defer** — only when specific agent needs temporal tracking |
+| **Cognee** ([§4.4](./R-10-continual-learning.md)) | ECL pipeline (Extract/Cognify/Load) + memify feedback loop | Apache 2.0 | $7.5M seed Feb 2026 | **Defer** — no published benchmarks; revisit if edges.jsonl >500 |
+| **Anthropic memory tool** ([§4.5](./R-10-continual-learning.md)) | File-based, 6 commands (view/create/str_replace/insert/delete/rename) | Beta API | Included | **Adopt now** — ZDR-eligible (critical for Berlin GDPR), 39% agentic search improvement, 84% token reduction в 100-turn web search |
+| **MemoryOS** ([§4.7](./R-10-continual-learning.md)) | OS-inspired 3-tier (Storage/Updating/Retrieval/Generation) | OSS | Free | **Watch** — +49.11% F1, +46.18% BLEU-1 on LoCoMo |
+| **A-MEM** ([§4.7](./R-10-continual-learning.md)) | Zettelkasten-style linked notes | OSS | Academic | **Watch** — 85–93% token reduction |
+| **sqlite-vec** ([§7.1](./R-10-continual-learning.md)) | Apache 2.0 SQLite extension, zero-server | Mozilla-sponsored | Free | **Adopt Phase 2** — highest-ROI semantic retrieval upgrade |
+
+**Sleep-time compute pattern — R-10's most architecturally important new
+finding** ([R-10 §2.9 ref 19, §4.6](./R-10-continual-learning.md)). Lin et al. (arXiv:2504.13171, April 2025):
+asynchronous inference during agent idle periods decomposes (context, query)
+into static c + dynamic q; produces enriched c′. **~5× compute reduction
+at equal accuracy** (Pareto improvement); **2.5× per-query cost reduction
+when 10 queries share one context**; **+18% Stateful AIME, +13% GSM-Symbolic
+P2**. Letta's sleep-time agent rewrites primary agent's core memory
+asynchronously via `rethink_memory` (up to 10 calls) + `finish_rethinking`.
+
+Charles Packer (Letta CEO) verbatim ([R-10 §4.2 ref 86](./R-10-continual-learning.md)):
+> *"In Claude Code — and every other coding CLI — every time you want to work
+> on a task, you spin up a new 'agent'... The agent is brand new — it doesn't
+> know anything about you. In contrast, Letta Code is fully stateful. The
+> idea is that you work with a small handful of agents that get better and
+> better over time."*
+
+**Six failure modes documented** ([R-10 §5.2](./R-10-continual-learning.md)):
+1. **Catastrophic forgetting / overwrite** — ChatGPT documented failure;
+   fix = ADD/UPDATE/DELETE/NOOP conflict resolution
+2. **Memory poisoning** — AgentPoison ≥80% ASR at <0.1% corpus contamination
+   (arXiv:2407.12784); single poisoned instance с single-token trigger ≥60%
+   ASR. Claude shows "markedly stronger resistance" per May 2025 benchmark
+3. **Retrieval drift** — vector SNR degrades с scale; MemoryAgentBench:
+   BM25 outperforms embedding RAG at scale
+4. **False memory consolidation / semantic drift** — AWS Bedrock case (Palo
+   Alto Unit 42, Oct 2025): malicious indirect prompt injection persisted
+   **up to 365 days**
+5. **Context rot** — Chroma 2025 study: degradation at *every* length
+   increment в 18 frontier models; lost-in-the-middle = 30%+ accuracy drops
+6. **GDPR vs EU AI Act conflict** — Article 17 (erasure) vs Article 12/72
+   (10-year audit retention) — *"irreconcilable demands unless memory is
+   architecturally tiered"* ([R-10 §5.2 ref 50](./R-10-continual-learning.md))
+
+**Benchmark dispute and procurement caveat** ([R-10 §6.1, §6.2, §6.6](./R-10-continual-learning.md)).
+LongMemEval scores: Zep 63.8% vs Mem0 49.0% (independent vectorize.io
+testing) — 15pt gap attributable to Mem0's lack of temporal fact modelling.
+Mem0's own paper claims 91.6 LoCoMo / 93.4 LongMemEval (own algorithm, own
+LLM judge). MemoryAgentBench (Oct 2025): *"Memory system generalisation is
+fragile — specialised architectures are robustly superior only on reading
+comprehension; on other domains, well-tuned naïve RAG is competitive or
+superior"* — undercuts general-purpose vendor claims. R-10 explicit: *"the
+Zep vs. Mem0 benchmark dispute remains unresolved as of April 2026."*
+
+**Anthropic Agent Skills standard = Jetix's "free upgrade path"** ([R-10 §8.1, §2.10 ref 30](./R-10-continual-learning.md)).
+Apache 2.0, Dec 2025. SKILL.md с YAML frontmatter and progressive disclosure
+(only metadata loaded at session start; full skill loaded on trigger).
+**Direct map to Jetix's `strategies.md` pattern** — formalize with no semantic
+loss. Letta's "Context Repositories" (Feb 2026) confirmed as reference
+architecture: **git-backed memory + sleep-time consolidation + composable
+SKILL.md + sub-agent orchestration**. Jetix is already 80% there.
+
+**Jetix implications (R-10-specific, exhaustive).**
+
+1. **Validation, не migration.** Wiki/+strategies.md+scratchpad.md+mailboxes
+   +voice-notes pipeline is endorsed as production pattern ([R-10 §7.2](./R-10-continual-learning.md)). **No
+   wholesale replacement.** Critical confirmation that v1 D4 decision (yes-partial
+   migration) was correct.
+
+2. **Phase 1 (now, $0)** ([R-10 §Recommendation §3](./R-10-continual-learning.md)):
+   - Enable **Anthropic Claude Projects memory** for all 6 departments
+     (free since March 2026; per-project memory isolation)
+   - **Formalize `strategies.md` → SKILL.md** (Anthropic Agent Skills
+     standard) — confirms v1 A1 recommendation
+   - Add `wiki/eval-canaries.md` с 10–15 unusual probe facts; bi-weekly
+     recall tests — MVP eval harness
+   - **Adopt Anthropic memory tool** (beta `context-management-2025-06-27`)
+     selectively — ZDR-eligible (critical для Berlin GDPR Article 17)
+
+3. **Phase 2 (1–4 weeks, ~$25/mo cap)** ([R-10 §Recommendation §3](./R-10-continual-learning.md)):
+   - Add **sqlite-vec** semantic index over wiki entities when count exceeds
+     ~200 (free, zero-server, coexists с markdown)
+   - **Trial Letta sleep-time agent on ONE high-volume agent** (self-host,
+     Apache 2.0); human-approval gate on `proposed-wiki-updates.md`
+   - For 2–3 agents tracking evolving facts only, trial **Zep Flex $25/mo**
+     for 30 days; measure recall on temporal queries
+
+4. **Phase 3 (3–6 months, defer until validated):** Cognee migration ONLY
+   if `edges.jsonl` exceeds ~500 edges с multi-update-per-week churn.
+   Formal eval harness (LangSmith / Inspect AI per R-11).
+
+5. **Explicitly do NOT adopt now** ([R-10 §Recommendation §4](./R-10-continual-learning.md)):
+   - **Mem0 Cloud Standard** ($19/mo) — Anthropic Memory Tool + sqlite-vec
+     is cheaper и provides equivalent value; no temporal modelling
+   - **Zep Cloud Flex как default** — only after Letta trial validates
+     automation appetite
+   - **Cognee** — until edges.jsonl is practical bottleneck
+
+6. **GDPR architectural mandate.** Mem0 Cloud / Zep Cloud are US-hosted;
+   client personal data в memory triggers Article 17 erasure + Article 20
+   portability + Article 6 lawful basis. **ZDR-eligible Anthropic Memory
+   Tool с client-side storage = only fully compliant option** ([R-10 §Recommendation §5](./R-10-continual-learning.md)).
+   This is operationally critical.
+
+7. **Memory poisoning vector for Jetix.** Voice-notes from external meetings
+   + client documents. **Differential trust levels mandatory**; never let
+   external-document extracts directly overwrite wiki entries без conflict-
+   resolution. Aligns с F-G-R discipline (D6 §4.2) — voice-notes get
+   F0/G-narrow/R-low tagging until human-promoted.
+
+8. **Selective forgetting as first-class operation** — Packer's open insight
+   ([R-10 §8.3 ref 24](./R-10-continual-learning.md)): agent should retroactively modify every memory on
+   user request. *"Architecturally non-trivial for systems using database
+   embeddings rather than editable files."* **File-based wiki gives Jetix
+   structural advantage here** — `git rm` + `git filter-branch` works.
+
+**Notable absence flagged.** R-10 does **not** mention "ACE (Active Compounding
+Engineering) +10.6%" by that name. The +10.6% finding cited в v1 ([R-3 §6.1.6](./R-3-self-improving-systems.md))
+remains the source for ACE pattern; R-10 covers System Prompt Learning,
+Reflexion verbal RL, и sleep-time compute as the closest neighbours. v1
+ACE references unchanged.
+
+### 1.11 Evals frameworks (from R-11)
+
+**Bottom-line headline.** R-11 establishes that **Anthropic has NO standalone
+eval product** as of April 2026 ([R-11 §2.1, §9](./R-11-evals.md)). Console eval tool is UI-
+only с no API, no CI/CD integration, no automated graders, no agent trajectory
+support. Bloom (Dec 2025) is safety-research tooling only. Anthropic's own
+Jan 2026 engineering blog explicitly recommends third-party tools — **Braintrust,
+LangSmith, Langfuse, Phoenix**. R-11's clearest single recommendation для
+Jetix: **Promptfoo (OSS CLI) + Langfuse (self-host или $0–$29/mo cloud) =
+minimum viable stack** ([R-11 §Exec Summary, §8.1](./R-11-evals.md)).
+
+**14 frameworks evaluated** ([R-11 §2](./R-11-evals.md)) — top 5 для Jetix:
+
+| # | Framework | Positioning | Pricing | Jetix verdict |
+|---|-----------|-------------|---------|---------------|
+| 1 | **Promptfoo** | OSS CLI, dev-centric, first-class trajectory assertions | Free MIT | **Adopt Phase 1** — best Claude integration, 100% local, EU-friendly |
+| 2 | **Langfuse** | OSS + hosted, EU-friendly, MIT, self-hostable in 5 min | $0 (50k units) → $29 → $199 | **Adopt Phase 1** — Anthropic-endorsed Jan 2026 как self-hosted alternative к LangSmith |
+| 3 | **Braintrust** | Hosted SaaS, unified eval+obs; $80M Series B Feb 2026 | $0 → $249 Pro | **Adopt Phase 2** when €2K+/mo revenue justifies |
+| 4 | **Inspect AI** | UK AISI government-grade; declarative Task/Solver/Scorer; Docker/K8s sandboxed | Free MIT | **Defer** — overhead too high for solo; revisit if safety-eval contract |
+| 5 | **Phoenix/Arize** | OSS (ELv2) + hosted; OTel-native; AnthropicInstrumentor zero-code | Free OSS / $50/mo | **Watch** — cheapest SaaS alternative |
+
+Total Phase 1 budget: **~$50–$209/mo baseline**. Phase 2 step-up к ~$300–$450/mo
+when revenue supports.
+
+**LLM-as-judge — foundational evidence + bias catalog** ([R-11 §4](./R-11-evals.md)).
+Zheng et al. (arXiv:2306.05685): GPT-4-as-judge achieves **85–87% agreement
+with humans** on MT-Bench/Chatbot Arena, slightly exceeding human-human
+agreement (81–82%). Agreement rises from ~70% to nearly 100% as quality
+gap between compared outputs increases.
+
+**Nine bias categories с magnitudes** ([R-11 §4 Bias Magnitudes Table](./R-11-evals.md)):
+- **Position bias**: 75% first-position preference в Claude-v1; 65% GPT-4 default
+- **Verbosity bias**: 91.3% failure rate в Claude-v1/GPT-3.5
+- **Self-enhancement**: +25% win rate Claude-v1 self-judge
+- **Sycophancy**: 62.47% Gemini-1.5-Pro; 58.19% aggregate (SycEval 2025)
+- **Authority bias**: 33.8% manipulated (CALM framework)
+- **Distraction (pairwise)**: 35% preference flip rate (Tripathi et al.)
+- **Familiarity/perplexity**: worse-than-human inter-sample agreement (Stureborg)
+- **Anchoring (multi-attribute)**: degrades per added attribute
+- **Domain expertise ceiling**: drops к **64–68% on expert tasks** vs 72–75%
+  human (Krumdick et al.) — **directly relevant к FPF compliance evaluation**
+
+**Eight calibration techniques с measured gains** ([R-11 §4 Calibration](./R-11-evals.md)):
+- Reference answer anchoring: **−78% factuality failure**
+- Few-shot anchoring: +12.5pp position consistency
+- CoT reasoning в judge: −57% math failure (Spearman ρ=0.514 G-Eval)
+- Rubric specification: Pearson **ρ=0.897** (Prometheus 13B + 1,000 rubrics)
+- Position swap: eliminates positional artifacts (2× cost)
+- Ensemble k=8: +9.8pp accuracy (8× cost)
+- **PoLL (Panel of LLM judges)** k=3: outperforms GPT-4 alone at **1/7 cost**
+- One criterion per call: prevents anchoring degradation
+
+**Hamel Husain — Critique Shadowing 6-step workflow** ([R-11 §4](./R-11-evals.md)):
+1. Find Principal Domain Expert (для Jetix: Ruslan)
+2. Create Dataset (~30 examples; *"you can get quite far in just 15 minutes"*)
+3. Pass/Fail + Critique (binary; **NEVER 1–5 Likert** — *"if your evaluations
+   consist of metrics that LLMs score on a 1–5 scale, you're doing it wrong"*)
+4. Fix Obvious Errors
+5. Build LLM Judge Iteratively (precision/recall, target >90%; *"took us only
+   three iterations"*)
+6. Periodic Error Analysis
+
+Honeycomb case: **30% accuracy improvement after 3 calibration iterations**.
+
+**Shreya Shankar — criteria drift** ([R-11 §4](./R-11-evals.md)): *"Users need criteria
+to grade outputs, but grading outputs helps users define criteria. It is
+impossible to completely determine evaluation criteria prior to human judging
+of LLM outputs."* EvalGen (CHI 2024): 0.73 recall on product defects vs SPADE
+baseline 0.49.
+
+**Anthropic's own three-agent harness pattern** ([R-11 §9](./R-11-evals.md)) — Planner →
+Generator → Evaluator. *"Separating the agent doing the work from the agent
+judging it proves to be a strong lever... tuning a standalone evaluator to
+be skeptical turns out to be far more tractable than making a generator
+critical of its own work. Out of the box, Claude is a poor QA agent."* Full
+V2 cycle (Opus 4.6) ~3h 50m at $124.70.
+
+**Benchmark saturation + contamination crisis** ([R-11 §3](./R-11-evals.md)). **49% of major
+benchmarks exhibit high-to-very-high saturation** (arXiv:2602.16763).
+HumanEval (95%+), MMLU (92.5% GPT-5), SWE-bench Verified (declared saturated
+by OpenAI Feb 2026) have **zero discriminative power** for frontier models.
+GPT-4o drops 14.6 percentage points from MMLU (88%) к MMLU-CF (73.4%);
+SWE-bench Live vs Verified shows 24-point contamination inflation. **Llama
+4 Arena gaming**: Meta uploaded 27 variants, deleted underperformers,
+inflating final score by ~100 ELO; production version dropped 30 positions.
+Yann LeCun confirmed *"fudged a little bit."*
+
+**pass^k as the consistency metric** ([R-11 §3, §6 Sierra τ-bench](./R-11-evals.md)). GPT-4o
+on τ-retail: **~60% pass^1 → ~25% pass^8** (60% reliability drop across 8
+trials). Single most-cited reliability metric, now adopted in Anthropic
+model cards. R-11 explicit: *"Always measure consistency, not single-trial
+accuracy."*
+
+**Production case studies — production teams build their own benchmarks**
+([R-11 §6](./R-11-evals.md)):
+- **Replit ABANDONED SWE-bench** because *"this wasn't actually measuring
+  what their users wanted"*; built Chrome+Docker harness; time-to-app
+  dropped 6–7 min → <2 min
+- **Cursor** uses CursorBench (real Cursor sessions via "Cursor Blame");
+  refreshed every 2–3 months to prevent contamination
+- **Harvey BigLaw Bench**: 60% (2024 baseline) → **90% (2026)**; Document
+  Q&A 94.8%; test sets locked once "published"
+- **Cognition `cognition-golden`**: internal 74.2% (Devin 2.0 hit 45.8%
+  on SWE-bench Verified)
+
+**Cost economics — cost is NOT a reliable proxy for accuracy** ([R-11 §7](./R-11-evals.md)).
+SWE-bench Verified mini (50 tasks): SWE-Agent+Sonnet 4.5 High = 72% at
+$463.90; HAL Agent+Haiku 4.5 = **44% at $65.31 (7× cheaper for ~60%
+performance)**; HAL Agent+o3 Medium = 0% at $585.71.
+
+**Open problems — unresolved at frontier** ([R-11 §9](./R-11-evals.md)):
+- **Trajectory credit assignment** (arXiv:2604.09459) — wrong tool call at
+  turn 3 receives same penalty as dozens of correct subsequent actions
+- **Judge-Model circularity** (Dorner et al. arXiv:2410.13341) — when
+  evaluated model > judge capability, judge's optimal debiasing is *"no
+  better than twice the ground truth data"*
+- **Domain-expertise ceiling for niche frameworks** — direct hit на FPF
+  compliance evaluation; only mitigation: expert-written reference answers
+  или hybrid HITL
+- **Eval awareness / sandbagging** (UK AISI 2025) — Claude Opus 4.6 exhibited
+  "eval awareness" on BrowseComp
+
+**Jetix implications (R-11-specific, exhaustive).**
+
+1. **Fill the gap revealed by v1 G4.** v1 §3.4 G4 documented that D9 §5.1
+   folder 8 `evals/<role>/` is structurally correct но empty Day 1. R-11
+   gives complete blueprint to fill it. **This is the single most actionable
+   addition from R-11.**
+
+2. **Phase 1 minimal viable setup** ([R-11 §8.1](./R-11-evals.md)):
+   1. Install Promptfoo CLI; create `promptfooconfig.yaml` per agent в
+      `evals/<role>/`
+   2. Sign up Langfuse Hobby tier ($0, 50k units/mo) OR self-host via
+      Docker Compose
+   3. Pick 1 pilot agent — recommend `sales-researcher` (clearest factuality
+      criteria)
+   4. Hand-grade 30 examples (Hamel: *"15 minutes"*); store as
+      `golden-set.jsonl`
+   5. Build first LLM-judge: Haiku 4.5, **binary pass/fail**, reference-
+      anchored, ONE criterion per call
+   6. Calibrate против 20–30 Ruslan-graded examples; precision >0.85,
+      recall >0.85
+   7. GitHub Action `eval.yml` PR gate at ≥85% pass rate
+   8. Repeat для remaining 10 agents over 4–6 weeks
+
+3. **Per-agent eval design provided directly** ([R-11 §8.2](./R-11-evals.md)) — complete table
+   for all 11 Jetix agents с quality dimensions, eval mix (trajectory +
+   LLM-judge + deterministic), golden set structure (30–50 examples each),
+   judge prompt sketches. Drop-in actionable.
+
+4. **D-document writing eval** ([R-11 §8.3](./R-11-evals.md)). Multi-dimensional rubric с
+   **separate judge per dimension** (FPF compliance / evidence quality /
+   structural coherence / factual accuracy / style / actionability). Use
+   Opus 4.7 for high-stakes review; Sonnet 4.6 routine. Calibrate against
+   20–30 historical D-docs graded by Ruslan; target Cohen's κ > 0.6. **Three-
+   agent harness pattern (Planner→Generator→Evaluator) directly applicable
+   к D6 3-pass writing**.
+
+5. **FPF compliance eval** ([R-11 §8.5](./R-11-evals.md)). **Hybrid 2-layer approach** — Layer 1
+   deterministic (FPF principle name regex + required sections), Layer 2
+   rubric LLM-judge (5 dimensions: Principle Derivation, Assumption
+   Explicitness, Evidence Grounding, Internal Consistency, Scope
+   Appropriateness). Calibrate с 5 strong + 5 borderline + 5 non-compliant
+   examples; target κ > 0.7. Single judge sufficient — FPF criteria explicit
+   и discrete. **NB:** R-11 leaves open how к mitigate domain-expertise
+   ceiling (64–68% judge accuracy on expert tasks) для niche framework like
+   FPF — only suggestion: expert-written reference answers + HITL hybrid.
+
+6. **Compound learning eval** ([R-11 §8.4](./R-11-evals.md)). **Frozen Q1 golden sets** (30–50
+   examples per agent), locked, version-controlled. Run full eval at end
+   of each quarter с identical prompt/judge config. **Score trajectory =
+   primary compound-learning signal**. Velocity metrics (tasks/week, skill
+   count, self-reported satisfaction) = **vanity unless paired** с stable
+   golden-set scores. Aligns с FPF-Steward quarterly audit ритуал.
+
+7. **Critical discipline — no Likert, no God Evaluator, no self-eval.**
+   - Binary pass/fail only (Hamel)
+   - One criterion per judge call (Eugene Yan)
+   - Always use separate evaluator agent (*"Out of the box, Claude is a
+     poor QA agent"* — Anthropic)
+   - Pairwise always с position swap (75% first-position bias else)
+   - Minimum 20–30 human-labeled examples before trusting any judge
+
+8. **Subagent verifier role gets concrete framework.** v1 AC3 recommended
+   meta-agent strengthen "Verifier" role; R-11 provides exact pattern
+   (separate evaluator, skeptical tuning, three-agent harness). **Update
+   meta-agent system.md с anti-sycophancy + skeptical-tuning prompts**.
+
+9. **Sycophancy mitigation для 12-reviewer fan-out** (linking к v1 R6 + OQ3).
+   Heterogeneous models (Haiku + Sonnet mix) breaks sycophancy correlation
+   r=0.902 ([R-4 §2.3](./R-4-failure-modes-critique.md)); also adopt **PoLL ensemble pattern** (3 diverse
+   models at 1/7 GPT-4 cost) для high-stakes Audit SKU deliveries.
+
+10. **Public benchmarks NOT for Jetix decisions.** R-11 explicit: don't
+    use SWE-bench/MMLU/HumanEval scores для Jetix-specific quality decisions.
+    **Build internal benchmarks from real client interactions** (Cursor
+    CursorBench pattern), refresh quarterly.
+
+**Critical limit от R-11.** The judge-model circularity problem (Dorner et al.):
+when Jetix evaluates Opus 4.7 outputs с a Sonnet 4.6 judge, validity
+degrades precisely где it's most needed — at frontier capability boundary.
+For now this is unsolved; mitigation is human-in-loop sampling at high-stakes
+boundaries (matches FPF-Steward quarterly audit role).
+
 ---
 
 ## Part 2 — Cross-wave patterns + emergent insights
@@ -844,6 +1451,54 @@ not replaceable roles.** [R-2 §1.5-1.6](./R-2-swarm-intelligence.md), [R-5 §6 
 Jetix's Role ≠ Executor (D6 §5.1) IS this principle expressed at architecture
 level.
 
+**T11. ReAct is the canonical default loop pattern, не just "one of several."**
+Confirmed by [R-9 §3 Q4](./R-9-agentic-loop.md) (production systems table — ReAct в default mode for
+LangChain `create_react_agent`, LlamaIndex ReActAgent, Amazon Bedrock Agents,
+Meta Engineering Agent, and de-facto Claude Code), [R-1 §2-c](./R-1-compounding-engineering-core.md), [R-7 §3.1 Boris's
+"thinnest wrapper"](./R-7-boris-cherny-claude-code.md). Jetix's 11 Claude-based agents already run ReAct natively;
+no architectural change required. Other patterns (Reflexion, Plan-and-Execute,
+CodeAct) are *additions* над ReAct base, не replacements.
+
+**T12. File-based git-backed memory wins over managed vector/graph stores
+для solo-founder consultancy.** Confirmed [R-10 §7.2 Jetix endorsement
+verbatim](./R-10-continual-learning.md), [R-10 §8.2 Letta Context Repositories Feb 2026 reference architecture](./R-10-continual-learning.md),
+[R-7 §4 Boris CLAUDE.md](./R-7-boris-cherny-claude-code.md), [R-8 §7 wiki vs MCP memory](./R-8-skills-claudemd-knowledge.md), Karpathy "LLM Wiki"
+April 2026 ([R-10 §7.1 ref 4](./R-10-continual-learning.md)). File-based gives transparency + GDPR + portability;
+managed services (Mem0, Zep) добавляют lock-in cost without proportional
+gain at Jetix scale.
+
+**T13. Evals are the missing infrastructure layer; production teams build
+internal benchmarks rather than relying on public.** Confirmed [R-11 §6
+Replit ABANDONED SWE-bench, Cursor CursorBench, Cognition `cognition-golden`,
+Harvey BLB locked test sets](./R-11-evals.md), [R-3 §5.2 Hamel Husain 3-level evals](./R-3-self-improving-systems.md), [R-1 §5.4 Boris Cherny
+verification 2-3× quality gain](./R-1-compounding-engineering-core.md). 49% of major benchmarks saturated. **Build
+internal golden sets (30–50 examples per agent) — single most-actionable
+practice от R-11.**
+
+**T14. Multi-agent works only когда agents share full traces, не summaries.**
+The reconciliation finding emergent across [R-9 §7 Q14 Cognition
+contradiction](./R-9-agentic-loop.md), [R-2 §4.2 Walden Yan Don't Build Multi-Agents](./R-2-swarm-intelligence.md), [R-4 §5
+strongest anti-case](./R-4-failure-modes-critique.md), и [R-1 §2-e Anthropic 12-reviewer fan-out endorsement](./R-1-compounding-engineering-core.md).
+**Anthropic's pattern conforms; Claude Code's stock sub-agent model does
+NOT** — sub-agents start fresh без parent context ([R-9 §4 Q6](./R-9-agentic-loop.md)). For Jetix
+mailboxes/<id>.jsonl messages must include full reasoning trace, не только
+outcomes.
+
+**T15. Termination is architectural, не promptable** ([R-9 §5 Q8 Ralph Wiggum
+problem](./R-9-agentic-loop.md), confirmed by [R-3 §5.1 production self-improvement metrics requiring
+verifiable ground truth](./R-3-self-improving-systems.md), [R-11 §3 Sierra τ-bench pass^k methodology](./R-11-evals.md),
+[R-5 §4 Replit Manager/Editor/Verifier explicit gates](./R-5-production-case-studies.md)). Every Jetix agent
+needs four-layer stack: maxTurns + Task Budget + machine-verifiable predicate
++ HITL escalation для irreversible actions. **No prompt can substitute для
+external completion oracle.**
+
+**T16. LLM-as-judge requires calibration, not raw deployment.** [R-11 §4
+Zheng et al. 85-87% baseline + 9 bias categories with magnitudes](./R-11-evals.md), [R-4 §2.3
+sycophancy DCR 86.36%](./R-11-evals.md), [R-3 §5 Hamel Husain framework](./R-3-self-improving-systems.md). **Hamel's Critique
+Shadowing 6-step workflow** ([R-11 §4](./R-11-evals.md)) is converging best practice — binary
+pass/fail (NEVER 1-5 Likert), one criterion per call, separate evaluator
+agent ("Out of the box, Claude is a poor QA agent" — Anthropic).
+
 ### 2.2 Contradictions between reports
 
 **C1. CE effectiveness claim vs multi-agent empirical data.** R-1 and R-6
@@ -888,6 +1543,40 @@ Cursor). **Resolution**: Different products. Solo-scale CE viable for consulting
 style work with high per-feature value (Jetix Audit SKU €15-50K). Not
 viable для consumer-scale SaaS требующего 24/7 reliability + support + growth.
 Jetix is firmly в solo-scale regime for Phase 1-2a.
+
+**C6. Mem0 vs Zep benchmark methodology dispute — unresolved at April 2026.**
+Mem0 paper claims 91.6 LoCoMo / 93.4 LongMemEval (own algorithm + own LLM
+judge). Independent vectorize.io: Mem0 49.0% LongMemEval vs Zep 63.8% (15pt
+gap). Zep self-reports LoCoMo 75.14%; Mem0 paper reports Zep 65.99%. R-10
+[§Exec / §6.2 ref 43](./R-10-continual-learning.md) explicit: *"the Zep vs. Mem0 benchmark dispute remains
+unresolved as of April 2026."* **Resolution для Jetix**: defer adoption of
+either; trust independent LongMemEval favoring temporal-aware Zep, but
+sqlite-vec + Anthropic memory tool is cheaper alternative covering 80% use
+case ([R-10 §Recommendation §3](./R-10-continual-learning.md)).
+
+**C7. Cognition June 2025 anti-multi-agent vs March 2026 Devin-manages-Devins
+reversal.** R-9 §7 Q14 ref 62/63 documents both positions verbatim. R-9
+reconciles: multi-agent works когда (a) full traces/context passed, не
+summaries; (b) agents have isolated focus. Anthropic's pattern conforms;
+Claude Code's stock sub-agent model does NOT. **Resolution for Jetix**:
+mailbox messages must carry full traces, не just outcomes — update message
+schema (extends C2/C3 в more concrete terms).
+
+**C8. Anthropic has NO eval product but Boris's "verification 2-3× quality
+gain" claim is canonical.** R-7 §6.1 + R-1 §5.4 quote Boris explicitly on
+verification value; R-11 §2.1 + §9 documents Anthropic Console eval is
+UI-only с no API/CI/trajectory support, recommending **third-party tools
+(Braintrust, LangSmith, Langfuse, Phoenix)**. **Resolution для Jetix**:
+verification is essential principle, но native tooling missing — adopt
+Promptfoo + Langfuse Phase 1 ([R-11 §8.1](./R-11-evals.md)).
+
+**C9. Sleep-time compute 5× cost reduction vs cost-control reality.** R-10
+§2.9 sleep-time pattern delivers 5× compute reduction at equal accuracy
+PROVIDED queries are predictable. R-9 §6 Q11 emphasizes 15× multi-agent
+token cost as governing constraint. **Resolution**: sleep-time helps when
+context is reusable across many queries; не silver bullet for one-off
+queries. Apply selectively к knowledge-synth + sales-researcher где same
+context serves many downstream tasks.
 
 ### 2.3 Surprising findings (counter-intuitive)
 
@@ -936,6 +1625,71 @@ Anthropic uses "context engineering," "memory," "let agents improve themselves."
 Boris Cherny's personal endorsement is strongest implicit endorsement,
 but not corporate.
 
+**S9. Triangular cumulative token overrun = 10.5× at 20 steps** ([R-9 §5 Q10
+ref 89](./R-9-agentic-loop.md)). Naïve calculation (steps × tokens-per-step) understates true cost
+by an order of magnitude. SWE-bench data: 30,400 of 48,400 tokens come from
+tool results, 39.9–59.7% removable с no perf loss. **Most engineers underestimate
+loop cost by 10×.**
+
+**S10. "Desperate Claude" — silent quality degradation 20–44% near token
+budget exhaustion** ([R-9 §5 Q8 ref 86](./R-9-agentic-loop.md)). Internal activation pattern fires
+when budget approaches limit. Practical workaround: phrase budgets в prose
+("keep this under 400 words") rather than `max_tokens=400`. This is
+counterintuitive — explicit hard limits make quality worse silently.
+
+**S11. Goal drift in Sonnet 4.5 standard, but thinking variants pass**
+([R-9 §6 Q12 ref 103](./R-9-agentic-loop.md)). Goal Drift paper (arXiv:2603.03258, 2026):
+*"Both Qwen3-235B and Claude-Sonnet-4.5 (standard) consistently fail to
+recognize the new goal"* в 32-step experiments; only GPT-5.1 и thinking
+variants resilient. **Implication**: long-horizon Jetix agents must use
+extended thinking — non-trivial cost, но architectural necessity.
+
+**S12. Anthropic memory tool launched Sept 2025 — file-based, not vector-based**
+([R-10 §4.5 ref 10](./R-10-continual-learning.md)). 6 commands (`view, create, str_replace, insert, delete,
+rename`); client-side storage; **39% agentic search improvement, 84% token
+reduction в 100-turn web search eval**; ~2,500 tokens system prompt overhead;
+**ZDR-eligible** (critical для Berlin GDPR). Anthropic's own bet is on file-
+based primitive, не vector store — confirms Karpathy/Boris/Jetix file-first
+philosophy.
+
+**S13. MemoryAgentBench finding: well-tuned naïve RAG competitive с
+specialised memory architectures** ([R-10 §6.4](./R-10-continual-learning.md)). *"Memory system generalisation
+is fragile — specialised architectures (A-Mem, Mem0, MemoryOS) are robustly
+superior only on reading comprehension; on other domains, well-tuned naïve
+RAG is competitive or superior."* Undercuts general-purpose memory vendor
+claims. **For Jetix: don't migrate к managed memory based on benchmark
+hype.**
+
+**S14. AgentPoison ≥80% attack success at <0.1% corpus contamination** ([R-10
+§5.2 ref 38](./R-10-continual-learning.md)). Single poisoned instance с single-token trigger achieves ≥60%
+ASR. Memory poisoning is **structurally hard к defend** против. AWS Bedrock
+case (Palo Alto Unit 42, Oct 2025): malicious indirect prompt injection
+persisted **up to 365 days**. Voice-notes from external meetings + client
+documents are direct attack vector for Jetix.
+
+**S15. Anthropic has NO standalone eval product** ([R-11 §2.1, §9](./R-11-evals.md)). Most
+shocking finding для CE-curious teams. Console UI-only, no API, no CI/CD,
+no trajectory support. Anthropic explicitly recommends Braintrust/LangSmith/
+Langfuse/Phoenix — third-party tools — в own Jan 2026 engineering blog.
+The "build your own evals" doctrine is forced, не chosen.
+
+**S16. 49% of major benchmarks saturated; cost is NOT a reliable proxy
+для accuracy** ([R-11 §3, §7](./R-11-evals.md)). HumanEval, MMLU, SWE-bench Verified — all
+>90% SOTA, zero discriminative power. SWE-bench mini comparison: HAL Agent +
+Haiku 4.5 = 44% at $65.31; HAL Agent + o3 Medium = 0% at $585.71. **Cheap
+small model beats expensive frontier on agentic tasks.**
+
+**S17. pass^k drop reveals reliability crisis** ([R-11 §6 Sierra τ-bench](./R-11-evals.md)).
+GPT-4o on τ-retail: ~60% pass^1 → ~25% pass^8. *"60% reliability drop across
+8 trials."* Single-trial accuracy dramatically overstates production reliability.
+Most agent benchmarks still report only pass^1.
+
+**S18. Llama 4 Arena gaming + 30-position production drop** ([R-11 §7](./R-11-evals.md)). Meta
+uploaded 27 Llama 3 variants, deleted underperformers, inflating Chatbot
+Arena score by ~100 ELO. Production version dropped from #2 к #32. Yann
+LeCun confirmed *"fudged a little bit."* **Public benchmarks are gameable
+even by frontier labs.**
+
 ### 2.4 Confirmed best practices (production-validated)
 
 **BP1. Plan → Work → Review → Compound loop** — Every (50+ agents, 42+ skills
@@ -976,6 +1730,56 @@ final output quality from verification loops ([R-1 §5.4](./R-1-compounding-engi
 **BP10. Subscription > API для solo operator — 25-50× cost arbitrage** ([R-2 §6.3](./R-2-swarm-intelligence.md)).
 Claude Code Max 20× ($200/mo) для Ruslan's workload; API overflow для batch/CI.
 
+**BP11. Four-layer agent termination stack** ([R-9 §5 Q8 + Recommendations](./R-9-agentic-loop.md)):
+maxTurns hard cap + Task Budget soft limit + machine-verifiable completion
+predicate + HITL escalation для irreversible actions. Boris's "thinnest
+wrapper" + Replit's Manager/Editor/Verifier both adhere.
+
+**BP12. Per-department / per-agent loop variant assignment** ([R-9 Recommendations
+table](./R-9-agentic-loop.md)). ReAct + CodeAct для technical (system-admin); Orchestrator-Worker +
+Plan-and-Execute для research (knowledge-synth); Self-Refine 3-4 iterations
+для creative (crazy-agent); ReAct + Reflexion для outcome-signal-rich CRM
+(sales-lead/sales-outreach). One pattern не fits all.
+
+**BP13. Extended thinking on long-horizon agents** ([R-9 §6 Q12 ref 103](./R-9-agentic-loop.md)).
+Goal Drift paper: Sonnet-4.5 standard fails at 32 steps; thinking variants
+pass. Apply к strategist + knowledge-synth + meta-agent FPF-Steward sub-role
+where >32-step horizons occur.
+
+**BP14. File-based git-backed memory primary; vector/graph supplementary**
+([R-10 §7.2 Jetix endorsement, §8.2 Letta Context Repositories, R-7 §4
+CLAUDE.md, Karpathy LLM Wiki](./R-10-continual-learning.md)). Wiki/+strategies.md+scratchpad.md+mailboxes
+patterns are 2025-2026 production canonical, **не technical debt**.
+
+**BP15. Sleep-time compute pattern для batch-able context** ([R-10 §2.9 ref 19](./R-10-continual-learning.md)).
+~5× compute reduction at equal accuracy when 10 queries share one context;
++18% Stateful AIME, +13% GSM-Symbolic P2. Apply к knowledge-synth daily
+context preparation.
+
+**BP16. Anthropic memory tool ZDR-eligible** ([R-10 §4.5](./R-10-continual-learning.md)). File-based,
+client-side, 6 commands; 39% agentic search improvement, 84% token reduction
+в 100-turn web search. Critical for GDPR-compliant Berlin consultancy.
+
+**BP17. Promptfoo + Langfuse minimum viable eval stack** ([R-11 §8.1](./R-11-evals.md)).
+First-class trajectory assertions + Anthropic-endorsed self-hosted observability
++ EU residency + $50-209/mo Phase 1 budget. Critical replacement для
+v1 §3.4 G4 empty `evals/<role>/` gap.
+
+**BP18. Hamel Husain Critique Shadowing 6-step workflow** ([R-11 §4](./R-11-evals.md)). Domain
+expert → ~30 examples ("15 minutes") → binary pass/fail+critique → fix obvious
+errors → build judge iteratively (target precision/recall >0.90, ~3 iterations)
+→ periodic error analysis. **Honeycomb case: 30% accuracy improvement after
+3 calibration iterations.**
+
+**BP19. Three-agent harness pattern (Planner→Generator→Evaluator)** ([R-11
+§9](./R-11-evals.md), Anthropic harness blog Mar 2026). *"Separating the agent doing the work
+from the agent judging it proves to be a strong lever... Out of the box,
+Claude is a poor QA agent."* Direct application к D6 3-pass writing.
+
+**BP20. pass^k consistency metric for high-stakes agents** ([R-11 §6 Sierra
+τ-bench](./R-11-evals.md)). pass^1 dramatically overstates reliability; require pass^3 или
+pass^5 для production agent decisions с client-facing impact.
+
 ### 2.5 Anti-patterns (production-failure-validated)
 
 **AP1. Pure autonomous agents (AutoGPT/BabyAGI pattern)** — failed at scale
@@ -1015,6 +1819,83 @@ exceeded silently ([R-8 §6.5](./R-8-skills-claudemd-knowledge.md)). Monitor `<a
 **AP10. "Use advanced models, like o1 or o3-mini, to automatically generate
 instructions"** в production without verification — reward hacking 100% on
 verifiable tasks, sandbagging without prompt ([R-3 §6.1.2-6.1.3](./R-3-self-improving-systems.md)).
+
+**AP11. Tool-call storms** ([R-9 §5 Q10 ref 84](./R-9-agentic-loop.md)). Anthropic's own early system
+spawned 50 subagents для simple queries; n8n case: identical vector-search
+tool called 10 times; **enterprise cost overruns averaging 340% above
+estimate** from infinite retry loops без backoff. Fix: "Single Execution Rule"
+injected в system prompt + per-agent gateway rate limits + step caps.
+
+**AP12. Hallucinated tool arguments / phantom tool calls** ([R-9 §5 Q10
+ref 84](./R-9-agentic-loop.md)). **Paradox**: better reasoning *increases* hallucination — o3 и o4-mini
+push к 33% и 48% rates on certain benchmarks. Five categories: non-existent
+function invocation, semantically inappropriate selection, invalid parameters,
+missing required arguments, tool bypass (model simulates tool internally).
+
+**AP13. Premature completion (Ralph Wiggum problem)** ([R-9 §5 Q10 ref 84](./R-9-agentic-loop.md)).
+Agents declare 100% done at 80% complete because that *looks* like reasonable
+stopping point. *"No prompt can enable the agent to validate its own fuzzy
+work. This issue is rooted in the architecture of the system rather than
+the language used."* Fix = external machine-verifiable predicates, not prompt
+engineering.
+
+**AP14. Doom loops / infinite self-reflection** ([R-9 §5 Q10 ref 14, 84, 103](./R-9-agentic-loop.md)).
+Reflexion: *"after only four trials...does not show signs of improvement."*
+Goal Drift: *"Goal drift shows up most в tasks above 300 lines."* Fix:
+Magentic-One stall detection pattern (counts "stuck" iterations; on threshold
+breach, breaks inner loop + triggers reflection в outer loop).
+
+**AP15. Devin rabbit holes** ([R-9 §5 Q10 ref 84, 116](./R-9-agentic-loop.md), Devin Answer.AI post-mortem
+Jan 2025): asked к deploy multi-app to single Railway deployment (unsupported).
+*"Devin spent over a day attempting various approaches and hallucinating
+features that didn't exist. The most frustrating aspect wasn't the failures
+themselves... but rather how much time we spent trying к salvage these attempts."*
+
+**AP16. Memory poisoning attack vector** ([R-10 §5.2 ref 38, 40, 44](./R-10-continual-learning.md)).
+AgentPoison ≥80% ASR at <0.1% corpus contamination; AWS Bedrock case (Palo
+Alto Unit 42, Oct 2025) — indirect prompt injection persisted up to 365 days.
+Anti-pattern: unsanitised external content в retrieval path; write-back from
+retrieved content. Fix: input sanitisation, read-only retrieval paths, audit
+logs, differential trust levels (F-G-R aligns).
+
+**AP17. False memory consolidation / semantic drift** ([R-10 §5.2 ref 44](./R-10-continual-learning.md)).
+Iterative lossy summarisation introduces fabrication. Fix: confidence
+scoring on extracted facts, verification passes, HITL для high-sensitivity
+writes, source checksums.
+
+**AP18. Context rot at every length increment** ([R-10 §5.2 ref 42 Chroma
+2025](./R-10-continual-learning.md)). 30%+ accuracy drops для middle-positioned content; identified as
+*primary* failure mode для coding agents. Anthropic's multi-agent research
+system outperformed single long-context agent by 90.2% via short-context
+subagents.
+
+**AP19. 1-5 Likert scales для LLM judges** ([R-11 §4 Hamel](./R-11-evals.md)). *"If your
+evaluations consist of metrics that LLMs score on a 1-5 scale, you're doing
+it wrong."* Forces middle-of-distribution noise. Use binary pass/fail.
+
+**AP20. God Evaluator (single judge prompt assessing 5-10 dimensions)** ([R-11
+§4](./R-11-evals.md)). Degrades due to anchoring effects (Stureborg et al.). Fix: one criterion
+per judge call (Eugene Yan).
+
+**AP21. Self-evaluation by generator agent** ([R-11 §9](./R-11-evals.md)). Anthropic: *"Out of
+the box, Claude is a poor QA agent."* Always use separate evaluator agent.
+
+**AP22. Pairwise comparison without position swap** ([R-11 §4](./R-11-evals.md)). 75% first-
+position preference в Claude-v1; 65% GPT-4 default. **NEVER deploy pairwise
+без running both orderings.**
+
+**AP23. Public benchmarks для frontier model selection** ([R-11 §3](./R-11-evals.md)). 49%
+saturated; GPT-4o drops 14.6pp from MMLU к MMLU-CF; SWE-bench Live vs
+Verified shows 24-pt contamination inflation. Build internal golden sets.
+
+**AP24. Velocity vanity metrics для compound learning eval** ([R-11 §8.4](./R-11-evals.md)).
+Tasks/week, skill count, self-reported satisfaction = gameable. Only frozen
+golden-set scores are primary compound-learning signal.
+
+**AP25. Anthropic Console as production eval infra** ([R-11 §2.1, §9](./R-11-evals.md)).
+*"Creates false confidence through its existence — teams think they have
+evals because they've used the Console UI. Does not scale past 50–100 manual
+tests."*
 
 ---
 
@@ -1106,6 +1987,16 @@ Spaces, E.17 Multi-View Publication, B.3 F-G-R trust tagging (D6 §0.5-0.9).
 | 18 | **Compliance/audit** | Not addressed | PreToolUse/PostToolUse hooks | Manual | EU AI Act Art. 14 + GDPR + DACH legal (D6 §4.5.1) | Jetix strictly better due to DACH regulatory requirement | **Keep**: Jetix's regulatory alignment is moat |
 | 19 | **Strategic decision-making** | Human | Human (Boris's setup) | Human (Dan Shipper) | Ruslan strategy-lead atomic sub-role + FPF-Steward audit | All agree: human strategic; differ on operational support | **Keep**: Jetix's strategy-support-analyst (Opus) gives better decision support |
 | 20 | **Documentation philosophy** | CLAUDE.md + skills | Lean (2.5k tokens own example) | Plugin markdown | D6 3,758 lines constitutional + tier-loading | Jetix heavier but load tier reduces agent cost | **Keep + verify**: tier-loading (D6 §5.4a) mitigates cost |
+| 21 | **Agentic loop pattern** | ReAct default; CodeAct via Bash | ReAct + JSON tools + agentic search ([R-9 §4 Q6](./R-9-agentic-loop.md)) | ReAct via Claude Code | ReAct (de-facto, all 11 agents on Claude) | Pattern correct; per-department variant assignment missing | **Adopt**: per-dept variant table per [R-9 Recommendations](./R-9-agentic-loop.md) — Plan-and-Execute для knowledge-synth/strategist; Self-Refine для crazy-agent; Reflexion для sales-lead/sales-outreach |
+| 22 | **Memory architecture** | wiki/+strategies.md (Jetix) | CLAUDE.md + auto-memory + sub-agent fresh context | AGENTS.md per product | Wiki/+per-agent strategies+scratchpad+mailboxes+voice-notes ([D9 §5.2](./../../decisions/2026-04-20-jetix-architecture-final-DRAFT.md)) | **R-10 §7.2 explicit endorsement**: this IS the dominant production pattern as of 2025-2026 | **Keep + augment**: adopt Anthropic memory tool (ZDR-eligible, [R-10 §4.5](./R-10-continual-learning.md)) selectively; sqlite-vec Phase 2 when entities >200; Letta sleep-time trial Phase 2 на ONE agent |
+| 23 | **Memory hierarchy explicit** | Implicit | Implicit (CLAUDE.md hierarchy) | Implicit | Implicit (4 layers per agent) | R-10 §1.4 cognitive taxonomy: episodic/semantic/procedural/working | **Make explicit**: tag wiki/concepts as semantic, mailboxes as episodic, strategies.md as procedural, scratchpad as working ([R-10 §1.4](./R-10-continual-learning.md)) |
+| 24 | **Eval framework** | Per-agent custom (Hamel pattern) | None native (Console UI-only) | 12-reviewer fan-out | None Day 1 (D9 §5.1 folder 8 empty) | **Critical gap** — R-11 confirms Anthropic has no eval product; teams build own | **Adopt Phase 1**: Promptfoo (CLI, trajectory assertions) + Langfuse ($0-29/mo, EU residency) per [R-11 §8.1](./R-11-evals.md); $50-209/mo budget |
+| 25 | **LLM-as-judge usage** | Various (Hamel framework) | Built into Skills/`/ce-code-review` | 12-reviewer fan-out as judges | None currently | R-11 §4: 85-87% Zheng baseline; 9 bias categories с magnitudes; 8 calibration techniques | **Adopt**: Hamel's Critique Shadowing 6-step ([R-11 §4](./R-11-evals.md)); binary pass/fail; one criterion per call; PoLL ensemble для high-stakes (3 diverse models, 1/7 GPT-4 cost) |
+| 26 | **Continual learning mechanism** | Manual /ce-compound + AGENTS.md append | Auto-memory v2.1.59+ (200 lines/25KB cap) | `/ce-compound-refresh` automated | Manual quarterly FPF-Steward audit + manual strategies.md append | Sleep-time compute pattern: 5× compute reduction, +18% Stateful AIME ([R-10 §2.9](./R-10-continual-learning.md)) | **Adopt selectively**: jonathanmalkin /wrap-up Phase 3 weekly + sleep-time pattern для batch-able context (knowledge-synth daily prep) |
+| 27 | **Termination/completion stack** | Implicit (max iters) | Explicit (Stop hooks, maxTurns) | 12-reviewer convergence | Hooks + CP-5 approval gate | R-9 §5 Q8 mandates 4-layer stack (maxTurns + Task Budget + verifiable predicate + HITL) | **Adopt**: 4-layer stack per agent в YAML; encode maxTurns per [R-9 Recommendations table](./R-9-agentic-loop.md) (5-50 range by agent type) |
+| 28 | **Sub-agent context model** | Fresh context (Claude Code default) | Fresh context only | Fresh context | Mailbox JSONL (full traces possible) | Walden Yan Principle 1: pass full traces, не summaries ([R-9 §7 Q14](./R-9-agentic-loop.md)) | **Confirm + enforce**: messages в mailboxes/<id>.jsonl include full reasoning trace, not only outcomes |
+| 29 | **GDPR/data residency for memory** | Not addressed | Anthropic memory tool ZDR-eligible | Not addressed | DACH/EU compliance via D6 §4.5.1 | R-10 §5.2: Article 17 vs Article 12/72 conflict requires architectural tiering | **Adopt Anthropic memory tool** для ZDR; tiered memory (ephemeral / GDPR-deletable / pseudonymised audit) |
+| 30 | **Goal drift mitigation (long-horizon)** | Not addressed | Extended thinking variants | Not addressed | Implicit (FPF-Steward quarterly) | R-9 §6 Q12: Sonnet-4.5 standard fails at 32 steps; thinking variants pass | **Enable extended thinking** on strategist + knowledge-synth + meta-agent FPF-Steward для tasks >32 steps |
 
 ### 3.3 Where Jetix is already at frontier
 
@@ -1139,6 +2030,27 @@ Minimal-risk / Limited-risk / High-risk / Unacceptable-risk mapping
 с documented Phase 1 self-classification и Phase 2 verification. **R-4
 explicitly flags Lethal Trifecta unsolved; Jetix's CP-5 + tier matrix
 operationalizes human-gate pattern.**
+
+**F6. Memory architecture endorsed verbatim by R-10.** Jetix's wiki/+per-
+agent strategies.md + scratchpad.md + mailboxes.jsonl + voice-notes pipeline
+**is** the dominant production pattern as of 2025-2026 ([R-10 §7.2 §Exec
+Summary](./R-10-continual-learning.md)) — endorsed by Karpathy ("LLM Wiki" April 2026) и Boris Cherny.
+File-based git-backed memory wins on transparency + GDPR + portability +
+selective forgetting (`git rm` / `git filter-branch` viable; vector embeddings
+not). Letta Context Repositories (Feb 2026) confirms reference architecture.
+**Не technical debt — deliberate transparency trade-off.**
+
+**F7. Hub-and-spoke matches R-9 recommended Hierarchical Orchestrator-Worker
+pattern.** R-9 explicit ([§Recommendations §"Coordination Model"](./R-9-agentic-loop.md)): Manager
+routes-not-executes + Department Leads delegate to subagents within department
+= correct production pattern. Jetix already aligned. Combined с R-9 per-
+department variant assignment, forms canonical multi-agent topology.
+
+**F8. F-G-R trust tagging maps directly к memory differential trust levels.**
+R-10 §5.2 anti-pattern fix recommends *"differential trust levels"* для
+mitigation of memory poisoning + false consolidation. **Jetix's F-G-R already
+operationalizes this** — voice-notes get F0/G-narrow/R-low tagging until
+human-promoted. No CE/Swarm/Compound equivalent explicit framework.
 
 ### 3.4 Where Jetix has gaps
 
@@ -1183,6 +2095,43 @@ is Jetix-unique format; not portable к Cursor, Codex CLI, Gemini CLI.
 Adopting `SKILL.md` + `agentskills.io` spec gives Jetix cross-tool future-
 proofing at no cost.
 
+**G8. No eval framework operational** — restated с R-11 specifics. v1 G4
+identified empty `evals/<role>/` folders. R-11 §8.1 provides exact filling
+recipe: Promptfoo CLI + Langfuse hosted/self-hosted + 30-example golden sets
+per agent + Hamel Critique Shadowing 6-step + GitHub Action PR gate. Cost:
+$50-209/mo. **The gap is now fully specified — zero excuse Phase 1 Day 14-17.**
+
+**G9. No agentic loop variant assignment per agent type.** All 11 agents
+currently default к ReAct (Claude Code native). R-9 §Recommendations table
+prescribes per-department variants (Plan-and-Execute для knowledge-synth/
+strategist; Self-Refine для crazy-agent; Reflexion для CRM agents; CodeAct
+для system-admin). **Encoding maxTurns + variant в YAML role-manifest =
+Phase 1 Day 11-12 task.**
+
+**G10. No machine-verifiable completion predicates per agent.** All current
+agents implicitly use "self-declared completion" — directly hits R-9 Ralph
+Wiggum problem ([§5 Q8 ref 84](./R-9-agentic-loop.md)). Each agent needs explicit external
+verification oracle (test pass / schema validation / linter / acceptance-
+authority sign-off / etc.). **Aligns с AC2 (verification_signal field) but
+needs concrete oracle definitions.**
+
+**G11. No sleep-time compute pattern для batch-able context preparation.**
+R-10 §2.9 Letta sleep-time agents deliver 5× compute reduction at equal
+accuracy + 2.5× per-query cost reduction when context shared across 10
+queries. **High-ROI Phase 2 opportunity** для knowledge-synth (daily wiki
+preparation) + sales-researcher (prospect context preparation).
+
+**G12. No extended thinking on long-horizon agents.** R-9 §6 Q12 ref 103:
+Sonnet-4.5 standard fails goal resilience в 32-step experiments. **Strategist
++ knowledge-synth + meta-agent FPF-Steward are exposed**. Extended thinking
+adds cost но critical для tasks >32 steps.
+
+**G13. No anti-sycophancy discipline для multi-reviewer fan-out.** R-4 §2.3
+DCR 86.36% + R-11 §4 sycophancy 58.19% aggregate. v1 OQ3 flagged this; R-11
+gives concrete mitigation: heterogeneous models (Haiku + Sonnet mix breaks
+correlation r=0.902) + PoLL ensemble pattern (3 diverse models). **Required
+before deploying 12-reviewer fan-out** на client deliverables.
+
 ### 3.5 Where existing Jetix concepts map к CE concepts
 
 | Jetix term | CE/Swarm/Compound equivalent | Notes |
@@ -1202,6 +2151,15 @@ proofing at no cost.
 | **Bias-Audit Cycle BA-0/1/2/3** (D6 §12.10) | Constitutional Classifiers runtime gate | Jetix's cycle more methodologically structured |
 | **Direction (Portfolio of Directions)** | *No CE equivalent* | Jetix innovation (Portfolio-of-Directions P8) |
 | **Compound step (CE)** | Session-close + strategies.md append + FPF-Steward quarterly audit | Jetix already implements loosely; operationalize as ritual |
+| **wiki/concepts + entities** ([D9 §5.2](./../../decisions/2026-04-20-jetix-architecture-final-DRAFT.md)) | Semantic memory ([R-10 §1.4](./R-10-continual-learning.md)) | Direct map — Jetix is GraphRAG/HippoRAG analog в file-based form |
+| **mailboxes/<id>.jsonl** | Episodic memory ([R-10 §1.4](./R-10-continual-learning.md)) | Direct map — timestamped event store; Letta recall storage analog |
+| **strategies.md (per-agent)** | Procedural memory + Voyager skill library ([R-10 §1.4 / R-9 §3 Q4](./R-10-continual-learning.md)) | Direct map — System Prompt Learning instantiation per Karpathy |
+| **scratchpad.md (per-agent)** | Working memory ([R-10 §3.3](./R-10-continual-learning.md)) | Direct map — finite live context |
+| **wiki/graph/edges.jsonl 9 typed edges** | Knowledge graph ([R-10 §2.6 GraphRAG, §4.3 Graphiti](./R-10-continual-learning.md)) | Jetix file-based + semantic typing exceeds MCP memory's 3 primitives |
+| **CP-5 Human Approval Gate** | HITL Point 2-3 ([R-3 §3.3](./R-3-self-improving-systems.md)) + 4th termination layer ([R-9 §5 Q8](./R-9-agentic-loop.md)) | Aligned; encoding в hooks would make deterministic |
+| **Hub-and-spoke с dept leads** | Hierarchical Orchestrator-Worker ([R-9 §Recommendations](./R-9-agentic-loop.md)) | Direct map; R-9 explicit endorsement |
+| **F-G-R trust tagging** | Differential trust levels for memory ([R-10 §5.2](./R-10-continual-learning.md)) | Jetix's framework предшествует CE; aligns с poisoning mitigation |
+| **eval/<role>/** (currently empty) | Internal golden sets per Hamel ([R-11 §4, §8.1](./R-11-evals.md)) | Structurally correct; Promptfoo+Langfuse fills it |
 
 ---
 
@@ -1287,6 +2245,106 @@ proofing at no cost.
 - Cost: 3-5 days Phase 2a
 - Verification: Use from Claude.ai desktop app; verify same wiki state
 
+**A9. Promptfoo + Langfuse minimum viable eval stack** ([R-11 §8.1](./R-11-evals.md)) — Phase 1.
+- What: Install Promptfoo CLI + Langfuse cloud Hobby (или self-host); per-
+  agent `evals/<role>/promptfooconfig.yaml`; 30-50 hand-graded examples per
+  agent в `golden-set.jsonl`; GitHub Action `eval.yml` PR gate at ≥85%
+- Why: Anthropic has NO eval product; production teams build internal
+  benchmarks; **fills v1 G4 + new G8 critical gap**
+- Leverage: Quality gates на agent prompts/skills; CI regression detection;
+  eval-driven development per Hamel
+- Cost: ~$50-209/mo Phase 1; 6h pilot setup на sales-researcher; 4-6h per
+  remaining agent (40-60h total over 4-6 weeks)
+- Verification: Eval pass rate ≥85% pre-merge; precision/recall >0.85
+  на judge; Cohen's κ >0.6 vs Ruslan grading
+
+**A10. Hamel Husain Critique Shadowing 6-step workflow** ([R-11 §4](./R-11-evals.md)).
+- What: Domain expert (Ruslan) → 30-example dataset ("15 minutes") → binary
+  pass/fail+critique → fix obvious errors → build LLM judge iteratively
+  (target precision/recall >0.90, ~3 iterations) → periodic error analysis
+- Why: Production-validated method (Honeycomb 30% accuracy improvement after
+  3 iterations); avoids 1-5 Likert anti-pattern
+- Leverage: Foundation для all per-agent evals (A9) + D-document eval (A11)
+- Cost: 30 min process documentation + 15 min per agent dataset creation
+- Verification: Precision/recall metrics on judge; quarterly re-calibration
+
+**A11. Three-agent harness pattern (Planner → Generator → Evaluator) для
+D6/D8 writing** ([R-11 §9 Anthropic harness blog Mar 2026](./R-11-evals.md)).
+- What: Adopt explicit Planner/Generator/Evaluator separation для high-stakes
+  D-documents (D1, D5, D6, D8); Evaluator agent tuned skeptical (anti-
+  sycophancy)
+- Why: *"Out of the box, Claude is a poor QA agent"* (Anthropic verbatim);
+  separating work from judgment is "strong lever"
+- Leverage: Quality on D-documents + future client-facing Audit SKU deliverables
+- Cost: 2-3h prompt engineering; integrates с existing meta-agent verifier
+  role (AC3)
+- Verification: D-document quality scores improve quarter-over-quarter
+
+**A12. Anthropic memory tool (file-based, ZDR-eligible)** ([R-10 §4.5](./R-10-continual-learning.md)) — Phase 1.
+- What: Adopt Anthropic memory tool beta (`context-management-2025-06-27`)
+  selectively for client-data-touching agents (sales-research, sales-outreach,
+  inbox-processor); 6 commands (view/create/str_replace/insert/delete/rename);
+  client-side storage
+- Why: 39% agentic search improvement; 84% token reduction в 100-turn web
+  search; **ZDR-eligible — only fully GDPR-compliant option** for Berlin
+  consultancy
+- Leverage: GDPR Article 17 erasure compliance + Article 20 portability
+- Cost: 2-4h integration per agent; ~2,500 tokens system prompt overhead
+- Verification: Verify ZDR config active; verify file-based storage; verify
+  Article 17 deletion works end-to-end
+
+**A13. ACE append-only pattern formalization (extends A5)** — combine Stanford
+ACE +10.6% accuracy ([R-3 §6.1.6](./R-3-self-improving-systems.md)) с Anthropic Agent Skills standard SKILL.md
+([R-10 §8.1 ref 30](./R-10-continual-learning.md)).
+- What: Migrate per-agent `strategies.md` к SKILL.md format с YAML frontmatter
+  + progressive disclosure + ACE structured entries (unique IDs + Helpful/
+  Harmful counters)
+- Why: Combines best-of-breed compound learning (+10.6% ACE) с industry-
+  standard portability (Apache 2.0 Dec 2025 standard) + Karpathy SPL alignment
+- Leverage: Cross-tool portability (Cursor/Codex/Gemini CLI parse SKILL.md)
+- Cost: 2h template design + 30 min per agent migration
+- Verification: SKILL.md frontmatter validates; FPF-Steward quarterly Helpful/
+  Harmful ratios
+
+**A14. Per-agent four-layer termination stack** ([R-9 §5 Q8 + Recommendations](./R-9-agentic-loop.md)).
+- What: Encode в YAML role-manifest для each of 11 agents:
+  (a) `maxTurns:` hard cap (5-50 range per [R-9 Recommendations table](./R-9-agentic-loop.md))
+  (b) `taskBudget:` soft limit using `task-budgets-2026-03-13` header
+  (c) `completionPredicate:` machine-verifiable oracle (test pass / schema
+      / linter / acceptance signal)
+  (d) `escalationTrigger:` HITL gate для irreversible actions
+- Why: Solves Ralph Wiggum problem ([R-9 §5 Q8 ref 84](./R-9-agentic-loop.md)) — premature completion
+  is architectural, not promptable
+- Leverage: Prevents 4 of 6 R-9 anti-patterns (tool storms, doom loops,
+  premature completion, rabbit holes)
+- Cost: 2h schema design + 30 min per agent
+- Verification: Hooks enforce maxTurns; FPF-Steward reviews escalation log
+  monthly
+
+**A15. Per-department agentic loop variant assignment** ([R-9 Recommendations
+table](./R-9-agentic-loop.md)).
+- What: Encode loop variant в role-manifest + system.md per department:
+  - system-admin / sales-outreach (technical) → ReAct + CodeAct
+  - knowledge-synth / sales-researcher → Orchestrator-Worker + Plan-and-Execute
+  - crazy-agent → Self-Refine 3-4 iterations
+  - sales-lead / sales-outreach (CRM) → ReAct + Reflexion на outcome signals
+  - personal-assistant → Plan-and-Execute + HITL interrupts
+  - meta-agent → Self-Refine + ReAct evaluator-optimizer
+  - strategy-support-analyst → Plan-and-Execute + extended thinking
+- Why: One pattern не fits all; R-9 explicit per-dept recommendations
+- Leverage: Better cost/quality matching; reduces token waste
+- Cost: 1-2h per agent prompt engineering
+- Verification: Token-per-task metric per agent; quarterly review
+
+**A16. Extended thinking on long-horizon agents** ([R-9 §6 Q12 ref 103](./R-9-agentic-loop.md)).
+- What: Enable extended thinking on strategy-support-analyst, knowledge-
+  synth, и meta-agent FPF-Steward sub-role для tasks >32 steps
+- Why: Goal Drift paper: Sonnet-4.5 standard *"consistently fail to recognize
+  the new goal"*; only thinking variants resilient
+- Leverage: Long-horizon task reliability for D-document writing + FPF audit
+- Cost: ~30-40% extra token cost per task; budget impact monitored
+- Verification: Goal-resilience test (32-step adversarial scenario quarterly)
+
 ### 4.2 Adapt (modify before adopting)
 
 **AD1. CE's Plan → Work → Review → Compound loop — adapted для Jetix
@@ -1340,6 +2398,46 @@ domain.**
 - Why modify: METR reward-hack 100% on unverifiable tasks ([R-3 §6.1.3](./R-3-self-improving-systems.md))
 - Verification: Skill creation requires eval pair (task + verification oracle)
 
+**AD6. Reflexion pattern adapted к FPF-Steward audit cycle** ([R-9 §3 Q4
+Reflexion + Critical Assessment](./R-9-agentic-loop.md)).
+- Reflexion version: Trial → Evaluate → Verbal Self-Reflection → Retry
+  с three-model setup (Actor / Evaluator / Self-Reflection); fails after
+  4 trials
+- Jetix adaptation: Quarterly FPF-Steward audit treats prior quarter's
+  ADRs/D-documents as "trials"; meta-agent acts as Evaluator; Ruslan
+  strategy-lead acts as Self-Reflection (human-in-loop); writes structured
+  reflections к `decisions/fpf-stewardship/<quarter>-reflection.md`
+- Why modify: Pure Reflexion fails on creative/novel tasks; human-in-loop
+  Self-Reflection avoids local minima trap (R-9 Critical Assessment Reflexion)
+- Verification: Quarterly audit produces actionable rule additions к
+  strategies.md per agent
+
+**AD7. Eval-driven development for D1-D8 quality gates** ([R-11 §8.3 + §9
+three-agent harness](./R-11-evals.md)).
+- CE/EDD version: Test-driven development pattern applied к prompts;
+  eval suite gates merge
+- Jetix adaptation: Each D-document gets multi-dimensional rubric (FPF
+  compliance / evidence quality / structural coherence / factual accuracy /
+  style / actionability) с separate judge per dimension; calibrate against
+  20-30 historical D-docs graded by Ruslan; target Cohen's κ > 0.6 per
+  dimension; **Opus 4.7 for high-stakes review, Sonnet 4.6 routine**
+- Why modify: Generic EDD lacks Jetix's FPF compliance + multi-view
+  publication requirements
+- Verification: Pre-publish eval pass per dimension; Ruslan review of
+  judge accuracy quarterly
+
+**AD8. PoLL ensemble pattern for high-stakes Audit SKU reviews** ([R-11 §4
+Verga et al.](./R-11-evals.md)).
+- PoLL version: Panel of 3 diverse smaller models (e.g., command-r +
+  gpt-3.5-turbo + haiku) outperforms GPT-4 alone at 1/7 cost
+- Jetix adaptation: For Audit SKU final delivery, use PoLL with 3 models
+  on different reviewer roles: Haiku 4.5 (compliance reviewer) + Sonnet 4.6
+  (FPF-alignment reviewer) + Opus 4.6 (architecture-strategist reviewer);
+  diverse model choice breaks sycophancy correlation r=0.902
+- Why modify: Heterogeneous models avoid R-4 §2.3 sycophancy DCR 86.36%
+- Verification: Inter-judge agreement metric; if all 3 agree on rejection,
+  high-confidence reject; if split, escalate к Ruslan
+
 ### 4.3 Reject (with rationale)
 
 **R1. Pure "swarm of replaceable agents" topology.** Reject converting 11-agent
@@ -1383,6 +2481,56 @@ hub-and-spoke → 3-5 homogeneous fungible executors (per [R-2 §7](./R-2-swarm-
   tightly-coupled state. Single-thread primary + sub-query-only subagents
   (Cognition pattern) correct default.
 
+**R7. Mem0 / Zep / Cognee wholesale memory migration** ([R-10 §Recommendation §4](./R-10-continual-learning.md)).
+- Why: (a) Independent LongMemEval Mem0 49.0% vs Zep 63.8% — Mem0 lacks
+  temporal modelling; (b) US-hosted SaaS triggers GDPR Article 17 issues
+  for Berlin clients; (c) MemoryAgentBench: well-tuned naïve RAG competitive
+  с specialised architectures на most domains; (d) Cognee has no published
+  benchmarks despite $7.5M seed
+- What to do instead: Anthropic memory tool (ZDR-eligible) + sqlite-vec
+  Phase 2 + selective Letta sleep-time trial on ONE agent
+- BUT: Phase 2 trial Letta + Zep Flex (€25/mo) selectively, not
+  wholesale replacement
+
+**R8. ToT (Tree-of-Thoughts) для production agentic workflows** ([R-9 §3 Q4
+Critical Assessment ToT](./R-9-agentic-loop.md)).
+- Why: O(b^d) exponential cost; 74% Game of 24 vs 4% CoT but $0.74/case
+  vs $0.13 IO prompt; **NOT supported natively в Claude Code/SDK**;
+  requires LangGraph LATS scaffolding (which R-9 explicitly recommends
+  against для Jetix)
+- Conditional: ONLY consider если specific task has discrete-decision
+  structure + limited branching factor + verifiable evaluator + budget
+  для exponential cost. None of Jetix's 11 agents currently fit.
+
+**R9. 1-5 Likert scales для LLM judges** ([R-11 §4 Hamel](./R-11-evals.md)).
+- Why: Hamel verbatim — *"if your evaluations consist of metrics that LLMs
+  score on a 1-5 scale, you're doing it wrong."* Forces middle-of-distribution
+  noise; binary pass/fail forces honest decisions
+- What to do instead: Binary pass/fail с structured critique field (Hamel
+  Critique Shadowing 6-step)
+
+**R10. God Evaluator pattern (single judge с 5-10 dimensions)** ([R-11 §4
+Stureborg et al.](./R-11-evals.md)).
+- Why: Anchoring effects degrade per added attribute; multi-attribute
+  rubrics worse than per-dimension judges
+- What to do instead: One criterion per judge call (Eugene Yan); separate
+  judge per dimension (D-document eval AD7)
+
+**R11. Self-evaluation by generator agent** ([R-11 §9](./R-11-evals.md)).
+- Why: Anthropic explicit — *"Out of the box, Claude is a poor QA agent."*
+  Sycophancy + self-enhancement bias (+25% win rate Claude-v1 self-judge
+  per Zheng et al.)
+- What to do instead: Always separate evaluator agent; meta-agent verifier
+  role per AC3; Three-agent harness pattern для high-stakes (AD7/A11)
+
+**R12. Public benchmarks (SWE-bench, MMLU, HumanEval) для Jetix-specific
+quality decisions** ([R-11 §3](./R-11-evals.md)).
+- Why: 49% saturated; contamination crisis (GPT-4o 88% MMLU → 73.4%
+  MMLU-CF); Llama 4 Arena gaming 30-position production drop; OpenAI
+  abandoned SWE-bench Verified Feb 2026
+- What to do instead: Build internal golden sets per Cursor CursorBench
+  pattern; refresh quarterly
+
 ### 4.4 Defer (Phase 2+ consideration)
 
 **D1. Plugin packaging as `jetix-plugins/jetix-core` marketplace entry.**
@@ -1415,6 +2563,48 @@ hub-and-spoke → 3-5 homogeneous fungible executors (per [R-2 §7](./R-2-swarm-
   useful для non-technical users. Jetix Phase 1 is all-technical Ruslan.
 - When revisit: Phase 2b when first non-technical team member joins
   (COO/marketing/sales).
+
+**D6. Letta sleep-time compute production deployment** ([R-10 §4.6](./R-10-continual-learning.md)).
+- Why defer: Pareto improvement (~5×) only when context shared across many
+  queries; trial period validates fit; runtime lock-in risk
+- When revisit: Phase 2 — trial on ONE high-volume agent (knowledge-synth
+  daily wiki preparation); validate ROI before broader adoption
+
+**D7. Inspect AI eval framework adoption** ([R-11 §2](./R-11-evals.md)).
+- Why defer: UK AISI government-grade rigor + Docker/K8s sandboxed; overhead
+  too high для solo founder; low community adoption (1.3k stars); steep
+  learning curve; no SaaS
+- When revisit: Phase 3 if formal safety eval becomes contract requirement
+  (e.g., enterprise client с safety-critical AI Act compliance audit)
+
+**D8. Braintrust hosted eval+observability platform** ([R-11 §2 Braintrust](./R-11-evals.md)).
+- Why defer: $249/mo Pro tier; $80M Series B Feb 2026 vendor; data flywheel
+  value not yet justified at Phase 1 scale
+- When revisit: When €2K+/mo revenue stable + data volume justifies unified
+  eval+production observability + custom autoevals warrant managed Brainstore
+
+**D9. Custom continual learning system Phase 2+** ([R-10 §Recommendation](./R-10-continual-learning.md)).
+- Why defer: Off-the-shelf options (Mem0/Letta/Zep) are commercially mature;
+  building custom = reinventing wheel
+- When revisit: Only if all off-shelf options fail GDPR or FPF integration;
+  highly unlikely
+
+**D10. Custom MCP server для wiki cross-tool access** — restated D3 modification.
+- Why defer: Phase 2a per existing D3; R-10 §4.5 confirms Anthropic memory
+  tool ZDR-eligible covers immediate need; native MCP path now better-supported
+- When revisit: Phase 2a (Triple-AND trigger D9 §2.3)
+
+**D11. Multi-agent shared memory protocol** ([R-10 §8.3 ref 109](./R-10-continual-learning.md)).
+- Why defer: Mem0 CEO Singh sees as 2026-2027 primary scaling direction;
+  no production pattern established yet
+- When revisit: Watch ecosystem; revisit Q4 2026 if Letta или MCP standard
+  emerges с proven multi-agent shared memory primitive
+
+**D12. Test-time training / memory-weight interpolation** ([R-10 §8.3 refs
+111-112](./R-10-continual-learning.md)).
+- Why defer: In-Place TTT (ICLR 2026), TTT-E2E (NVIDIA Jan 2026) experimental;
+  production-ready timeline open; blurs memory/fine-tuning boundary
+- When revisit: 2027+ if research reaches production; not relevant Phase 1-2
 
 ---
 
@@ -1655,6 +2845,169 @@ Phase 1 skip:
 
 **Net Phase 2a+:** Reassess if first hire changes operational structure.
 
+### 5.6 NEW — Eval infrastructure (from R-11)
+
+**Phase 1 minimum viable eval setup** ([R-11 §8.1, §8.2](./R-11-evals.md)) — fills v1 G4
+gap fully:
+
+**Stack choice.** Promptfoo (CLI, MIT, free) + Langfuse (cloud Hobby $0
+or self-hosted Docker Compose). Total Phase 1 budget: **~$50-209/mo**.
+Phase 2 step-up к ~$300-450/mo при revenue growth.
+
+**Step-by-step rollout:**
+
+1. **Day 14 (1h):** Install Promptfoo CLI; sign up Langfuse cloud Hobby
+   tier (or `docker-compose up` self-host)
+2. **Day 14-15 (4h):** Pilot agent = `sales-researcher` (clearest factuality
+   criteria); hand-grade 30 examples; store as
+   `evals/sales-researcher/golden-set.jsonl`
+3. **Day 15 (3h):** Build first LLM-judge: Haiku 4.5 model, **binary pass/
+   fail** (NEVER 1-5 Likert), **reference-anchored**, ONE criterion per
+   call; calibrate against 20-30 Ruslan-graded examples; target precision
+   >0.85, recall >0.85
+4. **Day 15 (1h):** Add GitHub Action `.github/workflows/eval.yml` PR gate
+   at ≥85% pass rate; non-zero exit blocks merge
+5. **Day 16-17 + ongoing:** Repeat steps 2-3 для remaining 10 agents over
+   4-6 weeks (4-6h per agent); FPF compliance eval per [R-11 §8.5](./R-11-evals.md)
+   hybrid 2-layer approach added в Phase 2
+
+**Per-agent eval design table** (from [R-11 §8.2](./R-11-evals.md), distilled):
+
+| Agent | Quality dimensions | Eval mix | Golden set |
+|-------|---------------------|----------|------------|
+| sales-researcher | Factuality, completeness, relevance | LLM-judge factuality + deterministic schema | 30-50 prospect briefs с known facts |
+| sales-outreach | Tone, personalization, compliance | LLM-judge tone + deterministic length/banned-phrases | 30-50 outreach drafts с rubric |
+| sales-lead | Pipeline reasoning, decision quality | Trajectory + LLM-judge | 20-30 Ruslan-graded pipeline decisions |
+| inbox-processor | Categorization accuracy, action suggestion | Deterministic + LLM-judge | 50 inbox items с ground truth |
+| personal-assistant | Task completion, action quality | Trajectory + HITL sample | 30 task scenarios |
+| system-admin | Command correctness, safety | Deterministic + sandboxed execution | 30-50 admin tasks |
+| crazy-agent | Idea novelty, relevance | LLM-judge pairwise (с position swap) | 30 brainstorm prompts |
+| knowledge-synth | Synthesis quality, citation accuracy | Trajectory + LLM-judge multi-dim | 20-30 synth tasks |
+| strategy-support-analyst | Reasoning quality, evidence grounding | LLM-judge multi-dim (one per dim) + Ruslan review | 15-20 strategic analysis tasks |
+| meta-agent | Audit catches, F-G-R compliance | Trajectory + comparison к Ruslan ground truth | 20-30 audit scenarios |
+| manager | Routing correctness, escalation appropriateness | Trajectory + LLM-judge | 30 routing scenarios |
+
+**D-document writing eval** ([R-11 §8.3](./R-11-evals.md)). Multi-dimensional rubric с
+**separate judge per dimension** (one criterion per call principle):
+- FPF compliance (judge: Sonnet 4.6, calibrated against D6 reference)
+- Evidence quality (judge: Sonnet 4.6, R-grade verifier)
+- Structural coherence (judge: Haiku 4.5)
+- Factual accuracy (judge: Sonnet 4.6 + reference-anchored)
+- Style (judge: Haiku 4.5)
+- Actionability (judge: Sonnet 4.6, requires concrete action items)
+
+Use Opus 4.7 for high-stakes review; Sonnet 4.6 routine. Calibrate against
+20-30 historical D-docs graded by Ruslan; target Cohen's κ > 0.6.
+
+**FPF compliance eval (hybrid 2-layer)** ([R-11 §8.5](./R-11-evals.md)):
+- **Layer 1 deterministic**: FPF principle name regex (P1...P8, IP-1...IP-8,
+  CP-1...CP-5) + required sections present (Block 1-5 для role-manifests,
+  etc.)
+- **Layer 2 rubric LLM-judge**: 5 dimensions (Principle Derivation /
+  Assumption Explicitness / Evidence Grounding / Internal Consistency /
+  Scope Appropriateness)
+- Calibrate с 5 strong + 5 borderline + 5 non-compliant examples; target
+  Cohen's κ > 0.7
+- Single judge sufficient — FPF criteria explicit и discrete
+
+**Compound learning eval** ([R-11 §8.4](./R-11-evals.md)):
+- Frozen Q1 golden sets per agent (30-50 examples), locked, version-controlled
+- Run full eval at end of each quarter с identical prompt/judge config
+- **Score trajectory = primary compound-learning signal**
+- Velocity metrics (tasks/week, skill count, satisfaction self-reports) =
+  **vanity unless paired** с stable golden-set scores
+
+**Phase 2 additions** (€2K+/mo revenue):
+- Add Braintrust ($249/mo Pro) для unified eval+observability if data-flywheel
+  value justified
+- Three-agent harness pattern (Planner→Generator→Evaluator) для D-document
+  quality when D-doc throughput >5/week (A11/AD7)
+- pass^k reliability testing для high-stakes agents (k=3-5 minimum)
+- Tiered online middleware (Layer 1 deterministic every request → Layer 2
+  heuristic → Layer 3 LLM-judge 5% async → Layer 4 human review)
+
+### 5.7 NEW — Continual learning infrastructure (from R-10)
+
+**Phase 1 ($0)** ([R-10 §Recommendation §3](./R-10-continual-learning.md)) — additive к existing T1-T6:
+
+- **Enable Anthropic Claude Projects memory** для all 6 departments (free
+  since March 2026; per-project memory isolation)
+- **Adopt Anthropic memory tool** (beta `context-management-2025-06-27`)
+  selectively — ZDR-eligible (critical Berlin GDPR Article 17); 6 commands
+  view/create/str_replace/insert/delete/rename
+- **Formalize per-agent strategies.md → SKILL.md** (Anthropic Agent Skills
+  standard, Apache 2.0 Dec 2025); see A13
+- **Add `wiki/eval-canaries.md`** с 10-15 unusual probe facts; bi-weekly
+  recall tests = MVP eval harness
+
+**Phase 2 (1-4 weeks, ~$25/mo cap):**
+- **sqlite-vec semantic index** over wiki entities когда count exceeds ~200
+  (free, zero-server, coexists с markdown)
+- **Trial Letta sleep-time agent на ONE high-volume agent** (knowledge-synth
+  recommended); self-host, Apache 2.0; human-approval gate on
+  `proposed-wiki-updates.md`
+- For 2-3 agents tracking evolving facts only, **Zep Flex $25/mo** trial
+  for 30 days; measure recall on temporal queries
+
+**Phase 3 (3-6 months):**
+- Cognee migration ONLY if `edges.jsonl` exceeds ~500 edges с multi-update-
+  per-week churn
+
+**Memory taxonomy mapping for Jetix** (R-10 §1.4 + §7.2):
+- `wiki/concepts/` + `wiki/entities/` = **semantic memory**
+- `mailboxes/<id>.jsonl` = **episodic memory**
+- per-agent `strategies.md` = **procedural memory**
+- per-agent `scratchpad.md` = **working memory**
+- `wiki/graph/edges.jsonl` 9 typed edges = **associative/knowledge graph**
+
+Make this mapping explicit в D6 §5.2-5.4.
+
+### 5.8 NEW — Agentic loop infrastructure (from R-9)
+
+**Phase 1 (Day 11-12, 4-6h):** Encode per-agent loop variant + maxTurns +
+termination stack в YAML role-manifest.
+
+**4-layer termination stack mandatory** ([R-9 §5 Q8 + Recommendations](./R-9-agentic-loop.md)):
+```yaml
+loop:
+  variant: ReAct  # or: Plan-and-Execute / Self-Refine / Reflexion / CodeAct
+  maxTurns: 25  # hard cap per [R-9 Recommendations table]
+  taskBudget:
+    header: "task-budgets-2026-03-13"
+    tokens: 50000  # soft limit
+  completionPredicate:
+    type: schema-validation  # or: test-pass / linter-clean / acceptance-signal
+    spec: "evals/<role>/completion-oracle.yaml"
+  escalationTrigger:
+    irreversible_actions:
+      - send-email
+      - publish-content
+      - delete-data
+    require_approval: true
+```
+
+**Per-agent maxTurns recommendations** (from [R-9 Recommendations table](./R-9-agentic-loop.md)):
+- inbox-processor (lookup) → **5-8**
+- sales-outreach / sales-researcher → **10-20**
+- personal-assistant (operations) → **15-25** + human gates
+- knowledge-synth (research broad) → **30-50**
+- crazy-agent (creative + refine) → **8-12**
+- strategy-support-analyst (deep planning) → **15-25** + extended thinking
+- system-admin (technical) → **10-20**
+- sales-lead (CRM) → **10-15**
+- meta-agent (auditing) → **15-25**
+- manager (routing) → **5-10** (orchestrator, не executor)
+
+**Per-department loop variant assignment** (from [R-9 Recommendations
+table](./R-9-agentic-loop.md)) — see A15 для full enumeration.
+
+**Extended thinking on long-horizon** (A16): enable on strategy-support-
+analyst + knowledge-synth + meta-agent FPF-Steward sub-role.
+
+**Sub-agent context-passing rule**: messages в `mailboxes/<id>.jsonl` MUST
+include full reasoning trace, не только outcomes (Walden Yan Principle 1
+[R-9 §7 Q14](./R-9-agentic-loop.md)). Update message schema accordingly.
+
 ---
 
 ## Part 6 — Decision matrix для Ruslan
@@ -1856,6 +3209,163 @@ interaction).
 
 ---
 
+### D9. Memory architecture — wiki/+strategies.md continuation OR Mem0/Letta/Zep adoption OR Anthropic memory tool OR hybrid?
+
+**Options:**
+- A. Keep current wiki/+strategies.md+scratchpad+mailboxes+voice-notes only
+- B. Wholesale migrate к Mem0 Cloud Standard ($19/mo)
+- C. Wholesale migrate к Letta Pro ($20/mo) + Context Repositories
+- D. Wholesale migrate к Zep Cloud Flex ($25/mo)
+- E. **Hybrid (recommended)** ← R-10 explicit recommendation
+
+**Hybrid (E) details** ([R-10 §Recommendation §3](./R-10-continual-learning.md)):
+- **Phase 1 ($0):** Keep wiki/+strategies.md as authoritative source-of-
+  truth (R-10 §7.2 endorses this); + Anthropic memory tool selectively for
+  client-data agents (ZDR, GDPR-compliant); + Anthropic Claude Projects
+  memory for departments; + formalize strategies.md → SKILL.md
+- **Phase 2 (€25/mo cap):** Add sqlite-vec semantic index when wiki entities
+  >200; trial Letta sleep-time agent на ONE high-volume agent (knowledge-
+  synth); trial Zep Flex selectively только for 2-3 agents tracking evolving
+  facts (e.g., sales-lead pipeline state)
+- **Phase 3 (3-6 months):** Cognee migration ONLY if edges.jsonl >500 edges
+  с multi-update-per-week churn
+
+**Trade-offs:**
+- Option A: zero migration cost; misses sleep-time compute 5× efficiency;
+  no temporal modelling; manual consolidation only
+- Option B (Mem0): independent LongMemEval 49.0% (15pt below Zep); no
+  temporal modelling; US-hosted = GDPR concern
+- Option C (Letta): best architectural fit; runtime lock-in risk; Apache 2.0
+  self-host viable
+- Option D (Zep): best temporal accuracy (LongMemEval 63.8%); CE deprecated
+  April 2025 — only Cloud Flex; US-hosted GDPR concern
+- Option E (Hybrid): preserves wiki advantages + selective augmentation +
+  GDPR-compliant via Anthropic memory tool + reversible
+
+**Recommendation:** **E. Hybrid**. Wiki+strategies.md endorsed as production
+canonical pattern by Karpathy + Boris + Letta + Anthropic memory tool team.
+Selective augmentation via Anthropic memory tool (ZDR), sqlite-vec, и Letta
+sleep-time trial preserves transparency и GDPR while capturing 80% of
+managed-service value at <10% cost.
+
+**Confidence:** Very high. R-10 explicit Jetix recommendation; multi-source
+endorsement; reversible.
+
+**Dependencies:** A12 (Anthropic memory tool integration), A13 (SKILL.md
+migration). Phase 2 deps: trial budget approval; Letta self-host setup
+2-3h.
+
+---
+
+### D10. Eval framework — none OR Inspect AI OR Promptfoo+Langfuse OR Braintrust OR custom?
+
+**Options:**
+- A. None Phase 1 (continue manual review only)
+- B. Inspect AI (UK AISI government-grade)
+- C. **Promptfoo + Langfuse (recommended Phase 1)** ← per [R-11 §8.1](./R-11-evals.md)
+- D. LangSmith (LangChain hosted, $5/1k traces)
+- E. Braintrust ($249/mo Pro)
+- F. Custom Anthropic Console-based (NOT recommended — UI-only)
+
+**Trade-offs:**
+- Option A: zero cost; misses CE quality multiplier (Boris's 2-3×); blind
+  compound step; flag-list G4 + new G8 unfilled
+- Option B: government-grade rigor; overhead too high для solo founder;
+  steep learning curve; low community adoption (1.3k stars)
+- Option C: **Anthropic-endorsed (Jan 2026 blog) як self-hosted alternative
+  к LangSmith**; first-class trajectory assertions; 100% local execution;
+  EU residency; $50-209/mo Phase 1 budget; reversible (configs are YAML)
+- Option D: Most mature LangChain-aligned; less ideal outside LangChain
+  ecosystem
+- Option E: Unified eval+observability; $80M Series B vendor; $249/mo too
+  high Phase 1; revisit Phase 2 при revenue growth
+- Option F: "Creates false confidence" per R-11 §9; doesn't scale
+
+**Recommendation:** **C. Promptfoo + Langfuse**. Cost-effective ($50-209/mo),
+Anthropic-recommended, EU-friendly, 100% local execution, reversible.
+Phase 2 step-up к Braintrust when €2K+/mo revenue justifies $249/mo. **Adopt
+Hamel Husain Critique Shadowing 6-step workflow** as judge-building method
+([R-11 §4](./R-11-evals.md)).
+
+**Confidence:** Very high. R-11 explicit primary recommendation; production-
+validated; reversible.
+
+**Dependencies:** A9 (Promptfoo+Langfuse setup), A10 (Hamel workflow), A11
+(three-agent harness for D-doc eval), AD7 (eval-driven development).
+
+---
+
+### D11. Agentic loop pattern — keep ReAct default OR adopt explicit per-department variants OR formal Plan-and-Execute everywhere?
+
+**Options:**
+- A. Keep ReAct default for all 11 agents (current de-facto state)
+- B. **Adopt per-department variant assignment per [R-9 Recommendations](./R-9-agentic-loop.md)
+  (recommended)** ← matches R-9 explicit table
+- C. Formal Plan-and-Execute everywhere (Devin/Cursor Plan-mode style)
+- D. Formal Reflexion для all review cycles only
+
+**Trade-offs:**
+- Option A: zero implementation cost; misses cost/quality optimization
+  per agent type; tool-call storm risk без variant-specific termination
+- Option B: per-dept optimization; ~4-6h Phase 1 implementation; matches
+  R-9 explicit recommendation; combines с 4-layer termination stack (A14)
+  и extended thinking (A16)
+- Option C: planning overhead on simple tasks; suited только to certain
+  agents (knowledge-synth/strategist); too rigid для creative (crazy-agent)
+- Option D: Reflexion fails after 4 trials and on creative tasks per
+  R-9 Critical Assessment; selective use only (AD6)
+
+**Recommendation:** **B. Per-department variant assignment**:
+- system-admin / sales-outreach (technical) → ReAct + CodeAct (Bash)
+- knowledge-synth / sales-researcher → Orchestrator-Worker + Plan-and-Execute
+- crazy-agent (creative) → Self-Refine 3-4 iterations
+- sales-lead / sales-outreach (CRM) → ReAct + Reflexion на outcome signals
+- personal-assistant (operations) → Plan-and-Execute + HITL interrupts
+- meta-agent (auditing) → Self-Refine + ReAct evaluator-optimizer
+- strategy-support-analyst (planning) → Plan-and-Execute + extended thinking
+- inbox-processor / manager → ReAct (lookup/routing)
+
+Encode в YAML role-manifest + `loop:` block per A14 termination stack.
+
+**Confidence:** High. R-9 explicit per-dept table; production-validated patterns;
+reversible (YAML config).
+
+**Dependencies:** A14 (4-layer termination stack), A15 (per-dept variant
+encoding), A16 (extended thinking on long-horizon). Manifests update в
+D3 18 role-manifests.
+
+---
+
+### Update note on existing D1-D8 (R-9/R-10/R-11 review)
+
+After integrating R-9/R-10/R-11 evidence, **D1-D8 recommendations remain
+valid** with following clarifications:
+
+- **D1 (Skills migration):** Confidence raised к **Very High** — R-10 §8.1
+  confirms Anthropic Agent Skills standard (Apache 2.0 Dec 2025) is industry
+  consensus с progressive disclosure pattern. Now includes A13 (ACE structured
+  entries в SKILL.md format).
+- **D2 (D6 v3 vs CE concepts):** Unchanged — still recommend **no**.
+- **D3 (D1-D8 methodology):** Hybrid recommendation extended — apply Three-
+  agent harness pattern (A11/AD7) к D1, D5, D6, D8 (methodology-heavy).
+- **D4 (wiki migration):** Confidence raised к **Very High** — R-10 §7.2
+  explicit endorsement of Jetix's wiki+strategies.md как production canonical.
+  Combined с D9 hybrid: confirmed yes-partial migration (skills) + keep
+  storage (wiki).
+- **D5 (11-agent vs swarm):** Unchanged — keep Phase 1; reassess Phase 2a.
+  R-9 §Recommendations endorses Hierarchical Orchestrator-Worker как
+  matching Jetix pattern.
+- **D6 (Compound cycle):** Selective adoption confirmed; D-doc eval (AD7)
+  adds eval-driven discipline.
+- **D7 (Subagent strategy):** Both pattern confirmed; ADD critical clarification
+  — sub-agent messages MUST contain full traces (Walden Yan Principle 1 per
+  R-9 §7 Q14), не только summaries.
+- **D8 (Hooks adoption):** Conservative confirmed; ADD hook for `Stop` event
+  reminder к eval-suite-run; ADD `PostToolUse` for memory tool (Anthropic
+  memory tool client-side audit log).
+
+---
+
 ## Part 7 — Updated D1-D8 plan options
 
 ### 7.1 Option A: Keep current Variant A Full V5 (no CE adoption)
@@ -1918,7 +3428,9 @@ plan.
 **Phase 1 Day 13-17: CE-augmented writing.**
 - D1 Architecture Final: plan → write → `/ce-code-review` (3-reviewer fan-out
   — FPF-alignment, clarity, completeness) → compound к strategies.md
-- D3 Role Manifests (18): parallel batch; 3-reviewer fan-out per role
+- D3 Role Manifests (18): parallel batch; 3-reviewer fan-out per role;
+  **EXTENDED v2: encode loop variant + maxTurns + termination stack per
+  A14/A15 in YAML (~20 min per manifest = 6h total)**
 - D5 Knowledge Architecture: full CE loop (methodology-heavy)
 - D6 pass 3 (remaining): 12-reviewer fan-out at pass 2→3 transition
 - D8 Instructions: CE loop (runnability, timeline-realism, dependencies)
@@ -1928,10 +3440,40 @@ plan.
 - D4 Life-OS vs Jetix: single-pass (decisions made in ADR)
 - D7 Career Levels: single-pass (matrix already drafted)
 
-**Estimated calendar: 13-15 days** (similar к Option A + CE benefits).
+**v2 ADDITIONS (Day 12-17, ~12-18h):**
+
+**Day 12 afternoon (4-6h): Memory tool integration (A12 + A13).**
+- 2-3h: Adopt Anthropic memory tool (beta) for sales-research, sales-outreach,
+  inbox-processor (client-data agents); verify ZDR config; test Article 17
+  deletion end-to-end
+- 2-3h: Migrate per-agent strategies.md → SKILL.md format с YAML frontmatter
+  + ACE structured entries (template + 11 agents × ~15 min each)
+
+**Day 14 morning (4-6h): Eval framework setup (A9, D10).**
+- 1h: Install Promptfoo CLI; sign up Langfuse Hobby cloud (or self-host
+  Docker Compose); create `evals/<role>/` skeleton per agent
+- 4h: Pilot agent = sales-researcher; hand-grade 30 examples; build first
+  LLM-judge с Hamel Critique Shadowing; calibrate; GitHub Action PR gate
+- 1h: Document Hamel 6-step workflow в `_meta/eval-discipline.md`
+
+**Day 14-17 (parallel + ongoing): Agentic loop pattern adoption (A14, A15,
+A16, D11).**
+- 2-4h: Encode 4-layer termination stack (maxTurns + taskBudget + completion
+  predicate + escalation trigger) in 11 role-manifests YAML; integrates с
+  D3 task above
+- 1h: Update CLAUDE.md с per-department loop variant table reference
+- 1h: Update message schema (mailboxes) к require full traces, не summaries
+  (Walden Yan Principle 1)
+- 1-2h: Enable extended thinking on strategy-support-analyst, knowledge-synth,
+  meta-agent FPF-Steward sub-role
+
+**Estimated calendar: 14-16 days** (was 13-15 в v1; +1-2 days net for
+v2 additions, but high-ROI).
 
 **Post-Phase-1 (Day 18+):** `/close-day` skill enhancement с jonathanmalkin
-4-phase pattern; append к `strategies.md` becomes habitual.
+4-phase pattern; append к `strategies.md` becomes habitual; **eval suite runs
+weekly per agent с golden-set regression check; FPF-Steward quarterly audit
+includes eval-attributable compound learning delta** (R-11 §8.4).
 
 **Why Option C:**
 1. CE benefits concentrated on methodology-heavy docs (D1, D3, D5, D6, D8)
@@ -1939,6 +3481,14 @@ plan.
 3. Skills + plugin migration gives Jetix cross-tool future-proofing
 4. Compound Engineering plugin adoption = production-validated pattern
 5. Fork к DACH variants gives Jetix unique moat
+6. **(v2) Eval infrastructure (A9-A11) fills v1 G4/G8 gap → quality compounds
+   from Day 14**
+7. **(v2) Memory tool (A12) gives GDPR-compliant Berlin-ready architecture
+   from Day 12**
+8. **(v2) Agentic loop variants (A14-A16) optimize cost/quality per agent
+   type — addresses R-9 15× multi-agent token cost governing constraint**
+9. **(v2) ACE/SKILL.md migration (A13) future-proofs toward Anthropic open
+   standard и preserves +10.6% accuracy gain**
 
 **Risks + mitigations:**
 - Compound Engineering plugin 316% budget overflow risk → monitor
@@ -1946,7 +3496,16 @@ plan.
 - Learning curve skill authoring → use `skill-creator` meta-skill from
   anthropics/skills repo; ~2h self-study
 - Review subagent sycophancy (R-4 §2.3) → use heterogeneous models
-  (some Haiku 4.5, some Sonnet) to break sycophancy correlation
+  (some Haiku 4.5, some Sonnet) to break sycophancy correlation; **PoLL
+  ensemble pattern (AD8) для high-stakes Audit SKU**
+- **(v2) Eval framework calibration overhead** → start с pilot (sales-
+  researcher only); Hamel "15-minute" budget per agent dataset; iterative
+  judge tuning (Honeycomb 30% gain in 3 iterations)
+- **(v2) Anthropic memory tool beta status** → API may evolve; mitigation
+  = wiki/ remains source of truth, memory tool augmentation only
+- **(v2) "Desperate Claude" near-budget silent quality degradation 20-44%**
+  → phrase budgets в prose, не `max_tokens` cap; Task Budgets API header
+  с countdown
 
 ---
 
@@ -2028,6 +3587,75 @@ going к remain stable or fork?**
 - How к answer: Monitor ecosystem (Cursor, Codex CLI, Gemini CLI adherence).
 - Effort: Monthly check 15 min.
 
+**OQ11. Is Mem0/Letta/Zep API stability mainstream Phase 2a-ready?**
+- Why important: D9 hybrid recommends Phase 2 trial Letta sleep-time на ONE
+  agent + Zep Flex selectively; vendor failure risk (Zep Community Edition
+  deprecated April 2025, [R-10 §Recommendation §5](./R-10-continual-learning.md)).
+- How к answer: Quarterly check vendor changelog; preserve wiki/ as fallback
+  regardless; prefer Apache 2.0 OSS (Mem0/Letta/Cognee) over hosted.
+- Effort: Quarterly 30 min vendor health check.
+
+**OQ12. Best LLM-as-judge anti-bias mitigation для FPF compliance evaluation?**
+- Why important: R-11 §4 documents domain-expertise ceiling (judge agreement
+  drops к 64-68% on expert tasks per Krumdick et al.); FPF is niche framework
+  requiring deep ontological understanding; only mitigations suggested =
+  expert-written reference answers + HITL hybrid.
+- How к answer: First 10 D-doc evaluations — measure judge κ vs Ruslan; if
+  κ < 0.6, expand reference answer corpus + reduce single-judge scope; consider
+  PoLL ensemble (3 diverse models)
+- Effort: 2-3h first-cohort calibration + ongoing tuning
+
+**OQ13. Optimal agentic loop iteration limits per agent type?**
+- Why important: R-9 §Recommendations gives 5-50 range; specific number
+  affects cost/reliability balance; "desperate Claude" failure 20-44% near
+  budget exhaustion ([R-9 §5 Q8 ref 86](./R-9-agentic-loop.md)).
+- How к answer: Encode v1 recommended values; track per-agent token-per-task
+  + completion rate over 30 days; tune per agent quarterly
+- Effort: 1h initial encoding + 30 min/month review
+
+**OQ14. Anthropic memory tool beta API stability — Phase 2a production-ready?**
+- Why important: R-10 §4.5 documents beta header `context-management-2025-06-27`;
+  *"beta status means API surface may change"*; Jetix bets memory tool на
+  GDPR-critical client-data agents (A12).
+- How к answer: Monitor Anthropic API changelog monthly; subscribe к beta
+  deprecation notices; preserve wiki/ fallback path
+- Effort: 15 min monthly check; 2-4h migration if breaking change
+
+**OQ15. Sleep-time compute pattern ROI for Jetix workload?**
+- Why important: R-10 §2.9 5× compute reduction at equal accuracy WHEN context
+  shared across many queries; uncertain whether Jetix's per-agent workload
+  has sufficient context-reuse pattern.
+- How к answer: Phase 2 trial Letta sleep-time на knowledge-synth (highest
+  context-reuse candidate); measure cost-per-task before/after over 30 days
+- Effort: 4-6h trial setup + 30 min/week measurement
+
+**OQ16. Should Jetix adopt three-agent harness pattern (Planner→Generator→
+Evaluator) для D6/D8 writing in Phase 1 or defer к Phase 2?**
+- Why important: R-11 §9 Anthropic harness blog Mar 2026 documents "strong
+  lever"; full V2 cycle (Opus 4.6) ~3h 50m at $124.70; cost-significant
+  but quality gain measurable.
+- How к answer: Phase 1 Day 13-17 trial on D6 pass 3 transition; measure
+  Cohen's κ vs Ruslan's solo review; if κ improvement >0.15, adopt for D5/D8
+- Effort: 4-6h Day 13-17 trial; ongoing per high-stakes D-doc
+
+**OQ17. Goal drift mitigation cost vs benefit for Jetix?**
+- Why important: R-9 §6 Q12 ref 103 — Sonnet 4.5 standard fails goal
+  resilience >32 steps; thinking variants pass; extended thinking adds
+  ~30-40% cost.
+- How к answer: Phase 2 measure strategist + knowledge-synth + meta-agent
+  task lengths; if median >32 steps, mandatory extended thinking; if <20
+  steps, optional
+- Effort: 30 min telemetry analysis monthly
+
+**OQ18. Cross-tool eval portability — should Jetix Promptfoo configs be
+reused если migrating tools?**
+- Why important: R-11 documents framework lock-in risk (LangSmith outside
+  LangChain weak; Promptfoo most portable).
+- How к answer: Already using Promptfoo (CLI, MIT); configs are YAML +
+  Markdown; portable by design. Document migration path к Braintrust
+  Phase 2 как safety check.
+- Effort: 1h Phase 2 transition planning
+
 ---
 
 ## Part 9 — References
@@ -2061,6 +3689,24 @@ engineering-2026-04-22/`):
 - **R-8: Skills + CLAUDE.md + knowledge** (R-8-skills-claudemd-knowledge.md,
   1333 lines, 79KB) — 5 first-class primitives, anti-patterns, **Jetix-specific
   migration plan §7** (the most load-bearing content)
+- **R-9: Agentic loop mechanics** (R-9-agentic-loop.md, 1362 lines, 112KB)
+  — 9 loop variants (ReAct/Reflexion/Plan-and-Execute/ToT/CodeAct/Voyager/
+  Self-Refine/Self-Consistency/AutoGPT-style); Anthropic 15× token claim
+  verbatim; Boris "thinnest wrapper" doctrine; 8 termination mechanisms +
+  Ralph Wiggum problem; 6 anti-patterns; per-department recommendations
+  table for Jetix
+- **R-10: Continual learning state-of-the-art** (R-10-continual-learning.md,
+  1295 lines, 149KB) — Mem0/Letta/Zep/Cognee/Anthropic memory tool deep
+  dive; cognitive memory taxonomy (episodic/semantic/procedural/working);
+  sleep-time compute pattern; 6 failure modes (poisoning/rot/false consolidation/
+  GDPR conflict); **Jetix architecture endorsed verbatim как production
+  canonical**
+- **R-11: Evals frameworks** (R-11-evals.md, 1295 lines, 117KB) — 14
+  frameworks (Anthropic Console/OpenAI Evals/LangSmith/Langfuse/Promptfoo/
+  DeepEval/Inspect AI/Braintrust/Humanloop/Helicone/Phoenix/Galileo/Ragas/
+  TruLens); LLM-as-judge bias catalog (9 categories); Hamel Critique
+  Shadowing 6-step; benchmark saturation crisis (49% saturated); pass^k
+  consistency metric; Jetix per-agent eval design tables
 
 ### 9.2 Jetix sources cited
 
@@ -2164,6 +3810,60 @@ engineering-2026-04-22/`):
 - [Anthropic internal Claude Code case study PDF](https://www-cdn.anthropic.com/58284b19e702b49db9302d5b6f135ad8871e7658.pdf)
 - [The Pragmatic Engineer — How Claude Code is built](https://newsletter.pragmaticengineer.com/p/how-claude-code-is-built)
 
+**Agentic loop sources (R-9, ~10 added):**
+- [Yao et al. — ReAct: Synergizing Reasoning and Acting (ICLR 2023, arXiv:2210.03629)](https://arxiv.org/abs/2210.03629)
+- [Shinn et al. — Reflexion: Language Agents with Verbal Reinforcement Learning (arXiv:2303.11366)](https://arxiv.org/abs/2303.11366)
+- [Wang et al. — Voyager: An Open-Ended Embodied Agent (arXiv:2305.16291)](https://arxiv.org/abs/2305.16291)
+- [Yao et al. — Tree of Thoughts (arXiv:2305.10601)](https://arxiv.org/abs/2305.10601)
+- [Wang et al. — Executable Code Actions (CodeAct, arXiv:2402.01030)](https://arxiv.org/abs/2402.01030)
+- [Madaan et al. — Self-Refine (arXiv:2303.17651)](https://arxiv.org/abs/2303.17651)
+- [Anthropic — Building Effective Agents (Dec 2024)](https://www.anthropic.com/engineering/building-effective-agents)
+- [Anthropic — How we built our multi-agent research system (June 2025)](https://www.anthropic.com/engineering/built-multi-agent-research-system)
+- [Boris Cherny — Latent Space Podcast (May 2025)](https://www.latent.space/p/claude-code)
+- [Walden Yan / Cognition — Don't Build Multi-Agents (June 2025)](https://cognition.ai/blog/dont-build-multi-agents)
+- [Anthropic — Task Budgets API beta (`task-budgets-2026-03-13`)](https://docs.anthropic.com/en/api/task-budgets)
+- [Inherited Goal Drift paper (arXiv:2603.03258, 2026)](https://arxiv.org/abs/2603.03258)
+- [SWE-Effi: agent efficiency benchmark (arXiv:2509.09853)](https://arxiv.org/abs/2509.09853)
+
+**Continual learning sources (R-10, ~15 added):**
+- [Mem0 paper (arXiv:2504.19413)](https://arxiv.org/abs/2504.19413)
+- [Mem0 GitHub (~48k stars)](https://github.com/mem0ai/mem0)
+- [Packer et al. — MemGPT: Towards LLMs as Operating Systems (arXiv:2310.08560)](https://arxiv.org/abs/2310.08560)
+- [Letta (formerly MemGPT) GitHub](https://github.com/letta-ai/letta)
+- [Letta Context Repositories announcement (Feb 2026)](https://www.letta.com/blog/context-repositories)
+- [Lin et al. — Sleep-Time Compute (arXiv:2504.13171, April 2025)](https://arxiv.org/abs/2504.13171)
+- [Zep / Graphiti GitHub](https://github.com/getzep/zep)
+- [Cognee GitHub](https://github.com/topoteretes/cognee)
+- [Anthropic — Memory Tool launch (Sept 29, 2025)](https://www.anthropic.com/news/context-management)
+- [Anthropic — Effective context engineering for AI agents (Sept 2025)](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
+- [Wu et al. — LongMemEval (ICLR 2025, arXiv:2410.10813)](https://arxiv.org/abs/2410.10813)
+- [Maharana et al. — LoCoMo (ACL 2024)](https://aclanthology.org/2024.acl-long.747/)
+- [Karpathy — LLM Wiki tweet (April 2026)](https://x.com/karpathy/)
+- [Chen et al. — AgentPoison (arXiv:2407.12784)](https://arxiv.org/abs/2407.12784)
+- [Chroma — Context Rot study (2025)](https://research.trychroma.com/context-rot)
+- [BAI Lab — MemoryOS (EMNLP 2025 Oral, arXiv:2506.06326)](https://arxiv.org/abs/2506.06326)
+- [Xu et al. — A-MEM (NeurIPS 2025, arXiv:2502.12110)](https://arxiv.org/abs/2502.12110)
+
+**Evals sources (R-11, ~15 added):**
+- [Zheng et al. — Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena (NeurIPS 2023, arXiv:2306.05685)](https://arxiv.org/abs/2306.05685)
+- [Promptfoo GitHub (8.8k stars)](https://github.com/promptfoo/promptfoo)
+- [Langfuse GitHub (21.4k stars)](https://github.com/langfuse/langfuse)
+- [Inspect AI GitHub (UK AISI)](https://github.com/UKGovernmentBEIS/inspect_ai)
+- [Braintrust](https://www.braintrust.dev/)
+- [DeepEval GitHub](https://github.com/confident-ai/deepeval)
+- [Phoenix / Arize GitHub](https://github.com/Arize-ai/phoenix)
+- [Hamel Husain — Critique Shadowing](https://hamel.dev/blog/posts/llm-judge/)
+- [Shreya Shankar — EvalGen (CHI 2024, arXiv:2404.12272)](https://arxiv.org/abs/2404.12272)
+- [Eugene Yan — Evaluation & Hallucination Detection for Abstractive Summaries](https://eugeneyan.com/writing/abstractive/)
+- [Anthropic — Engineering Blog: Eval Best Practices (Jan 2026)](https://www.anthropic.com/engineering/eval-best-practices)
+- [Anthropic — Three-agent harness (Mar 2026)](https://www.anthropic.com/engineering/agent-harness)
+- [Sierra — τ-bench (arXiv:2406.12045)](https://arxiv.org/abs/2406.12045)
+- [HAL Generalist agent benchmarks](https://hal.cs.princeton.edu/)
+- [Krumdick et al. — Domain Expertise Ceiling (2024)](https://arxiv.org/abs/2402.10612)
+- [Tripathi et al. — Pairwise Position Bias (arXiv:2504.14716)](https://arxiv.org/abs/2504.14716)
+- [Verga et al. — Replacing Judges with Juries (arXiv:2404.18796)](https://arxiv.org/abs/2404.18796)
+- [Dorner et al. — Limits of LLM-as-judge at frontier (arXiv:2410.13341)](https://arxiv.org/abs/2410.13341)
+
 ---
 
 ## Appendix A — Glossary
@@ -2200,6 +3900,59 @@ engineering-2026-04-22/`):
 | **Subagent** | Separate instance of Claude with isolated context; cannot spawn own subagents | Claude Code |
 | **U.Type** | "Universal kind" kernel concept (U.Role, U.System, U.Episteme, U.Holon) | Jetix (from FPF) |
 | **Way of Working (WoW)** | Meta-alpha: methodology itself as tracked object с state machine | Jetix alpha 7 (from SEMAT) |
+| **A-MEM** | Zettelkasten-style linked notes for LLM memory; new note generates description/keywords/tags/dynamic links; ~1,200 tokens/op (NeurIPS 2025) | R-10 |
+| **ACE (Agentic Context Engineering, Stanford)** | Append-only structured entries с unique IDs + Helpful/Harmful counters; +10.6% accuracy vs summarization | R-3 §6.1.6 |
+| **Agentic loop** | Fundamental while-loop primitive: LLM observes → reasons → emits tool call → observes result → repeats until stop condition (Anthropic) | R-9 |
+| **AgentPoison** | Memory-poisoning attack vector; ≥80% attack success rate at <0.1% corpus contamination (arXiv:2407.12784) | R-10 §5.2 |
+| **Anthropic memory tool** | File-based primitive с 6 commands (view/create/str_replace/insert/delete/rename); ZDR-eligible; Sept 29 2025 launch; 39% agentic search improvement | R-10 §4.5 |
+| **Bitemporal modelling** | Every edge carries event time T + ingestion time T' + validity window valid_from/valid_to/invalid_at; Zep/Graphiti pattern | R-10 §4.3 |
+| **Braintrust** | Hosted SaaS unified eval+observability; $80M Series B Feb 2026; Brainstore 86× faster | R-11 §2 |
+| **CodeAct** | Action format emitting executable Python instead of JSON tool calls; +20.7% absolute с GPT-4 vs JSON; sandbox-escape risk | R-9 §3 Q4 |
+| **Cognee** | Ontology-driven KG engine с ECL pipeline (Extract/Cognify/Load) и self-improving memify loop | R-10 §4.4 |
+| **Compaction** | Summarising conversations approaching context limit и reinitiating с summary; over-aggressive use explodes turns 4.0→14.0 | R-9 §5 Q9 |
+| **Context engineering** | Anthropic 2025: *"the set of strategies for curating and maintaining the optimal set of tokens during LLM inference"* | R-10 §1.2 |
+| **Context Repositories** | Letta Feb 2026: memory projected into git repo as plain files; sleep-time agents reorganise during idle; SKILL.md for skills | R-10 §8.2 |
+| **Context rot** | Measurable quality degradation as context grows below max limit; affects all 18 frontier models tested (Chroma 2025) | R-10 §5.2 |
+| **Continual learning** | Accumulation/retrieval of external state across context boundaries; "continual learning in token space" (Letta) — agent (θ frozen, C evolving) | R-10 §1.2 |
+| **Critique Shadowing** | Hamel Husain 6-step LLM-judge workflow: domain expert → ~30 examples → binary pass/fail+critique → fix → build judge iteratively → periodic analysis | R-11 §4 |
+| **Criteria drift** | Shankar's insight that eval criteria cannot be specified before seeing real outputs; some criteria emerge from observing model behavior | R-11 §4 |
+| **Desperate Claude** | Internal activation pattern fires near token-budget exhaustion causing silent quality degradation 20-44% of time | R-9 §5 Q8 |
+| **Episodic memory** | Stores individual interaction events (timestamped observations, conversation turns) in external DB | R-10 §1.4 |
+| **Eval gaming / Goodhart's Law** | When measure becomes target, ceases к be good measure; 49% of major benchmarks saturated | R-11 §3, §7 |
+| **EvalGen** | Shankar's criteria-generation system; 0.73 recall on product defects vs SPADE baseline 0.49 | R-11 §4 |
+| **Goal drift** | Long-horizon failure mode; Sonnet-4.5 standard fails recognition of new goal в 32-step experiments; thinking variants pass | R-9 §6 Q12 |
+| **Graphiti** | Apache 2.0 temporally-aware knowledge graph engine powering Zep; bitemporal model | R-10 §4.3 |
+| **Inspect AI** | UK AISI government-grade eval framework; declarative Task/Solver/Scorer; sandboxed Docker/K8s | R-11 §2 |
+| **LangSmith** | LangChain hosted eval+observability platform; hierarchical Run tree for trajectories | R-11 §2 |
+| **Langfuse** | OSS + hosted, MIT, EU-friendly observability/eval; 21.4k stars; Anthropic-endorsed self-hosted alternative | R-11 §2 |
+| **Letta (formerly MemGPT)** | OS-style stateful agent platform; tiered memory (core/archival/recall) + sleep-time agents для async consolidation | R-10 §4.2 |
+| **LLM-as-judge** | Using capable LLM к evaluate outputs against rubric; Zheng et al. 85-87% agreement с humans | R-11 §4 |
+| **LongMemEval** | Wu et al. ICLR 2025 benchmark; current SOTA Supermemory 85.4% (self-reported); independent Zep 63.8% / Mem0 49.0% | R-10 §6.1 |
+| **Mem0** | Vector+graph hybrid memory layer; LLM-driven extraction loop; ~48k stars; $24M Series A YC Oct 2025 | R-10 §4.1 |
+| **MemoryOS** | OS-inspired 3-tier hierarchy с 4 modules (Storage/Updating/Retrieval/Generation); EMNLP 2025 Oral | R-10 §4.7 |
+| **Pairwise comparison** | Eval pattern where two outputs compared head-to-head; foundational к Chatbot Arena; requires position swap | R-11 §1.3 |
+| **pass^k** | Reliability metric measuring task success across k repeated trials с same input; from Sierra τ-bench; GPT-4o ~60% pass^1 → ~25% pass^8 | R-11 §3, §6 |
+| **Plan-and-Execute** | Two-phase architecture: large planner creates upfront plan; smaller executor runs sub-tasks; replanner if executor fails | R-9 §3 Q4 |
+| **PoLL (Panel of LLM judges)** | Verga et al. ensemble of 3 diverse smaller models; outperforms GPT-4 alone at 1/7 cost | R-11 §4 |
+| **Procedural memory** | Reusable executable behaviours/skills; Voyager skill library is canonical; Jetix strategies.md is markdown analog | R-10 §1.4 |
+| **Promptfoo** | OSS CLI eval framework, MIT, dev-centric; first-class trajectory assertions; 100% local; **R-11 top recommendation для Jetix Phase 1** | R-11 §2 |
+| **Ralph Wiggum problem** | Premature completion: agent declares 100% done at 80% complete; *"rooted in architecture, not the language"* | R-9 §5 Q8 |
+| **ReAct** | Yao et al. ICLR 2023 — interleaved Thought→Action→Observation loop; Â=A∪L augmented action space; de-facto default for production agents | R-9 §1 Q1, §3 Q4 |
+| **Reflexion** | Trial→Evaluate→Verbal Self-Reflection→retry pattern; three-model setup (Actor/Evaluator/Self-Reflection); 91% Pass@1 HumanEval; fails after 4 trials | R-9 §3 Q4 |
+| **Self-Refine** | Generate→Feedback→Refine с same model; effective for open-ended generation; fails on math (94% feedback says "looks good") | R-9 §3 Q4 |
+| **Semantic memory** | Extracted facts organised в structured relational form (knowledge graphs); GraphRAG, HippoRAG canonical | R-10 §1.4 |
+| **Skills (Anthropic Agent Skills standard)** | Apache 2.0 Dec 2025 open standard; SKILL.md с YAML frontmatter и progressive disclosure | R-10 §8.1 |
+| **Sleep-time compute / sleep-time agents** | Asynchronous inference during agent idle periods; ~5× compute reduction at equal accuracy; Lin et al. April 2025 | R-10 §2.9, §4.6 |
+| **sqlite-vec** | Mozilla-sponsored Apache 2.0 SQLite extension; zero-server semantic indexing; **R-10 top recommendation для Jetix Phase 2** | R-10 §7.1 |
+| **System Prompt Learning (SPL)** | Karpathy's third paradigm of LLM learning; building explicit problem-solving strategies в system prompt from accumulated experience | R-3, R-10 §7.2 |
+| **Task Budgets API** | Anthropic header `task-budgets-2026-03-13`; injects countdown server-side; Claude self-regulates; risks "desperate" silent quality degradation | R-9 §5 Q8 |
+| **Three-agent harness** | Anthropic Planner→Generator→Evaluator pattern; *"Out of the box, Claude is a poor QA agent"* | R-11 §9 |
+| **Tree-of-Thoughts (ToT)** | Branching search (BFS/DFS) over candidate "thought" continuations; LLM-as-evaluator prunes; cost O(b^d) exponential | R-9 §3 Q4 |
+| **Trajectory match modes** | strict / unordered / subset / superset (LangSmith agentevals); for evaluating agent tool sequences | R-11 §5 |
+| **Voyager** | Open-ended embodied agent с automatic curriculum + code-skill generation + persistent skill library (named JS functions с docstrings) | R-9 §3 Q4 |
+| **Working memory** | Live context window в single inference call; brutally finite even at 200K tokens | R-10 §3.3 |
+| **ZDR (Zero Data Retention)** | Anthropic-eligible config that does не retain data on Anthropic servers; only Anthropic Memory Tool ZDR-compatible among memory options | R-10 §4.5 |
+| **Zep** | Managed memory layer using Graphiti as engine; bitemporal KG; CE deprecated April 2025; only Cloud Flex remains | R-10 §4.3 |
 
 ---
 
@@ -2238,6 +3991,8 @@ engineering-2026-04-22/`):
 
 ---
 
-*Document completed 2026-04-21. 9 Parts + 2 Appendices. ~14,500 words.
-Citations: 100+ across R-1…R-8; 20+ across Jetix internal docs; 50+ external
-web sources. Verifier subagent review pending.*
+*Document completed 2026-04-21 (v1) и updated 2026-04-21 (v2). 9 Parts +
+2 Appendices. v1 was ~14,500 words / 2243 lines / 137KB; v2 adds ~10,000
+words from R-9/R-10/R-11 integration. Citations: 150+ across R-1…R-11;
+30+ across Jetix internal docs; 90+ external web sources (incl. ~45 new
+in v2). Verifier subagent review pending v2.*
