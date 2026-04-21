@@ -1,23 +1,24 @@
 ---
 type: perplexity-prompts-package-readme
 created: 2026-04-21
-purpose: Step 1.2 из CE Research Plan — 8 waves deep research через Perplexity Pro Search
+updated: 2026-04-21 (evening — waves 9-11 added)
+purpose: Step 1.2 + 1.5 из CE Research Plan — 11 waves deep research через Perplexity Pro Search
 executor: Ruslan (manual execution)
-estimated-active-time: 3-5h across all 8 waves
+estimated-active-time: 5-7h across all 11 waves
 output-target-folder: raw/research/compounding-engineering-2026-04-22/
 ---
 
-# Perplexity CE Research Prompts — 8 Waves
+# Perplexity CE Research Prompts — 11 Waves
 
-**Created:** 2026-04-21
-**Purpose:** Step 1.2 из CE Research execution plan
+**Created:** 2026-04-21 (waves 1-8); updated 2026-04-21 evening (waves 9-11 added)
+**Purpose:** Step 1.2 + 1.5 из CE Research execution plan
 **For:** Ruslan — manually run через Perplexity Comet (desktop) или Pro web
 
 ---
 
 ## Что здесь
 
-8 deep, production-ready research prompts для Perplexity Pro Search по темам:
+11 deep, production-ready research prompts для Perplexity Pro Search по темам:
 
 1. **Compounding Engineering core** — что это, откуда, кто практикует
 2. **Swarm Intelligence agents** — multi-agent collectives, coordination patterns
@@ -27,6 +28,9 @@ output-target-folder: raw/research/compounding-engineering-2026-04-22/
 6. **Every / Cora / Compound** — Dan Shipper, Plan→Work→Review×12 architecture
 7. **Boris Cherny + Claude Code** — design philosophy, replaceable agents, CLAUDE.md
 8. **Skills + CLAUDE.md + knowledge storage** — native Claude Code mechanisms
+9. **Agentic Loop** (NEW) — internal mechanics, ReAct/Reflexion/CodeAct variants, Claude Code loop
+10. **Continual Learning** (NEW) — Mem0/Letta/Zep/Cognee/Anthropic memory tool, 2024-2026 state-of-the-art
+11. **Evals** (NEW) — frameworks (Anthropic/OpenAI/LangSmith/Inspect AI/Braintrust), benchmarks, LLM-as-judge
 
 Каждый prompt self-contained, copy-paste ready. 10-15 specific research questions,
 3 follow-up suggestions, consistent quality requirements (multi-source, 2024-2026,
@@ -36,7 +40,7 @@ specificity, critical lens, inline citations + URL list).
 
 ## Execution (per wave)
 
-Для каждого wave файла (1-8):
+Для каждого wave файла (1-11):
 
 1. **Open Perplexity** — Comet desktop или Pro web (https://perplexity.ai)
 2. **Enable Pro Search mode** — deep research, **НЕ Quick Search**
@@ -59,14 +63,15 @@ specificity, critical lens, inline citations + URL list).
 
 ## Execution order
 
-**Recommended:** Linear 1 → 8. Waves 1-5 build general theory; waves 6-8 зум-ин на
-specific case studies which assume theory baseline.
+**Recommended:** Linear 1 → 11. Waves 1-5 build general theory; waves 6-8 зум-ин
+на specific case studies which assume theory baseline; waves 9-11 deepen на
+agentic loop / continual learning / evals (added 2026-04-21 evening).
 
-**Parallel batch (если спешка):** открыть 8 вкладок, запустить 8 одновременно —
-sacrifice depth of follow-ups, но save 3-4h wall time. Perplexity Pro не лимитирует
+**Parallel batch (если спешка):** открыть 11 вкладок, запустить 11 одновременно —
+sacrifice depth of follow-ups, но save 4-5h wall time. Perplexity Pro не лимитирует
 parallel sessions для одного user. Каждый wave self-contained, так что parallel safe.
 
-**Split across sessions:** 4 утром + 4 днём (каждая сессия ~1.5-2h active time).
+**Split across sessions:** 4-4-3 по сессиям (каждая ~1.5-2h active time).
 Recommended если хочется осмысленно читать results между waves.
 
 ---
@@ -75,9 +80,9 @@ Recommended если хочется осмысленно читать results м
 
 - **Per wave active time:** 5-15 min Perplexity processing + 5-10 min read/follow-up
   + 2-3 min save to file = **~15-30 min Ruslan wall time per wave**
-- **Total for 8 waves (serial):** ~2-4h Ruslan active
-- **Total for 8 waves (parallel batch):** ~45-60 min Ruslan active
-- **Recommended:** split в 2 sessions по 4 wave = ~1-2h active each
+- **Total for 11 waves (serial):** ~3-5h Ruslan active
+- **Total for 11 waves (parallel batch):** ~60-90 min Ruslan active
+- **Recommended:** split в 3 sessions по 3-4 wave = ~1-1.5h active each
 
 ---
 
@@ -96,16 +101,28 @@ Prompt-level enforcement:
 
 ---
 
-## After all 8 waves done
+## After all 11 waves done
 
 1. `git add raw/research/compounding-engineering-2026-04-22/`
-2. `git commit -m "[research] Perplexity CE research 8 waves complete — Step 1.3"`
+2. `git commit -m "[research] Perplexity CE research 11 waves complete"`
 3. `git push origin claude/jolly-margulis-915d34`
 4. **Step 1.4 — Cloud Cowork quality inspection:** spawn Claude Code subagent для
    spot-check quality (missing questions? vague answers? missing sources?). Если gaps
    → either re-run specific wave OR note gaps для synthesis stage
-5. **Step 2 — Synthesis:** launch main Claude Code для meta-synthesis всех 8 outputs
+5. **Step 2 — Synthesis:** launch main Claude Code для meta-synthesis всех 11 outputs
    → compose обновлённый CE Research Note в wiki/concepts/ + potential ADR addenda
+
+---
+
+## NEW: Waves 9-11 added 2026-04-21 evening
+
+Waves 1-8 already executed by Ruslan (R-1...R-8 в `raw/research/compounding-
+engineering-2026-04-22/`). Waves 9-11 are NEW additions per Ruslan request —
+Ruslan executes через Perplexity then commits R-9, R-10, R-11 к
+`raw/research/compounding-engineering-2026-04-22/`.
+
+**Step 2 synthesis ждёт ВСЕ 11 reports** (не 8) — synthesis prompt должен быть
+обновлён до launch, чтобы охватить full 11-wave corpus.
 
 ---
 
@@ -120,6 +137,9 @@ Prompt-level enforcement:
 - `wave-6-every-cora-compound.md` — Every.to, Cora assistant, Compound architecture
 - `wave-7-boris-cherny-claude-code.md` — Claude Code design philosophy, Boris writings
 - `wave-8-skills-claudemd-knowledge.md` — Native Claude Code knowledge mechanisms
+- `wave-9-agentic-loop.md` (NEW 2026-04-21 evening) — internal mechanics, ReAct/Reflexion/CodeAct, Claude Code loop
+- `wave-10-continual-learning.md` (NEW 2026-04-21 evening) — Mem0/Letta/Zep/Cognee/Anthropic memory tool, 2024-2026
+- `wave-11-evals.md` (NEW 2026-04-21 evening) — Anthropic/OpenAI/LangSmith/Inspect AI/Braintrust frameworks, benchmarks, LLM-as-judge
 
 ---
 
