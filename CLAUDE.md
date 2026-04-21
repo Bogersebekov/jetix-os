@@ -9,8 +9,8 @@ and personal life. Owner: Ruslan (Berlin, Germany).
 - Communication: JSONL mailboxes in comms/mailboxes/
 - State: JSON files in shared/state/
 - Knowledge: shared/knowledge/
-- Notion: external source of truth (via MCP)
-- Filesystem: internal source of truth
+- Filesystem: single source of truth (authoritative)
+- Notion: collaboration / planning / UI tool (not authoritative; filesystem wins any conflict)
 
 ## Agent Roster
 | Agent | Model | Dept | Function | Phase |
@@ -32,7 +32,7 @@ and personal life. Owner: Ruslan (Berlin, Germany).
 1. All agents MUST read their mailbox before starting work
 2. All messages MUST follow schema in shared/schemas/message.schema.json
 3. All state changes MUST be logged
-4. Notion = external truth; filesystem = internal truth
+4. Filesystem = single source of truth; Notion = collaboration / planning / UI tool (not authoritative)
 5. When in doubt → ask Manager to route the question
 6. NEVER expose API keys in any file
 7. Russian for content; English for code and configs
