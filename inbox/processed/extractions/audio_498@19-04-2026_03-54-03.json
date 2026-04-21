@@ -1,0 +1,97 @@
+{
+  "source": "audio_498@19-04-2026_03-54-03.txt",
+  "processed_at": "2026-04-21T07:05:26",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix станет AI life компанией, которая улучшает качество жизни клиентов и команды через глубокую работу и системные инструменты для жизни",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix будет топить за глубокую работу - изучение концентрации, влияния на мозг, способность решать задачи",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Развивать подход глубокой работы у партнеров и работников, инвестировать в удобные инструменты для этого",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Инженерный подход к жизни: сначала найти инструкцию, потом инструменты, потом работать. Проблема - инструкций к жизни и бизнесу нет в одном месте",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать 'инструкцию для жизни' - системное руководство по развитию и жизни с ответами на ключевые вопросы",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Принципы",
+      "content": "Давать рабочие места качественные с наличием возможности глубокой работы",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Решения",
+      "content": "Патентовать все что можно, отдавать как можно меньше долей в компании - Jetix должен быть очень ценной компанией",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Принципы",
+      "content": "Строго подходить к доверию долей - чек-листы, многократные проверки, длительные размышления перед принятием решений о партнерстве",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать систему подстраховки, чтобы в случае проблем со мной Jetix поддерживался на хорошем уровне",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    }
+  ]
+}
