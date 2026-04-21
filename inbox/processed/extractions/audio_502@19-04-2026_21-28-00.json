@@ -1,0 +1,77 @@
+{
+  "source": "audio_502@19-04-2026_21-28-00.txt",
+  "processed_at": "2026-04-21T07:05:59",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "Если тебе важен софт, ты работаешь и над железом (принцип Apple). Jetix применяет этот подход - контролируем всю цепочку от инструментов до людей.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "В бизнесе софт = продукт для клиентов, хардвер = команда и партнеры. Качество продукта зависит от инвестиций в людей.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Решения",
+      "content": "Jetix лелеет партнеров и команду: обучает, тренирует, прокачивает, дает новые знания и наработки для превосходства над конкурентами.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Предлагать чуть лучшие условия чем на рынке, чтобы подтягивать лучших умов в экосистему Jetix без создания зависимости.",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Видение",
+      "content": "Создать такую мощную экосистему Jetix, что партнеры сами будут её продвигать, советовать и устанавливать из-за её превосходства.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix - это методология дисциплинированной работы и ответственности, а не просто программа или инструмент.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Решения",
+      "content": "Позиционировать Jetix как методологию уровнем выше обычных инструментов, из которой вытекают конкретные решения и наработки.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    }
+  ]
+}

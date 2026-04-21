@@ -1,0 +1,57 @@
+{
+  "source": "audio_500@19-04-2026_07-56-04.txt",
+  "processed_at": "2026-04-21T07:05:41",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Уверенность в продукте создает естественные продажи — когда ты протестировал и используешь сам, то не продаешь, а просто предлагаешь как очевидно полезную вещь",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Решения",
+      "content": "Сейчас НЕ заниматься распространением, сфокусироваться на настройке системы и движении к первым $50K",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить юридическую защиту, открыть Stripe для бизнеса, найти оптимальные методы получения оплаты",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Задачи",
+      "content": "Подробно описать все процессы настройки платежной системы и юридических вопросов",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-21"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить конкурентов с ответственным подходом",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-21"
+    }
+  ]
+}
