@@ -168,11 +168,11 @@ Target trajectory: €50K Phase 1 → €200K validation → $100K self-earned t
 
 ---
 
-## 7. Target Audience — Union of 10 Archetypes + ICP Qualitative Filter
+## 7. Target Audience — Union of 11 Archetypes + ICP Qualitative Filter
 
-### 7.1 — 10 архетипов (Decision 7 union)
+### 7.1 — 11 архетипов (Decision 7 union + Stage 3 addition)
 
-Jetix не продаёт кому попало. Только к 10 архетипам, merged из двух списков Ruslan'а:
+Jetix не продаёт кому попало. Только к 11 архетипам, merged из двух списков Ruslan'а + 11-й добавлен в Stage 3 review:
 
 1. **Предприниматели / бизнесмены** (merged: digest audio_495 ≈ Note 2) — hungry, action-driven, ищут AI-leverage для scale.
 2. **Ресёрчеры** — depth-of-analysis seekers, ищут structured thinking + AI-enhancement + Phase 2+ open-source research direction participation (D24).
@@ -184,8 +184,11 @@ Jetix не продаёт кому попало. Только к 10 архети
 8. **Философы** — meaning seekers, ищут operational wisdom infrastructure + Phase 2+ open-source research-direction contribution channel.
 9. **Разработчики идей** — concept generators, ищут leverage для validation + execution через AI-augmented prototyping.
 10. **Разработчики жизни** — life-designers, ищут holistic life-system tooling + engineering-approach к собственной жизни.
+11. **Блогеры** (Stage 3 addition 2026-04-21) — content creators с deep expertise в конкретной теме. Критерии: 5K+ подписчиков + реальная глубокая экспертиза в своей нише (не generalist-entertainer) + возможно курсы / paid products / обучающие материалы. Ищут productization своих знаний через AI, масштабирование производства контента, партнёрство в продюсерском центре (Phase 1 core offer, D11). **НЕ цель:** random infotainers / lifestyle-bloggers без expertise / tick-tockers-развлекалки. **IS цель:** профессионалы в своей сфере с аудиторией которая им доверяет. Пример fit: specialist-blogger делающий deep technical / business / research content — Jetix берёт его production pipeline (research → script → recording → editing → distribution) под AI-enhanced operations.
 
-**Common thread across all 10:** intelligent, driven, skin-in-game, НЕ passive consumers. *«не на широкие массы а конкретно на профессионалов на вот заинтересованных людей в своем развитии в развитии своего сообщества»* [Note 2].
+**Common thread across all 11:** intelligent, driven, skin-in-game, НЕ passive consumers. *«не на широкие массы а конкретно на профессионалов на вот заинтересованных людей в своем развитии в развитии своего сообщества»* [Note 2].
+
+**Блогеры specifically** — natural overlap с продюсерским центром (Decision 11 core Phase 1 offer). Блогер-архетип является **primary Phase 1 customer** для English-speaking infobiz target market (Decision 10). Они и клиенты, и потенциальные партнёры / community members одновременно — layered identity в действии (Decision 8).
 
 ### 7.2 — ICP Qualitative Filter (Decision 22)
 
@@ -207,7 +210,7 @@ Ruslan explicit distinction:
 - **Horizontal axis (topics):** бас / фотография / финансы / бизнес / research / и так далее. Темы расходятся вправо-влево. Может быть either up OR down direction — сам topic не предопределяет вектор жизни.
 - **Vertical axis (direction-of-life):** up (развитие себя + среды) OR down (degradation, тупёж, «towards death»). Это primary axis для Jetix community membership.
 
-**Jetix community = ВСЕ 10 archetypes × UPWARD-DIRECTION ONLY.** Topic — secondary, direction — primary.
+**Jetix community = ВСЕ 11 archetypes × UPWARD-DIRECTION ONLY.** Topic — secondary, direction — primary.
 
 ### NOT target:
 
