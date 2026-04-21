@@ -27,7 +27,7 @@ Consumer: команда + deep-content readers (philosophers archetype). Refere
 
 1. **`raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md`** (8 locked decisions) — BINDING
 2. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md`** (10 locked decisions) — BINDING
-3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 decisions 19-24) — ⚠️ BINDING ONCE LOCKED (currently PENDING Ruslan approval — НЕ запускать writer если PENDING)
+3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 LOCKED decisions 19-24: Holding-scale $1T / USB-C / Matchmaker+Roy / ICP refinement / Tokens Option B / Open-source research) — BINDING
 4. **`raw/voice-memos-text/holding-vision-2026-04-21.md`** — 6 text voice-notes (primary Decision 19-24 source)
 5. **`raw/research/architecture-variants-2026-04-22/HOLDING-VISION-SYNTHESIS.md`** — synthesis + 8 insight groups + top 20 quotes
 6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** §5 (top 50 quotes) — preserved voice

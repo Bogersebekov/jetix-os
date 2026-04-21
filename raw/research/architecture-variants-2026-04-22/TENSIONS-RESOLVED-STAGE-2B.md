@@ -1,26 +1,31 @@
 ---
 id: tensions-resolved-stage-2b-2026-04-21
-title: Tensions Resolved — Stage 2B (Decision 19-24 proposals, PENDING Ruslan approval)
+title: Tensions Resolved — Stage 2B (Decisions 19-24, LOCKED)
 date: 2026-04-21
-type: decisions-proposal
-status: PENDING RUSLAN APPROVAL
-binding: NO (until Ruslan confirms each decision — only then LOCKED)
+type: decisions-record
+status: LOCKED (all 6 approved Ruslan 2026-04-21)
+binding: YES — binding input для Stage 3 (synthesize D1/D2/D3), Stage 4 (compress D4)
 companion_to:
   - TENSIONS-PRE-RESOLVED.md (8 LOCKED decisions)
   - TENSIONS-RESOLVED.md (10 LOCKED decisions)
-  - HOLDING-VISION-SYNTHESIS.md (synthesis of 6 notes driving these proposals)
+  - HOLDING-VISION-SYNTHESIS.md (synthesis of 6 notes driving these decisions)
 source_notes: raw/voice-memos-text/holding-vision-2026-04-21.md (6 notes, PRIMARY)
 stage: 2B (inserted между Stage 2 Resolve and Stage 3 Synthesize)
-blocks: Stage 3 launch (D1/D2/D3 writers) until approved
+unblocks: Stage 3 launch (D1/D2/D3 writers)
 ---
 
 # Tensions Resolved — Stage 2B
 
-> **⚠️ STATUS: PENDING.** 6 decisions below proposed by Cloud Cowork based on Ruslan's 6 voice-notes 2026-04-21 late night. **NOT LOCKED.** Ruslan must approve each один за одним before they become binding.
+> **✅ STATUS: LOCKED.** All 6 decisions approved by Ruslan 2026-04-21 late night:
+> - Decisions 19-24 APPROVED AS-IS (no merge, no split, no park)
+> - Decision 23 (Tokens) — **Option B** default accepted (internal Phase 2, limited public Phase 3+)
+> - Kept 6 separate decisions (no merge 19+20, no split 21, no merge 24+21)
 >
-> **After approval:** this document renamed status LOCKED, and Stage 3 writers consume these as additional overrides beyond 18 existing locks.
+> **Ruslan approval quote:** *"всё, что я там сказал в заметках, всё одобряй, всё добавляй — глубоко, качественно"*.
 >
-> **Relationship:** PRE-RESOLVED (8 LOCKED) + RESOLVED Stage 2 (10 LOCKED) + RESOLVED Stage 2B (6 PENDING → LOCKED) = total 24 decisions after approval.
+> **Binding:** Decisions 19-24 override any conflicting atoms (same rule as 1-18). Stage 3 writers consume as binding inputs.
+>
+> **Relationship:** PRE-RESOLVED (8 LOCKED) + RESOLVED Stage 2 (10 LOCKED) + RESOLVED Stage 2B (6 LOCKED) = **24 total locked decisions**.
 
 ---
 
@@ -44,7 +49,7 @@ Approval quotes are verbatim (мат сохраняется) as required by voic
 
 ---
 
-## Decision 19 — Holding-Scale $1T Ambition — PENDING
+## Decision 19 — Holding-Scale $1T Ambition — LOCKED
 
 ### Formula
 
@@ -120,7 +125,7 @@ Can merge with **Decision 20** (USB-C Positioning) as unified "What Jetix Wants 
 
 ---
 
-## Decision 20 — USB-C Positioning + Enterprise-Fast — PENDING
+## Decision 20 — USB-C Positioning + Enterprise-Fast — LOCKED
 
 ### Formula
 
@@ -192,7 +197,7 @@ Can merge with **Decision 19** (Holding $1T). Also can split out "Enterprise-fas
 
 ---
 
-## Decision 21 — Partnership-Matchmaker + Roy-Replication — PENDING
+## Decision 21 — Partnership-Matchmaker + Roy-Replication — LOCKED
 
 ### Formula
 
@@ -275,7 +280,7 @@ Kept unified here as one coherent network-multiplication mechanic. Ruslan choice
 
 ---
 
-## Decision 22 — ICP Refinement: Startupper + Azart + Stable + Adequate + Upward-Direction — PENDING
+## Decision 22 — ICP Refinement: Startupper + Azart + Stable + Adequate + Upward-Direction — LOCKED
 
 ### Formula
 
@@ -356,7 +361,7 @@ Ruslan explicitly says *"это реально на бумагу прям вын
 
 ---
 
-## Decision 23 — Token Economy Exploration (Phase 2+) — PENDING
+## Decision 23 — Token Economy Exploration (Phase 2+) — LOCKED
 
 ### Formula
 
@@ -443,7 +448,7 @@ Kept unified — Ruslan decides Option default inside single approval.
 
 ---
 
-## Decision 24 — Open-Source Research Direction (Phase 2+) — PENDING
+## Decision 24 — Open-Source Research Direction (Phase 2+) — LOCKED
 
 ### Formula
 
@@ -544,12 +549,12 @@ Can merge with **Decision 21** (Matchmaker/Roy) — "how companies cooperate" re
 | 16 | Stage 2 | Phase 1 simple chat, formal mechanics Phase 2+/3+ | 🟢 LOCKED |
 | 17 | Stage 2 | Filesystem source of truth | 🟢 LOCKED |
 | 18 | Stage 2 | Productization over hours | 🟢 LOCKED |
-| **19** | **Stage 2B** | **Holding-Scale $1T Ambition** | 🟡 **PENDING** |
-| **20** | **Stage 2B** | **USB-C Positioning + Enterprise-Fast** | 🟡 **PENDING** |
-| **21** | **Stage 2B** | **Partnership-Matchmaker + Roy-Replication** | 🟡 **PENDING** |
-| **22** | **Stage 2B** | **ICP Refinement: Startupper + Azart + Stable + Adequate + Upward** | 🟡 **PENDING** |
-| **23** | **Stage 2B** | **Token Economy Exploration (Phase 2+)** | 🟡 **PENDING** |
-| **24** | **Stage 2B** | **Open-Source Research Direction (Phase 2+)** | 🟡 **PENDING** |
+| **19** | **Stage 2B** | **Holding-Scale $1T Ambition** | 🟢 **LOCKED** |
+| **20** | **Stage 2B** | **USB-C Positioning + Enterprise-Fast** | 🟢 **LOCKED** |
+| **21** | **Stage 2B** | **Partnership-Matchmaker + Roy-Replication** | 🟢 **LOCKED** |
+| **22** | **Stage 2B** | **ICP Refinement: Startupper + Azart + Stable + Adequate + Upward** | 🟢 **LOCKED** |
+| **23** | **Stage 2B** | **Token Economy Exploration (Phase 2+)** | 🟢 **LOCKED** |
+| **24** | **Stage 2B** | **Open-Source Research Direction (Phase 2+)** | 🟢 **LOCKED** |
 
 ---
 

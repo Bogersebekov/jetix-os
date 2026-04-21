@@ -27,7 +27,7 @@ Consumer: Ruslan (roadmap), Phase 1 team members (execution guidance), 6 archite
 
 1. **`raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md`** (8 locked decisions) — BINDING
 2. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md`** (10 locked decisions) — BINDING
-3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 decisions 19-24, Holding-scale / USB-C / Matchmaker / ICP refinement / Tokens / Open-source research) — ⚠️ BINDING ONCE LOCKED (currently PENDING Ruslan approval — НЕ запускать writer если PENDING)
+3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 LOCKED decisions 19-24: Holding-scale $1T / USB-C / Matchmaker+Roy / ICP refinement / Tokens Option B / Open-source research) — BINDING
 4. **`raw/voice-memos-text/holding-vision-2026-04-21.md`** — 6 text voice-notes
 5. **`raw/research/architecture-variants-2026-04-22/HOLDING-VISION-SYNTHESIS.md`** — synthesis + insight groups + top 20 quotes
 6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-YEAR-PLAN.md`** — 118 TODOs, phase distribution, priority matrix (центральный input)

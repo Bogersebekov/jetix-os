@@ -27,7 +27,7 @@ Consumer: Ruslan (reference), будущие team members (onboarding), 6 archit
 
 1. **`raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md`** (8 locked decisions) — BINDING
 2. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md`** (10 locked decisions) — BINDING
-3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 decisions 19-24, Holding-scale / USB-C / Matchmaker / ICP refinement / Tokens / Open-source research) — ⚠️ BINDING ONCE LOCKED (currently PENDING Ruslan approval — НЕ запускать writer если PENDING)
+3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 LOCKED decisions 19-24: Holding-scale $1T / USB-C / Matchmaker+Roy / ICP refinement / Tokens Option B / Open-source research) — BINDING
 4. **`raw/voice-memos-text/holding-vision-2026-04-21.md`** — 6 text voice-notes (primary source of Decisions 19-24, preserved Ruslan voice)
 5. **`raw/research/architecture-variants-2026-04-22/HOLDING-VISION-SYNTHESIS.md`** — structured synthesis of 6 notes + top 20 quotes + 8 categorized insight groups
 6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** §5 (top 50 quotes) — preserved voice source
