@@ -232,7 +232,64 @@ Ruslan уточнил: **не open-source в общепринятом смысл
 
 ---
 
-## Summary table (все 7 decisions)
+## Decision 8 — Layered Identity (Jetix multiplicity frames) — LOCKED
+
+### Formula
+
+**Jetix = layered identity.** Один объект с разными faces зависимо от observer и phase. НЕ противоречия, а **grammar** одного языка.
+
+### Layer table
+
+| Для кого | Frame | Когда доминирует |
+|---|---|---|
+| Для Ruslan (self-inside) | **Methodology + Operating System** | всегда (base) |
+| Для клиентов | **Company / Agency** (consulting) | Phase 1 |
+| Для партнёров | **Network / Platform** (Secure Network) | Phase 2+ |
+| Для community members | **Club** (Kingsman inside) | всегда |
+| Для external world | **Corporation** ("организация имеет вес") | Phase 2+ |
+| Для Phase 3+ | **Civilizational infrastructure** (200-year vision) | Phase 3+ |
+| Для команды сейчас | **Solo-with-team-ready founder** | Phase 1 (see Decision 2) |
+
+### Rhyme pattern
+
+Decision 8 rhymes с Decisions 1 + 3:
+- **1:** Gentleman inside / Predator outside
+- **3:** Open inside / Closed outside
+- **8:** Layered identity — different frame per observer
+
+Все три — **одна ментальная grammar**: Jetix контекстно-adaptive, не monolithic.
+
+### Per-archetype angles (для D1 Vision)
+
+D1 Vision содержит специальную секцию **"Per-archetype angles"** — 5-10 коротких paragraphs показывающих как Vision читается с точки зрения top-архетипов:
+- Предприниматель → видит company / agency
+- Философ → видит methodology / operating system
+- Инженер → видит platform / network
+- Менеджер → видит operational frame / governance
+- Политик → видит corporation / institutional weight
+- Инвестор → видит civilizational infrastructure bet (Phase 3+)
+
+**Это НЕ отдельные документы.** Навигация внутри D1 для communication с разными audiences.
+
+### Derived marketing materials (Phase 1 execution)
+
+После D1-D4 foundation готов — per-archetype marketing materials создаются позже:
+pitch-decks / manifestos / tech-briefs / operational-frames — derived from D1, не foundation-layer.
+
+### Ruslan approval quote
+
+> «добавляй… второе тоже добавляя окей… все отлично это все подтверждаю»
+
+### Implications
+
+- **D1 (Vision)** — Layered Identity как central frame + "Per-archetype angles" section
+- **D2 (Philosophy)** — принцип: "context-adaptive identity, not monolithic brand"
+- **D3 (Plan)** — Phase 1 = company face dominant; Phase 2+ = network/platform dominant; Phase 3+ = corporation/civilization
+- **D4 (Architecture-brief)** — архитекторы строят систему способную носить multiple faces (configurable per observer/phase)
+
+---
+
+## Summary table (все 8 decisions)
 
 | # | Tension | Resolution | Status |
 |---|---|---|---|
@@ -243,6 +300,7 @@ Ruslan уточнил: **не open-source в общепринятом смысл
 | 5 | Phase priority | **Consulting-first Phase 1, Secure Network = Phase 2+ evolution** | 🟢 LOCKED |
 | 6 | Anton/Vladislav/Rodion | **Не ключевые, убрать, не упоминать** | 🟢 LOCKED |
 | 7 | 6 архетипов vs 5 каста | **Union (11 archetypes merged)** | 🟢 LOCKED |
+| 8 | Jetix multiplicity frames | **Layered identity — different faces per observer/phase** | 🟢 LOCKED |
 
 ---
 
