@@ -27,15 +27,18 @@ Consumer: Ruslan (roadmap), Phase 1 team members (execution guidance), 6 archite
 
 1. **`raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md`** (8 locked decisions) — BINDING
 2. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md`** (10 locked decisions) — BINDING
-3. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-YEAR-PLAN.md`** — 118 TODOs, phase distribution, priority matrix (центральный input)
-4. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** — §6 actionable checklist + chronic items
-5. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-COMMUNITY-ADDENDUM.md`** §2 (Note 1 near-future plan sequence)
-6. **`raw/research/architecture-variants-2026-04-22/ATOM-REGISTRY.md`** — FILTER на type=task OR bet OR metric, все dimensions
-7. **`raw/research/architecture-variants-2026-04-22/KNOT-MAP.md`** — §1.3 remaining tensions (для dependencies)
-8. **`raw/research/architecture-variants-2026-04-22/OME-ARCHITECTURE-REFERENCE.md`** — dashboard metrics + operational structure
-9. **`CLAUDE.md`** — current config
+3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 decisions 19-24, Holding-scale / USB-C / Matchmaker / ICP refinement / Tokens / Open-source research) — ⚠️ BINDING ONCE LOCKED (currently PENDING Ruslan approval — НЕ запускать writer если PENDING)
+4. **`raw/voice-memos-text/holding-vision-2026-04-21.md`** — 6 text voice-notes
+5. **`raw/research/architecture-variants-2026-04-22/HOLDING-VISION-SYNTHESIS.md`** — synthesis + insight groups + top 20 quotes
+6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-YEAR-PLAN.md`** — 118 TODOs, phase distribution, priority matrix (центральный input)
+7. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** — §6 actionable checklist + chronic items
+8. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-COMMUNITY-ADDENDUM.md`** §2 (Note 1 near-future plan sequence)
+9. **`raw/research/architecture-variants-2026-04-22/ATOM-REGISTRY.md`** — FILTER на type=task OR bet OR metric, все dimensions
+10. **`raw/research/architecture-variants-2026-04-22/KNOT-MAP.md`** — §1.3 remaining tensions (для dependencies)
+11. **`raw/research/architecture-variants-2026-04-22/OME-ARCHITECTURE-REFERENCE.md`** — dashboard metrics + operational structure
+12. **`CLAUDE.md`** — current config
 
-**BINDING principle:** 18 locked decisions override any conflicting atoms. Revenue-gated spend (D15) = central phasing mechanism.
+**BINDING principle:** 24 locked decisions (18 confirmed + 6 Stage 2B upon approval) override any conflicting atoms. Revenue-gated spend (D15) = central phasing mechanism. Decisions 19-24 add $1T horizon trajectory + holding structure + matchmaker + roy-replication + token economy + open-source research direction as Phase 2+/3+ scope.
 
 ---
 
@@ -213,7 +216,7 @@ TOF tactics starter:
 - English+US scale continues
 - **DE + DACH Mittelstand activates** (D10) — DE-language content start
 
-### Section 5: Phase 2 — Secure Network Emergence (€200K → €1M) (2 pages)
+### Section 5: Phase 2 — Secure Network Emergence + Matchmaker Launch (€200K → €1M) (2.5 pages — UPDATED Stage 2B)
 
 **Post-validation gate. Major transition: consulting → platform.**
 
@@ -224,6 +227,9 @@ TOF tactics starter:
 - Team expand до 5-10 people
 - Продюсерский центр scales (productized fully per D18)
 - International markets
+- **Partnership-Matchmaker mechanic live** (Decision 21) — task↔specialist matching
+- **Token economy Phase 2 — internal utility** (Decision 23, Option B default) — specialist compensation + ecosystem services; trigger ≈ $100K (mid-Phase-1), implementation Phase 2 early
+- **USB-C positioning messaging** (Decision 20) — enterprise-fast positioning consistent across all channels
 
 #### 5.2 Phase 2 actions
 
@@ -231,64 +237,152 @@ TOF tactics starter:
 - Platform built (из D4 Architecture-Brief + architects)
 - Subscription tiers live
 - Thematic sub-networks (политики / бизнесмены / философы / etc per Note 2)
-- First 50-100 members
+- First 50-100 members (Decision 22 ICP filter applied — startupper + azart + stable + adequate + upward)
 - Ideas-platform feature (D11 merged into Secure Network)
 - Job-matching feature (D11 merged)
+- **Tool-sharing + складчина layer** (Holding Vision Note 2) — Perplexity / Claude Code max pooled access, premium tools shared
+- **Expertise sharing channels** — latest AI наработки pooled across members
+
+**Matchmaker mechanic (Decision 21):**
+- Task-specialist matching algorithm live
+- AI-agent coordination smoothing layer
+- First pilot matches: Ruslan's network → complex tasks matched с expert подрядчиками через Jetix
+- Quality-gate: ICP filter ensures adequate matches
+- Metrics: match rate, completion rate, ecosystem NPS
+
+**Token economy Phase 2 (Decision 23):**
+- Internal token/utility design finalized
+- Specialist compensation distribution mechanism live
+- Ecosystem service payment (members use tokens для складчина access, expertise-pool requests)
+- Legal compliance review (jurisdiction-aware)
+- **Membrane preservation:** tokens NON-transferable externally Phase 2 (Option A/B default)
 
 **Revenue streams diversification:**
 - Consulting continues (but declining % of revenue)
 - Продюсерский центр main revenue
 - Subscription revenue (Secure Network) growing
 - Revenue-share partnerships (tactical deals)
+- Matchmaker fees (% of matched-task value)
+- Token-related revenue (ecosystem services)
 
 **Team:**
 - Sales 2-3 people
 - Consultants 2-3 people
 - Product / engineering 1-2 people
+- **Matchmaker ops 1 person** (new role)
 - Total 5-10
 
 #### 5.3 Phase 2 markets
 
 - English+US + DE+EU dual-primary
 - International lead gen
+- **"Самая большая авантюра века" invitation framing** (Decision 20) — landing + counter buttons per archetype: авантюристы / инвесторы / инженеры / продавцы / исследователи
 
 #### 5.4 Phase 2 milestones
 
-- M2.1: Secure Network live с первыми 50 members
-- M2.2: €500K revenue cumulative
-- M2.3: Team reached 5-10 people
-- M2.4: €1M cumulative → **Phase 2 → Phase 3 transition triggered**
+- M2.1: Secure Network live с первыми 50 members (ICP-filtered)
+- M2.2: Matchmaker первые 10 successful matches
+- M2.3: €500K revenue cumulative
+- M2.4: Token economy Phase 2 live (internal utility)
+- M2.5: Team reached 5-10 people
+- M2.6: €1M cumulative → **Phase 2 → Phase 3 transition triggered**
+- M2.7: First roy complete 10 people structure (pre-cursor to Phase 3 roy-replication, Decision 21)
 
-### Section 6: Phase 3 — Scale (€1M+) (1.5 pages)
+### Section 6: Phase 3 — Holding Scale + Roy-Replication + Open-Source Research (€1M+ → $100M → $100B → $1T trajectory) (2.5 pages — UPDATED Stage 2B)
 
-**Long-term horizon emerges.**
+**Long-term horizon emerges — но НЕ vague. Scale trajectory per Decision 19.**
 
 #### 6.1 Phase 3 objectives
 
+- **Holding structure crystallizes** (Decision 19) — company AND holding hybrid. Agents/roys inter-communicate, mutual safety net, joint projects
+- **Roy-replication methodology released** (Decision 21) — other swarms emerge в other verticals / niches / countries
+- **USB-C positioning launch** (Decision 20) — protocol / tools / laws development scope. International / world-wide operation
+- **Open-source research direction activated** (Decision 24) — how humans communicate / how companies cooperate / future economy — publications, specs, datasets
+- **Token economy Phase 3 layer** (Decision 23, Option B/C) — possibly limited public liquidity, IPO-alternative
 - International scale (continental+)
-- Team 10+ people
-- Investment-fund approach possibly formalized (D11 mature)
+- Team expansion: Jetix core + multiple roys (Jetix itself maintains lean core; roys scale separately)
+- Investment-fund approach formalized (D11 mature) + token economy + holding structure
 - Civilizational conversations begin (Fortune 500 if aligned)
 
 #### 6.2 Phase 3 actions
 
-- Continental expansion
+**Holding structure operational:**
+- Legal entity structure reviewed (holding vs group vs federation)
+- Inter-entity coordination protocols formalized
+- Mutual safety net mechanisms (resource-sharing agreements)
+- Joint project orchestration frameworks
+
+**Roy-replication (Decision 21):**
+- First replicated roy launched in second vertical (target: $10M-$100M revenue validation)
+- Methodology-as-system packaged для external roys
+- Inter-roy communication protocols deployed
+- Meta-coordination layer operational (Jetix central)
+
+**USB-C positioning (Decision 20):**
+- New protocols / сети / tools / laws development scope
+- AI-to-AI + business-to-business cooperation standards contribution
+- Patent portfolio expanded (patents for critical infrastructure, EU + US)
+- Standards-body participation / leadership
+
+**Open-source research direction (Decision 24):**
+- Dedicated research team + agents allocated (per D14 now expanded beyond revenue-instrumental)
+- Publications: papers, specs, datasets about cooperation patterns
+- Licensed open-source (MIT/Apache per domain)
+- Jetix first-mover data accumulation from own usage
+- Researcher + Philosopher archetype recruitment mechanism
+
+**Token economy Phase 3 (Decision 23, conditional on Option B/C approval):**
+- Public liquidity layer — limited tokens issued with explicit economic/governance/community separation
+- IPO-alternative investor option
+- Regulatory compliance mature
+
+**Continental expansion:**
 - Advanced productization (methodology as subscription platform)
-- Possible formal investment-fund structure
+- Possible formal investment-fund structure (Decision 19 + D11 mature)
 - Thought leadership (books / conferences / summits)
 - Recursive mentorship loops active (из Note 1 Step 10)
 
-### Section 7: Long-term Bets (Parked but Listed) (1 page)
+**Scale trajectory milestones:**
+- M3.1: €1M cumulative (Phase 3 entry)
+- M3.2: First replicated roy at $10M-$100M
+- M3.3: $100M revenue (intermediate per Decision 19)
+- M3.4: $1B market cap
+- M3.5: XEI-level compare point ($100B market cap) — eclipses XEI 2-year precedent
+- M3.6: $1 Trillion market cap world-record attempt — trajectory target per Decision 19
 
-**Phase 3+ aspirational — NOT Phase 1 actions.** Listed для context, not execution.
+**Infrastructure-from-Day-1 (Decision 19):**
+> *«мы создаем для начала как бы инфраструктуру которая должна будет выдержать масштабирование да там 1 миллиард до 1 триллиона»* [Note 5]
 
+Phase 1-2 architectural decisions MUST accommodate Phase 3 scale without refactor. Engineering-for-scalability principle, не massive upfront build.
+
+### Section 7: Long-term Bets (Phase 3+/Civilizational) (1.25 pages — UPDATED Stage 2B)
+
+**Phase 3+ aspirational — NOT Phase 1 actions.** Listed для context, not execution. Now substantially expanded per Stage 2B Holding Vision.
+
+**Core scale trajectory (Decision 19):**
+- $100B revenue / $100B market cap (XEI-compare milestone)
+- **$1 Trillion market cap world-record attempt** — ultimate bet, record-speed trajectory
+- Infrastructure-from-Day-1 principle (not retrofit, not heavy-spend upfront)
+
+**Phase 3+ bets:**
 - Fortune 500 coalition (parked per Decision 7 / KNOT-MAP)
-- MIFAS / investment-fund formal structure (Phase 3+)
+- MIFAS / investment-fund formal structure (Phase 3+ mature)
 - VR / Ready Player One integration (long-term)
 - Mercedes GLS + lifestyle markers (personal, parked)
 - "Отжать мини-страну" civilizational bet (200-year)
 
-**Framing:** these are **внутренний sustain-fuel**, not Phase 1 deliverables. D1 Vision §14 elaborates. D3 lists only для placeholder completeness.
+**Holding structure mature ambitions (Decision 19 + 21):**
+- Network of roys ecosystem (dozens to hundreds of swarms)
+- Methodology-as-standards status achieved (USB-C of AI-business cooperation per Decision 20)
+- Research direction producing standards (contributing to how future economy operates, Decision 24)
+- Open-source contribution body established
+
+**Framing:** these are **strategic trajectory direction**, not Phase 1 deliverables. D1 Vision §14 + §13 elaborate. D3 lists для placeholder + clarity that infrastructure decisions today must accommodate this horizon.
+
+**Engineering-faith anchor:**
+> *«Это все должно быть не какая-то там ебаная пирамида или еще что-то, блядь. Нет. А реально адекватные инструменты, наработки, блядь, технологий»* [Note 5]
+
+$1T trajectory backed by real tools + real methodology + adequate team + engineered infrastructure — не delusion, не hype.
 
 ### Section 8: Cross-cutting — Financial Pacing (1 page)
 
@@ -357,6 +451,38 @@ Research budget: **time-boxed** (не дольше 20% Ruslan time в Phase 1). 
 | Phase 1→2 | + DE legal home | — |
 | Phase 2 | DE + EU activate | English continues |
 | Phase 3 | International | continents |
+
+### Section 11b: Cross-cutting — Scale Infrastructure Readiness (1 page — NEW Stage 2B)
+
+**Principle (Decision 19):** Phase 1 architectural decisions MUST accommodate $1B → $1T scale without later refactor. НЕ massive upfront build — engineering-for-scalability discipline.
+
+Ruslan explicit:
+> *«мы создаем для начала как бы инфраструктуру которая должна будет выдержать масштабирование да там 1 миллиард до 1 триллиона… настолько это все должно быть качественно умно с первого начала ну просто вот заложено потом чтобы мы могли просто люто масштабироваться и как раз в этом то и будет суть что ядро и фундамент качественно заложен»* [Note 5]
+
+**What this means Phase 1 (tactical):**
+
+| Layer | Design для Phase 1 usage | Design для Phase 3+ scalability |
+|---|---|---|
+| Data / wiki | Single-repo wiki suffices | Partitioning + federation patterns ready but unused |
+| Agent contracts | Formal specs D2+D18 requirement | Contracts portable to multiple agent providers (vendor-agnostic) |
+| Governance / decision orbit | Solo Ruslan + 2-3 sub-agents | Multi-pilot support ready (D2 scaffolding) |
+| Financial system | Stripe + personal | Multi-jurisdiction-ready, multi-currency-ready, token-ready (Decision 23) |
+| Community platform | Simple chat Phase 1 (D16) | Platform-ready schema (Secure Network prep) |
+| Research pipeline | Revenue-instrumental only Phase 1 (D14) | Open-source direction channel prepped (Decision 24) |
+| Methodology docs | Closed core (D13) | Replicable for other roys (Decision 21) |
+
+**What this does NOT mean:**
+- Heavy upfront spend (D15 revenue-gated preserved)
+- Premature optimization / scaling для hypothetical volume
+- Over-engineering Phase 1 simplicity
+
+**What this DOES mean:**
+- Schema choices + protocols chosen so that Phase 3 scale doesn't require re-architecting
+- Decisions default toward configurability (Universality Criterion Decision — existing lock) + portability
+- Documentation discipline from Day 1 (methodology capturable for replication)
+- Vendor-agnostic patterns where reasonable
+
+**Cross-reference to D4 Architecture-Brief:** D4 architects must explicitly address "Phase 1 → Phase 3 scale readiness" as cross-cutting concern. Foundation layer (OME reference) designed для ultimate $1T scale patterns.
 
 ### Section 12: Priority Matrix P1-P4 (1 page)
 

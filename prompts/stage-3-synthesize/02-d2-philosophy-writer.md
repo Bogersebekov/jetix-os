@@ -27,17 +27,20 @@ Consumer: команда + deep-content readers (philosophers archetype). Refere
 
 1. **`raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md`** (8 locked decisions) — BINDING
 2. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md`** (10 locked decisions) — BINDING
-3. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** §5 (top 50 quotes) — preserved voice
-4. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-COMMUNITY-ADDENDUM.md`** §7 (top 15 quotes)
-5. **`raw/research/architecture-variants-2026-04-22/RUSLAN-IDEAS-FROM-WIKI-FOR-VISION.md`** — 367 цитат (особенно themes 6-10 про philosophy)
-6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-STRATEGIC-IDEAS.md`** §4 (philosophy layer, 131 items)
-7. **`raw/research/architecture-variants-2026-04-22/ATOM-REGISTRY.md`** — FILTER на type=principle OR value OR concept, dimension=philosophy OR base
-8. **`raw/research/architecture-variants-2026-04-22/KNOT-MAP.md`** — clusters §C-18 philosophy/ai, §C-31 philosophy/concept, §C-44 philosophy/cross-ref
-9. **`raw/research/architecture-variants-2026-04-22/OME-ARCHITECTURE-REFERENCE.md`** — Foundation-as-main-asset insight
-10. **`design/JETIX-FPF.md`** (D6, constitutional document, 3758 строк) — FPF / Левенчук materials integrated
-11. **`CLAUDE.md`** — current config
+3. **`raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md`** (6 decisions 19-24) — ⚠️ BINDING ONCE LOCKED (currently PENDING Ruslan approval — НЕ запускать writer если PENDING)
+4. **`raw/voice-memos-text/holding-vision-2026-04-21.md`** — 6 text voice-notes (primary Decision 19-24 source)
+5. **`raw/research/architecture-variants-2026-04-22/HOLDING-VISION-SYNTHESIS.md`** — synthesis + 8 insight groups + top 20 quotes
+6. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-FULL-DIGEST.md`** §5 (top 50 quotes) — preserved voice
+7. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-COMMUNITY-ADDENDUM.md`** §7 (top 15 quotes)
+8. **`raw/research/architecture-variants-2026-04-22/RUSLAN-IDEAS-FROM-WIKI-FOR-VISION.md`** — 367 цитат (особенно themes 6-10 про philosophy)
+9. **`raw/research/architecture-variants-2026-04-22/VOICE-MEMOS-STRATEGIC-IDEAS.md`** §4 (philosophy layer, 131 items)
+10. **`raw/research/architecture-variants-2026-04-22/ATOM-REGISTRY.md`** — FILTER на type=principle OR value OR concept, dimension=philosophy OR base
+11. **`raw/research/architecture-variants-2026-04-22/KNOT-MAP.md`** — clusters §C-18 philosophy/ai, §C-31 philosophy/concept, §C-44 philosophy/cross-ref
+12. **`raw/research/architecture-variants-2026-04-22/OME-ARCHITECTURE-REFERENCE.md`** — Foundation-as-main-asset insight
+13. **`design/JETIX-FPF.md`** (D6, constitutional document, 3758 строк) — FPF / Левенчук materials integrated
+14. **`CLAUDE.md`** — current config
 
-**BINDING principle:** 18 locked decisions override any conflicting atoms.
+**BINDING principle:** 24 locked decisions (18 confirmed + 6 Stage 2B upon approval) override any conflicting atoms.
 
 ---
 
@@ -127,20 +130,29 @@ Life (жизнь)
 
 **Continuous validation** (OME reference — "Метрики качества: проверка идёт непрерывно, на каждой итерации"). Это НЕ periodic checkpoint — это inherent in каждый iteration.
 
-### Section 7: AI as New Electricity (1.5 pages)
+### Section 7: AI as New Electricity + USB-C Connector Standard (1.5-2 pages — UPDATED Stage 2B)
 
 Frame founding-conviction Jetix.
 
 - **AI = electricity** (wiki atom-0107, atom-0151, atom-0152). Базовые вещи станут доступны всем — новый пол, новая норма.
 - **Methodology = завод** — кто имеет методологию конвертирует электричество в продукт. Westinghouse / Ford / Accenture analogy.
 - **Executors = электрики** — те кто применяет methodology. Деньги owned by methodology-владелец.
+- **Jetix = USB-C connector standard** (Decision 20) — universal connector для AI agents + businesses. Если AI = electricity, то Jetix = connector protocol. Standards-level role: interoperability layer, не monopoly.
+
+**USB-C parallel** (Ruslan [Note 3]):
+> *«как сейчас у нас USB-C в электронике, да, и в клавиатуре, блядь, и в телефоне, и в ноутбуке, блядь, и в кабеле и так далее, точно так же Jetix будет существовать в этой, блядь, нише»*
+
+→ Standards that emerge at infrastructure level accumulate massive value (USB-C licensing + ubiquity). Jetix aims for analogous position in AI-business cooperation space.
 
 **Три уровня transformation:**
 1. AI как инструмент (entry-level, most people here)
 2. AI как рычаг (Jetix Phase 1 — leverage for operators)
 3. AI как валюта / электричество (meta-level, measurement primitive)
+4. **AI как cooperation layer** (Jetix Phase 2+/3+ — USB-C connector standardizing how AI agents + humans + businesses interoperate)
 
 **Quote:** *"самое прибыльное изобретение — изобретение, которое делает изобретения"* [audio_499]. Meta-invention level.
+
+**Jetix's meta-meta claim:** не только invention-making — **cooperation-standard-making** (Decision 20 + Decision 24). Jetix both: invents methodology AND standardizes how inventions coordinate between agents/businesses.
 
 ### Section 8: Westinghouse-Ford-Accenture Frame (1 page)
 
@@ -156,7 +168,7 @@ Frame founding-conviction Jetix.
 
 **Implication Phase 2+:** Secure Network = methodology distribution platform. Members learn + apply methodology collectively.
 
-### Section 9: Investment-Fund Philosophy (1.5 pages)
+### Section 9: Investment-Fund Philosophy + Holding-Scale Extension (1.5-2 pages — UPDATED Stage 2B)
 
 **Resource-Allocation Engine** mentality от Day 1 (D11).
 
@@ -169,7 +181,24 @@ Jetix treat's **everything** как investment:
 
 **Expected return frame:** каждое distribute decision evaluated через "what return?" lens.
 
-**Not formal fund structure Phase 1.** Philosophy operates without legal structure. Phase 3+ possibly formalize if appropriate.
+**Data-superiority + speed-superiority mechanic (Decision 19 extension, Note 1):**
+
+Jetix as investment analyzer has explicit competitive edges:
+- **Data:** анализирует **2× больше данных** чем другой инвестфонд / компания — не только standard метрики, но **founder time allocation**, behavioural signals, ecosystem positioning
+- **Speed:** **самый быстрый фонд** для investment decisions. Decision latency = competitive edge
+- **Hold primarily:** не day-trading style (продать/купить мало — hold много), но decisions made with high velocity
+
+**Not formal fund structure Phase 1.** Philosophy operates without legal structure. Phase 2+ possibly formalize if appropriate (via holding structure per Decision 19 + token layer per Decision 23).
+
+**Roy-as-portfolio-unit (Decision 21 extension):**
+
+Ultimate investment-fund expression = **each roy (swarm of 10) is a portfolio unit**. Jetix:
+- Builds own roy first ($10M-$100M revenue as validation)
+- Distributes methodology → other roys emerge as portfolio additions
+- Meta-coordinates ecosystem of roys with compound returns
+- Valuation = methodology + ecosystem + network effects
+
+Investment-fund philosophy scales naturally from resource-allocation Day 1 → holding-portfolio Phase 3+.
 
 ### Section 10: Universality Criterion (1 page)
 
@@ -187,7 +216,7 @@ Locked pre-Stage-1:
 
 **Implication:** methodology documented as **system-agnostic**, implementation / overlay = specific. Repo separability (jetix-os/ vs jetix-company/) enforces this.
 
-### Section 11: Anti-Attention-Economy (1.5 pages)
+### Section 11: Anti-Attention-Economy + Direction-of-Life Axis (1.5-2 pages — UPDATED Stage 2B)
 
 **Categorical stance.** [addendum §3.2]
 
@@ -208,7 +237,25 @@ Locked pre-Stage-1:
 - **Layered content** (D12) — hooks outside на соцсетях redirectят к substance on site
 - **Secure Network Phase 2+** — alternative sociology layer
 
-**Complex nuance:** Jetix **использует соцсети на максимум как TOF** (D12) для reach. Это tactical — leveraging existing infrastructure, не endorsement attention-economy model.
+**Direction-of-life axis (Decision 22 extension, Note 2):**
+
+Ruslan explicit framing adds philosophical precision to anti-attention stance:
+
+> *«прикол в том что темы это не по темам а по направлению жизни короче вот в чем штука что темы они как-то расходятся… вправо влево получается по горизонтали а по вертикали это вверх вниз нахуй это направление вверх направление к жизни или направление вниз там к смерти блять тупежу»* [Note 2]
+
+- Attention-economy extracts along **horizontal topic axis** (TikTok / YouTube / LinkedIn) — any topic works, direction irrelevant, engagement metrics king
+- Jetix serves **vertical direction-of-life axis** — upward direction ONLY. Topic is secondary. Direction is primary.
+- Rejects "down-direction" content regardless of topic (even "smart" content can serve degradation if attention-extractive)
+
+This sharpens anti-attention-economy from "we avoid mass-reach platforms" to **"we serve human development, not human attention extraction."**
+
+**Complex nuance:** Jetix **использует соцсети на максимум как TOF** (D12) для reach. Это tactical — leveraging existing infrastructure, не endorsement attention-economy model. Also: **«самая большая авантюра века» framing (Decision 20 / Note 2)** — это predator-outside invitation, **filter-via-framing**, не mass-attention extraction. Only self-identifying авантюрист-with-skills responds; passive consumer passes by. Framing = self-selection tool, не engagement-hook.
+
+**Anti-motivational-circle stance:**
+
+> *«это именно ну вот нормальная для чуваки собрались там инструменты у них нормальная запросу на жизнь тоже нормальная ну как бы амбиции адекватные»* [Note 2]
+
+Jetix != Tony Robbins. Not motivational audience, but adequate cooperating professionals with real instruments and real work. "Awakening" = outcome of cooperation, not the service itself.
 
 ### Section 12: Productization Over Hours (1 page)
 
@@ -253,7 +300,7 @@ D6 JETIX-FPF.md documents integration подробно. Здесь — highlight
 
 Это D4 Architecture-Brief requirement. Writers D4 и architects Stage 6 должны priority Foundation.
 
-### Section 15: Paradoxes as Design (1 page)
+### Section 15: Paradoxes as Design (1 page — UPDATED Stage 2B)
 
 **Not bugs, features.** Jetix embraces certain paradoxes intentionally.
 
@@ -264,8 +311,56 @@ D6 JETIX-FPF.md documents integration подробно. Здесь — highlight
 - **System first, myth follows** (wiki) — 80/20, не either-or.
 - **Mass reach (соцсети TOF), niche depth (site)** (D12) — use both.
 - **Methodology (universal) + Company (specific)** (D8 + repo separability) — layered.
+- **Company AND Holding** (Decision 19) — не "choose company OR holding". Hybrid structure: внутри tight compact компания operations, наружи holding coordinating roys + partners.
+- **Enterprise-fast** (Decision 20) — не "choose enterprise OR startup". Big + быстрый + прочный + адекватный.
+- **Open research direction / Closed operational core** (Decisions 13 + 24) — research about cooperation is open-source, operational methodology closed. Not hypocrisy — category separation.
+- **$1T trajectory / €50K tactical** (Decision 19) — both real. Tactical gate не contradicts strategic direction; phase sequencing.
+- **"Мафия/семья" inside / "USB-C universal connector" outside** (Notes 3/4) — tight loyalty inside membrane, universal interoperability outside. Same grammar.
 
 Every paradox documented + resolution-frame explained.
+
+### Section 15b: Scale Philosophy — Why Holding, Why $1T (1.5 pages — NEW Stage 2B)
+
+**Why holding-scale not solo-ceiling:**
+
+Ruslan explicit:
+> *«мы не строим какие-то босса на иван ван биллион доллар компаний нет ну что за блядь детский лепит мы строим нахуй ван хандрит биллиан»* [Note 4]
+
+> *«нахуй нам какой-то один чувак ну еще раз да и так это очевидно что он будет блять кали чем дебилом»* [Note 4]
+
+Solo-ceiling is cognitively-limited. $1B+ scale requires team/alliance. But Jetix rejects traditional corporate bloat route — opts for **enterprise-fast** (Decision 20) + **holding-of-roys** (Decisions 19, 21) structure.
+
+**Why $1T trajectory, not "reasonable" $1M:**
+
+> *«Jetix целится на то, чтобы стать первой… поставить вообще мировой рекорд по достижению капитализации в 1 триллион долларов»* [Note 5]
+
+**Engineering-faith framing** (reinforces Section 3):
+- Target must be audacious enough to attract top-tier people (адекватные + powerful). $1M target attracts mediocre ambition.
+- Infrastructure built for $1T scale from Day 1 = natural engineering discipline (quality cannot be retrofitted)
+- Real precedent exists (XEI at $100B in 2 years) — not unprecedented ask
+- Trajectory ≠ guaranteed outcome. It's the **horizon that shapes daily decisions**.
+
+**Why this is not pyramid / delusion:**
+
+> *«Это все должно быть не какая-то там ебаная пирамида или еще что-то, блядь. Нет. А реально адекватные инструменты, наработки, блядь, технологий и так дальше, которые вот разрабатываются быстро, тестируются, патентируются, блядь, используются»* [Note 5]
+
+Ruslan distinguishes:
+- **Delusional:** claim big outcome without mechanism
+- **Pyramid:** structure where new entrants fund old entrants' exit
+- **Hype:** real outcome claimed, fake mechanism
+- **Jetix:** real tools + real methodology + real team + real revenue + engineered infrastructure → audacious outcome is **engineered trajectory**
+
+**Roy-multiplication as scale mechanic:**
+
+Traditional corporation scales via hiring (linear); Jetix scales via **methodology distribution** enabling autonomous swarms (Decision 21). 1 roy = $10M-$100M. 100 roys × $10M-$100M = $1B-$10B. Meta-layer (methodology + ecosystem + standards) adds multiplier. $1T is target at compound-of-compounds level.
+
+**Why this doesn't conflict Phase 1 solo:**
+
+Scale philosophy operates at horizon level. Phase 1 discipline remains: solo, €50K Q2, validation gates preserved, consulting-first. Scale philosophy shapes **how** Phase 1 builds (infrastructure-for-scale-from-Day-1), not **what** Phase 1 executes.
+
+**Coherence с tactical/strategic philosophy:**
+
+Already locked: *"тактически прибыль, стратегически польза"* [audio_503]. Decision 19 extends: tactical prof Phase 1 serves strategic $1T horizon Phase 3+. Not compromise — nested timeframes.
 
 ### Section 16: Preserved Voice — Ruslan's 20-30 Essential Quotes (2-3 pages)
 
