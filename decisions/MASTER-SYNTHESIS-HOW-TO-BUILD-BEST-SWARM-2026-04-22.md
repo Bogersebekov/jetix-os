@@ -293,7 +293,9 @@ single-agent** (95% CI [−18.6, +25.7], σ = 45.2%). A "45% capability
 ceiling" is observed: once a single-agent baseline exceeds ~45% accuracy
 on a task, adding agents tends to hurt (EXT-B §1; EXT-C §2). Qian et al.
 (R-2 §3.5) extend: logistic scaling on DAG topologies saturates around
-2⁴ = 16 agents but only in closed-verification regimes.
+2⁴ = 16 agents under orchestrated multi-agent regimes. (The narrower
+"closed-verification" qualifier in earlier drafts of this section is
+not in the source — dropped.)
 
 **Context window (Apr 2026).** Claude Opus 4.7 / Sonnet 4.6: 1M tokens;
 Haiku 4.5: 200K (R-1 §6.1; EXT-A §4).
@@ -1294,8 +1296,9 @@ in EXT-A §4, EXT-B §4, EXT-C §5.
 
 ## 3.0 Frame
 
-An anti-pattern is a failure recipe. This part catalogs ≥15 distinct
-failure modes with named root cause, detection signal, and prevention.
+An anti-pattern is a failure recipe. This part catalogs 29 distinct
+failure modes (exceeds the ≥15 target) with named root cause,
+detection signal, and prevention.
 For each: a Jetix-specific prevention primitive that Parts 4 and 5 will
 instantiate. The canonical anti-pattern taxonomy is MAST (Cemri et al.;
 §2.2.10); Brief §7 adds 16 Jetix-specific business anti-patterns (Part 5
@@ -1730,7 +1733,78 @@ alphabetical.
 - **Jetix implementation.** Every critic rubric requires a golden set;
   rubrics without golden sets are not active.
 
-## 3.27 Anti-pattern → prevention summary
+## 3.27 AP-27 — KB / embedding rot (distinct from wiki rot)
+
+- **Root cause.** Embeddings, retrieval indexes, and linked-fact
+  assertions decay as upstream sources drift. Distinct from AP-3 wiki
+  rot (which is about accumulating contradictory rules in prompt) —
+  AP-27 is about *external state going stale* while the swarm's
+  assertions remain unchanged.
+- **Source.** EXT-C §2 row 7 ("meanings drift, facts go stale");
+  EXT-C §4 row 20; Prefect CEO on CMS drift; Hamel eval dataset
+  drift.
+- **Detection signal.** Golden-set eval scores decay on fixed
+  examples; agent's cited facts fail external verification; external
+  systems Jetix integrates with change API contracts.
+- **Prevention.** Scheduled re-embedding where embeddings are used
+  (not Phase A default); periodic eval-dataset refresh; link every
+  fact in `strategies.md` to a git-commit timestamp; scheduled
+  `/audit` sweeps (§6.7.2) flag `strategies.md` entries >90 days with
+  zero ✓/✗ updates.
+- **Jetix implementation.** `/audit` weekly skill checks
+  `strategies.md` entries + external-integration API hashes; flags
+  staleness candidates for `/consolidate` or retirement.
+
+## 3.28 AP-28 — Operator cognitive overload / "brain fry"
+
+- **Root cause.** Human operator works multi-hour sessions with agent
+  swarm; cognitive compression from watching real-time parallel agent
+  output exceeds working-memory capacity; decision quality degrades;
+  downstream errors follow.
+- **Source.** EXT-C §4 row 14 — Axios April 2026 (BCG / UC Riverside);
+  Karpathy "AI psychosis"; Garry Tan 19-hour session; Rousse
+  prescribed sleep aids; Webvise April 2026.
+- **Detection signal.** Session duration >4 hours active without
+  break; same gate rejected >3× on different clauses each iteration
+  (indicates operator unclear what to approve); response latency on
+  mailbox notifications increases.
+- **Prevention.** Hard daily session cap (§5.4.2 — start at 3
+  cycles/day). Max-session-length soft limit (4 hours active); hook
+  prompts operator to take a break. HITL turnaround >48h =
+  brigadier batches pending gates into a single summary rather than
+  expecting rapid responses.
+- **Jetix implementation.** `/audit` includes operator-cadence
+  metrics. If sessions consistently run long, brigadier reduces
+  daily cycle cap or prefers Full-Auto on validated patterns (per
+  §6.4.4 trust-region). This is a human-facing anti-pattern — the
+  prevention is about protecting Ruslan from swarm-induced
+  cognitive load, not only about agent behaviour.
+
+## 3.29 AP-29 — Zero-click indirect prompt injection (EchoLeak class)
+
+- **Root cause.** Untrusted content (email, fetched webpage, shared
+  doc) contains hidden instructions that the agent's retrieval layer
+  ingests automatically; attacker does not need user interaction.
+- **Source.** EXT-A §3 row — EchoLeak CVE-2025-32711, CVSS 9.3 (Jun
+  2025): hidden instructions in email bypass XPIA classifier,
+  encoded data exfil via image URL, zero-click. Related: MCP
+  Inspector RCE CVE-2025-49596 CVSS 9.4 (Jul 2025); MCP registry
+  32.8% staleness.
+- **Detection signal.** Agent output references content from
+  sources it was not told to fetch; external requests to unknown
+  domains in logs; sensitive data appears in tool outputs that
+  should have been read-only.
+- **Prevention.** (a) Input sanitization on every untrusted source;
+  (b) no auto-fetch of external content into agent context without
+  explicit HITL; (c) Lethal Trifecta / Rule of Two constraint
+  (§3.13 AP-13) applied strictly; (d) outbound network calls on
+  allow-list; (e) MCP servers on curated allow-list (§2.1.11, AP-10).
+- **Jetix implementation.** Tool-permission matrix (§5.7.1)
+  restricts external-fetch tools to brigadier + HITL. No expert
+  cell has direct network access to untrusted endpoints. Phase A:
+  no web-fetch tool in any cell's permission set.
+
+## 3.30 Anti-pattern → prevention summary
 
 | # | Anti-pattern | Prevention primitive | Part 5 §ref |
 |---|---|---|---|
@@ -1760,6 +1834,9 @@ alphabetical.
 | 24 | Circular delegation | Single-owner routing via brigadier | 5.1 |
 | 25 | Vague-requirement collapse | Acceptance predicate before Work | 5.3 |
 | 26 | Dark factory | External ground truth + golden set | 6.4 |
+| 27 | KB / embedding rot | Weekly /audit + staleness flagging | 6.7.2 |
+| 28 | Operator cognitive overload | Session caps + gate batching | 5.4.2, 6.7.2 |
+| 29 | Zero-click indirect prompt injection | No auto-fetch + Rule of Two + tool allow-list | 5.7 |
 
 **End of Part 3.**
 
@@ -1936,10 +2013,29 @@ The four role-modes span the cognitive verbs a swarm must perform:
 | Unify | Integrator | synthesize |
 | Project | Scalability-architect | extrapolate to horizon |
 
-These four verbs are *orthogonal* in a way narrower sets are not. A
-three-mode swarm must fold "project" into "critic" or "integrator";
-either choice pollutes the rubric. Four is the minimum for orthogonal
-coverage of the cognitive verb space.
+These four verbs are treated as *orthogonal by design*, not by proof.
+The weakest orthogonality claim is integrator vs scalability-architect:
+a scalability output can be read as an integrator output projected to
+future state. The defence is operational, not metaphysical — their
+rubrics and canonical sources differ:
+
+- Integrator rubric: "all inputs accounted for, dissents surfaced,
+  synthesis verifiable *against the current scope*."
+- Scalability-architect rubric: "≤30% refactor per 10× gate, degraded-
+  mode spec, antifragility check *under counterfactual load*."
+
+An integrator can produce a synthesis that is locally coherent but
+breaks at the first scale gate (Brief §5.1). A scalability-architect
+can produce a horizon projection that is correct in structure but
+internally incoherent (misses a local dissent). The two rubrics catch
+different failures; three modes would be forced to fold one into the
+other, polluting at least one rubric.
+
+This is a **design decision** reflecting ALIGN §3, not a derived
+property. If smoke tests (§6.1) show integrator and scalability
+outputs are systematically identical on the same input, the axis
+collapses to three and the matrix becomes 5 × 3 = 15. This is a
+Phase-B calibration, not a Phase-A lock.
 
 ---
 
@@ -2072,6 +2168,15 @@ Task(
   }
 )
 ```
+
+**Implementation note.** Claude Code's native Task tool accepts
+`subagent_type`, `description`, and `prompt`. There is no native
+`mode` field. The Jetix `mode` parameter is a **convention implemented
+by the brigadier** prepending a mode-selector prefix to the `prompt`
+string before invocation; the agent's system prompt (§5.2.2) then
+reads the prefix and activates the matching mode section. Full schema
+and prefix format are specified in §5.3.1 as the canonical reference —
+the pseudocode above is illustrative.
 
 Every field except `provenance.timestamp` is required. Missing fields
 cause the expert to refuse the invocation and return a structured
@@ -2227,8 +2332,15 @@ Brigadier's work, per invocation cycle:
 
 ### 4.7.2 Decomposition
 
-- Allocate CE-loop time: 40% Plan / 10% Work / 40% Review / 10%
-  Compound (Every guide; R-1 §2).
+- Allocate CE-loop **human / wall-clock effort**: 40% Plan / 10% Work
+  / 40% Review / 10% Compound (Every guide; R-1 §2). This is an
+  *attention-allocation* heuristic from Every's practice, not a
+  programmatic turn budget. Per-cell turn budgets are specified
+  separately in §5.4.1 and scale with the work shape, not with the
+  cycle share. A decomposition plan can consume 10 brigadier turns
+  (small percentage of Max session) while Work consumes 100+ turns
+  across several expert invocations — these are not contradictory;
+  they are two different budgets at two different granularities.
 - Select matrix cells. Effort-scaling rules (AP-12 prevention):
   - Simple (1 agent + ≤10 tool calls): single cell, often
     `engineering × optimizer`.
@@ -2395,6 +2507,18 @@ Conflict → `engineering × integrator` is invoked:
 
 ### 4.9.5 Gate (Stage-Gated)
 
+**Verifier interface note.** The verifier interface above is sketched
+in 2-arg form; canonical form is 3-arg as specified in §5.4.3:
+`fn verifier(artefact_path, rubric_path, task_context)`. The extra
+`task_context` argument carries the full Task context so the verifier
+can check acceptance_predicate compatibility.
+
+**maxTurns values note.** The role-specific values named in the
+synthesis above are the Phase-A operational seeds from §5.4.1, not
+values "derived by the matrix." The worked example demonstrates that
+the matrix *could* produce such a synthesis through four critics + one
+integrator; the actual calibration happens in smoke tests (§6.2).
+
 Brigadier writes `decisions/AWAITING-APPROVAL-termination-stack-2026-04-
 22.md` with:
 
@@ -2464,7 +2588,7 @@ where Part 4 (or the broader blueprint) addresses it; tensions flagged.
 | 17 | Filesystem = SoT | Part 4 §4.5.4 cell communication via wiki | ✅ | Wiki = truth; Notion sync one-way |
 | 18 | Productization | Part 5 §5.5 skills as productized artefacts | ✅ | Skills = reusable productized units |
 | 19 | $1T Holding-Scale | Part 4 §4.4 scalability-architect role-mode | ✅ | Long-horizon lens first-class |
-| 20 | USB-C + Enterprise-Fast | Part 5 §5.7 MCP interface; Part 4 §4.5.1 Task schema | ⚠️ | Protocol layer explicit; enterprise-fast ops deferred to Phase B overlay |
+| 20 | USB-C + Enterprise-Fast | Part 5 §5.3 Task schema + §5.7 MCP | ⚠️ | Protocol layer explicit; enterprise-fast ops deferred to Phase B overlay |
 | 21 | Matchmaker + Roy-Replication | Part 5 §5.8 export templates | ⚠️ | Roy-replication kit in Phase B overlay; base Phase-A is replicable by construction (no hard-coded `/home/ruslan/*`) |
 | 22 | ICP 5-criteria + direction | Part 5 §5.5 ICP metadata | ⚠️ | Overlay responsibility |
 | 23 | Token Option B | N/A Phase A | N/A | Phase 2+ |
@@ -2473,11 +2597,19 @@ where Part 4 (or the broader blueprint) addresses it; tensions flagged.
 Legend: ✅ = addressed in Phase A blueprint; ⚠️ = base supports, overlay
 instantiates; N/A = out of Phase A scope.
 
-**Compliance summary.** 13 of 24 Locks are directly addressed by Part 4
-(Phase A baseline swarm). 7 Locks are supported-but-deferred-to-overlay.
-4 Locks are explicitly Phase 2+ and out of Phase A scope. No Lock is in
-direct tension with Part 4; the ⚠️ entries reflect layering (base vs
-Jetix overlay per DIET §1.1 ortho rule), not conflict.
+**Compliance summary.** 15 of 24 Locks are directly addressed by Part 4
+(✅ rows). 6 Locks are supported-but-deferred-to-overlay (⚠️ rows). 3
+Locks are explicitly Phase 2+ and out of Phase A scope (N/A rows). No
+Lock is in direct tension with Part 4; the ⚠️ entries reflect layering
+(base vs Jetix overlay per DIET §1.1 ortho rule), not conflict.
+
+**Lock 7 archetype-count tension.** Lock 7 is marked ⚠️ because the
+blueprint adopts the 11-way archetype schema from Brief §2 (10 base +
+bloggers added Stage 3). PRE §D7 originally locked 10 archetypes. This
+is not a synthesis invention: Brief §2 normative note reconciles the
+two by extending the 10 with one Stage-3 addition. The blueprint
+inherits Brief §2 as authoritative (Brief §1 precedence: D1+D2+D3+24
+Locks > Brief > atoms).
 
 ---
 
@@ -2518,11 +2650,24 @@ Partners serve each other's clients via cross-routing. Jetix owns the
 matchmaker (Lock 21). Partners compound; Jetix compounds indirectly.
 Analog: Andreessen / Tiny Capital holdco.
 
-**Brigadier Phase A default recommendation.** Option A (Phase 1) → C
-(Phase 2) → D (Phase 3). Defer equity/token (Option B/C/D elements
-involving ownership) to Phase 2+ per Lock 23 Option B gate. This is
-Ruslan-decidable at the Phase-A completion gate; Part 4 does not
-commit.
+**Default progression (Ruslan-approved gate 1, 2026-04-22).**
+
+- **Phase 1 default: A → C → D.** Phase 1 starts with Option A
+  (asymmetric, Jetix-as-platform), progresses to Option C (hybrid
+  tiered) as partner growth validates the platform, then to Option D
+  (roy-replication) at the €1M+ scale gate.
+- **Phase 2+ gating.** Option B equity mechanics and Option C/D token
+  participation mechanics are explicitly deferred to Phase 2+, per
+  Lock 23 Option B schedule (ST2B §D23). No equity/token decisions in
+  Phase A.
+- **Option E (ligament network)** is orthogonal and can layer on top of
+  A/C/D at any phase — the matchmaker (Lock 21) is already the Phase 1
+  substrate.
+
+All five options remain in the design space. Parts 5-6 encode only the
+Phase-A-relevant substrate (matchmaker primitives + methodology
+exporter scaffolding); equity/token/ownership schemas are Phase 2+
+architect work.
 
 ---
 
@@ -2546,6 +2691,1278 @@ commit.
    collapsed in Phase A.
 
 **End of Part 4.**
+
+---
+
+# PART 5 — IMPLEMENTATION PRIMITIVES
+
+## 5.0 Frame
+
+Part 5 translates Part 4's design into concrete primitives that system-
+prompt writers can copy-paste. Every primitive cites the evidence that
+motivated it. Proposed numeric values (maxTurns, budget, line counts)
+are **operational starting points** to be calibrated in smoke tests
+(Part 6), not derived optima.
+
+Section map:
+
+- §5.1 Brigadier system-prompt skeleton
+- §5.2 Domain-expert system-prompt skeleton + 4 mode templates
+- §5.3 Coordination protocol (Task invocation + structured output)
+- §5.4 Termination stack concrete (maxTurns / budget / verifier / HITL)
+- §5.5 Wiki protocol (writes / provenance / single-writer)
+- §5.6 Hooks
+- §5.7 Tool permissions (per-agent matrix)
+- §5.8 Content pipeline + Private Library + roy-replication scaffolding
+- §5.9 Cost model checklist (Max subscription)
+- §5.10 Skill roadmap for Phase A
+
+---
+
+## 5.1 Brigadier system-prompt skeleton
+
+File: `agents/brigadier/system.md`. Target length: 1,500–2,000 lines
+(middle of ALIGN §5 envelope — brigadier is orchestration-heavy, not
+domain-heavy).
+
+### 5.1.1 Structure
+
+```
+# brigadier-agent system prompt
+
+## §1 Identity + mission (50-80 lines)
+- You are the brigadier of the Jetix swarm.
+- You orchestrate 5 domain experts × 4 role-modes = 20 invocation cells.
+- You do NOT carry domain expertise. You carry routing + synthesis
+  protocols.
+- You serve Ruslan. All external-facing actions require HITL.
+
+## §2 Task intake protocol (200-250 lines)
+- How to read incoming tasks (from Ruslan / mailbox / schedule).
+- Phase classification (A / B / C per ALIGN §9).
+- Operating-mode classification (Stage-Gated vs Full-Auto per §4.8 decision tree).
+- Task-class classification via Grove TRM (novel → low-TRM posture;
+  sustaining → high-TRM; EXT-D §2).
+- Acceptance-predicate requirement (reject vague tasks per AP-25).
+- Refusal template + routing-back-to-Ruslan format.
+
+## §3 Decomposition protocol (250-300 lines)
+- CE-loop time allocation (wall-clock 40/10/40/10 per Every guide; NOT
+  turn budget — see §5.4.1).
+- Matrix-cell selection rules (effort-scaling per §4.7.2).
+- Complexity-to-fan-out rules:
+  - Simple (≤10 tool calls): single cell.
+  - Comparison (2–4 cells): e.g., all-5-domains × critic, or 4-mode
+    rotation of one domain.
+  - Open-ended synthesis (10+ cell invocations, cap 20): full matrix
+    sweep; beyond 20 cells = decompose into sub-cycles.
+- Cell-selection heuristics per task-shape (§5.1.3 table below).
+
+### §5.1.3 Task-shape → cell selection matrix (stub)
+
+Four canonical task-shapes map to default cells. This table is the
+minimum-viable deterministic guidance — prompt writers iterate on it
+during smoke tests (Part 6):
+
+| Task-shape | Default cells | Optional cells | Forbidden cells | Notes |
+|---|---|---|---|---|
+| **design** (new architecture / protocol / schema) | `engineering × critic` + `systems × critic` + `<domain-of-question> × integrator` | `philosophy × critic` (falsifiability), `investor × scalability-architect` (for $ gate impact) | none | Default task-shape for Phase-A synthesis work |
+| **review** (critique an existing artefact) | 2+ domain × `critic` (≥2 different domains, AP-6 prevention) + `<primary-domain> × integrator` | `<primary> × scalability-architect` if long-horizon | single-domain review = homogeneous (AP-6) | Heterogeneous critics mandatory |
+| **optimize** (reduce complexity / cost) | `<primary-domain> × optimizer` | `engineering × critic` for sanity check | `critic` without optimizer = blocking | Measurable delta required |
+| **scale-project** (Phase 3+ / 10× gate analysis) | `<primary> × scalability-architect` + `investor × scalability-architect` + `systems × critic` | `engineering × scalability-architect` | optimizer-only (misses long-horizon) | Uses degraded-mode spec template |
+
+When task spans shapes (e.g., design + scale-project): combine cell
+sets, cap at 20 total invocations. When task is ambiguous: brigadier
+invokes `mgmt × integrator` first to produce a one-page task
+specification, then refuses or re-decomposes per §4.7.1 AP-25
+prevention.
+
+## §4 Invocation protocol (200-300 lines)
+- Task() call template (§5.3).
+- File-reference-only rule (wiki artefacts, never inline content).
+- Invocation logging to comms/mailboxes/brigadier.jsonl.
+- Parallel invocation rules (AP-23 prevention: integrator consolidates).
+
+## §5 Reception + integration protocol (250-300 lines)
+- Read each cell's full output artefact.
+- Conflict-resolution: invoke <domain> × integrator on conflicts.
+- Dissent-preservation rule (AP-6 prevention): critic dissents surfaced,
+  not averaged into consensus.
+- Integration output schema (wiki/drafts/<task-id>-integrated.md).
+
+## §6 Gate-check protocol (150-200 lines)
+- Trigger list per ALIGN §8 (reproduced).
+- AWAITING-APPROVAL file template (§5.3.3).
+- Commit-push-pause procedure.
+- Four-response handling (Approve / Redirect / Drill-down / Abort).
+- Resume procedure.
+
+## §7 Compound protocol (150-200 lines)
+- Error→Rule extraction from cycle outputs.
+- strategies.md write format (ACE append-only, §5.5).
+- Skill promotion rules (§5.10).
+- Provenance requirement.
+
+## §8 Termination-stack enforcement (150 lines)
+- maxTurns per role (§5.4 table).
+- Budget in Max-turns (§5.4).
+- Verifier requirement.
+- HITL trigger list.
+
+## §9 Cycle reporting (80-120 lines)
+- logs/<YYYY-MM-DD>-cycle-<N>.md schema.
+- Notion mirror rules (one-way, opt-in, Phase A optional).
+
+## §10 Shared protocols (100-150 lines; same across all agents)
+- How to write to wiki (§5.5 provenance format).
+- How to return structured output (§5.3).
+- How to request HITL.
+- How to reference another cell's output.
+- Tool-permission self-check.
+
+## §11 Anti-pattern awareness (100-150 lines)
+- Brief summary of AP-1..AP-26 (Part 3) with trigger signals.
+- What to do on detection (pause / escalate / integrate).
+```
+
+### 5.1.2 Canonical quotes loaded
+
+Brigadier's system prompt includes verbatim canonical quotes (approx.
+15–20; author estimate) from primary sources that shape its
+orchestration style:
+
+- Boris Cherny: *"Don't box the model in."* (R-7 §3.1)
+- Grove: *"The output of a manager is the output of the organizational
+  units under his or her supervision or influence."* (HOM, RESULT-07 §A)
+- Cagan: *"Empowered teams are teams of missionaries, not mercenaries."*
+  (Transformed 2024, RESULT-06 §A)
+- Yan: *"Share FULL traces, not summaries."* (R-9 §Q14)
+- *"Verification architecture matters more than agent count."* —
+  **synthesis** summary of MAST evidence (R-4 §2.1; Cemri et al.), not
+  an Anthropic verbatim quote.
+- Netflix: *"Context, not control."* (McCord, RESULT-07 §C)
+
+---
+
+## 5.2 Domain-expert system-prompt skeleton
+
+File: `agents/<expert>/system.md`. Target length: 1,500–3,000 lines
+(ALIGN §5).
+
+**Caveat on prompt length (gate-2 risk).** ALIGN §5's 1,500–3,000
+directive is an **unattested in Tier-1** Jetix choice; it cuts against
+the evidence in §1.6 which points *shorter* (Anthropic internal CLAUDE.md
+<200 lines; HumanLayer <60; CE plugin crushed by 1,400-char description
+overflow). The directive is defensible if each expert's prompt is *not*
+loaded into every invocation simultaneously — Claude Code loads the
+invoked expert only, and mode-switching (§5.2.2) further scopes the
+active content. If compliance degrades in smoke tests (Part 6), the
+length is a prime Phase-B calibration target: compress to 800–1,500
+lines with Skills carrying the rest.
+
+Five files, one per domain expert.
+
+### 5.2.1 Structure (applied to all 5 experts)
+
+```
+# <expert>-expert system prompt
+
+## §1 Identity + canonical domain (80-120 lines)
+- You are the <domain>-expert of the Jetix swarm.
+- Your canonical source list (verbatim from ALIGN §2 table).
+- What you own (canonical first-sources, primary frameworks, decision
+  heuristics).
+- What you do NOT own (cross-domain sources — redirect to other experts
+  via brigadier).
+
+## §2 Primary domain knowledge (800-1,200 lines)
+- Framework 1 (deep).
+- Framework 2 (deep).
+- ...
+- Decision heuristics.
+- Canonical quotes (verbatim, sourced).
+- Known failure modes in this domain.
+- Cross-reference table to other experts.
+
+## §3 Mode: critic (300-500 lines, activated when mode=="critic")
+- Activation check: first instruction reads `mode` parameter; if not
+  "critic", skip to §7 shared protocols.
+- Adversarial rubric (Hamel-calibrated binary criteria).
+- Failure-pattern library (domain-specific from §2 + MAST + AP-1..26).
+- Few-shot examples: 3-5 critic outputs in this domain.
+- Escalation conditions (when critic defers to HITL).
+- Output schema: {context, critique, specific-failures-found,
+  recommended-changes, acceptance-test}.
+
+## §4 Mode: optimizer (300-500 lines, activated when mode=="optimizer")
+- Activation check.
+- Optimization rubric (measurable delta: turns, tokens, complexity,
+  LoC).
+- Simplification heuristics (Ousterhout deep-modules / Boris
+  do-simple-thing / Poppendieck waste-elimination).
+- Few-shot examples: 3-5 optimizer outputs.
+- Refusal conditions (e.g., "I cannot optimize a design that lacks
+  acceptance criteria — defer to critic").
+- Output schema: {baseline, proposed, delta, justification, risks}.
+
+## §5 Mode: integrator (300-500 lines, activated when mode=="integrator")
+- Activation check.
+- Integration rubric (all inputs accounted for; dissents surfaced;
+  synthesis verifiable).
+- Synthesis heuristics (Cagan vision-strategy-tactics hierarchy;
+  Senge 11 laws; Anthropic Orchestrator-Workers pattern).
+- Few-shot examples: 3-5 integrator outputs.
+- Dissent-preservation protocol (AP-6 prevention).
+- Output schema: {inputs, synthesis, dissents-flagged,
+  residual-open-questions, recommended-next-step}.
+
+## §6 Mode: scalability-architect (300-500 lines, activated when mode=="scalability")
+- Activation check.
+- Scalability rubric (≤30% refactor at each 10× gate per Brief §5.1;
+  antifragility check; degraded-mode spec).
+- Long-horizon heuristics (West scaling laws; Beer VSM recursion;
+  Taleb via-negativa).
+- Few-shot examples: 3-5 scalability-architect outputs.
+- Horizon projection template (€50K → €200K → €1M → $100M → $1T
+  gate table).
+- Output schema: {horizon, projection, gate-risk-table,
+  degraded-mode-spec, antifragility-check}.
+
+## §7 Shared protocols (150-200 lines, always active)
+- How to write to wiki (§5.5).
+- How to return structured output (§5.3).
+- How to request HITL escalation.
+- How to reference another cell's output.
+- Tool-permission self-check (§5.7).
+
+## §8 Anti-pattern awareness (100-150 lines)
+- Domain-specific anti-patterns from §2.
+- Cross-cutting AP-1..AP-26 briefs.
+- What to emit on detection.
+
+## §9 strategies.md reading protocol (30-50 lines)
+- On every invocation, read agents/<expert>/strategies.md first.
+- Prioritise rules with highest ✓/✗ ratio.
+- Ignore retired rules (tombstoned).
+```
+
+### 5.2.2 Mode activation mechanic (the gate)
+
+First line of the prompt body (after frontmatter and §1 identity):
+
+```
+If `mode` in context is not set → treat as `integrator` (default for
+summaries and single-domain queries). Read only §1-§2 + §<matching>
+(critic/optimizer/integrator/scalability) + §7-§9. Skip other modes.
+```
+
+**This is a prompt-level soft constraint, not an enforceable gate.**
+Per AP-5 ("never rely on prompt-level prohibitions") the mode-scoping
+instruction is best-effort. A harder constraint is required:
+
+- **Harder option A (recommended):** a UserPromptSubmit hook (§5.6.4)
+  refuses an expert launch if the prompt does not start with an
+  explicit mode prefix (e.g., `[mode: critic]`). The brigadier always
+  generates the prefix; a malformed prompt is rejected at the tool
+  layer before reaching the model.
+- **Harder option B:** separate mode files per expert
+  (`agents/<expert>/system-critic.md` etc.). Costlier in maintenance
+  because canonical sources duplicate.
+
+For Phase A, adopt Option A (hook enforcement). Drift detection
+nevertheless matters: (a) rubric in §7 shared protocols rejects
+outputs that mix modes; (b) Hamel-calibrated golden set per mode
+monitors drift (Part 6 §6.3); (c) Compound step detects mode-confusion
+and writes a rule into strategies.md.
+
+### 5.2.3 Per-expert canonical-source allocation
+
+From ALIGN §2, reproduced with EXT-D §5 mapping:
+
+| Expert | First-sources (Phase A strategies distillation from Tier 1+2+3) | Phase B reading (Tier 4 books) |
+|---|---|---|
+| engineering-expert | CE research (R-1..R-11 + SYNTHESIS + Every guide); Perplexity AI-native domains (Cursor, Factory, Replit, Aider); Karpathy LLM Wiki source card | Ousterhout, Brooks, Fowler, Martin, Hunt/Thomas, Raymond (TAoUP), Kernighan/Pike, Boris Cherny talks, Anthropic eng blog, Aider blog, Shape Up (shared) |
+| mgmt-expert | Phase-2 RESULT-05/06/07 (PM + Product + Mgmt philosophy) | Cagan Inspired/Empowered/Transformed, Torres, Grove HOM + OTPS, Drucker, Laloux, Horowitz, Netflix Culture, 37signals set, Watkins 90 Days, Ries Lean Startup, Christensen JTBD |
+| systems-expert | Perplexity AI-native systems domain; FPF + Levenchuk corpus | Meadows, Senge, Ashby, Beer (Brain + Heart), Wiener, Kelly, Kauffman, Mitchell, Beinhocker, Holland, Dawkins, Dennett, Maynard Smith/Szathmáry |
+| philosophy-expert | Phase-2 RESULT-07 mgmt-philosophy subset; FPF epistemology references | Popper LoSD + C&R, Kuhn, Lakatos, Feyerabend, Naval Almanack, Aurelius/Epictetus, Munger Poor Charlie's (shared with investor), Koen, Vincenti, Petroski, Altshuller TRIZ |
+| investor-expert | RESULT-07 Holdco doctrine section; Perplexity unit-econ anchors; Brief financial constraints | Buffett letters 1977–present, Graham Intelligent Investor, Marks, Fisher, Munger Poor Charlie's (shared), Taleb Antifragile + SitG, Poundstone Fortune's Formula |
+
+---
+
+## 5.3 Coordination protocol
+
+### 5.3.1 Task invocation schema
+
+Canonical `Task()` call from the brigadier (compatible with Claude
+Code's Task tool plus an extended `mode` field; implementation detail:
+`mode` is written into the agent's system prompt on invocation by the
+brigadier concatenating a mode-selector prefix):
+
+```yaml
+task:
+  id: "01HXX..." # ULID
+  agent: "systems-expert"
+  mode: "critic"  # enum: critic|optimizer|integrator|scalability
+  context:
+    parent_cycle: "cyc-01HXX..."
+    acceptance_predicate: |
+      Produce wiki/drafts/<task-id>-systems-critic.md containing
+      (a) context (b) critique (c) specific-failures-found (d)
+      recommended-changes (e) acceptance-test.
+      File must exist, non-empty, YAML frontmatter valid.
+    inputs:
+      - type: wiki-ref
+        path: "wiki/proposals/termination-stack-strawman.md"
+      - type: wiki-ref
+        path: "wiki/foundations/systems/ashby-requisite-variety.md"
+    mode_rubric_ref: "agents/systems-expert/rubrics/critic.md"
+    termination:
+      max_turns: 25
+      budget_turns: 30  # soft; hard stop at 40
+      verifier: "verifier-critic"  # name of fn in brigadier registry
+      hitl_trigger:
+        - irreversible_operation
+        - verifier_fails_2x
+        - budget_exceeded_1.5x
+    provenance:
+      invoking_agent: "brigadier"
+      cycle_id: "cyc-01HXX..."
+      timestamp: "2026-04-22T20:30:00Z"
+```
+
+Fields marked `*` are required; missing field → agent refuses with
+structured error.
+
+### 5.3.2 Structured output schema (what a cell returns)
+
+Cells return a file reference, not inline content. The returned JSON
+blob:
+
+```json
+{
+  "status": "ok" | "refused" | "escalated",
+  "artefact_path": "wiki/drafts/<task-id>-systems-critic.md",
+  "turns_used": 22,
+  "verifier_result": {"pass": true, "reasons": []},
+  "dissents_flagged": [],
+  "escalation_reason": null,
+  "next_step_suggestion": "invoke engineering-integrator to consolidate"
+}
+```
+
+The brigadier reads `artefact_path` to get the full output; it does not
+consume the output inline.
+
+### 5.3.3 AWAITING-APPROVAL gate file template
+
+Canonical path: `decisions/AWAITING-APPROVAL-<topic>-<date>.md` (ALIGN §4
+pattern; brigadier-internal stage splits use the DIET §1.5 pattern
+`stage-<N>-<name>-AWAITING-APPROVAL.md` inside a cycle folder).
+
+Template (frontmatter + 5 mandatory sections):
+
+```markdown
+---
+id: awaiting-approval-<topic>-<date>
+type: approval-gate
+gate: <N> of <M>
+status: AWAITING-APPROVAL
+target_reviewer: Ruslan
+reference_artifact: <file-path>
+branch: <branch-name>
+next_commit_on_approval: "<commit-message-preview>"
+---
+
+# Gate <N> — <Topic> — AWAITING APPROVAL
+
+## Context
+(What this decision is, why it's at a gate, what depends on it.)
+
+## Options considered
+(Table of alternatives with why-this-wins per row.)
+
+## Recommendation
+(Concrete proposal, including any discretionary items the reviewer
+should flag.)
+
+## Rationale (short)
+(Evidence citations; primary-source pointers.)
+
+## Risks flagged
+(Each with mitigation + residual risk.)
+
+## Your four possible responses
+(Approve / Redirect / Drill-down / Abort.)
+```
+
+### 5.3.4 Resume protocol
+
+On approval signal (Ruslan writes `decisions/DECISION-<topic>-<date>.md`
+or makes a direct textual approval to brigadier's mailbox):
+
+1. Brigadier reads the decision file.
+2. Verifies the decision points to the expected reference_artifact.
+3. Commits a pointer `cyc-<id>-resume.md` noting which gate was passed
+   and the decision reference.
+4. Resumes the cycle from the step after the gate (recorded in
+   `comms/mailboxes/brigadier.jsonl`).
+
+On redirect: brigadier re-decomposes the task per the redirection and
+re-submits the gate.
+
+On drill-down: brigadier spawns a sub-cycle for the drill-down topic
+and returns the result to the same gate file as an amendment.
+
+On abort: brigadier commits the current state + writes
+`cyc-<id>-aborted.md` with a reason; halts.
+
+---
+
+## 5.4 Termination stack — concrete specification
+
+### 5.4.1 Layer 1 — maxTurns per role (baseline)
+
+Informed by §4.9.4 worked example. This table is the canonical
+budget; §4.9.4 bullets are illustrative and should be read in this
+table's vocabulary.
+
+| Role-mode / phase | maxTurns baseline | Notes |
+|---|---|---|
+| Brigadier — Plan | 10 | Short; decomposition only |
+| Brigadier — Reception + Integration | 15 | Reads N cell outputs |
+| Brigadier — Compound | 12 | Writes rules + promotes skills (**Compound is brigadier-owned only; experts do not have a compound-mode budget**) |
+| Expert — critic | 25 | Rubric-application + few-shot |
+| Expert — optimizer | 20 | Simpler; measurable delta |
+| Expert — integrator | 25 | Synthesizes N inputs |
+| Expert — scalability-architect | 30 | Horizon projection needs more |
+| Expert — integrator (research sub-type) | 25; extension to 40 via Stage-Gated | Open-ended synthesis; extension requires gate trigger |
+
+**Calibration.** Values are Phase-A operational starting points for
+smoke tests (Part 6 §6.2), not derived optima. They are *not* mechanically
+derived from the matrix; the matrix produced them as a synthesis
+recommendation in the worked example (§4.9). Observed mean turns per
+mode in smoke tests updates the baseline via
+`agents/brigadier/strategies.md`.
+
+### 5.4.2 Layer 2 — Budget (Max-subscription denominated)
+
+ALIGN §6: Jetix uses Max plan 20×, not API billing. Budget is measured
+in **Max turns** within a session, and **sessions** within a day:
+
+- Cell budget: `max_turns` above + 50% slack = hard stop.
+- Cycle budget: sum of expected cell `max_turns` + 20% coordination
+  slack.
+- Daily session budget: soft cap at 3 cycles/day initially (tuned in
+  Part 6). Prevents runaway across cycles.
+- Escalation: if a cell exceeds soft cap by 1.5×, brigadier logs to
+  `logs/budget-excess.md` and triggers HITL.
+
+**No $-denominated cap needed at invocation time** because API key is
+unset (ALIGN §6). But turn-based caps still prevent the *turn-equivalent*
+of the $47K runaway (AP-4). The attack surface moves from "billing
+incident" to "Max account rate-limited" — recoverable without financial
+loss.
+
+### 5.4.3 Layer 3 — Verifier
+
+Every invocation specifies a `verifier: <name>` that brigadier calls
+post-return. Verifier interface:
+
+```
+fn verifier(
+  artefact_path: str,
+  rubric_path: str,
+  task_context: dict
+) -> {pass: bool, reasons: list[str]}
+```
+
+Verifier implementations live in `tools/verifiers/<name>.py` (or as
+Bash scripts for simple checks). Initial set for Phase A:
+
+- `verifier-critic` — checks output has 5 sections per §5.2.1 §3
+  schema; YAML frontmatter valid; file non-empty; dissent list
+  populated.
+- `verifier-optimizer` — checks delta table present; baseline + proposed
+  + delta fields set; risks section populated.
+- `verifier-integrator` — checks inputs + synthesis + dissents +
+  residual-open-questions + recommended-next-step fields set; all
+  inputs referenced by path.
+- `verifier-scalability` — checks horizon table has all 4 gates; 
+  degraded-mode section populated; antifragility check completed.
+- `verifier-brigadier-cycle` — checks cycle log exists; all cell
+  outputs committed; gate file present if gate triggered.
+
+Verifiers are **structural, not semantic** in Phase A (AP-19 prevention:
+T=0 non-determinism means exact-match tests are unstable). Semantic
+quality is caught by the golden-set eval in Part 6.
+
+**Rubric format.** Each rubric is a YAML file at
+`agents/<expert>/rubrics/<mode>.md` with:
+
+```yaml
+---
+mode: critic
+binary_criteria:
+  - id: c1
+    question: "Does the output enumerate ≥3 specific failures?"
+    pass_if: list_length_ge_3
+  - id: c2
+    question: "Does each failure cite a source or a trace?"
+    pass_if: every_item_has_source
+  - ...
+structural_requirements:
+  required_sections: [context, critique, specific-failures-found, recommended-changes, acceptance-test]
+  frontmatter_required_fields: [id, title, date, type, sources, tier, produced_by, cycle_id]
+---
+```
+
+A concrete reference implementation (`verifier-critic.py` stub) will be
+added in the Phase-A skill roadmap (§5.10) as a skill itself.
+
+### 5.4.4 Layer 4 — HITL escalation
+
+Escalation triggers (mandatory):
+
+1. **Irreversible operations.** Any tool call matching the
+   "destructive" allow-list in `.claude/settings.json` (Part 5 §5.7).
+   Brigadier pauses, writes `decisions/AWAITING-APPROVAL-<op>-<date>.md`,
+   commits, pushes.
+2. **Verifier fails 2× on the same rubric in the same cell.** Third
+   attempt would likely loop; escalate to Ruslan.
+3. **Budget exceeded >1.5× plan.** Likely runaway; escalate.
+4. **Agent self-report divergence.** If cell reports success but
+   verifier returns `pass=false`, this is AP-11; escalate.
+5. **Lethal Trifecta condition.** If a cell invocation would
+   simultaneously handle private client data + untrusted input +
+   external comms → refuse, escalate (AP-13 prevention).
+6. **24 Locks conflict.** If a cell output would violate a Lock →
+   escalate.
+
+Escalation channel: `decisions/AWAITING-APPROVAL-*.md` for Phase A;
+Telegram/Notion notifications layered in Phase B (DIET §1.8).
+
+---
+
+## 5.5 Wiki protocol (single-writer Phase 1)
+
+### 5.5.1 Filesystem layout (inherits from CLAUDE.md wiki v2)
+
+```
+wiki/
+├── index.md                 # Catalog (updated by /ingest)
+├── log.md                   # Append-only chronology
+├── concepts/
+├── entities/
+├── sources/                 # Pre-digested source cards
+├── topics/
+├── ideas/
+├── experiments/
+├── claims/
+├── summaries/
+├── foundations/             # Phase B expert distillations
+│   ├── engineering/
+│   ├── mgmt/
+│   ├── systems/
+│   ├── philosophy/
+│   └── investing/
+├── niches/                  # Per-agent slices (symlinks)
+├── comparisons/             # /ask filing loop
+├── drafts/                  # In-flight cell outputs
+├── proposals/               # Brigadier decomposition artefacts
+├── _templates/
+└── graph/
+    └── edges.jsonl          # Typed edges (9 edge types)
+```
+
+### 5.5.2 Single-writer rule (Phase A)
+
+All writes flow through the brigadier. Cells write to wiki *via
+brigadier* — returning an artefact to write, not writing directly to
+wiki. This prevents AP-15 (handoff failures) and simplifies provenance.
+
+**Phase B TBD.** If contention observed, switch to CRDT per ALIGN §10.
+
+### 5.5.3 Provenance format
+
+Every wiki entry carries:
+
+```yaml
+---
+id: <slug>
+title: ...
+date: YYYY-MM-DD
+type: concept | entity | source | topic | idea | experiment | claim | summary | foundation
+pipeline: raw | ingested | compiled | linted | ready
+sources:
+  - path: <file>
+    range: <line-or-section>
+    quote: "<verbatim or short paraphrase>"
+tier: core | partner | member | public   # Lock 13 enforcement
+produced_by: <agent>-<mode> or human
+cycle_id: <cyc-ulid>
+---
+```
+
+Inline citations: `[src:path#section]` at the end of claims.
+
+### 5.5.4 Tier enforcement (Lock 13, Lock 3)
+
+The `tier` field in frontmatter is authoritative. Cells check tier on
+every `wiki_read` via the MCP server (§5.7). Surface outputs
+(member/partner/public) cannot include content with a stricter tier.
+Outgoing artefacts (emails, Notion pages, social TOF) pass through a
+tier-check hook before send (§5.6).
+
+### 5.5.5 Compound-step provenance gate
+
+On Compound write to `agents/<expert>/strategies.md`, the entry must
+cite at least one source artefact (incident file + commit hash, or
+verbatim source with line range). Entries without provenance are
+rejected. AP-18 prevention.
+
+---
+
+## 5.6 Hooks
+
+File: `.claude/settings.json` hooks section. Minimal Phase-A hook set:
+
+### 5.6.1 PreToolUse
+
+- **Destructive-op guard** — match commands in the destructive list
+  (see §5.7); block and escalate to HITL.
+- **Tier-check for outbound tools** — if the tool is `email-send` or
+  `notion-write` or `webhook-post`, verify no `core`-tier content in
+  payload.
+- **Name-canonicalization** — rewrite `Jackson|Джек` → `Jetix` in any
+  string argument (Lock 4 enforcement).
+
+### 5.6.2 PostToolUse
+
+- **Auto-format** — run `bun run format` after code writes (Boris
+  Cherny standard, R-7 §5.2).
+- **Lint + schema-check on wiki writes** — `/lint` on the single file
+  written; reject if frontmatter invalid.
+- **Append to session log** — every tool use appends to
+  `comms/mailboxes/brigadier.jsonl` (or the active agent's mailbox).
+
+### 5.6.3 SessionStart / SessionEnd
+
+- **SessionStart** — assert `ANTHROPIC_API_KEY` is unset (ALIGN §6
+  compliance check). If set, warn and optionally abort.
+- **SessionEnd** — run `/close-day` if session was long (>30 min
+  active); update project logs; git commit + push.
+
+### 5.6.4 UserPromptSubmit
+
+- **Canonical-name pre-rewrite** on user input (Lock 4).
+- **Task-id injection** — if the prompt references an active cycle,
+  inject the cycle_id into context.
+
+---
+
+## 5.7 Tool permissions (per-agent)
+
+File: `.claude/settings.json` permissions section. Each agent gets a
+scoped tool set; the matrix below is the Phase A baseline.
+
+### 5.7.1 Tool matrix
+
+| Tool | Brigadier | engineering | mgmt | systems | philosophy | investor |
+|---|---|---|---|---|---|---|
+| Read | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Write | ✅ | scoped | scoped | scoped | scoped | scoped |
+| Edit | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Bash (read-only) | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Bash (write) | scoped | scoped | ❌ | ❌ | ❌ | ❌ |
+| Grep | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Glob | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Task (spawn subagent) | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ |
+| MCP wiki tools | ✅ | read-only | read-only | read-only | read-only | read-only |
+| External MCP (allow-listed 3-5) | scoped | ❌ | ❌ | ❌ | ❌ | ❌ |
+| email-send / notion-write / webhook | HITL | ❌ | ❌ | ❌ | ❌ | ❌ |
+
+Rationale per column:
+
+- **Brigadier** needs Task (to spawn cells), Bash-write (commits +
+  pushes), external MCP (controlled), and HITL-mediated external sends.
+  Only brigadier can spawn subagents (per §4.5.4 no-cell-calls-cell
+  rule).
+- **Experts** are read-heavy + artefact-write-scoped. Scoped Write =
+  only within `wiki/drafts/<task-id>-*` or `wiki/foundations/<domain>/*`
+  per expert's domain. No Bash-write (prevents engineering-expert from
+  directly committing; brigadier owns commits).
+- **engineering-expert** gets scoped Bash-write for test runs
+  (read-only mode preferred; AP-14 prevention).
+
+### 5.7.2 Destructive-op deny-list
+
+Blocked at PreToolUse hook (§5.6.1):
+
+- `rm -rf` on anything outside `wiki/drafts/` or `logs/`.
+- `git push --force`, `git reset --hard`, `git checkout .`,
+  `git branch -D`.
+- `DROP`, `TRUNCATE`, `DELETE FROM` in any SQL context.
+- `chmod -R 777`, `chown -R`.
+- Any write to `~/.ssh/`, `.env`, `private/`, `raw/books-md/` during
+  Phase A.
+- `curl/wget` with external write intent without HITL.
+
+### 5.7.3 Max-subscription operational check
+
+Every `SessionStart` hook (§5.6.3) runs:
+
+```bash
+if [ -n "$ANTHROPIC_API_KEY" ]; then
+  echo "WARNING: ANTHROPIC_API_KEY is set; Jetix uses Max subscription"
+  echo "Run: unset ANTHROPIC_API_KEY"
+  exit 1
+fi
+```
+
+---
+
+## 5.8 Content pipeline + Private Library + roy-replication scaffolding
+
+### 5.8.1 Content pipeline (Lock 12 — smart + site + social TOF)
+
+Phase-A primitive: every wiki artefact with `tier: public` is eligible
+for surface publication. Tagging schema:
+
+```yaml
+funnel_stage: TOF | mid | deep
+audience: smart-general | ICP-archetype-<N> | partner
+publishable: true | false
+```
+
+Pipeline order: wiki artefact → /lint → tier-check hook → `tools/render-<surface>.py`
+(Phase B) → approved draft → HITL → publish.
+
+**Phase A does not publish.** It produces the artefact + tagging; publish
+logic is Phase B overlay.
+
+### 5.8.2 Private Library integration (Lock 13)
+
+- `raw/books-md/` is the closed-core Private Library substrate.
+- Phase A does **not** read from it (ALIGN §9 tier discipline).
+- Phase B expert distillation writes to `wiki/foundations/<domain>/`
+  with full provenance.
+- Partner access: `wiki/foundations/` subset is partner-tier-accessible
+  per Lock 13.
+
+### 5.8.3 Roy-replication scaffolding (Lock 21)
+
+Phase A must be **replicable by construction**: no hard-coded
+`/home/ruslan/*` paths. Every path is either relative or configurable
+via `config/paths.json`. This means a future partner can clone the
+Jetix methodology by:
+
+1. Cloning the repo structure (system prompts + skills + hooks +
+   schemas).
+2. Overlaying their own `wiki/` and `agents/<expert>/strategies.md`.
+3. Running their own Phase B distillation on their own Private
+   Library.
+
+Roy-replication kit contents (Phase 2+):
+
+- `agents/` (6 system prompts)
+- `.claude/skills/` (Phase-A + accumulated skills)
+- `.claude/settings.json` (hooks + permissions)
+- `wiki/_templates/`
+- `tools/` (verifiers, hooks, scripts)
+- `config/` (configurable paths, tier definitions)
+- `docs/roy-replication-guide.md`
+
+Phase A delivers points 1–6 as a byproduct; point 7 is Phase 2+
+write-up.
+
+---
+
+## 5.9 Cost model operational checklist (Max subscription)
+
+Per ALIGN §6. This is a hard checklist that every Jetix Claude Code
+session must satisfy:
+
+```bash
+# 1. Unset API key (prevents accidental billing)
+unset ANTHROPIC_API_KEY
+
+# 2. Optional: unset GROQ_API_KEY if Whisper pipeline not in use
+unset GROQ_API_KEY
+
+# 3. Launch Claude Code in tmux with skip-permissions (server-side only)
+tmux new -ds jetix-$(date +%Y%m%d-%H%M%S)
+tmux send-keys -t jetix-$(...) \
+  "claude --dangerously-skip-permissions" C-m
+
+# 4. After each cycle: commit + push (audit trail)
+git add -A && git commit -m "[<agent>] <cycle>: <description>"
+git push origin claude/jolly-margulis-915d34
+
+# 5. Periodic: check Max plan usage via Anthropic console
+#    Max 20× plan has per-5-hour and per-day caps; monitor manually
+#    (no programmatic API for Max budgets as of Apr 2026)
+```
+
+**Attack-surface summary.** With API key unset, the $47K incident
+(AP-4) attack surface shifts from "unlimited API spend" to "Max plan
+rate-limit hit." Recovery cost = downtime, not money. Budget control
+becomes a *turn-counting* problem (solved by termination-stack §5.4),
+not a *billing* problem.
+
+---
+
+## 5.10 Skill roadmap for Phase A
+
+Phase-A skill set (minimal, tested in smoke test):
+
+### 5.10.1 Orchestration skills (brigadier)
+
+- `plan-cycle` — produces a decomposition proposal for a task.
+- `invoke-cell` — wraps Task() with schema validation.
+- `integrate-outputs` — reads N cell artefacts, produces integration
+  artefact.
+- `gate-decision` — writes AWAITING-APPROVAL file template.
+- `compound-cycle` — extracts rules + promotes skills + commits.
+- `close-cycle` — writes cycle log + commits.
+
+### 5.10.2 Wiki skills (global)
+
+- `/ingest <path>` — raw source → wiki pages (existing).
+- `/ask <question>` — search + synthesis with citations (existing).
+- `/lint` — schema + provenance check (existing).
+- `/consolidate` — merge duplicates + retire obsolete rules.
+- `/build-graph` — rebuild `graph/edges.jsonl` communities.
+
+### 5.10.3 Mode skills (per expert)
+
+Each of the 20 matrix cells is registered as a Skill with
+`when_to_use` (the `description` field is the ranking signal per R-8
+§1.3; caps in §2.1.4). Example:
+
+```yaml
+---
+name: systems-critic
+description: |
+  Invoke when you need adversarial review of architecture or feedback
+  loops through the systems-thinking lens (Ashby requisite variety,
+  Meadows leverage points, Beer VSM). Returns critique artefact with
+  specific failures + recommended changes.
+when_to_use: Critical review of swarm/agent architecture; feedback
+  loop design; variety-mismatch detection.
+---
+```
+
+### 5.10.4 Deferred skills (Phase B+)
+
+- Notion sync one-way (DIET §1.8).
+- Telegram notification on gate events (DIET §1.8).
+- Roy-replication-kit-generator (Lock 21, Phase 2+).
+- Voice-memo ingestion (already partial).
+
+**End of Part 5.**
+
+---
+
+# PART 6 — TESTING & VALIDATION
+
+## 6.0 Frame
+
+Part 6 answers: how do we know the swarm works? Six sections:
+
+- §6.1 Smoke test design (minimal task exercising matrix + gates)
+- §6.2 Calibration of termination-stack values
+- §6.3 Convergence criteria (Phase A → Phase B transition)
+- §6.4 Eval framework (golden sets + metrics)
+- §6.5 Red-team protocol (critic-mode weighting)
+- §6.6 Recursive-improvement measurement (Phase A → Phase B delta)
+- §6.7 Regression detection
+
+---
+
+## 6.1 Smoke test design
+
+Purpose: exercise **brigadier + ≥2 experts + ≥1 role-mode + ≥1
+stage-gate cycle** on a task small enough to complete in a single
+session.
+
+### 6.1.1 Proposed smoke task
+
+**Task.** *"Design the `/lint` skill's frontmatter-validation rubric
+for wiki entries."*
+
+- Scope: one skill's rubric (≤2 pages output).
+- Activates: brigadier (orchestration) + engineering-expert (critic +
+  optimizer) + philosophy-expert (critic) + integrator (engineering).
+- Stage-gate: Yes (adds a new skill rubric → Lock 14 revenue-gated
+  research scrutiny; Lock 20 USB-C protocol layer). Triggers gate per
+  §4.8 rule 3 (new framework proposal).
+
+### 6.1.2 Expected trace
+
+```
+t+00 | Ruslan writes task to brigadier mailbox
+t+02 | brigadier reads, classifies (Phase A, Stage-Gated, novel-domain low-TRM)
+t+05 | brigadier writes plan (40% time budget): decomposition into 3 cells
+t+08 | brigadier invokes engineering-expert × critic (maxTurns 25)
+t+20 | eng-critic returns artefact
+t+22 | brigadier invokes philosophy-expert × critic (maxTurns 25)
+t+30 | phil-critic returns artefact
+t+32 | brigadier invokes engineering-expert × integrator (maxTurns 25)
+       on the two critic outputs
+t+45 | integrator returns consolidated rubric
+t+47 | brigadier writes AWAITING-APPROVAL gate file
+t+48 | brigadier commits + pushes; PAUSE
+...
+t+XX | Ruslan approves
+t+XX+2 | brigadier runs Compound step (extracts 1-2 rules)
+t+XX+5 | brigadier writes cycle log; commits; ends
+```
+
+Total elapsed: ≤60 minutes human wall-clock; ≤80 Max-turns total.
+
+### 6.1.3 Acceptance predicate
+
+Pass iff:
+
+1. Four artefacts exist: 2 critic drafts + 1 integrator + 1 gate file.
+2. Every artefact has valid YAML frontmatter with provenance.
+3. Dissents between the two critics are preserved in the integrator
+   output (not averaged).
+4. Gate file passes §5.3.3 template check.
+5. All commits on `claude/jolly-margulis-915d34` with
+   `[<agent>]`-prefix messages.
+6. Max-turn count reported; ≤ expected budget + 20% slack.
+7. No destructive-op deny-list violations.
+8. Compound step produced ≥1 candidate rule for `strategies.md`.
+
+### 6.1.4 Failure-mode drills
+
+The smoke test should also be re-run deliberately failing:
+
+- **Drill 1: vague task.** Send the task without acceptance predicate;
+  expect brigadier to refuse and route back to Ruslan (AP-25
+  prevention).
+- **Drill 2: irreversible op.** Smuggle a task that would commit to
+  main directly; expect destructive-op hook to block (AP-5 prevention).
+- **Drill 3: summary-passing.** Modify brigadier prompt to pass
+  summaries instead of file refs; observe degradation; verify AP-1
+  detection.
+- **Drill 4: sycophancy.** Make the two critics homogeneous (both
+  engineering-critic); observe disagreement-collapse; verify the
+  prescription is *heterogeneous critics* (AP-6 prevention).
+- **Drill 5: budget overrun.** Set maxTurns=5 on integrator; observe
+  forced HITL escalation (layer 4 trigger).
+
+---
+
+## 6.2 Calibration of termination-stack values
+
+The §5.4.1 maxTurns baseline is **operational starting point**, not
+derived optimum. Calibration method:
+
+1. Run smoke test + 5 failure drills (§6.1).
+2. For each cell, record mean + p95 turns used.
+3. If p95 <50% of baseline, reduce baseline by 1 step (e.g., 25 → 20).
+4. If p95 >80% of baseline, *investigate* (too-tight budget vs task
+   genuinely large) before raising.
+5. If HITL escalations >20% of invocations, budget is too low or task
+   decomposition is wrong; redesign.
+6. Update `agents/brigadier/strategies.md` with the new baseline
+   + rationale.
+
+**Budget (Max-turn denominated).** Daily session cap starts at 3
+cycles/day. If observed mean cycle duration <30 min active and Ruslan
+can review gate files in-loop, raise to 5/day. If gate turnaround is
+slow, lower to 2/day or shift toward Full-Auto for validated patterns.
+
+---
+
+## 6.3 Convergence criteria (Phase A → Phase B transition)
+
+The swarm is "good enough" to begin Phase B when:
+
+1. **Smoke test passes 3 times on 3 different Phase-A-relevant tasks**
+   (different decomposition shapes: single-cell / parallel-critic / full
+   matrix sweep).
+2. **≥2 failure drills pass** (at least AP-5 destructive-op and AP-25
+   vague-task).
+3. **strategies.md files are non-empty for ≥3 experts.** Evidence of
+   compounding.
+4. **Eval harness (§6.4) returns calibrated judge scores** on a golden
+   set ≥20 examples per mode.
+5. **All 24 Locks compliance matrix entries** (§4.10) are confirmed
+   in post-smoke audit — no new ⚠️ demotions.
+6. **Ruslan approves Phase-B entry** at a dedicated
+   AWAITING-APPROVAL-phase-b-kickoff gate.
+
+If any criterion fails, iterate in Phase A: revise system prompts,
+re-run smoke, re-evaluate.
+
+---
+
+## 6.4 Eval framework
+
+### 6.4.1 Golden-set per cell
+
+For each of the 20 matrix cells, a golden set of ≥20 domain-labelled
+examples. Each example:
+
+```yaml
+---
+cell: systems-critic
+label: pass | fail
+inputs:
+  - wiki-ref: <path>
+expected_critique_themes:
+  - requisite-variety-violation
+  - leverage-point-misplaced
+  - feedback-loop-absent
+rationale: "<why this label>"
+---
+```
+
+Golden sets are committed to `tests/golden/<cell>/<id>.yaml` and
+frozen quarterly per §2.1.16.
+
+### 6.4.2 Metrics per cycle
+
+Every cycle logs to `logs/metrics/<cycle-id>.json`:
+
+```json
+{
+  "cycle_id": "cyc-01HXX...",
+  "task_class": "design | review | optimize | scale-projection",
+  "mode_selected": "stage-gated | full-auto",
+  "cells_invoked": ["engineering-critic", "philosophy-critic", "engineering-integrator"],
+  "turns_total": 67,
+  "hitl_escalations": 1,
+  "gate_triggered": true,
+  "verifier_pass_rate": 1.0,
+  "artefacts_produced": 4,
+  "provenance_violations": 0,
+  "duration_min_wallclock": 58,
+  "output_quality_signal": {
+    "judge_score_mean": 0.82,
+    "dissents_preserved_flag": true
+  }
+}
+```
+
+### 6.4.3 Hamel Critique Shadowing setup
+
+Judge setup per §2.1.13:
+
+- One judge agent per rubric.
+- Binary pass/fail.
+- One criterion per call (`does this output flag requisite-variety
+  violations`: yes/no).
+- Golden set ≥20 examples per rubric.
+- Position randomization in pairwise comparisons.
+- Verbosity-matched prompts.
+
+Judges calibrated to ≥80% agreement with human labellers on the golden
+set before activation.
+
+### 6.4.4 Trust-region for Full-Auto
+
+A cell is eligible for Full-Auto mode only after:
+
+- ≥3 successful Stage-Gated runs.
+- Golden-set pass rate ≥90%.
+- Zero destructive-op incidents.
+- Ruslan-approved trust-grant (recorded in
+  `decisions/TRUST-GRANT-<cell>-<date>.md`).
+
+Trust can be revoked on any regression.
+
+---
+
+## 6.5 Red-team protocol (critic weighting)
+
+The critic role-mode must not be trivially dismissed by consensus
+(gate 1 risk §5 — sycophancy via AP-6). Protocol:
+
+1. **Critics do not vote.** They produce independent dissent lists.
+2. **Integrator surfaces every dissent** in the consolidated output
+   with explicit disposition: `accepted / rejected / deferred / open`.
+3. **Brigadier refuses integration output** that shows
+   disposition=rejected for all N critic dissents. Forces re-work.
+4. **Heterogeneous critics mandatory on subjective rubrics.** At least
+   2 domains involved (typically engineering + philosophy, or
+   systems + mgmt).
+5. **Pairwise critique-shadowing.** Periodically (monthly), re-run a
+   past task with roles swapped (integrator → critic; optimizer →
+   critic) and compare. If outputs are systematically more favorable
+   than original critic, flag AP-6.
+
+---
+
+## 6.6 Recursive-improvement measurement (Phase A → Phase B delta)
+
+Phase B must be measurably better than Phase A on the same task
+surface. Measurement approach:
+
+### 6.6.1 Pre-B baseline
+
+Before Phase B starts, run 5 representative tasks through Phase-A
+swarm + Ruslan review. Record:
+
+- Mean turns per task
+- HITL escalations per task
+- Ruslan-rated output quality (1–5, blind if feasible)
+- Golden-set judge scores
+- Time to completion (wall-clock)
+
+### 6.6.2 Post-B measurement
+
+After Phase B delivers `JETIX-SWARM-V2-SELF-IMPROVED-2026-04-XX.md`
++ updated agents, re-run the same 5 tasks. Compare:
+
+- Δturns per task (expect ≤ baseline; negative = better)
+- ΔHITL escalations (expect reduction on validated patterns)
+- ΔRuslan-quality-rating (expect +0.5 to +1 point on 1–5 scale)
+- Δgolden-set scores (expect ≥+5pp)
+- Δtime (expect reduction on validated, neutral on novel)
+
+**Success.** Phase B beats Phase A on ≥3 of 5 metrics, with no metric
+strictly worse. Otherwise, Phase B is reverted or re-attempted.
+
+### 6.6.3 Before-after artefact diff
+
+Git diff between pre-B agent files and post-B is the audit trail.
+Every changed line in a system prompt should trace to a specific
+insight from the Tier-4 book the expert read. This is the compounding-
+evidence trail.
+
+---
+
+## 6.7 Regression detection
+
+### 6.7.1 Per-commit checks
+
+Every commit on main Phase-A branch triggers (via hook or CI if
+available):
+
+- All verifier functions run on recent artefacts — no regressions
+  accepted.
+- Golden-set score ≥ prior commit's score (within noise threshold
+  ±2pp).
+- No new Tier-1 anti-patterns detected in outputs (scan for AP-1..26
+  signatures).
+
+### 6.7.2 Weekly audit
+
+Brigadier runs `/audit` weekly:
+
+- Count of strategies.md entries per expert (watchlist: zero growth
+  for 2+ weeks = compounding stalled).
+- Skill invocation frequency — unused skills (0 invocations in 30
+  days) flagged for removal.
+- Gate-file turnaround times — if Ruslan consistently takes >48h, flag
+  UX issue.
+- Dissent preservation rate (of dissents flagged by critics, what %
+  surface in integrated output?).
+
+### 6.7.3 Kill criteria
+
+If the swarm produces measurably worse output than single-agent Claude
+Code on the same task shape for 3 consecutive cycles, kill the swarm
+invocation for that task shape (fallback to single-agent). Evidence:
+EXT-C §2 row 3 shows multi-agent −3.5% average across 180 DeepMind
+experiments — we must prove Jetix matrix beats single-agent, not
+assume it.
+
+### 6.7.4 Emergent-risk watch
+
+Monitor for emerging anti-patterns not in Part 3:
+
+- Any agent repeatedly invoking the same cell on the same input →
+  loop.
+- Any cell output that contradicts its own `strategies.md` rules →
+  false-memory drift.
+- Any gate file pattern that Ruslan consistently rejects at the same
+  clause → systematic misalignment.
+
+Emergent risks are logged to `logs/emergent-risks.md` and surfaced at
+weekly audit.
+
+---
+
+## 6.8 Part-6 summary
+
+The Jetix swarm is validated when the following chain completes:
+
+1. Smoke test (§6.1) passes 3× on different task shapes.
+2. Failure drills (§6.1.4) catch the 5 canonical anti-patterns.
+3. Termination-stack values calibrated from smoke data (§6.2).
+4. Golden-set evals pass ≥80% agreement with Hamel-calibrated judges
+   (§6.4).
+5. Ruslan-approved Phase-B kickoff gate.
+6. Pre-B baseline recorded for later delta measurement.
+
+Failure at any step returns the swarm to Phase-A iteration. The swarm
+does not *declare itself* ready; Ruslan does, against the explicit
+criteria above.
+
+**End of Part 6.**
+
+---
+
+## Appendix A — Compliance-check matrix (full, auditable)
+
+Master table per EXT-E §G, populated:
+
+| Lock # | Lock title | Where addressed | Status | Rationale / tension |
+|---|---|---|---|---|
+| 1 | Gentleman/Predator | Part 4 §4.6.3 + Part 5 §5.5.4 | ✅ | Tiered outputs per observer-class |
+| 2 | Solo-now-team-ready | Part 4 §4.1.3 + Part 5 §5.1, §5.8.3 | ✅ | No `/home/ruslan/*` hardcodes; kit-replicable |
+| 3 | Closed/Open | Part 4 §4.6.3 + Part 5 §5.5.4 | ✅ | Tier enforcement in frontmatter + hooks |
+| 4 | Name = Jetix | Part 5 §5.6.1 (PreToolUse canonicalizer) | ✅ | Hook rewrites `Jackson\|Джек` → `Jetix` |
+| 5 | Consulting-first | Part 5 §5.1 §2 task-intake priority | ✅ | quick-money tasks prioritised |
+| 6 | No advisors | Part 4 roster | ✅ | No advisor agent |
+| 7 | Union archetypes (11) | Part 5 §5.5 + §5.8 ICP metadata | ⚠️ | Archetype tagging schema in place; concrete 11-way population is Phase-B overlay |
+| 8 | Layered identity | Part 4 §4.6.3 + Part 5 §5.5.4 | ✅ | Configurable observer/phase |
+| 9 | Pain primary | Part 5 §5.8 funnel-stage tags; Part 4 §4.4 mgmt-critic rubric | ⚠️ | Pain/opportunity toggle in overlay; base supports |
+| 10 | EN+US first | Part 5 §5.2 (English system prompts) | ✅ | Prompts English; content RU per CLAUDE.md |
+| 11 | Consulting+Producer+Fund | Part 4 §4.4 investor-expert; Part 5 §5.1 resource-allocation | ✅ | investor-expert carries fund-as-philosophy lens |
+| 12 | Smart+site+social-TOF | Part 5 §5.8.1 pipeline tagging | ⚠️ | Render adapters Phase B |
+| 13 | Open surface / Closed core | Part 4 §4.6.3 + Part 5 §5.5.4 + §5.8.2 | ✅ | Tier + Library membrane enforced |
+| 14 | Revenue-instrumental research | Part 4 §4.7.1 brigadier intake | ✅ | Revenue-gated intake rule |
+| 15 | Revenue-gated spend | Part 5 §5.4.2 Max-turn budget | ✅ | No $-denominated risk; turn caps = gate |
+| 16 | Phase 1 simple chat | Phase-B overlay scope | N/A | Not Phase A |
+| 17 | Filesystem = SoT | Part 4 §4.5.4 + Part 5 §5.5 | ✅ | Wiki = truth; Notion one-way |
+| 18 | Productization | Part 5 §5.10 (skills as products) | ✅ | Skills = reusable units |
+| 19 | $1T Holding-Scale | Part 4 §4.2.2 scalability-architect | ✅ | Long-horizon lens first-class |
+| 20 | USB-C + Enterprise-Fast | Part 5 §5.3 Task schema + §5.7 MCP | ⚠️ | Protocol scaffolding present; enterprise-fast ops in overlay |
+| 21 | Matchmaker + Roy-Replication | Part 5 §5.8.3 kit scaffolding | ⚠️ | Kit contents defined; overlay completes Phase 2+ |
+| 22 | ICP 5-criteria + direction | Part 5 §5.5 metadata; overlay | ⚠️ | Schema in place; overlay populates |
+| 23 | Token Option B | Phase 2+ | N/A | Deferred |
+| 24 | OSS research (Phase 2+) | Phase 2+ | N/A | Deferred |
+
+**Audit status.** 15 Locks directly addressed (✅); 6 supported-but-
+overlay-completed (⚠️); 3 explicitly deferred Phase 2+ (N/A). No Lock
+in direct conflict with the blueprint. Compliant.
+
+---
+
+## Appendix B — Definitions quick-reference
+
+Reproduced from Part 1 §1.15 for auditing convenience. See Part 1 for
+full definitions and source attribution.
+
+| Term | Status | Section |
+|---|---|---|
+| Swarm (strict) / MAS | evidence-backed | §1.1–1.2 |
+| Brigadier / expert / role-mode | Jetix term | §1.3, §4.1–4.4 |
+| Stigmergy / mailbox / wiki-coord | mixed | §1.4 |
+| CE loop | evidence-backed | §1.5 |
+| Rule of 4 / context rot / attention budget | mixed | §1.6 |
+| Termination stack (4 layers) | Jetix synthesis | §1.7, §5.4 |
+| Matrix 5×4 | Jetix synthesis | §1.8, §4 |
+| Stage-gated / Full-Auto | Jetix term | §1.9, §4.8 |
+| Provenance / citation | evidence-backed | §1.10, §5.5 |
+| Anti-pattern / MAST | evidence-backed | §1.11, §3 |
+| Compound ledger / two-way door / Skill | mixed | §1.12 |
 
 ---
 
