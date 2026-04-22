@@ -1,0 +1,177 @@
+[
+  {
+    "path": "raw/books-md/meta/dotnet-migration-with-devin.md",
+    "title": "Dotnet Migration With Devin",
+    "word_count": 1983,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/effective-context-engineering-for-ai-agents.md",
+    "title": "Effective Context Engineering For Ai Agents",
+    "word_count": 3297,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Effective context engineering for AI agents Published Sep 29, 2025 Context is a critical but finite resource for AI agents. In this post, we explore strategies for effectively curating and managing the context that powers them. After a few years of prompt engineering being the focus of attention in applied AI, a new term has come to prominence: **context engineering**. Building with language models is becoming less about finding the right words and phrases for your prompts, and more about answering the broader question of “what configuration of context is most likely"
+  },
+  {
+    "path": "raw/books-md/meta/effective-harnesses-for-long-running-agents.md",
+    "title": "Effective Harnesses For Long Running Agents",
+    "word_count": 2376,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Effective harnesses for long-running agents Published Nov 26, 2025 Agents still face challenges working across many context windows. We looked to human engineers for inspiration in creating a more effective harness for long-running agents. As AI agents become more capable, developers are increasingly asking them to take on complex tasks requiring work that spans hours, or even days. However, getting agents to make consistent progress across multiple context windows remains an open problem. The core challenge of long-running agents is that they must work in discrete s"
+  },
+  {
+    "path": "raw/books-md/meta/elicitation.md",
+    "title": "Elicitation",
+    "word_count": 9215,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Version 2025-11-25 (latest) Search... ⌘K - Blog - GitHub Search... Navigation Client Features Elicitation Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-cent"
+  },
+  {
+    "path": "raw/books-md/meta/engineering.md",
+    "title": "Engineering",
+    "word_count": 1086,
+    "quality_grade": "A",
+    "preview": "## Engineering at Anthropic: Inside the team building reliable AI systems Start building Developer docs Featured ## Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models. ### Scaling Managed Agents: Decoupling the brain from the hands ### Claude Code auto mode: a safer way to skip permissions Mar 25, 2026 ### Harness design for long-running application development Mar 24, 2026 ### Eval awareness in Claude Opus 4.6’s BrowseComp performance M"
+  },
+  {
+    "path": "raw/books-md/meta/enterprise-managed-authorization.md",
+    "title": "Enterprise Managed Authorization",
+    "word_count": 3239,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Authorization Extensions Enterprise-Managed Authorization Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-ce"
+  },
+  {
+    "path": "raw/books-md/meta/enterprise-tos-nov-2025.md",
+    "title": "Enterprise Tos Nov 2025",
+    "word_count": 6231,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/enterprise-tos.md",
+    "title": "Enterprise Tos",
+    "word_count": 6309,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/equipping-agents-for-the-real-world-with-agent-skills.md",
+    "title": "Equipping Agents For The Real World With Agent Skills",
+    "word_count": 1822,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Equipping agents for the real world with Agent Skills Published Oct 16, 2025 Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents using files and folders. *Update: We've published* Agent Skills *as an open standard for cross-platform portability. (December 18, 2025)* As model capabilities improve, we can now build general-purpose agents that interact with full-fledged computing environments. Claude Code , for example, can accomplish complex tasks across domains usin"
+  },
+  {
+    "path": "raw/books-md/meta/eval-awareness-browsecomp.md",
+    "title": "Eval Awareness Browsecomp",
+    "word_count": 2242,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Eval awareness in Claude Opus 4.6’s BrowseComp performance Published Mar 06, 2026 Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments. BrowseComp is an evaluation designed to test how well models can find hard-to-locate information on the web. Like many benchmarks, it is vulnerable to contamination: answers leak onto the public web through academic papers, blog posts, and GitHub issues, and a model running the eval can encounter"
+  },
+  {
+    "path": "raw/books-md/meta/evaluating-coding-agents.md",
+    "title": "Evaluating Coding Agents",
+    "word_count": 3189,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/evaluating-skills.md",
+    "title": "Evaluating Skills",
+    "word_count": 6078,
+    "quality_grade": "A",
+    "preview": "Skip to main content *]:truncate font-medium bg-primary-dark text-white/90 dark:text-white/90 [&_*]:!text-white/90 dark:[&_*]:!text-white/90 [&_a:hover]:decoration-primary-light z-[45]\"> p]:m-0\"> Agent Skills now has an official Discord server . See the announcement for details. Agent Skills home page Agent Skills Search... ⌘K Ask AI - agentskills/agentskills - agentskills/agentskills Search... Navigation For skill creators Evaluating skill output quality div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:["
+  },
+  {
+    "path": "raw/books-md/meta/examples.md",
+    "title": "Examples",
+    "word_count": 2885,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Examples Example Servers Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!hid"
+  },
+  {
+    "path": "raw/books-md/meta/faq.md",
+    "title": "Faq",
+    "word_count": 2328,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Frequently Asked Questions Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!h"
+  },
+  {
+    "path": "raw/books-md/meta/from-jenkins-to-github-actions.md",
+    "title": "From Jenkins To Github Actions",
+    "word_count": 1229,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/funding-growth-and-the-next-frontier-of-ai-coding-agents.md",
+    "title": "Funding Growth And The Next Frontier Of Ai Coding Agents",
+    "word_count": 1380,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/github-actions.md",
+    "title": "Github Actions",
+    "word_count": 2527,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Publishing How to Automate Publishing with GitHub Actions Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-ce"
+  },
+  {
+    "path": "raw/books-md/meta/governance.md",
+    "title": "Governance",
+    "word_count": 3937,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Governance Governance and Stewardship Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-c"
+  },
+  {
+    "path": "raw/books-md/meta/government.md",
+    "title": "Government",
+    "word_count": 1264,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/harness-design-long-running-apps.md",
+    "title": "Harness Design Long Running Apps",
+    "word_count": 5805,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Harness design for long-running application development Published Mar 24, 2026 Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous software engineering. *Written by Prithvi Rajasekaran, a member of our Labs team.* Over the past several months I’ve been working on two interconnected problems: getting Claude to produce high-quality frontend designs, and getting it to build complete applications without human intervention. This work originated with earlier efforts on o"
+  },
+  {
+    "path": "raw/books-md/meta/how-cognition-uses-devin-to-build-devin.md",
+    "title": "How Cognition Uses Devin To Build Devin",
+    "word_count": 2605,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/how-devin-is-modernizing-cobol-at-fortune-500-companies.md",
+    "title": "How Devin Is Modernizing Cobol At Fortune 500 Companies",
+    "word_count": 2410,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/how-eight-sleep-uses-devin-as-a-data-analyst.md",
+    "title": "How Eight Sleep Uses Devin As A Data Analyst",
+    "word_count": 1897,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/infrastructure-noise.md",
+    "title": "Infrastructure Noise",
+    "word_count": 1942,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Quantifying infrastructure noise in agentic coding evals Infrastructure configuration can swing agentic coding benchmarks by several percentage points—sometimes more than the leaderboard gap between top models. Agentic coding benchmarks like SWE-bench and Terminal-Bench are commonly used to compare the software engineering capabilities of frontier models—with top spots on leaderboards often separated by just a few percentage points. These scores are often treated as precise measurements of relative model capability and increasingly inform decisions about which models"
+  },
+  {
+    "path": "raw/books-md/meta/inspector.md",
+    "title": "Inspector",
+    "word_count": 3923,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Developer tools MCP Inspector Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md"
+  }
+]

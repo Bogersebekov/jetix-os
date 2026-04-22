@@ -1,0 +1,177 @@
+[
+  {
+    "path": "raw/books-md/meta/build-server.md",
+    "title": "Build Server",
+    "word_count": 29297,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Develop with MCP Build an MCP server Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-ch"
+  },
+  {
+    "path": "raw/books-md/meta/build-with-agent-skills.md",
+    "title": "Build With Agent Skills",
+    "word_count": 2922,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Develop with MCP Build with Agent Skills Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:firs"
+  },
+  {
+    "path": "raw/books-md/meta/build.md",
+    "title": "Build",
+    "word_count": 8193,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation MCP Apps Build an MCP App Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!hi"
+  },
+  {
+    "path": "raw/books-md/meta/building-c-compiler.md",
+    "title": "Building C Compiler",
+    "word_count": 2657,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Building a C compiler with a team of parallel Claudes Published Feb 05, 2026 We tasked Opus 4.6 using agent teams to build a C Compiler, and then (mostly) walked away. Here's what it taught us about the future of autonomous software development. *Written by Nicholas Carlini, a researcher on our Safeguards team. * I've been experimenting with a new approach to supervising language models that we’re calling \"agent teams.\" With agent teams, multiple Claude instances work in parallel on a shared codebase without active human intervention. This approach dramatically expan"
+  },
+  {
+    "path": "raw/books-md/meta/building-effective-agents.md",
+    "title": "Building Effective Agents",
+    "word_count": 3034,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Building effective agents Published Dec 19, 2024 We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rather than complex frameworks. Over the past year, we've worked with dozens of teams building large language model (LLM) agents across industries. Consistently, the most successful implementations weren't using complex frameworks or specialized libraries. Instead, they were building with simple, composable patterns. In this post, we share what we’ve learned from wor"
+  },
+  {
+    "path": "raw/books-md/meta/changelog.md",
+    "title": "Changelog",
+    "word_count": 2494,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Version 2025-11-25 (latest) Search... ⌘K - Blog - GitHub Search... Navigation Key Changes Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first"
+  },
+  {
+    "path": "raw/books-md/meta/charter-template.md",
+    "title": "Charter Template",
+    "word_count": 2710,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Get Involved Group Charter Template Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-chi"
+  },
+  {
+    "path": "raw/books-md/meta/charter.md",
+    "title": "Charter",
+    "word_count": 3412,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Working Group Charters Server Card Charter Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:fi"
+  },
+  {
+    "path": "raw/books-md/meta/claude-code-auto-mode.md",
+    "title": "Claude Code Auto Mode",
+    "word_count": 3873,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Claude Code auto mode: a safer way to skip permissions Published Mar 25, 2026 Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's what it catches, and what it misses. By default, Claude Code asks users for approval before running commands or modifying files. This keeps users safe, but it also means a lot of clicking \"approve.\" Over time that leads to approval fatigue, where people stop paying close attention to what they're approving. Users have two solutions f"
+  },
+  {
+    "path": "raw/books-md/meta/claude-code-best-practices.md",
+    "title": "Claude Code Best Practices",
+    "word_count": 13239,
+    "quality_grade": "A",
+    "preview": "Skip to main content Claude Code Docs home page English Search... ⌘K Ask AI - Claude Developer Platform - Claude Code on the Web - Claude Code on the Web Search... Navigation Use Claude Code Best Practices for Claude Code Getting started Build with Claude Code Deployment Administration Configuration Reference Agent SDK What's New Resources div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:x"
+  },
+  {
+    "path": "raw/books-md/meta/claude-code-sandboxing.md",
+    "title": "Claude Code Sandboxing",
+    "word_count": 1381,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Beyond permission prompts: making Claude Code more secure and autonomous Published Oct 20, 2025 Claude Code's new sandboxing features, a bash tool and Claude Code on the web, reduce permission prompts and increase user safety by enabling two boundaries: filesystem and network isolation. In Claude Code , Claude writes, tests, and debugs code alongside you, navigating your codebase, editing multiple files, and running commands to verify its work. Giving Claude this much access to your codebase and files can introduce risks, especially in the case of prompt injection. T"
+  },
+  {
+    "path": "raw/books-md/meta/claude-think-tool.md",
+    "title": "Claude Think Tool",
+    "word_count": 2705,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # The \"think\" tool: Enabling Claude to stop and think in complex tool use situations Published Mar 20, 2025 A new tool that improves Claude's complex problem-solving performance - Extended thinking update Dec 15, 2025 Extended thinking capabilities have improved since its initial release, such that we recommend using that feature instead of a dedicated think tool in most cases. Extended thinking provides similar benefits—giving Claude space to reason through complex problems—with better integration and performance. See our extended thinking documentation for implementa"
+  },
+  {
+    "path": "raw/books-md/meta/client-concepts.md",
+    "title": "Client Concepts",
+    "word_count": 4523,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation About MCP Understanding MCP clients Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-chi"
+  },
+  {
+    "path": "raw/books-md/meta/client-matrix.md",
+    "title": "Client Matrix",
+    "word_count": 1905,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Extension Support Matrix Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!hid"
+  },
+  {
+    "path": "raw/books-md/meta/clients.md",
+    "title": "Clients",
+    "word_count": 2181,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Examples Example Clients Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!hid"
+  },
+  {
+    "path": "raw/books-md/meta/clio.md",
+    "title": "Clio",
+    "word_count": 2567,
+    "quality_grade": "A",
+    "preview": "Societal Impacts # Clio: A system for privacy-preserving insights into real-world AI use Dec 12, 2024 Read the paper - Update Consumer Terms and Privacy Policy Aug 28, 2025 What do people use AI models for? Despite the rapidly-growing popularity of large language models, until now we’ve had little insight into exactly how they’re being used. This isn’t just a matter of curiosity, or even of sociological research. Knowing how people actually use language models is important for safety reasons: providers put considerable effort into pre-deployment testing, and use Trust and Safety systems to pre"
+  },
+  {
+    "path": "raw/books-md/meta/closing-the-agent-loop-devin-autofixes-review-comments.md",
+    "title": "Closing The Agent Loop Devin Autofixes Review Comments",
+    "word_count": 1098,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/code-execution-with-mcp.md",
+    "title": "Code Execution With Mcp",
+    "word_count": 2322,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Code execution with MCP: Building more efficient agents Published Nov 04, 2025 Direct tool calls consume context for each definition and result. Agents scale better by writing code to call tools instead. Here's how it works with MCP. [The Model Context Protocol (MCP)](https://modelcontextprotocol.io/) is an open standard for connecting AI agents to external systems. Connecting agents to tools and data traditionally requires a custom integration for each pairing, creating fragmentation and duplicated effort that makes it difficult to scale truly connected systems. MCP"
+  },
+  {
+    "path": "raw/books-md/meta/codemaps.md",
+    "title": "Codemaps",
+    "word_count": 2482,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/cognition-dpa.md",
+    "title": "Cognition Dpa",
+    "word_count": 3630,
+    "quality_grade": "A",
+    "preview": "## **Data Processing Addendum** ## **Last Updated: March 9, 2026** This Data Processing Addendum (“ **DPA** ”) governs Cognition AI, Inc. (“ **Licensor** ”)’s processing of Customer Personal Data that Licensor processes on behalf of and under the instruction of Customer through Licensor’s enterprise or software services as applicable (“ **Services** ”) under the terms of certain agreement(s) between Customer and Licensor governing the Customer’s use of the Services (the “ **Agreement** ”), and is hereby incorporated into the Agreement. To the extent there is a conflict between the Agreement an"
+  },
+  {
+    "path": "raw/books-md/meta/cognition-open-source-initiative.md",
+    "title": "Cognition Open Source Initiative",
+    "word_count": 1385,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/communication.md",
+    "title": "Communication",
+    "word_count": 2884,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Get Involved Contributor Communication Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-"
+  },
+  {
+    "path": "raw/books-md/meta/connect-local-servers.md",
+    "title": "Connect Local Servers",
+    "word_count": 6095,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Develop with MCP Connect to local MCP servers Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div"
+  },
+  {
+    "path": "raw/books-md/meta/connect-remote-servers.md",
+    "title": "Connect Remote Servers",
+    "word_count": 4184,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Develop with MCP Connect to remote MCP Servers Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>di"
+  },
+  {
+    "path": "raw/books-md/meta/contextual-retrieval.md",
+    "title": "Contextual Retrieval",
+    "word_count": 2630,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Introducing Contextual Retrieval Published Sep 19, 2024 For an AI model to be useful in specific contexts, it often needs access to background knowledge. For an AI model to be useful in specific contexts, it often needs access to background knowledge. For example, customer support chatbots need knowledge about the specific business they're being used for, and legal analyst bots need to know about a vast array of past cases. Developers typically enhance an AI model's knowledge using Retrieval-Augmented Generation (RAG). RAG is a method that retrieves relevant informat"
+  }
+]

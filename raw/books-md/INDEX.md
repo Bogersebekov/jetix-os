@@ -1,8 +1,8 @@
 # Jetix Knowledge Index (books-md/)
 
-*Generated 2026-04-22 15:51*
+*Generated 2026-04-22 16:06*
 
-Total books: 440
+Total books: 394
 
 Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reprocess
 
@@ -22,6 +22,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
 | ? ? | Deleted files log | 0 | ? | ? | `raw/books-md/_DELETED-LOG.md` |
+| ? ? | Deleted files log — deep multi-agent cleanup | 0 | ? | ? | `raw/books-md/_DELETED-LOG-DEEP.md` |
 
 ## §clean-code
 
@@ -73,7 +74,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ✅ A | 1 | 1,718 | meta-expert | P2 | `raw/books-md/meta/1.md` |
 | ✅ A | 1024 Mcp Client Security Requirements For Local Server | 4,063 | meta-expert | P2 | `raw/books-md/meta/1024-mcp-client-security-requirements-for-local-server.md` |
 | ✅ A | 1034 Support Default Values For All Primitive Types In | 4,296 | meta-expert | P2 | `raw/books-md/meta/1034-support-default-values-for-all-primitive-types-in.md` |
 | ✅ A | 1036 Url Mode Elicitation For Secure Out Of Band Intera | 6,791 | meta-expert | P2 | `raw/books-md/meta/1036-url-mode-elicitation-for-secure-out-of-band-intera.md` |
@@ -89,7 +89,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | 1730 Sdks Tiering System | 5,791 | meta-expert | P2 | `raw/books-md/meta/1730-sdks-tiering-system.md` |
 | ✅ A | 1850 Pr Based Sep Workflow | 5,062 | meta-expert | P2 | `raw/books-md/meta/1850-pr-based-sep-workflow.md` |
 | ✅ A | 1865 Mcp Apps Interactive User Interfaces For Mcp | 4,168 | meta-expert | P2 | `raw/books-md/meta/1865-mcp-apps-interactive-user-interfaces-for-mcp.md` |
-| ✅ A | 2 | 1,978 | meta-expert | P2 | `raw/books-md/meta/2.md` |
 | ✅ A | 2025 11 25 | 3,269 | meta-expert | P2 | `raw/books-md/meta/2025-11-25.md` |
 | ✅ A | 2085 Governance Succession And Amendment | 4,116 | meta-expert | P2 | `raw/books-md/meta/2085-governance-succession-and-amendment.md` |
 | ✅ A | 2133 Extensions | 7,081 | meta-expert | P2 | `raw/books-md/meta/2133-extensions.md` |
@@ -98,7 +97,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | 2207 Oidc Refresh Token Guidance | 4,719 | meta-expert | P2 | `raw/books-md/meta/2207-oidc-refresh-token-guidance.md` |
 | ✅ A | 2243 Http Standardization | 12,331 | meta-expert | P2 | `raw/books-md/meta/2243-http-standardization.md` |
 | ✅ A | 2260 Require Server Requests To Be Associated With Client Requests | 6,315 | meta-expert | P2 | `raw/books-md/meta/2260-require-server-requests-to-be-associated-with-client-requests.md` |
-| ✅ A | 3 | 1,451 | meta-expert | P2 | `raw/books-md/meta/3.md` |
 | ✅ A | 414 Request Meta | 3,687 | meta-expert | P2 | `raw/books-md/meta/414-request-meta.md` |
 | ✅ A | 932 Model Context Protocol Governance | 3,941 | meta-expert | P2 | `raw/books-md/meta/932-model-context-protocol-governance.md` |
 | ✅ A | 973 Expose Additional Metadata For Implementations Res | 4,150 | meta-expert | P2 | `raw/books-md/meta/973-expose-additional-metadata-for-implementations-res.md` |
@@ -120,7 +118,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Basic | 4,836 | meta-expert | P2 | `raw/books-md/meta/basic.md` |
 | ✅ A | Best Practices | 6,337 | meta-expert | P2 | `raw/books-md/meta/best-practices.md` |
 | ✅ A | Blockdiff | 2,937 | meta-expert | P2 | `raw/books-md/meta/blockdiff.md` |
-| ✅ A | Blog | 1,920 | meta-expert | P2 | `raw/books-md/meta/blog.md` |
 | ✅ A | Books | 1,227 | meta-expert | P2 | `raw/books-md/meta/books.md` |
 | ✅ A | Build | 8,193 | meta-expert | P2 | `raw/books-md/meta/build.md` |
 | ✅ A | Build Client | 20,376 | meta-expert | P2 | `raw/books-md/meta/build-client.md` |
@@ -130,93 +127,58 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Building Effective Agents | 3,034 | meta-expert | P2 | `raw/books-md/meta/building-effective-agents.md` |
 | ✅ A | Changelog | 2,494 | meta-expert | P2 | `raw/books-md/meta/changelog.md` |
 | ✅ A | Charter | 3,412 | meta-expert | P2 | `raw/books-md/meta/charter.md` |
-| ✅ A | Charter Template | 2,710 | meta-expert | P2 | `raw/books-md/meta/charter-template.md` |
 | ✅ A | Claude Code Auto Mode | 3,873 | meta-expert | P2 | `raw/books-md/meta/claude-code-auto-mode.md` |
 | ✅ A | Claude Code Best Practices | 13,239 | meta-expert | P2 | `raw/books-md/meta/claude-code-best-practices.md` |
 | ✅ A | Claude Code Sandboxing | 1,381 | meta-expert | P2 | `raw/books-md/meta/claude-code-sandboxing.md` |
 | ✅ A | Claude Think Tool | 2,705 | meta-expert | P2 | `raw/books-md/meta/claude-think-tool.md` |
 | ✅ A | Client Concepts | 4,523 | meta-expert | P2 | `raw/books-md/meta/client-concepts.md` |
 | ✅ A | Client Matrix | 1,905 | meta-expert | P2 | `raw/books-md/meta/client-matrix.md` |
-| ✅ A | Clients | 2,181 | meta-expert | P2 | `raw/books-md/meta/clients.md` |
 | ✅ A | Clio | 2,567 | meta-expert | P2 | `raw/books-md/meta/clio.md` |
 | ✅ A | Closing The Agent Loop Devin Autofixes Review Comments | 1,098 | meta-expert | P2 | `raw/books-md/meta/closing-the-agent-loop-devin-autofixes-review-comments.md` |
 | ✅ A | Code Execution With Mcp | 2,322 | meta-expert | P2 | `raw/books-md/meta/code-execution-with-mcp.md` |
 | ✅ A | Codemaps | 2,482 | meta-expert | P2 | `raw/books-md/meta/codemaps.md` |
-| ✅ A | Cognition Dpa | 3,630 | meta-expert | P2 | `raw/books-md/meta/cognition-dpa.md` |
 | ✅ A | Cognition Open Source Initiative | 1,385 | meta-expert | P2 | `raw/books-md/meta/cognition-open-source-initiative.md` |
-| ✅ A | Communication | 2,884 | meta-expert | P2 | `raw/books-md/meta/communication.md` |
 | ✅ A | Connect Local Servers | 6,095 | meta-expert | P2 | `raw/books-md/meta/connect-local-servers.md` |
 | ✅ A | Connect Remote Servers | 4,184 | meta-expert | P2 | `raw/books-md/meta/connect-remote-servers.md` |
 | ✅ A | Contextual Retrieval | 2,630 | meta-expert | P2 | `raw/books-md/meta/contextual-retrieval.md` |
-| ✅ A | Contributing | 11,217 | meta-expert | P2 | `raw/books-md/meta/contributing.md` |
-| ✅ A | Contributor Ladder | 5,513 | meta-expert | P2 | `raw/books-md/meta/contributor-ladder.md` |
-| ✅ A | Crossmint Devin | 1,398 | meta-expert | P2 | `raw/books-md/meta/crossmint-devin.md` |
 | ✅ A | Debugging | 5,124 | meta-expert | P2 | `raw/books-md/meta/debugging.md` |
-| ✅ A | Dec 24 Product Update | 1,985 | meta-expert | P2 | `raw/books-md/meta/dec-24-product-update.md` |
-| ✅ A | Dec 24 Product Update 2 | 1,693 | meta-expert | P2 | `raw/books-md/meta/dec-24-product-update-2.md` |
-| ✅ A | Deepwiki | 1,261 | meta-expert | P2 | `raw/books-md/meta/deepwiki.md` |
-| ✅ A | Deepwiki Mcp Server | 1,343 | meta-expert | P2 | `raw/books-md/meta/deepwiki-mcp-server.md` |
 | ✅ A | Demystifying Evals For Ai Agents | 6,541 | meta-expert | P2 | `raw/books-md/meta/demystifying-evals-for-ai-agents.md` |
 | ✅ A | Design Principles | 2,731 | meta-expert | P2 | `raw/books-md/meta/design-principles.md` |
 | ✅ A | Desktop Extensions | 2,846 | meta-expert | P2 | `raw/books-md/meta/desktop-extensions.md` |
 | ✅ A | Devin 101 Automatic Pr Reviews With The Devin Api | 2,933 | meta-expert | P2 | `raw/books-md/meta/devin-101-automatic-pr-reviews-with-the-devin-api.md` |
-| ✅ A | Devin 2 | 1,524 | meta-expert | P2 | `raw/books-md/meta/devin-2.md` |
-| ✅ A | Devin 2 1 | 1,639 | meta-expert | P2 | `raw/books-md/meta/devin-2-1.md` |
-| ✅ A | Devin Agent Preview Sonnet 4 5 | 1,665 | meta-expert | P2 | `raw/books-md/meta/devin-agent-preview-sonnet-4-5.md` |
 | ✅ A | Devin Annual Performance Review 2025 | 1,806 | meta-expert | P2 | `raw/books-md/meta/devin-annual-performance-review-2025.md` |
-| ✅ A | Devin Can Now Manage Devins | 1,757 | meta-expert | P2 | `raw/books-md/meta/devin-can-now-manage-devins.md` |
-| ✅ A | Devin Can Now Schedule Devins | 1,904 | meta-expert | P2 | `raw/books-md/meta/devin-can-now-schedule-devins.md` |
-| ✅ A | Devin Crowdstrike Outage | 1,423 | meta-expert | P2 | `raw/books-md/meta/devin-crowdstrike-outage.md` |
-| ✅ A | Devin February 25 Product Update | 1,682 | meta-expert | P2 | `raw/books-md/meta/devin-february-25-product-update.md` |
-| ✅ A | Devin Generally Available | 1,589 | meta-expert | P2 | `raw/books-md/meta/devin-generally-available.md` |
-| ✅ A | Devin In Windsurf | 1,519 | meta-expert | P2 | `raw/books-md/meta/devin-in-windsurf.md` |
-| ✅ A | Devin Review | 1,821 | meta-expert | P2 | `raw/books-md/meta/devin-review.md` |
 | ✅ A | Devin Sonnet 4 5 Lessons And Challenges | 2,185 | meta-expert | P2 | `raw/books-md/meta/devin-sonnet-4-5-lessons-and-challenges.md` |
 | ✅ A | Dont Build Multi Agents | 2,401 | meta-expert | P2 | `raw/books-md/meta/dont-build-multi-agents.md` |
 | ✅ A | Dotnet Migration With Devin | 1,983 | meta-expert | P2 | `raw/books-md/meta/dotnet-migration-with-devin.md` |
 | ✅ A | Effective Context Engineering For Ai Agents | 3,297 | meta-expert | P2 | `raw/books-md/meta/effective-context-engineering-for-ai-agents.md` |
 | ✅ A | Effective Harnesses For Long Running Agents | 2,376 | meta-expert | P2 | `raw/books-md/meta/effective-harnesses-for-long-running-agents.md` |
 | ✅ A | Elicitation | 9,215 | meta-expert | P2 | `raw/books-md/meta/elicitation.md` |
-| ✅ A | Engineering | 1,086 | meta-expert | P2 | `raw/books-md/meta/engineering.md` |
 | ✅ A | Enterprise Managed Authorization | 3,239 | meta-expert | P2 | `raw/books-md/meta/enterprise-managed-authorization.md` |
-| ✅ A | Enterprise Tos | 6,309 | meta-expert | P2 | `raw/books-md/meta/enterprise-tos.md` |
-| ✅ A | Enterprise Tos Nov 2025 | 6,231 | meta-expert | P2 | `raw/books-md/meta/enterprise-tos-nov-2025.md` |
 | ✅ A | Equipping Agents For The Real World With Agent Skills | 1,822 | meta-expert | P2 | `raw/books-md/meta/equipping-agents-for-the-real-world-with-agent-skills.md` |
 | ✅ A | Eval Awareness Browsecomp | 2,242 | meta-expert | P2 | `raw/books-md/meta/eval-awareness-browsecomp.md` |
 | ✅ A | Evaluating Coding Agents | 3,189 | meta-expert | P2 | `raw/books-md/meta/evaluating-coding-agents.md` |
 | ✅ A | Evaluating Skills | 6,078 | meta-expert | P2 | `raw/books-md/meta/evaluating-skills.md` |
-| ✅ A | Examples | 2,885 | meta-expert | P2 | `raw/books-md/meta/examples.md` |
 | ✅ A | Faq | 2,328 | meta-expert | P2 | `raw/books-md/meta/faq.md` |
 | ✅ A | From Jenkins To Github Actions | 1,229 | meta-expert | P2 | `raw/books-md/meta/from-jenkins-to-github-actions.md` |
-| ✅ A | Funding Growth And The Next Frontier Of Ai Coding Agents | 1,380 | meta-expert | P2 | `raw/books-md/meta/funding-growth-and-the-next-frontier-of-ai-coding-agents.md` |
 | ✅ A | Github Actions | 2,527 | meta-expert | P2 | `raw/books-md/meta/github-actions.md` |
 | ✅ A | Governance | 3,937 | meta-expert | P2 | `raw/books-md/meta/governance.md` |
-| ✅ A | Government | 1,264 | meta-expert | P2 | `raw/books-md/meta/government.md` |
 | ✅ A | Harness Design Long Running Apps | 5,805 | meta-expert | P2 | `raw/books-md/meta/harness-design-long-running-apps.md` |
 | ✅ A | How Cognition Uses Devin To Build Devin | 2,605 | meta-expert | P2 | `raw/books-md/meta/how-cognition-uses-devin-to-build-devin.md` |
 | ✅ A | How Devin Is Modernizing Cobol At Fortune 500 Companies | 2,410 | meta-expert | P2 | `raw/books-md/meta/how-devin-is-modernizing-cobol-at-fortune-500-companies.md` |
 | ✅ A | How Eight Sleep Uses Devin As A Data Analyst | 1,897 | meta-expert | P2 | `raw/books-md/meta/how-eight-sleep-uses-devin-as-a-data-analyst.md` |
 | ✅ A | Infrastructure Noise | 1,942 | meta-expert | P2 | `raw/books-md/meta/infrastructure-noise.md` |
 | ✅ A | Inspector | 3,923 | meta-expert | P2 | `raw/books-md/meta/inspector.md` |
-| ✅ A | Introducing Devin | 1,618 | meta-expert | P2 | `raw/books-md/meta/introducing-devin.md` |
-| ✅ A | Introducing Devin 2 2 | 1,439 | meta-expert | P2 | `raw/books-md/meta/introducing-devin-2-2.md` |
-| ✅ A | Jan 25 Product Update | 1,713 | meta-expert | P2 | `raw/books-md/meta/jan-25-product-update.md` |
-| ✅ A | June 24 Product Update | 2,094 | meta-expert | P2 | `raw/books-md/meta/june-24-product-update.md` |
 | ✅ A | Kevin 32B | 5,351 | meta-expert | P2 | `raw/books-md/meta/kevin-32b.md` |
-| ✅ A | Launching In Japan | 1,333 | meta-expert | P2 | `raw/books-md/meta/launching-in-japan.md` |
 | ✅ A | Lifecycle | 3,728 | meta-expert | P2 | `raw/books-md/meta/lifecycle.md` |
-| ✅ A | Linktree | 1,520 | meta-expert | P2 | `raw/books-md/meta/linktree.md` |
 | ✅ A | Logging | 3,116 | meta-expert | P2 | `raw/books-md/meta/logging.md` |
 | ✅ A | Managed Agents | 2,307 | meta-expert | P2 | `raw/books-md/meta/managed-agents.md` |
 | ✅ A | Moderation Policy | 2,306 | meta-expert | P2 | `raw/books-md/meta/moderation-policy.md` |
 | ✅ A | Multi Agent Research System | 4,025 | meta-expert | P2 | `raw/books-md/meta/multi-agent-research-system.md` |
 | ✅ A | Multi Agents Working | 3,346 | meta-expert | P2 | `raw/books-md/meta/multi-agents-working.md` |
-| ✅ A | New Self Serve Plans For Devin | 1,613 | meta-expert | P2 | `raw/books-md/meta/new-self-serve-plans-for-devin.md` |
 | ✅ A | Oauth Client Credentials | 5,426 | meta-expert | P2 | `raw/books-md/meta/oauth-client-credentials.md` |
 | ✅ A | Optimizing Descriptions | 4,752 | meta-expert | P2 | `raw/books-md/meta/optimizing-descriptions.md` |
 | ✅ A | Overview | 3,490 | meta-expert | P2 | `raw/books-md/meta/overview.md` |
 | ✅ A | Package Types | 3,993 | meta-expert | P2 | `raw/books-md/meta/package-types.md` |
-| ✅ A | Privacy Policy | 3,194 | meta-expert | P2 | `raw/books-md/meta/privacy-policy.md` |
 | ✅ A | Prompts | 4,492 | meta-expert | P2 | `raw/books-md/meta/prompts.md` |
 | ✅ A | Quickstart | 5,269 | meta-expert | P2 | `raw/books-md/meta/quickstart.md` |
 | ✅ A | Registry Aggregators | 2,892 | meta-expert | P2 | `raw/books-md/meta/registry-aggregators.md` |
@@ -231,7 +193,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Security_Best_Practices | 7,199 | meta-expert | P2 | `raw/books-md/meta/security_best_practices.md` |
 | ✅ A | Sep Guidelines | 4,838 | meta-expert | P2 | `raw/books-md/meta/sep-guidelines.md` |
 | ✅ A | Seps | 5,032 | meta-expert | P2 | `raw/books-md/meta/seps.md` |
-| ✅ A | Sept 24 Product Update | 2,234 | meta-expert | P2 | `raw/books-md/meta/sept-24-product-update.md` |
 | ✅ A | Server | 2,093 | meta-expert | P2 | `raw/books-md/meta/server.md` |
 | ✅ A | Server Concepts | 5,266 | meta-expert | P2 | `raw/books-md/meta/server-concepts.md` |
 | ✅ A | Specification | 6,225 | meta-expert | P2 | `raw/books-md/meta/specification.md` |
@@ -243,8 +204,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Swe Bench Technical Report | 2,746 | meta-expert | P2 | `raw/books-md/meta/swe-bench-technical-report.md` |
 | ✅ A | Swe Check 10X Faster | 3,565 | meta-expert | P2 | `raw/books-md/meta/swe-check-10x-faster.md` |
 | ✅ A | Swe Grep | 3,336 | meta-expert | P2 | `raw/books-md/meta/swe-grep.md` |
-| ✅ A | Terms Of Service | 2,805 | meta-expert | P2 | `raw/books-md/meta/terms-of-service.md` |
-| ✅ A | Terms Of Service February 2025 | 5,349 | meta-expert | P2 | `raw/books-md/meta/terms-of-service-february-2025.md` |
 | ✅ A | The Cost Of Building Cloud Agents | 1,814 | meta-expert | P2 | `raw/books-md/meta/the-cost-of-building-cloud-agents.md` |
 | ✅ A | Tools | 6,628 | meta-expert | P2 | `raw/books-md/meta/tools.md` |
 | ✅ A | Tracing Thoughts Language Model | 3,563 | meta-expert | P2 | `raw/books-md/meta/tracing-thoughts-language-model.md` |
@@ -252,9 +211,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Using Scripts | 6,798 | meta-expert | P2 | `raw/books-md/meta/using-scripts.md` |
 | ✅ A | Versioning | 3,325 | meta-expert | P2 | `raw/books-md/meta/versioning.md` |
 | ✅ A | Visible Extended Thinking | 2,901 | meta-expert | P2 | `raw/books-md/meta/visible-extended-thinking.md` |
-| ✅ A | Website Terms | 2,092 | meta-expert | P2 | `raw/books-md/meta/website-terms.md` |
 | ✅ A | What Are Skills | 2,365 | meta-expert | P2 | `raw/books-md/meta/what-are-skills.md` |
-| ✅ A | Windsurf | 1,190 | meta-expert | P2 | `raw/books-md/meta/windsurf.md` |
 | ✅ A | Working Interest Groups | 5,610 | meta-expert | P2 | `raw/books-md/meta/working-interest-groups.md` |
 | ✅ A | Writing Tools For Agents | 3,730 | meta-expert | P2 | `raw/books-md/meta/writing-tools-for-agents.md` |
 
@@ -373,7 +330,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ✅ A | 2 | 1,655 | philosophy-expert | P1 | `raw/books-md/philosophy/2.md` |
 | ✅ A | Accountability Equity | 1,202 | philosophy-expert | P1 | `raw/books-md/philosophy/accountability-equity.md` |
 | ✅ A | Accountability Leverage | 1,229 | philosophy-expert | P1 | `raw/books-md/philosophy/accountability-leverage.md` |
 | ✅ A | Agency | 1,275 | philosophy-expert | P1 | `raw/books-md/philosophy/agency.md` |
@@ -407,7 +363,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Infinity | 12,426 | philosophy-expert | P1 | `raw/books-md/philosophy/infinity.md` |
 | ✅ A | Infinity 2 | 10,545 | philosophy-expert | P1 | `raw/books-md/philosophy/infinity-2.md` |
 | ✅ A | Intelligence Energy Integrity | 1,381 | philosophy-expert | P1 | `raw/books-md/philosophy/intelligence-energy-integrity.md` |
-| ✅ A | Interviews | 1,213 | philosophy-expert | P1 | `raw/books-md/philosophy/interviews.md` |
 | ✅ A | Jorgenson Naval Almanack 2020 | 50,889 | philosophy-expert | P1 | `raw/books-md/philosophy/jorgenson-naval-almanack-2020.md` |
 | ✅ A | Judgment | 1,578 | philosophy-expert | P1 | `raw/books-md/philosophy/judgment.md` |
 | ✅ A | Kapil | 8,093 | philosophy-expert | P1 | `raw/books-md/philosophy/kapil.md` |
@@ -419,7 +374,6 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Matt Ridley | 5,826 | philosophy-expert | P1 | `raw/books-md/philosophy/matt-ridley.md` |
 | ✅ A | Matt Ridley 2 | 6,113 | philosophy-expert | P1 | `raw/books-md/philosophy/matt-ridley-2.md` |
 | ✅ A | Money Luck | 1,323 | philosophy-expert | P1 | `raw/books-md/philosophy/money-luck.md` |
-| ✅ A | Podcast | 1,737 | philosophy-expert | P1 | `raw/books-md/philosophy/podcast.md` |
 | ✅ A | Possible Careers | 1,212 | philosophy-expert | P1 | `raw/books-md/philosophy/possible-careers.md` |
 | ✅ A | Principal Agent | 1,519 | philosophy-expert | P1 | `raw/books-md/philosophy/principal-agent.md` |
 | ✅ A | Product Media | 1,368 | philosophy-expert | P1 | `raw/books-md/philosophy/product-media.md` |
