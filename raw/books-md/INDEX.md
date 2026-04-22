@@ -46,9 +46,9 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
 | ⚠️ B | Ashby Introduction To Cybernetics 1956 | 110,319 | systems-expert | P1 | `raw/books-md/cybernetics/ashby-introduction-to-cybernetics-1956.md` |
-| ❌ C | Beer Brain Of The Firm 1972 | 0 | systems-expert | P1 | `raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md` |
+| ✅ A | Beer Brain Of The Firm 1972 | 161,958 | systems-expert | P1 | `raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md` |
 | ⚠️ B | Kelly Out Of Control 1994 | 229,602 | systems-expert | P1 | `raw/books-md/cybernetics/kelly-out-of-control-1994.md` |
-| ❌ C | Wiener Cybernetics 2Ed 1961 | 0 | systems-expert | P1 | `raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md` |
+| ✅ A | Wiener Cybernetics 2Ed 1961 | 86,035 | systems-expert | P1 | `raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md` |
 
 ## §engineering-foundations
 
@@ -311,7 +311,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Fried Dhh Rework 2010 | 28,040 | mgmt-expert | P1 | `raw/books-md/mgmt/fried-dhh-rework-2010.md` |
 | ✅ A | Gettingreal | 1,655 | mgmt-expert | P1 | `raw/books-md/mgmt/gettingreal.md` |
 | ✅ A | Grove High Output Management | 68,333 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-high-output-management.md` |
-| ❌ C | Grove Only Paranoid Survive 1996 | 0 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-only-paranoid-survive-1996.md` |
+| ✅ A | Grove Only Paranoid Survive 1996 | 54,553 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-only-paranoid-survive-1996.md` |
 | ✅ A | Horowitz Hard Thing About Hard Things 2014 | 80,061 | mgmt-expert | P1 | `raw/books-md/mgmt/horowitz-hard-thing-about-hard-things-2014.md` |
 | ⚠️ B | Laloux Reinventing Organizations 2014 | 153,000 | mgmt-expert | P1 | `raw/books-md/mgmt/laloux-reinventing-organizations-2014.md` |
 | ✅ A | Watkins First 90 Days 2013 | 68,609 | mgmt-expert | P1 | `raw/books-md/mgmt/watkins-first-90-days-2013.md` |
@@ -320,7 +320,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ❌ C | Cagan Inspired 2Ed 2017 | 0 | pm-expert | P1 | `raw/books-md/pdm/cagan-inspired-2ed-2017.md` |
+| ✅ A | Cagan Inspired 2Ed 2017 | 63,365 | pm-expert | P1 | `raw/books-md/pdm/cagan-inspired-2ed-2017.md` |
 | ✅ A | Cagan Transformed 2024 | 86,808 | pm-expert | P1 | `raw/books-md/pdm/cagan-transformed-2024.md` |
 | ✅ A | Doerr Measure What Matters 2018 | 63,734 | pm-expert | P1 | `raw/books-md/pdm/doerr-measure-what-matters-2018.md` |
 | ✅ A | Ries Lean Startup 2011 | 83,591 | pm-expert | P1 | `raw/books-md/pdm/ries-lean-startup-2011.md` |
@@ -403,7 +403,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 |---|---|---:|---|---|---|
 | ✅ A | Kuhn Structure Of Scientific Revolutions 50Anniv 2012 | 91,580 | philosophy-expert | P1 | `raw/books-md/philosophy-science/kuhn-structure-of-scientific-revolutions-50anniv-2012.md` |
 | ✅ A | Notes | 4,711 | philosophy-expert | P1 | `raw/books-md/philosophy-science/notes.md` |
-| ❌ C | Popper Conjectures And Refutations 1963 | 0 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md` |
+| ✅ A | Popper Conjectures And Refutations 1963 | 209,987 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md` |
 | ⚠️ B | Popper Logic Of Scientific Discovery | 203,807 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-logic-of-scientific-discovery.md` |
 
 ## §pm
