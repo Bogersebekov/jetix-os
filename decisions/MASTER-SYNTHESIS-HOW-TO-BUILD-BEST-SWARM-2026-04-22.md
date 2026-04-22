@@ -1,7 +1,22 @@
 ---
 title: Master Synthesis — How to Build the Best Swarm 2026
 date: 2026-04-22
-status: draft (Part 1 drafted; Parts 2-6 pending)
+status: final, approved (gate 1 approved 2026-04-22; gate 2 approved 2026-04-22)
+approvals:
+  - gate: 1
+    scope: matrix 5×4 pattern + 10 load-bearing design choices (Part 4)
+    approved_by: Ruslan
+    approved_on: 2026-04-22
+    decision_file: decisions/AWAITING-APPROVAL-master-synthesis-matrix-2026-04-22.md
+  - gate: 2
+    scope: full blueprint Parts 1-6 + appendices; adversarial-review revisions integrated
+    approved_by: Ruslan
+    approved_on: 2026-04-22
+    decision_file: decisions/AWAITING-APPROVAL-master-synthesis-final-2026-04-22.md
+adversarial_review: raw/research/step-2-1-extractions/CRITIC-REVIEW-master-synthesis.md
+word_count: 26259
+anti_patterns_catalogued: 29
+successor_task: Шаг 2.2 — agent construction (6 system prompts from this blueprint), launched as separate Claude Code session
 target: decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md
 branch: claude/jolly-margulis-915d34
 phase: A (baseline swarm creation)
@@ -19,12 +34,14 @@ inputs:
   - raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md
   - raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md
 parts:
-  - 1-ontology
-  - 2-evidence
-  - 3-anti-patterns
-  - 4-jetix-matrix-patterns
-  - 5-implementation-primitives
-  - 6-testing-validation
+  - 1-ontology (drafted)
+  - 2-evidence (drafted)
+  - 3-anti-patterns (drafted, 29 items)
+  - 4-jetix-matrix-patterns (drafted, gate 1 approved)
+  - 5-implementation-primitives (drafted, gate 2 approved)
+  - 6-testing-validation (drafted, gate 2 approved)
+  - appendix-a-compliance-matrix
+  - appendix-b-definitions-quick-ref
 citation_convention: "file § anchor" where file is shorthand (R-1..R-11, SYNTHESIS, Every, EXEC, RESULT-05/06/07, ALIGN, DIET, PRE, ST2, ST2B, Brief) and anchor is section/§/Q number; sub-agent extractions cited as EXT-A..EXT-E.
 ---
 
