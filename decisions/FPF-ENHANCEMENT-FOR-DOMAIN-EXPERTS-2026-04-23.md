@@ -1,10 +1,16 @@
 ---
 title: FPF Enhancement for Domain-Expert Skeleton (Step 2.2.2)
 date: 2026-04-23
-status: AWAITING-APPROVAL
-target_executor: Шаг 2.2.4 agent-construction prompt
-gate: single — commit + push + pause
+status: APPROVED
+approved_by: Ruslan
+approved_date: 2026-04-23
+directive: 200% — all 18 enhancements (E-1..E-18) applied at maximum depth
+target_executor: Шаг 2.2.4 agent-construction prompt (deferred; gated by Wiki v3 Стадия B+C)
+gate: single — approved at maximum depth
 upstream_artefact: decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md §5
+clarifications:
+  - α-5 Direction scope = Phase A lightweight (state enum only); full NQD-CAL formalization deferred Phase B
+  - brigadier executor = claude-opus-4-7 (per Anthropic orchestrator pattern)
 extraction_sources:
   - raw/research/step-2-2-2-extractions/A-fpf-spec-5-primitives.md
   - raw/research/step-2-2-2-extractions/B-8blocks-10alphas-rituals.md
@@ -1481,20 +1487,24 @@ Step 2.2.4 agent-construction is successful when:
 
 ## Appendix C — Status and next step
 
-**Status:** AWAITING-APPROVAL.
+**Status:** APPROVED by Ruslan 2026-04-23. Directive: 200% — all 18
+enhancements applied at maximum depth. No cuts, no downsizing.
 
-**Gate file:** this document. Ruslan response options:
-- **Approve** → rename to `decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md`
-  (drop AWAITING- prefix); Шаг 2.2.4 can begin.
-- **Redirect** → specific enhancement IDs (E-N) to revise; others hold.
-- **Drill-down** → specific enhancement IDs need deeper analysis;
-  spawn targeted sub-agent.
-- **Abort** → back to Step 2.2.1 or earlier; flag what broke.
+**Clarifications accepted (with defaults):**
+- α-5 Direction: Phase A lightweight (state enum only). Phase B full
+  NQD-CAL formalization deferred.
+- Brigadier executor: `claude-opus-4-7` (per Anthropic orchestrator pattern).
 
-**Commit hash:** recorded via the commit that introduces this file.
+**Шаг 2.2.4 NOT launched in this session.** Explicit sequencing from Ruslan:
+Шаг 2.2.4 (agent construction) is deferred until:
+1. Wiki v3 Стадия B mechanics discussion (next in queue with Ruslan).
+2. Wiki v3 Стадия C architecture spec (Claude Code deep scan).
+3. 2 preparatory artefacts created:
+   - `swarm/wiki/foundations/swarm-alphas.md`
+   - `swarm/lib/shared-protocols.md`
 
-**Next step (on approval):** Шаг 2.2.3 (Wiki v3 task-scoped assembly spec)
-OR Шаг 2.2.4 (agent-construction master prompt) — Ruslan chooses order.
+**Commit hash:** recorded via the approval commit that renames this file
+to its final form.
 
 ---
 
