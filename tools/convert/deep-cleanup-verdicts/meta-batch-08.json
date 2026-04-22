@@ -1,0 +1,11 @@
+[
+  {"path": "raw/books-md/meta/transports.md", "verdict": "KEEP", "reason": "MCP Base Protocol Transports specification — canonical documentation, 4522 words."},
+  {"path": "raw/books-md/meta/using-scripts.md", "verdict": "KEEP", "reason": "Anthropic Agent Skills documentation on using scripts — 6798 words of substantive technical content."},
+  {"path": "raw/books-md/meta/versioning.md", "verdict": "KEEP", "reason": "MCP Publishing/Versioning spec documentation — canonical reference, 3325 words."},
+  {"path": "raw/books-md/meta/visible-extended-thinking.md", "verdict": "KEEP", "reason": "Anthropic announcement on Claude extended thinking — substantive deep-dive with technical detail."},
+  {"path": "raw/books-md/meta/website-terms.md", "verdict": "DELETE", "reason": "Devin.ai website terms of service — legal page, not substantive content."},
+  {"path": "raw/books-md/meta/what-are-skills.md", "verdict": "KEEP", "reason": "Anthropic Agent Skills introduction with PDF processing example — substantive technical documentation."},
+  {"path": "raw/books-md/meta/windsurf.md", "verdict": "DELETE", "reason": "Devin.ai Windsurf product navigation page — 1190 words mostly site boilerplate/SVG, no original content."},
+  {"path": "raw/books-md/meta/working-interest-groups.md", "verdict": "KEEP", "reason": "MCP governance spec on Working and Interest Groups — canonical documentation, 5610 words."},
+  {"path": "raw/books-md/meta/writing-tools-for-agents.md", "verdict": "KEEP", "reason": "Anthropic engineering deep-dive on writing effective tools for agents — canonical 3730-word post."}
+]

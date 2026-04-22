@@ -1,0 +1,177 @@
+[
+  {
+    "path": "raw/books-md/meta/3.md",
+    "title": "3",
+    "word_count": 1451,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/414-request-meta.md",
+    "title": "414 Request Meta",
+    "word_count": 3687,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-414: Document OpenTelemetry Trace Context Propagation Conventions Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!h"
+  },
+  {
+    "path": "raw/books-md/meta/932-model-context-protocol-governance.md",
+    "title": "932 Model Context Protocol Governance",
+    "word_count": 3941,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-932: Model Context Protocol Governance Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>"
+  },
+  {
+    "path": "raw/books-md/meta/973-expose-additional-metadata-for-implementations-res.md",
+    "title": "973 Expose Additional Metadata For Implementations Res",
+    "word_count": 4150,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-973: Expose additional metadata for Implementations, Resources, Tools and Prompts Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:fi"
+  },
+  {
+    "path": "raw/books-md/meta/985-align-oauth-20-protected-resource-metadata-with-rf.md",
+    "title": "985 Align Oauth 20 Protected Resource Metadata With Rf",
+    "word_count": 3476,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-985: Align OAuth 2.0 Protected Resource Metadata with RFC 9728 Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidd"
+  },
+  {
+    "path": "raw/books-md/meta/986-specify-format-for-tool-names.md",
+    "title": "986 Specify Format For Tool Names",
+    "word_count": 3494,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-986: Specify Format for Tool Names Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:"
+  },
+  {
+    "path": "raw/books-md/meta/990-enable-enterprise-idp-policy-controls-during-mcp-o.md",
+    "title": "990 Enable Enterprise Idp Policy Controls During Mcp O",
+    "word_count": 3070,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-990: Enable enterprise IdP policy controls during MCP OAuth flows Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!h"
+  },
+  {
+    "path": "raw/books-md/meta/991-enable-url-based-client-registration-using-oauth-c.md",
+    "title": "991 Enable Url Based Client Registration Using Oauth C",
+    "word_count": 6256,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-991: Enable URL-based Client Registration using OAuth Client ID Metadata Documents Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:f"
+  },
+  {
+    "path": "raw/books-md/meta/994-shared-communication-practicesguidelines.md",
+    "title": "994 Shared Communication Practicesguidelines",
+    "word_count": 3802,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Final SEP-994: Shared Communication Practices/Guidelines Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-cen"
+  },
+  {
+    "path": "raw/books-md/meta/a-postmortem-of-three-recent-issues.md",
+    "title": "A Postmortem Of Three Recent Issues",
+    "word_count": 2411,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # A postmortem of three recent issues Published Sep 17, 2025 This is a technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're changing. Between August and early September, three infrastructure bugs intermittently degraded Claude's response quality. We've now resolved these issues and want to explain what happened. In early August, a number of users began reporting degraded responses from Claude. These initial reports were difficult to distinguish from normal variation in"
+  },
+  {
+    "path": "raw/books-md/meta/about.md",
+    "title": "About",
+    "word_count": 2987,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation The MCP Registry Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-child]:md:!hidden peer"
+  },
+  {
+    "path": "raw/books-md/meta/adding-skills-support.md",
+    "title": "Adding Skills Support",
+    "word_count": 7200,
+    "quality_grade": "A",
+    "preview": "Skip to main content *]:truncate font-medium bg-primary-dark text-white/90 dark:text-white/90 [&_*]:!text-white/90 dark:[&_*]:!text-white/90 [&_a:hover]:decoration-primary-light z-[45]\"> p]:m-0\"> Agent Skills now has an official Discord server . See the announcement for details. Agent Skills home page Agent Skills Search... ⌘K Ask AI - agentskills/agentskills - agentskills/agentskills Search... Navigation For client implementors How to add skills support to your agent div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-["
+  },
+  {
+    "path": "raw/books-md/meta/advanced-tool-use.md",
+    "title": "Advanced Tool Use",
+    "word_count": 3753,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Introducing advanced tool use on the Claude Developer Platform Published Nov 24, 2025 We’ve added three new beta features that let Claude discover, learn, and execute tools dynamically. Here’s how they work. The future of AI agents is one where models work seamlessly across hundreds or thousands of tools. An IDE assistant that integrates git operations, file manipulation, package managers, testing frameworks, and deployment pipelines. An operations coordinator that connects Slack, GitHub, Google Drive, Jira, company databases, and dozens of MCP servers simultaneously"
+  },
+  {
+    "path": "raw/books-md/meta/agent-trace.md",
+    "title": "Agent Trace",
+    "word_count": 1381,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/ai-data-analyst.md",
+    "title": "Ai Data Analyst",
+    "word_count": 1165,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/ai-resistant-technical-evaluations.md",
+    "title": "Ai Resistant Technical Evaluations",
+    "word_count": 2869,
+    "quality_grade": "A",
+    "preview": "Engineering at Anthropic # Designing AI-resistant technical evaluations Published Jan 21, 2026 What we learned from three iterations of a performance engineering take-home that Claude keeps beating. *Written by Tristan Hume, a lead on Anthropic's performance optimization team. Tristan designed—and redesigned—the take-home test that's helped Anthropic hire dozens of performance engineers.* Evaluating technical candidates becomes harder as AI capabilities improve. A take-home that distinguishes well between human skill levels today may be trivially solved by models tomorrow—rendering it useless "
+  },
+  {
+    "path": "raw/books-md/meta/architecture.md",
+    "title": "Architecture",
+    "word_count": 2577,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Version 2025-11-25 (latest) Search... ⌘K - Blog - GitHub Search... Navigation Architecture Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:firs"
+  },
+  {
+    "path": "raw/books-md/meta/authentication.md",
+    "title": "Authentication",
+    "word_count": 3656,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Publishing How to Authenticate When Publishing to the Official MCP Registry Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!h"
+  },
+  {
+    "path": "raw/books-md/meta/authorization.md",
+    "title": "Authorization",
+    "word_count": 9503,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Version 2025-11-25 (latest) Search... ⌘K - Blog - GitHub Search... Navigation Base Protocol Authorization Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-cent"
+  },
+  {
+    "path": "raw/books-md/meta/basic.md",
+    "title": "Basic",
+    "word_count": 4836,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Version 2025-11-25 (latest) Search... ⌘K - Blog - GitHub Search... Navigation Base Protocol Overview Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:["
+  },
+  {
+    "path": "raw/books-md/meta/best-practices.md",
+    "title": "Best Practices",
+    "word_count": 6337,
+    "quality_grade": "A",
+    "preview": "Skip to main content *]:truncate font-medium bg-primary-dark text-white/90 dark:text-white/90 [&_*]:!text-white/90 dark:[&_*]:!text-white/90 [&_a:hover]:decoration-primary-light z-[45]\"> p]:m-0\"> Agent Skills now has an official Discord server . See the announcement for details. Agent Skills home page Agent Skills Search... ⌘K Ask AI - agentskills/agentskills - agentskills/agentskills Search... Navigation For skill creators Best practices for skill creators div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]"
+  },
+  {
+    "path": "raw/books-md/meta/blockdiff.md",
+    "title": "Blockdiff",
+    "word_count": 2937,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/blog.md",
+    "title": "Blog",
+    "word_count": 1920,
+    "quality_grade": "A",
+    "preview": "[](index.html) devin ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBkPSJNOCwyLjM1M3Y2LjY2NCIgLz4gPHBhdGggZD0iTTQuNjY4LDUuNjg1aDYuNjY0IiAvPiA8L3N2Zz4=) - ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz0ic3QwIiBwb2ludHM9IjUuNDkgMy4xOCAxMC41MSAzLjE4IDEwLjUxIDguMTkiPjwvcG9seWxpbmU+IDwvc3ZnPg==) Overview ![](data:image/svg+xml;base64,PHN2ZyB2aWV3Ym94PSIwIDAgMTYgMTYiPiA8cGF0aCBjbGFzcz0ic3QxIiBkPSJNNS40OSw4LjE5czQuODctNC44Nyw1LjAxLTUuMDEiIC8+IDxwb2x5bGluZSBjbGFzcz"
+  },
+  {
+    "path": "raw/books-md/meta/books.md",
+    "title": "Books",
+    "word_count": 1227,
+    "quality_grade": "A",
+    "preview": "books Some of the sci-fi I've read, sorted by the product of (recommended \\* obscure), descending. You'll notice a few trends: - I like hard sci-fi and read for intriguing technical ideas, world-building, and future forecasting. - I do not like flowery descriptions of the scenary, the details of someone's brow, or other related literary bloat. - I cannot stand unimaginative aliens who are humanoid, have faces, speak by sound, etc., unless panspermia is invoked. - I especially enjoy sci-fi that features Artificial Intelligence. I believe AI is the greatest omission from most sci-fi worlds. ----"
+  },
+  {
+    "path": "raw/books-md/meta/build-client.md",
+    "title": "Build Client",
+    "word_count": 20376,
+    "quality_grade": "A",
+    "preview": "Skip to main content Model Context Protocol home page Search... ⌘K - Blog - GitHub Search... Navigation Develop with MCP Build an MCP client Documentation Extensions Specification Registry SEPs Community div:last-child]:max-w-6xl peer-[.is-custom]:[&>div:first-child]:!hidden peer-[.is-custom]:[&>div:first-child]:sm:!hidden peer-[.is-custom]:[&>div:first-child]:md:!hidden peer-[.is-custom]:[&>div:first-child]:lg:!hidden peer-[.is-custom]:[&>div:first-child]:xl:!hidden peer-[.is-center]:[&>div:first-child]:!hidden peer-[.is-center]:[&>div:first-child]:sm:!hidden peer-[.is-center]:[&>div:first-ch"
+  }
+]

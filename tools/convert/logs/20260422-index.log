@@ -1,2 +1,8 @@
 [2026-04-22 10:17:04] [INFO] === STEP 6: Build INDEX ===
 [2026-04-22 10:17:04] [INFO] INDEX written: raw/books-md/INDEX.md
+[2026-04-22 15:51:15] [INFO] === STEP 6: Build INDEX ===
+[2026-04-22 15:51:15] [WARN] Skip _INVENTORY-REVIEW.md: 'utf-8' codec can't decode byte 0x97 in position 58: invalid start byte
+[2026-04-22 15:51:15] [INFO] INDEX written: raw/books-md/INDEX.md
+[2026-04-22 16:06:32] [INFO] === STEP 6: Build INDEX ===
+[2026-04-22 16:06:32] [WARN] Skip _INVENTORY-REVIEW.md: 'utf-8' codec can't decode byte 0x97 in position 58: invalid start byte
+[2026-04-22 16:06:32] [INFO] INDEX written: raw/books-md/INDEX.md

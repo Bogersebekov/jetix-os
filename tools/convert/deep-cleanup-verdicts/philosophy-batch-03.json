@@ -1,0 +1,21 @@
+[
+  {"path": "raw/books-md/philosophy/rational-optimists.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay on partnering with rational optimists."},
+  {"path": "raw/books-md/philosophy/renting-time.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay — You Won't Get Rich Renting Out Your Time."},
+  {"path": "raw/books-md/philosophy/rich-quick.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay — There Are No Get Rich Quick Schemes."},
+  {"path": "raw/books-md/philosophy/science.md", "verdict": "UNCERTAIN", "reason": "nav.al category aggregator page (blog-archive), not an original essay; contains podcast teasers with Deutsch Files content."},
+  {"path": "raw/books-md/philosophy/seek-wealth.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay — Seek Wealth, Not Money or Status."},
+  {"path": "raw/books-md/philosophy/simplest.md", "verdict": "KEEP", "reason": "Substantive Naval 2025 essay — Find the Simplest Thing That Works."},
+  {"path": "raw/books-md/philosophy/skill-business.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay — There's No Actual Skill Called Business."},
+  {"path": "raw/books-md/philosophy/specific-knowledge.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay on specific knowledge."},
+  {"path": "raw/books-md/philosophy/startups.md", "verdict": "UNCERTAIN", "reason": "nav.al Startups category aggregator page; contains Motorcycle for the Mind podcast teaser on AI."},
+  {"path": "raw/books-md/philosophy/the-aging-entrepreneur.md", "verdict": "KEEP", "reason": "Substantive 2007 Naval essay analyzing Andreesen's productivity/age data."},
+  {"path": "raw/books-md/philosophy/the-box.md", "verdict": "KEEP", "reason": "Naval philosophical fiction piece — unique substantive content."},
+  {"path": "raw/books-md/philosophy/there-is-no-angel-bubble-there-are-many-angel-bubbles.md", "verdict": "KEEP", "reason": "Substantive 2010 Naval analytical essay on angel investing bubbles."},
+  {"path": "raw/books-md/philosophy/uncategorized.md", "verdict": "UNCERTAIN", "reason": "nav.al Uncategorized category aggregator page; contains Curate People podcast teaser on hiring."},
+  {"path": "raw/books-md/philosophy/venture-capital.md", "verdict": "UNCERTAIN", "reason": "nav.al Venture Capital category aggregator page; contains How to Angel Invest Part 2 teasers."},
+  {"path": "raw/books-md/philosophy/vitalik-2.md", "verdict": "KEEP", "reason": "Substantive 5458-word Vitalik Buterin Ethereum interview Part 2."},
+  {"path": "raw/books-md/philosophy/vitalik.md", "verdict": "KEEP", "reason": "Substantive 9752-word Vitalik Buterin Ethereum interview Part 1."},
+  {"path": "raw/books-md/philosophy/wealth.md", "verdict": "UNCERTAIN", "reason": "nav.al Wealth category aggregator page (blog-archive), overlaps with science.md — Deutsch Files teasers."},
+  {"path": "raw/books-md/philosophy/work-hard.md", "verdict": "KEEP", "reason": "Canonical Naval Almanack essay — Work As Hard As You Can."},
+  {"path": "raw/books-md/philosophy/working-ourselves.md", "verdict": "KEEP", "reason": "Substantive Naval essay — We Should All Be Working for Ourselves."}
+]
