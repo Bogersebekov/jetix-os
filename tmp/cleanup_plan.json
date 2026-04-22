@@ -1,0 +1,4051 @@
+{
+  "delete": [
+    {
+      "path": "raw/books-md/cybernetics/ch1-a.md",
+      "size": 10162,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1552,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch1-b.md",
+      "size": 12925,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1948,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch1-c.md",
+      "size": 8386,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1245,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-a.md",
+      "size": 15355,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2391,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-b.md",
+      "size": 17278,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2772,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-c.md",
+      "size": 15986,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2494,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-d.md",
+      "size": 10930,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1666,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-e.md",
+      "size": 20696,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3167,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch10-f.md",
+      "size": 15526,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2299,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch11-a.md",
+      "size": 11922,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1773,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch11-b.md",
+      "size": 19180,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2986,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch11-c.md",
+      "size": 20912,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3163,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch11-d.md",
+      "size": 22672,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3529,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch11-e.md",
+      "size": 14954,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2252,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-a.md",
+      "size": 26812,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4059,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-b.md",
+      "size": 16798,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2607,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-c.md",
+      "size": 25461,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4005,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-d.md",
+      "size": 29104,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4618,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-e.md",
+      "size": 12046,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1815,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch12-f.md",
+      "size": 12637,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1850,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-a.md",
+      "size": 11496,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1778,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-b.md",
+      "size": 22012,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3439,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-c.md",
+      "size": 21111,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3346,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-d.md",
+      "size": 11370,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1734,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-e.md",
+      "size": 23974,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3836,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-f.md",
+      "size": 15379,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2332,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-g.md",
+      "size": 9251,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1367,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-h.md",
+      "size": 19771,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3128,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch13-i.md",
+      "size": 11283,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1733,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-a.md",
+      "size": 24025,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3892,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-b.md",
+      "size": 15314,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2308,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-c.md",
+      "size": 23070,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3650,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-d.md",
+      "size": 14579,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2242,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-e.md",
+      "size": 15453,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2408,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-f.md",
+      "size": 18436,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2869,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch14-g.md",
+      "size": 12355,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1948,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-a.md",
+      "size": 20921,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3283,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-b.md",
+      "size": 16953,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2669,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-c.md",
+      "size": 19372,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2925,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-d.md",
+      "size": 16265,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2511,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-e.md",
+      "size": 10111,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1497,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-f.md",
+      "size": 17734,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2709,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-g.md",
+      "size": 19268,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2923,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-h.md",
+      "size": 14828,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2205,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch15-i.md",
+      "size": 15418,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2370,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-a.md",
+      "size": 18337,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2900,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-b.md",
+      "size": 16641,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2604,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-c.md",
+      "size": 19144,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3056,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-d.md",
+      "size": 12671,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1905,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-e.md",
+      "size": 16398,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2470,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-f.md",
+      "size": 14336,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2298,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch16-g.md",
+      "size": 12104,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1890,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-a.md",
+      "size": 12067,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1906,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-b.md",
+      "size": 12645,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1950,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-c.md",
+      "size": 16973,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2659,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-d.md",
+      "size": 17372,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2730,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-e.md",
+      "size": 11321,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1711,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-f.md",
+      "size": 15312,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2418,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-g.md",
+      "size": 12695,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1890,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch17-h.md",
+      "size": 19424,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2923,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch18-a.md",
+      "size": 14803,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2275,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch18-b.md",
+      "size": 18098,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2811,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch18-c.md",
+      "size": 17660,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2685,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch18-d.md",
+      "size": 12036,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1741,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch18-e.md",
+      "size": 9351,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1393,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-a.md",
+      "size": 16906,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2563,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-b.md",
+      "size": 14658,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2187,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-c.md",
+      "size": 11777,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1751,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-d.md",
+      "size": 17023,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2627,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-e.md",
+      "size": 15064,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2286,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-f.md",
+      "size": 13160,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1990,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-g.md",
+      "size": 12421,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1844,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-h.md",
+      "size": 12922,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1971,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-i.md",
+      "size": 12648,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1912,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch19-j.md",
+      "size": 13596,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2025,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-a.md",
+      "size": 15601,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2506,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-b.md",
+      "size": 17478,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2810,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-c.md",
+      "size": 13383,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2089,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-d.md",
+      "size": 26935,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4274,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-e.md",
+      "size": 9796,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1473,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-f.md",
+      "size": 19227,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2928,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch2-g.md",
+      "size": 16766,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2636,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch20-a.md",
+      "size": 13006,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2002,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch20-b.md",
+      "size": 15089,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2343,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch20-c.md",
+      "size": 14003,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2160,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch20-d.md",
+      "size": 21221,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3283,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch20-e.md",
+      "size": 17617,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2685,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch21-a.md",
+      "size": 19015,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3017,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch21-b.md",
+      "size": 19455,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3016,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch21-c.md",
+      "size": 24691,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3770,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch21-d.md",
+      "size": 12618,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1883,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-a.md",
+      "size": 17623,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2722,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-b.md",
+      "size": 13357,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1954,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-c.md",
+      "size": 13115,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1896,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-d.md",
+      "size": 20910,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3266,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-e.md",
+      "size": 17441,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2717,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-f.md",
+      "size": 18619,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2843,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-g.md",
+      "size": 10932,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1638,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-h.md",
+      "size": 9674,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1441,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-i.md",
+      "size": 27354,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4276,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch22-j.md",
+      "size": 10651,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1591,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch23-a.md",
+      "size": 19136,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2907,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch23-b.md",
+      "size": 16240,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2501,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch23-c.md",
+      "size": 18842,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2951,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch23-d.md",
+      "size": 17435,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2599,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch23-e.md",
+      "size": 16365,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2550,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch24-a.md",
+      "size": 15298,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2323,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch24-b.md",
+      "size": 11043,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1599,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-a.md",
+      "size": 33756,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 5141,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-b.md",
+      "size": 20066,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3045,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-c.md",
+      "size": 18051,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2794,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-d.md",
+      "size": 12964,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1964,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-e.md",
+      "size": 16600,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2557,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-f.md",
+      "size": 10499,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1606,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch3-g.md",
+      "size": 22774,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3591,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch4-a.md",
+      "size": 15481,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2298,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch4-b.md",
+      "size": 14701,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2310,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch4-c.md",
+      "size": 14384,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2195,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch4-d.md",
+      "size": 13623,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2052,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch4-e.md",
+      "size": 13669,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2140,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch5-a.md",
+      "size": 19152,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3028,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch5-b.md",
+      "size": 18626,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2835,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch5-c.md",
+      "size": 17015,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2614,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch5-d.md",
+      "size": 19183,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2976,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch5-e.md",
+      "size": 25444,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3902,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-a.md",
+      "size": 16233,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2486,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-b.md",
+      "size": 18754,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2931,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-c.md",
+      "size": 14600,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2210,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-d.md",
+      "size": 11582,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1726,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-e.md",
+      "size": 19805,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3157,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-f.md",
+      "size": 14926,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2353,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch6-g.md",
+      "size": 13958,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2135,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch7-a.md",
+      "size": 21137,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3300,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch7-b.md",
+      "size": 16037,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2486,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch7-c.md",
+      "size": 22816,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3517,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch7-d.md",
+      "size": 17426,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2675,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-a.md",
+      "size": 18649,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2897,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-b.md",
+      "size": 17168,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2658,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-c.md",
+      "size": 16080,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2467,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-d.md",
+      "size": 16346,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2448,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-e.md",
+      "size": 27138,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 4241,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch8-f.md",
+      "size": 13623,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2085,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch9-a.md",
+      "size": 17826,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2679,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch9-b.md",
+      "size": 15005,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2246,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch9-c.md",
+      "size": 24193,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 3843,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch9-d.md",
+      "size": 15331,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 2348,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/ch9-e.md",
+      "size": 11740,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 1830,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/chbibal.md",
+      "size": 61007,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 8419,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/cybernetics/chbibmz.md",
+      "size": 47134,
+      "reason": "rule3-chapter-dupe-of:kelly-out-of-control-1994.md",
+      "word_count": 6551,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/cybernetics/contentsphp.md",
+      "size": 13964,
+      "reason": "rule3-known-fragment:contentsphp.md",
+      "word_count": 1236,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/indexphp.md",
+      "size": 5253,
+      "reason": "rule1-C-grade-tiny:531w",
+      "word_count": 531,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/cybernetics/reviewsphp.md",
+      "size": 4809,
+      "reason": "rule1-C-grade-tiny:531w",
+      "word_count": 531,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/cybernetics/selected_maximsphp.md",
+      "size": 7264,
+      "reason": "rule3-known-fragment:selected_maximsphp.md",
+      "word_count": 1110,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/cybernetics/translationsphp.md",
+      "size": 2572,
+      "reason": "rule1-C-grade-tiny:220w",
+      "word_count": 220,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/acceptable-use-policy.md",
+      "size": 36630,
+      "reason": "rule4-trash-filename:acceptable-use-policy.md",
+      "word_count": 1757,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/meta/antitrust.md",
+      "size": 54623,
+      "reason": "rule4-trash-filename:antitrust.md",
+      "word_count": 2812,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/meta/brand.md",
+      "size": 39833,
+      "reason": "rule1-C-grade-tiny:868w",
+      "word_count": 868,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/careers.md",
+      "size": 31084,
+      "reason": "rule4-trash-filename:careers.md",
+      "word_count": 736,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/coding-agents-101-the-art-of-actually-getting-things-done.md",
+      "size": 28719,
+      "reason": "rule1-C-grade-tiny:573w",
+      "word_count": 573,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/cognition-for-government.md",
+      "size": 31276,
+      "reason": "rule1-C-grade-tiny:912w",
+      "word_count": 912,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/cognition-london.md",
+      "size": 30286,
+      "reason": "rule1-C-grade-tiny:775w",
+      "word_count": 775,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/cognizant-cognition.md",
+      "size": 30458,
+      "reason": "rule1-C-grade-tiny:780w",
+      "word_count": 780,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/contact.md",
+      "size": 27867,
+      "reason": "rule4-trash-filename:contact.md",
+      "word_count": 512,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/data-processing-addendum.md",
+      "size": 27871,
+      "reason": "rule4-trash-filename:data-processing-addendum.md",
+      "word_count": 507,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/index.md",
+      "size": 12698,
+      "reason": "rule4-trash-filename:index.md",
+      "word_count": 1219,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/meta/infosys-cognition.md",
+      "size": 31375,
+      "reason": "rule1-C-grade-tiny:897w",
+      "word_count": 897,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/mcp-marketplace.md",
+      "size": 30368,
+      "reason": "rule1-C-grade-tiny:786w",
+      "word_count": 786,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/open-source-initiative-is-back.md",
+      "size": 33132,
+      "reason": "rule1-C-grade-tiny:894w",
+      "word_count": 894,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/security.md",
+      "size": 29339,
+      "reason": "rule4-trash-filename:security.md",
+      "word_count": 689,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/windsurf-data-use.md",
+      "size": 28264,
+      "reason": "rule1-C-grade-tiny:514w",
+      "word_count": 514,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/zero-to-hero.md",
+      "size": 6730,
+      "reason": "rule1-C-grade-tiny:915w",
+      "word_count": 915,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/mgmt/123-silly-rabbit-tricks-are-for-kids.md",
+      "size": 14036,
+      "reason": "rule1-C-grade-tiny:978w",
+      "word_count": 978,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/mgmt/124-a-softer-bullet.md",
+      "size": 13982,
+      "reason": "rule1-C-grade-tiny:975w",
+      "word_count": 975,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/mgmt/134-solicit-early.md",
+      "size": 14078,
+      "reason": "rule1-C-grade-tiny:995w",
+      "word_count": 995,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/mgmt/156-keep-up-with-the-joneses.md",
+      "size": 14075,
+      "reason": "rule1-C-grade-tiny:982w",
+      "word_count": 982,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/a-founders-anxiety.md",
+      "size": 1783,
+      "reason": "rule1-C-grade-tiny:154w",
+      "word_count": 154,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/a-user-model-for-social-software.md",
+      "size": 1939,
+      "reason": "rule1-C-grade-tiny:180w",
+      "word_count": 180,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/a-venture-sla.md",
+      "size": 5008,
+      "reason": "rule1-C-grade-tiny:667w",
+      "word_count": 667,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/accountability.md",
+      "size": 9136,
+      "reason": "rule1-C-grade-tiny:881w",
+      "word_count": 881,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/addiction.md",
+      "size": 6748,
+      "reason": "rule1-C-grade-tiny:495w",
+      "word_count": 495,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/advances.md",
+      "size": 6731,
+      "reason": "rule1-C-grade-tiny:432w",
+      "word_count": 432,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/agi.md",
+      "size": 7199,
+      "reason": "rule1-C-grade-tiny:545w",
+      "word_count": 545,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/aliens.md",
+      "size": 6487,
+      "reason": "rule1-C-grade-tiny:432w",
+      "word_count": 432,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/american-culture.md",
+      "size": 2411,
+      "reason": "rule1-C-grade-tiny:214w",
+      "word_count": 214,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/archive.md",
+      "size": 20329,
+      "reason": "rule4-trash-filename:archive.md",
+      "word_count": 1775,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/philosophy/arena.md",
+      "size": 7572,
+      "reason": "rule1-C-grade-tiny:663w",
+      "word_count": 663,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/articles.md",
+      "size": 119167,
+      "reason": "rule4-trash-filename:articles.md",
+      "word_count": 7550,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/philosophy/at-stirr-events-vcs-fly-business-class-but-entrepreneurs-fly-coach-i-have-a-simi.md",
+      "size": 2286,
+      "reason": "rule1-C-grade-tiny:185w",
+      "word_count": 185,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/be-chaotic-neutral.md",
+      "size": 3641,
+      "reason": "rule1-C-grade-tiny:403w",
+      "word_count": 403,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/bill-burnham-on-the-future-of-google-base.md",
+      "size": 2060,
+      "reason": "rule1-C-grade-tiny:180w",
+      "word_count": 180,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/bold.md",
+      "size": 7538,
+      "reason": "rule1-C-grade-tiny:617w",
+      "word_count": 617,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/bubble.md",
+      "size": 2659,
+      "reason": "rule1-C-grade-tiny:231w",
+      "word_count": 231,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/build-a-team-that-ships.md",
+      "size": 2910,
+      "reason": "rule1-C-grade-tiny:340w",
+      "word_count": 340,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/carse-finite-and-infinite-games-1986.md",
+      "size": 1881,
+      "reason": "rule1-C-grade-tiny:219w",
+      "word_count": 219,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/caveman.md",
+      "size": 8654,
+      "reason": "rule1-C-grade-tiny:843w",
+      "word_count": 843,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/classifieds.md",
+      "size": 4305,
+      "reason": "rule1-C-grade-tiny:408w",
+      "word_count": 408,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/compromise.md",
+      "size": 8319,
+      "reason": "rule1-C-grade-tiny:780w",
+      "word_count": 780,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/conjectural.md",
+      "size": 8328,
+      "reason": "rule1-C-grade-tiny:748w",
+      "word_count": 748,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/consensus.md",
+      "size": 7402,
+      "reason": "rule1-C-grade-tiny:584w",
+      "word_count": 584,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/craigslist-takes-on-sand-hill-road.md",
+      "size": 2999,
+      "reason": "rule1-C-grade-tiny:320w",
+      "word_count": 320,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/credibility.md",
+      "size": 7482,
+      "reason": "rule1-C-grade-tiny:601w",
+      "word_count": 601,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/crypto.md",
+      "size": 9367,
+      "reason": "rule1-C-grade-tiny:353w",
+      "word_count": 353,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/dare-microsoft-kill-google-updated.md",
+      "size": 3163,
+      "reason": "rule1-C-grade-tiny:299w",
+      "word_count": 299,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/decentralization.md",
+      "size": 8919,
+      "reason": "rule1-C-grade-tiny:839w",
+      "word_count": 839,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/density.md",
+      "size": 8790,
+      "reason": "rule1-C-grade-tiny:805w",
+      "word_count": 805,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/desire.md",
+      "size": 6319,
+      "reason": "rule1-C-grade-tiny:459w",
+      "word_count": 459,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/discrete.md",
+      "size": 7503,
+      "reason": "rule1-C-grade-tiny:590w",
+      "word_count": 590,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/do-animals-laugh.md",
+      "size": 2849,
+      "reason": "rule1-C-grade-tiny:342w",
+      "word_count": 342,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/do.md",
+      "size": 6368,
+      "reason": "rule1-C-grade-tiny:499w",
+      "word_count": 499,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/docverse-and-mixer-labs-exit-stage-right.md",
+      "size": 2090,
+      "reason": "rule1-C-grade-tiny:168w",
+      "word_count": 168,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/einstein.md",
+      "size": 6666,
+      "reason": "rule1-C-grade-tiny:476w",
+      "word_count": 476,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/end.md",
+      "size": 7616,
+      "reason": "rule1-C-grade-tiny:644w",
+      "word_count": 644,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/enjoy.md",
+      "size": 8304,
+      "reason": "rule1-C-grade-tiny:839w",
+      "word_count": 839,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/envy.md",
+      "size": 8995,
+      "reason": "rule1-C-grade-tiny:938w",
+      "word_count": 938,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/error.md",
+      "size": 7579,
+      "reason": "rule1-C-grade-tiny:610w",
+      "word_count": 610,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/ethical-wealth.md",
+      "size": 8827,
+      "reason": "rule1-C-grade-tiny:882w",
+      "word_count": 882,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/ethics.md",
+      "size": 9401,
+      "reason": "rule1-C-grade-tiny:947w",
+      "word_count": 947,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/eventually.md",
+      "size": 10174,
+      "reason": "rule1-C-grade-tiny:996w",
+      "word_count": 996,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/evolution.md",
+      "size": 8225,
+      "reason": "rule1-C-grade-tiny:683w",
+      "word_count": 683,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/exceptional.md",
+      "size": 8150,
+      "reason": "rule1-C-grade-tiny:650w",
+      "word_count": 650,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/existence.md",
+      "size": 6500,
+      "reason": "rule1-C-grade-tiny:468w",
+      "word_count": 468,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/expand.md",
+      "size": 6733,
+      "reason": "rule1-C-grade-tiny:482w",
+      "word_count": 482,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/explanations.md",
+      "size": 6960,
+      "reason": "rule1-C-grade-tiny:545w",
+      "word_count": 545,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/externalities.md",
+      "size": 7135,
+      "reason": "rule1-C-grade-tiny:558w",
+      "word_count": 558,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/extrapolate.md",
+      "size": 7081,
+      "reason": "rule1-C-grade-tiny:548w",
+      "word_count": 548,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/extrapolating-computing.md",
+      "size": 2767,
+      "reason": "rule1-C-grade-tiny:319w",
+      "word_count": 319,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/failure.md",
+      "size": 7579,
+      "reason": "rule1-C-grade-tiny:643w",
+      "word_count": 643,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/far-away.md",
+      "size": 7719,
+      "reason": "rule1-C-grade-tiny:659w",
+      "word_count": 659,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/feedback.md",
+      "size": 8299,
+      "reason": "rule1-C-grade-tiny:757w",
+      "word_count": 757,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/find.md",
+      "size": 7183,
+      "reason": "rule1-C-grade-tiny:640w",
+      "word_count": 640,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/fix-the-search-interface-first.md",
+      "size": 3452,
+      "reason": "rule1-C-grade-tiny:293w",
+      "word_count": 293,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/funding-markets-develop-in-reverse.md",
+      "size": 4663,
+      "reason": "rule1-C-grade-tiny:607w",
+      "word_count": 607,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/get.md",
+      "size": 10093,
+      "reason": "rule1-C-grade-tiny:976w",
+      "word_count": 976,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/good-products.md",
+      "size": 9467,
+      "reason": "rule1-C-grade-tiny:929w",
+      "word_count": 929,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/google-should-pull-an-android-on-facebook.md",
+      "size": 3459,
+      "reason": "rule1-C-grade-tiny:413w",
+      "word_count": 413,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/gravity.md",
+      "size": 8833,
+      "reason": "rule1-C-grade-tiny:818w",
+      "word_count": 818,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/hiring.md",
+      "size": 7323,
+      "reason": "rule1-C-grade-tiny:634w",
+      "word_count": 634,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/hong-kong-is-civilized.md",
+      "size": 2322,
+      "reason": "rule1-C-grade-tiny:244w",
+      "word_count": 244,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/hourly-rate.md",
+      "size": 9049,
+      "reason": "rule1-C-grade-tiny:934w",
+      "word_count": 934,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/how-microsoft-can-obliterate-google.md",
+      "size": 2489,
+      "reason": "rule1-C-grade-tiny:223w",
+      "word_count": 223,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/how-to-pick-a-co-founder-at-venture-hacks.md",
+      "size": 1786,
+      "reason": "rule1-C-grade-tiny:142w",
+      "word_count": 142,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/ideas.md",
+      "size": 8474,
+      "reason": "rule1-C-grade-tiny:789w",
+      "word_count": 789,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/if-you-love-wealth-more-than-liberty-the-tranquility-of-servitude-better-than-th.md",
+      "size": 2196,
+      "reason": "rule1-C-grade-tiny:196w",
+      "word_count": 196,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/ignorance.md",
+      "size": 6867,
+      "reason": "rule1-C-grade-tiny:502w",
+      "word_count": 502,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/index.md",
+      "size": 40096,
+      "reason": "rule4-trash-filename:index.md",
+      "word_count": 1655,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/philosophy/indirect.md",
+      "size": 6351,
+      "reason": "rule1-C-grade-tiny:504w",
+      "word_count": 504,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/inefficient.md",
+      "size": 7097,
+      "reason": "rule1-C-grade-tiny:584w",
+      "word_count": 584,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/infinite-resources.md",
+      "size": 8435,
+      "reason": "rule1-C-grade-tiny:764w",
+      "word_count": 764,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/inspiration.md",
+      "size": 8191,
+      "reason": "rule1-C-grade-tiny:779w",
+      "word_count": 779,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/intelligent.md",
+      "size": 8454,
+      "reason": "rule1-C-grade-tiny:777w",
+      "word_count": 777,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/interview-on-entrepreneurship-up-at-gigaom-tv.md",
+      "size": 1860,
+      "reason": "rule4-trash-filename:interview-on-entrepreneurship-up-at-gigaom-tv.md",
+      "word_count": 154,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/introducing-venture-hacks.md",
+      "size": 2509,
+      "reason": "rule1-C-grade-tiny:198w",
+      "word_count": 198,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/isnt-it-obvious-what-web-20-is.md",
+      "size": 3215,
+      "reason": "rule1-C-grade-tiny:383w",
+      "word_count": 383,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/job-opening-at-my-new-company.md",
+      "size": 2631,
+      "reason": "rule1-C-grade-tiny:275w",
+      "word_count": 275,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/jobs.md",
+      "size": 6315,
+      "reason": "rule1-C-grade-tiny:399w",
+      "word_count": 399,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/justified.md",
+      "size": 7806,
+      "reason": "rule1-C-grade-tiny:670w",
+      "word_count": 670,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/kelly-criterion.md",
+      "size": 7293,
+      "reason": "rule1-C-grade-tiny:554w",
+      "word_count": 554,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/knowledge.md",
+      "size": 7220,
+      "reason": "rule1-C-grade-tiny:562w",
+      "word_count": 562,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/lawyers-or-insurance-salesmen.md",
+      "size": 3397,
+      "reason": "rule1-C-grade-tiny:405w",
+      "word_count": 405,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/least.md",
+      "size": 7002,
+      "reason": "rule1-C-grade-tiny:532w",
+      "word_count": 532,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/life-formulas-i.md",
+      "size": 2489,
+      "reason": "rule1-C-grade-tiny:272w",
+      "word_count": 272,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/light.md",
+      "size": 9016,
+      "reason": "rule1-C-grade-tiny:848w",
+      "word_count": 848,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/live-appearance.md",
+      "size": 2641,
+      "reason": "rule1-C-grade-tiny:282w",
+      "word_count": 282,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/material.md",
+      "size": 7546,
+      "reason": "rule1-C-grade-tiny:683w",
+      "word_count": 683,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/math-logic.md",
+      "size": 9241,
+      "reason": "rule1-C-grade-tiny:866w",
+      "word_count": 866,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/math.md",
+      "size": 6791,
+      "reason": "rule1-C-grade-tiny:529w",
+      "word_count": 529,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/meetings.md",
+      "size": 9657,
+      "reason": "rule1-C-grade-tiny:930w",
+      "word_count": 930,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/mencken-on-politics.md",
+      "size": 1807,
+      "reason": "rule1-C-grade-tiny:164w",
+      "word_count": 164,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/methods.md",
+      "size": 8163,
+      "reason": "rule1-C-grade-tiny:679w",
+      "word_count": 679,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/mind-blowing.md",
+      "size": 8436,
+      "reason": "rule1-C-grade-tiny:739w",
+      "word_count": 739,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/mobbin.md",
+      "size": 2047,
+      "reason": "rule1-C-grade-tiny:202w",
+      "word_count": 202,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/multiverse.md",
+      "size": 6864,
+      "reason": "rule1-C-grade-tiny:517w",
+      "word_count": 517,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/natural-beauty.md",
+      "size": 3908,
+      "reason": "rule1-C-grade-tiny:505w",
+      "word_count": 505,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/new-blog-and-feed-address.md",
+      "size": 1790,
+      "reason": "rule4-trash-filename:new-blog-and-feed-address.md",
+      "word_count": 148,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/new-year-new-blog.md",
+      "size": 2049,
+      "reason": "rule1-C-grade-tiny:203w",
+      "word_count": 203,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/npv.md",
+      "size": 6363,
+      "reason": "rule1-C-grade-tiny:449w",
+      "word_count": 449,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/nullius.md",
+      "size": 7555,
+      "reason": "rule1-C-grade-tiny:591w",
+      "word_count": 591,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/on-humility.md",
+      "size": 1698,
+      "reason": "rule1-C-grade-tiny:139w",
+      "word_count": 139,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/on-meditation.md",
+      "size": 1742,
+      "reason": "rule1-C-grade-tiny:143w",
+      "word_count": 143,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/optimism.md",
+      "size": 7344,
+      "reason": "rule1-C-grade-tiny:589w",
+      "word_count": 589,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/out-of-school-i-offered-to-work-for-benjamin-graham-for-free-and-he-said-i-was-o.md",
+      "size": 2089,
+      "reason": "rule1-C-grade-tiny:167w",
+      "word_count": 167,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/peace-motion.md",
+      "size": 7430,
+      "reason": "rule1-C-grade-tiny:655w",
+      "word_count": 655,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/peace.md",
+      "size": 7378,
+      "reason": "rule1-C-grade-tiny:654w",
+      "word_count": 654,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/people.md",
+      "size": 7258,
+      "reason": "rule1-C-grade-tiny:605w",
+      "word_count": 605,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/perpetual-stimulation-machine.md",
+      "size": 3025,
+      "reason": "rule1-C-grade-tiny:358w",
+      "word_count": 358,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/pessimism.md",
+      "size": 7335,
+      "reason": "rule1-C-grade-tiny:576w",
+      "word_count": 576,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/philosopher.md",
+      "size": 6783,
+      "reason": "rule1-C-grade-tiny:525w",
+      "word_count": 525,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/politics.md",
+      "size": 7405,
+      "reason": "rule1-C-grade-tiny:803w",
+      "word_count": 803,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/predict.md",
+      "size": 7368,
+      "reason": "rule1-C-grade-tiny:565w",
+      "word_count": 565,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/predictions.md",
+      "size": 7686,
+      "reason": "rule1-C-grade-tiny:624w",
+      "word_count": 624,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/price-discrimination.md",
+      "size": 6529,
+      "reason": "rule1-C-grade-tiny:451w",
+      "word_count": 451,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/privacy-violations.md",
+      "size": 2404,
+      "reason": "rule1-C-grade-tiny:244w",
+      "word_count": 244,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/probability.md",
+      "size": 7492,
+      "reason": "rule1-C-grade-tiny:596w",
+      "word_count": 596,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/product-scale.md",
+      "size": 8688,
+      "reason": "rule1-C-grade-tiny:843w",
+      "word_count": 843,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/productize-yourself.md",
+      "size": 7447,
+      "reason": "rule1-C-grade-tiny:576w",
+      "word_count": 576,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/program.md",
+      "size": 6157,
+      "reason": "rule1-C-grade-tiny:356w",
+      "word_count": 356,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/prove.md",
+      "size": 7078,
+      "reason": "rule1-C-grade-tiny:521w",
+      "word_count": 521,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/quotes.md",
+      "size": 6040,
+      "reason": "rule1-C-grade-tiny:468w",
+      "word_count": 468,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/reach.md",
+      "size": 6935,
+      "reason": "rule1-C-grade-tiny:512w",
+      "word_count": 512,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/read.md",
+      "size": 8247,
+      "reason": "rule1-C-grade-tiny:701w",
+      "word_count": 701,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/redefining.md",
+      "size": 7517,
+      "reason": "rule1-C-grade-tiny:632w",
+      "word_count": 632,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/reflect.md",
+      "size": 6963,
+      "reason": "rule1-C-grade-tiny:582w",
+      "word_count": 582,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/reject-advice.md",
+      "size": 8571,
+      "reason": "rule1-C-grade-tiny:789w",
+      "word_count": 789,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/relationships.md",
+      "size": 8016,
+      "reason": "rule1-C-grade-tiny:696w",
+      "word_count": 696,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/resources.md",
+      "size": 8094,
+      "reason": "rule1-C-grade-tiny:727w",
+      "word_count": 727,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/salary-freedom.md",
+      "size": 8331,
+      "reason": "rule1-C-grade-tiny:786w",
+      "word_count": 786,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/schelling-point.md",
+      "size": 7713,
+      "reason": "rule1-C-grade-tiny:572w",
+      "word_count": 572,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/science-2.md",
+      "size": 7746,
+      "reason": "rule1-C-grade-tiny:648w",
+      "word_count": 648,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/search.md",
+      "size": 5725,
+      "reason": "rule1-C-grade-tiny:522w",
+      "word_count": 522,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/securitize-citizenship.md",
+      "size": 3774,
+      "reason": "rule1-C-grade-tiny:473w",
+      "word_count": 473,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/self-promotion.md",
+      "size": 3392,
+      "reason": "rule1-C-grade-tiny:174w",
+      "word_count": 174,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/settled.md",
+      "size": 8485,
+      "reason": "rule1-C-grade-tiny:745w",
+      "word_count": 745,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/short.md",
+      "size": 8458,
+      "reason": "rule1-C-grade-tiny:714w",
+      "word_count": 714,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/silent.md",
+      "size": 6529,
+      "reason": "rule1-C-grade-tiny:432w",
+      "word_count": 432,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/skill.md",
+      "size": 6374,
+      "reason": "rule1-C-grade-tiny:481w",
+      "word_count": 481,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/smart.md",
+      "size": 7924,
+      "reason": "rule1-C-grade-tiny:717w",
+      "word_count": 717,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/social.md",
+      "size": 8058,
+      "reason": "rule1-C-grade-tiny:661w",
+      "word_count": 661,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/something-vast-this-way-comes.md",
+      "size": 5964,
+      "reason": "rule1-C-grade-tiny:771w",
+      "word_count": 771,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/species.md",
+      "size": 6906,
+      "reason": "rule1-C-grade-tiny:506w",
+      "word_count": 506,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/stories.md",
+      "size": 1621,
+      "reason": "rule4-trash-filename:stories.md",
+      "word_count": 142,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/stupid-games.md",
+      "size": 8155,
+      "reason": "rule1-C-grade-tiny:698w",
+      "word_count": 698,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/subscribe.md",
+      "size": 921,
+      "reason": "rule4-trash-filename:subscribe.md",
+      "word_count": 58,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/substrate.md",
+      "size": 7623,
+      "reason": "rule1-C-grade-tiny:626w",
+      "word_count": 626,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/sundry.md",
+      "size": 5315,
+      "reason": "rule1-C-grade-tiny:476w",
+      "word_count": 476,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/surplus.md",
+      "size": 6093,
+      "reason": "rule1-C-grade-tiny:406w",
+      "word_count": 406,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/technology.md",
+      "size": 14670,
+      "reason": "rule1-C-grade-tiny:984w",
+      "word_count": 984,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-80-hour-myth.md",
+      "size": 3835,
+      "reason": "rule1-C-grade-tiny:487w",
+      "word_count": 487,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-foundations-of-cooperation.md",
+      "size": 1821,
+      "reason": "rule1-C-grade-tiny:157w",
+      "word_count": 157,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-ipad-is-important.md",
+      "size": 2881,
+      "reason": "rule1-C-grade-tiny:354w",
+      "word_count": 354,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-need-for-indifference.md",
+      "size": 1858,
+      "reason": "rule1-C-grade-tiny:153w",
+      "word_count": 153,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-returns-to-entrepreneurship.md",
+      "size": 6080,
+      "reason": "rule1-C-grade-tiny:831w",
+      "word_count": 831,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-truth-about-hard-work.md",
+      "size": 1820,
+      "reason": "rule1-C-grade-tiny:156w",
+      "word_count": 156,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/the-unbundling-of-the-venture-capital-industry.md",
+      "size": 5507,
+      "reason": "rule1-C-grade-tiny:756w",
+      "word_count": 756,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/theories.md",
+      "size": 9116,
+      "reason": "rule1-C-grade-tiny:849w",
+      "word_count": 849,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/theory.md",
+      "size": 7305,
+      "reason": "rule1-C-grade-tiny:509w",
+      "word_count": 509,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/there-is-no-subtler-surer-means-of-overturning-the-existing-basis-of-society-tha.md",
+      "size": 2057,
+      "reason": "rule1-C-grade-tiny:191w",
+      "word_count": 191,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/think.md",
+      "size": 7263,
+      "reason": "rule1-C-grade-tiny:553w",
+      "word_count": 553,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/towards-a-literate-nation.md",
+      "size": 4343,
+      "reason": "rule1-C-grade-tiny:540w",
+      "word_count": 540,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/truly.md",
+      "size": 7977,
+      "reason": "rule1-C-grade-tiny:757w",
+      "word_count": 757,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/truth.md",
+      "size": 6806,
+      "reason": "rule1-C-grade-tiny:535w",
+      "word_count": 535,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/tumblr-customer-service-blows-me-away.md",
+      "size": 3689,
+      "reason": "rule1-C-grade-tiny:448w",
+      "word_count": 448,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/turns-out-that-yahoo-search-can8217t-find-the-pirate-bay-between-moves-like-this.md",
+      "size": 2502,
+      "reason": "rule1-C-grade-tiny:200w",
+      "word_count": 200,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/two-more-hacks.md",
+      "size": 2408,
+      "reason": "rule1-C-grade-tiny:232w",
+      "word_count": 232,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/unacceptable.md",
+      "size": 6838,
+      "reason": "rule1-C-grade-tiny:549w",
+      "word_count": 549,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/understand.md",
+      "size": 6497,
+      "reason": "rule1-C-grade-tiny:441w",
+      "word_count": 441,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/unquantifiable-risk.md",
+      "size": 3937,
+      "reason": "rule1-C-grade-tiny:500w",
+      "word_count": 500,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/unseen.md",
+      "size": 6698,
+      "reason": "rule1-C-grade-tiny:489w",
+      "word_count": 489,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/upcoming-sxsw-panel.md",
+      "size": 2835,
+      "reason": "rule1-C-grade-tiny:235w",
+      "word_count": 235,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/users-bring-you-traffic.md",
+      "size": 2508,
+      "reason": "rule1-C-grade-tiny:271w",
+      "word_count": 271,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/vary.md",
+      "size": 7939,
+      "reason": "rule1-C-grade-tiny:710w",
+      "word_count": 710,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/vastcom-launches-credit-card-search.md",
+      "size": 2096,
+      "reason": "rule1-C-grade-tiny:190w",
+      "word_count": 190,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/vc-bundling.md",
+      "size": 6187,
+      "reason": "rule1-C-grade-tiny:853w",
+      "word_count": 853,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/venture-hacks-is-hiring-one-man-developer-army.md",
+      "size": 2072,
+      "reason": "rule1-C-grade-tiny:178w",
+      "word_count": 178,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/we-get-these-questions-a-lot-from-the-enterprising-young-it8217s-a-very-intellig.md",
+      "size": 2373,
+      "reason": "rule1-C-grade-tiny:252w",
+      "word_count": 252,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/web-20-meme-wars-begin.md",
+      "size": 2079,
+      "reason": "rule1-C-grade-tiny:192w",
+      "word_count": 192,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/web-20-web-20-web-30.md",
+      "size": 2519,
+      "reason": "rule1-C-grade-tiny:254w",
+      "word_count": 254,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/when-going-through-hell-keep-going.md",
+      "size": 1805,
+      "reason": "rule1-C-grade-tiny:149w",
+      "word_count": 149,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/who-has-time-for-meetings.md",
+      "size": 3954,
+      "reason": "rule1-C-grade-tiny:519w",
+      "word_count": 519,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/why-private-investors-are-herd-animals.md",
+      "size": 4221,
+      "reason": "rule1-C-grade-tiny:514w",
+      "word_count": 514,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/why-we-may-think.md",
+      "size": 2807,
+      "reason": "rule1-C-grade-tiny:335w",
+      "word_count": 335,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/why-you-cant-hire.md",
+      "size": 3769,
+      "reason": "rule1-C-grade-tiny:465w",
+      "word_count": 465,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/why-you-need-to-be-in-silicon-valley.md",
+      "size": 3387,
+      "reason": "rule1-C-grade-tiny:403w",
+      "word_count": 403,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/y-combinator-vs-graduate-school.md",
+      "size": 2409,
+      "reason": "rule1-C-grade-tiny:263w",
+      "word_count": 263,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy/yes-the-bubble-is-back.md",
+      "size": 2129,
+      "reason": "rule1-C-grade-tiny:190w",
+      "word_count": 190,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/philosophy-science/index.md",
+      "size": 184843,
+      "reason": "rule4-trash-filename:index.md",
+      "word_count": 26177,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/01-foreword.md",
+      "size": 23712,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2031,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/02-acknowledgements.md",
+      "size": 21525,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 1647,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/03-chapter-01.md",
+      "size": 31521,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3317,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/11-chapter-02.md",
+      "size": 32127,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3331,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/12-chapter-03.md",
+      "size": 32233,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3478,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/13-chapter-04.md",
+      "size": 37638,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4236,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/14-chapter-05.md",
+      "size": 33829,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3674,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/15-chapter-06.md",
+      "size": 38584,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4167,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/21-chapter-07.md",
+      "size": 25190,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2258,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/22-chapter-08.md",
+      "size": 35763,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4089,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/23-chapter-09.md",
+      "size": 38019,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4359,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/31-chapter-10.md",
+      "size": 30610,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3064,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/32-chapter-11.md",
+      "size": 37103,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4159,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/33-chapter-12.md",
+      "size": 39896,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4597,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/34-chapter-13.md",
+      "size": 40069,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 4615,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/35-chapter-14.md",
+      "size": 33055,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 3521,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/36-chapter-15.md",
+      "size": 23284,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 1953,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/37-conclusion.md",
+      "size": 22252,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 1784,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/40-appendix-01.md",
+      "size": 31090,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2740,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/41-appendix-02.md",
+      "size": 27517,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2608,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/42-appendix-03.md",
+      "size": 25398,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2264,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/45-appendix-06.md",
+      "size": 24510,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 2179,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/46-appendix-07.md",
+      "size": 21548,
+      "reason": "rule3-chapter-dupe-of:singer-shape-up-basecamp-2019.md",
+      "word_count": 1656,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/pm/shapeup.md",
+      "size": 34063,
+      "reason": "rule3-known-fragment:shapeup.md",
+      "word_count": 2353,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1008054.md",
+      "size": 27040,
+      "reason": "rule4-numeric-stub:1008054.md",
+      "word_count": 968,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/systems/1494762.md",
+      "size": 24895,
+      "reason": "rule4-numeric-stub:1494762.md",
+      "word_count": 743,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/systems/1793776htmlmodereply.md",
+      "size": 330219,
+      "reason": "rule4-wget-url-artifact:1793776htmlmodereply.md",
+      "word_count": 5766,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1794023htmlmodereply.md",
+      "size": 330479,
+      "reason": "rule4-wget-url-artifact:1794023htmlmodereply.md",
+      "word_count": 5464,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1794296htmlmodereply.md",
+      "size": 318681,
+      "reason": "rule4-wget-url-artifact:1794296htmlmodereply.md",
+      "word_count": 4828,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1794324htmlmodereply.md",
+      "size": 334347,
+      "reason": "rule4-wget-url-artifact:1794324htmlmodereply.md",
+      "word_count": 5911,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1794653htmlmodereply.md",
+      "size": 332529,
+      "reason": "rule4-wget-url-artifact:1794653htmlmodereply.md",
+      "word_count": 5930,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1794961htmlmodereply.md",
+      "size": 310273,
+      "reason": "rule4-wget-url-artifact:1794961htmlmodereply.md",
+      "word_count": 4362,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1795114htmlmodereply.md",
+      "size": 312473,
+      "reason": "rule4-wget-url-artifact:1795114htmlmodereply.md",
+      "word_count": 4619,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1795494htmlmodereply.md",
+      "size": 315669,
+      "reason": "rule4-wget-url-artifact:1795494htmlmodereply.md",
+      "word_count": 5130,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1795589htmlmodereply.md",
+      "size": 326127,
+      "reason": "rule4-wget-url-artifact:1795589htmlmodereply.md",
+      "word_count": 5971,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1795848htmlmodereply.md",
+      "size": 313927,
+      "reason": "rule4-wget-url-artifact:1795848htmlmodereply.md",
+      "word_count": 4778,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1796289htmlmodereply.md",
+      "size": 304970,
+      "reason": "rule4-wget-url-artifact:1796289htmlmodereply.md",
+      "word_count": 4146,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1796405htmlmodereply.md",
+      "size": 319667,
+      "reason": "rule4-wget-url-artifact:1796405htmlmodereply.md",
+      "word_count": 5157,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1796805htmlmodereply.md",
+      "size": 334975,
+      "reason": "rule4-wget-url-artifact:1796805htmlmodereply.md",
+      "word_count": 6209,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1796971htmlmodereply.md",
+      "size": 310095,
+      "reason": "rule4-wget-url-artifact:1796971htmlmodereply.md",
+      "word_count": 4382,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1797223htmlmodereply.md",
+      "size": 327118,
+      "reason": "rule4-wget-url-artifact:1797223htmlmodereply.md",
+      "word_count": 5882,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1797402htmlmodereply.md",
+      "size": 327695,
+      "reason": "rule4-wget-url-artifact:1797402htmlmodereply.md",
+      "word_count": 6067,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1797664.md",
+      "size": 21608,
+      "reason": "rule4-numeric-stub:1797664.md",
+      "word_count": 601,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/systems/1797664htmlmodereply.md",
+      "size": 280632,
+      "reason": "rule4-wget-url-artifact:1797664htmlmodereply.md",
+      "word_count": 2000,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1798090htmlmodereply.md",
+      "size": 298360,
+      "reason": "rule4-wget-url-artifact:1798090htmlmodereply.md",
+      "word_count": 3542,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1798285.md",
+      "size": 23229,
+      "reason": "rule4-numeric-stub:1798285.md",
+      "word_count": 699,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/systems/1798285htmlmodereply.md",
+      "size": 282209,
+      "reason": "rule4-wget-url-artifact:1798285htmlmodereply.md",
+      "word_count": 2109,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/1798409.md",
+      "size": 21565,
+      "reason": "rule4-numeric-stub:1798409.md",
+      "word_count": 562,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/systems/1798409htmlmodereply.md",
+      "size": 280005,
+      "reason": "rule4-wget-url-artifact:1798409htmlmodereply.md",
+      "word_count": 1966,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/calendar.md",
+      "size": 280192,
+      "reason": "rule4-trash-filename:calendar.md",
+      "word_count": 2695,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/systems/index.md",
+      "size": 1029917,
+      "reason": "rule4-trash-filename:index.md",
+      "word_count": 63051,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/systems/indexhtmlila_campaigncontrol_strip.md",
+      "size": 280863,
+      "reason": "rule4-wget-url-artifact:indexhtmlila_campaigncontrol_strip.md",
+      "word_count": 2695,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/systems/indexhtmlskip20.md",
+      "size": 930048,
+      "reason": "rule4-wget-url-artifact:indexhtmlskip20.md",
+      "word_count": 54034,
+      "quality_grade": "B"
+    },
+    {
+      "path": "raw/books-md/unix/apa.md",
+      "size": 7536,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 848,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/apb.md",
+      "size": 39137,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3117,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/apc.md",
+      "size": 6492,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 823,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/c_evolution.md",
+      "size": 11881,
+      "reason": "rule3-known-fragment:c_evolution.md",
+      "word_count": 1561,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s01.md",
+      "size": 2812,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 337,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s02.md",
+      "size": 5950,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 755,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s03.md",
+      "size": 3074,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 365,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s04.md",
+      "size": 5104,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 631,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s05.md",
+      "size": 12884,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1735,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s06.md",
+      "size": 41892,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 6033,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s07.md",
+      "size": 1456,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 128,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s08.md",
+      "size": 3141,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 359,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch01s09.md",
+      "size": 2983,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 400,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch02s01.md",
+      "size": 48507,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 6634,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch02s03.md",
+      "size": 7485,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 983,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch02s04.md",
+      "size": 3639,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 442,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch03s01.md",
+      "size": 21591,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3012,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch03s02.md",
+      "size": 52189,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 7385,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch03s03.md",
+      "size": 7203,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1002,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch04s01.md",
+      "size": 6747,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 894,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch04s02.md",
+      "size": 24870,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3506,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch04s03.md",
+      "size": 17061,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2454,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch04s04.md",
+      "size": 6134,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 807,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch04s06.md",
+      "size": 4942,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 606,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch05s01.md",
+      "size": 16986,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2403,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch05s02.md",
+      "size": 28849,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 4103,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch05s03.md",
+      "size": 11335,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1594,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch05s04.md",
+      "size": 15269,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2031,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch06s01.md",
+      "size": 31641,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 4528,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch06s02.md",
+      "size": 18788,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2738,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch06s03.md",
+      "size": 4627,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 577,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch07s01.md",
+      "size": 4348,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 513,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch07s02.md",
+      "size": 51711,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 7403,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch07s03.md",
+      "size": 17239,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2376,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch07s04.md",
+      "size": 4948,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 684,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch08s01.md",
+      "size": 7527,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 920,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch08s02.md",
+      "size": 56839,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 7850,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch08s03.md",
+      "size": 21538,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3107,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch09s01.md",
+      "size": 22205,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2888,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch09s02.md",
+      "size": 13650,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2063,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s01.md",
+      "size": 6616,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 914,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s02.md",
+      "size": 2645,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 301,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s03.md",
+      "size": 11921,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1641,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s04.md",
+      "size": 11997,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1570,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s05.md",
+      "size": 17323,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2379,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s06.md",
+      "size": 11622,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1652,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch10s07.md",
+      "size": 1525,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 152,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s01.md",
+      "size": 5172,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 735,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s02.md",
+      "size": 6545,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 855,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s03.md",
+      "size": 6576,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 911,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s04.md",
+      "size": 14417,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2116,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s05.md",
+      "size": 7067,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 995,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s06.md",
+      "size": 42420,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 5977,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s07.md",
+      "size": 5057,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 636,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s08.md",
+      "size": 8083,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1214,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch11s09.md",
+      "size": 4599,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 610,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch12s01.md",
+      "size": 4750,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 536,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch12s02.md",
+      "size": 6685,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 983,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch12s03.md",
+      "size": 3737,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 507,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch12s04.md",
+      "size": 10387,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1544,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch13s01.md",
+      "size": 21094,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3034,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch13s02.md",
+      "size": 20420,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2921,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch13s03.md",
+      "size": 20780,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3270,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch13s04.md",
+      "size": 5166,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 732,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch14s01.md",
+      "size": 5404,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 662,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch14s03.md",
+      "size": 2830,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 335,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch14s04.md",
+      "size": 62145,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 8470,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch14s05.md",
+      "size": 7524,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 896,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch14s06.md",
+      "size": 6222,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 837,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s01.md",
+      "size": 4164,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 548,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s02.md",
+      "size": 7879,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1056,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s03.md",
+      "size": 15304,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1999,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s04.md",
+      "size": 23278,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3262,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s05.md",
+      "size": 15427,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2212,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s06.md",
+      "size": 3282,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 370,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s07.md",
+      "size": 3328,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 376,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch15s08.md",
+      "size": 9352,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1291,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s01.md",
+      "size": 10016,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1573,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s02.md",
+      "size": 4561,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 599,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s03.md",
+      "size": 5367,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 731,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s04.md",
+      "size": 6765,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 930,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s05.md",
+      "size": 5964,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 823,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s06.md",
+      "size": 2525,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 291,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch16s07.md",
+      "size": 15635,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2269,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch17s02.md",
+      "size": 18101,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2381,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch17s04.md",
+      "size": 10604,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1441,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch17s05.md",
+      "size": 15471,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2157,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch17s06.md",
+      "size": 3330,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 431,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch17s07.md",
+      "size": 4080,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 503,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s01.md",
+      "size": 7125,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1015,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s02.md",
+      "size": 7085,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 976,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s03.md",
+      "size": 11702,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1640,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s04.md",
+      "size": 3099,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 398,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s05.md",
+      "size": 18355,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 2427,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch18s06.md",
+      "size": 5237,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 703,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch19s01.md",
+      "size": 8708,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1151,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch19s02.md",
+      "size": 42463,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 6029,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch19s03.md",
+      "size": 2125,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 258,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch19s04.md",
+      "size": 2516,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 310,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch19s05.md",
+      "size": 5920,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 737,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ch20s01.md",
+      "size": 10307,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1444,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch20s03.md",
+      "size": 21306,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 3058,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch20s04.md",
+      "size": 7986,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1088,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch20s05.md",
+      "size": 9901,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 1458,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/ch20s06.md",
+      "size": 2738,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 333,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/co01.md",
+      "size": 1854,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 193,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/community.md",
+      "size": 4820,
+      "reason": "rule1-C-grade-tiny:376w",
+      "word_count": 376,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/complexitychapter.md",
+      "size": 3522,
+      "reason": "rule1-C-grade-tiny:354w",
+      "word_count": 354,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/configurationchapter.md",
+      "size": 2654,
+      "reason": "rule1-C-grade-tiny:223w",
+      "word_count": 223,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/context.md",
+      "size": 5459,
+      "reason": "rule1-C-grade-tiny:490w",
+      "word_count": 490,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/contrastchapter.md",
+      "size": 2875,
+      "reason": "rule1-C-grade-tiny:251w",
+      "word_count": 251,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/design.md",
+      "size": 9768,
+      "reason": "rule1-C-grade-tiny:716w",
+      "word_count": 716,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/documentationchapter.md",
+      "size": 4099,
+      "reason": "rule1-C-grade-tiny:428w",
+      "word_count": 428,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/end-user.md",
+      "size": 2619,
+      "reason": "rule1-C-grade-tiny:348w",
+      "word_count": 348,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/futurechapter.md",
+      "size": 2919,
+      "reason": "rule1-C-grade-tiny:300w",
+      "word_count": 300,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/generationchapter.md",
+      "size": 5476,
+      "reason": "rule1-C-grade-tiny:613w",
+      "word_count": 613,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/gui-programmer.md",
+      "size": 2389,
+      "reason": "rule1-C-grade-tiny:283w",
+      "word_count": 283,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/hackers.md",
+      "size": 21770,
+      "reason": "rule3-known-fragment:hackers.md",
+      "word_count": 3028,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/historychapter.md",
+      "size": 2492,
+      "reason": "rule1-C-grade-tiny:239w",
+      "word_count": 239,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ietf_process.md",
+      "size": 10024,
+      "reason": "rule3-known-fragment:ietf_process.md",
+      "word_count": 1279,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/implementation.md",
+      "size": 3482,
+      "reason": "rule1-C-grade-tiny:253w",
+      "word_count": 253,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/index.md",
+      "size": 27818,
+      "reason": "rule4-trash-filename:index.md",
+      "word_count": 2446,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/interfacechapter.md",
+      "size": 5650,
+      "reason": "rule1-C-grade-tiny:680w",
+      "word_count": 680,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/introduction.md",
+      "size": 5716,
+      "reason": "rule1-C-grade-tiny:665w",
+      "word_count": 665,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/languageschapter.md",
+      "size": 2041,
+      "reason": "rule1-C-grade-tiny:149w",
+      "word_count": 149,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/methodology-consultant.md",
+      "size": 2332,
+      "reason": "rule1-C-grade-tiny:284w",
+      "word_count": 284,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/minilanguageschapter.md",
+      "size": 8622,
+      "reason": "rule3-known-fragment:minilanguageschapter.md",
+      "word_count": 1105,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/modularitychapter.md",
+      "size": 7496,
+      "reason": "rule1-C-grade-tiny:978w",
+      "word_count": 978,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/multiprogramchapter.md",
+      "size": 7162,
+      "reason": "rule1-C-grade-tiny:836w",
+      "word_count": 836,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/opensourcechapter.md",
+      "size": 3646,
+      "reason": "rule1-C-grade-tiny:370w",
+      "word_count": 370,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/optimizationchapter.md",
+      "size": 2081,
+      "reason": "rule1-C-grade-tiny:185w",
+      "word_count": 185,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/philosophychapter.md",
+      "size": 4177,
+      "reason": "rule1-C-grade-tiny:412w",
+      "word_count": 412,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/plan9.md",
+      "size": 7678,
+      "reason": "rule3-known-fragment:plan9.md",
+      "word_count": 1100,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/portabilitychapter.md",
+      "size": 5979,
+      "reason": "rule1-C-grade-tiny:698w",
+      "word_count": 698,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s01.md",
+      "size": 2939,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 376,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s02.md",
+      "size": 3887,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 514,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s03.md",
+      "size": 3170,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 381,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s04.md",
+      "size": 3321,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 427,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s05.md",
+      "size": 3737,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 415,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/pr01s06.md",
+      "size": 6192,
+      "reason": "rule3-chapter-dupe-of:raymond-art-of-unix-programming-2003.md,kernighan-pike-unix-programming-environment-1984.md",
+      "word_count": 831,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/preface.md",
+      "size": 6497,
+      "reason": "rule1-C-grade-tiny:915w",
+      "word_count": 915,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/reusechapter.md",
+      "size": 4743,
+      "reason": "rule1-C-grade-tiny:603w",
+      "word_count": 603,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/script-kiddie.md",
+      "size": 2774,
+      "reason": "rule1-C-grade-tiny:359w",
+      "word_count": 359,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/ten-thousand.md",
+      "size": 2851,
+      "reason": "rule1-C-grade-tiny:372w",
+      "word_count": 372,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/textualitychapter.md",
+      "size": 7863,
+      "reason": "rule1-C-grade-tiny:929w",
+      "word_count": 929,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/toolschapter.md",
+      "size": 2686,
+      "reason": "rule1-C-grade-tiny:201w",
+      "word_count": 201,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/transparencychapter.md",
+      "size": 8023,
+      "reason": "rule1-C-grade-tiny:981w",
+      "word_count": 981,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/two_paths.md",
+      "size": 3166,
+      "reason": "rule1-C-grade-tiny:400w",
+      "word_count": 400,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/unix-nature.md",
+      "size": 2221,
+      "reason": "rule1-C-grade-tiny:266w",
+      "word_count": 266,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/unix_and_oo.md",
+      "size": 7506,
+      "reason": "rule3-known-fragment:unix_and_oo.md",
+      "word_count": 1037,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/unix_koans.md",
+      "size": 1752,
+      "reason": "rule1-C-grade-tiny:144w",
+      "word_count": 144,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/unix/why_not_c.md",
+      "size": 7870,
+      "reason": "rule3-known-fragment:why_not_c.md",
+      "word_count": 1007,
+      "quality_grade": "A"
+    },
+    {
+      "path": "raw/books-md/unix/zealot.md",
+      "size": 2285,
+      "reason": "rule1-C-grade-tiny:264w",
+      "word_count": 264,
+      "quality_grade": "C"
+    },
+    {
+      "path": "raw/books-md/meta/latest.md",
+      "size": 70266,
+      "reason": "rule5-content-dup-of:2025-11-25.md:wc=3269",
+      "word_count": 3269,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/meta/robotstxt.md",
+      "size": 26791,
+      "reason": "rule5-content-dup-of:stateofgptpdf.md:wc=2616",
+      "word_count": 2616,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/philosophy/3.md",
+      "size": 40092,
+      "reason": "rule5-content-dup-of:2.md:wc=1655",
+      "word_count": 1655,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/philosophy/4.md",
+      "size": 40092,
+      "reason": "rule5-content-dup-of:2.md:wc=1655",
+      "word_count": 1655,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/philosophy/free-markets.md",
+      "size": 10035,
+      "reason": "rule5-content-dup-of:capitalism-intrinsic.md:wc=1082",
+      "word_count": 1082,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/philosophy/happiness.md",
+      "size": 36690,
+      "reason": "rule5-content-dup-of:happiness-2.md:wc=5336",
+      "word_count": 5336,
+      "quality_grade": null
+    },
+    {
+      "path": "raw/books-md/philosophy/rich.md",
+      "size": 271476,
+      "reason": "rule5-content-dup-of:how-to-get-rich.md:wc=44197",
+      "word_count": 44197,
+      "quality_grade": null
+    }
+  ],
+  "unclear": []
+}

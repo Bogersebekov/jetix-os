@@ -1,0 +1,1 @@
+- `cagan-inspired-2ed-2017`: chunk pages 7-16 blocked by content filter

@@ -1,0 +1,49 @@
+=== ROY Information Diet — FREE acquisition run Wed Apr 22 05:15:36 AM UTC 2026 ===
+⬇️  art-of-unix-programming-raymond-TOC.html  <  http://www.catb.org/~esr/writings/taoup/html/index.html
+   ❌ FAIL (23)
+⬇️  shape-up-basecamp-2019.pdf  <  https://basecamp.com/assets/books/shape-up.pdf
+   ❌ FAIL (22)
+⬇️  scrum-guide-2020.pdf  <  https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-US.pdf
+   ❌ FAIL (23)
+⬇️  ashby-introduction-to-cybernetics-1956.pdf  <  http://pcp.vub.ac.be/books/IntroCyb.pdf
+   ❌ FAIL (28)
+⬇️  buffett-letters-INDEX.html  <  https://www.berkshirehathaway.com/letters/letters.html
+   ❌ FAIL (23)
+⬇️  naval-almanack-2020.pdf  <  https://www.navalmanack.com/almanack-of-naval-ravikant/the-almanack-of-naval-ravikant.pdf
+   ❌ FAIL (22)
+⬇️  marcus-aurelius-meditations-MIT.html  <  http://classics.mit.edu/Antoninus/meditations.html
+   ❌ FAIL (23)
+⬇️  tao-te-ching-legge.txt  <  https://www.gutenberg.org/files/216/216-0.txt
+   ❌ FAIL (22)
+⬇️  sun-tzu-art-of-war-giles.txt  <  https://www.gutenberg.org/files/132/132-0.txt
+   ❌ FAIL (23)
+⬇️  seneca-letters-from-a-stoic.txt  <  https://www.gutenberg.org/files/3794/3794-0.txt
+   ❌ FAIL (22)
+⬇️  epictetus-discourses-and-enchiridion.txt  <  https://www.gutenberg.org/cache/epub/45109/pg45109.txt
+   ❌ FAIL (23)
+⬇️  descartes-discourse-on-the-method.txt  <  https://www.gutenberg.org/files/59/59-0.txt
+   ❌ FAIL (23)
+⬇️  arxiv-2512.08296-kim-multi-agent-scaling.pdf  <  https://arxiv.org/pdf/2512.08296
+   ✅ OK (3441951 bytes)
+⬇️  arxiv-2503.13657-cemri-mast-failure-modes.pdf  <  https://arxiv.org/pdf/2503.13657
+   ✅ OK (1188307 bytes)
+⬇️  arxiv-2406.07155-qian-scaling-laws.pdf  <  https://arxiv.org/pdf/2406.07155
+   ✅ OK (3241680 bytes)
+⬇️  anthropic-building-effective-agents-2024-12.html  <  https://www.anthropic.com/research/building-effective-agents
+   ✅ OK (180444 bytes)
+⬇️  anthropic-multi-agent-research-system-2025-06.html  <  https://www.anthropic.com/engineering/built-multi-agent-research-system
+   ✅ OK (175308 bytes)
+⬇️  anthropic-ai-transforming-work-2025-12.html  <  https://www.anthropic.com/research/how-ai-is-transforming-work-at-anthropic
+   ✅ OK (275769 bytes)
+⬇️  karpathy-llm-wiki-gist-2026-04.md  <  https://gist.githubusercontent.com/karpathy/442a6bf555914893e9891c11519de94f/raw
+   ✅ OK (11985 bytes)
+⬇️  karpathy-year-in-review-2025.html  <  https://karpathy.bearblog.dev/year-in-review-2025/
+   ✅ OK (24384 bytes)
+⬇️  cognition-walden-yan-dont-build-multi-agents.html  <  https://cognition.ai/blog/dont-build-multi-agents
+   ✅ OK (39848 bytes)
+⬇️  aider-chat-landing.html  <  https://aider.chat/
+   ✅ OK (30632 bytes)
+⬇️  kelly-out-of-control-TOC.html  <  https://kk.org/outofcontrol/contents.php
+   ❌ FAIL (23)
+⬇️  agile-manifesto-2001.html  <  https://agilemanifesto.org/
+   ✅ OK (6447 bytes)
