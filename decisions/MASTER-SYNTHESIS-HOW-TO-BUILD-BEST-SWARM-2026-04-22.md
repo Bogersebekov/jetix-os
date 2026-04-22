@@ -1765,3 +1765,787 @@ alphabetical.
 
 ---
 
+# PART 4 — JETIX-SPECIFIC PATTERNS (THE 5×4 MATRIX IN FULL BLOOM)
+
+## 4.0 Frame
+
+Part 4 is the Jetix competitive differentiator made first-class. It
+answers five questions:
+
+1. **Why exactly 5 domain experts?** Not 3, not 9.
+2. **Why exactly 4 role-modes?** Not 3, not 7.
+3. **Why a matrix and not separate agents?** Synergy over separation.
+4. **How does a matrix invocation actually run?** Concrete pseudocode
+   and system-prompt structure.
+5. **How do the 24 Locks constrain each expert?** Compliance by design.
+
+Then a worked example (§4.9) walks a concrete Phase-A task through the
+matrix to demonstrate the pattern without waving hands.
+
+The matrix is the single design element that, if shallow, makes every
+downstream agent shallow. Depth here is load-bearing.
+
+---
+
+## 4.1 Why five domain experts
+
+The roster is locked by ALIGN §1–§2: **engineering-expert**,
+**mgmt-expert**, **systems-expert**, **philosophy-expert**,
+**investor-expert**, plus **brigadier** outside the matrix. Five, not
+nine. Five, not three. The tradeoff analysis:
+
+### 4.1.1 Against fewer (2–3 experts)
+
+A 2–3 expert roster exists in production (Factory Coordinator + Code/Review
+Droids; Replit Manager + Editor + Verifier; Devin MultiDevin). It works
+for *bounded technical* tasks: SWE migrations, code review, bug fixes.
+It fails on Jetix's task surface because Jetix spans five canonical
+domains whose primary sources do not overlap:
+
+- **Engineering** canonical sources (Ousterhout, Brooks, Fowler, Martin,
+  Hunt/Thomas, Karpathy, Boris Cherny) concern software construction.
+- **Management / Product / Project** sources (Cagan, Torres, Grove,
+  Laloux, Drucker, 37signals, Shape Up) concern human organization of
+  work.
+- **Systems** sources (Meadows, Senge, Ashby, Beer, Kelly, Wiener)
+  concern feedback loops, homeostasis, emergence.
+- **Philosophy** sources (Popper, Kuhn, Naval, Stoics, Munger, Vincenti,
+  Koen, Altshuller) concern epistemic discipline and engineering
+  method.
+- **Investing / capital allocation** sources (Buffett, Graham, Marks,
+  Munger, Taleb) concern long-horizon value creation and antifragility.
+
+Collapsing these into 3 agents means one agent carries the canonical
+sources of two unrelated traditions; its attention budget splits; its
+rubric becomes muddy. The evidence is Cagan's own result (Inspired →
+Empowered → Transformed): empowered product teams remain small but
+*specialized*, not jack-of-all-trades.
+
+### 4.1.2 Against more (9+ experts)
+
+The 9-expert variant initially listed in ROY-INFORMATION-DIET §Expert-
+per-domain (ce-expert, ai-native-expert, unix-expert, pm-expert,
+mgmt-expert, systems-expert, investor-expert, meta-expert,
+philosophy-expert) is over-decomposition. Evidence for collapse:
+
+- **Rule of 4 (Kim et al.).** Peak team size 3–4; β = −0.408, p < 0.001.
+  9 agents sit far past the knee, paying large coordination tax
+  (§1.6).
+- **CE + AI-native + Unix + Clean Code all share the engineering
+  lens.** Ousterhout's strategic programming, Raymond's Unix rules, and
+  Klaassen's CE loop reason about the same object (software artefacts
+  under an engineering method). Their canonical sources cross-cite
+  heavily (EXT-B §1; EXT-A §1 term 5). Merging them into
+  engineering-expert preserves depth and eliminates handoff seams.
+- **PM + Product Mgmt + Mgmt Philosophy** all share the management
+  lens (EXT-D §1). Five-principle universal kernel (RESULT-07 §D1;
+  EXT-D §5): output-over-activity, situational calibration, talent
+  density, writing-as-coordination, culture-is-behavior. These hold
+  across Cagan / Grove / Laloux / Netflix and do not benefit from
+  splitting into three agents.
+- **Meta-models + Biology/Evolution** fit philosophy-expert's
+  epistemology lens without a separate meta-expert.
+
+The ROY-ALIGNMENT outcome (*"5 merged мега-экспертов обладают
+функциональным overlap с 9-expert handoff варианта, но без dilution"*,
+§1) is the correct synthesis: functional coverage of 9 without the
+coordination cost.
+
+### 4.1.3 Why exactly five
+
+Five is the smallest number that satisfies three constraints:
+
+1. **Domain non-overlap.** No two experts share a primary canonical
+   source list — each canonical source belongs to exactly one expert's
+   `strategies.md` (ALIGN §2 table).
+2. **Rule-of-4 tolerance.** 5 is only one over the Kim et al. knee; the
+   heterogeneity of the roster (each expert a different domain)
+   mitigates the homogeneous-leaves coordination tax that the Rule of
+   4 measures. The practical ceiling is not "5 is too many agents" but
+   "5 is too many simultaneously-active agents on a single task" —
+   addressed by brigadier's effort-scaling rules (§4.7).
+3. **Matrix expressiveness.** 5 × 4 = 20 cells is enough to cover every
+   load-bearing swarm activation (critic of each domain, optimizer of
+   each, integrator of each, scalability-architect of each). Fewer
+   experts would compress the matrix below the expressiveness needed
+   for Phase B / Phase C tasks.
+
+---
+
+## 4.2 Why four role-modes
+
+The role-mode axis is locked by ALIGN §3: **critic**, **optimizer**,
+**integrator**, **scalability-architect**. Four, not three. Four, not
+seven.
+
+### 4.2.1 The four modes defined (ALIGN §3)
+
+- **Critic.** Finds holes, challenges assumptions, flags weakness,
+  adversarial lens. Rubric: binary pass/fail with domain-specific
+  Hamel-calibrated criteria (§2.1.13). Evidence basis: R-11 §4;
+  RESULT-07 Netflix "farming for dissent"; Cagan four-risks (V/U/F/V);
+  Grove "constructive confrontation."
+- **Optimizer.** Improves cost / complexity / elegance; removes
+  unnecessary. Rubric: measurable delta against baseline (turn count,
+  token count, complexity metric). Evidence basis: Boris "do the
+  simple thing first"; Ousterhout "deep modules"; DORA small-batches
+  principle; Poppendieck waste elimination.
+- **Integrator.** Synthesizes pieces into a coherent whole; finds
+  unifying patterns. Rubric: all inputs accounted for, dissents
+  surfaced, synthesis verifiable. Evidence basis: Anthropic
+  Orchestrator-Workers pattern (§2.1.7); Cagan vision-strategy-tactics
+  hierarchy; Senge systems-thinking 11 laws.
+- **Scalability-architect.** Phase-3+ lens; $1T-horizon defense;
+  antifragility; edge cases; long-term projections. Rubric:
+  ≤30% refactor at each 10× gate (Brief §5.1); degraded-mode spec per
+  critical subsystem; anti-fragility check (Taleb via-negativa).
+  Evidence basis: West scaling laws; Beer VSM recursion; Taleb
+  antifragile; Brief §5.1 scale-path table.
+
+### 4.2.2 Against three modes
+
+The natural three-mode split (critic / optimizer / integrator) omits
+scalability-architect. But Jetix's lock 19 ($1T trajectory) and lock 2
+(solo-now-team-ready scaffolding) require an explicit long-horizon
+activation. Without it, every matrix invocation implicitly optimizes
+for short-term delivery, and the swarm cannot reason about 10× gates
+until it hits them.
+
+Three-mode swarms exist (roughly Factory's Code / Review / Docs; Cora's
+Plan / Review / Compound) but they all operate on short-cycle tasks.
+Jetix operates on a multi-year trajectory; scalability must be a
+first-class role, not an emergent property.
+
+### 4.2.3 Against seven+ modes
+
+Seven-mode variants (e.g., SAFe's 15 roles, Scrum's 3+3+3, PMBOK's 10
+knowledge areas) are process frameworks designed for large organizations
+of humans. They fragment attention without providing new framing lenses.
+Adding modes like "planner," "executor," "documenter," "validator"
+duplicates what sub-agent scaffolding already provides at the invocation
+layer (§2.1.6).
+
+### 4.2.4 Why exactly four
+
+The four role-modes span the cognitive verbs a swarm must perform:
+
+| Verb | Role-mode | Cognitive operation |
+|---|---|---|
+| Challenge | Critic | find weaknesses |
+| Reduce | Optimizer | simplify, eliminate |
+| Unify | Integrator | synthesize |
+| Project | Scalability-architect | extrapolate to horizon |
+
+These four verbs are *orthogonal* in a way narrower sets are not. A
+three-mode swarm must fold "project" into "critic" or "integrator";
+either choice pollutes the rubric. Four is the minimum for orthogonal
+coverage of the cognitive verb space.
+
+---
+
+## 4.3 Why a matrix (not separate agents per cell)
+
+The naive expansion of 5 domains × 4 modes into 20 separate agents
+(`engineering-critic`, `engineering-optimizer`, …, `investor-scalability`)
+is rejected by ROY-ALIGNMENT §3 and by evidence.
+
+### 4.3.1 Dilution problem
+
+Each of the 20 separate agents would need its own canonical-source
+loading. But the canonical sources belong to the *domain*, not the role.
+Ousterhout's *Philosophy of Software Design* is the same book whether
+the engineer is criticising or optimizing. Loading 20 agents with
+redundant knowledge: (a) inflates the total system-prompt corpus 4×;
+(b) creates 20 separate `strategies.md` files that drift out of sync;
+(c) means a learning captured in engineering-critic does not propagate
+to engineering-optimizer.
+
+### 4.3.2 Synergy argument
+
+The matrix structure makes role-mode a *thin activation profile over a
+deep shared knowledge base*. Implementation: each domain expert has one
+system prompt (1,500–3,000 lines per ALIGN §5) with:
+
+- **Primary section (~800–1,200 lines).** Domain expertise, canonical
+  sources, primary frameworks, decision heuristics, canonical quotes
+  from primary sources.
+- **Mode-switching section (~300–500 lines × 4 modes = 1,200–2,000
+  lines).** Each role-mode as a sub-prompt that activates when the
+  invocation parameter matches.
+
+When `Task(agent: systems-expert, mode: critic)` runs, the expert loads
+its primary section (deep knowledge) plus the critic sub-section
+(rubric, adversarial heuristics, canonical dissent examples from Ashby
+/ Beer / Meadows). Same deep knowledge, different lens.
+
+Ruslan's own words (ALIGN §11 verbatim): *"давай идем сука делаем все
+10, делаем все 10 но как то чтобы она вот работала с друг с другом …
+чтобы они могли каждый блять быть и критикам и оптимизатором и
+интегратором и так далее но при этом тоже самым сука глубоким образом
+чтобы мы могли как то вместе если что запустить например критика
+инженера либо там критика системного эксперта а потом взять этого
+системного эксперта и запустить как оптимайзера"*
+
+The operational translation: **critic-engineer is the same agent file
+as optimizer-engineer**, just a different activation. The synergy
+emerges from being able to rotate the same expert through four lenses
+on the same artefact.
+
+### 4.3.3 Production evidence for the matrix shape
+
+No Tier-1 source uses the exact "5×4 matrix" framing (EXT-A §1 term 8;
+§1.8 of this document). Closest evidence-backed neighbours are:
+
+- **Every's CE plugin** ships 50+ agents × 42+ skills — multi-dimensional
+  by construction (EXT-B §2).
+- **Anthropic's five canonical patterns** × **Claude Code's five
+  primitives** = a 5 × 5 design space used in production (R-2 §4.3;
+  R-5 §6).
+- **Factory AI's 1 + 5** (Coordinator + role-scoped specialists) shows
+  that scoping same expert-class into multiple invocations is
+  production-validated at commercial scale (R-2 §5.2; EXT-C §1).
+- **Grove's Task-Relevant Maturity (TRM)** applies three postures to
+  the same subordinate depending on task-class (RESULT-07 §A; EXT-D
+  §1). Role-mode is the agent-level analogue of TRM: same agent,
+  different posture per task-class.
+
+The matrix is a synthesis of these patterns, not a pattern attested
+verbatim. Labelled as such (§1.8), and explicitly defended on the
+dilution + synergy arguments above.
+
+---
+
+## 4.4 The 5 × 4 matrix cell map
+
+Each cell is a canonical invocation. The table shows the cell, what it
+does, and a concrete example of when the brigadier would invoke it.
+
+| Cell | Short description | Example invocation |
+|---|---|---|
+| **engineering × critic** | Adversarial code/arch review; spots over-engineering, premature abstractions, fragile patterns | "Review the proposed skill-loading mechanism for hidden failure modes." |
+| **engineering × optimizer** | Simplify; remove unnecessary; Ousterhout "deep modules" lens; Boris "do the simple thing first" | "Reduce the brigadier system prompt from 3,500 to ≤3,000 lines without losing coverage." |
+| **engineering × integrator** | Synthesize components into coherent architecture | "Unify the wiki / mailbox / strategies layers into a single state-flow diagram." |
+| **engineering × scalability-architect** | 10× gate analysis; refactor budget; technical-debt projection | "Will the current state-flow survive a €1M → €100M gate under Brief §5.1 constraints?" |
+| **mgmt × critic** | Cagan 4-risks (V/U/F/V); Laloux teal check; Grove paired-indicator divergence | "Critique the sales-retainer offer against Cagan's 4 risks." |
+| **mgmt × optimizer** | Shape Up appetite-sizing; Linear zero-OKR simplification; DORA small-batch | "Compress the 8-week cycle to a 2-week AI-adjusted Shape Up cycle." |
+| **mgmt × integrator** | Role-contract synthesis (Laloux CLOU); RACI-free ownership model | "Produce a single-page ownership map for the 6-agent Phase-A workflow." |
+| **mgmt × scalability-architect** | Holdco doctrine (Buffett / Leonard hurdle rates); partnership governance Phase 2+ | "Project the Jetix↔Partner governance structure for Phase 3 (€1M+ gate)." |
+| **systems × critic** | Ashby requisite-variety; Meadows leverage-point mis-placement; Senge 11 laws check | "Which subsystem has the lowest requisite-variety and is a fragility source?" |
+| **systems × optimizer** | Beer VSM simplification; Meadows high-leverage intervention selection | "Pick the single leverage point in current wiki pipeline worth investing 1 week in." |
+| **systems × integrator** | Cybernetic coherence of feedback loops across subsystems | "Integrate billing-level cost cap + verifier + HITL gate into one consistent control loop." |
+| **systems × scalability-architect** | Kelly emergence; West scaling laws; antifragility under 10× load | "Which feedback loops break first at 10× workload and what detects them?" |
+| **philosophy × critic** | Popper falsifiability test; Kuhn paradigm inconsistency; epistemic discipline | "Is this design claim falsifiable in ≤1 Phase B cycle? If not, make it so." |
+| **philosophy × optimizer** | Koen heuristic ranking; Vincenti engineering-knowledge minimalism | "Which of these 4 proposed skills are SOTA engineering heuristics vs speculative?" |
+| **philosophy × integrator** | Epistemic coherence; good-explanation hard-to-vary synthesis (Deutsch) | "Produce a single consistent epistemic stance for how the swarm treats memory writes." |
+| **philosophy × scalability-architect** | Finite/Infinite games; long-horizon epistemic decay; research-programme degeneration (Lakatos) | "Is our current research programme progressing or degenerating, by Lakatos criterion?" |
+| **investor × critic** | Hurdle-rate gate; Munger "invert always invert"; Graham margin-of-safety | "Does this expenditure clear a 30% hurdle rate (Constellation) at current gate?" |
+| **investor × optimizer** | Kelly-criterion sizing; capital-efficient allocation; Buffett circle-of-competence | "Reallocate the 4-week budget across quick-money / research / brand to maximize Phase-1 expected return." |
+| **investor × integrator** | Portfolio-level coherence; antifragility stack | "Integrate the 8-project roster into a single antifragile portfolio view." |
+| **investor × scalability-architect** | Taleb antifragile; Buffett permanence; $100B → $1T trajectory gates | "Which capital-allocation decisions made now compound most toward the $1T horizon?" |
+
+**Brigadier sits outside the matrix.** Brigadier is not a cell. Its
+role (ALIGN §1–§2) is orchestration: decompose tasks, select cells,
+sequence invocations, integrate outputs, commit to wiki, maintain
+termination-stack discipline, escalate on gate triggers. Brigadier's
+own system prompt (Part 5 §5.1) owns this orchestration logic; it does
+not carry domain expertise.
+
+---
+
+## 4.5 Invocation mechanics
+
+### 4.5.1 Canonical invocation pattern
+
+From ALIGN §3 verbatim:
+
+```
+Task(
+  agent: "systems-expert",
+  mode: "critic" | "optimizer" | "integrator" | "scalability",
+  context: {
+    task_id: "<ulid>",
+    acceptance_predicate: "<machine-verifiable-string>",
+    inputs: [<file-refs to wiki artefacts, never inline content>],
+    mode_rubric: "<Hamel-calibrated criteria>",
+    termination: {max_turns: N, budget: M, verifier: <fn>, hitl_trigger: <cond>},
+    provenance: {invoking_agent: "brigadier", cycle_id: "<ulid>", timestamp}
+  }
+)
+```
+
+Every field except `provenance.timestamp` is required. Missing fields
+cause the expert to refuse the invocation and return a structured
+error to brigadier (Part 5 §5.3 error-handling).
+
+### 4.5.2 Mode-switching inside the system prompt
+
+Each domain expert's system prompt has the following structure
+(proposed in Part 5 §5.2 template):
+
+```
+# <expert>-expert system prompt (~1,500–3,000 lines)
+
+## Primary (always active, ~800–1,200 lines)
+- Canonical sources (book titles, author, year, page-refs where material)
+- Primary frameworks (e.g., Ousterhout deep-modules, Ashby requisite-variety)
+- Decision heuristics (specific to this domain)
+- Canonical quotes (verbatim, sourced)
+
+## Mode: critic (~300–500 lines, activated when mode=="critic")
+- Adversarial rubric (binary pass/fail criteria)
+- Failure-pattern library (what to look for)
+- Few-shot examples of critic output
+- Escalation conditions (when critic defers to HITL)
+
+## Mode: optimizer (~300–500 lines, activated when mode=="optimizer")
+...
+
+## Mode: integrator (~300–500 lines, activated when mode=="integrator")
+...
+
+## Mode: scalability-architect (~300–500 lines, activated when mode=="scalability")
+...
+
+## Shared protocols (always active, ~100–200 lines)
+- How to write to wiki (provenance format)
+- How to return structured output
+- How to request HITL escalation
+- How to reference another cell's output
+```
+
+The *activation gate* is implemented at the prompt-top: the first
+instruction reads `mode` from the Task context and instructs the model
+to read only the matching mode section. This is standard Claude Code
+skill activation (R-1 §2(b); R-8 §1).
+
+### 4.5.3 Parallel invocations
+
+Brigadier can invoke multiple cells in parallel on the same task. Three
+canonical parallel patterns:
+
+1. **Four critics, one domain.** `engineering × {critic,optimizer,
+   integrator,scalability}` = deep single-domain analysis. Four runs of
+   the same agent with different modes.
+2. **One mode, all five domains.** `{engineering,mgmt,systems,
+   philosophy,investor} × critic` = parallel adversarial review from
+   five lenses. Evidence basis: Every's 12-reviewer fan-out (§2.1.2).
+3. **Cross-cell parallel.** `systems × critic` + `engineering ×
+   optimizer` = complementary lenses on the same artefact.
+
+The parallelism pays off only when the cells operate on wiki artefacts
+(file references) and not on summaries of each other's output. AP-1
+(§3.1) is the governing constraint. Part 5 §5.3 specifies the handoff
+contract.
+
+### 4.5.4 Cell-to-cell communication
+
+Cells do not call each other directly. All inter-cell communication
+passes through the brigadier or through wiki artefacts. This prevents
+circular delegation (AP-24, §3.24) and preserves brigadier's role as
+single routing authority. The rule:
+
+> A cell may *read* any wiki artefact. A cell may *write* only its own
+> output artefact. A cell may not *invoke* another cell.
+
+---
+
+## 4.6 Private Library integration (Phase B fuel)
+
+The Jetix Private Library (ROY-INFORMATION-DIET §1.6; Lock 13 open-
+surface/closed-core) is a closed-core curated corpus — books,
+methodologies, research, case studies — behind a membrane. It is not
+Phase A input. **Phase A reads only Tier 1+2+3**; Tier 4 books are
+reserved for Phase B recursive self-improvement (ALIGN §9).
+
+### 4.6.1 Domain-to-library mapping (Phase B plan)
+
+Each domain expert reads its own book subset in Phase B:
+
+| Expert | Phase B reading (abbreviated) |
+|---|---|
+| engineering-expert | Ousterhout, Brooks, Fowler, Martin, Hunt/Thomas, Raymond (TAoUP), Kernighan/Pike, Boris Cherny (full talks), Anthropic blog archive, Aider blog, Karpathy wiki (full), Shape Up |
+| mgmt-expert | Cagan (Inspired/Empowered/Transformed), Torres, Grove (HOM + OTPS), Drucker, Laloux, Horowitz, Netflix Culture Deck + NRR, 37signals full set, Watkins 90 Days, Ries Lean Startup, Christensen JTBD |
+| systems-expert | Meadows, Senge, Ashby, Beer (Brain + Heart), Wiener, Kelly, Kauffman, Mitchell, Beinhocker, Holland, Dawkins, Dennett, Maynard Smith/Szathmáry |
+| philosophy-expert | Popper (LoSD + C&R), Kuhn, Lakatos, Feyerabend, Naval Almanack, Aurelius/Epictetus, Munger (Poor Charlie's), Koen, Vincenti, Petroski, Altshuller (TRIZ) |
+| investor-expert | Buffett shareholder letters (1977–present), Graham (Intelligent Investor), Marks, Fisher (Common Stocks), Munger (Poor Charlie's — shared with philosophy), Taleb (Antifragile + SitG), Poundstone (Fortune's Formula) |
+
+### 4.6.2 Pool-first-query-second protocol
+
+The Private Library is not a retrieval corpus; it is a *pool* that shapes
+the agent's canonical-source loading. Protocol (ROY-INFORMATION-DIET
+§1.6):
+
+1. **Curation.** Jetix pays for high-quality primary sources. Partners
+   contribute. Closed-core per Lock 13.
+2. **Ingest pre-training (Phase B).** Each expert reads its domain
+   subset and distills into `agents/<expert>/strategies.md` plus wiki
+   entries with provenance.
+3. **Query at use time.** When a cell is invoked, it reads its own
+   `strategies.md` + relevant wiki entries, not the raw books.
+4. **No runtime book-RAG.** Books do not sit in an embedding index that
+   cells query at runtime. The distillation is the artefact.
+
+**Rationale.** Raw books are too long and too noisy for per-invocation
+loading. Distillation is the expert's job (Phase B). Runtime queries
+hit the distillation (fast, curated) not the raw text (slow, noisy).
+This matches Karpathy's "surprisingly vanilla" file-based pattern
+(§2.1.14) and avoids the false-memory-consolidation anti-pattern
+(§3.18) that RAG-on-books introduces.
+
+### 4.6.3 Partner access tiering (Lock 13)
+
+- **Core.** Prompts / wiki / workflows / configs — Jetix-internal only.
+- **Partner.** Access to Private Library + selected prompt templates
+  per Lock 21 matchmaker agreement.
+- **Member.** Selected surface content (results / frames / demos /
+  templates) per Lock 13.
+- **Public.** Research outputs only (Lock 24), and only Phase 2+.
+
+Matrix cells check `tier` metadata on every wiki read and refuse to
+include core content in outputs destined for partner/member/public
+tiers. Part 5 §5.5 specifies the enforcement.
+
+---
+
+## 4.7 Brigadier orchestration
+
+Brigadier's work, per invocation cycle:
+
+### 4.7.1 Task intake
+
+- Read the incoming task (from Ruslan, from mailbox, or from a schedule).
+- Classify: Phase-A design work / Phase-B self-improvement / Phase-C
+  real work (ALIGN §9).
+- Classify operating mode per ALIGN §4: Stage-Gated (default for
+  architectural work / long-term consequences) vs Full-Auto (validated
+  pattern / smoke tests).
+- Classify task-class per Grove TRM (EXT-D §2): novel domain → low-TRM
+  (structured prompt + monitoring); sustaining → high-TRM (objective +
+  constraints).
+- Refuse vague-requirement tasks (AP-25, §3.25): require
+  machine-verifiable acceptance predicate before proceeding.
+
+### 4.7.2 Decomposition
+
+- Allocate CE-loop time: 40% Plan / 10% Work / 40% Review / 10%
+  Compound (Every guide; R-1 §2).
+- Select matrix cells. Effort-scaling rules (AP-12 prevention):
+  - Simple (1 agent + ≤10 tool calls): single cell, often
+    `engineering × optimizer`.
+  - Comparison (2–4 parallel cells): e.g., all 5 domains × critic for
+    parallel review; or 4-mode rotation of one domain.
+  - Open-ended research (10+ cell invocations): full matrix sweep; used
+    only for synthesis-level tasks, never for routine work.
+
+### 4.7.3 Invocation
+
+- Write Task calls per §4.5.1 template.
+- Pass wiki artefact file-refs, never inline content (AP-1 prevention).
+- Record each invocation in `comms/mailboxes/brigadier.jsonl` for audit.
+
+### 4.7.4 Reception and integration
+
+- Read each cell's output artefact (full file, not summary).
+- If outputs conflict: invoke `<X> × integrator` on the conflict.
+- If a critic raises a dissent: do not collapse into consensus; surface
+  dissent in the integrated output (AP-6, AP-23 prevention).
+
+### 4.7.5 Gate check
+
+- Apply ALIGN §8 gate triggers. If Stage-Gated fires: write
+  `decisions/AWAITING-APPROVAL-<topic>-<date>.md` with context + options
+  + recommendation + rationale + risk; commit; push; pause.
+- Continue non-blocking work if any.
+- Resume on approval signal (ALIGN §4; EXT-E §B).
+
+### 4.7.6 Compound
+
+- Extract error→rule candidates.
+- Write to the appropriate `agents/<expert>/strategies.md` (ACE schema).
+- Promote repeating rules to skills (`/ingest` workflow).
+- Commit + push.
+
+### 4.7.7 Reporting
+
+- Write cycle summary to `logs/<YYYY-MM-DD>-cycle-<N>.md`.
+- Emit Telegram/Notion notifications if configured (DIET §1.8) —
+  out-of-scope for Phase A; Phase-B scope.
+
+---
+
+## 4.8 Stage-Gated vs Full-Auto selection (per task)
+
+Decision tree the brigadier runs at task intake:
+
+```
+1. Is this a >1-month-impact decision? → Stage-Gated.
+2. Does it trade off between projects, resources, or directions? → Stage-Gated.
+3. Does it propose a new framework / pattern / skill / agent? → Stage-Gated.
+4. Does it touch a 24 Locked decision? → Stage-Gated.
+5. Does it escalate cost (incl. Max session budget)? → Stage-Gated.
+6. Is it a smoke test / validated pattern / well-defined scope? → Full-Auto.
+7. Is it research inventory / draft synthesis / cleanup / wiki-entry /
+   routine review? → Full-Auto (per ALIGN §8 non-trigger list).
+8. Uncertain? → default Stage-Gated (Phase A bias-to-safety).
+```
+
+Reconciliation with DIET §1.5 (EXT-E §H.2 contradiction 3): ALIGN's
+non-trigger list is authoritative as carve-outs; DIET's broader
+illustrative list applies on top. Any task not in the ALIGN non-trigger
+list and touching strategy/pattern/locks is Stage-Gated by default.
+
+Gate file canonical path (EXT-E §H.2 contradiction 1): two-tier split:
+
+- `decisions/AWAITING-APPROVAL-<topic>-<date>.md` for swarm-wide
+  architectural decisions (ALIGN §4 pattern).
+- `stage-<N>-<name>-AWAITING-APPROVAL.md` inside brigadier-internal
+  stage splits (DIET §1.5 pattern).
+
+---
+
+## 4.9 Worked example — designing the termination stack for Phase 1 swarm
+
+To make the matrix concrete, we walk a single task end-to-end. The task
+is genuinely on Jetix's critical path: *design the termination-stack
+concrete implementation for the Phase-A swarm (maxTurns values per agent
+type, budget thresholds, verifier specification, HITL escalation
+trigger).* This is explicitly flagged in ALIGN §10 as TBD-in-Shag-2.1.
+
+### 4.9.1 Task intake (brigadier)
+
+- **Classification.** Phase-A design work. Touches Lock 4-layer
+  termination stack (§1.7). Long-term consequence (all agent
+  invocations use this). → Stage-Gated.
+- **Task-class.** Novel domain (no prior Jetix attempt). Low-TRM
+  posture: structured prompt + decomposition + explicit monitoring.
+- **Acceptance predicate (written before Work).**
+  - Every matrix cell type has a named maxTurns value with rationale.
+  - Every cell has a budget expressed in Max-subscription turns (not $,
+    per ALIGN §6).
+  - Verifier interface specified (function signature + example).
+  - HITL trigger conditions enumerated.
+  - Compliance with 16 Brief anti-patterns checked.
+
+### 4.9.2 Plan step (40% of cycle)
+
+Brigadier writes `decisions/plan-termination-stack-2026-04-22.md`:
+
+- **Invocation graph.**
+  1. `engineering × critic` — critique a strawman termination-stack
+     against R-3 §3.1 Cases 3–5; detect over-reliance on prompt-level
+     safeguards (AP-5).
+  2. `systems × critic` — apply Ashby requisite-variety: does each
+     layer have enough variety to absorb failures it's meant to catch?
+  3. `investor × scalability-architect` — project the termination stack
+     to €50K / €200K / €1M / $100M gates; what breaks at each?
+  4. `philosophy × critic` — Popper falsifiability: is each layer's
+     success condition machine-verifiable?
+  5. `engineering × integrator` — synthesize the 4 critiques into a
+     coherent YAML-frontmatter schema.
+  6. `mgmt × optimizer` — compress the schema into a prompt-sized
+     clause that fits each expert's "Shared protocols" section.
+
+### 4.9.3 Work step (10% of cycle)
+
+Each cell is invoked with the full §4.5.1 template. Outputs written to
+wiki artefacts:
+
+- `wiki/drafts/termination-stack-eng-critic.md`
+- `wiki/drafts/termination-stack-systems-critic.md`
+- `wiki/drafts/termination-stack-investor-scale.md`
+- `wiki/drafts/termination-stack-philosophy-critic.md`
+
+Each artefact follows the schema:
+`context | critique | specific-failures-found | recommended-changes |
+acceptance-test`.
+
+### 4.9.4 Review step (40% of cycle)
+
+Brigadier reads all four artefacts (full, not summary). Conflicts:
+
+- `engineering-critic` proposes maxTurns = 25 for Work mode.
+- `systems-critic` argues 25 violates requisite variety on research
+  tasks (not enough turns to converge); proposes maxTurns = 40.
+- `investor-scale` argues 40 blows Max-subscription budget at $100M
+  scale; proposes a *scaling function* maxTurns(gate).
+
+Conflict → `engineering × integrator` is invoked:
+`wiki/drafts/termination-stack-integrated.md` synthesizes:
+
+- Per-role maxTurns (Part 5 §5.4 formalizes):
+  - Plan: 10
+  - Work (simple): 15
+  - Work (research): 25 with optional 40 via explicit Stage-Gated
+    extension
+  - Review: 25
+  - Compound: 12
+- Budget: **measured in Max-subscription turns, not $**, per ALIGN §6.
+  Full cycle budget = sum of cell turn-caps + 20% coordination slack.
+- Verifier interface:
+  ```
+  fn verifier(artefact_path, rubric_path) -> {pass: bool, reasons: [str]}
+  ```
+  Rubric is Hamel-calibrated binary criteria; ≥20 labelled examples.
+- HITL trigger conditions:
+  - Any irreversible operation (destructive commands, external sends,
+    `git push --force`, DB drops).
+  - Budget exceeded >1.5× plan.
+  - Verifier returns `pass=false` >2× in same cell on same rubric.
+  - Agent self-report divergence (AP-11) from verifier result.
+
+### 4.9.5 Gate (Stage-Gated)
+
+Brigadier writes `decisions/AWAITING-APPROVAL-termination-stack-2026-04-
+22.md` with:
+
+- Context (what task / why now).
+- Options considered (flat maxTurns vs role-specific vs gate-scaled —
+  the latter won after investor-scale critique).
+- Recommendation (the role-specific table above).
+- Rationale (evidence from §2.1.12 and above synthesis).
+- Risk register (what if Max plan rate-limits at high turn counts;
+  mitigation = session-split with resumable artefact IDs).
+
+Commit, push, pause.
+
+### 4.9.6 Compound step (10% of cycle)
+
+On Ruslan approval, brigadier writes:
+
+- `agents/brigadier/strategies.md` — new rule: *"Termination stack
+  values are role-specific, not flat. Use the Part 5 §5.4 table. Budget
+  is Max-turn-denominated, not $."*
+- `agents/engineering-expert/strategies.md` — new rule: *"Work-mode
+  research tasks may extend to maxTurns=40 only via Stage-Gated
+  escalation. Default Work=15."*
+- `.claude/skills/` — promoted skill `set-termination-stack` with
+  YAML frontmatter (`when_to_use: every new matrix cell activation`).
+
+### 4.9.7 Observation
+
+This walkthrough demonstrates the *synergy* argument from §4.3.2
+concretely:
+
+- Four critics from four domains produced non-overlapping dissents.
+- One integrator synthesized them into a coherent schema.
+- One optimizer compressed the schema for reuse.
+- The matrix produced a better answer than any single cell could have.
+
+A 3-agent team (no scalability-architect) would have missed the gate-
+scaling concern. A 9-agent team would have paid 3× the coordination tax
+without adding insight. A flat "10 separate cell-agents" would have
+duplicated 50% of their canonical-source loads.
+
+---
+
+## 4.10 24 Locks compliance matrix (for Part 4)
+
+Addresses EXT-E §G compliance-check instrument. Each Lock is mapped to
+where Part 4 (or the broader blueprint) addresses it; tensions flagged.
+
+| Lock # | Title | Where addressed | Status | Rationale |
+|---|---|---|---|---|
+| 1 | Gentleman/Predator | Part 5 §5.5 wiki tiering; Part 4 §4.6.3 | ✅ | Outputs tiered per observer; Private Library closed-core |
+| 2 | Solo-now-team-ready | Part 4 §4.1.3 (5 experts cover 9-expert surface); Part 5 §5.1 brigadier | ✅ | Matrix scales to multi-pilot without refactor |
+| 3 | Closed/Open | Part 4 §4.6.3; Part 5 §5.5 tiered outputs | ✅ | Partner/member/public tiers explicit |
+| 4 | Name = Jetix | Part 5 §5.6 ingest canonicalisation hook | ✅ | Hook rewrites `Jackson\|Джек` → `Jetix` |
+| 5 | Consulting-first | Part 4 §4.8 task intake (quick-money P1 priority); Part 5 §5.1 | ✅ | Brigadier prioritises consulting-pipeline tasks |
+| 6 | No advisors | Part 4 roster excludes advisor/mentor slot | ✅ | No external-advisor agent |
+| 7 | Union archetypes (11) | Part 5 §5.5 ICP metadata schema | ⚠️ | Archetype metadata deferred to Phase B overlay; Part 4 base-agnostic |
+| 8 | Layered identity | Part 4 §4.6.3; Part 5 §5.5 | ✅ | Configurable observer/phase; outputs tag frame |
+| 9 | Pain primary | Part 4 §4.4 mgmt×critic rubric (Cagan 4-risks pain-default) | ⚠️ | Pain/opportunity framing addressed at overlay, not base |
+| 10 | EN+US first | Part 5 §5.2 system-prompt language (English technical) | ✅ | All prompts English |
+| 11 | Consulting+Producer+Fund | Part 4 §4.4 investor-expert roster; Part 5 §5.1 resource-allocation | ✅ | investor-expert owns fund-as-philosophy lens |
+| 12 | Smart+site+social-TOF | Part 5 §5.8 content pipeline tagging | ⚠️ | Detailed pipeline in Phase B overlay |
+| 13 | Open surface / Closed core | Part 4 §4.6.3 Library tiering | ✅ | Explicit tier enforcement in wiki |
+| 14 | Revenue-instrumental research | Part 4 §4.7.1 brigadier intake priority | ✅ | Phase A research budget → revenue-gated |
+| 15 | Revenue-gated spend | Part 4 §4.9 termination example (budget = Max turns); Part 5 §5.4 | ✅ | Turn-denominated budget; gates applied |
+| 16 | Phase 1 simple chat | Out of scope Part 4; Phase B overlay | N/A | Community agent not in Phase-A baseline |
+| 17 | Filesystem = SoT | Part 4 §4.5.4 cell communication via wiki | ✅ | Wiki = truth; Notion sync one-way |
+| 18 | Productization | Part 5 §5.5 skills as productized artefacts | ✅ | Skills = reusable productized units |
+| 19 | $1T Holding-Scale | Part 4 §4.4 scalability-architect role-mode | ✅ | Long-horizon lens first-class |
+| 20 | USB-C + Enterprise-Fast | Part 5 §5.7 MCP interface; Part 4 §4.5.1 Task schema | ⚠️ | Protocol layer explicit; enterprise-fast ops deferred to Phase B overlay |
+| 21 | Matchmaker + Roy-Replication | Part 5 §5.8 export templates | ⚠️ | Roy-replication kit in Phase B overlay; base Phase-A is replicable by construction (no hard-coded `/home/ruslan/*`) |
+| 22 | ICP 5-criteria + direction | Part 5 §5.5 ICP metadata | ⚠️ | Overlay responsibility |
+| 23 | Token Option B | N/A Phase A | N/A | Phase 2+ |
+| 24 | OSS research (Phase 2+) | N/A Phase A | N/A | Phase 2+ |
+
+Legend: ✅ = addressed in Phase A blueprint; ⚠️ = base supports, overlay
+instantiates; N/A = out of Phase A scope.
+
+**Compliance summary.** 13 of 24 Locks are directly addressed by Part 4
+(Phase A baseline swarm). 7 Locks are supported-but-deferred-to-overlay.
+4 Locks are explicitly Phase 2+ and out of Phase A scope. No Lock is in
+direct tension with Part 4; the ⚠️ entries reflect layering (base vs
+Jetix overlay per DIET §1.1 ortho rule), not conflict.
+
+---
+
+## 4.11 Jetix ↔ Partners co-evolution (Layer 2 reference)
+
+Explicitly noted because DIET §1.7 asks for 3–5 design *options*, not a
+single choice. Part 4 preserves the option set without collapsing.
+
+### 4.11.1 Option A — Asymmetric (Jetix-as-platform)
+
+Jetix provides Private Library access + methodology + matchmaking.
+Partners use, pay subscription, contribute case studies. Low
+coordination cost; clean exit; limited moat. Analog: Stripe ecosystem.
+
+### 4.11.2 Option B — Symmetric (co-founding / co-ownership)
+
+Partners co-own specific initiatives; equity or token participation per
+Lock 23. High coordination cost; strong moat; hard exit. Analog:
+Berkshire / Constellation.
+
+### 4.11.3 Option C — Hybrid tiered
+
+Partners enter asymmetric (Phase 1), progress to symmetric with
+validated growth. Lowers risk; complexity medium. Analog: Y
+Combinator progression (alumni → investor → partner).
+
+### 4.11.4 Option D — Roy-replication (Lock 21 canonical)
+
+Partners receive Jetix roy-replication kit (system prompts +
+methodology + skill library) and operate an independent roy under the
+methodology. Partner equity/token participation per Lock 23. High moat;
+methodology-as-durable-asset. Analog: Westinghouse analog referenced in
+D1.
+
+### 4.11.5 Option E — Ligament network (cross-partner)
+
+Partners serve each other's clients via cross-routing. Jetix owns the
+matchmaker (Lock 21). Partners compound; Jetix compounds indirectly.
+Analog: Andreessen / Tiny Capital holdco.
+
+**Brigadier Phase A default recommendation.** Option A (Phase 1) → C
+(Phase 2) → D (Phase 3). Defer equity/token (Option B/C/D elements
+involving ownership) to Phase 2+ per Lock 23 Option B gate. This is
+Ruslan-decidable at the Phase-A completion gate; Part 4 does not
+commit.
+
+---
+
+## 4.12 Matrix pattern — summary of load-bearing design
+
+1. **5 × 4 = 20 cells**, brigadier outside the matrix, single-writer to
+   wiki.
+2. **Same deep domain knowledge per mode**; mode = thin activation
+   profile in the same system prompt.
+3. **Cells do not call cells.** All routing via brigadier; all state
+   via wiki artefacts.
+4. **Full traces, not summaries** (AP-1 is the existential constraint).
+5. **Every invocation has all 4 termination layers active.**
+6. **Stage-Gated default** for Phase A architectural work; Full-Auto
+   reserved for validated patterns.
+7. **24 Locks compliance matrix explicit** (§4.10); base/overlay split
+   per DIET §1.1 ortho.
+8. **Phase B recursive self-improvement** is the first real swarm task;
+   Private Library distillation per expert (§4.6).
+9. **Partner co-evolution** preserved as 5 design options (§4.11); not
+   collapsed in Phase A.
+
+**End of Part 4.**
+
+---
+
