@@ -1,0 +1,1018 @@
+[2026-04-22 10:17:01] [INFO] === STEP 5: Quality Check ===
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/transparencychapter.md ['too_short (981 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch04s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/co01.md ['too_short (193 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s03.md ['too_short (911 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch09s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch14s01.md ['too_short (662 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/introduction.md ['too_short (665 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/philosophychapter.md ['too_short (412 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch18s03.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch17s06.md ['too_short (431 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch13s04.md ['too_short (732 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch16s03.md ['too_short (731 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s01.md ['too_short (376 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch14s06.md ['too_short (837 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/raymond-art-of-unix-programming-2003.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch04s06.md ['too_short (606 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch19s05.md ['too_short (737 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/configurationchapter.md ['too_short (223 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch19s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch02s04.md ['too_short (442 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch13s03.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch03s03.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/c_evolution.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch18s05.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/community.md ['too_short (376 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/unix-nature.md ['too_short (266 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch15s03.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/unix_and_oo.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s07.md ['too_short (636 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch15s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/portabilitychapter.md ['too_short (698 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch10s03.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s02.md ['too_short (514 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s05.md ['too_short (995 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s08.md ['too_short (359 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch17s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch16s02.md ['too_short (599 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch03s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/apa.md ['too_short (848 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch15s05.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch04s04.md ['too_short (807 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/implementation.md ['too_short (253 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/generationchapter.md ['too_short (613 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s07.md ['too_short (128 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ietf_process.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch05s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/languageschapter.md ['too_short (149 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch17s07.md ['too_short (503 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch12s03.md ['too_short (507 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch10s02.md ['too_short (301 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch01s05.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/kernighan-pike-unix-programming-environment-1984.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch18s04.md ['too_short (398 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/plan9.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/apb.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch15s06.md ['too_short (370 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/complexitychapter.md ['too_short (354 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch05s03.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch14s04.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/contrastchapter.md ['too_short (251 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch11s08.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/design.md ['too_short (716 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/index.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch16s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s02.md ['too_short (755 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch20s06.md ['too_short (333 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/toolschapter.md ['too_short (201 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch12s04.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch03s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s09.md ['too_short (400 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch07s04.md ['too_short (684 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch01s06.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/multiprogramchapter.md ['too_short (836 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch20s04.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch08s01.md ['too_short (920 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch02s01.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch20s05.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch04s01.md ['too_short (894 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch12s01.md ['too_short (536 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/preface.md ['too_short (915 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s03.md ['too_short (381 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/interfacechapter.md ['too_short (680 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch15s04.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch18s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/unix_koans.md ['too_short (144 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch15s07.md ['too_short (376 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch08s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch10s07.md ['too_short (152 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/two_paths.md ['too_short (400 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ten-thousand.md ['too_short (372 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch14s03.md ['too_short (335 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s03.md ['too_short (365 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/textualitychapter.md ['too_short (929 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch19s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s04.md ['too_short (427 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/zealot.md ['too_short (264 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch14s05.md ['too_short (896 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/apc.md ['too_short (823 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s01.md ['too_short (337 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch06s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch19s03.md ['too_short (258 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch13s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/futurechapter.md ['too_short (300 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s09.md ['too_short (610 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch20s03.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/modularitychapter.md ['too_short (978 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch06s03.md ['too_short (577 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/minilanguageschapter.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/methodology-consultant.md ['too_short (284 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/context.md ['too_short (490 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch16s05.md ['too_short (823 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch09s02.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch05s01.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch18s06.md ['too_short (703 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch02s03.md ['too_short (983 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch15s01.md ['too_short (548 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch10s05.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch12s02.md ['too_short (983 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch05s04.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch16s07.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch01s04.md ['too_short (631 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch11s04.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch19s04.md ['too_short (310 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s01.md ['too_short (735 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/opensourcechapter.md ['too_short (370 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch06s02.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch07s01.md ['too_short (513 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/optimizationchapter.md ['too_short (185 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/reusechapter.md ['too_short (603 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch11s02.md ['too_short (855 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch20s01.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/why_not_c.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/script-kiddie.md ['too_short (359 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch16s04.md ['too_short (930 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch10s01.md ['too_short (914 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch11s06.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/historychapter.md ['too_short (239 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s06.md ['too_short (831 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch08s03.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch10s06.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch17s04.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch15s08.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/gui-programmer.md ['too_short (283 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch10s04.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/end-user.md ['too_short (348 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch17s05.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/pr01s05.md ['too_short (415 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch07s02.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch04s03.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch18s02.md ['too_short (976 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch07s03.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/documentationchapter.md ['too_short (428 words)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/unix/ch16s06.md ['too_short (291 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/hackers.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/unix/ch13s01.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/pdm/torres-continuous-discovery-habits-2021.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/pdm/doerr-measure-what-matters-2018.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/pdm/ries-lean-startup-2011.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/pdm/cagan-inspired-2ed-2017.md ['too_short (0 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/pdm/cagan-transformed-2024.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch5-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch5-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch18-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch18-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch23-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-i.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch24-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-b.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/cybernetics/chbibmz.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch20-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch23-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch21-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch7-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch9-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-d.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/cybernetics/translationsphp.md ['too_short (220 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-i.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/cybernetics/ashby-introduction-to-cybernetics-1956.md ['page_pollution (143)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-j.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch9-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch4-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch4-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch20-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-d.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/cybernetics/ch3-a.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch4-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch21-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-j.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-h.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch18-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch7-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch9-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch5-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch23-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch23-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-i.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-i.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch21-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch23-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-h.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-e.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md ['too_short (0 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch7-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch11-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch20-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch11-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch20-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch18-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/selected_maximsphp.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch11-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch4-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch1-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch1-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch11-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch1-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch7-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-a.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md ['too_short (0 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch5-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch2-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch9-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch24-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch10-b.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/cybernetics/reviewsphp.md ['too_short (531 words)']
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/cybernetics/kelly-out-of-control-1994.md ['page_pollution (416)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch13-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch4-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch20-a.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch11-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch3-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch17-h.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch8-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-h.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/cybernetics/indexphp.md ['too_short (531 words)']
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/cybernetics/chbibal.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-g.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch14-f.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch18-d.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch21-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch22-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/contentsphp.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch15-h.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch12-b.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch16-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch6-c.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch19-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch9-e.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/cybernetics/ch5-a.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/engineering-foundations/koen-discussion-of-the-method-2003.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/engineering-foundations/altshuller-engineering-of-creativity-triz-1984.md 
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/engineering-foundations/descartes-discourse-on-the-method-gutenberg.md ['low_headings (0)']
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/engineering-foundations/vincenti-what-engineers-know-1990.md ['too_short (403 words)']
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/clean-code/hunt-thomas-pragmatic-programmer-2019.md ['page_pollution (67)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/clean-code/ousterhout-philosophy-of-software-design-2ed-2021.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/clean-code/brooks-mythical-man-month-1995.md ['too_short (736 words)']
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/clean-code/martin-clean-code-2008.md ['page_pollution (420)']
+[2026-04-22 10:17:01] [INFO] B — raw/books-md/clean-code/fowler-refactoring-2ed-2018.md ['page_pollution (335)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/067-shrink-your-time.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/094-the-blank-slate.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/137-track-your-logs.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/105-open-doors.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/023-fund-yourself.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/152-keep-the-posts-coming.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/072-alone-time.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/144-tough-love.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/081-hire-less-and-hire-later.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/097-copywriting-is-interface-design.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/134-solicit-early.md ['too_short (995 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/157-beware-the-bloat-monster.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/114-use-real-words.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/062-rinse-and-repeat.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/111-theres-nothing-functional-about-afunctional-spec.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/151-one-month-tuneup.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/091-interface-first.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/drucker-effective-executive-2006.md ['too_short (108 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/115-personify-your-product.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/124-a-softer-bullet.md ['too_short (975 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/035-be-yourself.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/132-a-powerful-promo-site.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/131-hollywood-launch.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/123-silly-rabbit-tricks-are-for-kids.md ['too_short (978 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/025-have-an-enemy.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/155-ride-out-the-storm.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/013-caveats-disclaimers-and-other-preemptive-strikes.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/083-actions-not-words.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/041-whats-the-big-idea.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/grove-only-paranoid-survive-1996.md ['too_short (0 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/051-half-not-half-assed.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/042-ignore-details-early-on.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/092-epicenter-design.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/066-test-in-the-wild.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/102-optimize-for-happiness.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/horowitz-hard-thing-about-hard-things-2014.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/122-easy-on-easy-off.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/113-tell-me-a-quick-story.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/032-lower-your-cost-of-change.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/026-it-shouldnt-be-a-chore.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/045-scale-later.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/135-promote-through-education.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/gettingreal.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/054-hidden-costs.md 
+[2026-04-22 10:17:01] [INFO] C — raw/books-md/mgmt/156-keep-up-with-the-joneses.md ['too_short (982 words)']
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/093-three-state-solution.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/044-hire-the-right-customers.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/058-hold-the-mayo.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/142-zero-training.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/watkins-first-90-days-2013.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/052-it-just-doesnt-matter.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/146-publicize-your-screwups.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/103-code-speaks.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/074-seek-and-celebrate-small-victories.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/104-manage-debt.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/043-its-a-problem-when-its-a-problem.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/154-all-bugs-are-not-created-equal.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/012-about-basecamp.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/082-kick-the-tires.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/057-forget-feature-requests.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/098-one-interface.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/053-start-with-no.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/145-in-fine-forum.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/fried-dhh-rework-2010.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/095-get-defensive.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/139-name-hook.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/153-better-not-beta.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/136-feature-food.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/161-start-your-engines.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/065-done.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/063-from-idea-to-implementation.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/031-less-mass.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/121-free-samples.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/112-dont-do-dead-documents.md 
+[2026-04-22 10:17:01] [INFO] A — raw/books-md/mgmt/084-get-well-rounded-individuals.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/fried-dhh-remote-2013.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/133-ride-the-blog-wave.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/158-go-with-the-flow.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/143-answer-quick.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/138-inline-upsell.md 
+[2026-04-22 10:17:02] [INFO] B — raw/books-md/mgmt/laloux-reinventing-organizations-2014.md ['page_pollution (341)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/086-wordsmiths.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/141-feel-the-pain.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/024-fix-time-and-budget-flex-scope.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/085-you-cant-fake-enthusiasm.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/061-race-to-running-software.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/096-context-over-consistency.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/033-the-three-musketeers.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/046-make-opinionated-software.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/064-avoid-preferences.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/034-embrace-constraints.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/056-human-solutions.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/022-whats-your-problem.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/021-build-less.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/071-unity.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/011-what-is-getting-real.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/grove-high-output-management.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/101-less-software.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/073-meetings-are-toxic.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/mgmt/055-can-you-handle-it.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy-science/index.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md ['too_short (0 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy-science/notes.md 
+[2026-04-22 10:17:02] [INFO] B — raw/books-md/philosophy-science/popper-logic-of-scientific-discovery.md ['page_pollution (158)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy-science/kuhn-structure-of-scientific-revolutions-50anniv-2012.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/unacceptable.md ['too_short (549 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/why-private-investors-are-herd-animals.md ['too_short (514 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/light.md ['too_short (848 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/working-ourselves.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/web-20-web-20-web-30.md ['too_short (254 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/fix-the-search-interface-first.md ['too_short (293 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/mobbin.md ['too_short (202 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-returns-to-entrepreneurship.md ['too_short (831 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/a-user-model-for-social-software.md ['too_short (180 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/methods.md ['too_short (679 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/something-vast-this-way-comes.md ['too_short (771 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/docverse-and-mixer-labs-exit-stage-right.md ['too_short (168 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/egalitarian-leverage.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/caveman.md ['too_short (843 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/people.md ['too_short (605 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/truth.md ['too_short (535 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/matt-ridley.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/ignorance.md ['too_short (502 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/social.md ['too_short (661 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/science.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-unbundling-of-the-venture-capital-industry.md ['too_short (756 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/principal-agent.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/ai.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/enjoy.md ['too_short (839 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/possible-careers.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/extrapolate.md ['too_short (548 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/ideas.md ['too_short (789 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/carse-finite-and-infinite-games-1986.md ['too_short (219 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/find.md ['too_short (640 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/predictions.md ['too_short (624 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/theories.md ['too_short (849 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/agency.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/laborer-tech.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/capitalism-intrinsic.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/venture-capital.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/greene-48-laws-of-power-1998.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/bill-burnham-on-the-future-of-google-base.md ['too_short (180 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/rational-optimists.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/unseen.md ['too_short (489 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/compromise.md ['too_short (780 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/ethical-wealth.md ['too_short (882 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/failure.md ['too_short (643 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/substrate.md ['too_short (626 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/reach.md ['too_short (512 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/4.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/startups.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/renting-time.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/agi.md ['too_short (545 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/if-you-love-wealth-more-than-liberty-the-tranquility-of-servitude-better-than-th.md ['too_short (196 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/fool.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/a-venture-sla.md ['too_short (667 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/upcoming-sxsw-panel.md ['too_short (235 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/infinite-resources.md ['too_short (764 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/decentralization.md ['too_short (839 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/how-to-get-rich.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/jobs.md ['too_short (399 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/crypto.md ['too_short (353 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/schelling-point.md ['too_short (572 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/vastcom-launches-credit-card-search.md ['too_short (190 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/curate-people.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/predict.md ['too_short (565 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/on-meditation.md ['too_short (143 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/far-away.md ['too_short (659 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/competition-authenticity.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/silent.md ['too_short (432 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/peace-motion.md ['too_short (655 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/specific-knowledge.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/love-read.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/why-you-cant-hire.md ['too_short (465 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/3.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/product-scale.md ['too_short (843 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/on-humility.md ['too_short (139 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/probability.md ['too_short (596 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/bold.md ['too_short (617 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/skill.md ['too_short (481 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/price-discrimination.md ['too_short (451 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/existence.md ['too_short (468 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/out-of-school-i-offered-to-work-for-benjamin-graham-for-free-and-he-said-i-was-o.md ['too_short (167 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/kapil.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/end.md ['too_short (644 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/long-term.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/who-has-time-for-meetings.md ['too_short (519 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/live-appearance.md ['too_short (282 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/expand.md ['too_short (482 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/deutsch-files-i.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/credibility.md ['too_short (601 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/einstein.md ['too_short (476 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/good-products.md ['too_short (929 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/accountability-equity.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/life-formulas-i.md ['too_short (272 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/tumblr-customer-service-blows-me-away.md ['too_short (448 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/gravity.md ['too_short (818 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/happiness-2.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/job-opening-at-my-new-company.md ['too_short (275 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/hong-kong-is-civilized.md ['too_short (244 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/settled.md ['too_short (745 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/ethics.md ['too_short (947 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/users-bring-you-traffic.md ['too_short (271 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/rich-quick.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/reject-advice.md ['too_short (789 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/new-year-new-blog.md ['too_short (203 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/interviews.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/search.md ['too_short (522 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/discrete.md ['too_short (590 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/simplest.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/extrapolating-computing.md ['too_short (319 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/dare-microsoft-kill-google-updated.md ['too_short (299 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/deutsch-files-ii.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/work-hard.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-foundations-of-cooperation.md ['too_short (157 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/towards-a-literate-nation.md ['too_short (540 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/hiring.md ['too_short (634 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/least.md ['too_short (532 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/species.md ['too_short (506 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/index.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/get.md ['too_short (976 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/rich.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/aliens.md ['too_short (432 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/quotes.md ['too_short (468 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/deutsch-files-iii.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/american-spring.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/feedback.md ['too_short (757 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/multiverse.md ['too_short (517 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/think.md ['too_short (553 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/stupid-games.md ['too_short (698 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/inefficient.md ['too_short (584 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/evolution.md ['too_short (683 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/hourly-rate.md ['too_short (934 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/advances.md ['too_short (432 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/money-luck.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-ipad-is-important.md ['too_short (354 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/consensus.md ['too_short (584 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/happiness.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/build-a-team-that-ships.md ['too_short (340 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/accountability-leverage.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/surplus.md ['too_short (406 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/new-blog-and-feed-address.md ['too_short (148 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/kelly-criterion.md ['too_short (554 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/peace.md ['too_short (654 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/density.md ['too_short (805 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/judgment.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/mind-blowing.md ['too_short (739 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/truly.md ['too_short (757 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/american-fall.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/self-promotion.md ['too_short (174 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/material.md ['too_short (683 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/venture-hacks-is-hiring-one-man-developer-army.md ['too_short (178 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/understand.md ['too_short (441 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/david-deutsch-2.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/unquantifiable-risk.md ['too_short (500 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/conjectural.md ['too_short (748 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/eventually.md ['too_short (996 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/angel-2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/holiday-daily-stoic-2016.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/why-we-may-think.md ['too_short (335 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/david-deutsch.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/intelligent.md ['too_short (777 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/at-stirr-events-vcs-fly-business-class-but-entrepreneurs-fly-coach-i-have-a-simi.md ['too_short (185 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/luck-destiny.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/we-get-these-questions-a-lot-from-the-enterprising-young-it8217s-a-very-intellig.md ['too_short (252 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/read.md ['too_short (701 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/redefining.md ['too_short (632 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/stories.md ['too_short (142 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/there-is-no-angel-bubble-there-are-many-angel-bubbles.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/free-markets.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/web-20-meme-wars-begin.md ['too_short (192 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/isnt-it-obvious-what-web-20-is.md ['too_short (383 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/math.md ['too_short (529 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/introducing-venture-hacks.md ['too_short (198 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/archive.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/build-sell.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/subscribe.md ['too_short (58 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/angel-1.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/funding-markets-develop-in-reverse.md ['too_short (607 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/wealth.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/salary-freedom.md ['too_short (786 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/finally-wealthy.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/business-models.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/indirect.md ['too_short (504 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/reflect.md ['too_short (582 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/how-to-pick-a-co-founder-at-venture-hacks.md ['too_short (142 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/justified.md ['too_short (670 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/natural-beauty.md ['too_short (505 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/do-animals-laugh.md ['too_short (342 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/explanations.md ['too_short (545 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/be-chaotic-neutral.md ['too_short (403 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/program.md ['too_short (356 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/creative-technical.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/bubble.md ['too_short (231 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/error.md ['too_short (610 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/externalities.md ['too_short (558 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/technology.md ['too_short (984 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/yes-the-bubble-is-back.md ['too_short (190 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/seek-wealth.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/productize-yourself.md ['too_short (576 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/meetings.md ['too_short (930 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/nullius.md ['too_short (591 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/privacy-violations.md ['too_short (244 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/pessimism.md ['too_short (576 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/optimism.md ['too_short (589 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/skill-business.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/product-media.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/short.md ['too_short (714 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/mencken-on-politics.md ['too_short (164 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/do.md ['too_short (499 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/politics.md ['too_short (803 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/inspiration.md ['too_short (779 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/prove.md ['too_short (521 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/two-more-hacks.md ['too_short (232 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/podcast.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/vitalik-2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/craigslist-is-worth-more-than-ebay.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/in-the-arena.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/deutsch-files-iv.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/labor-capital.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/arena.md ['too_short (663 words)']
+[2026-04-22 10:17:02] [INFO] B — raw/books-md/philosophy/articles.md ['low_headings (0)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/science-2.md ['too_short (648 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/the-aging-entrepreneur.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/jorgenson-naval-almanack-2020.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/lawyers-or-insurance-salesmen.md ['too_short (405 words)']
+[2026-04-22 10:17:02] [INFO] B — raw/books-md/philosophy/the-box.md ['weird_chars (149)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/turns-out-that-yahoo-search-can8217t-find-the-pirate-bay-between-moves-like-this.md ['too_short (200 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/finding-time.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/vitalik.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/google-should-pull-an-android-on-facebook.md ['too_short (413 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/there-is-no-subtler-surer-means-of-overturning-the-existing-basis-of-society-tha.md ['too_short (191 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/classifieds.md ['too_short (408 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/why-you-need-to-be-in-silicon-valley.md ['too_short (403 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/desire.md ['too_short (459 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-need-for-indifference.md ['too_short (153 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/uncategorized.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/perpetual-stimulation-machine.md ['too_short (358 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/knowledge.md ['too_short (562 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/matt-ridley-2.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/y-combinator-vs-graduate-school.md ['too_short (263 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/securitize-citizenship.md ['too_short (473 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/intelligence-energy-integrity.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/addiction.md ['too_short (495 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/infinity-2.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/interview-on-entrepreneurship-up-at-gigaom-tv.md ['too_short (154 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/a-founders-anxiety.md ['too_short (154 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/npv.md ['too_short (449 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/2.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/vary.md ['too_short (710 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/craigslist-takes-on-sand-hill-road.md ['too_short (320 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/accountability.md ['too_short (881 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/philosophy/infinity.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/theory.md ['too_short (509 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/envy.md ['too_short (938 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/how-microsoft-can-obliterate-google.md ['too_short (223 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/resources.md ['too_short (727 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/american-culture.md ['too_short (214 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/philosopher.md ['too_short (525 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/sundry.md ['too_short (476 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-truth-about-hard-work.md ['too_short (156 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/when-going-through-hell-keep-going.md ['too_short (149 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/vc-bundling.md ['too_short (853 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/relationships.md ['too_short (696 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/exceptional.md ['too_short (650 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/math-logic.md ['too_short (866 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/the-80-hour-myth.md ['too_short (487 words)']
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/philosophy/smart.md ['too_short (717 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/stateofgptpdf.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/agent-trace.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1850-pr-based-sep-workflow.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/effective-harnesses-for-long-running-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/launching-in-japan.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/connect-remote-servers.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/build-client.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/data-processing-addendum.md ['too_short (507 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/antitrust.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/privacy-policy.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-review.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/ai-resistant-technical-evaluations.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/claude-code-auto-mode.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/932-model-context-protocol-governance.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/equipping-agents-for-the-real-world-with-agent-skills.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/sep-guidelines.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-bench-technical-report.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/debugging.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-1-5.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/the-cost-of-building-cloud-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/dec-24-product-update.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/introducing-devin-2-2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/multi-agent-research-system.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/mcp-marketplace.md ['too_short (786 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/roadmap.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/991-enable-url-based-client-registration-using-oauth-c.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/harness-design-long-running-apps.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/security.md ['too_short (689 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2025-11-25.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/adding-skills-support.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/claude-think-tool.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-generally-available.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-2-1.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1046-support-oauth-client-credentials-flow-in-authoriza.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/from-jenkins-to-github-actions.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/dont-build-multi-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/990-enable-enterprise-idp-policy-controls-during-mcp-o.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/sampling.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1577-sampling-with-tools.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/terms-of-service.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/dec-24-product-update-2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/tools.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/contextual-retrieval.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/security_best_practices.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/transports.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/sdk-tiers.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/moderation-policy.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1686-tasks.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/sdk.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/enterprise-managed-authorization.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/coding-agents-101-the-art-of-actually-getting-things-done.md ['too_short (573 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1699-support-sse-polling-via-server-side-disconnect.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/3.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2149-working-group-charter-template.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/contributing.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/examples.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/lifecycle.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/connect-local-servers.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-1-6.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2243-http-standardization.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/tracing-thoughts-language-model.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/985-align-oauth-20-protected-resource-metadata-with-rf.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/clients.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/closing-the-agent-loop-devin-autofixes-review-comments.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-1-6-preview.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/demystifying-evals-for-ai-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/jan-25-product-update.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/best-practices.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1302-formalize-working-groups-and-interest-groups-in-mc.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/how-cognition-uses-devin-to-build-devin.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/cognition-dpa.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/enterprise-tos-nov-2025.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-agent-preview-sonnet-4-5.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/clio.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/server-concepts.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/oauth-client-credentials.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-bench-sonnet.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/cognition-for-government.md ['too_short (912 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/986-specify-format-for-tool-names.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/brand.md ['too_short (868 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/june-24-product-update.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/build-server.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/optimizing-descriptions.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/blog.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/versioning.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-annual-performance-review-2025.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/414-request-meta.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/index.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-check-10x-faster.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/evaluating-skills.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/managed-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/design-principles.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/994-shared-communication-practicesguidelines.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/eval-awareness-browsecomp.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/engineering.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/schema.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/windsurf.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-can-now-manage-devins.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/new-self-serve-plans-for-devin.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/how-eight-sleep-uses-devin-as-a-data-analyst.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/how-devin-is-modernizing-cobol-at-fortune-500-companies.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/remote-servers.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2148-contributor-ladder.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1330-elicitation-enum-schema-improvements-and-standards.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/specification.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/government.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/building-effective-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/contributor-ladder.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/charter.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-crowdstrike-outage.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1034-support-default-values-for-all-primitive-types-in.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/cognition-open-source-initiative.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/code-execution-with-mcp.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1024-mcp-client-security-requirements-for-local-server.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1319-decouple-request-payload-from-rpc-methods-definiti.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/basic.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/zero-to-hero.md ['too_short (915 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/acceptable-use-policy.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/build-with-agent-skills.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/linktree.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/changelog.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/terms-of-service-february-2025.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/dotnet-migration-with-devin.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/claude-code-best-practices.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1613-establish-json-schema-2020-12-as-default-dialect-f.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/writing-tools-for-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/ai-data-analyst.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/cognizant-cognition.md ['too_short (780 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/crossmint-devin.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2133-extensions.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/communication.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/website-terms.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/blockdiff.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/package-types.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/desktop-extensions.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/claude-code-sandboxing.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/contact.md ['too_short (512 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/books.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/deepwiki-mcp-server.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/robotstxt.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/careers.md ['too_short (736 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1730-sdks-tiering-system.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2207-oidc-refresh-token-guidance.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1036-url-mode-elicitation-for-secure-out-of-band-intera.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-sonnet-4-5-lessons-and-challenges.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/authorization.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-in-windsurf.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/build.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/authentication.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/infrastructure-noise.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2085-governance-succession-and-amendment.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/cognition-london.md ['too_short (775 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-can-now-schedule-devins.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/latest.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/what-are-skills.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/about.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/enterprise-tos.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/introducing-devin.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/devin-february-25-product-update.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/overview.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1303-input-validation-errors-as-tool-execution-errors.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/swe-grep.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/1865-mcp-apps-interactive-user-interfaces-for-mcp.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/a-postmortem-of-three-recent-issues.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/building-c-compiler.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/deepwiki.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/infosys-cognition.md ['too_short (897 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/seps.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/sept-24-product-update.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/advanced-tool-use.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/using-scripts.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/architecture.md 
+[2026-04-22 10:17:02] [INFO] C — raw/books-md/meta/windsurf-data-use.md ['too_short (514 words)']
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/governance.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/multi-agents-working.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/effective-context-engineering-for-ai-agents.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2260-require-server-requests-to-be-associated-with-client-requests.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/quickstart.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/kevin-32b.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/client-concepts.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/server.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/client-matrix.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/2.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/registry-aggregators.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/973-expose-additional-metadata-for-implementations-res.md 
+[2026-04-22 10:17:02] [INFO] A — raw/books-md/meta/logging.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/faq.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/resources.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/inspector.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/visible-extended-thinking.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/roots.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/working-interest-groups.md 
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/meta/open-source-initiative-is-back.md ['too_short (894 words)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/devin-101-automatic-pr-reviews-with-the-devin-api.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/prompts.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/elicitation.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/codemaps.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/github-actions.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/funding-growth-and-the-next-frontier-of-ai-coding-agents.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/evaluating-coding-agents.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/meta/charter-template.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/complexity/beinhocker-origin-of-wealth-2006.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/complexity/mitchell-complexity-a-guided-tour-2009.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/23-chapter-09.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/shapeup.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/40-appendix-01.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/34-chapter-13.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/42-appendix-03.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/11-chapter-02.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/schwaber-sutherland-scrum-guide-2020.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/35-chapter-14.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/32-chapter-11.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/21-chapter-07.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/22-chapter-08.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/03-chapter-01.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/41-appendix-02.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/02-acknowledgements.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/36-chapter-15.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/14-chapter-05.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/singer-shape-up-basecamp-2019.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/12-chapter-03.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/46-appendix-07.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/33-chapter-12.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/pm/pmi-pmbok-7th-edition-2021.md ['page_pollution (332)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/37-conclusion.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/15-chapter-06.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/13-chapter-04.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/45-appendix-06.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/31-chapter-10.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/pm/01-foreword.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/systems/calendar.md ['page_pollution (122)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1797664htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1798285htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795494.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1790893.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1792163.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1513051.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1793139.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795114.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794653htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1789666html.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796289htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/systems/1798285.md ['too_short (699 words)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794023.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1798090htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1797402.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1798090.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1797223.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1788706.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794296.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794653.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1414038.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795848.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794324htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796289.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1789666.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1787791.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796971htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1130190.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1793776htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1791964.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1790426.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1798409htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/683311.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/systems/indexhtmlila_campaigncontrol_strip.md ['page_pollution (122)']
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/systems/1008054.md ['too_short (968 words)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1158826.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1761088.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/103692.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1791704.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795114htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/index.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1793289.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1790554.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/meadows-thinking-in-systems-2008.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1792800.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1792579.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795848htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/systems/1798409.md ['too_short (562 words)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794961.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1791233.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1293469.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794296htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1791187.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796971.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1789736.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796405htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794324.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/systems/indexhtmlskip20.md ['low_headings (1)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1797223htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/systems/1494762.md ['too_short (743 words)']
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/systems/friends.md ['isolated_l (30)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1792363.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795589htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795494htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1797402htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1263637.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1793776.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/ackoff-systems-thinking-curious-managers-2010.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/weinberg-general-systems-thinking-1975.md 
+[2026-04-22 10:17:03] [INFO] C — raw/books-md/systems/1797664.md ['too_short (601 words)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796405.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796805.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1790080.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/senge-fifth-discipline-fieldbook.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1795589.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1796805htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794961htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/systems/1794023htmlmodereply.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/investing/buffett-shareholder-letters-collection.md ['too_long (813868 words)', 'page_pollution (1472)']
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/investing/graham-intelligent-investor.md ['page_pollution (167)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/investing/taleb-skin-in-the-game-2018.md 
+[2026-04-22 10:17:03] [INFO] B — raw/books-md/investing/munger-poor-charlies-almanack-ru.md ['low_headings (0)']
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/investing/taleb-antifragile-2012.md 
+[2026-04-22 10:17:03] [INFO] A — raw/books-md/investing/marks-most-important-thing-illuminated-2013.md 
+[2026-04-22 10:17:04] [INFO] A — raw/books-md/biology/dennett-darwins-dangerous-idea-1995.md 
+[2026-04-22 10:17:04] [INFO] A — raw/books-md/biology/dawkins-selfish-gene.md 
+[2026-04-22 10:17:04] [INFO] B — raw/books-md/biology/dawkins-blind-watchmaker-1986.md ['page_pollution (219)']
+[2026-04-22 10:17:04] [INFO] B — raw/books-md/biology/kauffman-at-home-in-the-universe-1995.md ['page_pollution (164)']
+[2026-04-22 10:17:04] [INFO] Grades: A=678 B=25 C=313

@@ -1,0 +1,17 @@
+[2026-04-22 09:33:45] [INFO] Pipeline start. Step: convert. Resume: True. Dry-run: False
+[2026-04-22 09:33:45] [INFO] === STEP 3: Convert to Markdown ===
+[2026-04-22 09:33:45] [INFO] Converting 1079 files...
+Converting:   0%|          | 0/1079 [00:00<?, ?it/s][32m[INFO] 2026-04-22 09:33:57,514 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-04-22 09:33:57,531 [RapidOCR] download_file.py:60: File exists and is valid: /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_det_mobile.onnx[0m
+[32m[INFO] 2026-04-22 09:33:57,531 [RapidOCR] main.py:57: Using /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_det_mobile.onnx[0m
+[32m[INFO] 2026-04-22 09:33:57,644 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-04-22 09:33:57,647 [RapidOCR] download_file.py:60: File exists and is valid: /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx[0m
+[32m[INFO] 2026-04-22 09:33:57,647 [RapidOCR] main.py:57: Using /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_ppocr_mobile_v2.0_cls_mobile.onnx[0m
+[32m[INFO] 2026-04-22 09:33:57,677 [RapidOCR] base.py:22: Using engine_name: onnxruntime[0m
+[32m[INFO] 2026-04-22 09:33:57,712 [RapidOCR] download_file.py:60: File exists and is valid: /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_rec_mobile.onnx[0m
+[32m[INFO] 2026-04-22 09:33:57,712 [RapidOCR] main.py:57: Using /home/ruslan/.local/lib/python3.12/site-packages/rapidocr/models/ch_PP-OCRv4_rec_mobile.onnx[0m
+[2026-04-22 09:33:45] [INFO] Converting: raymond-art-of-unix-programming-2003.pdf (pdf_text)
+
+Loading weights:   0%|          | 0/770 [00:00<?, ?it/s][A
+Loading weights:  41%|████▏     | 318/770 [00:00<00:00, 2999.28it/s][A
+Loading weights:  80%|████████  | 618/770 [00:00<00:00, 1943.29it/s][ALoading weights: 100%|██████████| 770/770 [00:00<00:00, 2060.29it/s]

@@ -1,0 +1,110 @@
+[2026-04-22 09:29:43] [INFO] === STEP 2: OCR Scanned PDFs ===
+[2026-04-22 09:29:43] [INFO] OCRing 6 scanned PDFs...
+[2026-04-22 09:29:43] [INFO] OCR: kernighan-pike-unix-programming-environment-1984.pdf
+[2026-04-22 09:29:44] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+
+[2026-04-22 09:29:44] [INFO] OCR: cagan-inspired-2ed-2017.pdf
+[2026-04-22 09:29:44] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+
+[2026-04-22 09:29:44] [INFO] OCR: wiener-cybernetics-2ed-1961.pdf
+[2026-04-22 09:29:45] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+
+[2026-04-22 09:29:45] [INFO] OCR: beer-brain-of-the-firm-1972.pdf
+[2026-04-22 09:29:45] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+
+[2026-04-22 09:29:45] [INFO] OCR: grove-only-paranoid-survive-1996.pdf
+[2026-04-22 09:29:46] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+
+[2026-04-22 09:29:46] [INFO] OCR: popper-conjectures-and-refutations-1963.pdf
+[2026-04-22 09:29:46] [ERROR]   ❌ FAIL: 
+The program 'unpaper' could not be executed or was not found on your
+system PATH.  This program is required when you use the
+--clean, --clean-final arguments.  You could try omitting these arguments, or install
+the package.
+
+
+On systems with the aptitude package manager (Debian, Ubuntu), try these
+commands:
+    sudo apt update
+    sudo apt install unpaper
+
+On RPM-based systems (Red Hat, Fedora), try this command:
+    sudo dnf install unpaper
+
+Could not find program 'unpaper' on the PATH
+

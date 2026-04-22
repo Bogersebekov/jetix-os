@@ -1,0 +1,14 @@
+[2026-04-22 09:29:42] [INFO] Pipeline start. Step: all. Resume: True. Dry-run: False
+[2026-04-22 09:33:45] [INFO] Pipeline start. Step: convert. Resume: True. Dry-run: False
+[2026-04-22 09:40:24] [INFO] Pipeline start. Step: convert. Resume: True. Dry-run: False
+[2026-04-22 10:16:35] [INFO] Pipeline done.
+[2026-04-22 10:16:35] [INFO] Check: raw/books-md/INDEX.md
+[2026-04-22 10:17:00] [INFO] Pipeline start. Step: frontmatter. Resume: False. Dry-run: False
+[2026-04-22 10:17:01] [INFO] Pipeline done.
+[2026-04-22 10:17:01] [INFO] Check: raw/books-md/INDEX.md
+[2026-04-22 10:17:01] [INFO] Pipeline start. Step: quality. Resume: False. Dry-run: False
+[2026-04-22 10:17:04] [INFO] Pipeline done.
+[2026-04-22 10:17:04] [INFO] Check: raw/books-md/INDEX.md
+[2026-04-22 10:17:04] [INFO] Pipeline start. Step: index. Resume: False. Dry-run: False
+[2026-04-22 10:17:04] [INFO] Pipeline done.
+[2026-04-22 10:17:04] [INFO] Check: raw/books-md/INDEX.md

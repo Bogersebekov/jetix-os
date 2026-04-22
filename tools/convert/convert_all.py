@@ -243,25 +243,15 @@ def ocr_scanned(report=None):
 # ============================================================
 
 def convert_pdf_to_md(src: Path, dst: Path) -> bool:
-    """Convert PDF to Markdown using docling (primary), pymupdf4llm (fallback)."""
-    # Try docling first
-    try:
-        from docling.document_converter import DocumentConverter
-        converter = DocumentConverter()
-        result = converter.convert(str(src))
-        md_text = result.document.export_to_markdown()
-        dst.write_text(md_text, encoding="utf-8")
-        return True
-    except Exception as e:
-        log("convert", f"  docling failed for {src.name}: {e}. Trying pymupdf4llm...", "WARN")
-    # Fallback to pymupdf4llm
+    """Convert PDF to Markdown. Uses pymupdf4llm (fast, stable).
+    Docling skipped — crashes silently on this env (onnxruntime segfault)."""
     try:
         import pymupdf4llm
         md_text = pymupdf4llm.to_markdown(str(src))
         dst.write_text(md_text, encoding="utf-8")
         return True
     except Exception as e:
-        log("convert", f"  pymupdf4llm also failed: {e}", "ERROR")
+        log("convert", f"  pymupdf4llm failed for {src.name}: {e}", "ERROR")
         return False
 
 def convert_epub_to_md(src: Path, dst: Path) -> bool:

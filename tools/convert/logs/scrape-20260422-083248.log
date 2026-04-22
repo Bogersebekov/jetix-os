@@ -1,0 +1,123 @@
+
+=== Paul Graham essays ===
+URL: http://www.paulgraham.com/articles.html
+Dest: inbox/philosophy/paul-graham-essays
+✅ Paul Graham essays: 1 files
+
+=== Naval blog (nav.al) ===
+URL: https://nav.al/
+Dest: inbox/philosophy/naval-blog
+✅ Naval blog (nav.al): 262 files
+
+=== SEP: popper ===
+URL: https://plato.stanford.edu/entries/popper/
+Dest: inbox/philosophy-science/sep-popper
+✅ SEP: popper: 2 files
+
+=== SEP: thomas-kuhn ===
+URL: https://plato.stanford.edu/entries/thomas-kuhn/
+Dest: inbox/philosophy-science/sep-thomas-kuhn
+✅ SEP: thomas-kuhn: 1 files
+
+=== SEP: lakatos ===
+URL: https://plato.stanford.edu/entries/lakatos/
+Dest: inbox/philosophy-science/sep-lakatos
+✅ SEP: lakatos: 2 files
+
+=== SEP: feyerabend ===
+URL: https://plato.stanford.edu/entries/feyerabend/
+Dest: inbox/philosophy-science/sep-feyerabend
+✅ SEP: feyerabend: 1 files
+
+=== SEP: scientific-method ===
+URL: https://plato.stanford.edu/entries/scientific-method/
+Dest: inbox/philosophy-science/sep-scientific-method
+✅ SEP: scientific-method: 3 files
+
+=== SEP: scientific-revolutions ===
+URL: https://plato.stanford.edu/entries/scientific-revolutions/
+Dest: inbox/philosophy-science/sep-scientific-revolutions
+✅ SEP: scientific-revolutions: 1 files
+
+=== SEP: epistemology ===
+URL: https://plato.stanford.edu/entries/epistemology/
+Dest: inbox/philosophy-science/sep-epistemology
+✅ SEP: epistemology: 3 files
+
+=== Karpathy bearblog ===
+URL: https://karpathy.bearblog.dev/
+Dest: inbox/meta/karpathy-bearblog
+✅ Karpathy bearblog: 16 files
+
+=== Karpathy main ===
+URL: https://karpathy.ai/
+Dest: inbox/meta/karpathy-ai
+✅ Karpathy main: 5 files
+
+=== Anthropic engineering blog ===
+URL: https://www.anthropic.com/engineering
+Dest: inbox/meta/anthropic-engineering
+✅ Anthropic engineering blog: 30 files
+
+=== Aider blog ===
+URL: https://aider.chat/blog/
+Dest: inbox/meta/aider-blog
+✅ Aider blog: 1 files
+
+=== Cognition blog ===
+URL: https://cognition.ai/blog
+Dest: inbox/meta/cognition-blog
+✅ Cognition blog: 84 files
+
+=== Farnam Street mental models ===
+URL: https://fs.blog/mental-models/
+Dest: inbox/meta/farnam-street
+✅ Farnam Street mental models: 1 files
+
+=== MCP specification ===
+URL: https://modelcontextprotocol.io/
+Dest: inbox/meta/mcp-spec
+✅ MCP specification: 110 files
+
+=== agentskills.io ===
+URL: https://agentskills.io/
+Dest: inbox/meta/agentskills-io
+✅ agentskills.io: 11 files
+
+=== Kevin Kelly Out of Control ===
+URL: https://kk.org/outofcontrol/contents.php
+Dest: inbox/cybernetics/kelly-out-of-control
+✅ Kevin Kelly Out of Control: 155 files
+
+=== Raymond Art of Unix Programming ===
+URL: http://www.catb.org/~esr/writings/taoup/html/
+Dest: inbox/unix/art-of-unix-programming
+✅ Raymond Art of Unix Programming: 153 files
+
+=== 37signals writings ===
+URL: https://37signals.com/podcast-and-excerpts
+Dest: inbox/mgmt/37signals-writings
+✅ 37signals writings: 0 files
+
+=== 37signals Getting Real ===
+URL: https://basecamp.com/gettingreal
+Dest: inbox/mgmt/37signals-getting-real
+✅ 37signals Getting Real: 93 files
+
+=== Shape Up web version ===
+URL: https://basecamp.com/shapeup
+Dest: inbox/pm/shape-up-web
+✅ Shape Up web version: 25 files
+
+=== Levenchuk LiveJournal recent ===
+URL: https://ailev.livejournal.com/
+Dest: inbox/systems/levenchuk-lj
+✅ Levenchuk LiveJournal recent: 79 files
+
+=== SCRAPE COMPLETE ===
+Inbox: inbox
+Total files: 2016
+Total size: 239M
+
+NEXT: положи PDFs в inbox/<subcategory>/ (вручную или см. inbox/README.md)
+      потом: bash tools/convert/sync_to_server.sh

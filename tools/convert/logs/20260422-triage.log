@@ -1,0 +1,59 @@
+[2026-04-22 09:29:42] [INFO] === STEP 1: Triage ===
+[2026-04-22 09:29:42] [INFO] Checking PDF type: raymond-art-of-unix-programming-2003.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: kernighan-pike-unix-programming-environment-1984.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: doerr-measure-what-matters-2018.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: cagan-transformed-2024.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: cagan-inspired-2ed-2017.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: ries-lean-startup-2011.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: wiener-cybernetics-2ed-1961.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: beer-brain-of-the-firm-1972.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: kelly-out-of-control-1994.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: ashby-introduction-to-cybernetics-1956.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: altshuller-engineering-of-creativity-triz-1984.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: vincenti-what-engineers-know-1990.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: brooks-mythical-man-month-1995.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: ousterhout-philosophy-of-software-design-2ed-2021.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: fowler-refactoring-2ed-2018.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: hunt-thomas-pragmatic-programmer-2019.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: martin-clean-code-2008.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: grove-only-paranoid-survive-1996.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: watkins-first-90-days-2013.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: horowitz-hard-thing-about-hard-things-2014.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: fried-dhh-rework-2010.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: drucker-effective-executive-2006.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: fried-dhh-remote-2013.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: laloux-reinventing-organizations-2014.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: grove-high-output-management.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: popper-logic-of-scientific-discovery.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: kuhn-structure-of-scientific-revolutions-50anniv-2012.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: popper-conjectures-and-refutations-1963.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: greene-48-laws-of-power-1998.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: holiday-daily-stoic-2016.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: jorgenson-naval-almanack-2020.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: carse-finite-and-infinite-games-1986.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: Cognition-DPA.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: beinhocker-origin-of-wealth-2006.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: mitchell-complexity-a-guided-tour-2009.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: pmi-pmbok-7th-edition-2021.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: singer-shape-up-basecamp-2019.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: schwaber-sutherland-scrum-guide-2020.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: senge-fifth-discipline-fieldbook.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: meadows-thinking-in-systems-2008.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: ackoff-systems-thinking-curious-managers-2010.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: weinberg-general-systems-thinking-1975.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: marks-most-important-thing-illuminated-2013.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: buffett-shareholder-letters-collection.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: taleb-skin-in-the-game-2018.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: taleb-antifragile-2012.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: graham-intelligent-investor.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: dawkins-blind-watchmaker-1986.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: dawkins-selfish-gene.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: dennett-darwins-dangerous-idea-1995.pdf
+[2026-04-22 09:29:43] [INFO] Checking PDF type: kauffman-at-home-in-the-universe-1995.pdf
+[2026-04-22 09:29:43] [INFO] Triage complete. Total files: 1186
+[2026-04-22 09:29:43] [INFO]   pdf_text: 45
+[2026-04-22 09:29:43] [INFO]   pdf_scanned: 6
+[2026-04-22 09:29:43] [INFO]   epub: 2
+[2026-04-22 09:29:43] [INFO]   txt: 2
+[2026-04-22 09:29:43] [INFO]   html: 1024
+[2026-04-22 09:29:43] [INFO]   unknown: 107

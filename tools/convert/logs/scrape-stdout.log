@@ -1,0 +1,591 @@
+Scrape log: tools/convert/logs/scrape-20260422-083248.log
+
+=== Paul Graham essays ===
+URL: http://www.paulgraham.com/articles.html
+Dest: inbox/philosophy/paul-graham-essays
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+--2026-04-22 08:32:50--  https://paulgraham.com/articles.html
+Resolving paulgraham.com (paulgraham.com)... 52.4.160.184, 52.204.244.237
+Connecting to paulgraham.com (paulgraham.com)|52.4.160.184|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘www.paulgraham.com/articles.html’
+
+     0K .......... .......... .......... .......... ..........  221K
+    50K .......... .......... .......... .......... ..........  444K
+   100K .......... ....                                         115M=0.3s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:32:51 (339 KB/s) - ‘www.paulgraham.com/articles.html’ saved [117470]
+
+FINISHED --2026-04-22 08:32:51--
+Total wall clock time: 3.1s
+Downloaded: 1 files, 115K in 0.3s (339 KB/s)
+Converting links in www.paulgraham.com/articles.html... 247.
+1-246
+Converted links in 1 files in 0.004 seconds.
+✅ Paul Graham essays: 1 files
+
+=== Naval blog (nav.al) ===
+URL: https://nav.al/
+Dest: inbox/philosophy/naval-blog
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘nav.al/wp-json/wp/v2/posts/19’
+
+     0K .......... ....                                        97.2M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:08 (97.2 MB/s) - ‘nav.al/wp-json/wp/v2/posts/19’ saved [14392]
+
+--2026-04-22 08:59:10--  https://nav.al/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fnav.al%2Fisnt-it-obvious-what-web-20-is
+Reusing existing connection to nav.al:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/json]
+Saving to: ‘nav.al/wp-json/oembed/1.0/embed@url=https%3A%2F%2Fnav.al%2Fisnt-it-obvious-what-web-20-is’
+
+     0K ..                                                     52.3M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:11 (52.3 MB/s) - ‘nav.al/wp-json/oembed/1.0/embed@url=https%3A%2F%2Fnav.al%2Fisnt-it-obvious-what-web-20-is’ saved [2415]
+
+✅ Naval blog (nav.al): 262 files
+
+=== SEP: popper ===
+URL: https://plato.stanford.edu/entries/popper/
+Dest: inbox/philosophy-science/sep-popper
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+     0K .......... .....                                      100% 2.52G=0s
+
+2026-04-22 08:59:15 (2.52 GB/s) - ‘plato.stanford.edu/entries/popper/popper.jpg’ saved [16015/16015]
+
+--2026-04-22 08:59:16--  https://plato.stanford.edu/entries/popper/local.js
+Reusing existing connection to plato.stanford.edu:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22 [application/javascript]
+Saving to: ‘plato.stanford.edu/entries/popper/local.js’
+
+     0K                                                       100% 1.77M=0s
+
+2026-04-22 08:59:16 (1.77 MB/s) - ‘plato.stanford.edu/entries/popper/local.js’ saved [22/22]
+
+FINISHED --2026-04-22 08:59:16--
+Total wall clock time: 5.4s
+Downloaded: 4 files, 134K in 0.6s (235 KB/s)
+Converting links in plato.stanford.edu/entries/popper/index.html... 94.
+26-68
+Converted links in 1 files in 0.001 seconds.
+✅ SEP: popper: 2 files
+
+=== SEP: thomas-kuhn ===
+URL: https://plato.stanford.edu/entries/thomas-kuhn/
+Dest: inbox/philosophy-science/sep-thomas-kuhn
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+--2026-04-22 08:59:16--  https://plato.stanford.edu/entries/thomas-kuhn/
+Resolving plato.stanford.edu (plato.stanford.edu)... 171.67.193.20
+Connecting to plato.stanford.edu (plato.stanford.edu)|171.67.193.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘plato.stanford.edu/entries/thomas-kuhn/index.html’
+
+     0K .......... .......... .......... .......... ..........  117K
+    50K .......... .......... .......... .......... ..........  349K
+   100K .......... ...                                          391M=0.6s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:17 (199 KB/s) - ‘plato.stanford.edu/entries/thomas-kuhn/index.html’ saved [116594]
+
+FINISHED --2026-04-22 08:59:17--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 114K in 0.6s (199 KB/s)
+Converting links in plato.stanford.edu/entries/thomas-kuhn/index.html... 102.
+33-69
+Converted links in 1 files in 0.001 seconds.
+✅ SEP: thomas-kuhn: 1 files
+
+=== SEP: lakatos ===
+URL: https://plato.stanford.edu/entries/lakatos/
+Dest: inbox/philosophy-science/sep-lakatos
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+     0K .......... .......... ........                        100%  181M=0s
+
+2026-04-22 08:59:22 (181 MB/s) - ‘plato.stanford.edu/entries/lakatos/fig3.png’ saved [28979/28979]
+
+--2026-04-22 08:59:23--  https://plato.stanford.edu/entries/lakatos/local.js
+Reusing existing connection to plato.stanford.edu:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 22 [application/javascript]
+Saving to: ‘plato.stanford.edu/entries/lakatos/local.js’
+
+     0K                                                       100% 30.4M=0s
+
+2026-04-22 08:59:23 (30.4 MB/s) - ‘plato.stanford.edu/entries/lakatos/local.js’ saved [22/22]
+
+FINISHED --2026-04-22 08:59:23--
+Total wall clock time: 5.6s
+Downloaded: 6 files, 368K in 0.7s (515 KB/s)
+Converting links in plato.stanford.edu/entries/lakatos/index.html... 123.
+36-87
+Converted links in 1 files in 0.002 seconds.
+✅ SEP: lakatos: 2 files
+
+=== SEP: feyerabend ===
+URL: https://plato.stanford.edu/entries/feyerabend/
+Dest: inbox/philosophy-science/sep-feyerabend
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+Connecting to plato.stanford.edu (plato.stanford.edu)|171.67.193.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘plato.stanford.edu/entries/feyerabend/index.html’
+
+     0K .......... .......... .......... .......... ..........  176K
+    50K .......... .......... .......... .......... ..........  349K
+   100K .......... .......... .......... .......... ..........  350K
+   150K .......... .......... .......... .......... .......... 68.3M
+   200K ..                                                     5.21T=0.6s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:24 (355 KB/s) - ‘plato.stanford.edu/entries/feyerabend/index.html’ saved [207663]
+
+FINISHED --2026-04-22 08:59:24--
+Total wall clock time: 1.2s
+Downloaded: 1 files, 203K in 0.6s (355 KB/s)
+Converting links in plato.stanford.edu/entries/feyerabend/index.html... 127.
+34-93
+Converted links in 1 files in 0.002 seconds.
+✅ SEP: feyerabend: 1 files
+
+=== SEP: scientific-method ===
+URL: https://plato.stanford.edu/entries/scientific-method/
+Dest: inbox/philosophy-science/sep-scientific-method
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+
+--2026-04-22 08:59:28--  https://plato.stanford.edu/entries/scientific-method/notes.html
+Reusing existing connection to plato.stanford.edu:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘plato.stanford.edu/entries/scientific-method/notes.html’
+
+     0K .......... .....                                        734M=0s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:28 (734 MB/s) - ‘plato.stanford.edu/entries/scientific-method/notes.html’ saved [15940]
+
+FINISHED --2026-04-22 08:59:28--
+Total wall clock time: 3.7s
+Downloaded: 3 files, 137K in 0.6s (241 KB/s)
+Converting links in plato.stanford.edu/entries/scientific-method/index.html... 189.
+42-147
+Converting links in plato.stanford.edu/entries/scientific-method/notes.html... 73.
+8-65
+Converted links in 2 files in 0.003 seconds.
+✅ SEP: scientific-method: 3 files
+
+=== SEP: scientific-revolutions ===
+URL: https://plato.stanford.edu/entries/scientific-revolutions/
+Dest: inbox/philosophy-science/sep-scientific-revolutions
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+Resolving plato.stanford.edu (plato.stanford.edu)... 171.67.193.20
+Connecting to plato.stanford.edu (plato.stanford.edu)|171.67.193.20|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘plato.stanford.edu/entries/scientific-revolutions/index.html’
+
+     0K .......... .......... .......... .......... ..........  117K
+    50K .......... .......... .......... .......... ..........  350K
+   100K .......... .......... .......... .......... ..........  175K
+   150K .......... .......... ...                               154M=0.9s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:30 (203 KB/s) - ‘plato.stanford.edu/entries/scientific-revolutions/index.html’ saved [177844]
+
+FINISHED --2026-04-22 08:59:30--
+Total wall clock time: 1.5s
+Downloaded: 1 files, 174K in 0.9s (203 KB/s)
+Converting links in plato.stanford.edu/entries/scientific-revolutions/index.html... 108.
+32-76
+Converted links in 1 files in 0.001 seconds.
+✅ SEP: scientific-revolutions: 1 files
+
+=== SEP: epistemology ===
+URL: https://plato.stanford.edu/entries/epistemology/
+Dest: inbox/philosophy-science/sep-epistemology
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+
+--2026-04-22 08:59:33--  https://plato.stanford.edu/entries/epistemology/notes.html
+Reusing existing connection to plato.stanford.edu:443.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘plato.stanford.edu/entries/epistemology/notes.html’
+
+     0K .......... .......... .......... .......... ..          296K=0.1s
+
+Last-modified header missing -- time-stamps turned off.
+2026-04-22 08:59:34 (296 KB/s) - ‘plato.stanford.edu/entries/epistemology/notes.html’ saved [43223]
+
+FINISHED --2026-04-22 08:59:34--
+Total wall clock time: 4.0s
+Downloaded: 3 files, 258K in 1.5s (175 KB/s)
+Converting links in plato.stanford.edu/entries/epistemology/notes.html... 129.
+8-121
+Converting links in plato.stanford.edu/entries/epistemology/index.html... 219.
+149-70
+Converted links in 2 files in 0.004 seconds.
+✅ SEP: epistemology: 3 files
+
+=== Karpathy bearblog ===
+URL: https://karpathy.bearblog.dev/
+Dest: inbox/meta/karpathy-bearblog
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+6-2
+Converting links in karpathy.bearblog.dev/index.html... 7.
+7-0
+Converting links in karpathy.bearblog.dev/the-append-and-review-note/index.html... 7.
+6-1
+Converting links in karpathy.bearblog.dev/chemical-hygiene/index.html... 8.
+7-1
+Converting links in karpathy.bearblog.dev/blog/index.html... 19.
+18-1
+Converting links in karpathy.bearblog.dev/year-in-review-2025/index.html... 10.
+9-1
+Converting links in karpathy.bearblog.dev/auto-grade-hn/index.html... 8.
+6-2
+Converting links in karpathy.bearblog.dev/verifiability/index.html... 7.
+6-1
+Converting links in karpathy.bearblog.dev/vibe-coding-menugen/index.html... 8.
+7-1
+Converting links in karpathy.bearblog.dev/i-love-calculator/index.html... 7.
+6-1
+Converted links in 14 files in 0.006 seconds.
+✅ Karpathy bearblog: 16 files
+
+=== Karpathy main ===
+URL: https://karpathy.ai/
+Dest: inbox/meta/karpathy-ai
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+
+     0K .......... ..                                         100%  517M=0s
+
+2026-04-22 09:00:45 (517 MB/s) - ‘karpathy.ai/books.html’ saved [13208/13208]
+
+FINISHED --2026-04-22 09:00:45--
+Total wall clock time: 52s
+Downloaded: 49 files, 4.0M in 0.04s (113 MB/s)
+Converting links in karpathy.ai/robots.txt.html... 50.
+50-0
+Converting links in karpathy.ai/stateofgpt.pdf.html... 50.
+50-0
+Converting links in karpathy.ai/zero-to-hero.html... 1.
+1-0
+Converting links in karpathy.ai/index.html... 50.
+50-0
+Converting links in karpathy.ai/books.html... 1.
+1-0
+Converting links in karpathy.ai/style.css... nothing to do.
+Converted links in 6 files in 0.005 seconds.
+✅ Karpathy main: 5 files
+
+=== Anthropic engineering blog ===
+URL: https://www.anthropic.com/engineering
+Dest: inbox/meta/anthropic-engineering
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+4-57
+Converting links in www.anthropic.com/engineering/harness-design-long-running-apps.html... 86.
+9-77
+Converting links in www.anthropic.com/research/visible-extended-thinking.html... 73.
+3-70
+Converting links in www.anthropic.com/engineering/multi-agent-research-system.html... 64.
+5-59
+Converting links in www.anthropic.com/engineering/desktop-extensions.html... 60.
+4-56
+Converting links in www.anthropic.com/research/building-effective-agents.html... 76.
+7-69
+Converting links in www.anthropic.com/engineering/eval-awareness-browsecomp.html... 60.
+4-56
+Converting links in www.anthropic.com/engineering/advanced-tool-use.html... 66.
+7-59
+Converting links in www.anthropic.com/engineering/infrastructure-noise.html... 60.
+4-56
+Converting links in www.anthropic.com/engineering/code-execution-with-mcp.html... 61.
+5-56
+Converted links in 29 files in 0.04 seconds.
+✅ Anthropic engineering blog: 30 files
+
+=== Aider blog ===
+URL: https://aider.chat/blog/
+Dest: inbox/meta/aider-blog
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+--2026-04-22 09:03:06--  https://aider.chat/blog/
+Resolving aider.chat (aider.chat)... 2606:50c0:8002::153, 2606:50c0:8001::153, 2606:50c0:8003::153, ...
+Connecting to aider.chat (aider.chat)|2606:50c0:8002::153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 44560 (44K) [text/html]
+Saving to: ‘aider.chat/blog/index.html’
+
+     0K .......... .......... .......... .......... ...       100% 3.37M=0.01s
+
+2026-04-22 09:03:06 (3.37 MB/s) - ‘aider.chat/blog/index.html’ saved [44560/44560]
+
+FINISHED --2026-04-22 09:03:06--
+Total wall clock time: 0.3s
+Downloaded: 1 files, 44K in 0.01s (3.37 MB/s)
+Converting links in aider.chat/blog/index.html... 185.
+4-181
+Converted links in 1 files in 0.001 seconds.
+✅ Aider blog: 1 files
+
+=== Cognition blog ===
+URL: https://cognition.ai/blog
+Dest: inbox/meta/cognition-blog
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+Converting links in cognition.ai/blog/devin-generally-available.html... 39.
+38-0
+Converting links in cognition.ai/acceptable-use-policy.html... 31.
+30-0
+Converting links in cognition.ai/blog/devin-crowdstrike-outage.html... 33.
+32-0
+Converting links in cognition.ai/careers.html... 34.
+33-0
+Converting links in cognition.ai/blog/Product Updates/1.html... 50.
+49-0
+Converting links in cognition.ai/blog/june-24-product-update.html... 49.
+47-1
+Converting links in cognition.ai/brand.html... 39.
+38-0
+Converting links in cognition.ai/blog/blockdiff.html... 29.
+28-0
+Converting links in cognition.ai/_astro/brand.BlHnSJV8.css... nothing to do.
+Converting links in cognition.ai/_astro/_service_.B4OIaSSC.css... 12.
+12-0
+Converted links in 85 files in 0.05 seconds.
+✅ Cognition blog: 84 files
+
+=== Farnam Street mental models ===
+URL: https://fs.blog/mental-models/
+Dest: inbox/meta/farnam-street
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+Resolving fs.blog (fs.blog)... 2606:4700:3108::ac42:2b19, 2606:4700:3108::ac42:28e7, 172.66.43.25, ...
+Connecting to fs.blog (fs.blog)|2606:4700:3108::ac42:2b19|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘fs.blog/mental-models/index.html’
+
+     0K .......... .......... .......... .......... .......... 44.5M
+    50K .......... .......... .......... .......... .......... 11.2M
+   100K .......... .......... .......... .......... .......... 25.9M
+   150K .......... .......... .......... .......... .......... 96.0M
+   200K .......... ....                                        29.6M=0.008s
+
+2026-04-22 09:05:26 (25.1 MB/s) - ‘fs.blog/mental-models/index.html’ saved [219247]
+
+FINISHED --2026-04-22 09:05:26--
+Total wall clock time: 0.2s
+Downloaded: 1 files, 214K in 0.008s (25.1 MB/s)
+Converting links in fs.blog/mental-models/index.html... 20.
+12-8
+Converted links in 1 files in 0.003 seconds.
+✅ Farnam Street mental models: 1 files
+
+=== MCP specification ===
+URL: https://modelcontextprotocol.io/
+Dest: inbox/meta/mcp-spec
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+113-0
+Converting links in modelcontextprotocol.io/seps/1577--sampling-with-tools.html... 126.
+126-0
+Converting links in modelcontextprotocol.io/community/interceptors/charter.html... 112.
+112-0
+Converting links in modelcontextprotocol.io/specification/2025-11-25/schema.html... 1680.
+1633-47
+Converting links in modelcontextprotocol.io/examples.html... 100.
+100-0
+Converting links in modelcontextprotocol.io/docs/develop/build-server.html... 207.
+207-0
+Converting links in modelcontextprotocol.io/registry/terms-of-service.html... 84.
+84-0
+Converting links in modelcontextprotocol.io/community/communication.html... 104.
+104-0
+Converting links in modelcontextprotocol.io/mintlify-assets/_next/static/css/05d6d8fcb903870d.css@dpl=dpl_AtyFvHTE96pFuzbUnZvEd3vXFv3m.css... nothing to do.
+Converting links in modelcontextprotocol.io/mintlify-assets/_next/static/css/946a75e238c3fb8b.css@dpl=dpl_AtyFvHTE96pFuzbUnZvEd3vXFv3m.css... nothing to do.
+Converting links in modelcontextprotocol.io/mintlify-assets/_next/static/css/6f9b80d484ead711.css@dpl=dpl_AtyFvHTE96pFuzbUnZvEd3vXFv3m.css... 20.
+20-0
+Converted links in 112 files in 0.2 seconds.
+✅ MCP specification: 110 files
+
+=== agentskills.io ===
+URL: https://agentskills.io/
+Dest: inbox/meta/agentskills-io
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+101-0
+Converting links in agentskills.io/skill-creation/best-practices.html... 124.
+124-0
+Converting links in agentskills.io/skill-creation/using-scripts.html... 91.
+91-0
+Converting links in agentskills.io/skill-creation/quickstart.html... 86.
+86-0
+Converting links in agentskills.io/index.html... 81.
+81-0
+Converting links in agentskills.io/clients.html... 72.
+72-0
+Converting links in agentskills.io/skill-creation/evaluating-skills.html... 101.
+101-0
+Converting links in agentskills.io/specification.html... 107.
+107-0
+Converting links in agentskills.io/mintlify-assets/_next/static/css/6f9b80d484ead711.css@dpl=dpl_2hwrnGY8VZY5NNs8FvmeyDxCCJL6.css... 20.
+20-0
+Converting links in agentskills.io/mintlify-assets/_next/static/css/05d6d8fcb903870d.css@dpl=dpl_2hwrnGY8VZY5NNs8FvmeyDxCCJL6.css... nothing to do.
+Converting links in agentskills.io/mintlify-assets/_next/static/css/946a75e238c3fb8b.css@dpl=dpl_2hwrnGY8VZY5NNs8FvmeyDxCCJL6.css... nothing to do.
+Converted links in 13 files in 0.04 seconds.
+✅ agentskills.io: 11 files
+
+=== Kevin Kelly Out of Control ===
+URL: https://kk.org/outofcontrol/contents.php
+Dest: inbox/cybernetics/kelly-out-of-control
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+3-8
+Converting links in kk.org/outofcontrol/ch23-c.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch13-e.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch4-b.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch15-i.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch6-f.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch21-c.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch11-e.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch2-b.html... 9.
+2-7
+Converting links in kk.org/outofcontrol/ch13-i.html... 9.
+2-7
+Converted links in 154 files in 0.06 seconds.
+✅ Kevin Kelly Out of Control: 155 files
+
+=== Raymond Art of Unix Programming ===
+URL: http://www.catb.org/~esr/writings/taoup/html/
+Dest: inbox/unix/art-of-unix-programming
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+12-0
+Converting links in www.catb.org/~esr/writings/taoup/html/pr01s05.html... 11.
+11-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch15s08.html... 16.
+16-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch16s06.html... 12.
+12-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch01s02.html... 13.
+13-0
+Converting links in www.catb.org/~esr/writings/taoup/html/historychapter.html... 22.
+22-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch10s01.html... 14.
+14-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch05s01.html... 22.
+22-0
+Converting links in www.catb.org/~esr/writings/taoup/html/ch02s04.html... 12.
+12-0
+Converting links in www.catb.org/~esr/writings/taoup/html/taoup.css... 1.
+1-0
+Converted links in 154 files in 0.03 seconds.
+✅ Raymond Art of Unix Programming: 153 files
+
+=== 37signals writings ===
+URL: https://37signals.com/podcast-and-excerpts
+Dest: inbox/mgmt/37signals-writings
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+--2026-04-22 09:20:11--  https://37signals.com/podcast-and-excerpts
+Resolving 37signals.com (37signals.com)... 104.18.1.135, 104.18.0.135
+Connecting to 37signals.com (37signals.com)|104.18.1.135|:443... connected.
+HTTP request sent, awaiting response... 404 Not Found
+2026-04-22 09:20:11 ERROR 404: Not Found.
+
+Converted links in 0 files in 0 seconds.
+✅ 37signals writings: 0 files
+
+=== 37signals Getting Real ===
+URL: https://basecamp.com/gettingreal
+Dest: inbox/mgmt/37signals-getting-real
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+95-7
+Converting links in basecamp.com/gettingreal/07.1-unity.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/09.6-context-over-consistency.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/10.5-open-doors.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/03.5-be-yourself.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/14.2-zero-training.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/15.5-ride-out-the-storm.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/15.8-go-with-the-flow.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/14.5-in-fine-forum.html... 102.
+95-7
+Converting links in basecamp.com/gettingreal/07.4-seek-and-celebrate-small-victories.html... 102.
+95-7
+Converted links in 92 files in 0.04 seconds.
+✅ 37signals Getting Real: 93 files
+
+=== Shape Up web version ===
+URL: https://basecamp.com/shapeup
+Dest: inbox/pm/shape-up-web
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+162-15
+Converting links in basecamp.com/shapeup/1.3-chapter-04.html... 183.
+163-20
+Converting links in basecamp.com/shapeup/0.3-chapter-01.html... 169.
+162-7
+Converting links in basecamp.com/shapeup/4.2-appendix-03.html... 175.
+168-7
+Converting links in basecamp.com/shapeup/3.5-chapter-14.html... 176.
+164-12
+Converting links in basecamp.com/shapeup/4.0-appendix-01.html... 194.
+161-33
+Converting links in basecamp.com/shapeup/0.2-acknowledgements.html... 163.
+156-7
+Converting links in basecamp.com/shapeup/2.2-chapter-08.html... 173.
+165-8
+Converting links in basecamp.com/shapeup/1.1-chapter-02.html... 177.
+165-12
+Converting links in basecamp.com/shapeup/4.5-appendix-06.html... 163.
+156-7
+Converted links in 24 files in 0.01 seconds.
+✅ Shape Up web version: 25 files
+
+=== Levenchuk LiveJournal recent ===
+URL: https://ailev.livejournal.com/
+Dest: inbox/systems/levenchuk-lj
+tee: tools/convert/logs/scrape-20260422-083248.log: No such file or directory
+26-75
+Converting links in ailev.livejournal.com/1792363.html... 102.
+27-75
+Converting links in ailev.livejournal.com/calendar.html... 95.
+27-68
+Converting links in ailev.livejournal.com/1494762.html... 102.
+27-75
+Converting links in ailev.livejournal.com/1293469.html... 101.
+26-75
+Converting links in ailev.livejournal.com/1794296.html... 101.
+26-75
+Converting links in ailev.livejournal.com/1008054.html... 101.
+26-75
+Converting links in ailev.livejournal.com/1791964.html... 105.
+30-75
+Converting links in ailev.livejournal.com/1797223.html@mode=reply.html... 103.
+37-66
+Converting links in ailev.livejournal.com/1789666.html;.html... 101.
+26-75
+Converted links in 78 files in 0.2 seconds.
+✅ Levenchuk LiveJournal recent: 79 files
+
+=== SCRAPE COMPLETE ===
+Inbox: inbox
+Total files: 2016
+Total size: 239M
+
+NEXT: положи PDFs в inbox/<subcategory>/ (вручную или см. inbox/README.md)
+      потом: bash tools/convert/sync_to_server.sh
