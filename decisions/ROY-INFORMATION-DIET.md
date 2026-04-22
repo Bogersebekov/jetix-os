@@ -9,6 +9,59 @@ related:
   - Notion: Создание метода разработки + самого метода (34a2496333bf810f9058fc783ce179e2)
 ---
 
+# 🎯 TWO-LAYER DISTILLATION (v3 — Ruslan directive)
+
+Рой читает 17 subcategory'ев. Из ВСЕХ знаний ДОЛЖЕН distill'ить в **два
+параллельных слоя** (orthogonal к base/overlay split §1.1).
+
+## Layer α — Philosophical Layer
+**Что:** Как система ДОЛЖНА БЫТЬ. Первые принципы. Quality / cleanliness /
+integrity / epistemic discipline. Strategic navigation lens.
+
+**Источники (pull from):** 3.1 CE (50/50, $100 rule) + 3.7 Management
+Philosophy (Drucker, 37signals, Laloux) + 3.8 Systems Thinking
+(Meadows/Senge/Levenchuk/FPF) + 3.9 Cybernetics (Ashby, Beer VSM) + 3.11
+Investing (Munger, Taleb antifragile) + 3.12 Mental Models (Kahneman, Deutsch,
+Ahrens Zettelkasten) + 3.13 Biology/Evolution (Dennett universal algorithm) +
+3.14 Philosophical Strategic (Naval, Stoic, Tao, Finite/Infinite Games) + 3.15
+Philosophy of Science (Popper falsifiability, Kuhn paradigms, Lakatos
+programmes)
+
+**Deliverable для роя:** `decisions/PHILOSOPHICAL-LAYER-DISTILLATION.md` —
+20-40 first principles что делают систему чистой/качественной/evolvable.
+
+**Применение:** когда architecture/tactics conflict — philosophical layer
+breaks tie.
+
+## Layer β — System + Code Layer
+**Что:** Как система ПОСТРОЕНА. Architecture. Engineering practices. Code
+quality. Concrete patterns.
+
+**Источники (pull from):** 3.1 CE (agents / skills / Plan-Work-Review-Compound
+loop) + 3.2 AI-native OS + 3.3 Linux / Unix Philosophy (Raymond, Kernighan) +
+3.4 Clean Code (Ousterhout, Pragmatic Programmer, Refactoring) + 3.5 PM (Shape
+Up workflow) + 3.6 Product Mgmt (Discovery → Delivery loops) + 3.9 Cybernetics
+(VSM implementation) + 3.10 Complexity (Scale laws, networks) + 3.16
+Engineering Foundations (Koen heuristics, Vincenti knowledge, Petroski
+failure, TRIZ, first principles) + 3.17 Agent primary sources
+
+**Deliverable для роя:** `decisions/SYSTEM-CODE-LAYER-DISTILLATION.md` —
+concrete engineering patterns + architectural primitives.
+
+**Применение:** implementation decisions — какие patterns / tools / structures
+использовать.
+
+## Overlap (намеренный)
+Некоторые domains (3.8 Systems Thinking, 3.9 Cybernetics) питают ОБА слоя —
+это OK. Рой сам решает какой aspect куда.
+
+## Ortho check
+- **§1.1 Layer 1/2 = WHAT we build** (meta-system base / Jetix overlay)
+- **§α/β = HOW we think about it** (philosophical / system-code)
+- Independent axes. Результат роя должен explicitly adress оба.
+
+---
+
 # ⚠️ КРИТИЧЕСКИЕ UPDATES v2 (Ruslan 2026-04-22)
 
 1. **Мета-система сначала, Jetix overlay потом.** Рой ДОЛЖЕН сперва построить
@@ -535,7 +588,53 @@ architecture. Variation + selection + replication loop built-in.
 strategic tradeoffs. Когда tactics contradicting — philosophical layer
 breaks tie.
 
-### 3.15 Bonus — Agent / AI primary sources (ADD for deeper context)
+### 3.15 Philosophy of Science (ADD — P1, Ruslan directive v3)
+
+**Priority:** P1 — epistemology + falsifiability как basis для decision-making
+и для того как рой отличает знание от мнения.
+
+- **The Logic of Scientific Discovery** (Karl Popper, 1959) — falsifiability,
+  demarcation problem, risky predictions
+- **Conjectures and Refutations** (Popper, 1963) — applied falsificationism
+- **The Structure of Scientific Revolutions** (Thomas Kuhn, 1962) — paradigm
+  shifts, normal vs revolutionary science
+- **Against Method** (Paul Feyerabend, 1975) — anything goes, methodological
+  pluralism — critical counterweight
+- **Proofs and Refutations** (Imre Lakatos, 1976) — research programmes
+  (progressive vs degenerating)
+- **The Beginning of Infinity** (Deutsch, уже в §3.12) — explanatory
+  knowledge, good explanations as hard-to-vary
+
+**Design takeaway:** каждая claim в outputs роя должна быть falsifiable.
+Если research programme degenerating — reject / revise. No unfalsifiable
+hand-waving.
+
+### 3.16 Engineering Foundations (ADD — P1, Ruslan directive v3)
+
+**Priority:** P1 — базовый инженерный подход как мышление.
+
+- **Discussion of the Method** (Billy Vaughn Koen, 2003) — heuristics-based
+  engineering, state-of-the-art (SOTA), "engineering method = use best
+  heuristics available"
+- **What Engineers Know and How They Know It** (Walter Vincenti, 1990) —
+  engineering knowledge как distinct от scientific knowledge; six categories
+  of engineering knowledge
+- **To Engineer is Human** (Henry Petroski, 1985) — role of failure в
+  engineering design
+- **The Evolution of Useful Things** (Petroski, 1992) — incremental design
+  evolution
+- **Technological Revolutions and Financial Capital** (Carlota Perez, 2003) —
+  long-wave technological cycles
+- **TRIZ основы** (Genrich Altshuller, "Creativity as an Exact Science" 1984) —
+  inventive problem solving, 40 principles, contradiction matrix
+- **First Principles Thinking** (Elon Musk stanford talks / Aristotle /
+  Descartes method) — reasoning from first principles vs analogy
+
+**Design takeaway:** engineering ≠ science. Engineering = применение
+state-of-the-art heuristics under constraints. Рой должен знать что "good
+engineering" = appropriate heuristic selection, не proof.
+
+### 3.17 Bonus — Agent / AI primary sources (ADD for deeper context)
 
 **Priority:** P1
 
