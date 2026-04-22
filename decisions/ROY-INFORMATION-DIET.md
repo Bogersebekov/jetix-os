@@ -2,11 +2,43 @@
 id: roy-information-diet
 title: ROY Information Diet — what the swarm reads, how, and in what order
 date: 2026-04-22
-author: cloud-cowork (draft for Ruslan review)
-status: draft-v1
+author: cloud-cowork (draft v2 с Ruslan правками)
+status: draft-v2
 parent: decisions/METHOD-OF-DEVELOPMENT.md (future)
 related:
   - Notion: Создание метода разработки + самого метода (34a2496333bf810f9058fc783ce179e2)
+---
+
+# ⚠️ КРИТИЧЕСКИЕ UPDATES v2 (Ruslan 2026-04-22)
+
+1. **Мета-система сначала, Jetix overlay потом.** Рой ДОЛЖЕН сперва построить
+   **универсальную мета-систему** (operating system для solo-founder / systems
+   thinker — Jetix-agnostic), потом на неё **наложить Jetix overlay**
+   (philosophy + 24 Locks + archetypes + trajectory). Это base/overlay pattern.
+   D1 Vision §4 + V1 Conservative §3 уже хинтуют этот подход (`jetix-os/` =
+   универсальное ядро).
+2. **Locks/Principles** = 24 LOCKED decisions Ruslan утвердил на Stages 2/2B.
+   Лежат в 3 файлах TENSIONS-*.md. Рой НЕ изобретает новые Locks — использует
+   existing, может challenge'ить конкретные с evidence.
+3. **Human-in-the-loop обязательно.** Рой должен поддерживать ДВА режима:
+   (A) Full auto — работает autonomously, Ruslan review'ит финальный deliverable;
+   (B) Stage-gated — на каждом meaningful stage рой pauses, Ruslan review'ит,
+   корректирует, направляет. Ruslan выбирает режим per-iteration.
+4. **Deeper OUR REQUEST** — раскрыто подробно ниже (§Category 1 v2).
+5. **Multiple domain experts communicate через wiki/** — подтверждено. Subagent
+   per domain, все пишут structured summaries в wiki/foundations/, brigadier
+   читает summaries.
+6. **Full versions only** — Ruslan сам достанет все raw books. Никаких summaries
+   instead of full (summaries как supplement OK).
+7. **Category 3 updates:**
+   - REMOVED: Sales (но система должна быть sales-ready overlay'ем)
+   - REMOVED: Law
+   - ADDED: Biology + Evolution (P1 — для self-evolving system pattern)
+   - ADDED: Naval Ravikant philosophy layer (в Mental Models + отдельный
+     philosophical/strategic layer)
+   - ADDED: Philosophical Strategic layer — Naval + system-wide strategic
+     navigation lens
+
 ---
 
 # Information Diet для Роя
@@ -28,27 +60,134 @@ related:
 
 ---
 
-## Category 1 — OUR REQUEST
+## Category 1 — OUR REQUEST (v2 — deeper, со всех сторон)
 
-Рой должен получить explicit контракт: что мы хотим, чего НЕ хотим, как
-меряется успех.
+Рой получает explicit контракт. Описан со всех сторон: сверху (vision),
+снизу (implementation), середины (workflow), сзади (constraints),
+меета-сверху (what is "success").
 
-### 1.1 Mission statement
+### 1.1 Mission — two layers
 
-Создать **несколько вариантов адекватной системы** для:
-- Управления проектами Jetix
-- Управления Jetix как holding (Phase 3+)
-- Управления самими агентами
-- Коммуникации между агентами (stigmergic, не direct messaging)
+**Layer 1 — Universal Meta-System (base, Jetix-agnostic):**
 
-Система должна:
-- Работать в рамках €800/mo Phase-1 budget
-- Поддерживать trajectory Phase 0 (€0) → Phase 1 (€50K) → Phase 2 (€200K) →
-  Phase 3 (€1M+) без fundamental rewrite
-- Integrated с CE main loop (Plan → Work → Review → Compound)
-- Rule-of-4 compatible (3-4 active + fan-out reviewers)
-- Stigmergic coordination через filesystem + git
-- Evidence-first: каждая claim с citation
+Построить **универсальную operating system** для solo-founder / systems-thinker
+/ предпринимателя управляющего:
+- **Проектами** (multiple concurrent work streams)
+- **Жизнью** (life OS: health / learning / relationships / finances)
+- **Знаниями** (wiki / memory / compounding knowledge)
+- **Агентами** (AI swarm doing work, stigmergic coord)
+- **Коммуникацией** (human↔agents + agents↔agents + human↔human)
+
+Эта система должна быть **universal** — её можно натянуть на любую
+философию / vision / startup / holding. Jetix-agnostic core.
+
+**Layer 2 — Jetix overlay (specific application):**
+
+Натянуть на универсальную meta-system:
+- Jetix philosophy (D2: anti-attention / cascading-leverage / engineering-faith /
+  investment-fund / predator-outside / gentleman-inside / и т.д.)
+- 24 LOCKED decisions
+- 11 archetypes ICP + 5 criteria filter
+- Phase-trajectory €0 → €50K → €200K → €1M → $1T
+- Investment-fund operating philosophy
+- Identity patterns (gentleman/predator, open/closed, layered)
+- USB-C positioning (Phase 3+)
+- Methodology as durable asset (Westinghouse analog)
+
+Deliverable должен clearly показать boundary: **что base (universal) / что
+overlay (Jetix-specific)**. Overlay можно заменить на другую философию — base
+работает.
+
+### 1.2 Success criteria (expanded v2)
+
+Рой выдаёт успешный результат если:
+
+**Base (Universal) criteria:**
+- ✅ Clear base/overlay separation (как файлы, не только doc-level)
+- ✅ Base system runnable без Jetix overlay (теоретический test: если overlay
+  убрать, base всё равно работает)
+- ✅ Base поддерживает любую overlay-philosophy (pluggable)
+- ✅ Domains покрыты: проекты / жизнь / знания / агенты / коммуникация
+- ✅ System evolvable: self-improving, learning from its own work (biology /
+  evolution pattern)
+
+**Jetix-specific criteria:**
+- ✅ Все 24 LOCKED decisions respected ИЛИ explicitly challenged с
+  justification (если challenge — argue с evidence, не просто override)
+- ✅ Каждое architectural choice обосновано ≥2 research citations
+- ✅ Anti-patterns (16 штук, D4 §7) НЕ присутствуют
+- ✅ Phase-1 ship-able (7-14 дней launch)
+- ✅ Phase-3 scalable (≤30% refactor at each 10× gate)
+- ✅ Cost <€800/mo при baseline использовании
+- ✅ Top-20 insights (Master Inventory Part 4) integrated ИЛИ отвергнуты с
+  reason
+- ✅ Minimum 3 variants (not 1) — чтобы Ruslan мог выбрать
+- ✅ Sales-ready как **overlay pattern** (система готова принять sales overlay
+  когда понадобится, но он не часть base Phase 1)
+
+**Workflow criteria (human-in-the-loop):**
+- ✅ Система поддерживает ДВА режима работы (см. §1.5 ниже)
+
+### 1.3 Что НЕ делать
+
+- ❌ НЕ изобретать новые Locks / Principles — использовать existing 24 Locks
+- ❌ НЕ дублировать existing research — cite instead
+- ❌ НЕ предлагать 11-agent roster если нет evidence что Rule of 4 для Jetix
+  неприменим
+- ❌ НЕ предлагать complex multi-agent там где single-agent работает (Walden
+  Yan warning)
+- ❌ НЕ делать hand-waving («trust me, this scales») — нужна explicit math
+- ❌ НЕ игнорировать $47K incident pattern — cost cap ON BILLING LEVEL
+- ❌ НЕ мешать base и overlay — держать boundary явно
+- ❌ НЕ строить sales / law / HR subsystems Phase 1 (только base + Jetix
+  overlay)
+
+### 1.4 Deliverable format
+
+- `decisions/META-SYSTEM-UNIVERSAL-BASE.md` — базовая универсальная мета-система
+  описание (новый документ, рой создаёт)
+- `decisions/JETIX-OVERLAY-ON-META-SYSTEM.md` — Jetix overlay applied к base
+  (новый документ)
+- `decisions/JETIX-FINAL-SYSTEM-SYNTHESIS-iteration-N.md` — 3-5 variants (base +
+  overlay) с rationale + evidence
+- Scoring table (10 axes × N variants)
+- Migration plan от current state к выбранной variant
+- Risk register (concrete + mitigations)
+- `prompts/next-iteration/` — prompts для следующего compound cycle
+
+### 1.5 Two operating modes (CRITICAL — human-in-the-loop)
+
+**Mode A — Full Auto (для простых задач):**
+- Brigadier делегирует → эксперты делают → brigadier синтезирует → commit
+- Ruslan review'ит финальный deliverable
+- Compound в wiki/ automatically
+- Используется для: routine tasks, well-defined scope, low-stakes decisions
+
+**Mode B — Stage-Gated Interactive (для стратегических):**
+- Brigadier делит задачу на **named stages** (minimum 3-5 stages)
+- После КАЖДОГО stage рой pauses → commits intermediate deliverable →
+  уведомляет Ruslan
+- Ruslan может:
+  - **Approve** → рой идёт дальше
+  - **Redirect** → изменить направление / constraints
+  - **Drill-down** → запросить deeper investigation конкретного aspect
+  - **Abort** → остановить и сохранить current state
+- Protocol: specific file pattern `stage-<N>-<name>-AWAITING-APPROVAL.md` +
+  `stage-<N>-<name>-DECISION.md` для Ruslan response
+- Используется для: architecture decisions, strategic pivots, new patterns,
+  anything touching 24 Locks
+
+**Meta-mode selector:** Ruslan выбирает режим при запуске задачи. Default для
+architecture работы = Mode B. Default для routine refactor = Mode A.
+
+### 1.6 Communication channels (human↔swarm)
+
+Помимо file-based stages, рой должен поддерживать:
+- **Telegram/Slack notifications** когда stage completed + waiting
+- **Comment thread** в specific intermediate file (Ruslan пишет comments, рой
+  read'ит в next iteration)
+- **Voice memo ingestion** (existing pipeline: voice → transcript → /ingest)
+- **Notion page updates** для high-level status (mirror git state)
 
 ### 1.2 Success criteria
 
@@ -335,7 +474,68 @@ SHOULD / MAY priority.
 - **Goedel, Escher, Bach** (Hofstadter, 1979) — self-reference, strange
   loops — applicable к recursive self-improvement
 
-### 3.13 Bonus — Agent / AI primary sources (ADD for deeper context)
+### 3.13 Biology / Evolution (ADD — P1, Ruslan directive v2)
+
+**Priority:** P1 — чтобы система понимала что она сама будет эволюционировать;
+использовать biological/evolutionary patterns как design hints.
+
+- **The Selfish Gene** (Richard Dawkins, 1976, rev ed) — replicators, units of
+  selection, memes — applicable к skill propagation / knowledge transfer в
+  agent systems
+- **The Blind Watchmaker** (Dawkins, 1986) — cumulative selection / design
+  without designer — прямо applicable к recursive self-improvement pattern
+- **At Home in the Universe** (Stuart Kauffman, 1995) — self-organization,
+  order for free, edge of chaos — для emergence patterns в multi-agent
+- **The Origins of Order** (Kauffman, 1993, техническая) — complex adaptive
+  systems theory
+- **Darwin's Dangerous Idea** (Daniel Dennett, 1995) — evolution as universal
+  algorithm; design space exploration
+- **Signals and Boundaries** (John Holland, 2012) — complex adaptive systems
+  foundational (Santa Fe Institute)
+- **Nonzero** (Robert Wright, 2000) — non-zero-sum cooperation patterns in
+  evolution → applicable к agent-to-agent + human-to-agent cooperation
+- **The Major Transitions in Evolution** (Maynard Smith & Szathmáry, 1995) —
+  how new levels of complexity emerge (replicators → cells → multicellular →
+  societies) — template для Jetix phase transitions $1M → $100M → $1B → $1T
+
+**Design takeaway для Jetix:** system как evolvable organism, не как static
+architecture. Variation + selection + replication loop built-in.
+
+### 3.14 Philosophical Strategic Layer (ADD — P1, Ruslan directive v2)
+
+**Priority:** P1 — направляющий стратегический слой. Это не "что читать" а "как
+думать о целом". Meta-navigation layer.
+
+**Naval Ravikant — комплексно:**
+
+- **The Almanack of Naval Ravikant** (Eric Jorgenson, 2020) — free PDF
+  https://www.navalmanack.com/ — comprehensive compilation
+- **Naval Podcast "How to Get Rich (Without Getting Lucky)"** — tweet storm 40
+  ключевых принципов: https://nav.al/rich
+- **Naval Podcast "Becoming Happy"** — philosophy layer
+- **Naval Podcast "How to Think Clearly"** — mental models applied
+- **4 forms of leverage:** labor / capital / code / media (permissionless vs
+  permissioned) — **directly applicable к Jetix Phase 1-3 leverage stacking**
+- **Specific knowledge** concept — unique unscalable skill + rare combinations
+  (applicable к 11 archetypes filter)
+- **Product + media leverage** as foundation для solo-to-holding trajectory
+
+**Дополнительно philosophical:**
+
+- **Meditations** (Marcus Aurelius) — stoic operational philosophy
+- **The Daily Stoic** (Ryan Holiday, 2016) — applied stoicism
+- **Tao Te Ching** (Lao Tzu) — wu-wei, strategic non-action, minimal
+  interference — applicable к stigmergic coordination
+- **The Art of Strategy** (Dixit & Nalebuff, 1991) — game theory applied
+- **The 48 Laws of Power** (Greene, 1998) — for predator-outside awareness
+- **Finite and Infinite Games** (James Carse, 1986) — infinite games framing
+  for $1T trajectory
+
+**Design takeaway для Jetix:** this layer доминирует над всем остальным при
+strategic tradeoffs. Когда tactics contradicting — philosophical layer
+breaks tie.
+
+### 3.15 Bonus — Agent / AI primary sources (ADD for deeper context)
 
 **Priority:** P1
 
@@ -381,46 +581,79 @@ sub-agent delegated reading.
 
 ---
 
-## Open questions для обсуждения (Ruslan)
+## Ruslan decisions v2 (resolved)
 
-### Q1 — Scope creep check
-55-60 часов reading diet = too much? Режем до MUST only (~20 h)?
+- ✅ **Full versions only** — Ruslan сам достанет raw books. No summaries вместо
+  full (summaries allowed как supplement).
+- ✅ **Subagent experts per domain** подтверждено (Q5). Каждый expert
+  специализируется на своей category, пишет structured summaries в wiki/,
+  brigadier читает summaries + selectively drills-down.
+- ✅ Sales — **REMOVED** (but system must be sales-ready overlay)
+- ✅ Law — **REMOVED**
+- ✅ Biology / Evolution — **ADDED** §3.13 (P1)
+- ✅ Naval Ravikant + philosophical layer — **ADDED** §3.14 (P1)
 
-### Q2 — Специфические добавки
-Что я упустил из того что ты имел в виду:
-- **"базовые науки"** — что именно? Math? Physics? Biology?
-- **"методологии"** кроме PM/PdM/CE?
-- **Кибернетика** — я включил Wiener + Ashby + Beer. Достаточно?
+## Expert-per-domain mapping (Ruslan decision Q5)
 
-### Q3 — Acquisition path
-- Shape Up + Ashby + Unix Philosophy — FREE online, можно сразу добавить в
-  `raw/books-external/`
-- High Output Management / Inspired / Thinking in Systems / etc. — нужны
-  купленные PDF/EPUB. Как достаём?
-- Альтернатива: summaries от Farnam Street / derekshanks / Readwise —
-  быстрее но поверхностнее
+Каждая category в §3 получает dedicated subagent-expert. Experts взаимодействуют
+**только через wiki/** (stigmergic — не direct messaging):
 
-### Q4 — Priority recalibration
-P0 = CE + AI-native + Левенчук/FPF + Self-knowledge. Согласен?
-P1 = Linux + Clean Code + PM + PdM + Mgmt philosophy + Cybernetics + Agents.
-P2 = Complexity + Investing + Mental Models.
+| Expert | Owns categories | Output path |
+|---|---|---|
+| `ce-expert` | 3.1 Compounding Engineering | `wiki/foundations/ce/` |
+| `ai-native-expert` | 3.2 Multi-agent / AI-native OS + 3.15 agent primary | `wiki/foundations/ai-native/` |
+| `unix-expert` | 3.3 Linux / Unix philosophy + 3.4 Clean Code | `wiki/foundations/engineering/` |
+| `pm-expert` | 3.5 PM + 3.6 Product Mgmt | `wiki/foundations/pm/` |
+| `mgmt-expert` | 3.7 Management philosophy | `wiki/foundations/mgmt/` |
+| `systems-expert` | 3.8 Systems Thinking + Левенчук + 3.9 Cybernetics + 3.10 Complexity | `wiki/foundations/systems/` |
+| `investor-expert` | 3.11 Investing / Value | `wiki/foundations/investing/` |
+| `meta-expert` | 3.12 Mental Models + 3.13 Biology/Evolution | `wiki/foundations/meta/` |
+| `philosophy-expert` | 3.14 Philosophical Strategic Layer (Naval + др.) | `wiki/foundations/philosophy/` |
 
-### Q5 — Читают люди (рой) или subagents
-Brigadier читает всё? Или раздаём:
-- Systems-thinker expert → 3.8-3.10
-- PM expert → 3.5-3.7
-- Software expert → 3.3-3.4 + 3.13
-- Investor expert → 3.11
-- Meta expert → 3.12 + coordination
-Все пишут summaries в wiki/, brigadier читает summaries.
+**Brigadier** читает summaries из wiki/foundations/, synthesizes, делегирует
+drill-downs при необходимости. Experts могут читать друг друга через wiki (не
+pinging напрямую).
 
-### Q6 — Missed categories?
-- **Biology / Evolution** (Dawkins / Kauffman) — для emergence patterns?
-- **Economics** (Hayek / Coase / Ostrom) — для governance?
-- **Philosophy** (Popper / Lakatos) — для scientific method / falsifiability?
-- **Law** — для EU AI Act compliance?
-- **Design** (Don Norman / Dieter Rams) — для UI/UX?
-- **Marketing / Sales** (April Dunford / Blair Enns) — для positioning?
+## Acquisition status (v2 — simple)
+
+- **Free online** (рой может сразу начать): Shape Up, Ashby Cybernetics,
+  Art of Unix Programming, Naval Almanack, Меditations, Tao Te Ching, все
+  наши уже-в-repo материалы (CE guide, Perplexity, research)
+- **Ruslan достанет FULL versions** остальных:
+  - High Output Management (Grove)
+  - Inspired + Empowered (Cagan)
+  - Thinking in Systems (Meadows)
+  - The Fifth Discipline (Senge)
+  - Pragmatic Programmer
+  - A Philosophy of Software Design (Ousterhout)
+  - Selfish Gene + Blind Watchmaker (Dawkins)
+  - At Home in the Universe (Kauffman)
+  - The Major Transitions in Evolution (Maynard Smith)
+  - Continuous Discovery Habits (Torres)
+  - Measure What Matters (Doerr)
+  - 37signals collection (Shape Up already + ReWork + Crazy + Remote)
+  - Stoic canon, Buffett letters, Munger almanack
+  - [Full list fully in §3 above]
+- Save to: `raw/books-external/<subcategory>/<slug>.pdf` or `.md`
+
+## Open questions для обсуждения (Ruslan — остались только эти)
+
+### Q1 — Scope приоритет
+v2 диета ~60-70 часов. Слишком много? Режем до P0+P1 only (~35-40h)?
+
+### Q2 — Что ещё добавить?
+- **Economics** (Hayek / Coase / Ostrom governance commons) — для holding
+  Phase 3?
+- **Philosophy of Science** (Popper / Lakatos / Feyerabend) — для
+  falsifiability / research methodology?
+- **Design / UX** (Norman / Rams) — для surface design когда дойдём?
+- Другое?
+
+### Q3 — Mode A vs Mode B default
+Default operating mode для next iteration:
+- Mode A (full auto) — для скорости
+- Mode B (stage-gated) — для safety + learning
+- Mixed — начинаем в B, переключаем в A когда доверие накоплено?
 
 ---
 
