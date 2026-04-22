@@ -1,0 +1,239 @@
+# Blog/Content Inventory
+
+## biology (4 files)
+
+### A (2) — top by word count
+- 232,098w  **Dennett Darwins Dangerous Idea 1995**  `raw\books-md\biology\dennett-darwins-dangerous-idea-1995.md`
+- 164,480w  **Dawkins Selfish Gene**  `raw\books-md\biology\dawkins-selfish-gene.md`
+
+### B (2)
+- 143,167w  **Dawkins Blind Watchmaker 1986**  `raw\books-md\biology\dawkins-blind-watchmaker-1986.md`
+- 120,699w  **Kauffman At Home In The Universe 1995**  `raw\books-md\biology\kauffman-at-home-in-the-universe-1995.md`
+
+## clean-code (5 files)
+
+### A (1) — top by word count
+-  63,168w  **Ousterhout Philosophy Of Software Design 2Ed 2021**  `raw\books-md\clean-code\ousterhout-philosophy-of-software-design-2ed-2021.md`
+
+### B (3)
+- 126,808w  **Martin Clean Code 2008**  `raw\books-md\clean-code\martin-clean-code-2008.md`
+- 109,141w  **Hunt Thomas Pragmatic Programmer 2019**  `raw\books-md\clean-code\hunt-thomas-pragmatic-programmer-2019.md`
+- 104,060w  **Fowler Refactoring 2Ed 2018**  `raw\books-md\clean-code\fowler-refactoring-2ed-2018.md`
+
+### C (1) — smallest first (trash candidates)
+-     736w  **Brooks Mythical Man Month 1995**  `raw\books-md\clean-code\brooks-mythical-man-month-1995.md`
+
+## complexity (2 files)
+
+### A (2) — top by word count
+- 122,123w  **Mitchell Complexity A Guided Tour 2009**  `raw\books-md\complexity\mitchell-complexity-a-guided-tour-2009.md`
+-  39,162w  **Beinhocker Origin Of Wealth 2006**  `raw\books-md\complexity\beinhocker-origin-of-wealth-2006.md`
+
+## cybernetics (158 files)
+
+### A (148) — top by word count
+-   4,618w  **Ch12 D**  `raw\books-md\cybernetics\ch12-d.md`
+-   4,276w  **Ch22 I**  `raw\books-md\cybernetics\ch22-i.md`
+-   4,274w  **Ch2 D**  `raw\books-md\cybernetics\ch2-d.md`
+-   4,241w  **Ch8 E**  `raw\books-md\cybernetics\ch8-e.md`
+-   4,059w  **Ch12 A**  `raw\books-md\cybernetics\ch12-a.md`
+-   4,005w  **Ch12 C**  `raw\books-md\cybernetics\ch12-c.md`
+-   3,902w  **Ch5 E**  `raw\books-md\cybernetics\ch5-e.md`
+
+### B (5)
+- 229,602w  **Kelly Out Of Control 1994**  `raw\books-md\cybernetics\kelly-out-of-control-1994.md`
+- 110,319w  **Ashby Introduction To Cybernetics 1956**  `raw\books-md\cybernetics\ashby-introduction-to-cybernetics-1956.md`
+-   8,419w  **Chbibal**  `raw\books-md\cybernetics\chbibal.md`
+-   6,551w  **Chbibmz**  `raw\books-md\cybernetics\chbibmz.md`
+-   5,141w  **Ch3 A**  `raw\books-md\cybernetics\ch3-a.md`
+
+### C (5) — smallest first (trash candidates)
+-       0w  **Beer Brain Of The Firm 1972**  `raw\books-md\cybernetics\beer-brain-of-the-firm-1972.md`
+-       0w  **Wiener Cybernetics 2Ed 1961**  `raw\books-md\cybernetics\wiener-cybernetics-2ed-1961.md`
+-     220w  **Translationsphp**  `raw\books-md\cybernetics\translationsphp.md`
+-     531w  **Indexphp**  `raw\books-md\cybernetics\indexphp.md`
+-     531w  **Reviewsphp**  `raw\books-md\cybernetics\reviewsphp.md`
+
+## engineering-foundations (4 files)
+
+### A (1) — top by word count
+- 140,358w  **Altshuller Engineering Of Creativity Triz 1984**  `raw\books-md\engineering-foundations\altshuller-engineering-of-creativity-triz-1984.md`
+
+### B (2)
+- 140,656w  **Koen Discussion Of The Method 2003**  `raw\books-md\engineering-foundations\koen-discussion-of-the-method-2003.md`
+-  26,133w  **Descartes Discourse On The Method Gutenberg**  `raw\books-md\engineering-foundations\descartes-discourse-on-the-method-gutenberg.md`
+
+### C (1) — smallest first (trash candidates)
+-     403w  **Vincenti What Engineers Know 1990**  `raw\books-md\engineering-foundations\vincenti-what-engineers-know-1990.md`
+
+## investing (6 files)
+
+### A (3) — top by word count
+- 182,810w  **Taleb Antifragile 2012**  `raw\books-md\investing\taleb-antifragile-2012.md`
+-  83,263w  **Taleb Skin In The Game 2018**  `raw\books-md\investing\taleb-skin-in-the-game-2018.md`
+-  77,879w  **Marks Most Important Thing Illuminated 2013**  `raw\books-md\investing\marks-most-important-thing-illuminated-2013.md`
+
+### B (3)
+- 813,868w  **Buffett Shareholder Letters Collection**  `raw\books-md\investing\buffett-shareholder-letters-collection.md`
+- 212,203w  **Graham Intelligent Investor**  `raw\books-md\investing\graham-intelligent-investor.md`
+- 105,479w  **Munger Poor Charlies Almanack Ru**  `raw\books-md\investing\munger-poor-charlies-almanack-ru.md`
+
+## meta (203 files)
+
+### A (189) — top by word count
+-  35,349w  **Schema**  `raw\books-md\meta\schema.md`
+-  29,297w  **Build Server**  `raw\books-md\meta\build-server.md`
+-  20,376w  **Build Client**  `raw\books-md\meta\build-client.md`
+-  16,864w  **1686 Tasks**  `raw\books-md\meta\1686-tasks.md`
+-  13,239w  **Claude Code Best Practices**  `raw\books-md\meta\claude-code-best-practices.md`
+-  12,331w  **2243 Http Standardization**  `raw\books-md\meta\2243-http-standardization.md`
+-  11,217w  **Contributing**  `raw\books-md\meta\contributing.md`
+
+### C (14) — smallest first (trash candidates)
+-     507w  **Data Processing Addendum**  `raw\books-md\meta\data-processing-addendum.md`
+-     512w  **Contact**  `raw\books-md\meta\contact.md`
+-     514w  **Windsurf Data Use**  `raw\books-md\meta\windsurf-data-use.md`
+-     573w  **Coding Agents 101 The Art Of Actually Getting Things Done**  `raw\books-md\meta\coding-agents-101-the-art-of-actually-getting-things-done.md`
+-     689w  **Security**  `raw\books-md\meta\security.md`
+-     736w  **Careers**  `raw\books-md\meta\careers.md`
+-     775w  **Cognition London**  `raw\books-md\meta\cognition-london.md`
+-     780w  **Cognizant Cognition**  `raw\books-md\meta\cognizant-cognition.md`
+-     786w  **Mcp Marketplace**  `raw\books-md\meta\mcp-marketplace.md`
+-     868w  **Brand**  `raw\books-md\meta\brand.md`
+
+## mgmt (100 files)
+
+### A (93) — top by word count
+-  80,061w  **Horowitz Hard Thing About Hard Things 2014**  `raw\books-md\mgmt\horowitz-hard-thing-about-hard-things-2014.md`
+-  68,609w  **Watkins First 90 Days 2013**  `raw\books-md\mgmt\watkins-first-90-days-2013.md`
+-  68,333w  **Grove High Output Management**  `raw\books-md\mgmt\grove-high-output-management.md`
+-  30,467w  **Fried Dhh Remote 2013**  `raw\books-md\mgmt\fried-dhh-remote-2013.md`
+-  28,040w  **Fried Dhh Rework 2010**  `raw\books-md\mgmt\fried-dhh-rework-2010.md`
+-   1,770w  **013 Caveats Disclaimers And Other Preemptive Strikes**  `raw\books-md\mgmt\013-caveats-disclaimers-and-other-preemptive-strikes.md`
+-   1,748w  **131 Hollywood Launch**  `raw\books-md\mgmt\131-hollywood-launch.md`
+
+### B (1)
+- 153,000w  **Laloux Reinventing Organizations 2014**  `raw\books-md\mgmt\laloux-reinventing-organizations-2014.md`
+
+### C (6) — smallest first (trash candidates)
+-       0w  **Grove Only Paranoid Survive 1996**  `raw\books-md\mgmt\grove-only-paranoid-survive-1996.md`
+-     108w  **Drucker Effective Executive 2006**  `raw\books-md\mgmt\drucker-effective-executive-2006.md`
+-     975w  **124 A Softer Bullet**  `raw\books-md\mgmt\124-a-softer-bullet.md`
+-     978w  **123 Silly Rabbit Tricks Are For Kids**  `raw\books-md\mgmt\123-silly-rabbit-tricks-are-for-kids.md`
+-     982w  **156 Keep Up With The Joneses**  `raw\books-md\mgmt\156-keep-up-with-the-joneses.md`
+-     995w  **134 Solicit Early**  `raw\books-md\mgmt\134-solicit-early.md`
+
+## pdm (5 files)
+
+### A (3) — top by word count
+-  86,808w  **Cagan Transformed 2024**  `raw\books-md\pdm\cagan-transformed-2024.md`
+-  83,591w  **Ries Lean Startup 2011**  `raw\books-md\pdm\ries-lean-startup-2011.md`
+-  63,734w  **Doerr Measure What Matters 2018**  `raw\books-md\pdm\doerr-measure-what-matters-2018.md`
+
+### B (1)
+-  62,753w  **Torres Continuous Discovery Habits 2021**  `raw\books-md\pdm\torres-continuous-discovery-habits-2021.md`
+
+### C (1) — smallest first (trash candidates)
+-       0w  **Cagan Inspired 2Ed 2017**  `raw\books-md\pdm\cagan-inspired-2ed-2017.md`
+
+## philosophy (263 files)
+
+### A (75) — top by word count
+- 189,896w  **Greene 48 Laws Of Power 1998**  `raw\books-md\philosophy\greene-48-laws-of-power-1998.md`
+-  87,411w  **Holiday Daily Stoic 2016**  `raw\books-md\philosophy\holiday-daily-stoic-2016.md`
+-  50,889w  **Jorgenson Naval Almanack 2020**  `raw\books-md\philosophy\jorgenson-naval-almanack-2020.md`
+-  44,197w  **How To Get Rich**  `raw\books-md\philosophy\how-to-get-rich.md`
+-  44,197w  **Rich**  `raw\books-md\philosophy\rich.md`
+-  13,635w  **Deutsch Files Iv**  `raw\books-md\philosophy\deutsch-files-iv.md`
+-  12,426w  **Infinity**  `raw\books-md\philosophy\infinity.md`
+
+### B (2)
+-   7,550w  **Articles**  `raw\books-md\philosophy\articles.md`
+-   1,003w  **The Box**  `raw\books-md\philosophy\the-box.md`
+
+### C (186) — smallest first (trash candidates)
+-      58w  **Subscribe**  `raw\books-md\philosophy\subscribe.md`
+-     139w  **On Humility**  `raw\books-md\philosophy\on-humility.md`
+-     142w  **How To Pick A Co Founder At Venture Hacks**  `raw\books-md\philosophy\how-to-pick-a-co-founder-at-venture-hacks.md`
+-     142w  **Stories**  `raw\books-md\philosophy\stories.md`
+-     143w  **On Meditation**  `raw\books-md\philosophy\on-meditation.md`
+-     148w  **New Blog And Feed Address**  `raw\books-md\philosophy\new-blog-and-feed-address.md`
+-     149w  **When Going Through Hell Keep Going**  `raw\books-md\philosophy\when-going-through-hell-keep-going.md`
+-     153w  **The Need For Indifference**  `raw\books-md\philosophy\the-need-for-indifference.md`
+-     154w  **A Founders Anxiety**  `raw\books-md\philosophy\a-founders-anxiety.md`
+-     154w  **Interview On Entrepreneurship Up At Gigaom Tv**  `raw\books-md\philosophy\interview-on-entrepreneurship-up-at-gigaom-tv.md`
+
+## philosophy-science (5 files)
+
+### A (3) — top by word count
+-  91,580w  **Kuhn Structure Of Scientific Revolutions 50Anniv 2012**  `raw\books-md\philosophy-science\kuhn-structure-of-scientific-revolutions-50anniv-2012.md`
+-  26,177w  **Index**  `raw\books-md\philosophy-science\index.md`
+-   4,711w  **Notes**  `raw\books-md\philosophy-science\notes.md`
+
+### B (1)
+- 203,807w  **Popper Logic Of Scientific Discovery**  `raw\books-md\philosophy-science\popper-logic-of-scientific-discovery.md`
+
+### C (1) — smallest first (trash candidates)
+-       0w  **Popper Conjectures And Refutations 1963**  `raw\books-md\philosophy-science\popper-conjectures-and-refutations-1963.md`
+
+## pm (27 files)
+
+### A (26) — top by word count
+-  34,651w  **Singer Shape Up Basecamp 2019**  `raw\books-md\pm\singer-shape-up-basecamp-2019.md`
+-   4,615w  **34 Chapter 13**  `raw\books-md\pm\34-chapter-13.md`
+-   4,597w  **33 Chapter 12**  `raw\books-md\pm\33-chapter-12.md`
+-   4,359w  **23 Chapter 09**  `raw\books-md\pm\23-chapter-09.md`
+-   4,236w  **13 Chapter 04**  `raw\books-md\pm\13-chapter-04.md`
+-   4,167w  **15 Chapter 06**  `raw\books-md\pm\15-chapter-06.md`
+-   4,159w  **32 Chapter 11**  `raw\books-md\pm\32-chapter-11.md`
+
+### B (1)
+-  91,992w  **Pmi Pmbok 7Th Edition 2021**  `raw\books-md\pm\pmi-pmbok-7th-edition-2021.md`
+
+## systems (79 files)
+
+### A (70) — top by word count
+- 206,152w  **Senge Fifth Discipline Fieldbook**  `raw\books-md\systems\senge-fifth-discipline-fieldbook.md`
+-  93,748w  **Weinberg General Systems Thinking 1975**  `raw\books-md\systems\weinberg-general-systems-thinking-1975.md`
+-  71,876w  **Meadows Thinking In Systems 2008**  `raw\books-md\systems\meadows-thinking-in-systems-2008.md`
+-  63,051w  **Index**  `raw\books-md\systems\index.md`
+-  18,058w  **Ackoff Systems Thinking Curious Managers 2010**  `raw\books-md\systems\ackoff-systems-thinking-curious-managers-2010.md`
+-   6,209w  **1796805Htmlmodereply**  `raw\books-md\systems\1796805htmlmodereply.md`
+-   6,067w  **1797402Htmlmodereply**  `raw\books-md\systems\1797402htmlmodereply.md`
+
+### B (4)
+-  54,034w  **Indexhtmlskip20**  `raw\books-md\systems\indexhtmlskip20.md`
+-   2,695w  **Calendar**  `raw\books-md\systems\calendar.md`
+-   2,695w  **Indexhtmlila_Campaigncontrol_Strip**  `raw\books-md\systems\indexhtmlila_campaigncontrol_strip.md`
+-   1,799w  **Friends**  `raw\books-md\systems\friends.md`
+
+### C (5) — smallest first (trash candidates)
+-     562w  **1798409**  `raw\books-md\systems\1798409.md`
+-     601w  **1797664**  `raw\books-md\systems\1797664.md`
+-     699w  **1798285**  `raw\books-md\systems\1798285.md`
+-     743w  **1494762**  `raw\books-md\systems\1494762.md`
+-     968w  **1008054**  `raw\books-md\systems\1008054.md`
+
+## unix (155 files)
+
+### A (62) — top by word count
+- 201,339w  **Raymond Art Of Unix Programming 2003**  `raw\books-md\unix\raymond-art-of-unix-programming-2003.md`
+-   8,470w  **Ch14S04**  `raw\books-md\unix\ch14s04.md`
+-   7,850w  **Ch08S02**  `raw\books-md\unix\ch08s02.md`
+-   7,403w  **Ch07S02**  `raw\books-md\unix\ch07s02.md`
+-   7,385w  **Ch03S02**  `raw\books-md\unix\ch03s02.md`
+-   6,634w  **Ch02S01**  `raw\books-md\unix\ch02s01.md`
+-   6,033w  **Ch01S06**  `raw\books-md\unix\ch01s06.md`
+
+### C (93) — smallest first (trash candidates)
+-     128w  **Ch01S07**  `raw\books-md\unix\ch01s07.md`
+-     144w  **Unix_Koans**  `raw\books-md\unix\unix_koans.md`
+-     149w  **Languageschapter**  `raw\books-md\unix\languageschapter.md`
+-     152w  **Ch10S07**  `raw\books-md\unix\ch10s07.md`
+-     185w  **Optimizationchapter**  `raw\books-md\unix\optimizationchapter.md`
+-     193w  **Co01**  `raw\books-md\unix\co01.md`
+-     201w  **Toolschapter**  `raw\books-md\unix\toolschapter.md`
+-     223w  **Configurationchapter**  `raw\books-md\unix\configurationchapter.md`
+-     239w  **Historychapter**  `raw\books-md\unix\historychapter.md`
+-     251w  **Contrastchapter**  `raw\books-md\unix\contrastchapter.md`
+
