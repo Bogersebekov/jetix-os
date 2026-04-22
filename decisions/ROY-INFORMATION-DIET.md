@@ -281,7 +281,88 @@ Jetix answers качественнее на порядок при тех же в
 - Lock 21 (matchmaker + roy-replication) — partners get library access через
   matchmaker
 
-### 1.7 Communication channels (human↔swarm)
+### 1.7 ⭐ Jetix ↔ Partners co-evolution loop (Layer 2 Jetix-specific)
+
+**Это ТОЛЬКО для Jetix overlay (Layer 2), не для meta-system (Layer 1).**
+
+**Задача для роя:** продумать и предложить **несколько вариантов** работы
+co-evolution loop между Jetix и партнёрами. Не fix одну структуру, а **дать 3-5
+design options** для последующего выбора.
+
+**Концепция:**
+Jetix развивается **за счёт** развития партнёров. Партнёры развиваются **за
+счёт** Jetix. Mutual upward spiral. Не zero-sum extraction, а positive-sum
+co-evolution.
+
+Это расширяет Lock 21 (matchmaker + roy-replication) и Decision 11
+(продюсерский центр + investment-fund как operating philosophy Day 1).
+
+Preserved Ruslan voice anchor (D1 Vision §4):
+*«Jetix должна быть самой пиздатой корпорацией, но при этом за счёт того, что
+она работает с другими самыми пиздатыми компаниями, людьми, корпорациями. Они
+свою пиздатость, уникальность подчёркивают, и Jetix за счёт этого свою тоже
+уникальность»* [src:audio_488]
+
+**Что рой должен исследовать и предложить (design space):**
+
+1. **Mechanisms of value exchange:**
+   - Jetix → партнёр: что Jetix даёт? (Private Library access / methodology /
+     AI-leverage / matchmaking / brand / capital через investment-fund /
+     skills-sharing / network effects / legal scaffolding / tokens)
+   - Партнёр → Jetix: что партнёр возвращает? (revenue share / equity /
+     case studies / knowledge contributions в library / brand validation /
+     talent pipeline / introductions / research участие)
+
+2. **Развитие asymmetric vs symmetric:**
+   - Asymmetric (Jetix как платформа, партнёр как user) — простой но
+     ограниченный
+   - Symmetric (co-founding / co-ownership) — complex но moat-generating
+   - Hybrid tiers — партнёр стартует asymmetric, evolves к symmetric с ростом
+
+3. **Co-evolution structure Phase-by-phase:**
+   - Phase 1 (≤ €50K): простая revenue-share / consulting hand-off
+   - Phase 2 (€200K+): formal matchmaker + specialist pool + shared tools
+   - Phase 3 (€1M+): roy-replication — партнёры становятся operator'ами под
+     methodology, equity/token participation
+   - Phase 4+ ($10M+): full co-evolution holding — Berkshire/Constellation analog
+     но для AI-native
+
+4. **Measurement / success criteria для co-evolution:**
+   - Партнёр growth rate (должен превышать market baseline благодаря Jetix)
+   - Jetix growth from partners (partner-sourced revenue %, partner-sourced
+     IP contributions %)
+   - Health metrics (partner churn, satisfaction, NPS-like)
+   - Mutual vs extractive signal (asymmetric complaints = warning)
+
+5. **Governance + dispute resolution:**
+   - Как разрешаются конфликты (Phase 1 handshake / Phase 2+ contractual)
+   - Как partner exits (clean separation / ongoing equity / non-compete)
+   - Как handled disagreement о direction (Jetix-weighted vote / consensus)
+
+6. **Ligaments между partners:**
+   - Партнёры communicating друг с другом через Jetix или напрямую?
+   - Cross-partner value creation (партнёр А serves клиента партнёра Б)
+   - Private Library вклад (каждый партнёр обогащает common pool)
+   - Talent flow (люди двигаются между партнёрами)
+
+**Expected output от роя:**
+- Секция в `decisions/JETIX-OVERLAY-ON-META-SYSTEM.md` — 3-5 design options
+  для co-evolution loop
+- Каждый option: mechanism / phase / pros / cons / dependencies на Locks +
+  примеры аналогов (Berkshire / Y Combinator / Andreessen / Stripe ecosystem
+  / Tiny Capital / Constellation / SafeSuperhuman / etc.)
+- Rec default для Phase 1 (simplest viable)
+
+**Связь с Locks:**
+- Lock 11 (продюсерский центр + investment-fund) — base mechanism
+- Lock 13 (open-surface / closed-core) — библиотека для партнёров = inside
+  membrane
+- Lock 21 (matchmaker + roy-replication) — core co-evolution pattern
+- Lock 22 (ICP 5 criteria) — partner selection filter
+- Lock 23 (token economy Option B) — возможный compensation layer Phase 2+
+- Lock 24 (open-source research) — research co-contribution layer
+
+### 1.8 Communication channels (human↔swarm)
 
 Помимо file-based stages, рой должен поддерживать:
 - **Telegram/Slack notifications** когда stage completed + waiting
