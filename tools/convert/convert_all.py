@@ -152,8 +152,14 @@ def triage():
         if not subcat_dir.is_dir():
             continue
         subcat = subcat_dir.name
-        for file in subcat_dir.iterdir():
+        # Recursive walk (for scraped blog sub-dirs)
+        for file in subcat_dir.rglob("*"):
             if not file.is_file() or file.name.startswith("."):
+                continue
+            # Skip assets from wget mirrors (images, fonts, css)
+            if file.suffix.lower() in (".css", ".js", ".png", ".jpg", ".jpeg",
+                                        ".gif", ".svg", ".woff", ".woff2",
+                                        ".ttf", ".ico", ".webp"):
                 continue
             ftype = get_file_type(file)
             entry = {
