@@ -1,6 +1,12 @@
 # Private data - never commit
 private/
 
+# Ephemeral inbox — raw downloads for conversion, synced to server, then deleted
+inbox/
+
+# Converted MD artifacts that duplicate originals
+raw/books-md/**/.DS_Store
+
 # Obsidian
 .obsidian/
 

@@ -40,7 +40,13 @@ from pathlib import Path
 # ============================================================
 
 REPO_ROOT = Path(__file__).resolve().parent.parent.parent
-SRC_DIR = REPO_ROOT / "raw" / "books-external"
+# Source: inbox/ (ephemeral) by default. Fallback: raw/books-external/ if inbox empty.
+_INBOX = REPO_ROOT / "inbox"
+_EXTERNAL = REPO_ROOT / "raw" / "books-external"
+if _INBOX.exists() and any(_INBOX.iterdir()):
+    SRC_DIR = _INBOX
+else:
+    SRC_DIR = _EXTERNAL
 DST_DIR = REPO_ROOT / "raw" / "books-md"
 LOG_DIR = REPO_ROOT / "tools" / "convert" / "logs"
 TRIAGE_FILE = REPO_ROOT / "tools" / "convert" / "triage-report.json"

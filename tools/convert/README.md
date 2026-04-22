@@ -1,147 +1,144 @@
-# Conversion Pipeline — PDF/EPUB/TXT/HTML → LLM-friendly Markdown
+# Conversion Pipeline — inbox/ → raw/books-md/ (сервер делает всё)
 
-## Quick start (3 команды)
+## Архитектура
+
+```
+ЛОКАЛЬНО (Windows)          СЕРВЕР (Tailscale)
+──────────────              ──────────────────
+inbox/                      inbox/
+  ├── pm/                   получает через rsync
+  ├── clean-code/            │
+  ├── meta/<blogs>/          ▼
+  └── ...                   Claude Code CC
+      │                      │ triage + OCR + convert
+      │ rsync                │ frontmatter + quality + index
+      ├─────────►            ▼
+                            raw/books-md/<sub>/*.md
+                             │
+                             │ git push
+                             ▼
+                            github — у Ruslan pull
+```
+
+## Полный workflow (4 команды)
+
+### Шаг 1 — локально: scrape blogs в inbox/ (1-3 часа)
 
 ```bash
-# 1. Установить зависимости (один раз, 5-10 минут)
-bash tools/convert/install.sh
-
-# 2. Запустить full pipeline (4-8 часов автоматом, в фоне)
-bash tools/convert/run_all.sh
-
-# 3. Проверить результат
-cat raw/books-md/INDEX.md | head -50
+cd C:\Users\49152\Desktop\jetix-os
+bash tools/convert/scrape_blogs.sh
 ```
 
-## Что делает
+Это wget'ом скачает 15+ blogs (Paul Graham / Naval / SEP / Karpathy / Anthropic / Aider / Cognition / Farnam / Kelly / Raymond / 37signals / Левенчук / MCP / Shape Up) в `inbox/<subcategory>/<blog-slug>/`.
 
-1. **Triage** — сканирует `raw/books-external/` и разделяет files по типам (text-PDF / scanned-PDF / EPUB / TXT / HTML)
-2. **OCR** — для scanned PDFs добавляет text layer (ocrmypdf)
-3. **Convert** — каждый file → Markdown в `raw/books-md/<subcategory>/`:
-   - PDF → docling (primary) или pymupdf4llm (fallback)
-   - EPUB → pandoc
-   - HTML → pandoc
-   - TXT → copy
-4. **Frontmatter** — добавляет YAML metadata (title / subcategory / expert / priority / word_count / etc)
-5. **Quality grade** — auto-grades каждый MD: A (clean) / B (minor artifacts) / C (needs reprocess)
-6. **Index** — генерирует `raw/books-md/INDEX.md` — каталог всех книг
+### Шаг 2 — локально: dropping PDFs в inbox/
 
-## Output structure
+Перенеси все скачанные PDFs / EPUBs в `inbox/<subcategory>/`. Структура в [inbox/README.md](../../inbox/README.md).
 
-```
-raw/
-├── books-external/         # ORIGINALS (PDF/EPUB/TXT) — keep локально
-│   ├── unix/
-│   ├── clean-code/
-│   └── ...
-└── books-md/               # CONVERTED Markdown — push в git
-    ├── INDEX.md            # каталог
-    ├── unix/
-    │   └── art-of-unix-programming-raymond-2003.md
-    ├── clean-code/
-    └── ...
-```
+Например:
+- `shape-up.pdf` → `inbox/pm/shape-up.pdf`
+- `ousterhout-philosophy-sw-design.pdf` → `inbox/clean-code/`
+- `meadows-thinking-in-systems.pdf` → `inbox/systems/`
 
-## Advanced — отдельные шаги
+### Шаг 3 — локально: sync inbox на сервер (15-30 мин, зависит от размера)
 
 ```bash
-# Только triage (без конверсии)
-python tools/convert/convert_all.py --step triage
-
-# Только OCR scanned PDFs
-python tools/convert/convert_all.py --step ocr
-
-# Только convert
-python tools/convert/convert_all.py --step convert --resume
-
-# Только quality check (после ручной проверки/исправления)
-python tools/convert/convert_all.py --step quality
-
-# Dry-run (показать что будет делать, без execute)
-python tools/convert/convert_all.py --dry-run
+bash tools/convert/sync_to_server.sh
 ```
 
-## Resume mode
+Rsync через Tailscale. Скрипт сам проверит SSH, покажет progress, даст команды для next step.
 
-Скрипт запущен с `--resume` (default в `run_all.sh`) — **пропускает файлы которые уже конвертированы**. Можно прерывать Ctrl+C и запускать снова.
+### Шаг 4 — сервер: Claude Code конвертит всё (4-10 часов фоном)
 
-## Quality grading explained
+```bash
+ssh ruslan@100.99.156.28
+tmux new -s convert
+cd ~/jetix-os
+git pull origin claude/jolly-margulis-915d34
+claude --dangerously-skip-permissions
+```
 
-Каждый MD получает auto-grade в frontmatter:
+Paste в Claude Code весь prompt из [server_task.md](server_task.md). Claude сам:
+- Установит deps (docling / ocrmypdf / pandoc / tesseract)
+- Конвертит всё inbox → `raw/books-md/`
+- Сделает quality grade + INDEX.md
+- Commit + push в git
+- Очистит inbox на сервере
 
-- **A ✅ Clean** — word count в range, headings есть, no OCR artifacts
-- **B ⚠️ Minor artifacts** — page numbers leak / occasional weird breaks / small table issues. Usable.
-- **C ❌ Poor** — OCR failed / garbled text / missing content. Нужен re-process.
+Ты можешь detach от tmux: `Ctrl+B` потом `D`. Возвращайся: `tmux a -t convert`.
 
-**Auto-grader проверяет:**
-- Word count (1K-500K expected)
-- Isolated 'l' как OCR indicator
-- Heading presence (3+ if >5K words)
-- Non-ASCII/Cyrillic char ratio (< 2%)
-- Page-number pollution in text
+### Шаг 5 — локально: pull converted MD + cleanup
 
-**Human override:** ставь grade руками в YAML frontmatter если автомат не прав.
+```bash
+cd C:\Users\49152\Desktop\jetix-os
+git pull origin claude/jolly-margulis-915d34
+cat raw/books-md/INDEX.md | head -80
+rm -rf inbox  # локально
+```
 
-## Expert assignment
+Результат — готовая library в `raw/books-md/` со всеми книгами в Markdown, grade'ами, expert mapping.
 
-Каждая книга получает `expert:` в frontmatter — какой Domain-Expert subagent её читает:
+---
 
-| Subcategory | Expert |
+## Files в tools/convert/
+
+| File | Что делает |
 |---|---|
-| unix / clean-code / engineering-foundations | unix-expert |
-| pm / pdm | pm-expert |
-| mgmt | mgmt-expert |
-| systems / cybernetics / complexity | systems-expert |
-| investing | investor-expert |
-| meta / biology | meta-expert |
-| philosophy / philosophy-science | philosophy-expert |
+| `scrape_blogs.sh` | wget scraping blogs в inbox/ |
+| `sync_to_server.sh` | rsync inbox → server |
+| `server_task.md` | prompt для Claude Code на сервере |
+| `convert_all.py` | pipeline (triage + OCR + convert + frontmatter + quality + index) |
+| `install.sh` | install deps локально (сервер делает свой) |
+| `run_all.sh` | orchestrator (если хочешь запустить локально) |
 
-## Logs
+## Quality grading
 
-`tools/convert/logs/YYYYMMDD-<step>.log` — все operations логируются.
+Каждый конвертированный MD получает grade в YAML frontmatter:
+
+- **A ✅** — clean, word count in range, structure preserved
+- **B ⚠️** — minor artifacts (page numbers leak, small OCR issues), usable
+- **C ❌** — failed conversion, needs reprocess
+
+Рой использует A first, B with caveat, C — skip / fix manually.
+
+## Почему на сервере, не локально
+
+- Сервер: Linux = все tools работают из коробки (apt install tesseract / pandoc)
+- Сервер: мощнее CPU, не блокирует твою Windows машину
+- Сервер: batch processing в tmux — можно detach, забыть на ночь
+- Сервер: Claude Code с extended thinking умеет решать edge cases (если docling падает на конкретном PDF — переключится на pymupdf4llm, тебе не надо дебажить)
 
 ## Troubleshooting
 
-**`docling` очень медленный**
-- Норма для первого run (модели качаются). ~30-60 сек/book.
-- Fallback — pymupdf4llm быстрее, автоматом используется если docling fail.
+**Шаг 1 — wget пишет "command not found"**
+- Windows: используй Git Bash (wget встроен) вместо cmd/PowerShell
+- Или установи WSL
 
-**`ocrmypdf: tesseract not found`**
-- Windows: скачай с https://github.com/UB-Mannheim/tesseract/wiki
-- После install — добавь в PATH
+**Шаг 3 — rsync fail на SSH**
+- Проверь Tailscale: `tailscale status`
+- Проверь SSH key: `ssh-add -l`
+- Попробуй ручной SSH: `ssh ruslan@100.99.156.28` — должен войти без пароля
 
-**`pandoc: command not found`**
-- Windows: скачай .msi с https://pandoc.org/installing.html
-- Без pandoc — EPUB и HTML конверсия пропускается (PDF/TXT работают)
-
-**Конкретный file конвертируется с ошибками**
-- Проверь grade в frontmatter
-- Если C — попробуй OCR ещё раз с agressive mode:
+**Шаг 4 — Claude Code на сервере не может установить deps**
+- Если apt требует sudo password — дай через `sudo` напрямую перед запуском Claude
+- Или установи deps вручную один раз:
   ```bash
-  ocrmypdf --force-ocr --deskew --clean-final <path>
-  ```
-- Или используй marker (тяжелее, но качественнее):
-  ```bash
-  pip install marker-pdf
-  marker_single <file.pdf> --output_format markdown
+  sudo apt-get install -y tesseract-ocr pandoc
+  pip install --user docling pymupdf4llm ocrmypdf python-frontmatter tqdm
   ```
 
-## After conversion — commit
-
-```bash
-git add raw/books-md/ tools/convert/
-git commit -m "[raw] books converted to Markdown — Waves 1-2"
-git push origin claude/jolly-margulis-915d34
-```
-
-**ORIGINALS (raw/books-external/)** — не пуш в git сразу. Они большие (PDF 3-5MB each × 55 files = ~200MB+). Варианты:
-1. Local-only (не push нигде — проще)
-2. Git LFS (+$5/mo если >1GB)
-3. External backup на диск
-
-Рекомендация — local-only. MD достаточно для роя.
+**Шаг 4 — Claude Code застревает на конкретном PDF**
+- Пропусти его в convert_all.py (закомментируй) или перемести из inbox
+- Продолжай с остальным
+- Потом попробуй с marker (более тяжёлый tool): `pip install marker-pdf && marker_single <pdf>`
 
 ## ETA
 
-Single book: 30-90 сек (docling) / 5-15 сек (pymupdf4llm fallback).
-55 books: 4-8 часов wall-clock. Фоном OK.
+- Шаг 1 (scrape): 1-3 часа
+- Шаг 2 (PDFs): 10 мин manual
+- Шаг 3 (rsync): 15-60 мин в зависимости от размера
+- Шаг 4 (server convert): 4-10 часов (фоном через tmux)
+- Шаг 5 (pull): 5 мин
+
+**Total your active time:** ~1 час
+**Total wall-clock:** 6-15 часов
