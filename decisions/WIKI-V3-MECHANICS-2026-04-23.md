@@ -1,7 +1,10 @@
 ---
 title: Wiki v3 Mechanics — Resolved Answers to 9 Open Questions
 date: 2026-04-23
-status: AWAITING-APPROVAL
+status: approved
+approved_by: Ruslan
+approved_date: 2026-04-23
+r_items: all 8 accepted with defaults (R1–R8 = Yes)
 author: Claude Code (Opus 4.7, 1M context)
 step: 2.2.3 Стадия B — mechanics resolver
 inputs:
@@ -15,7 +18,7 @@ sub_agent_extractions:
   - raw/research/step-2-2-3b-extractions/W-1-knowledge-architecture.md
   - raw/research/step-2-2-3b-extractions/W-2-locked-constraints.md
   - raw/research/step-2-2-3b-extractions/W-3-existing-wiki-audit.md
-downstream: design/AWAITING-APPROVAL-wiki-v3-architecture-YYYY-MM-DD.md (Стадия C)
+downstream: design/AWAITING-APPROVAL-wiki-v3-architecture-YYYY-MM-DD.md (Стадия C — separate session)
 ---
 
 # Wiki v3 Mechanics Resolver — AWAITING-APPROVAL
