@@ -49,7 +49,9 @@ research) не дублировала, а закрывала gap'ы.
 9. `raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md` (Locks 9-18)
 10. `raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md` (Locks 19-24)
 11. `raw/research/compounding-engineering-2026-04-22/SYNTHESIS-DEEP-CE-vs-JETIX.md` (executive summary v2)
-12. `raw/articles/2026-04-22-every-compound-engineering-guide.md` **(НОВЫЙ — canonical CE source от Every / Kieran Klaassen, полный guide с 27 agents / 23 commands / 14 skills)**
+12. `raw/articles/2026-04-22-every-compound-engineering-guide.md` **(канонический CE source от Every / Kieran Klaassen, полный guide с 27 agents / 23 commands / 14 skills)**
+13. `raw/research/perplexity-market-ai-native-2026-04-22/executive-brief.md` **(НОВЫЙ — Perplexity-based executive synthesis по 6 доменам: AI-Native OS / Multi-agent / Knowledge mgmt / Solo→holding / Tooling / Anti-patterns. 33KB, TL;DR + 10 bullets + 3 key decisions + phased roadmap.)**
+14. `raw/research/perplexity-market-ai-native-2026-04-22/perplexity-output.md` **(НОВЫЙ — full raw Perplexity deep research output, 350KB, со всеми citations по 6 доменам. Можно scan в inventory mode — читай заголовки, executive sections, цитируемые названия компаний/проектов/papers.)**
 
 ### Должен проскан (inventory mode — catalog, не read)
 13. Весь `raw/research/` (directory tree + заголовки + frontmatter каждого .md)
@@ -104,6 +106,7 @@ Coverage scale: **MINIMAL** (<3 sources) / **PARTIAL** (3-5) / **STRONG** (6+).
 - Research — Compounding Engineering (R-1..R-11 + synthesis)
 - Research — Voice-memos digests
 - Research — Architecture variants (5 files)
+- Research — Perplexity market-ai-native 2026-04-22 (executive-brief + perplexity-output)
 - Research — Other deep researches (agency / community / consulting / career-levels / company-as-code / crm-sales / etc.)
 - Wiki sources (most relevant для domains 1-8)
 - Wiki foundations
@@ -200,6 +203,7 @@ Justification: Domain 2 MAJOR GAPS — matchmaker / capability-capsule productio
 - **Citation discipline**: каждый claim / fact / статистика с inline citation
   `[source-path §section]`
 - **Length**: 5000-8000 слов, table-heavy, dense
+- **Perplexity integration**: Part 1 coverage matrix ДОЛЖНА учесть Perplexity findings (6 domains) — после их добавления несколько domains могут перейти в STRONG coverage. Part 4 top-20 insights ДОЛЖНО включать minimum 5 insights из Perplexity output с верифицированными citations (проверь что cited sources реально существуют — это raw Perplexity output, возможны halluzinations).
 - **Honest**: если domain covered на 100% — скажи; если 0% — скажи
 
 ## Anti-patterns (НЕ делай)
@@ -219,7 +223,8 @@ Justification: Domain 2 MAJOR GAPS — matchmaker / capability-capsule productio
 
 ## Workflow
 
-1. Foundation reads (items 1-12). ~45-60 min.
+1. Foundation reads (items 1-14, включая 2 Perplexity файла). ~60-90 min.
+   - Item 14 (perplexity-output.md, 350KB) — scan mode OK, но: obligatory прочитать все domain executive sections + сохранить все cited company/project/paper names для Part 4 insights.
 2. Directory scans (items 13-22) — build inventory index. ~30-45 min.
 3. Domain coverage matrix (Part 1). ~20-30 min.
 4. File-level inventory (Part 2). ~45-60 min.
