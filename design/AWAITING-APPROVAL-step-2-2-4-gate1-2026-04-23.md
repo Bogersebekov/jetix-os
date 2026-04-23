@@ -7,7 +7,15 @@ escalated_at: 2026-04-23
 task_id: step-2-2-4
 cycle_id: cyc-step-2-2-4-gate1
 deadline: null
-state: open
+state: acked
+chosen: A
+acked_at: 2026-04-23
+acked_by: ruslan
+notes: |
+  Brigadier + wiki v3 infrastructure + shared-protocols.md + wiki-roots.yaml +
+  swarm-alphas.md accepted as drafted. All Part D bootstrap checks passed.
+  Critic-gate1 H+M applied (3 high + 8 medium); 7 low + 1 medium deferred
+  to Phase-A errata is acceptable. Proceed through 2.5..2.10.
 ---
 
 # Gate 1 — Brigadier + Wiki v3 Infrastructure
