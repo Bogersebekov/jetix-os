@@ -1051,5 +1051,297 @@ entries, the oldest 20 are moved to
 
 ---
 
+## DELIVERABLE 11 — Q6 Skill Activation-vs-Validation Rubric (resolves T3)
+
+### 11.1 Mandate, T3 framing, and naming alignment
+
+T3 (per Sub-agent A §4) resolves the tension between **activation**
+(when a candidate skill becomes part of the live registry) and
+**validation** (when a candidate is demonstrably effective). The
+critic-gate1 S2 fix locked α-3 to 4 states per FPF Part 4 §4.3:
+`proposed → active → validated ⇄ active → tombstoned` (no separate
+`retired`). This deliverable is the operational rubric that drives
+α-3 transitions for skills.
+
+**Naming alignment** (carried from D5 §5.4 alias table):
+
+| FPF state (canonical) | D11 spec alias | Filesystem location |
+|---|---|---|
+| `proposed` | `candidate` | `swarm/wiki/skills/candidates/<slug>/manifest.md` |
+| `active` | `learning` | `swarm/wiki/skills/learning/<slug>/manifest.md` + `golden-set.jsonl` |
+| `validated` | `active` (live) | `swarm/wiki/skills/active/<slug>.md` + D9 symlink |
+| `tombstoned` | `tombstoned` | `swarm/wiki/_archive/skills/<slug>.md` |
+
+D11 uses FPF state names canonically; spec aliases shown in
+parentheses for cross-reference. The transitions and predicates below
+are testable from filesystem alone (per W-12 + critic-gate1 H2 fix).
+
+### 11.2 Skill candidate intake (transition: none → `proposed`)
+
+**Trigger.** Compound step at α-1 `compounded` (D5 §5.2) writes a DRR
+entry to `agents/<expert>/strategies.md` (Level-1) OR
+`swarm/wiki/skills/candidates/<slug>/manifest.md` (Level-2 — if the
+brigadier judges the pattern broad enough for swarm-wide skill).
+
+**Predicate (none → `proposed`):**
+- A new file at `swarm/wiki/skills/candidates/<slug>/manifest.md`
+  with frontmatter `skill_state: candidate` AND
+  4-part DRR populated (`context:`, `decision:`, `alternatives:`,
+  `review_checkpoint:`).
+- The DRR `proposed_by:` field set per Q6 R4 owner table (see §11.7).
+
+**No golden set required at this stage.** Candidates are open ideas;
+goldens come at `learning`.
+
+### 11.3 Activation gate I (transition: `proposed` → `active`/`learning`)
+
+**Trigger.** First successful application by any cell.
+
+**Activation predicate (all conditions ANDed):**
+
+1. **Golden-set seeded:** file
+   `swarm/wiki/skills/learning/<slug>/golden-set.jsonl` exists with
+   **≥3 cases** (per Q6 + Sub-agent C §5). Each case: JSONL line with
+   `{input: <…>, expected_output: <…>, acceptance_predicate: <…>}`.
+2. **Use-log seeded:** file
+   `swarm/wiki/skills/usage/<slug>.jsonl` exists with **≥1 success
+   record** ({outcome: success, ts: …, task_id: …}).
+3. **Brigadier sign-off:** the most recent commit moving the
+   `manifest.md` from `candidates/` to `learning/` was authored by
+   the brigadier (per D6 §6.2 single-writer); commit message format
+   per D6 §6.2.4.
+4. **Frontmatter updated:** the manifest's `skill_state` advances from
+   `candidate` to `active` (FPF) / `learning` (alias); `n_uses`
+   field set to 1 or more.
+
+**Filesystem-resident predicate** (lint-checkable, per W-12):
+```
+state[<slug>] == "active" iff
+  exists(swarm/wiki/skills/learning/<slug>/manifest.md)
+  AND exists(swarm/wiki/skills/learning/<slug>/golden-set.jsonl)
+  AND wc -l < golden-set.jsonl > 3
+  AND grep '"outcome":"success"' usage/<slug>.jsonl | wc -l >= 1
+  AND frontmatter.skill_state == "active"
+  AND last_brigadier_commit_authored_by == "brigadier"
+```
+
+**Owner per Q6 R4:** brigadier (writes the activation; meta-agent or
+expert may have drafted the candidate via `mode: writing-support` per
+D6 §6.8).
+
+### 11.4 Activation gate II (transition: `active`/`learning` → `validated`)
+
+**Trigger.** Skill has accumulated sufficient evidence for promotion
+to the live registry.
+
+**Activation predicate (all conditions ANDed):**
+
+1. **Golden-set ≥3 satisfied:** all ≥3 golden-set cases have
+   `acceptance_predicate` returning true on the most recent run
+   (per Sub-agent C §5; brigadier executes the goldens before promotion).
+2. **Validated success ratio ≥3:1:** in
+   `swarm/wiki/skills/usage/<slug>.jsonl`, success records outnumber
+   loss records by at least 3:1.
+3. **Minimum N=10 uses:** total recorded invocations
+   `(success + loss) ≥ 10`.
+4. **Brigadier sign-off via §5.5.5 provenance gate (D6 §6.3):** the
+   commit promoting the canonical from `learning/<slug>/manifest.md`
+   to `active/<slug>.md` AND creating the D9 symlink is brigadier-
+   authored. The §5.5.5 gate verifies `sources[]` non-empty (the
+   golden-set cases qualify as `sources[]` entries).
+
+**Filesystem-resident predicate** (lint-checkable):
+```
+state[<slug>] == "validated" iff
+  exists(swarm/wiki/skills/active/<slug>.md)
+  AND exists(.claude/skills/<slug>.md)            # D9 symlink
+  AND readlink(.claude/skills/<slug>.md) == "../../swarm/wiki/skills/active/<slug>.md"
+  AND golden_set_pass_count == golden_set_total
+  AND success_count >= 3 * loss_count
+  AND (success_count + loss_count) >= 10
+  AND frontmatter.skill_state == "validated"
+```
+
+**Owner per Q6 R4:** brigadier writes; meta-agent runs golden-set
+audit pre-write (`mode: writing-support` returns the audit verdict).
+
+### 11.5 Retirement / tombstoning predicates
+
+Per critic-gate1 S2 fix, α-3 has no `retired` state. There are two
+backward transitions out of `validated`:
+
+**(a) Demotion: `validated` → `active`/`learning`** (loop per D5 §5.4):
+
+**Predicate:**
+- Rolling 10 most-recent uses: `success_count / max(loss_count, 1) <
+  3.0` AND `>= 1.0`.
+
+Brigadier moves canonical back to `learning/`, removes D9 symlink. The
+skill returns to `learning` for re-evaluation. Owner: meta-agent
+emits drift-alert via `mode: writing-support`; brigadier executes the
+move.
+
+**(b) Tombstoning: any state → `tombstoned`:**
+
+**Predicates (any one triggers):**
+1. **Catastrophic ratio:** rolling 10 most-recent uses
+   `success_count / max(loss_count, 1) < 1.0` (loss-dominated).
+2. **Superseded:** another `validated` skill bears `supersedes:
+   [[<this-slug>]]` in its frontmatter (D3 §3.2.7).
+3. **Production incident:** an entry in `swarm/wiki/log.md` of the form
+   `## [<date>] incident | <task-id> | caused-by: <slug>` cites this
+   skill, AND the incident is not already resolved (no
+   `## [<date>] incident-resolved | <task-id>` follow-up).
+4. **Ruslan-attested withdrawal:** ack of an
+   `AWAITING-APPROVAL-tombstone-skill-<slug>-*.md` gate file (D6 §6.5).
+
+**Filesystem-resident tombstoning predicate:**
+```
+state[<slug>] == "tombstoned" iff
+  exists(swarm/wiki/_archive/skills/<slug>.md)
+  AND NOT exists(swarm/wiki/skills/active/<slug>.md)
+  AND NOT exists(.claude/skills/<slug>.md)
+  AND frontmatter.tombstoned_by != null
+  AND frontmatter.skill_state == "tombstoned"
+```
+
+### 11.6 Worked examples
+
+#### 11.6.1 Activation — `query-pricing-models` (FPF `validated` reached)
+
+State at ratio = 5:1, n=15, golden-set 5/5 pass.
+
+```
+swarm/wiki/skills/learning/query-pricing-models/
+  ├── manifest.md         (skill_state: active, n_uses: 15)
+  └── golden-set.jsonl    (5 lines)
+swarm/wiki/skills/usage/query-pricing-models.jsonl  (15 lines, 12 success / 3 loss)
+```
+
+**Predicate check (§11.4):**
+- exists active/<slug>.md? NO (still in learning) — must be created.
+- golden-set.jsonl wc -l == 5; pass = 5/5; ✓
+- 12 / 3 = 4.0 ≥ 3.0; ✓
+- 12 + 3 = 15 ≥ 10; ✓
+
+**Brigadier action:**
+1. Run all 5 goldens; verify 5/5 pass.
+2. Move `learning/query-pricing-models/manifest.md` → `active/query-pricing-models.md`.
+3. Update frontmatter: `skill_state: validated`, `n_uses: 15`,
+   `success_count: 12`, `loss_count: 3`.
+4. Create D9 symlink: `ln -s ../../swarm/wiki/skills/active/query-pricing-models.md
+   .claude/skills/query-pricing-models.md`.
+5. Append to `swarm/wiki/log.md`:
+   `## [2026-05-30] activate-skill | query-pricing-models | golden-set: 5/5; ratio: 4.0`.
+6. Increment `swarm/wiki/meta/health.md`'s `active_skills_count`.
+7. Commit: `[brigadier] cyc-2026-05-30-am: activate skill query-pricing-models per D11 §11.4`.
+
+#### 11.6.2 Demotion — `summarise-meeting-notes` (drift detected)
+
+State at validated, last 10 uses: 4 success / 6 loss (ratio = 0.67,
+which is <1.0 → tombstone candidate, NOT demote).
+
+If instead 5 success / 5 loss (ratio = 1.0; in the demotion band 1.0
+≤ ratio < 3.0):
+
+**Brigadier action (per §11.5(a)):**
+1. Move `active/summarise-meeting-notes.md` → `learning/summarise-meeting-notes/manifest.md`.
+2. Update frontmatter: `skill_state: active`, set `success_count: 5`, `loss_count: 5`.
+3. Remove D9 symlink: `rm .claude/skills/summarise-meeting-notes.md`.
+4. Append to log: `## [<date>] demote-skill | summarise-meeting-notes | rolling-10 ratio 1.0; back to learning`.
+5. Decrement `active_skills_count`.
+
+#### 11.6.3 Tombstoning — `parse-html-table` (production incident)
+
+Skill caused a misparse that propagated bad data into a wiki claim;
+incident logged.
+
+```
+swarm/wiki/log.md (recent):
+  ## [2026-06-15] incident | task-2026-06-15-extract-pricing | caused-by: parse-html-table
+  ...
+  (no follow-up incident-resolved line)
+```
+
+**Predicate check (§11.5(b) #3):** ✓ active incident.
+
+**Brigadier action:**
+1. Move `swarm/wiki/skills/active/parse-html-table.md` →
+   `swarm/wiki/_archive/skills/parse-html-table.md`.
+2. Update frontmatter: `skill_state: tombstoned`,
+   `tombstoned_by: [[wiki/log.md#L<incident-line>]]`.
+3. Remove D9 symlink: `rm .claude/skills/parse-html-table.md`.
+4. Append to log: `## [2026-06-16] tombstone-skill | parse-html-table | per-incident task-2026-06-15-extract-pricing`.
+5. Increment `tombstone_rate_weekly` for L8.
+6. Commit per D6 §6.2.4.
+
+### 11.7 Owner roles per transition (per Q6 R4 + Sub-agent A §3 R4)
+
+| Transition | Propose (drafter) | Eval | Activate | Audit | Retire / Tombstone |
+|---|---|---|---|---|---|
+| none → `proposed` | any agent OR Ruslan (writes DRR via `mode: writing-support`) | n/a | n/a | n/a | n/a |
+| `proposed` → `active` | brigadier (or owning expert in `mode: writing-support` returns draft) | brigadier | brigadier | n/a | n/a |
+| `active` → `validated` | brigadier OR owning expert in `mode: writing-support` returns draft | brigadier (runs golden-set) | brigadier (under §5.5.5 gate) | meta-agent (audit before activation) | n/a |
+| `validated` → `active` (demoted) | meta-agent emits drift-alert | meta-agent (rolling-ratio check) | n/a (it's a demotion) | meta-agent | n/a |
+| any → `tombstoned` | meta-agent OR Ruslan OR brigadier (incident-driven) | brigadier (verifies tombstone trigger) | n/a | meta-agent (post-tombstone audit) | meta-agent OR Ruslan |
+
+All transitions are **commit-by-brigadier** per Q2 single-writer (D6
+§6.2). Meta-agent and experts emit drafts via `mode: writing-support`
+per D6 §6.8 (Sub-agent A §6 #10 conflict resolved per Gate 1).
+
+### 11.8 Anti-T3 clause (resolves T3 explicitly)
+
+**Tension T3 (Sub-agent A §4):** "Activation = golden-set ≥80% binary;
+validation = usage-driven (≥10 uses + ≥3:1). Стадия C MUST write
+explicit rubric distinguishing the two gates."
+
+**Resolution.** The rubric distinguishes:
+
+- **Activation gate I** (§11.3, `proposed → active`): seeded
+  state — first success + golden-set existence + brigadier intake.
+  No usage requirement.
+- **Activation gate II** (§11.4, `active → validated`): validated
+  state — all goldens pass + ≥10 uses + ≥3:1 ratio + brigadier
+  §5.5.5 sign-off.
+
+**Anti-T3 enforcement:** validation evidence MUST be filesystem-resident
+**before** activation gate II. Specifically:
+
+1. The golden-set file (`golden-set.jsonl`) MUST be committed, not
+   verbal/in-context.
+2. The use-log file (`usage/<slug>.jsonl`) MUST contain ≥10 timestamped
+   records, not aggregated estimates.
+3. The brigadier's promotion commit MUST cite the
+   `usage/<slug>.jsonl` and `golden-set.jsonl` paths in its
+   `sources[]` frontmatter (§5.5.5 provenance gate D6 §6.3).
+4. **No verbal validation.** A skill cannot be promoted because "it
+   feels good" — the rubric is filesystem-checkable, not
+   conversation-checkable.
+
+`/lint` enforces by checking that every `.claude/skills/<slug>.md`
+symlink target satisfies §11.4 predicate; non-conforming symlinks are
+flagged as anti-T3 violations.
+
+### 11.9 Compatibility matrix
+
+| Locked item | D11 honours by … |
+|---|---|
+| Q6 (skill-learning pipeline) | activation predicate exact: golden-set ≥3, ratio ≥3:1, ≥10 uses, brigadier sign-off (all ANDed). |
+| R4 (Q6 owners locked) | §11.7 table aligns to R4 owner roles per Sub-agent A §3. |
+| T3 (activation-vs-validation tension) | §11.8 anti-T3 clause; filesystem-resident evidence required. |
+| Q2 single-writer | every transition committed by brigadier; meta-agent/expert via `mode: writing-support`. |
+| α-3 4-state lock (critic-gate1 S2) | only `proposed/active/validated/tombstoned`; `retired` route handled via demotion loop OR tombstone. |
+| W-9 (skills first-class) | each skill has full lifecycle with golden-set + use-log + symlink. |
+| W-12 (1000% depth) | every predicate filesystem-checkable; 3 worked examples; owner table; commit messages spelled out. |
+| §5.5.5 provenance gate (D6 §6.3) | activation gate II requires §5.5.5 sign-off citing golden-set + use-log paths. |
+| D9 (symlink convention) | references D9 §9.4 symlink-creation script; D9 §9.5 removal. |
+| D10 (health.md) | references `active_skills_count` increment; `tombstone_rate_weekly` increment. |
+| Sub-agent C §5 ("research silent on golden-set storage") | golden-set.jsonl format specified: JSONL line per case with `{input, expected_output, acceptance_predicate}`. |
+| Sub-agent C §8 #9 (never-delete-only-archive) | tombstone moves to `_archive/`, doesn't delete. |
+| Critic-gate1 H2 (filesystem-only predicates) | every predicate uses file existence + grep counts + frontmatter fields, no commit-message tests. |
+
+---
+
+
 
 
