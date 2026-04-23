@@ -2335,6 +2335,536 @@ supersedes_versions: []
 
 ---
 
+## DELIVERABLE 6 — `swarm/lib/shared-protocols.md` (Wiki Write Protocol + ancillaries)
+
+### 6.1 Mandate
+
+This is the runtime contract every domain expert reads on every Task
+invocation (per FPF Part 10.5, Sub-agent B §6; master synthesis
+§5.5.1–§5.5.5 baseline, Sub-agent E §1). It extends §5.5 (master
+synthesis) for v3 specifics; it does NOT replace it. The brigadier
+imports this file at session start; experts import it via §7 of their
+system.md (per FPF Part 10.8 success predicate item 7).
+
+The file lives at `swarm/lib/shared-protocols.md`. Eight sections,
+numbered 1–8, mirror Part 10.5 + Part 10.6 mandates. Section content
+below is the literal initial body; Стадия D writes verbatim.
+
+### 6.2 Section 1 — Wiki write protocol (extends master synthesis §5.5)
+
+**6.2.1 Single-writer brigadier rule (Q2-locked).** All writes to
+`swarm/wiki/` flow through the brigadier. Cells (5 domain experts in
+4 modes = 20 matrix cells per Sub-agent E §5) write only to
+`swarm/wiki/drafts/<task-id>-<expert>-<artefact>.md`. They return
+their draft via the `Task(...)` return value (structured per §6.4
+below). The brigadier reads the draft, runs the §5.5.5 gate (§6.3
+below), and commits canonical content to `swarm/wiki/<canonical-path>/`.
+This applies across all 9 layers and the global spine. **No role-mode
+bypasses this rule** (Sub-agent E §6 confirmed: critic, optimizer,
+integrator, scalability all return via Task; none gets elevated
+write rights).
+
+**6.2.2 Per-layer write paths and authorised drafters.** For each
+layer (D1 §1.3 permission table is authoritative; this is the
+expert-facing summary):
+
+| Target path | Drafter (mode) | Brigadier promotion target |
+|---|---|---|
+| `wiki/drafts/<task-id>-<expert>-<artefact>.md` | any of 5 experts × 4 modes | promotes to canonical per draft type |
+| `wiki/concepts/<slug>.md` | engineering/systems/philosophy expert (any mode), drafted in `drafts/` | direct write by brigadier after gate |
+| `wiki/claims/<slug>.md` | any expert (any mode), drafted in `drafts/` | brigadier write |
+| `wiki/sources/<slug>.md` | `/ingest` (skill) OR brigadier from book sweep (W-3) | brigadier write or skill write |
+| `wiki/foundations/<theme>/<slug>.md` | theme-matched expert (any mode), drafted in `drafts/` | brigadier write; foundations require `confidence_method: ruslan-attested` (D4 §4.10) |
+| `wiki/themes/<theme>/...` | theme-matched expert, drafted in `drafts/` | brigadier write (Phase A: brigadier seeds from books per W-3) |
+| `wiki/brigadier/...` | brigadier directly (own wiki) | brigadier write |
+| `wiki/agents/<expert>/scratchwork/...` | expert directly (per D2 §2.4 `is_scratchwork: true` exception) | n/a — scratchwork is expert's own |
+| `wiki/agents/<expert>/<canonical-slug>.md` | expert (any mode), drafted in `drafts/` | brigadier write |
+| `wiki/meta/agent-improvements/...` | meta-agent (writing-support mode) OR any expert in critic mode, drafted in `drafts/` | brigadier write |
+| `wiki/skills/candidates/<slug>/manifest.md` | brigadier directly (own observation) OR any agent in `drafts/` | brigadier write |
+| `wiki/skills/learning/<slug>/...` | brigadier directly | brigadier write |
+| `wiki/skills/active/<slug>.md` | brigadier directly (after D11 activation rubric) | brigadier write |
+| `agents/<expert>/strategies.md` (Level-1, T5/R6) | expert directly (this exact file only — exception to single-writer for personal memory layer) | n/a |
+
+**6.2.3 Pre-write checklist (brigadier).** Before `Write` to any
+canonical wiki path, the brigadier:
+
+1. Reads the cell-returned draft (or self-drafted artefact).
+2. Loads the relevant template from `swarm/wiki/_templates/<type>.md`
+   (D4) — verifies all required frontmatter fields present.
+3. Loads the edge enum from `swarm/wiki/_templates/edge-types.md`
+   (D3) — verifies every `[[wikilink]]` in body has a corresponding
+   `related[]` entry AND will produce a valid `edges.jsonl` record.
+4. Runs §6.3 §5.5.5 provenance gate.
+5. If gate passes: writes; appends edges to `graph/edges.jsonl`;
+   updates `index.md`; appends `log.md` line.
+6. If gate fails: returns the draft to the cell with rejection note
+   in `swarm/wiki/tasks/<task-id>/decisions/<ts>-rejection.md`;
+   draft remains in `drafts/`.
+
+**6.2.4 Commit message format for wiki writes.** Per master synthesis
+§5.9 step 4 + Sub-agent E §1:
+```
+[<agent>] <cycle>: <description>
+```
+where `<agent>` = `brigadier` for canonical wiki writes, `<cycle>` =
+`cyc-<26-char-ULID>`, `<description>` ≤80 chars. Plus the `co-authored-by`
+trailer if a cell drafted (per Sub-agent E §6 routing pattern).
+
+### 6.3 Section 2 — §5.5.5 provenance gate (v3 enforcement)
+
+**6.3.1 Verbatim baseline (master synthesis §5.5.5):**
+
+> "On Compound write to `agents/<expert>/strategies.md`, the entry
+> must cite at least one source artefact (incident file + commit hash,
+> or verbatim source with line range). Entries without provenance are
+> rejected. AP-18 prevention."
+
+**6.3.2 v3 generalisation.** The gate extends from `strategies.md`
+writes to **every brigadier `Write` to `swarm/wiki/`** (i.e. every
+α-2 transition to `accepted`). The gate accepts a write iff ALL
+conditions hold:
+
+1. **Provenance present.** Frontmatter `sources[]` is non-empty AND
+   each entry has `path` resolving to either:
+   - A file under `swarm/wiki/sources/...` with `state ∈ {accepted,
+     referenced}`, OR
+   - A Tier-1 file under `decisions/`, `design/`, `raw/research/`,
+     `raw/articles/`, `prompts/`, `CLAUDE.md`, `.claude/rules/`, OR
+   - An `(incident_file, commit_hash)` tuple format
+     `<path>@<40-hex>` (verbatim from §5.5.5), OR
+   - A `(verbatim source, line range)` tuple format
+     `<path>:<start>-<end>` (verbatim from §5.5.5).
+2. **Inline citations consistent.** If frontmatter `provenance_inline:
+   true`, body MUST contain at least one `[src:<path>#<section>]`
+   inline citation per non-trivial paragraph (per master synthesis
+   §5.5.3).
+3. **Edge consistency.** Every `[[wikilink]]` in body has a
+   corresponding `related[]` entry AND a record in `graph/edges.jsonl`
+   per D3 enum (Sub-agent C §8 anti-pattern 11).
+4. **Tier coherence.** Outgoing artefact `tier` is no stricter than
+   any input source `tier` (Lock 13 enforcement, master synthesis
+   §5.5.4).
+5. **Foundation conditions.** When `type = foundation`,
+   `confidence_method ∈ {ruslan-attested, brigadier-attested-with-3-supports}`
+   (D4 §4.10 + D2 §2.3). Brigadier-attested foundations require ≥3
+   `supports` edges from `state: accepted` claims.
+6. **Non-contradicting.** When `state` advances to `accepted`,
+   brigadier verifies no existing `state: accepted` page contradicts
+   without an explicit `contradicts` edge (`/lint` pre-pass per
+   §5.6.2 PostToolUse, Sub-agent E §2).
+
+**6.3.3 What the gate REJECTS.**
+
+- `sources[]` empty when `pipeline ∈ {compiled, linted, ready}` AND
+  `state ∉ {drafted}`.
+- `sources[]` entry whose `path` is `raw/` and `pipeline: raw` (raw
+  source can't ground a `compiled+` artefact unless distilled into a
+  `swarm/wiki/sources/<slug>.md` first).
+- A claim contradicting an `accepted` foundation without a
+  `contradicts` edge (per Sub-agent A §1 Q5 bidirectional contradicts +
+  D3 §3.2.2).
+- An `accepted` artefact whose `confidence_method` is unspecified
+  when `confidence: high` is asserted.
+- A foundation lacking the specific `confidence_method` clause from
+  6.3.2.5.
+- An edge in `graph/edges.jsonl` that violates the D3 §3.3 from-layer
+  × to-layer matrix.
+
+**6.3.4 Brigadier verification ritual** (executed before `Write`):
+
+```
+# pseudo-code (run by brigadier mentally / via /lint dry-run)
+1. read draft (or self-authored artefact) frontmatter
+2. assert sources[] non-empty (unless drafted/raw)
+3. for each source:
+     resolve path; assert state ∈ {accepted, referenced} OR is Tier-1
+4. assert provenance_inline rule satisfied (grep [src: in body)
+5. for each [[wikilink]] in body:
+     assert ∃ related[] entry; assert ∃ edges.jsonl record (or queued for write)
+6. assert tier ≤ all input tiers
+7. if type = foundation: assert confidence_method clause
+8. /lint dry-run on the draft file → must return zero errors
+9. if all pass: Write; commit with §6.2.4 format; log.md append
+   else: write rejection in tasks/<task-id>/decisions/<ts>-rejection.md
+```
+
+**6.3.5 Rejection-handling behaviour (closes Sub-agent E §1.5.5
+ambiguity #1).** When the gate rejects:
+
+- The brigadier writes a rejection record at
+  `swarm/wiki/tasks/<task-id>/decisions/<YYYY-MM-DD-HHMM>-rejection.md`
+  with `gate_rejected: true`, `rejected_reason: <one of the 6.3.3
+  cases>`, `draft_path: <drafts/...>`, `next_action: <return-to-cell|escalate-to-HITL>`.
+- The draft remains in `swarm/wiki/drafts/...` (not promoted, not
+  deleted).
+- A line is appended to `swarm/wiki/log.md`:
+  `## [<date>] gate-reject | <task-id> | <slug> | <reason>`.
+- Brigadier may retry up to 2 times by re-invoking the cell with
+  `Task(..., context: {previous_rejection: <path>})`. After 2 retries,
+  brigadier ESCALATES per §6.5 (HITL).
+
+### 6.4 Section 3 — Structured output schema (Task return contract)
+
+**6.4.1 Every Task() return MUST be a structured packet** with the
+following fields (Sub-agent B §8 + Sub-agent A §1 Q4 + master
+synthesis §5.5.3):
+
+```yaml
+# return value of Task(<expert>-<mode>, ...) — YAML / JSON
+summary: <one-paragraph string, ≤500 chars>
+proposed_writes:                                # zero or more drafts
+  - path: swarm/wiki/drafts/<task-id>-<expert>-<artefact>.md
+    frontmatter:                                # full frontmatter for the proposed write
+      <key>: <value>
+    body: |
+      <full markdown body>
+    edges_to_add:                               # records to append to graph/edges.jsonl
+      - {from: <path>, to: <path>, type: <edge-type>, ts: <YYYY-MM-DD>, confidence: <enum>}
+provenance:                                     # what the cell consulted
+  - {path: <Tier-1-path>, range?: <line-range>, quote?: <verbatim quote>}
+confidence: <low|medium|high>                  # cell's own confidence in the return
+confidence_method: <expert-judgment|cited-source|peer-reviewed|...>
+escalations:                                    # zero or more
+  - {trigger: <one of: foundation-revision|layer-9-activation|contradiction|budget-overrun|retry-limit>, packet_path?: swarm/gates/AWAITING-APPROVAL-...}
+dissents:                                       # for integrator mode: dissenting positions preserved
+  - {position: <one-line>, evidence: [<wikilinks>]}
+```
+
+**6.4.2 JSON-schema-style summary** (Стадия D may translate to a
+JSON Schema validator, or rely on /lint on the resulting artefact):
+
+| Field | Type | Required | Notes |
+|---|---|---|---|
+| `summary` | string | yes | concise return summary |
+| `proposed_writes[]` | list | yes (may be empty) | zero writes is valid (e.g. critic returning empty-issue review) |
+| `provenance[]` | list | yes (≥1 entry unless `summary` is purely procedural) | grounds the cell's reasoning |
+| `confidence` | enum | yes | `low|medium|high` |
+| `confidence_method` | enum | yes | per D2 §2.2 |
+| `escalations[]` | list | yes (may be empty) | bounces routed by brigadier |
+| `dissents[]` | list | required for integrator-mode returns; optional otherwise | preserves minority positions per FPF |
+
+**6.4.3 Validation.** Brigadier rejects malformed Task returns by
+not promoting the draft to canonical (the cell's draft remains in
+`drafts/`); brigadier may re-invoke the cell with `Task(..., context:
+{schema_error: <message>})`.
+
+### 6.5 Section 4 — HITL escalation rules + AWAITING-APPROVAL packet
+
+**6.5.1 When to escalate to Ruslan (HITL).** Per FPF Part 4 §4.5.4 +
+Part 5 §5.2 (Sub-agent B §9):
+
+1. **Foundation revision.** Any change to a `state: accepted`
+   `foundations/` page (creation of a new foundation OR `supersedes`
+   an existing one).
+2. **Layer-9 activation.** Q8 3-AND trigger satisfied per D10; Ruslan
+   ack required (per W-10 + R5).
+3. **Contradiction without resolution.** A new `accepted` artefact
+   contradicts an existing `accepted` foundation AND no resolution
+   (drop, supersede, scope-narrow) is obvious.
+4. **Budget overrun.** Per master synthesis §5.4 termination stack —
+   brigadier hit `maxTurns` or token budget without completing.
+5. **Retry limit.** Brigadier rejected the same draft 2 consecutive
+   times (per §6.3.5).
+6. **α-5 Direction state change.** Any α-5 transition (D5 §5.6) —
+   AI agents do NOT move α-5 (FPF Part 4 §4.5).
+7. **Method exhaustion.** Same AP triggered >5 times across cycles
+   (FPF Part 5 §5.2).
+8. **Irreversible decision.** Architecture commit, dependency change,
+   protocol modification.
+9. **`split_trigger` fires** in Block 5 of an expert manifest (FPF).
+
+**6.5.2 AWAITING-APPROVAL packet contents** (file at
+`swarm/gates/AWAITING-APPROVAL-<task-id-or-slug>-<YYYY-MM-DD>.md`):
+
+```yaml
+---
+title: <one-line summary of the ask>
+type: gate
+gate_type: <foundation-revision|layer-9-activation|contradiction|budget-overrun|retry-limit|alpha-5|method-exhaustion|irreversible|split-trigger>
+escalator: brigadier
+escalated_at: <YYYY-MM-DD-HHMM>
+task_id?: <task-id>
+cycle_id?: <cycle-id>
+deadline?: <YYYY-MM-DD>
+state: open
+---
+
+## Context
+<one-paragraph: what's happening, why it's escalating now>
+
+## Options
+1. **<Option A>** — <description; consequences; tier impact>
+2. **<Option B>** — <description; consequences>
+3. **<Option C>** — <description; consequences>
+(Up to 4 options. The 4-response template per Sub-agent B §9.)
+
+## Recommendation
+<brigadier's preferred option + 2-3 line rationale>
+
+## Risk
+<what could go wrong; how reversible>
+
+## Proposed file path(s) (if any change applied)
+- <path>
+- <path>
+
+## How Ruslan acks
+Append a line to `swarm/gates/<task-id>-ack.md` with:
+  acked: true
+  chosen: <option-letter>
+  notes: <optional comment>
+Or: edit this file's frontmatter `state: acked` and add `chosen: <letter>`.
+```
+
+**6.5.3 Escalation file path convention.** All gate files land in
+`swarm/gates/`. Naming: `AWAITING-APPROVAL-<task-id-or-slug>-<YYYY-MM-DD>.md`
+for the request; `<task-id-or-slug>-ack.md` for the ack; `<task-id-or-slug>-rejection.md` for HITL reject.
+
+**6.5.4 Brigadier post-ack behaviour.** Brigadier polls
+`swarm/gates/` per cycle close. On detecting an ack:
+- α-1 transition: `gated → approved` (and α-4 `gated → compounded`).
+- Apply the chosen option: write the canonical artefact, update edges,
+  log.md, commit.
+- Move the gate file's frontmatter to `state: closed`.
+
+### 6.6 Section 5 — Tool permission self-check
+
+**6.6.1 Verbatim master synthesis §5.7.1 mandate** (Sub-agent E §3):
+
+- **Brigadier** has: `Task` (spawn subagent), unrestricted `Write`,
+  scoped `Bash (write)`, external MCP.
+- **Experts** have: `Read` (any path under `swarm/wiki/` and `wiki/`),
+  `Write` SCOPED to `swarm/wiki/drafts/<task-id>-<expert>-*` AND
+  `swarm/wiki/foundations/<domain>/*`. Experts have **no Bash-write**;
+  no canonical wiki write rights.
+
+**6.6.2 Self-check ritual** (every agent, at function entry).
+Closes Sub-agent B §10 gap (FPF Part 10 silent on ritual body):
+
+```
+# pseudo-code (executed by every cell at function entry)
+my_role := get_my_role()                    # brigadier | <expert>-<mode> | meta-agent
+intended_tool := <Tool name about to invoke>
+intended_target := <path or arg about to operate on>
+allowed := lookup(role_tool_matrix, my_role, intended_tool, intended_target)
+if not allowed:
+  log "permission_denied: role=<...>, tool=<...>, target=<...>"
+  return Task() with escalation: {trigger: permission-denied, requested: <intended>, reason: <rule>}
+else:
+  proceed with tool invocation
+```
+
+**6.6.3 role_tool_matrix** (the table the self-check consults):
+
+| Role | Read | Write (path glob) | Bash (write) | Task | MCP |
+|---|---|---|---|---|---|
+| brigadier | * | * (all of `swarm/`, `agents/`, `.claude/`) | yes | yes | yes |
+| `<expert>-<mode>` (any of 5×4) | * | `swarm/wiki/drafts/<task-id>-<expert>-*`, `swarm/wiki/foundations/<expert-domain>/*`, `agents/<expert>/strategies.md` | no | no | no |
+| meta-agent | * | (drafts only via `mode: writing-support`; no canonical) — same as expert | no | no | no |
+| `/ingest`, `/build-graph`, `/lint`, `/consolidate`, `/ask` (skills) | * | scoped per skill manifest (D8 — Gate 2) | yes (skill scope only) | no | no |
+
+**6.6.4 Behaviour on permission deny.** The self-check MUST NOT
+silently retry. The agent returns a structured `escalations[]` entry
+in its Task return packet (per §6.4.1) with `trigger: permission-denied`.
+Brigadier handles the escalation: either re-routes the work to a
+properly-permissioned agent OR escalates to HITL per §6.5 if the
+permission denial is unexpected.
+
+### 6.7 Section 6 — `mode: writing-support` clause
+
+**6.7.1 Verbatim FPF Part 10.5 + Part 5 §5.3 enhancement E-10
+(Sub-agent B §11):**
+
+> "Add a `mode: writing-support` sub-clause inside §7 (shared
+> protocols) for all 5 experts: 'If invoked to contribute to a weekly
+> review, quarterly letter, or strategizing document, DO NOT generate
+> primary prose. Return: (a) structured extractions from cited
+> artefacts, (b) proposed alternatives enumerated, (c) explicit
+> anti-scope list. Human owns composition.'"
+
+**6.7.2 Operational contract.** When invoked with
+`Task(<expert>-<mode>, mode: writing-support, ...)`:
+
+- The cell produces NO primary prose (no body content for the
+  destination doc).
+- The cell's return packet contains:
+  - `extractions[]`: structured facts pulled from cited artefacts;
+    each item with `quote`, `source_path`, `range`.
+  - `alternatives[]`: enumerated options (per the structured-output
+    schema §6.4); brigadier or HITL choose.
+  - `anti_scope[]`: explicit list of items NOT to include in the
+    final composition.
+- Brigadier or HITL composes the final prose; cells never edit the
+  final.
+- This mode is a **brigadier-only auxiliary capability**, not a 5th
+  matrix mode (resolves Sub-agent E §6 ambiguity #4 — preserves the
+  5×4=20 invariant per master synthesis §5.10.3).
+- Use cases: weekly review composition; quarterly Ruslan letter;
+  strategizing-ritual artefacts (per FPF Part 5 §5.2); meta-agent
+  proposed improvements written to `meta/agent-improvements/`.
+
+**6.7.3 Anti-pattern lock (Sub-agent B §11 verbatim FPF
+[B §E.3]):** "полная автоматизация writing... «без внешнего по
+отношению к LLM контуру обработки текста — никак, LLM всегда
+обманет»." `/lint` MAY (Phase B) enforce that any wiki page authored
+in `mode: writing-support` carries `produced_by: <expert>-writing-support`
+and a `human_composed_at:` timestamp marking when the human wove the
+extractions into prose.
+
+### 6.8 Section 7 — Tool-language abstractions (verb dictionary)
+
+**6.8.1 Verbatim FPF Part 10.5 + Part 2 §2.7 E-7 move 2 (Sub-agent
+B §12):**
+
+> "Rename tooling tokens to pattern-layer abstractions in the shared
+> protocols file: 'YAML frontmatter' → 'Frontmatter'; 'git commit' →
+> 'snapshot'; 'pre-commit hook' → 'local gate'."
+
+**6.8.2 Verb dictionary used in `shared-protocols.md`** (closes
+Sub-agent B §12 gap by extending FPF's 3 pairs):
+
+| Tooling token | Pattern-layer abstraction |
+|---|---|
+| YAML frontmatter | Frontmatter |
+| git commit | snapshot |
+| git push | publish |
+| pre-commit hook | local gate |
+| PostToolUse hook | post-action gate |
+| /lint | local check |
+| /ingest | ingest |
+| /ask | retrieve-and-synthesize |
+| /build-graph | rebuild edges |
+| /consolidate | merge-duplicates |
+| Task() | dispatch |
+| `swarm/wiki/drafts/` | draft area |
+| `swarm/wiki/<canonical>/` | canonical area |
+| `swarm/gates/` | gate dock |
+| `swarm/lib/shared-protocols.md` | shared protocols |
+| `agents/<expert>/strategies.md` | personal memory |
+| `swarm/wiki/meta/agent-improvements/` | swarm memory |
+
+**6.8.3 Lock note (verbatim).** "Lock 17 (Filesystem = SoT) preserved;
+this is purely naming-layer discipline."
+
+### 6.9 Section 8 — Max-subscription discipline
+
+**6.9.1 Verbatim master synthesis §5.7.3 + §5.6.3 + §5.9 (Sub-agent
+E §3):**
+
+```bash
+# SessionStart hook (assert no API key set)
+if [ -n "$ANTHROPIC_API_KEY" ]; then
+  echo "WARNING: ANTHROPIC_API_KEY is set; Jetix uses Max subscription"
+  echo "Run: unset ANTHROPIC_API_KEY"
+  exit 1
+fi
+```
+
+`unset ANTHROPIC_API_KEY` enforced at every session start. Optionally
+`unset GROQ_API_KEY` if Whisper pipeline is not in use.
+
+**6.9.2 No paid embeddings, no third-party APIs** (closes Sub-agent
+E §3 ambiguity #1 — master synthesis silent on vector-DB prohibition
+explicitly):
+
+- No vector DB calls (Pinecone, Weaviate, etc.).
+- No paid embedding services (OpenAI embeddings, Cohere, etc.).
+- No third-party LLM APIs (only Claude Code Max plan).
+- No paid transcription (Groq Whisper / OpenAI Whisper) outside
+  voice-memo pipeline windows when `GROQ_API_KEY` is explicitly
+  re-set.
+- All retrieval Phase A is filesystem + ripgrep + typed-BFS over
+  `graph/edges.jsonl` per Q1 + Sub-agent C §1.
+
+**6.9.3 Tool matrix (Sub-agent E §3 §5.7.1).** Skills run their own
+logic via Claude Code's built-in tools (Read/Write/Grep/Glob/Bash).
+No `anthropic` SDK invocations. No `openai`/`cohere`/etc. SDK
+invocations.
+
+**6.9.4 Cost = turn-counting, not billing.** §5.4 termination stack +
+maxTurns enforce the budget. With `ANTHROPIC_API_KEY` unset, the
+attack surface shifts from "unlimited API spend" to "Max plan
+rate-limit hit." Recovery cost = downtime, not money.
+
+**6.9.5 Per-cycle commit + push** is the persistence ritual:
+`swarm/wiki/log.md` updates live in the same commit as the wiki page
+write (atomic). Branch: `claude/jolly-margulis-915d34` (current Phase A);
+no force-push, no rebase.
+
+### 6.10 `swarm/lib/shared-protocols.md` skeleton frontmatter
+
+The Стадия D bootstrap content is the literal text of D6 §6.2–§6.9
+above, wrapped in:
+
+```yaml
+---
+id: shared-protocols-01HF2K3M5N7P9Q12345678PROT
+title: Swarm Shared Protocols
+type: protocols
+layer: spine
+niche: meta
+created: 2026-04-23
+last_modified: 2026-04-23
+last_reviewed: 2026-04-23
+pipeline: linted
+state: accepted
+confidence: high
+confidence_method: ruslan-attested
+tier: core
+produced_by: brigadier
+sources:
+  - {path: "decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md", range: "§5.5–§5.10"}
+  - {path: "decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md", range: "Part 10"}
+  - {path: "design/AWAITING-APPROVAL-wiki-v3-architecture-2026-04-23.md", range: "D6"}
+related: [[foundations/swarm-alphas]]
+binding_scope: swarm-wide
+---
+```
+
+### 6.11 Compatibility matrix
+
+| Locked item | D6 honours by … |
+|---|---|
+| Master synthesis §5.5.5 (provenance gate baseline) | §6.3 quotes verbatim, generalises to all wiki writes (v3 enforcement). |
+| Master synthesis §5.5.2 (single-writer brigadier) | §6.2 enumerates all write paths; experts return drafts via Task. |
+| Master synthesis §5.5.3 (provenance frontmatter) | §6.4 structured-output schema includes the `provenance[]` field; D2 §2.2 frontmatter spec satisfied. |
+| Master synthesis §5.5.4 (tier enforcement) | §6.3.2.4 tier coherence rule; §6.6.3 role_tool_matrix scopes Write per tier-aware path globs. |
+| Master synthesis §5.6.2 (PostToolUse) | §6.3.4 pre-write checklist runs `/lint` dry-run; §6.3.5 records gate rejections inline. |
+| Master synthesis §5.7 + §5.9 (Max-subscription) | §6.9 verbatim quote + extension to vector-DB prohibition (closes Sub-agent E §3 ambiguity). |
+| FPF Part 10.5 (8 sections of shared-protocols.md) | §6.2 wiki-write + §6.3 §5.5.5 + §6.4 schema + §6.5 HITL + §6.6 self-check + §6.7 writing-support + §6.8 verb dictionary + §6.9 Max-subscription. |
+| FPF Part 10.6 (preparatory work) | shared-protocols.md is fully specified; Ruslan ack at gate 1 satisfies the "Clarify with Ruslan" mandate. |
+| Q2 single-writer | §6.2 enforces; §6.6 role matrix denies expert direct canonical writes. |
+| Q6 owners (R4) | §6.2.2 per-layer table + D11 (Gate 2) rubric. |
+| W-12 1000% depth | Every section has concrete predicates, ritual pseudo-code, role tables, and example file shapes. |
+| Sub-agent A §6 #10 (Q2-vs-Q6 conflict) | §6.6 + §6.5 ensure meta-agent emits drafts via Task `mode: writing-support`; brigadier writes. |
+| Sub-agent B §1/§7/§8/§9/§10/§11/§12 gap-flags | §6.3.5 rejection-handling, §6.4 full schema, §6.5.2 4-response template, §6.6 self-check ritual, §6.7 writing-support contract, §6.8 verb dictionary extension. |
+| Sub-agent E §1/§3/§6 ambiguities | §6.3.5 rejection (E §1.5.5 #1); §6.9 vector-DB ban (E §3 #1); §6.7 writing-support as auxiliary not 5th mode (E §6 #4); §6.4 derived_from chained provenance (E §8 #5). |
+| Lock 13 tier enforcement | §6.3.2.4 + §6.6.3. |
+| Lock 17 Filesystem = SoT | §6.8.3 verbatim; entire protocol is filesystem-resident. |
+
+---
+
+## GATE 1 SUMMARY (D1–D6)
+
+This gate covers the **structural core**: directory layout (D1), per-
+layer frontmatter (D2), 12-edge enum [enumerated as 13 with arithmetic
+note] (D3), per-entity-type templates (D4), 5 swarm-alpha state
+machines (D5), shared-protocols.md (D6).
+
+Stage-Gated process: this file is committed and pushed as
+`design/AWAITING-APPROVAL-wiki-v3-architecture-gate1-2026-04-23.md`.
+**Pause for Ruslan approval.** Gate 2 (D7–D12: parameterization
+config, skill diffs, symlink convention, health.md skeleton, Q6
+rubric, T5 strategies trio collapse) follows in a separate
+AWAITING-APPROVAL file.
+
+Adversarial-critic report at
+`raw/research/step-2-2-3c-extractions/critic-gate1.md` (run before
+this commit; high/showstopper findings fixed pre-gate).
+
+---
+
+
 
 
 
