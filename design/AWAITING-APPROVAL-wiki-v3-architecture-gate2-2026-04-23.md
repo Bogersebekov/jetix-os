@@ -139,9 +139,16 @@ fn resolve_wiki_root(skill_invocation):
         return env("WIKI_ROOT")
     if cli_flag("--wiki-root") in {"v2", "v3"}:
         return config["wiki_root_" + cli_flag_value]
-    if config["default_root"] in config:
-        return config[config["default_root"]]
-    return "swarm/wiki"   # hard-coded last-resort fallback
+    # Closes critic-gate2 H4 dead-code check: previous version tested
+    # `config["default_root"] in config` which is always true (the
+    # value of default_root is a key by schema). Correct check is:
+    # does the *value pointed to by* default_root resolve to a configured root?
+    if config["default_root"] not in {"wiki_root_v2", "wiki_root_v3"}:
+        log "ERROR: default_root must be wiki_root_v2 or wiki_root_v3, got {config[default_root]}"
+        exit 3
+    return config[config["default_root"]]   # config["wiki_root_v2"] or config["wiki_root_v3"]
+    # No hard-coded fallback — schema guarantees default_root resolves;
+    # if config file is missing/malformed, the YAML parser exits earlier.
 
 fn assert_root_writable(root, skill_name):
     # Honour v2_status / v3_status read-only flags
@@ -340,7 +347,7 @@ reads `swarm/wiki/index.md` first; comparisons land in
 | 8 | L60 | `\`wiki/_lint-report-YYYY-MM-DD.md\`:` | `\`${WIKI_ROOT}/_lint-report-YYYY-MM-DD.md\`:` | path |
 | 9 | L92 | `- wiki/concepts/foo.md → [[bar]] (нет такого файла)` | `- ${WIKI_ROOT}/concepts/foo.md → [[bar]] (нет такого файла)` | path (in example) |
 | 10 | L102 | `- Добавить запись в \`wiki/log.md\`:` | `- Добавить запись в \`${WIKI_ROOT}/log.md\`:` | path |
-| 11 | (after L17 "Проверки") | (existing 7 checks) | **NEW SECTION:** "### 8. α-2/α-3 lifecycle state validity (per Q5 signal #2)" — flag pages with `state ∉ {drafted, reviewed, revised, accepted, referenced, superseded, retired, tombstoned}` (D5 α-2 8-state set). "### 9. Triple-channel cross-ref consistency (per D2 §2.2 lint #5)" — every inline `[[type/slug]]` MUST appear in `related[]` AND produce one record in `${WIKI_ROOT}/graph/edges.jsonl`. "### 10. Q8 Layer-9 lock (per D1 §1.6)" — flag any non-README write under `${WIKI_ROOT}/insights/` when `phase_a_lock: true`. | extends /lint to cover Q5 5-signal + Q3 triple-channel reconciliation + Q8 lock per D2 + D3 |
+| 11 | (after L17 "Проверки") | (existing 7 checks) | **NEW SECTION:** "### 8. α-2/α-3 lifecycle state validity (per Q5 signal #2)" — for skill pages (path under `${WIKI_ROOT}/skills/` OR `type: skill`): flag pages with `state ∉ {candidate, learning, active, tombstoned}` (α-3 4-state lock per critic-gate1 S2 + D2 §2.4). For all other pages: flag pages with `state ∉ {drafted, reviewed, revised, accepted, referenced, superseded, retired, tombstoned}` (α-2 8-state set). Branching closes critic-gate2 M3. "### 9. Triple-channel cross-ref consistency (per D2 §2.2 lint #5)" — every inline wikilink matching the regex `\[\[(?P<type>[a-z]+)/(?P<slug>[a-z0-9-]+)\]\]` (closes critic-gate2 H5; non-matching forms like `[[A]]` or `[[file.md]]` are **warned** as legacy/unparseable, not errored) MUST appear in `related[]` AND produce one record in `${WIKI_ROOT}/graph/edges.jsonl`. "### 10. Q8 Layer-9 lock (per D1 §1.6)" — flag the existence of any file under `${WIKI_ROOT}/insights/{candidates,promoted}/*.md` (i.e. any leaf `.md` write outside `README.md`) when D1 §1.6 boilerplate is in effect (closes critic-gate2 H6 by testing file-presence rather than a frontmatter field that D1 §1.6 didn't define). | extends /lint to cover Q5 5-signal + Q3 triple-channel reconciliation + Q8 lock per D2 + D3 |
 
 **Net edits:** 10 line edits + new sections (~15 lines) + 9-line
 preamble = ~34 lines added/changed. Slightly above the audit's
@@ -375,7 +382,7 @@ Try writing `swarm/wiki/insights/candidates/test.md` with
 | 5 | L37 | `  B: wiki/concepts/value-pricing.md (2 sources, 80 lines)` | `  B: ${WIKI_ROOT}/concepts/value-pricing.md (2 sources, 80 lines)` | path (in example) |
 | 6 | L68 | `   - Обновить \`wiki/graph/edges.jsonl\`: где \`from: B\` → \`from: A\`, где \`to: B\` → \`to: A\`` | `   - Обновить \`${WIKI_ROOT}/graph/edges.jsonl\`: где \`from: B\` → \`from: A\`, где \`to: B\` → \`to: A\`. **Также пройти по \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\` для v3-сторонних ссылок на B.**` | path + cross-tree handling per T1 |
 | 7 | L70 | `   - Обновить \`wiki/index.md\`: убрать строку B, обновить A.` | `   - Обновить \`${WIKI_ROOT}/index.md\`: убрать строку B, обновить A.` | path |
-| 8 | L73 | `   - Перед удалением — создать копию в \`wiki/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A").` | `   - Перед удалением — создать копию в \`${WIKI_ROOT}/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A"). **Установить B's frontmatter \`state: superseded\`, \`superseded_by: [[<A-path>]]\` per α-2 (D5 §5.3).**` | path + α-2 lifecycle integration |
+| 8 | L73 | `   - Перед удалением — создать копию в \`wiki/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A").` | `   - Перед удалением — создать копию в \`${WIKI_ROOT}/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A"). **Per critic-gate2 SS3: this skill runs as expert (D6 §6.6.3 role_tool_matrix) and CANNOT mutate canonical α-2 `state` field — that requires brigadier per Q2/D6 §6.2. /consolidate writes the `_archive/` copy with the original frontmatter unchanged + appends an HTML comment `<!-- merged into A on YYYY-MM-DD per /consolidate; α-2 state transition pending brigadier review -->`. The brigadier subsequently transitions α-2 `state: superseded` + `superseded_by: [[<A-path>]]` per D5 §5.3 movers (separate commit).**` | path + α-2 ownership clarification (closes critic-gate2 SS3) |
 | 9 | L76 | `5. Залогировать в \`wiki/log.md\` (сверху):` | `5. Залогировать в \`${WIKI_ROOT}/log.md\` (сверху):` | path |
 | 10 | L80 | `   A: wiki/concepts/value-based-pricing.md` | `   A: ${WIKI_ROOT}/concepts/value-based-pricing.md` | path (in example) |
 | 11 | L81 | `   B (archived): wiki/_archive/YYYY-MM-DD-value-pricing.md` | `   B (archived): ${WIKI_ROOT}/_archive/YYYY-MM-DD-value-pricing.md` | path (in example) |
@@ -409,8 +416,8 @@ point at the survivor.
 | 4 | L22 | `Glob \`wiki/**/*.md\`, исключить \`index.md\`, \`log.md\`, \`overview.md\`, \`_templates/*\`, \`niches/*/README.md\`, \`graph/*\`, \`_archive/*\`, \`_lint-report-*\`.` | `Glob \`${WIKI_ROOT}/**/*.md\`, исключить \`index.md\`, \`log.md\`, \`overview.md\`, \`_templates/*\`, \`niches/*/README.md\`, \`graph/*\`, \`_archive/*\`, \`_lint-report-*\`. **При \`--tree=both\`: повторить glob для v2 \`wiki/**/*.md\` и v3 \`swarm/wiki/**/*.md\`; cross-tree-ref edges (D3 §3.2.12) пишутся в \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\`.**` | path + tree-flag impl |
 | 5 | L33 | `Прочитать \`wiki/graph/edges.jsonl\` в память (set по \`(from, to, type)\`).` | `Прочитать \`${WIKI_ROOT}/graph/edges.jsonl\` в память (set по \`(from, to, type)\`). При \`--tree=both\` — также \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\`.` | path + tree-flag |
 | 6 | L37–L46 (edge type detection) | (current section-header → 9 v2 types) | **Update to D3 12-enum:** "Расширяет/Extends → \`extends\`. Противоречит/Contradicts → \`contradicts\` (запись BIDIRECTIONAL — обе стороны записать). Поддерживает/Supports → \`supports\`. Вдохновлён/Inspired by → \`inspired_by\`. Тестируется/Tested by → \`tested_by\`. Опровергает/Invalidates → \`invalidates\`. Заменяет/Supersedes → \`supersedes\`. Часть/Part of → \`part_of\` (FORMALIZED per Q3). Иначе (упоминание сущности) → \`derived_from\`. Cross-layer (5×4 matrix→alpha tracker) → \`alpha-ref\`. Cross-layer (theme → global pattern) → \`layer-ref\`. v3→v2 link → \`cross-tree-ref\` (запись в cross-tree.jsonl, не edges.jsonl). **Снят: \`addresses_gap\` per critic-gate1 H4.**" | edge enum alignment with D3; bidirectional contradicts; cross-tree separation |
-| 7 | L62 | `Перезаписать секцию \`## Кластеры\`:` | (no change to this line; nearby line 60: `Обновить \`${WIKI_ROOT}/graph/communities.md\`` replaces `Обновить \`wiki/graph/communities.md\``) | path |
-| 8 | L73 | `Обновить \`wiki/graph/summaries.md\`` (or nearby) | `Обновить \`${WIKI_ROOT}/graph/summaries.md\`` | path |
+| 7 | L62 | `### 5. Обновить \`wiki/graph/communities.md\`` | `### 5. Обновить \`${WIKI_ROOT}/graph/communities.md\`` | path (corrected per critic-gate2 SS2 — L62 is the actual communities line, not L60) |
+| 8 | L73 | `### 6. Обновить \`wiki/graph/summaries.md\`` | `### 6. Обновить \`${WIKI_ROOT}/graph/summaries.md\`` | path |
 | 9 | L86 | `В \`wiki/log.md\` (сверху):` | `В \`${WIKI_ROOT}/log.md\` (сверху):` | path |
 
 **Net edits:** 5 path replacements + edge-type-detection rewrite (~10
@@ -547,8 +554,12 @@ that surfaces broken symlinks.
 
 The `skill_slug` MUST satisfy:
 
-- Regex `^[a-z0-9][a-z0-9-]{0,49}$` (kebab-case; ≤50 chars; starts
-  with letter or digit; per critic-gate1 H7 kebab-slug discipline).
+- Regex `^[a-z0-9-]{1,60}$` — the body half of D2 §2.2 `id` regex
+  (`^[a-z]+-[a-z0-9-]{1,60}$` where `[a-z]+-` is the type-prefix and
+  `[a-z0-9-]{1,60}$` is the slug body). For skills the type-prefix is
+  always `skill-`, so the `id` is `skill-<slug>` and the `<slug>`
+  portion conforms to the body regex (closes critic-gate2 H1
+  inconsistency with D2 §2.2 `id` format).
 - Unique across `.claude/skills/` (no collision with v2 file names).
 - Match the basename of `swarm/wiki/skills/active/<slug>.md` exactly.
 
@@ -635,17 +646,19 @@ only; not an error).
 
 **Step 3 — create v3 symlink.** Per §9.4.
 
-**Step 4 — append migration note** in the v3 canonical file
-(`swarm/wiki/skills/active/<slug>.md`):
+**Step 4 — record migration in frontmatter** of the v3 canonical file
+(`swarm/wiki/skills/active/<slug>.md`). Per critic-gate2 H7 (D4
+templates have no `## Migration note` body section schema), the
+migration record lives in frontmatter, not body:
 
-```markdown
-## Migration note
-
-This skill was migrated from a v2 implementation at
-`.claude/skills/<slug>_v2.md` (preserved for audit). Original was
-deprecated on `<YYYY-MM-DD>` per D9 §9.6. Differences from v2: <one
-or two lines>.
+```yaml
+migrated_from: .claude/skills/<slug>_v2.md      # path to preserved v2 file
+migration_date: <YYYY-MM-DD>
+migration_note: <one-line summary of v2→v3 differences>
 ```
+
+`/lint` (per D8 §8.5 #4 missing-frontmatter) accepts `migrated_from`,
+`migration_date`, `migration_note` as optional fields when present.
 
 The 5 in-scope D8 skills (`/ingest`, `/ask`, `/lint`, `/consolidate`,
 `/build-graph`) are NOT promoted via the v3 candidate→learning→active
@@ -736,6 +749,29 @@ threshold for alerting, and a structured-log scaffold for time-series
 records.
 
 ### 10.2 File content (Стадия D writes verbatim)
+
+**Singleton frontmatter exemption (closes critic-gate2 H2 + H3).** This
+file (`swarm/wiki/meta/health.md`) is a **singleton dashboard** with
+its own dedicated frontmatter schema, exempt from D2 §2.2 cross-layer
+table extras-rejection. The 5 live-counter fields below
+(`closed_cycles_count`, `active_skills_count`, `cross_theme_refs_count`,
+`tombstone_rate_weekly`, `fpar_swarm_wide`) are dashboard-specific and
+mutated by `/lint` + meta-agent per §10.8. Field types:
+
+| Field | Type | Default | Mutated by | Bootstrap value |
+|---|---|---|---|---|
+| `closed_cycles_count` | int ≥ 0 | `0` | brigadier on α-4 closed (D5 §5.5) | `0` |
+| `active_skills_count` | int ≥ 0 | `0` | brigadier on α-3 validated (D11 §11.4) | `0` |
+| `cross_theme_refs_count` | int ≥ 0 | `0` | /build-graph post-pass (§10.2.3) | `0` |
+| `tombstone_rate_weekly` | float ≥ 0 | `0` | weekly /lint (§10.2.4) | `0` |
+| `fpar_swarm_wide` | float ∈ [0,1] OR null | `null` | /lint PostToolUse (§10.2.1) | `null` |
+
+`binding_scope: swarm-wide` is also part of the singleton schema (the
+field is defined in D2 §2.3 for `foundations/<slug>.md`; for
+`meta/health.md` (type: dashboard) it's an opt-in extension declaring
+the dashboard's authoritative scope; `/lint` accepts it on this
+singleton).
+
 
 ````markdown
 ---
@@ -885,7 +921,7 @@ tombstone_rate_weekly[<layer>] = count(_archive files
 | spine entity-types | 5 | high contradiction noise; review /ask synthesis quality |
 | L1 themes | 2 | book-distillation churn; review brigadier sweep quality |
 | L4 meta/agent-improvements | 1 | cross-agent improvement instability |
-| L5 tasks (per-task content) | n/a (always 0; tasks archive in place, not tombstone) | |
+| L5 tasks (per-task content) | 2 (most tasks archive in place via α-1 `archived` rather than α-2 tombstone; high tombstone rate signals task-quality issues — closes critic-gate2 M6 — α-2 `tombstoned` is permitted on any layer per D5 §5.3) | |
 | L7 global | 1 | promoted-rule churn; review compound step |
 | L8 skills | 1 | pipeline leak; check D11 activation rubric |
 | L9 insights | 0 (Phase A: any tombstone is a violation) | per Q8 phase_a_lock; surface via /lint |
@@ -1114,15 +1150,26 @@ goldens come at `learning`.
    `candidate` to `active` (FPF) / `learning` (alias); `n_uses`
    field set to 1 or more.
 
-**Filesystem-resident predicate** (lint-checkable, per W-12):
+**Filesystem-resident predicate** (lint-checkable, per W-12). All
+predicate templates below use `${slug}` for explicit template
+substitution (per critic-gate2 SS4); Стадия D substitutes the actual
+skill slug. **Frontmatter values use D2 §2.4 spec-alias enum**
+(`{candidate|learning|active|tombstoned}`) per critic-gate2 SS1.
+The "FPF state" name is the canonical alpha state per D5 §5.4; the
+on-disk frontmatter value is the spec alias.
+
 ```
-state[<slug>] == "active" iff
-  exists(swarm/wiki/skills/learning/<slug>/manifest.md)
-  AND exists(swarm/wiki/skills/learning/<slug>/golden-set.jsonl)
-  AND wc -l < golden-set.jsonl > 3
-  AND grep '"outcome":"success"' usage/<slug>.jsonl | wc -l >= 1
-  AND frontmatter.skill_state == "active"
-  AND last_brigadier_commit_authored_by == "brigadier"
+fpf_state[${slug}] == "active" (alias "learning") iff
+  exists(swarm/wiki/skills/learning/${slug}/manifest.md)
+  AND exists(swarm/wiki/skills/learning/${slug}/golden-set.jsonl)
+  AND wc -l < swarm/wiki/skills/learning/${slug}/golden-set.jsonl > 3
+  AND grep '"outcome":"success"' swarm/wiki/skills/usage/${slug}.jsonl | wc -l >= 1
+  AND frontmatter.skill_state == "learning"     # D2 §2.4 spec-alias enum
+  AND exists(swarm/wiki/skills/learning/${slug}/.activation-attestation.md)
+                                                # marker file written by brigadier
+                                                # at α-3 transition (closes critic-gate2 H8;
+                                                # eliminates commit-message predicate)
+  AND grep 'attested_by: brigadier' swarm/wiki/skills/learning/${slug}/.activation-attestation.md
 ```
 
 **Owner per Q6 R4:** brigadier (writes the activation; meta-agent or
@@ -1150,16 +1197,20 @@ to the live registry.
    authored. The §5.5.5 gate verifies `sources[]` non-empty (the
    golden-set cases qualify as `sources[]` entries).
 
-**Filesystem-resident predicate** (lint-checkable):
+**Filesystem-resident predicate** (lint-checkable; `${slug}` is
+template-substituted per critic-gate2 SS4; frontmatter uses spec-alias
+enum per critic-gate2 SS1):
 ```
-state[<slug>] == "validated" iff
-  exists(swarm/wiki/skills/active/<slug>.md)
-  AND exists(.claude/skills/<slug>.md)            # D9 symlink
-  AND readlink(.claude/skills/<slug>.md) == "../../swarm/wiki/skills/active/<slug>.md"
+fpf_state[${slug}] == "validated" (alias "active" — live in registry) iff
+  exists(swarm/wiki/skills/active/${slug}.md)
+  AND exists(.claude/skills/${slug}.md)            # D9 symlink
+  AND readlink(.claude/skills/${slug}.md) == "../../swarm/wiki/skills/active/${slug}.md"
   AND golden_set_pass_count == golden_set_total
   AND success_count >= 3 * loss_count
   AND (success_count + loss_count) >= 10
-  AND frontmatter.skill_state == "validated"
+  AND frontmatter.skill_state == "active"          # D2 §2.4 spec-alias enum
+  AND exists(swarm/wiki/skills/active/.${slug}.activation-attestation.md)
+                                                   # marker file (closes critic-gate2 H8)
 ```
 
 **Owner per Q6 R4:** brigadier writes; meta-agent runs golden-set
@@ -1213,8 +1264,9 @@ State at ratio = 5:1, n=15, golden-set 5/5 pass.
 
 ```
 swarm/wiki/skills/learning/query-pricing-models/
-  ├── manifest.md         (skill_state: active, n_uses: 15)
-  └── golden-set.jsonl    (5 lines)
+  ├── manifest.md                       (skill_state: learning, n_uses: 15)
+  ├── golden-set.jsonl                  (5 lines)
+  └── .activation-attestation.md        (attested_by: brigadier, ts: 2026-05-30, criteria_passed: gate-I)
 swarm/wiki/skills/usage/query-pricing-models.jsonl  (15 lines, 12 success / 3 loss)
 ```
 
@@ -1226,15 +1278,21 @@ swarm/wiki/skills/usage/query-pricing-models.jsonl  (15 lines, 12 success / 3 lo
 
 **Brigadier action:**
 1. Run all 5 goldens; verify 5/5 pass.
-2. Move `learning/query-pricing-models/manifest.md` → `active/query-pricing-models.md`.
-3. Update frontmatter: `skill_state: validated`, `n_uses: 15`,
-   `success_count: 12`, `loss_count: 3`.
-4. Create D9 symlink: `ln -s ../../swarm/wiki/skills/active/query-pricing-models.md
+2. Write attestation file:
+   `swarm/wiki/skills/active/.query-pricing-models.activation-attestation.md`
+   with frontmatter `attested_by: brigadier, ts: 2026-05-30, criteria_passed: gate-II,
+   golden_pass: 5/5, ratio: 4.0` (closes critic-gate2 H8 — replaces
+   commit-message-predicate with marker file).
+3. Move `learning/query-pricing-models/manifest.md` → `active/query-pricing-models.md`.
+4. Update frontmatter: `skill_state: active` (D2 §2.4 spec-alias enum;
+   FPF α-3 state is `validated`), `n_uses: 15`, `success_count: 12`,
+   `loss_count: 3`.
+5. Create D9 symlink: `ln -s ../../swarm/wiki/skills/active/query-pricing-models.md
    .claude/skills/query-pricing-models.md`.
-5. Append to `swarm/wiki/log.md`:
+6. Append to `swarm/wiki/log.md`:
    `## [2026-05-30] activate-skill | query-pricing-models | golden-set: 5/5; ratio: 4.0`.
-6. Increment `swarm/wiki/meta/health.md`'s `active_skills_count`.
-7. Commit: `[brigadier] cyc-2026-05-30-am: activate skill query-pricing-models per D11 §11.4`.
+7. Increment `swarm/wiki/meta/health.md`'s `active_skills_count`.
+8. Commit: `[brigadier] cyc-2026-05-30-am: activate skill query-pricing-models per D11 §11.4`.
 
 #### 11.6.2 Demotion — `summarise-meeting-notes` (drift detected)
 
@@ -1246,10 +1304,13 @@ If instead 5 success / 5 loss (ratio = 1.0; in the demotion band 1.0
 
 **Brigadier action (per §11.5(a)):**
 1. Move `active/summarise-meeting-notes.md` → `learning/summarise-meeting-notes/manifest.md`.
-2. Update frontmatter: `skill_state: active`, set `success_count: 5`, `loss_count: 5`.
+2. Update frontmatter: `skill_state: learning` (D2 §2.4 spec-alias enum;
+   FPF α-3 state is the demoted `active`), set `success_count: 5`,
+   `loss_count: 5`.
 3. Remove D9 symlink: `rm .claude/skills/summarise-meeting-notes.md`.
-4. Append to log: `## [<date>] demote-skill | summarise-meeting-notes | rolling-10 ratio 1.0; back to learning`.
-5. Decrement `active_skills_count`.
+4. Remove activation-attestation marker: `rm swarm/wiki/skills/active/.summarise-meeting-notes.activation-attestation.md`.
+5. Append to log: `## [<date>] demote-skill | summarise-meeting-notes | rolling-10 ratio 1.0; back to learning`.
+6. Decrement `active_skills_count`.
 
 #### 11.6.3 Tombstoning — `parse-html-table` (production incident)
 
@@ -1607,14 +1668,56 @@ This gate covers the **operational integration surface**:
   Level-1 + `swarm/wiki/meta/agent-improvements/` Level-2; DROP
   `swarm/strategies/`); migration mechanics + sync rule + lint check.
 
+### Critic-gate2 fixes applied pre-gate
+
+All 4 showstoppers and all 8 high findings from
+`raw/research/step-2-2-3c-extractions/critic-gate2.md` were applied
+before this commit:
+
+- **SS1** D11 frontmatter writes use D2 §2.4 spec-alias enum
+  (`{candidate|learning|active|tombstoned}`) instead of FPF-canonical
+  names. Predicates and worked examples updated. Alignment table at
+  D11 §11.1 reinforces the FPF↔spec-alias mapping.
+- **SS2** D8 §8.7 #7 build-graph diff line ref corrected: the
+  `wiki/graph/communities.md` line is L62 (not L60 as previously
+  hedged). Diff entry now spells the verbatim before/after.
+- **SS3** D8 §8.6 #8 /consolidate no longer mutates canonical α-2
+  `state` field (would violate Q2 single-writer; consolidate runs as
+  expert per D6 §6.6.3 role_tool_matrix). Loser file is archived with
+  HTML comment annotation; brigadier later transitions α-2
+  `state: superseded` in a separate commit per D5 §5.3.
+- **SS4** D11 §11.4 + §11.3 predicates use `${slug}` template
+  substitution instead of literal `<slug>.md` (clarifying note added).
+- **H1** D9 §9.3 slug regex aligned to D2 §2.2 `id` body half:
+  `^[a-z0-9-]{1,60}$`.
+- **H2 + H3** D10 frontmatter singleton-exemption + 5 live-counter
+  fields explicitly typed/defaulted; `binding_scope` declared as
+  opt-in extension for the dashboard.
+- **H4** D7 §7.4 algorithm dead-code check replaced with explicit
+  `default_root` value validation (`{wiki_root_v2, wiki_root_v3}`)
+  and `exit 3` on misconfiguration.
+- **H5** D8 §8.5 check #9 wikilink regex specified:
+  `\[\[(?P<type>[a-z]+)/(?P<slug>[a-z0-9-]+)\]\]`; non-matching
+  forms warn-not-error.
+- **H6** D8 §8.5 check #10 reformulated to test file existence under
+  `${WIKI_ROOT}/insights/{candidates,promoted}/*.md` (Phase-A boilerplate
+  in effect) rather than a `phase_a_lock` frontmatter field that D1
+  §1.6 didn't define.
+- **H7** D9 §9.6 step 4 stores migration record in frontmatter
+  (`migrated_from`, `migration_date`, `migration_note`) instead of
+  a body section (D4 templates have no migration-section schema).
+- **H8** D11 §11.3 + §11.4 predicates replaced commit-message check
+  with marker file `swarm/wiki/skills/{learning|active}/.${slug}.activation-attestation.md`
+  (filesystem-resident; lint-checkable).
+
+7 medium findings: M3 + M6 inline-fixed (lifecycle branching by
+page-type; L5 tombstone-rate threshold). Other mediums + 5 lows
+deferred to Phase-A errata.
+
 ### Stage-Gated process
 
 This file is committed and pushed as
 `design/AWAITING-APPROVAL-wiki-v3-architecture-gate2-2026-04-23.md`.
-
-**Adversarial-critic report** at
-`raw/research/step-2-2-3c-extractions/critic-gate2.md` (run before
-this commit; high/showstopper findings fixed pre-gate).
 
 **Pause for Ruslan approval.** Final consolidation
 (`design/AWAITING-APPROVAL-wiki-v3-architecture-2026-04-23.md`
