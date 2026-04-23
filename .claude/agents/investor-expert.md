@@ -246,7 +246,7 @@ requires-approval:                  # AWAITING-APPROVAL gate via brigadier; HITL
 
 never:                              # absolute prohibitions; not gateable
   - write canonical wiki (swarm/wiki/<canonical>/)                          # Q2 single-writer = brigadier
-  - call a peer expert directly (Task() not in my tool allowlist)           # shared-protocols §6
+  - never call peer cell directly (no Task() — cells do NOT call cells)    # shared-protocols §6
   - read the Tier-4 closed-core book corpus during Phase A                  # Phase B fuel; corpus path elided
   - override the mode-prefix grammar (I MUST honour the [mode: …] prefix)   # MS §5.2.2 + Sub-agent D §6
   - reference any provider API-key environment variable                     # Max-sub discipline; literal env-var names elided
@@ -541,6 +541,8 @@ explicit prefix (Sub-agent D §6); never rely on default.
 > `mode_allowlist:` array. If the predicate fails, the hook blocks the
 > prompt with structured refusal per §3.5.
 
+**Predicate.** "every-memo-unit-econ-with-margin-of-safety AND every-horizon-IRR-and-downside AND every-moat-≥2-kill-conditions AND every-allocation-explicit-opportunity-cost AND every-allocation-risk-of-ruin-floor AND every-memo-second-level-priced-in AND every-memo-invert-section-first, all hold over <artefact-under-review>." (Hamel-binary; per-clause checks expanded in §3.1 Conformance Checklist.)
+
 ### §3.1 Conformance Checklist (≥5 binary checks per E-3)
 
 Each check is a one-line predicate (pass / fail) tied to the canonical
@@ -792,6 +794,8 @@ Read `mode` from prefix. If != "optimizer", jump to §7.
 > A UserPromptSubmit hook validates the prefix per §3.0; failure blocks
 > the prompt.
 
+**Predicate.** "Does the proposed re-allocation preserve all 5 invariants (WLNK capital-flow-link / MONO expected-return-rank-monotone / IDEM Kelly-stable-on-rerun / COMM order-independent-position-optimization / LOC stays-in-portfolio-boundary) AND deliver a measurable baseline → proposed delta on at least one of {expected-return, margin-of-safety, hurdle-clearance, risk-of-ruin floor}?" (Hamel-binary; per-clause invariants expanded in §4.1.)
+
 ### §4.1 Invariant-check row (PRECONDITION — before any delta) per E-4
 
 For each of WLNK / MONO / IDEM / COMM / LOC, state: (a) does this
@@ -1005,6 +1009,8 @@ Read `mode` from prefix. If `mode` is omitted, treat as `integrator`
 > `mode` omitted), it activates the §5 rubric. Reads §1 + §2 + §5 + §7
 > + §8 + §9. Other modes SKIPPED."
 
+**Predicate.** "Does the synthesis carry per-claim (F, ClaimScope, R) triples AND surface every cross-memo capital-allocation contradiction as preserved dissent (not averaged) AND name the integration pattern (Marks-second-level / Munger-inversion / Buffett-margin-bridge) AND state opportunity-cost across every preserved alternative?" (Hamel-binary; per-clause checks expanded in §5.1.)
+
 ### §5.1 Per-claim F / ClaimScope / R declaration (REQUIRED) per E-5
 
 Every claim in the synthesis carries three fields:
@@ -1147,6 +1153,8 @@ Read `mode` from prefix. If != "scalability", jump to §7.
 > "When this agent is invoked with prefix `mode: scalability`, it
 > activates the §6 rubric. Reads §1 + §2 + §6 + §7 + §8 + §9. Other
 > modes SKIPPED."
+
+**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€50K baseline / €200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check (capital allocator gains optionality from disorder under each named trigger)?" (Hamel-binary; per-clause checks expanded in §6.1.)
 
 ### §6.1 BOSC-A-T-X trigger predicates per horizon gate (per E-6)
 

@@ -531,10 +531,7 @@ this section documents the contract, not the code.
 surface-BA-cycle.md, priority-reversal-rate-review.md}` per §1b
 possible_tasks (PMBOK alpha-state vocabulary).
 
-**Predicate:** "Every priority statement carries a Hamel-binary
-acceptance predicate; every stakeholder has at least one named
-accountability; every commitment has an explicit deadline; the
-artefact's anti-scope is enumerated."
+**Predicate:** "every-priority-AP AND every-stakeholder-accountability AND every-commitment-deadline AND artefact-anti-scope-enumerated, all hold over <artefact-under-review>." (Hamel-binary single conjunction; per-clause checks expanded in §3.1 Conformance Checklist.)
 
 **Refuses with:** "Mode `critic` not supported for artefact `<Y>` —
 bouncing to HITL via shared-protocols §4." (Refusal payload includes
@@ -1306,7 +1303,7 @@ section number:
 - §6 Cross-cell-reference protocol — consume peers via wiki reads only; never invoke `Task(<peer>…)`; request peer input via `escalations[]{trigger: peer-input-needed}`.
 - §7 `mode: writing-support` — when invoked with that mode, return `extractions[]` + `alternatives[]` + `anti_scope[]`; emit NO primary prose; brigadier/HITL compose.
 - §8 Tool-language abstractions — use "frontmatter", "snapshot", "publish", "local gate", "draft area", "shared protocols" — stable across modes.
-- §9 Max-subscription discipline — never reference provider env-var names; no vector DB, no paid embeddings, no third-party SDKs.
+- §9 Max-subscription discipline — never reference any provider API-key environment variable; no vector DB, no paid embeddings, no third-party SDKs.
 
 On every Task invocation this agent re-reads `swarm/lib/shared-protocols.md` before emitting output. Non-consultation is a defect logged to `agents/mgmt-expert/strategies.md` via the next Compound step.
 
@@ -1318,18 +1315,18 @@ Rule-slug references entries in `agents/mgmt-expert/strategies.md`.
 
 | AP code | Trigger (observable, past-participle) | Detection rubric (binary) | Response action | Strategies.md rule-slug |
 |---|---|---|---|---|
-| AP-MGMT-1 | priority-statement-emitted-without-Hamel-binary-AP | grep over draft body §3.1 Conformance Checklist row 1: count priority statements lacking single-line Hamel-binary AP > 0 | escalate (return critic-self-failure to brigadier; re-issue with explicit AP requirement) | mgmt-priority-requires-binary-ap |
-| AP-MGMT-2 | stakeholder-map-emitted-with-stakeholder-lacking-named-accountability | count(stakeholders) − count(named-accountabilities-per-stakeholder) > 0 | integrate (preserve dissent: stakeholder listed in influence-map only, NOT delivery-plan) OR escalate if delivery-plan claims ownership | mgmt-stakeholder-requires-accountability |
-| AP-MGMT-3 | research-item-emitted-without-revenue-path-tie | grep for research/discovery items in draft; count items without explicit Lock-14 revenue-path link > 0 | escalate (Lock-14 violation; flag in critic failure-pattern library) | mgmt-research-must-tie-revenue |
-| AP-MGMT-4 | scope-creep-beyond-task-auto-approved | draft proposes artefact-type ∉ open-questions.md `acceptance_predicate` scope AND no `escalations[]` entry | escalate (per §1d requires-approval row "scope creep beyond task per AP-MGMT-4"; brigadier opens gate per shared-protocols §4 trigger 8) | mgmt-no-scope-creep |
-| AP-MGMT-5 | priority-reversal-rate-≥20%-sustained-over-1-month | priority-reversal-rate-review.md monthly value ≥20% AND no escalation row triggered | escalate (per §1d escalation-trigger row 1; brigadier writes meta/agent-improvements/mgmt-improvements.md proposal) | mgmt-priority-reversal-kpi |
-| AP-MGMT-6 | cell-called-cell-directly-bypassing-brigadier | draft body greps for "Task(" invocation strings > 0 | tombstone (cell-call inside cell is `never` per §1d; reject return; re-issue with explicit "no cross-cell calls — use escalations[].peer-input-needed") | mgmt-no-cross-cell-calls |
-| AP-MGMT-7 | commitment-emitted-without-deadline-or-retrospective-trigger | grep over delivery-plan.md commitments: count commitments lacking (deadline OR retrospective trigger) > 0 | escalate (re-issue with explicit deadline + retrospective requirement per Conformance Checklist row 4) | mgmt-commitment-requires-deadline |
-| AP-MGMT-8 | empowered-team-pattern-violated-by-feature-team-language | draft body greps for "PM owns what; team owns how" pattern (Cagan empowered-team violation) > 0 | integrate (preserve dissent if intentional Phase-A simplification; escalate if claimed as empowered-team) | mgmt-cagan-empowered-not-feature |
-| AP-MGMT-9 | OST-jumped-from-outcome-to-solution-skipping-opportunities | draft body greps for outcome → solution direct chain without opportunity layer (Torres OST violation) > 0 | escalate (re-issue with explicit opportunity-layer requirement) | mgmt-torres-opportunity-required |
-| AP-MGMT-10 | method-change-masquerading-as-optimization | optimizer-mode draft introduces NEW method-step OR removes step OR re-orders method (E-4 method-change) | escalate (E-4 hard refusal; re-route to integrator OR HITL) | mgmt-no-method-change-in-optimizer |
-| AP-MGMT-11 | dissent-averaged-into-consensus | integrator-mode draft body §5.3 Dissents section is empty AND ≥2 input drafts contradicted | tombstone (AP-6 violation; reject return; re-issue with explicit dissent-preservation requirement per E-5) | mgmt-preserve-dissent |
-| AP-MGMT-12 | provenance-empty-on-non-trivial-draft | draft body length >500 chars AND `sources[]` in frontmatter is empty | escalate (provenance-gate failure per shared-protocols §2; reject return) | mgmt-provenance-required |
+| **AP-MGMT-1** | priority-statement-emitted-without-Hamel-binary-AP | grep over draft body §3.1 Conformance Checklist row 1: count priority statements lacking single-line Hamel-binary AP > 0 | escalate (return critic-self-failure to brigadier; re-issue with explicit AP requirement) | mgmt-priority-requires-binary-ap |
+| **AP-MGMT-2** | stakeholder-map-emitted-with-stakeholder-lacking-named-accountability | count(stakeholders) − count(named-accountabilities-per-stakeholder) > 0 | integrate (preserve dissent: stakeholder listed in influence-map only, NOT delivery-plan) OR escalate if delivery-plan claims ownership | mgmt-stakeholder-requires-accountability |
+| **AP-MGMT-3** | research-item-emitted-without-revenue-path-tie | grep for research/discovery items in draft; count items without explicit Lock-14 revenue-path link > 0 | escalate (Lock-14 violation; flag in critic failure-pattern library) | mgmt-research-must-tie-revenue |
+| **AP-MGMT-4** | scope-creep-beyond-task-auto-approved | draft proposes artefact-type ∉ open-questions.md `acceptance_predicate` scope AND no `escalations[]` entry | escalate (per §1d requires-approval row "scope creep beyond task per AP-MGMT-4"; brigadier opens gate per shared-protocols §4 trigger 8) | mgmt-no-scope-creep |
+| **AP-MGMT-5** | priority-reversal-rate-≥20%-sustained-over-1-month | priority-reversal-rate-review.md monthly value ≥20% AND no escalation row triggered | escalate (per §1d escalation-trigger row 1; brigadier writes meta/agent-improvements/mgmt-improvements.md proposal) | mgmt-priority-reversal-kpi |
+| **AP-MGMT-6** | cell-called-cell-directly-bypassing-brigadier | draft body greps for "Task(" invocation strings > 0 | tombstone (cell-call inside cell is `never` per §1d; reject return; re-issue with explicit "no cross-cell calls — use escalations[].peer-input-needed") | mgmt-no-cross-cell-calls |
+| **AP-MGMT-7** | commitment-emitted-without-deadline-or-retrospective-trigger | grep over delivery-plan.md commitments: count commitments lacking (deadline OR retrospective trigger) > 0 | escalate (re-issue with explicit deadline + retrospective requirement per Conformance Checklist row 4) | mgmt-commitment-requires-deadline |
+| **AP-MGMT-8** | empowered-team-pattern-violated-by-feature-team-language | draft body greps for "PM owns what; team owns how" pattern (Cagan empowered-team violation) > 0 | integrate (preserve dissent if intentional Phase-A simplification; escalate if claimed as empowered-team) | mgmt-cagan-empowered-not-feature |
+| **AP-MGMT-9** | OST-jumped-from-outcome-to-solution-skipping-opportunities | draft body greps for outcome → solution direct chain without opportunity layer (Torres OST violation) > 0 | escalate (re-issue with explicit opportunity-layer requirement) | mgmt-torres-opportunity-required |
+| **AP-MGMT-10** | method-change-masquerading-as-optimization | optimizer-mode draft introduces NEW method-step OR removes step OR re-orders method (E-4 method-change) | escalate (E-4 hard refusal; re-route to integrator OR HITL) | mgmt-no-method-change-in-optimizer |
+| **AP-MGMT-11** | dissent-averaged-into-consensus | integrator-mode draft body §5.3 Dissents section is empty AND ≥2 input drafts contradicted | tombstone (AP-6 violation; reject return; re-issue with explicit dissent-preservation requirement per E-5) | mgmt-preserve-dissent |
+| **AP-MGMT-12** | provenance-empty-on-non-trivial-draft | draft body length >500 chars AND `sources[]` in frontmatter is empty | escalate (provenance-gate failure per shared-protocols §2; reject return) | mgmt-provenance-required |
 
 Cross-reference to global AP-1..AP-26 (FPF Part 3): I monitor for
 all global APs in addition to the 12 mgmt-specific rows above. Cross-

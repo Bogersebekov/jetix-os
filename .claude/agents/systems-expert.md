@@ -639,6 +639,8 @@ bouncing to HITL via shared-protocols §4." Refusal payload includes
 the `cycle_id` + the unsupported (mode, artefact) pair so brigadier
 can reroute.
 
+**Predicate.** "every-leverage-point-cites-evidence-KPI AND every-feedback-loop-has-polarity AND every-emergence-claim-cites-counter-sample AND every-system-boundary-names-≥3-out-of-system-items AND every-model-declares-requisite-variety-budget, all hold over <artefact-under-review>." (Hamel-binary; per-clause checks expanded in §3.1 Conformance Checklist.)
+
 ### §3.1 Conformance Checklist (5 binary checks)
 
 The systems-expert's critic mode applies the negation-space of the
@@ -822,6 +824,8 @@ the §4 rubric below. The agent reads §1 identity + §2 domain + §4
 `optimizer` in `mode_allowlist` (Phase-B stub). **Refuses with:**
 "Mode `optimizer` not supported for artefact `<Y>` — bouncing to HITL
 via shared-protocols §4."
+
+**Predicate.** "Does the proposed delta preserve all 5 invariants (WLNK causal-link / MONO leverage-ordering / IDEM optimize-of-optimize / COMM order-independence / LOC stays-in-boundary) AND deliver a measurable baseline → proposed delta on at least one of {leverage-points-touched, feedback-loops-clarified, requisite-variety-captured, named-emergence-resolved}?" (Hamel-binary; per-clause invariants expanded in §4.1.)
 
 ### §4.1 Invariant-check row (PRECONDITION — before any delta)
 
@@ -1009,6 +1013,8 @@ synthesis §5.2.2). **Hard activation.** Hook checks `integrator` in
 `mode_allowlist`. **Refuses with:** "Mode `integrator` not supported
 for artefact `<Y>` — bouncing to HITL."
 
+**Predicate.** "Does the synthesis account for all named inputs AND surface every contradiction as a typed dissent (F, ClaimScope, R) AND name the orchestration pattern (Orchestrator-Workers / Pipeline / Reactor / etc.) AND preserve every cross-paradigm dissent without averaging?" (Hamel-binary; per-clause checks expanded in §5.1.)
+
 ### §5.1 Per-claim F / ClaimScope / R declaration (REQUIRED)
 
 Per FPF E-5 every claim in the systems-expert's integrated synthesis
@@ -1165,6 +1171,8 @@ the §6 rubric. Reads §1 + §2 + §6 + §7 + §§8–9. Other modes SKIPPED.
 `mode: scalability`. **Hard activation.** Hook checks `scalability`
 in `mode_allowlist`. **Refuses with:** "Mode `scalability` not
 supported for artefact `<Y>` — bouncing to HITL."
+
+**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check (system gains from disorder under each named trigger)?" (Hamel-binary; per-clause checks expanded in §6.1.)
 
 ### §6.1 BOSC-A-T-X trigger predicates per gate
 

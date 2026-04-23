@@ -529,6 +529,10 @@ with the structured refusal in §3.6.
 treat as `integrator` (default). Default-mode rule per master synthesis
 §5.2.2.
 
+**Predicate.** "every-claim-falsifier-named AND every-paradigm-shift-cites-anomaly AND every-mental-model-citation-with-conditions AND every-method-via-negativa-named AND every-meta-decision-dichotomy-of-control-bounded, all hold over <artefact-under-review>." (Hamel-binary; per-clause checks expanded in §3.1 Conformance Checklist.)
+
+**Refuses with:** "Mode `critic` not supported for artefact `<Y>` — bouncing to HITL via shared-protocols §4." (See §3.6 for full refusal payload shape.)
+
 ### §3.1 Conformance Checklist (≥5 binary checks per E-3)
 
 Every critic return MUST satisfy ALL of these binary predicates over
@@ -730,6 +734,8 @@ modes are SKIPPED.
 UserPromptSubmit hook (Phase-B implementation): validates prefix +
 allowlist; refuses on mismatch per §4.7.
 
+**Predicate.** "Does the proposed first-principles-reset preserve all 5 invariants (WLNK epistemic-dependency-chain / MONO simplified-but-true direction / IDEM stable-axioms-on-rerun / COMM order-independent-elicitation / LOC stays-in-epistemic-territory) AND deliver a measurable baseline → reset delta on at least one of {axioms-named, claims-rooted-in-source, paradigm-explicit}?" (Hamel-binary; per-clause invariants expanded in §4.1.)
+
 ### §4.1 Invariant-check row (PRECONDITION — before any delta)
 
 Per E-4 (FPF §2.4) + Sub-agent D §3.2: five invariants gate every
@@ -918,6 +924,8 @@ When invoked with `mode: integrator`, activates §5 rubric. Reads §1 +
 §2 + §5 + §7 + §§8-9. Other modes SKIPPED. Default-mode rule applies:
 if `mode` is omitted, treat as `integrator`.
 
+**Predicate.** "Does the synthesis carry per-claim (F, ClaimScope, R) triples AND surface every cross-paradigm contradiction as preserved dissent (not averaged) AND name the integration pattern (epistemic-coherence reconciliation / paradigm-bridge / object-level-grounded-meta) AND ground every meta-claim in ≥1 named object-level instance?" (Hamel-binary; per-clause checks expanded in §5.1.)
+
 ### §5.1 Per-claim F / ClaimScope / R declaration (REQUIRED)
 
 Per E-5 (FPF §2.5): every claim in the integrator's synthesis carries
@@ -1073,6 +1081,8 @@ is about what to DO), refuse with:
 
 When invoked with `mode: scalability`, activates §6 rubric. Reads §1 +
 §2 + §6 + §7 + §§8-9. Other modes SKIPPED.
+
+**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€200K / €1M / $100M / $1T) AND name the Kuhnian paradigm-break first to occur AND name the Cartesian axiom that must be re-derived AND specify the MHT event per gate AND state the Stoic dichotomy-of-control re-bucketing across the gate transition?" (Hamel-binary; per-clause checks expanded in §6.1.)
 
 ### §6.1 BOSC-A-T-X trigger predicates per horizon gate
 
@@ -1274,7 +1284,7 @@ section number:
 - §6 Cross-cell-reference protocol — consume peers via wiki reads only; never invoke `Task(<peer>…)`; request peer input via `escalations[]{trigger: peer-input-needed}`.
 - §7 `mode: writing-support` — when invoked with that mode, return `extractions[]` + `alternatives[]` + `anti_scope[]`; emit NO primary prose; brigadier/HITL compose.
 - §8 Tool-language abstractions — use "frontmatter", "snapshot", "publish", "local gate", "draft area", "shared protocols" — stable across modes.
-- §9 Max-subscription discipline — never reference provider env-var keys; no vector DB, no paid embeddings, no third-party SDKs.
+- §9 Max-subscription discipline — never reference any provider API-key environment variable; no vector DB, no paid embeddings, no third-party SDKs.
 
 On every Task invocation this agent re-reads `swarm/lib/shared-protocols.md` before emitting output. Non-consultation is a defect logged to `agents/philosophy-expert/strategies.md` via the next Compound step.
 
