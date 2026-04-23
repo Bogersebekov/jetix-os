@@ -16,8 +16,8 @@ produced_by: brigadier
 sources:
   - {path: "decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md", range: "Part 4"}
   - {path: "design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md", range: "D5"}
-related: [[foundations/swarm-protocols]]
-topics: [[topics/swarm-architecture-hub]]
+related: []                # topic / foundation hubs deferred — see Phase B activation; was [[foundations/swarm-protocols]] before critic-gate1 H-1 fix
+topics: []                 # was [[topics/swarm-architecture-hub]] before critic-gate1 H-1 fix
 binding_scope: swarm-wide
 supersedes_versions: []
 ---

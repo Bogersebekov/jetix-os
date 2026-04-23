@@ -17,7 +17,7 @@ sources:
   - {path: "decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md", range: "§5.5–§5.10"}
   - {path: "decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md", range: "Part 10"}
   - {path: "design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md", range: "D6"}
-related: [[foundations/swarm-alphas]]
+related: []                 # foundation / topic hubs deferred to Phase B (see critic-gate1 H-1)
 binding_scope: swarm-wide
 ---
 
@@ -27,6 +27,16 @@ This file is the **runtime contract** every agent under
 `.claude/agents/` (brigadier + 5 experts) imports via its §7 stub.
 Agent files reference this file by section number; they NEVER
 duplicate its contents.
+
+**Section ordering note (per critic-gate1 M-8).** This file follows
+the SPEC `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md`
+§6.1..§6.10 ordering: §1 wiki-write / §2 provenance / §3 schema /
+§4 HITL / §5 tool-permission / §6 cross-cell-reference / §7
+writing-support / §8 verb-dictionary / §9 Max-sub + retrieval. The
+construction prompt at one point referenced an alternate ordering
+that placed `mode: writing-support` at §6 and cross-cell-reference at
+§7; the spec ordering above is canonical and the §7 import-stubs in
+all agent files reference these spec section numbers.
 
 ## 1. Wiki write protocol (Q2 single-writer brigadier)
 

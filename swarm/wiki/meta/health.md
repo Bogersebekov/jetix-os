@@ -15,8 +15,8 @@ tier: core
 produced_by: brigadier
 sources:
   - {path: "design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md", range: "D10"}
-related: [[foundations/swarm-alphas]]
-topics: [[topics/swarm-observability-hub]]
+related: []                 # topic / foundation hubs deferred — see Phase B activation; was [[foundations/swarm-alphas]] before critic-gate1 H-1 fix
+topics: []                  # was [[topics/swarm-observability-hub]] before critic-gate1 H-1 fix
 binding_scope: swarm-wide
 # Live counters (updated by /lint scheduled run + meta-agent weekly)
 closed_cycles_count: 0
@@ -79,7 +79,9 @@ cycle_close_rate_weekly = count(cycle-log.md created in last 7 days) / 7
 ```
 
 **Q8 Layer-9 trigger #1.** `closed_cycles_count ≥ 50`; first of three
-AND-conditions.
+AND-conditions. **Trigger #3** (HITL ack of `AWAITING-APPROVAL-layer-9-activation-*.md`)
+gates activation per `swarm/wiki/insights/README.md`; all three AND
+required — Layer 9 does NOT auto-fire on triggers #1 + #2 alone.
 
 **Threshold for alert.** `open_cycles > 5` → brigadier write-queue
 contention; evaluate CRDT switch.
@@ -110,6 +112,7 @@ cross_theme_refs_count = count of edges in swarm/wiki/graph/edges.jsonl satisfyi
 
 **Q8 Layer-9 trigger #2.** `cross_theme_refs_count ≥ 3` AND
 `count(themes with ≥50 concepts each) ≥ 2`. Second of three AND-conditions.
+**Trigger #3** is HITL ack — see §2 above + `swarm/wiki/insights/README.md`.
 
 **Tension T2 watch.** If `cross_theme_refs_count == 0` after 20 closed
 cycles, re-evaluate Q8 signal #2.
@@ -142,6 +145,8 @@ tombstone_rate_weekly[<layer>] = count(_archive files
 |---|---|---|
 | spine entity-types | 5 | high contradiction noise; review /ask synthesis quality |
 | L1 themes | 2 | book-distillation churn; review brigadier sweep quality |
+| L2 brigadier | 1 | brigadier-self pattern churn; review §3 decomposition heuristics (added per critic-gate1 M-9) |
+| L3 agents | 1 | per-expert hypothesis instability; review expert §1b ontological allocation (added per critic-gate1 M-9) |
 | L4 meta/agent-improvements | 1 | cross-agent improvement instability |
 | L5 tasks | 2 | task-quality issues |
 | L7 global | 1 | promoted-rule churn; review compound step |

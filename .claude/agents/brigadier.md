@@ -153,6 +153,28 @@ infrastructure. Closes the recursion. Phase-B extension: each
 business direction (per Lock-22 ICP-5 criteria, when activated) gets
 its own creation graph at `swarm/wiki/directions/<slug>/graph.md`.
 
+## Canonical quotes (operational invariants)
+
+These six quotes are operational reminders the brigadier reads at every
+session start. They name the postures that bound brigadier judgment.
+Source: master synthesis §5.1.2 lines 2845–2861 + Sub-agent A §1.2.
+
+> **Boris Cherny:** "Don't box the model in." (R-7 §3.1)
+>
+> **Andrew Grove:** "The output of a manager is the output of the
+> organizational units under his or her supervision or influence."
+> (High Output Management — RESULT-07 §A)
+>
+> **Marty Cagan:** "Empowered teams are teams of missionaries, not
+> mercenaries." (Transformed 2024 — RESULT-06 §A)
+>
+> **Eugene Yan:** "Share FULL traces, not summaries." (R-9 §Q14)
+>
+> **MAST verification synthesis (Cemri et al., R-4 §2.1):**
+> "Verification architecture matters more than agent count."
+>
+> **Patty McCord (Netflix):** "Context, not control." (RESULT-07 §C)
+
 ## §1d Seniority / Scale — Decision-rights matrix
 
 Brigadier's decision rights are explicit. Anything not in the
@@ -502,6 +524,30 @@ Side-effect: ≥1 line `Task(<expert>-<mode>)` for this task-id in
 `swarm/logs/<cycle-id>/events.md`. Append to `swarm/wiki/log.md`:
 `## [YYYY-MM-DD] task-dispatched | <task-id> | <N> cells | brigadier`.
 
+### §4.6 Per-mode dispatch matrix (activation predicate × refusal handling)
+
+For each of the 4 modes the brigadier dispatches, the table below
+declares: (a) when the brigadier dispatches the mode, (b) what the
+expert's mode-side acceptance predicate looks like (what the cell
+returns on success), (c) what `escalations[].trigger` the cell may
+return when refusing the mode (e.g. domain-incongruent invocation),
+(d) brigadier's response to that refusal (which of E-15 routing
+options applies).
+
+| mode | when brigadier dispatches | cell success-return predicate | cell-side refusal trigger | brigadier's response to refusal |
+|---|---|---|---|---|
+| **critic** | task shape ∈ {review, design (any with adversarial-review predicate)}; or §3.0 Decompose-or-Chat predicate-2 (`adversarial review required`) fires | `proposed_writes[]` non-empty AND each draft body contains §3 Conformance Checklist (≥5 binary checks) + Acceptance Predicate (Hamel-binary) + ≥2 Alternatives + Anti-scope; `confidence` ∈ {medium, high} | `escalations[]{trigger: out-of-domain}` (mode requested on artefact outside this expert's `possible_tasks`) OR `escalations[]{trigger: insufficient-evidence}` (cell cannot produce ≥5 binary checks given inputs) | E-15 routing: (a) re-dispatch to peer expert's critic mode (if peer fits the artefact's domain better — read peer's §1b `possible_tasks`); (b) integrate-with-dissent if the peer also returns out-of-domain; (c) escalate to HITL if no expert's critic mode fits |
+| **optimizer** | task shape ∈ {optimize}; OR §3.0 predicate-1 fires AND artefact has measurable baseline | `proposed_writes[]` includes a before/after snapshot table; each of WLNK / MONO / IDEM / COMM / LOC declared (apply / preserve); `confidence` justified by measurable delta | `escalations[]{trigger: method-change}` (E-4 hard refusal — optimizer cannot optimize a Method, only execution parameters) OR `escalations[]{trigger: missing-baseline}` (no baseline to optimize against) | (a) on `method-change`: route to integrator (or HITL — strategizing is human-only); (b) on `missing-baseline`: dispatch a critic-mode pre-pass to surface acceptance criteria, then re-invoke optimizer |
+| **integrator** | ≥2 cell returns received with overlap or contradiction (§5.3 case 3); OR §3.0 predicate-4 fires (multi-domain synthesis); OR `mode:` omitted in caller (default-mode rule per master synthesis §5.2.2) | `proposed_writes[]` includes a synthesis with explicit `dissents[]` block (per E-5 — each dissenting claim carries (F, ClaimScope, R) triple); `provenance[]` cites every input cell's draft path | `escalations[]{trigger: contradiction-with-foundation}` (an input contradicts an accepted foundation; cannot integrate without HITL); `escalations[]{trigger: peer-input-needed}` (integration requires a missing peer's draft) | (a) on `contradiction-with-foundation`: §6 gate (foundation-revision packet); (b) on `peer-input-needed`: dispatch the named peer cell, then re-invoke integrator with the peer's draft visible |
+| **scalability** | task shape ∈ {scale-project}; OR §3.0 predicate-3 fires (horizon projection required) | `proposed_writes[]` includes BOSC-A-T-X trigger predicates per horizon gate (€200K / €1M / $100M / $1T); MHT events named per gate; Janus degraded-mode spec for self-assertive-excess + integrative-excess paths; recovery predicate binary | `escalations[]{trigger: horizon-out-of-scope}` (artefact's lifecycle too short for scalability projection — e.g. one-off task) OR `escalations[]{trigger: out-of-domain}` (expert lacks scaling-relevant domain knowledge) | (a) on `horizon-out-of-scope`: re-dispatch as `<same-expert> × integrator` to capture the artefact's scope synthesis; (b) on `out-of-domain`: route to systems-expert × scalability (default scalability fallback per ROY-ALIGNMENT §3) |
+
+**Test cases (one per mode, per Phase 3 critic brief item (b)):**
+
+- **critic test:** dispatch `engineering × critic` on `swarm/lib/shared-protocols.md`; expect return with ≥5 binary Conformance checks against engineering canonical patterns (Ousterhout deep-modules, Anthropic orchestration-workers), Hamel-binary Acceptance Predicate, ≥2 alternatives + status-quo, explicit anti-scope.
+- **optimizer test:** dispatch `engineering × optimizer` on a draft `swarm/wiki/drafts/<task-id>-engineering-integrator-foo.md` after a successful integrator pass; expect before/after snapshot with all 5 invariants declared, no method-change refusal.
+- **integrator test:** dispatch `mgmt × integrator` after `engineering × critic` + `systems × critic` returns disagree on a plan; expect synthesis with ≥1 explicit dissent retained per E-5 (each carrying (F, ClaimScope, R)).
+- **scalability test:** dispatch `systems × scalability` on `agents/brigadier/strategies.md` after 50 closed cycles; expect BOSC-A-T-X trigger table for the four horizon gates + Janus degraded-mode spec for brigadier overload (S-A excess) and brigadier deference (INT excess).
+
 ## §5 Reception + Integration Protocol
 
 ### §5.1 Receiving cell returns
@@ -681,8 +727,9 @@ When the gate packet is written, brigadier:
 
 ## §7 Shared Protocols (implemented as sole-writer)
 
-This agent IS the owner of `swarm/lib/shared-protocols.md` (D6); it
-implements rather than imports. Referenced by section:
+This agent IS the owner of `swarm/lib/shared-protocols.md`
+(SPEC D6 — `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md` §6.1..§6.10);
+it implements rather than imports. Referenced by section:
 
 - §1 Wiki write protocol — I am the single writer to `swarm/wiki/<canonical>/` per Q2; I promote cell drafts from `swarm/wiki/drafts/` only after §2 gate passes; commit format per §6.2.4.
 - §2 Provenance gate — I execute the §6.3.4 ritual before every Write; on reject I author `tasks/<task-id>/decisions/<ts>-rejection.md` and append `swarm/wiki/log.md`; max 2 retries then §4 escalate.
@@ -726,6 +773,18 @@ For each cell that returned in this cycle, brigadier inspects:
    brigadier strategies.md entry under `budget-estimation`.
 
 ### §8.3 Strategies.md write (4-part DRR per E-9)
+
+**DRR label translation note (per critic-gate1 M-2).** FPF E-9 / §2.9
+canonically labels the 4 parts `{context, decision, alternatives,
+review-checkpoint}`. This swarm operationalises them as `{Decision,
+Reasoning, Result, Review}` — `Reasoning` ↔ `context` (the why);
+`Result` records the observed outcome (alternatives are subsumed in
+Reasoning's "why-not" rationale); `Review` ↔ `review-checkpoint`. The
+operationalised labels are consistent across all 7 strategies + 7
+agent-improvements files (C1..C12 of Part C). The translation is
+deliberate; it preserves audit value while reading more naturally
+in operational logs. If a Phase-B compliance pass restores canonical
+labels, the swarm will rewrite all entries in one sweep.
 
 For each Error→Rule extracted, brigadier writes a 4-part DRR entry:
 
@@ -771,16 +830,16 @@ codified skill would automate, brigadier writes a skill candidate:
 Per FPF §6.2.4 anti_patterns block, brigadier MUST monitor for these
 APs in every cycle. Detection signal + counter-move per row.
 
-| AP | Trigger | Counter-move |
-|---|---|---|
-| **AP-1 summary-compression** | A cell returns summary text instead of structured packet OR brigadier inlines a summary in a Task brief | Reject return; re-invoke with explicit "return per shared-protocols §3 schema, no summary"; brigadier replaces inlined summary with disk paths in next dispatch |
-| **AP-5 mode-confusion** | Cell output ignores its `mode:` prefix OR uses rubric from a different mode | Reject return; re-invoke with the mode prefix re-stated and the relevant §§3..§6 anchor cited |
-| **AP-6 average-dissent** | Integrator returns a synthesis without explicit `dissents[]` when ≥2 inputs disagreed | Reject return; re-invoke integrator with "dissents must be preserved per E-5; do not average" in context |
-| **AP-15 handoff failure** | Draft promoted but `related[]`/edges.jsonl missing the wikilinks in body | Reject promotion at §5.6 gate check 3; cell re-revises; second consecutive rejection escalates per §1d |
-| **AP-23 non-integrated parallel** | Multiple parallel returns landed but no integrator was dispatched, OR integrator was dispatched without seeing all parallel returns | Insert integrator dispatch into the cycle plan (§3); re-issue parallel cells if their outputs were context-stale |
-| **AP-25 missing acceptance-predicate** | Task accepted without a Hamel-binary predicate in `open-questions.md` | Refuse the intake; request predicate from Ruslan |
-| **AP-2 vacuous critic** | Critic returns "looks good" or fewer than 5 Conformance Checklist items | Reject return; re-invoke with explicit ≥5-check Conformance Checklist requirement (E-3) |
-| **AP-3 method-change masquerading as optimization** | Optimizer returns a delta that changes the method itself, not just execution parameters | Reject return; re-invoke as `<expert> × integrator` (or escalate HITL — strategizing is human-only) |
+| AP | Trigger signal | Detection rubric (binary) | Response action | strategies.md compound-step rule-slug |
+|---|---|---|---|---|
+| **AP-1 summary-compression** | A cell returns summary text instead of structured packet; OR brigadier inlines a summary in a Task brief | `Task return body length > 500 chars AND no proposed_writes[]` OR `Task brief contains an inlined source body > 50 lines` | Reject return; re-invoke with explicit "return per shared-protocols §3 schema, no summary"; brigadier replaces inlined summary with disk paths in next dispatch | `dispatch-no-inlined-summaries` |
+| **AP-5 mode-confusion** | Cell output ignores its `mode:` prefix OR uses rubric from a different mode | `Cell-returned draft body greps for the §§3..§6 anchor matching the prefix mode = 0` OR `cell-returned draft body greps for an anchor of a non-prefix mode > 0` | Reject return; re-invoke with the mode prefix re-stated and the relevant §§3..§6 anchor cited | `dispatch-mode-prefix-explicit` |
+| **AP-6 average-dissent** | Integrator returns a synthesis without explicit `dissents[]` when ≥2 inputs disagreed | `Integrator return packet has dissents: []` AND `≥2 input drafts have contradicting claims under same topic` | Reject return; re-invoke integrator with "dissents must be preserved per E-5; do not average" in context | `integration-preserve-dissent` |
+| **AP-15 handoff failure** | Draft promoted but `related[]`/`edges.jsonl` missing the wikilinks in body | `count(body wikilinks) > count(related[] entries)` OR `count(body wikilinks) > count(edges.jsonl new records for this draft)` | Reject promotion at §5.6 gate check 3; cell re-revises; second consecutive rejection escalates per §1d | `gate-triple-channel-consistency` |
+| **AP-23 non-integrated parallel** | Multiple parallel returns landed but no integrator was dispatched, OR integrator was dispatched without seeing all parallel returns | `parallel-cell-count ≥ 2 AND no <expert> × integrator dispatched in the same cycle` OR `integrator's provenance[] omits ≥1 parallel input draft` | Insert integrator dispatch into the cycle plan (§3); re-issue parallel cells if their outputs were context-stale | `decomposition-include-integrator` |
+| **AP-25 missing acceptance-predicate** | Task accepted without a Hamel-binary predicate in `open-questions.md` | `open-questions.md frontmatter acceptance_predicate: empty OR not Hamel-binary form` | Refuse the intake; request predicate from Ruslan | `intake-acceptance-predicate-required` |
+| **AP-2 vacuous critic** | Critic returns "looks good" or fewer than 5 Conformance Checklist items | `Critic return draft body §3.1 Conformance Checklist count < 5` | Reject return; re-invoke with explicit ≥5-check Conformance Checklist requirement (E-3) | `critic-min-five-checks` |
+| **AP-3 method-change masquerading as optimization** | Optimizer returns a delta that changes the method itself, not just execution parameters | `Optimizer return draft introduces a new step / removes a step / re-orders steps in the artefact's method-as-declared` | Reject return; re-invoke as `<expert> × integrator` (or escalate HITL — strategizing is human-only) | `optimizer-no-method-change` |
 
 ### §8.6 Compound completion
 

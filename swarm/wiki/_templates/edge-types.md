@@ -129,5 +129,8 @@ Layer abbreviations: **S** = spine entity-type; **L1**=themes;
 Phase-A specifics: L9 cells marked "(Phase B)" are rejected in Phase A
 per `phase_a_lock: true`.
 
-`addresses_gap` dropped per critic-gate1 H4 — gap-clearing semantics
-absorbed by `derived_from` + `/lint` orphan-detection signal.
+`addresses_gap` dropped per `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md`
+§3.1 lines 886-893 (the wiki-v3 architecture spec's own internal
+critic-gate1 H4 finding, NOT the Шаг 2.2.4 critic-gate1 finding) —
+gap-clearing semantics absorbed by `derived_from` + `/lint` orphan-detection
+signal.
