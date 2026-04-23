@@ -1,0 +1,76 @@
+# Priority-ranked pull manifest (brigadier §2.5 / Q4 retrieval discipline)
+# Total tokens estimated: ~18000 (under 20000 cap)
+# This is the ONLY list of files any Phase-1 sub-agent or Phase-2 cell is authorised to
+# read; additional paths require an explicit escalation `peer-input-needed` return.
+
+task_id: T-swarm-self-improve-v1-2026-04-23
+cycle_id: cyc-swarm-self-improve-v1-2026-04-23
+total_tokens_estimated: 18000
+generated: 2026-04-23
+generated_by: brigadier
+
+tiers:
+  tier_1_primary:
+    agent_construction_corpus:
+      - {path: "decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md",   tokens_est: 3600, role: "blueprint"}
+      - {path: "decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md",         tokens_est: 1800, role: "E-1..E-18 locks"}
+      - {path: "prompts/step-2-2-4-agent-construction-2026-04-23.md",                tokens_est:  800, role: "construction prompt"}
+      - {path: "decisions/ROY-AGENTS-BUILT-2026-04-23.md",                           tokens_est:  600, role: "final consolidation"}
+    current_agents:
+      - {path: ".claude/agents/brigadier.md",                                        tokens_est: 1500, role: "orchestrator"}
+      - {path: ".claude/agents/engineering-expert.md",                               tokens_est: 1400, role: "expert"}
+      - {path: ".claude/agents/mgmt-expert.md",                                      tokens_est: 2100, role: "expert"}
+      - {path: ".claude/agents/systems-expert.md",                                   tokens_est: 2100, role: "expert"}
+      - {path: ".claude/agents/philosophy-expert.md",                                tokens_est: 2000, role: "expert"}
+      - {path: ".claude/agents/investor-expert.md",                                  tokens_est: 2100, role: "expert"}
+    wiki_v3_architecture:
+      - {path: "design/ROY-WIKI-V3-GOALS-2026-04-23.md",                             tokens_est: 1000, role: "W-1..W-12"}
+      - {path: "decisions/WIKI-V3-MECHANICS-2026-04-23.md",                          tokens_est: 1200, role: "Q1..Q9, R1..R8, T1..T5"}
+      - {path: "design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md",                 tokens_est: 5000, role: "D1..D12 spec"}
+    memory_research:
+      - {path: "raw/research/knowledge-architecture-deep-research-2026-04-19.md",    tokens_est: 1100, role: "SOTA memory"}
+      - {path: "raw/articles/karpathy-llm-wiki-gist-2026-04.md",                     tokens_est:  300, role: "karpathy wiki"}
+    skills_research:
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-1.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-2.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-3.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-4.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-5.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-6.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-7.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-8.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-9.md",             tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-10.md",            tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/R-11.md",            tokens_est:  300}
+      - {path: "raw/research/compounding-engineering-2026-04-22/SYNTHESIS-DEEP-CE-vs-JETIX.md", tokens_est: 800}
+      - {path: ".claude/skills/README.md",                                           tokens_est:   50}
+      - {path: ".claude/skills/ingest.md",                                           tokens_est:  200}
+      - {path: ".claude/skills/ask.md",                                              tokens_est:  200}
+      - {path: ".claude/skills/lint.md",                                             tokens_est:  150}
+      - {path: ".claude/skills/compile.md",                                          tokens_est:  100}
+      - {path: ".claude/skills/consolidate.md",                                      tokens_est:  150}
+      - {path: ".claude/skills/build-graph.md",                                      tokens_est:  100}
+      - {path: ".claude/skills/search-kb.md",                                        tokens_est:  100}
+      - {path: ".claude/skills/sweep-notion-bank.md",                                tokens_est:  100}
+      - {path: ".claude/skills/plan-day.md",                                         tokens_est:  100}
+      - {path: ".claude/skills/close-day.md",                                        tokens_est:  100}
+      - {path: ".claude/skills/focus.md",                                            tokens_est:  100}
+  tier_2_constraints_respect_not_reopen:
+    - {path: "decisions/ROY-ALIGNMENT-2026-04-22.md",                                role: "5×4 matrix lock"}
+    - {path: "design/ROY-BUILD-LOGIC-2026-04-23.md",                                 role: "location+comms+launch"}
+    - {path: "raw/research/architecture-variants-2026-04-22/TENSIONS-PRE-RESOLVED.md",   role: "Locks D1-D8"}
+    - {path: "raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED.md",       role: "Locks D9-D18"}
+    - {path: "raw/research/architecture-variants-2026-04-22/TENSIONS-RESOLVED-STAGE-2B.md", role: "Locks D19-D24"}
+    - {path: "swarm/lib/shared-protocols.md",                                        role: "runtime contract"}
+    - {path: "swarm/wiki/foundations/swarm-alphas.md",                               role: "5 alphas"}
+  tier_3_out_of_scope:
+    - raw/books-md/                                    # Phase B fuel
+    - external web (no WebSearch, no WebFetch)
+    - architecture variants V1-V5 (legacy, rejected)
+    - business-domain research (consulting/sales/community)
+
+discipline:
+  - No inlined source bodies in cell briefs — paths only.
+  - Every cell return must cite from this manifest; anything outside → escalations[].peer-input-needed.
+  - Phase-1 sub-agents (α..ζ) use this manifest as their read budget.
+  - Phase-2 cells (matrix 5×4) consume the extractions from context/ rather than re-reading primary sources when possible.

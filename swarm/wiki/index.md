@@ -43,6 +43,14 @@ templates that exist on disk at Шаг 2.2.4 close.
 
 Bootstrap empty — populated lazily by `/ingest`.
 
+## Tasks
+
+- `tasks/T-swarm-self-improve-v1-2026-04-23/` — first real swarm cycle (meta niche, Stage-Gated)
+
+## Proposals
+
+- `proposals/T-swarm-self-improve-v1-2026-04-23-decomposition.md` — WBS, 13 matrix cells
+
 ## Niches
 
 `niches/<personal|business|sales|life|tech|meta>/` — Phase-B symlink

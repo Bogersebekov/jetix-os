@@ -1,0 +1,2 @@
+{"ts": "2026-04-23 00:00:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "task_id": "T-swarm-self-improve-v1-2026-04-23", "event": "task-intaked", "classifier": {"pmbok": "Planned", "operating_mode": "Stage-Gated", "class": "M", "niche": "meta"}}
+{"ts": "2026-04-23 00:00:01", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "task_id": "T-swarm-self-improve-v1-2026-04-23", "event": "task-decomposed", "cell_count_target": 13, "wbs_path": "swarm/wiki/proposals/T-swarm-self-improve-v1-2026-04-23-decomposition.md"}
