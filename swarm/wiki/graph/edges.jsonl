@@ -1,0 +1,4 @@
+# swarm/wiki/graph/edges.jsonl
+# Intra-v3 typed cross-references, one JSONL record per line.
+# Schema per swarm/wiki/_templates/edge-types.md (D3 §3.2.1..§3.2.11; cross-tree-ref §3.2.12 lives in graph/cross-tree.jsonl).
+# Append-only. Bootstrap empty.

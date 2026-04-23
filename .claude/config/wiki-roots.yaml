@@ -1,0 +1,43 @@
+# .claude/config/wiki-roots.yaml
+# Single source of truth for wiki-root parameterization (Q9 + R3).
+# Do NOT edit without an AWAITING-APPROVAL-wiki-roots-change-*.md
+# committed to swarm/gates/ first.
+
+schema_version: 1                    # bump when adding/removing keys
+last_modified: 2026-04-23
+managed_by: brigadier               # only brigadier writes this file
+
+wiki_root_v2: wiki                   # path-relative to repo root
+wiki_root_v3: swarm/wiki             # path-relative to repo root
+
+default_root: wiki_root_v3           # which root new skills target
+                                     # unless explicitly overridden via env
+
+bridge_edge_type: cross-tree-ref     # per Q9 + D3 §3.2.12; v3->v2 only
+
+v2_status: read-write                # v2 untouched; existing skills still ingest into wiki/
+v3_status: read-write                # v3 primary going forward
+
+migration_phase: A                   # Phase A = coexist; Phase B may flip migration_phase
+                                     # decision deferred per WIKI-V3-MECHANICS Q9
+                                     # applicability constraint: trigger Phase-B re-eval only when
+                                     # v3 >=50 entries AND >=1 closed cycle AND value-delta observed
+
+# Cross-tree edge-storage paths (T1 separation; per D1 §1.3 + D3 §3.2.12).
+edges_v2: wiki/graph/edges.jsonl
+edges_v3: swarm/wiki/graph/edges.jsonl
+edges_cross_tree: swarm/wiki/graph/cross-tree.jsonl
+
+# Skills inventory and parameterization scope (per D8).
+skills_in_scope_for_wiki_root:
+  - ingest
+  - ask
+  - lint
+  - consolidate
+  - build-graph
+
+skills_excluded_from_wiki_root:
+  - search-kb         # per master synthesis §5.10 -- legacy KB-only; supplanted by /ask
+  - sweep-notion-bank # per master synthesis §5.10 -- one-shot Notion-import bound to 2026-04-16 + DB ID
+  - compile           # per Sub-agent D §4.6 + §7 -- legacy knowledge-base/ writer; deprecated v3
+                      # (D8 §8.6 documents the deprecation rationale; not parameterised)

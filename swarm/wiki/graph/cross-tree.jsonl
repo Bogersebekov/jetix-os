@@ -1,0 +1,4 @@
+# swarm/wiki/graph/cross-tree.jsonl
+# v3 -> v2 cross-tree edges only (per D3 §3.2.12 + T1 separation).
+# Schema: {"from": "swarm/wiki/...", "to": "wiki/...", "type": "cross-tree-ref", "ts": "YYYY-MM-DD", "confidence": "low|medium|high", "note": "<optional>"}.
+# Append-only. Bootstrap empty.
