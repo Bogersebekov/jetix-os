@@ -1180,4 +1180,639 @@ edge type requires AWAITING-APPROVAL escalation (D6 §4).
 
 ---
 
+## DELIVERABLE 4 — Per-Entity-Type Templates (`swarm/wiki/_templates/<type>.md`)
+
+### 4.1 Mandate
+
+For each of the 9 entity types audited by Sub-agent D §1, produce the
+v3 template as a literal fenced block + v2→v3 diff table. Стадия D
+copies each fenced block verbatim into `swarm/wiki/_templates/<type>.md`.
+
+The frontmatter follows D2 §2.2 (cross-layer required fields) + D2
+§2.3 (per-entity-type additions). Body follows v2 conventions where
+applicable; new sections are added to wire the v3 alpha-state fields
+and the §5.5.5 provenance gate (D6 §2). Every template ends with an
+"Edges" section enumerating the wikilinks that map to `edges.jsonl`
+records (per Q3 triple-channel rule, D2 §2.2 lint #5).
+
+`<placeholder>` syntax: angle-bracket tokens are filled in by /ingest
+(or by the brigadier on manual creation). Lists default to `[]`; lines
+prefixed with `# ` are author-facing comments to be removed when the
+template is filled.
+
+### 4.2 `swarm/wiki/_templates/concept.md`
+
+```markdown
+---
+id: concept-<26-char-ULID>
+title: <concept name>
+type: concept
+layer: spine
+niche: <personal|business|sales|life|tech|meta|global>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+last_reviewed:
+pipeline: ingested
+state: drafted
+confidence: medium
+confidence_method:
+tier: core
+produced_by: <agent>-<mode>
+derived_from:
+sources: []
+related: []
+topics: []
+tags: []
+provenance_inline: true
+definition: <one-line definition, ≤200 chars>
+examples: []
+extends:
+---
+
+# <Title>
+
+## Суть в одной строке
+<concise gist, ≤120 chars>
+
+## Определение
+<formal definition, with [src:path#section] inline citations>
+
+## Ключевые свойства
+- <property 1>
+- <property 2>
+
+## Применимость
+<contexts where this concept holds>
+
+## Связи
+- Расширяет: <`[[concepts/parent-concept]]`>
+- Поддерживает: <`[[claims/relevant-claim]]`>
+- Противоречит: <`[[claims/opposing-claim]]`>
+
+## Provenance
+<inline-citation map per §5.5.5; one [src:path] per non-trivial paragraph>
+
+## Edges
+- `[[concepts/<other-concept>]]` (extends) → `edges.jsonl`
+- `[[sources/<source-slug>]]` (derived_from) → `edges.jsonl`
+
+## Источники
+<explicit list mirroring sources[] frontmatter>
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| Frontmatter `id` | absent | added (ULID) | D2 cross-layer required; uniqueness for graph anchor |
+| Frontmatter `layer` | absent | added (`spine`) | D2 cross-layer; drives Q4 task-context filter |
+| Frontmatter `state` | absent | added (`drafted` default) | D2 + α-2 lifecycle (FPF Part 4) |
+| Frontmatter `tier` | absent | added (`core` default) | 24-Lock 13 + master synthesis §5.5.4 |
+| Frontmatter `produced_by` | absent | added | master synthesis §5.5.3 + matrix 5×4 attribution |
+| Frontmatter `definition`/`examples`/`extends` | inferred from body | hoisted to frontmatter | D2 §2.3 concepts-specific schema; queryable without parsing body |
+| Frontmatter `provenance_inline: true` | absent | added | enforces §5.5.5 inline citation rule per D6 §2 |
+| Body "Provenance" section | absent | added | new — explicit citation map per §5.5.5 |
+| Body "Edges" section | absent | added | mirrors edges.jsonl records per Q3 channel C |
+| Body "Источники" | last section, free-form | retained, mirrors sources[] | preserved for human readability |
+
+### 4.3 `swarm/wiki/_templates/entity.md`
+
+```markdown
+---
+id: entity-<26-char-ULID>
+title: <entity name>
+type: entity
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: ingested
+state: drafted
+confidence: medium
+tier: core
+produced_by: <agent>-<mode>
+sources: []
+related: []
+topics: []
+tags: []
+provenance_inline: true
+entity_type: <person|company|product|team|event|place>
+external_ids:
+  notion:
+  linkedin:
+  github:
+  hubspot:
+---
+
+# <Title>
+
+## Кто/что это
+<one-paragraph identification>
+
+## Контекст
+<who/what/where/when>
+
+## Факты
+- <fact 1> [src:path#section]
+- <fact 2>
+
+## Связи
+- Tracked by alpha: <`[[tasks/<task-id>]]`> via `alpha-ref`
+- Related concept: <`[[concepts/<slug>]]`>
+
+## История взаимодействий
+<chronological log of interactions; rotates at 30 entries to _archive/>
+
+## Provenance
+<§5.5.5 inline citation map>
+
+## Edges
+- `[[<task-or-operation-id>]]` (alpha-ref) → `edges.jsonl`
+
+## Источники
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `entity_kind` (v2) | enum string | renamed `entity_type` | D2 §2.3 (alignment with v3 frontmatter naming) |
+| `external_ids` | absent | added (yaml-block) | bridges to Notion/LinkedIn/GitHub/HubSpot per CLAUDE.md "Key Notion IDs" pattern |
+| Body "Связи" — alpha-ref | absent | added | anti-pattern Sub-agent C §8 #2 (avoid wiki-as-CRM); alpha tracks state |
+| Body "История" rotation | implicit | explicit (>30 → _archive/) | global.md §"Логи" rule applied to per-entity history |
+
+### 4.4 `swarm/wiki/_templates/source.md`
+
+```markdown
+---
+id: source-<26-char-ULID>
+title: <source title>
+type: source
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: raw
+state: drafted
+confidence: high
+tier: core
+produced_by: /ingest
+captured_by: /ingest
+captured_date: <YYYY-MM-DD>
+sources: []
+related: []
+topics: []
+tags: []
+source_type: <article|book|podcast|video|meeting|voice-memo|transcript|web|paper>
+url:
+local_path:
+author:
+ingested_date: <YYYY-MM-DD>
+coverage: []
+---
+
+# <Title>
+
+## TL;DR
+<3–5 bullet summary>
+
+## Summary
+<longer prose summary, with [src:path#section] back to local_path or url>
+
+## Ключевые цитаты
+> "<verbatim quote>" — [src:local_path#L42-L48]
+
+## Что извлекли
+- <distilled insight 1, paired with `[[concepts/<slug>]]`>
+- <distilled insight 2, paired with `[[claims/<slug>]]`>
+
+## Provenance
+<§5.5.5 — sources[] non-empty (this page IS a source); pipeline begins at `raw`>
+
+## Edges
+- `[[concepts/<slug>]]` (derived_from inverse — sources are pointed to BY concepts via derived_from)
+
+## Сырое
+<location of raw file under raw/; pointer only, not body content>
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `source_kind` (v2) | string | renamed `source_type` | D2 alignment |
+| `raw_file` (v2) | string | renamed `local_path` | D2 alignment + clearer semantics |
+| `coverage` | absent | added (list of `[[topics/slug]]`) | feeds Q1 Tier 2 grep + Tier 3 BFS seeds |
+| `ingested_date` | v2 `captured` | renamed `ingested_date` (v2 `captured` retained as `captured_date`) | per BUILD §2.2 explicit `captured_by`/`captured_date` schema |
+| Body "Мета" section | present (often empty) | dropped | Sub-agent D §1.1 deadweight call |
+| Body "Сырое" section | present | retained as pointer-only | content lives in raw/, not duplicated |
+
+### 4.5 `swarm/wiki/_templates/claim.md`
+
+```markdown
+---
+id: claim-<26-char-ULID>
+title: <claim assertion>
+type: claim
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+last_reviewed:
+pipeline: ingested
+state: drafted
+confidence: medium
+confidence_method:
+tier: core
+produced_by: <agent>-<mode>
+sources: []
+related: []
+topics: []
+tags: []
+stance: asserted
+support_count: 0
+contradiction_count: 0
+support_edges: []
+contradiction_edges: []
+falsifier: <one-sentence falsifier — what evidence would refute this claim>
+---
+
+# <Title>
+
+## Точная формулировка
+<the claim, single sentence, falsifiable>
+
+## Контекст
+<scope, conditions, who is making it>
+
+## Аргументы за
+- <evidence 1> [src:path#section] — `[[sources/<slug>]]` supports
+- <evidence 2>
+
+## Аргументы против
+- <counter-evidence 1> — `[[claims/<slug>]]` contradicts
+
+## Что опровергнуло бы это утверждение
+<verbatim from `falsifier:` frontmatter; mirrors v2 explicit-falsifier discipline>
+
+## Связи
+- Поддерживается: <`[[sources/<slug>]]`> (supports edge in `edges.jsonl`)
+- Противоречит: <`[[claims/<slug>]]`> (bidirectional contradicts)
+- Тестируется: <`[[experiments/<slug>]]`> (tested_by)
+
+## Provenance
+<§5.5.5 inline citation map; pipeline ≠ raw → sources[] required>
+
+## Edges
+- `[[sources/<slug>]]` (supports) → `edges.jsonl`
+- `[[claims/<slug>]]` (contradicts) → `edges.jsonl` (BOTH directions written)
+- `[[experiments/<slug>]]` (tested_by) → `edges.jsonl`
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `stance` | v2 enum (asserted/supported/contested/refuted) | retained verbatim | v2 audit Sub-agent D §1.4 |
+| `support_count`, `contradiction_count` | absent | derivative fields added | populated by `/build-graph`; feeds D10 health metrics |
+| `support_edges`, `contradiction_edges` | absent | added (lists) | Q3 channel A; reciprocal of edges.jsonl |
+| `falsifier` | inferred from body section | hoisted to frontmatter | enables `/lint` non-empty falsifier validation |
+| Body "Что опровергнуло бы это утверждение" | present | retained, mirrors `falsifier:` field | preserves v2 epistemic discipline |
+| Body "Edges" section | absent | added | Q3 channel C explicit |
+
+### 4.6 `swarm/wiki/_templates/idea.md`
+
+```markdown
+---
+id: idea-<26-char-ULID>
+title: <idea name>
+type: idea
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: raw
+state: drafted
+confidence: low
+tier: core
+produced_by: <agent>-<mode>
+sources: []
+related: []
+topics: []
+tags: []
+proposed_by: <agent or human>
+routing_target:
+idea_status: raw
+---
+
+# <Title>
+
+## Одна строка
+<the idea, ≤120 chars>
+
+## Обоснование
+<why this is worth considering>
+
+## Предполагаемый эффект
+<concrete expected impact>
+
+## Что уже известно/проверено
+<existing evidence, with [src:path] citations if any>
+
+## Следующий шаг
+<routing_target action; e.g. "schedule experiment", "write claim", "skill candidate", "drop">
+
+## Связи
+- Inspired by: <`[[ideas/<slug>]]`> (inspired_by)
+- Related concept: <`[[concepts/<slug>]]`>
+
+## Provenance
+<§5.5.5 — for `state: drafted, pipeline: raw` ideas, sources[] may be empty;
+gate enforces non-empty only at `state: accepted` per D6 §2>
+
+## Edges
+- `[[ideas/<slug>]]` (inspired_by) → `edges.jsonl`
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `status` (v2: raw/evaluated/planned/in-progress/shipped/dropped) | retained as `idea_status` | renamed to disambiguate from cross-layer `state` (α-2) | D2 §2.3 |
+| `proposed_by` | absent (implicit from agent context) | hoisted to frontmatter | accountability + idea routing |
+| `routing_target` | absent | added | drives idea → next-stage promotion (skill candidate per Q6, etc.) |
+| Default `confidence` | low | retained | v2 idea.md (Sub-agent D §1.5) |
+
+### 4.7 `swarm/wiki/_templates/topic.md`
+
+```markdown
+---
+id: topic-<26-char-ULID>
+title: <topic name>
+type: topic
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: ingested
+state: drafted
+confidence: medium
+tier: core
+produced_by: <agent>-<mode>
+sources: []
+related: []
+topics: []
+tags: [#type/topic]
+MOC_for: []
+---
+
+# <Title>
+
+## Зачем эта тема
+<motivation; ≤200 chars>
+
+## Основные концепции
+- `[[concepts/<slug>]]`
+- `[[concepts/<slug>]]`
+
+## Ключевые сущности
+- `[[entities/<slug>]]`
+
+## Открытые вопросы
+- <Q1>
+- <Q2>
+
+## Смежные темы
+- `[[topics/<slug>]]` (related_to / part_of)
+
+## Provenance
+<§5.5.5; topics often aggregate without primary sources — `sources[]` may
+list canonical references>
+
+## Edges
+- `[[concepts/<slug>]]` (part_of) — children via reciprocal edge
+- `[[topics/<slug>]]` (layer-ref or related_to)
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `MOC_for` | absent | added (list) | when this topic acts as Map-of-Content for entities, /ask uses it for Tier 2 retrieval (D2 §2.3) |
+| Naming convention | `<slug>.md` | adds `<slug>-hub.md` when `MOC_for` non-empty | matches v2 hub pattern (`system-design-hub.md`) per Sub-agent D §1.6 |
+
+### 4.8 `swarm/wiki/_templates/experiment.md`
+
+```markdown
+---
+id: experiment-<26-char-ULID>
+title: <experiment title>
+type: experiment
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: ingested
+state: drafted
+confidence: medium
+tier: core
+produced_by: <agent>-<mode>
+cycle_id: cyc-<26-char-ULID>
+sources: []
+related: []
+topics: []
+tags: []
+hypothesis: <falsifiable claim, ≤500 chars>
+start_date: <YYYY-MM-DD>
+end_date:
+outcome: open
+---
+
+# <Title>
+
+## Гипотеза
+<verbatim from `hypothesis:` frontmatter>
+
+## Дизайн
+- IV (independent variable):
+- DV (dependent variable):
+- Control:
+- Duration:
+
+## Что делаем
+<procedure>
+
+## Результат
+<observed; populated when outcome ≠ open>
+
+## Выводы
+<interpretation; cites supporting evidence>
+
+## Связи
+- Tests claim: `[[claims/<slug>]]` (tested_by inverse)
+- Invalidates / supports: <as outcome warrants>
+
+## Provenance
+<§5.5.5; experiments are themselves source-class artefacts after closure>
+
+## Edges
+- `[[claims/<slug>]]` (tests; inverse of tested_by)
+- `[[claims/<slug>]]` (invalidates) — when outcome=lost
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `status` (v2: planned/running/done/aborted) | renamed `outcome` (open/won/lost/aborted) | extends with won/lost semantics for α-3 strategy `validated` transitions | D2 §2.3 |
+| `cycle_id` | absent | added (required) | ties experiment to α-4 cycle; feeds D10 cycle-close-rate |
+| `hypothesis` | inferred from body | hoisted to frontmatter | enables /lint non-empty hypothesis validation |
+| `started`, `ended` | renamed `start_date`, `end_date` | naming alignment with v3 conventions | minor |
+
+### 4.9 `swarm/wiki/_templates/summary.md`
+
+```markdown
+---
+id: summary-<26-char-ULID>
+title: <summary title>
+type: summary
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+pipeline: compiled
+state: drafted
+confidence: medium
+tier: core
+produced_by: /build-graph
+cycle_id: cyc-<26-char-ULID>
+sources: []
+related: []
+topics: []
+tags: []
+summary_window: <daily|weekly|topic|cluster>
+community_id:
+covers: []
+---
+
+# <Title>
+
+## TL;DR
+<3–5 bullet summary>
+
+## Ключевые выводы
+- <key takeaway 1> [src:`[[<page>]]`]
+- <key takeaway 2>
+
+## Что изменилось/появилось
+<delta vs prior summary in same window>
+
+## Что ещё открыто
+<open questions surfaced during aggregation>
+
+## Входные страницы
+<verbatim from `covers:` frontmatter>
+
+## Provenance
+<§5.5.5 — sources[] = the union of `covers[]` pages' sources>
+
+## Edges
+- `[[<covered-page>]]` (part_of-inverse — summary aggregates these)
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `scope` (v2 enum) | renamed `summary_window` | clearer semantics | D2 §2.3 |
+| `community_id` | absent | added | feeds Layer-9 cross-theme metric input per D10 |
+| `covers[]` | retained | required (non-empty) | provenance — what this summary aggregates |
+| `cycle_id` | absent | added (required) | summaries are cycle-bound artefacts |
+
+### 4.10 `swarm/wiki/_templates/foundation.md`
+
+```markdown
+---
+id: foundation-<26-char-ULID>
+title: <foundation principle>
+type: foundation
+layer: spine
+niche: <…>
+created: <YYYY-MM-DD>
+last_modified: <YYYY-MM-DD>
+last_reviewed: <YYYY-MM-DD>     # required per Q5 365-day re-review
+pipeline: linted
+state: accepted                 # foundations enter at `accepted`
+confidence: high
+confidence_method: ruslan-attested
+tier: core
+produced_by: brigadier
+sources: []
+related: []
+topics: []
+tags: [#type/foundation]
+binding_scope: swarm-wide      # or theme:<theme> | expert:<expert>
+supersedes_versions: []
+---
+
+# <Title>
+
+## Принцип
+<the foundation, single decisive statement>
+
+## Почему принимается
+<rationale; 1–3 paragraphs with [src:path#section] citations>
+
+## Что из этого следует
+- <consequence 1>
+- <consequence 2>
+
+## Когда сомневаться
+<conditions under which this foundation should be revisited>
+
+## Связи
+- Supersedes: <`[[foundations/<v2-slug>@v1]]`> (supersedes edge)
+- Tested by: <`[[experiments/<slug>]]`>
+- Тестируется: list of experiments referencing this
+
+## Provenance
+<§5.5.5 — foundations require ≥1 source AND ruslan-attested confidence_method,
+OR brigadier-attested with ≥3 supports>
+
+## Edges
+- `[[foundations/<slug>@v<N-1>]]` (supersedes) → `edges.jsonl`
+```
+
+**v2 → v3 diff:**
+
+| Field/section | v2 | v3 | Reason |
+|---|---|---|---|
+| `binding_scope` | absent | added (required) | D2 §2.3 — foundations may be theme-scoped or swarm-wide |
+| `supersedes_versions[]` | absent | added | tracks supersession chain |
+| Default `confidence` | high | retained | v2 (Sub-agent D §1.9) |
+| Default `state` | drafted (cross-layer default) | overridden to `accepted` | foundations are by definition the brigadier's accepted axioms |
+| `confidence_method: ruslan-attested` (or brigadier-attested) | absent | added | foundations require explicit attribution |
+
+### 4.11 `swarm/wiki/_templates/<entity-template-set-summary>`
+
+The 9 templates above are the complete set. Стадия D writes each
+fenced block above to its named path under `swarm/wiki/_templates/`.
+The 10th template file (`edge-types.md`) was specified in D3 §3.5.
+Total: 10 template files in `swarm/wiki/_templates/`.
+
+### 4.12 Compatibility matrix
+
+| Locked item | D4 honours by … |
+|---|---|
+| W-12 1000% depth | Each template specifies frontmatter (D2-derived), body sections (v2-derived + v3-extended), provenance map, edges section. |
+| Q3 triple-channel | Every template has `related[]` (channel A), inline `[[<type>/<slug>]]` (channel B), and explicit "Edges" section mirroring `edges.jsonl` records (channel C). |
+| Q5 staleness signals | `last_reviewed` required on `foundations/`; `falsifier` required on claims; bidirectional `contradicts` edges (D3 §3.2.2). |
+| §5.5.5 provenance gate | Every template has a "Provenance" section + frontmatter `sources[]`; D6 §2 enforces gate semantics. |
+| FPF Part 4 α-2 lifecycle | Every template has `state` field; default per template type (foundation defaults to `accepted`; sources to `drafted` with `pipeline: raw`). |
+| Sub-agent D §7 transplant table | All 9 v2 templates transplanted with field renames + extensions; deadweight removed (`Мета` in source.md). |
+| R3 v2 untouched, v3 added | v2 templates remain at `wiki/_templates/`; v3 templates **copied** (not symlinked) to `swarm/wiki/_templates/` per Q9 R3. |
+
+---
+
+
 
