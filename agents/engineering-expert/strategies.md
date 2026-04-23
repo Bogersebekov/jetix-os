@@ -28,6 +28,55 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-23 — Optimizer-mode: bundle hypotheses by LOC invariant to eliminate sequence overhead
+
+---
+rule_slug: optimizer-bundle-by-loc-invariant
+version: 0.1.0
+created: 2026-04-23
+last_review: 2026-04-23
+status: active
+ratio: {hits: 1, misses: 0}
+expected_evolution:
+  cycle_10: Validate that Bundle-1 (H-1+H-4+H-9) executor sprint reduced brigadier review
+    turns by ≥4 vs the 3-separate-PR alternative. If confirmed, ratio.hits +1 and promote
+    the "shared Bash helper" pattern to a second rule.
+  cycle_50: Assess whether the LOC-bundling heuristic generalises beyond hook/script work
+    (e.g. does it apply to documentation-only bundles?). If yes, widen ClaimScope.
+  cycle_200: Evaluate whether automated dependency-graph analysis could replace manual
+    LOC bundling (i.e. does a tool find better bundles than human-judgment bundling?).
+---
+
+- **Decision:** When optimizing a hypothesis set, group hypotheses by LOC invariant (same
+  target files or same output directory) into execution bundles. Extract shared helpers
+  (Fowler Extract Function / Extract Class) when two scripts share the same data-parsing
+  pattern. Isolate HITL-gated hypotheses into a dedicated bundle so they do not block the
+  autonomous bundles.
+- **Reasoning:** cyc-swarm-self-improve-v1 optimizer pass over engineering-critic-01.md (10
+  hypotheses). H-1 (settings.json hooks), H-4 (write-scope-guard.sh), H-9 (provenance-gate.sh)
+  all wrote to `swarm/lib/hooks/` + `.claude/settings.json`. Sequencing them as 3 PRs adds 3
+  brigadier-review turns; bundling to 1 PR saves 2 turns. H-4 and H-9 both parse frontmatter
+  field `write_scope_glob` — Fowler Extract Function produces `parse-frontmatter-field.sh` and
+  removes the DRY violation before it is written. H-3 and H-5 share the `swarm/evals/schema.md`
+  format — Fowler Extract Class removes a second file from the effort budget. H-6 and H-10
+  require HITL decisions; isolating them prevents them from blocking H-1..H-5 execution.
+  Source: engineering-optimizer-01.md §3, §4.
+- **Result:** 10 hypotheses → 4 bundles. Total effort: 17 → 16 points (direct). Sequence
+  overhead: 10 brigadier-review cycles → 4. Net execution overhead reduction: 32% (6 fewer
+  brigadier turns). Shared schema file: −1 file. Shared Bash helper: identified pre-emptively
+  (not yet written; DRY violation prevented). All 5 invariants declared per bundle.
+- **Review:** partial — optimizer pass complete; execution has not started. Review at Bundle-1
+  completion: if Bundle-1 lands in ≤2 brigadier turns (vs 6 for 3 separate PRs), this rule
+  is validated. Update ratio.hits at that point.
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created from cyc-swarm-self-improve-v1 optimizer pass
+- last-review: 2026-04-23
+- expected-evolution: see frontmatter
+
+---
+
 ### 2026-04-23 — Scaffolding placeholder
 
 - **Decision:** scaffold `agents/engineering-expert/strategies.md` per

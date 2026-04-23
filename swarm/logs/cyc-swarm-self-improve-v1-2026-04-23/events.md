@@ -33,3 +33,46 @@ state: running
 - completed | sub-agent ζ | 2286 words | cross-pollination | MP-1 "executor-not-wired" meta-pattern + MP-3 "measurement void" + top-emergent-opp HLP (Hook Layer Primary)
 
 ## [2026-04-23] Phase 1 — closed; all 6 context extractions on disk
+
+## [2026-04-23] Phase 2 Round 1 — 5 critics dispatched (parallel)
+
+- dispatched | engineering × critic | parallel | ap_budget=80 | artefacts/engineering-critic-01.md
+- dispatched | mgmt × critic        | parallel | ap_budget=80 | artefacts/mgmt-critic-01.md
+- dispatched | systems × critic     | parallel | ap_budget=80 | artefacts/systems-critic-01.md
+- dispatched | philosophy × critic  | parallel | ap_budget=80 | artefacts/philosophy-critic-01.md
+- dispatched | investor × critic    | parallel | ap_budget=80 | artefacts/investor-critic-01.md
+
+### Phase 2 Round 1 completions (all 5 parallel)
+- completed | engineering × critic | 761 L / 41KB | 10 hypotheses H-1..H-10 | all 8 conformance checks FAIL
+- completed | mgmt × critic        | 780 L / 39KB | 12 hypotheses H-01..H-12 | 3 fault-lines (intake/gate/compound)
+- completed | systems × critic     | 565 L / 30KB |  9 hypotheses H-1..H-9 | loop-dominance claim: H-8 measurement void upstream
+- completed | philosophy × critic  | 902 L / 44KB |  8 hypotheses H-1..H-8 | AP-PHIL codes fired, 5/7 checks fail
+- completed | investor × critic    | 390 L / 44KB |  8 hypotheses H-1..H-8 | 3 alternatives A/B/status-quo
+
+Raw hypothesis count Round 1: 10 + 12 + 9 + 8 + 8 = 47 (before dedup).
+
+## [2026-04-23] Phase 2 Round 2 — 5 optimizers dispatched (parallel)
+
+- dispatched | engineering × optimizer | parallel | ap_budget=70 | artefacts/engineering-optimizer-01.md
+- dispatched | mgmt × optimizer        | parallel | ap_budget=70 | artefacts/mgmt-optimizer-01.md
+- dispatched | systems × optimizer     | parallel | ap_budget=70 | artefacts/systems-optimizer-01.md
+- dispatched | philosophy × optimizer  | parallel | ap_budget=70 | artefacts/philosophy-optimizer-01.md
+- dispatched | investor × optimizer    | parallel | ap_budget=70 | artefacts/investor-optimizer-01.md
+
+### Phase 2 Round 2 completions
+- completed | engineering × optimizer | 483 L / 37KB | 4 bundles (Executor/Text-fixes/Measurement/HITL-gated); 32% overhead reduction
+- completed | mgmt × optimizer        | 573 L / 32KB | 4 bundles I-IV; total HITL cost = 1 gate decision (H-11 only)
+- completed | systems × optimizer     | 571 L / 29KB | Kelly-rank by Meadows×loop-gain/effort; H-8 scores 35.0 (top)
+- completed | philosophy × optimizer  | 665 L / 30KB | B-1 falsifier + B-2 scope + B-3 meta-grounding bundles; schema template
+- completed | investor × optimizer    | 642 L / 41KB | Kelly ranking; ROI 7.9× lower bound; 3 bundles A/B/C; 1 preserved dissent
+
+## [2026-04-23] Phase 2 Round 3 — integrator pass (serial: mgmt first)
+
+- dispatched | mgmt × integrator | serial | ap_budget=90 | artefacts/mgmt-integrator-01.md
+- pending    | philosophy × integrator | serial after mgmt | artefacts/philosophy-integrator-01.md
+
+### Phase 2 Round 3 mgmt-integrator completion
+- completed | mgmt × integrator | 19 clusters + 6 Tier-1 opportunities + 5 preserved dissents + 2 HITL decisions (HD-01 €50K gate, HD-02 M-class rate-limiter)
+
+### Phase 2 Round 3 philosophy-integrator dispatch
+- dispatched | philosophy × integrator | serial | ap_budget=60 | scope: meta-epistemic sanity pass on mgmt-integrator-01 | artefacts/philosophy-integrator-01.md
