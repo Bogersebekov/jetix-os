@@ -141,14 +141,13 @@ swarm/
 │   ├── drafts/                               # cell-write zone (single-writer, Q2)
 │   ├── proposals/                            # brigadier decomposition artefacts
 │   │
-│   ├── niches/                               # per-agent symlink slices
+│   ├── niches/                               # per-agent symlink slices (6 niches per CLAUDE.md L70)
 │   │   ├── personal/
 │   │   ├── business/
 │   │   ├── sales/
 │   │   ├── life/
 │   │   ├── tech/
-│   │   ├── meta/
-│   │   └── global/
+│   │   └── meta/
 │   │
 │   ├── meta/                                 # observability + cross-agent
 │   │   ├── health.md                         # D10 dashboard skeleton
@@ -170,7 +169,7 @@ swarm/
 │   │   │   ├── heuristics/
 │   │   │   ├── anti-patterns/
 │   │   │   └── README.md                     # theme tour + book citations
-│   │   ├── management/
+│   │   ├── mgmt/                         # short-form per master synthesis §5.5.1 + ROY-ALIGNMENT mgmt-expert
 │   │   │   └── … (same shape)
 │   │   ├── systems/
 │   │   │   └── … (same shape)
@@ -230,8 +229,8 @@ swarm/
 │   └── insights/                             # LAYER 9 — Phase B placeholder
 │       ├── README.md                         # 3-AND trigger encoded here (Q8)
 │       ├── candidates/                       # crazy-agent writes (Phase B)
-│       ├── reviewed/                         # critic-reviewed (Phase B)
 │       └── promoted/                         # → moves to global/ (Phase B)
+│                                             # (2 buckets per Q8 lock; critic review uses α-2 `reviewed` state on candidates/, no separate dir)
 │
 ├── lib/                                      # shared protocols + libraries
 │   └── shared-protocols.md                   # D6
@@ -300,7 +299,7 @@ subtree per `<task-id>`), `per-project` (per `<project-slug>`),
 | `swarm/wiki/comparisons/`                         | spine | `/ask`              | derivative                | `<YYYY-MM-DD>-<question-slug>.md`                   | per-entity    | empty dir.                                                                       |
 | `swarm/wiki/drafts/`                              | spine | experts             | expert-direct (drafts only) | `<task-id>-<expert>-<artefact>.md`                | per-task      | empty dir. **Only path where experts write directly.**                          |
 | `swarm/wiki/proposals/`                           | spine | brigadier           | brigadier-write           | `<task-id>-decomposition.md`                        | per-task      | empty dir.                                                                       |
-| `swarm/wiki/niches/{personal,business,sales,life,tech,meta,global}/` | spine | brigadier (creates symlinks) | brigadier-write | dir of symlinks into other layers              | 7 dirs        | each `niches/<n>/` populated with symlinks per CLAUDE.md per-agent memory rule.  |
+| `swarm/wiki/niches/{personal,business,sales,life,tech,meta}/` | spine | brigadier (creates symlinks) | brigadier-write | dir of symlinks into other layers              | 6 dirs        | each `niches/<n>/` populated with symlinks per CLAUDE.md per-agent memory rule. (6 niches per CLAUDE.md L70 lock; no `global` — global aggregation lives at Layer 7 `swarm/wiki/global/`.)  |
 | `swarm/wiki/meta/health.md`                       | spine | `/lint` + meta-agent | derivative + meta-agent-via-task | singleton                                | singleton     | D10 skeleton (8 sections + structured-log scaffold).                            |
 | `swarm/wiki/meta/agent-improvements/`             | 4     | brigadier           | brigadier-write           | `<expert>-improvements.md` + `system-level-*.md` + `emergent-insights.md` | 7 files | empty body in each (frontmatter only); brigadier appends per W-5 Level-2 sweep. |
 | `swarm/wiki/_archive/`                            | spine | `/consolidate`      | derivative                | `<YYYY-MM-DD>-<slug>.md` (loser pages)              | per-entity    | empty dir.                                                                       |
@@ -308,7 +307,7 @@ subtree per `<task-id>`), `per-project` (per `<project-slug>`),
 | `swarm/wiki/themes/<theme>/{concepts,methods,heuristics,anti-patterns}/` | 1 | brigadier/expert-via-task | brigadier-write | `<slug>.md`                                | per-entity    | empty dirs.                                                                      |
 | `swarm/wiki/brigadier/`                           | 2     | brigadier           | brigadier-write           | `<slug>.md` per sub-bucket                          | 4 sub-buckets | `README.md` + 4 sub-dirs (`how-to-solve-problems/`, `how-to-manage-agents/`, `how-to-decompose-tasks/`, `orchestration-state/`). |
 | `swarm/wiki/agents/<expert>/`                     | 3     | brigadier (canonical) + expert-via-task (drafts) | brigadier-write | `<slug>.md`, `cross-refs.md`, `README.md` | 5 experts | per-expert `README.md` + empty `scratchwork/` + empty `cross-refs.md`.            |
-| `swarm/wiki/tasks/<task-id>/`                     | 5     | brigadier           | brigadier-write           | `<task-id>` = ULID per BUILD §3                     | per-task      | created on intake by brigadier (subdirs `context/`, `artefacts/`, `decisions/`, file `open-questions.md`). |
+| `swarm/wiki/tasks/<task-id>/`                     | 5     | brigadier           | brigadier-write           | `<task-id>` matches `^task-[a-z0-9-]{1,60}$` (kebab-slug per critic-gate1 H7; e.g. `task-2026-04-23-wiki-v3-spec`) | per-task      | created on intake by brigadier (subdirs `context/`, `artefacts/`, `decisions/`, file `open-questions.md`). |
 | `swarm/wiki/tasks/<task-id>/context/manifest.yaml` | 5    | brigadier           | brigadier-write           | singleton per task                                  | per-task      | YAML with `priority: 1..N` per pulled context page (Q4 + W-12 cross-ref §6 #7).  |
 | `swarm/wiki/tasks/<task-id>/context/pinned.md`     | 5    | brigadier           | brigadier-write           | singleton per task                                  | per-task      | empty (brigadier override surface).                                              |
 | `swarm/wiki/tasks/<task-id>/artefacts/`           | 5     | experts             | expert-direct (drafts only) | `<expert>-<artefact>.md`                          | per-task      | empty dir; populated as experts return drafts.                                   |
@@ -321,12 +320,14 @@ subtree per `<task-id>`), `per-project` (per `<project-slug>`),
 | `swarm/wiki/skills/active/`                       | 8     | brigadier           | brigadier-write           | `<skill-slug>.md` (canonical, target of D9 symlink) | per-skill     | empty dir.                                                                       |
 | `swarm/wiki/skills/usage/`                        | 8     | each skill at invoke | derivative                | `<skill-slug>.jsonl` (per-skill use-log)            | per-skill     | empty dir.                                                                       |
 | `swarm/wiki/insights/README.md`                   | 9     | human-only          | human-only                | singleton                                          | singleton     | encodes the 3-AND Q8 trigger + states "Phase A scaffold-only — DO NOT write candidates without Ruslan approval." |
-| `swarm/wiki/insights/{candidates,reviewed,promoted}/` | 9 | (Phase B agents)    | (Phase B)                 | `<slug>.md` (Phase B)                               | per-entity    | **empty dirs in Phase A.** No agent instantiated. (W-10, R5.)                    |
+| `swarm/wiki/insights/{candidates,promoted}/` | 9 | (Phase B agents)    | (Phase B)                 | `<slug>.md` (Phase B)                               | per-entity    | **empty dirs in Phase A.** No agent instantiated. (W-10, R5; Q8 locks 2 buckets.) Critic review of candidates uses α-2 `reviewed` state in-place; no separate `reviewed/` bucket.                    |
 | `swarm/lib/shared-protocols.md`                   | spine | brigadier           | brigadier-write           | singleton                                          | singleton     | full content of D6 (initial Phase A version).                                    |
 | `swarm/scratchpads/`                              | n/a   | each agent          | (volatile)                | `<agent-id>.md`                                    | per-agent     | empty dir; not part of `swarm/wiki/` (volatile working memory).                  |
 | `swarm/gates/`                                    | n/a   | brigadier           | brigadier-write           | `AWAITING-APPROVAL-<slug>-<YYYY-MM-DD>.md`           | per-gate      | empty dir; HITL escalations land here per D6 §4.                                 |
 | `swarm/mailboxes/`                                | n/a   | each agent          | append-only                | `<agent-id>.jsonl`                                  | per-agent     | empty dir; per master synthesis §5.6.2 PostToolUse.                              |
-| `swarm/logs/`                                     | n/a   | each agent          | append-only                | `<cycle-id>.md`                                    | per-cycle     | empty dir.                                                                       |
+| `swarm/logs/<cycle-id>/`                          | n/a   | brigadier           | brigadier-write            | `<cycle-id>` matches `^cyc-[a-z0-9-]{1,40}$`        | per-cycle     | created at α-4 `opened` transition; contains `events.md` (append-only event stream) and `cycle-log.md` (closed at α-4 `closed`). |
+| `swarm/logs/<cycle-id>/events.md`                 | n/a   | each agent          | append-only                | singleton per cycle                                | per-cycle     | append-only event log; one line per `Task()` invocation, integration, gate, etc. |
+| `swarm/logs/<cycle-id>/cycle-log.md`              | n/a   | brigadier           | brigadier-write            | singleton per cycle (the α-4 `closed` artefact)    | per-cycle     | written at α-4 `closed`; required frontmatter `cycle_id`, `task_id`, `summary` (≥1 line), `open_questions` (≥1 line); body free-form. **Authoritative state-determining file for α-1 `archived` and α-4 `closed` predicates.** |
 | `agents/<expert>/strategies.md`                   | n/a   | expert (Level-1) — direct | expert-direct (this exact file only) | one per expert (5 files)                       | per-expert    | empty body + frontmatter; Level-1 CE per CLAUDE.md (per-agent memory layer "Strategies"). **Lives at project root, NOT under `swarm/`, per T5/R6.** |
 | `.claude/config/wiki-roots.yaml`                  | n/a   | brigadier (one-time) | brigadier-write          | singleton                                          | singleton     | content of D7 (initial bootstrap).                                               |
 | `.claude/skills/<slug>.md`                        | n/a   | brigadier (creates symlink) | brigadier-write    | `<slug>.md` symlinked to `swarm/wiki/skills/active/<slug>.md` per D9 | per-skill | existing v2 skills retained as regular files; v3 promoted skills land as symlinks per D9 lifecycle. |
@@ -348,7 +349,7 @@ indicated):
    stubs.
 7. `swarm/wiki/foundations/swarm-alphas.md` — full content of D5.
 8. `swarm/wiki/foundations/{engineering,mgmt,systems,philosophy,investing}/README.md` — placeholder ("Phase B fill from books").
-9. `swarm/wiki/themes/{engineering,management,systems,philosophy,investing}/README.md` — placeholder per theme.
+9. `swarm/wiki/themes/{engineering,mgmt,systems,philosophy,investing}/README.md` — placeholder per theme.
 10. `swarm/wiki/brigadier/README.md` — placeholder.
 11. `swarm/wiki/agents/{engineering-expert,mgmt-expert,systems-expert,philosophy-expert,investor-expert}/README.md` — placeholder per expert.
 12. `swarm/wiki/insights/README.md` — Q8 3-AND trigger + Phase-A
@@ -425,16 +426,17 @@ following are simultaneously true AND Ruslan explicitly approves:
    in `swarm/gates/` and is acked.
 
 Until activation:
-- `candidates/`, `reviewed/`, `promoted/` MUST remain empty.
+- `candidates/`, `promoted/` MUST remain empty.
 - `/lint` flags any non-README write under `swarm/wiki/insights/` as
   a Q8/W-10 violation.
 
 Phase-B activation flow (when triggered):
-- crazy-agent writes into `candidates/`.
-- Critic / philosophy-expert reviews → moves to `reviewed/`.
-- Brigadier promotes via §5.5.5 provenance gate → moves to
-  `promoted/`, then promotes again to `swarm/wiki/global/` per W-11
-  cognitive-infrastructure mandate.
+- crazy-agent writes into `candidates/` (page enters at `state: drafted`).
+- Critic / philosophy-expert reviews in-place: page advances α-2
+  `state: drafted → reviewed → accepted` (no directory move).
+- Brigadier promotes via §5.5.5 provenance gate → moves the
+  `accepted` candidate file to `promoted/`, then promotes again to
+  `swarm/wiki/global/` per W-11 cognitive-infrastructure mandate.
 ```
 
 ### 1.7 Tensions resolved by D1, conflicts escalated
@@ -538,23 +540,23 @@ These fields are mandatory on every `.md` page under `swarm/wiki/`
 
 | Field           | Type                                | Req | Default                  | Validation rule (`/lint`)                                                                 | Source                                                | Lifecycle integration                                                       |
 |-----------------|-------------------------------------|-----|--------------------------|-------------------------------------------------------------------------------------------|-------------------------------------------------------|-----------------------------------------------------------------------------|
-| `id`            | string (ULID, `<type>-<26-char>`)   | yes | generated by /ingest     | unique across `swarm/wiki/`; matches regex `^[a-z]+-[0-9A-Z]{26}$`                          | Sub-agent C §1 H.1 (deterministic path schema), W-12 | unique anchor for all alpha state references in `graph/edges.jsonl`         |
+| `id`            | string (kebab-slug, `<type>-<slug>`) | yes | derived from filename slug or generated by /ingest | unique across `swarm/wiki/`; matches regex `^[a-z]+-[a-z0-9-]{1,60}$`. Examples: `concept-4-tier-retrieval`, `task-2026-04-23-wiki-v3-spec`, `cyc-2026-04-23-am`. (Per critic-gate1 H7 — ULID format dropped; no Tier-1 source mandates ULID; Sub-agent C §1 H.5 uses short-slug examples like `deal-042`, `client:acme`.) | Sub-agent C §1 H.1 (deterministic path schema), W-12 | unique anchor for all alpha state references in `graph/edges.jsonl`         |
 | `title`         | string                              | yes | none                     | non-empty; ≤120 chars                                                                       | v2 templates (Sub-agent D §1.1)                       | rendered in `index.md` TOC + `log.md` lines                                 |
 | `type`          | enum                                | yes | none                     | one of `concept|entity|source|claim|idea|topic|experiment|summary|foundation|skill|task|operation|insight|improvement|theme-page` | v2 (Sub-agent D §1.1) + Q3 12-edge enum (D3) | drives template selection in /ingest, frontmatter delta lookup              |
 | `layer`         | int 1..9 OR `spine`                 | yes | none                     | matches the dir's layer per D1 §1.3                                                         | D1 + W-1                                              | drives Q4 task-context filter + niche routing                               |
-| `niche`         | enum                                | yes | none                     | one of `personal|business|sales|life|tech|meta|global`                                      | v2 (Sub-agent D §1.1) + CLAUDE.md per-agent memory   | Q4 niche-filtered Tier A pull; cross-niche edges feed Q8 Layer-9 trigger    |
+| `niche`         | enum                                | yes | none                     | one of `personal|business|sales|life|tech|meta` (per CLAUDE.md L70 6-niche lock; cross-niche aggregation lives at Layer 7 `swarm/wiki/global/`)                                      | CLAUDE.md L70 (locked); v2 templates (Sub-agent D §1.1) drift adds `global` — corrected here per critic-gate1 S3   | Q4 niche-filtered Tier A pull; cross-niche edges feed Q8 Layer-9 trigger    |
 | `created`       | iso-date `YYYY-MM-DD`               | yes | today                    | valid ISO date ≤ today                                                                       | v2 (Sub-agent D §1.1)                                 | inputs to staleness signal #3 (Q5 confidence×age)                           |
 | `last_modified` | iso-date `YYYY-MM-DD`               | yes | today                    | valid ISO date ≤ today, ≥ `created`                                                          | v2 + Q5                                               | inputs to staleness signal #3                                               |
 | `last_reviewed` | iso-date `YYYY-MM-DD`               | opt | `<unset>`                | if set: ≥ `created`. Required for `foundations/` (Q5 §3 365-day re-review).                 | Sub-agent A §1 Q5 + Sub-agent C §4 signal 3           | staleness signal #3                                                         |
 | `pipeline`      | enum                                | yes | `raw` for new, `ingested` post-/ingest | one of `raw|ingested|compiled|linted|ready`                                  | CLAUDE.md, Sub-agent D §1                             | content-maturity axis (independent of `state`)                              |
 | `state`         | enum                                | yes | `drafted`                | one of `drafted|reviewed|revised|accepted|referenced|superseded|retired|tombstoned` (D5 α-2) | FPF Part 4 §4.1 (Sub-agent B §2) + Q5                 | artefact lifecycle axis; D5 transitions; staleness signals #4, #5           |
 | `confidence`    | enum                                | yes | layer default            | one of `low|medium|high`. Defaults: `foundations/` = `high`; `claims/` = layer default; `ideas/` = `low` per v2.  | v2 (Sub-agent D §1.4–§1.5) + Q5                       | staleness signal #1 (low + >60d → flag)                                     |
-| `confidence_method` | enum                            | opt | `<unset>`                | one of `expert-judgment|golden-set|cited-source|peer-reviewed|ruslan-attested` (W-12 depth) | Q5 + W-12                                             | reviewers see why a confidence value was assigned                           |
+| `confidence_method` | enum                            | opt (req when `confidence: high` AND `type: foundation` per D4 §4.10) | `<unset>` | one of `expert-judgment|golden-set|cited-source|peer-reviewed|ruslan-attested|brigadier-attested-with-3-supports` (closes critic-gate1 H9 — added the brigadier-attested method that D6 §6.3.2.5 references) | Q5 + W-12 + critic-gate1 H9 | reviewers see why a confidence value was assigned                           |
 | `tier`          | enum                                | yes | `core`                   | one of `core|partner|member|public` (24-Lock 13)                                            | master synthesis §5.5.4 (Sub-agent E §1.5.4)         | tier-check hook on outgoing artefacts (D6 §1)                               |
 | `produced_by`   | string                              | yes | `<agent>-<mode>` or `human` or `brigadier` | matches `^(brigadier|human|<expert>-(critic|optimizer|integrator|scalability|writing-support))$` | master synthesis §5.5.3 (Sub-agent E §1.5.3) + matrix 5×4 (E §5) | identifies the cell that drafted; brigadier substitutes for canonical writes |
 | `derived_from`  | string                              | opt | `<unset>`                | if set: format `<expert>-<mode>` or `<task-id>:<draft-slug>` (chained provenance per E §8 ambiguity 5) | Sub-agent E §6 (matrix-vs-write resolution)          | when brigadier promotes a cell draft to canonical, names the originating cell |
-| `task_id`       | string (ULID)                       | opt | `<unset>` (required for tasks/, drafts/, artefacts/) | matches `^task-[0-9A-Z]{26}$`                                | BUILD §2.2 (Sub-agent B §2 α-2 acceptance)            | ties draft → task scope (Q4 + Layer 5)                                      |
-| `cycle_id`      | string                              | opt | `<unset>` (required for experiments/, summaries/) | matches `^cyc-[0-9A-Z]{26}$`                                  | master synthesis §5.5.3 + α-4 (Sub-agent B §4)        | ties artefact → α-4 cycle (Layer-9 trigger counter, D10)                    |
+| `task_id`       | string (kebab-slug)                 | opt | `<unset>` (required for tasks/, drafts/, artefacts/) | matches `^task-[a-z0-9-]{1,60}$` (kebab-slug per H7)            | BUILD §2.2 (Sub-agent B §2 α-2 acceptance)            | ties draft → task scope (Q4 + Layer 5)                                      |
+| `cycle_id`      | string (kebab-slug)                 | opt | `<unset>` (required for experiments/, summaries/) | matches `^cyc-[a-z0-9-]{1,40}$`                                | master synthesis §5.5.3 + α-4 (Sub-agent B §4)        | ties artefact → α-4 cycle (Layer-9 trigger counter, D10)                    |
 | `commit_sha`    | string (40-hex)                     | opt | `<unset>`                | matches `^[0-9a-f]{40}$` if set; written by /ingest after the wiki commit                   | BUILD §2.2 (Sub-agent B §2 α-2 acceptance)            | provenance traceability — per §5.5.5 gate (D6 §2)                           |
 | `captured_by`   | string                              | yes | `<agent-name>`           | matches `^(brigadier|<expert>-<mode>|human|/ingest|/ask|/lint|/consolidate|/build-graph)$`   | BUILD §2.2 (Sub-agent B §2)                           | provenance — who recorded this artefact                                      |
 | `captured_date` | iso-date                            | yes | today                    | valid ISO date ≤ today                                                                       | BUILD §2.2                                            | provenance — when                                                            |
@@ -632,7 +634,7 @@ fields shown.
 | `start_date` | iso-date | yes | today | valid ISO date | v2 `started` | timeline tracking |
 | `end_date` | iso-date | opt | `<unset>` | if set, ≥ `start_date` | v2 `ended` | required for `outcome ∈ {won, lost}` |
 | `outcome` | enum | yes | `open` | one of `open|won|lost|aborted` | spec extends v2 (`status: planned|running|done|aborted`) — adds `won/lost` semantics | feeds α-3 strategy `validated` transitions |
-| `cycle_id` | string ULID | yes | none | matches regex above | spec illustrative + α-4 | ties experiment to its cycle |
+| `cycle_id` | string (kebab-slug) | yes | none | matches `^cyc-[a-z0-9-]{1,40}$` | spec illustrative + α-4 | ties experiment to its cycle |
 
 #### `summaries/<scope>-<YYYY-MM-DD>.md`
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
@@ -664,8 +666,25 @@ Pages inside the 9 numbered layers add layer-specific fields on top of
 #### Layer 1 — `themes/<theme>/...`
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
 |---|---|---|---|---|---|---|
-| `theme` | enum | yes | dir-derived | one of `engineering|management|systems|philosophy|investing` | W-1 + GOALS §2 L307–316 | constrains `niche` to one of `tech|business|systems-meta|meta|business` mapping |
+| `theme` | enum | yes | dir-derived | one of `engineering|mgmt|systems|philosophy|investing` (5 themes; matches both `themes/<theme>/` and `foundations/<theme>/` dir naming per master synthesis §5.5.1, agent-dir convention `<theme>-expert/` per ROY-ALIGNMENT) | master synthesis §5.5.1 + ROY-ALIGNMENT (Sub-agent E §5) | drives `niche` per the 5×1 theme→niche map below |
 | `book_citations` | list of `{book_path, page_range?}` | yes | `[]` | each `book_path` resolves under `raw/books-md/` (Phase B); empty in Phase A | W-3 + Phase-A note in D1 §1.7 | provenance for theme-distillation per book |
+
+**Theme → niche map (5×1; closes critic-gate1 H5):**
+
+| `theme` value | `niche` value | Notes |
+|---|---|---|
+| `engineering` | `tech` | engineering content lands in tech niche |
+| `mgmt` | `business` | management theme → business niche |
+| `systems` | `meta` | systems thinking is meta-domain (cybernetics, complexity) |
+| `philosophy` | `meta` | philosophy of science is meta-domain |
+| `investing` | `business` | investing → business niche |
+
+Pages under `swarm/wiki/themes/<theme>/...` MUST set `niche` per this
+map; `/lint` rejects mismatches. Note that two themes (`mgmt` +
+`investing`) share `business`, and two (`systems` + `philosophy`)
+share `meta` — that is intentional: 5 themes condense into 6 niches
+(`tech`, `business`, `meta`, plus the cross-cutting `personal`,
+`sales`, `life`).
 
 #### Layer 2 — `brigadier/...`
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
@@ -693,9 +712,9 @@ Pages inside the 9 numbered layers add layer-specific fields on top of
 Per-task pages add:
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
 |---|---|---|---|---|---|---|
-| `task_id` | string ULID | yes | dir-derived | matches `^task-[0-9A-Z]{26}$`; matches `<task-id>` in path | BUILD §3 + α-1 (Sub-agent B §1) | α-1 Task lifecycle |
+| `task_id` | string (kebab-slug) | yes | dir-derived | matches `^task-[a-z0-9-]{1,60}$`; matches `<task-id>` in path | BUILD §3 + α-1 (Sub-agent B §1) | α-1 Task lifecycle |
 | `alpha_state` | enum | yes | `submitted` | one of `submitted|intaked|decomposed|dispatched|integrated|gated|approved|compounded|archived|refused|returned|rejected` | α-1 (Sub-agent B §1) | D5 α-1 state |
-| `niche` | enum | yes | per task | from `personal|business|sales|life|tech|meta|global` | Q4 niche-filter | Tier A pull |
+| `niche` | enum | yes | per task | from `personal|business|sales|life|tech|meta` (per cross-layer §2.2 — 6 niches per CLAUDE.md L70 lock) | Q4 niche-filter | Tier A pull |
 
 For `tasks/<task-id>/context/manifest.yaml` specifically:
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
@@ -720,7 +739,7 @@ For `tasks/<task-id>/context/manifest.yaml` specifically:
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
 |---|---|---|---|---|---|---|
 | `skill_slug` | string (kebab-case) | yes | dir-derived | matches `^[a-z0-9][a-z0-9-]{0,49}$` | Q6 (Sub-agent A §1) | symlink slug per D9 |
-| `skill_state` | enum | yes | `candidate` | one of `candidate|learning|active|retired|tombstoned` (α-3 spec set, Sub-agent B §3 mapping) | Q6 + α-3 + D11 | drives bucket placement |
+| `skill_state` | enum | yes | `candidate` | one of `candidate|learning|active|tombstoned` — 4 values matching FPF Part 4 §4.3 α-3 lock (`retired` dropped per critic-gate1 S2; supersession captured via tombstoned + `supersedes:` edge) | Q6 + α-3 + D11 | drives bucket placement |
 | `golden_set_path` | string | opt (req when `skill_state ∈ {learning, active}`) | `<unset>` | resolves to `swarm/wiki/skills/<bucket>/<slug>/golden-set.jsonl` | Q6 + Sub-agent C §5 | activation predicate (D11) |
 | `success_count` | int | opt | `0` | derived from `usage/<slug>.jsonl` | Q6 + D11 | activation/retirement predicates |
 | `loss_count` | int | opt | `0` | derived from `usage/<slug>.jsonl` | Q6 + D11 | activation/retirement predicates |
@@ -730,7 +749,7 @@ For `tasks/<task-id>/context/manifest.yaml` specifically:
 #### Layer 9 — `insights/...` (Phase A: README only)
 | Field | Type | Req | Default | Validation | Source | Lifecycle |
 |---|---|---|---|---|---|---|
-| `insight_state` | enum | yes (Phase B) | `candidate` | one of `candidate|reviewed|promoted` | Q8 + W-10 | bucket placement |
+| `insight_state` | enum | yes (Phase B) | `candidate` | one of `candidate|promoted` (review status carried by α-2 `state` field) | Q8 (2 buckets locked) + W-10 | bucket placement |
 | `cross_themes` | list of theme enums | opt (req for `reviewed`) | `[]` | each in Layer 1 theme enum; ≥2 entries to qualify for `reviewed` | Q8 cross-theme density | Layer-9 trigger metric input |
 | `phase_a_lock` | bool | yes | `true` | `/lint` blocks Layer-9 page creation when `true` AND no Ruslan ack file exists in `swarm/gates/` | W-10 + R5 | enforces "scaffold-only" |
 
@@ -802,20 +821,19 @@ schema validators directly from the per-layer subsections above.
 
 ### 3.1 Mandate, count reconciliation, and citation map
 
-The locked enumeration in **WIKI-V3-MECHANICS L216–234** specifies 9
-intra-layer types + `part_of` (formalised 10th intra-layer) + 3
-cross-layer types. The summary line at L236 reads "Total: 12 edge
-types" — this **undercounts the explicit enumeration by one** (the
-summary did not count `part_of` separately). Per Q3 + R7 (locked) and
-Sub-agent A §1 Q3 + Sub-agent C §3 + Sub-agent D §2 (audit confirmed
-`part_of` as the dominant edge in v2 with 233 of 572 records), this
-spec adopts the **enumerated list** as authoritative — **13 distinct
-edge types**. The summary "12" is treated as a clerical error. (If
-Ruslan prefers a strict 12-type bundle, the most defensible cut is
-`addresses_gap` — 0 usage in v2 per Sub-agent D §2, semantically
-overlapped by `derived_from`. Deferred to gate review.)
+**WIKI-V3-MECHANICS L216–234** enumerates 9 intra-layer types +
+`part_of` (formalised 10th intra-layer) + 3 cross-layer types — that
+literal enumeration adds to 13. The summary line at L236 reads "Total:
+12 edge types"; this off-by-one is reconciled here by **dropping
+`addresses_gap`** from the enum (per critic-gate1 H4 +
+Sub-agent D §2 audit: 0 v2 usage; semantically overlapped by
+`derived_from` + the `/lint` orphan-detection signal). Result: **12
+distinct edge types** (8 intra-layer original + `part_of` + 3
+cross-layer = 12), matching the locked R7 summary. If Ruslan
+disagrees and wants `addresses_gap` retained, append it to D3 §3.2 as
+the 13th type — non-breaking add.
 
-The 13-type enum lives at `swarm/wiki/_templates/edge-types.md` and is
+The 12-type enum lives at `swarm/wiki/_templates/edge-types.md` and is
 the single source of truth for `/build-graph`, `/ingest`, `/lint`, and
 `/ask` Tier-3 typed-BFS retrieval (per Sub-agent A §6 cross-ref #1).
 
@@ -931,24 +949,13 @@ worked example record (JSON line as it appears in
   [[<A>]]`; A's frontmatter `supersedes_versions:` includes B
   (per D2 foundations schema).
 
-#### 3.2.8 `addresses_gap` (intra-layer #8)
-- **Definition.** Page A is created to fill a gap previously
-  flagged by `/lint` (e.g. orphan reference, missing concept).
-- **Cardinality.** N:M.
-- **Directionality.** Directed (`new → gap-marker`).
-- **Inverse.** `gap_filled_by` (derivative).
-- **Allowed `from`.** Any spine entity-type.
-- **Allowed `to`.** `topics`, `claims` (where the gap was lint-flagged).
-- **Cross-layer flag.** No.
-- **Example.** `{"from":"concepts/edge-cardinality","to":"topics/edge-types-hub","type":"addresses_gap","ts":"2026-04-23","confidence":"medium"}`
-- **`/lint` rule.** Used to clear `/lint`-emitted gap warnings —
-  presence of an `addresses_gap` edge to a topic with a previously
-  reported "missing concept" closes that warning.
-- **Note on usage.** Zero v2 usage (Sub-agent D §2). Retained per
-  R7 locked enum; if Ruslan prefers a 12-type bundle this is the
-  best drop candidate.
+#### 3.2.8 `derived_from` (intra-layer #8)
 
-#### 3.2.9 `derived_from` (intra-layer #9)
+(Per critic-gate1 H4 reconciliation, the previous slot 3.2.8 — `addresses_gap`
+— is dropped to land on 12 types matching MECHANICS L236 summary.
+Gap-clearing semantics are absorbed by `derived_from` + the `/lint`
+orphan-detection signal.)
+
 - **Definition.** Source S was used to derive concept/claim/idea P.
 - **Cardinality.** N:M.
 - **Directionality.** Directed (`derived → source`).
@@ -963,7 +970,7 @@ worked example record (JSON line as it appears in
   edge OR ≥1 `supports` edge OR `tier: foundation` (provenance gate
   per §5.5.5, D6 §2).
 
-#### 3.2.10 `part_of` (intra-layer #10 — formalised per Q3)
+#### 3.2.9 `part_of` (intra-layer #9 — formalised per Q3)
 - **Definition.** Mereological — page A is a part of composite B
   (Sub-agent C §3 + F.1 holon mereology). The dominant v2 edge (233
   of 572 records); formalised here per Sub-agent A §1 Q3 ("`part_of`
@@ -982,7 +989,7 @@ worked example record (JSON line as it appears in
   OR a `foundations/` page; otherwise re-route to `derived_from` or
   `extends`. No cycles (mereology DAG).
 
-#### 3.2.11 `alpha-ref` (cross-layer #1)
+#### 3.2.10 `alpha-ref` (cross-layer #1)
 - **Definition.** Wiki entity links to its alpha tracker (W-1 §D.3
   per Sub-agent C §3). The wiki captures conceptual identity; the
   alpha captures operational state; this edge bridges them without
@@ -1005,7 +1012,7 @@ worked example record (JSON line as it appears in
   they describe an operationally active entity (heuristic: `entity_type
   ∈ {company, product, team}` AND `state ∈ {accepted, referenced}`).
 
-#### 3.2.12 `layer-ref` (cross-layer #2)
+#### 3.2.11 `layer-ref` (cross-layer #2)
 - **Definition.** Generic cross-layer link without specific
   semantics. Used when the relationship between layers is one of
   reference (e.g. theme concept → global pattern) but no other
@@ -1025,7 +1032,7 @@ worked example record (JSON line as it appears in
   (e.g. if a `layer-ref` runs from a `concept` to a `source`, suggest
   `derived_from`).
 
-#### 3.2.13 `cross-tree-ref` (cross-layer #3)
+#### 3.2.12 `cross-tree-ref` (cross-layer #3)
 - **Definition.** v3 `swarm/wiki/` page citing v2 `wiki/` page (Q9
   bridge per Sub-agent A §1 Q9; Sub-agent E §8 cross-ref). **v3 → v2
   only** (no reverse direction allowed; v2 stays untouched per R3).
@@ -1059,7 +1066,7 @@ operations; **L7** = global; **L8** = skills; **L9** = insights;
 
 | from \ to | S | L1 | L2 | L3 | L4 | L5 | L6 | L7 | L8 | L9 | v2 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| **S**  | extends, contradicts, supports, inspired_by, tested_by, invalidates, supersedes, addresses_gap, derived_from, part_of | layer-ref | layer-ref | layer-ref | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | layer-ref | cross-tree-ref |
+| **S**  | extends, contradicts, supports, inspired_by, tested_by, invalidates, supersedes, derived_from, part_of | layer-ref | layer-ref | layer-ref | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | layer-ref | cross-tree-ref |
 | **L1** | layer-ref | extends, contradicts, supports, derived_from, part_of, supersedes | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | cross-tree-ref |
 | **L2** | layer-ref | layer-ref | extends, supersedes, part_of | layer-ref | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | — | cross-tree-ref |
 | **L3** | layer-ref | layer-ref | layer-ref | extends, derived_from, part_of, supersedes | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | — | cross-tree-ref |
@@ -1067,7 +1074,7 @@ operations; **L7** = global; **L8** = skills; **L9** = insights;
 | **L5** | derived_from, supports, part_of | — | — | — | — | extends, supersedes, contradicts | layer-ref | — | — | — | — |
 | **L6** | layer-ref | — | — | — | — | layer-ref | extends, supersedes, part_of | layer-ref | — | — | cross-tree-ref |
 | **L7** | layer-ref | layer-ref | layer-ref | layer-ref | — | — | — | extends, contradicts, supports, supersedes, part_of, derived_from | layer-ref | — | cross-tree-ref |
-| **L8** | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | — | — | layer-ref | extends, supersedes, part_of, addresses_gap | — | cross-tree-ref |
+| **L8** | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | — | — | layer-ref | extends, supersedes, part_of | — | cross-tree-ref |
 | **L9** | layer-ref (Phase B) | layer-ref (Phase B) | — | — | — | — | — | layer-ref (Phase B) | — | extends (Phase B) | cross-tree-ref (Phase B) |
 | **v2** | — | — | — | — | — | — | — | — | — | — | (intra-v2; not managed by v3) |
 
@@ -1094,10 +1101,12 @@ Sub-agent D §2 audit:
 - 1 `contradicts` record — already aligned; no migration.
 
 **No migration required** for the 572 v2 edges. They map 1:1 to the
-v3 enum. The 5 declared-but-unused v2 types (`inspired_by`,
-`tested_by`, `invalidates`, `supersedes`, `addresses_gap`) are
-preserved in the v3 enum (per R7 locked); v2's edges.jsonl simply
-contains zero records of those types and v3 inherits the same.
+v3 enum. The 4 declared-but-unused v2 types still in the enum
+(`inspired_by`, `tested_by`, `invalidates`, `supersedes`) are
+preserved (per R7 locked); v2's edges.jsonl simply contains zero
+records of those types and v3 inherits the same. The 5th declared-
+but-unused v2 type (`addresses_gap`) is dropped per critic-gate1 H4
+reconciliation (zero usage; semantically overlapped by `derived_from`).
 
 **v3 extension types** (`alpha-ref`, `layer-ref`, `cross-tree-ref`)
 have zero v2 records by construction (v2 has no Layer-5..L9
@@ -1204,11 +1213,11 @@ template is filled.
 
 ```markdown
 ---
-id: concept-<26-char-ULID>
+id: concept-<kebab-slug>
 title: <concept name>
 type: concept
 layer: spine
-niche: <personal|business|sales|life|tech|meta|global>
+niche: <personal|business|sales|life|tech|meta>
 created: <YYYY-MM-DD>
 last_modified: <YYYY-MM-DD>
 last_reviewed:
@@ -1264,7 +1273,7 @@ extends:
 
 | Field/section | v2 | v3 | Reason |
 |---|---|---|---|
-| Frontmatter `id` | absent | added (ULID) | D2 cross-layer required; uniqueness for graph anchor |
+| Frontmatter `id` | absent | added (kebab-slug `<type>-<slug>`) | D2 cross-layer required; uniqueness for graph anchor |
 | Frontmatter `layer` | absent | added (`spine`) | D2 cross-layer; drives Q4 task-context filter |
 | Frontmatter `state` | absent | added (`drafted` default) | D2 + α-2 lifecycle (FPF Part 4) |
 | Frontmatter `tier` | absent | added (`core` default) | 24-Lock 13 + master synthesis §5.5.4 |
@@ -1279,7 +1288,7 @@ extends:
 
 ```markdown
 ---
-id: entity-<26-char-ULID>
+id: entity-<kebab-slug>
 title: <entity name>
 type: entity
 layer: spine
@@ -1345,7 +1354,7 @@ external_ids:
 
 ```markdown
 ---
-id: source-<26-char-ULID>
+id: source-<kebab-slug>
 title: <source title>
 type: source
 layer: spine
@@ -1411,7 +1420,7 @@ coverage: []
 
 ```markdown
 ---
-id: claim-<26-char-ULID>
+id: claim-<kebab-slug>
 title: <claim assertion>
 type: claim
 layer: spine
@@ -1484,7 +1493,7 @@ falsifier: <one-sentence falsifier — what evidence would refute this claim>
 
 ```markdown
 ---
-id: idea-<26-char-ULID>
+id: idea-<kebab-slug>
 title: <idea name>
 type: idea
 layer: spine
@@ -1547,7 +1556,7 @@ gate enforces non-empty only at `state: accepted` per D6 §2>
 
 ```markdown
 ---
-id: topic-<26-char-ULID>
+id: topic-<kebab-slug>
 title: <topic name>
 type: topic
 layer: spine
@@ -1605,7 +1614,7 @@ list canonical references>
 
 ```markdown
 ---
-id: experiment-<26-char-ULID>
+id: experiment-<kebab-slug>
 title: <experiment title>
 type: experiment
 layer: spine
@@ -1617,7 +1626,7 @@ state: drafted
 confidence: medium
 tier: core
 produced_by: <agent>-<mode>
-cycle_id: cyc-<26-char-ULID>
+cycle_id: cyc-<kebab-slug>
 sources: []
 related: []
 topics: []
@@ -1673,7 +1682,7 @@ outcome: open
 
 ```markdown
 ---
-id: summary-<26-char-ULID>
+id: summary-<kebab-slug>
 title: <summary title>
 type: summary
 layer: spine
@@ -1685,7 +1694,7 @@ state: drafted
 confidence: medium
 tier: core
 produced_by: /build-graph
-cycle_id: cyc-<26-char-ULID>
+cycle_id: cyc-<kebab-slug>
 sources: []
 related: []
 topics: []
@@ -1733,7 +1742,7 @@ covers: []
 
 ```markdown
 ---
-id: foundation-<26-char-ULID>
+id: foundation-<kebab-slug>
 title: <foundation principle>
 type: foundation
 layer: spine
@@ -1866,7 +1875,7 @@ intakes; runs from submission to archival.
 | `gated` | AWAITING-APPROVAL file with 4-response template exists in `swarm/gates/`. |
 | `approved` | HITL reply parsed (acked). |
 | `compounded` | ≥0 rules appended to strategies.md (zero is valid per FPF B §1). |
-| `archived` | `cycle-log.md` written + per-task dir moved/marked archived. |
+| `archived` | `swarm/logs/<cycle-id>/cycle-log.md` written + per-task dir marked `alpha_state: archived`. |
 | `refused` | Brigadier refuses intake (out-of-scope, malformed, capacity). |
 | `rejected` | HITL rejected at `gated` step. |
 | `returned` | Task returned to user with rationale (terminal failure branch). |
@@ -1895,8 +1904,8 @@ intakes; runs from submission to archival.
 - `integrated`: every cell in the decomposition has a corresponding artefact in `swarm/wiki/tasks/<task-id>/artefacts/`.
 - `gated`: file matching `swarm/gates/AWAITING-APPROVAL-<task-id>-*.md` exists with `4-response template` section.
 - `approved`: file matching `swarm/gates/<task-id>-ack.md` exists with `acked: true` field.
-- `compounded`: at least one new commit on `claude/<branch>` updating `agents/<expert>/strategies.md` OR `swarm/wiki/meta/agent-improvements/<file>` with `task_id: <task-id>` in commit message.
-- `archived`: `swarm/wiki/log.md` contains a line `## [<date>] task-archived | <task-id>`.
+- `compounded`: marker file `swarm/wiki/tasks/<task-id>/decisions/<YYYY-MM-DD-HHMM>-compounded.md` exists with frontmatter `task_id: <task-id>` AND zero-or-more new entries appended to `agents/<expert>/strategies.md` (with `task_id: <task-id>` in entry frontmatter — append-only YAML-block-per-entry; zero new entries is valid per FPF B §1).
+- `archived`: `swarm/logs/<cycle-id>/cycle-log.md` exists AND `swarm/wiki/log.md` contains a line `## [<date>] task-archived | <task-id>`.
 
 **Cross-alpha integrations.** α-1 is consumed inside α-4 Cycle (one
 task = one cycle iteration). α-2 Artefact instances are created
@@ -1974,7 +1983,7 @@ produced by a cell.
 | `accepted` | `referenced` | another `accepted` artefact `consumes:` this | brigadier (writes the consumer) | edge added to `graph/edges.jsonl`. |
 | `accepted` | `superseded` | newer accepted artefact `supersedes:` this | brigadier | `state: superseded`; `superseded_by: [[<new>]]` in frontmatter; bidirectional `supersedes` edge. |
 | `accepted`/`superseded` | `retired` | brigadier or meta-agent-via-task identifies legitimate EOL | brigadier (after meta-agent draft per Q2-Q6 reconciliation) | `state: retired`; not deleted. |
-| any | `tombstoned` | invalidated by `invalidates` edge OR Ruslan-attested withdrawal | brigadier (after meta-agent draft) | move file to `swarm/wiki/_archive/`; record `tombstoned_by: [[<source>]]` edge. |
+| {`accepted`, `referenced`, `superseded`, `retired`} | `tombstoned` | invalidated by `invalidates` edge (D3 §3.2.6) OR Ruslan-attested withdrawal via gate file | brigadier (sole writer; meta-agent or any expert may draft the rationale via `mode: writing-support` per D6 §6.8; brigadier verifies §5.5.5 then writes) | (a) For `invalidates` path: brigadier moves file to `swarm/wiki/_archive/<original-path>`; appends `tombstoned_by: [[<invalidating-page>]]` to frontmatter. (b) For Ruslan-attested path: a gate file `swarm/gates/AWAITING-APPROVAL-tombstone-<page-id>-<YYYY-MM-DD>.md` per D6 §6.5 must be acked first; on ack, brigadier executes the same move + tombstoned_by recording. **Forbidden: `drafted → tombstoned`** (a draft in `swarm/wiki/drafts/` that never reached `accepted` is simply deleted from drafts/ — no archival, no tombstone). |
 
 **Acceptance predicates per state:**
 
@@ -1984,7 +1993,7 @@ produced by a cell.
 - `referenced`: ≥1 incoming edge in `graph/edges.jsonl` from another `state: accepted` page.
 - `superseded`: `superseded_by: [[<page>]]` non-empty; the named page is `state: accepted`.
 - `retired`: `state: retired`; no `superseded_by` (else use that).
-- `tombstoned`: file lives under `swarm/wiki/_archive/`; `tombstoned_by:` non-empty.
+- `tombstoned`: file lives under `swarm/wiki/_archive/<original-path>`; `tombstoned_by:` non-empty AND points to either an `invalidates`-edge source page OR a Ruslan-acked gate file under `swarm/gates/`. Original canonical path absent (no resurrection without explicit un-tombstone gate).
 
 **Cross-alpha integrations.** α-2 is created inside α-1 `dispatched →
 integrated`. α-2 `accepted` transition is the matrix gate-passage per
@@ -2026,20 +2035,27 @@ machine-verifiable"). α-3 strategy entries cite α-2 artefacts.
 **Identity (verbatim, FPF Part 4 §4.3).** "Each entry in
 strategies.md." Governs the skill-learning pipeline (Q6).
 
-**State graph** (FPF verbatim, with **spec alias map**):
+**State graph** (FPF Part 4 §4.3 verbatim — 4 states only):
 
 | FPF state | Spec alias (per prompt §6 D5) | Definition |
 |---|---|---|
 | `proposed` | `candidate` | 4-part DRR format submitted (context/decision/alternatives/review-checkpoint). |
 | `active` | `learning` | At least 1 successful application; under golden-set evaluation. |
 | `validated` | `active` | ✓/✗ ratio ≥ 3:1 over ≥10 uses; promoted out of learning into the live skill registry. |
-| (FPF: no separate state) | `retired` | Spec extension: success ratio drops <1:1 OR superseded; explicit retirement. |
-| `tombstoned` | `tombstoned` | Ratio < 1:1 cumulative OR explicit Ruslan-retirement OR caused production incident. |
+| `tombstoned` | `tombstoned` | Ratio < 1:1 cumulative OR explicit Ruslan-retirement OR caused production incident OR superseded by another skill (graceful supersession also tombstones the prior; the new active skill carries `supersedes:` edge per D3 §3.2.7). |
 
 **Canonical = FPF names.** Spec aliases are documented for cross-
 referencing the prompt's prescribed naming, but the wiki, /lint, and
 /build-graph all use FPF names. D11 (Gate 2) provides the activation
 rubric using FPF names + spec aliases together.
+
+**Deviation from prompt §6 D5.** The prompt prescribed a 5-state spec
+set including `retired`. FPF Part 4 §4.3 locks α-3 to 4 states (no
+separate `retired`). Per prompt §2 prohibition on re-opening locked
+alpha identity, FPF wins; `retired` is dropped from α-3. Graceful
+supersession is captured via the `tombstoned` transition with
+`supersedes:` edge to the successor (so audit history is preserved
+in `_archive/` per Sub-agent C §8 anti-pattern 9).
 
 **Transitions table:**
 
@@ -2049,16 +2065,15 @@ rubric using FPF names + spec aliases together.
 | `proposed` | `active` | first successful cell-use | brigadier (records in `usage/<slug>.jsonl`) | file moves from `candidates/` to `learning/`; `skill_state: learning`. |
 | `active` | `validated` | golden-set ≥3 + ≥10 uses + ✓/✗ ≥3:1 (D11) | brigadier (after meta-agent audit-via-task) | file moves from `learning/` to `active/`; D9 symlink created `.claude/skills/<slug>.md → swarm/wiki/skills/active/<slug>.md`. |
 | `validated` | `active` | ratio drops to 1:1≤ ratio <3:1 (demoted) | meta-agent-via-task | file moves back to `learning/`; symlink removed. |
-| `validated` | `retired` | superseded OR explicit retirement OR success drops <1:1 over 10 rolling uses | meta-agent-via-task → brigadier writes | file moves to `swarm/wiki/skills/active/<slug>.md` with `skill_state: retired`; symlink removed. |
-| any | `tombstoned` | caused incident OR Ruslan retire | brigadier (Ruslan can also unilaterally trigger) | file moves to `swarm/wiki/_archive/`; symlink removed; `tombstoned_by:` recorded. |
+| `validated` | `active` (demoted) | success ratio drops to `1:1 ≤ ratio < 3:1` over rolling 10 uses | meta-agent-via-task → brigadier writes | file moves back to `learning/`; symlink removed; the loop allows recovery. |
+| any | `tombstoned` | success ratio drops <1:1 cumulative OR explicit Ruslan retire OR superseded by another active skill OR caused production incident | brigadier (Ruslan can unilaterally trigger; meta-agent emits draft for non-incident cases) | file moves to `swarm/wiki/_archive/`; symlink removed; `tombstoned_by:` recorded; if superseded, write `supersedes:` edge from the successor (D3 §3.2.7). |
 
 **Acceptance predicates per state:**
 
 - `proposed`: frontmatter `skill_state: candidate`; DRR fields populated; file under `swarm/wiki/skills/candidates/<slug>/manifest.md` OR appended in `agents/<expert>/strategies.md` with `skill_state: candidate`.
 - `active` (FPF) / `learning` (alias): file under `swarm/wiki/skills/learning/<slug>/`; `golden-set.jsonl` exists with ≥3 cases (per D11).
 - `validated` (FPF) / `active` (alias): file at `swarm/wiki/skills/active/<slug>.md`; `n_uses ≥ 10` AND `success_count / loss_count ≥ 3`; D9 symlink active.
-- `retired`: `skill_state: retired`; symlink absent; file retained under `swarm/wiki/skills/active/<slug>.md` (kept for audit per anti-pattern Sub-agent C §8 #9).
-- `tombstoned`: file under `swarm/wiki/_archive/skills/<slug>.md`; symlink absent.
+- `tombstoned`: file under `swarm/wiki/_archive/skills/<slug>.md`; symlink absent; `tombstoned_by:` non-empty (cause: incident-link, Ruslan-attestation, or successor `supersedes:` edge).
 
 **Cross-alpha integrations.** α-3 entries are emitted at α-1
 `compounded`. α-3 `validated` transition is the formal Q6 activation
@@ -2070,32 +2085,29 @@ brigadier for writes." Reconciled with Q2 single-writer (Sub-agent A
 §6 #10): meta-agent emits a draft via Task `mode: writing-support`;
 brigadier evaluates the §5.5.5 gate; brigadier commits.
 
-**ASCII diagram:**
+**ASCII diagram (FPF 4-state):**
 
 ```
                                  ┌──────────┐
               brigadier compound │ proposed │
               step writes DRR    │(candidate│ ──┐
                                  └─────┬────┘   │
-                          first use   │         │ Ruslan
-                                 ┌─────▼────┐   │ tombstone
-                                 │ active   │   │
-                                 │(learning │   │
-                                 └─────┬────┘   │
-                          golden-set+ │         │
+                          first use   │         │
+                                 ┌─────▼────┐   │
+                                 │ active   │ ◄─┤  loop: demote
+                                 │(learning │   │  (validated→active
+                                 └─────┬────┘   │   when ratio drops
+                          golden-set+ │         │   to 1:1≤r<3:1)
                           ratio       │         │
                                  ┌─────▼─────┐  │
-                                 │ validated │  │
-                                 │ (active)  │◄─┤  (loop demote ⇄ active)
-                                 └─────┬─────┘  │
-                          superseded │          │
-                          OR retire  │          │
-                                 ┌────▼──────┐  │
-                                 │ retired   │  │
-                                 └───────────┘  │
-                                 ┌──────────────▼┐
-                                 │  tombstoned   │
-                                 └───────────────┘
+                                 │ validated ├──┘
+                                 │ (active)  │
+                                 └─────┬─────┘
+                                       │
+                                       ▼  (any state → tombstoned)
+                              ┌────────────────┐
+                              │   tombstoned   │  Ruslan / incident /
+                              └────────────────┘  ratio<1:1 / superseded
 ```
 
 ### 5.5 α-4 Cycle
@@ -2134,14 +2146,14 @@ instance.
 | `running` | `integrating` | all cells returned (α-1 `integrated`) | brigadier | log line. |
 | `integrating` | `gated` | brigadier writes AWAITING-APPROVAL (α-1 `gated`) | brigadier | gate file. |
 | `gated` | `compounded` | HITL ack + brigadier runs compound (α-1 `approved → compounded`) | HITL + brigadier | α-3 entries written. |
-| `compounded` | `closed` | brigadier writes `cycle-log.md` | brigadier | `cycle-log.md` exists; `meta/health.md` cycle counter incremented. |
+| `compounded` | `closed` | brigadier writes `swarm/logs/<cycle-id>/cycle-log.md` | brigadier | `swarm/logs/<cycle-id>/cycle-log.md` exists; `meta/health.md` `closed_cycles_count` field incremented (per D10 §2; bootstrap `meta/health.md` initialises `closed_cycles_count: 0` per D1 §1.4). |
 | any | `tombstoned` | abort (Ruslan or brigadier) | brigadier (Ruslan-triggered) | log line; partial artefacts archived. |
 
 **Acceptance predicates per state:**
 
 - `opened`: `cycle_id` set on the task; `swarm/logs/<cycle-id>.md` exists.
 - `running`/`integrating`/`gated`/`compounded`: mirror α-1 `dispatched`/`integrated`/`gated`/`compounded` predicates.
-- `closed`: `cycle-log.md` exists with `summary:` (≥1 line) and `open_questions:` (≥1 line); the cycle-counter in `swarm/wiki/meta/health.md` is incremented (per D10 §2).
+- `closed`: `swarm/logs/<cycle-id>/cycle-log.md` exists with frontmatter `summary:` (≥1 line) and `open_questions:` (≥1 line); the `closed_cycles_count` field in `swarm/wiki/meta/health.md` is incremented (D10 §2; minimum bootstrap field per D1 §1.4 #13).
 - `tombstoned`: log line present + `cycle_id` not in `meta/health.md` closed-cycle counter.
 
 **Cross-alpha integrations.** α-4 contains exactly one α-1 instance.
@@ -2346,9 +2358,14 @@ synthesis) for v3 specifics; it does NOT replace it. The brigadier
 imports this file at session start; experts import it via §7 of their
 system.md (per FPF Part 10.8 success predicate item 7).
 
-The file lives at `swarm/lib/shared-protocols.md`. Eight sections,
-numbered 1–8, mirror Part 10.5 + Part 10.6 mandates. Section content
-below is the literal initial body; Стадия D writes verbatim.
+The file lives at `swarm/lib/shared-protocols.md`. **Nine sections**:
+seven mirror FPF Part 10.5 mandates verbatim (wiki write protocol —
+split into §6.2 + §6.3 deep-dive on §5.5.5; structured output schema;
+HITL escalation; tool permission self-check; cross-cell-reference
+protocol; `mode: writing-support`; tool-language abstractions). One
+section (§6.10 Max-subscription discipline) extends per master
+synthesis §5.7. Section content below is the literal initial body;
+Стадия D writes verbatim.
 
 ### 6.2 Section 1 — Wiki write protocol (extends master synthesis §5.5)
 
@@ -2407,7 +2424,7 @@ canonical wiki path, the brigadier:
 [<agent>] <cycle>: <description>
 ```
 where `<agent>` = `brigadier` for canonical wiki writes, `<cycle>` =
-`cyc-<26-char-ULID>`, `<description>` ≤80 chars. Plus the `co-authored-by`
+`cyc-<kebab-slug>` per H7, `<description>` ≤80 chars. Plus the `co-authored-by`
 trailer if a cell drafted (per Sub-agent E §6 routing pattern).
 
 ### 6.3 Section 2 — §5.5.5 provenance gate (v3 enforcement)
@@ -2537,11 +2554,12 @@ JSON Schema validator, or rely on /lint on the resulting artefact):
 |---|---|---|---|
 | `summary` | string | yes | concise return summary |
 | `proposed_writes[]` | list | yes (may be empty) | zero writes is valid (e.g. critic returning empty-issue review) |
-| `provenance[]` | list | yes (≥1 entry unless `summary` is purely procedural) | grounds the cell's reasoning |
+| `provenance[]` | list | yes (≥1 entry when `proposed_writes[]` non-empty OR `escalations[]` non-empty; may be empty when both are empty — closes critic-gate1 H8 ambiguity by replacing "purely procedural") | grounds the cell's reasoning |
 | `confidence` | enum | yes | `low|medium|high` |
-| `confidence_method` | enum | yes | per D2 §2.2 |
+| `confidence_method` | enum | yes for the Task return packet (cell must justify its confidence to brigadier even if the field stays optional in the eventual stored frontmatter per D2 §2.2; reconciliation per critic-gate1 H8) | per D2 §2.2 enum |
 | `escalations[]` | list | yes (may be empty) | bounces routed by brigadier |
-| `dissents[]` | list | required for integrator-mode returns; optional otherwise | preserves minority positions per FPF |
+| `dissents[]` | list | required iff `produced_by` matches `*-integrator` (closes critic-gate1 H8 testable predicate); optional otherwise | preserves minority positions per FPF |
+| `extractions[]`, `alternatives[]`, `anti_scope[]` | list | required iff `mode: writing-support` per D6 §6.8.2 (closes critic-gate1 M11) | writing-support contract |
 
 **6.4.3 Validation.** Brigadier rejects malformed Task returns by
 not promoting the draft to canonical (the cell's draft remains in
@@ -2670,7 +2688,57 @@ Brigadier handles the escalation: either re-routes the work to a
 properly-permissioned agent OR escalates to HITL per §6.5 if the
 permission denial is unexpected.
 
-### 6.7 Section 6 — `mode: writing-support` clause
+### 6.7 Section 6 — Cross-cell-reference protocol (read wiki, never call cell)
+
+**6.7.1 Verbatim FPF Part 10.5 mandate (Sub-agent B §6, FPF L1407):**
+"Cross-cell-reference protocol (read wiki, never call cell)."
+
+Reinforced by master synthesis §4.5.4 (Sub-agent E §6.1): "A cell may
+*read* any wiki artefact. A cell may *write* only its own output
+artefact. **A cell may not *invoke* another cell.**"
+
+**6.7.2 Operational contract.** When a cell needs the output of
+another cell, it consumes via the wiki, never via `Task(...)`:
+
+- **READ allowed:** any path under `swarm/wiki/` (including
+  `drafts/`); any path under v2 `wiki/`; any Tier-1 path
+  (`decisions/`, `design/`, `raw/research/`, `prompts/`, `CLAUDE.md`,
+  `.claude/rules/`).
+- **READ forbidden:** other cells' active context windows;
+  `Task(<other-expert>-<mode>, ...)` to fetch a fresh draft from a
+  peer expert.
+- **WRITE allowed:** only `swarm/wiki/drafts/<task-id>-<self>-<artefact>.md`
+  per §6.6.3 role_tool_matrix.
+
+**6.7.3 Why the read-only rule.** Spawning a peer cell from inside a
+cell would (a) violate Q2 single-writer through chained delegation,
+(b) explode the brigadier's coordination state into uncoordinated
+subtrees, (c) duplicate context-window cost (master synthesis §5.7
+turn-counting discipline), (d) bypass §5.5.5 provenance gate — peer
+output reaches consumer without brigadier verification.
+
+**6.7.4 Pattern when peer output is needed.** If cell A needs cell B's
+output:
+
+1. Cell A's `Task()` return packet (per §6.4.1) includes an
+   `escalations[]` entry: `{trigger: peer-input-needed, requested:
+   "<expert>-<mode> on <topic>", context_path: <task-dir>}`.
+2. Brigadier reads the escalation, dispatches `Task(<expert-B>-<mode>,
+   ...)`, integrates B's output into the same task's `artefacts/` dir.
+3. Cell A is re-invoked (next turn) with B's draft now visible under
+   `swarm/wiki/drafts/<task-id>-<expert-B>-*.md`.
+
+**6.7.5 `/lint` rule.** Any Task return packet whose body contains
+`Task(` invocation strings (a heuristic for "I called another cell
+inline") is flagged. Static check at draft promotion: brigadier
+inspects body for unauthorised invocation patterns; rejects via
+§6.3.5 if found.
+
+**6.7.6 Brigadier-only exception.** Only the brigadier holds `Task`
+permission per §6.6.3. The brigadier's invocation of `Task(...)` is
+the canonical and only legal path for cross-cell coordination.
+
+### 6.8 Section 7 — `mode: writing-support` clause
 
 **6.7.1 Verbatim FPF Part 10.5 + Part 5 §5.3 enhancement E-10
 (Sub-agent B §11):**
@@ -2711,7 +2779,7 @@ in `mode: writing-support` carries `produced_by: <expert>-writing-support`
 and a `human_composed_at:` timestamp marking when the human wove the
 extractions into prose.
 
-### 6.8 Section 7 — Tool-language abstractions (verb dictionary)
+### 6.9 Section 8 — Tool-language abstractions (verb dictionary)
 
 **6.8.1 Verbatim FPF Part 10.5 + Part 2 §2.7 E-7 move 2 (Sub-agent
 B §12):**
@@ -2746,7 +2814,7 @@ Sub-agent B §12 gap by extending FPF's 3 pairs):
 **6.8.3 Lock note (verbatim).** "Lock 17 (Filesystem = SoT) preserved;
 this is purely naming-layer discipline."
 
-### 6.9 Section 8 — Max-subscription discipline
+### 6.10 Section 9 — Max-subscription discipline (extension per master synthesis §5.7)
 
 **6.9.1 Verbatim master synthesis §5.7.3 + §5.6.3 + §5.9 (Sub-agent
 E §3):**
@@ -2791,7 +2859,7 @@ rate-limit hit." Recovery cost = downtime, not money.
 write (atomic). Branch: `claude/jolly-margulis-915d34` (current Phase A);
 no force-push, no rebase.
 
-### 6.10 `swarm/lib/shared-protocols.md` skeleton frontmatter
+### 6.11 `swarm/lib/shared-protocols.md` skeleton frontmatter
 
 The Стадия D bootstrap content is the literal text of D6 §6.2–§6.9
 above, wrapped in:
@@ -2821,7 +2889,7 @@ binding_scope: swarm-wide
 ---
 ```
 
-### 6.11 Compatibility matrix
+### 6.12 Compatibility matrix
 
 | Locked item | D6 honours by … |
 |---|---|
@@ -2847,20 +2915,68 @@ binding_scope: swarm-wide
 ## GATE 1 SUMMARY (D1–D6)
 
 This gate covers the **structural core**: directory layout (D1), per-
-layer frontmatter (D2), 12-edge enum [enumerated as 13 with arithmetic
-note] (D3), per-entity-type templates (D4), 5 swarm-alpha state
-machines (D5), shared-protocols.md (D6).
+layer frontmatter (D2), 12-edge enum (D3, after critic-gate1 H4 dropped
+`addresses_gap`), per-entity-type templates (D4), 5 swarm-alpha state
+machines (D5, FPF Part 4 verbatim states + α-2 `tombstoned` extension),
+shared-protocols.md (D6, 9 sections after critic-gate1 S1 added the
+missing FPF Part 10.5 Cross-cell-reference protocol).
 
-Stage-Gated process: this file is committed and pushed as
+### Critic-gate1 fixes applied pre-gate
+
+All 4 showstoppers and 9 high findings from
+`raw/research/step-2-2-3c-extractions/critic-gate1.md` were applied
+before this commit:
+
+- **S1** Added D6 §6.7 Cross-cell-reference protocol; renumbered subsequent
+  sections; updated §6.1 mandate to "Nine sections."
+- **S2** Dropped α-3 invented `retired` state; aligned to FPF Part 4 §4.3
+  4-state set (proposed/active/validated/tombstoned); ASCII redrawn;
+  D2 §2.4 `skill_state` enum updated; supersession rerouted via
+  tombstoned + `supersedes:` edge.
+- **S3** Dropped `global` from `niche` enum (back to CLAUDE.md L70 6-niche
+  lock); D1 tree, D2 §2.2/§2.4, D4 templates updated; `niches/global/`
+  symlink dir removed.
+- **S4** Dropped `reviewed/` Layer-9 bucket (back to Q8 2-bucket lock:
+  candidates/promoted); README boilerplate, perm table, insight_state
+  enum updated.
+- **H1** Specified `swarm/logs/<cycle-id>/cycle-log.md` path in D1 §1.3;
+  updated α-1 archived + α-4 closed predicates.
+- **H2** Replaced α-1 compounded predicate's commit-message check with
+  filesystem-resident marker file (`tasks/<task-id>/decisions/<ts>-compounded.md`).
+- **H3** Restricted α-2 `any → tombstoned` from-states to {accepted,
+  referenced, superseded, retired}; specified Ruslan-attested mover via
+  gate file `swarm/gates/AWAITING-APPROVAL-tombstone-*.md`.
+- **H4** Dropped `addresses_gap` to land on 12 edge types matching
+  MECHANICS L236 summary; matrix + migration plan updated.
+- **H5** Added explicit theme→niche 5×1 mapping table in D2 §2.4 Layer 1.
+- **H6** Aligned `themes/<theme>/` to `mgmt` (matches master synthesis
+  §5.5.1 + ROY-ALIGNMENT mgmt-expert); deviation from GOALS §2
+  hypothesized `themes/management/` documented.
+- **H7** Dropped invented ULID format; replaced with kebab-slug
+  `<type>-<slug>` (regex `^<type>-[a-z0-9-]{1,60}$`); examples
+  grounded in Sub-agent C §1 H.5 short-slug pattern.
+- **H8** Reconciled D6 §6.4 structured-output schema with D2 §2.2:
+  provenance[] testable predicate (req when proposed_writes[] OR
+  escalations[] non-empty); confidence_method req in packet but
+  optional in stored frontmatter; dissents[] req iff
+  `produced_by` matches `*-integrator`; writing-support fields
+  added.
+- **H9** Added `brigadier-attested-with-3-supports` to D2 §2.2
+  `confidence_method` enum (matches D6 §6.3.2.5 reference).
+
+11 medium and 7 low findings logged in critic-gate1.md; addressed
+opportunistically (M10 forward-reference to `closed_cycles_count`
+in `meta/health.md` bootstrap; M11 writing-support fields in §6.4)
+or deferred to Phase-A errata. Full list in critic-gate1.md.
+
+### Stage-Gated process
+
+This file is committed and pushed as
 `design/AWAITING-APPROVAL-wiki-v3-architecture-gate1-2026-04-23.md`.
 **Pause for Ruslan approval.** Gate 2 (D7–D12: parameterization
 config, skill diffs, symlink convention, health.md skeleton, Q6
 rubric, T5 strategies trio collapse) follows in a separate
 AWAITING-APPROVAL file.
-
-Adversarial-critic report at
-`raw/research/step-2-2-3c-extractions/critic-gate1.md` (run before
-this commit; high/showstopper findings fixed pre-gate).
 
 ---
 
