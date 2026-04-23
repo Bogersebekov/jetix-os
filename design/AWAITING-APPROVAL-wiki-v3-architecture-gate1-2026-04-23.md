@@ -798,3 +798,386 @@ schema validators directly from the per-layer subsections above.
 
 ---
 
+## DELIVERABLE 3 — `swarm/wiki/_templates/edge-types.md` (typed edge enum)
+
+### 3.1 Mandate, count reconciliation, and citation map
+
+The locked enumeration in **WIKI-V3-MECHANICS L216–234** specifies 9
+intra-layer types + `part_of` (formalised 10th intra-layer) + 3
+cross-layer types. The summary line at L236 reads "Total: 12 edge
+types" — this **undercounts the explicit enumeration by one** (the
+summary did not count `part_of` separately). Per Q3 + R7 (locked) and
+Sub-agent A §1 Q3 + Sub-agent C §3 + Sub-agent D §2 (audit confirmed
+`part_of` as the dominant edge in v2 with 233 of 572 records), this
+spec adopts the **enumerated list** as authoritative — **13 distinct
+edge types**. The summary "12" is treated as a clerical error. (If
+Ruslan prefers a strict 12-type bundle, the most defensible cut is
+`addresses_gap` — 0 usage in v2 per Sub-agent D §2, semantically
+overlapped by `derived_from`. Deferred to gate review.)
+
+The 13-type enum lives at `swarm/wiki/_templates/edge-types.md` and is
+the single source of truth for `/build-graph`, `/ingest`, `/lint`, and
+`/ask` Tier-3 typed-BFS retrieval (per Sub-agent A §6 cross-ref #1).
+
+### 3.2 Per-edge-type specification
+
+Each entry below is a complete contract: name, definition,
+cardinality, directionality, inverse, allowed source/target layers,
+worked example record (JSON line as it appears in
+`graph/edges.jsonl`), cross-layer flag, and `/lint` rule.
+
+#### 3.2.1 `extends` (intra-layer #1)
+- **Definition.** Page A refines or expands page B; A is a more
+  specific or more developed treatment of B's subject.
+- **Cardinality.** N:1 (a page may extend at most one parent; many
+  pages may extend the same parent).
+- **Directionality.** Directed.
+- **Inverse.** `extended_by` (derivative; computed by `/build-graph`,
+  not stored as primary).
+- **Allowed `from` layers.** spine entity-type (`concepts`, `claims`,
+  `topics`, `foundations`); Layers 1, 2, 3, 7.
+- **Allowed `to` layers.** Same as `from`.
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"concepts/llm-wiki","to":"concepts/karpathy-llm-wiki","type":"extends","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** No cycles (extends-graph must be a DAG); flag if
+  `from.layer != to.layer` (use `derived_from` or `layer-ref` for
+  cross-layer).
+
+#### 3.2.2 `contradicts` (intra-layer #2)
+- **Definition.** Page A explicitly conflicts with claim/conclusion
+  in page B.
+- **Cardinality.** N:M.
+- **Directionality.** Bidirectional (per Sub-agent A §1 Q5: "require
+  bidirectional `contradicts` edges"); `/build-graph` materialises
+  both directions when one is asserted.
+- **Inverse.** Self.
+- **Allowed `from`/`to`.** `claims`, `foundations`, `concepts`,
+  `experiments` (cross-experiment refutation).
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"claims/embeddings-required","to":"claims/embeddings-deferred","type":"contradicts","ts":"2026-04-23","confidence":"medium"}`
+- **`/lint` rule.** Both directions present; both pages bear `stance:
+  contested` or `refuted` (per D2 claims schema); contradiction count
+  surfaced in `meta/health.md` per D10 §6.
+
+#### 3.2.3 `supports` (intra-layer #3)
+- **Definition.** Page A provides evidence for the claim in page B.
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`evidence → claim`).
+- **Inverse.** `supported_by` (derivative).
+- **Allowed `from`.** `sources`, `experiments`, `claims` (claim
+  supporting another claim).
+- **Allowed `to`.** `claims`, `concepts`, `foundations`.
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"sources/2026-04-19-knowledge-arch","to":"claims/4-tier-retrieval","type":"supports","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** `to` page's `support_count` ≥ count of incoming
+  `supports` edges (recomputed by `/build-graph`).
+
+#### 3.2.4 `inspired_by` (intra-layer #4)
+- **Definition.** Creative lineage — idea A was inspired by idea B
+  (looser than `extends`; no claim of refinement).
+- **Cardinality.** N:M.
+- **Directionality.** Directed.
+- **Inverse.** `inspired` (derivative).
+- **Allowed `from`/`to`.** Primarily `ideas`; also `experiments` (an
+  experiment inspired by an idea) and `concepts` (a concept inspired
+  by another).
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"ideas/swarm-as-memory","to":"ideas/karpathy-llm-wiki","type":"inspired_by","ts":"2026-04-23","confidence":"medium"}`
+- **`/lint` rule.** None blocking; surfaced in `/build-graph`
+  community detection.
+
+#### 3.2.5 `tested_by` (intra-layer #5)
+- **Definition.** Claim A was empirically tested by experiment B.
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`claim → experiment`).
+- **Inverse.** `tests` (derivative; on the experiment side).
+- **Allowed `from`.** `claims`, `foundations`.
+- **Allowed `to`.** `experiments`.
+- **Cross-layer flag.** No (both spine).
+- **Example.** `{"from":"claims/4-tier-retrieval","to":"experiments/2026-05-15-tier3-bfs-benchmark","type":"tested_by","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** Experiment must have non-empty `outcome` ∈ `{won,
+  lost, aborted}` for the `tests` direction to be informative; flag
+  if `experiment.outcome = open` and `tested_by` count ≥ 1 for >30
+  days (stale experiment).
+
+#### 3.2.6 `invalidates` (intra-layer #6)
+- **Definition.** Experiment or evidence B invalidates claim A.
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`evidence → claim`).
+- **Inverse.** `invalidated_by` (derivative).
+- **Allowed `from`.** `experiments`, `sources`, `claims` (a stronger
+  refuting claim).
+- **Allowed `to`.** `claims`, `foundations`.
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"experiments/2026-05-15-tier3-bfs-benchmark","to":"claims/embeddings-required","type":"invalidates","ts":"2026-05-16","confidence":"high"}`
+- **`/lint` rule.** Auto-marks `to` page `stance: refuted`; emits
+  warning if `to` page is `state: accepted` and not yet
+  `superseded_by` a successor claim within 7 days.
+
+#### 3.2.7 `supersedes` (intra-layer #7)
+- **Definition.** New page A replaces older page B (often paired with
+  `state: superseded` on B per α-2).
+- **Cardinality.** N:1 (B has one canonical successor; A may
+  supersede many B-versions).
+- **Directionality.** Directed (`new → old`).
+- **Inverse.** `superseded_by` (per Sub-agent A §1 Q5; explicit
+  inverse, ALSO stored — bidirectional storage required so that
+  /lint can walk supersession chains forward and backward).
+- **Allowed `from`/`to`.** Same layer; same `type`.
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"foundations/swarm-alphas-v2","to":"foundations/swarm-alphas-v1","type":"supersedes","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** Supersession DAG (no cycles); B must bear
+  `state: superseded` and frontmatter `superseded_by:
+  [[<A>]]`; A's frontmatter `supersedes_versions:` includes B
+  (per D2 foundations schema).
+
+#### 3.2.8 `addresses_gap` (intra-layer #8)
+- **Definition.** Page A is created to fill a gap previously
+  flagged by `/lint` (e.g. orphan reference, missing concept).
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`new → gap-marker`).
+- **Inverse.** `gap_filled_by` (derivative).
+- **Allowed `from`.** Any spine entity-type.
+- **Allowed `to`.** `topics`, `claims` (where the gap was lint-flagged).
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"concepts/edge-cardinality","to":"topics/edge-types-hub","type":"addresses_gap","ts":"2026-04-23","confidence":"medium"}`
+- **`/lint` rule.** Used to clear `/lint`-emitted gap warnings —
+  presence of an `addresses_gap` edge to a topic with a previously
+  reported "missing concept" closes that warning.
+- **Note on usage.** Zero v2 usage (Sub-agent D §2). Retained per
+  R7 locked enum; if Ruslan prefers a 12-type bundle this is the
+  best drop candidate.
+
+#### 3.2.9 `derived_from` (intra-layer #9)
+- **Definition.** Source S was used to derive concept/claim/idea P.
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`derived → source`).
+- **Inverse.** `derives` (derivative).
+- **Allowed `from`.** `concepts`, `claims`, `ideas`, `summaries`,
+  `foundations`.
+- **Allowed `to`.** `sources`.
+- **Cross-layer flag.** No (both spine).
+- **Example.** `{"from":"concepts/4-tier-retrieval","to":"sources/2026-04-19-knowledge-arch","type":"derived_from","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** Pages with `pipeline ∈ {compiled, linted, ready}`
+  AND `state ∈ {accepted, referenced}` must have ≥1 `derived_from`
+  edge OR ≥1 `supports` edge OR `tier: foundation` (provenance gate
+  per §5.5.5, D6 §2).
+
+#### 3.2.10 `part_of` (intra-layer #10 — formalised per Q3)
+- **Definition.** Mereological — page A is a part of composite B
+  (Sub-agent C §3 + F.1 holon mereology). The dominant v2 edge (233
+  of 572 records); formalised here per Sub-agent A §1 Q3 ("`part_of`
+  formalised as 10th intra-layer edge").
+- **Cardinality.** N:1 (a part has one canonical whole at a given
+  level; a whole has many parts).
+- **Directionality.** Directed (`part → whole`).
+- **Inverse.** `has_part` (derivative; computed by `/build-graph`).
+- **Allowed `from`.** Any spine entity-type (concepts, claims,
+  experiments, etc.).
+- **Allowed `to`.** `topics` (hub→children pattern), `foundations`
+  (sub-foundation → over-foundation).
+- **Cross-layer flag.** No.
+- **Example.** `{"from":"concepts/4-tier-retrieval","to":"topics/retrieval-hub","type":"part_of","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** Each `part_of` target must be a `topics/<slug>-hub.md`
+  OR a `foundations/` page; otherwise re-route to `derived_from` or
+  `extends`. No cycles (mereology DAG).
+
+#### 3.2.11 `alpha-ref` (cross-layer #1)
+- **Definition.** Wiki entity links to its alpha tracker (W-1 §D.3
+  per Sub-agent C §3). The wiki captures conceptual identity; the
+  alpha captures operational state; this edge bridges them without
+  duplicating state into the wiki (anti-pattern Sub-agent C §8 #2
+  "wiki as CRM").
+- **Cardinality.** 1:1.
+- **Directionality.** Directed (`wiki entity → alpha tracker`).
+- **Inverse.** `tracked_by` (stored on the alpha side; not in
+  `graph/edges.jsonl`).
+- **Allowed `from`.** `entities` (spine), `agents/<expert>/...`
+  (Layer 3), `themes/<theme>/...` (Layer 1).
+- **Allowed `to`.** `tasks/<task-id>/...` (α-1), `operations/<project-slug>/...`
+  (α-4 cycle composite), `swarm/wiki/foundations/swarm-alphas.md`
+  (α reference).
+- **Cross-layer flag.** **Yes.** Allowed pairs: `(entities|agents|themes) → (tasks|operations|foundations/swarm-alphas)`.
+- **Example.** `{"from":"entities/acme-corp","to":"tasks/task-01HF2K3M5N7P9Q","type":"alpha-ref","ts":"2026-04-23","confidence":"high"}`
+- **`/lint` rule.** Target `to` MUST exist in `swarm/wiki/tasks/` or
+  `swarm/wiki/operations/` or be `swarm/wiki/foundations/swarm-alphas.md`.
+  Flag `wiki/entities/<slug>` pages with no `alpha-ref` outgoing if
+  they describe an operationally active entity (heuristic: `entity_type
+  ∈ {company, product, team}` AND `state ∈ {accepted, referenced}`).
+
+#### 3.2.12 `layer-ref` (cross-layer #2)
+- **Definition.** Generic cross-layer link without specific
+  semantics. Used when the relationship between layers is one of
+  reference (e.g. theme concept → global pattern) but no other
+  cross-layer edge fits. Lower priority than `alpha-ref` and
+  `cross-tree-ref`; `/lint` advises specifying a more specific edge
+  type when possible.
+- **Cardinality.** N:M.
+- **Directionality.** Directed.
+- **Inverse.** `layer-back-ref` (derivative; computed by /build-graph).
+- **Allowed `from`/`to`.** Any pair of distinct layers within v3
+  (i.e. `from.layer != to.layer`).
+- **Cross-layer flag.** **Yes.** All pairs allowed where source and
+  target layers differ.
+- **Example.** `{"from":"themes/engineering/concepts/clean-code","to":"global/solved-patterns/test-driven-refactor","type":"layer-ref","ts":"2026-04-23","confidence":"medium"}`
+- **`/lint` rule.** Surfaces a "consider more specific edge type"
+  notice if a more specific edge type's allowed-layer pair matches
+  (e.g. if a `layer-ref` runs from a `concept` to a `source`, suggest
+  `derived_from`).
+
+#### 3.2.13 `cross-tree-ref` (cross-layer #3)
+- **Definition.** v3 `swarm/wiki/` page citing v2 `wiki/` page (Q9
+  bridge per Sub-agent A §1 Q9; Sub-agent E §8 cross-ref). **v3 → v2
+  only** (no reverse direction allowed; v2 stays untouched per R3).
+- **Cardinality.** N:M.
+- **Directionality.** Directed (`v3 → v2`).
+- **Inverse.** None recorded (v2 doesn't track v3 incoming).
+- **Allowed `from`.** Any v3 page (under `swarm/wiki/`).
+- **Allowed `to`.** Any v2 page (under `wiki/`).
+- **Cross-layer flag.** **Yes — special.** Stored in
+  `swarm/wiki/graph/cross-tree.jsonl` (NOT in `edges.jsonl`) per
+  T1 + Sub-agent A §1 Q9.
+- **Example.** `{"from":"themes/engineering/concepts/clean-code","to":"wiki/concepts/clean-code","type":"cross-tree-ref","ts":"2026-04-23","confidence":"high","note":"v3 distillation cites v2 baseline"}`
+- **`/lint` rule.** Reject any record where `to` resolves under
+  `swarm/wiki/` (this is intra-v3; use `layer-ref`). Reject any
+  record where `from` resolves under v2 `wiki/` (no v2→v3 edges per
+  R3). Per-record presence in `cross-tree.jsonl` is mandatory; its
+  presence in `edges.jsonl` is forbidden (T1 separation).
+
+### 3.3 Master from-layer × to-layer × allowed-edge-types matrix
+
+Rows = `from` layer; columns = `to` layer. Cells list edge types
+permitted for that pair. Empty cell = no allowed edge type (record
+rejected by `/lint`).
+
+Layer abbreviations: **S** = spine entity-type (concepts, claims,
+sources, ideas, topics, experiments, summaries, foundations,
+entities); **L1** = themes; **L2** = brigadier; **L3** = agents;
+**L4** = meta/agent-improvements; **L5** = tasks; **L6** =
+operations; **L7** = global; **L8** = skills; **L9** = insights;
+**v2** = `wiki/`.
+
+| from \ to | S | L1 | L2 | L3 | L4 | L5 | L6 | L7 | L8 | L9 | v2 |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| **S**  | extends, contradicts, supports, inspired_by, tested_by, invalidates, supersedes, addresses_gap, derived_from, part_of | layer-ref | layer-ref | layer-ref | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | layer-ref | cross-tree-ref |
+| **L1** | layer-ref | extends, contradicts, supports, derived_from, part_of, supersedes | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | cross-tree-ref |
+| **L2** | layer-ref | layer-ref | extends, supersedes, part_of | layer-ref | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | — | cross-tree-ref |
+| **L3** | layer-ref | layer-ref | layer-ref | extends, derived_from, part_of, supersedes | layer-ref | alpha-ref | alpha-ref | layer-ref | layer-ref | — | cross-tree-ref |
+| **L4** | layer-ref | layer-ref | layer-ref | layer-ref | extends, supersedes | — | — | layer-ref (`promoted_to`) | layer-ref | — | cross-tree-ref |
+| **L5** | derived_from, supports, part_of | — | — | — | — | extends, supersedes, contradicts | layer-ref | — | — | — | — |
+| **L6** | layer-ref | — | — | — | — | layer-ref | extends, supersedes, part_of | layer-ref | — | — | cross-tree-ref |
+| **L7** | layer-ref | layer-ref | layer-ref | layer-ref | — | — | — | extends, contradicts, supports, supersedes, part_of, derived_from | layer-ref | — | cross-tree-ref |
+| **L8** | layer-ref | layer-ref | layer-ref | layer-ref | layer-ref | — | — | layer-ref | extends, supersedes, part_of, addresses_gap | — | cross-tree-ref |
+| **L9** | layer-ref (Phase B) | layer-ref (Phase B) | — | — | — | — | — | layer-ref (Phase B) | — | extends (Phase B) | cross-tree-ref (Phase B) |
+| **v2** | — | — | — | — | — | — | — | — | — | — | (intra-v2; not managed by v3) |
+
+**Reading the matrix.** A `from → to` edge is well-formed iff its
+`type` appears in the cell at row(from) × col(to). `/lint` rejects
+records that violate the matrix.
+
+**Phase-A specifics.** L9 row/column entries marked "(Phase B)" are
+forbidden in Phase A — `/lint` rejects them per the
+`phase_a_lock: true` field on `swarm/wiki/insights/` per D2 §2.4
+(Layer 9 fields).
+
+**Cross-tree storage.** Every cell containing `cross-tree-ref`
+records a write to `swarm/wiki/graph/cross-tree.jsonl`, not
+`edges.jsonl`. `/build-graph` keeps the two files separate per T1.
+
+### 3.4 Migration plan from v2 edges (572 records)
+
+Sub-agent D §2 audit:
+- 233 `part_of` records — already aligned with new enum; no migration.
+- 219 `derived_from` records — already aligned; no migration.
+- 84 `supports` records — already aligned; no migration.
+- 35 `extends` records — already aligned; no migration.
+- 1 `contradicts` record — already aligned; no migration.
+
+**No migration required** for the 572 v2 edges. They map 1:1 to the
+v3 enum. The 5 declared-but-unused v2 types (`inspired_by`,
+`tested_by`, `invalidates`, `supersedes`, `addresses_gap`) are
+preserved in the v3 enum (per R7 locked); v2's edges.jsonl simply
+contains zero records of those types and v3 inherits the same.
+
+**v3 extension types** (`alpha-ref`, `layer-ref`, `cross-tree-ref`)
+have zero v2 records by construction (v2 has no Layer-5..L9
+structure, no theme structure, no v3 tree to bridge to); they begin
+populating during Стадия D + ongoing.
+
+### 3.5 `swarm/wiki/_templates/edge-types.md` file content
+
+The literal content of the template file (Стадия D writes this verbatim):
+
+```markdown
+---
+title: Edge Type Enum
+type: edge-template
+layer: spine
+state: accepted
+confidence: high
+last_reviewed: 2026-04-23
+sources: [{path: "decisions/WIKI-V3-MECHANICS-2026-04-23.md", range: "216-237"}]
+---
+
+# Edge Type Enum (v3)
+
+This file is the SINGLE SOURCE OF TRUTH for typed cross-references in
+the v3 wiki. `/build-graph`, `/ingest`, `/lint`, and `/ask` Tier-3
+typed-BFS retrieval all read from this enum. Adding or modifying an
+edge type requires AWAITING-APPROVAL escalation (D6 §4).
+
+## Storage
+
+- **Intra-v3 edges** → append to `swarm/wiki/graph/edges.jsonl`,
+  one JSONL record per line.
+- **v3 → v2 cross-tree edges** → append to
+  `swarm/wiki/graph/cross-tree.jsonl`, same record shape.
+- **Record shape**: `{"from": "<path>", "to": "<path>",
+  "type": "<edge-type>", "ts": "YYYY-MM-DD",
+  "confidence": "low|medium|high", "note": "<optional>"}`.
+
+## Intra-layer types (10)
+
+(D3 §3.2.1 through §3.2.10 inline content here)
+
+## Cross-layer types (3)
+
+(D3 §3.2.11 through §3.2.13 inline content here)
+
+## From-layer × to-layer × allowed types matrix
+
+(D3 §3.3 table here)
+```
+
+### 3.6 Reconciliation with anti-patterns from research
+
+- **Sub-agent C §8 anti-pattern 11 (wikilinks without YAML/edges
+  backing).** `/lint` rule §2.2 #5 enforces: every inline `[[type/slug]]`
+  produces (a) one `related[]` entry AND (b) one `edges.jsonl` record.
+- **Sub-agent C §8 anti-pattern 7 (alpha state without history).** The
+  `alpha-ref` edge type explicitly bridges wiki to alpha tracker so
+  state mutations record in the alpha's `history.jsonl` (Phase B
+  alphas tree); `/lint` flags wiki entity pages that mutate `state`
+  without an `alpha-ref` to a tracking alpha.
+- **Sub-agent A §1 Q5 (bidirectional `contradicts`).** Honoured in
+  §3.2.2 by requiring both directions present.
+- **Sub-agent A §1 Q3 (≤1-hop-to-source invariant).** Encoded as a
+  /lint rule on §3.2.9 `derived_from`: every `accepted/referenced`
+  page MUST have ≥1 `derived_from` OR `supports` edge OR
+  `tier: foundation`.
+
+### 3.7 Compatibility matrix vs Tier-1
+
+| Locked item | D3 honours by … |
+|---|---|
+| Q3 (12-type edge enum) | enumerated 13 types per literal MECHANICS L216–234; flagged the L236 "12" summary as off-by-one. |
+| R7 (no wait-and-tune) | All 13 types specified upfront with cardinality + inverse + example + lint rule. |
+| Q9 + T1 cross-tree | `cross-tree-ref` (§3.2.13) v3→v2 only; storage in `cross-tree.jsonl`; lint enforces separation. |
+| W-12 1000% depth | Per-type spec includes 9 attributes; matrix in §3.3 covers all from×to combinations including v2 boundary; migration plan in §3.4 grounds in v2 audit. |
+| Q1 Tier-3 typed BFS | The enum drives the BFS edge-type filter (Sub-agent A §6 #2 shared mechanism). |
+| Q5 staleness signal #4 (contradiction-edge integrity) | `contradicts` bidirectional + lint rule for `support/contradiction` ratio. |
+| Sub-agent D §2 audit | Migration plan §3.4 matches the 5 in-use types 1:1; no v2 edge requires rewriting. |
+
+---
+
+
