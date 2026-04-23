@@ -11,6 +11,32 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-23] task-archived | T-swarm-self-improve-v1-2026-04-23 | cycle cyc-swarm-self-improve-v1-2026-04-23 closed | brigadier
+
+First real swarm cycle closed. Matrix 5×4 FULLY LIT (17 cells × 4 modes ×
+5 experts). 47 raw hypotheses → 19 clusters → 4 drafted Phase-A
+opportunities (OPP-01 eval harness / OPP-02 hook layer / OPP-04
+cell_acceptance_predicate / M3 solo-vs-matrix baseline) + 3 Cycle-2
+deferred. Both gates acked (Gate-1 Option C; Gate-2 Option Alpha).
+Compound step: 4 brigadier DRR + 14 meta/agent-improvements entries +
+1 emergent-insights entry. Cycle log at
+swarm/wiki/operations/T-swarm-self-improve-v1-2026-04-23/cycle-01.md.
+All 10 acceptance criteria PASS.
+
+## [2026-04-23] task-compounded | T-swarm-self-improve-v1-2026-04-23 | 4 brigadier DRR + 14 agent-improvements entries written | brigadier
+
+## [2026-04-23] task-approved | T-swarm-self-improve-v1-2026-04-23 | Gate-2 Option Alpha acked (all 4 OPPs + HD-01 C + HD-02 A + M3 T-B) | ruslan
+
+## [2026-04-23] task-gated | T-swarm-self-improve-v1-2026-04-23 | Gate-2 packet (opportunity approval) opened | brigadier
+
+## [2026-04-23] task-integrated | T-swarm-self-improve-v1-2026-04-23 | 17 matrix-cell artefacts + 4 opportunity drafts + scalability-01 integrated | brigadier
+
+## [2026-04-23] task-approved | T-swarm-self-improve-v1-2026-04-23 | Gate-1 Option C acked (top-3 OPPs + M3 baseline) | ruslan
+
+## [2026-04-23] task-gated | T-swarm-self-improve-v1-2026-04-23 | Gate-1 packet (hypothesis review) opened | brigadier
+
+## [2026-04-23] task-dispatched | T-swarm-self-improve-v1-2026-04-23 | 5 critics + 5 optimizers + 2 integrators Phase 2 complete | brigadier
+
 ## [2026-04-23] task-intaked | T-swarm-self-improve-v1-2026-04-23 | first real swarm cycle — self-improvement v1 | brigadier
 
 Intake per brigadier §2.5. Acceptance-predicate written at

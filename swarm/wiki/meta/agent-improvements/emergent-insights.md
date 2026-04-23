@@ -52,6 +52,26 @@ Emergent insights additionally carry:
 
 ## Entries
 
+### 2026-04-23 — The swarm self-criticises more effectively than any single expert alone (emergent property of matrix 5×4)
+
+- **Cross-cycle observation window:** cyc-swarm-self-improve-v1-2026-04-23 (first real swarm cycle)
+- **Pattern surface:** all 5 experts × all 4 modes + brigadier integration
+- **Refutation predicate:** if a subsequent M-class cycle achieves equivalent-quality critique with ≤10 cell dispatches (vs this cycle's 17), the matrix-5×4 advantage is partially refuted (single-expert may have been sufficient).
+
+- **Decision:** Flag as emergent: the 5×4 matrix swarm, when applied to self-improvement, produces critique that NO single expert could produce alone. Evidence: 47 hypotheses covering 4 dimensions × 5 domain lenses; integrator compression to 19 clusters + 7 dissents; philosophy × integrator meta-audit. No single-expert Chat could reach this coverage at this depth.
+- **Reasoning:** Ashby requisite variety — the swarm has 5 × 4 = 20 independent critical apertures; any single expert × mode has 1. Cross-lens redundancy catches blind spots (e.g., systems' "measurement void" independently confirmed by investor Kelly = 90.0, philosophy falsifier-prerequisite = 6/8, engineering eval-harness = H-5). Each expert's blind spots are another expert's domain.
+- **Result:** First real cycle validated this emergent property empirically. 3 structurally-significant improvements (OPP-01/02/04 + M3 baseline) identified with high cross-expert agreement. Gate-1 and Gate-2 decisions made with unusually thorough multi-lens analysis.
+- **Review:** validated once. Worth watching: does the emergence hold at different task shapes? Or is self-improvement uniquely suited to 5×4 matrix because the SWARM IS THE SUBJECT OF THE TASK (meta-reflexivity)? Hypothesis: non-meta tasks may achieve similar depth with fewer modes/experts; the matrix may be over-provisioned for routine work (consistent with Decompose-or-Chat gate E-17).
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created (first real swarm cycle; Шаг 2.2.4 follow-up)
+- last-review: 2026-04-23
+- expected-evolution:
+  - cycle_5: second meta-task (e.g., the M3 solo-vs-matrix comparison) provides contrastive data; "is 2× really 2× or is it 10× on self-improvement specifically?"
+  - cycle_50: cross-task pattern: which task shapes justify full matrix? which don't? E-17 Decompose-or-Chat refinement data
+  - cycle_200: Phase-B: the swarm may be re-used to design its own successor; this emergent property becomes a design principle for the v4 architecture
+
 ### 2026-04-23 — Scaffolding placeholder
 
 - **Decision:** scaffold `emergent-insights.md` per Шаг 2.2.4 Phase

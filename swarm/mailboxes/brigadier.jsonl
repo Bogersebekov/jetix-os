@@ -54,3 +54,6 @@
 {"ts": "2026-04-23 06:36:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "matrix-milestone", "note": "5x4 FULLY LIT — 17 cell invocations across 4 modes"}
 {"ts": "2026-04-23 06:40:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "document-written", "doc": 2, "path": "decisions/SWARM-SELF-IMPROVEMENT-OPPORTUNITIES-2026-04-23.md"}
 {"ts": "2026-04-23 06:45:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "gate-open", "gate_id": "swarm-self-improve-gate2-2026-04-23", "path": "decisions/AWAITING-APPROVAL-swarm-self-improve-gate2-2026-04-23.md", "recommendation": "Option Beta + HD-01 C + HD-02 A + M3 T-B", "options": ["Alpha", "Beta", "Gamma", "Delta"]}
+{"ts": "2026-04-23 06:45:30", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "gate-acked", "gate_id": "swarm-self-improve-gate2-2026-04-23", "chosen": "Alpha", "hd_01": "C", "hd_02": "A", "m3": "T-B"}
+{"ts": "2026-04-23 06:48:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "compound-complete", "brigadier_drr": 4, "agent_improvements_entries": 14, "emergent_insights_entries": 1}
+{"ts": "2026-04-23 06:50:00", "cycle_id": "cyc-swarm-self-improve-v1-2026-04-23", "event": "cycle-closed", "outcome": "closed", "fpar": 1.00, "acceptance_criteria_pass": "10/10"}

@@ -125,3 +125,22 @@ NOTE: on completion, matrix 5×4 demonstration FULLY lit — all 5 experts × al
 - written | decisions/SWARM-SELF-IMPROVEMENT-OPPORTUNITIES-2026-04-23.md | Document 2 | 7 opportunities surfaced (4 drafted + 3 Cycle-2-deferred)
 - written | decisions/AWAITING-APPROVAL-swarm-self-improve-gate2-2026-04-23.md | 4 options (Alpha/Beta/Gamma/Delta) + HD-01 + HD-02 + M3-toy-task
 - PAUSED — brigadier recommends Option Beta + HD-01 C + HD-02 A + M3 T-B
+
+## [2026-04-23] Gate 2 ACKED — Option Alpha + HD-01 C + HD-02 A + M3 T-B
+
+- acked | Option Alpha | all 4 OPPs for Cycle-2 + HD-01 C + HD-02 A + M3 T-B
+- ack file: swarm/gates/AWAITING-APPROVAL-swarm-self-improve-gate2-2026-04-23-ack.md
+
+## [2026-04-23] Phase 7 — Compound step complete
+
+- 4 brigadier DRR entries prepended to agents/brigadier/strategies.md
+- 4 experts self-wrote strategies.md during their cells (philosophy did not — flagged)
+- 14 new entries across 7 meta/agent-improvements/ files (brigadier sole writer per Q2)
+- emergent-insights.md received first real entry (swarm self-criticism as emergent property)
+
+## [2026-04-23] Phase 8 — Cycle closed
+
+- cycle-log written: swarm/wiki/operations/T-swarm-self-improve-v1-2026-04-23/cycle-01.md
+- α-1 state: compounded → archived
+- All 10 acceptance criteria PASS
+- FINAL COMMIT pending

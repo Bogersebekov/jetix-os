@@ -49,6 +49,20 @@ return.
 
 ## Entries
 
+### 2026-04-23 — brigadier-improvement proposed by philosophy × integrator (SHIPPABLE-WITH-CAVEATS verdict requires upgraded handling)
+
+- **Decision:** brigadier should include a `verdict:` field in future integrator packet-validation step. Philosophy × integrator's SHIPPABLE-WITH-CAVEATS verdict is a third category brigadier had not anticipated — neither full-pass nor reject.
+- **Reasoning:** philosophy-integrator-01 §7 returned three caveats C-1/C-2/C-3 that needed to be folded into downstream drafts. brigadier currently has binary gate-check (pass/fail per shared-protocols §2); SHIPPABLE-WITH-CAVEATS requires an intermediate state with caveat-threading into Phase-5 brief composition.
+- **Result:** This cycle brigadier manually folded caveats into the 4 Phase-5 opportunity drafter briefs; worked cleanly. No defect. But the process was ad-hoc, not protocol-driven.
+- **Review:** partial — the pattern is useful but unformalised. Add to shared-protocols §3 structured-output schema as `verdict: pass | fail | pass-with-caveats`; caveats as structured array.
+
+### 2026-04-23 — brigadier should self-dispatch `mgmt × integrator` automatically after Round 2 when hypothesis count ≥ 20
+
+- **Decision:** brigadier § 5.3 integrator dispatch rule currently fires on "≥2 cells contradict". A stronger rule: auto-dispatch mgmt × integrator when parallel cell-return count × hypothesis-per-return ≥ 20, regardless of contradiction.
+- **Reasoning:** In this cycle 5 critics + 5 optimizers returned 47 raw hypotheses. Without integrator, the hypothesis set would have overwhelmed Ruslan's gate review. mgmt × integrator compressed 47 → 19 clusters + 6 Tier-1 picks — unambiguous value.
+- **Result:** Smooth Gate-1 review. Ruslan acked after reading Document 1 (355 L) not the 12 cell artefacts (~6700 L).
+- **Review:** validated once — generalise the rule. Consider auto-dispatch threshold calibration: 20 hypotheses may be too high; observe at cycle-3 whether 10-15 also triggers meaningful integrator value.
+
 ### 2026-04-23 — Scaffolding placeholder
 
 - **Decision:** scaffold per Шаг 2.2.4 Part C.

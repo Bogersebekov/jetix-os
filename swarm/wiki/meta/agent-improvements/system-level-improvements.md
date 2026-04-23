@@ -46,6 +46,54 @@ are mandatory: every improvement here cites at least one
 
 ## Entries
 
+### 2026-04-23 — MP-1 "executor-not-wired" is the dominant system-level pattern; named hooks + evals are the single highest-leverage fix
+
+- **Decision:** Adopt MP-1 "executor-not-wired" as a first-class observability target. The pattern surfaced in 5/5 cells' Phase-1 extractions (α/β/γ/δ/ε) and again in ζ cross-pollination; systems × critic called it Meadows L6 dominance; philosophy × integrator named it EC-6.
+- **Reasoning:** Hooks wired (OPP-02) + eval harness (OPP-01) are the two fixes this cycle identified to close the gap. Both approved at Gate 2. Beyond this cycle, brigadier should continue treating "executor-not-wired" as a red-flag class across the wiki (spec files without executors, schemas without validators, protocols without enforcement).
+- **Result:** Gate 2 approved both fixes. MP-1 instance count: OPP-01 closes (measurement executor), OPP-02 closes (mode + tool + verifier executors), OPP-04 closes (schema executor). Four MP-1 manifestations closed this cycle.
+- **Review:** validated empirically by cross-cell agreement (5/5 cells surfaced independently). Watch for Cycle-2: does MP-1 instance count trend down once the three structural fixes ship?
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created
+- last-review: 2026-04-23
+- expected-evolution:
+  - cycle_5: MP-1 instance count measurable via edges.jsonl "executor-missing" edge-type; Cycle-5 target ≤3 instances
+  - cycle_50: pattern may dissolve if hook+eval infrastructure is mature; or may reappear at wiki-v3-v4 transition
+  - cycle_200: MP-1 remains a permanent observability class; Phase-B adds "executor-coverage" as a named health counter
+
+### 2026-04-23 — Matrix 5×4 full coverage is viable in a single cycle under parallel-dispatch discipline
+
+- **Decision:** First real cycle fired all 20 (expert, mode) cells at least once. Brigadier should aspire to full-matrix exercise in future M-class self-improvement cycles (not R/T tactical cycles which use Chat or sub-cell dispatch).
+- **Reasoning:** Rule-of-4 knee violation (α context; 5 experts vs 4-agent working-memory ceiling) argued via Ashby requisite variety. Empirically this cycle: 17 cell invocations across 4 modes + all 5 experts, each cell returned ≤500-turn packets, each packet actionable. No coordination collapse observed.
+- **Result:** Full-matrix cycle produced 2 shippable Gate packets + 2 Decision documents + ~3000 lines of design detail + 4 drafted opportunities + experimental design for baseline. Wall-clock ~3 hours.
+- **Review:** validated once. Worth replicating on next M-class cycle (e.g., when OPP-01+OPP-02+OPP-04 actual implementations are M-classed for the following cycle).
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created
+- last-review: 2026-04-23
+- expected-evolution:
+  - cycle_5: second M-class full-matrix cycle to confirm; measure coordination overhead vs Cycle-1 baseline
+  - cycle_50: catalogue which (expert, mode) pairs are systematically under-exercised; M-class cycles may stop being the only trigger
+  - cycle_200: Phase-B Ashby capacity re-evaluated; if intake >10/week, full-matrix M-cycles become ritual pattern, not opportunity
+
+### 2026-04-23 — E-5 dissent-preservation works in practice; averaging temptation resisted
+
+- **Decision:** 7 dissents preserved with (F, ClaimScope, R) triples in integrator outputs (5 from mgmt × integrator + 2 from philosophy × integrator meta-sanity). No integrator averaged. Every dissent carries resolution-path + refutation-conditions + acceptance-conditions.
+- **Reasoning:** brigadier §5.5 AP-6 hard lock. Before this cycle, E-5 was a spec claim; now it has empirical footprint. The 5-dissent pattern emerged organically from 47-hypothesis dedup process.
+- **Result:** Document 1 §7 enumerates all 7 dissents with full (F, ClaimScope, R) discipline. Gate-1 packet referenced them; Ruslan acked Option C informed by dissent landscape. Gate-2 packet preserved them for Cycle-5 revisit.
+- **Review:** validated — dissent preservation produced better gate-ack discipline (Ruslan could see cross-expert tensions); no averaging-temptation observed in either integrator pass. Watch: do dissents actually resolve at Cycle-5 with empirical data, or do they proliferate (indicating dissent-preservation is being used as a ceremony rather than as an active resolution-path)?
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created
+- last-review: 2026-04-23
+- expected-evolution:
+  - cycle_5: revisit all 7 dissents; mark resolved/refuted/still-open with empirical evidence
+  - cycle_50: dissent accretion rate vs resolution rate — if accretion outpaces resolution by >2×, dissent-preservation needs reform (maybe hit a cap, or require forced-resolution ritual)
+  - cycle_200: Phase-B may require a dedicated "dissent-resolver" cadence independent of cycle-close
+
 ### 2026-04-23 — Scaffolding placeholder
 
 - **Decision:** scaffold `system-level-improvements.md` per Шаг 2.2.4
