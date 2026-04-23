@@ -194,3 +194,321 @@ $ # → /ingest writes to wiki/sources/<...>.md
 | 24-Lock 17 (Filesystem = SoT) | this file lives at `.claude/config/wiki-roots.yaml`; filesystem is the source of truth. |
 
 ---
+
+## DELIVERABLE 8 — Skill Edit Diffs (5 in-scope skills + 3 documented exclusions)
+
+### 8.1 Mandate, scope reconciliation, and edit budget
+
+The prompt §6 D8 mandates concrete edit diffs for "6 skills targeted
+(`/ingest`, `/ask`, `/lint`, `/compile`, `/consolidate`, `/build-graph`)."
+Sub-agent D §4 audit revealed `/compile` (50 lines) targets legacy
+`knowledge-base/`, NOT `wiki/`. Sub-agent D §7 transplant table
+recommendation: "drop (or rewrite); Targets legacy knowledge-base/;
+supplanted by /ingest + /ask in v2." Sub-agent E §4 confirms `/compile`'s
+inclusion in the 6-skill list is inferred (master synthesis §5.10
+itself does not name 6).
+
+**Resolution.** This deliverable scopes to **5 in-scope skills** for
+`$WIKI_ROOT` parameterisation (`/ingest`, `/ask`, `/lint`,
+`/consolidate`, `/build-graph`) and **3 documented exclusions**
+(`/search-kb`, `/sweep-notion-bank`, `/compile`). The 6→5 reduction
+honours the audit (no point parameterising a skill that doesn't read
+`wiki/` at all) and is the cleaner Стадия-D landing. If Ruslan wants
+`/compile` rewritten for v3 KB target, escalate as a follow-up
+`AWAITING-APPROVAL-compile-v3-rewrite-*.md` after Стадия D ships.
+
+**Edit budget per Sub-agent D §4 audit + ~9-line `$WIKI_ROOT` resolution
+preamble per skill:**
+
+| Skill | Total lines (current) | Path-line replacements | Prose tweaks | New `$WIKI_ROOT` preamble | Total per-skill lines changed | Cumulative |
+|---|---|---|---|---|---|---|
+| /ingest | 135 | 7 | 2 | 9 | 18 | 18 |
+| /ask | 116 | 7 | 2 | 9 | 18 | 36 |
+| /lint | 103 | 7 | 2 | 9 | 18 | 54 |
+| /consolidate | 96 | 8 | 2 | 9 | 19 | 73 |
+| /build-graph | 97 | 5 | 2 | 9 | 16 | 89 |
+
+Total: **89 substantive lines changed across 5 files** (matches
+Sub-agent D §4.8 estimate of ~85 ± rounding; matches prompt §6 D8 budget).
+
+### 8.2 Shared `$WIKI_ROOT` resolution preamble (inserted into each in-scope skill)
+
+Every in-scope skill receives the following 9-line block immediately
+after its frontmatter (before `# Skill: /...`). The preamble is
+**identical** across all 5 skills — Стадия D copy-pastes verbatim.
+
+```markdown
+> **`$WIKI_ROOT` resolution (D7).** This skill reads
+> `.claude/config/wiki-roots.yaml` at startup and resolves the wiki
+> root via the algorithm in D7 §7.4. All `wiki/`-prefixed paths in
+> the algorithm below MUST be read as `${WIKI_ROOT}/...`. The default
+> root is `swarm/wiki/` (v3) per D7 `default_root: wiki_root_v3`. To
+> target v2, set `WIKI_ROOT=wiki` env var or pass `--wiki-root=v2`.
+> Cross-tree edges (v3→v2 only) land in
+> `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` per D3 §3.2.12 + T1.
+```
+
+(Counted as 9 lines including the blank line before `# Skill:`.)
+
+### 8.3 `/ingest` skill diff (`.claude/skills/ingest.md`, 135 lines → +18 = 153 lines)
+
+**Audit baseline:** Sub-agent D §4.1 — 7 substantive `wiki/` paths at
+lines 62, 65, 71, 78, 90, 100, 111; 2 prose mentions at lines 3, 15.
+
+**Per-edit table:**
+
+| # | Line range | Before (current) | After (v3) | Rationale |
+|---|---|---|---|---|
+| 1 | after L5 (insert) | (frontmatter ends at L5) | insert §8.2 preamble (9 lines) | wires `$WIKI_ROOT` resolution at skill entry |
+| 2 | L3 (frontmatter description) | `description: "Поднять источник из raw/ (или по URL) в wiki/: распарсить, создать entity-страницы, обновить index/log/edges."` | `description: "Поднять источник из raw/ (или по URL) в ${WIKI_ROOT}/: распарсить, создать entity-страницы, обновить index/log/edges. (Default root: swarm/wiki per D7.)"` | prose alignment — surfaces parameterisation in the skill description |
+| 3 | L15 (description body) | `Превратить сырой источник (файл в \`raw/\` или URL) в связанный набор страниц wiki/.` | `Превратить сырой источник (файл в \`raw/\` или URL) в связанный набор страниц \`${WIKI_ROOT}/\`.` | prose alignment |
+| 4 | L62 | `1. Построить путь: \`wiki/{type}/{slug}.md\`.` | `1. Построить путь: \`${WIKI_ROOT}/{type}/{slug}.md\`.` | path parameterisation |
+| 5 | L65 | `3. Если нет → взять шаблон из \`wiki/_templates/{type}.md\`, заполнить.` | `3. Если нет → взять шаблон из \`${WIKI_ROOT}/_templates/{type}.md\`, заполнить.` | path parameterisation |
+| 6 | L71 | `\`wiki/sources/YYYY-MM-DD-slug.md\` по шаблону \`source.md\`:` | `\`${WIKI_ROOT}/sources/YYYY-MM-DD-slug.md\` по шаблону \`source.md\`:` | path parameterisation |
+| 7 | L78 | `### 6. Добавить edges в \`wiki/graph/edges.jsonl\`` | `### 6. Добавить edges в \`${WIKI_ROOT}/graph/edges.jsonl\` (v3 intra-tree). Для v3→v2 ссылок — `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` (D3 §3.2.12 + T1).` | path parameterisation + cross-tree extension |
+| 8 | L80–L82 (edge type list) | `Append-only. Один JSON на строку. 9 типов: \`extends\`, \`contradicts\`, \`supports\`, \`inspired_by\`, \`tested_by\`, \`invalidates\`, \`supersedes\`, \`addresses_gap\`, \`derived_from\`.` | `Append-only. Один JSON на строку. **12 типов per D3 §3.2** (10 intra-layer + 3 cross-layer): \`extends, contradicts, supports, inspired_by, tested_by, invalidates, supersedes, derived_from, part_of, alpha-ref, layer-ref, cross-tree-ref\`. (\`addresses_gap\` dropped per critic-gate1 H4.)` | edge enum alignment with D3 |
+| 9 | L90 | `### 7. Обновить \`wiki/index.md\`` | `### 7. Обновить \`${WIKI_ROOT}/index.md\`` | path parameterisation |
+| 10 | L100 | `### 8. Добавить в \`wiki/log.md\` (сверху)` | `### 8. Добавить в \`${WIKI_ROOT}/log.md\` (сверху)` | path parameterisation |
+| 11 | L111 | `В \`wiki/niches/{niche}/README.md\` в секцию \`## Pages\` добавить линк на новые страницы.` | `В \`${WIKI_ROOT}/niches/{niche}/README.md\` в секцию \`## Pages\` добавить линк на новые страницы. (Niche enum: 6 values per CLAUDE.md L70 lock — \`personal/business/sales/life/tech/meta\`; \`global\` removed per critic-gate1 S3.)` | path parameterisation + niche-enum correction (also fixes L45 implicit reference) |
+| 12 | L45 (niche enum) | `Прочитать содержимое. Выбрать одну из: \`personal\`, \`business\`, \`sales\`, \`life\`, \`tech\`, \`meta\`, \`global\`.` | `Прочитать содержимое. Выбрать одну из: \`personal\`, \`business\`, \`sales\`, \`life\`, \`tech\`, \`meta\`. (6 niches per CLAUDE.md L70 lock; \`global\` content lives in Layer 7 \`${WIKI_ROOT}/global/\` per D1.)` | niche enum alignment |
+
+**Net edits:** 11 line edits (12 numbered above; #1 is insertion-only,
+not replacement). Combined with the 9-line preamble, the file grows
+~15 lines net (some prose lines lengthen, no lines deleted).
+
+**Behaviour after edit.** /ingest reads `.claude/config/wiki-roots.yaml`
+at startup, resolves `$WIKI_ROOT` to `swarm/wiki/` by default, writes
+all entity pages and updates index/log/edges under that root. Edge
+types align with D3 12-enum.
+
+**Test plan.** (1) `unset WIKI_ROOT && /ingest raw/articles/foo.md` →
+expect `swarm/wiki/sources/<…>.md` written. (2) `WIKI_ROOT=wiki
+/ingest raw/articles/foo.md` → expect `wiki/sources/<…>.md` written
+(v2 backward-compat). (3) `/ingest raw/v3-test.md` should add an edge
+to `swarm/wiki/graph/edges.jsonl` (not v2 `wiki/graph/edges.jsonl`).
+
+### 8.4 `/ask` skill diff (`.claude/skills/ask.md`, 116 lines → +18 = 134 lines)
+
+**Audit baseline:** Sub-agent D §4.2 — 7 substantive paths at L20, 27,
+28, 29, 60, 71, 100; 2 prose at L3, 11.
+
+**Per-edit table:**
+
+| # | Line range | Before | After | Rationale |
+|---|---|---|---|---|
+| 1 | after L5 (insert) | (frontmatter ends at L5) | insert §8.2 preamble (9 lines) | wires `$WIKI_ROOT` resolution |
+| 2 | L3 | `description: "Ответить на вопрос по wiki/: подобрать 5-15 страниц, синтезировать с цитатами, сохранить ценный ответ в comparisons/."` | `description: "Ответить на вопрос по \`${WIKI_ROOT}/\` (default v3): подобрать 5-15 страниц, синтезировать с цитатами, сохранить ценный ответ в \`${WIKI_ROOT}/comparisons/\`."` | prose alignment |
+| 3 | L11 | `Ответить на содержательный вопрос пользователя по накопленной wiki/.` | `Ответить на содержательный вопрос пользователя по накопленной \`${WIKI_ROOT}/\`.` | prose |
+| 4 | L20 | `### 1. Прочитать \`wiki/index.md\`` | `### 1. Прочитать \`${WIKI_ROOT}/index.md\`` | path |
+| 5 | L27 | `- При необходимости — grep по ключевым словам вопроса в \`wiki/**/*.md\`.` | `- При необходимости — grep по ключевым словам вопроса в \`${WIKI_ROOT}/**/*.md\`.` | path |
+| 6 | L28 | `- Смотри niche: если вопрос явно про sales — приоритет \`wiki/niches/sales/\` и страниц с \`niche: sales\`.` | `- Смотри niche: если вопрос явно про sales — приоритет \`${WIKI_ROOT}/niches/sales/\` и страниц с \`niche: sales\`.` | path |
+| 7 | L29 | `- Если есть community summaries (\`wiki/graph/summaries.md\`) — используй их для быстрого контекста.` | `- Если есть community summaries (\`${WIKI_ROOT}/graph/summaries.md\`) — используй их для быстрого контекста. (Tier 4 long-context fallback per Q1: scope to current niche dir, not full wiki.)` | path + Q1 Tier-4 alignment |
+| 8 | L60 | `**Сохранить в \`wiki/comparisons/\`** если ответ:` | `**Сохранить в \`${WIKI_ROOT}/comparisons/\`** если ответ:` | path |
+| 9 | L71 | `\`wiki/comparisons/YYYY-MM-DD-question-slug.md\`:` | `\`${WIKI_ROOT}/comparisons/YYYY-MM-DD-question-slug.md\`:` | path |
+| 10 | L100 | `Добавить edges в \`wiki/graph/edges.jsonl\`.` | `Добавить edges в \`${WIKI_ROOT}/graph/edges.jsonl\` per D3 12-enum. Cross-tree refs (v3→v2) → \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\` per T1.` | path + cross-tree |
+
+**Net edits:** 9 line edits + 9-line preamble = 18 lines changed.
+
+**Behaviour after edit.** /ask reads `$WIKI_ROOT/index.md` first
+(Karpathy Tier-2), then `$WIKI_ROOT/niches/<niche>/`, then
+typed-BFS over `$WIKI_ROOT/graph/edges.jsonl` (Q1 Tier-3), then
+long-context fallback bounded to niche dir (Q1 Tier-4). Comparisons
+and edges land in the right tree.
+
+**Test plan.** (1) Default-root: `/ask "что такое 4-tier retrieval"` →
+reads `swarm/wiki/index.md` first; comparisons land in
+`swarm/wiki/comparisons/`. (2) `WIKI_ROOT=wiki /ask "что такое
+4-tier retrieval"` → reads `wiki/index.md`; comparisons land in
+`wiki/comparisons/`.
+
+### 8.5 `/lint` skill diff (`.claude/skills/lint.md`, 103 lines → +18 = 121 lines)
+
+**Audit baseline:** Sub-agent D §4.3 — 7 substantive paths at L21, 30,
+38, 55, 60, 92, 102; 2 prose at L3, 11.
+
+**Per-edit table:**
+
+| # | Line range | Before | After | Rationale |
+|---|---|---|---|---|
+| 1 | after L5 (insert) | (frontmatter ends at L5) | insert §8.2 preamble (9 lines) | wires `$WIKI_ROOT` |
+| 2 | L3 | `description: "Health check wiki/: 7 проверок..."` | `description: "Health check \`${WIKI_ROOT}/\` (default v3): 5-signal /lint orchestration per Q5 + structural checks (orphans, stale, broken links, missing frontmatter, contradictions, missing cross-refs, index drift)."` | prose + Q5 5-signal alignment |
+| 3 | L11 | `Проверка целостности wiki/.` | `Проверка целостности \`${WIKI_ROOT}/\`.` | prose |
+| 4 | L21 | `Страницы, на которые никто не ссылается (нет входящих \`[[links]]\` и нет в \`wiki/graph/edges.jsonl\`).` | `Страницы, на которые никто не ссылается (нет входящих \`[[links]]\` и нет в \`${WIKI_ROOT}/graph/edges.jsonl\`).` | path |
+| 5 | L30 | `\`wiki/claims/*.md\` где \`confidence: low\` И \`updated:\` старше 60 дней от сегодня.` | `\`${WIKI_ROOT}/claims/*.md\` где \`confidence: low\` И \`updated:\` старше 60 дней от сегодня. **Дополнительно: \`${WIKI_ROOT}/foundations/*.md\` где \`last_reviewed:\` старше 365 дней (Q5 §3 + D2 §2.3 foundations re-review).**` | path + Q5 §3 365-day re-review for foundations |
+| 6 | L38 | `Markdown в \`wiki/**/*.md\` без обязательных полей: \`title\`, \`type\`, \`niche\`, \`created\`, \`updated\`, \`pipeline\`.` | `Markdown в \`${WIKI_ROOT}/**/*.md\` без обязательных полей per D2 §2.2 cross-layer table: \`id, title, type, layer, niche, created, last_modified, pipeline, state, confidence, tier, produced_by, sources, related, topics, captured_by, captured_date\`.` | path + full D2 cross-layer field list |
+| 7 | L55 | `- Файл есть в wiki/, но его нет в \`index.md\` (в соответствующей секции).` | `- Файл есть в \`${WIKI_ROOT}/\`, но его нет в \`index.md\` (в соответствующей секции).` | path |
+| 8 | L60 | `\`wiki/_lint-report-YYYY-MM-DD.md\`:` | `\`${WIKI_ROOT}/_lint-report-YYYY-MM-DD.md\`:` | path |
+| 9 | L92 | `- wiki/concepts/foo.md → [[bar]] (нет такого файла)` | `- ${WIKI_ROOT}/concepts/foo.md → [[bar]] (нет такого файла)` | path (in example) |
+| 10 | L102 | `- Добавить запись в \`wiki/log.md\`:` | `- Добавить запись в \`${WIKI_ROOT}/log.md\`:` | path |
+| 11 | (after L17 "Проверки") | (existing 7 checks) | **NEW SECTION:** "### 8. α-2/α-3 lifecycle state validity (per Q5 signal #2)" — flag pages with `state ∉ {drafted, reviewed, revised, accepted, referenced, superseded, retired, tombstoned}` (D5 α-2 8-state set). "### 9. Triple-channel cross-ref consistency (per D2 §2.2 lint #5)" — every inline `[[type/slug]]` MUST appear in `related[]` AND produce one record in `${WIKI_ROOT}/graph/edges.jsonl`. "### 10. Q8 Layer-9 lock (per D1 §1.6)" — flag any non-README write under `${WIKI_ROOT}/insights/` when `phase_a_lock: true`. | extends /lint to cover Q5 5-signal + Q3 triple-channel reconciliation + Q8 lock per D2 + D3 |
+
+**Net edits:** 10 line edits + new sections (~15 lines) + 9-line
+preamble = ~34 lines added/changed. Slightly above the audit's
+estimate because /lint absorbs the Q5 5-signal and triple-channel
+enforcement. Acceptable inflation; the alternative is a separate
+/lint-v3 skill which would violate the parameterisation principle.
+
+**Behaviour after edit.** /lint runs the original 7 v2 checks +
+3 new v3 checks (α-2/α-3 lifecycle, triple-channel consistency, Q8
+lock). Reports land in `$WIKI_ROOT/_lint-report-<date>.md`.
+
+**Test plan.** (1) Default-root: `/lint` → walks `swarm/wiki/`,
+emits report at `swarm/wiki/_lint-report-2026-04-23.md`. (2) Set up
+a draft page with `[[concepts/foo]]` body wikilink but missing
+`related[]`/edges entry; expect /lint to flag it under check #9. (3)
+Try writing `swarm/wiki/insights/candidates/test.md` with
+`phase_a_lock: true` → expect /lint to reject under check #10.
+
+### 8.6 `/consolidate` skill diff (`.claude/skills/consolidate.md`, 96 lines → +19 = 115 lines)
+
+**Audit baseline:** Sub-agent D §4.4 — 8 substantive paths at L36, 37,
+68, 70, 73, 76, 80, 81; 2 prose at L3, 11.
+
+**Per-edit table:**
+
+| # | Line range | Before | After | Rationale |
+|---|---|---|---|---|
+| 1 | after L5 (insert) | (frontmatter ends at L5) | insert §8.2 preamble (9 lines) | wires `$WIKI_ROOT` |
+| 2 | L3 | `description: "Найти дубликаты в wiki/ и предложить merge..."` | `description: "Найти дубликаты в \`${WIKI_ROOT}/\` (default v3) и предложить merge..."` | prose |
+| 3 | L11 | `Объединение дубликатов в wiki/.` | `Объединение дубликатов в \`${WIKI_ROOT}/\`.` | prose |
+| 4 | L36 | `  A: wiki/concepts/value-based-pricing.md (4 sources, 120 lines)` | `  A: ${WIKI_ROOT}/concepts/value-based-pricing.md (4 sources, 120 lines)` | path (in example) |
+| 5 | L37 | `  B: wiki/concepts/value-pricing.md (2 sources, 80 lines)` | `  B: ${WIKI_ROOT}/concepts/value-pricing.md (2 sources, 80 lines)` | path (in example) |
+| 6 | L68 | `   - Обновить \`wiki/graph/edges.jsonl\`: где \`from: B\` → \`from: A\`, где \`to: B\` → \`to: A\`` | `   - Обновить \`${WIKI_ROOT}/graph/edges.jsonl\`: где \`from: B\` → \`from: A\`, где \`to: B\` → \`to: A\`. **Также пройти по \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\` для v3-сторонних ссылок на B.**` | path + cross-tree handling per T1 |
+| 7 | L70 | `   - Обновить \`wiki/index.md\`: убрать строку B, обновить A.` | `   - Обновить \`${WIKI_ROOT}/index.md\`: убрать строку B, обновить A.` | path |
+| 8 | L73 | `   - Перед удалением — создать копию в \`wiki/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A").` | `   - Перед удалением — создать копию в \`${WIKI_ROOT}/_archive/YYYY-MM-DD-B.md\` (с комментом "merged into A"). **Установить B's frontmatter \`state: superseded\`, \`superseded_by: [[<A-path>]]\` per α-2 (D5 §5.3).**` | path + α-2 lifecycle integration |
+| 9 | L76 | `5. Залогировать в \`wiki/log.md\` (сверху):` | `5. Залогировать в \`${WIKI_ROOT}/log.md\` (сверху):` | path |
+| 10 | L80 | `   A: wiki/concepts/value-based-pricing.md` | `   A: ${WIKI_ROOT}/concepts/value-based-pricing.md` | path (in example) |
+| 11 | L81 | `   B (archived): wiki/_archive/YYYY-MM-DD-value-pricing.md` | `   B (archived): ${WIKI_ROOT}/_archive/YYYY-MM-DD-value-pricing.md` | path (in example) |
+
+**Net edits:** 10 line edits + 9-line preamble = 19 lines changed.
+
+**Behaviour after edit.** /consolidate operates within `$WIKI_ROOT`,
+moves losers to `$WIKI_ROOT/_archive/`, sets α-2 state correctly,
+and updates BOTH `edges.jsonl` AND `cross-tree.jsonl` (the latter
+when the loser had inbound v3→v2 cross-refs).
+
+**Test plan.** (1) Set up duplicate `swarm/wiki/concepts/foo.md` and
+`swarm/wiki/concepts/foo-v2.md`; run `/consolidate` → on `y`,
+loser moves to `swarm/wiki/_archive/`, frontmatter shows `state:
+superseded` + `superseded_by:`. (2) If a v3→v2 cross-tree-ref pointed
+at the loser, verify the cross-tree.jsonl record is rewritten to
+point at the survivor.
+
+### 8.7 `/build-graph` skill diff (`.claude/skills/build-graph.md`, 97 lines → +16 = 113 lines)
+
+**Audit baseline:** Sub-agent D §4.5 — 5 substantive paths at L22, 33,
+62, 73, 86; 2 prose at L3, 11.
+
+**Per-edit table:**
+
+| # | Line range | Before | After | Rationale |
+|---|---|---|---|---|
+| 1 | after L5 (insert) | (frontmatter ends at L5) | insert §8.2 preamble (9 lines) | wires `$WIKI_ROOT` |
+| 2 | L3 | `description: "Пройти по wiki/, добить недостающие edges в edges.jsonl, пересчитать communities + summaries."` | `description: "Пройти по \`${WIKI_ROOT}/\` (default v3), добить недостающие edges в edges.jsonl per D3 12-enum, пересчитать communities + summaries. Поддерживает \`--tree {v2|v3|both}\` per T1."` | prose + tree-flag |
+| 3 | L11 | `Обновить граф знаний поверх wiki/.` | `Обновить граф знаний поверх \`${WIKI_ROOT}/\`.` | prose |
+| 4 | L22 | `Glob \`wiki/**/*.md\`, исключить \`index.md\`, \`log.md\`, \`overview.md\`, \`_templates/*\`, \`niches/*/README.md\`, \`graph/*\`, \`_archive/*\`, \`_lint-report-*\`.` | `Glob \`${WIKI_ROOT}/**/*.md\`, исключить \`index.md\`, \`log.md\`, \`overview.md\`, \`_templates/*\`, \`niches/*/README.md\`, \`graph/*\`, \`_archive/*\`, \`_lint-report-*\`. **При \`--tree=both\`: повторить glob для v2 \`wiki/**/*.md\` и v3 \`swarm/wiki/**/*.md\`; cross-tree-ref edges (D3 §3.2.12) пишутся в \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\`.**` | path + tree-flag impl |
+| 5 | L33 | `Прочитать \`wiki/graph/edges.jsonl\` в память (set по \`(from, to, type)\`).` | `Прочитать \`${WIKI_ROOT}/graph/edges.jsonl\` в память (set по \`(from, to, type)\`). При \`--tree=both\` — также \`${WIKI_ROOT_V3}/graph/cross-tree.jsonl\`.` | path + tree-flag |
+| 6 | L37–L46 (edge type detection) | (current section-header → 9 v2 types) | **Update to D3 12-enum:** "Расширяет/Extends → \`extends\`. Противоречит/Contradicts → \`contradicts\` (запись BIDIRECTIONAL — обе стороны записать). Поддерживает/Supports → \`supports\`. Вдохновлён/Inspired by → \`inspired_by\`. Тестируется/Tested by → \`tested_by\`. Опровергает/Invalidates → \`invalidates\`. Заменяет/Supersedes → \`supersedes\`. Часть/Part of → \`part_of\` (FORMALIZED per Q3). Иначе (упоминание сущности) → \`derived_from\`. Cross-layer (5×4 matrix→alpha tracker) → \`alpha-ref\`. Cross-layer (theme → global pattern) → \`layer-ref\`. v3→v2 link → \`cross-tree-ref\` (запись в cross-tree.jsonl, не edges.jsonl). **Снят: \`addresses_gap\` per critic-gate1 H4.**" | edge enum alignment with D3; bidirectional contradicts; cross-tree separation |
+| 7 | L62 | `Перезаписать секцию \`## Кластеры\`:` | (no change to this line; nearby line 60: `Обновить \`${WIKI_ROOT}/graph/communities.md\`` replaces `Обновить \`wiki/graph/communities.md\``) | path |
+| 8 | L73 | `Обновить \`wiki/graph/summaries.md\`` (or nearby) | `Обновить \`${WIKI_ROOT}/graph/summaries.md\`` | path |
+| 9 | L86 | `В \`wiki/log.md\` (сверху):` | `В \`${WIKI_ROOT}/log.md\` (сверху):` | path |
+
+**Net edits:** 5 path replacements + edge-type-detection rewrite (~10
+lines) + 9-line preamble = ~24 lines changed (slightly above audit's 16).
+The /build-graph extension absorbs D3's 12-enum migration and T1
+cross-tree separation — both load-bearing for Q5 staleness signal #4
+(contradiction-edge integrity) and Q1 Tier-3 retrieval.
+
+**Behaviour after edit.** /build-graph walks `$WIKI_ROOT/`, detects
+edge types per the D3 12-enum (with bidirectional `contradicts`),
+writes intra-tree edges to `$WIKI_ROOT/graph/edges.jsonl`, writes
+cross-tree edges to `$WIKI_ROOT_V3/graph/cross-tree.jsonl` (when
+`--tree=both`), recomputes communities + summaries.
+
+**Test plan.** (1) Default-root: `/build-graph` → walks
+`swarm/wiki/`, emits edges to `swarm/wiki/graph/edges.jsonl`. (2)
+`/build-graph --tree=both` → walks both trees; cross-tree-refs land
+in `swarm/wiki/graph/cross-tree.jsonl`. (3) Verify a `contradicts`
+edge written from page A to B also has the inverse B→A record.
+
+### 8.8 Documented exclusions (3 skills NOT parameterised)
+
+#### 8.8.1 `/search-kb` (38 lines) — **out of scope**
+
+- **Path:** `.claude/skills/search-kb.md`.
+- **Audit (Sub-agent D §4.7):** zero `wiki/` references; targets
+  `knowledge-base/_index.md`, `knowledge-base/{cluster}/_moc.md`,
+  `knowledge-base/`, `raw/`. Legacy KB lookup.
+- **Exclusion source:** master synthesis §5.10 explicitly excludes
+  `/search-kb` from wiki skills (per prompt §6 D8).
+- **Disposition:** keep as-is for legacy use. Supplanted by `/ask`
+  Tier-1/2 retrieval per Q1. No `$WIKI_ROOT` parameterisation
+  required because the skill never touches `wiki/` or `swarm/wiki/`.
+- **Future option (Phase B):** deprecate when `knowledge-base/`
+  migration completes (per CLAUDE.md MIGRATION.md note); not in
+  Phase A scope.
+
+#### 8.8.2 `/sweep-notion-bank` (110 lines) — **out of scope**
+
+- **Path:** `.claude/skills/sweep-notion-bank.md`.
+- **Audit (Sub-agent D §4.8):** 5 substantive `wiki/` references at
+  L29, 51, 72, 73, 77; one-shot Notion-import bound to specific date
+  (2026-04-16) and specific Notion DB ID (bf0e9a11-0e6f-4717-9ae5-…).
+- **Exclusion source:** master synthesis §5.10 explicitly excludes
+  per prompt §6 D8.
+- **Disposition:** keep as-is. Re-running for v3 would require full
+  rewrite (different DB, different sweep date), not just
+  parameterisation. If Ruslan later needs a v3 Notion sweep, escalate
+  as `AWAITING-APPROVAL-sweep-notion-bank-v3-*.md`.
+
+#### 8.8.3 `/compile` (50 lines) — **deprecated, out of scope**
+
+- **Path:** `.claude/skills/compile.md`.
+- **Audit (Sub-agent D §4.6):** zero `wiki/` references; targets
+  `knowledge-base/{cluster}/_moc.md` and `knowledge-base/{cluster}/{topic}.md`.
+  Legacy pre-v2 skill that synthesises raw → KB-article.
+- **Exclusion source:** Sub-agent D §7 transplant table:
+  "drop (or rewrite); Targets legacy knowledge-base/; supplanted by
+  `/ingest` + `/ask` in v2."
+- **Disposition:** **deprecate.** Emit a Phase-A deprecation note in
+  `swarm/wiki/log.md` at Стадия D bootstrap:
+  `## [2026-04-XX] deprecate | /compile | superseded by /ingest + /ask
+  per Sub-agent D §7 + D8 §8.6.3`. The skill file is retained
+  (kept for knowledge-base/ legacy use until `MIGRATION.md` finalises)
+  but is not part of the v3 wiki-skill set.
+
+### 8.9 Total edit budget verification
+
+| Skill | Lines edited | Lines added (preamble) | Total per-skill | Cumulative |
+|---|---|---|---|---|
+| /ingest | 11 (incl. niche fix) | 9 | 20 | 20 |
+| /ask | 9 | 9 | 18 | 38 |
+| /lint | 10 + new sections (~15) | 9 | 34 | 72 |
+| /consolidate | 10 | 9 | 19 | 91 |
+| /build-graph | 5 + edge rewrite (~10) | 9 | 24 | 115 |
+
+**Total: ~115 lines** (above prompt's ~85 estimate; the inflation
+comes from /lint's Q5 5-signal absorption and /build-graph's D3
+12-enum detection rewrite — both load-bearing semantic upgrades, not
+optional polish). If Ruslan prefers a strict ~85-line budget, defer
+the /lint Q5 5-signal extensions to a follow-up
+`AWAITING-APPROVAL-lint-q5-extension-*.md`.
+
+### 8.10 Compatibility matrix
+
+| Locked item | D8 honours by … |
+|---|---|
+| Q9 + R3 (coexist + parameterize) | Every in-scope skill consumes `$WIKI_ROOT` from D7; defaults to v3 root; v2 still accessible via env/flag. |
+| T1 (cross-tree separation) | /ingest, /consolidate, /build-graph all write cross-tree-ref records to `cross-tree.jsonl` (not `edges.jsonl`). |
+| D3 (12-edge enum) | /ingest L80–L82 + /build-graph L37–L46 carry the D3 12-type vocabulary; `addresses_gap` dropped per critic-gate1 H4; bidirectional `contradicts`. |
+| Q1 4-tier retrieval | /ask preamble + L29 long-context fallback bounded to niche dir. |
+| Q5 5-signal /lint | /lint extended with α-2/α-3 lifecycle check + triple-channel consistency + Q8 Phase-A lock. |
+| Q8 Layer-9 lock | /lint check #10 rejects writes under `insights/` when `phase_a_lock: true`. |
+| Master synthesis §5.10 (skills inventory) | 5 in-scope skills match §5.10.2; 3 exclusions documented with source. |
+| Max-subscription (D6 §6.10) | All edits are filesystem-only; no SDK, no embeddings, no third-party APIs. |
+| Sub-agent D §4 audit + §7 transplant table | Per-skill edits match audit line numbers (cross-checked against actual file reads); /compile deprecation per D §7. |
+| Critic-gate1 H4 (drop addresses_gap) | /ingest + /build-graph edge-type lists updated. |
+| Critic-gate1 S3 (niche enum 6 not 7) | /ingest L45 niche-enum line corrected. |
+
+---
+
