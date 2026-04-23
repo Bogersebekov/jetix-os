@@ -512,3 +512,215 @@ the /lint Q5 5-signal extensions to a follow-up
 
 ---
 
+## DELIVERABLE 9 — `.claude/skills/` Symlink Convention for v3 `active/<slug>.md`
+
+### 9.1 Mandate
+
+Per Q6 skill-learning pipeline + W-9 (skills first-class), when a skill
+candidate is promoted from `swarm/wiki/skills/learning/<slug>/` to
+`swarm/wiki/skills/active/<slug>.md`, the canonical content lives at
+the v3 wiki path; Claude Code's runtime expects `.claude/skills/<slug>.md`
+to be a real file (or a symlink resolving to one). This deliverable
+specifies the **symlink convention** that bridges the two — the lifecycle
+hooks integrated with α-3 transitions (D5 §5.4) and the lint signal
+that surfaces broken symlinks.
+
+### 9.2 Symlink rule (canonical form)
+
+```
+.claude/skills/<slug>.md  →  ../../swarm/wiki/skills/active/<slug>.md
+```
+
+**Relative path** (not absolute) for two reasons:
+
+1. **Roy-replication discipline** (master synthesis §5.8.3 + Sub-agent
+   E §8): "no hard-coded `/home/ruslan/*` paths." Absolute symlinks
+   break when the repo is checked out elsewhere (e.g. on Ruslan's
+   laptop, on a CI runner).
+2. **Repo portability:** the relative target resolves correctly
+   regardless of the absolute repo root.
+
+`<slug>` is the same kebab-slug used as the file basename (D2 §2.4
+`skill_slug` field) — one and only one canonical naming.
+
+### 9.3 Filename normalisation
+
+The `skill_slug` MUST satisfy:
+
+- Regex `^[a-z0-9][a-z0-9-]{0,49}$` (kebab-case; ≤50 chars; starts
+  with letter or digit; per critic-gate1 H7 kebab-slug discipline).
+- Unique across `.claude/skills/` (no collision with v2 file names).
+- Match the basename of `swarm/wiki/skills/active/<slug>.md` exactly.
+
+Slug derivation rules:
+
+- Single-word: lowercase as-is (`focus` → `focus`).
+- Multi-word: hyphen-separated lowercase (`Build Graph` → `build-graph`).
+- No spaces, no underscores, no uppercase, no extension in the slug
+  itself (`.md` is always appended at file path resolution, never
+  inside the slug).
+
+### 9.4 Symlink creation step (α-3 `learning → validated` transition)
+
+Triggered by D11 §11.4 activation predicate. Brigadier executes (per
+D6 §6.2 single-writer rule):
+
+```bash
+# Pre-flight checks (brigadier verifies before symlink creation)
+test -f swarm/wiki/skills/active/<slug>.md  || exit "no canonical"
+test ! -e .claude/skills/<slug>.md          || exit "name collision; see §9.6"
+
+# Create symlink (atomic via ln -s)
+ln -s ../../swarm/wiki/skills/active/<slug>.md .claude/skills/<slug>.md
+
+# Verify
+readlink .claude/skills/<slug>.md         # should print "../../swarm/wiki/skills/active/<slug>.md"
+test -f .claude/skills/<slug>.md          || exit "broken symlink"
+```
+
+This step is part of the brigadier's α-3 `active → validated`
+transition mover (D5 §5.4). It is committed in the same commit as the
+file move from `swarm/wiki/skills/learning/<slug>/manifest.md` to
+`swarm/wiki/skills/active/<slug>.md` (commit message format per D6
+§6.2.4).
+
+### 9.5 Symlink removal step (α-3 `validated → tombstoned` transition)
+
+Triggered by D11 §11.5 retirement / tombstoning predicates. Brigadier
+executes:
+
+```bash
+# Pre-flight check
+test -L .claude/skills/<slug>.md          || exit "not a symlink (or absent)"
+
+# Remove symlink (file at canonical path is preserved by the α-3 mover; see D5 §5.4)
+rm .claude/skills/<slug>.md
+
+# Move canonical to _archive/ per α-3 tombstone transition
+mv swarm/wiki/skills/active/<slug>.md \
+   swarm/wiki/_archive/skills/<slug>.md
+```
+
+The skill's content file is **not deleted** (anti-pattern Sub-agent C
+§8 #9: "never delete, only archive"). The symlink IS deleted because
+Claude Code only registers active skills via the `.claude/skills/`
+directory.
+
+Note: per critic-gate1 S2 fix, α-3 has only 4 states
+(proposed/active/validated/tombstoned). There is no separate `retired`
+state requiring a different removal path; graceful supersession also
+goes through tombstone (with a `supersedes:` edge from the successor
+skill, per D3 §3.2.7).
+
+### 9.6 Conflict handling — v2 skill collides with v3 promotion
+
+The v2 `.claude/skills/` directory contains pre-v3 skills (per
+Sub-agent D §4 audit: ingest, ask, lint, compile, consolidate,
+build-graph, search-kb, sweep-notion-bank — 8 files; plus `close-day`,
+`focus`, `plan-day` directories). When a v3 skill candidate's slug
+collides with a v2 file:
+
+**Step 1 — detect.** Brigadier checks: `test -e .claude/skills/<slug>.md`.
+If true → collision.
+
+**Step 2 — preserve v2.** Move the v2 file:
+
+```bash
+mv .claude/skills/<slug>.md  .claude/skills/<slug>_v2.md
+```
+
+The `_v2` suffix is the marker of a deprecated v2 skill retained for
+audit. `/lint` flags `_v2`-suffixed files as deprecated (informational
+only; not an error).
+
+**Step 3 — create v3 symlink.** Per §9.4.
+
+**Step 4 — append migration note** in the v3 canonical file
+(`swarm/wiki/skills/active/<slug>.md`):
+
+```markdown
+## Migration note
+
+This skill was migrated from a v2 implementation at
+`.claude/skills/<slug>_v2.md` (preserved for audit). Original was
+deprecated on `<YYYY-MM-DD>` per D9 §9.6. Differences from v2: <one
+or two lines>.
+```
+
+The 5 in-scope D8 skills (`/ingest`, `/ask`, `/lint`, `/consolidate`,
+`/build-graph`) are NOT promoted via the v3 candidate→learning→active
+pipeline — they were already v2 skills, parameterised in place per
+D8 (their `.claude/skills/<slug>.md` files remain regular files, not
+symlinks). Only **new** v3-born skills go through D9 promotion.
+
+### 9.7 Audit signals — how `/lint` detects broken symlinks
+
+`/lint` (per D8 §8.5 extension) gains a sub-check inside check #1
+(structural):
+
+```
+For each .md file in .claude/skills/:
+  if file is a symlink:
+    target := readlink(file)
+    if not file_exists(target):
+      EMIT "broken symlink: .claude/skills/<slug>.md → <target>"
+    if not target.startswith("../../swarm/wiki/skills/active/"):
+      EMIT "symlink target outside active/: .claude/skills/<slug>.md → <target>"
+    if not target.endswith("/<basename(file)>"):
+      EMIT "symlink basename mismatch: .claude/skills/<slug>.md → <target>"
+```
+
+This catches three failure modes:
+
+- Brigadier removed canonical without removing symlink (`broken symlink`).
+- Symlink mistakenly points to `learning/` or `_archive/` (target
+  outside `active/`).
+- Slug rename happened on canonical without updating symlink
+  (`basename mismatch`).
+
+### 9.8 Worked example — full skill lifecycle
+
+A new v3-born skill `query-pricing-models` proceeds:
+
+1. **proposed** (α-3 entry). Compound step writes:
+   `swarm/wiki/skills/candidates/query-pricing-models/manifest.md`.
+   No symlink yet.
+
+2. **active** (α-3 `learning`; spec alias). Brigadier moves
+   `manifest.md` to `swarm/wiki/skills/learning/query-pricing-models/manifest.md`,
+   creates `golden-set.jsonl` (per D11). Brigadier appends use events
+   to `swarm/wiki/skills/usage/query-pricing-models.jsonl`.
+   No symlink yet.
+
+3. **validated** (α-3; D11 activation predicate satisfied). Brigadier:
+   - Moves canonical: `mv swarm/wiki/skills/learning/query-pricing-models/manifest.md
+     swarm/wiki/skills/active/query-pricing-models.md`.
+   - Pre-flight (no v2 collision; new slug).
+   - Creates symlink: `ln -s ../../swarm/wiki/skills/active/query-pricing-models.md
+     .claude/skills/query-pricing-models.md`.
+   - Updates `swarm/wiki/log.md` (per D6 §6.2.4 commit format).
+   - Single commit covers all the above.
+
+4. **tombstoned** (α-3; ratio drops <1:1 per D11 §11.5). Brigadier:
+   - Removes symlink: `rm .claude/skills/query-pricing-models.md`.
+   - Archives canonical: `mv swarm/wiki/skills/active/query-pricing-models.md
+     swarm/wiki/_archive/skills/query-pricing-models.md`.
+   - Records `tombstoned_by:` in the archived file's frontmatter.
+   - Updates `swarm/wiki/log.md`.
+
+### 9.9 Compatibility matrix
+
+| Locked item | D9 honours by … |
+|---|---|
+| Q6 (skill-learning pipeline) | symlink lifecycle integrated with α-3 transitions per D5 §5.4. |
+| W-9 (skills first-class) | active skills are first-class wiki entries at `swarm/wiki/skills/active/`; `.claude/skills/` is a symlink registry. |
+| §5.5.5 provenance gate (D6 §6.3) | symlink creation deferred to brigadier per single-writer Q2; α-3 transition predicates verified before symlink. |
+| Master synthesis §5.8.3 (Roy-replication) | relative symlinks (no absolute paths). |
+| Sub-agent C §8 #9 (never-delete-only-archive) | `tombstoned` skills moved to `_archive/`, not `rm`-ed. |
+| Critic-gate1 H7 (kebab-slug discipline) | §9.3 enforces kebab-slug regex; matches D2 `skill_slug` field. |
+| Critic-gate1 S2 (α-3 4-state lock) | §9.5 acknowledges no `retired` state; supersession routes through `tombstoned` + `supersedes:` edge per D3 §3.2.7. |
+| D8 §8.5 (`/lint` skill diffs) | §9.7 audit checks integrated into /lint check #1 structural. |
+
+---
+
+
