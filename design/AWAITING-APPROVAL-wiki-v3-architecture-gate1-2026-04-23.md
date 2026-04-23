@@ -1814,5 +1814,527 @@ Total: 10 template files in `swarm/wiki/_templates/`.
 
 ---
 
+## DELIVERABLE 5 — `swarm/wiki/foundations/swarm-alphas.md` (5 swarm-alpha state machines)
+
+### 5.1 Mandate, naming reconciliation, and citation map
+
+This file is the **runtime constitution** every domain expert reads on
+every Task invocation (per FPF Part 10.4 mandate, Sub-agent B §6).
+The 5 swarm-alphas (α-1 Task / α-2 Artefact / α-3 Strategies-Rule /
+α-4 Cycle / α-5 Direction) are locked in identity/scope/high-level
+purpose per FPF Part 4 (Sub-agent B §1–§5). This deliverable
+materialises their **state graphs, transitions, movers, and
+acceptance predicates** — the missing operational substrate.
+
+**State-name reconciliation.** Sub-agent B §2/§3/§4 surfaced
+discrepancies between FPF Part 4's verbatim state sets and the
+prompt §6 D5 "minimum state set." This deliverable adopts **FPF Part
+4 verbatim states as canonical** (locked Tier-1 source per prompt
+§2 prohibition on re-opening alpha identity) and provides explicit
+**alias maps** to the prompt's prescribed names where they differ.
+This honours both the FPF lock and the spec's reading convenience.
+Two extensions are introduced:
+- α-2 Artefact gains an 8th state `tombstoned` (per D2 §2.1 dual-axis
+  + Sub-agent C §8 anti-pattern 9). FPF Part 4 silent on this
+  (Sub-agent B §2 gap-flag); spec specifies the transition mover
+  (brigadier or meta-agent-via-task) and predicate.
+- α-1 Task `gated → rejected → returned` mover (Sub-agent B §1
+  gap-flag) is specified here: HITL emits a rejection note in
+  `swarm/gates/AWAITING-APPROVAL-<task-id>-rejection.md`; brigadier
+  parses, moves α-1 to `returned`, archives.
+
+The FPF mandate (Part 10.4) requires α-1..α-4 machine-tracked Phase
+A; α-5 human-owned with lightweight (state-enum-only) Phase A
+implementation. α-5's full NQD-CAL formalization is deferred to
+Phase B per Part 10.6.
+
+### 5.2 α-1 Task
+
+**Identity (verbatim, FPF Part 4 §4.1).** "Represents a user request
+entering the swarm." Scope: every inbound user request the brigadier
+intakes; runs from submission to archival.
+
+**State graph** (FPF Part 4 verbatim + spec gap-fill):
+
+| State | Definition (FPF or spec) |
+|---|---|
+| `submitted` | User request received, not yet read by brigadier. |
+| `intaked` | Brigadier has read the request, classified niche, assigned `task_id`. |
+| `decomposed` | CE 40/10/40/10 budget assigned + matrix cells selected + AP declared. |
+| `dispatched` | ≥1 `Task()` invocation issued to a cell. |
+| `integrated` | All invoked cells returned + dissents preserved. |
+| `gated` | AWAITING-APPROVAL file with 4-response template exists in `swarm/gates/`. |
+| `approved` | HITL reply parsed (acked). |
+| `compounded` | ≥0 rules appended to strategies.md (zero is valid per FPF B §1). |
+| `archived` | `cycle-log.md` written + per-task dir moved/marked archived. |
+| `refused` | Brigadier refuses intake (out-of-scope, malformed, capacity). |
+| `rejected` | HITL rejected at `gated` step. |
+| `returned` | Task returned to user with rationale (terminal failure branch). |
+
+**Transitions table:**
+
+| from | to | trigger | mover (role) | side-effects on filesystem |
+|---|---|---|---|---|
+| `submitted` | `intaked` | brigadier reads + classifies | brigadier | `swarm/wiki/tasks/<task-id>/` dir created; `open-questions.md` initialised. |
+| `submitted` | `refused` | out-of-scope / malformed | brigadier | `swarm/gates/refused-<task-id>.md` written; no tasks/ dir. |
+| `intaked` | `decomposed` | brigadier writes decomposition (BUILD §3) | brigadier | `swarm/wiki/proposals/<task-id>-decomposition.md` written. |
+| `decomposed` | `dispatched` | first `Task(...)` invoked | brigadier | log line in `swarm/logs/<cycle-id>.md`. |
+| `dispatched` | `integrated` | all expected returns received | brigadier (writes integrate) | `swarm/wiki/tasks/<task-id>/artefacts/` populated; dissents preserved as separate files. |
+| `integrated` | `gated` | brigadier writes AWAITING-APPROVAL packet | brigadier | `swarm/gates/AWAITING-APPROVAL-<task-id>-<slug>.md` with 4-response template (D6 §4). |
+| `gated` | `approved` | HITL ack parsed | HITL (Ruslan) | `swarm/gates/<task-id>-ack.md` appended; brigadier parses on next sweep. |
+| `gated` | `rejected` | HITL rejects | HITL | `swarm/gates/<task-id>-rejection.md` written with reason. |
+| `rejected` | `returned` | brigadier composes return note | brigadier | `swarm/wiki/tasks/<task-id>/decisions/<ts>-returned.md`. |
+| `approved` | `compounded` | brigadier runs compound step | brigadier | `agents/<expert>/strategies.md` appended (Level-1) and/or `swarm/wiki/meta/agent-improvements/` (Level-2) per W-5. |
+| `compounded` | `archived` | brigadier writes cycle-log | brigadier | `swarm/wiki/tasks/<task-id>/decisions/<ts>-archived.md`; entry in `swarm/wiki/log.md`. |
+
+**Acceptance predicates per state** (testable from filesystem alone):
+
+- `intaked`: `swarm/wiki/tasks/<task-id>/open-questions.md` exists; frontmatter `alpha_state: intaked`.
+- `decomposed`: `proposals/<task-id>-decomposition.md` exists with `decomposition:` yaml-block listing ≥1 cell.
+- `dispatched`: ≥1 line in `swarm/logs/<cycle-id>.md` matching `Task(<expert>-<mode>)` for this `task-id`.
+- `integrated`: every cell in the decomposition has a corresponding artefact in `swarm/wiki/tasks/<task-id>/artefacts/`.
+- `gated`: file matching `swarm/gates/AWAITING-APPROVAL-<task-id>-*.md` exists with `4-response template` section.
+- `approved`: file matching `swarm/gates/<task-id>-ack.md` exists with `acked: true` field.
+- `compounded`: at least one new commit on `claude/<branch>` updating `agents/<expert>/strategies.md` OR `swarm/wiki/meta/agent-improvements/<file>` with `task_id: <task-id>` in commit message.
+- `archived`: `swarm/wiki/log.md` contains a line `## [<date>] task-archived | <task-id>`.
+
+**Cross-alpha integrations.** α-1 is consumed inside α-4 Cycle (one
+task = one cycle iteration). α-2 Artefact instances are created
+during `dispatched → integrated`. α-3 Strategies-Rule entries are
+emitted at `compounded`.
+
+**ASCII state diagram:**
+
+```
+                  ┌──────────┐
+                  │submitted │
+                  └────┬─────┘
+                       │ brigadier-read
+                  ┌────▼─────┐  refuse  ┌─────────┐
+                  │ intaked  ├─────────►│ refused │
+                  └────┬─────┘          └────┬────┘
+            decompose  │                     │ → returned (terminal)
+                  ┌────▼──────┐
+                  │decomposed │
+                  └────┬──────┘
+              dispatch │
+                  ┌────▼──────┐
+                  │dispatched │
+                  └────┬──────┘
+            integrate  │
+                  ┌────▼──────┐
+                  │integrated │
+                  └────┬──────┘
+                  brigadier writes gate packet
+                  ┌────▼──────┐  HITL reject  ┌─────────┐
+                  │  gated    ├──────────────►│ rejected├──►┌──────────┐
+                  └────┬──────┘               └─────────┘   │ returned │
+                  HITL ack │                                 └──────────┘
+                  ┌────▼──────┐
+                  │ approved  │
+                  └────┬──────┘
+            compound  │
+                  ┌────▼──────┐
+                  │compounded │
+                  └────┬──────┘
+                       │
+                  ┌────▼──────┐
+                  │ archived  │   (terminal success)
+                  └───────────┘
+```
+
+### 5.3 α-2 Artefact
+
+**Identity (verbatim, FPF Part 4 §4.2).** "Each artefact a cell
+produces into `swarm/wiki/`." Scope: every wiki/swarm artefact
+produced by a cell.
+
+**State graph** (FPF verbatim + spec extension `tombstoned`):
+
+| State | Definition |
+|---|---|
+| `drafted` | Cell wrote artefact to `swarm/wiki/drafts/<task-id>-<expert>-<artefact>.md` with valid §5.5.5 frontmatter. |
+| `reviewed` | ≥1 critic pass + Conformance Checklist ticked (FPF B §1 §5.2). |
+| `revised` | Producer or integrator made changes after `reviewed`. Loop allowed: `revised ↔ reviewed`. |
+| `accepted` | Integrator + brigadier sign-off; brigadier wrote canonical artefact under `swarm/wiki/<canonical-path>/`. |
+| `referenced` | Appears in another artefact's `consumes:` (i.e. cited by ≥1 downstream `accepted` artefact). |
+| `superseded` | A newer artefact bears `supersedes: [[<this>]]` and is `accepted`. |
+| `retired` | Legitimate end-of-life: artefact no longer applies but was historically valid (preserved for audit). |
+| `tombstoned` | **Spec extension.** Artefact invalidated/withdrawn (e.g. caused incident; refuted by experiment). Distinct from `retired`. Anti-pattern Sub-agent C §8 #9 "never delete, only archive" — `_archive/` retains tombstoned content. |
+
+**Transitions table:**
+
+| from | to | trigger | mover | side-effects |
+|---|---|---|---|---|
+| (none) | `drafted` | cell writes draft | cell (`expert-direct (drafts only)`) | file in `swarm/wiki/drafts/...`. |
+| `drafted` | `reviewed` | critic returns Conformance Checklist | integrator OR critic-mode cell | comment thread or critique file in same task dir. |
+| `reviewed` | `revised` | producer/integrator edits | producer OR integrator | file in `drafts/` updated. |
+| `revised` | `reviewed` | re-critique | critic-mode cell | loop. |
+| `reviewed` | `accepted` | brigadier passes §5.5.5 gate | brigadier (single-writer) | brigadier writes canonical at `swarm/wiki/<canonical>/<slug>.md`; commits with `[<agent>] <cycle>: <description>` per §5.9. |
+| `accepted` | `referenced` | another `accepted` artefact `consumes:` this | brigadier (writes the consumer) | edge added to `graph/edges.jsonl`. |
+| `accepted` | `superseded` | newer accepted artefact `supersedes:` this | brigadier | `state: superseded`; `superseded_by: [[<new>]]` in frontmatter; bidirectional `supersedes` edge. |
+| `accepted`/`superseded` | `retired` | brigadier or meta-agent-via-task identifies legitimate EOL | brigadier (after meta-agent draft per Q2-Q6 reconciliation) | `state: retired`; not deleted. |
+| any | `tombstoned` | invalidated by `invalidates` edge OR Ruslan-attested withdrawal | brigadier (after meta-agent draft) | move file to `swarm/wiki/_archive/`; record `tombstoned_by: [[<source>]]` edge. |
+
+**Acceptance predicates per state:**
+
+- `drafted`: file exists in `swarm/wiki/drafts/...`; frontmatter valid (§5.5.3).
+- `reviewed`: file's frontmatter has `reviewed_by: <integrator-or-critic>` OR critique file exists in same dir.
+- `accepted`: file at canonical path; `state: accepted`; integrator + brigadier sign-off implicit in commit metadata (commit author = brigadier).
+- `referenced`: ≥1 incoming edge in `graph/edges.jsonl` from another `state: accepted` page.
+- `superseded`: `superseded_by: [[<page>]]` non-empty; the named page is `state: accepted`.
+- `retired`: `state: retired`; no `superseded_by` (else use that).
+- `tombstoned`: file lives under `swarm/wiki/_archive/`; `tombstoned_by:` non-empty.
+
+**Cross-alpha integrations.** α-2 is created inside α-1 `dispatched →
+integrated`. α-2 `accepted` transition is the matrix gate-passage per
+FPF Part 4 §4.2 ("stage-gate transitions in the 5×4 matrix ARE
+alpha-state transitions ... this makes gate passage
+machine-verifiable"). α-3 strategy entries cite α-2 artefacts.
+
+**ASCII state diagram:**
+
+```
+                       ┌──────────┐
+       cell writes ───►│ drafted  │
+                       └────┬─────┘
+                       ┌────▼─────┐  edits  ┌─────────┐
+                       │reviewed  │◄────────┤ revised │
+                       └────┬─────┘  loop   └─────────┘
+              brigadier  ┌──┴──┐
+              §5.5.5     │     │ tombstone (any state)
+                         ▼     ▼
+                       ┌──────────┐                ┌────────────┐
+                       │ accepted │                │ tombstoned │
+                       └────┬─────┘                └────────────┘
+              consumed    ┌─┴─┐
+                          │   │ supersedes
+                          ▼   ▼
+                ┌──────────────┐  ┌────────────┐
+                │ referenced   │  │ superseded │
+                └──────┬───────┘  └─────┬──────┘
+                       │                │
+                       │ EOL            │ EOL
+                       ▼                ▼
+                       ┌──────────────────┐
+                       │     retired      │
+                       └──────────────────┘
+```
+
+### 5.4 α-3 Strategies-Rule
+
+**Identity (verbatim, FPF Part 4 §4.3).** "Each entry in
+strategies.md." Governs the skill-learning pipeline (Q6).
+
+**State graph** (FPF verbatim, with **spec alias map**):
+
+| FPF state | Spec alias (per prompt §6 D5) | Definition |
+|---|---|---|
+| `proposed` | `candidate` | 4-part DRR format submitted (context/decision/alternatives/review-checkpoint). |
+| `active` | `learning` | At least 1 successful application; under golden-set evaluation. |
+| `validated` | `active` | ✓/✗ ratio ≥ 3:1 over ≥10 uses; promoted out of learning into the live skill registry. |
+| (FPF: no separate state) | `retired` | Spec extension: success ratio drops <1:1 OR superseded; explicit retirement. |
+| `tombstoned` | `tombstoned` | Ratio < 1:1 cumulative OR explicit Ruslan-retirement OR caused production incident. |
+
+**Canonical = FPF names.** Spec aliases are documented for cross-
+referencing the prompt's prescribed naming, but the wiki, /lint, and
+/build-graph all use FPF names. D11 (Gate 2) provides the activation
+rubric using FPF names + spec aliases together.
+
+**Transitions table:**
+
+| FPF from | FPF to | trigger | mover | side-effects |
+|---|---|---|---|---|
+| (none) | `proposed` | brigadier compound-step writes DRR | brigadier | append to `agents/<expert>/strategies.md` (Level-1) OR `swarm/wiki/skills/candidates/<slug>/manifest.md` (Level-2). |
+| `proposed` | `active` | first successful cell-use | brigadier (records in `usage/<slug>.jsonl`) | file moves from `candidates/` to `learning/`; `skill_state: learning`. |
+| `active` | `validated` | golden-set ≥3 + ≥10 uses + ✓/✗ ≥3:1 (D11) | brigadier (after meta-agent audit-via-task) | file moves from `learning/` to `active/`; D9 symlink created `.claude/skills/<slug>.md → swarm/wiki/skills/active/<slug>.md`. |
+| `validated` | `active` | ratio drops to 1:1≤ ratio <3:1 (demoted) | meta-agent-via-task | file moves back to `learning/`; symlink removed. |
+| `validated` | `retired` | superseded OR explicit retirement OR success drops <1:1 over 10 rolling uses | meta-agent-via-task → brigadier writes | file moves to `swarm/wiki/skills/active/<slug>.md` with `skill_state: retired`; symlink removed. |
+| any | `tombstoned` | caused incident OR Ruslan retire | brigadier (Ruslan can also unilaterally trigger) | file moves to `swarm/wiki/_archive/`; symlink removed; `tombstoned_by:` recorded. |
+
+**Acceptance predicates per state:**
+
+- `proposed`: frontmatter `skill_state: candidate`; DRR fields populated; file under `swarm/wiki/skills/candidates/<slug>/manifest.md` OR appended in `agents/<expert>/strategies.md` with `skill_state: candidate`.
+- `active` (FPF) / `learning` (alias): file under `swarm/wiki/skills/learning/<slug>/`; `golden-set.jsonl` exists with ≥3 cases (per D11).
+- `validated` (FPF) / `active` (alias): file at `swarm/wiki/skills/active/<slug>.md`; `n_uses ≥ 10` AND `success_count / loss_count ≥ 3`; D9 symlink active.
+- `retired`: `skill_state: retired`; symlink absent; file retained under `swarm/wiki/skills/active/<slug>.md` (kept for audit per anti-pattern Sub-agent C §8 #9).
+- `tombstoned`: file under `swarm/wiki/_archive/skills/<slug>.md`; symlink absent.
+
+**Cross-alpha integrations.** α-3 entries are emitted at α-1
+`compounded`. α-3 `validated` transition is the formal Q6 activation
+rubric (D11 Gate 2). α-3 success/loss counts are derived from
+per-skill `usage/<slug>.jsonl` (event-sourced per Sub-agent C §5).
+
+**Owner per FPF Part 4 §4.3:** "meta-agent for tombstoning audit;
+brigadier for writes." Reconciled with Q2 single-writer (Sub-agent A
+§6 #10): meta-agent emits a draft via Task `mode: writing-support`;
+brigadier evaluates the §5.5.5 gate; brigadier commits.
+
+**ASCII diagram:**
+
+```
+                                 ┌──────────┐
+              brigadier compound │ proposed │
+              step writes DRR    │(candidate│ ──┐
+                                 └─────┬────┘   │
+                          first use   │         │ Ruslan
+                                 ┌─────▼────┐   │ tombstone
+                                 │ active   │   │
+                                 │(learning │   │
+                                 └─────┬────┘   │
+                          golden-set+ │         │
+                          ratio       │         │
+                                 ┌─────▼─────┐  │
+                                 │ validated │  │
+                                 │ (active)  │◄─┤  (loop demote ⇄ active)
+                                 └─────┬─────┘  │
+                          superseded │          │
+                          OR retire  │          │
+                                 ┌────▼──────┐  │
+                                 │ retired   │  │
+                                 └───────────┘  │
+                                 ┌──────────────▼┐
+                                 │  tombstoned   │
+                                 └───────────────┘
+```
+
+### 5.5 α-4 Cycle
+
+**Identity (verbatim, FPF Part 4 §4.4).** "A single `task → gate →
+compound → archive` run." Scope: the brigadier's CE 40/10/40/10 loop
+instance.
+
+**State graph** (FPF verbatim):
+
+| State | Definition |
+|---|---|
+| `opened` | `cycle_id` allocated; brigadier intakes task. |
+| `running` | Cells dispatched; artefacts being produced. |
+| `integrating` | All expected returns received; brigadier integrating. |
+| `gated` | AWAITING-APPROVAL packet posted to `swarm/gates/`. |
+| `compounded` | HITL approved; brigadier ran compound step (α-3 entries written). |
+| `closed` | `cycle-log.md` written; 1-line summary of rule-extractions + 1-line open-questions. |
+| `tombstoned` | Cycle aborted (brigadier or HITL). |
+
+**Spec alias map** (per prompt §6 D5):
+
+| Spec alias | FPF state(s) it covers |
+|---|---|
+| `open` | `opened` |
+| `mid-cycle` | `running` + `integrating` |
+| `closing` | `gated` + `compounded` |
+| `closed` | `closed` |
+
+**Transitions table:**
+
+| from | to | trigger | mover | side-effects |
+|---|---|---|---|---|
+| (none) | `opened` | brigadier intakes task (α-1 `intaked`) | brigadier | `cycle_id` allocated; entries in `swarm/logs/<cycle-id>.md` begin. |
+| `opened` | `running` | first `Task(...)` dispatched (α-1 `dispatched`) | brigadier | log line. |
+| `running` | `integrating` | all cells returned (α-1 `integrated`) | brigadier | log line. |
+| `integrating` | `gated` | brigadier writes AWAITING-APPROVAL (α-1 `gated`) | brigadier | gate file. |
+| `gated` | `compounded` | HITL ack + brigadier runs compound (α-1 `approved → compounded`) | HITL + brigadier | α-3 entries written. |
+| `compounded` | `closed` | brigadier writes `cycle-log.md` | brigadier | `cycle-log.md` exists; `meta/health.md` cycle counter incremented. |
+| any | `tombstoned` | abort (Ruslan or brigadier) | brigadier (Ruslan-triggered) | log line; partial artefacts archived. |
+
+**Acceptance predicates per state:**
+
+- `opened`: `cycle_id` set on the task; `swarm/logs/<cycle-id>.md` exists.
+- `running`/`integrating`/`gated`/`compounded`: mirror α-1 `dispatched`/`integrated`/`gated`/`compounded` predicates.
+- `closed`: `cycle-log.md` exists with `summary:` (≥1 line) and `open_questions:` (≥1 line); the cycle-counter in `swarm/wiki/meta/health.md` is incremented (per D10 §2).
+- `tombstoned`: log line present + `cycle_id` not in `meta/health.md` closed-cycle counter.
+
+**Cross-alpha integrations.** α-4 contains exactly one α-1 instance.
+α-2 instances live inside α-4 from `running` through `compounded`.
+α-3 entries are emitted at `compounded`. **α-4 `closed` count is the
+authoritative metric for Q8 Layer-9 trigger #1 (≥50 closed cycles).**
+
+**ASCII diagram:**
+
+```
+        ┌────────┐
+        │ opened │  ◄─── brigadier intake
+        └───┬────┘
+            │ dispatch
+        ┌───▼─────┐
+        │ running │
+        └───┬─────┘
+            │ all-returned
+        ┌───▼────────┐
+        │integrating │
+        └───┬────────┘
+            │ gate
+        ┌───▼────┐
+        │ gated  │
+        └───┬────┘
+            │ HITL+compound
+        ┌───▼────────┐
+        │ compounded │
+        └───┬────────┘
+            │ cycle-log
+        ┌───▼────┐
+        │ closed │   (counter++; feeds Q8 trigger)
+        └────────┘
+            ⇧
+            │ (any state) abort
+        ┌────────────┐
+        │ tombstoned │
+        └────────────┘
+```
+
+### 5.6 α-5 Direction (human-owned, Phase A lightweight)
+
+**Identity (verbatim, FPF Part 4 §4.5).** "Strategic direction under
+test — spans cycles." Scope: strategic direction; spans multiple α-4
+cycles.
+
+**State graph** (FPF verbatim, full set retained for Phase B
+formalization):
+
+| State | Definition |
+|---|---|
+| `hypothesized` | Falsifiable claim + confidence threshold + success metric declared. |
+| `under-validation` | Evidence-collection in progress; ≥1 expert producing artefacts. |
+| `validated` | Evidence artefacts from ≥2 experts. |
+| `activated` | Written activation decision + resource commitment (Ruslan signs). |
+| `scaled` | Direction has compounded across multiple cycles; resource allocation grew. |
+| `plateaued` | Returns flat or declining; awaiting decision (continue, pivot, drop). |
+| `invalidated` | Refuted by evidence. |
+| `dropped` | Explicit exit. |
+| `archived` | Historical record; no further action. |
+
+**Pivot branches (verbatim).** `under-validation → hypothesized`;
+`invalidated → hypothesized`.
+
+**Movers (verbatim, FPF Part 4 §4.5):** "Human / strategic-management
+primary `hypothesized` and `activated`; brigadier tracks state;
+experts contribute evidence artefacts." **AI agents do NOT move the
+Direction alpha** beyond tracking.
+
+**Phase A vs Phase B (per FPF Part 10.4 + Part 10.6):**
+
+- **Phase A (this spec):** state-enum-only. The spec stores `α-5
+  state` per direction in `swarm/wiki/foundations/swarm-alphas.md`'s
+  α-5 section (a flat list of named directions + current state). No
+  state-machine validator is required Phase A; transitions are
+  documented in the swarm-alphas.md but not lint-enforced.
+- **Phase B (deferred per Part 10.6):** full NQD-CAL + E/E-LOG + BLP
+  formalization; transitions become machine-tracked; `/lint` enforces
+  state predicates.
+
+**Acceptance predicates (Phase A — informational only):**
+
+- `hypothesized`: a direction entry in swarm-alphas.md α-5 section
+  with `claim:`, `confidence_threshold:`, `success_metric:` fields.
+- `validated`: ≥2 `swarm/wiki/experiments/` pages cite this direction
+  via `derived_from`/`supports` edges, each `produced_by` a different expert.
+- `activated`: an `AWAITING-APPROVAL-direction-<slug>-activation.md`
+  file in `swarm/gates/` with Ruslan ack.
+
+**Cross-alpha integrations.** α-5 spans multiple α-4 cycles; cycles
+contributing evidence to a direction record `direction:
+<direction-slug>` in their `cycle-log.md`. α-2 evidence artefacts
+(experiments, summaries) cite the direction via `derived_from`.
+
+**HITL discipline.** Any α-5 state change is HITL-only — bounce to
+Ruslan via AWAITING-APPROVAL file (D6 §4). The brigadier never moves
+α-5 unilaterally.
+
+**ASCII diagram (Phase A informational):**
+
+```
+              ┌─────────────┐
+              │hypothesized │ ◄─┐ (pivot from invalidated)
+              └──────┬──────┘   │
+                     │           │
+              ┌──────▼──────┐    │
+              │under-       │ ───┘ (pivot back)
+              │validation   │
+              └──────┬──────┘
+                     │
+              ┌──────▼──────┐
+              │ validated   │
+              └──────┬──────┘
+                     │ Ruslan signs activation
+              ┌──────▼──────┐
+              │ activated   │
+              └──────┬──────┘
+                     │
+              ┌──────▼──────┐
+              │  scaled     │
+              └──────┬──────┘
+                     │
+              ┌──────▼──────┐    ┌─────────────┐
+              │ plateaued   │ ──►│ invalidated │
+              └──────┬──────┘    └──────┬──────┘
+                     │                  │
+              ┌──────▼──────┐           │
+              │  dropped    │           │
+              └──────┬──────┘           │
+                     │                  ▼
+                     │             ┌──────────┐
+                     └─────────────► archived │
+                                   └──────────┘
+```
+
+### 5.7 Cross-alpha integrations summary (matrix)
+
+| | α-1 Task | α-2 Artefact | α-3 Strategies-Rule | α-4 Cycle | α-5 Direction |
+|---|---|---|---|---|---|
+| **α-1** | self | creates instances during `dispatched→integrated` | emits at `compounded` | inhabits inside α-4 (1:1) | task may target a direction (informational) |
+| **α-2** | created during α-1 | self | strategies cite α-2 artefacts | exists inside α-4 | direction evidence is α-2 |
+| **α-3** | emitted at α-1 `compounded` | strategies cite α-2 | self | activation/retirement triggered by cycle aggregates | strategies may inform direction |
+| **α-4** | contains 1× α-1 | hosts α-2 from `running` to `compounded` | drives α-3 `validated` transitions | self | cycle counts feed direction validation |
+| **α-5** | n/a (HITL) | direction evidence is α-2 | n/a | spans multiple α-4 cycles | self |
+
+### 5.8 `swarm/wiki/foundations/swarm-alphas.md` skeleton
+
+The Стадия D bootstrap content of `swarm/wiki/foundations/swarm-alphas.md`
+is exactly D5 §5.1–§5.7 (this entire section), wrapped in this
+frontmatter:
+
+```yaml
+---
+id: foundation-01HF2K3M5N7P9Q12345678ALPHA
+title: Swarm Alphas (5)
+type: foundation
+layer: spine
+niche: meta
+created: 2026-04-23
+last_modified: 2026-04-23
+last_reviewed: 2026-04-23
+pipeline: linted
+state: accepted
+confidence: high
+confidence_method: ruslan-attested
+tier: core
+produced_by: brigadier
+sources:
+  - {path: "decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md", range: "Part 4"}
+  - {path: "design/AWAITING-APPROVAL-wiki-v3-architecture-2026-04-23.md", range: "D5"}
+related: [[foundations/swarm-protocols]]
+topics: [[topics/swarm-architecture-hub]]
+binding_scope: swarm-wide
+supersedes_versions: []
+---
+```
+
+### 5.9 Compatibility matrix
+
+| Locked item | D5 honours by … |
+|---|---|
+| FPF Part 4 (5 alphas locked identity/scope) | All 5 alphas materialised; FPF verbatim states adopted as canonical; alias map provided where prompt §6 D5 prescribed alternative names. |
+| FPF Part 10.4 swarm-alphas.md mandate | §5.8 specifies the file skeleton and frontmatter; brigadier writes the full content per Стадия D bootstrap. |
+| FPF Part 10.6 α-5 Phase A lightweight | §5.6 specifies state-enum-only Phase A; full NQD-CAL deferred Phase B. |
+| Q5 staleness signals (α-2/α-3 lifecycle) | `tombstoned` extension added to α-2 + α-3 (state predicates testable from filesystem). |
+| Q6 skill pipeline (α-3 + Q6 owners) | Movers per transition specified; reconciled with Q2 single-writer + meta-agent-via-task. |
+| Q8 Layer-9 trigger | α-4 `closed` count is the authoritative cycle metric (§5.5). |
+| W-12 1000% depth | Each alpha has identity, state graph, transitions table, predicates per state, cross-alpha integrations, ASCII diagram. |
+| Sub-agent A §6 #10 (Q2-vs-Q6 conflict) | Resolved: meta-agent emits draft via Task; brigadier writes. Reflected in α-2/α-3 movers. |
+| Sub-agent B §1/§2/§3/§4 gap-flags | Closed: α-1 `gated→rejected→returned` mover specified; α-2 `tombstoned` defined; α-3 spec/FPF state alias documented; α-4 spec/FPF mapping documented. |
+
+---
+
+
 
 
