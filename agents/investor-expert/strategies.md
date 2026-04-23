@@ -27,6 +27,73 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-23 — Rule: experiment-design-is-not-measurement
+
+- **Decision:** When commissioned to design a golden-set comparison
+  experiment, produce a complete experimental design (H0/H1, run
+  protocols, rubric, decision table, storage schema, anti-scope) as a
+  draft artefact. Do NOT attempt to execute the experiment within the
+  same integrator invocation. The design and the execution are separate
+  tasks; conflating them produces an under-specified design AND an
+  incomplete execution.
+- **Reasoning:** Cycle T-swarm-self-improve-v1, M3 commission. The
+  brief asked for an experimental design; executing it requires OPP-01
+  (eval harness) to ship first (hard block). Attempting to sketch
+  execution within the design artefact would violate the precondition
+  and produce a document that promises more than the current
+  infrastructure can deliver.
+  `expected_invocation_frequency: medium`
+  `estimated_turn_savings_per_invocation: 10-15 turns (prevents re-scoping when execution attempt fails at precondition check)`
+- **Result:** opportunity-M3-solo-vs-matrix-baseline.md produced;
+  design complete; hard block on OPP-01 declared; brigadier can proceed
+  to Gate-2 with clear precondition.
+- **Review:** partial — design drafted; not yet through critic pass;
+  execution not yet triggered.
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created (T-swarm-self-improve-v1 integrator mode, M3 commission)
+- last-review: 2026-04-23
+- expected-evolution: validate at cycle when M3 executes — if execution
+  reveals design gaps, update rule to add "dry-run precondition check"
+  as step in experiment design
+
+---
+
+### 2026-04-23 — Rule: Popper-falsifier as co-domain input not as anti-pattern
+
+- **Decision:** When designing capital-allocation experiments that touch
+  the "2× quality gain" claim or any unverified multiplier, engage
+  philosophy-expert's Popper-falsifier requirement as a CO-DOMAIN INPUT
+  (informs H0/H1 structure, rubric RC-5, ClaimScope) rather than treating
+  it as an obstacle to arithmetic work. The falsifier is NOT an
+  alternative to arithmetic; it is the structure that makes the
+  arithmetic results meaningful.
+- **Reasoning:** D-03 dissent in T-swarm-self-improve-v1 arose because
+  philosophy-expert (AP-PHIL-1) and engineering-expert (operationalise
+  first) appeared to conflict. The resolution is that they address
+  different axes: engineering provides the substrate (eval harness);
+  philosophy provides the claim-status framework (F-level labelling,
+  refutation conditions). Both are required for investor-grade arithmetic
+  to be promoted from F1 to F5.
+  `expected_invocation_frequency: high`
+  `estimated_turn_savings_per_invocation: 5-8 turns (prevents false-precision on unvalidated multipliers; avoids AP-INV-10 + AP-PHIL-1 collision)`
+- **Result:** opportunity-M3 design explicitly carries H0/H1 in YAML
+  with falsifier, ClaimScope, and R fields; philosophy co-domain
+  addressed via RC-5 rubric item and §4 formal hypothesis block.
+- **Review:** partial — principle applied once; validate across 3 more
+  integrator passes to confirm the pattern.
+
+#### Evolution
+- changelog:
+  - 2026-04-23 — created (T-swarm-self-improve-v1, D-03 resolution)
+- last-review: 2026-04-23
+- expected-evolution: if RC-5 (epistemic labelling) becomes a standard
+  rubric item in all golden-set comparisons, fold this rule into the
+  canonical quality-rubric template
+
+---
+
 ### 2026-04-23 — Rule: measurement-substrate-first sequencing
 
 - **Decision:** In optimizer mode, always complete the owner-earnings

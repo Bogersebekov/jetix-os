@@ -88,3 +88,40 @@ Raw hypothesis count Round 1: 10 + 12 + 9 + 8 + 8 = 47 (before dedup).
 
 - written | decisions/AWAITING-APPROVAL-swarm-self-improve-gate1-2026-04-23.md | 4 options (A/B/C/D) | brigadier recommends Option C (top-3 + solo-vs-matrix baseline)
 - PAUSED — awaiting Ruslan ack before Phase 5
+
+## [2026-04-23] Gate 1 ACKED — Option C
+
+- acked | Option C | top-3 opportunities (OPP-01+OPP-02+OPP-04) + M3 commissioned baseline
+- reasoning: close D-03 dissent empirically; 3 foundations all zero-dep; OPP-03/05/06 defer to cycle-2 with HD-01+HD-02
+
+## [2026-04-23] Phase 5 — 4 opportunity drafters dispatched (parallel)
+
+- dispatched | systems × integrator   | parallel | ap_budget=70 | OPP-01 eval harness | artefacts/opportunity-01-eval-harness.md
+- dispatched | engineering × integrator | parallel | ap_budget=70 | OPP-02 hook layer | artefacts/opportunity-02-hook-layer.md
+- dispatched | mgmt × integrator      | parallel | ap_budget=60 | OPP-04 cell_acceptance_predicate | artefacts/opportunity-04-cell-acceptance-predicate.md
+- dispatched | investor × integrator  | parallel | ap_budget=60 | M3 solo-vs-matrix baseline experiment design | artefacts/opportunity-M3-solo-vs-matrix-baseline.md
+- pending    | systems × scalability  | serial | ap_budget=50 | horizon-projection defense on top-3 | artefacts/systems-scalability-01.md
+
+### Phase 5 completions (4 parallel drafters)
+- completed | OPP-01 (systems × integrator) | 781 L / 44KB | eval harness, C-1/C-2/C-3 addressed, D-03 operationally resolved
+- completed | OPP-02 (engineering × integrator) | 725 L / 44KB | hook layer, AP-1-type overclaim prevention via API-availability check, Cycle-1 log-only
+- completed | OPP-04 (mgmt × integrator) | 655 L / 36KB | cell_acceptance_predicate string field + /lint check #13
+- completed | M3 (investor × integrator) | 789 L / 41KB | 3 toy-task candidates (T-A/T-B/T-C), double-blind eval, hard block on OPP-01
+
+### Phase 5 final cell — systems × scalability dispatched
+
+- dispatched | systems × scalability | serial | ap_budget=50 | horizon-projection on 4 OPPs | artefacts/systems-scalability-01.md
+
+NOTE: on completion, matrix 5×4 demonstration FULLY lit — all 5 experts × all 4 modes fired in this cycle (some experts fired integrator twice on different scopes).
+
+### Phase 5 completions (parallel then serial)
+- completed | systems × scalability | ~500 L | 5-horizon×4-OPP projection; OPP-04 true-antifragile; OPP-02 earliest MHT at €1M; Option C for HD-01 scalability-coherent
+- completed | MATRIX 5×4 FULLY LIT | all 5 experts × all 4 modes exercised | 17 total cell invocations
+
+## [2026-04-23] Phase 5 CLOSED
+
+## [2026-04-23] Phase 6 — Gate 2 packet written, AWAITING-APPROVAL
+
+- written | decisions/SWARM-SELF-IMPROVEMENT-OPPORTUNITIES-2026-04-23.md | Document 2 | 7 opportunities surfaced (4 drafted + 3 Cycle-2-deferred)
+- written | decisions/AWAITING-APPROVAL-swarm-self-improve-gate2-2026-04-23.md | 4 options (Alpha/Beta/Gamma/Delta) + HD-01 + HD-02 + M3-toy-task
+- PAUSED — brigadier recommends Option Beta + HD-01 C + HD-02 A + M3 T-B
