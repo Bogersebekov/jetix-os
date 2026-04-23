@@ -1342,6 +1342,287 @@ flagged as anti-T3 violations.
 
 ---
 
+## DELIVERABLE 12 — Strategies.md Trio Collapse (resolves T5)
+
+### 12.1 Mandate and T5 framing
+
+**Tension T5** (Sub-agent A §4 + §1 Q2 + Section 5): three candidate
+locations for "strategies" content existed in the v2/v3 specification
+sketch:
+
+- (a) `agents/<expert>/strategies.md` — per-expert System Prompt
+  Learning per CLAUDE.md per-agent memory layer.
+- (b) `swarm/strategies/<expert>.md` — proposed v3 swarm-wide venue
+  (BUILD §1.2 layout sketch).
+- (c) `swarm/wiki/meta/agent-improvements/<expert>-<date>.md` —
+  W-4 agent-improvement layer.
+
+Per **R6** (locked, all R-items accepted) + **WIKI-V3-MECHANICS Part 2
+§Q2 L178–187** + Sub-agent A §4 T5 + §3 R6: collapse to **2 venues**
+— **KEEP (a) + (c), DROP (b).**
+
+This deliverable specifies the migration mechanics, cross-venue sync
+rule, and the `/lint` enforcement that catches T5 violations.
+
+### 12.2 Venue 1 — `agents/<expert>/strategies.md` (KEEP, Level-1)
+
+**Path.** `agents/<expert>/strategies.md` (project-root-relative;
+NOT under `swarm/`).
+
+**Naming convention.** One file per expert. The 5 files at Стадия D
+bootstrap (per D1 §1.4 #16):
+- `agents/engineering-expert/strategies.md`
+- `agents/mgmt-expert/strategies.md`
+- `agents/systems-expert/strategies.md`
+- `agents/philosophy-expert/strategies.md`
+- `agents/investor-expert/strategies.md`
+
+**Owner write rights.** **Expert direct** (the only path-write
+exception to Q2 single-writer per D1 §1.3 perm table). Each expert
+writes to its own `agents/<expert>/strategies.md` directly without
+brigadier mediation. Justification: this file is the expert's
+**personal memory layer** (CLAUDE.md per-agent memory section
+"Strategies"); subject to the expert's own self-improvement loop, not
+swarm coordination. Brigadier monitors via §12.4 sync rule.
+
+**Content shape** (per CLAUDE.md per-agent memory + α-3 DRR):
+append-only YAML-block-per-entry, newest on top. Each entry:
+
+```yaml
+---
+- date: 2026-04-23
+  task_id: task-2026-04-23-foo
+  context: <when this rule applies>
+  decision: <the rule>
+  alternatives: <considered>
+  review_checkpoint: <when to re-evaluate>
+  skill_state: candidate         # α-3 entry tracking
+  proposed_by: <self-ref or brigadier>
+  validation_status: proposed
+---
+```
+
+**Lifecycle.** Entries live as α-3 `proposed` candidates. They may be
+promoted to swarm-wide via §12.4 sync rule.
+
+**Phase A bootstrap content** (per D1 §1.4 #16): each file has empty
+body + frontmatter only:
+
+```yaml
+---
+title: Strategies — <Expert Name>
+type: per-agent-memory
+layer_note: project-root, not under swarm/ (T5/R6)
+expert: <slug>
+created: 2026-04-23
+last_modified: 2026-04-23
+state: drafted
+---
+
+# <Expert Name> — Strategies (Level-1)
+
+(Empty. Append entries newest-on-top per CLAUDE.md "Логи" rule.)
+```
+
+### 12.3 Venue 2 — `swarm/wiki/meta/agent-improvements/...` (KEEP, Level-2)
+
+**Path.** `swarm/wiki/meta/agent-improvements/<file>` per D1 §1.3 perm
+table + §1.2 tree.
+
+**Naming conventions.** Per D1 §1.4 #14 (7 files at bootstrap):
+
+- Per-expert improvement records: `<expert>-improvements.md` (5 files,
+  one per expert: `engineering-expert-improvements.md`, …).
+- System-level orchestration improvements:
+  `system-level-improvements.md`.
+- Cross-agent emergent insights: `emergent-insights.md`.
+
+For new dated entries within these files, append-only YAML-block-per-
+entry per α-3 DRR (same shape as §12.2 plus
+`validation_status: under-validation|accepted|rejected|tombstoned`
+per D2 §2.4 Layer 4 schema).
+
+**Owner write rights.** **Brigadier-write only** (per Q2 single-
+writer + D6 §6.2.2 per-layer write paths). Drafts come from any
+expert (any mode) via `Task(...)` return packets, OR from
+meta-agent in `mode: writing-support` (D6 §6.8); brigadier evaluates
+the §5.5.5 gate (D6 §6.3) and writes.
+
+**Content shape.** Same as §12.2 entry shape, plus the Layer-4
+specific frontmatter from D2 §2.4 (`expert`, `improvement_target`,
+`validation_status`, `proposed_by`, `applied_by`, `applied_at`).
+
+**Lifecycle.** Entries flow through α-3
+`proposed → active → validated ⇄ active → tombstoned` per D5 §5.4 +
+D11. Activation rubric per D11 applies (golden-set ≥3, ratio ≥3:1,
+≥10 uses) — though for prompt-edit improvements the "uses" are
+brigadier observations across cycles rather than skill invocations.
+
+### 12.4 Sync rule — Level-1 → Level-2 promotion
+
+**Trigger.** When a per-expert insight in `agents/<expert>/strategies.md`
+appears to apply broadly (heuristic: same insight surfaced by ≥2
+experts independently OR cited by brigadier in ≥3 cycles).
+
+**Promotion flow** (driven by α-1 `compounded` step in D5 §5.2):
+
+1. **Expert proposes.** Expert returns a Task packet with an
+   `escalations[]` entry: `{trigger: promote-to-swarm-wide, source:
+   agents/<expert>/strategies.md#L<line>, justification: <…>}`.
+2. **Brigadier evaluates.** Reads the cited Level-1 entry; checks for
+   ≥2-expert independent surfacing (grep `agents/*/strategies.md` for
+   semantic match) OR brigadier-cited count ≥3 (grep `swarm/logs/*/cycle-log.md`
+   for `applied-rule: <slug>`).
+3. **Brigadier drafts Level-2 entry.** Composes a new YAML-block entry
+   for the relevant `swarm/wiki/meta/agent-improvements/<file>.md`.
+   The Level-2 entry inherits the Level-1 content + adds
+   `proposed_by: <originating-expert>(s)`, `cited_in: [<Level-1 paths>]`,
+   `validation_status: proposed`.
+4. **§5.5.5 gate.** Brigadier verifies the Level-2 entry's `sources[]`
+   = the Level-1 paths cited (D6 §6.3 acceptance condition #1
+   satisfied via inter-wiki source).
+5. **Commit.** Brigadier appends the Level-2 entry, commits per D6
+   §6.2.4. The Level-1 entries remain in place (they're the
+   per-expert memory; not deleted on promotion — they cross-reference
+   the Level-2 record via `promoted_to: [[meta/agent-improvements/<file>#<entry>]]`).
+6. **α-3 progression.** The Level-2 entry advances per D11 rubric:
+   `proposed → active → validated` once observed in ≥10 cycles with
+   ≥3:1 success ratio.
+
+**No demotion path.** Level-2 entries don't demote back to Level-1;
+they tombstone (per α-3) if they fail validation.
+
+### 12.5 Dropped venue — `swarm/strategies/` (R6 + T5)
+
+**Path (rejected).** `swarm/strategies/<expert>.md` and any sibling
+under `swarm/strategies/`.
+
+**Rationale.** Sub-agent A §1 Q2 + §3 R6 + §4 T5 + §6 #8 (BUILD §1.2
+layout amendment): this venue would duplicate Level-1 (per-expert
+memory belongs in `agents/`) and Level-2 (swarm-wide improvements
+belong in `swarm/wiki/meta/agent-improvements/`). Three venues for
+one content type guarantees drift. Q2 + R6 collapse to two.
+
+**Migration note.** No migration data exists in
+`swarm/strategies/` at Стадия C close (the dir was a hypothesis in
+BUILD §1.2 §1.2 L76–L82, never instantiated). Стадия D MUST NOT
+create the directory. If any data accidentally lands there during
+Phase A (e.g. from a stale BUILD-§1.2-following script), brigadier
+migrates per the rules below before next commit:
+
+- For per-expert content → move to `agents/<expert>/strategies.md`
+  (append, newest-on-top).
+- For swarm-wide content → draft a Level-2 entry per §12.3 + §12.4;
+  brigadier commits via §5.5.5 gate.
+- Then `rm -rf swarm/strategies/`. Append a log line:
+  `## [<date>] migrate | T5/R6 | swarm/strategies/ → agents/ + meta/agent-improvements/`.
+
+### 12.6 `/lint` rule (D8 §8.5 extension #11 — explicit T5 violation check)
+
+`/lint` gains an additional check (logical extension of the existing
+10 checks; this is check #11):
+
+```
+For each file under swarm/strategies/ (the dropped path):
+  EMIT "T5/R6 violation: swarm/strategies/<path> exists; should not (per D12 §12.5)."
+  Brigadier action: migrate per §12.5.
+```
+
+This catches:
+- Stale code that still creates `swarm/strategies/` files.
+- Manual error.
+- Phase-A bootstrap drift.
+
+### 12.7 Worked example — promotion of a brigadier-orchestration insight
+
+**Setup.**
+- Engineering-expert appended this entry to
+  `agents/engineering-expert/strategies.md` on 2026-04-30:
+  `decision: 'When the cell return packet has dissents[] non-empty,
+  prefer integrator-mode synthesis over critic-mode rebuttal.'`
+- Mgmt-expert independently appended a similar entry to
+  `agents/mgmt-expert/strategies.md` on 2026-05-12.
+
+**Promotion (per §12.4):**
+1. Engineering-expert in next Task return: `escalations[]: [{trigger:
+   promote-to-swarm-wide, source: 'agents/engineering-expert/strategies.md#L42',
+   justification: 'mgmt-expert independently surfaced same pattern; see
+   agents/mgmt-expert/strategies.md#L17'}]`.
+2. Brigadier reads both Level-1 entries, confirms semantic alignment.
+3. Brigadier drafts Level-2 entry in `swarm/wiki/meta/agent-improvements/system-level-improvements.md`:
+   ```yaml
+   ---
+   - date: 2026-05-13
+     improvement_target: protocol      # per D2 §2.4 Layer-4 enum
+     decision: 'On dissents[] non-empty Task returns, brigadier prefers
+                integrator-mode synthesis (Task(<expert>-integrator)) over
+                critic-mode rebuttal.'
+     proposed_by: engineering-expert + mgmt-expert (independent surfacing)
+     cited_in:
+       - agents/engineering-expert/strategies.md#L42
+       - agents/mgmt-expert/strategies.md#L17
+     validation_status: proposed
+     skill_state: candidate
+   ---
+   ```
+4. Brigadier passes §5.5.5 gate (sources[] = the two Level-1 paths;
+   non-empty; both are tier: core).
+5. Brigadier commits: `[brigadier] cyc-2026-05-13-am: promote
+   dissents-integrator-preference rule to Level-2`.
+6. Brigadier annotates the two Level-1 entries with
+   `promoted_to: [[meta/agent-improvements/system-level-improvements#2026-05-13]]`.
+
+### 12.8 Compatibility matrix
+
+| Locked item | D12 honours by … |
+|---|---|
+| T5 (strategies trio collapse) | §12.1–§12.5 explicitly: keep (a) + (c), drop (b). |
+| R6 (drop swarm/strategies/) | §12.5 + §12.6 lint enforcement. |
+| Q2 single-writer | §12.3 brigadier-write only for Level-2; §12.2 Level-1 expert-direct exception documented + scoped. |
+| W-4 agent-improvement layer | §12.3 path matches D1 Layer 4 perm table. |
+| W-5 two-level CE | §12.2 Level-1 + §12.3 Level-2 + §12.4 sync rule operationalises Level-1↔Level-2 flow. |
+| §5.5.5 provenance gate (D6 §6.3) | §12.4 #4 gate verification at promotion; §12.7 worked example shows sources[] inheritance. |
+| α-3 lifecycle (D5 §5.4) | §12.3 Level-2 entries follow α-3 proposed→active→validated→tombstoned. |
+| D11 (skill activation rubric) | §12.4 #6 progression aligns with D11 rubric. |
+| CLAUDE.md per-agent memory (Strategies layer) | §12.2 cites + matches: `agents/<expert>/strategies.md` is the existing per-agent memory location; no path change. |
+| BUILD §1.2 layout amendment | §12.1 + §12.5 documents the deliberate drop of `swarm/strategies/` from BUILD §1.2 (Sub-agent A §6 #8). |
+| Sub-agent A §1 Q2 §178–187 + §4 T5 + §3 R6 | §12.1 cites + materialises. |
+
+---
+
+## GATE 2 SUMMARY (D7–D12)
+
+This gate covers the **operational integration surface**:
+
+- **D7** — `.claude/config/wiki-roots.yaml` parameterisation config.
+- **D8** — 5 in-scope skill diffs (`/ingest`, `/ask`, `/lint`,
+  `/consolidate`, `/build-graph`) ~115 lines total + 3 documented
+  exclusions (`/search-kb`, `/sweep-notion-bank`, `/compile`).
+- **D9** — `.claude/skills/` symlink convention with α-3 lifecycle hooks.
+- **D10** — `swarm/wiki/meta/health.md` skeleton (8 sections + master
+  computation table; closes Sub-agent C §6 silent-formula gaps).
+- **D11** — Q6 skill activation-vs-validation rubric resolving T3
+  with two-gate distinction + filesystem-resident anti-T3 enforcement.
+- **D12** — T5 strategies trio collapse (KEEP `agents/<expert>/strategies.md`
+  Level-1 + `swarm/wiki/meta/agent-improvements/` Level-2; DROP
+  `swarm/strategies/`); migration mechanics + sync rule + lint check.
+
+### Stage-Gated process
+
+This file is committed and pushed as
+`design/AWAITING-APPROVAL-wiki-v3-architecture-gate2-2026-04-23.md`.
+
+**Adversarial-critic report** at
+`raw/research/step-2-2-3c-extractions/critic-gate2.md` (run before
+this commit; high/showstopper findings fixed pre-gate).
+
+**Pause for Ruslan approval.** Final consolidation
+(`design/AWAITING-APPROVAL-wiki-v3-architecture-2026-04-23.md`
+unifying D1–D12) follows after both gates approved.
+
+---
+
+
 
 
 
