@@ -76,3 +76,15 @@ Raw hypothesis count Round 1: 10 + 12 + 9 + 8 + 8 = 47 (before dedup).
 
 ### Phase 2 Round 3 philosophy-integrator dispatch
 - dispatched | philosophy × integrator | serial | ap_budget=60 | scope: meta-epistemic sanity pass on mgmt-integrator-01 | artefacts/philosophy-integrator-01.md
+- completed | philosophy × integrator | SHIPPABLE-WITH-CAVEATS | C-1/C-2/C-3 + ADD-D-06 + ADD-D-07
+
+## [2026-04-23] Phase 2 CLOSED — matrix 5×4 fired ≥4×≥2 (12 cells across 3 modes demonstrated)
+
+## [2026-04-23] Phase 3 — Document 1 (Hypotheses) assembled
+
+- written | decisions/SWARM-SELF-IMPROVEMENT-HYPOTHESES-2026-04-23.md | 355 L | 47 raw → 19 clusters across 4 dimensions | 7 preserved dissents | 2 HITL decisions staged for Gate-2
+
+## [2026-04-23] Phase 4 — Gate 1 packet written, AWAITING-APPROVAL
+
+- written | decisions/AWAITING-APPROVAL-swarm-self-improve-gate1-2026-04-23.md | 4 options (A/B/C/D) | brigadier recommends Option C (top-3 + solo-vs-matrix baseline)
+- PAUSED — awaiting Ruslan ack before Phase 5
