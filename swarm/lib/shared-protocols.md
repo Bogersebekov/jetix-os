@@ -221,18 +221,20 @@ Lock 17 (Filesystem = SoT) preserved; purely naming-layer discipline.
 
 ## 9. Max-subscription discipline + retrieval stack
 
-**SessionStart hook (assert no API key set):**
+**SessionStart hook (assert no provider API key set).** The operator
+runs the hook script before launching Claude Code; the hook iterates
+the known provider env-var list (Anthropic, OpenAI, Groq, Cohere, …)
+and refuses to start the session if any is non-empty. The literal
+env-var names live in the hook script under `tools/` (operator-side);
+they are intentionally elided from this contract file so that grep
+over `swarm/lib/`, `swarm/wiki/`, `.claude/agents/` returns zero
+provider-key references — making "no provider keys in agent bodies"
+mechanically verifiable.
 
-```bash
-if [ -n "$ANTHROPIC_API_KEY" ]; then
-  echo "WARNING: API key set; Jetix uses Max subscription"
-  echo "Run: unset ANTHROPIC_API_KEY"
-  exit 1
-fi
-```
-
-`unset ANTHROPIC_API_KEY` enforced at every session start. Optionally
-`unset GROQ_API_KEY` if Whisper pipeline not in use.
+The operator command at session start is "unset every provider API-key
+env var" (provider list as in the hook script). The Whisper / voice-memo
+pipeline is the only Phase-A exception — keys are scoped to that
+pipeline's runtime only and never inherited by a Claude Code session.
 
 **Prohibited (closes §5.7 ambiguity #1):**
 
