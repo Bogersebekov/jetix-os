@@ -1,5 +1,12 @@
 # Skill: /search-kb
 
+> **Exclusion (per D7 + D8 §8.8.1).** This skill is NOT parameterised
+> for `$WIKI_ROOT`. Rationale: zero `wiki/` references; targets
+> `knowledge-base/_index.md`, `knowledge-base/{cluster}/_moc.md`, and
+> `raw/`. Legacy KB lookup supplanted by `/ask` Tier-1/2 retrieval (Q1).
+> Per master synthesis §5.10 exclusion. Phase B: deprecate when
+> `knowledge-base/` migration completes per MIGRATION.md.
+
 ## Описание
 Поиск информации в Knowledge Base.
 

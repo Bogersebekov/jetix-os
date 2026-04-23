@@ -1,5 +1,15 @@
 # Skill: /compile
 
+> **Exclusion (per D7 + D8 §8.8.3) — DEPRECATED.** This skill is NOT
+> parameterised for `$WIKI_ROOT`. Rationale: zero `wiki/` references;
+> targets `knowledge-base/{cluster}/_moc.md` and
+> `knowledge-base/{cluster}/{topic}.md`. Legacy pre-v2 skill that
+> synthesises raw → KB-article. Per Sub-agent D §7 transplant table:
+> "drop (or rewrite); Targets legacy knowledge-base/; supplanted by
+> `/ingest` + `/ask` in v2." Phase-A deprecation note added to
+> `swarm/wiki/log.md`. File retained for legacy `knowledge-base/` use
+> until MIGRATION.md finalises; NOT part of v3 wiki-skill set.
+
 ## Описание
 Синтезировать из нескольких ingested raw-файлов одну KB-статью.
 

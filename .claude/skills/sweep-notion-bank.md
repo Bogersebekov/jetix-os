@@ -9,6 +9,15 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, Task
 
 # Skill: /sweep-notion-bank
 
+> **Exclusion (per D7 + D8 §8.8.2).** This skill is NOT parameterised
+> for `$WIKI_ROOT`. Rationale: one-shot Notion-import bound to a
+> specific date (2026-04-16) and a specific Notion DB ID
+> (bf0e9a11-0e6f-4717-9ae5-e19f9a096ce7). Re-running for v3 would
+> require full rewrite (different DB, different sweep date), not
+> parameterisation. Per master synthesis §5.10 exclusion. If Ruslan
+> later needs a v3 Notion sweep, escalate as
+> `swarm/gates/AWAITING-APPROVAL-sweep-notion-bank-v3-*.md`.
+
 ## Назначение
 
 Массовый импорт Notion Bank of Ideas (database `bf0e9a11-0e6f-4717-9ae5-e19f9a096ce7`)

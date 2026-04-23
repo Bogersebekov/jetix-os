@@ -1,14 +1,21 @@
 ---
 name: ask
-description: "Ответить на вопрос по wiki/: подобрать 5-15 страниц, синтезировать с цитатами, сохранить ценный ответ в comparisons/."
+description: "Ответить на вопрос по `${WIKI_ROOT}/` (default v3): подобрать 5-15 страниц, синтезировать с цитатами, сохранить ценный ответ в `${WIKI_ROOT}/comparisons/`."
 allowed-tools: Read, Write, Edit, Glob, Grep
 ---
+
+> **`$WIKI_ROOT` resolution (D7).** This skill reads
+> `.claude/config/wiki-roots.yaml` at startup and resolves the wiki
+> root via the algorithm in D7 §7.4. All `wiki/`-prefixed paths in
+> the algorithm below MUST be read as `${WIKI_ROOT}/...`. Default
+> `swarm/wiki/` (v3); set `WIKI_ROOT=wiki` for v2. Cross-tree edges
+> (v3→v2 only) → `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` per D3 §3.2.12 + T1.
 
 # Skill: /ask
 
 ## Описание
 
-Ответить на содержательный вопрос пользователя по накопленной wiki/. Не просто поиск —
+Ответить на содержательный вопрос пользователя по накопленной `${WIKI_ROOT}/`. Не просто поиск —
 синтез: связывание идей, выявление противоречий, неочевидные связи.
 
 ## Триггер
@@ -17,16 +24,16 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 
 ## Алгоритм
 
-### 1. Прочитать `wiki/index.md`
+### 1. Прочитать `${WIKI_ROOT}/index.md`
 
 Это главный навигатор. Не гадай — читай целиком.
 
 ### 2. Отобрать 5-15 релевантных страниц
 
 - Сначала по заголовку и one-line summary из index.md.
-- При необходимости — grep по ключевым словам вопроса в `wiki/**/*.md`.
-- Смотри niche: если вопрос явно про sales — приоритет `wiki/niches/sales/` и страниц с `niche: sales`.
-- Если есть community summaries (`wiki/graph/summaries.md`) — используй их для быстрого контекста.
+- При необходимости — grep по ключевым словам вопроса в `${WIKI_ROOT}/**/*.md`.
+- Смотри niche: если вопрос явно про sales — приоритет `${WIKI_ROOT}/niches/sales/` и страниц с `niche: sales`.
+- Если есть community summaries (`${WIKI_ROOT}/graph/summaries.md`) — используй их для быстрого контекста. (Tier 4 long-context fallback per Q1: scope to current niche dir, not full wiki.)
 
 ### 3. Прочитать отобранные страницы
 
@@ -57,7 +64,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 
 ### 5. Оценить ценность ответа
 
-**Сохранить в `wiki/comparisons/`** если ответ:
+**Сохранить в `${WIKI_ROOT}/comparisons/`** если ответ:
 
 - даёт новую связь между 2+ страницами, которой раньше не было;
 - выявляет противоречие между источниками;
@@ -68,7 +75,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep
 
 ### 6. Сохранение (если нужно)
 
-`wiki/comparisons/YYYY-MM-DD-question-slug.md`:
+`${WIKI_ROOT}/comparisons/YYYY-MM-DD-question-slug.md`:
 
 ```yaml
 ---
@@ -97,7 +104,7 @@ pipeline: ready
 - [[A]] → [[B]] (tип edge, например supports)
 ```
 
-Добавить edges в `wiki/graph/edges.jsonl`.
+Добавить edges в `${WIKI_ROOT}/graph/edges.jsonl` per D3 12-enum. Cross-tree refs (v3→v2) → `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` per T1.
 
 ### 7. Обновить index.md и log.md
 

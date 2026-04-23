@@ -1,14 +1,20 @@
 ---
 name: consolidate
-description: "Найти дубликаты в wiki/ и предложить merge. После confirm — объединить, обновить ссылки, залогировать."
+description: "Найти дубликаты в `${WIKI_ROOT}/` и предложить merge. После confirm — объединить, обновить ссылки, залогировать."
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 ---
+
+> **`$WIKI_ROOT` resolution (D7).** Reads `.claude/config/wiki-roots.yaml`
+> at startup; resolves wiki root via D7 §7.4. All `wiki/`-prefixed
+> paths below MUST be read as `${WIKI_ROOT}/...`. Default `swarm/wiki/`
+> (v3); set `WIKI_ROOT=wiki` for v2. Cross-tree edges (v3→v2 only)
+> in `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` per D3 §3.2.12 + T1.
 
 # Skill: /consolidate
 
 ## Описание
 
-Объединение дубликатов в wiki/. Не мерджит автоматически — всегда confirm от пользователя.
+Объединение дубликатов в `${WIKI_ROOT}/`. Не мерджит автоматически — всегда confirm от пользователя.
 
 ## Триггер
 
@@ -33,8 +39,8 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash
 
 ```
 CANDIDATE MERGE:
-  A: wiki/concepts/value-based-pricing.md (4 sources, 120 lines)
-  B: wiki/concepts/value-pricing.md (2 sources, 80 lines)
+  A: ${WIKI_ROOT}/concepts/value-based-pricing.md (4 sources, 120 lines)
+  B: ${WIKI_ROOT}/concepts/value-pricing.md (2 sources, 80 lines)
 
   Reason: 85% overlap, похожий title
 
@@ -65,20 +71,19 @@ CANDIDATE MERGE:
 
 3. Обновить все внешние ссылки:
    - Grep `[[B]]`, `[[B.md]]`, `[path/to/B](...)` → заменить на путь к A.
-   - Обновить `wiki/graph/edges.jsonl`: где `from: B` → `from: A`, где `to: B` → `to: A`
-     (дедуп идентичных edges).
-   - Обновить `wiki/index.md`: убрать строку B, обновить A.
+   - Обновить `${WIKI_ROOT}/graph/edges.jsonl`: где `from: B` → `from: A`, где `to: B` → `to: A` (дедуп идентичных edges). **Также пройти по `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` для v3-сторонних ссылок на B.**
+   - Обновить `${WIKI_ROOT}/index.md`: убрать строку B, обновить A.
 
 4. Удалить B:
-   - Перед удалением — создать копию в `wiki/_archive/YYYY-MM-DD-B.md` (с комментом "merged into A").
+   - Перед удалением — создать копию в `${WIKI_ROOT}/_archive/YYYY-MM-DD-B.md` (с комментом "merged into A"). **Per critic-gate2 SS3: this skill runs as expert (D6 §6.6.3 role_tool_matrix) and CANNOT mutate canonical α-2 `state` field — that requires brigadier per Q2/D6 §6.2. /consolidate writes the `_archive/` copy with the original frontmatter unchanged + appends an HTML comment `<!-- merged into A on YYYY-MM-DD per /consolidate; α-2 state transition pending brigadier review -->`. The brigadier subsequently transitions α-2 `state: superseded` + `superseded_by: [[<A-path>]]` per D5 §5.3 movers (separate commit).**
    - Только после успешного копирования.
 
-5. Залогировать в `wiki/log.md` (сверху):
+5. Залогировать в `${WIKI_ROOT}/log.md` (сверху):
 
    ```
    ## [YYYY-MM-DD] consolidate | merge | A ← B
-   A: wiki/concepts/value-based-pricing.md
-   B (archived): wiki/_archive/YYYY-MM-DD-value-pricing.md
+   A: ${WIKI_ROOT}/concepts/value-based-pricing.md
+   B (archived): ${WIKI_ROOT}/_archive/YYYY-MM-DD-value-pricing.md
    Updated refs in: N files
    ```
 

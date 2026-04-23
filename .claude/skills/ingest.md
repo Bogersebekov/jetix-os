@@ -1,8 +1,17 @@
 ---
 name: ingest
-description: "Поднять источник из raw/ (или по URL) в wiki/: распарсить, создать entity-страницы, обновить index/log/edges."
+description: "Поднять источник из raw/ (или по URL) в ${WIKI_ROOT}/: распарсить, создать entity-страницы, обновить index/log/edges. (Default root: swarm/wiki per D7.)"
 allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch
 ---
+
+> **`$WIKI_ROOT` resolution (D7).** This skill reads
+> `.claude/config/wiki-roots.yaml` at startup and resolves the wiki
+> root via the algorithm in D7 §7.4. All `wiki/`-prefixed paths in
+> the algorithm below MUST be read as `${WIKI_ROOT}/...`. The default
+> root is `swarm/wiki/` (v3) per D7 `default_root: wiki_root_v3`. To
+> target v2, set `WIKI_ROOT=wiki` env var or pass `--wiki-root=v2`.
+> Cross-tree edges (v3→v2 only) land in
+> `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` per D3 §3.2.12 + T1.
 
 # Skill: /ingest
 
@@ -12,7 +21,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch
 
 ## Описание
 
-Превратить сырой источник (файл в `raw/` или URL) в связанный набор страниц wiki/.
+Превратить сырой источник (файл в `raw/` или URL) в связанный набор страниц `${WIKI_ROOT}/`.
 
 ## Триггер
 
@@ -42,7 +51,7 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch
 
 ### 2. Определить niche
 
-Прочитать содержимое. Выбрать одну из: `personal`, `business`, `sales`, `life`, `tech`, `meta`, `global`.
+Прочитать содержимое. Выбрать одну из: `personal`, `business`, `sales`, `life`, `tech`, `meta`. (6 niches per CLAUDE.md L70 lock; `global` content lives в Layer 7 `${WIKI_ROOT}/global/` per D1.)
 Если сомнения — спросить пользователя.
 
 ### 3. Извлечь структуру
@@ -59,27 +68,29 @@ allowed-tools: Read, Write, Edit, Glob, Grep, Bash, WebFetch
 
 Для каждого элемента:
 
-1. Построить путь: `wiki/{type}/{slug}.md`.
+1. Построить путь: `${WIKI_ROOT}/{type}/{slug}.md`.
 2. Если файл существует → читать, добавлять секции (не перезаписывать), обновлять `updated:`,
    добавлять новый источник в `sources:`.
-3. Если нет → взять шаблон из `wiki/_templates/{type}.md`, заполнить.
+3. Если нет → взять шаблон из `${WIKI_ROOT}/_templates/{type}.md`, заполнить.
 4. Frontmatter: `niche`, `sources: [raw/.../file]`, `related: [...]`, `confidence`, `pipeline: ingested`.
 5. В теле — использовать `[[wikilinks]]` на другие страницы wiki.
 
 ### 5. Создать карточку источника
 
-`wiki/sources/YYYY-MM-DD-slug.md` по шаблону `source.md`:
+`${WIKI_ROOT}/sources/YYYY-MM-DD-slug.md` по шаблону `source.md`:
 
 - TL;DR (2 предложения)
 - Summary (3-10 предложений)
 - 2-5 ключевых цитат
 - Списки: какие concepts/entities/claims/ideas извлечены → wikilinks
 
-### 6. Добавить edges в `wiki/graph/edges.jsonl`
+### 6. Добавить edges в `${WIKI_ROOT}/graph/edges.jsonl` (v3 intra-tree)
 
-Append-only. Один JSON на строку. 9 типов:
-`extends`, `contradicts`, `supports`, `inspired_by`, `tested_by`, `invalidates`,
-`supersedes`, `addresses_gap`, `derived_from`.
+Для v3→v2 ссылок — `${WIKI_ROOT_V3}/graph/cross-tree.jsonl` (D3 §3.2.12 + T1).
+
+Append-only. Один JSON на строку. **12 типов per D3 §3.2** (9 intra-layer + 3 cross-layer):
+`extends, contradicts, supports, inspired_by, tested_by, invalidates, supersedes, derived_from, part_of, alpha-ref, layer-ref, cross-tree-ref`.
+(`addresses_gap` dropped per critic-gate1 H4 of the wiki-v3 spec.)
 
 Пример:
 
@@ -87,7 +98,7 @@ Append-only. Один JSON на строку. 9 типов:
 {"from": "concepts/value-based-pricing.md", "to": "entities/vladislav.md", "type": "derived_from", "created": "2026-04-16", "confidence": "high"}
 ```
 
-### 7. Обновить `wiki/index.md`
+### 7. Обновить `${WIKI_ROOT}/index.md`
 
 Для каждой новой / существенно изменённой страницы:
 
@@ -97,7 +108,7 @@ Append-only. Один JSON на строку. 9 типов:
 
 Добавить в соответствующую секцию (Concepts, Entities, …), алфавитно.
 
-### 8. Добавить в `wiki/log.md` (сверху)
+### 8. Добавить в `${WIKI_ROOT}/log.md` (сверху)
 
 ```
 ## [YYYY-MM-DD] ingest | <source-slug>
@@ -108,7 +119,7 @@ Niche: <niche>.
 
 ### 9. Обновить niche
 
-В `wiki/niches/{niche}/README.md` в секцию `## Pages` добавить линк на новые страницы.
+В `${WIKI_ROOT}/niches/{niche}/README.md` в секцию `## Pages` добавить линк на новые страницы. (Niche enum: 6 values per CLAUDE.md L70 lock — `personal/business/sales/life/tech/meta`; `global` removed per critic-gate1 S3.)
 
 ### 10. Обновить источник
 
