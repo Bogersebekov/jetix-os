@@ -2,9 +2,16 @@
 title: KM + Project-Mgmt Architecture Variants (Cycle-3 M-structural)
 date: 2026-04-24
 type: decision-document
-state: awaiting-ruslan-decision
+state: approved
 task_id: T-km-architecture-research-2026-04-24
 cycle_id: cyc-km-architecture-2026-04-24
+acked_by: ruslan
+acked_at: 2026-04-24T21:00:00Z
+acked_via: cloud-cowork-session
+ack_chosen: a
+ack_notes: "Accept. Substance OK for review. M3 deferred to next cycle. Ruslan reading the 6 variants in parallel; next task will be a MATERIALIZATION brief that pulls best elements from all 6 into one implementation plan (not single-variant pick — hybrid best-of composition)."
+gate_file: swarm/gates/AWAITING-APPROVAL-km-architecture-variants-2026-04-24.md
+next_task_signaled: prompts/meta-brief-km-materialization-mvp-2026-04-24.md
 produced_by: brigadier
 sources:
   - {path: "prompts/km-architecture-research-2026-04-24.md"}

@@ -120,3 +120,23 @@ opened_at: 2026-04-24T01:44:00+02:00
 - Default: 72h max wait per shared-protocols §4.4 termination stack
 - On ack: Phase 6 consolidation + Phase 7 compound + Phase 8 cycle-archive
 - Cumulative cycle prose: ~145K words across all artefacts (cell drafts + variant drafts + consolidated doc + coherence sweep + gate file + intake artefact)
+
+## [2026-04-24 21:00] gate-acked | ruslan
+- chosen: a (Accept)
+- authorize_m3_companion: false (deferred to next cycle)
+- notes: "Substance OK for review. Ruslan reading 6 variants in parallel; next task = MATERIALIZATION brief (hybrid best-of across all 6 variants, not single-variant pick)."
+- next_directive: forthcoming hybrid materialization M-class task; brigadier reserves attention
+- new file in repo (pulled): prompts/meta-brief-km-materialization-mvp-2026-04-24.md (NOT executed in this cycle close)
+
+## [2026-04-24 21:05] phase-6-consolidate-begin | brigadier
+- α-1 transition: gated → approved
+- promote decisions/KM-ARCHITECTURE-VARIANTS-2026-04-24.md state: awaiting-ruslan-decision → approved
+- §5.5.5 provenance gate self-check: PASS
+  * Check 1 sources[] non-empty: 23 entries ✓
+  * Check 2 paths resolve on disk: 0 missing ✓
+  * Check 3 wikilink/related[] consistency: 0 wikilinks (none required) ✓
+  * Check 4 tier coherence: doc tier:core; sources all tier-1/core ✓
+  * Check 5 confidence_method: doc uses ack_by ruslan-attested (decision-document type) ✓
+  * Check 6 non-contradicting: doc supersedes nothing; 24 Locks + FPF E-items + W-decisions preserved per anti-scope ✓
+- log entry appended to swarm/wiki/log.md (task-approved)
+- forward-direction note from Ruslan surfaced: hybrid-materialization brief will be next M-class task
