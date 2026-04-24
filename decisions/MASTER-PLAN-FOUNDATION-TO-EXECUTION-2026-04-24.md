@@ -15,6 +15,34 @@ supersedes_for_this_week: prior priority stacks (VISION-NEXT §3 будет об
 
 > Единственный source-of-truth для текущей недели. Возвращаемся сюда каждый раз когда не понятно "что дальше". Ruslan + Cloud Cowork + brigadier swarm работают **по этому списку**.
 
+---
+
+## ⚡ DEEP DIVE POLICY (lock per Ruslan directive 2026-04-24 23:50 CET)
+
+**Ruslan verbatim:** *«мы делаем full foundation настолько deep чтобы дышать даже было невозможно. Deep dive. Наш подход — deep dive. Каждой задаче у нас deep dive. Везде deep dive. Документы которые deep dive мы делаем deep dive. Запомни сука.»*
+
+**Binding principle:** каждый foundation-level документ (Phase 2 layer deep-dives + Phase 3 strategic docs) пишется на **МАКСИМАЛЬНУЮ глубину**:
+- 15-25K слов минимум per document
+- Каждый sub-component раскрыт полностью (не skipping / compression)
+- Diagrams обязательны
+- Evolution per gate (€0 → €50K → €200K → €1M → $100M → $1T) expanded verbally + tabular
+- Все preserved dissents с обоснованием
+- F-G-R tagging per major claim
+- Citations к source (voice-memos / existing docs / books / research)
+- Open questions resolved or explicitly deferred с reasoning
+- Ruslan approval gate после КАЖДОГО document — никакого Full-Auto
+
+**Anti-pattern disqualified:**
+- Compression под "word-count floor marginally missed" (как было в SYSTEM-OVERVIEW integration §L? per-layer 356-874 слов вместо 800 floor — впредь no tolerance)
+- Summary mode vs depth mode
+- "Beta-enough" для foundation documents — beta применяется к gate-timing, не к craft standard
+
+**Beta-first остаётся для:** gate-timing (skippy ship), execution artefacts (landings / outreach / sales materials — fix-in-flight).
+
+**Deep Dive применяется к:** foundation (this master plan) + layer deep-dives (Phase 2) + strategic docs per direction (Phase 3) + JETIX-COMPASS.
+
+---
+
 ## §0 Почему этот план существует
 
 Ruslan 2026-04-24 озвучил: *«foundation системы вместе с агентами ещё не описан — нужно сперва закончить foundation, потом каждый слой обработать, потом уже наслаивать исследования/продажи/ICP/задачи в правильные слои»*. Существующие Vision/Philosophy/Plan/Architecture-Brief + 24 Locks покрывают philosophy и goals, но **coherent layered system description с агентами как first-class citizens отсутствует**. Без этого стратегические документы на направления (ai-consulting-DACH, producer-services, Secure Network) и ICP Trinity строить преждевременно — не понятно в какой слой они ложатся.
@@ -118,18 +146,36 @@ Coherent layered system description с агентами как first-class citiz
 
 **Task 1.4 [KM Mat resume — brigadier fresh session]:** продолжение Wave 2+3+4+F текущего KM Mat cycle. Ruslan запускает в отдельном tmux.
 
-### Phase 2 — Layered deep-dives (27-30 апреля, 3-4 дня)
+### Phase 2 — Layered Deep-Dives (25-30 апреля, 5-6 дней) — **DEEP DIVE POLICY APPLIES**
 
-После OVERVIEW approved — per-layer deep-dives как параллельные M-tasks swarm cycles:
+**Revised per Ruslan 2026-04-24 23:50 directive: full foundation, maximum depth, Ruslan approval gate per document.**
 
-- `decisions/LAYER-2-KNOWLEDGE-DEEP-DIVE.md` (Private Library + wiki architecture детально)
-- `decisions/LAYER-3-OPERATIONS-DEEP-DIVE.md` (agents + swarm + skills в production)
-- `decisions/LAYER-4-PRODUCT-DIRECTIONS-DEEP-DIVE.md` (consulting / producer / Secure Network / AI tools)
-- `decisions/LAYER-5-BUSINESS-MODEL-DEEP-DIVE.md` (revenue / unit-econ / gates)
-- `decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md` **← ICP Trinity живёт ЗДЕСЬ**
-- `decisions/LAYER-7-TRAJECTORY-DEEP-DIVE.md` (€50K → $1T + MHT + migration triggers)
+После OVERVIEW approved (✓) и KM Mat extracted (✓) — последовательные layer deep-dives. Каждый — **отдельный M-task swarm cycle с Stage-Gated AWAITING-APPROVAL перед Ruslan ack**.
 
-Порядок: L6 Community первым (разблокирует ICP), потом L4 Product (разблокирует strategic docs), потом L5 Business, потом L7 Trajectory, потом L2 + L3 (внутренние слои уже частично описаны в existing docs).
+Порядок (по criticality для revenue + downstream dependencies):
+
+**Wave 1 — Revenue critical path:**
+1. **`decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md`** (включает ICP Trinity как §N) — клиенты + партнёры + команда + Alliance + matchmaker + archetypes + 5-criteria filter; unblocks outreach
+2. **`decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md`** — 9 directions детально (consulting / producer / USB-C services / matchmaker / Secure Network / YouTube-SaaS / educational / tokens / Smart AI flagship); unblocks strategic docs
+3. **`decisions/LAYER-7-BUSINESS-TRAJECTORY-DEEP-DIVE.md`** — pricing Path A/B/C, unit-econ, 5 gates €50K → $1T, revenue streams per direction, миллионер reconciliation (audio_529 $1M+ vs audio_470 $240-600K/year)
+
+**Wave 2 — System depth:**
+4. **`decisions/LAYER-4-AGENTS-DEEP-DIVE.md`** — 20 agents roster (6 ROY + 14 legacy) reconcile CLAUDE.md, 5×4 matrix mechanics, 5-layer memory per agent, hub-and-spoke, fork-and-merge agent evolution per D27
+5. **`decisions/LAYER-8-PEOPLE-ALLIANCE-DEEP-DIVE.md`** — team 50-100 evolution per D26, hires roadmap, Alliance legal structure (Linux Foundation vs ARM Holdings), Secure Network architecture, digital portraits, fork-community governance
+6. **`decisions/LAYER-2-KNOWLEDGE-DEEP-DIVE.md`** — Private Library architecture, wiki v3 vs future, D28 query-driven filtering mechanics, topic-wikis per expert, project-wikis, A1→A2→A3 migration triggers
+7. **`decisions/LAYER-3-OPERATIONS-DEEP-DIVE.md`** — agents + swarm + skills в production, Plan/Work/Review/Compound 40/10/40/10 mechanics, swarm cycles catalogue
+
+**Wave 3 — Cross-cutting + critical gap:**
+8. **`decisions/LAYER-0-FOUNDATION-DEEP-DIVE.md`** — Company-as-Code per D25 governance, git workflow, fork-and-merge protocol (D27), licensing decision (MIT / proprietary / dual), multi-dev atomic commits
+9. **`decisions/LAYER-9-GOVERNANCE-DEEP-DIVE.md`** — 28 Locks constitutional + operational policies, constitutional amendment process, beta-first canonicalization, AWAITING-APPROVAL mechanics, dissent preservation §1d
+10. **`decisions/LAYER-R-RESOURCE-DEEP-DIVE.md`** — 5 resources (time/attention/money/energy/credits) tracking, dashboard design, OPP-01 ap_cost instrumentation, alerts at thresholds
+11. **`decisions/LAYER-C-COMPUTE-DEEP-DIVE.md`** — infrastructure evolution (workstation → data-center → электростанции), client-private inference (Mistral 7B / Llama), sovereign compute
+12. **`decisions/LAYER-B-BRAND-DEEP-DIVE.md`** — USB-C narrative + прошивка Windows + operating system мирового масштаба + Smart AI internal label + 3-audience landings + JETIX-COMPASS как output
+13. **`decisions/LAYER-P-LIFEOS-DEEP-DIVE.md`** — Ruslan personal system, auto-logging, Life OS as Phase-3 product prototype (audio_529 insight)
+
+**Ruslan approval gate after every deep-dive.** Каждый cycle = fresh brigadier session. Deep dive policy enforced (15-25K words, no compression).
+
+**Estimate:** 1-2 days per layer deep-dive swarm. Total Phase 2: 5-10 дней при последовательном execution. Parallel 2-3 cycles одновременно (HD-02 N=3) сокращает до 4-6 дней.
 
 ### Phase 3 — Strategic execution documents (30 апреля - 1 мая, 2 дня)
 
