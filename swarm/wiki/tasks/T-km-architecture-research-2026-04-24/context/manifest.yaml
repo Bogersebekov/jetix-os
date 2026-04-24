@@ -1,0 +1,85 @@
+---
+title: Context manifest — T-km-architecture-research-2026-04-24
+task_id: T-km-architecture-research-2026-04-24
+cycle_id: cyc-km-architecture-2026-04-24
+total_tokens_estimated: 19500
+priority_ranking: per Q4 task-scoped context loading
+produced_by: brigadier
+created: 2026-04-24
+---
+
+# Q4 priority-ranked context pull manifest
+
+Each cell receives a SUBSET of this manifest tailored to its (expert × mode)
+focus per §6.4 canonical ordering. Cells read inputs directly from disk
+(file-reference-only rule, AP-1 prevention).
+
+priority_1_brief:
+  - path: prompts/meta-brief-km-architecture-research-2026-04-24.md
+    estimated_tokens: 2500
+    relevance: every cell
+  - path: prompts/km-architecture-research-2026-04-24.md
+    estimated_tokens: 8500
+    relevance: every cell (esp §3 UC matrix, §6 dispatch, §7 locks)
+
+priority_2_strategic_v2_mandates:
+  - path: decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md
+    estimated_tokens: 1500
+    relevance: every cell — UC-9 + UC-10 rationale; Path A/B/C; D13/D17/D19/D20/D21/D24
+  - path: raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md
+    estimated_tokens: 5500
+    relevance: integrator + scalability cells (full read); critic + optimizer (skim §§9-13)
+
+priority_3_locked_decisions:
+  - path: design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md
+    estimated_tokens: 25000  # huge — read by section per cell focus
+    relevance: D1/D2/D3 (every cell), D5/D6 (integrator), D7/D10/D11 (engineering), D12 (mgmt)
+  - path: decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md
+    estimated_tokens: 12000  # huge — read by Part per cell focus
+    relevance: Part 4 (every cell), Part 6/8 (systems + scalability), Part 10 (every cell)
+  - path: decisions/VISION-NEXT-STRATEGIC-HORIZON-2026-04-24.md
+    estimated_tokens: 1500
+    relevance: every cell — Pillars 2+3, C-1/C-2/C-3
+  - path: decisions/JETIX-PHILOSOPHY.md
+    estimated_tokens: 1500
+    relevance: §§6, 10, 14 — every cell
+  - path: decisions/JETIX-ARCHITECTURE-BRIEF.md
+    estimated_tokens: 4000
+    relevance: §2 (24 Locks), §4 (Foundation, F-G-R) — every cell
+
+priority_4_synthesis_baselines:
+  - path: decisions/ROY-INFORMATION-DIET.md
+    estimated_tokens: 1500
+    relevance: §1.6 — every cell (canonical "knowledge-as-leverage moat" quote)
+  - path: decisions/MASTER-SYNTHESIS-HOW-TO-BUILD-BEST-SWARM-2026-04-22.md
+    estimated_tokens: 6000
+    relevance: §4.6, §5.5–5.10 — engineering + integrator cells primarily
+  - path: decisions/ROY-ALIGNMENT-2026-04-22.md
+    estimated_tokens: 1500
+    relevance: §§2-3 — every cell (matrix definition + canonical sources)
+
+priority_5_research_corpus:
+  - path: raw/research/knowledge-architecture-deep-research-2026-04-19.md
+    estimated_tokens: 6000
+    relevance: every cell (full read recommended); especially Parts A/B/G
+
+priority_6_runtime_substrate:
+  - path: swarm/lib/shared-protocols.md
+    estimated_tokens: 1500
+    relevance: every cell
+  - path: swarm/wiki/foundations/swarm-alphas.md
+    estimated_tokens: 1500
+    relevance: every cell
+  - path: .claude/agents/brigadier.md
+    estimated_tokens: 8000
+    relevance: integrator cells (cycle-2 OPP-04 schema)
+  - path: .claude/agents/<expert>-expert.md
+    estimated_tokens: 5000
+    relevance: each cell reads ITS OWN expert manifest (§§1-9)
+
+context_loading_rule: |
+  Each cell receives 4-7 priority paths in its dispatch brief.
+  Cell does file-reference-only reads (no inlined source bodies).
+  Total cell context budget ≤80K tokens including the brief itself.
+  Brigadier monitors cumulative session-budget; rotates to disk for
+  scratchpad if approaches 700K.
