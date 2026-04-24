@@ -1,21 +1,26 @@
 ---
 id: strategic-insight-ma-direction-2026-04-25
-title: "Strategic Insight — M&A Advisory + ETA как 10-я (потенциально первая) Phase-1 direction"
+title: "Strategic Insight — M&A Advisory + ETA как future Phase-2+ direction (DEFERRED)"
 type: strategic-insight
-state: draft-awaiting-discussion
+state: deferred-phase-2-plus
+status_note: "Ruslan 25.04 directive — M&A = Phase-2+ future idea. Phase-1 НЕ затрагивается. Co-founder / tooling / geography / capital / D22 refinement — все вопросы deferred. NOT a blocker for L7 Business Deep-Dive. L7 mentions M&A briefly в Phase-2+ optionality (§Evolution per gate / §Risk register), не deep-dive."
 created: 2026-04-25
 author: Ruslan (research delivery) + Cloud Cowork (synthesis)
 niche: [strategy, products, business-trajectory]
 relates_to:
   - raw/research/2026-04-25-wall-street-ma-deep-dive.md (trigger research, full text)
-  - decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md (will receive M&A direction integration)
-  - decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md (Mittelstand ICP overlap)
+  - decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md (M&A integration deferred to future cycle)
+  - decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md (Mittelstand ICP overlap noted)
   - decisions/JETIX-VISION.md (D11 Investment-fund philosophy + D20 USB-C positioning)
   - decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md (AI-leverage thesis parallel)
 locked_decisions_referenced: [D10, D11, D14, D15, D18, D19, D20, D21, D22, D26]
-importance: critical — potential first or co-primary Phase-1 revenue line; requires Ruslan strategic decision before L7 launch
-action_required: Ruslan ack on positioning + L7 swarm prompt update + future dedicated M&A deep-dive cycle
+importance: medium — future Phase-2+ optionality; not Phase-1 priority per Ruslan 25.04
+action_required: NONE for now — defer all 7 questions. Pick up during Phase-2+ planning when €200K validation achieved.
 ---
+
+> **DEFERRED status (25.04 21:00 CET, Ruslan verbatim):** *«пока на фазе 1 думаем насчет 2. В душе не ебу, кофаундер, да, надо будет, но снова, блять, на фазе [2]. Потом я туллинг, блять, еще раз тоже. Все, сука, это потом. Не бим, не голову. Дачный тоже, блять, потом нахуй разберемся. Это просто как идея на будущее.»*
+>
+> **Treatment:** This is now a **future-Phase-2+ optionality idea**, not active Phase-1 work. L7 Business Deep-Dive should mention M&A briefly in Phase-2+ optionality sections (§Evolution per gate / §Risk register / §Open questions Phase-2+ tier-2 backlog), but NOT deep-dive. Dedicated M&A deep-dive cycle scheduled when Phase-2 validation gate reached (€200K) AND Ruslan re-prioritizes M&A. Until then — research source preserved, document preserved, integration parked.
 
 # Strategic Insight — M&A Advisory + ETA как Phase-1 direction для Jetix
 
