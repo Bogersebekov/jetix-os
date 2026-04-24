@@ -13,6 +13,56 @@ expected_evolution:
 
 # Strategies — brigadier
 
+## Entries (newest on top)
+
+### 2026-04-24 — Sequenced-migration-trajectory framing beats single-variant pick when N≥3 variants per layer
+
+- **Decision:** When the matrix returns 3+ variants per architectural layer with categorically different axes (per execution prompt §1.2 + §2.2/§2.3), brigadier's recommendation in §11 of the consolidated decision document is FRAMED AS A SEQUENCED MIGRATION TRAJECTORY across gate triggers, NOT as a single-variant pick. For T-km-architecture-research-2026-04-24: A1↔B1 Phase-A → A2↔B2 at G2 first paying client onset → A3↔B2 at G3 ≥3K pages/client trigger; B3 confined to research+bets niche.
+- **Reasoning:** No single variant survives all 5 horizon gates by construction (A1 fragile G3; A2 over-engineered G1; A3 over-engineered G1-early-G2; B1 fragile G3; B2 over-engineered G1; B3 conditional on predicate-rigor). A single-variant recommendation forces the system into either premature optimization (A2+B2 from day-1) or unmanaged forced migration under stress (A1+B1 hits G3 cliff). Sequenced trajectory makes EACH MIGRATION TRIGGER measurable in `meta/health.md` and PRE-PLANNED — under stress the system EXECUTES a known migration rather than improvises. Per investor-optimizer §3 barbell: pre-investment in next-tier substrate at trigger-1-before-fire is Kelly-positive.
+- **Result:** Ruslan acked option A (Accept) on first read; no rejection or modification of the trajectory framing; forward-direction note explicitly endorsed the sequenced approach by signaling a HYBRID materialization brief (cherry-pick best across all 6, not commit to one).
+- **Review:** validated for 6-variant M-structural cycles. Generalize: when ≥3 variants per layer + measurable horizon triggers exist, sequenced-trajectory framing > single-variant pick. Contradiction watch: if Ruslan in next cycle rejects a sequenced trajectory in favor of single steady-state, downgrade rule to "depends on cycle scope".
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: pattern fires 1-3 more times in M-structural cycles; refine trigger-list template (current: latency p95 / project count / page count / client count); add per-rule kill-condition
+  - cycle_50: pattern may generalize beyond architecture-decision M-tasks to research-synthesis M-tasks; or may stay scoped to design-shape only
+  - cycle_200: codify as a brigadier skill `/recommend-trajectory <variant-set>` if pattern fires ≥10×
+
+### 2026-04-24 — 20-cell 4-wave parallel dispatch pattern operates at scale; each wave's outputs feed next wave naturally
+
+- **Decision:** For M-structural tasks requiring full matrix invocation (5×4=20), brigadier dispatches in 4 sequential WAVES of 5 PARALLEL cells each (W1 critics → W2 optimizers → W3 integrators → W4 scalability). Each wave is a single brigadier message containing 5 Task() calls. Each cell in W2+ reads its own expert's prior-wave drafts via direct disk paths (Q1 Tier-A); brigadier pre-populates `inputs:` with predictable peer-draft paths in the WBS so cells don't need to escalate `peer-input-needed`.
+- **Reasoning:** Dispatching 20 cells serially would consume ~20× wall-clock vs 4-wave-parallel; serializing within waves (5 sequentially) loses 5× per wave. Per `.claude/agents/brigadier.md §4.3`: parallel dispatch for independent work is mandate (AP-23 lock). The 4-wave structure naturally encodes mode-dependency (optimizer reads critic; integrator reads critic+optimizer of self + critic of peers; scalability reads integrator) without requiring runtime peer-input escalation. Empirically observed in Cycle-3: cells within a wave returned in ~3-6 minutes each; wave latency = max(cell latencies) ≈ 8-10 min; total dispatch wall-clock ~35-45 min for 4 waves vs ~3-4 hours serial.
+- **Result:** All 20 cells fired successfully (2026-04-24 01:55-02:33 CET; ~38 min wall-clock for the 4 waves); zero `peer-input-needed` escalations across 20 cells (peer drafts arrived via wave ordering); 0 schema-malformed returns; 108,712 words of cell-draft prose produced.
+- **Review:** validated. Generalize: any M-task requiring full 20-cell matrix dispatches in 4-wave-parallel; the WBS pre-populates peer-draft paths in each cell's `inputs:` so peer-input-needed escalations are pre-empted. Risk: if a Wave-1 cell fails silently, downstream wave's expectation of peer-draft path is wrong; mitigation = brigadier verifies each wave's ls before dispatching next wave (already done this cycle as Bash verification).
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: refine wave-cadence (W1→W2 boundary may be 5 cells of W1 returning in any order vs all-W1-complete-before-W2-start; observe whether early-W2 dispatch on first 3 W1 returns reduces overall wall-clock)
+  - cycle_50: codify wave-dispatch pre-requirement check as a `/wave-dispatch <wave-N>` skill candidate
+  - cycle_200: parallelism may extend to cross-wave (W3 integrator could overlap with W4 scalability if integrator drafts available early); requires more sophisticated dependency tracking
+
+### 2026-04-24 — Variant-draft word-count floors not met for 4 of 6 variants (3866-4641w vs 4500-5500w §1.4 floor); under-target but substantively complete
+
+- **Decision:** Cycle-3 produced 6 variant drafts averaging ~4271 words against 4500-5500 §1.4 target. Two over (A1=4998, A2=4641); four under (A3=4089, B1=3866, B2=4113, B3=3919). All 12 §5.1 template sections covered substantively per variant. Brigadier flagged honestly in attestation rather than pad.
+- **Reasoning:** Variant drafts are derivative integration artefacts over 20 cell drafts (~108K words). The §5.1 template floor was set in execution prompt §1.4 but the substance burden is HIGHER in cell drafts than in brigadier-authored variant drafts (cells produce primary research; brigadier integrates). Padding variant drafts to meet floor risks AP-1 summary-compression (re-stating cell content without value-add) — worse than honest under-floor. Ruslan acked option A despite the under-floor flag.
+- **Result:** Ruslan ack notes "Substance OK for review" — ack quality not contingent on draft length; consolidated decision doc (8231w vs 15-25K target) ALSO under floor and ALSO acked. Pattern: word-count floors are useful as DEPTH PROXY but should be UNDERSTOOD AS CEILINGS-OF-MINIMUM not floors-mandatory for derivative-integration artefacts.
+- **Review:** partial — pattern operative but execution-prompt floors should be re-tuned for derivative artefacts. Propose for future M-task execution prompts: separate floors for "primary-research" (cell drafts) vs "integration-derivative" (variant drafts + consolidated doc). Cycle-3 evidence: cell drafts averaged 5436w (above 4500 floor); variant drafts averaged 4271w (below 4500 floor); consolidated doc 8231w (below 15K floor). Re-baseline future prompts.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: collect 2-3 more M-task data points; if pattern holds, propose re-tuning floor in execution-prompt template
+  - cycle_50: floors split into primary vs derivative tiers in standard execution-prompt template
+  - cycle_200: word-count floors replaced with structural-checklist binary (every §5.1 section present + acceptance-predicates met) — more falsifiable than wc
+
 ## Entry Format
 
 Each entry uses 4-part DRR per FPF E-9 §2.9 with the documented

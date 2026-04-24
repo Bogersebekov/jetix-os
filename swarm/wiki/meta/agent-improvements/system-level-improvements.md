@@ -44,7 +44,39 @@ Cross-references between strategies entries and improvement entries
 are mandatory: every improvement here cites at least one
 `agents/<id>/strategies.md` entry that motivated it.
 
-## Entries
+## Entries (newest on top)
+
+### 2026-04-24 — Defense-in-depth STACK preferred over single-mechanism for STRATEGIC-DIFFERENTIATOR use cases (UC-9 + UC-10 architectural-proof)
+
+- **Decision:** When a use case is a STRATEGIC differentiator (per execution-prompt taxonomy: structural vs strategic; UC-9 client-isolation + UC-10 offline-first inference are strategic for Jetix per Strategic Insight 2026-04-24), brigadier's preferred architectural-proof shape is a DEFENSE-IN-DEPTH STACK (≥3 thin layers; each layer enforced by independent mechanism) — NOT a single thick mechanism. This rule was enacted in T-km-architecture-research-2026-04-24 §11 recommendation: UC-9 proof = env-var (engineering Δ1) + directory namespace (mgmt Δ4) + 13th `holon-ref` edge (systems Δ1) + Phase-B OS UNIX permissions; UC-10 proof = T-Offline (structured-excerpt) + T-Hybrid (HITL opt-in) + per-client `inference-stack.yaml` (ollama+Mistral default).
+- **Reasoning:** Per philosophy × integrator's §3 meta-decision arbitration in cyc-km-architecture-2026-04-24: Lakatos protective-belt logic — multiple thin layers > single thick layer for strategic moat preservation. Single-mechanism failures are SINGLE-POINT-OF-FAILURE; defense-in-depth STACK degrades gracefully (one layer breach surfaces signal but is contained). Per BIOS-clone-wars research §11 Урок 1: single-point-of-control fails in multilayer systems. Per Cycle-3 evidence: each of 5 expert lenses surfaced a different UC-9 mechanism (engineering session-level / mgmt directory-namespace / systems graph-edge / philosophy supersession-chain / investor capital-flow gate) — STACKING them is strictly stronger than any single one.
+- **Result:** Ruslan acked the STACK-recommendation Option A on first read; no rejection. Future M-tasks where a strategic-differentiator use case must be proved should default to defense-in-depth STACK with explicit ≥3 layers + per-layer fallback failure mode + per-layer audit-log signal.
+- **Review:** validated once empirically (Cycle-3 close). Cross-references: `agents/brigadier/strategies.md` 2026-04-24 entry on sequenced-trajectory framing; `swarm/wiki/drafts/T-km-architecture-research-2026-04-24-philosophy-integrator-epistemic-overlay.md` §3. Watch: does the STACK pattern hold for non-architectural strategic differentiators (e.g., a future strategic-differentiator UC for matchmaker Lock-21 or Mittelstand AI Alliance governance)?
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_5: pattern fires 1× more on Mittelstand AI Alliance governance design (if that becomes a strategic-differentiator UC); confirm STACK-vs-single discipline
+  - cycle_50: codify as a brigadier rule "strategic-differentiator UCs require ≥3-layer STACK with named per-layer mechanism" added to `.claude/agents/brigadier.md §3.2 task-shape-cell-selection-matrix`
+  - cycle_200: STACK depth may extend to 5+ layers as Alliance methodology parliament (per philosophy-scalability §7) adds governance-level enforcement
+
+### 2026-04-24 — OPP-04 cell_acceptance_predicate proved load-bearing at scale; rate-limited refusal NOT NEEDED in Cycle-3
+
+- **Decision:** Cycle-3 dispatched 20 cells with cell_acceptance_predicate per OPP-04 (cycle-2 implementation); zero cells were refused at dispatch for trivial-predicate violations; zero return-packet schema violations. The predicate field correctly DETERRED label-only outputs by being explicit at brief-time about what counts as success per cell.
+- **Reasoning:** Pre-OPP-04 cycles risked AP-2 vacuous-critic (returns "looks good" without ≥5 binary checks). With OPP-04, every cell brief named the binary success-condition (e.g., "Returns ≥5 binary Conformance Checks AND ≥2 Alternatives per check AND explicit Anti-scope AND each row F-G-R triple"). All 20 returns met the predicate. The protection was structural-prevention not runtime-rejection — predicate-shaping at brief-time was sufficient.
+- **Result:** 20/20 cells returned schema-valid packets with substantive bodies (per V12 + V14 verification checks: UC-9 markers 9-25/variant; UC-10 markers 13-29/variant; Strategic Insight + BIOS citations 1-2/variant). Cell-draft prose 108,712 words; quality high across all 5 experts × 4 modes.
+- **Review:** validated. OPP-04 is doing the work it was designed for. Predicates ARE pedagogical — they shape cell outputs at brief-time, not via runtime rejection. Cross-reference: cycle-2 OPP-04 implementation report at `decisions/CYCLE-2-IMPLEMENTATION-REPORT-2026-04-24.md`.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_5: 2nd full-matrix M-cycle confirms predicate-shaping efficacy; measure refusal-rate trend
+  - cycle_50: predicate library codified — common predicates per (expert, mode) pair stored at `swarm/wiki/_templates/cell-predicates/<expert>-<mode>.md` for brigadier to reuse
+  - cycle_200: predicate-evaluator skill `/lint --check-cell-predicates` added if Phase-B brigadier dispatches start producing trivial predicates under volume
 
 ### 2026-04-23 — MP-1 "executor-not-wired" is the dominant system-level pattern; named hooks + evals are the single highest-leverage fix
 

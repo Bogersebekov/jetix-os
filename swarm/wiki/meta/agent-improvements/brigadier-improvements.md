@@ -47,7 +47,39 @@ return.
 3. **Result** — observed outcome
 4. **Review** — validated | refuted | partial
 
-## Entries
+## Entries (newest on top)
+
+### 2026-04-24 — brigadier-improvement proposed by mgmt × critic + engineering × integrator: Phase-A vs Phase-B activation triggers should be PRE-DECLARED in the brigadier's Decompose-or-Chat output, not derived ad-hoc at gate time
+
+- **Decision:** Brigadier's Phase-A vs Phase-B activation discipline (when does A1 substrate cede to A2; when does B1 cede to B2; when does A3 augmentation activate) was IMPLICIT in T-km-architecture-research-2026-04-24 §11 recommendation but NOT codified as a brigadier protocol step. Add to `.claude/agents/brigadier.md §3` decomposition output: `phase_transition_triggers: [...]` field listing per-recommended-architecture the binary trigger conditions (e.g., "first paying client signed → A2 substrate prep within 2 weeks"; "wiki page count >3000 per client → A3 cron activation"; "30 projects → sub-roy split per Lock 21").
+- **Reasoning:** Dissent D-1 (engineering vs systems on Phase-A UC-9 isolation level) and dissent D-4 (B1 portfolio-aggregation vs full-B2-at-G3) both surfaced this gap: WHEN does the migration trigger fire is the load-bearing question, not WHICH variant is "best" in steady state. Brigadier currently bakes triggers into recommendation prose (§11 of decision doc); future M-tasks should make triggers a STRUCTURED output field so they can be (a) measured in `meta/health.md`, (b) refuted-or-accepted explicitly at trigger fire, (c) ratchet-locked once fired.
+- **Result:** Cycle-3 close: triggers exist in §11 prose but are NOT in a structured `meta/health.md` counter or alarm. Recommendation §11 includes explicit refuted_if clause but no automated detection. Manual Ruslan-monitoring required.
+- **Review:** partial — pattern useful but not yet codified. Proposed: extend `.claude/agents/brigadier.md §3.3 PMBOK WBS discipline` schema with `phase_transition_triggers:` field; extend `swarm/wiki/meta/health.md` 8-section schema with `phase_triggers_armed: {...}` section; `/lint` extension to evaluate trigger-conditions against current state. **Sized as cycle-2 OPP-style follow-up; defer to next M-class structural slot.**
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close; cross-agent observation)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_5: pattern fires 1× more in materialization brief (which will inherit Cycle-3's trajectory recommendation); confirm whether triggers need structuring or remain prose
+  - cycle_50: schema extension lands as a separate M-task
+  - cycle_200: phase-transition triggers are universal protocol step in every M-structural cycle's decomposition
+
+### 2026-04-24 — brigadier-improvement proposed by philosophy × scalability: Popperian falsification IS UC-9-compatible via outcome-level vs content-level distinction; brigadier should adopt this distinction as canonical protocol vocabulary
+
+- **Decision:** Philosophy × scalability §6 surfaced a load-bearing distinction: in federated multi-client architectures, methodology-level claims are TESTABLE across clients via outcome-level telemetry (anonymized acceptance-predicate pass/fail + context category tags) while CONTENT-level data never crosses holon boundaries. This dissolves the apparent UC-7 (contradiction detection) × UC-9 (client isolation) tension. Brigadier should adopt **outcome-level vs content-level** as canonical protocol vocabulary across `.claude/agents/brigadier.md` + `swarm/lib/shared-protocols.md` + `meta/health.md` schema.
+- **Reasoning:** Pre-Cycle-3, the UC-7 × UC-9 tension was preserved as a dissent (philosophy-critic H-4 NO). Cycle-3's philosophy × scalability cell RESOLVED the dissent with an architectural distinction (outcome-level falsification preserves Popperian discipline; content-level isolation preserves UC-9). The vocabulary `outcome-level` + `content-level` is now load-bearing for any federated-multi-client design — should be canonical not ad-hoc.
+- **Result:** Cycle-3 §11 recommendation incorporates outcome-level vs content-level distinction; Cycle-3 close: vocabulary present in cell drafts (philosophy-scalability §6) + variant drafts (A2 §5 UC-7 walkthrough) + consolidated decision doc (§12 dissent D-7) but NOT yet canonical in shared-protocols.md.
+- **Review:** validated as load-bearing for Phase-B. Propose: add `outcome-level` + `content-level` to shared-protocols §8 verb dictionary; add `outcome_telemetry_payload:` field to per-client `meta/health.md` schema for Phase-B. **Sized as small-LOC; defer to cycle-4 if next-cycle Ruslan ack permits.**
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-km-architecture-research cycle close)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_5: vocabulary lands in shared-protocols if approved
+  - cycle_50: outcome-level telemetry actively used per-client at G2+ for cross-client methodology validation
+  - cycle_200: statistical-convergence on outcome-level signals IS the $1T peer-review equivalent (per philosophy-scalability §6) — vocabulary is foundational
 
 ### 2026-04-23 — brigadier-improvement proposed by philosophy × integrator (SHIPPABLE-WITH-CAVEATS verdict requires upgraded handling)
 

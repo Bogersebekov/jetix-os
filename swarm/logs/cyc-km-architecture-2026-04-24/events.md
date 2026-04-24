@@ -140,3 +140,18 @@ opened_at: 2026-04-24T01:44:00+02:00
   * Check 6 non-contradicting: doc supersedes nothing; 24 Locks + FPF E-items + W-decisions preserved per anti-scope ✓
 - log entry appended to swarm/wiki/log.md (task-approved)
 - forward-direction note from Ruslan surfaced: hybrid-materialization brief will be next M-class task
+
+## [2026-04-24 21:15] phase-7-compound-complete | brigadier
+- α-1 transition: approved → compounded
+- Layer-1 CE entries (3) appended to agents/brigadier/strategies.md (newest on top):
+  * sequenced-migration-trajectory framing beats single-variant pick when N≥3 variants per layer
+  * 20-cell 4-wave parallel dispatch pattern operates at scale; each wave's outputs feed next wave naturally
+  * variant-draft word-count floors not met for 4 of 6 variants (3866-4641w vs 4500-5500w §1.4 floor); under-target but substantively complete
+- Layer-2 CE cross-agent entries (2) appended to swarm/wiki/meta/agent-improvements/system-level-improvements.md:
+  * defense-in-depth STACK preferred over single-mechanism for STRATEGIC-DIFFERENTIATOR use cases (UC-9 + UC-10)
+  * OPP-04 cell_acceptance_predicate proved load-bearing at scale; rate-limited refusal NOT NEEDED in Cycle-3
+- Layer-2 CE brigadier-meta entries (2) appended to swarm/wiki/meta/agent-improvements/brigadier-improvements.md:
+  * Phase-A vs Phase-B activation triggers should be PRE-DECLARED in brigadier's Decompose-or-Chat output, not derived ad-hoc at gate time (proposed by mgmt × critic + engineering × integrator)
+  * Popperian falsification IS UC-9-compatible via outcome-level vs content-level distinction; brigadier should adopt vocabulary as canonical protocol (proposed by philosophy × scalability)
+- Total compound entries this cycle: 7 (3 brigadier strategies + 2 system-level + 2 brigadier-improvements)
+- Per-expert improvements files NOT touched this cycle (deferred — no specific cross-expert observations rose to a non-trivial expert-improvement signal that wasn't already captured at brigadier or system-level)
