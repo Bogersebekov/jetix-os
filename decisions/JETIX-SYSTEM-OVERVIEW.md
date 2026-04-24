@@ -3,14 +3,21 @@ id: jetix-system-overview-2026-04-24
 title: "JETIX-SYSTEM-OVERVIEW — Coherent 14-Layer Description of Jetix as Operating System"
 date: 2026-04-24
 type: foundation-document
-state: draft-awaiting-ruslan-ack
+state: accepted
+acked_by: ruslan
+acked_at: 2026-04-24T23:30:00Z
+acked_via: cloud-cowork-session
+ack_chosen: a1+b1+c1+d1
+ack_notes: "A1 USB-C/McKinsey resolution accepted per §6; B1 Smart AI internal-only (not D29 lock); C1 $1M+ ICP tier as D22 refinement (not conflict with 11 archetypes); D1 accept integration per-layer word counts as-is (primary drafts carry the depth)."
 author: brigadier (swarm orchestrator) + 5 domain experts as cells
 task_id: T-jetix-system-overview-2026-04-24
 cycle_id: cyc-jetix-system-overview-2026-04-24
 target_word_count: 15000-25000
 operating_mode: Stage-Gated
-next_state_on_ack: awaited → Phase-7 compound + Phase-8 archive
-binding: no (pending Ruslan review)
+promoted_at: 2026-04-24T23:45:00Z
+promoted_by: brigadier
+gate_file: swarm/gates/AWAITING-APPROVAL-jetix-system-overview-2026-04-24.md
+binding: yes (Ruslan-acked foundation for Phase 2 per-layer deep-dives + Phase 3 strategic docs)
 supersedes: none (new document; companion to D1-D28 + JETIX-VISION + JETIX-PHILOSOPHY + JETIX-PLAN + JETIX-ARCHITECTURE-BRIEF)
 primary_frameworks: [PMBOK, Grove HOM, Cagan, Drucker, Karpathy LLM-Wiki, Levenchuk ШСМ, Meadows leverage, Ashby requisite variety]
 sources_digest:
@@ -1388,6 +1395,15 @@ Per MASTER-PLAN §4 Phase-2 order: L6 Community → L4 Product → L5 Business �
 ---
 
 ## Status log (append-only, newest first)
+
+### 2026-04-24 23:45 CET — Ruslan ack received; brigadier compound + archive executed
+
+- Ack: `state: acked, chosen: a1+b1+c1+d1` in `swarm/gates/AWAITING-APPROVAL-jetix-system-overview-2026-04-24.md` frontmatter
+- 4 decisions accepted per brigadier recommendation (A1 USB-C resolution / B1 Smart AI internal / C1 $1M+ ICP as D22 refinement / D1 accept integration as-is)
+- Document state: draft → accepted; binding for Phase 2 per-layer deep-dives + Phase 3 strategic docs
+- C1 refinement per Ruslan notes: $1M+ ICP reads as enrichment of D22 qualitative filter (overlay on 11 archetypes per JETIX-VISION §7.1), NOT conflict. Reconciles L6 dissent.
+- Per-expert improvements + emergent insights + cycle-log written per Phase-7/8
+- No Full-Auto authorization downstream: each Phase 2 layer deep-dive is its own M-task with its own gate (Ruslan note)
 
 ### 2026-04-24 — Document created via swarm cycle cyc-jetix-system-overview-2026-04-24
 

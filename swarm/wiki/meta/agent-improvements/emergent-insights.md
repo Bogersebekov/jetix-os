@@ -52,6 +52,17 @@ Emergent insights additionally carry:
 
 ## Entries
 
+### 2026-04-24 — Layered description with explicit boundaries auto-surfaces open questions and dissents without solicitation (cyc-jetix-system-overview emergent property)
+
+- **Cross-cycle observation window:** cyc-jetix-system-overview-2026-04-24 (first description-shape cycle; 14 layer cells in 3 waves)
+- **Pattern surface:** each layer-cell required Mission + Boundaries (in/out scope) + Interfaces as mandatory acceptance-predicate elements. When cells were forced to name what a layer is NOT, 10 open strategic questions + 5 legitimate dissents emerged organically — without brigadier asking for them.
+- **Refutation predicate:** if a subsequent description-shape M-task has ≤2 emergent open questions + 0 dissents, the boundary-forces-surfacing property is partially refuted (may have been specific to Jetix complexity, not intrinsic to description-shape).
+
+- **Decision:** Flag as emergent property: requiring explicit in-scope/out-of-scope boundary per layer description acts as a **tension-surfacing mechanism**. When a cell must declare what the layer is NOT (and which neighbor-layer owns that), cross-layer contradictions, lock-interpretation ambiguities, and unresolved governance questions crystallize without explicit solicitation. Example: L-P required "why is this a layer not a project?" — cell produced 3 Popper-falsifiable tests + preserved "life-os = project (CLAUDE.md P3) vs layer (this doc)" as legitimate dissent across abstraction levels.
+- **Reasoning:** Ashby requisite variety at the descriptive layer — layer-boundary enforcement requires cell to apply ≥5 expert lenses simultaneously (is this an engineering concern? mgmt? systems? philosophy? investor?) before asserting boundary. Cross-lens dispute triggers dissent; cross-layer ambiguity triggers open question. Pattern is dual to Cycle-1's "5×4 matrix surfaces critique" — here layer-boundary declaration surfaces structural tension.
+- **Result:** 14 cells produced 10 open strategic questions + 5 preserved dissents without brigadier prompting for them. Ruslan ack explicitly embraced pattern (C1 notes "$1M+ ICP tier as D22 refinement (not conflict with 11 archetypes)" — exactly the kind of tension-resolution pattern that emerged at L6 boundary declaration).
+- **Review:** validated once. Worth watching: does the pattern hold for per-layer deep-dives (Phase 2 M-tasks)? Hypothesis: deep-dives will surface fewer cross-layer tensions (layer already defined) but more intra-layer tensions (mechanism choices within layer). If confirmed, description-shape → boundary-forces-cross-layer-surfacing; deep-dive-shape → mechanism-forces-intra-layer-surfacing. Dual patterns at different abstraction levels.
+
 ### 2026-04-23 — The swarm self-criticises more effectively than any single expert alone (emergent property of matrix 5×4)
 
 - **Cross-cycle observation window:** cyc-swarm-self-improve-v1-2026-04-23 (first real swarm cycle)

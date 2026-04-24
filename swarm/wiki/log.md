@@ -1,7 +1,7 @@
 ---
 title: Swarm Wiki v3 — Append-only Log
 type: log
-updated: 2026-04-23
+updated: 2026-04-24T23:45:00Z
 ---
 
 # Swarm Wiki v3 — Log (newest on top)
@@ -11,6 +11,13 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] cycle-closed-compounded | cyc-jetix-system-overview-2026-04-24 | Ruslan ack a1+b1+c1+d1; decisions/JETIX-SYSTEM-OVERVIEW.md promoted state=accepted (binding foundation for Phase-2 deep-dives); 7 cross-agent improvement entries + 1 emergent insight written; health counters updated; HD-02 restores to N=2 | brigadier
+## [2026-04-24] task-gated | T-jetix-system-overview-2026-04-24 | AWAITING-APPROVAL packet opened; 14 layer drafts (41.6K words) + 11.2K integration doc; 5 preserved dissents; brigadier recommendation A1+B1+C1+D1 | brigadier
+## [2026-04-24] task-integrated | T-jetix-system-overview-2026-04-24 | Integration pass: 14 layer sections + top-level §0-§6 + post-layer §L+1..§L+4 assembled | brigadier
+## [2026-04-24] task-dispatched | T-jetix-system-overview-2026-04-24 | Wave-3 cross-cutting: 4 parallel cells L-R/L-C/L-B/L-P (11.9K words; 1 dissent) | brigadier
+## [2026-04-24] task-dispatched | T-jetix-system-overview-2026-04-24 | Wave-2 business stack: 5 parallel cells L5-L9 (16.8K words; 3 dissents) | brigadier
+## [2026-04-24] task-dispatched | T-jetix-system-overview-2026-04-24 | Wave-1 core stack: 5 parallel cells L0-L4 (12.9K words) | brigadier
+## [2026-04-24] task-intaked | T-jetix-system-overview-2026-04-24 | Phase-1 intake + Phase-2 WBS; 15 cells M-class; 3-wave parallel decomposition | brigadier
 ## [2026-04-24] task-gated | T-km-materialization-mvp-2026-04-24 | AWAITING-APPROVAL packet opened (dissent arbitration + extraction scheduling); 8 design records promoted; physical extraction + Wave 4 + Part F deferred post-ack; 4 options documented; brigadier recommendation = Option B | brigadier
 ## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partE-engineering-optimizer-e2e-demo-deltas.md | Wave-3 engineering × optimizer — method-change=false; 5 invariants preserved; fixture path spec | brigadier
 ## [2026-04-24] design-promoted-with-dissent | T-km-materialization-mvp-2026-04-24/partE-investor-critic-icp-kpi-realism.md | Wave-3 investor × critic — 3 HARD FAIL + 1 conditional FAIL; 6 alternatives; Ruslan arbitration required | brigadier

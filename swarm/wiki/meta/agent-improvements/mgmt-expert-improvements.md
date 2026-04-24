@@ -47,6 +47,13 @@ agents.
 
 ## Entries
 
+### 2026-04-24 — mgmt × integrator handles highest-volume dispatch (4 cells in sys-overview cycle) with zero force-resolutions; dissents preserved appropriately (cyc-jetix-system-overview Wave-1/2/3)
+
+- **Decision:** Four mgmt × integrator cells landed L4 Agents (2780w, only layer section meeting 800w floor) / L6 Business (3100w, 2 preserved dissents) / L8 People-Alliance (3083w) / L-B Brand (3030w, 1 preserved dissent). Largest mgmt-expert dispatch per single cycle to date. L6 correctly surfaces investor-critic dissent about $1M+ ICP tier as preserved tension — Ruslan ack C1 validates mgmt-integrator judgment: $1M+ reads as D22 refinement (enrichment of qualitative filter), not conflict with 11 archetypes.
+- **Reasoning:** mgmt-expert's §5 integrator rubric (Cagan problem-framing + Drucker contribution-focus + PMBOK WBS) adapts to layer-business-description where "who/how/how-much" framing dominates. Brief explicitly provided L5/L6/L8/L-B boundary table — mgmt-integrator respected boundaries without scope creep. 4 cells across 3 waves = scale-test; no budget overruns; all drafts ≥2780w.
+- **Result:** Passed §5.5.5 gate on all 4 cells; 3 preserved dissents legitimate per AP-6 (not averaged); 0 schema-malformed returns. C1 ack explicitly validates mgmt-integrator's $1M+/year preservation as tension rather than force-resolution — pattern validation.
+- **Review:** validated. Generalize: mgmt × integrator scales to 4+ concurrent cells per cycle (up from 2 max in prior cycles) without coordination friction when cells operate on orthogonal boundaries (L4 agents / L6 business / L8 people / L-B brand are cleanly separable). Proposal: mgmt × integrator suitable as "default integrator" for description-shape tasks when boundaries explicit.
+
 ### 2026-04-24 — mgmt × integrator benefits from explicit DSL-canonical-form pre-brief when writing schema-bound predicates (cyc-km-materialization Part B)
 
 - **Decision:** Wave-1 mgmt × integrator (Part B: project-types.yaml + /project-bootstrap + 4 scaffold templates + /project-review + /project-archive) produced 96 KB of spec instantiating 4 project types with 17 default_stage_gates + full bootstrap skill + 4 scaffold _moc.md templates + mini-swarm spawn protocol. All 8 mandatory frontmatter fields (problem_statement, kill_criteria, kpi_targets, project_type, priority, state, pmbok_phase, granularity) enforced via /lint L-PROJECT-MISSING-REQUIRED-FRONTMATTER.

@@ -47,6 +47,13 @@ OTHER agents (peer experts, brigadier integration, meta-agent).
 
 ## Entries
 
+### 2026-04-24 — engineering × integrator handles description-shape sections (L0/L2/L-C) cleanly when brief cites D-lock VERBATIM anchor (cyc-jetix-system-overview Wave-1/3)
+
+- **Decision:** Three engineering × integrator cells landed L0 Foundation (1962w) / L2 Ingest (2333w) / L-C Compute (1648w) in Wave-1 + Wave-3 of system-overview cycle. All passed §5.5.5 gate on first promote. Drafts cite D25 (L0), D28 (L2), audio_526 (L-C) as VERBATIM anchors per brief. Acceptance-predicate-by-9-checklist satisfied ≥8/9 per cell.
+- **Reasoning:** Description-shape brief with explicit VERBATIM-anchor instruction ("D25 Company-as-Code VERBATIM — your primary source") + 9-item acceptance predicate (Mission / What-lives-here / Boundaries / Interfaces / Current-status / Evolution-path / Voice-refs / Open-questions / Diagram) gave cell unambiguous success rubric. Engineering-expert's integrator mode §5 rubric (deep-module synthesis + anti-scope enforcement) mapped cleanly to layer-description task without friction.
+- **Result:** Zero peer-input-needed escalations across 3 cells; zero schema-malformed returns; all drafts pass 800w floor (1648-2333w range). No critic-in-parallel needed — Part F coherence critic deferred, no defects surfaced at integration.
+- **Review:** validated for layer-description M-tasks. Generalize: description-shape briefs benefit from explicit VERBATIM-anchor pre-brief OVER general "describe X layer" framing. Proposal: brigadier's §4.1 Task() schema should include optional `verbatim_anchor:` field when brief references a Lock or ack'd decision — cell dispatches to read the exact verbatim text first, then synthesize.
+
 ### 2026-04-24 — engineering × integrator produces durable design-record bundles when brief separates "spec in draft" from "physical files elsewhere" (cyc-km-materialization Part A)
 
 - **Decision:** Wave-1 engineering × integrator (Part A: A1 Karpathy++ substrate bundle) returned 85 KB of spec covering 7 logical files (wiki-roots.yaml v2, /ingest+/ask+/consolidate+/build-graph+/lint extensions, bootstrap-demo-clients.sh, 50-typed-edges seed). All bash snippets carried shebang + `set -euo pipefail` + chmod + 1-line purpose per launch-prompt §8 bar. All YAML blocks had complete frontmatter. Acceptance-predicate was grep-verifiable (≥5 required substrings), gate pass in <30s.

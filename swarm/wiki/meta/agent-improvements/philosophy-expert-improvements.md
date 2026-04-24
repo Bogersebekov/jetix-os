@@ -47,6 +47,13 @@ OTHER agents.
 
 ## Entries
 
+### 2026-04-24 — philosophy × integrator preserves D14/D24 epistemic-vs-instrumental tension via phase-sequencing rather than force-resolving (cyc-jetix-system-overview Wave-2/3 L7/L9/L-P)
+
+- **Decision:** Three philosophy × integrator cells landed L7 Research (3045w, 1 preserved tension), L9 Governance (4292w, 1 preserved dissent), L-P Life-OS (3846w, 1 preserved dissent). L7 explicitly preserves D14 (research=revenue-instrumental Phase-1) vs D24 (research=open-source Phase-3+) as phase-sequenced tension, NOT force-resolved — labeled AP-PHIL-3 (instrumental-vs-epistemic-collision) as risk if collapsed. L9 applies constitutional/operational/mechanism 3-stratum distinction (28 Locks hard-core per Lakatos vs operational policies belt-level vs mechanism theoretical-tools). L-P grounds "why L-P is a layer not a project" in 3 Popper-falsifiable tests.
+- **Reasoning:** Philosophy-expert's integrator mode §5 rubric (epistemic-coherence synthesis + dissent preservation with F/ClaimScope/R triples + AP-PHIL lock enforcement) maps to cross-cutting layer descriptions where multiple Locks intersect with phase-sequencing constraints. Brief included explicit "philosophy-rigor" instruction — cell enforced stratum distinction without collapsing.
+- **Result:** 3 legitimate tensions preserved as dissents per AP-6; no force-resolutions; each dissent carries F/ClaimScope/R triple + reconciliation note. Validation-status: Ruslan ack received on SYSTEM-OVERVIEW accepting these tensions as phase-sequencing features, not defects (ack notes "C1 $1M+ ICP as D22 refinement (not conflict with 11 archetypes)" mirrors same pattern).
+- **Review:** validated. Generalize: philosophy × integrator applied to cross-cutting layers surfaces epistemic tensions other experts would force-resolve. Proposal: brigadier's §3.2 task-shape matrix should default-include philosophy × integrator for layer-description tasks that touch ≥2 existing Locks.
+
 ### 2026-04-24 — philosophy × critic's proposed_replacement field eliminates integration friction (cyc-km-materialization Part C SG-rigor)
 
 - **Decision:** Wave-1 philosophy × critic (20 Conformance Checks; 14 FAIL findings) returned escalations[] with explicit `proposed_replacement:` values per failing predicate (e.g., `count(hypotheses.md:status: refuted) >= 1` replacing bare `count(hypothesis_refuted) >= 1`). Critic also returned 4 systemic-defect pattern labels (P-A path-unanchored, P-B undefined-operand, P-C window-undefined, P-D circular-dependency) that collapsed 14 one-off findings into 4 architectural decisions for brigadier integration. 18-entry anti-regex list with Popperian/Lakatosian/Quine rationale per entry — all Popperian-quality sourced.

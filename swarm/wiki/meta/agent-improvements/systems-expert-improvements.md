@@ -47,6 +47,13 @@ OTHER agents.
 
 ## Entries
 
+### 2026-04-24 — systems × integrator identifies dominant leverage points + feedback loops at layer level (cyc-jetix-system-overview Wave-1/3 L1/L3/L-R)
+
+- **Decision:** Three systems × integrator cells landed L1 Knowledge (3513w, 2 dissents) / L3 Synthesis (2297w) / L-R Resource (3404w, 2 dissents). L1 maps sequenced-migration trajectory A1→A2→A3 with measurable triggers + dominant reinforcing loop (expert-reads-wiki → better-output → feeds-wiki) and balancing loop (D28 anchor-filter). L-R identifies OPP-01 ap_cost instrumentation as Meadows-L6 information-flow gap — single highest-leverage intervention across all 5 resources. L3 names CE 40/10/40/10 cadence + sandbox-черновик protocol.
+- **Reasoning:** Systems-expert's integrator mode §5 rubric (Meadows leverage + Ashby requisite variety + feedback-loop mapping) applies natively to layer descriptions where layer IS a system. Brief included explicit "systems-mode rigor — identify feedback loops (reinforcing / balancing)" — cell produced explicit loop maps with polarity notation.
+- **Result:** All 3 drafts passed §5.5.5 gate; 4 preserved dissents across 3 drafts (L-R/L-P energy-boundary; G1-vs-G2 dashboard timing; L1 Path-B-vs-Path-C capital judgment; L1 dominant-loop-shift at G3). Dissents legitimate domain-disagreements per AP-6.
+- **Review:** validated. Generalize: layer-description briefs should include systems-mode rigor prompt when layer has feedback-loop structure. Cross-layer leverage analysis is emergent capability — L-R's OPP-01 identification would not have surfaced without explicit "systems-mode" framing.
+
 ### 2026-04-24 — systems × integrator with philosophy × critic in parallel produces a more complete evaluator than either alone (cyc-km-materialization Part C)
 
 - **Decision:** Wave-1 systems × integrator (Part C: B3 stage-gates merged into B2) produced 65 KB of spec covering DSL grammar (4-atom), tools/stage-gate-eval.py evaluator (≤193 LoC pure-Python+stdlib+pyyaml), /lint --check-stage-gates daily-cron algorithm, auto-spawn protocol, /project-de-morph reversibility skill, /project-promote SG-4-gated skill, 8 canonical example blocks. Meadows-leverage-points + Ashby-requisite-variety framings explicit in §1.

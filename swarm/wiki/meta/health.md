@@ -5,8 +5,8 @@ type: dashboard
 layer: spine
 niche: meta
 created: 2026-04-23
-last_modified: 2026-04-24
-last_reviewed: 2026-04-24
+last_modified: 2026-04-24T23:45:00Z
+last_reviewed: 2026-04-24T23:45:00Z
 pipeline: ready
 state: accepted
 confidence: high
@@ -19,19 +19,19 @@ related: []                 # topic / foundation hubs deferred — see Phase B a
 topics: []                  # was [[topics/swarm-observability-hub]] before critic-gate1 H-1 fix
 binding_scope: swarm-wide
 # Live counters (updated by /lint scheduled run + meta-agent weekly; manual updates at α-4 cycle close)
-closed_cycles_count: 2               # cyc-swarm-self-improve-v1-2026-04-23 + cyc-km-architecture-2026-04-24
+closed_cycles_count: 3               # cyc-swarm-self-improve-v1 + cyc-km-architecture + cyc-jetix-system-overview (km-mat-mvp still awaiting resolution)
 active_skills_count: 0
 cross_theme_refs_count: 0
 tombstone_rate_weekly: 0
-fpar_swarm_wide: 1.00                # Cycle-1: 17/17; Cycle-2 implementation: 5/5; Cycle-3: 20/20 → cumulative 42/42
-m_class_dispatched_this_cycle: 1     # /2 — HD-02 Option A rate limit (cycle-2-impl 2026-04-24); cycle-end state for cyc-km-architecture-2026-04-24; resets to 0 at next cycle open
+fpar_swarm_wide: 1.00                # Cycle-1: 17/17; Cycle-2-impl: 5/5; Cycle-3: 20/20; Cycle-4 sys-overview: 15/15 → cumulative 57/57
+m_class_dispatched_this_cycle: 2     # /3 — HD-02 N=3 one-cycle override (KM Mat + sys-overview parallel); resets to 0/2 at next cycle open; Ruslan ack re-asserted N=2 post-cycle
 m_class_overflow_total: 0            # cumulative across all cycles
 hook_enforcement_events_count: 0     # OPP-02 cycle-2-impl; events.jsonl row count (cycle-2 log-only)
 lint_findings_count: 0               # D10 + OPP-01; updated by swarm/evals/health-hooks/count-lint-findings.sh
-strategies_entries_total: 16         # Cycle-1: 13; Cycle-3: +3 (Cycle-2-impl was tooling work, no compound entries)
-agent_improvements_entries_total: 18 # Cycle-1: 14; Cycle-3: +4
-preserved_dissents_total: 16         # Cycle-1: 7; Cycle-3: +9
-matrix_5x4_cells_fired_total: 37     # Cycle-1: 17 (matrix not full-filled); Cycle-3: 20 (full matrix)
+strategies_entries_total: 18         # Cycle-1: 13; Cycle-3: +3; Cycle-4 sys-overview: +2
+agent_improvements_entries_total: 25 # Cycle-1: 14; Cycle-3: +4; Cycle-4 sys-overview: +7 (5 per-expert + 2 system-level + 1 emergent)
+preserved_dissents_total: 21         # Cycle-1: 7; Cycle-3: +9; Cycle-4 sys-overview: +5
+matrix_5x4_cells_fired_total: 52     # Cycle-1: 17; Cycle-3: 20; Cycle-4 sys-overview: 15 integrator-dominant (3 waves: 5+5+4+1 integration)
 ---
 
 # Swarm Health Dashboard
