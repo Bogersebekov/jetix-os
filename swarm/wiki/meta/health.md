@@ -5,8 +5,8 @@ type: dashboard
 layer: spine
 niche: meta
 created: 2026-04-23
-last_modified: 2026-04-23
-last_reviewed: 2026-04-23
+last_modified: 2026-04-24
+last_reviewed: 2026-04-24
 pipeline: ready
 state: accepted
 confidence: high
@@ -18,16 +18,20 @@ sources:
 related: []                 # topic / foundation hubs deferred — see Phase B activation; was [[foundations/swarm-alphas]] before critic-gate1 H-1 fix
 topics: []                  # was [[topics/swarm-observability-hub]] before critic-gate1 H-1 fix
 binding_scope: swarm-wide
-# Live counters (updated by /lint scheduled run + meta-agent weekly)
-closed_cycles_count: 0
+# Live counters (updated by /lint scheduled run + meta-agent weekly; manual updates at α-4 cycle close)
+closed_cycles_count: 2               # cyc-swarm-self-improve-v1-2026-04-23 + cyc-km-architecture-2026-04-24
 active_skills_count: 0
 cross_theme_refs_count: 0
 tombstone_rate_weekly: 0
-fpar_swarm_wide: null
-m_class_dispatched_this_cycle: 0     # /2 — HD-02 Option A rate limit (cycle-2-impl 2026-04-24)
+fpar_swarm_wide: 1.00                # Cycle-1: 17/17; Cycle-2 implementation: 5/5; Cycle-3: 20/20 → cumulative 42/42
+m_class_dispatched_this_cycle: 1     # /2 — HD-02 Option A rate limit (cycle-2-impl 2026-04-24); cycle-end state for cyc-km-architecture-2026-04-24; resets to 0 at next cycle open
 m_class_overflow_total: 0            # cumulative across all cycles
 hook_enforcement_events_count: 0     # OPP-02 cycle-2-impl; events.jsonl row count (cycle-2 log-only)
 lint_findings_count: 0               # D10 + OPP-01; updated by swarm/evals/health-hooks/count-lint-findings.sh
+strategies_entries_total: 16         # Cycle-1: 13; Cycle-3: +3 (Cycle-2-impl was tooling work, no compound entries)
+agent_improvements_entries_total: 18 # Cycle-1: 14; Cycle-3: +4
+preserved_dissents_total: 16         # Cycle-1: 7; Cycle-3: +9
+matrix_5x4_cells_fired_total: 37     # Cycle-1: 17 (matrix not full-filled); Cycle-3: 20 (full matrix)
 ---
 
 # Swarm Health Dashboard

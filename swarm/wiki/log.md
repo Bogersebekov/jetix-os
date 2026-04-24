@@ -11,6 +11,10 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] task-archived | T-km-architecture-research-2026-04-24 | cycle cyc-km-architecture-2026-04-24 closed; FPAR 20/20=1.00; 7 compound entries (3 brigadier strategies + 2 system-level + 2 brigadier-improvements); 9 preserved dissents; 6 variant drafts + consolidated decision doc + cycle-log at swarm/logs/cyc-km-architecture-2026-04-24/cycle-log.md; closed_cycles_count 1→2; m_class_dispatched_this_cycle 1/2 | brigadier
+
+## [2026-04-24] task-compounded | T-km-architecture-research-2026-04-24 | 7 DRR entries written (3 Layer-1 brigadier-strategies + 4 Layer-2 cross-agent improvements) | brigadier
+
 ## [2026-04-24] task-approved | T-km-architecture-research-2026-04-24 | Ruslan ack option A (Accept; M3 deferred); next directive: hybrid materialization brief at prompts/meta-brief-km-materialization-mvp-2026-04-24.md will pull best elements across all 6 variants into one implementation plan; Phase 6 promote → Phase 7 compound → Phase 8 archive | brigadier
 
 ## [2026-04-24] task-gated | T-km-architecture-research-2026-04-24 | AWAITING-APPROVAL gate emitted; 6 variant drafts + consolidated decision document on disk; 9 preserved dissents; brigadier recommends sequenced migration trajectory A1↔B1 → A2↔B2 (G2) → A3↔B2 (G3); HALT pending Ruslan ack | brigadier

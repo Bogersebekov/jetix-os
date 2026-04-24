@@ -155,3 +155,27 @@ opened_at: 2026-04-24T01:44:00+02:00
   * Popperian falsification IS UC-9-compatible via outcome-level vs content-level distinction; brigadier should adopt vocabulary as canonical protocol (proposed by philosophy × scalability)
 - Total compound entries this cycle: 7 (3 brigadier strategies + 2 system-level + 2 brigadier-improvements)
 - Per-expert improvements files NOT touched this cycle (deferred — no specific cross-expert observations rose to a non-trivial expert-improvement signal that wasn't already captured at brigadier or system-level)
+
+## [2026-04-24 21:25] phase-8-archive-complete | brigadier
+- α-1 transition: compounded → archived
+- α-4 cycle: closed
+- cycle-log: swarm/logs/cyc-km-architecture-2026-04-24/cycle-log.md written (full §9.2 frontmatter + body)
+- swarm/wiki/log.md task-archived entry appended
+- swarm/wiki/meta/health.md counters updated:
+  * closed_cycles_count: 1 → 2
+  * m_class_dispatched_this_cycle: 0 → 1 (cycle-end state)
+  * fpar_swarm_wide: null → 1.00 (cumulative 42/42)
+  * strategies_entries_total: → 16
+  * agent_improvements_entries_total: → 18
+  * preserved_dissents_total: → 16
+  * matrix_5x4_cells_fired_total: → 37
+  * last_modified + last_reviewed: 2026-04-23 → 2026-04-24
+- final commit pending; final push to follow
+
+## [2026-04-24 21:25] CYCLE CLOSED | brigadier
+- T-km-architecture-research-2026-04-24 fully closed end-to-end
+- Cumulative cycle prose: ~150K words across all artefacts
+- M-class slot consumed 1/2; M3 deferred per Ruslan ack
+- Forward signal: hybrid materialization brief incoming as next M-class task
+  (prompts/meta-brief-km-materialization-mvp-2026-04-24.md pulled but NOT executed in this cycle close)
+- Brigadier polls swarm/gates/ + checks for next task intake on next claude session start
