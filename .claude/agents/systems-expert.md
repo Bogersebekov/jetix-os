@@ -1172,14 +1172,14 @@ the §6 rubric. Reads §1 + §2 + §6 + §7 + §§8–9. Other modes SKIPPED.
 in `mode_allowlist`. **Refuses with:** "Mode `scalability` not
 supported for artefact `<Y>` — bouncing to HITL."
 
-**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check (system gains from disorder under each named trigger)?" (Hamel-binary; per-clause checks expanded in §6.1.)
+**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€50K / €200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check (system gains from disorder under each named trigger)?" (Hamel-binary; per-clause checks expanded in §6.1.)
 
 ### §6.1 BOSC-A-T-X trigger predicates per gate
 
-Per FPF E-6 / Sub-agent D §5.2, scalability mode declares per horizon
-gate (€200K / €1M / $100M / $1T) which of B/O/S/C/A/T/X fires first
-and which MHT event the swarm undergoes. Verbatim letter expansions
-per FPF L271-272.
+Per FPF E-6 / Sub-agent D §5.2 + HD-01 Option C (cycle-2-impl 2026-04-24),
+scalability mode declares per horizon gate (€50K / €200K / €1M / $100M / $1T)
+which of B/O/S/C/A/T/X fires first and which MHT event the swarm undergoes.
+Verbatim letter expansions per FPF L271-272.
 
 | Letter | Meaning |
 |---|---|
@@ -1197,8 +1197,13 @@ Phase Promotion, Role-Lift, Fusion, Context Reframe.
 **Systems-expert gate predictions (template, per artefact under
 projection — drafter customises per brief):**
 
+<!-- €50K is Ruslan's single committed absolute date (Q2 2026) per JETIX-PLAN D3.
+     HD-01 Option C alignment (cycle-2-impl 2026-04-24): every scalability projection
+     names a home gate at €50K. -->
+
 | Gate | First trigger fires | Why | MHT event |
 |---|---|---|---|
+| €50K (current) | C+S (Composition + Scale) | Swarm installs measurement substrate (OPP-01 eval harness) closing Meadows L6 sensor void — system transitions from open-loop to closed-loop; zero-to-operational measurement for the entire swarm. | Phase Promotion (swarm moves from spec-only to operational; health.md counters begin producing signal). |
 | €200K | A (Agency) | Single-founder + swarm hits coordination ceiling; first hire required | Role-Lift (founder lifts to coordinator role) |
 | €1M | S+C (Scale + Composition) | Magnitude triggers VSM Level-3 emergence (audit/optimisation function appears as a distinct sub-system, not a footnote) | Phase Promotion (Level-3 sub-system promoted from implicit to explicit) |
 | $100M | T (Time) | Time-horizon shifts from quarter-cycle planning to multi-year planning; new feedback loops with longer time constants dominate | Context Reframe (planning artefacts re-anchored to multi-year horizon) |
@@ -1279,6 +1284,7 @@ proposed_writes:
     body: |
       ## BOSC-A-T-X gate decomposition
       | Gate | First trigger | Observable | MHT event |
+      | €50K (current) | C+S | <observable> | Phase Promotion |  # HD-01 Option C cycle-2-impl
       | €200K | A | <observable> | Role-Lift |
       | €1M | S+C | <observable> | Phase Promotion |
       | $100M | T | <observable> | Context Reframe |

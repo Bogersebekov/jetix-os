@@ -722,16 +722,21 @@ Integrator refuses when:
 
 **Hard.** UserPromptSubmit hook (Phase B stub) validates: prefix matches `^mode: scalability$`; `scalability` ∈ `mode_allowlist`; artefact under projection has a non-trivial lifecycle (asking for scalability projection on a one-off task is §6.6 refusal trigger). Hook is Phase B; agent body §6.6 implements the contract regardless.
 
-**Predicate.** "Does the projection name a BOSC-A-T-X trigger per horizon gate (€200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check?"
+**Predicate.** "Does the projection name a BOSC-A-T-X trigger per horizon gate (€50K / €200K / €1M / $100M / $1T) AND name the MHT event AND specify the Janus degraded-mode procedure for both S-A excess + INT excess AND state the recovery condition AND pass the antifragility check?"
 
 **Refuses with.** `Mode "scalability" not supported for artefact "<path>" — bouncing to HITL via shared-protocols §4.` Refusal payload per §6.6.
 
 ### §6.1 BOSC-A-T-X trigger predicates per horizon gate
 
-For each of {€200K, €1M, $100M, $1T} horizon gates (per Brief §5.1 + master synthesis §5.2.1 L2942-2944), this expert names: (a) which of B/O/S/C/A/T/X fires first, (b) the MHT event the swarm undergoes (Fission / Phase Promotion / Role-Lift / Fusion / Context Reframe per FPF §2.6 citing `[E §3.3 Rec-06]`), (c) the observable. Engineering-specific predictions:
+For each of {€50K, €200K, €1M, $100M, $1T} horizon gates (per Brief §5.1 + master synthesis §5.2.1 L2942-2944 + HD-01 Option C cycle-2-impl), this expert names: (a) which of B/O/S/C/A/T/X fires first, (b) the MHT event the swarm undergoes (Fission / Phase Promotion / Role-Lift / Fusion / Context Reframe per FPF §2.6 citing `[E §3.3 Rec-06]`), (c) the observable. Engineering-specific predictions:
+
+<!-- €50K is Ruslan's single committed absolute date (Q2 2026) per JETIX-PLAN D3.
+     HD-01 Option C alignment (cycle-2-impl 2026-04-24): every scalability projection
+     names a home gate at €50K. -->
 
 | Horizon | BOSC-A-T-X first-fire | MHT event | Engineering observable |
 |---|---|---|---|
+| **€50K (current)** | **C+S = Composition + Scale** — swarm installs its first enforcement primitives (OPP-02 hook layer, OPP-04 cell predicate) closing the MP-1 "executor-not-wired" gap; zero-to-operational transition for engineering governance. | **Phase Promotion** — engineering discipline moves from spec-only to operational (hooks fire, schema field enforces). | `.claude/hooks/*.sh` exist + bash -n clean; `cell_acceptance_predicate:` field present in brigadier §3.3; /lint check #13 parses test fixtures; event-log `swarm/evals/cells/hook-layer/events.jsonl` begins accumulating cycle-2 log-only warnings. |
 | **€200K** | **A = Agency** — single Ruslan + 6 agents extends to Ruslan + 1 contractor. Engineering decisions still single-author; review queue grows by 1 reviewer. | **Phase Promotion** — engineering-expert moves from phase1-solo to phase1-with-reviewer. | One additional pull-request author pattern emerges; CI matrix unchanged; Compounding Engineering loop still owned by one human. |
 | **€1M** | **O = Operation + C = Composition** — operation core verb shifts from "single-developer commit" to "multi-developer review queue"; composition adds release-engineer role; engineering-expert split-trigger (§1d) likely fires here (artefact mix 60/40 code-vs-architecture). | **Fission** — this expert splits into [code-expert, architecture-expert] per §1d split_trigger. | Pull-request volume > 20/week; release-engineer role required; build-system needs queue-management semantics; artefact mix tilts toward architecture-proposal.md as code-review.md saturates. |
 | **$100M** | **C = Composition + X = eXternal** — composition adds platform-engineer + SRE roles; external regulatory shift (e.g. SOC2 / GDPR for client data). | **Role-Lift** — engineering disciplines lift one level (this expert lifts from craft-judgment to method-author for the engineering organization). | Multi-team monorepo or polyrepo decision forced; SRE on-call rotation; platform-team owns deploy pipeline; this expert's work becomes "what method does the engineering org follow?" not "is this code clean?". |
@@ -771,6 +776,7 @@ context:
   artefact_path: <path>
   cycle_id: <cyc-id>
 horizon_projection:
+  - {gate: "€50K", BOSC_first_fire: <enum>, MHT_event: <enum>, observable: <one-line>, refactor_pct_estimate: <int>}   # HD-01 Option C cycle-2-impl
   - {gate: "€200K", BOSC_first_fire: <enum>, MHT_event: <enum>, observable: <one-line>, refactor_pct_estimate: <int>}
   - {gate: "€1M", BOSC_first_fire: <enum>, MHT_event: <enum>, observable: <one-line>, refactor_pct_estimate: <int>}
   - {gate: "$100M", BOSC_first_fire: <enum>, MHT_event: <enum>, observable: <one-line>, refactor_pct_estimate: <int>}

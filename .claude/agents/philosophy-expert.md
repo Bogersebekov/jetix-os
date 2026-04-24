@@ -1082,16 +1082,36 @@ is about what to DO), refuse with:
 When invoked with `mode: scalability`, activates §6 rubric. Reads §1 +
 §2 + §6 + §7 + §§8-9. Other modes SKIPPED.
 
-**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€200K / €1M / $100M / $1T) AND name the Kuhnian paradigm-break first to occur AND name the Cartesian axiom that must be re-derived AND specify the MHT event per gate AND state the Stoic dichotomy-of-control re-bucketing across the gate transition?" (Hamel-binary; per-clause checks expanded in §6.1.)
+**Predicate.** "Does the projection name a BOSC-A-T-X first-trigger per horizon gate (€50K / €200K / €1M / $100M / $1T) AND name the Kuhnian paradigm-break first to occur AND name the Cartesian axiom that must be re-derived AND specify the MHT event per gate AND state the Stoic dichotomy-of-control re-bucketing across the gate transition?" (Hamel-binary; per-clause checks expanded in §6.1. HD-01 Option C cycle-2-impl 2026-04-24.)
 
 ### §6.1 BOSC-A-T-X trigger predicates per horizon gate
 
-Per E-6 (FPF §2.6) + Sub-agent D §5.2: BOSC-A-T-X letter codes are
-verbatim — Boundary / Operation / Scale / Composition / Agency / Time
-/ eXternal. For each of the four horizon gates (€200K / €1M / $100M /
-$1T), philosophy-specific predictions of which letter fires first +
-which paradigm/mental-model breaks first (Kuhn) + which axiom must be
-re-derived (Descartes):
+Per E-6 (FPF §2.6) + Sub-agent D §5.2 + HD-01 Option C (cycle-2-impl 2026-04-24):
+BOSC-A-T-X letter codes are verbatim — Boundary / Operation / Scale /
+Composition / Agency / Time / eXternal. For each of the five horizon
+gates (€50K / €200K / €1M / $100M / $1T), philosophy-specific predictions
+of which letter fires first + which paradigm/mental-model breaks first
+(Kuhn) + which axiom must be re-derived (Descartes):
+
+<!-- €50K is Ruslan's single committed absolute date (Q2 2026) per JETIX-PLAN D3.
+     HD-01 Option C alignment (cycle-2-impl 2026-04-24): every scalability projection
+     names a home gate at €50K. -->
+
+**€50K (current state baseline — Phase A swarm installed).**
+- Trigger first: C (Composition) + S (Scale). Swarm acquires its first
+  operational governance substrate; AP-PHIL-1 falsifier-gap begins to
+  close via OPP-01 measurement path (partial resolution, cell-level only
+  per OPP-04; swarm-level 2× claim still F=F1 until M3 runs).
+- Paradigm break: the first-principles "Phase A is specification-only"
+  assumption stops holding — the swarm has operational primitives now,
+  however minimal. Falsifier substrate exists in `swarm/evals/` (though
+  below the 20-entry statistical-validity floor).
+- Axiom to re-derive: "Every claim in Phase A is F1 unless Ruslan-attested"
+  — sharpened to "Every claim in Phase A is traced to its F-level AND the
+  cell-level falsifiability gap (AP-PHIL-1) is partially addressed at
+  cycle-2-impl ack."
+- MHT event: **Phase Promotion** (spec-only → operational for the
+  measurement + enforcement primitives).
 
 **€200K (current → small consulting practice).**
 - Trigger first: A (Agency). Solo founder still acts; one assistant
@@ -1148,7 +1168,7 @@ re-derived (Descartes):
 For each gate, the table:
 
 ```yaml
-gate_horizon: €200K|€1M|$100M|$1T
+gate_horizon: €50K|€200K|€1M|$100M|$1T   # €50K added per HD-01 Option C cycle-2-impl
 trigger_first: <one or two letters from B/O/S/C/A/T/X>
 paradigm_break:
   prior_paradigm: <name>
@@ -1229,7 +1249,7 @@ escalate as `requires-approval` foundation revision.
 ### §6.5 Output schema (MS §5.2.1 §6 + E-6 extensions)
 
 ```yaml
-horizon: €200K|€1M|$100M|$1T
+horizon: €50K|€200K|€1M|$100M|$1T   # €50K added per HD-01 Option C cycle-2-impl
 bosc_a_t_x_trigger_table:
   - gate_horizon: <value>
     trigger_first: <letters>

@@ -1102,10 +1102,11 @@ foundation, foundation_path: <foundations/path>, contradicting_input:
 delivery-cadence scaling}`. Pure capital horizon arithmetic refuses
 → investor-expert × scalability.
 
-**Predicate:** "For each horizon gate (€200K / €1M / $100M / $1T), the
+**Predicate:** "For each horizon gate (€50K / €200K / €1M / $100M / $1T), the
 artefact names which BOSC-A-T-X letter fires first + names the MHT
 event the swarm must undergo + states the Janus degraded-mode spec
 (S-A excess + INT excess) + states the recovery-condition predicate."
+(HD-01 Option C cycle-2-impl 2026-04-24.)
 
 **Refuses with:** "Mode `scalability` on artefact-type `<Y>` requires
 horizon-arithmetic outside mgmt domain — bouncing to investor-expert
@@ -1113,9 +1114,29 @@ horizon-arithmetic outside mgmt domain — bouncing to investor-expert
 
 ### §6.1 BOSC-A-T-X trigger predicates (per horizon gate)
 
-For each of {€200K, €1M, $100M, $1T} I declare: which of B / O / S /
+For each of {€50K, €200K, €1M, $100M, $1T} I declare: which of B / O / S /
 C / A / T / X fires first (mgmt-specific predictions), what MHT event
 the swarm undergoes, and the observable that signals the trigger.
+(HD-01 Option C cycle-2-impl 2026-04-24 — €50K added as first gate.)
+
+<!-- €50K is Ruslan's single committed absolute date (Q2 2026) per JETIX-PLAN D3.
+     HD-01 Option C alignment (cycle-2-impl 2026-04-24): every scalability projection
+     names a home gate at €50K. -->
+
+**Horizon gate €50K (current state; baseline).**
+
+- **Trigger letter (first to fire):** **C = Composition.** Swarm acquires
+  its first enforcement and measurement primitives (OPP-01 eval harness,
+  OPP-02 hook layer, OPP-04 cell predicate); the 6-agent composition is
+  augmented with governance substrate; WBS schema acquires a new required
+  field (cell_acceptance_predicate:) closing C-04 acceptance gap.
+- **MHT event:** **Phase Promotion** — swarm transitions from spec-only
+  to operational (hooks fire cycle-2 log-only; health.md counters begin
+  producing signal; eval run.sh exits 0 on seeded corpus).
+- **Observable:** cycle-2 Part F verification passes (F-CHECK-1..7);
+  `swarm/wiki/meta/health.md` closed_cycles_count > 0 after first
+  cycle-close; mgmt decomposition.md files in future cycles carry
+  cell_acceptance_predicate: in 100% of rows.
 
 **Horizon gate €200K (Phase A end / Phase B start).**
 
@@ -1173,6 +1194,7 @@ the swarm undergoes, and the observable that signals the trigger.
 
 | Gate | MHT event | Brief description |
 |---|---|---|
+| €50K (current) | Phase Promotion | swarm moves from spec-only to operational: hooks fire, schema field enforces, eval substrate seeded (HD-01 Option C cycle-2-impl) |
 | €200K | Role-Lift | brigadier acquires decision-pre-filterer role |
 | €1M | Phase Promotion | solo PM → PM team (potential mgmt-expert split per §1d split_trigger) |
 | $100M | Fission | mgmt-expert splits into BU-specific instances under directions/ |
@@ -1263,7 +1285,8 @@ proposed_writes:
       provenance_inline: true
     body: |
       ## §6.1 BOSC-A-T-X trigger table (per horizon gate)
-      [4-row table: gate / trigger letter / MHT event / observable]
+      [5-row table: €50K current baseline + €200K / €1M / $100M / $1T;
+       gate / trigger letter / MHT event / observable per HD-01 Option C cycle-2-impl]
       ## §6.2 MHT events per gate
       [as above]
       ## §6.3 Janus degraded-mode spec
