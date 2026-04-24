@@ -15,6 +15,22 @@ expected_evolution:
 
 ## Entries (newest on top)
 
+### 2026-04-24 — Cycle-3 close DRR (cyc-km-materialization-mvp-2026-04-24 — FIRST IMPLEMENTATION CYCLE)
+
+- **Decision:** Close `cyc-km-materialization-mvp-2026-04-24` with 3 compounded patterns confirmed as operational IP: (1) **design-record → extraction 2-stage** for implementation M-tasks (Wave 1-3 produce authoritative specs as promoted design records; a clerical extraction cell materialises physical files after ack; brigadier context budget stays O(draft-reads) not O(file-count)). (2) **Critic-in-parallel with proposed_replacement fields** — when integrator cells write artefacts under formal rigor constraint (schema / DSL / arithmetic), pair with a critic cell on the same constraint in the same wave; integrate fixes as Edit ops preserving author lineage via critic's own rewrite suggestions (no author-cell re-dispatch, no E-15 violation, no M-class retry-hit). (3) **Post-ack Option-B self-selection** — when Ruslan delegates arbitration back to brigadier ("выбирай вариант ... продолжу"), brigadier executes its own recommended option + records delegation in the ack file; cycle proceeds without further HITL gates unless new irreversibility surfaces.
+- **Reasoning:** Pattern (1) validated by both Wave 1-3 design-record promotions + post-ack extraction cell — ~60 physical files landed in one clerical Task-dispatch without brigadier hitting context cliff. Pattern (2) validated twice: Wave-1 philosophy-critic's 14 FAIL findings + `proposed_replacement` fields applied as mechanical Edits (zero §5.5.5 rejects); Wave-3 investor-critic's 3 HARD FAIL + 6 Alternatives structured so that Option-B revision was equally mechanical after arbitration. Pattern (3) novel this cycle — first instance of Ruslan inline delegation ("ты сам выбирай") that mapped cleanly to brigadier's own recommended-option framing in the AWAITING-APPROVAL packet.
+- **Result:** Acceptance predicate 8/10 PASS + 2 PASS-modified (live E2E demo deferred; km-mvp-verify.sh umbrella harness not extracted as standalone — Part F matrix covers verification via separate smokes). ~60 physical files + 8 design records + 14 commits pushed. Part F verification surfaced 2 tokeniser bugs in stage-gate-eval.py which brigadier patched inline. Two brigadier-improvement protocol-addition proposals surfaced (design-record→extraction as default for implementation M-tasks; critic-in-parallel + proposed_replacement mandate for all critic modes).
+- **Review:** validated across the 3 cycles in aggregate — cycle-1 (research substrate — compound loop) → cycle-2 (decision task — 6-variant matrix) → cycle-3 (implementation — physical extraction). Each cycle introduced a new pattern to compound into the next. Forward direction: (a) codify design-record→extraction in shared-protocols §3.2 task-shape matrix as default for implementation-shape M-tasks. (b) update philosophy-expert §3 critic rubric to mandate proposed_replacement per rephrase-required escalation; propagate rule to other critic modes. (c) watch for Option-B-self-selection becoming a recurring pattern vs one-off delegation — if it fires ≥2× more, codify as a formal delegation mode.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (cycle-3 close — first implementation cycle)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_5: track whether design-record→extraction fires on next implementation M-task; if so, lock the pattern
+  - cycle_10: codify critic-in-parallel + proposed_replacement mandate as shared-protocols §3.2 default
+  - cycle_50: Option-B self-selection pattern formalised as named delegation mode if 3+ instances observed
+
 ### 2026-04-24 — Gate SO-Wave-1/2/3 learning (cyc-jetix-system-overview, 4th cycle)
 
 - **Decision:** For description-shape M-tasks (not research, not implementation, not strategy) with N≥10 parallel independent sections, dispatch as 3-wave parallel structure with layer-sections distributed across 5 experts' integrator-mode slots, rather than 4-wave matrix. Brigadier pre-populates cross-wave cite paths in each cell's `inputs:`.

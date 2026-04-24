@@ -80,8 +80,17 @@ Append-only operational log. Newest-on-top within each phase block.
 
 ## Phase 6 — Compound (post-ack)
 
-<!-- strategies + agent-improvements entries -->
+- [2026-04-24] ack-received | Option B chosen; Ruslan delegated option arbitration to brigadier ("выбирай вариант ... продолжу"); brigadier self-selected per own §5 recommendation; ack file swarm/gates/AWAITING-APPROVAL-km-materialization-mvp-2026-04-24-ack.md records delegation
+- [2026-04-24] revisions-applied | CC-1 revenue-mix (hourly 233hr @ €150) + CC-3 tier_1_phase_1 [Предприниматели, Блогеры] + CC-4 two-checkpoint kill (week-7/week-13) + CC-5 levenchuk minimum kpi verified; JETIX-PLAN §3.1.1 migration note appended
+- [2026-04-24] extraction-cell-dispatched | engineering × integrator clerical; ~60 physical files across .claude/ + tools/ + swarm/wiki/_templates/ + swarm/wiki/operations/ + swarm/tests/ extracted from 8 canonical design records
+- [2026-04-24] wave-4-dispatched | systems × scalability 5-gate projection; dominant finding G3→G4 fragile gate (40% structural change; G3 pre-investment mandatory for G4 antifragility)
+- [2026-04-24] part-f-executed | part-a-smoke 27/27 PASS; part-b-smoke 90/92 PASS (2 self-ref false-positives); DSL evaluator 5/5 PASS after 2 inline tokeniser bug fixes (atom-boundary + whitespace infinite loop); API-key audit zero body-code hits
+- [2026-04-24] part-g-written | decisions/KM-MATERIALIZATION-MVP-REPORT-2026-04-24.md ≥3000w; §9.7 attestation covering 8 disciplines honored
+- [2026-04-24] strategies-compounded | agents/brigadier/strategies.md final cycle-3 DRR; 3 compounded patterns (design-record→extraction / critic-in-parallel+proposed_replacement / post-ack-Option-B-self-selection)
 
 ## Phase 7 — Archive
 
-<!-- cycle close + health.md updates -->
+- [2026-04-24] cycle-log-written | swarm/logs/cyc-km-materialization-2026-04-24/cycle-log.md | FPAR 9.5/10=0.95; 14 commits; 9 cells + extraction + Part F
+- [2026-04-24] health-counters-updated | closed_cycles_count 2→3; m_class_dispatched_this_cycle 2/3→0/2 (HD-02 N=3 one-cycle override ends)
+- [2026-04-24] wiki-log-archived | swarm/wiki/log.md task-archived + task-compounded + task-approved entries prepended
+- [2026-04-24] cycle-closed | cyc-km-materialization-mvp-2026-04-24 CLOSED

@@ -19,18 +19,20 @@ related: []                 # topic / foundation hubs deferred — see Phase B a
 topics: []                  # was [[topics/swarm-observability-hub]] before critic-gate1 H-1 fix
 binding_scope: swarm-wide
 # Live counters (updated by /lint scheduled run + meta-agent weekly; manual updates at α-4 cycle close)
-closed_cycles_count: 3               # cyc-swarm-self-improve-v1 + cyc-km-architecture + cyc-jetix-system-overview (km-mat-mvp still awaiting resolution)
-active_skills_count: 0
+closed_cycles_count: 4               # cyc-swarm-self-improve-v1 + cyc-km-architecture + cyc-jetix-system-overview + cyc-km-materialization-mvp-2026-04-24 (all 4 now closed)
+active_skills_count: 12              # /ingest /ask /consolidate /build-graph /lint (extended) + /project-bootstrap /project-review /project-archive /project-de-morph /project-promote + /company-status /knowledge-diff (post-KM-Mat-MVP extraction)
 cross_theme_refs_count: 0
 tombstone_rate_weekly: 0
-fpar_swarm_wide: 1.00                # Cycle-1: 17/17; Cycle-2-impl: 5/5; Cycle-3: 20/20; Cycle-4 sys-overview: 15/15 → cumulative 57/57
-m_class_dispatched_this_cycle: 2     # /3 — HD-02 N=3 one-cycle override (KM Mat + sys-overview parallel); resets to 0/2 at next cycle open; Ruslan ack re-asserted N=2 post-cycle
+fpar_swarm_wide: 0.99                # Cycle-1: 17/17; Cycle-2-impl: 5/5; Cycle-3 km-arch: 20/20; Cycle-4 sys-overview: 15/15; Cycle-3 km-mat-mvp: 9.5/10 → cumulative ≈66.5/67 ≈ 0.993
+m_class_dispatched_this_cycle: 0     # /2 — HD-02 N=3 one-cycle override ENDED (km-mat-mvp closed 2026-04-24); N=2 restored for cycle-5+
 m_class_overflow_total: 0            # cumulative across all cycles
 hook_enforcement_events_count: 0     # OPP-02 cycle-2-impl; events.jsonl row count (cycle-2 log-only)
 lint_findings_count: 0               # D10 + OPP-01; updated by swarm/evals/health-hooks/count-lint-findings.sh
-strategies_entries_total: 18         # Cycle-1: 13; Cycle-3: +3; Cycle-4 sys-overview: +2
-agent_improvements_entries_total: 25 # Cycle-1: 14; Cycle-3: +4; Cycle-4 sys-overview: +7 (5 per-expert + 2 system-level + 1 emergent)
-preserved_dissents_total: 21         # Cycle-1: 7; Cycle-3: +9; Cycle-4 sys-overview: +5
+strategies_entries_total: 19         # Cycle-1: 13; Cycle-3 km-arch: +3; Cycle-4 sys-overview: +2; Cycle-3 km-mat-mvp: +1 final DRR
+agent_improvements_entries_total: 27 # Cycle-1: 14; Cycle-3 km-arch: +4; Cycle-4 sys-overview: +7; Cycle-3 km-mat-mvp: +2 brigadier-improvements
+preserved_dissents_total: 24         # Cycle-1: 7; Cycle-3 km-arch: +9; Cycle-4 sys-overview: +5; Cycle-3 km-mat-mvp: +3 (philosophy-Wave1 applied + investor-Wave3 arbitrated + Path-C minor)
+physical_files_extracted_total: 60   # NEW counter (post-KM-Mat-MVP): .claude/skills + .claude/config + .claude/agents + tools + swarm/wiki/_templates + swarm/wiki/operations + swarm/tests across 7 trees
+dsl_evaluator_bugs_fixed_in_flight: 2 # NEW counter (KM-Mat-MVP Part F): tokeniser atom-boundary + whitespace infinite-loop
 matrix_5x4_cells_fired_total: 52     # Cycle-1: 17; Cycle-3: 20; Cycle-4 sys-overview: 15 integrator-dominant (3 waves: 5+5+4+1 integration)
 ---
 
