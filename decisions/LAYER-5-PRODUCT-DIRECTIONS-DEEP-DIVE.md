@@ -3,8 +3,17 @@ id: layer-5-product-directions-deep-dive-2026-04-25
 title: "LAYER-5 Product Directions Deep-Dive — 9 Directions + Portfolio Synergy + Tools Roadmap"
 type: layer-deep-dive
 layer: L5
-state: drafted
-state_transition_target: AWAITING-APPROVAL
+state: accepted
+state_transition_target: accepted
+acked_at: 2026-04-25T11:10:00Z
+acked_by: ruslan
+ack_file: swarm/gates/AWAITING-APPROVAL-layer-5-product-deep-dive-2026-04-25-ack.md
+ack_decisions:
+  Q-01: Path-B-default + Path-C-enterprise-override(>€30K + GDPR-audit) + Path-A-Phase-2-SMB
+  Q-02: Defer-to-G3-MVP + empirical-Phase-2-trigger(explicit-client-request + ≥$2K)
+  Q-03: Smart-AI-internal-only + A/B-test-params-specified-in-Phase-7-compound
+  Q-04: Cohort-first-G2-G3(NPS>40 + margin>€3K/learner) + self-serve-G3-G4-min
+  Q-05: Preserve-D23-optionality + retirement-clause(MiCA/Howey-prohibitive OR $100M-ARR-no-friction)
 created: 2026-04-25
 last_modified: 2026-04-25
 cycle_id: cyc-layer-5-product-deep-dive-2026-04-25

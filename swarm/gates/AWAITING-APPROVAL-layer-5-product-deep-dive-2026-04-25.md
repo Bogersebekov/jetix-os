@@ -7,7 +7,11 @@ escalated_at: 2026-04-25T11:00:00Z
 task_id: T-layer-5-product-deep-dive-2026-04-25
 cycle_id: cyc-layer-5-product-deep-dive-2026-04-25
 deadline: null
-state: open
+state: acked
+acked_at: 2026-04-25T11:10:00Z
+acked_by: ruslan
+ack_file: swarm/gates/AWAITING-APPROVAL-layer-5-product-deep-dive-2026-04-25-ack.md
+chosen: all-per-recommendations-with-Q01-Q03-Q04-Q05-clarifications
 canonical_doc: decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md
 word_count: 61680
 section_count: 16
