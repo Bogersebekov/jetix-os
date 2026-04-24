@@ -24,6 +24,10 @@ active_skills_count: 0
 cross_theme_refs_count: 0
 tombstone_rate_weekly: 0
 fpar_swarm_wide: null
+m_class_dispatched_this_cycle: 0     # /2 — HD-02 Option A rate limit (cycle-2-impl 2026-04-24)
+m_class_overflow_total: 0            # cumulative across all cycles
+hook_enforcement_events_count: 0     # OPP-02 cycle-2-impl; events.jsonl row count (cycle-2 log-only)
+lint_findings_count: 0               # D10 + OPP-01; updated by swarm/evals/health-hooks/count-lint-findings.sh
 ---
 
 # Swarm Health Dashboard

@@ -417,12 +417,14 @@ shape: design|review|optimize|scale-project|combined-<list>
 chat_or_decompose: chat|decompose
 decomposition:
   - cell: engineering × critic
+    class: M                            # NEW (HD-02 Option A, cycle-2-impl) — Method / Business / Operational
     ap_cost: 50000        # estimated tokens
     ap_budget: 75000      # max-turn budget per §8 termination-stack
     inputs: [<file-paths from manifest.yaml>]
     expected_artefact: swarm/wiki/drafts/<task-id>-engineering-critic-<artefact-slug>.md
     cell_acceptance_predicate: "Returns ≥5 binary Conformance Checks AND ≥2 Alternatives AND Anti-scope section AND each H-N row carries (F, ClaimScope, R) triple"   # NEW (OPP-04, cycle-2-impl)
   - cell: engineering × integrator
+    class: M                            # NEW (HD-02 Option A, cycle-2-impl)
     ap_cost: 30000
     ap_budget: 50000
     inputs: [<paths>]
@@ -447,6 +449,42 @@ risk_register:
     impact: low|medium|high
     mitigation: <one-line>
 ```
+
+### §3.3.1 M-class rate limiter (HD-02 Option A, cycle-2-impl 2026-04-24)
+
+Per cycle, brigadier MAY dispatch a MAXIMUM of **2 Method-class (M) tasks** —
+specifically, **1 structural fix + 1 measurement fix** per cycle. Any 3rd+
+M-class decomposition is REFUSED with structured return:
+
+```yaml
+status: refused
+reason: "M-class rate limit hit (2/2 per cycle); queue this task for next cycle"
+ap_code: AP-MGMT-RATE-LIMIT-M
+overflow_log: swarm/wiki/operations/<cycle>/m-class-overflow.md
+```
+
+**Classification rule:** every decomposition cell must carry `class: M | B | O`
+(Method / Business / Operational). Rate-limit applies ONLY to `class: M`.
+
+- **M (Method):** changes how the swarm operates. Examples: hook layer,
+  schema fields, lint checks, gate semantics, agent prompt edits.
+- **B (Business):** capital-deploying or revenue-generating. Examples: pricing
+  proposals, client deliverables, moat analyses for live offers.
+- **O (Operational):** day-to-day execution. Examples: outreach drafts, daily
+  logs, status reports, voice-memo triage.
+
+**Why N=2 (Ruslan ack 2026-04-24, HD-02 Option A):** 1 structural + 1 measurement
+fix per cycle protects Ruslan's attention budget. Self-perpetuating improvement
+loops would otherwise saturate the gate-ack queue.
+
+**Counter:** brigadier maintains `m_class_dispatched_this_cycle: N/2` in
+`swarm/wiki/meta/health.md`. Reset to `0/2` at cycle-open.
+
+**Failure mode:** When the M-limit is hit mid-cycle, the third+ M-class task is
+queued for next cycle via append to `swarm/wiki/operations/<cycle-id>/m-class-overflow.md`
+and an explicit log entry in `swarm/wiki/log.md`:
+
+`## [<date>] m-class-overflow | <cycle-id> | <task-brief> | brigadier`
 
 ### §3.4 CE 40/10/40/10 cadence (wall-clock)
 
@@ -752,6 +790,25 @@ When the gate packet is written, brigadier:
 2. Commits with message `[brigadier] gate-open: <subject>` (or `gate-acked` / `gate-aborted` for resolution commits).
 3. Pushes to `claude/jolly-margulis-915d34`.
 4. Pauses. Polls `swarm/gates/` once per `claude` invocation for ack files.
+
+### §6.6 M-class overflow handling (HD-02, cycle-2-impl)
+
+When a 3rd+ M-class decomposition is requested in a single cycle (rate-limit
+from §3.3.1 fires):
+
+1. Reject the decomposition with `AP-MGMT-RATE-LIMIT-M` per §3.3.1.
+2. Append to `swarm/wiki/operations/<cycle-id>/m-class-overflow.md`:
+   ```
+   ## <ISO-timestamp> | <task-brief-id> | <one-line description>
+   ```
+3. Append to `swarm/wiki/log.md`:
+   `## [<date>] m-class-overflow | <cycle-id> | <task-brief> | brigadier`
+4. Increment `m_class_overflow_total` in `swarm/wiki/meta/health.md`.
+5. Surface to Ruslan in the next AWAITING-APPROVAL packet body.
+
+The rate-limit protects Ruslan's attention budget (HD-02 Option A rationale);
+self-perpetuating Method-development loops would otherwise saturate the gate-ack
+queue. N=2 per cycle = 1 structural fix + 1 measurement fix, Ruslan ack 2026-04-24.
 
 ## §7 Shared Protocols (implemented as sole-writer)
 
