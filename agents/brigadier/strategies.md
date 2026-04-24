@@ -15,6 +15,13 @@ expected_evolution:
 
 ## Entries (newest on top)
 
+### 2026-04-24 — Gate D learning (cyc-km-materialization-mvp Part D)
+
+- **Pattern:** Wave-2 single-cell dispatch for cross-cutting principle articulation (company-as-code / knowledge-as-code) returns a high-conformance draft when (a) brief cites Wave-1 peer drafts by path, (b) acceptance-predicate is a grep set, (c) anti-scope is explicit. Cell returned 44 KB with 63 grep hits across 8 required tokens; zero dissents; 2 informational soft-observations (appropriate for integrator mode; not escalations).
+- **What worked:** Promoted Wave-1 design records served as durable peer inputs — Wave-2 cell read designs/ paths directly instead of needing brigadier to pass content. Pattern confirms "design-record as cross-wave handoff" from Gate-A learning.
+- **What didn't:** (nothing cycle-4-actionable; observations captured as extraction-cell work items).
+- **Evolution:** changelog 2026-04-24 created.
+
 ### 2026-04-24 — Gate A learning (cyc-km-materialization-mvp Part A)
 
 - **Pattern:** "Design record → extraction cell" two-stage pattern for implementation M-tasks. Wave-1 cells produce authoritative spec bodies inside a single design record per Part. Wave 2+ cells extract into physical paths. Keeps brigadier's Wave-1 integration budget proportional to draft reads + gate checks, not file count. Avoids the context-limit cliff brigadier would hit if it attempted 22+ file extractions itself.

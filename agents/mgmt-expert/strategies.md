@@ -27,6 +27,66 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-24 — Integrator mode: ICP scope restriction to 2 archetypes (Phase-1 bandwidth constraint) is a valid mgmt prioritization move even when JETIX-VISION declares 11
+
+```yaml
+rule_slug: mgmt-icp-phase-1-archetype-restriction
+version: 0.1.0
+created: 2026-04-24
+last_review: 2026-04-24
+status: active
+ratio: {hits: 0, misses: 0}
+expected_evolution:
+  cycle_10: verify that qualified leads in quick-money/leads/ are from Mittelstand + Startupper archetypes; if >20% from other archetypes, ICP restriction may need widening
+  cycle_50: if SG-3 fires (3+ qualified leads), validate archetype distribution; update icp.md filter table accordingly
+  cycle_200: N/A if Phase-2 already widened ICP to additional archetypes
+```
+
+- **Decision:** In Part E Wave-3, restricted Phase-1 active outreach to exactly 2 of 11 JETIX-VISION archetypes (Mittelstand + Startupper). All 9 remaining archetypes deferred to Phase-2+.
+- **Reasoning:** Solo-founder bandwidth (JETIX-PLAN §3.6: primarily solo Phase-1), €50K Q2 2026 kill-or-continue constraint, and 90-day sales-cycle reality demand a single coherent ICP with one clear pain-framing per archetype. Mittelstand selected for data-sovereignty urgency + higher contract value (€5K–€30K engagement); Startupper selected for faster close cycle + AI-literacy (no onboarding overhead). Both pass D22 5-criteria filter and have Phase-1 budget fit. Shape Up appetite applied: 3 months of focused outreach to 2 archetypes beats 3 months of scattered outreach to 11.
+- **Result:** ICP.md populated with Phase-1 filter table. Open-question OQ-2 flagged for HITL to decide sequencing priority between the two archetypes.
+- **Review:** At SG-1 firing (3+ leads in quick-money/leads/), check archetype distribution. Kill-condition: if first 5 leads come from archetypes NOT in the Phase-1 filter (e.g. Продавцы or Инженеры), the restriction was wrong — update ICP and this entry.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (Wave-3 Part E, mgmt-integrator, cyc-km-materialization-mvp-2026-04-24)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: archetype distribution in leads/ validates or refutes restriction
+  - cycle_50: if Phase-2 activated, ICP widens — tombstone this rule
+
+---
+
+### 2026-04-24 — Integrator mode: adaptive bootstrap (P3 bets-style SGs) is the correct scaffold for knowledge-synthesis research projects with no revenue constraint
+
+```yaml
+rule_slug: mgmt-p3-research-adaptive-bootstrap
+version: 0.1.0
+created: 2026-04-24
+last_review: 2026-04-24
+status: active
+ratio: {hits: 0, misses: 0}
+expected_evolution:
+  cycle_10: verify levenchuk-deep-dive has >= 1 hypothesis entry (any status); if zero entries after 3 cycles, SG-0 will fire and HITL kill/continue decision will be needed
+  cycle_50: if SG-rd-2 fires (Popperian refutation event), this confirms the adaptive model works for corpus research; document as pattern for future P3 research projects
+  cycle_200: N/A
+```
+
+- **Decision:** levenchuk-deep-dive uses bets-style adaptive stage gates (SG-0/SG-rd-1/SG-rd-2) rather than full consulting or research type default scaffold. 3-file baseline only (not 8-file research scaffold).
+- **Reasoning:** P3 project with no revenue constraint and no team dependency = minimal viable scaffold to avoid wasted setup. The key constraint is falsifiability (Popperian discipline), not delivery cadence. Bets-style SG-0 (cycle_count >= 3) provides a natural HITL checkpoint without imposing arbitrary KPI targets. SG-rd-1/SG-rd-2 (supported/refuted hypotheses) are Hamel-binary and directly testable against the corpus. Torres OST: start from the desired outcome (systems-expert augmentation) → opportunities (Левенчук concepts) → solutions (hypotheses + wiki pages); don't spawn the full research scaffold before the opportunity layer is confirmed.
+- **Result:** 3-file baseline scaffold materialised (Part E Wave-3). hypotheses.md and sources.md NOT created at bootstrap — they spawn when SG-rd-1 predicate begins to be trackable (first hypothesis entry).
+- **Review:** At SG-0 (cycle_count >= 3 without SG-rd-1 firing), HITL decides continue/archive. Kill-condition: if HITL archives at SG-0, this rule is validated (adaptive bootstrap correctly deferred investment).
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (Wave-3 Part E, mgmt-integrator, cyc-km-materialization-mvp-2026-04-24)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: first hypothesis entry existence validates adaptive model
+  - cycle_50: Popperian engagement confirmed or killed via HITL
+
+---
+
 ### 2026-04-23 — Integrator mode: measurement substrate (C-02) is the unblocking root node; sequence it first regardless of impact ranking
 
 ```yaml
