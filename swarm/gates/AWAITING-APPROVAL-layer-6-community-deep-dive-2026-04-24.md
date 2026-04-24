@@ -7,11 +7,25 @@ escalated_at: 2026-04-24
 task_id: T-layer-6-community-deep-dive-2026-04-24
 cycle_id: cyc-layer-6-community-deep-dive-2026-04-24
 artefact: decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md
-state: open
+state: acked
+chosen: all-per-recommendations
+acked_by: ruslan
+acked_at: 2026-04-25T01:00:00Z
+acked_via: cloud-cowork-session
 deadline: none (Ruslan-paced; brigadier HALTS)
 operating_mode: Stage-Gated
 full_auto_authorized: false
----
+notes: |
+  All 7 ack decisions per brigadier recommendations:
+  - Q-01 Alliance = Option C Hybrid (4-lock alignment D13+D20+D21+D27; capital-efficient ~€0 Phase-1; reversible)
+  - Q-02 Payment edge case = YES liquidity-based (not income-source gated)
+  - Q-03 Дуров timing = Phase-2 post-€200K + warm intro only (not cold)
+  - Q-04 IP license = weak-copyleft (Apache 2.0 docs + LGPL-equivalent software) для Foundation; proprietary Jetix-Corp closed core (D13 aligned)
+  - Q-05 Discovery call format = video primary, phone at client explicit request, in-person Phase-2+ only
+  - Q-06 Archetype additions: Teacher + Operator/Founder-CEO standalone (strong Phase-1 buyer fit); Athlete + Соединитель merge into D7 canonical (overlap too high); Designer standalone conditional
+  - Q-12 D15 ≤€2K legal interpretation = D15 "heavy spend" threshold clarified as ≥€5K; ≤€2K operational legal consultation allowed Phase-1 for momentum preservation (NOT D15 override, scope clarification only)
+  Proceed to Phase 7 compound + Phase 8 archive.
+  Phase 2 Wave 2 next: L5 Product Deep-Dive cycle launching in parallel tmux session.
 
 # AWAITING-APPROVAL — LAYER-6 Community Deep-Dive
 
