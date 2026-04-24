@@ -1,0 +1,253 @@
+---
+# .claude/config/project-types.yaml
+# Declarative templates for /project-bootstrap skill.
+# Edited here, not in skill code. Zero Jetix-specific project slugs in this file.
+# New project types added as entries under types:; no skill changes required.
+#
+# DO NOT add production client slugs to this file.
+# All client wiring lives in .claude/config/wiki-roots.yaml clients: stanza.
+
+schema_version: 1
+last_modified: 2026-04-24
+managed_by: brigadier
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Baseline files — created for EVERY project type regardless of --type flag.
+# These 5 files form the minimum viable project scaffold (B1 floor).
+# ─────────────────────────────────────────────────────────────────────────────
+baseline_files:
+  - _moc.md               # rich frontmatter + Cagan problem_statement + Hamel kill_criteria
+  - context.md            # current project state snapshot; updated by project-brigadier each cycle
+  - history.md            # append-only events log (newest-on-top per CLAUDE.md convention)
+  - decisions.md          # 4-part DRR entries per FPF E-9 {Decision, Reasoning, Result, Review}
+  - open-questions.md     # pending HITL decisions; cleared when Ruslan acks
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Required frontmatter fields — /lint signal L-PROJECT-MISSING-REQUIRED-FRONTMATTER
+# hard-fails on missing problem_statement or kill_criteria;
+# hard-fails on missing kpi_targets for P1/P2; warns on missing pmbok_phase.
+# All fields must be non-empty strings or non-empty YAML mappings.
+# ─────────────────────────────────────────────────────────────────────────────
+required_frontmatter_fields:
+  - problem_statement     # Cagan: describe the problem in terms customer/stakeholder understands.
+                          # One paragraph minimum. Non-empty required. /lint hard-fail.
+  - kill_criteria         # Hamel-binary: specific measurable condition that ends the project.
+                          # Format: "if <binary-observable-condition>, kill this project."
+                          # Non-empty required. /lint hard-fail.
+  - kpi_targets           # Measurable targets. REQUIRED for P1/P2; optional P3/P4.
+                          # /lint hard-fails on P1/P2 missing kpi_targets.
+  - project_type          # enum: consulting | research | product | bets
+  - priority              # enum: P1 | P2 | P3 | P4
+  - state                 # enum: active | paused | pivoted | tombstoned | killed | draft-incomplete
+  - pmbok_phase           # enum: Initiated | Planned | Executing | Monitoring | Closed
+                          # /lint warns (soft) if missing.
+  - granularity           # jetix-internal | client:<slug>
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Project types — 4 entries. Each entry carries:
+#   type_specific_files   : files/dirs created when --type=<this> is selected
+#   default_experts       : 2 experts for mini-swarm (P1/P2 only); must match
+#                           existing agent files under .claude/agents/
+#   default_stage_gates   : Hamel-binary predicates; copied verbatim into _moc.md
+#                           stage_gates: block on bootstrap
+#   default_kpi_targets   : measurable targets; non-empty for consulting/research/product
+# ─────────────────────────────────────────────────────────────────────────────
+types:
+
+  # ── CONSULTING ─────────────────────────────────────────────────────────────
+  consulting:
+    type_specific_files:
+      - icp.md                        # Ideal Customer Profile per JETIX-VISION D22 criteria
+      - pipeline.md                   # lead → prospect → qualified → proposal → closed stages
+      - leads/.gitkeep                # directory; per-lead pages land here (per-lead slug.md)
+      - contracts/.gitkeep            # directory; one signed-contract.md per contract (SG-2 counter)
+      - context.md                    # project metrics + frontmatter-scalar source (cycle_count, active_tasks_current)
+      - offline-inference-spec.md     # per-project UC-10 spec: model + hardware + acceptance test
+    default_experts:
+      - mgmt-expert                   # .claude/agents/mgmt-expert.md
+      - sales-researcher              # .claude/agents/sales-researcher.md (Phase-B reactivation)
+    default_stage_gates:
+      # All predicates are Hamel-binary + DSL-canonical (file-anchored).
+      # Predicate DSL per tools/stage-gate-eval.py §C.2 (post philosophy-critic-1 revision):
+      # only count(<glob>), count(<glob>:<marker>), and <file.md>:<key> OP <n> forms are legal.
+      SG-1:
+        predicate: "count(leads/*.md) >= 3"
+        description: "At least 3 active lead pages exist under leads/."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-2:
+        predicate: "count(contracts/*.md) >= 1"
+        description: "At least 1 signed contract file exists under contracts/."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-3:
+        predicate: "count(leads/*.md:status: qualified) >= 3"
+        description: "At least 3 leads contain the marker 'status: qualified' (grep-anchored)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-4:
+        predicate: "context.md:cycle_count >= 5 AND context.md:active_tasks_current >= 5"
+        description: "Project has run 5+ cycles and has 5+ active tasks at evaluation timestamp (instantaneous snapshot, not time-averaged)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-5:
+        predicate: "pipeline.md:mrr_eur_contracted >= 1000"
+        description: "Contracted MRR (as declared in pipeline.md frontmatter key mrr_eur_contracted) >= EUR 1000/month."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+    default_kpi_targets:
+      leads_per_quarter: 20           # Hamel-binary: count(leads/*.md added in 90d) >= 20
+      contracts_per_quarter: 2        # Hamel-binary: count(contracts signed in 90d) >= 2
+      mrr_eur: 5000                   # Hamel-binary: client_revenue_recurring_eur_per_month >= 5000
+      # Sources: JETIX-PLAN §3.1 Phase-1 €50K Q2 2026 + KM-ARCHITECTURE-VARIANTS §7 B2 §5
+
+  # ── RESEARCH ───────────────────────────────────────────────────────────────
+  research:
+    type_specific_files:
+      - hypotheses.md                 # Popperian falsifiable claims; marker-scan 'status: supported|refuted|validated' per line
+      - sources.md                    # cited sources by tier (Tier-1..Tier-4 per ROY-WIKI spec D2)
+      - drafts/.gitkeep               # directory; work-in-progress artefacts land here
+      - context.md                    # project metrics source (cycle_count, active_tasks_current)
+    default_experts:
+      - systems-expert                # .claude/agents/systems-expert.md
+      - philosophy-expert             # .claude/agents/philosophy-expert.md
+    default_stage_gates:
+      SG-rd-1:
+        predicate: "count(hypotheses.md:status: supported) >= 2"
+        description: "At least 2 lines in hypotheses.md contain the marker 'status: supported' (grep-anchored YAML-tag form)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-rd-2:
+        predicate: "count(hypotheses.md:status: refuted) >= 1"
+        description: "At least 1 line in hypotheses.md contains 'status: refuted' — Popperian refutation event."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-rd-3:
+        predicate: "count(drafts/*.md) >= 1"
+        description: "At least 1 draft artefact exists under drafts/."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-4:
+        predicate: "context.md:cycle_count >= 5 AND context.md:active_tasks_current >= 5"
+        description: "Project has run 5+ cycles and has 5+ active tasks at evaluation timestamp."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+    default_kpi_targets:
+      hypotheses_per_cycle: 3         # Hamel-binary: count(hypotheses added per cycle) >= 3
+      papers_per_quarter: 1           # Hamel-binary: count(drafts/*.md promoted to ready) >= 1 per 90d
+
+  # ── PRODUCT ────────────────────────────────────────────────────────────────
+  product:
+    type_specific_files:
+      - problem-explored.md           # Cagan problem-over-solution discovery artefact
+      - solution-hypothesis.md        # current solution bet with falsification criteria
+      - roadmap.md                    # milestones + dependencies + Shape Up appetites
+      - validation/.gitkeep           # directory; per-run validation records land here (SG-p-1 counter)
+      - releases/.gitkeep             # directory; per-release notes land here (SG-p-2 counter — pre-created to break CC-14 circular dep)
+      - metrics.md                    # product metrics activation (SG-p-3 advisory coverage per CC-15)
+      - context.md                    # project metrics source (cycle_count, active_tasks_current)
+    default_experts:
+      - engineering-expert            # .claude/agents/engineering-expert.md
+      - philosophy-expert             # .claude/agents/philosophy-expert.md
+    default_stage_gates:
+      SG-p-1:
+        predicate: "count(validation/*.md) >= 3"
+        description: "At least 3 validation run records exist under validation/."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-p-2:
+        predicate: "count(releases/*.md) >= 1"
+        description: "At least 1 release note file exists under releases/ (directory pre-created at bootstrap to break circular dependency)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-p-3:
+        predicate: "count(metrics.md:metric_count:) >= 1"
+        description: "At least one line in metrics.md contains the marker 'metric_count:' — product metrics tracking has begun (CC-15 advisory surfaces metrics-activation event)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-4:
+        predicate: "context.md:cycle_count >= 5 AND context.md:active_tasks_current >= 5"
+        description: "Project has run 5+ cycles and has 5+ active tasks at evaluation timestamp."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+    default_kpi_targets:
+      validation_cycles: 5            # Hamel-binary: count(validation.md where outcome != null) >= 5
+      releases_per_quarter: 1         # Hamel-binary: count(releases shipped in 90d) >= 1
+
+  # ── BETS ───────────────────────────────────────────────────────────────────
+  bets:
+    # Adaptive starting scaffold (B3 mechanic merged into B2 per Ruslan Gate-2).
+    # Bets start MINIMAL — baseline 5 files only. Type-specific files auto-spawn
+    # when stage-gate predicates fire (promotion_rules below).
+    # Use --adaptive flag or type=bets; /project-bootstrap respects this.
+    # context.md IS bootstrapped so SG-0 metric predicate can evaluate from day 1.
+    type_specific_files:
+      - context.md                    # minimal metrics source for SG-0 (cycle_count)
+    adaptive: true                    # signals /project-bootstrap to skip type_specific_files
+    default_experts:
+      - investor-expert               # .claude/agents/investor-expert.md
+      - philosophy-expert             # .claude/agents/philosophy-expert.md
+    default_stage_gates:
+      SG-0:
+        predicate: "context.md:cycle_count >= 3"
+        description: "Bet has survived at least 3 cycles without being killed — triggers HITL bet-review gate (kill | continue | promote)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-1:
+        predicate: "count(leads/*.md) >= 3"
+        description: "Bet has generated 3+ leads — auto-spawn leads/ + pipeline.md."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-2:
+        predicate: "count(contracts/*.md) >= 1 OR count(hypotheses.md:status: validated) >= 1"
+        description: "Bet has validated via contract file OR hypothesis marked 'status: validated'."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-4:
+        predicate: "context.md:cycle_count >= 5 AND context.md:active_tasks_current >= 5"
+        description: "Bet has sufficient momentum at evaluation timestamp for full B2 scaffold promotion."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+    default_kpi_targets: {}           # bets start with no fixed KPI targets; set after SG-2
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Promotion rules — B3 merged into B2 per Ruslan Gate-2 decision.
+# When a bets project hits a stage-gate, it may auto-spawn additional scaffold
+# files (SG-1) or become eligible for full-type promotion (/project-promote).
+# ─────────────────────────────────────────────────────────────────────────────
+promotion_rules:
+  - trigger: "state=active AND SG-4=fired AND type=bets"
+    action: "eligible for /project-promote <slug> to type=consulting|research|product"
+    requires_hitl: true
+    notes: "Promotion is a HITL decision; project-brigadier proposes, Ruslan acks."
+
+  - trigger: "SG-0=fired AND type=bets"
+    action: "HITL bet-review gate — prompt Ruslan (kill | continue | promote). No auto-spawn."
+    requires_hitl: true
+    notes: "CC-20 advisory landed: SG-0 now has explicit declared consequence (prevents orphan predicate)."
+
+  - trigger: "SG-1=fired AND type=bets"
+    action: "auto-spawn leads/ + pipeline.md (template: project-consulting)"
+    requires_hitl: false
+    notes: "Auto-spawn is safe (additive only); rolls back via git revert if error."
+    spawned_from_template: "swarm/wiki/_templates/project-consulting/"
+    files_to_spawn:
+      - leads/.gitkeep
+      - pipeline.md
