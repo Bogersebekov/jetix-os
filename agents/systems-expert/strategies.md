@@ -27,6 +27,62 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-24 — T-km-architecture-research-2026-04-24 scalability pass (APEX)
+
+- **Decision:** Produce systems-scalability APEX artefact projecting both
+  Layer-A (Karpathy++) and Layer-B (Rich-MiniSwarm) through 5 gates with
+  BOSC-A-T-X trigger per gate, MHT event named, Ashby check, federation
+  per-client complexity, and Janus degraded-mode spec per gate × 2 failure modes.
+- **Reasoning:** Dispatched mode: scalability. Inputs: systems-integrator
+  holarchy apex + engineering-integrator Layer-A + mgmt-integrator Layer-B +
+  FPF E-6 + knowledge-arch §G + Strategic Insight BIOS. Key insight: G3→G4
+  is the antifragility failure gate (~40% restructuring under load) — the system
+  is FRAGILE at this transition unless G3 pre-invests in persistent graph DB +
+  Alliance holon structure. G4→G5 is potentially TRUE antifragile if G3 pre-
+  investment fires. The engineering-mgmt apparent contradiction (G3 Neo4j vs G3
+  sub-roy) resolves cleanly: Neo4j is infrastructure (Layer-A engine at G3),
+  sub-roy Fission is governance (Layer-B meta-agent at G4, not G3). The G4
+  context-budget collapse (500 client health.md summaries exceeds LLM session
+  budget) is the observable that triggers the Fission event — not client count
+  alone.
+- **Result:** Draft written to
+  `swarm/wiki/drafts/T-km-architecture-research-2026-04-24-systems-scalability-both-layers-horizon.md`.
+  5 gates × (BOSC-A-T-X + MHT + Ashby + federation complexity) + MHT sequence
+  table G1→G5 + Janus table (5 gates × S-A excess + 5 gates × INT excess) +
+  antifragility per gate transition + APEX binding table resolving 3 engineering-
+  mgmt contradictions. All 5 Conformance Checks pass on the produced draft.
+- **Review:** pending — scalability projections to be validated at cycle-end
+  integration. Key test: does the G3→G4 pre-investment flag survive brigadier's
+  Stage-Gated review and reach Ruslan's attention (this is the most actionable
+  takeaway for the next cycle).
+
+#### Rules extracted
+
+`rule: G3-pre-investment-mandatory-for-G4-antifragility` — When a gate
+transition shows >30% structural change (FRAGILE), the correct response is not
+"accept fragility" but "pre-invest at the prior gate." G3 must pre-specify the
+persistent graph + Alliance holon structure before G4 load arrives. Deferred
+pre-investment = forced restructuring under load = highest-cost outcome.
+
+`rule: mht-fission-triggers-on-context-budget-collapse-not-on-client-count` —
+The MHT Fission event (meta-agent splits into sub-coordinators) fires when the
+LLM session context budget collapses under the volume of state it must aggregate
+— not simply when client count crosses an arbitrary threshold. Observable:
+meta-agent session quality degrades (summaries truncated, escalations missed)
+before the structural solution (sub-coordinators) is in place.
+
+`rule: ashby-sharding-is-mandatory-not-optional` — Per-client JSONL sharding
+at G2 is not a performance optimization — it is an Ashby requisite-variety
+obligation. Without sharding, controller variety (BFS over 10 clients × 125K
+edges = 1.25M edges) falls below system variety (each client's 125K distinct
+knowledge-paths). AP-SYS-10 fires. The distinction between "performance upgrade"
+and "variety-balance obligation" matters for prioritisation: the latter cannot
+be deferred; the former can.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — T-km-architecture-research-2026-04-24 scalability pass (APEX) added
+
 ### 2026-04-23 — T-swarm-self-improve-v1 optimizer pass
 
 - **Decision:** Produce systems-optimizer artefact for H-1..H-9 (critic-01

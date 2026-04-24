@@ -73,3 +73,20 @@ opened_at: 2026-04-24T01:44:00+02:00
   * Method-change refusals from Wave-2 ALL escalated correctly: per-client α-5c REFUSED (use α-2 with granularity:client:<slug>); separate-repo-per-client = Phase B AWAITING-APPROVAL; Path A/B/C doctrine = HITL Q2
 - 3rd Layer-A axis NEEDED: integrators provided A1 (filesystem-native flat) + A2 (federated peer-holons); brigadier needs to define A3 (e.g., GraphRAG community-summaries OR HippoRAG PPR OR Zettelkasten ZK surfing) for the 3-variant axis-of-differentiation requirement — will design from research corpus in Phase 4
 - 3rd Layer-B axis NEEDED: B1 (Phase-A namespaces) + B2 (Phase-B federated holons) + brigadier needs B3 (e.g., adaptive-scaffold OR thin-scaffold-on-demand OR PMBOK-WBS-rich) — design in Phase 4
+
+## [2026-04-24 02:33] phase-3-wave-4-returns-received | brigadier
+- 5/5 scalability drafts written (20/20 ALL CELLS FIRED)
+- engineering-scalability: 7094w; A3 axis = "GraphRAG community-summaries + HippoRAG PPR hybrid" (pre-compiled-heavy); B3 axis = "Adaptive Scaffold — Phase-Gated Autonomy" (biological morphogenesis); A1+B1 fragile at G3, A2+B2 antifragile to G4
+- mgmt-scalability: 5705w; B2 only antifragile model; Agency trigger fires hard at G3 (≤20 active tasks rule); sub-roy split (consulting/infra/research) recommended at G3; weekly digest must shift to two-tier portfolio-brigadier aggregation at G3; 1 dissent (B1 may survive G3 with portfolio-brigadier aggregation)
+- systems-scalability (APEX): 5899w; G3→G4 = FRAGILE gate (40% restructuring required if unprepared); pre-investment at G3 mandatory; MHT Fission fires at G4 (not G3 as some integrators assumed); Ashby sharding mandatory at G2; 10-row Janus degraded-mode table; 3 engineering+mgmt contradictions resolved in APEX binding §8.5
+- philosophy-scalability: 6491w; KEY INSIGHT: Popperian falsification IS UC-9-compatible via outcome-level vs content-level distinction (methodology claims testable across isolated client deployments using anonymized acceptance-predicate telemetry); $1T peer-review = statistical convergence across federated sub-roys + Alliance methodology parliament; Lakatos hardcore ossification at G3-G4 = dominant epistemic risk; 4 named safeguards
+- investor-scalability: 6415w; Private Library $10M crossover at G3; $100M crossover at G5 (need ~2K Alliance members); Path B → Path L licensing dominant at G4 (Wintel precedent §10); 2 dissents (√N vs N² Metcalfe; D23 Option B F2 uncertainty)
+- ALL CELLS' WORD TOTALS: cell drafts = 108,712 words (target was ~30K total — over-delivered 3.6×; quality and depth strong across all)
+- NEW DISSENTS WAVE-4: +3 (mgmt sub-roy timing; investor √N vs N² network-effect; investor D23 path uncertainty) → CUMULATIVE PRESERVED DISSENTS: ~18 (≥3 floor easily exceeded)
+- A3 + B3 axis-design SOLVED via engineering-scalability proposal (graph-pre-compiled / phase-gated-adaptive)
+- ALL 20 cells dispatched + integrated successfully; transitioning to Phase 4 brigadier integration
+
+## [2026-04-24 02:33] phase-3-complete | brigadier
+- 20/20 matrix cells fired in 4 parallel waves
+- 5×4 matrix invocation logged + cell drafts on disk (per §11.1 DoD)
+- ready for Phase 4 inter-expert coherence sweep + 6-variant composition
