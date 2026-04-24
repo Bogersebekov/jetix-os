@@ -15,6 +15,32 @@ expected_evolution:
 
 ## Entries (newest on top)
 
+### 2026-04-24 — Gate A learning (cyc-km-materialization-mvp Part A)
+
+- **Pattern:** "Design record → extraction cell" two-stage pattern for implementation M-tasks. Wave-1 cells produce authoritative spec bodies inside a single design record per Part. Wave 2+ cells extract into physical paths. Keeps brigadier's Wave-1 integration budget proportional to draft reads + gate checks, not file count. Avoids the context-limit cliff brigadier would hit if it attempted 22+ file extractions itself.
+- **What worked:** Reference-by-path inputs in cell briefs (not content-inlining); 1000% depth bar operable for config/skill work (shebang + set -euo pipefail + chmod lines standard); acceptance-predicate as grep-verifiable set short-circuits the §5.5.5 gate.
+- **What didn't:** Initial brief did not say "physical file extraction is NOT your job in Wave 1". Cell produced design record embedding file bodies (correct outcome), but brief ambiguity should be eliminated. Fix: next brief says "Your deliverable is ONE design-record draft. Do NOT Write to any other path."
+- **Open:** Can we codify "extraction cell" as a skill `/extract-from-design <design-record-path>` so Wave 2 doesn't need fresh engineering × integrator every time?
+- **Evolution:** changelog 2026-04-24 created (Part A promotion). Review cycle_10: does pattern fire on non-structural M-tasks? cycle_50: consider skill codification.
+
+### 2026-04-24 — Gate B learning (cyc-km-materialization-mvp Part B + Wave-1 philosophy critic integration)
+
+- **Pattern:** Critic-in-parallel, apply-fixes-in-integration is cheaper than critic-after, retry-draft. When integrator cell writes artefacts under a formal rigor constraint (binary / typed / schema-bound), pair with critic cell on the same constraint in the same wave. Brigadier applies critic fixes during integration as Edit ops — no re-dispatch of the author cell. Preserves M-class budget (no retry-hit) and respects E-15 (rewrites are critic-originated, not brigadier-originated).
+- **What worked:** Wave-1 dispatched philosophy × critic AGAINST Part C (which drives Part B's SG predicates) in parallel with Part B integrator. Critic returned 14 FAIL findings before Part B promotion. Brigadier integrated fixes from critic's `proposed_replacement` fields directly. Zero §5.5.5 rejections, zero retries. Systemic-defect pattern labeling (P-A/B/C/D) reduced 14 one-off rephrases to 4 architectural decisions.
+- **What didn't:** Part B initial draft had `cycle_count >= 5 AND active_tasks_avg >= 5` in 8 places. Cell did not anticipate DSL-canonical-form audit. Fix: any SG-predicate-writing cell brief MUST include "predicates must be DSL-canonical from the first draft; bare-metric form is BANNED." Additionally: product type_specific_files had no `releases/` — architectural falsifiability self-check absent. Fix: integrator-mode self-check gains "for every count(<path>) predicate, confirm <path>'s parent is in type_specific_files at bootstrap."
+- **Pattern emerging:** Design records should carry a `promotion_note:` frontmatter field documenting integrator-applied fixes post-cell-return (did ad-hoc this cycle; formalize).
+- **Open:** Should DSL-canonical check migrate into the cell's own mode-self-check so philosophy × critic becomes a SPOT check rather than Wave-1 mandatory? Only if cells reliably self-audit; otherwise critic-in-parallel stays.
+- **Evolution:** changelog 2026-04-24 created. cycle_10: test critic-in-parallel on non-SG constraints (schema-bound frontmatter, type-bound payloads). cycle_50: codify promotion_note field in design-record template.
+
+### 2026-04-24 — Gate C learning (cyc-km-materialization-mvp Part C + philosophy audit promoted)
+
+- **Pattern:** When critic flags "DSL coverage gap" via peer-input-needed, default to "does existing grammar already express this via <marker> anchoring?" BEFORE designing a new DSL atom type. Cycle-3 evidence: CC-10 research Popperian-refutation gap → resolved via existing `count(<glob>:<marker>)` form (`count(hypotheses.md:status: refuted) >= 1`). No new primitive introduced.
+- **What worked:** Philosophy-critic's `proposed_replacement` entries wire directly into Part C DSL + evaluator. Critic already did the rewrite work with F-G-R triples — brigadier applies. Anti-regex list (18 entries with Popperian/Lakatosian/Quine rationale per entry) sourced from ONE audit becomes permanent `sg-banned-phrases.yaml` — cycle-3 compounded knowledge persists into every future project-bootstrap. Systems + philosophy cells in parallel produce a better evaluator than either alone (systems designs grammar; philosophy designs guard-rails; brigadier merges).
+- **What didn't:** C.1 canonical example blocks in systems draft copied from §2.B of deep prompt mirrored old bare-metric forms in 3 places. Rewrote during integration. Fix: integrator-mode self-check gains "every example in your §Example blocks must pass your own grammar's parse_predicate() without the BARE-reject diagnostic firing."
+- **Pattern emerging:** "Evidence grep test" as cell acceptance-predicate tail. Part C ended with "grep body for 'stage_gate_number' AND 'de-morph' AND 'promotion_rules' AND 'spawned_paths' AND 'Hamel-binary' returns non-zero for all 5." Brigadier verification <10s. Keep for every integrator cell.
+- **Open:** Should Wave-2 engineering × integrator carry BOTH extraction (Parts A/B/C physical files) AND Part D design (company-as-code)? Or split into two Wave-2 cells? Decision this cycle: ONE cell, 30K/50K budget. If over → split in cycle-4.
+- **Evolution:** changelog 2026-04-24 created. cycle_10: track whether DSL-coverage-gap resolution stays in existing primitives. cycle_50: codify banned-phrases list as live-maintained `.claude/config/sg-banned-phrases.yaml` (extraction target for Wave 2).
+
 ### 2026-04-24 — Sequenced-migration-trajectory framing beats single-variant pick when N≥3 variants per layer
 
 - **Decision:** When the matrix returns 3+ variants per architectural layer with categorically different axes (per execution prompt §1.2 + §2.2/§2.3), brigadier's recommendation in §11 of the consolidated decision document is FRAMED AS A SEQUENCED MIGRATION TRAJECTORY across gate triggers, NOT as a single-variant pick. For T-km-architecture-research-2026-04-24: A1↔B1 Phase-A → A2↔B2 at G2 first paying client onset → A3↔B2 at G3 ≥3K pages/client trigger; B3 confined to research+bets niche.

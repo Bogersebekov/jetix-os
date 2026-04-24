@@ -47,6 +47,13 @@ OTHER agents.
 
 ## Entries
 
+### 2026-04-24 — systems × integrator with philosophy × critic in parallel produces a more complete evaluator than either alone (cyc-km-materialization Part C)
+
+- **Decision:** Wave-1 systems × integrator (Part C: B3 stage-gates merged into B2) produced 65 KB of spec covering DSL grammar (4-atom), tools/stage-gate-eval.py evaluator (≤193 LoC pure-Python+stdlib+pyyaml), /lint --check-stage-gates daily-cron algorithm, auto-spawn protocol, /project-de-morph reversibility skill, /project-promote SG-4-gated skill, 8 canonical example blocks. Meadows-leverage-points + Ashby-requisite-variety framings explicit in §1.
+- **Reasoning:** systems-expert's §5 integrator rubric (feedback-loop-map-style synthesis of ingredients under variety-preservation constraints) mapped to a deterministic offline evaluator + 2 consequential skills + autospawn protocol. The DSL design (4 atoms, deterministic, non-Turing-complete) carries Ashby-requisite-variety floor explicitly.
+- **Result:** Draft promoted after brigadier-applied philosophy-critic-1 fixes to DSL grammar + evaluator + examples (METRIC_ANCHORED_RE vs METRIC_BARE_RE; /lint --validate-predicate sub-flag with 18-banned-phrase regex list; 3 canonical example blocks rewritten to file-anchored forms). CC-10 DSL coverage gap (Popperian refutation) resolved by reusing existing `count(<glob>:<marker>)` form — no new primitive added.
+- **Review:** validated. Pattern worth preserving: **systems × integrator writes the grammar; philosophy × critic writes the guard-rails; brigadier merges at integration time.** The evaluator implements grammar (systems), the validator enforces anti-regex list (philosophy). Neither could produce the other's half alone. **Improvement proposal:** integrator-mode self-check gains "every example in your §Example blocks must pass your own grammar's parse_predicate() without the BARE-reject diagnostic firing" — this would have caught the 3 example-block bare-metric forms the cell emitted.
+
 ### 2026-04-23 — systems × critic identified loop-dominance correctly — measurement void IS the root node
 
 - **Decision:** systems-critic-01 H-8 (measurement void) was scored highest (sys 35.0) and every subsequent integrator pass confirmed this was the correct root-node identification. OPP-01 is the derivative implementation.

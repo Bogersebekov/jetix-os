@@ -47,6 +47,13 @@ agents.
 
 ## Entries
 
+### 2026-04-24 — mgmt × integrator benefits from explicit DSL-canonical-form pre-brief when writing schema-bound predicates (cyc-km-materialization Part B)
+
+- **Decision:** Wave-1 mgmt × integrator (Part B: project-types.yaml + /project-bootstrap + 4 scaffold templates + /project-review + /project-archive) produced 96 KB of spec instantiating 4 project types with 17 default_stage_gates + full bootstrap skill + 4 scaffold _moc.md templates + mini-swarm spawn protocol. All 8 mandatory frontmatter fields (problem_statement, kill_criteria, kpi_targets, project_type, priority, state, pmbok_phase, granularity) enforced via /lint L-PROJECT-MISSING-REQUIRED-FRONTMATTER.
+- **Reasoning:** mgmt-expert's §5 integrator rubric (stakeholder-map-style multi-domain synthesis) mapped to 4-type × 5-SG-each = 20 predicates + 4 scaffold templates + 4 skills. Cell delivered end-to-end.
+- **Result:** Draft promoted after brigadier-applied philosophy-critic-1 integration (14 SG-predicate rephrases + 3 architectural fixes in type_specific_files). Root cause of required fixes: cell did not anticipate Hamel-binary DSL-canonical-form audit; used `contract_signed_count >= 1`, `cycle_count >= 5 AND active_tasks_avg >= 5`, etc. — syntactically valid but DSL-ambiguous under philosophy-critic §6 rubric.
+- **Review:** partial — integrator output substantively correct; rigor audit caught pattern P-A (path-unanchored). **Improvement proposal for next dispatch:** any mgmt × integrator brief that writes schema-bound predicates MUST include a pre-brief snippet: "Your predicates MUST be DSL-canonical from the first draft — count(<glob>) | count(<glob>:<marker>) | <file.md>:<key> OP <n>. Bare metric form (`<identifier> OP <n>`) is BANNED by post-cycle-3 DSL grammar." Additionally, integrator-mode self-check gains "for every count(<path>) predicate, verify <path> parent exists in type_specific_files at bootstrap" (architectural-falsifiability / CC-14 pattern). These two line-items reduce the critic-in-parallel fix-count from O(N predicates) to near-zero.
+
 ### 2026-04-23 — mgmt × integrator scales well to 10+ input artefacts with dissent preservation intact
 
 - **Decision:** mgmt-integrator-01 successfully synthesized 10 cell artefacts (5 critics + 5 optimizers) totalling ~4600 lines, into 19 clusters + 5 preserved dissents, in 90 turns. This is the most complex single integrator invocation in the cycle.

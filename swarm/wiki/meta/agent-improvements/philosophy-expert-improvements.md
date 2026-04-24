@@ -47,6 +47,13 @@ OTHER agents.
 
 ## Entries
 
+### 2026-04-24 — philosophy × critic's proposed_replacement field eliminates integration friction (cyc-km-materialization Part C SG-rigor)
+
+- **Decision:** Wave-1 philosophy × critic (20 Conformance Checks; 14 FAIL findings) returned escalations[] with explicit `proposed_replacement:` values per failing predicate (e.g., `count(hypotheses.md:status: refuted) >= 1` replacing bare `count(hypothesis_refuted) >= 1`). Critic also returned 4 systemic-defect pattern labels (P-A path-unanchored, P-B undefined-operand, P-C window-undefined, P-D circular-dependency) that collapsed 14 one-off findings into 4 architectural decisions for brigadier integration. 18-entry anti-regex list with Popperian/Lakatosian/Quine rationale per entry — all Popperian-quality sourced.
+- **Reasoning:** philosophy-expert's §3 critic rubric ("Hamel-binary: every predicate evaluates to TRUE or FALSE under all possible inputs; falsifier explicit; two observers agree 100%") produces machine-actionable output when the critic writes proposed_replacement verbatim in the target DSL. Saves brigadier from inventing replacement DSL forms at integration time.
+- **Result:** Zero §5.5.5 gate rejections post-integration. Brigadier applied fixes as Edit ops on Part B + Part C drafts directly (no author-cell re-dispatch → no M-class retry-hit, no E-15 brigadier-override violation — rewrites are critic-originated). Anti-regex list promoted into /lint --validate-predicate sub-flag; persists permanently.
+- **Review:** validated. **Pattern worth generalising across all critic-mode dispatches:** the critic return schema should mandate `proposed_replacement:` (or equivalent "applied form") per rephrase-required escalation. Without it, integration requires brigadier to invent replacements → violates E-15 or forces retry loop. With it, integration is mechanical Edit ops and preserves author-judgment lineage. **Improvement proposal:** update philosophy-expert's §3 critic rubric to say "every rephrase-required escalation MUST carry proposed_replacement: in the target grammar/language/schema." Consider same mandate for other critic modes (engineering × critic → proposed_patch; mgmt × critic → proposed_policy_rewrite; etc.).
+
 ### 2026-04-23 — philosophy × critic's AP-PHIL code firing is the only AP-taxonomy extension this cycle
 
 - **Decision:** philosophy-critic-01 introduced AP-PHIL-1 through AP-PHIL-11 codes (6× AP-PHIL-1 firings, 3× AP-PHIL-5, 3× AP-PHIL-8, etc.). No other expert introduced domain-specific AP taxonomy this cycle.

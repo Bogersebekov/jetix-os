@@ -47,6 +47,13 @@ OTHER agents (peer experts, brigadier integration, meta-agent).
 
 ## Entries
 
+### 2026-04-24 — engineering × integrator produces durable design-record bundles when brief separates "spec in draft" from "physical files elsewhere" (cyc-km-materialization Part A)
+
+- **Decision:** Wave-1 engineering × integrator (Part A: A1 Karpathy++ substrate bundle) returned 85 KB of spec covering 7 logical files (wiki-roots.yaml v2, /ingest+/ask+/consolidate+/build-graph+/lint extensions, bootstrap-demo-clients.sh, 50-typed-edges seed). All bash snippets carried shebang + `set -euo pipefail` + chmod + 1-line purpose per launch-prompt §8 bar. All YAML blocks had complete frontmatter. Acceptance-predicate was grep-verifiable (≥5 required substrings), gate pass in <30s.
+- **Reasoning:** Integrator mode + "reference-by-path inputs" brief + 1000%-depth bar + grep-verifiable acceptance-predicate are mutually reinforcing. The engineering-expert's §6 integrator rubric ("integrate cross-domain concerns into a single coherent bundle") matched the task shape. Brief explicitly said "your deliverable is ONE design-record draft" — cell did not attempt to Write outside its drafts/ path.
+- **Result:** Draft promoted to swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/partA-a1-substrate-bundle.md on first pass. Zero §5.5.5 rejections. Physical-file extraction deferred to Wave-2 cell (intentional design; preserves brigadier context budget).
+- **Review:** validated. Generalize: for implementation M-tasks, engineering × integrator produces design-record bundles, not physical files. Keep physical-file extraction as a separate cell.
+
 ### 2026-04-23 — engineering critic returns the richest conformance-check set when given the full context manifest
 
 - **Decision:** engineering-critic-01 returned 10 hypotheses with all 8 Conformance Checklist items non-empty + detailed file:line anchors. This is the richest critic output this cycle — more structure than mgmt (12 hyp but looser anchors) or investor (8 hyp but better arithmetic).
