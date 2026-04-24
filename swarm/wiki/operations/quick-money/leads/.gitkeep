@@ -1,0 +1,6 @@
+# This file keeps the leads/ directory tracked by git.
+# Per-lead pages: leads/<lead-slug>.md
+# Frontmatter required: status: prospect|qualified|proposal|signed|lost
+# SG-1 predicate: count(leads/*.md) >= 3
+# SG-3 predicate: count(leads/*.md:status: qualified) >= 3
+# Created by KM-materialization Part E (Wave-3).

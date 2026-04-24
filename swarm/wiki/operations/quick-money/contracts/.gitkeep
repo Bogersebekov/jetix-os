@@ -1,0 +1,4 @@
+# This file keeps the contracts/ directory tracked by git.
+# Per-contract pages: contracts/<client-slug>-<YYYY-MM-DD>.md
+# SG-2 predicate: count(contracts/*.md) >= 1
+# Created by KM-materialization Part E (Wave-3).
