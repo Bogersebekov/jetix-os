@@ -26,12 +26,28 @@ promotion_note: |
     - CC-4 FAIL: kill_criteria "50 qualified prospects" unreachable at 20/quarter
       in 13 weeks; investor proposes two-checkpoint structure.
     - CC-5 conditional: levenchuk kpi_targets "leave empty" option must be removed.
-  These findings require Ruslan arbitration (§1d rules). Brigadier DID NOT auto-apply
-  fixes (would violate E-15 brigadier-does-not-override + AP-6 dissent-preservation).
-  The mgmt draft preserves JETIX-PLAN §3.1 source numbers as-is; the investor-critic
-  draft (swarm/wiki/designs/…/partE-investor-critic-icp-kpi-realism.md) preserves the
-  arithmetic critique + 6 Alternatives. Both go to Ruslan in AWAITING-APPROVAL packet.
-  Physical file extraction deferred to post-ack Phase (Part G or Cycle-4).
+  Initial promotion (2026-04-24 AWAITING-APPROVAL): dissent preserved; Ruslan arbitration pending.
+
+post_ack_revision: |
+  Ack file: swarm/gates/AWAITING-APPROVAL-km-materialization-mvp-2026-04-24-ack.md
+  Ack date: 2026-04-24T07:00:00Z
+  Option chosen: B (adopt all 4 investor revisions; apply CC-1/3/4/5).
+  Revisions APPLIED to this design record by brigadier post-ack:
+    1. CC-1: quick-money _moc.md kpi_targets gains hourly_consulting_hours_q1_q2_2026: 233
+       + hourly_rate_eur: 150; mrr_eur_target_q2_2026 revised 15000→5000 (contracts-only
+       exit MRR); cumulative target €50K clears via €30K contracts + €35K hourly.
+    2. CC-3: icp.md frontmatter gains tier_1_phase_1 list [Предприниматели, Блогеры] +
+       tier_2_phase_2 list + tier_2_unlock_trigger: SG-2=fired. Body tightened to
+       "Two-tier Phase-1 discipline (investor CC-3 fix)" section.
+    3. CC-4: quick-money _moc.md kill_criteria rewritten to two-checkpoint structure
+       (week 7 ramp signal; week 13 viability signal). Replaces single unreachable
+       predicate.
+    4. CC-5: verified levenchuk _moc.md kpi_targets contains hypotheses_per_cycle: 2
+       (non-empty; satisfied at original draft — no edit required).
+    5. JETIX-PLAN §3.1: migration note appended documenting revenue-mix decomposition.
+  Dissent lineage preserved: investor critic record remains canonical at
+  partE-investor-critic-icp-kpi-realism.md. Mgmt-integrator's JETIX-PLAN-verbatim
+  numbers lineage documented in kpi_targets comments. Both positions traceable.
 provenance_inline: true
 sources:
   - {path: "prompts/km-materialization-mvp-execution-2026-04-24.md", range: "§2.E"}
@@ -122,14 +138,32 @@ problem_statement: |
   revenue Q2 2026 через consulting 4-pack (сессии / шаблоны / community / услуги)
   и Продюсерский центр pilot для English-speaking infobiz.
 kill_criteria: |
-  if cumulative_revenue_eur < 5000 by 2026-07-24, kill project and archive
-  (3-month grace from 2026-04-24; indicates consulting motion is not converting
-  despite structured outreach; pivot to brand-only or research-first path).
+  Two-checkpoint Hamel-binary kill structure (per investor-critic CC-4-A
+  alternative, applied post-ack 2026-04-24 under Option B):
+  - Checkpoint-1 (week 7, 2026-06-12): if count(leads/*.md where
+    status=contacted) < 5, pivot outreach motion (channel / message /
+    archetype-filter) but DO NOT kill — this is a ramping signal, not a
+    viability signal.
+  - Checkpoint-2 (week 13, 2026-07-24): if count(contracts/*.md) == 0 AND
+    count(leads/*.md) < 10, kill project and archive. This catches the
+    actual viability question with pipeline buffer accounted for.
+  Replaces original single-checkpoint criterion which was unreachable at
+  20 leads/quarter in 13-week window (investor CC-4 arithmetic refutation).
 kpi_targets:
+  # Phase-1 revenue mix (post-ack 2026-04-24 Option B; investor CC-1 revision):
+  # - Contracts: 2/quarter × Path-B (€3K onboarding + €15K/yr = €7.5K/contract-Q)
+  #   × 2 quarters = €30K from 4 contracts (Q1+Q2 2026)
+  # - Hourly consulting: 233 hours × €150/hr = €35K (Q1+Q2 2026)
+  # - Total Q1+Q2 2026 = €65K (margin of safety ≥0.3× above €50K gate)
+  # Per investor CC-1-A Alternative: ships arithmetic that clears the target.
+  # Original mgmt-integrator numbers (JETIX-PLAN §3.1 verbatim) preserved in
+  # migration note appended to decisions/JETIX-PLAN.md §3.1.
   leads_per_quarter: 20
   contracts_per_quarter: 2
-  mrr_eur_target_q2_2026: 15000
-  cumulative_revenue_q2_2026_eur: 50000
+  mrr_eur_target_q2_2026: 5000              # contracts-only Q2-exit MRR (1 of 2 contracts active = €15K/yr = ~€1250/mo per contract)
+  hourly_consulting_hours_q1_q2_2026: 233   # 233 hrs × €150 = €35K revenue line
+  hourly_rate_eur: 150
+  cumulative_revenue_q2_2026_eur: 50000     # gate target; Path-B + hourly mix clears with buffer
 stage_gates:
   SG-1:
     stage_gate_number: 1
@@ -225,24 +259,41 @@ AI-внедрения. Jetix устраняет этот дефицит чере
 methodology + client-private KB architecture. Phase-1 target: €50K cumulative
 revenue Q2 2026.
 
-## Kill criteria
+## Kill criteria (two-checkpoint, post-ack 2026-04-24 Option B per investor CC-4-A)
 
-if cumulative_revenue_eur < 5000 by 2026-07-24, kill project and archive.
+1. **Checkpoint-1 (week 7, 2026-06-12):** if `count(leads/*.md where status=contacted) < 5`,
+   pivot outreach motion — do NOT kill. This is a ramping signal.
+2. **Checkpoint-2 (week 13, 2026-07-24):** if `count(contracts/*.md) == 0` AND
+   `count(leads/*.md) < 10`, kill project and archive.
+
+Replaces original single-point predicate which was unreachable at 20 leads/quarter
+in 13 weeks (investor CC-4 arithmetic refutation).
 
 ## Current focus
 
-Phase-1 operations: ICP qualification (Mittelstand + Startupper archetypes),
-4-pack offer activation (сессии / шаблоны / community / конкретная помощь),
-Продюсерский центр pilot для English-speaking infobiz (D11).
+Phase-1 operations: ICP qualification (Phase-1 Tier-1 archetypes ONLY — see icp.md
+tier_1_phase_1 block per investor CC-3 revision), 4-pack offer activation (сессии /
+шаблоны / community / конкретная помощь), Продюсерский центр pilot для English-speaking
+infobiz (D11).
 
-## KPIs
+## KPIs (post-ack 2026-04-24 Option B)
 
-| KPI | Target | Current |
-|-----|--------|---------|
+Revenue decomposition per investor CC-1 revenue-mix:
+
+| KPI | Target (Q1+Q2 2026) | Current |
+|-----|---------------------|---------|
 | Leads per quarter | 20 | 0 |
 | Contracts per quarter | 2 | 0 |
-| MRR target Q2 2026 (EUR) | 15 000 | 0 |
-| Cumulative revenue Q2 2026 (EUR) | 50 000 | 0 |
+| Hourly consulting hours (cumulative) | 233 (×€150 = €35K) | 0 |
+| Contract revenue (cumulative; Path-B €7.5K×contract-Q × 4 contract-Q) | €30 000 | 0 |
+| MRR Q2 2026 exit (EUR/month; contracts only) | 5 000 | 0 |
+| Cumulative revenue Q2 2026 (EUR) | 50 000 (clears gate with ~30% margin) | 0 |
+
+Arithmetic check: €30K contracts + €35K hourly = €65K; ≥0.3× margin above the
+€50K Q2 2026 gate. Original single-line `contracts_per_quarter: 2 × Path-B` alone
+produced €30K only (investor CC-1 refutation). The hourly consulting line closes
+the gap and makes the €50K target arithmetically defensible without reducing
+contract discipline.
 
 ## Stage gates declared
 
@@ -290,24 +341,58 @@ last_modified: "2026-04-24"
 pipeline: drafted
 state: active
 confidence: high
-confidence_method: jetix-vision-d22-verbatim
+confidence_method: jetix-vision-d22-verbatim-plus-investor-critic-cc3
 tier: tier-internal
 produced_by: "/project-bootstrap"
 sources:
   - {path: "decisions/JETIX-VISION.md", range: "§7.1 архетипы + §7.2 ICP filter D22"}
+  - {path: "swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/partE-investor-critic-icp-kpi-realism.md", range: "CC-3 FAIL + CC-3-A Alternative"}
 related:
   - "${WIKI_ROOT}/operations/quick-money/_moc.md"
   - "${WIKI_ROOT}/themes/sales/README.md"
 binding_scope: "project-quick-money"
 granularity: jetix-internal
+
+# Phase-1 tier structure (post-ack 2026-04-24 Option B per investor CC-3-A):
+# Phase-1 active outreach is restricted to tier_1_phase_1. Other archetypes
+# from JETIX-VISION §7.1 11-archetype union are deferred to tier_2_phase_2+
+# and unlock on tier_2_unlock_trigger firing.
+tier_1_phase_1:
+  - "Предприниматели (Deutscher Mittelstand SMB owner/manager — Archetype A)"
+  - "Блогеры (English-speaking Startupper / infobiz — Archetype B)"
+tier_2_phase_2:
+  - "Ресёрчеры"
+  - "Инженеры"
+  - "Инвесторы"
+  - "Продюсеры / Продюсерский центр pilot (D11 path; Archetype 11 overlap)"
+  - "Другие 5 архетипов из JETIX-VISION §7.1"
+tier_2_unlock_trigger: "SG-2=fired (first signed contract) — per /project-types.yaml consulting SG-2: count(contracts/*.md) >= 1"
 ---
 
 # Ideal Customer Profile — Quick Money AI Consulting P1
 
-Per JETIX-VISION D22 filter criteria [src:decisions/JETIX-VISION.md §7.2].
-Phase-1 buyer archetypes filtered from the full 11-archetype union.
+Per JETIX-VISION D22 filter criteria [src:decisions/JETIX-VISION.md §7.2]
+AND investor-critic CC-3-A alternative (post-ack 2026-04-24 Option B).
 
-## Who is the ICP (Phase-1 buyers)
+## Two-tier Phase-1 discipline (investor CC-3 fix)
+
+**Tier-1 (active outreach, weeks 1-13):** Предприниматели (Deutscher Mittelstand)
++ Блогеры (Startupper). These two archetypes pass both D22 5-criteria AND the
+sharper investor-critic filter: ability-to-sign-now × upward-direction ×
+6-week-decision-cycle.
+
+**Tier-2 (deferred, unlocks on SG-2=fired):** Ресёрчеры, Инженеры, Инвесторы,
+Продюсерский центр archetype (Archetype 11 / D11 path), and the remaining 5 of the
+11-archetype union. These are NOT Phase-1 primary buyers — they are Phase-2
+expansion targets that unlock AFTER the first signed contract demonstrates the
+motion works for Tier-1.
+
+**Rationale.** Without the two-tier filter, Phase-1 outreach bandwidth gets
+diluted across 6+ archetypes and the motion fails to learn whether the core
+ICP converts (investor CC-3 refutation). With tier-2 unlock gated on SG-2, the
+first contract IS the learning signal that opens expansion.
+
+## Who is the ICP (Phase-1 Tier-1 buyers only)
 
 Two primary archetypes qualify as Phase-1 buyers for the Quick Money
 consulting motion. Both pass the D22 5-criteria filter AND have budget/urgency

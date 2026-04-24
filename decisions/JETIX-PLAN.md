@@ -178,6 +178,26 @@ EN+US              EN+US                + DE activate      EN+US+DE+EU          
 - Infrastructure: GmbH + Stripe + basic legal
 - **$1000 публичный experiment** [audio_483] — агентная система publicly measured
 
+#### 3.1.1 Revenue-mix decomposition (migration note 2026-04-24 per KM-Mat-MVP investor CC-1)
+
+Triggered by: Wave-3 investor × critic audit in cycle cyc-km-materialization-mvp-2026-04-24 (see `swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/partE-investor-critic-icp-kpi-realism.md` CC-1). Ack file: `swarm/gates/AWAITING-APPROVAL-km-materialization-mvp-2026-04-24-ack.md` (Option B).
+
+**Finding.** The original §3.1 €50K target, combined with the 4-pack offer at Path-B unit economics (€3K onboarding + €15K/год = €7.5K per contract-quarter), produces `contracts_per_quarter: 2 × 2 quarters = €30K` from contracts alone. Gap to €50K gate: €20K (i.e., 3.3× short IF only contract revenue is counted).
+
+**Resolution.** Phase-1 revenue is NOT contract-only. The €50K target decomposes as:
+
+| Line | Volume | Price | Revenue Q1+Q2 2026 |
+|------|--------|-------|--------------------|
+| Productized contracts (Path-B) | 4 contract-quarters (2 contracts × 2 Q) | €7.5K per contract-Q | €30 000 |
+| Hourly consulting (4-pack "конкретная помощь" + discovery sessions) | 233 hours | €150/hr [audio_452] | €35 000 |
+| **Total (gate: €50K)** | | | **€65 000 (~30% margin)** |
+
+**Implication.** The 4-pack `услуги`/`конкретная помощь` line in §3.3 is NOT a low-priority add-on — it is a first-class revenue channel accounting for ~54% of Phase-1 target. Operator guidance: schedule ≥20 hours/week of hourly-available capacity across Q1 + Q2 2026 alongside structured outreach for the 2 contracts/quarter. Without hourly capacity, €50K gate fails even if contract targets are met.
+
+**Dissent lineage.** Original mgmt-integrator position (this file §3.1 as-written verbatim) interpreted contracts_per_quarter + mrr_eur_target_q2_2026 as primary gate instruments with hourly as implicit overflow. Investor-critic interpretation treats hourly as a mandatory co-equal revenue line. Post-ack both interpretations are reconciled: §3.1 objectives unchanged (€50K committed; productization + pilot + infra as stated); §3.1.1 clarifies the revenue-mix arithmetic required to clear the gate. Tracker: `swarm/wiki/operations/quick-money/_moc.md` frontmatter kpi_targets includes `hourly_consulting_hours_q1_q2_2026: 233`.
+
+
+
 ### 3.2 Phase 1 actions — infrastructure (D15 unlock'нуто)
 
 - **GmbH setup** (€1000-1500) — DE legal home
