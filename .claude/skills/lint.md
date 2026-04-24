@@ -84,6 +84,8 @@ Flag the existence of any file under `${WIKI_ROOT}/insights/{candidates,promoted
 (any leaf `.md` write outside `README.md`) when D1 §1.6 boilerplate is in
 effect. Per Q8 `phase_a_lock: true`.
 
+<!-- TODO(cycle-3+): check #12 reserved for future slug; OPP-04 (cycle-2-impl 2026-04-24) claimed slot #13 per artefact §3.3. Backfill #12 from prior /lint design notes or skip numbering when backfill unclear. -->
+
 ### 11. Symlink integrity (per D9 §9.7)
 
 For each `.md` file in `.claude/skills/`:
@@ -91,6 +93,61 @@ For each `.md` file in `.claude/skills/`:
   - EMIT "broken symlink" if target doesn't exist
   - EMIT "symlink target outside active/" if not `../../swarm/wiki/skills/active/`
   - EMIT "symlink basename mismatch" if target basename != file basename
+
+### 13. `cell_acceptance_predicate` present in all WBS cells (per OPP-04 §3.3, cycle-2-impl)
+
+Two slugs emitted:
+
+- **`cell-ap-missing`** — field absent in ≥1 cell row in any file matching
+  `swarm/wiki/proposals/*-decomposition.md`. Measured as
+  `count(^ *cell_acceptance_predicate:) < count(^ *- cell:)` in the same file.
+- **`cell-ap-trivial`** — field present but (a) fails length regex `^.{20,200}$`
+  OR (b) matches the case-insensitive anti-regex
+  `^(artefact exists|file is non-empty|file exists|expected_artefact returned|non-empty file|returns output|2[x×]( improvement)?( vs baseline)?$)`.
+  Artefact-existence phrasings are AP-MGMT-1 violations per brigadier §4.1.
+
+**Bash implementation (target ~25 lines; callable against a single decomposition
+file OR a glob):**
+
+```bash
+#!/usr/bin/env bash
+# /lint check #13 — cell_acceptance_predicate present + non-trivial
+# Usage: bash check-13.sh <decomposition-file>  (or: <glob>)
+# Exits 0 on pass; 1 on any FAIL with slug emitted to stderr.
+set -euo pipefail
+file="$1"
+cells=$(grep -c "^ *- cell:" "$file" || true)
+preds=$(grep -c "^ *cell_acceptance_predicate:" "$file" || true)
+if (( preds < cells )); then
+  echo "FAIL cell-ap-missing: $file ($preds of $cells cells carry field)" >&2
+  exit 1
+fi
+# extract every predicate value and validate
+grep -E "^ *cell_acceptance_predicate:" "$file" |
+  sed -E 's/^ *cell_acceptance_predicate: *//; s/^"(.*)"$/\1/; s/^ *# .*$//' |
+  while IFS= read -r val; do
+    [[ -z "$val" ]] && continue
+    len=${#val}
+    if (( len < 20 || len > 200 )); then
+      echo "FAIL cell-ap-trivial: $file — predicate length $len (want 20..200): $val" >&2
+      exit 1
+    fi
+    if echo "$val" | grep -qEi '^(artefact exists|file is non-empty|file exists|expected_artefact returned|non-empty file|returns output|2[x×])'; then
+      echo "FAIL cell-ap-trivial: $file — predicate matches anti-regex: $val" >&2
+      exit 1
+    fi
+  done
+echo "OK"
+exit 0
+```
+
+**Pass condition (Hamel-binary):** for every `swarm/wiki/proposals/*-decomposition.md`
+file, `count(cell_acceptance_predicate:) == count(- cell:)` AND every predicate
+value matches `^.{20,200}$` AND no predicate matches the anti-regex. Else
+`/lint` emits the failing slugs and exits 1.
+
+**Helper runner:** `swarm/evals/run-check-13.sh` takes a single decomposition
+file as argument and exits 0/1 per the spec (created by Part C of cycle-2-impl).
 
 ## Выход
 

@@ -421,12 +421,26 @@ decomposition:
     ap_budget: 75000      # max-turn budget per §8 termination-stack
     inputs: [<file-paths from manifest.yaml>]
     expected_artefact: swarm/wiki/drafts/<task-id>-engineering-critic-<artefact-slug>.md
+    cell_acceptance_predicate: "Returns ≥5 binary Conformance Checks AND ≥2 Alternatives AND Anti-scope section AND each H-N row carries (F, ClaimScope, R) triple"   # NEW (OPP-04, cycle-2-impl)
   - cell: engineering × integrator
     ap_cost: 30000
     ap_budget: 50000
     inputs: [<paths>]
     expected_artefact: swarm/wiki/drafts/<task-id>-engineering-integrator-<slug>.md
+    cell_acceptance_predicate: "Returns ≥3 cross-claim syntheses AND ≥1 D-NN preserved-dissent block AND Structured Output Packet per shared-protocols §3"   # NEW (OPP-04, cycle-2-impl)
   - ...
+# cell_acceptance_predicate: string field is the Phase-A form (OPP-04, cycle-2-impl).
+# At €1M horizon, when ≥3 distinct cell predicates per cycle reference swarm/evals/
+# or health.md paths, migrate to a structured block:
+#   cell_acceptance_predicate:
+#     condition: <text>
+#     measurement_path: <swarm/evals/... or health.md counter>
+#     baseline_required: <true|false>
+# Per systems-scalability-01.md §3 OPP-04 MHT event (natural antifragile evolution).
+# OPP-05 (falsifier: field on hypothesis artefacts) is a parallel pattern at a
+# DIFFERENT LOC target (swarm/wiki/tasks/<task-id>/artefacts/*.md, not
+# swarm/wiki/proposals/*-decomposition.md). Do NOT bundle. OPP-05 lift is trivial
+# once OPP-04 lands — clone /lint check #13 → check #14 with `falsifier:` slug.
 risk_register:
   - risk: <one-line>
     likelihood: low|medium|high
@@ -487,6 +501,11 @@ degrade.
 **File-reference-only rule (AP-1 prevention).** The brief NEVER inlines
 source content. Cells read inputs from disk paths. Inlining a 1000-line
 file in the prompt destroys context, so brigadier passes paths only.
+
+**Pre-dispatch checklist (brigadier, per cell):**
+1. `ap_cost` and `ap_budget` are non-zero integers.
+2. `expected_artefact` path is inside `swarm/wiki/drafts/<task-id>-*` glob (write-scope-guard, per OPP-02).
+3. `cell_acceptance_predicate` is non-empty string, length 20-200 chars, and does NOT consist solely of "artefact exists" or "file is non-empty" or any artefact-existence variant (anti-regex per /lint check #13). If missing or trivial: REFUSE dispatch with structured return `{status: refused, reason: "cell_acceptance_predicate absent or trivial", ap_code: AP-MGMT-1, cell: <cell-name>}`. (OPP-04, cycle-2-impl)
 
 ### §4.2 Mode-prefix mandate
 
