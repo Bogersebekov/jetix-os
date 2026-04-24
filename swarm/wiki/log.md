@@ -11,6 +11,9 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partE-engineering-optimizer-e2e-demo-deltas.md | Wave-3 engineering × optimizer — method-change=false; 5 invariants preserved; fixture path spec | brigadier
+## [2026-04-24] design-promoted-with-dissent | T-km-materialization-mvp-2026-04-24/partE-investor-critic-icp-kpi-realism.md | Wave-3 investor × critic — 3 HARD FAIL + 1 conditional FAIL; 6 alternatives; Ruslan arbitration required | brigadier
+## [2026-04-24] design-promoted-with-dissent | T-km-materialization-mvp-2026-04-24/partE-quick-money-levenchuk-bootstrap.md | Wave-3 mgmt × integrator — bootstrap spec; investor-critic CC-1/3/4/5 dissent preserved per §1d AP-6 | brigadier
 ## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partD-company-as-code.md | Wave-2 engineering × integrator — /company-status + /knowledge-diff + CLAUDE.md delta + compliance snapshot | brigadier
 ## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partC-philosophy-critic-sg-predicate-rigor.md | Wave-1 philosophy critic audit — 14 FAIL + 1 peer-input + 1 architectural | brigadier
 ## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partC-stage-gates-merged.md | Wave-1 Part C post-philosophy-critic integration (DSL file-anchor req; anti-regex validator) | brigadier

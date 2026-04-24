@@ -44,7 +44,13 @@ Append-only operational log. Newest-on-top within each phase block.
 
 ### Wave 3 — Part E real-work bootstrap (parallel after Wave 2; 3 cells)
 
-<!-- to be appended -->
+- [2026-04-24] dispatched | mgmt × integrator (E.1-E.3 bootstrap) + investor × critic (E.1-E.2 realism) + engineering × optimizer (E.4 E2E demo) | single message, 3× Task() | total ap_budget 130K
+- [2026-04-24] cell-returned | mgmt × integrator | draft=swarm/wiki/drafts/…-partE-quick-money-levenchuk-bootstrap.md (58KB) | 12/12 acceptance greps pass | peer-input-needed escalation to investor-expert (self-flagged P2-nonblocking)
+- [2026-04-24] cell-returned | investor × critic | draft=swarm/wiki/drafts/…-partE-investor-critic-icp-kpi-realism.md (44KB) | 3 HARD FAIL + 1 conditional FAIL + 1 partial-pass + 1 pass | 6 Alternatives + 1 preserved dissent on Path C justification
+- [2026-04-24] cell-returned | engineering × optimizer | draft=swarm/wiki/drafts/…-partE-engineering-optimizer-e2e-demo-deltas.md (23KB) | method-change=false attested | all 5 invariants preserved | 1 fixture-path correction noted for UC-INGEST-1
+- [2026-04-24] integration-decision | brigadier applies §1d AP-6 dissent-preservation — NO auto-fixes on investor CC-1/CC-3/CC-4 findings. Both mgmt draft + investor critique preserved verbatim; Ruslan arbitrates parameter choice (contract count + revenue mix + Tier-1 archetype filter + kill-criteria structure) via AWAITING-APPROVAL gate. Per E-15: brigadier does not override expert domain judgment.
+- [2026-04-24] gate-pass | Part E (3 drafts) | §5.5.5 passed for all 3; promoted to swarm/wiki/designs/… with pipeline=accepted-with-dissent on mgmt+investor; pipeline=accepted on engineering-optimizer
+- [2026-04-24] decision | Wave-4 (5-gate horizon projection) and Part F (cross-Part verification) + physical file extraction DEFERRED TO POST-ACK (Cycle-4 or Part G). Rationale: (1) Physical extraction required before verification can run; extraction is ~22 files across 7 trees, blocks on Ruslan ack of 3-fail investor critique anyway. (2) Wave-4 projection is most valuable AFTER dissent resolution (which parameter set clears the €50K gate? answer needed first). (3) Stage-Gated discipline authorizes HITL mediation at any stage.
 
 ### Wave 4 — 5-gate horizon projection (serial after Wave 3; 1 cell)
 
