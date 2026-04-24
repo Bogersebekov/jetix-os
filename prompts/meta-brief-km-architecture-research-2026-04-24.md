@@ -1,6 +1,7 @@
 ---
-title: Meta-Brief — Knowledge Management + Project Management Architecture Research (swarm deep prompt)
+title: Meta-Brief — Knowledge Management + Project Management Architecture Research (swarm deep prompt) [v2 — post-BIOS-research revision]
 date: 2026-04-24
+revision: v2 (added UC-9 client-isolation + UC-10 offline-first inference as MANDATORY acceptance criteria, triggered by Strategic Insight 2026-04-24 AI-BIOS moment)
 type: meta-brief
 author: Cloud Cowork (short brief; deep prompt to be written by Claude Code on server)
 target_executor_this_pass: Claude Code on server (writes the deep execution prompt for the swarm)
@@ -12,10 +13,16 @@ estimated_duration_next_pass: 4-8h swarm work (one M-class structural task per H
 precedes: ruslan-review → selection of preferred variant → materialization task
 relates_to:
   - decisions/VISION-NEXT-STRATEGIC-HORIZON-2026-04-24.md (§1 C-1 topic-wiki / C-2 project-wiki / C-3 memory-map)
+  - decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md (v2 addition — local-first client-private KB positioning)
+  - raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md (v2 addition — trigger research)
   - memory/project_jetix_private_library_knowledge_leverage.md (moat philosophy)
   - design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md (existing wiki v3 infrastructure)
   - decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md (5 alphas + expert allocation)
-locked_decisions_referenced: [D17 filesystem-SoT, D19 $1T trajectory, D24 open-source research, W-5 Two-level CE, HD-02 M-class N=2]
+locked_decisions_referenced: [D13 closed-core/open-surface, D17 filesystem-SoT, D19 $1T trajectory, D20 USB-C, D21 matchmaker+roy, D24 open-source research, W-5 Two-level CE, HD-02 M-class N=2]
+new_non_negotiables_v2:
+  - "UC-9 client-isolation as mandatory acceptance criterion (architectural proof required)"
+  - "UC-10 offline-first inference as mandatory acceptance criterion (local distilled LLM path required)"
+  - "Every variant must support local-first client-private KB OR be dropped"
 m_class_budget_impact: 1 structural M-task (this research); leaves 1 M-slot for companion measurement task in same cycle if needed
 ---
 
@@ -51,6 +58,10 @@ Per Ruslan's durable rule 2026-04-23 (`feedback_cc_writes_own_deep_prompts.md`):
 3. **Agent skill accumulation.** Every time an agent (or brigadier) **solves something well**, the skill / pattern / insight writes itself back to wiki. Long-term memory that enables "the system gets smarter monthly, not just per-cycle".
 4. **Optimized memory substrate.** Not naive markdown pile; not bloated enterprise DB. **Right-sized** — fast retrieval, persistent provenance, decay-resistant, survives 10× scale (pre-€1M architecture must accommodate €1T — D19 locked).
 5. **Self-reinforcing generation.** Wiki is input AND output: insights emerge from cross-links, answer-chains, compound queries. Agents discover patterns they didn't explicitly write.
+
+**SIXTH demand added 2026-04-24 post-BIOS-clone-wars research (see `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md`):**
+
+6. **Local-first, client-private architecture mandatory.** The KM architecture is not just Jetix-internal — it IS the template we will deploy per client. Each client's KB lives on their infrastructure. Their data never enters Jetix central pool. Their AI archivist runs on their server (locally-distilled LLM). Jetix methodology is pushed to them as versioned updates, their data is not pulled back. This is non-negotiable positioning: business clients reject AI because of data-leak fear; Jetix's answer is architectural, not policy-based. Every variant MUST demonstrably support client-isolation (UC-9) and offline-first inference (UC-10) or be dropped.
 
 **Ruslan's explicit quality bar:** *«должны сделать работу тоже ёбнутую мощную на всю тысячу процентов глубокую»*. No "good enough". 3 variants must each be independently viable at 100%. Ruslan picks one (or hybrid) and ships to reality. The deep prompt must set this bar explicitly in §1 Mission framing.
 
@@ -113,8 +124,12 @@ The deep prompt must include a use-case acceptance matrix. Each variant is score
 6. **UC-6 Cross-project insight:** Pattern learned in `quick-money` project (e.g. specific objection-handling) propagates to `research` project's methodology via explicit cross-project edge
 7. **UC-7 Contradiction detection:** Two claims disagree (e.g. one concept says "X is essential", another derived later says "X is obsolete") → surfaced at `/lint` + Ruslan prompted to resolve
 8. **UC-8 Scale test:** Variant explicitly projects behaviour at 10K wiki pages / 50 projects / 100 agents — breakage points + upgrade path per MHT horizon (€50K / €200K / €1M / $100M / $1T)
+9. **UC-9 Client isolation (MANDATORY — added 2026-04-24 post-BIOS-research):** Variant must demonstrate how TWO simultaneous Jetix clients (Client-A and Client-B) running the SAME Jetix methodology + tooling on separate infrastructure CANNOT see each other's data, wiki entries, project files, agent memory, or derived insights. Architecture proof required: (a) cross-client data-leak impossible by construction (not by policy), (b) each client's KB is mountable/portable/deletable independently, (c) Jetix methodology updates can be pushed from Jetix central repo to client without pulling client's private data back. **If variant cannot architecturally prove client-isolation → drop variant, replace.** This is the foundation of Jetix's local-first / client-private KB positioning (`decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md`).
+10. **UC-10 Offline-first inference (MANDATORY — added 2026-04-24 post-BIOS-research):** Variant must demonstrate how a Jetix client's AI "archivist" — powered by a locally-runnable distilled model (Llama / DeepSeek / Mistral family) — answers a substantive query about the client's own data while network-disconnected from OpenAI/Anthropic/cloud APIs. Architecture proof required: (a) inference path doesn't require external API call for client-private-data queries, (b) KB retrieval protocol works against local filesystem/vectorstore, (c) response quality bar on local distilled model is measurable (not marketing claim) — variant must specify what use-case complexity tier works fully offline vs when cloud LLM augmentation becomes needed, (d) security layer controls WHAT enters the client KB (signed provenance, audit trail for every ingest). **If variant cannot architecturally support offline-first inference path → drop variant, replace.** This is the moat: OpenAI/Anthropic CANNOT replicate "your data never leaves your server" via any API upgrade.
 
-If a variant cannot demonstrably support all 8 → variant is incomplete; swarm must iterate until it can, OR remove the variant and produce a 3rd that does.
+**If a variant cannot demonstrably support all 10 use cases → variant is incomplete; swarm must iterate until it can, OR remove the variant and produce a 3rd that does.**
+
+UC-9 + UC-10 are NOT optional extensions. They are **the architectural differentiation of Jetix vs 35K generic AI-wrapper consulting companies.** Every variant that cannot pass them is deleting Jetix's strategic position. Drop + replace > "partial support".
 
 ## §5 What the execution prompt (you write this session) must make the swarm deliver
 
@@ -123,7 +138,7 @@ If a variant cannot demonstrably support all 8 → variant is incomplete; swarm 
 - **Name + 1-line pitch + axis-of-differentiation** from other 2 variants in its layer
 - **Architecture diagram** (ASCII or Mermaid in markdown)
 - **Mechanics** — every mechanism spelled out (ingest pipeline, retrieval protocol, write-back protocol, refresh cadence)
-- **Use-case walkthrough** — UC-1..UC-8 traced through this variant concretely
+- **Use-case walkthrough** — UC-1..UC-10 traced through this variant concretely (ALL 10, including client-isolation proof + offline-first inference proof)
 - **Integration spec** — how paired Layer-A + Layer-B halves interact
 - **Pros / cons / tradeoffs** — honest, not marketing
 - **Effort estimate** — hours to bootstrap + days to reach UC-1..UC-4 live + weeks to UC-5..UC-8 stable
@@ -164,6 +179,8 @@ Include verbatim (or equivalent-strength) in §1 Mission of the written executio
 - `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md` (existing wiki v3 design)
 - `decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md` (5 alphas + expert allocation)
 - `decisions/VISION-NEXT-STRATEGIC-HORIZON-2026-04-24.md` (Pillars 2 + 3 kernel)
+- **`decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` (MANDATORY — local-first / client-private architecture positioning — defines UC-9 + UC-10 acceptance rationale)**
+- **`raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md` (MANDATORY — historical parallel, 621 lines, FULL READ required — understand WHY local-first is the moat)**
 - `decisions/JETIX-PHILOSOPHY.md` D2 §§6, 10, 14 (foundation-first, universality criterion, quality invariant)
 - `decisions/JETIX-ARCHITECTURE-BRIEF.md` D4 (F-G-R / boundary discipline / multi-view publication)
 - `raw/research/knowledge-architecture-deep-research-2026-04-19.md` (Karpathy LLM Wiki / GraphRAG / HippoRAG / MemGPT / Zettelkasten / BASB — 828 lines of prior research, FULL READ required)
