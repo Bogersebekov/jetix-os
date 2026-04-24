@@ -40,23 +40,62 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 
 def tokenise(predicate: str) -> list:
-    """Split predicate into tokens: AND, OR, NOT, (, ), atom-strings."""
+    """
+    Split predicate into tokens: AND, OR, NOT, (, ), atom-strings.
+
+    Parens are ambiguous: `count(<glob>)` contains atom-internal parens,
+    while compound grouping uses top-level parens. Atom-internal parens
+    only appear as part of the `count(...)` form. This tokeniser:
+
+    1. Skips ahead at `c` if s[i:].startswith('count(') — consume through
+       the matching `)` as part of the atom.
+    2. Treats bare `(` / `)` encountered OUTSIDE `count(...)` as grouping
+       tokens per the DSL compound-predicate grammar.
+    """
     tokens = []
     i = 0
     s = predicate.strip()
     while i < len(s):
+        # Skip whitespace to prevent infinite loop when atom boundary is a space
+        if s[i] == ' ':
+            i += 1; continue
         if s[i:].startswith('AND '):
             tokens.append('AND'); i += 4
         elif s[i:].startswith('OR '):
             tokens.append('OR'); i += 3
         elif s[i:].startswith('NOT '):
             tokens.append('NOT'); i += 4
+        elif s[i:].startswith('count('):
+            # Consume the full count(...) form + trailing OP + integer as ONE atom.
+            depth = 0
+            end = i
+            while end < len(s):
+                if s[end] == '(':
+                    depth += 1
+                elif s[end] == ')':
+                    depth -= 1
+                    if depth == 0:
+                        end += 1
+                        break
+                end += 1
+            # Now consume whitespace + OP + integer as part of the atom.
+            # The atom terminates at next top-level AND/OR/NOT/(/).
+            rest_start = end
+            while end < len(s):
+                if s[end:].startswith(' AND ') or s[end:].startswith(' OR ') \
+                   or s[end:].startswith(' NOT ') or s[end] in '()':
+                    break
+                end += 1
+            atom = s[i:end].strip()
+            if atom:
+                tokens.append(atom)
+            i = end
         elif s[i] == '(':
             tokens.append('('); i += 1
         elif s[i] == ')':
             tokens.append(')'); i += 1
         else:
-            # Collect atom up to next AND / OR / NOT / ( / )
+            # Non-count atom (metric form: <file.md>:<key> OP <number>).
             end = len(s)
             for kw in [' AND ', ' OR ', ' NOT ']:
                 pos = s.find(kw, i)

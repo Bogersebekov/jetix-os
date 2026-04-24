@@ -1,0 +1,95 @@
+=== Part A smoke test Fri Apr 24 07:42:30 AM UTC 2026 ===
+PASS: A.1 wiki-roots.yaml schema_version:2 + clients: stanza
+=== Part A smoke test Fri Apr 24 07:42:48 AM UTC 2026 ===
+PASS: A.1 wiki-roots.yaml schema_version:2 + clients: stanza
+PASS: A.2 demo-client-a/swarm/wiki/concepts exists
+PASS: A.2 demo-client-b/swarm/wiki/graph exists
+PASS: A.2 demo-client-a index.md exists
+PASS: A.2 demo-client-b edges.jsonl exists
+PASS: A.3 edges.jsonl has >=50 records (found: 60)
+PASS: A.4 ingest.md contains yt-dlp branch
+PASS: A.4 ingest.md contains pdftotext branch
+PASS: A.4 ingest.md contains stdin branch
+PASS: A.4 tools/vtt-to-md.py exists
+PASS: A.4 tools/fetch-and-extract.py exists
+PASS: A.5 ask.md contains OFFLINE_MODE
+PASS: A.5 ask.md contains Step 2.5 offline gate
+PASS: A.5 ask.md contains network verification probe
+PASS: A.7 consolidate.md contains --weekly flag
+PASS: A.7 consolidate.md contains --dry-run flag
+PASS: A.7 consolidate.md contains ISO-week logic
+PASS: A.8 build-graph.md contains communities.jsonl
+PASS: A.8 build-graph.md contains Louvain/community-detect reference
+PASS: A.8 tools/community-detect.py exists
+PASS: A.8 tools/community-detect.py parses without syntax errors
+PASS: A.9 lint.md contains L-DANGLING-EDGE
+PASS: A.9 lint.md contains L-ORPHAN-CONCEPT
+PASS: A.9 lint.md contains L-MISSING-FRONTMATTER
+PASS: A.9 lint.md contains L-DUPLICATE-SLUG
+PASS: A.9 lint.md contains L-CROSS-CLIENT-GLOBAL
+=== Part A smoke test Fri Apr 24 07:43:10 AM UTC 2026 ===
+PASS: A.1 wiki-roots.yaml schema_version:2 + clients: stanza
+PASS: A.2 demo-client-a/swarm/wiki/concepts exists
+PASS: A.2 demo-client-b/swarm/wiki/graph exists
+PASS: A.2 demo-client-a index.md exists
+PASS: A.2 demo-client-b edges.jsonl exists
+PASS: A.3 edges.jsonl has >=50 records (found: 60)
+PASS: A.4 ingest.md contains yt-dlp branch
+PASS: A.4 ingest.md contains pdftotext branch
+PASS: A.4 ingest.md contains stdin branch
+PASS: A.4 tools/vtt-to-md.py exists
+PASS: A.4 tools/fetch-and-extract.py exists
+PASS: A.5 ask.md contains OFFLINE_MODE
+PASS: A.5 ask.md contains Step 2.5 offline gate
+PASS: A.5 ask.md contains network verification probe
+PASS: A.7 consolidate.md contains --weekly flag
+PASS: A.7 consolidate.md contains --dry-run flag
+PASS: A.7 consolidate.md contains ISO-week logic
+PASS: A.8 build-graph.md contains communities.jsonl
+PASS: A.8 build-graph.md contains Louvain/community-detect reference
+PASS: A.8 tools/community-detect.py exists
+PASS: A.8 tools/community-detect.py parses without syntax errors
+PASS: A.9 lint.md contains L-DANGLING-EDGE
+PASS: A.9 lint.md contains L-ORPHAN-CONCEPT
+PASS: A.9 lint.md contains L-MISSING-FRONTMATTER
+PASS: A.9 lint.md contains L-DUPLICATE-SLUG
+PASS: A.9 lint.md contains L-CROSS-CLIENT-GLOBAL
+FAIL: set -euo pipefail in tools/bootstrap-demo-clients.sh
+FAIL: set -euo pipefail in swarm/tests/part-a-smoke.sh
+PASS: No provider API-key references in new artefacts
+
+=== Results: PASS=27 FAIL=2 ===
+Part A smoke: FAIL — fix before Part B
+=== Part A smoke test Fri Apr 24 07:43:10 AM UTC 2026 ===
+PASS: A.1 wiki-roots.yaml schema_version:2 + clients: stanza
+PASS: A.2 demo-client-a/swarm/wiki/concepts exists
+PASS: A.2 demo-client-b/swarm/wiki/graph exists
+PASS: A.2 demo-client-a index.md exists
+PASS: A.2 demo-client-b edges.jsonl exists
+PASS: A.3 edges.jsonl has >=50 records (found: 60)
+PASS: A.4 ingest.md contains yt-dlp branch
+PASS: A.4 ingest.md contains pdftotext branch
+PASS: A.4 ingest.md contains stdin branch
+PASS: A.4 tools/vtt-to-md.py exists
+PASS: A.4 tools/fetch-and-extract.py exists
+PASS: A.5 ask.md contains OFFLINE_MODE
+PASS: A.5 ask.md contains Step 2.5 offline gate
+PASS: A.5 ask.md contains network verification probe
+PASS: A.7 consolidate.md contains --weekly flag
+PASS: A.7 consolidate.md contains --dry-run flag
+PASS: A.7 consolidate.md contains ISO-week logic
+PASS: A.8 build-graph.md contains communities.jsonl
+PASS: A.8 build-graph.md contains Louvain/community-detect reference
+PASS: A.8 tools/community-detect.py exists
+PASS: A.8 tools/community-detect.py parses without syntax errors
+PASS: A.9 lint.md contains L-DANGLING-EDGE
+PASS: A.9 lint.md contains L-ORPHAN-CONCEPT
+PASS: A.9 lint.md contains L-MISSING-FRONTMATTER
+PASS: A.9 lint.md contains L-DUPLICATE-SLUG
+PASS: A.9 lint.md contains L-CROSS-CLIENT-GLOBAL
+FAIL: set -euo pipefail in tools/bootstrap-demo-clients.sh
+FAIL: set -euo pipefail in swarm/tests/part-a-smoke.sh
+PASS: No provider API-key references in new artefacts
+
+=== Results: PASS=27 FAIL=2 ===
+Part A smoke: FAIL — fix before Part B

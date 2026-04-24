@@ -27,6 +27,55 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-24 — T-km-materialization-mvp-2026-04-24 scalability pass (Wave 4 Part F)
+
+- **Decision:** Produce systems-scalability 5-gate horizon projection of the KM MVP
+  substrate post-ack Option B, covering A1↔B1 → A2↔B2 → A3↔B2 migration trajectory
+  through €50K / €200K / €1M / $100M / $1T gates, each with full BOSC-A-T-X, MHT events,
+  Janus degraded-mode spec (Self-Assertive + Integrative failure modes with binary recovery
+  predicates), migration trigger binary predicates, skip-gate failure modes, and revised-
+  parameter reality-checks against CC-1/3/4/5 Option B parameters.
+- **Reasoning:** Mode: scalability. Dispatched as Wave 4 of cyc-km-materialization-mvp-2026-04-24
+  post-ack. Inputs: all 8 canonical design records (Parts A/B/C/D/E), KM-ARCHITECTURE-VARIANTS
+  §11 trajectory, JETIX-PLAN §3.1.1 revenue-mix, ack file (Option B chosen). Key insight:
+  G3→G4 remains the FRAGILE gate (40% structural change) and the G3 pre-investment rule
+  (strategies.md `rule: G3-pre-investment-mandatory-for-G4-antifragility`) is confirmed by this
+  projection. The two-checkpoint kill (CC-4) and tier_1_phase_1 filter (CC-3) from the investor-
+  critic are not isolated KPI fixes — they are the falsifiability infrastructure for G1 that
+  propagates culturally through all subsequent gates (measure, falsify, adapt). G5 Fusion MHT
+  event: regulators join the Alliance holon — directly parallel to the BIOS-moment EISA standard
+  becoming the regulatory reference.
+- **Result:** Draft written to
+  `swarm/wiki/drafts/T-km-materialization-mvp-2026-04-24-systems-scalability-5-gate-projection.md`.
+  5 gates × (BOSC-A-T-X + MHT + Janus S-A + Janus INT + migration trigger + skip-gate failure
+  + revised-param reality-check) + antifragility table (4 transitions) + MHT sequence table
+  + 5 residual risks. All cell acceptance predicate greps pass (verified by inspection):
+  €50K/€200K/€1M/$100M/$1T present; Janus × 5; BOSC-A-T-X × 5; MHT × 5; migration trigger × 5;
+  Self-Assertive × 5; Integrative × 5; two-checkpoint present; 233 present; tier_1_phase_1
+  present; A1↔B1 + A2↔B2 + A3↔B2 all present.
+- **Review:** pending — scalability projections to be validated at cycle-end. Key test:
+  does the G3 pre-investment flag (and the skip-G3 failure mode description) reach Ruslan's
+  attention as actionable guidance? The G3 hazard is the most consequential finding — it
+  identifies the one gate where antifragility is made or broken for the entire trajectory.
+
+#### Rules extracted
+
+`rule: two-checkpoint-kill-is-falsifiability-culture-seed` — The CC-4 two-checkpoint kill
+predicate at G1 is not just a project-kill mechanism; it is the seed of falsifiability culture
+that must propagate through every subsequent gate. The G5 ongoing operating predicate is
+structurally identical (multiple binary checks; clear failure signal; defined escalation path).
+Establish falsifiability discipline at G1; it will be needed at every scale thereafter.
+
+`rule: G5-requires-governance-before-infrastructure` — Owned compute infrastructure (audio_526
+hardware + электростанции) at G5 must be preceded by Alliance governance at G4. The historical
+parallel: IBM shipped BIOS before the Alliance standard existed and lost control. Jetix must
+invert this: governance (G4) before infrastructure ownership (G5). Deriving sequence from the
+BIOS-moment lesson is non-obvious but load-bearing.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — T-km-materialization-mvp-2026-04-24 scalability pass (Wave 4 Part F) added
+
 ### 2026-04-24 — T-km-architecture-research-2026-04-24 scalability pass (APEX)
 
 - **Decision:** Produce systems-scalability APEX artefact projecting both
