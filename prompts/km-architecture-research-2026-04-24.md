@@ -1,17 +1,24 @@
 ---
-title: Execution Prompt — Knowledge-Management + Project-Management Architecture Research (Cycle-3 M-class structural task)
+title: Execution Prompt — Knowledge-Management + Project-Management Architecture Research (Cycle-3 M-class structural task) [v2 — post-BIOS-research revision; UC-9 + UC-10 mandatory]
 date: 2026-04-24
+revision: v2 (incorporates upstream meta-brief v2 2026-04-24 03:23 CET — UC-9 client-isolation + UC-10 offline-first inference added as MANDATORY acceptance criteria post Strategic Insight 2026-04-24 AI-BIOS moment)
 type: execution-prompt
 author: Claude Code on server (Opus 4.7, 1M context) — per Ruslan durable rule `feedback_cc_writes_own_deep_prompts.md` (2026-04-23)
 target_executor: A FRESH Phase A ROY swarm cycle — brigadier + 5 domain experts (engineering / mgmt / systems / philosophy / investor), matrix 5×4 = 20 cells, Stage-Gated, running on `claude/jolly-margulis-915d34`
-upstream_brief: prompts/meta-brief-km-architecture-research-2026-04-24.md
+upstream_brief: prompts/meta-brief-km-architecture-research-2026-04-24.md (v2)
 output: decisions/KM-ARCHITECTURE-VARIANTS-2026-04-XX.md (single consolidated document, 15-25K words) + intermediate artefacts in swarm/wiki/tasks/T-km-architecture-research-2026-04-XX/
 estimated_duration: 4-8 active hours of swarm work (turn-counted, Max-subscription) + ≥30 min Ruslan review at the Stage-Gated pause
 m_class_budget: 1 of 2 structural M-class slots per HD-02 N=2 rate-limit (cycle-2 landed); leaves 1 slot for companion measurement task if chosen same cycle
 precedes: T-km-architecture-variants-ack → Ruslan picks preferred variant (or hybrid) → separate materialization task in a later cycle
 defers: NO implementation of the architecture in this cycle; NO touching legacy v2 wiki/ or 14 legacy agents; NO M3 solo-vs-matrix experiment
+v2_mandatory_additions:
+  - "UC-9 client-isolation architectural proof — two simultaneous Jetix clients with identical methodology + tooling CANNOT observe each other's KB / wiki / project-files / agent-memory / insights. Proof by construction, not by policy."
+  - "UC-10 offline-first inference — Jetix client's AI 'archivist' (locally-distilled Llama / DeepSeek / Mistral family) answers substantive query about client's private data while network-disconnected from OpenAI/Anthropic/cloud."
+  - "Any variant that cannot architecturally prove UC-9 AND UC-10 → DROP VARIANT, REPLACE. These are the strategic differentiation of Jetix vs 35K generic AI-wrapper consulting companies; any variant that discards them discards Jetix's position."
 authoritative_specs:
-  - prompts/meta-brief-km-architecture-research-2026-04-24.md (the short brief this prompt operationalizes)
+  - prompts/meta-brief-km-architecture-research-2026-04-24.md (the short brief this prompt operationalizes — v2 with UC-9 + UC-10)
+  - decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md (MANDATORY READ — local-first / client-private architecture positioning; defines UC-9 + UC-10 rationale; 211 lines)
+  - raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md (MANDATORY READ — historical parallel; WHY local-first is the moat; 646 lines; FULL READ required by integrator + scalability modes)
   - design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md (existing v3 wiki spec, 4730 lines, APPROVED Gate 1 + Gate 2 2026-04-23)
   - decisions/FPF-ENHANCEMENT-FOR-DOMAIN-EXPERTS-2026-04-23.md (5 alphas + 18 enhancement proposals, APPROVED 200% depth 2026-04-23)
   - decisions/VISION-NEXT-STRATEGIC-HORIZON-2026-04-24.md (Pillars 2+3 kernel, C-1/C-2/C-3 concepts)
@@ -27,6 +34,7 @@ authoritative_specs:
 binding_scope: KM + Project-Mgmt architecture research (variant generation only — NO implementation)
 state: ready-to-execute
 operating_mode: Stage-Gated (AWAITING-APPROVAL pause between Phase 5 variant drafts and Phase 6 brigadier consolidation)
+locked_decisions_referenced: [D13 closed-core/open-surface, D17 filesystem-SoT, D19 $1T trajectory, D20 USB-C, D21 matchmaker+roy, D24 open-source research, W-5 Two-level CE, HD-02 M-class N=2]
 ---
 
 # KM + Project-Mgmt Architecture Research — Deep Execution Prompt (Phase A swarm, Cycle-3 M-class)
@@ -91,10 +99,18 @@ enough."** Concretely, for this cycle:
    the design space (different governing metaphor, different dominant
    retrieval mechanic, different agent-coupling model) so Ruslan has a real
    choice — not three labels on one underlying recommendation.
-2. **Every variant must demonstrably support UC-1..UC-8** (§3). If a variant
-   cannot trace all eight use cases through its mechanics — you do NOT ship a
-   "partial support" excuse. You either iterate the variant until it supports
-   all eight, or you drop the variant and produce a third that does.
+2. **Every variant must demonstrably support UC-1..UC-10** (§3). Ten use
+   cases — UC-1..UC-8 structural (ingest / digest / solve / skill / onboard
+   / cross-project / contradiction / scale), plus **UC-9 client-isolation**
+   and **UC-10 offline-first inference** (added 2026-04-24 post-BIOS-research
+   — see `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md`).
+   If a variant cannot trace all ten use cases through its mechanics — you
+   do NOT ship a "partial support" excuse. You either iterate the variant
+   until it supports all ten, or you drop the variant and produce a third
+   that does. **UC-9 and UC-10 are NOT optional extensions — they are the
+   architectural differentiation of Jetix vs 35K generic AI-wrapper
+   consulting companies; any variant discarding them discards Jetix's
+   strategic position.**
 3. **Matrix 5×4 must actually fire.** All 5 experts × 4 modes = 20 invocation
    cells, logged, each producing a draft artefact under
    `swarm/wiki/drafts/T-km-architecture-research-2026-04-XX-<expert>-<mode>-<artefact>.md`.
@@ -115,6 +131,23 @@ enough."** Concretely, for this cycle:
 6. **Zero locked-decision re-opening.** 24 Locks (§7), FPF E-1..E-18, W-1..W-12
    from ROY-WIKI-V3-GOALS, 8-block manifests, 5 alphas, shared-protocols 9
    sections — all remain as-is. This cycle EXTENDS, never RESETS.
+7. **Local-first, client-private architecture is the sixth demand** (added
+   2026-04-24 post-BIOS-clone-wars research — see
+   `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md`). The
+   KM architecture you produce is NOT just Jetix-internal — it IS the
+   template we will deploy per client. Each client's KB lives on their
+   infrastructure; their data never enters Jetix central pool; their AI
+   archivist runs on their server (locally-distilled LLM — Llama /
+   DeepSeek / Mistral family); Jetix methodology is pushed to them as
+   versioned updates, their data is NOT pulled back. This is
+   non-negotiable Jetix positioning (parallel: IBM BIOS was published +
+   copyright-protected; clone-wars freed the market at 30-40× total pie;
+   Jetix methodology = open interface, closed implementation, local KB =
+   client's BIOS). **Every variant MUST architecturally prove UC-9
+   (client-isolation) and UC-10 (offline-first inference) — by construction,
+   not by policy.** Variants that discard these fail immediately; drop and
+   replace with a variant that preserves Jetix's strategic differentiation
+   against the 35K generic AI-wrapper market.
 
 **Disqualifying anti-patterns** (if any appear in the final document the cycle
 is incomplete and brigadier re-enters Phase 4):
@@ -148,6 +181,21 @@ is incomplete and brigadier re-enters Phase 4):
   demonstrate concrete read/write contracts with each other (project-wiki
   reads topic-wikis; topic-wikis receive write-backs from project-wiki
   patterns).
+- **Any variant that cannot architecturally prove UC-9 client-isolation**
+  — i.e., the variant relies on "Jetix admins will be careful" or "policy
+  prevents cross-client access" rather than showing that by construction
+  (directory boundaries, per-client signing keys, per-client agent
+  instantiation, isolated indexes) two simultaneous Jetix clients cannot
+  observe each other's data. Policy-based isolation = disqualifying.
+- **Any variant that cannot architecturally prove UC-10 offline-first
+  inference** — i.e., the variant requires the client's wiki retrieval /
+  synthesis path to hit OpenAI / Anthropic / cloud APIs to answer a
+  substantive query about client-private data. Cloud-dependent inference
+  for the core "your data never leaves your server" pathway = disqualifying.
+  (Cloud augmentation is permissible as an optional-upgrade tier where the
+  client explicitly opts in and sends redacted/public-data queries; the
+  default-offline pathway must still work standalone for client-private
+  data.)
 
 If you catch yourself thinking "close enough," or "Ruslan will understand the
 gap," or "the other expert will fill this" — **stop. Re-read §1. Tighten.**
@@ -180,12 +228,15 @@ Five concrete depth floors. Each variant failing any floor gets iterated
 until it passes.
 
 1. **Word-count floor per variant** (per §5.1 template): ≥1500 words on
-   architecture description (mechanics section), ≥800 words on use-case
-   walkthrough (UC-1..UC-8 traced concretely), ≥600 words on horizon
-   projection (all 5 gates, each with named failure mode + upgrade path),
-   ≥400 words on anti-fragility assessment. Total per variant: ~4000-5000
-   words. Total for 6 variants: ~25-30K words of variant prose alone, plus
-   matrix synthesis + recommendation + dissents + decision packet.
+   architecture description (mechanics section), ≥1000 words on use-case
+   walkthrough (UC-1..UC-10 traced concretely — 100 words × 10 UCs ≥
+   minimum), ≥600 words on horizon projection (all 5 gates, each with
+   named failure mode + upgrade path), ≥400 words on anti-fragility
+   assessment, ≥400 words on client-isolation + offline-first architectural
+   proof (UC-9 + UC-10 co-located sub-section). Total per variant:
+   ~4500-5500 words. Total for 6 variants: ~27-33K words of variant prose
+   alone, plus matrix synthesis + recommendation + dissents + decision
+   packet.
 2. **Citation floor**: ≥8 Tier-1 citations per variant (see §5 research
    corpus), each citing path + section. Bare assertions without source are
    disqualified. Each major claim carries F-G-R.
@@ -454,11 +505,17 @@ shallow. Over 25K → likely redundant; compress before landing.
 
 ---
 
-## §3 — Use-case Acceptance Matrix (UC-1 .. UC-8)
+## §3 — Use-case Acceptance Matrix (UC-1 .. UC-10)
 
-Every variant MUST demonstrably support all 8 use cases. Support is defined
+Every variant MUST demonstrably support all 10 use cases. Support is defined
 by concrete trace: input → wiki paths touched → agent invoked → write-back
 fires → citation chain emitted. "Supports in principle" = fail.
+
+**UC-1..UC-8 are structural acceptance criteria** (how the KM + project-mgmt
+architecture functions). **UC-9 and UC-10 are strategic acceptance criteria**
+(how the architecture preserves Jetix's competitive moat against the 35K
+generic AI-wrapper consulting market). Structural failure is recoverable
+through iteration; strategic failure drops the variant.
 
 ### §3.1 UC-1 — Video Ingest (ingestion pipeline that learns)
 
@@ -693,6 +750,184 @@ Reframe per FPF E-6).
 discipline), or does it merely *survive* (robust but linear), or does it
 *strain and degrade* (fragile)? Justify with mechanism.
 
+### §3.9 UC-9 — Client Isolation (MANDATORY; added v2 post-BIOS-research)
+
+**Scenario.** Two Jetix clients — Client-A (DACH Mittelstand manufacturing,
+€40M revenue) and Client-B (DACH Mittelstand professional services, €15M
+revenue) — simultaneously run the SAME Jetix methodology + tooling + agent
+prompts on separate infrastructure. Both have ingested their own internal
+documents (contracts, financials, strategy memos, customer lists, R&D notes,
+personnel files). Both use the AI archivist / per-project-agents / wiki
+system at the same time. A hostile Client-A employee attempts (directly or
+via a compromised agent prompt-injection) to extract anything about Client-B
+— customer list, strategy, internal memo. **The architecture must make this
+impossible by construction — not by policy, not by careful admin, not by
+"trusted Jetix employees" — by the physical / directory / cryptographic
+structure of the variant.**
+
+**Acceptance criteria (trace must be architectural, not administrative):**
+
+- **Cross-client data-leak impossible by construction.** Each client's KB
+  lives in a physically isolated location — separate filesystem trees,
+  separate git repositories, separate agent instantiations keyed to the
+  client (e.g., `jetix-os-client-A/swarm/wiki/` vs `jetix-os-client-B/
+  swarm/wiki/`). Each client's agents have read-permission only to their
+  own tree. Prompt-injection attempting "read /path/to/client-B" fails at
+  filesystem permission level, not at "agent politely declines."
+- **Portable & deletable.** Each client's KB is mountable, portable, and
+  deletable independently. On contract termination, Client-A's data can
+  be handed to Client-A on a drive / repo and deleted from Jetix
+  infrastructure with zero lingering cross-references elsewhere.
+  (Architectural implication: cross-client edges in `graph/edges.jsonl`
+  are FORBIDDEN; the only edges from Client-A KB point to Jetix
+  methodology repo, not to other clients.)
+- **Methodology push, data no pull.** Jetix pushes methodology updates
+  (new skills, new templates, new patterns) from Jetix-central to Client-A
+  (or Client-A pulls from a Jetix-methodology git remote) **without any
+  reverse data flow**. Client-A's wiki never sends its content back to
+  Jetix-central. If Jetix wants insights from Client-A engagements, it
+  must negotiate explicit, audited knowledge-transfer (redacted case
+  study, opt-in).
+- **Agent instantiation per client.** The variant specifies how a Phase-A
+  swarm (brigadier + 5 experts) is **re-instantiated per client** — the
+  brigadier running for Client-A is a *different process instance* (with
+  its own `swarm/logs/`, its own `mailboxes/`, its own session memory)
+  from the brigadier running for Client-B. No shared mutable state.
+- **Cryptographic attestation (optional but recommended).** Variant
+  discusses whether each client-KB is signed / hashed for tamper-evidence
+  (e.g., git-commit SHAs as ambient attestation; optional GPG signatures
+  per commit; BSI C5 / ISO 27001 audit-trail compatibility).
+- **Isolation test.** Variant describes a concrete pen-test scenario:
+  "simulated hostile Client-A employee attempts `find / -name '*client-B*'`
+  + reads filesystem / queries agents / crafts prompt-injection; trace
+  confirms zero Client-B data returned / accessible."
+- **Failure mode to trace.** What happens if the hosting model (Path A
+  Jetix-hosted vs Path B Client-hosted vs Path C Hybrid per the Strategic
+  Insight doc §5) changes between clients? Variant specifies how isolation
+  is preserved across hosting modes — in particular Path C (Jetix hosts
+  agent-swarm; client hosts KB; secure tunnel between) requires the most
+  architectural care.
+
+**Architectural proof required — brigadier's integrator cell must produce
+a named proof section in the variant draft:** either "proof by filesystem
+isolation" (simple case: each client is a fork / namespaced subtree with
+OS-level permissions), or "proof by cryptographic scoping" (per-client
+signing keys govern which agents can read which KBs), or "proof by
+federated holon boundaries" (each client = its own swarm-holon per FPF
+Part 8; cross-holon edges forbidden by D3 enum + `/lint` check
+extending Q5 signal set). Bare "agents read their scope" claim
+without concrete mechanism = disqualified.
+
+### §3.10 UC-10 — Offline-First Inference (MANDATORY; added v2 post-BIOS-research)
+
+**Scenario.** Client-A is network-disconnected from OpenAI / Anthropic /
+public cloud APIs (could be policy, compliance, regulatory EU-sovereign
+environment, geographic air-gap, incident response, or just a failed cable).
+Their Jetix AI archivist — powered by a locally-runnable distilled LLM
+(Llama family, DeepSeek family, Mistral family — or Phi / Qwen variants
+appropriately licensed for commercial Mittelstand deployment) — answers
+a substantive query about Client-A's own data without any external API
+call. Examples of substantive queries:
+- "What's the status of our account-receivable pipeline this month?"
+- "Summarize the last 3 partnership negotiations and extract recurring
+  objections."
+- "What's our current ICP definition and how does contract-042 fit or not?"
+
+**Acceptance criteria (architectural, not marketing):**
+
+- **Inference path doesn't require external API call.** For any query about
+  client-private data, the inference path is: query → retrieval over local
+  filesystem/vectorstore/edges.jsonl → local LLM synthesis → response.
+  Zero network calls to OpenAI / Anthropic / cloud endpoints. Variant
+  specifies which local-LLM families it supports (Llama 3.x, DeepSeek V3,
+  Mistral 7B / Mixtral, Phi-3, Qwen 2.5 — non-exhaustive; must be
+  commercially licensed for Mittelstand deployment). Variant specifies
+  expected hardware footprint (e.g., "7B Q4 quantized runs on 16GB GPU;
+  70B Q4 runs on 48GB GPU"; variant flags where tradeoffs sit).
+- **KB retrieval protocol works against local filesystem/vectorstore.** Q1
+  4-tier retrieval extends to Q1' offline-tier: Tier-A direct path (grep
+  + pathwalk) — already offline-first; Tier-B index+grep — already offline-
+  first; Tier-C typed-BFS over `edges.jsonl` — already offline-first;
+  Tier-D long-context fallback — MUST be backed by local LLM, not cloud
+  LLM (this is the key offline-first discipline). If the variant adds
+  HippoRAG PPR, it runs against local graph; if it adds GraphRAG community
+  summaries, they are pre-computed locally (nightly cron) and read as
+  local files.
+- **Response quality bar measurable (not marketing claim).** Variant
+  specifies what use-case complexity tier works fully offline vs when
+  cloud LLM augmentation becomes needed. Examples of the tier split:
+  - T-Offline (fully offline-sufficient): fact retrieval; summarization
+    of single document ≤10K tokens; classification; extraction against
+    known schema; short synthesis (≤500 words).
+  - T-Hybrid (offline-default, cloud-optional-with-consent): synthesis
+    across 10+ documents; novel reasoning over domain edge cases; long
+    composition (≥2000 words). Client opts in to cloud per-query with
+    redacted input (e.g., placeholders for PII).
+  - T-Cloud-only (for public-data queries, not client-private): benchmark
+    comparisons; SOTA research; open-source code search. These never
+    touch client-private data at all.
+- **Security layer controls what enters the client KB.** Every ingest
+  carries signed provenance (who, when, from where, approved by whom);
+  audit trail survives ingest; `/lint` includes signature validation
+  (extending existing signals). No "open ingest" from untrusted sources.
+- **Network-disconnect test.** Variant describes: "detach client network;
+  issue query against client KB; expect local-only response with citation
+  to client-KB pages; verify zero outbound network events in the audit
+  log."
+- **Failure mode to trace.** What happens when the local LLM hits a query
+  outside its Tier-Offline capability? (Option A: degrade — local LLM
+  returns "best-effort partial answer" with confidence=low. Option B:
+  explicit mode-switch — "this query exceeds local capability; to use
+  cloud-augmentation with redacted input, approve here"; HITL gate.
+  Option C: refuse — "this query requires cloud; local-only mode is
+  enforced; cancel or approve.") Variant names the default (recommended:
+  Option B for Mittelstand Phase-1, per Strategic Insight §5 Path C).
+
+**Architectural proof required — brigadier's engineering × integrator cell
+must produce a named proof section:** either "proof by local LLM
+instantiation" (specific model file present in the client deployment;
+inference stack specified — ollama / llama.cpp / vLLM / LM Studio — with
+trade-offs); "proof by retrieval pathway" (retrieval layer has no network
+I/O on Tier-A/B/C; Tier-D fallback uses local LLM context window); "proof
+by redacted cloud-augmentation" (when opt-in, outbound request redacts
+PII per NER + pattern matching; audit log records redaction delta). Bare
+"offline-capable" claim = disqualified.
+
+**Why this is a moat, not a feature.** OpenAI / Anthropic / cloud vendors
+CANNOT replicate "your data never leaves your server" via any API upgrade
+— that is architecturally impossible for an API-first vendor. Jetix owns
+this pathway by construction. Every Mittelstand client concerned about
+GDPR / EU AI Act / sectoral compliance (finance / health / defense) reads
+"offline-first with local LLM" as "this one actually understands our
+constraint." Variants that discard offline-first discard this moat
+permanently.
+
+### §3.11 UC interaction matrix
+
+UC-9 and UC-10 are not independent — they co-construct the local-first
+client-private architecture:
+
+- UC-1 (video ingest) must run under Client-A's isolation + with
+  optional cloud (OK — transcription can be outsourced to Jetix-central
+  with client-approved redaction; or fully local via Whisper.cpp).
+- UC-2 (weekly digest) must run fully offline per Client-A's data.
+- UC-3 (solve-with-wiki) is the central UC-10 test: local LLM + local KB
+  + local retrieval + possible T-Hybrid opt-in.
+- UC-4 (skill accumulation) — Client-A's pattern accumulates in
+  Client-A's wiki; Jetix-central pulls optional case studies only with
+  explicit consent.
+- UC-5 (project onboarding) must spawn isolated project-wiki under
+  Client-A's tree, not Jetix-central.
+- UC-6 (cross-project transfer) — *within* Client-A's portfolio only by
+  default; cross-Client-A-to-Client-B transfer is architecturally
+  forbidden (UC-9).
+- UC-7 (contradiction detection) runs per-client; Jetix-central does not
+  see cross-client contradictions (and MUST NOT — privacy).
+- UC-8 (scale test) now gets a per-client dimension: client count scales
+  from 1 (Phase-1 proof-of-concept) → 10 (€200K) → 50 (€1M) → 500
+  ($100M) → 5000+ ($1T Mittelstand AI Alliance member network); each
+  scale adds isolation operational complexity, not capability change.
+
 ---
 
 ## §4 — Per-Variant Deliverable Template (§5.1 canonical)
@@ -771,10 +1006,25 @@ spelled out concretely.
   are preserved (e.g., a `referenced` page cannot be deleted; a `tombstoned`
   page retains its edges marked `archived: true`)?
 
-**Use-case walkthrough (≥800 words; one sub-section per UC-1..UC-8).** Trace
-each use case concretely: input text → paths touched → agent invoked →
-writes → citation chain. Do not list acceptance criteria; *demonstrate
-meeting them*.
+**Use-case walkthrough (≥1000 words; one sub-section per UC-1..UC-10).**
+Trace each use case concretely: input text → paths touched → agent invoked
+→ writes → citation chain. Do not list acceptance criteria; *demonstrate
+meeting them*. **UC-9 (client-isolation) and UC-10 (offline-first
+inference) each require their own architectural-proof sub-section** —
+at minimum ≥200 words per UC-9 and UC-10 with the specific
+proof-by-construction mechanism named (see §3.9 and §3.10 above).
+
+**Client-isolation + offline-first architectural-proof section (≥400
+words).** Co-located dedicated section addressing UC-9 + UC-10 together.
+Discusses: isolation model (filesystem-namespaced / cryptographic-
+scoping / federated-holon); local-LLM family supported (Llama / DeepSeek
+/ Mistral — variant's preferred defaults + rationale); hosting model
+alignment (Path A Jetix-hosted / Path B Client-hosted / Path C Hybrid
+per Strategic Insight §5); tier split (T-Offline / T-Hybrid /
+T-Cloud-only); pen-test / network-disconnect test outlined; security
+layer on ingest (signed provenance, audit trail); compatibility with EU
+compliance (GDPR Art. 22 + 32; EU AI Act Art. 14 + risk-routing; BSI C5
+/ ISO 27001 alignment target).
 
 **Integration spec (≥400 words; refers to the companion Layer-B variant if
 this is a Layer-A variant, and vice versa).** Read/write contracts between
@@ -793,9 +1043,16 @@ path named in the scaling section."
   wiki + skill accumulation): range in days.
 - Weeks to UC-5..UC-8 stable (project onboarding + cross-project transfer
   + contradiction detection + scale-tested at G1): range in weeks.
-  Each estimate must cite its governing bottleneck (e.g., "bootstrapping
-  limited by 1 expert reading time through §4.6.2 book-distillation sweep
-  @ ~2 books/day = ~3 weeks for Pillar-2 readiness; not by compute time").
+- Weeks to UC-9 + UC-10 live (client-isolation pen-test passed + offline-
+  first inference demo against a simulated client KB on a local LLM):
+  range in weeks — separate line, because this is strategic differentiation
+  work (requires local-LLM stack integration, isolation audit, methodology
+  repo packaging).
+  Each estimate must cite its governing bottleneck (e.g., "UC-10 limited
+  by local-LLM ops-engineer time for quantization + inference-stack
+  tuning, not by architectural design"; "UC-9 limited by per-client
+  instantiation automation — first client takes ~2 days manual bootstrap,
+  subsequent clients ≤2 hours via script").
 
 **Horizon projection (≥600 words; table per §3.8 UC-8 gate per 5 gates).**
 Each gate row: specific number + named physical failure + named upgrade
@@ -826,8 +1083,23 @@ on Monday 8:00 CET via cron?"
 
 ### §5.1 Tier-1 mandatory (ALL experts read; ALL modes reference)
 
-- `prompts/meta-brief-km-architecture-research-2026-04-24.md` — the short
-  brief this prompt operationalizes.
+- `prompts/meta-brief-km-architecture-research-2026-04-24.md` (v2) — the
+  short brief this prompt operationalizes; v2 adds UC-9 + UC-10 mandate.
+- **`decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md`** —
+  MANDATORY. 211 lines. Local-first / client-private architecture
+  positioning; defines UC-9 + UC-10 rationale; Path A/B/C hosting
+  alternatives; parallels to IBM BIOS / clean-room / Wintel; 24 Locks
+  cross-references (D13, D17, D19, D20, D21, D24). ALL experts read §§0-6
+  + §9 open questions + §10 immediate actions. Scalability-mode reads
+  §7-8 for roadmap pillars.
+- **`raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md`** —
+  MANDATORY FULL READ for integrator + scalability modes; ≥skim for
+  critic + optimizer. 646 lines. PC market 1977-1995 history; BIOS
+  copyright + clean-room legal innovation; Columbia → Compaq → Phoenix
+  → AMI → Award chronology; Wintel structural emergence; 11 structural
+  lessons; 12 parallels to AI 2024-2026. Provides the HISTORICAL
+  grounding for why local-first + open-methodology × closed-implementation
+  is Jetix's defensible position.
 - `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md` — existing wiki v3
   spec, 4,730 lines. Read in full at least by integrator-mode on each
   expert. Critic-mode reads D1 + D2 + D3 + D5 + D6 + D10 + D11 at minimum.
@@ -997,16 +1269,16 @@ frontmatter per D2 §2.2 + §2.5 drafts addendum. `state: drafted`;
 |  8 | mgmt × scalability | Project project-mgmt model through 5 gates; 8 → 50 projects; Ruslan attention budget (≤20 active tasks per CLAUDE.md) as Agency trigger; Grove leverage as MHT marker |
 |  9 | systems × critic | Audit both layers for Janus-failure-mode risk (S-A excess / INT excess); weak-supplementation test per R-E §1.2 P.4; ontology drift; cross-niche edge coherence |
 | 10 | systems × optimizer | Propose minimal ontological spine (9 layers + 12 edges + 5 alphas) extensions (if any) — or propose ZERO extensions with justification; feedback loops surfaced concretely |
-| 11 | systems × integrator | Compose both Layer-A + Layer-B Variant candidate from systems perspective; Левенчук ШСМ Методология + Системная инженерия apex; holarchy: swarm-holon ↔ project-holons ↔ expert-holons |
+| 11 | systems × integrator | Compose both Layer-A + Layer-B Variant candidate from systems perspective; Левенчук ШСМ Методология + Системная инженерия apex; holarchy: swarm-holon ↔ project-holons ↔ expert-holons; **client-holon boundary** — each client = sealed holon with Jetix-methodology-holon as separate parent (UC-9 architectural proof via federated-holon-boundary option) |
 | 12 | systems × scalability | Project BOTH layers through 5 gates; name BOSC-A-T-X trigger per gate; MHT Fission / Role-Lift / Fusion events; requisite-variety checks per Ashby |
 | 13 | philosophy × critic | Audit variant candidates for epistemic hygiene — falsifiable claims? multiple-alternatives-considered? Anti-scope explicit? Popperian falsifiability on every "works at scale" assertion |
 | 14 | philosophy × optimizer | Sharpen F-G-R tagging discipline across variants; propose 4-part DRR entry format in strategies.md + per-variant DRR embedded at `decisions/` entry point; supersession chain invariants |
 | 15 | philosophy × integrator | Compose epistemic-backbone overlay for both layers; claim-validity gates; contradiction-handling protocol; universality test per JETIX-PHILOSOPHY §10 for each variant |
-| 16 | philosophy × scalability | Project epistemic invariants through 5 gates; at $100M / $1T — does the contradiction-detection mechanism hold? What is the equivalent of "peer review at $1T scale"? Research programme hardcore per Lakatos |
-| 17 | investor × critic | Audit variant candidates for capital allocation — does the variant justify infrastructure spend at each gate? Margin-of-safety analysis on infrastructure migrations; unit-econ check per page / per query |
-| 18 | investor × optimizer | Propose Kelly-like bet-sizing for each gate upgrade (conservative BM25 at G2 vs Neo4j migration at G2 vs stay-filesystem at G2); barbell construction across variants |
-| 19 | investor × integrator | Compose moat analysis across variants; Private Library ROI; knowledge compounding as intangible asset valuation; Buffett owner-earnings framing applied to wiki-as-asset |
-| 20 | investor × scalability | Project investment-fund mechanics through 5 gates; when does Private Library cross $10M / $100M asset value? Token economy Option B (D23) tie-in at G3-G4 — does variant enable it? |
+| 16 | philosophy × scalability | Project epistemic invariants through 5 gates; at $100M / $1T — does the contradiction-detection mechanism hold? What is the equivalent of "peer review at $1T scale"? Research programme hardcore per Lakatos; **epistemic integrity of client-isolated knowledge** — does a federated multi-client deployment still allow Popperian falsification of shared methodology claims without leaking client data? |
+| 17 | investor × critic | Audit variant candidates for capital allocation — does the variant justify infrastructure spend at each gate? Margin-of-safety analysis on infrastructure migrations; unit-econ check per page / per query; per-client deployment cost for Path A/B/C (Strategic Insight §5) |
+| 18 | investor × optimizer | Propose Kelly-like bet-sizing for each gate upgrade (conservative BM25 at G2 vs Neo4j migration at G2 vs stay-filesystem at G2); barbell construction across variants; local-LLM inference cost-curve per client (Llama 7B Q4 GPU-hours vs Llama 70B vs Mistral 7B) |
+| 19 | investor × integrator | Compose moat analysis across variants; Private Library ROI; knowledge compounding as intangible asset valuation; Buffett owner-earnings framing applied to wiki-as-asset; **Mittelstand AI Alliance EISA-moment valuation** (network-effect compound from federation of Mittelstand deployments per Strategic Insight §3-§4) |
+| 20 | investor × scalability | Project investment-fund mechanics through 5 gates; when does Private Library cross $10M / $100M asset value? Token economy Option B (D23) tie-in at G3-G4 — does variant enable it? **Mittelstand AI Alliance scaling** — how does methodology-license revenue stack vs per-client methodology-deployment revenue per horizon gate |
 
 **Dispatch discipline.**
 - Brigadier dispatches cells in parallel waves (not serially). Wave 1: cells
@@ -1099,15 +1371,43 @@ Full table in the brief. Most-relevant for this cycle:
 
 - **D17 Lock 17 — Filesystem = Single Source of Truth.** Wiki lives in git.
   Notion is mirror/view-only. No variant may propose Notion-primary or DB-
-  primary architecture.
+  primary architecture. **Extended by v2 Strategic Insight: client's data
+  lives on client's filesystem; Jetix is never the central server for
+  client data.**
 - **D19 Lock 19 — $1T Holding-Scale.** Every variant projects through all 5
   gates (€50K / €200K / €1M / $100M / $1T) without fundamental re-architecture.
+  Per Strategic Insight §4: Intel/Microsoft parallel — they captured
+  trillions NOT by owning BIOS but by owning layers above; Jetix owns
+  methodology + orchestration + community, not client data.
 - **D24 Lock 24 — Open-source research Phase 2+.** Research content eligible
   for open-source; methodology closed. Variant specifies which wiki layers
   fall under which tier — `topics/` and `sources/` may be publicly shareable
-  Phase 2+; `themes/`, `agents/`, `brigadier/` remain closed-core.
-- **D13 Lock 13 — Open surface / closed core.** Private Library stays
-  closed. Partner tier access via Lock 21 matchmaker.
+  Phase 2+; `themes/`, `agents/`, `brigadier/` remain closed-core. Per
+  Strategic Insight §4: "Research on HOW to run local-first secure AI in
+  Mittelstand published openly; methodology on WHAT to do for specific
+  client = closed."
+- **D13 Lock 13 — Open surface / closed core. CORE TO UC-9 + UC-10.**
+  Published: Jetix methodology + templates + patterns. Closed: client KB +
+  specific prompts + client-specific configurations. This IS the concrete
+  implementation of the open-interface / closed-implementation grammar
+  that UC-9 + UC-10 require. Per Strategic Insight §4: "BIOS was published
+  (documentation) + legally protected (copyright) = open interface, closed
+  implementation. Jetix methodology will be published (documentation,
+  templates, patterns) + legally protected (IP/licensing) = open interface,
+  closed implementation. Client's KB = client's BIOS — each one unique,
+  non-replicated. Jetix orchestration layer = EISA consortium — open
+  standard all adopt."
+- **D20 Lock 20 — USB-C + Enterprise-Fast. CORE TO UC-9 + UC-10.**
+  Standards-level interoperability is the positioning — client can swap
+  underlying LLM (OpenAI → Llama → Claude → DeepSeek) without losing
+  their KB. Jetix = standard connector. Variants MUST support LLM-swap
+  at the inference-stack boundary.
+- **D21 Lock 21 — Matchmaker + Roy-Replication.** Each client site = node
+  in federated network. Jetix orchestrates without centralizing data. Per
+  Strategic Insight §4: every client deployment becomes a node in the
+  Mittelstand AI Alliance federation at G2-G3 gates. Variants specify
+  federation protocol (what data NEVER crosses the boundary; what
+  methodology DOES cross; how partner clients discover each other).
 - **D18 Lock 18 — Productization over hours.** Wiki-as-asset + project-
   wikis are productization substrate.
 - **D21 Lock 21 — Matchmaker + Roy-Replication.** Each variant must
@@ -1499,14 +1799,15 @@ variant drafts) live at the same directory level with `<expert>-<mode>-<slug>.md
 
 ### §10.5 Expected output word-counts
 
-- Final doc: 15-25K words.
-- Per variant: ~4-5K words (×6 = 24-30K, but some is shared structure
-  across variants → expect ~15-20K in variant bodies alone + 5-10K in
+- Final doc: 18-28K words (up from 15-25K to absorb UC-9 + UC-10
+  architectural-proof sections across 6 variants).
+- Per variant: ~4.5-5.5K words (×6 = 27-33K, but some is shared structure
+  across variants → expect ~18-22K in variant bodies alone + 6-10K in
   framing / integration / matrix / recommendation / dissents / decision
   packet).
 - Each cell draft: 800-2500 words. 20 cells × ~1500 avg = ~30K words in
   drafts.
-- Total prose generated this cycle: ~50-60K words.
+- Total prose generated this cycle: ~55-65K words.
 
 ---
 
@@ -1527,9 +1828,11 @@ emitting the gate file.
       <date>-<expert>-<mode>-<slug>.md` (one per matrix cell; all 5
       experts × 4 modes accounted for in `swarm/logs/<cycle-id>/events.md`
       dispatch log).
-- [ ] Use-case matrix §10 of output doc filled: 6 variants × 8 UCs = 48
+- [ ] Use-case matrix §10 of output doc filled: 6 variants × 10 UCs = 60
       cells, each marked pass / partial / fail (partial and fail each
-      with explicit reason; no "TBD").
+      with explicit reason; no "TBD"). UC-9 and UC-10 cells MUST all read
+      `pass` for every variant (partial / fail on UC-9 or UC-10 = variant
+      disqualified and iterated or dropped; see §1.2 depth bar #2).
 - [ ] Integration pairs §9 of output doc specifies ≥3 paired
       recommendations A↔B with cross-pair discussion.
 - [ ] ≥3 preserved dissents in §12, each with F-G-R + handling decision.
@@ -1540,6 +1843,17 @@ emitting the gate file.
       physical failure + upgrade path + MHT event + BOSC-A-T-X trigger +
       Janus risk per gate.
 - [ ] Anti-fragility assessment per variant with ≥2 pressure tests.
+- [ ] UC-9 architectural proof section ≥200 words in every variant;
+      names the specific proof-by-construction mechanism (filesystem-
+      namespaced / cryptographic-scoping / federated-holon-boundary);
+      includes pen-test scenario walkthrough.
+- [ ] UC-10 architectural proof section ≥200 words in every variant;
+      names supported local-LLM family; names inference stack (ollama /
+      llama.cpp / vLLM / LM Studio); names T-Offline / T-Hybrid / T-Cloud-
+      only tier split; includes network-disconnect test walkthrough.
+- [ ] Co-located UC-9 + UC-10 proof section ≥400 words per variant (per
+      §5.1 template field) addressing hosting model (Path A/B/C), EU
+      compliance alignment, security layer on ingest.
 - [ ] F-G-R triples on every major claim in the final doc.
 - [ ] No prose assertion without citation.
 - [ ] `swarm/gates/AWAITING-APPROVAL-km-architecture-variants-<date>.md`
@@ -1725,6 +2039,30 @@ for v in swarm/wiki/drafts/T-km-architecture-research-*-variant-*.md; do
   echo "$v → $gates gate mentions"
 done
 # Expect: ≥5 per variant (one per gate minimum)
+
+# V12 — UC-9 + UC-10 architectural proof markers per variant
+for v in swarm/wiki/drafts/T-km-architecture-research-*-variant-*.md; do
+  uc9=$(grep -cE 'UC-9|[Cc]lient[- ][Ii]solat|filesystem-namespaced|cryptographic-scoping|federated-holon' "$v")
+  uc10=$(grep -cE 'UC-10|[Oo]ffline-[Ff]irst|[Ll]ocal[- ][Ll]LM|[Ll]lama|[Dd]eep[Ss]eek|[Mm]istral|T-Offline|T-Hybrid|T-Cloud' "$v")
+  echo "$v → UC-9: $uc9 / UC-10: $uc10 markers"
+done
+# Expect: ≥3 UC-9 markers + ≥3 UC-10 markers per variant. A variant with
+# 0 on either is disqualified; iterate until both pass.
+
+# V13 — pen-test + network-disconnect test descriptions present
+for v in swarm/wiki/drafts/T-km-architecture-research-*-variant-*.md; do
+  pentest=$(grep -cE '[Pp]en-?test|[Hh]ostile.*Client|[Pp]rompt[- ]injection' "$v")
+  disconnect=$(grep -cE '[Nn]etwork[- ]?disconnect|[Aa]ir[- ]?gap|[Oo]ffline test' "$v")
+  echo "$v → pentest: $pentest / disconnect: $disconnect"
+done
+# Expect: ≥1 pentest scenario + ≥1 disconnect-test walkthrough per variant
+
+# V14 — Strategic-Insight + BIOS-research citations per variant
+for v in swarm/wiki/drafts/T-km-architecture-research-*-variant-*.md; do
+  ins=$(grep -cE 'STRATEGIC-INSIGHT-JETIX-AI-BIOS|bios-clone-wars' "$v")
+  echo "$v → strategic-insight/BIOS-research citations: $ins"
+done
+# Expect: ≥2 per variant (both sources referenced at least once each)
 ```
 
 ### §13.3 Provenance gate (per shared-protocols §5.5.5)
@@ -1782,6 +2120,12 @@ I attest that:
 - Q1 retrieval integrity check run (3 canonical queries executed;
   results logged).
 - Max-subscription turn budget respected (remaining turns logged).
+- UC-9 architectural proof present in every variant (specific proof-by-
+  construction mechanism named; pen-test scenario walkthrough included).
+- UC-10 architectural proof present in every variant (local-LLM family
+  specified; inference-stack named; T-Offline / T-Hybrid / T-Cloud tier
+  split named; network-disconnect test walkthrough included).
+- Strategic Insight doc + BIOS research cited in every variant (V14 pass).
 
 — brigadier (produced_by: brigadier), <YYYY-MM-DD HH:MM>
 ```
@@ -1797,8 +2141,10 @@ cycle-2 OPP-04).** This task is ACCEPTED by brigadier when:
 
 ```
 AND(
-  prompts/meta-brief-km-architecture-research-2026-04-24.md EXISTS,
-  prompts/km-architecture-research-2026-04-24.md EXISTS (this file),
+  prompts/meta-brief-km-architecture-research-2026-04-24.md EXISTS (v2 with UC-9+UC-10),
+  prompts/km-architecture-research-2026-04-24.md EXISTS (this file, v2),
+  decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md EXISTS,
+  raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md EXISTS,
   swarm/wiki/foundations/swarm-alphas.md EXISTS,
   swarm/lib/shared-protocols.md EXISTS,
   .claude/agents/brigadier.md EXISTS,
@@ -2130,6 +2476,22 @@ and — via the trajectory locked in D19 — through the next 7 orders of
 scale magnitude. The quality floor is 1000% depth. The anti-pattern is
 "close enough." The permission to ship a shallow pass does not exist.
 
+**Additionally (v2, 2026-04-24 post-BIOS-research):** this cycle does NOT
+just determine Jetix's internal operating model. It determines the
+template Jetix deploys **per client**, with the architectural guarantee
+that Client-A's data never touches Client-B — by construction, not by
+policy. Each variant you produce must prove UC-9 client-isolation and
+UC-10 offline-first inference. The strategic rationale, drawn from the
+BIOS / clean-room / Wintel historical parallel, is: the AI consulting
+market in 2026 has 35K generic wrapper shops with 90%+ year-one
+mortality; Jetix's defensible position is **architectural** (local-first,
+client-private, open-standard methodology, closed-implementation client
+KB) and NOT tactical (better prompts, more training). Variants that
+discard the architectural differentiation discard Jetix's 6-12 month
+window to claim the Mittelstand AI Alliance / EISA-moment position. Drop
+and replace a UC-9-or-UC-10-failing variant; never ship a "partial
+support" excuse.
+
 The variants you produce will be read by Ruslan, one will become
 canonical (possibly hybrid), and that canonical will shape:
 - how a 45-min video becomes structured wiki in <1 hour Day-after-tomorrow.
@@ -2157,6 +2519,40 @@ Then begin Phase 1 intake.
 
 ## Appendix A — Quick-reference pointers (paste-ready citations)
 
+- `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` §§0-4
+  — IBM BIOS parallel; Jetix stack position; client-private KB kernel;
+  24 Locks cross-references (D13, D17, D19, D20, D21, D24 — how insight
+  materializes each lock).
+- `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` §5 —
+  3 hosting paths: Path A Jetix-hosted (managed VPS in EU) / Path B
+  Client-hosted (client owns infrastructure; Jetix ships methodology) /
+  Path C Hybrid (client-hosted data + Jetix-hosted agent-swarm via
+  secure tunnel). Recommendation: Path C for Enterprise, Path B for
+  self-sufficient technical clients, Path A for low-touch SMB.
+- `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` §6 —
+  what's built / what's missing for client-facing production
+  (client-isolation mechanics, ingest security layer, offline-first AI
+  integration, methodology repo, sync protocol, compliance layer,
+  onboarding automation).
+- `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` §7 —
+  Pillar 2-6 alignment (Pillar 2/3 topic+project wikis = exact
+  groundwork; Pillar 4 overview must include this positioning; Pillar
+  5 strategy docs built on this differentiation; Pillar 6 first pitch
+  deck leads with this).
+- `decisions/STRATEGIC-INSIGHT-JETIX-AI-BIOS-MOMENT-2026-04-24.md` §8 —
+  7 recommendations (commodity foundation models; Mittelstand moat;
+  Mittelstand AI Alliance = EISA moment; patents on AI×Mittelstand
+  combinations; 6-12 month window; Compaq dealers = marathon partners;
+  "Mittelstand LLM" as Phoenix BIOS equivalent).
+- `raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md` §§1-8
+  — historical narrative (PC market pre-IBM, IBM 1981 open arch,
+  Apple v. Franklin 1983, clean-room mechanics, Columbia / Compaq /
+  Phoenix / AMI / Award chronology).
+- `raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md` §§9-12
+  — market numbers (IBM $4B/1984 → Wintel trillions), structural lessons,
+  AI 2024-2026 parallels.
+- `raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md` §13 —
+  practical implications for Jetix + Mittelstand AI Alliance.
 - `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md` D1 §1.2 — 9-layer
   + global spine ASCII tree.
 - `design/ROY-WIKI-V3-ARCHITECTURE-SPEC-2026-04-23.md` D1 §1.3 — permission
