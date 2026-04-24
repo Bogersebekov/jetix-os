@@ -44,3 +44,15 @@ opened_at: 2026-04-24T01:44:00+02:00
 - preserved-dissent candidate: investor-critic vs Strategic Insight §5 Path C default
 - gate-check on returns: all 5 packets schema-valid; provenance present; no malformed
 - mgmt's UC-10 escalation acknowledged: engineering × optimizer (Wave-2 cell #2) will address; no extra peer dispatch needed (waves serialize naturally)
+
+## [2026-04-24 02:08] phase-3-wave-2-returns-received | brigadier
+- 5/5 optimizer drafts written
+- engineering-optimizer: 5287w, 4 deltas (wiki-roots clients: stanza + /ask OFFLINE_MODE branch + path convention + inference-stack.yaml manifest with ollama+Llama-3.1-8B-Q4_K_M default), 3 method-change refusals (OS-perms / per-repo-per-client / full PPR)
+- mgmt-optimizer: 4392w, 7 deltas (/project-bootstrap skill / lifecycle frontmatter state machine / attention-budget ratchet / granularity:client:<slug> directory namespace / weekly digest / project-type templates / meta-agent sweep), 3 method-change refusals + 2 peer-input-needed (engineering + philosophy)
+- systems-optimizer: 5251w, 4 deltas (13th `holon-ref` edge w/ hard lint + peer-holon model named in D1 §1.3 + per-client JSONL sharding + E-16 client:<slug> granularity), 1 method-change refusal (per-client α-5c)
+- philosophy-optimizer: 4548w, 5 deltas (R.refuted_if required field on type=claim + 4 supersession-chain invariants SC-1..SC-4 incl. Lakatos hardcore + 4-part DRR canonical template at 80w/part + 10-phrase falsifiability flag list with regex), zero method-change refusals
+- investor-optimizer: 5032w, 4 deltas (Path B €3K onboarding + €15K/yr → 70.7% GM yr1 / quarterly FPAR + citation-density mark-to-market / GPU 3-client gate / second-level Mittelstand framing), 3 method-change refusals (Path doctrine / patent timing / EISA formalization)
+- inter-cell convergence: 13th edge `holon-ref` (systems) + filesystem clients namespace (engineering Δ1) + directory-namespace `granularity:client:<slug>` (mgmt+systems concur) → CONSENSUS PROOF MECHANISM for UC-9 by construction emerges
+- inter-cell convergence: ollama + Mistral 7B Q4_K_M (Apache 2.0; investor-preferred) OR Llama-3.1-8B (engineering-preferred) — both eligible defaults for UC-10
+- preserved-dissent UPDATE: investor-critic Path C dissent partially RESOLVED by investor-optimizer Δ-H3 (€3K onboarding fee restores Path B 70% floor) — dissent demoted to G2 conditional
+- escalations queue (5 total): engineering 3 + mgmt 3 + systems 1 + investor 3 — all are method-changes routed to integrators or HITL; brigadier accepts all routings; integrator wave will resolve in Wave-3
