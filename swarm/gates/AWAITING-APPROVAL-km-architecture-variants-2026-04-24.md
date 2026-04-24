@@ -8,7 +8,14 @@ escalated_at: 2026-04-24T03:05:00+02:00
 task_id: T-km-architecture-research-2026-04-24
 cycle_id: cyc-km-architecture-2026-04-24
 deadline: null
-state: open
+state: acked
+chosen: a
+acked_by: ruslan
+acked_at: 2026-04-24T21:00:00Z
+acked_via: cloud-cowork-session
+authorize_m3_companion: false
+notes: "Accept. Substance OK for review. Proceed to Phase 6 consolidation + Phase 7 compound + Phase 8 cycle-archive. M3 deferred to next cycle. Ruslan reading the 6 variants in parallel; next task will be a MATERIALIZATION brief that pulls best elements from all 6 into one implementation plan (not single-variant pick — hybrid best-of composition)."
+next_directive: "After cycle closes, Ruslan will review 6 variants and initiate a materialization task that combines best elements across variants. Brigadier should reserve attention for that upcoming M-class task."
 gate_for: decisions/KM-ARCHITECTURE-VARIANTS-2026-04-24.md
 produced_by: brigadier
 sources:
