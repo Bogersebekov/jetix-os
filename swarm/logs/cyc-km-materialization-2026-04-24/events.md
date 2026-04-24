@@ -74,7 +74,9 @@ Append-only operational log. Newest-on-top within each phase block.
 
 ## Phase 5 — Gate + HITL
 
-<!-- AWAITING-APPROVAL packet entry -->
+- [2026-04-24] gate-opened | swarm/gates/AWAITING-APPROVAL-km-materialization-mvp-2026-04-24.md | brigadier | reason: Wave-3 investor × critic 3 HARD FAIL + 1 conditional FAIL on quick-money parameters require §1d AP-6 dissent arbitration; physical extraction (~22 files) deferred pending ack. 4 options (A/B/C/D) documented with brigadier recommendation = Option B.
+- [2026-04-24] resume-state-written | swarm/wiki/tasks/T-km-materialization-mvp-2026-04-24/resume-state.md | brigadier | next-session entry point, sequenced steps 1-7, disk snapshot verification stubs
+- [2026-04-24] HALT | brigadier awaits Ruslan ack
 
 ## Phase 6 — Compound (post-ack)
 
