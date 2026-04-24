@@ -7,7 +7,12 @@ escalated_at: 2026-04-24
 task_id: T-jetix-system-overview-2026-04-24
 cycle_id: cyc-jetix-system-overview-2026-04-24
 deadline: 2026-04-27
-state: open
+state: acked
+chosen: a1+b1+c1+d1
+acked_by: ruslan
+acked_at: 2026-04-24T23:30:00Z
+acked_via: cloud-cowork-session
+notes: "Accept all brigadier recommendations: A1 USB-C resolution (per §6 proposal), B1 Smart AI internal-only (not D29 lock), C1 $1M+ ICP tier as D22 refinement (not conflict with 11 archetypes), D1 accept integration per-layer word counts as-is (primary drafts carry the depth; beta-first; no re-expansion cycle). Proceed to Phase 7 compound + Phase 8 archive. No Full-Auto for downstream Phase 2 deep-dives (each layer deep-dive is its own M-task with own gate)."
 ---
 
 # JETIX-SYSTEM-OVERVIEW — AWAITING APPROVAL (Stage-Gated HITL)
