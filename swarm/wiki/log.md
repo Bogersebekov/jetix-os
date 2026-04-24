@@ -11,6 +11,9 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] task-decomposed | T-km-materialization-mvp-2026-04-24 | 10 cells across 4 waves | brigadier
+## [2026-04-24] task-intaked | T-km-materialization-mvp-2026-04-24 | KM Materialization MVP (A1+B2+B3-merged+Company-as-Code; HD-02 N=3 this cycle only) | brigadier
+
 ## [2026-04-24] task-archived | T-km-architecture-research-2026-04-24 | cycle cyc-km-architecture-2026-04-24 closed; FPAR 20/20=1.00; 7 compound entries (3 brigadier strategies + 2 system-level + 2 brigadier-improvements); 9 preserved dissents; 6 variant drafts + consolidated decision doc + cycle-log at swarm/logs/cyc-km-architecture-2026-04-24/cycle-log.md; closed_cycles_count 1→2; m_class_dispatched_this_cycle 1/2 | brigadier
 
 ## [2026-04-24] task-compounded | T-km-architecture-research-2026-04-24 | 7 DRR entries written (3 Layer-1 brigadier-strategies + 4 Layer-2 cross-agent improvements) | brigadier
