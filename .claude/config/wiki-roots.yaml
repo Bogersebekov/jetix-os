@@ -3,8 +3,8 @@
 # Do NOT edit without an AWAITING-APPROVAL-wiki-roots-change-*.md
 # committed to swarm/gates/ first.
 
-schema_version: 1                    # bump when adding/removing keys
-last_modified: 2026-04-23
+schema_version: 2                    # bumped 2026-04-24: clients: stanza added (A1 UC-9 Phase-A)
+last_modified: 2026-04-24
 managed_by: brigadier               # only brigadier writes this file
 
 wiki_root_v2: wiki                   # path-relative to repo root
@@ -21,7 +21,7 @@ v3_status: read-write                # v3 primary going forward
 migration_phase: A                   # Phase A = coexist; Phase B may flip migration_phase
                                      # decision deferred per WIKI-V3-MECHANICS Q9
                                      # applicability constraint: trigger Phase-B re-eval only when
-                                     # v3 ≥50 entries AND ≥1 closed cycle AND value-delta observed
+                                     # v3 >=50 entries AND >=1 closed cycle AND value-delta observed
                                      # (Sub-agent A §1 Q9 lines 658-660; spec D7 §7.2 lines 1607-1608)
 
 # Cross-tree edge-storage paths (T1 separation; per D1 §1.3 + D3 §3.2.12).
@@ -42,3 +42,44 @@ skills_excluded_from_wiki_root:
   - sweep-notion-bank # per master synthesis §5.10 -- one-shot Notion-import bound to 2026-04-16 + DB ID
   - compile           # per Sub-agent D §4.6 + §7 -- legacy knowledge-base/ writer; deprecated v3
                       # (D8 §8.6 documents the deprecation rationale; not parameterised)
+
+# ---------------------------------------------------------------------------
+# Client-isolation stanza (A1 UC-9 Phase-A per variant-A1 §5 Layer-1).
+# Environment-variable convention: WIKI_ROOT_CLIENT_ID=<slug> selects client holon.
+# When unset, skills default to Jetix-internal swarm/wiki/ root.
+#
+# DO NOT add production clients here without an
+# AWAITING-APPROVAL-wiki-roots-clients-<slug>-<date>.md committed to
+# swarm/gates/ first. Demo entries (demo-client-a/-b) exist for
+# UC-ISOLATION-DEMO test fixture ONLY.
+clients:
+  # Seed entry — demo client for UC-ISOLATION-DEMO test fixture.
+  demo-client-a:
+    root: clients/demo-client-a/swarm/wiki/
+    methodology_remote: jetix-methodology-repo    # read-only upstream for methodology-push
+    granularity: client:demo-client-a
+    inference_stack: ollama-mistral-7b-q4         # per Phase-B activation; Phase-A = structured-excerpt
+    default_inference_tier: T-Offline
+    compliance_classification: gdpr-standard
+  demo-client-b:
+    root: clients/demo-client-b/swarm/wiki/
+    methodology_remote: jetix-methodology-repo
+    granularity: client:demo-client-b
+    inference_stack: ollama-mistral-7b-q4
+    default_inference_tier: T-Offline
+    compliance_classification: gdpr-standard
+
+# Resolution algorithm (per D7 §7.4 + A1 §5 UC-9 Layer-1):
+#   1. If WIKI_ROOT_CLIENT_ID env-var set AND matches a key in clients:
+#        => ${WIKI_ROOT} := clients.<id>.root
+#      AND impose `granularity: client:<id>` as default for all new artefacts.
+#      AND impose Read-scope restriction: reject any path outside resolved root.
+#   2. Else if WIKI_ROOT env-var set: ${WIKI_ROOT} := $WIKI_ROOT (legacy override).
+#   3. Else: ${WIKI_ROOT} := wiki_root_v3 (default swarm/wiki/).
+#
+# Phase-A policy enforcement: Read-scope check is a SKILL responsibility
+# (guardrail at skill entry). Phase-B strengthens with OS-level UNIX user
+# separation per A2 variant (deferred; trigger = first paying client).
+
+# Seed the demo-client directories so UC-ISOLATION-DEMO has a real target.
+# Directory creation is idempotent and performed by tools/bootstrap-demo-clients.sh.

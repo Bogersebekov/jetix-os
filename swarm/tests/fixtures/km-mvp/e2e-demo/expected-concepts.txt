@@ -1,0 +1,5 @@
+leverage-points
+feedback-loops
+mittelstand-ai-readiness
+knowledge-as-moat
+local-first-inference
