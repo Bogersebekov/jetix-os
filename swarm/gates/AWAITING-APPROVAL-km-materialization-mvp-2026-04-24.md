@@ -7,7 +7,12 @@ escalated_at: 2026-04-24
 task_id: T-km-materialization-mvp-2026-04-24
 cycle_id: cyc-km-materialization-mvp-2026-04-24
 deadline: 2026-04-28
-state: open
+state: acked
+chosen: C
+acked_by: ruslan
+acked_at: 2026-04-24T23:50:00Z
+acked_via: cloud-cowork-session
+notes: "Option C — adopt investor CC-3 (tier_1_phase_1 archetype filter) + CC-4 (two-checkpoint kill) + CC-5 (levenchuk minimum kpi); defer CC-1 revenue-mix to empirical test (leave JETIX-PLAN §3.1 numbers as-drafted). Proceed to extraction + Part F verification + Part G report + cycle close."
 ---
 
 # KM Materialization MVP — AWAITING APPROVAL (Stage-Gated HITL)
