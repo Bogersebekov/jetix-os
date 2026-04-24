@@ -52,6 +52,24 @@ Emergent insights additionally carry:
 
 ## Entries
 
+### 2026-04-25 — Deep-dive mechanism-choice surfaces intra-layer tensions (dual-pattern confirmed at Phase-2 abstraction level) — cyc-layer-6-community-deep-dive emergent
+
+- **Cross-cycle observation window:** cyc-layer-6-community-deep-dive-2026-04-24 (first Phase-2 layer-deep-dive — L6 Community). Cross-reference prior emergent: cyc-jetix-system-overview (Phase-1 foundation — description-shape boundaries surfaced cross-layer tensions).
+- **Pattern surface:** all 5 expert cells + brigadier integration in L6 deep-dive. Hypothesis from cycle-4 emergent («description-shape → boundary-forces-cross-layer-surfacing; deep-dive-shape → mechanism-forces-intra-layer-surfacing») tested and **confirmed**.
+- **Refutation predicate:** if L5 (cycle-6) or L7 (cycle-7) deep-dives produce ≥50% of surfaced tensions at cross-layer boundary (not intra-layer mechanism choice), the dual-pattern is partially refuted.
+- **Decision:** Flag as confirmed emergent property — **dual abstraction-level tension-surfacing:** Phase-1 foundation (description-shape, 14 layers) surfaces **cross-layer boundary tensions** (10 open questions + 5 dissents emerged at L-vs-L boundary declarations). Phase-2 deep-dive (mechanism-choice shape, single layer L6) surfaces **intra-layer mechanism-choice tensions** (15 open questions + 20 dissents emerged at within-layer mechanism alternatives: Alliance Option A vs B vs C; archetype standalone vs merge; Telegram vs Discord vs own-platform; template-level vs deep-dive; payment-ability liquidity vs source). Symmetric patterns at different abstraction levels — validates hypothesis from cycle-4 emergent entry.
+- **Reasoning:** Ashby requisite variety applied to different abstraction levels. Phase-1 boundary declaration requires cell to answer "is X in my layer or neighbor's?" — forces cross-layer lens contention. Phase-2 deep-dive forces cell to answer "which mechanism realizes this capability in this layer?" — forces intra-layer alternative-enumeration. Both patterns produce forcing-functions that surface tensions без explicit brigadier solicitation. **Meadows L7 leverage point: information-flow structure** — the requirement to explicitly declare boundaries OR alternative mechanisms causes tension-surfacing as side effect.
+- **Result:** Cycle-5 produced 15 open questions + 20 dissents without brigadier prompting. Distribution: 4 cross-section convergent clusters (same tension surfaced by 2+ cells = strongest epistemic signal: Alliance option choice, Alliance timing vs D15, matchmaker scale ceiling, AI automation risk) + 11 section-local dissents. Ruslan first-read ack on all 7 mandatory questions with brigadier-recommended options — pattern produces **high-quality decision-support output**, not noise.
+- **Review:** validated twice (cycle-4 boundary-surfacing + cycle-5 mechanism-surfacing). **Watch cycle-6 (L5 Product — 9 directions) and cycle-7 (L7 Business Trajectory — 5 gates × pricing paths):** does mechanism-surfacing scale to 9-direction enumeration, or does it shift to direction-boundary-surfacing (L5 has same shape as Phase-1 foundation — multiple parallel items)? Hypothesis: L5 may be hybrid — 9 parallel direction-descriptions surface cross-direction tensions (like Phase-1), but within each direction mechanism-choices surface intra-direction tensions (like Phase-2). If hybrid pattern holds, brigadier needs **dual-surfacing WBS:** cross-direction coherence cell + per-direction mechanism-choice cells.
+
+#### Evolution
+- changelog:
+  - 2026-04-25 — created (cyc-layer-6-community-deep-dive close)
+- last-review: 2026-04-25
+- expected-evolution:
+  - cycle_6 (L5 Product): validate hybrid cross/intra surfacing hypothesis
+  - cycle_7 (L7 Business Trajectory): validate pattern for trajectory-shape tasks
+
 ### 2026-04-24 — Layered description with explicit boundaries auto-surfaces open questions and dissents without solicitation (cyc-jetix-system-overview emergent property)
 
 - **Cross-cycle observation window:** cyc-jetix-system-overview-2026-04-24 (first description-shape cycle; 14 layer cells in 3 waves)

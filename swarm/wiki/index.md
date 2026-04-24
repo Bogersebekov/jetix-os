@@ -1,7 +1,7 @@
 ---
 title: Swarm Wiki v3 — Index
 type: index
-updated: 2026-04-24T23:45:00Z
+updated: 2026-04-25T01:30:00Z
 ---
 
 # Swarm Wiki v3 — Index
@@ -48,6 +48,7 @@ Bootstrap empty — populated lazily by `/ingest`.
 - `tasks/T-swarm-self-improve-v1-2026-04-23/` — first real swarm cycle (meta niche, Stage-Gated)
 - `tasks/T-km-materialization-mvp-2026-04-24/` — KM materialization MVP (cycle-3; A1+B2+B3-merged+company-as-code; HD-02 N=3 one-cycle)
 - `tasks/T-jetix-system-overview-2026-04-24/` — 14-layer system overview (cycle-4; description-shape M-task; state=closed-compounded; Ruslan acked a1+b1+c1+d1)
+- `tasks/T-layer-6-community-deep-dive-2026-04-24/` — L6 Community Deep-Dive (cycle-5; first Phase-2 layer-deep-dive; 13 sections; state=closed-compounded; Ruslan acked all-per-recommendations — Option C Hybrid + expanded ICP spectrum + 18 outreach templates)
 
 ## Designs
 
@@ -56,11 +57,13 @@ Bootstrap empty — populated lazily by `/ingest`.
 ## Drafts (active reference — authoritative per-layer detail)
 
 - `drafts/T-jetix-system-overview-2026-04-24-*` (14 files) — cell-authored primary-research material (41.6K words) for each layer L0..L9 + L-R/L-C/L-B/L-P. Integration into `decisions/JETIX-SYSTEM-OVERVIEW.md` (accepted 2026-04-24) cites these as authoritative detail sources.
+- `drafts/T-layer-6-community-deep-dive-2026-04-24-*` (15 files) — cell-authored primary-research material (62.7K words) across 13 L6 sections + 2 investor peer-input drafts. Integration into `decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md` (accepted 2026-04-25) cites these as authoritative detail sources.
 
 ## Proposals
 
 - `proposals/T-swarm-self-improve-v1-2026-04-23-decomposition.md` — WBS, 13 matrix cells
 - `proposals/T-jetix-system-overview-2026-04-24-decomposition.md` — WBS, 15 cells M-class, 3-wave parallel
+- `tasks/T-layer-6-community-deep-dive-2026-04-24/decomposition.md` — WBS, 13 content cells + 2 investor peer cells + integration cell, 3-wave parallel (Wave-A 5 / Wave-B 7 / Wave-C 3)
 
 ## Niches
 
