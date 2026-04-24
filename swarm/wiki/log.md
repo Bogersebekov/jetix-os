@@ -11,6 +11,10 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partC-philosophy-critic-sg-predicate-rigor.md | Wave-1 philosophy critic audit — 14 FAIL + 1 peer-input + 1 architectural | brigadier
+## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partC-stage-gates-merged.md | Wave-1 Part C post-philosophy-critic integration (DSL file-anchor req; anti-regex validator) | brigadier
+## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partB-b2-mini-swarm-bundle.md | Wave-1 Part B post-philosophy-critic integration (all SG predicates DSL-canonical) | brigadier
+## [2026-04-24] design-promoted | T-km-materialization-mvp-2026-04-24/partA-a1-substrate-bundle.md | Wave-1 Part A (substrate bundle; no SG predicates; no integration changes) | brigadier
 ## [2026-04-24] task-decomposed | T-km-materialization-mvp-2026-04-24 | 10 cells across 4 waves | brigadier
 ## [2026-04-24] task-intaked | T-km-materialization-mvp-2026-04-24 | KM Materialization MVP (A1+B2+B3-merged+Company-as-Code; HD-02 N=3 this cycle only) | brigadier
 

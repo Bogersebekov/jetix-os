@@ -46,6 +46,11 @@ Bootstrap empty — populated lazily by `/ingest`.
 ## Tasks
 
 - `tasks/T-swarm-self-improve-v1-2026-04-23/` — first real swarm cycle (meta niche, Stage-Gated)
+- `tasks/T-km-materialization-mvp-2026-04-24/` — KM materialization MVP (cycle-3; A1+B2+B3-merged+company-as-code; HD-02 N=3 one-cycle)
+
+## Designs
+
+- `designs/T-km-materialization-mvp-2026-04-24/` — Wave-1 promoted design records (Part A substrate / Part B mini-swarm / Part C stage-gates + philosophy critic audit)
 
 ## Proposals
 
