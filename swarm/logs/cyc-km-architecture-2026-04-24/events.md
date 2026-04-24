@@ -56,3 +56,20 @@ opened_at: 2026-04-24T01:44:00+02:00
 - inter-cell convergence: ollama + Mistral 7B Q4_K_M (Apache 2.0; investor-preferred) OR Llama-3.1-8B (engineering-preferred) — both eligible defaults for UC-10
 - preserved-dissent UPDATE: investor-critic Path C dissent partially RESOLVED by investor-optimizer Δ-H3 (€3K onboarding fee restores Path B 70% floor) — dissent demoted to G2 conditional
 - escalations queue (5 total): engineering 3 + mgmt 3 + systems 1 + investor 3 — all are method-changes routed to integrators or HITL; brigadier accepts all routings; integrator wave will resolve in Wave-3
+
+## [2026-04-24 02:19] phase-3-wave-3-returns-received | brigadier
+- 5/5 integrator drafts written (15/20 cells fired so far; Wave 4 = scalability remaining)
+- engineering-integrator: 7030w "A-Variant-Candidate-Karpathy++"; 3 dissents preserved (envvar-vs-13thedge; Llama-vs-Mistral; global/-vs-Layer7-prime); BIOS cited 2x
+- mgmt-integrator: 6350w "B-Variant-Candidate-Rich-MiniSwarm"; 3 dissents preserved (Phase-A-policy-vs-construction; shared-edges-vs-perclient; mini-swarm-bootstrap-timing); BIOS cited 3x
+- systems-integrator: 7682w (APEX); 2 Layer-A views (A1 flat / A2 federated peer-holons) + 2 Layer-B views (B1 namespace / B2 per-client-per-project federated); 4 feedback loops named with Ashby; 3 dissents (D1 phase-A iso level; D2 α-5c need; D3 cross-client contradiction at Alliance); BIOS cited 3x
+- philosophy-integrator: 5948w epistemic-backbone overlay; F-G-R table for all 6 anticipated variants; universality B/C/D verdicts; defense-in-depth UC-9 stack endorsed (Lakatos protective belt); UC-7×UC-9 contradiction protocol C-1..C-4; 3 dissents preserved
+- investor-integrator: 5753w moat synthesis + EISA-moment valuation; Buffett owner-earnings frame; Wintel correction (Jetix=EISA-committee, NOT OS-monopoly); 3 dissents (Buffett-vs-Taleb portfolio; FPAR 80vs90; Alliance timing G2vsG3); BIOS cited 6x
+- TOTAL DISSENTS PRESERVED ACROSS WAVE-3: 15 (≥3 minimum easily exceeded)
+- KEY CONVERGENCES:
+  * UC-9 PROOF: defense-in-depth STACK accepted (env-var + 13th holon-ref edge + directory-namespace `granularity:client:<slug>`) — endorsed by philosophy-integrator's Lakatos protective-belt analysis
+  * UC-10 PROOF: ollama + Mistral 7B Q4_K_M (default; Apache 2.0) | Llama 3.1-8B Q4_K_M (alt; needs German golden-set eval) — engineering+investor concur
+  * Path B €3K onboarding + €15K/yr → 70.7% GM yr1 / 80.8% recurring (resolves Wave-1 investor-vs-Strategic-Insight Path-C dissent)
+  * Pairing recommendation: A1↔B1 (Phase A solo-founder filesystem-native) → A2↔B2 (Phase B federated peer-holons)
+  * Method-change refusals from Wave-2 ALL escalated correctly: per-client α-5c REFUSED (use α-2 with granularity:client:<slug>); separate-repo-per-client = Phase B AWAITING-APPROVAL; Path A/B/C doctrine = HITL Q2
+- 3rd Layer-A axis NEEDED: integrators provided A1 (filesystem-native flat) + A2 (federated peer-holons); brigadier needs to define A3 (e.g., GraphRAG community-summaries OR HippoRAG PPR OR Zettelkasten ZK surfing) for the 3-variant axis-of-differentiation requirement — will design from research corpus in Phase 4
+- 3rd Layer-B axis NEEDED: B1 (Phase-A namespaces) + B2 (Phase-B federated holons) + brigadier needs B3 (e.g., adaptive-scaffold OR thin-scaffold-on-demand OR PMBOK-WBS-rich) — design in Phase 4
