@@ -1,0 +1,11 @@
+# Cycle-2 OPP-02 mode-prefix allowlist
+# One agent name per line; mode-prefix.sh exits 0 immediately for any match.
+# Add only AFTER documenting reason in .claude/hooks/allowlist-rationale.md.
+# These 5 are known legitimate non-matrix agents (14 legacy agents listed
+# in CLAUDE.md — none of them prefix prompts with "mode: <matrix-mode>"
+# because they are Phase-1 legacy, not 5×4 swarm cells).
+manager
+personal-assistant
+system-admin
+inbox-processor
+crazy-agent

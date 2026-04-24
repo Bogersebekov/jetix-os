@@ -1,0 +1,1 @@
+../../../.claude/hooks/mode-prefix.sh

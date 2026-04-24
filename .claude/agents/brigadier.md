@@ -516,6 +516,8 @@ the expert treats it as `mode: integrator` (per master synthesis
 §5.2.2). Brigadier never relies on the default — explicit prefix
 always.
 
+**Brigadier MUST run `bash swarm/lib/hooks/pre-session-check.sh` at session start AND `bash .claude/hooks/mode-prefix.sh "<prompt>" "<agent>"` before each Task() dispatch (cycle-2 log-only mode per OPP-02 fallback path, Alternative B).** (cycle-2-impl OPP-02 Alt-B)
+
 ### §4.3 Parallel invocation
 
 When ≥2 cells are independent (no cell B reads cell A's output), the
