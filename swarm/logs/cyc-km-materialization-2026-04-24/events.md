@@ -38,7 +38,9 @@ Append-only operational log. Newest-on-top within each phase block.
 
 ### Wave 2 — Part D cross-cutting (serial after Wave 1; dispatches post-integration)
 
-<!-- to be appended -->
+- [2026-04-24] dispatched | engineering × integrator | Part D (company-as-code) | ap_budget=40K
+- [2026-04-24] cell-returned | engineering × integrator | draft=swarm/wiki/drafts/…-partD-company-as-code.md (44KB) | 9/9 conformance greps pass | 2 soft observations (cron file generation; build-graph git-rev-parse provenance)
+- [2026-04-24] gate-pass | Part D | §5.5.5 passed; promoted → swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/partD-company-as-code.md
 
 ### Wave 3 — Part E real-work bootstrap (parallel after Wave 2; 3 cells)
 
