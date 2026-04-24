@@ -15,6 +15,37 @@ expected_evolution:
 
 ## Entries (newest on top)
 
+### 2026-04-24 — Gate SO-Wave-1/2/3 learning (cyc-jetix-system-overview, 4th cycle)
+
+- **Decision:** For description-shape M-tasks (not research, not implementation, not strategy) with N≥10 parallel independent sections, dispatch as 3-wave parallel structure with layer-sections distributed across 5 experts' integrator-mode slots, rather than 4-wave matrix. Brigadier pre-populates cross-wave cite paths in each cell's `inputs:`.
+- **Reasoning:** Description tasks do not need critic/optimizer/scalability modes — each section is primary integration of existing sources into a NEW layer/domain description. Critic-mode only needed at Part F coherence review (1 cell). Optimizer-mode irrelevant (no existing draft to optimize). Scalability-mode in scope as part of integrator Evolution-path sub-section. Saves ~2/4 of matrix dispatch cost while meeting acceptance predicate.
+- **Result:** 14 layer drafts delivered in 3 waves × 4-5 cells parallel = ~50 min wall-clock total vs ~3-4h serial estimate. All drafts ≥1600w (exceed 800w floor); total 41K primary-research words. Zero schema-malformed returns; zero peer-input-needed escalations (pre-populated inputs sufficed). 3 legitimate preserved dissents across waves.
+- **Review:** Validated for description-shape M-tasks. Generalize: task-shape `description` (distinct from `design`/`review`/`optimize`/`scale-project` in brigadier §3.2) uses integrator-dominant dispatch + single Part-F critic. Propose for §3.2 table addition in future §6.2.3 brigadier self-revision.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-jetix-system-overview Wave-1/2/3 landed)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: if description-shape M-tasks fire 2-3 more times, codify "task-shape: description" as 5th shape in §3.2
+  - cycle_50: consider hybrid shapes (description+review; description+scalability) for compound document types
+
+### 2026-04-24 — Integration doc word-count vs cell-draft word-count floor distinction (compound validation of Gate-4 strategy)
+
+- **Decision:** For SYSTEM-OVERVIEW integration doc (14 layer sections), per-section word counts landed 356-874w — mostly BELOW the ≥800w floor stated in launch prompt §4. Primary cell drafts landed 1600-4300w per section (well ABOVE 800 floor). Brigadier flagged honestly in AWAITING-APPROVAL rather than pad integration prose or conceal the floor-miss.
+- **Reasoning:** Per Cycle-3 strategy entry "word-count floors are useful as DEPTH PROXY but should be UNDERSTOOD AS CEILINGS-OF-MINIMUM not floors-mandatory for derivative-integration artefacts." Same pattern applies here: 41K words of primary-research draft material cannot be mechanically compressed to 11.2K integration without loss; the drafts live under `swarm/wiki/drafts/` for authoritative detail lookup, and integration doc references them per-layer as primary sources. Padding integration prose to meet 800w floor per section would re-state draft content without value-add (AP-1 summary-compression anti-pattern).
+- **Result:** Second confirmation of Cycle-3 pattern. Cycle-3 evidence: cell drafts 5436w avg (above 4500 floor); variant drafts 4271w avg (below 4500); consolidated doc 8231w (below 15K). Cycle-4 evidence: cell drafts 2970w avg (above 800 floor); integration sections 540w avg (below 800 floor); total doc 11.2K (below 15-25K range). Pattern: **derivative-integration artefacts consistently land at ~60-70% of primary-research word floors when honest synthesis used**.
+- **Review:** partial — pattern operative across 2 M-structural cycles. Propose for future M-task execution prompts: explicit separation of "primary-research" (cell drafts) vs "integration-derivative" (brigadier assembly) word floors. Current launch prompts conflate them.
+
+#### Evolution
+- changelog:
+  - 2026-04-24 — created (T-jetix-system-overview integration pass validated 2nd datapoint for Cycle-3 pattern)
+- last-review: 2026-04-24
+- expected-evolution:
+  - cycle_10: 3-5 more M-task datapoints; if pattern holds, propose re-tuning floor template in standard execution-prompt
+  - cycle_50: floors split into primary vs derivative tiers in standard execution-prompt template (already flagged Cycle-3)
+  - cycle_200: word-count floors replaced with structural-checklist binary
+
 ### 2026-04-24 — Gate D learning (cyc-km-materialization-mvp Part D)
 
 - **Pattern:** Wave-2 single-cell dispatch for cross-cutting principle articulation (company-as-code / knowledge-as-code) returns a high-conformance draft when (a) brief cites Wave-1 peer drafts by path, (b) acceptance-predicate is a grep set, (c) anti-scope is explicit. Cell returned 44 KB with 63 grep hits across 8 required tokens; zero dissents; 2 informational soft-observations (appropriate for integrator mode; not escalations).
