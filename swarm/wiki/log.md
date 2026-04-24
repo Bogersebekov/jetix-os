@@ -11,6 +11,12 @@ Append-only chronology of wiki state changes. Per CLAUDE.md /
 entries; rotate older entries to `_archive/log-history-<YYYY>.md` when
 this file exceeds 30 entries.
 
+## [2026-04-24] task-gated | T-km-architecture-research-2026-04-24 | AWAITING-APPROVAL gate emitted; 6 variant drafts + consolidated decision document on disk; 9 preserved dissents; brigadier recommends sequenced migration trajectory A1↔B1 → A2↔B2 (G2) → A3↔B2 (G3); HALT pending Ruslan ack | brigadier
+
+## [2026-04-24] task-integrated | T-km-architecture-research-2026-04-24 | 20/20 matrix cells fired across 4 parallel waves; 108,712w cell drafts; 25,626w variant drafts; 8,231w consolidated decision doc; ~18 dissents preserved | brigadier
+
+## [2026-04-24] task-dispatched | T-km-architecture-research-2026-04-24 | 4 parallel waves: critic/optimizer/integrator/scalability; 5 cells each | brigadier
+
 ## [2026-04-24] task-decomposed | T-km-architecture-research-2026-04-24 | 20 cells (5 experts × 4 modes), 4-wave dispatch plan, M-class budget 549K ap_cost / 880K ap_budget | brigadier
 
 ## [2026-04-24] task-intaked | T-km-architecture-research-2026-04-24 | KM + Project-Mgmt Architecture Research — Cycle-3 M-structural (1/2 M-slot) — Stage-Gated; UC-9 + UC-10 mandatory per v2 prompt | brigadier

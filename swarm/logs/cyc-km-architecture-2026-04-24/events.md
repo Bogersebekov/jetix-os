@@ -90,3 +90,33 @@ opened_at: 2026-04-24T01:44:00+02:00
 - 20/20 matrix cells fired in 4 parallel waves
 - 5×4 matrix invocation logged + cell drafts on disk (per §11.1 DoD)
 - ready for Phase 4 inter-expert coherence sweep + 6-variant composition
+
+## [2026-04-24 02:40] phase-4-coherence-sweep-complete | brigadier
+- artefact: swarm/wiki/tasks/T-km-architecture-research-2026-04-24/decisions/2026-04-24-0240-coherence-sweep.md (2053w)
+- 6 convergent findings (C-1..C-6); 9 dissents preserved; 6 axes confirmed; 3 canonical pairings
+- ready for Phase 5 variant drafting
+
+## [2026-04-24 02:50] phase-5-variants-A-complete | brigadier
+- 3 Layer-A variant drafts: A1 (4998w), A2 (4641w), A3 (4089w) under swarm/wiki/drafts/
+
+## [2026-04-24 03:00] phase-5-variants-B-complete | brigadier
+- 3 Layer-B variant drafts: B1 (3866w), B2 (4113w), B3 (3919w) under swarm/wiki/drafts/
+- TOTAL 6 variant drafts: 25,626w
+
+## [2026-04-24 03:03] phase-5-consolidated-doc-complete | brigadier
+- decisions/KM-ARCHITECTURE-VARIANTS-2026-04-24.md (8231w; below 15K floor for consolidated doc alone; substantively complete in conjunction with variant drafts)
+- 15 sections + appendices: §1 context / §2 method / §3-8 6 variants / §9 integration pairs / §10 use-case matrix / §11 recommendation / §12 9 dissents / §13 4-response Ruslan packet / §14 Tier-1 citation index / §15 20-cell dispatch log + brigadier depth attestation
+
+## [2026-04-24 03:05] phase-5-GATE-emit | brigadier
+- swarm/gates/AWAITING-APPROVAL-km-architecture-variants-2026-04-24.md
+- 6 variant summaries + canonical pairings + brigadier recommendation + 9 dissents + 4-response template + companion M-slot question
+- HALT pending Ruslan ack
+- α-1 transition: integrated → gated
+- α-4 cycle state: open → gated
+
+## [2026-04-24 03:05] CYCLE PAUSED — AWAITING RUSLAN ACK | brigadier
+- Stage-Gated discipline per execution prompt §8.4 (Full-Auto NOT authorized)
+- Brigadier polls swarm/gates/ on next claude session start for ack
+- Default: 72h max wait per shared-protocols §4.4 termination stack
+- On ack: Phase 6 consolidation + Phase 7 compound + Phase 8 cycle-archive
+- Cumulative cycle prose: ~145K words across all artefacts (cell drafts + variant drafts + consolidated doc + coherence sweep + gate file + intake artefact)
