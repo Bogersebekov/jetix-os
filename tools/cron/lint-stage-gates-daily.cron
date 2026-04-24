@@ -1,0 +1,8 @@
+# tools/cron/lint-stage-gates-daily.cron
+# Daily /lint --check-stage-gates at 06:00 CET.
+# Documentation only — operator installs via: crontab -e
+# Adjust UTC offset: CET = UTC+1 (winter); CEST = UTC+2 (summer).
+# 0 5 * * * = 06:00 CET (UTC+1); adjust to 0 4 * * * for CEST (UTC+2 summer).
+#
+# NOT auto-installed by any skill. Operator activates by copying this line to crontab.
+0 5 * * * cd /home/ruslan/jetix-os && WIKI_ROOT=swarm/wiki python3 tools/stage-gate-eval.py batch --wiki-root=${WIKI_ROOT} >> logs/sg-eval-$(date +\%F).log 2>&1

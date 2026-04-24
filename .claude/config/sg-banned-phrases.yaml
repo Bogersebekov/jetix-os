@@ -1,0 +1,39 @@
+# .claude/config/sg-banned-phrases.yaml
+# Single source of truth for stage-gate predicate anti-regex list.
+# Sourced from philosophy-critic SG-predicate-rigor audit §2 (2026-04-24).
+# Managed by: brigadier (only brigadier writes this file).
+# Add new entries here; /lint --check-stage-gates --validate-predicate reads this file.
+
+schema_version: 1
+last_modified: 2026-04-24
+managed_by: brigadier
+
+banned_phrases:
+  # Popperian unfalsifiability — verbs of judgment / subjective adjectives
+  - pattern: 'when\s+ready'                    # "ready" has no observable falsifier
+  - pattern: 'if\s+meaningful'                 # "meaningful" is underdetermined
+  - pattern: 'good\s+enough'                   # "enough" absorbs counter-evidence
+  - pattern: 'appropriate\s+quality'           # Lakatos protective-belt term
+  - pattern: 'mature\s+enough'                 # growth-trajectory term; no binary threshold
+  - pattern: 'when\s+it\s+feels'               # phenomenological state, not observable
+  - pattern: 'significant\s+traction'          # "significant" + metaphor
+  - pattern: 'reasonable\s+velocity'           # community-consensus term
+  - pattern: 'meaningful\s+progress'           # judgment x judgment
+  - pattern: 'sufficient\s+momentum'           # threshold undeclared
+  - pattern: 'proper\s+time'                   # normative standard undeclared
+  - pattern: 'quality\s+baseline\s+met'        # "met" requires unspecified comparison
+  - pattern: 'active\s+enough'                 # "enough" suffix to state adjective
+  - pattern: 'when\s+stable'                   # dynamics term; convergence undeclared
+
+  # Question-as-predicate — interrogatives cannot be falsified
+  - pattern: '\?'
+
+  # Adverbial-gate without countable noun-phrase
+  - pattern: '^if\s+\w+ly\b(?!\s+\w+\.md|\s+count)'
+
+  # Systemic-defect P-C: bare averaging-window undefined
+  - pattern: 'active_tasks_avg\s*(>=|>|==|<=|<)'
+
+  # Systemic-defect P-A: bare metric key without file-path anchor
+  # (any predicate matching  ^<identifier>\s*OP\s*<number>$  with no ":" file prefix)
+  - pattern: '^[A-Za-z_][\w_]*\s*(>=|>|==|<=|<)\s*-?\d+(\.\d+)?$'
