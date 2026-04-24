@@ -146,36 +146,39 @@ Coherent layered system description с агентами как first-class citiz
 
 **Task 1.4 [KM Mat resume — brigadier fresh session]:** продолжение Wave 2+3+4+F текущего KM Mat cycle. Ruslan запускает в отдельном tmux.
 
-### Phase 2 — Layered Deep-Dives (25-30 апреля, 5-6 дней) — **DEEP DIVE POLICY APPLIES**
+### Phase 2 — Layered Deep-Dives (25-26 апреля, 2-3 дня) — **DEEP DIVE POLICY APPLIES + PRAGMATIC 3 MUST**
 
-**Revised per Ruslan 2026-04-24 23:50 directive: full foundation, maximum depth, Ruslan approval gate per document.**
+**Revised per Ruslan 2026-04-24 23:55 directive: 3 MUST deep-dives revenue-critical only. Остальное — backlog по мере gap.**
 
-После OVERVIEW approved (✓) и KM Mat extracted (✓) — последовательные layer deep-dives. Каждый — **отдельный M-task swarm cycle с Stage-Gated AWAITING-APPROVAL перед Ruslan ack**.
+После OVERVIEW approved (✓) и KM Mat extracted (✓) — 3 последовательных layer deep-dives одной волной. Каждый — отдельный M-task swarm cycle с Stage-Gated AWAITING-APPROVAL перед Ruslan ack. Pre-discussion scope с Ruslan ДО launch каждого cycle.
 
-Порядок (по criticality для revenue + downstream dependencies):
+**Порядок (одной волной):**
 
-**Wave 1 — Revenue critical path:**
-1. **`decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md`** (включает ICP Trinity как §N) — клиенты + партнёры + команда + Alliance + matchmaker + archetypes + 5-criteria filter; unblocks outreach
-2. **`decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md`** — 9 directions детально (consulting / producer / USB-C services / matchmaker / Secure Network / YouTube-SaaS / educational / tokens / Smart AI flagship); unblocks strategic docs
-3. **`decisions/LAYER-7-BUSINESS-TRAJECTORY-DEEP-DIVE.md`** — pricing Path A/B/C, unit-econ, 5 gates €50K → $1T, revenue streams per direction, миллионер reconciliation (audio_529 $1M+ vs audio_470 $240-600K/year)
+1. **`decisions/LAYER-6-COMMUNITY-DEEP-DIVE.md`** — **ICP Trinity** (клиент/партнёр/команда) + 11 archetypes × 5-criteria filter + Alliance architecture + matchmaker mechanics + Secure Network + digital portraits + fork-community governance + outreach mechanism + invite/membership filter + growth model + evolution per gate. **Unblocks outreach** — без этого не ясно кому писать.
 
-**Wave 2 — System depth:**
-4. **`decisions/LAYER-4-AGENTS-DEEP-DIVE.md`** — 20 agents roster (6 ROY + 14 legacy) reconcile CLAUDE.md, 5×4 matrix mechanics, 5-layer memory per agent, hub-and-spoke, fork-and-merge agent evolution per D27
-5. **`decisions/LAYER-8-PEOPLE-ALLIANCE-DEEP-DIVE.md`** — team 50-100 evolution per D26, hires roadmap, Alliance legal structure (Linux Foundation vs ARM Holdings), Secure Network architecture, digital portraits, fork-community governance
-6. **`decisions/LAYER-2-KNOWLEDGE-DEEP-DIVE.md`** — Private Library architecture, wiki v3 vs future, D28 query-driven filtering mechanics, topic-wikis per expert, project-wikis, A1→A2→A3 migration triggers
-7. **`decisions/LAYER-3-OPERATIONS-DEEP-DIVE.md`** — agents + swarm + skills в production, Plan/Work/Review/Compound 40/10/40/10 mechanics, swarm cycles catalogue
+2. **`decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md`** — 9 directions detailed (consulting / producer / USB-C services / matchmaker / Secure Network / YouTube-SaaS / educational / tokens / Smart AI flagship). Phase-1 активны {consulting + producer}, остальные Phase 2+ deferred. **Unblocks strategic docs** — без этого не ясно что предлагать.
 
-**Wave 3 — Cross-cutting + critical gap:**
-8. **`decisions/LAYER-0-FOUNDATION-DEEP-DIVE.md`** — Company-as-Code per D25 governance, git workflow, fork-and-merge protocol (D27), licensing decision (MIT / proprietary / dual), multi-dev atomic commits
-9. **`decisions/LAYER-9-GOVERNANCE-DEEP-DIVE.md`** — 28 Locks constitutional + operational policies, constitutional amendment process, beta-first canonicalization, AWAITING-APPROVAL mechanics, dissent preservation §1d
-10. **`decisions/LAYER-R-RESOURCE-DEEP-DIVE.md`** — 5 resources (time/attention/money/energy/credits) tracking, dashboard design, OPP-01 ap_cost instrumentation, alerts at thresholds
-11. **`decisions/LAYER-C-COMPUTE-DEEP-DIVE.md`** — infrastructure evolution (workstation → data-center → электростанции), client-private inference (Mistral 7B / Llama), sovereign compute
-12. **`decisions/LAYER-B-BRAND-DEEP-DIVE.md`** — USB-C narrative + прошивка Windows + operating system мирового масштаба + Smart AI internal label + 3-audience landings + JETIX-COMPASS как output
-13. **`decisions/LAYER-P-LIFEOS-DEEP-DIVE.md`** — Ruslan personal system, auto-logging, Life OS as Phase-3 product prototype (audio_529 insight)
+3. **`decisions/LAYER-7-BUSINESS-TRAJECTORY-DEEP-DIVE.md`** — Path A/B/C pricing (Jetix-hosted / Client-hosted / Hybrid), unit-econ per direction, 5 gates €50K → $1T migration triggers, миллионер reconciliation (audio_529 $1M+ vs audio_470 $240-600K/year), revenue streams. **Unblocks sales proposals** — без этого не ясно сколько просить.
 
-**Ruslan approval gate after every deep-dive.** Каждый cycle = fresh brigadier session. Deep dive policy enforced (15-25K words, no compression).
+**Deep Dive policy enforced:** 15-25K слов per document, все sub-components full depth, diagrams, evolution per gate tabular, preserved dissents, F-G-R tagging, citations, open questions resolved. Ruslan pre-discusses scope before launch + acks after AWAITING-APPROVAL.
 
-**Estimate:** 1-2 days per layer deep-dive swarm. Total Phase 2: 5-10 дней при последовательном execution. Parallel 2-3 cycles одновременно (HD-02 N=3) сокращает до 4-6 дней.
+**Estimate:** 4-6 часов swarm per deep-dive. Последовательно через Stage-Gated ack: ~2-3 дня total.
+
+### Phase 2 Backlog (Tier 2/3 — делаем по мере gap, не обязательная очередь)
+
+**Tier 2 — Nice-to-have (по мере реальных gaps):**
+- L4 Agents Deep-Dive + CLAUDE.md reconcile 12→20 (когда клиент спросит "как работает")
+- L2 Knowledge Deep-Dive (когда продаём client-private KB отдельным продуктом)
+- L8 People Deep-Dive (когда готов hire первого — €200K+)
+- L-R Resource Dashboard (когда manual tracking стал мешать)
+
+**Tier 3 — Later (Phase 3+ or triggered):**
+- L0 Foundation (когда открываем open-source fork Phase 2+)
+- L-C Compute (€1M+ data-center thinking)
+- L9 Governance / L3 Operations (internal mechanism, по необходимости)
+- L-P Life OS (Phase 3 product launch prep)
+
+**L-B Brand НЕ делаем как отдельный deep-dive** — JETIX-COMPASS пишем прямо как Phase 3 strategic doc.
 
 ### Phase 3 — Strategic execution documents (30 апреля - 1 мая, 2 дня)
 
