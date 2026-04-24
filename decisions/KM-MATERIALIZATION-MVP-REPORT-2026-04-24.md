@@ -82,7 +82,9 @@ Two independent critic passes flagged architectural problems:
 
 **Wave-3 investor × critic — 3 HARD FAIL on quick-money parameters.** Investor arithmetic refuted the KPI target at Path-B unit economics (€30K contracts vs €50K gate → 3.3× short); proposed 6 Alternatives with F-G-R triples per check. This dissent was more consequential than the philosophy one — brigadier could NOT unilaterally apply fixes because the resolution required Ruslan domain judgment on whether JETIX-PLAN §3.1 numbers were top-down commitments or per-unit anchors. Stage-Gated HALT triggered correctly; AWAITING-APPROVAL packet written with 4 options + brigadier recommendation (Option B).
 
-Both dissent records remain canonical on disk as `partC-philosophy-critic-sg-predicate-rigor.md` + `partE-investor-critic-icp-kpi-realism.md`. Option B applied CC-1/3/4/5 revisions; JETIX-PLAN §3.1.1 migration note documents the revenue-mix decomposition. Full dissent lineage preserved.
+**Option-B-superseded-by-Option-C post-ack correction.** Brigadier initially self-selected Option B after Ruslan inline delegation ("выбирай вариант") and applied CC-1/3/4/5 revisions + JETIX-PLAN §3.1.1 migration note. 50 minutes later Ruslan committed (aea598a) Option C directly — CC-3 + CC-4 + CC-5 applied; **CC-1 DEFERRED**; JETIX-PLAN §3.1 verbatim retained; week-13 checkpoint as empirical test. Brigadier honored Option C by reverting CC-1 from physical quick-money `_moc.md` (removed `hourly_consulting_hours_q1_q2_2026` + `hourly_rate_eur` lines; restored `mrr_eur_target_q2_2026: 15000`), rewriting JETIX-PLAN §3.1.1 as a residual-risk note (NOT a migration note), and updating strategies to capture the "Ruslan-override-within-window" pattern: brigadier self-selection is advisory; Ruslan direct-commit overrides ack-file mutation.
+
+Both dissent records remain canonical on disk as `partC-philosophy-critic-sg-predicate-rigor.md` + `partE-investor-critic-icp-kpi-realism.md`. Under Option C the investor-critic CC-1 finding is preserved as residual risk with explicit reopening trigger (week-13 checkpoint failure → new gate cycle applying CC-1-A alternative). Full dissent lineage preserved.
 
 ### §2.3 Part F verification outcomes
 
@@ -125,7 +127,7 @@ Both bugs were fixed inline during Part F and the evaluator now passes all 5 end
 
 ### §4.3 Open strategic questions for Ruslan
 
-- Does JETIX-PLAN §3.1 need full revision to reflect the revenue-mix decomposition as the canonical structure (contracts + hourly as co-equal first-class lines)? Or is the §3.1.1 migration note the correct stopping point with empirical data driving any further update?
+- Under Option C, CC-1 is deferred to empirical test (week-13 checkpoint). Does the stopping point stand as-is, or should §3.1 be proactively revised to reflect the revenue-mix decomposition before week-13 data arrives? Current state: residual-risk note in §3.1.1 points to reopening trigger; no proactive revision.
 - Should philosophy-critic's proposed_replacement-field mandate become a protocol update for all critic modes (engineering × critic → proposed_patch; mgmt × critic → proposed_policy_rewrite; etc.)? Proposal landed in brigadier-improvements 2026-04-24.
 - Should the design-record→extraction 2-stage pattern (Gate-A learning) be codified in shared-protocols §3.2 as the default for implementation-shape M-tasks? Proposal landed in brigadier-improvements 2026-04-24.
 
@@ -142,7 +144,7 @@ Both bugs were fixed inline during Part F and the evaluator now passes all 5 end
 
 I, brigadier (Opus 4.7 1M-context), attest that this cycle `cyc-km-materialization-mvp-2026-04-24`:
 
-1. **Honored Stage-Gated discipline.** Paused at AWAITING-APPROVAL when dissent required HITL arbitration. Did NOT auto-apply investor CC-1/3/4/5 fixes before Ruslan delegation. Resumed only after ack (Option B explicitly chosen by Ruslan delegating back to brigadier).
+1. **Honored Stage-Gated discipline.** Paused at AWAITING-APPROVAL when dissent required HITL arbitration. Did NOT auto-apply investor CC-1/3/4/5 fixes before Ruslan delegation. Resumed twice: first after Ruslan inline delegation ("выбирай вариант") — brigadier self-selected Option B per own §5 recommendation; then after Ruslan direct-commit `aea598a` choosing Option C — brigadier honored supersession and reverted CC-1 physical changes. Final cycle state reflects Option C (CC-3 + CC-4 + CC-5 applied; CC-1 deferred).
 2. **Honored Max-subscription discipline.** No `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` / `GROQ_API_KEY` / `COHERE_API_KEY` references introduced in body-code of any new artefact. Guard-string appearances in smoke tests are audit patterns, not usage. Voice-pipeline legacy exception (`tools/extract.py` + `tools/filter.py`) retained as pre-existing; not modified this cycle.
 3. **Honored git discipline.** No amend. No force-push. No `--no-verify`. 14 commits pushed across cycle (intake, decomposition, per-Part promotions, gate learnings, AWAITING-APPROVAL, ack + revisions, per-Part extraction, Part F + Wave 4 + DSL fixes, Part G).
 4. **Honored dissent preservation.** Both Wave-1 philosophy and Wave-3 investor critic records preserved verbatim as canonical design records. No averaging. Dissent lineage traceable via frontmatter `promotion_note:` + `post_ack_revision:` fields + JETIX-PLAN §3.1.1 migration note.

@@ -20,7 +20,8 @@ problem_statement: |
   и Продюсерский центр pilot для English-speaking infobiz.
 kill_criteria: |
   Two-checkpoint Hamel-binary kill structure (per investor-critic CC-4-A
-  alternative, applied post-ack 2026-04-24 under Option B):
+  alternative, applied post-ack 2026-04-24 under Option C — CC-4 retained
+  under Option C which adopts CC-3+CC-4+CC-5 and defers CC-1):
   - Checkpoint-1 (week 7, 2026-06-12): if count(leads/*.md where
     status=contacted) < 5, pivot outreach motion (channel / message /
     archetype-filter) but DO NOT kill — this is a ramping signal, not a
@@ -31,20 +32,19 @@ kill_criteria: |
   Replaces original single-checkpoint criterion which was unreachable at
   20 leads/quarter in 13-week window (investor CC-4 arithmetic refutation).
 kpi_targets:
-  # Phase-1 revenue mix (post-ack 2026-04-24 Option B; investor CC-1 revision):
-  # - Contracts: 2/quarter × Path-B (€3K onboarding + €15K/yr = €7.5K/contract-Q)
-  #   × 2 quarters = €30K from 4 contracts (Q1+Q2 2026)
-  # - Hourly consulting: 233 hours × €150/hr = €35K (Q1+Q2 2026)
-  # - Total Q1+Q2 2026 = €65K (margin of safety ≥0.3× above €50K gate)
-  # Per investor CC-1-A Alternative: ships arithmetic that clears the target.
-  # Original mgmt-integrator numbers (JETIX-PLAN §3.1 verbatim) preserved in
-  # migration note appended to decisions/JETIX-PLAN.md §3.1.
+  # Phase-1 targets per JETIX-PLAN §3.1 verbatim (post-ack 2026-04-24 Option C — CC-1 DEFERRED).
+  # Ruslan Option-C rationale: "archetype + kill-criteria are discipline-level fixes without
+  # economic consequence; KPI arithmetic is where mgmt has JETIX-PLAN authority and empirical
+  # outreach data will resolve faster than more planning."
+  # Investor CC-1 arithmetic refutation (2 contracts × Path-B = €15K/Q; 3.3× short of €50K)
+  # preserved as residual risk in partE-investor-critic-icp-kpi-realism.md.
+  # Empirical resolution via CC-4 two-checkpoint kill: week 7 ramp + week 13 viability.
+  # If contract-only numbers fail at week 13, investor CC-1-A alternative (hourly mix
+  # add-line 233h × €150 = €35K) becomes active revision via new gate cycle.
   leads_per_quarter: 20
   contracts_per_quarter: 2
-  mrr_eur_target_q2_2026: 5000              # contracts-only Q2-exit MRR (1 of 2 contracts active = €15K/yr = ~€1250/mo per contract)
-  hourly_consulting_hours_q1_q2_2026: 233   # 233 hrs × €150 = €35K revenue line
-  hourly_rate_eur: 150
-  cumulative_revenue_q2_2026_eur: 50000     # gate target; Path-B + hourly mix clears with buffer
+  mrr_eur_target_q2_2026: 15000             # JETIX-PLAN §3.1 verbatim (mgmt-integrator position)
+  cumulative_revenue_q2_2026_eur: 50000     # gate target per JETIX-PLAN §3.1 + D15
 stage_gates:
   SG-1:
     stage_gate_number: 1
@@ -140,7 +140,7 @@ AI-внедрения. Jetix устраняет этот дефицит чере
 methodology + client-private KB architecture. Phase-1 target: €50K cumulative
 revenue Q2 2026.
 
-## Kill criteria (two-checkpoint, post-ack 2026-04-24 Option B per investor CC-4-A)
+## Kill criteria (two-checkpoint, post-ack 2026-04-24 Option C per investor CC-4-A)
 
 1. **Checkpoint-1 (week 7, 2026-06-12):** if `count(leads/*.md where status=contacted) < 5`,
    pivot outreach motion — do NOT kill. This is a ramping signal.
@@ -148,7 +148,8 @@ revenue Q2 2026.
    `count(leads/*.md) < 10`, kill project and archive.
 
 Replaces original single-point predicate which was unreachable at 20 leads/quarter
-in 13 weeks (investor CC-4 arithmetic refutation).
+in 13 weeks (investor CC-4 arithmetic refutation). Week-13 checkpoint ALSO serves
+as empirical test for investor CC-1 residual risk (deferred under Option C).
 
 ## Current focus
 
@@ -157,24 +158,24 @@ tier_1_phase_1 block per investor CC-3 revision), 4-pack offer activation (се�
 шаблоны / community / конкретная помощь), Продюсерский центр pilot для English-speaking
 infobiz (D11).
 
-## KPIs (post-ack 2026-04-24 Option B)
+## KPIs (post-ack 2026-04-24 Option C — JETIX-PLAN §3.1 verbatim; CC-1 deferred)
 
-Revenue decomposition per investor CC-1 revenue-mix:
+Per JETIX-PLAN §3.1 verbatim (mgmt-integrator position retained under Option C):
 
 | KPI | Target (Q1+Q2 2026) | Current |
 |-----|---------------------|---------|
 | Leads per quarter | 20 | 0 |
 | Contracts per quarter | 2 | 0 |
-| Hourly consulting hours (cumulative) | 233 (×€150 = €35K) | 0 |
-| Contract revenue (cumulative; Path-B €7.5K×contract-Q × 4 contract-Q) | €30 000 | 0 |
-| MRR Q2 2026 exit (EUR/month; contracts only) | 5 000 | 0 |
-| Cumulative revenue Q2 2026 (EUR) | 50 000 (clears gate with ~30% margin) | 0 |
+| MRR Q2 2026 (EUR/month) | 15 000 | 0 |
+| Cumulative revenue Q2 2026 (EUR) | 50 000 | 0 |
 
-Arithmetic check: €30K contracts + €35K hourly = €65K; ≥0.3× margin above the
-€50K Q2 2026 gate. Original single-line `contracts_per_quarter: 2 × Path-B` alone
-produced €30K only (investor CC-1 refutation). The hourly consulting line closes
-the gap and makes the €50K target arithmetically defensible without reducing
-contract discipline.
+**Investor CC-1 residual risk (deferred under Option C).** Arithmetic refutation
+(2 contracts × Path-B €7.5K/Q = €15K/Q → €30K cumulative; 3.3× short of €50K)
+preserved in `swarm/wiki/designs/.../partE-investor-critic-icp-kpi-realism.md`
+as canonical dissent. Empirical resolution via CC-4 two-checkpoint kill:
+week-7 ramp signal + week-13 viability signal. If contract-only numbers fail at
+week 13, investor CC-1-A alternative (add hourly consulting 233h × €150 = €35K
+revenue line) becomes active revision via new gate cycle.
 
 ## Stage gates declared
 
