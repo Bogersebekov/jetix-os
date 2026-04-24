@@ -73,7 +73,7 @@ Backup options: Discord / own platform — note briefly, не deep-dive.
 - Discovery call script skeleton (15-20 min структура)
 - Qualification questions list
 
-## §3 Structure — 13 sections minimum
+## §3 Structure — 14 sections minimum (§14 added per Ruslan Option C — Tools Roadmap per layer)
 
 ### §1 TL;DR (400-600 words)
 Layer 6 на 3 предложения. Основные conclusions: ICP filter / Alliance structure pick / outreach mechanism / expected growth.
@@ -185,6 +185,48 @@ Skeleton: current 1 → Phase 1 target 5-20 → Phase 2 target 50-200 → Phase 
 
 ### §13 Preserved dissents + F-G-R tagging + citations (≥500w)
 Всё что experts не согласились — preserved per §1d AP-6. Cite audio_NNN + existing docs (D22 / D26 / KM Mat Option C clarifications).
+
+### §14 Tools Roadmap для Layer 6 (≥1500w — NEW per Ruslan directive 2026-04-24 24:15 CET)
+
+**Ruslan verbatim:** *«Option C — Tools needed per layer в каждом deep-dive»*. Включать реальные practical tools которые L6 потребляет или производит.
+
+**Категории:**
+
+**§14.1 Outreach tools** — что нужно для §7:
+- CRM-lite (currently = `swarm/wiki/operations/quick-money/leads/*.md` per-prospect file) — spec / что работает / когда upgrade
+- Email drafting tool (Claude Code `/outreach-message` skill proposal — если нужно)
+- LinkedIn automation considerations (manual Phase 1; automated Phase 2+ if legal)
+- Video message tool (Loom-like — template-level consideration)
+- Warm intro tracking (как вести список "кто кого представил")
+
+**§14.2 Community management tools** — что нужно для §6 / §8:
+- Telegram group admin / moderation bot (Phase 2 — when Secure Network launches)
+- Digital portrait creation tool (форма + storage — Phase 2)
+- Invite-only gate mechanism (bot / form / manual — Phase 1 manual)
+- Member quality scoring tool (backlog)
+
+**§14.3 Matchmaker tools** — что нужно для §5:
+- Manual match tracking (spreadsheet / wiki page — Phase 1)
+- AI-assisted coordination layer (brigadier-orchestrated — Phase 2)
+- Platform MVP tool (Phase 2+ — specified here, built later)
+
+**§14.4 Alliance tools** — что нужно для §4:
+- Member registry + governance voting mechanism (Phase 2 when formal)
+- IP licensing tracking (Phase 2)
+- Contribution accounting (fork-and-merge per D27 — Phase 3+)
+
+**§14.5 Analytics & dashboards** — что измеряем:
+- Outreach response rate (current = manual log; Phase 2 = auto from email thread analysis)
+- Client NPS tracking (survey tool — Phase 2)
+- Community growth / churn metrics (Phase 2+)
+
+**Для каждого tool:**
+- Current state (exists / partial / missing)
+- Revenue trigger для build (какой клиент / какой gate)
+- Estimate implementation (cycle duration)
+- Dependencies (на какие другие tools / layers)
+
+**Anti-scope §14:** НЕ реализация tools — только **spec + roadmap**. Actual implementation = Phase 4 cycles по revenue-триггерам. §14 — это map что строить когда triggered.
 
 ## §4 Cell distribution (your §3.3 WBS)
 
