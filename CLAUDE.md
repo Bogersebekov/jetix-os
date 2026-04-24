@@ -156,3 +156,67 @@ Provenance: `sources:` в frontmatter + inline `[src:filename]`.
 5. Git commit в конце каждой сессии
 6. Не трогать `private/`, `~/.ssh/`, `.env`
 7. При ротации логов: >30 записей → старые в archive/
+
+## KM MVP (2026-04-24) — что изменилось
+
+A1 Karpathy++ substrate + B2 Rich mini-swarm + B3 stage-gate mechanic (merged into B2)
++ company-as-code cross-cutting discipline были materialised in sprint cyc-km-materialization-mvp-2026-04-24.
+Design records (authoritative spec): `swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/`.
+
+**Новые skills:**
+- `/project-bootstrap` — scaffold новый проект (4 типа + mini-swarm + client namespace)
+- `/project-review` — еженедельный дайджест по проекту
+- `/project-archive` — архивация проекта (killed | closed | pivoted)
+- `/project-de-morph` — откат stage-gates до SG-N (reversibility per B3 mechanic)
+- `/project-promote` — промоция bets → consulting/research/product при SG-4
+- `/company-status` — git-native снапшот всей системы (≤80 строк, zero network)
+- `/knowledge-diff` — delta wiki между двумя датами по git log
+
+**Расширенные skills:**
+- `/ingest` — 6 типов источников (URL, PDF, YT, voice-memo, email, clipboard)
+- `/ask` — OFFLINE_MODE=1 для structured-excerpt вместо inference
+- `/consolidate` — флаг `--weekly` для авто-merge дубликатов раз в неделю
+- `/build-graph` — community detection (Louvain-equiv); пишет communities.jsonl
+- `/lint` — 5 новых сигналов (dangling-edge, orphan-concept, missing-frontmatter,
+  duplicate-slug, cross-client-global) + `--check-stage-gates` + `--validate-predicate`
+
+**Новые конфиги:**
+- `.claude/config/project-types.yaml` — декларативные шаблоны 4 типов проектов
+- `.claude/config/wiki-roots.yaml` — расширен clients: stanza для UC-9 Phase-A isolation
+- `.claude/config/sg-banned-phrases.yaml` — 18 banned-phrase форм для SG predicate lint
+
+**Новый agent template:**
+- `.claude/agents/project-brigadier.md` — mini-swarm координатор (≤7 задач, project-scope)
+
+**Новые шаблоны:**
+- `swarm/wiki/_templates/project-consulting/` — 9 stub files
+- `swarm/wiki/_templates/project-research/` — 8 stub files
+- `swarm/wiki/_templates/project-product/` — 9 stub files
+- `swarm/wiki/_templates/project-bets/` — 5 stub files (baseline only)
+
+**Company-as-code принцип:**
+- Каждый KB change = structured git commit (`[area] verb what (why)`)
+- Config-driven через `.claude/config/*.yaml` — no hardcoded paths в skill code
+- Git-native rollback через `git revert` — не `--amend`, не `--force`
+- API-key audit перед каждым коммитом: `grep -rEn 'ANTHROPIC_API_KEY|...' <files>` → 0 hits
+
+## KM MVP quick ops
+
+| Команда | Назначение |
+|---------|------------|
+| `/project-bootstrap <slug> <P1-P4> --type=<consulting\|research\|product\|bets> [--client=<id>] [--adaptive]` | Создать новый проект с scaffold |
+| `/project-review <slug>` | Еженедельный дайджест по одному проекту |
+| `/project-archive <slug> --reason=<killed\|closed\|pivoted>` | Архивировать проект |
+| `/project-de-morph <slug> --rollback-to=SG-<N>` | Откатить stage-gates до SG-N |
+| `/project-promote <slug>` | Промотировать bets → другой тип (после SG-4) |
+| `/company-status [--days=N]` | Снапшот всей компании из git (default last 7d) |
+| `/knowledge-diff [--since=YYYY-MM-DD] [--until=YYYY-MM-DD]` | Delta wiki между датами |
+| `OFFLINE_MODE=1 /ask "<запрос>"` | Offline structured-excerpt (без inference) |
+| `/lint --check-stage-gates` | Ежедневная проверка SG predicates |
+| `/consolidate --weekly` | Авто-merge дубликатов за последнюю неделю |
+
+**Authoritative design records:** `swarm/wiki/designs/T-km-materialization-mvp-2026-04-24/`
+- `partA-a1-substrate-bundle.md` — A1 Karpathy++ substrate (9 sub-artefacts)
+- `partB-b2-mini-swarm-bundle.md` — B2 Rich mini-swarm (8 sub-artefacts)
+- `partC-stage-gates-merged.md` — B3 mechanic merged into B2 (de-morph + promote + eval)
+- `partD-company-as-code.md` — cross-cutting discipline (this document)
