@@ -19,3 +19,11 @@ opened_at: 2026-04-24T01:44:00+02:00
 - prior cycle-2 gate: ACKED (chosen A by ruslan)
 - workspace created: swarm/wiki/tasks/T-km-architecture-research-2026-04-24/{context,artefacts,decisions}/
 - log entries appended: swarm/wiki/log.md
+
+## [2026-04-24 01:50] phase-2-decomposition-complete | brigadier
+- WBS: swarm/wiki/proposals/T-km-architecture-research-2026-04-24-decomposition.md
+- decompose-or-chat gate: 4/4 predicates fired → decompose
+- cells: 20 (all 5 experts × 4 modes); class: M (sub-decomp of 1 M-slot)
+- waves: 4 (W1 critics → W2 optimizers → W3 integrators → W4 scalability)
+- total ap_cost: 549K turns; ap_budget: 880K turns
+- risk register: R1-R5 (divergence; label-only; UC-9/10 policy-claim; legacy touch; word-count)
