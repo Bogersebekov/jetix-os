@@ -622,9 +622,10 @@ Hooks used:
 - Path C trigger: company revenue >€20M AND explicit GDPR-audit demand AND budget
   >€30K → Path C enterprise override (Jetix hosts agents; client data stays on
   client server via secure tunnel).
-- Path A: NOT recommended for manufacturing Mittelstand — managed hosting by
-  Jetix still involves cloud trust issue for this ICP; only viable if client
-  has zero IT team.
+- Path A: low-fit candidate per engineering feasibility analysis (C-5 §5.1 H1) —
+  managed hosting by Jetix still involves cloud trust issue for this ICP; brigadier
+  notes this as the lower-probability option, viable only if client has zero IT team.
+  Ruslan may override based on client-specific context.
 - Phase-2+: Path C productized as the premium manufacturing tier; ISO 27001
   roadmap begins at G2.
 
@@ -774,9 +775,11 @@ Hooks used:
 - Path C trigger: firm revenue >€10M AND explicit compliance requirement AND
   budget >€30K → Path C with formal GDPR DPA + BRAO-compliance statement from
   Ruslan's legal counsel.
-- Path A: NOT recommended — cloud hosting by Jetix still creates data processor
-  relationship that requires DPA and may not satisfy professional secrecy; only
-  if client requests and legal counsel approves.
+- Path A: engineering-feasibility (C-5 §5.1 H2) labels this CONDITIONAL — feasible
+  only if client has no hard bar on cloud hosting AND is willing to sign a
+  comprehensive DPA. Brigadier notes this as a low-probability option for
+  professional services; legal-counsel confirmation required before any Path A
+  offer to this segment. Ruslan decides.
 - Special note: a formal Data Processing Agreement (DPA) is MANDATORY for any
   engagement in this vertical, regardless of Path; Ruslan must have DPA template
   ready before first signed contract.
@@ -1073,11 +1076,14 @@ Hooks used:
 ---
 
 **Path A/B/C fit:**
-- Phase-1: **Path C ONLY** for this hypothesis (compliance-mandated clients
-  require enterprise-level audit trail; Path B insufficient for MDR/BaFin without
-  compliance documentation stack).
-  Phase-1 constraint: max 1–2 Path C manual implementations (per L5 §3.3 Phase-1
-  constraint: «Maximum 1-2 manual installations in Phase 1»)
+- Phase-1 Path default candidate: brigadier proposes Path C as the primary
+  delivery candidate for H4 compliance-first segment, based on C-5 engineering
+  feasibility (Path C trigger probability HIGH for Medizintechnik per C-2 §5.2)
+  and pain analysis (regulatory obligation is the purchase trigger). Path B
+  remains a structural fallback if client's QM auditor does not trigger ISO 13485
+  software-validation process. Ruslan selects the path posture for this vertical.
+  Phase-1 capacity ceiling: max 1 concurrent Path C client per C-5 analysis (1–2
+  manual implementations envelope per L5 §3.3)
   [src:decisions/LAYER-5-PRODUCT-DIRECTIONS-DEEP-DIVE.md#§3.3].
 - Path C trigger conditions: revenue >€10M AND regulated sector AND budget >€30K
   AND compliance requirement explicitly stated in discovery Q5
