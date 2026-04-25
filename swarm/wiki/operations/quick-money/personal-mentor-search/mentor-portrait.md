@@ -1,214 +1,149 @@
 ---
 id: mentor-portrait-2026-04-26
-title: "Портрет advisor — mentor / facilitator / consultant (Документ #2)"
+title: "Портрет advisor — mentor / facilitator / consultant (Документ #2, FINALIZED 26.04)"
 date: 2026-04-26
 type: search-portrait
-state: research-active-scope-expanded
-priority: P1 — список к вечеру 26.04 для outreach сегодня + созвоны 27.04
+state: finalized-by-ruslan
+priority: P1
 notion_page: https://www.notion.so/34d2496333bf81cf9e52d5574d5e0ae3
-scope_revision_note: "26.04 Ruslan revised scope — открыт к mentor + facilitator + business/strategic consultant (любой тип кроме co-founder). Запрос есть, идём в разные места, смотрим кто и как поймёт."
+ruslan_ack_parameters:
+  language: "RU primary; English тоже будем использовать"
+  budget: "€500 НА ВСЁ (на всех advisor'ов суммарно — не на одного)"
+  frequency: "~недельная (TBD после первого разговора с конкретным человеком)"
+  type_filter: "ВСЕХ подряд берём — не сужаем по типу (mentor / facilitator / consultant — все OK)"
+  ai_filter: "Похуй на AI-native — берём всех кто может помочь"
+  approach: "Предлагаем СОТРУДНИЧЕСТВО (не платим upfront). Сначала рассказываем кратко что нужно. Смотрим может человек помочь или нет. Учитываем что есть ДОБРЫЕ ЛЮДИ которые могут помочь без оплаты."
 relates_to:
-  - swarm/wiki/operations/quick-money/personal-mentor-search/my-situation.md (Документ #1 — Ruslan-filled 26.04)
-  - swarm/wiki/operations/quick-money/team-search/consultant-search.md (вчера, теперь scope merged)
-  - swarm/wiki/operations/quick-money/team-search/facilitator-search.md (вчера, теперь scope merged)
-  - decisions/JETIX-VISION.md (D22 ICP filter применяется к advisor-fit)
-  - decisions/JETIX-PHILOSOPHY.md (D2 §13 Левенчук — AI не стратегирует, нужен human advisor)
+  - swarm/wiki/operations/quick-money/personal-mentor-search/my-situation.md (Документ #1, filled by Ruslan)
+  - swarm/wiki/operations/quick-money/personal-mentor-search/candidate-tracker.md (Документ #3, новый — tracker для кандидатов)
 ---
 
-# Портрет advisor — mentor / facilitator / consultant
+# Портрет advisor — FINALIZED 26.04
 
-> **Scope revision 26.04:** Ruslan расширил scope. Изначально (утром) — поиск только personal mentor. По voice-memo Ruslan'а вечером — **открыт к любому из 3 типов**: mentor / facilitator / business consultant / strategic consultant. **Жёсткий NO только для co-founder / business partner.** Запрос самостоятельно не сильно собран — может оказаться что у facilitator или consultant больше опыта понять запрос и помочь, чем у pure mentor. **Иду в разные места, смотрю кто как поймёт.**
+## ✅ Acked Ruslan'ом 26.04
 
-## ⚠️ Что это НЕ (жёсткий NO)
+| Параметр | Значение |
+|---|---|
+| **Language priority** | **RU primary; English тоже используем** |
+| **Budget cap** | **€500 НА ВСЁ (суммарно на всех advisor'ов — не на одного)** |
+| **Frequency** | **~недельная** (TBD после разговора) |
+| **Type filter** | **БЕЗ filter — берём всех 3 типов параллельно** (mentor / facilitator / consultant) |
+| **AI-native filter** | **Похуй — берём всех** кто может помочь |
+| **Outreach approach** | **Предлагаем СОТРУДНИЧЕСТВО** (не paid upfront) |
 
-- ❌ **Business partner / co-founder** (это futurный search Phase-2+)
-- ❌ **Therapist** (mental health — разная сфера)
-- ❌ **Motivational coach** (Tony Robbins / mass-market)
-- ❌ **Religious / spiritual guru**
-- ❌ **MLM / coaching network coach**
+## ⚠️ Ключевой shift в outreach approach
 
-## ✅ Что это ДА (любой из 3 типов open)
+**НЕ:** «paid €150-400/session, month-to-month» (это было morning hypothesis)
 
-### Тип 1: Personal Mentor / Учитель
-- Wisdom + personal scaling journey + emotional maturity
-- Видит Ruslan'а целиком (life + business holistic)
-- Sessions-based; sократический подход
-- «Имеет свой путь» — построил/прошёл similar или parallel journey
+**ДА:** **Предлагаем сотрудничество.** Сначала кратко рассказываем что нужно (idea + brief). Смотрим может человек помочь или нет. Многие добрые люди могут помочь без оплаты. **Зря деньги не тратим.**
 
-### Тип 2: Facilitator
-- Process expert — workshops / strategic sessions / decision-making
-- Помогает Ruslan'у думать **clearly** через structured process
-- Может включать Design Sprint / Liberating Structures / Holacracy methodologies
+**Фактическая mechanics:**
+1. Initial outreach с brief (`my-situation.md` в attachment)
+2. Discovery call — смотрим может/хочет ли он помочь
+3. Если YES — обсуждаем формат (от free / advisory equity / разовая встреча / paid retainer)
+4. **€500 на ВСЁ** = жёсткий cap на total spend across всех advisor'ов суммарно
 
-### Тип 3: Business / Strategic Consultant
-- Content expert — sounding board для бизнес-решений
-- Practitioner с personal scaling experience (не McKinsey-style академик)
-- Помогает с конкретными стратегическими решениями (что делать первым / в каком порядке)
+## Что это НЕ (жёсткий NO)
 
-**Все 3 типа должны:**
+- ❌ Business partner / co-founder
+- ❌ Therapist (mental health — разная сфера)
+- ❌ Motivational coach / Tony Robbins-style
+- ❌ Religious / spiritual guru
+- ❌ MLM / coaching network coach
+
+## Что это ДА (3 типа open параллельно)
+
+### Type 1: Personal Mentor / Учитель
+Wisdom + personal scaling journey + emotional maturity. Видит Ruslan'а целиком.
+
+### Type 2: Facilitator
+Process expert — workshops / strategic sessions / decision-making.
+
+### Type 3: Business / Strategic Consultant
+Content expert — sounding board для бизнес-решений. Practitioner.
+
+**Все 3 должны:**
 - Иметь больше опыта чем Ruslan
-- Понимать Ruslan'а (быть на одной волне)
-- На 100% нацелены поддержать развитие Jetix
-- Помогать с поиском / выбором людей / команды
-- «Умножать в 10 раз» — амплифицировать, не сбрасывать
+- Быть на одной волне, понимать
+- На 100% nацелены поддержать развитие Jetix
+- Помогать с поиском/выбором людей/команды
+- «Умножать в 10 раз»
 - Помогать думать где найти связи
 
-## 🎯 Profile (общий для 3 типов)
+## Profile (общий для 3 типов)
 
-### Core qualities
-- **Personal scaling journey** — построил/прошёл similar phases (founder/builder 0→$1M+ revenue, ИЛИ сильная жизненная история similar magnitude в другой сфере)
-- **Эмоциональная зрелость** — прошёл свои burnouts/crises и вышел из них
-- **Wisdom > tools** — не «apply this framework», а «расскажи мне про этот момент»
-- **D22 5-criteria fit:** startupper / azart / stable / adequate / upward-direction (особенно «adequate»)
-- **Честный** — называет «bullshit» когда Ruslan в режиме self-deception
-- **AI-aware но не AI-skeptic**
-- **Опыт в выборе/общении/управлении людьми** — поможет с командой
-- **Видит масштаб амбиций** ($1T trajectory не отметает) **но pragmatic** (помогает с $50K→$200K за 3-4 мес)
+- Personal scaling journey (или similar magnitude в др сфере)
+- Эмоциональная зрелость
+- Wisdom > tools
+- D22 5-criteria fit (особенно «adequate»)
+- Честный — называет «bullshit»
+- Опыт в выборе/общении/управлении людьми
+- Видит масштаб амбиций ($1T trajectory) НО pragmatic ($50K→$200K за 3-4 мес)
 
-### Operating style
-- **Sessions-based** (60-90 мин weekly/bi-weekly)
-- **Прямой, без воды** — в стиле Ruslan'а
-- **Long-term lens** + immediate execution focus
+**Geography:** DACH + EU + US + RU-speaking globally; remote OK
+**Language:** RU primary OR EN (оба используем)
+**Age:** 35-65 typical
 
-### Demographics
-- **Geography:** DACH + EU + US (remote/video sessions)
-- **Language:** EN required; RU или DE big plus (особенно RU primary preference уточнить)
-- **Age range:** 35-65 (enough scar tissue + всё ещё активный)
+## Anti-profile
 
-## 🚫 Anti-profile
+- Generic life coach без personal scaling
+- Motivational speaker / Tony Robbins
+- MLM / coaching networks
+- Therapist transitioning в coaching
+- Religious/spiritual guru
+- Solo-founder cult evangelist (D26 conflict)
+- Кто никогда не строил бизнес или сильный personal project
 
-- ❌ Generic life coach без personal scaling experience
-- ❌ Motivational speaker / Tony Robbins-style
-- ❌ MLM / coaching networks
-- ❌ Пsихотерапевт transitioning в coaching
-- ❌ Religious/spiritual guru
-- ❌ AI-skeptic / «AI hype» mindset
-- ❌ Solo-founder cult evangelist (D26 conflict)
-- ❌ Кто никогда не строил бизнес или сильный personal project
-
-## 🔍 Где искать (расширенный list — все 3 типа)
-
-### Type 1 — Personal Mentor channels
-
-1. **LinkedIn Sales Navigator** — «Founder coach» / «Fractional advisor» / «Mentor» в DACH с visible scaling
-2. **Substack writers** — Lenny Rachitsky / Auren Hoffman / Naval circle / DHH+Jason Fried / Derek Sivers / Cal Newport
-3. **Podcast guests recurring** — Tim Ferriss / Knowledge Project (Shane Parrish) / Acquired / 20VC / How I Built This
-4. **IndieHackers** — Courtland Allen + alumni
-5. **Russian-speaking founders:**
-   - Анатолий Левенчук (ШСМ) circle / ученики
-   - Олег Бахматюк / Иван Замесин / другие RU founders с scaling experience
-   - Berlin Russian-speaking tech founders (не diaspora — фаундеры)
-
-### Type 2 — Facilitator channels
-
-1. **Voltage Control Master Facilitators** directory
-2. **AJ&Smart alumni** (Berlin Sprint training)
-3. **IDEO U / Stanford d.school alumni**
-4. **Liberating Structures Slack community**
-5. **Holacracy.org practitioners** directory
-6. **The Ready alumni** (Aaron Dignan)
-
-### Type 3 — Business/Strategic Consultant channels
-
-1. **LinkedIn Sales Navigator** — «Fractional CSO» / «Strategic advisor» в DACH с 10-25 лет experience
-2. **Reforge alumni** (program completed → advisor route)
-3. **On Deck Founders / On Deck Chief of Staff**
-4. **Stanford GSB / INSEAD / HSG / Mannheim alumni**
-5. **a16z / YC / Stripe / Hubspot ex-employee networks**
-6. **Founders for Founders** (DACH advisor matchmaking)
-
-### Anti-channels (для всех 3 типов)
-- ❌ Upwork / Fiverr (wrong tier)
-- ❌ Toptal (project consultants)
-- ❌ BetterUp / Modern Health (corporate wellness)
-- ❌ MLM / coaching networks
-- ❌ Religious / spiritual circles
-
-## 💰 Pricing hypothesis (revised для 3 типов)
-
-| Тип | Per session | Monthly retainer | Trial |
-|---|---|---|---|
-| **Mentor** | €150-€400 (60-90 min) | €300-€1200 | First session paid trial full rate |
-| **Facilitator** | €300-€800 (60-90 min) | €600-€2000 | Same |
-| **Consultant** | €150-€300/hr | €500-€1500 | Same |
-
-**Ruslan budget hypothesis (нужно подтверждение):** до €1500/mo на ОДНОГО advisor; начинать с 1, добавить второго если работает. **Open to budget revision** — если кандидат уровня ого-ого, бюджет может прыгнуть.
-
-### Anti-pattern
-- ❌ Free / pro bono (skin-in-game)
-- ❌ Equity-only Phase-1
-- ❌ 6-month upfront contract — month-to-month default
-
-## 📬 Outreach approach
-
-### Discovery call agenda (20-30 мин)
-1. Ruslan brief (5 мин): use [my-situation.md](./my-situation.md) как context (отправить заранее)
-2. Advisor brief (10 мин): их history, current practice, что важно в их работе
-3. Mutual fit Q&A (10 мин): резонирует ли видение Jetix; chemistry / «click»
-4. Next step (5 мин): paid trial session scheduled если mutual fit
-
-### Outreach message template (LinkedIn DM, EN-default)
+## Outreach template (revised под «предлагаем сотрудничество»)
 
 ```
 Hi [Name],
 
-[Pre-researched 1-sentence — specific reference к их recent work / podcast / writing — NOT generic]
+[Pre-researched 1-sentence — specific reference к их recent work — NOT generic]
 
-I'm Ruslan, 21, Berlin, building Jetix — methodology + operating system for AI-leverage in business and life. Phase 1: €50K Q2 2026 commit; Phase 3 horizon $1T market cap. Solo + AI agents, foundation locked, but stuck in founder-of-one trap — major decisions are coming alone, no one to talk to about the project specifically.
+I'm Ruslan, 21, Berlin. Building Jetix — methodology + operating system for AI-leverage в business and life. Phase 1: €50K Q2 2026; long horizon $1T market cap. Solo founder + AI agents, foundation locked, but stuck in founder-of-one trap — major decisions are coming alone.
 
-Looking for advisor (mentor / facilitator / strategic consultant — open) — someone with scaling experience, who'd help me see blind spots, navigate strategic priorities, and amplify my thinking. Sessions-based, paid (€150-400/session range, month-to-month).
+Looking to разговаривать с experienced people who've scaled their own thing — open to сотрудничество in any form (single discovery chat / occasional sounding board / regular sessions if mutual fit). Not necessarily paid — happy to пойти от вашей comfort zone.
 
-Brief in 1 page if interested: [link to my-situation.md]
+1-page brief if interested: [link to my-situation.md]
 
-Would you be open to 30-min discovery call this week?
+Would you be open to 30-min call this week?
 
 Best,
 Ruslan
 ```
 
-### Anti-pattern
-- ❌ Generic «hi want to mentor me?»
-- ❌ «Free advice» в первом message
-- ❌ Длинный pitch
+**RU version (for RU-speaking advisors):**
+```
+Привет, [Имя],
+
+[Pre-researched 1-sentence — references к их работе/писаниям — NOT generic]
+
+Я Руслан, 21, Берлин. Строю Jetix — методологию + операционную систему для AI-leverage в бизнесе и жизни. Phase 1: $50K в ближайшие месяцы; долгосрочно — $1T market cap (200-year horizon). Соло основатель + AI-агенты; foundation заперт, но застрял в founder-of-one trap — большие решения идут наедине.
+
+Ищу разговор с опытными людьми кто прошёл свой путь — открыт к сотрудничеству в любой форме (один discovery chat / occasional sounding board / regular sessions если mutual fit). Не обязательно paid — готов идти от вашей comfort zone.
+
+1-страница брифа если интересно: [link]
+
+Открыт ли 30-min call на этой неделе?
+
+С уважением,
+Руслан
+```
+
+## Anti-pattern
+
+- ❌ «Free advice please mentor me» (skin-in-game подход — НЕ пресмыкание; готовы платить если нужно)
+- ❌ Длинный pitch (decision на одном экране)
 - ❌ Pretending знать work без actual research
+- ❌ Spam / mass-DM
 
-## 📋 Action items (сегодня вечером 26.04)
+## Cross-references
 
-### Phase 1 — Search (1.5-2 hr)
-- [ ] LinkedIn Sales Navigator — 15-20 candidates всех 3 типов
-- [ ] Podcast/Substack scan — 10 candidates (Type 1 mentor)
-- [ ] Voltage Control / AJ&Smart / Liberating Structures — 5 candidates (Type 2 facilitator)
-- [ ] Reforge / On Deck / specific networks — 5-10 candidates (Type 3 consultant)
-- [ ] Russian-speaking founder networks — 5-10 candidates
-- [ ] Filter to top-7
-
-### Phase 2 — Deep enrichment (1 hr)
-- [ ] Per top-7: LinkedIn / Twitter / writing samples / pre-researched hooks
-- [ ] Per top-7: какой тип advisor (Mentor / Facilitator / Consultant) + почему
-
-### Phase 3 — Outreach send (30 мин)
-- [ ] First 3-5 outreach messages sent
-- [ ] my-situation.md attached/linked to message (after Ruslan finalize)
-- [ ] Tracking entry per candidate
-
-### Tomorrow (27.04 morning)
-- [ ] Day-1 follow-ups для non-responders
-- [ ] Discovery calls с responders (1-3 созвона цель)
-
-## 🔮 Open questions для Ruslan
-
-1. **Language priority:** RU primary (Левенчук-сфера / Berlin RU founders) / EN-first (Naval / Tim Ferriss circle / global) / DE plus / agnostic?
-2. **Budget cap:** до €1500/mo на одного OK? или другой?
-3. **Frequency:** weekly / bi-weekly / monthly?
-4. **Готов ли работать с advisor который не AI-native?** (wisdom-rich без AI specifics; AI context я даю в brief)
-5. **Если приходится выбирать — primary type?** Mentor (wisdom-driven) / Consultant (strategy-driven) / Facilitator (process-driven)?
-
-## 📥 Кандидаты (preliminary — результат research сегодня)
-
-| # | Name | Тип | Канал | Background | Why fit | Status |
-|---|---|---|---|---|---|---|
-| 1 | [TBD] | [Mentor/Fac/Cons] | [URL] | [...] | [...] | Researching |
+- **Документ #1:** [📋 Моя ситуация и где нужна помощь](https://www.notion.so/34d2496333bf81c796e4db5f458c7155)
+- **Документ #3:** Кандидаты tracker — [📥 Поиск кандидатов](см. notion sub-page #3)
+- Yesterday's [Стратегический консультант](https://www.notion.so/34d2496333bf81488486e274b82b47f6) + [Фасилитатор](https://www.notion.so/34d2496333bf81708f93c710dfd341fd) — scope merged сюда
 
 ---
 
-*Cross-reference: yesterday's [Стратегический консультант](https://www.notion.so/34d2496333bf81488486e274b82b47f6) + [Фасилитатор](https://www.notion.so/34d2496333bf81708f93c710dfd341fd) — теперь scope merged, все 3 типа в одном поиске. Companion: [📋 Моя ситуация](https://www.notion.so/34d2496333bf81c796e4db5f458c7155) (filled by Ruslan 26.04).*
+*Все 5 параметров (language / budget / frequency / type / approach) — finalized Ruslan 26.04. Ruslan сам ведёт search кандидатов; этот документ = profile-to-share + outreach template.*
