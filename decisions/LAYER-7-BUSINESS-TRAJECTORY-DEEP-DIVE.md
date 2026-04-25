@@ -3,8 +3,21 @@ id: layer-7-business-trajectory-deep-dive-2026-04-25
 title: "LAYER-7 Business & Trajectory Deep-Dive — Pricing Finalization + Unit-Econ + 5-Gate Triggers + Миллионер Reconciliation + Cash Flow + Patents + Investor Relations + Compensation + Risk Register + Tools + Evolution"
 type: layer-deep-dive
 layer: L7
-state: drafted
-state_transition_target: AWAITING-APPROVAL
+state: accepted
+state_transition_target: accepted
+acked_at: 2026-04-25
+acked_by: ruslan
+ack_file: swarm/gates/AWAITING-APPROVAL-layer-7-business-trajectory-deep-dive-2026-04-25-ack.md
+ack_decisions:
+  Q-L7-01: accept-§5-income-floor-reconciliation
+  Q-L7-02: accept-deferral-to-phase-1-2-lawyer-landscape
+  Q-L7-03: accept-§9-investor-ordering(strategic-angels-#1-family-offices-#2-sovereign-funds-#3)
+  Q-L7-04: accept-conditional-preservation+retirement-clause
+top_3_risks_acknowledged:
+  R-8: founder-burnout-RPN-130-anti-burnout-discipline-monthly-cadence
+  R-7: single-client-concentration-RPN-112.5-diversification-≥4-clients
+  R-1: phase-1-50k-miss-RPN-90-weekly-pipeline-review-path-c-fallback
+phase_2_status_post_ack: CLOSED
 created: 2026-04-25
 last_modified: 2026-04-25
 cycle_id: cyc-layer-7-business-trajectory-deep-dive-2026-04-25
