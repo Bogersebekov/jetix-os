@@ -1,6 +1,6 @@
 ---
 type: index
-updated: 2026-04-16
+updated: 2026-04-26
 ---
 # Index — Jetix OS Wiki
 
@@ -8,10 +8,16 @@ updated: 2026-04-16
 Формат: `- [Title](path) — one-line summary [niche] [sources: N]`
 
 ## Concepts
+- [Affirmation ritual для founder state](concepts/affirmation-ritual-founder-state.md) — daily ritual поддерживает Stable trait, counter-pair к bad-state [life] [sources: 1]
+- [AI-проектирование psy-led](concepts/ai-proektirovanie-psy-led.md) — психологи проектируют AI, иначе деградация пользователей [tech] [sources: 1]
 - [Collaborative project versioning](concepts/collaborative-project-versioning.md) — бизнес-проекты как git-репозиторий [business] [sources: 1]
+- [Корпорация-стартап](concepts/korporaciya-startup-concept.md) — Jetix = корпорация-стартап + startup-developing-startup [business] [sources: 1]
 - [Curated community access](concepts/curated-community-access.md) — качество участников > массовость [business] [sources: 1]
 - [Digital sovereignty](concepts/digital-sovereignty.md) — не зависеть от закрытых платформ [business] [sources: 1]
+- [Founder isolation как stopper класс](concepts/founder-isolation-as-stopper-class.md) — solo без external counterpart деградирует strat-decisions [meta] [sources: 5]
 - [Jetix open source principles](concepts/jetix-open-source-principles.md) — Revenue Share + прозрачность + платформа [business] [sources: 1]
+- [Менеджмент важности информации](concepts/menedzhment-vazhnosti-informacii.md) — relevance-фильтр attention'а + рычаг убеждения [life] [sources: 1]
+- [Протокол: 2 дня плохого состояния](concepts/protocol-2-day-bad-state-limit.md) — hard-limit на bad-state, требует psy-PM [life] [sources: 1]
 - [Think-Do feedback loop](concepts/think-do-feedback-loop.md) — два режима мозга, прогресс в циклах [meta] [sources: 1]
 - [Writing as telepathy](concepts/writing-as-telepathy.md) — образ автора = образ читателя через слова [meta] [sources: 1]
 - [Engineering faith](concepts/engineering-faith.md) — вера = план + инструменты + убеждённость [meta] [sources: 1]

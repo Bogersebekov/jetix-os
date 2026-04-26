@@ -1,10 +1,26 @@
 ---
 type: log
-updated: 2026-04-16
+updated: 2026-04-26
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-04-26] DEEP REPORT addendum: +2 NEW concepts из cross-cutting analysis | concepts: +2
+Synthesized через Cloud Cowork CC analysis voice-memos 24-26.04 (DEEP REPORT §4):
+- `concepts/affirmation-ritual-founder-state.md` (audio_532) — daily ritual для founder Stable trait [life] [status_practiced=tbd]
+- `concepts/founder-isolation-as-stopper-class.md` (composite 533+534+535+536+537) — solo-founder stopper structural class [meta]
+Source: `reports/review_2026-04-26-DEEP.md` §4 Concept 5 + Concept 6. Acked by Ruslan via Cloud Cowork 26.04 03:30 CET.
+
+## [2026-04-26] voice-pipeline ingest 4 concepts из заметок 24-26.04 | concepts: +4 | sources: +4 (audio)
+4 концепции извлечены из voice-memos audio_531/533/535/537 (период 24-26 апреля),
+synthesized через Claude Code Max bypass (filter.py заблокирован Anthropic usage cap до 2026-05-01):
+- `concepts/ai-proektirovanie-psy-led.md` (audio_531) — психологи проектируют AI [tech]
+- `concepts/korporaciya-startup-concept.md` (audio_537) — Jetix как корпорация-стартап [business]
+- `concepts/menedzhment-vazhnosti-informacii.md` (audio_533) — фильтр по relevance [life]
+- `concepts/protocol-2-day-bad-state-limit.md` (audio_535) — recovery-protocol [life]
+Source cards в wiki/sources/ НЕ создавались (sources field прямо ссылается на raw/transcripts/).
+Voice-extract refs: `inbox/processed/extractions/audio_53*.json`.
 
 ## [2026-04-16] notion-α.3 ingest 11 Notion-страниц о системе | sources: +11 | edges: +11
 11 ключевых Notion-страниц fetched через 3 параллельных sub-agents:
