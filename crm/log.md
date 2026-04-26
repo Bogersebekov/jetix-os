@@ -1,3 +1,19 @@
+## 2026-04-26 03:35 — batch summary (post Cloud Cowork ack §12 questions)
+  3 contacts added (anton-mentor, vladislav-economist, rodion-youtuber) per CLAUDE.md
+  "Ключевые люди" reference. Антон record enriched §1 + §10 + §13 — referenced
+  как archetype для psy-PM hire (audio_535@25-04-2026). V-Work withdrawn from CRM
+  (= WeWork-metaphor per Cloud Cowork ack §12 Q3, NOT real organisation).
+  Source: reports/review_2026-04-26-DEEP.md §6 Контакты + §11 Routing.
+
+## 2026-04-26 03:21 — added rodion-youtuber (Родион)
+  roles: ['partner_prospect'] / source: warm_intro
+
+## 2026-04-26 03:21 — added vladislav-economist (Владислав)
+  roles: ['advisor'] / source: warm_intro
+
+## 2026-04-26 03:21 — added anton-mentor (Антон)
+  roles: ['mentor'] / source: warm_intro
+
 <!--
 CRM Activity Log
 ================
