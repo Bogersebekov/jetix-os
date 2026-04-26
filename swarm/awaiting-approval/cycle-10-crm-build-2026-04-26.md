@@ -2,13 +2,18 @@
 title: Cycle 10 — CRM Build (multi-purpose contact network)
 date: 2026-04-26
 type: awaiting-approval
-status: AWAITING-APPROVAL
+status: CYCLE-10-FULLY-COMPLETED
 brigadier: claude-opus-4-7 (resumed cycle from restart with bypass permissions)
-recommendation: APPROVE-AND-MERGE
+recommendation: APPROVE-AND-MERGE (main scope acked 2026-04-26 ~03:00; follow-ups F-1/F-2/F-3 closed in same cycle ~03:10)
 branch: claude/jolly-margulis-915d34
 ---
 
-# Cycle 10 — CRM Build — AWAITING APPROVAL
+# Cycle 10 — CRM Build — CYCLE-10-FULLY-COMPLETED
+
+> **Update 2026-04-26 03:10:** Main scope acked by Ruslan. All 3 follow-ups
+> from §Open Questions (F-1 voice→CRM wire, F-2 edges validator, F-3 .gitkeep)
+> closed in this same cycle via additional commits c7223f2, 2cf1f26, 6864173.
+> Status: CYCLE-10-FULLY-COMPLETED. Brigadier final HALT.
 
 ## TL;DR
 
@@ -228,38 +233,53 @@ $ grep -c "voice-route\|voice_router\|crm" tools/run_pipeline.sh → 3
 
 ---
 
-## Open questions / risks (non-blocking)
+## Open questions / risks (status post-follow-ups)
 
-1. **Voice pipeline integration not yet end-to-end tested.** `tools/run_pipeline.sh`
-   step 2b expects `inbox/processed/extract-items-latest.yaml` from `extract.py`,
-   but extract.py emits a different schema. Recommendation: verify or extend
-   extract.py to emit a CRM-items YAML alongside its existing output. Until
-   then, voice→CRM pipeline is wired but not flowing. **Severity:** medium.
-   Manual `/crm-add` / `/crm-touch` work fine; only autopromotion deferred.
+### CLOSED in this cycle
 
-2. **35 tests vs spec's 37.** Coverage is equivalent (we test all branches);
-   discrepancy is in test granularity. Phase-2 candidate: add 2 more edge-case
-   tests (telegram-format extreme inputs, `_example` glob exclusion behavior)
-   if test-counting matters.
+1. **F-1 — Voice pipeline end-to-end wire.** ✅ CLOSED via commit `2cf1f26`.
+   `tools/extract.py` extended:
+   - System prompt now requests optional `crm_items[]` array per response
+   - `build_crm_items_yaml()` aggregates all extractions (explicit + fallback
+     heuristic from category=Контакты) into `inbox/processed/extract-items-latest.yaml`
+     (gitignored — PII safe)
+   - `--rebuild-yaml-only` CLI flag for zero-API-cost re-aggregation
+   - main() always rebuilds yaml at end (idempotent)
+   Plus bug fix in `crm/_scripts/voice_router.py`: `_slugify` cyrillic branch
+   never fired (NFKD doesn't fold cyrillic to ASCII); now transliterates
+   first ('Иван Иванов' → 'ivan-ivanov'). DRAFT suffix lowered `-DRAFT` →
+   `-draft` to satisfy kebab-case slug schema.
+   Smoke verified end-to-end: synthetic yaml → voice-route → 2 valid DRAFTs.
 
-3. **`wiki/graph/edges.jsonl` has no validator.** Adding 5 CRM edges с paths
-   `crm/people/...` and `crm/orgs/...` — these paths exist (anton, vladislav,
-   acme, example-person all verified). But no automated check that targets
-   actually resolve. Phase-2: extend `wiki/graph/build_graph.py` (when it
-   exists) to lint edges against filesystem.
+2. **F-2 — Edges validator.** ✅ CLOSED via commit `6864173`.
+   New `wiki/graph/build_graph.py` with `lint`/`stats` subcommands. Validates
+   JSON parsing, required fields, type enum, path resolution (repo-root OR
+   wiki/-relative), date format, confidence enum. Found + fixed:
+   - `part_of` (233 edges) was legit wiki type, missing from edge-types.md
+   - 8 dangling cycle-10 CRM edges pointing to `crm/people/sample-*`
+     (fixtures actually live in `crm/_tests/fixtures/`); retargeted.
+   Final lint: OK 577 edges, 18 valid types, no errors.
 
-4. **Notion sync deferred.** No two-way sync built. Filesystem = SoT (per
-   global rule 4); Notion CRM page is curated manually. Phase-2 candidate.
+3. **F-3 — Empty dirs gitkeep.** ✅ CLOSED via commit `c7223f2`. Added
+   `.gitkeep` to `crm/recordings/` and `crm/transcripts/` so dirs exist
+   post-clone and tools don't fail on missing parent.
 
-5. **`crm/recordings/` and `crm/transcripts/` empty.** Both dirs created
-   but no .gitkeep — git won't track empty dirs. Will materialize when first
-   recording / transcript referenced from §14 of a contact.
+### Still open (non-blocking, not in cycle 10 scope)
+
+4. **35 tests vs spec's 37.** Coverage equivalent; discrepancy in test
+   granularity. Phase-2 candidate.
+
+5. **Notion sync deferred.** No two-way sync built. Filesystem = SoT; Notion
+   CRM page curated manually. Phase-2 candidate.
 
 6. **`example-person.md` индексируется как regular contact.** Tagged
-   `#example, #reference-template` and `paused` status, but appears в
-   `crm/index.md` `## All contacts` table. Acceptable trade-off: visible
-   in index but filterable by tag/status. Alternative: skip _-prefixed
-   files, but that conflicts с slug schema. Live with it.
+   `#example, #reference-template` + `paused` status, but appears в
+   `crm/index.md`. Acceptable trade-off; live with it.
+
+7. **CRM yaml content not validated end-to-end on real voice memo run.**
+   `--rebuild-yaml-only` mode tested на existing 151 extractions (2 fallback
+   items extracted). Full live pipeline (transcribe→extract→voice-route)
+   requires API call — deferred to next live voice-pipeline run by Ruslan.
 
 ---
 
@@ -282,14 +302,24 @@ If approved, recommended follow-ups (rough priority):
 
 ## Status
 
-**RECOMMEND APPROVE-AND-MERGE.** All tests green, smoke verified, integration
-patches landed across 14 system touch-points, autonomous decisions documented,
-risks non-blocking and Phase-2-ticketed. Brigadier HALTS here per protocol;
-awaiting Ruslan's ack via Cloud Cowork.
+**CYCLE-10-FULLY-COMPLETED.** All tests green (35/35), smoke verified twice
+(initial bootstrap + voice→CRM end-to-end), integration patches landed across
+14 system touch-points, 3 follow-ups closed in same cycle, autonomous
+decisions documented, risks reduced from 6 → 4 (and remaining 4 are all
+Phase-2 / future-cycle scope, not blockers).
 
-**Branch:** `claude/jolly-margulis-915d34` — 3 commits planned:
-1. `[crm] core skeleton + skills + tests + dashboard`
-2. `[crm] strategy hooks + voice integration`
-3. `[crm] system integration patches (CLAUDE.md + agents + wiki + pipeline)`
+**Branch:** `claude/jolly-margulis-915d34` — 6 commits total:
 
-Push after each commit.
+Main scope (acked):
+1. `74e7054` `[crm] core skeleton + skills + tests + dashboard` (38 files, +3959)
+2. `00fa085` `[crm] strategy hooks + voice integration` (4 files, +13)
+3. `5bb867f` `[crm] system integration patches (CLAUDE.md + agents + wiki + pipeline)` (14 files, +743/-1)
+
+Same-cycle follow-ups:
+4. `c7223f2` `[crm] add .gitkeep to empty dirs` (F-3, 2 files)
+5. `2cf1f26` `[crm] wire voice→CRM end-to-end via extract-items-latest.yaml` (F-1, 3 files, +197/-16)
+6. `6864173` `[crm] add edges validator (build_graph.py lint)` (F-2, 3 files, +208/-6)
+
+All pushed to `origin/claude/jolly-margulis-915d34`. Brigadier final HALT.
+Cycle 11 (voice migration / first 20 real contacts) is a separate launch
+and NOT auto-started.
