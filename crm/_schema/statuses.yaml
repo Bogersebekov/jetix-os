@@ -1,0 +1,60 @@
+---
+# Pipeline statuses enum + transition hints.
+
+statuses:
+  draft_from_voice:
+    label: "Draft (voice)"
+    description: "Created auto from voice-pipeline, awaiting Ruslan ack"
+    terminal: false
+  cold:
+    label: "Cold"
+    description: "No outreach yet"
+  warm:
+    label: "Warm"
+    description: "Initial signal exchanged, no real conversation"
+  contacted:
+    label: "Contacted"
+    description: "Outreach sent, awaiting reply"
+  discovery_call:
+    label: "Discovery call"
+    description: "First substantive call held or scheduled"
+  proposal:
+    label: "Proposal"
+    description: "Proposal sent, awaiting response"
+  negotiation:
+    label: "Negotiation"
+    description: "Active back-and-forth on terms"
+  closed_won:
+    label: "Closed-won"
+    description: "Deal won / agreement signed"
+    terminal: true
+  closed_lost:
+    label: "Closed-lost"
+    description: "Did not convert"
+    terminal: true
+  paused:
+    label: "Paused"
+    description: "On hold, may resume"
+  active:
+    label: "Active"
+    description: "Active relationship (non-sales)"
+  past:
+    label: "Past"
+    description: "Previously active"
+    terminal: true
+
+transitions:
+  draft_from_voice: [ cold, warm, contacted ]
+  cold:             [ warm, contacted ]
+  warm:             [ contacted, discovery_call, paused ]
+  contacted:        [ discovery_call, paused, closed_lost ]
+  discovery_call:   [ proposal, paused, closed_lost ]
+  proposal:         [ negotiation, closed_won, closed_lost, paused ]
+  negotiation:      [ closed_won, closed_lost ]
+  paused:           [ warm, contacted, discovery_call, closed_lost ]
+  active:           [ paused, past ]
+
+# "Stuck" definition — used by /crm-stuck
+stuck:
+  active_statuses:  [ warm, contacted, discovery_call, proposal, negotiation ]
+  threshold_days:   14

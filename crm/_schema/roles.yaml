@@ -1,0 +1,102 @@
+---
+# CRM roles enum + transition hints
+# Used by frontmatter.py for validation, dashboard.py for grouping, views.py for filtering.
+
+roles:
+  # Sales pipeline
+  client_lead:
+    label: "Client lead"
+    group: sales
+    description: "Potential client identified, pre-discovery"
+  client_active:
+    label: "Active client"
+    group: sales
+    description: "Currently paying / engaged"
+  client_past:
+    label: "Past client"
+    group: sales
+    description: "Former active, ended OK"
+  client_lost:
+    label: "Client lost"
+    group: sales
+    description: "Pursued, did not convert"
+
+  # Capital
+  investor_prospect:
+    label: "Investor prospect"
+    group: capital
+    description: "Possible angel / fund partner"
+  investor_active:
+    label: "Active investor"
+    group: capital
+    description: "Has invested or committed"
+
+  # Partnership
+  partner_prospect:
+    label: "Partner prospect"
+    group: partnership
+    description: "Potential collab / co-creation"
+  partner_active:
+    label: "Active partner"
+    group: partnership
+    description: "Currently collaborating"
+  partner_past:
+    label: "Past partner"
+    group: partnership
+
+  # Personal advisory
+  mentor:
+    label: "Mentor"
+    group: advisory
+    description: "Senior counsel, strategic / life"
+  advisor:
+    label: "Advisor"
+    group: advisory
+    description: "Domain advisor (formal or informal)"
+  facilitator:
+    label: "Facilitator"
+    group: advisory
+    description: "Process / introduction facilitator"
+  consultant:
+    label: "Consultant"
+    group: advisory
+    description: "Paid expert advice"
+
+  # Team
+  cofounder_prospect:
+    label: "Co-founder prospect"
+    group: team
+  hire_prospect:
+    label: "Hire prospect"
+    group: team
+  hire_active:
+    label: "Active hire"
+    group: team
+  hire_past:
+    label: "Past hire"
+    group: team
+
+  # Network
+  friend:
+    label: "Friend"
+    group: network
+  interesting:
+    label: "Interesting person"
+    group: network
+    description: "Worth tracking, no specific role yet"
+  vendor:
+    label: "Vendor"
+    group: network
+  competitor:
+    label: "Competitor"
+    group: network
+
+# Transition hints (informational, not enforced)
+transitions:
+  interesting:    [ friend, partner_prospect, advisor, client_lead ]
+  client_lead:    [ client_active, client_lost ]
+  client_active:  [ client_past ]
+  partner_prospect: [ partner_active, partner_past ]
+  investor_prospect: [ investor_active ]
+  hire_prospect:  [ hire_active ]
+  hire_active:    [ hire_past ]

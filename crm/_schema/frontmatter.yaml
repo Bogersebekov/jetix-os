@@ -1,0 +1,178 @@
+---
+# CRM frontmatter schema (JSON-Schema-style spec).
+# Authoritative reference for crm/_scripts/frontmatter.py validator.
+#
+# All fields are OPTIONAL except those marked required: true.
+# Missing data => omit field (don't write empty). Validator skips absent optional fields.
+
+schema_version: 1
+
+required:
+  - name
+  - slug
+  - type
+  - roles
+  - created
+  - updated
+
+fields:
+
+  # 2.1 Identity
+  name:
+    type: string
+    required: true
+    description: "Human full name (UTF-8, any script)"
+  slug:
+    type: string
+    required: true
+    pattern: "^[a-z0-9]+(-[a-z0-9]+)*$"
+    description: "kebab-case, == filename without .md"
+  type:
+    type: enum
+    required: true
+    enum: [ person, org ]
+  aliases:
+    type: list[string]
+    description: "Alternative names / handles"
+
+  # 2.2 Roles
+  roles:
+    type: list[enum]
+    required: true
+    min_items: 1
+    enum_source: "_schema/roles.yaml#roles"
+
+  # 2.3 Background
+  niche:
+    type: string
+  occupation:
+    type: string
+  income_bucket:
+    type: enum
+    enum: [ "< 50K", "50K-200K", "200K-1M", "1M-10M", "> 10M", unknown ]
+  location_country:
+    type: string
+    description: "ISO-2 preferred (DE, US, RU, ...)"
+  location_city:
+    type: string
+  languages:
+    type: list[string]
+  age:
+    type: int
+
+  # 2.4 Contact
+  contact:
+    type: object
+    fields:
+      email:        { type: string }
+      telegram:     { type: string, pattern: "^@[A-Za-z0-9_]+$" }
+      linkedin:     { type: string }
+      twitter:      { type: string }
+      instagram:    { type: string }
+      youtube:      { type: string }
+      tiktok:       { type: string }
+      website:      { type: string }
+      phone:        { type: string }
+      other_links:  { type: list[string] }
+
+  # 2.5 Audience
+  audience:
+    type: object
+    fields:
+      total_followers:   { type: int }
+      breakdown:         { type: object, free_form: true }
+      audience_type:     { type: string }
+      audience_quality:  { type: string }
+      icp_overlap_pct:   { type: int, min: 0, max: 100 }
+      notes:             { type: string }
+
+  # 2.6 Tools / Platforms
+  tools:
+    type: object
+    fields:
+      uses:                { type: list[string] }
+      owns:                { type: list[string] }
+      platforms_active_on: { type: list[string] }
+
+  # 2.7 Origin
+  origin:
+    type: object
+    fields:
+      source_channel:
+        type: enum
+        enum: [ indiehackers, linkedin, twitter, telegram, referral, event,
+                cold_outreach, warm_intro, podcast, youtube, conference,
+                voice_memo, other ]
+      introduced_by:        { type: string, description: "slug or null" }
+      first_contact_date:   { type: date, format: "YYYY-MM-DD" }
+      context:              { type: string }
+
+  # 2.8 ICP fit (D22)
+  icp:
+    type: object
+    fields:
+      startupper:  { type: enum, enum: [ yes, no, unknown ] }
+      azart:       { type: int, min: 1, max: 5 }
+      stable:      { type: int, min: 1, max: 5 }
+      adequate:    { type: int, min: 1, max: 5 }
+      upward:      { type: int, min: 1, max: 5 }
+      total:       { type: int, min: 0, max: 20, derived_from: "azart + stable + adequate + upward" }
+      scored_at:   { type: date }
+      scored_by:   { type: enum, enum: [ ruslan, cc, tbd ] }
+
+  # 2.9 Pipeline
+  pipeline:
+    type: object
+    fields:
+      status:           { type: enum, enum_source: "_schema/statuses.yaml#statuses" }
+      last_touch_date:  { type: date }
+      next_action:      { type: string }
+      next_action_date: { type: date }
+      owner:            { type: string }
+
+  # 2.10 Value lens
+  value:
+    type: object
+    fields:
+      to_jetix:               { type: int, min: 1, max: 5 }
+      to_jetix_why:           { type: string }
+      to_them:                { type: string }
+      relationship_strength:  { type: int, min: 1, max: 5 }
+
+  # 2.11 Meta
+  tags:
+    type: list[string]
+    description: "Hash-prefixed tags (#dach, #ai-native, ...)"
+  created:
+    type: date
+    required: true
+  updated:
+    type: date
+    required: true
+
+  # 2.12 Org-only extras
+  org_type:
+    type: enum
+    enum: [ company, nonprofit, community, gov, other ]
+    applies_to: org
+  founded:
+    type: int
+    applies_to: org
+  employees:
+    type: int
+    applies_to: org
+  revenue_estimate:
+    type: enum
+    enum: [ "< 50K", "50K-200K", "200K-1M", "1M-10M", "> 10M", unknown ]
+    applies_to: org
+  key_people:
+    type: list[string]
+    applies_to: org
+    description: "slugs of people in this org"
+
+# Auto-fix rules
+auto_fix:
+  - rule: "icp.total = sum(azart + stable + adequate + upward) if all 4 present"
+    action: "compute and overwrite if mismatch; emit warning"
+  - rule: "updated >= created"
+    action: "if updated < created, set updated = created; warn"

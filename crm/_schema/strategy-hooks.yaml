@@ -1,0 +1,109 @@
+---
+# Strategy hooks — what we can OFFER to a person and what we can ASK from them.
+# §7 §8 of crm/people/<slug>.md auto-prefilled from this file via _scripts/strategy_hooks.py.
+#
+# Sources reference live Jetix-strategy docs (decisions/, swarm/wiki/cycles/, directions/).
+# Manually edit / add hooks as strategy evolves.
+#
+# Filter operators in `relevant_for`:
+#   roles: [a, b]                  — at least one role match
+#   tags:  [#a, #b]                — at least one tag match
+#   icp_startupper: yes            — exact match on icp.startupper
+#   icp.<field>_min: N             — icp.<field> >= N
+#   audience.total_followers_min: N — audience.total_followers >= N
+#   location_country: DE           — exact match
+#
+# status: active => suggested by default; draft => only with --include-draft; paused => never.
+
+offers:
+  - id: l6-community-access
+    label: "L6 Community access"
+    source: "swarm/wiki/cycles/cyc-layer-6-community-deep-dive-2026-04-24/"
+    description: "Early invite в Mittelstand AI Alliance founding cohort"
+    relevant_for:
+      roles: [ partner_prospect, advisor, friend, interesting, client_lead ]
+      icp_startupper: "yes"
+      tags: [ "#dach", "#ai-native" ]
+    status: active
+
+  - id: l7-producer-collab
+    label: "L7 Producer Services collab"
+    source: "directions/_active/producer-services/strategy-OPTIONS.md"
+    description: "Co-creation возможность (H4 Podcast / H5 Coaches hypotheses из cycle 8)"
+    relevant_for:
+      roles: [ partner_prospect, advisor, friend ]
+      audience.total_followers_min: 1000
+    status: draft
+
+  - id: methodology-early-access
+    label: "Sales Methodology Wiki — early access"
+    source: "decisions/JETIX-PHILOSOPHY.md"
+    description: "Share early Methodology в exchange за feedback / case-study"
+    relevant_for:
+      roles: [ advisor, mentor, facilitator, consultant, partner_prospect ]
+    status: active
+
+  - id: usb-c-positioning
+    label: "USB-C positioning insight"
+    source: "decisions/D20-USB-C-POSITIONING.md"
+    description: "Позиционирование Jetix как infrastructure layer ПОД их продукт (не конкурент)"
+    relevant_for:
+      roles: [ partner_prospect, client_lead, advisor ]
+    status: active
+
+  - id: jetix-network-cohort
+    label: "Jetix Network — early cohort"
+    source: "wiki/concepts/jetix-network.md"
+    description: "Доступ к early Jetix Network methodology + co-marketing"
+    relevant_for:
+      roles: [ advisor, partner_prospect, friend, interesting ]
+      icp.adequate_min: 3
+    status: active
+
+  - id: ai-pilot-engagement
+    label: "AI Pilot engagement (paid)"
+    source: "directions/_active/quick-money/"
+    description: "Standard AI Pilot offer (€5-15K, 4-6 weeks)"
+    relevant_for:
+      roles: [ client_lead ]
+    status: active
+
+asks:
+  - id: dach-intros
+    label: "DACH Mittelstand intros (P1A leads)"
+    description: "Если у человека есть DACH-network — попросить warm intros к 2-3 P1A candidates"
+    relevant_for:
+      location_country: DE
+      tags: [ "#dach", "#mittelstand" ]
+
+  - id: advisor-cooperation
+    label: "Advisor role (cooperation-not-paid)"
+    description: "RU+EN, weekly, ack 26.04. 3 типа параллельно (mentor / facilitator / consultant)"
+    relevant_for:
+      roles: [ advisor, mentor, facilitator, consultant ]
+
+  - id: case-study-source
+    label: "Case-study source"
+    description: "Feedback + permission использовать как case-study (если они paying client'ы AI-products)"
+    relevant_for:
+      roles: [ client_active, partner_active ]
+
+  - id: methodology-feedback
+    label: "Methodology v1 feedback"
+    description: "Practitioner критика на Jetix Methodology до public launch"
+    relevant_for:
+      roles: [ advisor, mentor, facilitator, partner_prospect ]
+      icp.adequate_min: 4
+
+  - id: investor-intros
+    label: "Investor intros (Phase 2)"
+    description: "Если у человека network в DACH/EU AI VC — warm intros к 1-2 angels/seed funds"
+    relevant_for:
+      roles: [ advisor, friend, partner_active, interesting ]
+
+  - id: audience-co-marketing
+    label: "Audience co-marketing"
+    description: "Newsletter swap, podcast guest, joint webinar — leverage их audience"
+    relevant_for:
+      roles: [ partner_prospect, partner_active, friend ]
+      audience.total_followers_min: 1000
