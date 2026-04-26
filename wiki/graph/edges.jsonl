@@ -570,8 +570,8 @@
 {"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "ideas/charged-vs-chill-modes.md", "type": "supports", "created": "2026-04-16", "confidence": "high"}
 {"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "ideas/weekly-analysis-rest-as-life-maintenance.md", "type": "supports", "created": "2026-04-16", "confidence": "medium"}
 {"from": "sources/2026-04-16-daily-log-insights-digest.md", "to": "concepts/think-do-feedback-loop.md", "type": "supports", "created": "2026-04-16", "confidence": "medium"}
-{"from": "crm/people/sample-person-anton.md", "to": "crm/people/sample-person-vladislav.md", "type": "co-founder-with", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
-{"from": "crm/people/sample-person-anton.md", "to": "crm/orgs/sample-org-acme.md", "type": "founder-of", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
-{"from": "crm/people/sample-person-vladislav.md", "to": "crm/orgs/sample-org-acme.md", "type": "advisor-of", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
-{"from": "crm/people/example-person.md", "to": "crm/people/sample-person-anton.md", "type": "co-founder-with", "created": "2026-04-26", "confidence": "medium", "context": "reference template — fictional edge for example"}
-{"from": "crm/people/example-person.md", "to": "crm/orgs/sample-org-acme.md", "type": "advisor-of", "created": "2026-04-26", "confidence": "medium", "context": "reference template — fictional advisor relationship"}
+{"from": "crm/_tests/fixtures/sample-person-anton.md", "to": "crm/_tests/fixtures/sample-person-vladislav.md", "type": "co-founder-with", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
+{"from": "crm/_tests/fixtures/sample-person-anton.md", "to": "crm/_tests/fixtures/sample-org-acme.md", "type": "founder-of", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
+{"from": "crm/_tests/fixtures/sample-person-vladislav.md", "to": "crm/_tests/fixtures/sample-org-acme.md", "type": "advisor-of", "created": "2026-04-26", "confidence": "high", "context": "CRM fixture example edge"}
+{"from": "crm/people/example-person.md", "to": "crm/_tests/fixtures/sample-person-anton.md", "type": "co-founder-with", "created": "2026-04-26", "confidence": "medium", "context": "reference template — fictional edge for example"}
+{"from": "crm/people/example-person.md", "to": "crm/_tests/fixtures/sample-org-acme.md", "type": "advisor-of", "created": "2026-04-26", "confidence": "medium", "context": "reference template — fictional advisor relationship"}

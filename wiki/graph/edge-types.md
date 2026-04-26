@@ -27,7 +27,8 @@ Paths are relative to repo root and include the `.md` extension.
 | `mentions` | A → B | A name-drops B |
 | `cites` | A → B | A formally cites B |
 | `replaces` | new → old | New replaces deprecated old |
-| `parent_of` | parent → child | Hierarchical containment |
+| `parent_of` | parent → child | Hierarchical containment (taxonomic) |
+| `part_of` | child → parent | Compositional containment (member-of-collection) |
 | `same_as` | A → B | A and B refer to the same entity |
 
 ## CRM edges (8 types — added 2026-04-26)
