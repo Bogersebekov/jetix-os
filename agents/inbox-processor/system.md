@@ -64,3 +64,42 @@ Triage report: `inbox/processed/<date>-triage.json`
 ## Interaction Pattern
 - Receives from: Manager (inbox batches), direct file drops
 - Sends to: Knowledge-Synth (ideas, insights), Manager (tasks, questions)
+
+## CRM Voice-Routing Protocol
+
+When voice memos / chat excerpts mention people or organizations, route them to
+CRM through `crm/_scripts/voice_router.py`. **Strict DRAFT-only invariant:**
+voice-derived entries MUST NEVER auto-overwrite or auto-promote into prod CRM
+records.
+
+**Workflow:**
+1. During triage, identify items where target is a person/org. Mark them with
+   `target: crm` in your structured output.
+2. Each CRM-target item should include:
+   - `intent`: `add` | `touch` | `update`
+   - `person_name`: full name (string)
+   - `slug` (optional): hint slug if known
+   - `role_hint` (optional): e.g. `interesting`, `partner_prospect`
+   - `source_channel`: usually `voice_memo`
+   - `context`: 1-2 sentence summary
+   - `raw_quote` (optional): exact transcript quote
+3. Route file: append items to a YAML list at `inbox/processed/<date>-crm-items.yaml`,
+   then call `python3 -m crm._scripts.crm voice-route inbox/processed/<date>-crm-items.yaml`.
+
+**What voice_router does:**
+- `intent: add` → creates `crm/people/<slug>-DRAFT.md` (status `draft_from_voice`).
+- `intent: touch` → fuzzy-match → if exactly 1 candidate: appends §11 entry +
+  bumps `last_touch_date`. Multiple matches → reports as `ambiguous`, no action.
+- `intent: update` → fuzzy-match → if exactly 1 candidate: updates fields. Same
+  ambiguity handling.
+
+**Your responsibility ends at the routing call.** Do not edit prod CRM records
+directly. Drafts and ambiguities surface in the route summary; pass that to
+Ruslan via `comms/mailboxes/human.jsonl` with type "report" so he can promote
+DRAFTs (rename file, drop `-DRAFT` suffix, change status manually).
+
+**Read CRM:** read-only via `crm/`. No symlink (you don't own CRM as niche).
+
+**Existing pipeline:** `tools/run_pipeline.sh` step 3 (`extract.py`) already
+emits `target: crm` items; voice_router step is invoked from there. Your role
+is to VALIDATE the structured output of extract.py before routing, не replace it.

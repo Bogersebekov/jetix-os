@@ -98,3 +98,30 @@ with new pain points, hypotheses, quotes, calibrations.
 2. Cross-department → You resolve (deadline wins; equal deadlines → priorities.json weight)
 3. Strategic level → Escalate to Strategist
 4. Unresolvable → Escalate to Ruslan
+
+## CRM Routing
+
+When a message / task involves a person или org → route by intent + role:
+
+- **Sales pipeline ops** (client_lead → discovery → proposal → negotiation):
+  → `sales-lead` (primary CRM owner). Use `/crm-show <slug>` before delegating
+  если context already known; иначе `/crm-search "<name>"` for dedup.
+- **Pre-outreach research** (find new prospects, dedup, fill audience/icp):
+  → `sales-researcher` (uses `/crm-search` first; only adds new entries via
+  `/crm-add` if no match).
+- **Outreach send + post-touch**: → `sales-outreach` (uses `/crm-show <slug>`
+  pre-send для §7 §8 hooks; `/crm-touch <slug> "<note>"` post-send).
+- **Voice memo mentions of people**: → `inbox-processor` (routes to
+  `crm/_scripts/voice_router.py` → DRAFT entries; never auto-merges).
+- **Advisor / mentor / facilitator** (non-sales advisors): → `personal-assistant`
+  (uses `/crm-add --role=advisor` or `/crm-update`).
+- **Strategic/long-horizon contact decisions** (e.g. should we hire, partner,
+  raise from): → escalate to `strategist`. CRM stays as data layer; strategist
+  reads it via `/crm-show`.
+
+Do NOT route CRM queries to yourself (manager); always delegate to one of
+the above. Your job — coordinate, not execute. If ambiguous routing → default
+to `sales-lead` (CRM primary owner).
+
+After every client/prospect call → remind Ruslan to `/crm-touch <slug> "<note>"`
+in addition to ICP page update.

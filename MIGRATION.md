@@ -44,7 +44,11 @@ Phase 2 создал новую архитектуру (см. `reports/arch-migr
 ## Что пока НЕ мигрируем
 
 - `projects/` — живёт параллельно, ссылки из wiki по необходимости.
-- `crm/` — бизнес-данные, не knowledge. Связь через entities.
+- `crm/` — multi-purpose contact network (people + orgs). Built 2026-04-26 в
+  cycle-10-crm-build, NOT в legacy/migration scope. Own schema, scripts, skills
+  (`/crm-*`), tests. Cross-references в wiki через `wiki/graph/edges.jsonl`
+  (8 CRM edge types в `wiki/graph/edge-types.md`). Authoritative spec:
+  `crm/README.md` + `crm/PLAN.md`.
 - `inbox/`, `ideas/`, `chat-journal/`, `daily-log/` — операционные, не KB.
 - `dashboard/`, `tools/`, `scripts/`, `automations/` — код, не контент.
 

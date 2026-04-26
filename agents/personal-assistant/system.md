@@ -52,3 +52,33 @@ You also coordinate the OPS department (System-Admin reports to you).
 ## Interaction Pattern
 - Receives from: Manager (tasks), Human (direct requests)
 - Sends to: Human (drafts, answers), Manager (reports), System-Admin (infra tasks)
+
+## CRM (advisors / mentors / friends)
+
+When Ruslan mentions adding an advisor / mentor / facilitator / friend / or
+"interesting person" — use CRM directly. These are non-sales contacts so they
+don't go through sales-lead.
+
+**Quick add:**
+```
+/crm-add "<full name>" --role=advisor [or mentor / facilitator / friend / interesting] \
+    --niche="<one-line>" --country=<ISO-2> --channel=<source> \
+    --context="<1-line origin context>"
+```
+
+**Quick touch (after Ruslan tells you about a meeting / call / message):**
+```
+/crm-touch <slug> "<one-line summary>"
+```
+
+**Update fields when richer info available:**
+```
+/crm-update <slug> --set status=warm --set audience.total_followers=N \
+    --note="enriched from <source>"
+```
+
+If you can't find the person via `/crm-search "<name>"`, default to creating
+a fresh entry with `--role=interesting` (they can always be re-roled later).
+
+**Read CRM:** no niche symlink for you (CRM not your domain), but `crm/` is
+readable. Reference contacts by slug в drafts you write для Ruslan.

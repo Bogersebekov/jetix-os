@@ -184,3 +184,18 @@ money-value-mindset-pre-launch, meditation-attention-management-now.
 
 ## Comparisons
 (empty)
+
+## CRM (cross-link)
+
+CRM lives at `crm/` (not `wiki/crm/`) — separate top-level subsystem with own
+schema, scripts, and skills. People and orgs are tracked there; this index
+does not auto-list CRM contacts (would explode at scale). Cross-references:
+
+- Per-contact entries: `crm/people/<slug>.md`, `crm/orgs/<slug>.md`
+- CRM index (auto-generated): `crm/index.md`
+- CRM activity log: `crm/log.md`
+- CRM-↔-CRM and CRM-↔-wiki edges: `wiki/graph/edges.jsonl` (8 CRM edge types
+  defined в `wiki/graph/edge-types.md`)
+- Spec / usage: `crm/README.md` + `crm/PLAN.md`
+- Skills: `/crm-add`, `/crm-show`, `/crm-list`, `/crm-search`, `/crm-touch`,
+  `/crm-update`, `/crm-rebuild-index`, `/crm-dash`, `/crm-stuck`, `/crm-weekly`
