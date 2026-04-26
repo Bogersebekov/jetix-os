@@ -254,13 +254,26 @@ def call_llm_json(user_prompt: str, system_prompt: Optional[str] = None,
 1. Прочитать текущий `tools/filter.py` полностью.
 2. Заменить Anthropic API calls на `_llm_client.call_llm_json(...)`.
 3. Сохранить multi-call structure если есть (filter обычно делает: dedup → categorize → meta-summary — несколько calls).
-4. Test: запустить на existing extractions и сравнить output batch json.
+4. **Добавить partial-save + resume (CRITICAL — incident 26.04):**
+   - filter.py обрабатывает items батчами. Текущая версия НЕ сохраняет промежуточные результаты — если процесс прервался (signal / API cap / network) — все успешные batch'и вылетают в `/dev/null`. 26.04 так потеряли 12 batch'ей при упоре в Anthropic usage cap.
+   - **Fix:** после каждого успешного batch — save в `inbox/processed/filtered/_partial/<run-id>/batch_NN.json` (run-id = ISO timestamp при старте run'а).
+   - При старте filter.py — check `inbox/processed/filtered/_partial/`:
+     - Если есть partial dir с recent run-id (< 24h old) — resume с next batch (skip уже сохранённые)
+     - Если старше 24h — archive + start fresh
+     - `--no-resume` flag для force restart
+   - Final step: merge все partial batch_*.json в финальный `batch_YYYY-MM-DD.json` + cleanup partial dir
+   - Logging: каждый batch — print `[batch N/M] saved (X items, Y sec, run-id=...)`
+5. Test: запустить на existing extractions и сравнить output batch json. Затем kill -INT в середине run + restart — verify что resumes правильно.
 
 **Acceptance:**
 
 - [x] `python3 tools/filter.py` работает без API key (если `claude` доступен)
 - [x] Output batch JSON совместим с existing `review_report.py`
 - [x] Dedup logic preserved (не дублирует items из предыдущих batches)
+- [x] Partial-save: после каждого batch файл появляется в `_partial/<run-id>/`
+- [x] Resume: если killed mid-run + restart — продолжает с next batch (verify через test: kill -INT после batch 3 из 10, restart, должно сделать batches 4-10 без re-doing 1-3)
+- [x] Cleanup: после успешного финала — `_partial/<run-id>/` removed, final `batch_YYYY-MM-DD.json` exists
+- [x] `--no-resume` flag форсит full restart
 
 ---
 
