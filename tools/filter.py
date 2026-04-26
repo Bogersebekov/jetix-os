@@ -1,24 +1,41 @@
 #!/usr/bin/env python3
-"""Filter & meta-analyze extracted items via Anthropic Claude."""
+"""Filter & meta-analyze extracted items via Claude.
+
+Backend: CC headless by default (Max sub, no API key). Set JETIX_LLM_BACKEND=api
+to use anthropic SDK directly. See tools/lib/cc_helper.py.
+
+Fault-tolerance (added cycle 11):
+  • Each successful batch is written immediately to a partial file
+    `OUT_DIR/.partials/batch_<date>_partial_NN.json` BEFORE moving to the next.
+  • If the run is interrupted (kill, crash, hit rate-limit, hard cap), reruns
+    SKIP batches whose partial file already exists, picking up where they left off.
+  • At end-of-run, all partials for `today` are merged into the final
+    `OUT_DIR/batch_<today>.json` and the .partials/ folder for that day cleaned.
+  • `--resume` (default behavior) is implicit; pass `--restart` to ignore
+    existing partials and recompute from scratch.
+"""
 
 import os
 import sys
 import json
 import re
+import shutil
 from pathlib import Path
 from datetime import datetime
 
-try:
-    from anthropic import Anthropic
-except ImportError:
-    print("ERROR: anthropic SDK не установлен. Установи: pip install anthropic", file=sys.stderr)
-    sys.exit(1)
+# Add tools/ to sys.path so `from lib.cc_helper import …` works regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.cc_helper import claude_call, backend_info  # noqa: E402
 
 HOME = Path.home()
 EXTRACTIONS = HOME / "jetix-os" / "inbox" / "processed" / "extractions"
 OUT_DIR = HOME / "jetix-os" / "inbox" / "processed" / "filtered"
+PARTIALS_DIR = OUT_DIR / ".partials"
 CONTEXT_FILE = HOME / "jetix-os" / "config" / "context.md"
 MODEL = "claude-opus-4-7"
+
+BATCH_SIZE = 50
+THRESHOLD = 100
 
 
 def load_context() -> str:
@@ -26,6 +43,7 @@ def load_context() -> str:
         return CONTEXT_FILE.read_text(encoding="utf-8").strip()
     except FileNotFoundError:
         return ""
+
 
 SYSTEM_PROMPT = """Ты — мета-аналитик персональной базы знаний Jetix OS.
 Тебе дан массив извлечённых единиц (items) из множества голосовых заметок.
@@ -94,11 +112,60 @@ def extract_json(text: str):
         raise
 
 
+# ─── Partial-save helpers ────────────────────────────────────────────────────
+
+
+def _partial_path(today: str, batch_idx: int) -> Path:
+    """Path for the Nth batch's partial file. Stable + deterministic.
+
+    Includes BATCH_SIZE in the filename so changes to BATCH_SIZE don't cause
+    silent partial reuse against a different chunking scheme.
+    """
+    return PARTIALS_DIR / f"batch_{today}_bsz{BATCH_SIZE}_partial_{batch_idx:03d}.json"
+
+
+def _load_partial(p: Path):
+    try:
+        return json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _save_partial(p: Path, payload: dict):
+    PARTIALS_DIR.mkdir(parents=True, exist_ok=True)
+    # write to .tmp then rename → atomic on POSIX
+    tmp = p.with_suffix(p.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    os.replace(tmp, p)
+
+
+def _cleanup_partials_for(today: str) -> int:
+    if not PARTIALS_DIR.exists():
+        return 0
+    n = 0
+    for p in PARTIALS_DIR.glob(f"batch_{today}_*_partial_*.json"):
+        try:
+            p.unlink()
+            n += 1
+        except OSError:
+            pass
+    # remove dir if now empty
+    try:
+        if not any(PARTIALS_DIR.iterdir()):
+            PARTIALS_DIR.rmdir()
+    except OSError:
+        pass
+    return n
+
+
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("ERROR: переменная окружения ANTHROPIC_API_KEY не задана.", file=sys.stderr)
-        sys.exit(1)
+    print(f"[filter] {backend_info()}")
+
+    restart = "--restart" in sys.argv[1:]
+    if restart:
+        n = _cleanup_partials_for(datetime.now().strftime("%Y-%m-%d"))
+        if n:
+            print(f"[filter] --restart: removed {n} existing partial(s) for today")
 
     if not EXTRACTIONS.exists():
         print(f"ERROR: нет папки {EXTRACTIONS}", file=sys.stderr)
@@ -133,7 +200,6 @@ def main():
 
     print(f"Входные файлы: {len(per_file)}, единиц всего: {len(all_items)}")
 
-    client = Anthropic(api_key=api_key)
     context_md = load_context()
     system_prompt = SYSTEM_PROMPT
     if context_md:
@@ -144,22 +210,20 @@ def main():
             + SYSTEM_PROMPT
         )
 
+    today = datetime.now().strftime("%Y-%m-%d")
+
     def call_model(batch):
         user_msg = (
             f"Массив единиц ({len(batch)} шт.):\n\n"
             f"{json.dumps(batch, ensure_ascii=False, indent=2)}\n\n"
             f"Проведи мета-анализ и верни JSON по схеме."
         )
-        chunks = []
-        with client.messages.stream(
-            model=MODEL,
-            max_tokens=64000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_msg}],
-        ) as stream:
-            for text in stream.text_stream:
-                chunks.append(text)
-        raw = "".join(chunks)
+        try:
+            raw = claude_call(system=system_prompt, user=user_msg, model=MODEL, expect_json=True)
+        except Exception as e:
+            fname = f"raw_error_{datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.txt"
+            (OUT_DIR / fname).write_text(f"call failed: {e}", encoding="utf-8")
+            return None, f"{e} (note -> {fname})"
         try:
             return extract_json(raw), None
         except Exception as e:
@@ -167,41 +231,90 @@ def main():
             (OUT_DIR / fname).write_text(raw, encoding="utf-8")
             return None, f"{e} (raw -> {fname})"
 
-    BATCH_SIZE = 50
-    THRESHOLD = 100
+    # ─── Batched path with partial-save ──────────────────────────────────────
 
-    if len(all_items) > THRESHOLD:
-        print(f"Единиц > {THRESHOLD} — обрабатываю батчами по {BATCH_SIZE}.")
+    def run_batched():
         merged_items = []
         meta_accum = {"key_themes": [], "contradictions": [], "patterns": [], "key_findings": []}
         groups_accum = {}
-        for i in range(0, len(all_items), BATCH_SIZE):
+
+        total_batches = (len(all_items) + BATCH_SIZE - 1) // BATCH_SIZE
+        resumed = 0
+        computed = 0
+        failed = 0
+
+        for bi in range(total_batches):
+            batch_idx = bi + 1
+            i = bi * BATCH_SIZE
             batch = all_items[i:i + BATCH_SIZE]
-            print(f"  batch {i//BATCH_SIZE + 1}: {len(batch)} items...")
+            ppath = _partial_path(today, batch_idx)
+
+            existing = _load_partial(ppath)
+            if existing is not None:
+                print(f"  batch {batch_idx}/{total_batches}: RESUME (partial exists, "
+                      f"{len(existing.get('items', []))} items)")
+                resumed += 1
+                merged_items.extend(existing.get("items") or [])
+                for k in meta_accum:
+                    meta_accum[k].extend((existing.get("meta_analysis") or {}).get(k, []) or [])
+                for pname, idxs in (existing.get("groups_by_project") or {}).items():
+                    groups_accum.setdefault(pname, []).append({"batch": batch_idx, "indices": idxs})
+                continue
+
+            print(f"  batch {batch_idx}/{total_batches}: {len(batch)} items → calling model...")
             data_b, err = call_model(batch)
             if err:
-                print(f"  ERROR в батче {i//BATCH_SIZE + 1}: {err}", file=sys.stderr)
+                print(f"  ERROR в батче {batch_idx}: {err}", file=sys.stderr)
+                failed += 1
                 continue
-            merged_items.extend(data_b.get("items", []) or [])
+
+            payload = {
+                "batch_idx": batch_idx,
+                "batch_size_target": BATCH_SIZE,
+                "input_count": len(batch),
+                "model": MODEL,
+                "generated_at": datetime.now().isoformat(timespec="seconds"),
+                "items": data_b.get("items", []) or [],
+                "meta_analysis": data_b.get("meta_analysis") or {},
+                "groups_by_project": data_b.get("groups_by_project") or {},
+            }
+            try:
+                _save_partial(ppath, payload)
+                print(f"    [partial-save] {ppath.name} ({len(payload['items'])} items)")
+            except Exception as e:
+                print(f"    [partial-save] WARNING: failed to write {ppath.name}: {e}",
+                      file=sys.stderr)
+
+            computed += 1
+            merged_items.extend(payload["items"])
             for k in meta_accum:
-                meta_accum[k].extend((data_b.get("meta_analysis") or {}).get(k, []) or [])
-            for pname, idxs in (data_b.get("groups_by_project") or {}).items():
-                groups_accum.setdefault(pname, []).append({"batch": i//BATCH_SIZE + 1, "indices": idxs})
-        data = {
+                meta_accum[k].extend((payload.get("meta_analysis") or {}).get(k, []) or [])
+            for pname, idxs in (payload.get("groups_by_project") or {}).items():
+                groups_accum.setdefault(pname, []).append({"batch": batch_idx, "indices": idxs})
+
+        print(f"\n[partial-save summary] resumed={resumed}, computed={computed}, "
+              f"failed={failed}, total_batches={total_batches}")
+
+        if not merged_items:
+            print("ERROR: ни один батч не дал результата.", file=sys.stderr)
+            sys.exit(3)
+
+        return {
             "items": merged_items,
             "groups_by_project": groups_accum,
             "meta_analysis": meta_accum,
         }
-        if not merged_items:
-            print("ERROR: ни один батч не дал результата.", file=sys.stderr)
-            sys.exit(3)
+
+    if len(all_items) > THRESHOLD:
+        print(f"Единиц > {THRESHOLD} — обрабатываю батчами по {BATCH_SIZE} с partial-save.")
+        data = run_batched()
     else:
+        # small-corpus path: single call, no partials needed
         data, err = call_model(all_items)
         if err:
             print(f"ERROR: {err}", file=sys.stderr)
             sys.exit(3)
 
-    today = datetime.now().strftime("%Y-%m-%d")
     out_path = OUT_DIR / f"batch_{today}.json"
     result = {
         "generated_at": datetime.now().isoformat(timespec="seconds"),
@@ -212,6 +325,11 @@ def main():
         **data,
     }
     out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # Successful merge → clean up today's partials.
+    n_clean = _cleanup_partials_for(today)
+    if n_clean:
+        print(f"[partial-save] cleaned {n_clean} partial(s) after successful merge")
 
     print("\n===== ОТЧЁТ =====")
     print(f"На входе единиц: {len(all_items)}")

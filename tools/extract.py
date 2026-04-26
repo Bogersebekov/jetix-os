@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Extract structured items from transcripts using Anthropic Claude API.
+"""Extract structured items from transcripts via Claude (CC headless by default).
+
+Backend:
+  • default (cc-headless): subprocess `claude -p`, Max-sub auth — no API key needed.
+  • JETIX_LLM_BACKEND=api : legacy anthropic SDK direct (requires ANTHROPIC_API_KEY).
+See tools/lib/cc_helper.py.
 
 Also emits a consolidated YAML at inbox/processed/extract-items-latest.yaml
 with CRM routing items (target/intent/person_name/role_hint/source_channel/
@@ -8,11 +13,10 @@ built by `build_crm_items_yaml()` from the union of:
   (a) explicit `crm_items` arrays the model emits per the updated system prompt
   (b) fallback heuristic: any item with category=="Контакты" → derived CRM item
 
-This file can be invoked in two modes:
-  • Default (no args): full pipeline — call API for new transcripts, then
-    rebuild extract-items-latest.yaml.
-  • `--rebuild-yaml-only`: skip API entirely, only re-aggregate existing JSON
-    extractions into the YAML. Safe to run without ANTHROPIC_API_KEY (zero cost).
+Modes:
+  • Default (no args): full pipeline — extract for new transcripts, rebuild yaml.
+  • `--rebuild-yaml-only`: skip LLM entirely, only re-aggregate existing JSON
+    extractions into the YAML. Zero-cost. Always safe.
 """
 
 import os
@@ -22,15 +26,14 @@ import re
 from pathlib import Path
 from datetime import datetime
 
+# Add tools/ to sys.path so `from lib.cc_helper import …` works regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.cc_helper import claude_call, backend_info  # noqa: E402
+
 try:
     import yaml as _yaml
 except ImportError:
     _yaml = None
-
-try:
-    from anthropic import Anthropic
-except ImportError:
-    Anthropic = None  # only required for full pipeline mode
 
 HOME = Path.home()
 TRANSCRIPTS = HOME / "jetix-os" / "raw" / "transcripts"
@@ -38,7 +41,7 @@ OUT = HOME / "jetix-os" / "inbox" / "processed" / "extractions"
 CONTEXT_FILE = HOME / "jetix-os" / "config" / "context.md"
 CRM_ITEMS_YAML = HOME / "jetix-os" / "inbox" / "processed" / "extract-items-latest.yaml"
 
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-6"
 
 
 def load_context() -> str:
@@ -121,7 +124,7 @@ def extract_json(text: str):
         raise
 
 
-def process_file(client: Anthropic, txt_path: Path, today: str, system_prompt: str) -> dict:
+def process_file(txt_path: Path, today: str, system_prompt: str) -> dict:
     content = txt_path.read_text(encoding="utf-8")
     user_msg = (
         f"Дата обработки: {today}\n"
@@ -129,13 +132,7 @@ def process_file(client: Anthropic, txt_path: Path, today: str, system_prompt: s
         f"Транскрипт:\n---\n{content}\n---\n\n"
         f"Извлеки единицы и верни JSON-объект {{\"items\": [...]}}."
     )
-    resp = client.messages.create(
-        model=MODEL,
-        max_tokens=8000,
-        system=system_prompt,
-        messages=[{"role": "user", "content": user_msg}],
-    )
-    raw = "".join(b.text for b in resp.content if getattr(b, "type", None) == "text")
+    raw = claude_call(system=system_prompt, user=user_msg, model=MODEL, expect_json=True)
     data = extract_json(raw)
     if not isinstance(data, dict) or "items" not in data:
         raise ValueError("Ответ модели не содержит поле items")
@@ -260,13 +257,7 @@ def main():
               f"total_items={summary['total_items']}")
         return
 
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("ERROR: переменная окружения ANTHROPIC_API_KEY не задана.", file=sys.stderr)
-        sys.exit(1)
-    if Anthropic is None:
-        print("ERROR: anthropic SDK не установлен. Установи: pip install anthropic", file=sys.stderr)
-        sys.exit(1)
+    print(f"[extract] {backend_info()}")
 
     TRANSCRIPTS.mkdir(parents=True, exist_ok=True)
     OUT.mkdir(parents=True, exist_ok=True)
@@ -276,7 +267,6 @@ def main():
         print(f"Нет транскриптов в {TRANSCRIPTS}")
         return
 
-    client = Anthropic(api_key=api_key)
     today = datetime.now().strftime("%Y-%m-%d")
     context_md = load_context()
     if context_md:
@@ -304,7 +294,7 @@ def main():
 
         print(f"[...]  {txt.name} — извлекаю...")
         try:
-            result = process_file(client, txt, today, system_prompt)
+            result = process_file(txt, today, system_prompt)
             out_path.write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding="utf-8")
             print(f"[OK]   {txt.name} -> {out_path.name} ({len(result['items'])} единиц)")
             processed.append((txt.name, out_path.name, len(result["items"])))

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-"""Summarize all extracted items by topic — preserves 100% of items, no dedup."""
+"""Summarize all extracted items by topic — preserves 100% of items, no dedup.
+
+Backend: CC headless by default (Max sub, no API key). Set JETIX_LLM_BACKEND=api
+to use anthropic SDK directly. See tools/lib/cc_helper.py.
+"""
 
 import os
 import sys
@@ -9,18 +13,16 @@ from pathlib import Path
 from datetime import datetime
 from collections import Counter
 
-try:
-    from anthropic import Anthropic
-except ImportError:
-    print("ERROR: anthropic SDK не установлен. pip install anthropic", file=sys.stderr)
-    sys.exit(1)
+# Add tools/ to sys.path so `from lib.cc_helper import …` works regardless of cwd.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from lib.cc_helper import claude_call, backend_info  # noqa: E402
 
 HOME = Path.home()
 EXTRACTIONS = HOME / "jetix-os" / "inbox" / "processed" / "extractions"
 CONTEXT_FILE = HOME / "jetix-os" / "config" / "context.md"
 REPORTS = HOME / "jetix-os" / "reports"
 LATEST = HOME / "summary-latest.md"
-MODEL = "claude-sonnet-4-20250514"
+MODEL = "claude-sonnet-4-6"
 
 
 def load_context() -> str:
@@ -58,11 +60,7 @@ def build_user_msg(items):
 
 
 def main():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        print("ERROR: ANTHROPIC_API_KEY не задан", file=sys.stderr)
-        sys.exit(1)
-
+    print(f"[summarize] {backend_info()}")
     if not EXTRACTIONS.exists():
         print(f"ERROR: нет {EXTRACTIONS}", file=sys.stderr)
         sys.exit(1)
@@ -105,22 +103,12 @@ def main():
             + system_prompt
         )
 
-    client = Anthropic(api_key=api_key)
     user_msg = build_user_msg(all_items)
 
     try:
-        chunks = []
-        with client.messages.stream(
-            model=MODEL,
-            max_tokens=32000,
-            system=system_prompt,
-            messages=[{"role": "user", "content": user_msg}],
-        ) as stream:
-            for text in stream.text_stream:
-                chunks.append(text)
-        body = "".join(chunks)
+        body = claude_call(system=system_prompt, user=user_msg, model=MODEL)
     except Exception as e:
-        print(f"ERROR: Claude API: {e}", file=sys.stderr)
+        print(f"ERROR: Claude call: {e}", file=sys.stderr)
         sys.exit(2)
 
     today = datetime.now().strftime("%Y-%m-%d")
