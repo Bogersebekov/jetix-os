@@ -7,6 +7,14 @@ manually appended for major decisions / migrations. Header is in HTML
 comment so the auto-prepend doesn't push it down.
 -->
 
+## 2026-04-26 03:06 — F-1 voice→CRM smoke test
+  Verified end-to-end: yaml → voice_router → DRAFT.md creation. 2 fictional
+  items routed (smoke-tester, ivan-testovyy w/ Cyrillic transliteration).
+  Both DRAFTs validated (kebab-case slug compliant). Cleaned up after.
+  Bug fixed mid-test: `_slugify` cyrillic branch never fired (NFKD doesn't
+  fold cyrillic to ASCII); now transliterates first. DRAFT suffix lowered
+  `-DRAFT` → `-draft` for kebab-case schema compliance.
+
 ## 2026-04-26 02:47 — Smoke test (bootstrap)
   Verified add/show/touch/update/list/dash/rebuild-index pipeline end-to-end
   on `test-person` fixture. All 6 ops succeeded. Test fixture cleaned up

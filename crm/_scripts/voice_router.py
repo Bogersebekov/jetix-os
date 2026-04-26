@@ -1,12 +1,13 @@
 """Voice-pipeline → CRM router.
 
 Reads `extract` output items with `target: crm`. Three intents:
-    add    — create draft `crm/people/<slug>-DRAFT.md` (status=draft_from_voice)
+    add    — create draft `crm/people/<slug>-draft.md` (status=draft_from_voice)
     touch  — append §11 entry to existing person (fuzzy match on slug/name)
     update — update specific fields (rare, mostly for status changes)
 
 CRITICAL: NEVER auto-write production records without human review.
-Voice items always create DRAFT files (slug ends with `-DRAFT`).
+Voice items always create DRAFT files (slug ends with `-draft`, lowercase
+to satisfy kebab-case schema validator).
 
 Public API:
     route_items(items: list[dict]) -> dict  (summary)
@@ -42,12 +43,17 @@ def _now_ts() -> str:
 
 
 def _slugify(name: str) -> str:
-    """Conservative slug — ASCII fold, kebab-case."""
-    nfkd = unicodedata.normalize("NFKD", name)
+    """Conservative slug — ASCII fold + Cyrillic transliteration, kebab-case.
+
+    For mixed input, transliterate Cyrillic chars to Latin first, then NFKD
+    fold + lowercase + collapse non-alphanumeric to '-'. Returns 'unknown'
+    if everything strips out.
+    """
+    # transliterate cyrillic chars first (preserves latin chars unchanged)
+    transliterated = _translit_cyrillic(name.lower())
+    nfkd = unicodedata.normalize("NFKD", transliterated)
     ascii_only = "".join(c for c in nfkd if not unicodedata.combining(c))
     s = ascii_only.lower()
-    # transliterate cyrillic via simple table
-    s = _translit_cyrillic(name.lower()) if ascii_only.lower() == "" else s
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return s or "unknown"
 
@@ -66,7 +72,7 @@ def _translit_cyrillic(s: str) -> str:
 
 
 def _all_slugs() -> dict[str, Path]:
-    """Map slug -> path (existing crm/people/*.md, including DRAFTs)."""
+    """Map slug -> path (existing crm/people/*.md, including drafts)."""
     if not PEOPLE_DIR.is_dir():
         return {}
     out: dict[str, Path] = {}
@@ -83,7 +89,7 @@ def _fuzzy_match(name: str, slug_hint: str | None = None) -> list[Path]:
     target = _slugify(name)
     matches = []
     for slug, path in candidates.items():
-        clean = slug.replace("-DRAFT", "")
+        clean = slug.replace("-draft", "")
         if clean == target or target in clean or clean in target:
             matches.append(path)
     return matches
@@ -93,14 +99,14 @@ def _create_draft(name: str, role_hint: str | None, source_channel: str | None,
                   context: str | None, raw_quote: str | None) -> Path:
     PEOPLE_DIR.mkdir(parents=True, exist_ok=True)
     base_slug = _slugify(name)
-    slug = f"{base_slug}-DRAFT"
+    slug = f"{base_slug}-draft"
     path = PEOPLE_DIR / f"{slug}.md"
     if path.exists():
         # avoid overwriting; bump suffix
         i = 2
-        while (PEOPLE_DIR / f"{base_slug}-DRAFT-{i}.md").exists():
+        while (PEOPLE_DIR / f"{base_slug}-draft-{i}.md").exists():
             i += 1
-        slug = f"{base_slug}-DRAFT-{i}"
+        slug = f"{base_slug}-draft-{i}"
         path = PEOPLE_DIR / f"{slug}.md"
     template = TEMPLATE_PATH.read_text(encoding="utf-8")
     today = _today()
@@ -176,7 +182,7 @@ def route_items(items: list[dict]) -> dict:
                 context=item.get("context"),
                 raw_quote=item.get("raw_quote"),
             )
-            _append_log(f"## {_now_ts()} — voice-router DRAFT created: {path.stem}\n  source: voice-memo  intent: add\n")
+            _append_log(f"## {_now_ts()} — voice-router draft created: {path.stem}\n  source: voice-memo  intent: add\n")
             summary["added"] += 1
             summary["drafts"].append(str(path.relative_to(CRM_ROOT)))
         elif intent in {"touch", "update"}:
