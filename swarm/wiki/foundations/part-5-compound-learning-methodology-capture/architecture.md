@@ -7,12 +7,14 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 3
 phase: Wave-C-Bundle-3-architecture
-status: F4-pending-ruslan-ack
+status: ruslan-acked-canonical
+ruslan_ack_record: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-28.md
+ruslan_ack_date: 2026-04-28
 predecessor_interface_card: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/interface-cards/part-5-compound-learning-methodology-capture.md
 constitutional_baseline_bundle_1: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md
 constitutional_baseline_bundle_2: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md
 retroactive_supplement: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md
-F: F4
+F: F5
 ClaimScope: "Holds for any single-owner knowledge-work system that uses a structured cycle ritual to convert per-cycle execution experience into improved future-cycle execution. The 40/10/40/10 ratio is FUNDAMENTAL §2.2 constitutional value (F5+ inherited). Bundle 3 introduces methodology promotion pipeline (UND-2 binding) and OQ-MERGED-2 dissolve-test condition declaration. Phase A scope: single-owner Jetix Phase-A €50K horizon; Fork-portable for Phase B partner imports."
 R:
   refuted_if: "DRR entries stop appearing in agents/<id>/strategies.md across consecutive cycles; OR methodology library at wiki/methodology/ shows zero new validated entries across 5+ cycles; OR Bundle 3 + Bundle 4 + Wave D produce <3 distinct compound-phase-exclusive operations (dissolve-test condition activates per OQ-MERGED-2)"

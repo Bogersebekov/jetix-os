@@ -7,12 +7,14 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 3
 phase: Wave-C-Bundle-3-architecture
-status: F4-pending-ruslan-ack
+status: ruslan-acked-canonical
+ruslan_ack_record: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-28.md
+ruslan_ack_date: 2026-04-28
 predecessor_interface_card: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/interface-cards/part-8-health-monitoring-system-integrity.md
 constitutional_baseline_bundle_1: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md
 constitutional_baseline_bundle_2: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md
 retroactive_supplement: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md
-F: F4
+F: F5
 ClaimScope: "Holds for Foundation observability design at Phase A scale (single owner, ≤10 agents). SLI/SLO starter values are calibration parameters per OQ-MERGED-5, NOT Foundation constants. Bundle 3 scope = SPECIFY AND STUB only — schemas + templates + alert routing stub. NOT live metrics. NOT calibrated thresholds. Live calibration is Phase B (2-3 month operational data accumulation)."
 R:
   refuted_if: "Bundle 3 Part 8 produces hardcoded SLI thresholds in Foundation artefacts without labeling them as calibration parameters; OR live metrics implementation code; OR sub-daily metric collection cadence; OR delivery code (Slack/email/SMS) for alert routing; OR FUNDAMENTAL §3 30+ SLI/SLO pairs treated as production-grade thresholds rather than starter values requiring Phase B calibration"
