@@ -1,12 +1,19 @@
 # Jetix Knowledge Index (books-md/)
 
-*Generated 2026-04-22 16:06*
+*Generated 2026-04-27 06:56*
 
-Total books: 394
+Total books: 402
 
 Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reprocess
 
 ---
+
+## §anthropic
+
+| Grade | Title | Words | Expert | Priority | Path |
+|---|---|---:|---|---|---|
+| ✅ A | Askell 2021 Hhh | 24,915 | meta-expert | P2 | `raw/books-md/anthropic/askell-2021-hhh.md` |
+| ✅ A | Bai 2022 Cai | 19,289 | meta-expert | P2 | `raw/books-md/anthropic/bai-2022-cai.md` |
 
 ## §biology
 
@@ -21,18 +28,19 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ? ? | Deleted files log | 0 | ? | ? | `raw/books-md/_DELETED-LOG.md` |
-| ? ? | Deleted files log — deep multi-agent cleanup | 0 | ? | ? | `raw/books-md/_DELETED-LOG-DEEP.md` |
+| ✅ A | Deleted files log | 0 | ? | ? | `raw/books-md/_DELETED-LOG.md` |
+| ✅ A | Deleted files log — deep multi-agent cleanup | 0 | ? | ? | `raw/books-md/_DELETED-LOG-DEEP.md` |
+| ❌ C | _Filter Blocked | 9 | meta-expert | P2 | `raw/books-md/_FILTER-BLOCKED.md` |
 
 ## §clean-code
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ❌ C | Brooks Mythical Man Month 1995 | 736 | unix-expert | P1 | `raw/books-md/clean-code/brooks-mythical-man-month-1995.md` |
 | ⚠️ B | Fowler Refactoring 2Ed 2018 | 104,060 | unix-expert | P1 | `raw/books-md/clean-code/fowler-refactoring-2ed-2018.md` |
 | ⚠️ B | Hunt Thomas Pragmatic Programmer 2019 | 109,141 | unix-expert | P1 | `raw/books-md/clean-code/hunt-thomas-pragmatic-programmer-2019.md` |
 | ⚠️ B | Martin Clean Code 2008 | 126,808 | unix-expert | P1 | `raw/books-md/clean-code/martin-clean-code-2008.md` |
 | ✅ A | Ousterhout Philosophy Of Software Design 2Ed 2021 | 63,168 | unix-expert | P1 | `raw/books-md/clean-code/ousterhout-philosophy-of-software-design-2ed-2021.md` |
+| ✅ A | The Mythical Man-Month: Essays on Software Engineering | 39,795 | unix-expert | P1 | `raw/books-md/clean-code/brooks-mythical-man-month-1995.md` |
 
 ## §complexity
 
@@ -46,9 +54,9 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
 | ⚠️ B | Ashby Introduction To Cybernetics 1956 | 110,319 | systems-expert | P1 | `raw/books-md/cybernetics/ashby-introduction-to-cybernetics-1956.md` |
-| ✅ A | Beer Brain Of The Firm 1972 | 161,958 | systems-expert | P1 | `raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md` |
+| ⚠️ B | Beer Brain Of The Firm 1972 | 166,645 | systems-expert | P1 | `raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md` |
 | ⚠️ B | Kelly Out Of Control 1994 | 229,602 | systems-expert | P1 | `raw/books-md/cybernetics/kelly-out-of-control-1994.md` |
-| ✅ A | Wiener Cybernetics 2Ed 1961 | 86,035 | systems-expert | P1 | `raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md` |
+| ⚠️ B | Wiener Cybernetics 2Ed 1961 | 88,579 | systems-expert | P1 | `raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md` |
 
 ## §engineering-foundations
 
@@ -57,7 +65,13 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | Altshuller Engineering Of Creativity Triz 1984 | 140,358 | unix-expert | P1 | `raw/books-md/engineering-foundations/altshuller-engineering-of-creativity-triz-1984.md` |
 | ⚠️ B | Descartes Discourse On The Method Gutenberg | 26,133 | unix-expert | P1 | `raw/books-md/engineering-foundations/descartes-discourse-on-the-method-gutenberg.md` |
 | ⚠️ B | Koen Discussion Of The Method 2003 | 140,656 | unix-expert | P1 | `raw/books-md/engineering-foundations/koen-discussion-of-the-method-2003.md` |
-| ❌ C | Vincenti What Engineers Know 1990 | 403 | unix-expert | P1 | `raw/books-md/engineering-foundations/vincenti-what-engineers-know-1990.md` |
+| ⚠️ B | What Engineers Know and How They Know It: Analytical Studies from Aeronautical History | 142,293 | engineering-foundations-expert | P1 | `raw/books-md/engineering-foundations/vincenti-what-engineers-know-1990.md` |
+
+## §event-sourcing
+
+| Grade | Title | Words | Expert | Priority | Path |
+|---|---|---:|---|---|---|
+| ✅ A | Young Cqrs 2010 | 17,520 | meta-expert | P2 | `raw/books-md/event-sourcing/young-cqrs-2010.md` |
 
 ## §investing
 
@@ -306,21 +320,21 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ✅ A | 157 Beware The Bloat Monster | 1,153 | mgmt-expert | P1 | `raw/books-md/mgmt/157-beware-the-bloat-monster.md` |
 | ✅ A | 158 Go With The Flow | 1,036 | mgmt-expert | P1 | `raw/books-md/mgmt/158-go-with-the-flow.md` |
 | ✅ A | 161 Start Your Engines | 1,547 | mgmt-expert | P1 | `raw/books-md/mgmt/161-start-your-engines.md` |
-| ❌ C | Drucker Effective Executive 2006 | 108 | mgmt-expert | P1 | `raw/books-md/mgmt/drucker-effective-executive-2006.md` |
 | ✅ A | Fried Dhh Remote 2013 | 30,467 | mgmt-expert | P1 | `raw/books-md/mgmt/fried-dhh-remote-2013.md` |
 | ✅ A | Fried Dhh Rework 2010 | 28,040 | mgmt-expert | P1 | `raw/books-md/mgmt/fried-dhh-rework-2010.md` |
 | ✅ A | Gettingreal | 1,655 | mgmt-expert | P1 | `raw/books-md/mgmt/gettingreal.md` |
 | ✅ A | Grove High Output Management | 68,333 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-high-output-management.md` |
-| ✅ A | Grove Only Paranoid Survive 1996 | 54,553 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-only-paranoid-survive-1996.md` |
+| ✅ A | Grove Only Paranoid Survive 1996 | 55,652 | mgmt-expert | P1 | `raw/books-md/mgmt/grove-only-paranoid-survive-1996.md` |
 | ✅ A | Horowitz Hard Thing About Hard Things 2014 | 80,061 | mgmt-expert | P1 | `raw/books-md/mgmt/horowitz-hard-thing-about-hard-things-2014.md` |
 | ⚠️ B | Laloux Reinventing Organizations 2014 | 153,000 | mgmt-expert | P1 | `raw/books-md/mgmt/laloux-reinventing-organizations-2014.md` |
+| ⚠️ B | The Effective Executive | 52,843 | mgmt-expert | P1 | `raw/books-md/mgmt/drucker-effective-executive-2006.md` |
 | ✅ A | Watkins First 90 Days 2013 | 68,609 | mgmt-expert | P1 | `raw/books-md/mgmt/watkins-first-90-days-2013.md` |
 
 ## §pdm
 
 | Grade | Title | Words | Expert | Priority | Path |
 |---|---|---:|---|---|---|
-| ✅ A | Cagan Inspired 2Ed 2017 | 63,365 | pm-expert | P1 | `raw/books-md/pdm/cagan-inspired-2ed-2017.md` |
+| ✅ A | Cagan Inspired 2Ed 2017 | 63,680 | pm-expert | P1 | `raw/books-md/pdm/cagan-inspired-2ed-2017.md` |
 | ✅ A | Cagan Transformed 2024 | 86,808 | pm-expert | P1 | `raw/books-md/pdm/cagan-transformed-2024.md` |
 | ✅ A | Doerr Measure What Matters 2018 | 63,734 | pm-expert | P1 | `raw/books-md/pdm/doerr-measure-what-matters-2018.md` |
 | ✅ A | Ries Lean Startup 2011 | 83,591 | pm-expert | P1 | `raw/books-md/pdm/ries-lean-startup-2011.md` |
@@ -403,7 +417,7 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 |---|---|---:|---|---|---|
 | ✅ A | Kuhn Structure Of Scientific Revolutions 50Anniv 2012 | 91,580 | philosophy-expert | P1 | `raw/books-md/philosophy-science/kuhn-structure-of-scientific-revolutions-50anniv-2012.md` |
 | ✅ A | Notes | 4,711 | philosophy-expert | P1 | `raw/books-md/philosophy-science/notes.md` |
-| ✅ A | Popper Conjectures And Refutations 1963 | 209,987 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md` |
+| ⚠️ B | Popper Conjectures And Refutations 1963 | 220,339 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md` |
 | ⚠️ B | Popper Logic Of Scientific Discovery | 203,807 | philosophy-expert | P1 | `raw/books-md/philosophy-science/popper-logic-of-scientific-discovery.md` |
 
 ## §pm
@@ -413,6 +427,13 @@ Quality grades: **A** = clean / **B** = minor artifacts / **C** = needs reproces
 | ⚠️ B | Pmi Pmbok 7Th Edition 2021 | 91,992 | pm-expert | P1 | `raw/books-md/pm/pmi-pmbok-7th-edition-2021.md` |
 | ✅ A | Schwaber Sutherland Scrum Guide 2020 | 4,148 | pm-expert | P1 | `raw/books-md/pm/schwaber-sutherland-scrum-guide-2020.md` |
 | ✅ A | Singer Shape Up Basecamp 2019 | 34,651 | pm-expert | P1 | `raw/books-md/pm/singer-shape-up-basecamp-2019.md` |
+
+## §sre
+
+| Grade | Title | Words | Expert | Priority | Path |
+|---|---|---:|---|---|---|
+| ✅ A | Google Sre Book | 190,412 | meta-expert | P2 | `raw/books-md/sre/google-sre-book.md` |
+| ⚠️ B | Google Srewb Implementing Slos | 8,744 | meta-expert | P2 | `raw/books-md/sre/google-srewb-implementing-slos.md` |
 
 ## §systems
 
