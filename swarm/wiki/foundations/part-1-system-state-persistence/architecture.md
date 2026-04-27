@@ -635,15 +635,17 @@ Single source of truth for area tokens. Both the pre-commit hook AND `/lint --ch
   "tokens": [
     "agents", "architecture", "clients", "comms", "crm", "cycles",
     "daily", "decisions", "design", "engineering", "foundation",
-    "hooks", "infra", "ingest", "kb", "lint", "meta", "new",
-    "project", "prompts", "raw", "reports", "review", "schemas",
-    "skills", "strategy", "swarm", "templates", "tools", "voice",
-    "wiki"
+    "health", "hooks", "infra", "ingest", "kb", "lint", "meta",
+    "methodology", "new", "project", "prompts", "raw", "reports",
+    "review", "schemas", "skills", "strategy", "swarm", "swarm-lib",
+    "templates", "tools", "voice", "wiki"
   ]
 }
 ```
 
 **Note:** The current CLAUDE.md token list (kb, daily, project, raw, crm, meta, skills, infra) is a subset. The repo has grown beyond the original 8 areas; this authoritative list is the expansion. CLAUDE.md's list should reference `shared/schemas/commit-format-tokens.json` as authoritative rather than maintaining a separate list (DRY). [src:engineering-expert-multi-mode.md:§I.2 CRITIC "token list longer than CLAUDE.md list"]
+
+**Bundle 3 retroactive supplement (2026-04-28):** Added `swarm-lib` token to canonicalise the Bundle 2 C1 Joint Design accessor pipeline area (`swarm/lib/` — accessor skills + routing-table.yaml + executor-binding.yaml live here per Part 3 LEAD + Part 4 ADVISORY governance). Also added `health` token (Part 8 Bundle 3 health snapshot commits) and `methodology` token (Part 5 Bundle 3 methodology promotion commits). All three additions per OQ-B2-A retroactive Bundle 1 fix + OQ-B2-D Bundle 2 ack canonicalisation of informally-used tokens. [src:decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md:§1 Decision #C1 Joint Design canonical; src:decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md:§2 OQ-B2-A + OQ-B2-D]
 
 **Overflow token `[new]` — Ashby compliance.** When no existing area token fits, the author uses `[new]`. Lint signal #13 alerts when `[new]` is used >2 times in a 7-day window — this indicates the enum needs expansion via HITL ack and schema update. This preserves the format invariant while providing an Ashby-compliant escape valve for novel operation types. [src:systems-expert-cybernetics-emergence.md:§1.2 "Add explicit overflow mechanism for [area] enum"]
 
@@ -706,8 +708,8 @@ Partial schema (Bundle 3 full spec; this is the Part 1-contributed frozen field)
     },
     "gate_class": {
       "type": "string",
-      "enum": ["autonomous", "requires-approval", "hitl-required"],
-      "description": "The gate class under which this task was executed, per Part 6 governance."
+      "enum": ["stop_gate", "stage_gate", "draft_promotion"],
+      "description": "The gate class under which this task was executed. Aligned to Part 6b §I.4 F8 LOCKED awaiting-approval-packet.json gate_class enum (canonical authority — single source of truth). stop_gate = Tier 0 integrity halt requiring same-session HITL ack; stage_gate = stage-bound observability/operational change requiring HITL ack; draft_promotion = methodology / canonical entity F4→F5 promotion gate. [src:swarm/wiki/foundations/part-6b-human-gate/architecture.md:§I.4; src:decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md:§2 OQ-B2-A retroactive supplement]"
     }
   }
 }
@@ -800,6 +802,9 @@ Commit halts mid-write. Detection: `git fsck` flags dangling blob/tree. Recovery
 
 **K17 — Cross-fork `commit-format-tokens.json` schema drift.**
 Phase B partner forks Part 1, extends area enum to add their own area tokens (e.g., `[partner-ops]`). Their commits cannot import back into Jetix without enum reconciliation. Detection: cross-fork-provenance import flags unknown area token. Recovery: schema_version_history block tracks versions; reconciliation_strategy field in cross-fork-provenance.json declares 'merge-superset' as default. [F3|G:Part 1 fork discipline|R-medium]
+
+**K18 — Legacy v1.0.0 message upcasting (Bundle 3 retroactive supplement per OQ-B2-A).**
+The Bundle 2 message schema v1.0.0 → v2.0.0 BREAKING change made `acting_as:` mandatory and extended the `from:` enum [src:swarm/wiki/foundations/part-4-role-taxonomy-coordination-protocol/architecture.md:§H message schema v2.0.0; src:decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md:§1 Decision #6]. Part 1 commit substrate may receive legacy v1.0.0 messages from pre-Bundle-2 cycles in operational use (e.g., reprocessing archived task-return packets, replaying mailbox contents from before the schema cutover). Detection: on ingest, parser reads `schema_version` field; if `"1.0.0"`, branch to upcasting logic. Policy: detect `acting_as:` field; if missing, attempt upcast by inferring from `from:` field per role-archetype mapping (e.g., `from: engineering-expert` → `acting_as: engineering-expert.integrator` only when context unambiguous; otherwise REJECT with named-field error). Hamel-binary acceptance predicate: every legacy message either upcasts cleanly (with `upcast_provenance: {from_version: "1.0.0", to_version: "2.0.0", inferred_at: <timestamp>, inference_basis: <field-mapping-rule>}` annotation appended) OR rejects with named field error stating which field could not be inferred. NO silent acceptance of malformed v1.0.0 messages. Per Young 2010 §4 P4 event-versioning ("upcasting"): every schema evolution requires explicit version-tracking + upcasting logic — silent acceptance of pre-cutover messages corrupts the audit trail. Cross-ref K13 (schema version drift) — K18 is the K13 family operationalised for the message schema. **Numbering note:** the OQ-B2-A spec (2026-04-28) was authored unaware of pre-existing K15/K16/K17 in this file (concurrent commit lock / disk-full / cross-fork token drift); this failure mode is therefore filed as K18 to preserve numbering uniqueness; substantive content matches OQ-B2-A spec verbatim. [src:event-sourcing-cqrs.md:§4 Principle 4 "upcasting"; src:decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md:§2 OQ-B2-A; F4|G:Bundle 3 retroactive supplement; pre-cutover legacy ingest discipline|R-medium]
 
 **K14 — Cascading failure: Part 1 git failure blocks all downstream Parts. (Phase B stub — SRE Ch.22)**
 **[PHASE-B-DEFERRED: cascading-failure-graceful-degradation]**
