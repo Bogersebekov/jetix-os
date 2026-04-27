@@ -27,7 +27,24 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
-### 2026-04-24 — T-km-materialization-mvp-2026-04-24 scalability pass (Wave 4 Part F)
+### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — integrator-merge synthesis pattern
+
+1. **Decision**: As Phase A-1 integrator, merged 20 candidate parts from 4 part-proposing experts (engineering / mgmt / investor / self) into 10 Foundation main parts using **Popper falsifier test** as deduplication criterion: "If this part did not exist as a separate part, what observable system behaviour would degrade?". Treated cross-cutting concerns (git discipline / provenance / rhythm / append-only / IP-1) as ambient disciplines, NOT parts (Popper test failed).
+2. **Reasoning**: 20 candidates = noise; 10 = manageable Wave C bundles. Popper falsifier separates "structural part with independent lifecycle" from "cross-cutting discipline applied via E lane". Without this discipline, 20 candidates collapse into either too-broad parts or too-many-small parts.
+3. **Result**: Philosophy-expert critic gate verdict PARTIAL (5 mechanical edits) → applied → A-2 unblocked. M3 4/4 PASS confirmed all 10 parts have residual exclusive work in scenarios. **OQ-MERGED-2 (Part 5 dissolve dissent)** explicitly REFUTED by M3 evidence: Part 5 appears in all 4 scenarios as glue with residual unique work — engineering-expert dissolve hypothesis contradicted.
+4. **Review**: VALIDATED. Popper-falsifier-test is the right deduplication discipline at brigadier-integrator level for Foundation-scale decompositions.
+
+**Evolution**: Adopt as default integrator-merge pattern for any part-decomposition synthesis. Add to systems-expert mode-section §3 Integrator: "Apply Popper falsifier test before counting candidates."
+
+### 2026-04-27 — cyc-foundation-build-2026-04-28 — feedback-loop identification protocol
+
+1. **Decision**: In Phase A-0 pre-read, identified 4 feedback loops in FUNDAMENTAL Vision: R1 Compound Knowledge (reinforcing), R2 Agent Self-Improvement (reinforcing), B1 Agency-Preservation Brake (balancing), B2 Health-Monitoring Correction (balancing). Mapped each to specific Foundation main part (R1→Part 3 KB; R2→Part 5 Compound; B1→Part 6 Governance; B2→Part 8 Health Monitoring).
+2. **Reasoning**: Without explicit loop identification, Foundation parts risk being designed without dynamics awareness (static structure but no feedback). Loop-to-Part mapping ensures every loop has an owner.
+3. **Result**: All 4 loops have owners in 10-part decomposition. M3 trace verified: Loop dynamics observable end-to-end through scenario walkthroughs.
+4. **Review**: VALIDATED. Feedback-loop identification → loop-to-part mapping is reliable Phase A-0 systems-expert deliverable.
+
+**Evolution**: Default systems-expert pre-read template includes "≥3 feedback loops identified + part-mapping". Increment feedback-loop-hit-rate KPI (target >60% per cycle_50 evolution gate).
+
 
 - **Decision:** Produce systems-scalability 5-gate horizon projection of the KM MVP
   substrate post-ack Option B, covering A1↔B1 → A2↔B2 → A3↔B2 migration trajectory

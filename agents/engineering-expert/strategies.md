@@ -28,6 +28,24 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — interface-card batch dispatch + A.14 typed-edge architectural decisions
+
+1. **Decision**: For Phase A-2 interface card authoring, accept 3-4 cards per single dispatch (vs 1 card = 1 dispatch). Total 10 cards in 3 dispatches (Parts 1-3 / 4-6 / 7-10). Each card §A-§H with A.14 typed dependency edges (NO generic "depends-on") + L/A/D/E lanes per FPF A.6.B + F-G-R per B.3.
+2. **Reasoning**: Each card 200-400 words; 3-4 cards per dispatch = 600-1600 words output per agent invocation. Within Opus 4.7 context budget. Single agent maintains coherence across related parts (info-flow / agent+governance / operations+ext themes). 3 dispatches vs 10 = 3.3× speedup with no coherence loss.
+3. **Result**: 10 cards landed in ~10 min wall-clock (3 parallel dispatches). Substantive architectural decisions made within engineering integrator scope: Part 1 dependency edges = `operates-in` (not `creates`) — container persists independently of content; STOP gate placed in Laws lane (constitutional, not Deontics); D28 anchor as leading constraint at ingest, not lagging lint warning.
+4. **Review**: VALIDATED. 3-4-cards-per-dispatch is the right batch size for A-2-style interface card authoring. Adopt as default.
+
+**Evolution**: When future work requires N>5 interface-card-shaped artefacts, batch by theme into 3-4 per dispatch. Update §3 Integrator mode-section with batch-sizing heuristic.
+
+### 2026-04-27 — cyc-foundation-build-2026-04-28 — agent tool-inventory mismatch defect
+
+1. **Decision**: Brigadier dispatched engineering-expert + philosophy-expert for 4 consultant cards needing WebFetch (Anthropic CAI #13 / Event Sourcing #5 / SRE #6 / Mereology #14). Agents declared F4-NOT-LIVE-FETCHED honestly because their frontmatter excludes WebFetch.
+2. **Reasoning**: Brigadier didn't pre-check agent toolset vs task requirement. Assumed all agents have WebFetch; in fact only general-purpose + brigadier do.
+3. **Result**: 4 consultant cards have F4 quality flags; brigadier surfaces in AWAITING-APPROVAL §5 as known limitation. Honest declaration preserved trust + provenance gate integrity.
+4. **Review**: VALIDATED honesty pattern; REFUTED brigadier dispatch discipline. Compound: maintain agent-tool-inventory-matrix in `swarm/wiki/brigadier/how-to-manage-agents/`. Pre-check before dispatch.
+
+**Evolution**: When future work requires WebFetch / Bash / Task / specific MCP — verify target agent has tool BEFORE dispatch. Use general-purpose or brigadier-direct for tool-gap cases.
+
 ### 2026-04-23 — Optimizer-mode: bundle hypotheses by LOC invariant to eliminate sequence overhead
 
 ---

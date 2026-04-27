@@ -27,6 +27,24 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — operational-rhythm = cross-cutting (NOT part) verdict
+
+1. **Decision**: As Phase A-0 part-proposing expert, proposed 5 main parts including "Operational Rhythm Layer". Brigadier integrator + philosophy-expert critic together resolved Operational Rhythm to cross-cutting concern (NOT structural part). My OQ-MGMT-2 question about "rhythm cross-cutting vs standalone" was resolved cross-cutting.
+2. **Reasoning**: 40/10/40/10 cadence is a scheduling pattern that every part adheres to, not a module with its own artifact type. Cycle ritual ownership is correctly distributed: structure → Part 5 (Compound Learning); owner interaction → Part 9 (Owner Interaction Scaffold); health signals → Part 8 (Health Monitoring). Standalone "Rhythm Layer" would be SPoF for cross-cutting concern with no enforcement gap.
+3. **Result**: M3 scenario walkthroughs 4/4 PASS confirmed correct distribution: cadence applied across parts without missing any enforcement points.
+4. **Review**: VALIDATED. Operational Rhythm = cross-cutting discipline. Ditto OQ-MERGED-4 (Torres CDH at Foundation level): generic discovery sub-function in Part 9 (Owner Interaction Scaffold) ✓ vs CDH-branded methodology to RUSLAN-LAYER ✓.
+
+**Evolution**: Adopt heuristic: temporal patterns (cadences, rhythms) = cross-cutting concerns; module patterns (data flows, state machines) = structural parts. Add to mgmt-expert §3 Integrator mode template.
+
+### 2026-04-27 — cyc-foundation-build-2026-04-28 — Shape Up Foundation enforcement decision
+
+1. **Decision**: In Phase B-2 Product Management consultant card (#8), recommended Foundation Part 7 needs 3 new required fields: `appetite:` (Shape Up) + `outcome:` (Torres/Cagan) + `opportunity:` (Torres CDH). Currently Part 7 templates have only deliverable-based fields. Shape Up circuit-breaker (no-default-extension on overrun) flagged for Foundation enforcement, not project-level convention.
+2. **Reasoning**: Shape Up appetite field is the single highest-leverage PM discipline for protecting founder attention budget (per spec D2 architect-orbit). Without enforcement at Foundation level, projects routinely overrun without circuit-breaker.
+3. **Result**: Recommendation flowed into Wave C work-list Bullet for Part 7. Will be implemented in Bundle 4 cycle 16.
+4. **Review**: PARTIAL pending Wave C Bundle 4 implementation verification.
+
+**Evolution**: When Wave C Bundle 4 lands, return to verify whether Shape Up appetite enforcement actually changed project overrun rate. Track project-overrun-rate KPI per cycle_50 evolution gate.
+
 ### 2026-04-24 — Integrator mode: ICP scope restriction to 2 archetypes (Phase-1 bandwidth constraint) is a valid mgmt prioritization move even when JETIX-VISION declares 11
 
 ```yaml

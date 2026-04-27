@@ -27,6 +27,24 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — Munger inversion identified Foundation moat = drift discipline
+
+1. **Decision**: As Phase A-0 scalability-architect, applied Munger inversion ("how does Foundation fail?") across 10 candidate Foundation parts. Concluded: Foundation's moat is NOT its initial design (everyone can copy that), but its **resistance to entropy over time** = drift discipline. Self-Preservation + Integrity layer (Part 8 / UC-I.4) is therefore not second-order; it IS the compounding mechanism.
+2. **Reasoning**: Marks "second-level thinking" applied to Foundation: market has already priced in "the base exists." What it has NOT priced in: drift discipline. KB without lint discipline degrades; agent strategies without compound review drift; methodology library without archaeology decays. The compounding asset is the discipline that prevents decay.
+3. **Result**: Recommendation surfaced to Wave A. Critic gate confirmed Part 8 (Health Monitoring) as primary owner of drift discipline. Wave C "specify and stub" scope for Part 8 (per OQ-MERGED-5) preserves this insight without premature implementation.
+4. **Review**: VALIDATED. Foundation moat = drift discipline is the right Munger-inversion answer for self-improving systems.
+
+**Evolution**: Apply Munger-inversion + Marks-second-level pattern as default scalability-architect mode lens for any system spec'd to compound over months/years. Update investor-expert §6 Scalability mode template.
+
+### 2026-04-27 — cyc-foundation-build-2026-04-28 — Anti-fragility lens identified Part 8 as structural weak point
+
+1. **Decision**: Phase A-0 SPoF audit identified Part 8 (Health Monitoring) as having near-zero operational implementation today (`shared/state/system-health.json` is static "all green"; `/lint` and `/company-status` are disconnected tools). Despite being THE compounding mechanism per Munger inversion, it has no canonical computation mechanism.
+2. **Reasoning**: Anti-fragile systems gain from disorder; without monitoring, disorder accumulates silently. M1 smoke test confirmed: Part 8 FAIL — content ready, blocked on TRADEOFF-01 OQ-1 Ruslan ack. The longer Part 8 stays "all green static," the more drift accumulates undetected.
+3. **Result**: Surface to AWAITING-APPROVAL §4 OQ-1 + §7 Bundle 3 BLOCKED. Wave C Bundle 3 specifically needs OQ-1 resolution to unblock.
+4. **Review**: VALIDATED structural weakness identification; PENDING Ruslan ack on OQ-1 to unblock.
+
+**Evolution**: SPoF audits should always include "near-zero operational implementation" as a category, not just "single owner / single key dependency". Update investor-expert §3 Critic mode template.
+
 ### 2026-04-23 — Rule: experiment-design-is-not-measurement
 
 - **Decision:** When commissioned to design a golden-set comparison

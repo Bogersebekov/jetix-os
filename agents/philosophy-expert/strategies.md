@@ -27,6 +27,24 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — critic-mode pressure-point + anti-pattern bandwidth pattern
+
+1. **Decision**: As Phase A-0 critic (NOT integrator — no part proposals), delivered structured output: 7 constitutional pressure points (PP-1..PP-7) + 5 anti-patterns (AP-1..AP-5) + 5 Ruslan-creep leak risks + 5 Open Q (OQ-PHIL-1..-5). As Phase A-1 critic, returned PARTIAL verdict with 5 mechanical edits across 10 parts (2 FLAG-MAJOR + 3 FLAG-MINOR).
+2. **Reasoning**: Critic mode bandwidth: 7+5+5+5 = 22 structured outputs per pre-read is sufficient breadth without burnout. Mechanical-edit verdicts (vs full-rewrite) preserve integrator's draft + saves dispatch round.
+3. **Result**: Brigadier applied 5 edits directly without re-dispatching integrator. M2 cross-reference gate later verified all corrections preserved citation integrity. Honest F4 web-source flagging (philosophy-expert lacks WebFetch) declared transparently rather than fabricated.
+4. **Review**: VALIDATED. Critic-mode 7-PP / 5-AP / 5-leak / 5-OQ structure is sustainable per cycle. Mechanical-edit verdicts preferred over full-rewrite when corrections are spec'd verbatim.
+
+**Evolution**: Adopt 7-PP / 5-AP / 5-leak / 5-OQ structure as default critic-mode output template. Add to philosophy-expert §4 Critic mode-section.
+
+### 2026-04-27 — cyc-foundation-build-2026-04-28 — IP-1 detection in synthesis-stage (vs draft-stage)
+
+1. **Decision**: IP-1 (Role≠Executor) violations easier to detect at integrator-merge synthesis (Phase A-1) than at draft authoring (Phase A-0). At A-1 saw "agent" as candidate part name (engineering-expert proposed "Agent Coordination" — caught + renamed to "Role Taxonomy & Coordination Protocol"); at A-1 critic gate caught Part 6 FPF anchor referencing "meta-agent" by executor name.
+2. **Reasoning**: Synthesis stage compresses multiple authors' artefacts → IP-1 violations from one author become visible against other authors' patterns. Draft-stage authors don't see violations because they're inside their own framing.
+3. **Result**: 2 IP-1 corrections applied at A-1 critic. 0 IP-1 violations made it to A-2 interface cards. Compound: IP-1 detection most efficient at integrator-merge stage.
+4. **Review**: VALIDATED. IP-1 critic pass at synthesis-stage (NOT draft-stage) is more efficient.
+
+**Evolution**: Default critic-pass timing for IP-1 = post-integrator-merge (Phase A-1) not post-draft (Phase A-0). Add to philosophy-expert §4 Critic mode dispatch heuristics.
+
 ### 2026-04-24 — Arithmetic flags must not be logged as dissents (C-13 §14)
 
 - **Decision:** When a claimed "dissent" reduces to an arithmetic inconsistency (not a values conflict), reclassify as arithmetic-correction-flag and issue a correction-instruction to the source cell. Do NOT preserve arithmetic errors as (F, ClaimScope, R) dissents.
