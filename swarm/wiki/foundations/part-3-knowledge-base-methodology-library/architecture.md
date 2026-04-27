@@ -7,8 +7,9 @@ wave: C
 bundle: 2
 part: 3
 part_slug: part-3-knowledge-base-methodology-library
-status: draft-pre-ruslan-ack
-F: F4
+status: ruslan-acked-canonical
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md Decision #7 — F4→F5 codified rule on canonical promotion. C1 Joint Design Variant A LOCKED (Part 3 LEAD with Part 4 ADVISORY). Future modification requires AWAITING-APPROVAL constitutional gate per Part 6b §E Law L9."
 ClaimScope: "Holds for the wiki/ content layer (U.Episteme) and methodology library sub-layer (`wiki/methodology/`) in Foundation Phase A. The accessor pipeline (/ingest, /ask, /consolidate, /build-graph, /lint) is U.System owned by `swarm/lib/` shared infrastructure with Part 3 as named LEAD owner per C1 Joint Design (Variant A Ruslan-acked 2026-04-27). RUSLAN-LAYER specific wiki content (552 entities Ruslan-authored), niche slices, methodology library entries authored by Ruslan are out of scope per §X."
 R:
   refuted_if: "(a) An accessor pipeline skill develops a lifecycle independent of `swarm/lib/`; OR (b) Part 3 §I or Part 4 §I duplicates the C1 canonical answer instead of REFERENCING swarm/lib/README.md and C1-joint-design.md; OR (c) a CRM edge from Part 10 reaches `wiki/graph/edges.jsonl` unvalidated by Part 3 /lint; OR (d) a methodology promotion bypasses the F4→F5 admissibility predicate (≥1 DRR validated marker from ≥2 cycles + rule_slug + Part 6b ack); OR (e) `/ask --save` does not write to `wiki/comparisons/` by default"

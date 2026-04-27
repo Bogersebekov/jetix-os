@@ -7,8 +7,9 @@ wave: C
 bundle: 2
 part: 2
 part_slug: part-2-signal-ingestion-triage
-status: draft-pre-ruslan-ack
-F: F4
+status: ruslan-acked-canonical
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md Decision #7 — F4→F5 codified rule on canonical promotion. Future modification requires AWAITING-APPROVAL constitutional gate per Part 6b §E Law L9."
 ClaimScope: "Holds for Foundation Phase A single-owner architecture. The STOP gate is a structural invariant of the information lifecycle, not a behavioural convention. Voice-pipeline tooling (`tools/transcribe.py`, `tools/extract.py`, `tools/filter.py`, `tools/run_pipeline.sh`) is RUSLAN-LAYER per §X. Specific PARA-tier definitions for Ruslan's projects, anchor-registry contents, and signal-source whitelists are RUSLAN-LAYER. Multi-owner gate delegation pattern is declared (P2.3) but SPEC-ONLY — implementation is Phase B."
 R:
   refuted_if: "(a) A signal reaches canonical wiki/ without traversing the STOP gate (no `human_acked_at:` timestamp in promoted draft frontmatter); OR (b) a STOP gate packet is emitted that does not validate against the F8-LOCKED `awaiting-approval-packet.json` schema in Part 6b §I.4 (`gate_class: stop_gate` field non-null); OR (c) PARA-tier mandatory enforcement fails on the synthetic 10-fixture test (5 `para_tier:`-bearing drafts MUST be accepted; 5 lacking it MUST be rejected); OR (d) a `/ingest` invocation without `--anchor=` succeeds without raising D28 violation"

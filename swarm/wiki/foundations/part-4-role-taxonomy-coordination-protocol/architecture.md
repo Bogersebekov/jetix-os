@@ -7,8 +7,9 @@ wave: C
 bundle: 2
 part: 4
 part_slug: part-4-role-taxonomy-coordination-protocol
-status: draft-pre-ruslan-ack
-F: F4
+status: ruslan-acked-canonical
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md Decision #7 — F4→F5 codified rule on canonical promotion. IP-1 self-audit clean (zero executor names). routing-table.yaml + task-return-packet.json + executor-binding.yaml.template ratified. UND-1 binding satisfied. OQ-B2-A retroactive fix queued for Bundle 3 cycle start. Future modification requires AWAITING-APPROVAL constitutional gate per Part 6b §E Law L9."
 ClaimScope: "Holds for Foundation Phase A coordination protocol with hub-and-spoke topology + 5-expert ROY swarm + brigadier sole dispatcher + 13 legacy agents on adjacent mailboxes. Role manifests = U.Episteme Foundation generic; routing-table.yaml STRUCTURE = Foundation generic; task-return-packet.json schema = Foundation generic; executor-binding.yaml TEMPLATE = Foundation generic. Specific role-manifest entries + routing-table.yaml entries + executor-binding.yaml populated values = RUSLAN-LAYER per IP-1 strict. Phase B forks replace executor bindings; structural pattern persists."
 R:
   refuted_if: "(a) Any executor name (model identifier, agent file path, instance ID) appears in any Foundation §A-§N or §X section — IP-1 violation auto-rejects; OR (b) routing-table.yaml has fewer than 20 distinct routing rules — Ashby under-variety; OR (c) task-return-packet.json schema is not superset-compatible with Part 1 §I.4 frozen stub fields (git_commit_hash, actor_role_archetype, cycle_id, gate_class) — frozen-fields invariant violated; OR (d) Part 4 §I duplicates the C1 canonical answer instead of REFERENCING swarm/lib/README.md and C1-joint-design.md"
