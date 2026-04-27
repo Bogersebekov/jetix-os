@@ -1,16 +1,34 @@
 ---
-title: JETIX Vision of System — что система должна уметь и как должна работать (Ruslan view)
+title: JETIX Vision of System — RUSLAN LAYER (overlay под текущую ситуацию)
 date: 2026-04-27
-type: vision-doc
+type: vision-doc-ruslan-layer
+layer: 2 of 2 (overlay over FUNDAMENTAL)
 sub_stage: 1.2 of Этап 1 (Architecture) of Генеральная чистка
-purpose: Концептуальное описание на человеческом языке как Jetix OS должен работать. Primary input для ROY Master Plan (Sub-stage 1.3).
+purpose: Optimization/specialization layer на FUNDAMENTAL Jetix Vision. Описывает как FUNDAMENTAL применяется к ТЕКУЩЕЙ ситуации Ruslan'а — DACH Mittelstand AI consulting / Phase 1 €50K / 11 archetypes / Korp-Startup / Top Lists strategy / etc. Натягивается ПОВЕРХ FUNDAMENTAL.
+fundamental_doc: decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md (Layer 1)
 authoring_workflow: Ruslan dictates что вытянуть из existing docs → Cloud Cowork добавляет deep+quality content из других связанных docs → push → Ruslan видит → следующая итерация
-status: WORK-IN-PROGRESS — обновляется итеративно (skeleton 27.04 evening)
+status: WORK-IN-PROGRESS — §1 filled 27.04 evening (35 use cases), §2-§10 pending
 related_docs: см. § "Источники" внизу
 parent_notion: https://www.notion.so/34e2496333bf816cb421c263beec172f
 ---
 
-# JETIX Vision of System — как Jetix OS должен работать
+# JETIX Vision of System — RUSLAN LAYER
+
+## ⚠️ Это Layer 2 of 2 — overlay на FUNDAMENTAL
+
+Этот документ описывает **specialization** базовой Jetix архитектуры под текущую ситуацию Ruslan'а. Он НЕ self-contained — читается **поверх** FUNDAMENTAL.
+
+**Двуслойная архитектура:**
+- **Layer 1 (FUNDAMENTAL):** `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md` — базовая прошивка для ANY ниши/ситуации
+- **Layer 2 (этот документ — RUSLAN-LAYER):** overlay под current Ruslan context (DACH / Mittelstand / AI consulting / Phase 1 €50K / 11 archetypes / Korp-Startup / Top Lists Partner Factory / mentor search / etc)
+
+**Workflow:** сначала LOCKED FUNDAMENTAL → потом этот overlay finalize'ится поверх. Если завтра Ruslan уйдёт в другую нишу — меняется только этот overlay, FUNDAMENTAL остаётся.
+
+**Текущее состояние §1:** 35 use cases в 8 категориях уже заполнены — но **смешаны generic + Ruslan-specific**. После LOCKED FUNDAMENTAL — generic элементы переедут в Layer 1, тут останутся только Ruslan-specific overlays.
+
+---
+
+# JETIX Vision of System — как Jetix OS должен работать (Ruslan view)
 
 ## §0 Что это за документ
 
