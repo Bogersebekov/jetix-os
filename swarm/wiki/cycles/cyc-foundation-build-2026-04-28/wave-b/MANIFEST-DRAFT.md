@@ -42,6 +42,22 @@ for every Wave C interface-card author.
 
 ---
 
+## §0.1 Wave B Supplement Log (2026-04-27 evening)
+
+Following Ruslan walkthrough of cycle 12 AWAITING-APPROVAL packet, 5 fundamental sources were ingested via `tools/convert/convert_all.py` to lift 3 F4 consultant cards before Wave C Bundle 1 dispatch:
+
+| # | Source | Card lifted | New F-level |
+|---|--------|-------------|-------------|
+| 1 | Bai et al. 2022 *Constitutional AI* (arxiv:2212.08073) → `raw/books-md/anthropic/bai-2022-cai.md` | #13 CAI | F5 (was F5 web-only — now library-direct) |
+| 2 | Askell et al. 2021 *HHH* (arxiv:2112.00861) → `raw/books-md/anthropic/askell-2021-hhh.md` | #13 CAI | F5 (was F5 web-only — now library-direct) |
+| 3 | Greg Young *CQRS Documents* 2010 → `raw/books-md/event-sourcing/young-cqrs-2010.md` | #5 Event Sourcing | F4-F5 (1/5 library-direct, was 0/5) |
+| 4 | Google SRE Workbook Ch. 2 *Implementing SLOs* → `raw/books-md/sre/google-srewb-implementing-slos.md` | #6 SRE | F5 (was F3 training-knowledge) |
+| 5 | Google SRE Book (Beyer et al. 2016) → `raw/books-md/sre/google-sre-book.md` | #6 SRE | F5 (was F3 training-knowledge) |
+
+Cards #5, #6, #13 frontmatter + §1 + §2/§3 + §4 inline citations updated. Cards #14 (Mereology) F4 academic remains unchanged — Ruslan deferred mereology supplement (low criticality for Foundation phase). Library inventory updated with §10 supplement entry.
+
+---
+
 ## §1 Frameworks Integrated (14)
 
 | # | Framework | Primary expert | Card path | Foundation studied | Status |
@@ -50,15 +66,15 @@ for every Wave C interface-card author.
 | 2 | Systems thinking + cybernetics | systems-expert | `consultants/systems-thinking-cybernetics.md` | 14 books at chapter/section level (100% assigned library); 8/49 LJ posts sampled (FPF demarcation applied) | Strong library coverage |
 | 3 | Multi-agent architecture | engineering-expert | `consultants/multi-agent-architecture.md` | ~32/32 assigned sources: 6 Anthropic blogs (full), Cognition counter-position (full), Karpathy gist (full), 3 arxiv ToC + abstract, 5 web sources | 100% assigned — no gaps |
 | 4 | KM — Karpathy LLM Wiki + Luhmann + Matuschak + Forte PARA | engineering-expert | `consultants/knowledge-management-karpathy-luhmann-matuschak.md` | 2/5 on disk (Karpathy gist 100%, wiki substrate observable); Luhmann/Matuschak/Forte via 5 web sources grade-A | Shallow Luhmann — Wave C deep read if Part 3 atomicity decisions require formal Zettelkasten |
-| 5 | Event sourcing + CQRS + append-only state | engineering-expert | `consultants/event-sourcing-cqrs.md` | 0/5 on disk; 5/5 via training knowledge (not live-fetched); Jetix-applied form (D25, Part 1, Part 6) 100% via repo reads | Training-knowledge synthesis — flag for deeper read if OQ-ES-1..5 surface in Wave C |
-| 6 | SRE + observability | engineering-expert | `consultants/sre-observability.md` | 0/5 on disk; 5/5 via training knowledge; FUNDAMENTAL §3+§5 (100%) via repo reads | Training-knowledge synthesis — risk at high-cardinality SLI modelling |
+| 5 | Event sourcing + CQRS + append-only state | engineering-expert | `consultants/event-sourcing-cqrs.md` | **1/5 library-direct (Greg Young 2010, post-supplement 2026-04-27)**; 4/5 still training-knowledge (Kleppmann/Fowler/Vernon/Dahan — flag Wave D); Jetix-applied form (D25, Part 1, Part 6) 100% via repo reads | **F4-F5 mixed** — CQRS-foundational claims now library-grounded; remains training-knowledge on event-schema evolution / sagas / snapshots |
+| 6 | SRE + observability | engineering-expert | `consultants/sre-observability.md` | **2/5 library-direct (Google SRE Book full + SLO Workbook Ch.2, post-supplement 2026-04-27)**; 3/5 still training-knowledge (Honeycomb/Mike-Julian/OTel — flag Wave D); FUNDAMENTAL §3+§5 (100%) via repo reads | **F5 lifted** — core SLI/SLO/error-budget burn-rate algebra + Four Golden Signals + postmortem culture all library-grounded |
 | 7 | Compounding Engineering | engineering-expert | `consultants/compounding-engineering.md` | STRONG — R-1..R-11 via MASTER-SYNTHESIS §1.5+§2.1; every-article 100%; 2 Anthropic blogs; 0 web sources needed | 100% in-repo |
 | 8 | Product management — Cagan + Torres + Ries + Shape Up | mgmt-expert | `consultants/product-management-cagan-shape-up.md` | 5/5 PdM books (chapter level); 3/3 PM books (PMBOK ToC, Scrum full, Shape Up full); 0 web sources | 100% canonical library |
 | 9 | Stoic + epistemic — Popper + Kuhn + Naval + Holiday + Munger | philosophy-expert | `consultants/stoic-epistemic.md` | ~85% library: Kuhn (full), Popper Conjectures (full), Vincenti Ch.1+7, Koen I-II, Descartes Discourse I-II, Naval + Holiday + Munger; Popper LoSD full-text deferred | Strong; Altshuller TRIZ deferred |
 | 10 | Capital allocation + anti-fragility — Buffett + Munger + Marks + Taleb | investor-expert | `consultants/capital-allocation-antifragility.md` | 5/6 texts at chapter level (Taleb Antifragile + Skin, Marks memos, Munger, Naval); Graham absent (file not found) | Graham gap noted; sourced via Munger/Marks references |
 | 11 | Unix philosophy | engineering-expert | `consultants/unix-philosophy.md` | Raymond 100% (full text); Kernighan-Pike **0% usable text** (images only — declared absent, not partial); Hunt-Thomas Ch.1-2 (supplementary) | Kernighan-Pike absent: declared honestly |
 | 12 | Clean code / software architecture — Ousterhout + Fowler + Hunt-Thomas + Martin + Brooks | engineering-expert | `consultants/clean-code.md` | Ousterhout full (Ch.1-22); Martin Ch.1+2+17 full; Hunt-Thomas Ch.1-2; Brooks Ch.1-4 full (stub flag was incorrect — actual 39 795 words on disk); Fowler file not found — reconstructed via pre-read | 4.3/5 — Fowler absent from disk |
-| 13 | Anthropic Constitutional AI / agent safety | philosophy-expert | `consultants/anthropic-constitutional-ai.md` | 4 sources via Anthropic library; FUNDAMENTAL §6 (100%); 5 mandatory web sources (Bai 2022 CAI paper, HHH Askell 2021, RSP v1.2, Model Specification, Building Effective Agents) | 100% via combined library + web |
+| 13 | Anthropic Constitutional AI / agent safety | philosophy-expert | `consultants/anthropic-constitutional-ai.md` | **6/9 library-direct post-supplement 2026-04-27**: Bai 2022 + Askell 2021 lifted from web-only to library-direct (`raw/books-md/anthropic/`); Building Effective Agents library-direct pre-supplement; FUNDAMENTAL §6 (100%); RSP v1.2 + Model Specification still web-only F4 (flag Wave D) | **F5 — S1+S2 now library-direct**; S3+S4 remain web-only for Wave D supplement |
 | 14 | Mereology + ontology — FPF A.14 typed edges | philosophy-expert | `consultants/mereology-typed-edges.md` | FPF A.14+A.1+Creation Graph (100%, F3); 5 academic sources (Leśniewski, Lewis, Fine, Varzi×2) via canonical training knowledge (F4, not live-fetched) | F4 academic — escalate to Simons "Parts: A Study in Ontology" if formal disambiguation needed in Wave C |
 
 **Library validation corrections surfaced by cards:**
@@ -211,9 +227,14 @@ Reject reason: no consequence stated; no observable change named.
 
 **Consultant card iterations needed (Wave D):**
 - All 14 cards: re-pass after Wave C surfaces application findings and conflicts not anticipated in Wave B.
-- Specific: card #14 Mereology — deep read of Simons "Parts: A Study in Ontology" if Wave C edge-typing decisions require formal supplementation-axiom disambiguation.
+- Specific: card #14 Mereology — deep read of Simons "Parts: A Study in Ontology" if Wave C edge-typing decisions require formal supplementation-axiom disambiguation. (Ruslan ack 2026-04-27 evening: deferred for Foundation phase, low criticality.)
 - Specific: card #1 Левенчук — 49 LJ posts direct reads deferred to Wave C; any Part 4 or Part 5 interface card that invokes IP-1 or IP-7 should trigger the full LJ corpus read on the specific posts covering that principle.
-- Quality flag: cards #5 (Event sourcing) and #6 (SRE) have 0% on-disk library coverage — training-knowledge synthesis only. If Wave C Part 1 or Part 8 surface edge cases (event versioning upcasting; high-cardinality SLI modelling), both cards require live-source supplement before promotion to Wave D.
+- ✅ **PARTIALLY RESOLVED (2026-04-27 evening Wave B supplement):** F4 web-only / training-knowledge declarations on cards #5 / #6 / #13 partially lifted via library ingestion of 5 fundamental sources. See §0.1 Wave B Supplement Log for the per-card delta. Remaining gaps:
+  - **Card #5:** Kleppmann DDIA, Fowler EventSourcing article, Vernon IDDD, Udi Dahan Clarified CQRS still training-knowledge → flag Wave D supplement.
+  - **Card #6:** Honeycomb Observability Engineering, Mike Julian Practical Monitoring, OpenTelemetry spec still training-knowledge → flag Wave D supplement.
+  - **Card #13:** Anthropic RSP v1.2 + Model Specification still web-only → flag Wave D supplement.
+  - **Card #14 Mereology** F4 academic remains unchanged.
+  - Левенчук 49 LJ posts deep-read still deferred (Wave C invokes when Parts 4/5 dispatch).
 
 ---
 
