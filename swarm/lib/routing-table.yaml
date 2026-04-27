@@ -1,0 +1,402 @@
+# swarm/lib/routing-table.yaml
+# Bundle 2 P4.1 deliverable — Wave C primary gap materialisation.
+# Per Foundation Part 4 §H.1 declarative schema + §H.2 variety target ≥20 (Ashby Ch.11).
+# Per IP-1 strict: this file contains role-archetype SLUGS only — NEVER executor names.
+# Specific executor bindings (model identifiers, agent file paths) live in RUSLAN-LAYER
+# `executor-binding.yaml` per IP-1 strict separation.
+#
+# AWAITING-APPROVAL gate_class for modifications: stage_gate per Part 6b §I.4 F8 LOCKED schema.
+# Modification governance per swarm/lib/README.md §4 (Part 3 lead, Part 4 advisory per C1).
+
+schema_version: "1.0.0"
+schema_version_history:
+  - version: "1.0.0"
+    date: 2026-04-28
+    changes: "Wave C Bundle 2 P4.1 materialisation — extracted routing logic from .claude/agents/brigadier.md + 5 ROY expert system prompts into declarative YAML per Ashby variety ≥20 target"
+    breaking: false
+
+managed_by: brigadier  # role-archetype, not executor-name
+last_modified: 2026-04-28
+status: draft-pre-ruslan-ack
+
+# Foundation generic structure with RUSLAN-LAYER specific role entries below.
+# Phase B partner forks structure + replaces specific entries per their executor-binding.yaml.
+
+# Shared definitions (Foundation generic)
+definitions:
+  modes: [critic, optimizer, integrator, scalability, writing-support]
+  j_levels: [J-Auto, J-Approve, J-Strategic]
+  decision_classes: [routine, tactical, strategic]
+  granularities: [jetix-shared, jetix-business, jetix-personal]
+  task_shapes: [design, review, optimize, scale-project, combined]
+  task_classes: [M, B, O]  # Method / Business / Operational per HD-02 cycle-2-impl
+  escalation_triggers:
+    - out-of-domain
+    - insufficient-evidence
+    - peer-input-needed
+    - contradiction-with-foundation
+    - ethical-surface-irreversible
+    - method-change
+    - missing-baseline
+    - schema_error
+    - permission-denied
+    - foundation-revision-proposed
+    - method-exhaustion
+    - phase-b-activation-needed
+    - requires-approval
+    - split-trigger-fired
+
+# Role-shape lookup (task-shape → default cells)
+task_shape_dispatch_matrix:
+  design:
+    default_cells: [engineering-expert × critic, engineering-expert × integrator, systems-expert × scalability]
+    optional_cells: [mgmt-expert × integrator, philosophy-expert × critic]
+    forbidden_cells: [investor-expert × any-mode-unless-capital-allocation-in-scope]
+  review:
+    default_cells: [engineering-expert × critic, philosophy-expert × critic, mgmt-expert × critic]
+    optional_cells: [systems-expert × critic, investor-expert × critic-if-capital-impact]
+    forbidden_cells: [optimizer-mode-for-any-expert]
+  optimize:
+    default_cells: [engineering-expert × optimizer, mgmt-expert × optimizer, systems-expert × optimizer]
+    optional_cells: [philosophy-expert × optimizer]
+    forbidden_cells: [scalability-mode-for-any-expert]
+  scale-project:
+    default_cells: [systems-expert × scalability, mgmt-expert × scalability, investor-expert × scalability]
+    optional_cells: [engineering-expert × scalability, philosophy-expert × scalability]
+    forbidden_cells: [optimizer-mode-for-any-expert]
+
+# M-class rate limiter per cycle (HD-02 Option A cycle-2-impl)
+m_class_rate_limit:
+  per_cycle_max: 2  # 1 structural + 1 measurement
+  refusal_code: AP-MGMT-RATE-LIMIT-M
+  overflow_log: swarm/wiki/operations/<cycle-id>/m-class-overflow.md
+
+# AWAITING-APPROVAL gate_type enum (per brigadier §6.1 trigger list)
+gate_types:
+  - foundation-revision
+  - layer-9-activation
+  - contradiction
+  - budget-overrun
+  - retry-limit
+  - direction-change
+  - method-exhaustion
+  - irreversible
+  - split-trigger
+  - catch-all
+
+# ============================================================================
+# ROLE ENTRIES (RUSLAN-LAYER specific to Phase A; partner replaces per fork)
+# ============================================================================
+
+roles:
+
+  # --- 1. brigadier (orchestrator; no domain expertise) ---
+  - slug: brigadier
+    description: "Orchestrator of Jetix swarm. Routes tasks through 5 experts × 4 modes = 20-cell matrix. Sole dispatcher per hub-and-spoke."
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve  # most brigadier work requires HITL ack
+      strategic: J-Strategic
+    allowed_modes: []  # brigadier sits OUTSIDE the 5×4 matrix; dispatches modes, does not operate them
+    write_scope_glob: "swarm/wiki/{drafts,foundations,tasks,proposals,logs,_archive,niches,gates}/**"
+    escalation_taxonomy_per_trigger:
+      foundation-revision: open-AWAITING-APPROVAL-packet
+      layer-9-activation: open-AWAITING-APPROVAL-packet
+      contradiction: invoke-philosophy-integrator-OR-HITL
+      budget-overrun: open-AWAITING-APPROVAL-packet
+      retry-limit: open-AWAITING-APPROVAL-packet
+      method-exhaustion: open-AWAITING-APPROVAL-packet
+      split-trigger: open-AWAITING-APPROVAL-packet
+    hub_and_spoke_dispatch_chain: [owner]  # owner can dispatch to brigadier; brigadier dispatches to all
+    accessor_skills_invocable: ["/ingest", "/ask", "/consolidate", "/build-graph", "/lint"]
+    mailbox: "swarm/mailboxes/brigadier.jsonl"  # NOT comms/mailboxes/ (brigadier is in swarm/)
+    primary_alpha: task
+    secondary_alphas: [cycle, artefact, strategies-rule]
+    domains: [task-decomposition, matrix-dispatch, integration, gate-check, compound]
+    granularity: jetix-shared
+
+  # --- 2-6. ROY 5 domain experts ---
+
+  - slug: engineering-expert
+    description: "Engineering / Compounding-Engineering / clean-code / Unix / AI-native / architecture lens"
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve
+      strategic: J-Strategic
+    allowed_modes: [critic, optimizer, integrator, scalability]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-engineering-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      insufficient-evidence: defer-or-escalate-HITL
+      peer-input-needed: dispatch-named-peer
+      contradiction-with-foundation: brigadier-authors-gate-packet
+      method-change: refuse-route-to-HITL
+      missing-baseline: dispatch-critic-pre-pass
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask", "/lint"]
+    mailbox: "comms/mailboxes/engineering-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task, strategies-rule]
+    domains: [code-review, architecture-proposal, tool-eval, refactor-proposal]
+    granularity: jetix-shared
+
+  - slug: philosophy-expert
+    description: "Philosophy-of-science + epistemology + mental-models + stoic + engineering-foundations lens"
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve
+      strategic: J-Strategic
+    allowed_modes: [critic, optimizer, integrator, scalability]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-philosophy-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      insufficient-evidence: defer-or-escalate-HITL
+      ethical-surface-irreversible: open-HITL-gate
+      contradiction-with-foundation: brigadier-authors-gate-packet
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/philosophy-expert.jsonl"
+    primary_alpha: strategies-rule
+    secondary_alphas: [task, artefact]
+    domains: [epistemic-audit, first-principles-reset, meta-decision, BA-Cycle-lite]
+    granularity: jetix-shared
+
+  - slug: systems-expert
+    description: "Systems-thinking + cybernetics + complexity + biology lens (Meadows / Ashby / Beer / Senge / Kauffman)"
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve
+      strategic: J-Strategic
+    allowed_modes: [critic, optimizer, integrator, scalability]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-systems-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      insufficient-evidence: defer-or-escalate-HITL
+      peer-input-needed: dispatch-named-peer
+      contradiction-with-foundation: brigadier-authors-gate-packet
+      horizon-out-of-scope: dispatch-integrator-mode
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/systems-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task, cycle]
+    domains: [system-models, feedback-loop-maps, emergence-notes, scalability-projections]
+    granularity: jetix-shared
+
+  - slug: mgmt-expert
+    description: "PM + project-management + management-philosophy lens (Drucker / Grove / Cagan / Singer / Brooks)"
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve
+      strategic: J-Strategic
+    allowed_modes: [critic, optimizer, integrator, scalability]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-mgmt-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell-or-HITL-strategizing
+      insufficient-evidence: defer-or-escalate-HITL
+      peer-input-needed: dispatch-named-peer
+      contradiction-with-foundation: brigadier-authors-gate-packet
+      schema_error: reject-with-context
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/mgmt-expert.jsonl"
+    primary_alpha: task
+    secondary_alphas: [artefact, cycle]
+    domains: [prioritization, delivery-plans, stakeholder-maps, ethics-surface]
+    granularity: jetix-business
+
+  - slug: investor-expert
+    description: "Investing + value-creation + capital-allocation + long-term-compounding lens (Buffett / Graham / Munger / Marks)"
+    j_level_authority:
+      routine: J-Auto
+      tactical: J-Approve
+      strategic: J-Strategic
+    allowed_modes: [critic, optimizer, integrator, scalability]
+    write_scope_glob: "swarm/wiki/drafts/<task-id>-investor-*"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      insufficient-evidence: defer-or-escalate-HITL
+      peer-input-needed: dispatch-named-peer
+      horizon-out-of-scope: refuse-with-route
+    hub_and_spoke_dispatch_chain: [brigadier, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/investor-expert.jsonl"
+    primary_alpha: artefact
+    secondary_alphas: [task, strategies-rule]
+    domains: [capital-allocation-memos, horizon-projections, moat-analyses, unit-econ-arithmetic]
+    granularity: jetix-business
+
+  # --- 7-19. 13 legacy agents (Phase A operational; structurally Foundation-described, RUSLAN-LAYER-configured) ---
+
+  - slug: manager
+    description: "Operations coordinator for Jetix OS"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]  # legacy agents have legacy mode patterns; not strict ROY 4-mode matrix
+    write_scope_glob: "shared/state/**"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      requires-approval: stop-and-emit-packet
+    hub_and_spoke_dispatch_chain: [owner]  # legacy: only owner dispatches manager
+    accessor_skills_invocable: ["/ask", "/ingest"]
+    mailbox: "comms/mailboxes/manager.jsonl"
+    primary_alpha: task
+    domains: [coordination-hub]
+    granularity: jetix-shared
+
+  - slug: sales-lead
+    description: "Sales department coordinator"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/sales-lead/**"
+    escalation_taxonomy_per_trigger:
+      out-of-domain: dispatch-peer-cell
+      requires-approval: stop-and-emit-packet
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask", "/ingest"]
+    mailbox: "comms/mailboxes/sales-lead.jsonl"
+    primary_alpha: task
+    domains: [sales-strategy, pipeline-decisions, offer-design]
+    granularity: jetix-business
+
+  - slug: sales-researcher
+    description: "Sales intelligence gatherer"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/sales-researcher/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell}
+    hub_and_spoke_dispatch_chain: [sales-lead, manager, owner]
+    accessor_skills_invocable: ["/ask", "/ingest"]
+    mailbox: "comms/mailboxes/sales-researcher.jsonl"
+    primary_alpha: artefact
+    domains: [partner-research, market-segment, pricing-intel]
+    granularity: jetix-business
+
+  - slug: sales-outreach
+    description: "Outreach execution and community engagement"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/sales-outreach/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell, ethical-surface-irreversible: open-HITL-gate}
+    hub_and_spoke_dispatch_chain: [sales-lead, manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/sales-outreach.jsonl"
+    primary_alpha: artefact
+    domains: [outreach-messages, community-engagement, follow-up]
+    granularity: jetix-business
+
+  - slug: inbox-processor
+    description: "Information triage and routing"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "inbox/**, raw/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ingest", "/ask"]
+    mailbox: "comms/mailboxes/inbox-processor.jsonl"
+    primary_alpha: task
+    domains: [voice-memo-triage, telegram-email-classify, idea-routing]
+    granularity: jetix-shared
+
+  - slug: knowledge-synth
+    description: "Deep knowledge synthesis and Brain Lead"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "wiki/**, agents/knowledge-synth/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell, peer-input-needed: dispatch-named-peer}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask", "/consolidate", "/build-graph"]
+    mailbox: "comms/mailboxes/knowledge-synth.jsonl"
+    primary_alpha: artefact
+    domains: [research-synthesis, cross-domain-connections, brain-lead]
+    granularity: jetix-shared
+
+  - slug: personal-assistant
+    description: "Personal productivity and OPS lead"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/personal-assistant/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/personal-assistant.jsonl"
+    primary_alpha: task
+    domains: [draft-messages, translation, calendar, system-admin-routing]
+    granularity: jetix-personal
+
+  - slug: system-admin
+    description: "Server and system maintenance"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/system-admin/**, tools/**"
+    escalation_taxonomy_per_trigger: {requires-approval: stop-and-emit-packet, ethical-surface-irreversible: open-HITL-gate}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/system-admin.jsonl"
+    primary_alpha: task
+    domains: [server-monitoring, scripts, mcp-connections, git-ops]
+    granularity: jetix-shared
+
+  - slug: life-coach
+    description: "Personal wellness optimization"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/life-coach/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/life-coach.jsonl"
+    primary_alpha: task
+    domains: [workout-nutrition, energy-management, habit-tracking, sleep-recovery]
+    granularity: jetix-personal
+
+  - slug: meta-agent
+    description: "System auditor and optimizer"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic, optimizer]
+    write_scope_glob: "meta/**"
+    escalation_taxonomy_per_trigger: {requires-approval: stop-and-emit-packet, contradiction-with-foundation: brigadier-authors-gate-packet}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask", "/lint"]
+    mailbox: "comms/mailboxes/meta-agent.jsonl"
+    primary_alpha: artefact
+    domains: [system-review, agent-performance, prompt-improvement]
+    granularity: jetix-shared
+
+  - slug: crazy-agent
+    description: "Wild idea generator and cross-domain connector"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/crazy-agent/**"
+    escalation_taxonomy_per_trigger: {out-of-domain: dispatch-peer-cell}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/crazy-agent.jsonl"
+    primary_alpha: artefact
+    domains: [creative-disruption, weekly-brainstorm, what-if-thinking]
+    granularity: jetix-shared
+
+  - slug: strategist
+    description: "Strategic decision-maker for Jetix"
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator, scalability]
+    write_scope_glob: "agents/strategist/**, decisions/**"
+    escalation_taxonomy_per_trigger: {requires-approval: stop-and-emit-packet, contradiction-with-foundation: brigadier-authors-gate-packet}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/ask"]
+    mailbox: "comms/mailboxes/strategist.jsonl"
+    primary_alpha: strategies-rule
+    domains: [strategic-decisions, weekly-monthly-review, resource-allocation]
+    granularity: jetix-shared
+
+# ============================================================================
+# Variety count summary (Ashby Ch.11 ≥20 target — L10 Foundation invariant)
+# ============================================================================
+# - 5 ROY experts × 4 modes = 20 base routing cells
+# - 1 brigadier (orchestrator)
+# - 13 legacy agents
+# - 14 distinct escalation triggers (definitions.escalation_triggers)
+# - 4 task shapes (task_shape_dispatch_matrix)
+# - 1 M-class rate limiter
+# - 10 gate types (gate_types)
+# Total distinct routing rules: ≥67 — far exceeds Ashby variety target ≥20.
+# Verification: /lint --check-routing-table-variety reports count.

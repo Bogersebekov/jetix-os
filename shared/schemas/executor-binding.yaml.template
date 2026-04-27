@@ -1,0 +1,70 @@
+# executor-binding.yaml.template
+# RUSLAN-LAYER artefact TEMPLATE per Bundle 2 P4.1 / Part 4 §I.3.
+# Per IP-1 strict: this file binds role-archetype slugs to executor instances.
+# This TEMPLATE is Foundation generic; the populated executor-binding.yaml is RUSLAN-LAYER.
+# Phase B partner forks this template and populates with their own bindings.
+#
+# F.6 onboarding M1-M6 mandatory before binding activation per IP-8.
+
+schema_version: "1.0.0"
+schema_version_history:
+  - version: "1.0.0"
+    date: 2026-04-28
+    changes: "Wave C Bundle 2 P4.1 template declaration; binding values RUSLAN-LAYER"
+    breaking: false
+
+managed_by: ruslan  # human owner; not a role-archetype
+last_modified: <YYYY-MM-DD>
+
+# Bindings: role-archetype slug → executor instance
+# F.6 onboarding M1-M6 mandatory before activation per IP-8.
+
+bindings:
+  - role_archetype: <slug-from-routing-table.yaml>     # e.g. "engineering-expert"
+    executor:
+      type: <claude-model | external-llm | human | script>
+      identifier: <executor-id>                          # e.g. "claude-sonnet-4-6", ".claude/agents/engineering-expert.md", "human-name", "path/to/script"
+      granularity: <jetix-shared | jetix-business | jetix-personal>
+    f6_onboarding:
+      m1_role_understood:
+        date: <YYYY-MM-DD>
+        reviewer: <human-name>
+      m2_method_understood:
+        date: <YYYY-MM-DD>
+        reviewer: <human-name>
+      m3_qualify_pass:
+        date: <YYYY-MM-DD>
+        reviewer: <human-name>
+        qualification_test: <description of qualification test>
+      m4_first_task_completed:
+        date: <YYYY-MM-DD>
+        task_id: <task-id>
+      m5_review_passed:
+        date: <YYYY-MM-DD>
+        reviewer: <human-name>
+        review_outcome: <description>
+      m6_promotion_threshold_met:
+        date: <YYYY-MM-DD>
+        criterion: <description; e.g., "5 successful cycles with 0 critical defects">
+    activation_status: pending | onboarding | active | retired
+    cross_fork_provenance:
+      bridge_id: <fork-or-instance-identifier>
+      f9_bridge_required: <boolean>
+
+# Example populated entry (Phase A illustrative; the actual executor-binding.yaml lives outside this template):
+# - role_archetype: engineering-expert
+#   executor:
+#     type: claude-model
+#     identifier: claude-sonnet-4-6
+#     granularity: jetix-shared
+#   f6_onboarding:
+#     m1_role_understood: {date: 2026-04-23, reviewer: ruslan}
+#     m2_method_understood: {date: 2026-04-23, reviewer: ruslan}
+#     m3_qualify_pass: {date: 2026-04-24, reviewer: ruslan, qualification_test: "5×4 matrix dispatch dry-run"}
+#     m4_first_task_completed: {date: 2026-04-25, task_id: task-roy-alignment-cycle-2}
+#     m5_review_passed: {date: 2026-04-26, reviewer: ruslan, review_outcome: clean}
+#     m6_promotion_threshold_met: {date: 2026-04-27, criterion: "Wave B consultant cards complete + Wave C dispatch ready"}
+#   activation_status: active
+#   cross_fork_provenance:
+#     bridge_id: jetix-phase-a-claude-jolly-margulis
+#     f9_bridge_required: false   # Phase A single-fork; multi-fork triggers true

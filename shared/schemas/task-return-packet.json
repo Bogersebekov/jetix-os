@@ -1,0 +1,191 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "shared/schemas/task-return-packet.json",
+  "title": "Task return packet (Bundle 2 P4.3 FULL specification)",
+  "description": "Task-return-packet schema at Part 4 → Part 5 boundary. Per Ruslan-acked OQ-3, Part 5 (Bundle 3) consumes RAW packets and does own DRR extraction. Frozen-fields invariant per Part 1 §I.4 stub: git_commit_hash, actor_role_archetype, cycle_id, gate_class fields appear UNCHANGED. gate_class enum corrected to Part 6b §I.4 F8 LOCKED [stop_gate, stage_gate, draft_promotion] — see OQ-B2-A re Part 1 stub drift.",
+  "schema_version": "1.0.0",
+  "schema_version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-04-28",
+      "changes": "Wave C Bundle 2 P4.3 — FULL schema specification; Part 1 §I.4 stub frozen fields preserved; gate_class enum aligned to Part 6b §I.4 F8 LOCKED",
+      "breaking": false,
+      "supersedes": "Part 1 §I.4 PARTIAL stub"
+    }
+  ],
+  "type": "object",
+  "required": [
+    "packet_id",
+    "task_id",
+    "dispatched_at",
+    "returned_at",
+    "actor_role_archetype",
+    "cycle_id",
+    "mode",
+    "inputs",
+    "outputs",
+    "provenance_chain",
+    "f_g_r",
+    "gate_class",
+    "git_commit_hash",
+    "dissent_preserved"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string",
+      "pattern": "^trp-[0-9]{8}-[a-z0-9-]+$",
+      "description": "Unique packet identifier. Format: trp-YYYYMMDD-slug (task-return-packet)"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^task-[a-z0-9-]+$",
+      "description": "Task identifier from brigadier intake; PMBOK alpha-1 key"
+    },
+    "dispatched_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when brigadier dispatched the cell"
+    },
+    "returned_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when cell returned the packet"
+    },
+    "actor_role_archetype": {
+      "type": "string",
+      "description": "FROZEN per Part 1 §I.4. Role-archetype slug; IP-1 compliant (never executor-name).",
+      "enum": [
+        "brigadier",
+        "engineering-expert",
+        "philosophy-expert",
+        "systems-expert",
+        "mgmt-expert",
+        "investor-expert",
+        "manager",
+        "sales-lead",
+        "sales-researcher",
+        "sales-outreach",
+        "inbox-processor",
+        "knowledge-synth",
+        "personal-assistant",
+        "system-admin",
+        "life-coach",
+        "meta-agent",
+        "crazy-agent",
+        "strategist"
+      ]
+    },
+    "cycle_id": {
+      "type": "string",
+      "pattern": "^cyc-[a-z0-9-]+$",
+      "description": "FROZEN per Part 1 §I.4. Cycle identifier (e.g. cyc-foundation-build-2026-04-28). Links task-return to its cycle context."
+    },
+    "mode": {
+      "type": "string",
+      "enum": ["critic", "optimizer", "integrator", "scalability", "writing-support"],
+      "description": "Per L/A/D/E A.6.B mode."
+    },
+    "inputs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["path", "input_type"],
+        "properties": {
+          "path": { "type": "string" },
+          "input_type": {
+            "type": "string",
+            "enum": ["file", "url", "config", "schema", "draft", "approval-packet"]
+          },
+          "F": { "type": "string", "pattern": "^F[0-9]$" }
+        }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "object",
+        "required": ["path", "output_type"],
+        "properties": {
+          "path": { "type": "string" },
+          "output_type": {
+            "type": "string",
+            "enum": ["draft", "synthesis", "decision", "audit-report", "schema", "config", "code", "comparison"]
+          },
+          "F": { "type": "string", "pattern": "^F[0-9]$" },
+          "ClaimScope": { "type": "object" },
+          "R": { "type": "object" }
+        }
+      }
+    },
+    "provenance_chain": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["step", "ts"],
+        "properties": {
+          "step": { "type": "string" },
+          "ts": { "type": "string", "format": "date-time" },
+          "actor_role_archetype": { "type": "string" },
+          "cite": { "type": "string" }
+        }
+      }
+    },
+    "f_g_r": {
+      "$ref": "shared/schemas/f-g-r.json",
+      "description": "F-G-R triple snapshot at packet emission time. $ref to Part 6a §I.1 F8 LOCKED schema."
+    },
+    "gate_class": {
+      "type": "string",
+      "enum": ["stop_gate", "stage_gate", "draft_promotion"],
+      "description": "FROZEN per Part 1 §I.4 (field name) + Part 6b §I.4 F8 LOCKED (enum values). OQ-B2-A: Part 1 §I.4 stub used stale enum [autonomous, requires-approval, hitl-required]; this schema uses Part 6b §I.4 F8 LOCKED enum (RUSLAN-ACK Bundle 1 Decision #5)."
+    },
+    "git_commit_hash": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9a-f]{40}$",
+      "description": "FROZEN per Part 1 §I.4. SHA-1 of git commit that persisted canonical state produced by this task. NULL if task produced no canonical write. Set by orchestrator after commit completes. NEVER mutated post-set.",
+      "nullable": true
+    },
+    "dissent_preserved": {
+      "type": "boolean",
+      "description": "True if the cell returned dissent that was preserved per AP-6. If true, dissent_path is required."
+    },
+    "dissent_path": {
+      "type": ["string", "null"],
+      "description": "Path to dissent file if dissent_preserved=true."
+    },
+    "ap_budget": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Max-turn budget for this cell dispatch (MAST coverage L9)"
+    },
+    "ap_actual": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Actual turns consumed by the cell"
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["low", "medium", "high"]
+    },
+    "confidence_method": {
+      "type": "string",
+      "description": "How confidence was determined"
+    },
+    "escalations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["trigger"],
+        "properties": {
+          "trigger": { "type": "string" },
+          "evidence": { "type": "string" },
+          "routing_suggestion": { "type": "string" }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}
