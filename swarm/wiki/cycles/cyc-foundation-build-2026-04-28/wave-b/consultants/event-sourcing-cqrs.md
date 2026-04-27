@@ -8,9 +8,10 @@ expert: engineering-expert
 mode: integrator
 cycle: cyc-foundation-build-2026-04-28
 status: draft
-confidence: medium
-confidence_method: training-knowledge-synthesis
-F: F3
+confidence: medium-high
+confidence_method: mixed (1 library-direct, 4 training-knowledge)
+F: F4-F5
+F_note: "Mixed: 1/5 library-direct (Greg Young CQRS Documents 2010, post-supplement); 4/5 still training-knowledge (Kleppmann DDIA, Fowler EventSourcing article, Vernon IDDD, Udi Dahan Clarified CQRS — flag for Wave D supplement). Lifted 2026-04-27 evening."
 ClaimScope: "Holds for single-node append-only Foundation substrate (git-based); unknown for distributed multi-node event stores (Kafka, EventStoreDB). Deliberately scoped to Jetix Phase-A."
 R:
   refuted_if: "Wave C interface card for Part 1 (System State Persistence) cannot derive git log as a compliant event log per Greg Young's minimum definition (ordered, immutable, addressable events)"
@@ -40,21 +41,27 @@ tags: [framework, event-sourcing, cqrs, append-only, wave-b, engineering]
 
 ## §1 Foundation Studied — Coverage Declaration
 
-**Library coverage: 0/5 canonical sources for the framework itself.**
+**Library coverage: 1/5 canonical sources library-direct as of 2026-04-27 supplement; 4/5 still training-knowledge.**
 
-No Kleppmann DDIA, no Greg Young CQRS Documents, no Vaughn Vernon IDDD, no Udi Dahan papers are present in the on-disk book corpus (`raw/books-md/`). A Fowler Refactoring 2018 file was confirmed absent at the expected path. The framework taxonomy table (§1 row #5) explicitly flags: "NO Kleppmann directly on disk → external 5-sources mandatory."
+| # | Source | Status | Path (when library-direct) |
+|---|--------|--------|----------------------------|
+| 1 | Martin Kleppmann, *Designing Data-Intensive Applications*, O'Reilly 2017 | training-knowledge — flag Wave D | — |
+| 2 | **Greg Young, *CQRS Documents*, 2010** | **library-direct ✅ (2026-04-27 supplement)** | `raw/books-md/event-sourcing/young-cqrs-2010.md` |
+| 3 | Martin Fowler, *Event Sourcing* (martinfowler.com 2005, updated) | training-knowledge — flag Wave D | — |
+| 4 | Vaughn Vernon, *Implementing Domain-Driven Design*, Addison-Wesley 2013 | training-knowledge — flag Wave D | — |
+| 5 | Udi Dahan, *Clarified CQRS*, udidahan.com 2009 | training-knowledge — flag Wave D | — |
 
-**5/5 sources via training knowledge (not live-fetched).**
-
-This agent's toolset (Read, Write, Edit, Grep, Glob) excludes WebSearch and WebFetch per frontmatter. The 5 sources below are drawn from training knowledge (cutoff August 2025) of these canonical, widely-cited works. All 5 are real, published, and stable references — not hallucinated. URLs are canonical and should be stable.
+The framework taxonomy table (§1 row #5) had previously flagged: "NO Kleppmann directly on disk → external 5-sources mandatory." Status post-supplement: Greg Young CQRS Documents 2010 (the canonical CQRS originator source) is now library-resident; Kleppmann DDIA, Fowler EventSourcing article, Vernon IDDD, and Udi Dahan Clarified CQRS remain via training-knowledge and should be flagged for Wave D supplement if Part 1 / Part 4 / Part 6 materialisation surfaces edge cases beyond Young's coverage.
 
 **Jetix-applied form: FUNDAMENTAL §2.1 + D25 — covered 100% via on-disk repo reads.**
 
 The Foundation's operational implementation of event-sourcing principles is fully documented in the on-disk corpus: D25 (Company-as-Code, git-as-event-log), candidate-parts-merged.md §2 Part 1 (System State Persistence with append-only semantics), §3 item 4 (Append-Only Log Pattern as cross-cutting discipline), and the Part 6 gate-ack mechanism (idempotent approval log). These are read and cited with line-range provenance.
 
-**Risk declaration:** Shallow application possible if Wave C parts encounter event-sourcing edge cases not covered by training-knowledge synthesis of 5 web sources — specifically: event schema evolution (upcasting, versioning strategies), sagas / process managers, snapshot strategies for long-lived aggregates, and optimistic concurrency in event stores. Flag for deeper read (Kleppmann Ch. 11 + Greg Young's CQRS workshop materials) in Wave C if Part 1 or Part 4 materialisation surfaces these edge cases.
+**Risk declaration (post-supplement, 2026-04-27 evening):**
+- **Lower risk** on CQRS-foundational claims (Principles 1, 2, 3, 6 to the extent CQRS-anchored): Greg Young 2010 is now library-direct and grounds the CQRS originator definition + minimum viable event store + idempotency requirements + replay/audit-trail benefits with verbatim citations available.
+- **Risk remains** on event-schema evolution (upcasting — Vernon territory), saga / process-manager patterns (Vernon Ch. 8), snapshot strategies for long-lived aggregates beyond Greg Young's brief Rolling Snapshot treatment, optimistic-concurrency edge cases at high write-volume (Kleppmann Ch. 11), and eventual-consistency UX patterns at scale (Fowler / Dahan blog corpora). Flag Wave D supplement for these specific edges if Part 1 / Part 4 / Part 6 materialisation surfaces them.
 
-**Total foundation: 5/5 sources via training knowledge (not live-fetched) + Jetix-applied context 100% via repo reads.**
+**Total foundation: 1/5 library-direct + 4/5 training-knowledge + Jetix-applied context 100% via repo reads.**
 
 ---
 
@@ -81,14 +88,15 @@ The framework was popularized by Greg Young (CQRS Documents, 2010) and Martin Fo
 
 ---
 
-### Source 2 — Greg Young, CQRS Documents, 2010
+### Source 2 — Greg Young, CQRS Documents, 2010 ✅ LIBRARY-DIRECT
 
-**URL:** https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf  
-**See also:** Greg Young, "CQRS, Task Based UIs, Event Sourcing agh!" (original blog post, no longer online but widely archived)
+**Library path (post-supplement 2026-04-27):** `raw/books-md/event-sourcing/young-cqrs-2010.md` (full 56-page document; quality grade A; 17,520 words).
+**Original URL:** https://cqrs.files.wordpress.com/2010/11/cqrs_documents.pdf
+**See also:** Greg Young, "CQRS, Task Based UIs, Event Sourcing agh!" (original blog post, widely archived).
 
-**Note:** Young is the originator of the CQRS term as a formalized pattern (he acknowledges the idea predates him in messaging systems). His key technical contribution: CQRS alone is trivial (any object has getters and setters); the interesting case is CQRS + Event Sourcing where the command side appends events and the query side maintains projections. He defines the minimum viable event store: events must be (a) ordered within an aggregate, (b) immutable once written, (c) addressable by aggregate ID + sequence number. Young also introduces the concept of event handlers as the bridge between write and read sides — a pub-sub mechanism where projection updates are triggered by new events. His critique-and-acceptance discipline is important: "CQRS is not a top-level architecture" — it applies within a bounded context, not across an entire system.
+**Note:** Young is the originator of the CQRS term as a formalized pattern (he acknowledges the idea predates him in messaging systems). His key technical contribution: CQRS alone is trivial (any object has getters and setters); the interesting case is CQRS + Event Sourcing where the command side appends events and the query side maintains projections. He defines the minimum viable event store: events must be (a) ordered within an aggregate, (b) immutable once written, (c) addressable by aggregate ID + sequence number. Young also introduces the concept of event handlers as the bridge between write and read sides — a pub-sub mechanism where projection updates are triggered by new events. His critique-and-acceptance discipline is important: «CQRS is not a top-level architecture» — it applies within a bounded context, not across an entire system. The 2010 document also formalises: command-as-imperative vs event-as-past-tense linguistic rule (p.11, p.25); the «There is no Delete» pattern with Reversal Transactions (p.31); Aggregate IDs as the only partition point (p.32, bold in original); the «append-only architectures distribute more easily than updating architectures because there are far fewer locks to deal with» property (p.31); the absence of impedance mismatch between events and the domain model (p.37, bold in original); Rolling Snapshot heuristic (pp.33-35, 44-45); CQRS+ES enabling tripled team size via three-vertical-slices decoupling (Client / Domain / Read Model, pp.53-54).
 
-**Relevance grade: A** — Canonical originator source. The minimum viable event store definition is the specification that Part 1 (git log) must satisfy. Young's "not a top-level architecture" caveat maps to the Foundation anti-scope (§6 below): CQRS applies within individual Foundation parts (Part 4 mailboxes as command channels; Part 6 approval-log as read projection), not as a system-wide architectural mandate.
+**Relevance grade: A** — Canonical originator source. The minimum viable event store definition is the specification that Part 1 (git log) must satisfy. Young's «not a top-level architecture» caveat maps to the Foundation anti-scope (§6 below): CQRS applies within individual Foundation parts (Part 4 mailboxes as command channels; Part 6 approval-log as read projection), not as a system-wide architectural mandate.
 
 ---
 
@@ -141,7 +149,7 @@ The framework was popularized by Greg Young (CQRS Documents, 2010) and Martin Fo
 
 ### Principle 2 — CQRS Read/Write Split
 
-**Sourced:** Greg Young (CQRS Documents, 2010): "The write model is responsible for handling Commands and producing Events. The read model is responsible for handling Queries against a set of denormalized views." The write path is normalized for correctness (state machines, invariant enforcement); the read path is denormalized for query performance (projections, indexes, summaries).
+**Sourced:** Greg Young [Source 2, raw/books-md/event-sourcing/young-cqrs-2010.md §3 pp.17-24]: «CQRS uses the same definition of Commands and Queries that Meyer used and maintains the viewpoint that they should be pure. The fundamental difference is that in CQRS objects are split into two objects, one containing the Commands one containing the Queries.» The write path is normalized for correctness (state machines, invariant enforcement); the read path is denormalized for query performance (projections, indexes, summaries). Young observes (p.19): «It is not possible to create an optimal solution for searching, reporting, and processing transactions utilizing a single model.»
 
 **Applied (Part 4 — Role Taxonomy & Coordination Protocol):** The mailbox system (`comms/mailboxes/*.jsonl`) is a CQRS command channel: each JSONL entry is a command (send a message) or event (message received, task dispatched). The mailbox is append-only (write path). Brigadier's routing table and the human-readable swarm state (`shared/state/kanban.json`, `shared/state/system-health.json`) are read-path projections derived from mailbox events + git commits. These projections can be discarded and rebuilt from the event sources — they are derived data in Kleppmann's framing.
 
@@ -153,7 +161,7 @@ The framework was popularized by Greg Young (CQRS Documents, 2010) and Martin Fo
 
 ### Principle 3 — Idempotency (Replay Safety)
 
-**Sourced:** Kleppmann DDIA Ch. 11: "Idempotency is especially important in the context of stream processing... if an operation is idempotent, you can replay it multiple times and get the same result as running it once." Young (CQRS Documents): "Commands should be idempotent — the same command applied twice should have the same effect as applying it once."
+**Sourced:** Kleppmann DDIA Ch. 11: "Idempotency is especially important in the context of stream processing... if an operation is idempotent, you can replay it multiple times and get the same result as running it once." Young [Source 2, raw/books-md/event-sourcing/young-cqrs-2010.md §5.2 pp.42-43] formalises the optimistic-concurrency check at the write-path: «if expectedversion != version raise concurrency problem» — this is the idempotency primitive that prevents double-application of the same event batch. Young also notes the aggregate-id + version pair as the unique addressing scheme (p.41).
 
 **Applied (Part 6 — Governance & Human Gate):** The stage-gate mechanism MUST be idempotent: if a human acks the same AWAITING-APPROVAL packet twice (e.g., re-runs `/company-status` after a prior ack), the second ack must be a no-op, not a duplicate promotion. This is enforced by checking whether the gate file already has `status: acked` before writing the canonical promotion. The idempotency key is the gate packet's `id` field. This is a Wave C implementation requirement for Part 6's interface card.
 
@@ -175,7 +183,7 @@ The framework was popularized by Greg Young (CQRS Documents, 2010) and Martin Fo
 
 ### Principle 5 — Eventual Consistency Boundary
 
-**Sourced:** Fowler (CQRS bliki): "CQRS introduces eventual consistency between the write model and read model — a query immediately after a command may not reflect the command's effect." Young (CQRS Documents): "The read model is eventually consistent with the write model. This is not a bug — it is a deliberate tradeoff to enable read path scalability." Dahan (2009): "If you can't tolerate eventual consistency in your read path, you need synchronous query updates — which largely defeats the purpose of CQRS."
+**Sourced:** Fowler (CQRS bliki): "CQRS introduces eventual consistency between the write model and read model — a query immediately after a command may not reflect the command's effect." Young [Source 2, raw/books-md/event-sourcing/young-cqrs-2010.md §3.3 pp.19-20]: «Most systems can be eventually consistent on the Query side» — this is the deliberate trade-off that enables denormalised, scalable read projections. Young's diagram on p.24 shows the explicit «Eventually» arrow between write-side data store and read-side data store. Dahan (2009): "If you can't tolerate eventual consistency in your read path, you need synchronous query updates — which largely defeats the purpose of CQRS."
 
 **Applied (Part 6 — Governance & Human Gate):** The approval-log is the write path; the `decisions/` directory is the read projection. There is an inherent eventual consistency window between "gate acked" (event written to approval-log) and "decision file updated" (read projection regenerated). In Jetix Phase A this window is human-speed (Ruslan runs `/company-status` after acking), not milliseconds. The eventual consistency is explicit and acceptable. FUNDAMENTAL §6.7 fail-loud principle applies at the boundary: if a Part reads `decisions/` and finds a stale entry (the gate was acked but the decision file not yet updated), it must surface this as an alert, not silently proceed. This is the CQRS read-path staleness detection requirement for Part 6.
 

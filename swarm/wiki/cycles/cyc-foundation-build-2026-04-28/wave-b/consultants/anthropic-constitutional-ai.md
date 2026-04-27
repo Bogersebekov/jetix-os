@@ -27,22 +27,28 @@ provenance:
   library_coverage: "4/9 via Anthropic engineering blog (building-effective-agents), FUNDAMENTAL §6 deep-read (100%), Wave A Part 6 context"
   web_coverage: "5/9 via mandatory web sources: Bai et al. 2022 (S1), HHH framing (S2), RSP v1.2 (S3), Model Specification (S4)"
   total_coverage: "100% via combined library + FUNDAMENTAL §6 LOCKED + web"
+  library_coverage_post_supplement: "6/9 — added Bai 2022 + Askell 2021 direct library reads (was 4/9). S1, S2 now library-direct; S3 (RSP), S4 (Model Spec) still web-only F4. Updated 2026-04-27 evening per Wave B supplement."
 ---
 
 # Consultant Card — Anthropic Constitutional AI / Agent Safety (#13)
 
 ## §1 Scope: Foundation Studied
 
-**Library coverage:** 4 sources via Anthropic engineering blog (`building-effective-agents`, Dec 2024) in `raw/books-md/meta/` covering agent design patterns and simplicity-transparency-trust triad; FUNDAMENTAL §6 (~55 hard rules, LOCKED 27.04 evening) is the Jetix-specific applied form of Constitutional AI principles — covered 100% by full §6 deep-read; Wave A Part 6 Governance & Human Gate — reviewed as structural implementation of Constitutional principles.
+**Library coverage (post-supplement, 2026-04-27 evening):** 6/9 sources now library-resident.
+- `raw/books-md/anthropic/bai-2022-cai.md` — Bai et al. 2022 Constitutional AI paper (S1, library-direct; was web-only)
+- `raw/books-md/anthropic/askell-2021-hhh.md` — Askell et al. 2021 HHH framing paper (S2, library-direct; was web-only)
+- `raw/books-md/meta/building-effective-agents.md` — Anthropic Building Effective Agents Dec 2024 (S5, library-direct, pre-supplement)
+- FUNDAMENTAL §6 (~55 hard rules, LOCKED 27.04 evening) is the Jetix-specific applied form of Constitutional AI principles — covered 100% by full §6 deep-read
+- Wave A Part 6 Governance & Human Gate — reviewed as structural implementation of Constitutional principles
 
-**Web sources (5/5 mandatory, all retrieved):**
-- [S1] Bai et al. (2022) "Constitutional AI: Harmlessness from AI Feedback" — arxiv:2212.08073 — original methodology paper
-- [S2] Askell et al. (2021) "A General Language Assistant as a Laboratory for Alignment" — HHH (Helpful, Harmless, Honest) three-dimensional alignment framework
-- [S3] Anthropic Responsible Scaling Policy (RSP) v1.2 (2024) — safety tier structure (ASL-1 through ASL-4) and capability-triggered safeguard escalation
-- [S4] Anthropic Model Specification (2024) — character, values, and hardcoded behavior declarations including absolute refusal categories
-- [S5] Building Effective Agents (Anthropic Engineering, Dec 2024) — simplicity-transparency-trust triad for agentic systems, on-disk library source
+**Web sources (still 5/5 retrieved; 2 of them now library-direct):**
+- [S1] Bai et al. (2022) "Constitutional AI: Harmlessness from AI Feedback" — arxiv:2212.08073 — **library-direct as of 2026-04-27** at `raw/books-md/anthropic/bai-2022-cai.md`. Original methodology paper.
+- [S2] Askell et al. (2021) "A General Language Assistant as a Laboratory for Alignment" — arxiv:2112.00861 — **library-direct as of 2026-04-27** at `raw/books-md/anthropic/askell-2021-hhh.md`. HHH (Helpful, Harmless, Honest) three-dimensional alignment framework.
+- [S3] Anthropic Responsible Scaling Policy (RSP) v1.2 (2024) — **still web-only F4** — safety tier structure (ASL-1 through ASL-4) and capability-triggered safeguard escalation. Flag for Wave D supplement.
+- [S4] Anthropic Model Specification (2024) — **still web-only F4** — character, values, and hardcoded behavior declarations including absolute refusal categories. Flag for Wave D supplement.
+- [S5] Building Effective Agents (Anthropic Engineering, Dec 2024) — library-direct, pre-supplement — simplicity-transparency-trust triad for agentic systems.
 
-**Total foundation:** 100% via combined library + FUNDAMENTAL §6 LOCKED full read + 5 mandatory web sources.
+**Total foundation:** 100% via combined library (3 sources direct including supplement-lifted S1+S2) + FUNDAMENTAL §6 LOCKED full read + 2 web-only sources (S3, S4).
 
 ---
 
@@ -67,15 +73,15 @@ The HHH framework [S2] provides the three alignment dimensions against which all
 
 ## §3 External Sources: Quality Assessment
 
-| # | Source | Type | Relevance to Foundation |
-|---|--------|------|------------------------|
-| S1 | Bai et al. 2022, arXiv:2212.08073 | Peer-reviewed preprint | Primary methodology — RLAIF self-critique loop directly applied in FUNDAMENTAL §6.7 violation detection + halt mechanism |
-| S2 | Askell et al. 2021, arXiv:2112.00861 | Peer-reviewed preprint | HHH framework — maps to FUNDAMENTAL §6.6 "honest limits" + §6.2 agency preservation (harmless = non-coercive; honest = no sycophancy) |
-| S3 | Anthropic RSP v1.2, 2024 | Official Anthropic policy | Responsible Scaling Policy tiers (ASL-1..ASL-4) — blast-radius classification in FUNDAMENTAL §4.6 enforcement mechanisms is the same safety-tier pattern applied at system level |
-| S4 | Anthropic Model Specification, 2024 | Official Anthropic specification | Hardcoded never-list + softcoded defaults — direct structural parallel with FUNDAMENTAL §6.1 AI/agents constitutional limits (11 hard rules) |
-| S5 | Building Effective Agents (library) | Anthropic Engineering blog | Simplicity/transparency/trust triad — grounding for why FUNDAMENTAL §4.6 uses explicit allow/deny rather than framework abstraction |
+| # | Source | Type | On-disk path | Relevance to Foundation |
+|---|--------|------|--------------|------------------------|
+| S1 | Bai et al. 2022, arXiv:2212.08073 | Peer-reviewed preprint | `raw/books-md/anthropic/bai-2022-cai.md` (library-direct ✅) | Primary methodology — RLAIF self-critique loop directly applied in FUNDAMENTAL §6.7 violation detection + halt mechanism |
+| S2 | Askell et al. 2021, arXiv:2112.00861 | Peer-reviewed preprint | `raw/books-md/anthropic/askell-2021-hhh.md` (library-direct ✅) | HHH framework — maps to FUNDAMENTAL §6.6 "honest limits" + §6.2 agency preservation (harmless = non-coercive; honest = no sycophancy) |
+| S3 | Anthropic RSP v1.2, 2024 | Official Anthropic policy | (web-only — flag Wave D) | Responsible Scaling Policy tiers (ASL-1..ASL-4) — blast-radius classification in FUNDAMENTAL §4.6 enforcement mechanisms is the same safety-tier pattern applied at system level |
+| S4 | Anthropic Model Specification, 2024 | Official Anthropic specification | (web-only — flag Wave D) | Hardcoded never-list + softcoded defaults — direct structural parallel with FUNDAMENTAL §6.1 AI/agents constitutional limits (11 hard rules) |
+| S5 | Building Effective Agents | Anthropic Engineering blog | `raw/books-md/meta/building-effective-agents.md` (library-direct ✅) | Simplicity/transparency/trust triad — grounding for why FUNDAMENTAL §4.6 uses explicit allow/deny rather than framework abstraction |
 
-All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv, 2 official Anthropic policy documents, 1 on-disk Anthropic engineering publication.
+All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv (now library-direct), 2 official Anthropic policy documents (still web-only — flag for Wave D supplement), 1 on-disk Anthropic engineering publication.
 
 ---
 
@@ -83,7 +89,7 @@ All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv, 2 offic
 
 ### P1 — Constitutional self-critique loop (RLAIF)
 
-**Sourced:** Bai et al. [S1] §3: "We first use the model to generate a critique of its response given a principle from the constitution, then revise the original response in light of the critique." This RLAIF loop enables scalable harmlessness feedback without requiring human labelers to evaluate harmful content.
+**Sourced:** Bai et al. [S1, raw/books-md/anthropic/bai-2022-cai.md §3 Method] §3: "We first use the model to generate a critique of its response given a principle from the constitution, then revise the original response in light of the critique." This RLAIF loop enables scalable harmlessness feedback without requiring human labelers to evaluate harmful content. The paper specifies 16 SL-CAI critique-revision principles + 16 RL-CAI selection principles (Appendices C.1-C.2); Anthropic open-sourced the principle set at github.com/anthropics/ConstitutionalHarmlessnessPaper.
 
 **Applied:** FUNDAMENTAL §6.7 Boundary violation triggers implement a runtime equivalent: "AI попытался strategize → halt + log + alert founder." The halt-log-alert sequence is Constitutional AI's self-critique loop operationalized at architecture level — the system detects a constitution violation and interrupts before the harm propagates. Wave A Part 6 (Governance & Human Gate) owns this enforcement: without Part 6, the constitutional halt mechanism has no structural owner. [S7, §6.7]
 
@@ -91,7 +97,7 @@ All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv, 2 offic
 
 ### P2 — HHH three-dimensional alignment (Helpful, Harmless, Honest)
 
-**Sourced:** Askell et al. [S2] frame the three dimensions as simultaneously necessary and partially in tension: a maximally helpful agent may say things a user does not want to hear (tension with short-term harmlessness); a maximally harmless agent may refuse to help (tension with helpfulness). The resolution is calibrated judgment, not maximizing one dimension.
+**Sourced:** Askell et al. [S2, raw/books-md/anthropic/askell-2021-hhh.md Appendix E] frame the three dimensions as simultaneously necessary and partially in tension: «**Helpfulness:** the assistant will always try to do what is in the humans' best interests. **Honesty:** the assistant will always try to convey accurate information to the humans and will always try to avoid deceiving them. **Harmlessness:** the assistant will always try to avoid doing anything that harms the humans» (Appendix E.1). Appendix E.3 distinguishes intra-agent conflicts (a single human's interests) from inter-agent conflicts (different humans whose interests collide — e.g., one human asking for help building a bomb to use against others). The resolution is calibrated judgment + explicit declaration of *which humans* the assistant is aligned with.
 
 **Applied:** FUNDAMENTAL §6.6 "What system does NOT promise" is the HHH "honest" dimension operationalized: the system does not promise "to make you successful," "to protect against bad decisions," "to know everything" — explicit calibration against overselling. FUNDAMENTAL §6.3 anti-engagement-economy patterns operationalize the "harmless" dimension: no dopamine loops, no FOMO triggers, no sycophancy. FUNDAMENTAL §6.2 founder agency preservation operationalizes "helpful without being assistant-brained": the system suggests, the founder decides. [S6]
 
@@ -123,7 +129,7 @@ All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv, 2 offic
 
 ### P6 — Transparency and human-final-authority (D2 architect-orbit)
 
-**Sourced:** Bai et al. [S1] introduce Constitutional AI partly as a transparency tool: the constitution makes safety criteria explicit and inspectable, rather than buried in human labeler preferences. Anthropic Model Specification [S4]: "We want Claude to support the ability of principals to adjust, correct, retrain, or shut down AI systems." This is the "corrigibility" axis — AI systems should actively support human oversight, not merely tolerate it.
+**Sourced:** Bai et al. [S1, raw/books-md/anthropic/bai-2022-cai.md §1.1 Motivations] introduce Constitutional AI partly as a transparency tool: «We hope to improve [opacity] in three ways: (1) by literally encoding the training goals in a simple list of natural language instructions or principles, (2) by using chain-of-thought reasoning to make AI decision making explicit during training, and (3) by training AI assistants that explain why they are declining to engage with harmful requests.» Askell et al. [S2, raw/books-md/anthropic/askell-2021-hhh.md Appendix E.2] discuss "Handleable" / corrigibility as a candidate fourth 'H' (citing Soares-Fallenstein-Armstrong-Yudkowsky 2015): «the assistant will always be responsive to feedback from the humans and carry out any instructions from the humans in the way that the humans intended.» Anthropic Model Specification [S4]: "We want Claude to support the ability of principals to adjust, correct, retrain, or shut down AI systems." This is the corrigibility axis — AI systems should actively support human oversight, not merely tolerate it.
 
 **Applied:** FUNDAMENTAL §4.3 Human-Only list is the corrigibility clause operationalized: "Final ack / reject для significant artifacts (LOCKS / strategic docs / major releases)" + "Escalation resolution (deadlocks между agents / contradictions между decisions)" + "Architecture owner — структура / dependencies / boundaries." Wave A Part 6 (Governance & Human Gate) is the structural enforcement: the stage-gate enforcement mechanism, provenance-tagging schema, HITL escalation taxonomy — all designed to make human oversight structurally mandatory, not behaviorally expected. [S7, Part 6; S6, §4.3]
 
@@ -131,7 +137,7 @@ All 5 sources are quality grade A: 2 peer-reviewed preprints from arxiv, 2 offic
 
 ### P7 — Sycophancy resistance and honest-even-when-uncomfortable
 
-**Sourced:** Anthropic Model Specification [S4] names "non-sycophantic" as a core character trait: "Claude should share its genuine assessments of hard moral dilemmas, disagree with experts when it has good reason to, point out things people might not want to hear." The HHH paper [S2] identifies sycophancy as the canonical failure mode of "helpful" maximization without the honest constraint.
+**Sourced:** Anthropic Model Specification [S4] names "non-sycophantic" as a core character trait: "Claude should share its genuine assessments of hard moral dilemmas, disagree with experts when it has good reason to, point out things people might not want to hear." The HHH paper [S2, raw/books-md/anthropic/askell-2021-hhh.md §1.1 honest bullets] grounds this in calibration: «the AI should be calibrated (e.g. it should be correct 80% of the time when it claims 80% confidence) and express appropriate levels of uncertainty… Crucially, the AI should be honest about its own capabilities and levels of knowledge — it is not sufficient for it to simply imitate the responses expected from a seemingly humble and honest expert.» Bai et al. 2022 [S1, raw/books-md/anthropic/bai-2022-cai.md §4.4 Harmlessness vs Evasiveness] explicitly identifies evasive «I can't answer that» responses as a failure mode of Bai et al. 2022 prior HH-RLHF and trains RL-CAI to be «virtually never evasive» while remaining harmless. Askell Appendix E.3 frames sycophancy as a failure of the harmlessness axis when applied to a single human's short-term comfort at the cost of their actual interests.
 
 **Applied:** FUNDAMENTAL §6.3 hard rules directly encode sycophancy resistance: "❌ Sycophancy / false praise — system не комплименты делает чтобы owner felt good. Honest, не пустая politesse." + "❌ Avoidance of hard truths — если data shows что owner drift'ит / стопор'ит / делает counterproductive — surface honestly, не gloss over." FUNDAMENTAL §6.7 violation trigger: "Sycophancy detected in synthesis → flag + retry с calibration." [S6, §6.3, §6.7]
 
@@ -196,6 +202,10 @@ Part 6 is the structural enforcement substrate for Constitutional AI principles 
 | Provenance & transparency [S4 corrigibility] | F-G-R trust-calculus + provenance-tagging schema + HITL escalation taxonomy |
 
 **Key implication for Wave C:** F-G-R compliance enforcement is flagged as NOT yet a systematic Part 6-owned function in Wave A (candidate-parts-merged.md Part 6 audit). This is the constitutional AI transparency gap: provenance exists in the artifacts but is not systematically verified against the constitutional rules. Wave C materialisation task: build F-G-R compliance checker as a Part 6 service with automated scan + exception-to-HITL routing.
+
+### §7.1 Citation discipline note (added 2026-04-27 evening per Wave B supplement)
+
+> Bai 2022 + Askell 2021 are now library-resident at `raw/books-md/anthropic/`. **In all Wave C and Wave D artefacts, prefer library citations over arxiv URL refs** when citing CAI / HHH content. Format: `[Bai-CAI-2022:raw/books-md/anthropic/bai-2022-cai.md §<section>]` and `[Askell-HHH-2021:raw/books-md/anthropic/askell-2021-hhh.md §<section or Appendix>]`. Arxiv URL is acceptable as a secondary reference but should not be the primary citation. Anthropic RSP v1.2 + Model Specification remain web-only — for these continue to cite by URL until Wave D supplement lifts them.
 
 ---
 

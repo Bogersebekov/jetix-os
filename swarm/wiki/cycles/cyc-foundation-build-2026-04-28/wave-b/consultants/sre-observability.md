@@ -8,9 +8,10 @@ expert: engineering-expert
 mode: integrator
 cycle: cyc-foundation-build-2026-04-28
 status: draft
-confidence: medium
-confidence_method: training-knowledge-synthesis
-F: F3
+confidence: high
+confidence_method: mixed (2 library-direct, 3 training-knowledge)
+F: F5
+F_note: "Lifted post-supplement 2026-04-27 evening. 2/5 library-direct (Google SRE Book full + SRE Workbook Ch. 2 'Implementing SLOs'); 3/5 still training-knowledge (Honeycomb Observability Engineering, Mike Julian Practical Monitoring, OpenTelemetry spec — flag for Wave D supplement)."
 ClaimScope: "Holds for single-node, single-owner, file-based Foundation substrate (git-based, no metrics infra). Unknown for multi-node distributed services or team-scale deployments. Deliberately scoped to Jetix Phase-A single-owner instance."
 R:
   refuted_if: "Wave C interface card for Part 8 (Health Monitoring & System Integrity) cannot derive ≥3 actionable SLI/SLO pairs from FUNDAMENTAL §3 that are measurable with grep/git log/wc without a dedicated metrics backend"
@@ -43,13 +44,17 @@ tags: [framework, sre, observability, sli-slo, error-budget, monitoring, honeyco
 
 ## §1 Foundation Studied — Coverage Declaration
 
-**Library coverage: 0/5 canonical SRE/observability sources on disk.**
+**Library coverage: 2/5 canonical SRE/observability sources library-direct as of 2026-04-27 supplement; 3/5 still training-knowledge.**
 
-No Google SRE Book, no Charity Majors / Honeycomb Observability Engineering, no Mike Julian Practical Monitoring, no OpenTelemetry spec files are present in the on-disk book corpus (`raw/books-md/`). The framework taxonomy table (§1 row #6) explicitly flags: "NO direct SRE Book on disk → external 5-sources mandatory."
+| # | Source | Status | Path (when library-direct) |
+|---|--------|--------|----------------------------|
+| 1 | **Google SRE Book — Beyer/Jones/Petoff/Murphy (eds.), O'Reilly 2016** | **library-direct ✅ (2026-04-27 supplement)** | `raw/books-md/sre/google-sre-book.md` (full 550-page book; quality grade A; 190,412 words) |
+| 2 | Charity Majors et al., *Observability Engineering*, O'Reilly 2022 | training-knowledge — flag Wave D | — |
+| 3 | Mike Julian, *Practical Monitoring*, O'Reilly 2017 | training-knowledge — flag Wave D | — |
+| 4 | OpenTelemetry Specification v1.x | training-knowledge — flag Wave D | — |
+| 5 | **Alex Ewerlof et al., *Implementing SLOs* (SRE Workbook Ch. 2), 2018** | **library-direct ✅ (2026-04-27 supplement)** | `raw/books-md/sre/google-srewb-implementing-slos.md` (single-chapter; quality grade B; 8,744 words) |
 
-**5/5 sources via training knowledge (not live-fetched).**
-
-This expert's toolset (Read, Write, Edit, Grep, Glob) excludes WebSearch and WebFetch per frontmatter `tools` declaration. The 5 sources listed above are drawn from training knowledge (cutoff August 2025) of canonical, widely-cited works. All 5 are real, published, and stable references — not hallucinated. URLs are canonical and stable as of training cutoff.
+The framework taxonomy table (§1 row #6) had previously flagged: "NO direct SRE Book on disk → external 5-sources mandatory." Status post-supplement: the two Google sources (full SRE Book + SLO Workbook chapter) are now library-resident; Honeycomb / Practical Monitoring / OpenTelemetry remain via training-knowledge and should be flagged for Wave D supplement if Part 8 materialisation requires high-cardinality observability tooling, alert-fatigue anti-pattern depth, or OTel semantic-conventions detail beyond what training-knowledge synthesis confidently supplies.
 
 **FUNDAMENTAL §3 + §5 — 100% via repo read.**
 
@@ -57,7 +62,11 @@ FUNDAMENTAL §3 (30+ SLI/SLO pairs across 8 health domains: §3.1 Information, �
 
 **Part 8 interface card** was read from `candidate-parts-merged.md` §2 Part 8 — Health Monitoring & System Integrity.
 
-**Risk declaration:** Wave C materialisation of Part 8 may surface observability patterns that require deeper SRE knowledge than training-knowledge synthesis can confidently supply — particularly: (a) high-cardinality data modelling for the Honeycomb-style trace-dominant approach, and (b) error budget burn rate algebra applied to non-service SLIs (e.g., KB freshness burn modelled as budget). Flag for deeper Wave C read if these surface. The core SLI/SLO/error-budget framework and fail-loud principle are well-grounded.
+**Risk declaration (post-supplement, 2026-04-27 evening):**
+- **Lower risk** on core SLI / SLO / error-budget burn-rate algebra (Principles 1, 7) — Google SRE Book Ch. 4 + SRE Workbook Ch. 2 are now library-direct and ground every burn-rate / error-budget claim with verbatim citations available. The four golden signals (latency / traffic / errors / saturation, SRE Book Ch. 6) are now library-direct. Postmortem culture (Ch. 15) and toil definition (Ch. 5) are now library-direct. Fail-loud + monitoring philosophy + Borg / Chubby / GSLB context are all library-direct.
+- **Risk remains** on Honeycomb-style high-cardinality observability tooling and the trace-dominant philosophy (Majors Observability Engineering territory), Mike Julian's anti-pattern catalog at full depth, and OpenTelemetry semantic conventions / propagation protocol details. If Wave C Part 8 surfaces these specific edges (e.g., trace-context propagation through agent mailboxes, OTel-aligned structured-event format, or alert-fatigue anti-patterns at quantitative threshold detail), flag Wave D supplement.
+
+**Total foundation: 2/5 library-direct + 3/5 training-knowledge + Jetix-applied context 100% via repo reads.**
 
 ---
 
@@ -75,15 +84,16 @@ FUNDAMENTAL §3 (30+ SLI/SLO pairs across 8 health domains: §3.1 Information, �
 
 ## §3 External Sources — 5 Mandatory
 
-### Source 1 — Google SRE Book (Beyer et al., O'Reilly 2016)
+### Source 1 — Google SRE Book (Beyer et al., O'Reilly 2016) ✅ LIBRARY-DIRECT
 
-**URL:** https://sre.google/sre-book/table-of-contents/
+**Library path (post-supplement 2026-04-27):** `raw/books-md/sre/google-sre-book.md` (full 550-page book; quality grade A; 190,412 words).
+**Original URL:** https://sre.google/sre-book/table-of-contents/
 
-**Chapters consulted via training knowledge:** Ch. 4 (Service Level Objectives), Ch. 6 (Monitoring Distributed Systems), Ch. 15 (Postmortem Culture), Ch. 22 (Addressing Cascading Failures).
+**Chapters consulted via library-direct read:** Ch. 1 (Introduction — SRE definition + tenets — pp.3-12), Ch. 3 (Embracing Risk — error budget motivation — pp.25-36), Ch. 4 (Service Level Objectives — SLI/SLO/SLA terminology + indicators in practice — pp.37-47), Ch. 5 (Eliminating Toil — toil definition + < 50% rule — pp.49-54), Ch. 6 (Monitoring Distributed Systems — symptoms vs causes + black-box vs white-box + Four Golden Signals — pp.55-66), Ch. 14 (Managing Incidents — pp.161-167), Ch. 15 (Postmortem Culture — blameless culture + triggers + collaborate-and-share — pp.169-175), Ch. 22 (Addressing Cascading Failures — secondary for Foundation single-node).
 
 **Relevance grade: A (primary).**
 
-The SLO chapter is the canonical source for the SLI/SLO/error-budget triad. The monitoring chapter distinguishes symptoms vs causes and introduces the four golden signals (latency, traffic, errors, saturation). The postmortem chapter grounds blameless incident culture. The cascading failures chapter is secondary for Foundation (single-node system does not have distributed failure cascades) but informs graceful degradation design in FUNDAMENTAL §5.2.
+The SLO chapter is the canonical source for the SLI/SLO/error-budget triad. The monitoring chapter distinguishes symptoms vs causes and introduces the **four golden signals (latency, traffic, errors, saturation, p.60)**. The postmortem chapter grounds blameless incident culture. The cascading failures chapter is secondary for Foundation (single-node system does not have distributed failure cascades) but informs graceful degradation design in FUNDAMENTAL §5.2. Ch. 1 contributes the SRE-vs-DevOps framing + the "Hope is not a strategy" tenet + the 50%-cap on SRE operational work + the `MTTF`/`MTTR` framing for emergency response.
 
 **Jetix application:** FUNDAMENTAL §3 embeds the SLO framework directly — each health domain (§3.1-§3.8) carries an SLI (what is measured), an SLO (threshold), an error budget (implicit in "alert trigger"), and a behaviour-change rule ("pause new feature work / simplify ritual / expand capacity"). The SRE Book provides the conceptual grounding; FUNDAMENTAL §3 is the Jetix-applied form.
 
@@ -128,9 +138,10 @@ OpenTelemetry unifies the Three Pillars of observability — logs, metrics, trac
 
 **Anti-scope:** OTel collector infrastructure, OTLP exporters, vendor backends (Jaeger, Zipkin, Honeycomb) — all Phase B+ at earliest. Foundation Phase A does not need them.
 
-### Source 5 — Implementing SLOs (SRE Workbook Ch. 2 — Ewerlof et al., 2018)
+### Source 5 — Implementing SLOs (SRE Workbook Ch. 2 — Thurgood, Ferguson, Hidalgo, Beyer, 2018) ✅ LIBRARY-DIRECT
 
-**URL:** https://sre.google/workbook/implementing-slos/
+**Library path (post-supplement 2026-04-27):** `raw/books-md/sre/google-srewb-implementing-slos.md` (single chapter, full text; quality grade B; 8,744 words; CC BY-NC-ND 4.0).
+**Original URL:** https://sre.google/workbook/implementing-slos/
 
 **Relevance grade: A (operational algebra for Foundation health).**
 
@@ -141,7 +152,9 @@ The SRE Workbook chapter on implementing SLOs provides the burn rate algebra: if
 
 This algebra was designed for request-error rates in services. The principle transfers to Foundation's non-service SLIs with reframing: the "error budget" for KB provenance coverage (SLO ≥ 95%) is 5% of items lacking provenance. When that 5% is exhausted, the response is not "page the SRE" — it is "halt promotions to canonical until provenance coverage is restored" (per §5.2 fail-loud).
 
-**Jetix application:** FUNDAMENTAL §3 already implements the behaviour-change rule correctly. The Workbook grounds *why* behaviour change is mandatory: alerting without behaviour change is noise that trains operators to ignore alerts. The error-budget burn model prevents this by making the response pre-declared, not reactive.
+The chapter also formalises the **SLO decision matrix** (Table 2-5 in the chapter): cross-product of {SLO Met / Missed} × {Toil Low / High} × {Customer Satisfaction High / Low} → 8 declared actions (relax / tighten / loosen alerting sensitivity / fix product). This is operational guidance for the behaviour-change-rule registry that Wave C Part 8 must populate. The chapter also names «**a four-week rolling window** to be a good general-purpose interval» complemented with weekly summaries for prioritisation and quarterly reports for project planning.
+
+**Jetix application:** FUNDAMENTAL §3 already implements the behaviour-change rule correctly. The Workbook grounds *why* behaviour change is mandatory: alerting without behaviour change is noise that trains operators to ignore alerts. The error-budget burn model prevents this by making the response pre-declared, not reactive. The 4-week rolling window recommendation closes OQ-SRE-1 (SLO window declaration) — adopt 4-week rolling as the Foundation default unless an SLI has documented reasons for a different window.
 
 ---
 
@@ -149,7 +162,7 @@ This algebra was designed for request-error rates in services. The principle tra
 
 ### P1 — SLI/SLO/Error-Budget Triad
 
-**Sourced.** Google SRE Book Ch. 4: "An SLI is a carefully defined quantitative measure of some aspect of the level of service that is provided... An SLO specifies a target value or range of values for a service level that is measured by an SLI." Error budget = 1 − SLO (e.g., 99% SLO → 1% budget). When budget exhausted, *behavior changes*: feature work pauses, reliability investments escalate.
+**Sourced.** Google SRE Book Ch. 4 [Source 1, raw/books-md/sre/google-sre-book.md Ch.4 "Service Level Objectives" pp.37-47]: «An SLI is a service level *indicator* — a carefully defined quantitative measure of some aspect of the level of service that is provided… An SLO is a *service level objective*: a target value or range of values for a service level that is measured by an SLI.» SRE Book Ch. 1 grounds the error-budget motivation [pp.7-9]: «100% is the wrong reliability target for basically everything… An outage is no longer a 'bad' thing — it is an expected part of the process of innovation.» The SRE Workbook Ch. 2 [Source 5, raw/books-md/sre/google-srewb-implementing-slos.md §1] makes it categorical: «without SLOs, there is no need for SREs.» Error budget = 1 − SLO (e.g., 99% SLO → 1% budget). When budget exhausted, *behaviour changes*: feature work pauses, reliability investments escalate.
 
 **Applied to Foundation.** FUNDAMENTAL §3 already structures each health domain in SLI/SLO/error-budget form, explicitly cited as Google SRE pattern. Critical instances for Part 8:
 - §3.1.3 Queryability: SLI = query citation rate; SLO ≥ 85%; error budget = 15%. Alert at < 75% = budget half-burned. Behaviour change: trigger compile + consolidate sprint.
@@ -189,7 +202,7 @@ The practical implication for Part 8: the health dashboard (`shared/state/system
 
 ### P4 — Toil Reduction: < 50% of Time on Manual Repetitive Work
 
-**Sourced.** Google SRE Book (toil definition): "Toil is the kind of work tied to running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly as a service grows." SRE teams should keep toil < 50% of their time. Above 50%, toil crowds out engineering work that reduces future toil — a reinforcing trap.
+**Sourced.** Google SRE Book Ch. 5 [Source 1, raw/books-md/sre/google-sre-book.md Ch.5 pp.49-54] toil definition: «Toil is the kind of work tied to running a production service that tends to be manual, repetitive, automatable, tactical, devoid of enduring value, and that scales linearly as a service grows.» Ch. 1 [pp.5-7] codifies the «50% cap on the aggregate "ops" work for all SREs». Above 50%, toil crowds out engineering work that reduces future toil — a reinforcing trap (Ch.5 lists six explicit harms: career stagnation, low morale, creates confusion, slows progress, sets precedent, promotes attrition, breach of faith).
 
 **Applied to Foundation.** Foundation's toil candidates: manual KB linting (running `/lint` and reading the output manually), manual health metric collection (reading `system-health.json` which reports "all green" without computation), manual compound-step DRR writing (correctly kept human-authored per FUNDAMENTAL §5.6 Левенчук writing-as-thinking), manual provenance tagging on every artefact write. Of these: KB linting and health metric collection are legitimate automation targets (FUNDAMENTAL §4.1 explicitly includes both). DRR writing is HUMAN-ONLY (§4.3 — Левенчук writing-as-thinking primitive). Provenance tagging is AI-augmented (§4.2 — AI auto-fills, human verifies).
 
@@ -201,7 +214,7 @@ Part 8's role: surface which health checks are producing toil (alerts that are n
 
 ### P5 — Blameless Postmortems and Incident Learning Culture
 
-**Sourced.** Google SRE Book Ch. 15: "The primary goals of a postmortem are to ensure that the incident is documented, that all contributing root causes are well understood, and, especially, that effective preventative actions are put in place to reduce the likelihood and/or impact of recurrence. Blameless postmortems reject the idea that human error is a root cause — it is a symptom of a system design problem."
+**Sourced.** Google SRE Book Ch. 15 [Source 1, raw/books-md/sre/google-sre-book.md Ch.15 pp.169-175]: «The primary goals of writing a postmortem are to ensure that the incident is documented, that all contributing root cause(s) are well understood, and, especially, that effective preventive actions are put in place to reduce the likelihood and/or impact of recurrence.» Ch. 15 lists explicit triggers for postmortems: user-visible downtime/degradation beyond threshold, data loss, on-call engineer intervention, resolution time above threshold, monitoring failure (manual incident discovery). «Blamelessness is a tenet of SRE culture. For a postmortem to be truly blameless, it must focus on identifying the contributing causes of the incident without indicting any individual or team for bad or inappropriate behavior… A blamelessly written postmortem assumes that everyone involved in an incident had good intentions and did the right thing with the information they had.» The chapter also establishes «No Postmortem Left Unreviewed» as a best-practice rule.
 
 **Applied to Foundation.** FUNDAMENTAL §3.4.5: "% significant failures / missed deadlines that get post-mortem within 7 days. Healthy baseline: ≥ 80%. Alert trigger: < 50% — failures forgotten without learning." This SLI operationalises the blameless postmortem cadence. FUNDAMENTAL §2.4 (Compound Learning) cites "Google SRE blameless post-mortems — каждый failed cycle → 5-line post-mortem: what happened / why / what changed / how detect next / owner. Stored permanently."
 
@@ -229,7 +242,7 @@ Part 8's role: the monitoring substrate that makes "halt + alert" mean something
 
 ### P7 — Error Budget Burn Changes Behavior (Not Just Fires Alerts)
 
-**Sourced.** Google SRE Workbook Ch. 2 (Implementing SLOs): "When your error budget is large, you can take risks... When your error budget is small, you should be more conservative... When your budget is exhausted, you should stop releasing new features and focus on reliability." The algebraic burn rate model makes this operationally precise.
+**Sourced.** Google SRE Workbook Ch. 2 [Source 5, raw/books-md/sre/google-srewb-implementing-slos.md §12 "Decision Making Using SLOs and Error Budgets"]: when budget exhausted, the policy mandates one of: «(a) The development team gives top priority to bugs relating to reliability issues over the past four weeks. (b) The development team focuses exclusively on reliability issues until the system is within SLO. (c) A production freeze halts certain changes to the system until there is sufficient error budget.» Worked example: «a release of a new API version causes 100% NullPointerExceptions until the system can be reverted four hours later… 14,066 errors. Using the numbers from our 97% SLO earlier, and our budget of 109,897 errors, this single event used 13% of our error budget.» The algebraic burn-rate model makes this operationally precise. The 8-row decision matrix (Table 2-5) declares the response for every {SLO state × Toil × Customer Satisfaction} cell.
 
 **Applied to Foundation.** FUNDAMENTAL §3.5.3 implements this explicitly: "Weekly review run rate < 75% per quarter → SRE-style trigger: pause new feature work until run rate recovered." This is error-budget behaviour change, not merely an alert. The same pattern should apply to the Part 8 materialisation for all SLIs where budget burn has a declared response:
 - KB provenance coverage < 90% → halt canonical promotions until coverage restored
