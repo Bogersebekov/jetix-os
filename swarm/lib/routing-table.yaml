@@ -388,15 +388,69 @@ roles:
     domains: [strategic-decisions, weekly-monthly-review, resource-allocation]
     granularity: jetix-shared
 
+  # --------------------------------------------------------------------------
+  # Bundle 3 role archetype extensions (per Bundle 3 deep prompt §8.7)
+  # --------------------------------------------------------------------------
+
+  - slug: compound-phase-orchestrator
+    description: "Compound-phase ritual orchestrator (Bundle 3 Part 5 contributor; 40/10/40/10 ritual driver). Reads RAW task-return-packets per UND-1, performs DRR extraction, writes per-role strategies.md entries, scans methodology candidates, opens AWAITING-APPROVAL gate_class=draft_promotion to Part 6b on candidate emission."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [integrator]
+    write_scope_glob: "agents/*/strategies.md, wiki/methodology/*-DRAFT.md, swarm/wiki/cycles/<cycle-id>/bundle-3-dissolve-test-evidence.md"
+    escalation_taxonomy_per_trigger: {methodology-candidate-emission: open-gate-packet, contradiction-with-foundation: brigadier-authors-gate-packet, owner-reflection-prose-required: defer-to-session-boundary}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/compound", "/strategies-add", "/methodology-promote-candidate", "/dissolve-test-evidence"]
+    mailbox: "comms/mailboxes/compound-phase-orchestrator.jsonl"
+    primary_alpha: drr-entry
+    domains: [compound-phase-ritual, drr-extraction, methodology-emission, dissolve-test-evidence]
+    granularity: jetix-shared
+    bundle_introduced: 3
+    contributing_part: 5
+
+  - slug: health-monitor
+    description: "Weekly health snapshot orchestrator (Bundle 3 Part 8 contributor). Reads canonical health-signal stream via §I.3 mapping table, evaluates SLI/SLO per §I.2, emits alerts via §H.1 stub, writes weekly dashboard at swarm/audits/weekly/<YYYY-WNN>-health.md."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [optimizer, critic]
+    write_scope_glob: "swarm/audits/weekly/**, shared/state/system-health.json, swarm/audits/log/alert-log.jsonl"
+    escalation_taxonomy_per_trigger: {tier-0-anomaly: route-to-part-6b-stop-gate, tier-1-anomaly: route-to-part-6b-stage-gate-same-session, tier-2-anomaly: route-to-part-6b-stage-gate-batch-weekly, tier-3-anomaly: silent-log}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/health-snapshot-weekly", "/sli-evaluate", "/alert-emit", "/health-mapping-validate"]
+    mailbox: "comms/mailboxes/health-monitor.jsonl"
+    primary_alpha: health-signal
+    domains: [weekly-health-snapshot, sli-evaluation, anomaly-detection, alert-routing-stub]
+    granularity: jetix-shared
+    bundle_introduced: 3
+    contributing_part: 8
+    specify_and_stub_scope: declared-OQ-MERGED-5
+
+  - slug: quarterly-immune-auditor
+    description: "Quarterly immune audit orchestrator (Bundle 3 Part 8 contributor; TRADEOFF-01 audit lead). Invokes Part 6a F-G-R compliance check service; runs IP-5/IP-6 drift checks; emits audit at swarm/audits/quarterly/<YYYY-QN>-immune-audit.md; opens gate_class=stage_gate to Part 6b enforcement arm on detected drift."
+    j_level_authority: {routine: J-Auto, tactical: J-Approve, strategic: J-Strategic}
+    allowed_modes: [critic]
+    write_scope_glob: "swarm/audits/quarterly/**"
+    escalation_taxonomy_per_trigger: {drift-detected: open-stage-gate-to-part-6b, part-6a-service-failure: escalate-to-owner, scope-completeness-violation: reject-audit}
+    hub_and_spoke_dispatch_chain: [manager, owner]
+    accessor_skills_invocable: ["/health-audit-quarterly"]
+    mailbox: "comms/mailboxes/quarterly-immune-auditor.jsonl"
+    primary_alpha: audit-report
+    domains: [quarterly-immune-audit, fg-r-compliance-check, alpha-classification-drift, role-manifest-freshness, methodology-staleness, strategies-staleness, tradeoff-01-verification]
+    granularity: jetix-shared
+    bundle_introduced: 3
+    contributing_part: 8
+    tradeoff_01_role: audit-lead
+
 # ============================================================================
 # Variety count summary (Ashby Ch.11 ≥20 target — L10 Foundation invariant)
 # ============================================================================
 # - 5 ROY experts × 4 modes = 20 base routing cells
 # - 1 brigadier (orchestrator)
 # - 13 legacy agents
+# - 3 Bundle 3 role archetypes (compound-phase-orchestrator, health-monitor,
+#   quarterly-immune-auditor)
 # - 14 distinct escalation triggers (definitions.escalation_triggers)
 # - 4 task shapes (task_shape_dispatch_matrix)
 # - 1 M-class rate limiter
 # - 10 gate types (gate_types)
-# Total distinct routing rules: ≥67 — far exceeds Ashby variety target ≥20.
+# Total distinct routing rules: ≥70 (Bundle 2: 67 + Bundle 3: 3) — far
+# exceeds Ashby variety target ≥20.
 # Verification: /lint --check-routing-table-variety reports count.
