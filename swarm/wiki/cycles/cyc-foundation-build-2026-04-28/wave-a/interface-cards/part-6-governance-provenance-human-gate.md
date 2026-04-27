@@ -1,5 +1,11 @@
 ---
-title: "Interface Card — Part 6: Governance, Provenance & Human Gate"
+title: "Interface Card — Part 6: Governance, Provenance & Human Gate (SUPERSEDED Wave C Bundle 1)"
+superseded_by:
+  - swarm/wiki/foundations/part-6a-provenance-officer/architecture.md
+  - swarm/wiki/foundations/part-6b-human-gate/architecture.md
+split_note: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/SPLIT-NOTE-PART-6.md
+split_rationale: "Per Ruslan walkthrough OQ-MERGED-1 OVERRIDE 2026-04-27 — split for scale-readiness Phase B/C/D + fork-friendly portable provenance + cadence independence (quarterly Part 6a vs real-time Part 6b)"
+historical_note: "This interface card is SUPERSEDED for Wave C / Bundle 1 onward but PRESERVED in the historical record per Reversal Transactions discipline (Young 2010). Future references should use Part 6a or Part 6b explicitly. The Part 6 conceptual cluster persists as the parent role; Part 6a + Part 6b are MemberOf Part 6."
 part_number: 6
 part_slug: governance-provenance-human-gate
 date: 2026-04-27
