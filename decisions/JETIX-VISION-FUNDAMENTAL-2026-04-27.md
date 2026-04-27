@@ -1963,19 +1963,236 @@ Generic 5-stage pipeline для onboarding new skill / domain into system.
 
 ## §7 Роли и agency (generic)
 
-> ⏸ TBD — generic role taxonomy applicable to ANY instance
+**Источник:** D1 JETIX-VISION §3 (founder context) + §7 (11 archetypes as audience) + D2 §13 Левенчук architect-orbit + D26 Team scaling discipline + best practices (subsidiarity / RACI / role-based access control).
 
-### 7.1 Founder / Architect role
-[TBD]
+**Главный принцип:**
+
+> **В системе ЕДИНСТВЕННАЯ роль с persistent identity, agency, skin-in-the-game, long-term memory — Founder/Architect (the human at center).** Все остальные роли (agents / stakeholders) — context-dependent, subordinate, may come and go. Founder — фундамент; всё остальное — instrumentation вокруг.
+
+Из этого следует архитектурный паттерн: **role flexibility вокруг founder fixed-point**. Можно поменять agents / переподключить stakeholders / переопределить boundaries — но founder остаётся единственным persistent locus authority.
+
+---
+
+### 7.1 Founder / Architect (the human at center)
+
+> Концептуально, generic, sector-agnostic — кто использует систему.
+
+**Кто это (концептуально):**
+
+Founder/Architect — человек который:
+- **Стремится работать с большими массивами информации, людей, задач, данных**
+- **Хочет achieve больших results** (масштаб не определён жанром — это может быть scientific breakthrough / business empire / movement creation / artistic body of work / любой ambitious long-horizon outcome)
+- **Использует best available tools** для leverage (не "minimum viable", а "максимально мощное что reasonable")
+- **Стремится быть более эффективным / образованным / сильным / clear-thinking** через постоянное self-improvement
+- **Не может удержать всё в голове** — массивы information / decisions / relationships / projects превышают cognitive capacity
+- **Готов инвестировать time + attention + discipline в систему** для multiplier ROI (не quick-fix mentality)
+- **Движется к развитию** — orientation на growth, не stagnation / status quo
+
+**Из этого следует — почему нужна система:**
+
+Founder cognitive capacity ≠ ambition scale. Без extension через инструменты:
+- Drift (теряется direction среди chaos)
+- Burnout (try to hold всё head-only)
+- Quality degradation (too many things → суrface-level всё)
+- Opportunity cost (time spent на mechanical работа вместо strategic)
+
+**Система = решение этих проблем.** Не "помощник", а **продолжение мозга** (per § 0 главный принцип).
+
+**Founder authority + responsibilities в системе:**
+
+- **Strategic direction setter** — что система делает / куда идёт / что НЕ делает
+- **Final authority на ack/reject** для significant artifacts (LOCKS / strategic docs / major commitments)
+- **Architecture owner** — структура / dependencies / boundaries (per §4.5 — agents не делают architectural decisions)
+- **Skill direction setter** — что система должна выучить (per §4.3)
+- **Resource allocator** — где время / attention / money go
+- **Relationship final calls** — trust levels / inner-outer membrane / partnerships
+- **Vision keeper** — кто мы / куда идём (не AI invents)
+- **Self-reflection executor** — answers questions system asks (system не proxies)
+- **Health gauge** — owner self-monitors physical / emotional / strategic state
+- **Anti-scope guardian** — какие "никогда" enforce'ятся
+
+**Founder limitations (acknowledged honestly):**
+
+- Time: 24h/day, не extensible
+- Attention: focused window finite (deep work ~4h/day max sustainable)
+- Bandwidth: <20 active threads simultaneously without quality loss
+- Energy: cycles, не constant; recovery nondelegable
+- Memory: imperfect / biased / context-loss prone
+- Subject to emotional state (good/bad days affect quality)
+- Single-point-of-failure для system (per §5.4 SPoFs) — discipline needed для backup decision-making patterns
+
+**Implication:** система designed чтобы **respect founder limitations** + **augment** them, не **strain** their.
+
+---
+
+### 7.1.1 — 11 архетипов founder (concrete examples per archetype)
+
+> Generic Founder может проявляться в разных incarnations. 11 archetypes per D1 JETIX-VISION §7 — представления того кто может быть founder of Jetix instance. Per archetype: краткое описание + 1-2 примера use системы.
+
+| # | Archetype | Кто это | Пример use системы |
+|---|-----------|---------|-------------------|
+| 1 | **Startupper** | Builds product / company / venture с urgency. Validates fast, iterates. Revenue-focused early. | "Загрузил 30 customer interviews → система synthesized pain points + cluster'ила + drafted ICP variants → за час получил qualified hypotheses вместо 2 недель vручную." |
+| 2 | **Entrepreneur** | Builds business как ongoing operation. Multi-project, partnerships, deals, market positioning. | "Tracking 50 партнёрских разговоров через CRM + auto-surface no-touch >14 дней + integration с Calendar + Email digester показывает что важное за день. Не теряю threads." |
+| 3 | **Researcher** | Generates new knowledge — academic / industry / independent. Heavy literature ingest, hypothesis testing, publication. | "Ingest 200 papers по теме → multi-wiki создаёт topic-specific KB → synthesis сравнивает frameworks + surfaces gaps → identifies novel angle для own paper." |
+| 4 | **Engineer** | Builds technical systems — software / hardware / processes. Deep design + implementation + iteration. | "Architecture proposals через AI-augmented sessions (per §4.2), но ack-required + provenance trail. Code refactoring boundary-flexible. Architecture changes — strict human authority." |
+| 5 | **Investor** | Allocates capital + manages portfolio + thesis-driven. Heavy due diligence, market analysis, network management. | "Each prospective investment = project с brief + research bundle. AI synthesizes industry reports / competitor analyses / red flags. Final allocation decision — human (per §4.3 strategic)." |
+| 6 | **Politician** | Influences public policy / community direction / movement leadership. Heavy stakeholder management, narrative crafting. | "Stakeholder CRM с relationship strength tracking. Daily news pulse filters relevant policy developments. AI drafts position papers; founder edits + acks pre-publish." |
+| 7 | **Seller** | Generates revenue через relationships + value transmission. Pipeline management, persuasion, follow-up. | "CRM с pipeline stages, ICP scoring, last-touch alerts. Email digester surfaces hot leads. AI drafts personalized outreach; human acks pre-send." |
+| 8 | **Manager** | Orchestrates team / org / operations. Coordination, decision-routing, strategic alignment, hiring/firing. | "Daily Log + project briefs + agent swarm coordinate execution. Founder spends time на strategy + people decisions vs operational mechanics." |
+| 9 | **Philosopher** | Generates frameworks / ideas / understanding. Deep reading, dialectical thinking, writing for posterity. | "Multi-wiki organized по conceptual taxonomy. AI synthesizes connections между thinkers / traditions. Drafts essays; founder thinks through edits." |
+| 10 | **Life-Developer** | Optimizes own life as primary project — health / relationships / learning / growth. Quantified self + qualitative depth. | "Life OS layer: state tracking / habits / health / energy patterns. Periodic self-reflection prompts (per UC-I.2). Skill acquisition under personal direction." |
+| 11 | **Blogger / Creator** | Builds public body of work — writing / video / podcast / educational. Audience building + content production at scale. | "Content production pipeline (research → script → footage → edit → repurpose). KB synthesis для article ideas. Audience CRM tracks community + engagement." |
+
+**Принципы для архетипов:**
+
+- **One person может быть multiple archetypes** — Founder of multi-disciplinary venture часто spans 3-5 archetypes
+- **Archetype shifts по жизни** — Engineer → Manager → Investor типичная trajectory
+- **System adapts — не фиксирована к одному archetype** — config / KB / agents / templates подстраиваются под current dominant archetype mix
+- **Archetypes НЕ исчерпывающие** — могут быть hybrid / emerging / unclassifiable. 11 — прагматический baseline, не закрытая taxonomy
+
+---
 
 ### 7.2 Agents (subordinate executors per Левенчук)
-[TBD]
 
-### 7.3 External stakeholders (clients / partners / community)
-[TBD]
+> Generic agent properties. Что constant для agents в любой Jetix instance.
 
-### 7.4 Boundaries и access control принципы
-[TBD]
+**Constitutional properties (per Левенчук, mandatory):**
+
+- **No persistent identity** — agent не "person", он role + capabilities. `acting_as` field defines current scope.
+- **No skin-in-the-game** — agent не несёт consequences за outcomes. Implication: human ack mandatory для significant.
+- **No long-term memory beyond explicit artifacts** — agent помнит только что explicitly saved (commits / wiki / `strategies.md`). "Implicit knowledge in weights" не trusted.
+- **Subordinate** — agent executes под direction (founder / coordinator / другой agent с authority). Не peer-to-peer authority.
+- **Specialised по role** — каждый agent has defined scope. Generic "do anything" agent — anti-pattern.
+- **Communication через explicit channels** — mailboxes / message schemas / typed handoffs. Не implicit shared mutable state.
+- **Auditable** — каждое action logged + provenance trail.
+
+**Critical generic agent types (что нужно в ЛЮБОЙ Jetix instance):**
+
+| Agent type | Function | Why critical |
+|-----------|----------|--------------|
+| **Capture / Ingestion agent** | Принимает input (voice / web / text / file) → cleans → stores raw + queues для processing | Information lifecycle (Cat B) — без capture system blind |
+| **Indexing / Retrieval agent** | Maintains search indexes, edges, cross-refs; serves queries | Без retrieval — KB write-only black hole |
+| **Synthesis agent** | На основе KB + raw + query — generates новый content (drafts / summaries / answers / options papers) | Synthesis = main leverage compound engineering |
+| **Coordinator (бригадир)** | Принимает complex tasks → decomposes → dispatches subagents → integrates results | Multi-agent coordination — без coordinator no swarm |
+| **Health monitor** | Collects metrics, surfaces anomalies, runs periodic checkups | Self-preservation (per Cat I) |
+| **Daily ops agent** | Daily Log creation, draft management, EOD reports, weekly review trigger | Daily Operations Layer (Cat J) |
+| **Communication tracker (CRM)** | Logs interactions, surfaces stale relationships, maintains relationship state | Network management (Cat K) |
+| **Integration manager** | Manages secure connections к external services (Cat L) | External services connectivity |
+
+**По необходимости (emerge per project / per skill):**
+
+Любые **specialised agents** появляются по мере того как strategic direction требует:
+
+- Domain experts (если проект specific area — researcher per domain)
+- Skill specialists (когда система учит новый skill — agent per skill emerges)
+- Cycle workers (per swarm cycle — temporary subagents)
+- Reviewers / QA agents (когда specific quality discipline нужна)
+- Production workers (per repeatable process — script + agent wrapper)
+
+**Принцип:** **agents НЕ should accumulate.** Если agent больше не useful — retire. Если agent не used > N period — flag для review.
+
+**Anti-patterns:**
+
+- ❌ Agent "for everything" (general-purpose без scope) — drift to chaos
+- ❌ Agent persistent identity ("our beloved Bob the agent") — anthropomorphization дружественная но против Левенчук
+- ❌ Agent peer-to-peer negotiation без human gate
+- ❌ Agent self-modifying runtime (only через explicit cycle review)
+- ❌ Hidden agent state (untracked memory / private databases)
+
+---
+
+### 7.3 External stakeholders (по контексту, generic categories)
+
+> Stakeholders external к системе. Появляются по контексту, не required.
+
+**Generic categories (что появляются если applicable):**
+
+- **Clients / Customers** — recipients of value created через system. Per Founder archetype может быть major focus (Seller / Entrepreneur / Startupper) или minimal (Researcher / Philosopher).
+- **Partners / Allies** — co-creators / strategic relationships / aligned actors. Variable depending on project.
+- **Mentors / Advisors / Teachers** — provide guidance, strategic counsel, skills transfer. Some Founders heavy на mentors, others minimal.
+- **Community / Network** — broader circle of professional / interest-based connections. Не daily но important.
+- **Vendors / Service providers** — external services (legal / accounting / hosting / tools).
+- **Investors / Financiers** (если applicable) — capital providers / board.
+- **Public audience** (если Founder is public-facing — Blogger / Politician / etc) — readers / followers / supporters.
+- **Family / Personal relationships** — separate from professional but relevant для Life-Developer / personal context.
+
+**Принципы для stakeholder roles:**
+
+- **Появляются по контексту** — Researcher might have только peer reviewers как stakeholders; Politician — entire constituency. Generic system supports range.
+- **Не obligation — opportunity** — stakeholders give system relevance + leverage, не "должны быть"
+- **Privacy & consent** — stakeholder data в системе только с consent (для personal contacts) или public-info-only (для public figures)
+- **Tier-based access** — разные stakeholders have разные access levels (NDA-cleared partners > public audience > prospects)
+- **Relationship state tracked** — per Cat K — interactions logged, state evolves, no-touch flagged
+
+**Foundation provides infrastructure для stakeholder management:**
+
+- CRM (Cat K) для tracking
+- Integration Hub (Cat L) для communication channels
+- Privacy boundaries (Cat L L.1, §6.4)
+- Consent management
+
+**Какие конкретно stakeholders, как много, как deep relationship — это RUSLAN-LAYER (per-instance) decision, не FUNDAMENTAL.**
+
+---
+
+### 7.4 Boundaries & access control (generic principles)
+
+> Кто что может делать с какими data / actions / decisions. Generic patterns.
+
+**Tier model (generic):**
+
+| Tier | Access | Authority | Examples |
+|------|--------|-----------|----------|
+| **T0 — Founder** | Full read + full write + full authority | Final ack on everything significant | Owner |
+| **T1 — Trusted agents (core)** | Scoped read + write per role | Execute within mandate; escalate edges | Bу coordinator / health monitor / etc |
+| **T2 — Specialised agents** | Narrow read + narrow write | Execute specific tasks; ack-required для outputs | Domain experts, skill specialists |
+| **T3 — Inner stakeholders** | Read-only access к specific projects (NDA-cleared) | Discussion + feedback; no system modifications | Active mentors, current clients |
+| **T4 — Outer stakeholders** | Public surface only | None (только receive published) | Public audience, prospects |
+
+**Default Deny pattern (per §4.6):**
+
+- New agent / new stakeholder / new action → **denied by default** until explicitly granted access
+- Permission grants explicit + revocable + audit-logged
+- Privilege escalation requires founder ack
+- "Borrowing" permissions ("just this once") — anti-pattern, must be formal grant
+
+**Access control mechanisms (generic enforcement):**
+
+- **Role-based** — permissions attached к roles, агенты get role assignments
+- **Scoped tokens** — для external integrations (per Cat L L.1) — minimum scope per service
+- **Time-bounded** — temporary access expires automatically (ad-hoc collaborator gets access для cycle, not permanent)
+- **Audit-trailed** — каждый access / action / permission change logged
+- **Revocable** — kill-switch на доступ всегда available + tested
+- **Compartmentalised** — sensitive data в separate stores (financial / personal / strategic — different access tiers)
+
+**Anti-patterns:**
+
+- ❌ "Open by default" → security drift
+- ❌ Implicit permissions (agent has access "потому что нужно было") → audit nightmare
+- ❌ Permanent permissions для temporary needs → permission accumulation over time
+- ❌ Shared credentials между agents → no per-agent audit trail
+- ❌ Silent privilege escalation → trust erosion
+
+---
+
+### 📊 Summary §7
+
+- **§7.1 Founder/Architect** — concrete generic description (knowledge worker / multi-project / strategic ambition / cognitive capacity vs scale gap → needs system extension)
+- **§7.1.1 11 archetypes** — Startupper / Entrepreneur / Researcher / Engineer / Investor / Politician / Seller / Manager / Philosopher / Life-Developer / Blogger — с 1-2 use примерами per archetype
+- **§7.2 Agents** — constitutional Левенчук properties (no identity / no skin-in-game / no long-term memory beyond artifacts / subordinate / specialised / explicit communication / auditable). 8 critical generic agent types + per-need specialised agents.
+- **§7.3 External stakeholders** — 7+ generic categories (clients / partners / mentors / community / vendors / investors / public / family). По контексту, не obligation.
+- **§7.4 Boundaries & access** — 5-tier model (T0 founder / T1 trusted agents / T2 specialised / T3 inner stakeholders / T4 outer). Default Deny pattern + 6 enforcement mechanisms.
+
+**Главный принцип preserved:** Founder = единственный persistent locus authority. Agents / stakeholders flexible вокруг fixed founder point.
+
+**Best practices integrated:** Левенчук subsidiarity / RACI patterns / role-based access control (RBAC) / least-privilege principle.
+
+> ✅ **§7 ready for Ruslan review.** Можно: ack as-is / modify (archetypes — добавить / убрать / переименовать; tier model — adjust; agent types — что добавить как critical baseline). После ack → LOCKED.
+
+**Open Q для Ruslan:**
+1. **§7.1.1 11 archetypes** — оставляем 11 как есть или modify (добавить / переименовать / merge / split)?
+2. **§7.2 critical agent types** — 8 baseline ОК или добавить ещё (например — Project manager agent / External-watcher / Personal coach agent)?
+3. **§7.4 5-tier model** — granularity OK или нужно proще / подробнее?
 
 ---
 
