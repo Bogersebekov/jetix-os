@@ -67,6 +67,29 @@ Jetix должен быть **двуслойным**:
 
 **Ключевая фишка:** быстро обучаемая + быстро делающая. Направление учёбы определяется **стратегическими документами**. Можно сегодня учить video editing, завтра M&A advisory, послезавтра physics research — система адаптируется под фокус владельца.
 
+**Двойной вектор: улучшение + сохранение.**
+- **Улучшение:** система направлена на постоянное улучшение и развитие — себя самой и владельца. Через compound engineering, skill acquisition, methodology evolution.
+- **Сохранение:** одновременно — на сохранение и **безопасность себя** + чистоту состояния. Не allows degradation. Регулярные health checkups → проактивное обнаружение drift / stagnation / chaos.
+
+**Кто пользователь системы (foundational positioning):**
+
+Jetix создан для **профессиональных интеллектуальных работников** — людей которые:
+- Работают с **большими объёмами информации**
+- Решают **сложные задачи / вопросы / проекты**
+- Управляют **множественными направлениями** одновременно
+- Имеют **долгосрочные стратегические амбиции** (не tactical-only)
+- Готовы **инвестировать в систему** time/attention для multiplier ROI
+
+Это **НЕ массовый продукт** для casual users. Целевая audience — founders / researchers / investors / strategic consultants / scientists / serious creators. Система требует discipline для использования + дисциплина возвращается через compound leverage.
+
+**Стиль работы system × owner:**
+
+Система **подсказывает / показывает / подпинывает** — НЕ "делает за тебя". Это критично:
+- Владелец остаётся **agent** (acting subject), не **patient** (object that things happen to)
+- Система highlights что нужно посмотреть, какие decisions ждут, где drift намечается
+- Финальный выбор всегда у владельца (per Левенчук architect-orbit + D2)
+- Anti-pattern: автоматически принимать decisions за владельца → ведёт к agency erosion
+
 ---
 
 ### Категория A — Strategic Management Layer
@@ -242,15 +265,86 @@ Jetix должен быть **двуслойным**:
 
 ---
 
+### Категория I — Continuous Health & Self-Improvement Layer
+
+> Регулярные checkups системы + владельца. Постоянное напоминание о дисциплине self-reflection. Система **подпинывает**, не делает за.
+
+**UC-I.1 — Periodic system health checkups (weekly / monthly / yearly)**
+- **Что:** Система автоматически проводит health-checkups регулярно: weekly review (что crucial / что drift'нуло) / monthly (deeper — KPIs / strategy alignment / resource burn) / yearly (architectural review / methodology refinement / vision check). Используются best practices observability + automated metrics + structured retrospectives.
+- **Зачем:** Без регулярных checkups system slowly degrades — KB stale, agent strategies misaligned, decisions outdated. С checkups — early detection + continuous calibration.
+- **Принцип:** automate всё что можно (metrics collection / report generation / anomaly detection); human ack для qualitative assessment.
+
+**UC-I.2 — Periodic owner self-reflection prompts (discipline reminders)**
+- **Что:** Система **периодически подталкивает** владельца на self-reflection: "Как могу улучшить себя? Как улучшить систему? Что работает / что нет? Какие правки внести?" Это происходит на cadence (например еженедельно / помесячно), запускается structured prompts.
+- **Зачем:** Owner self-improvement — основной leverage. Без external nudge даже disciplined owner skip'ает self-review (срочное вытесняет важное). С system nudge — discipline maintained.
+- **Принцип:** prompts открытые questions (не yes/no checkboxes); ответы saved как artifacts (для compound learning); вызовы могут быть deferred но не cancelled.
+
+**UC-I.3 — Recommendation engine ("показывает куда смотреть", не делает за)**
+- **Что:** Система highlights: что требует внимания / какие decisions ждут / где drift намечается / какие opportunities surface'ятся / кто из контактов давно not touched / какие KPIs trending wrong. Output = list "look here" — НЕ автоматические actions.
+- **Зачем:** Cognitive load reduction — не нужно владельцу самому scan'ить всё state. С recommendation engine — focus enabled.
+- **Принцип:** **подсказывает / показывает / подпинывает** — финальный выбор всегда у владельца. Anti-pattern: auto-execute recommendations → agency erosion.
+
+**UC-I.4 — System self-preservation & integrity checks**
+- **Что:** Система регулярно проверяет own integrity: KB consistency / decisions chain validity / agent strategies coherence / resource leaks / security posture / backup health. Auto-repair где safe; escalation к владельцу где judgment required.
+- **Зачем:** Self-preservation. Без integrity checks — silent corruption / drift / data loss accumulates.
+- **Принцип:** integrity > convenience. Лучше остановить task с warning чем продолжить on broken state.
+
+---
+
+### Категория J — Daily Operations Layer
+
+> Ежедневная работа: planning + execution + draft workflow + EOD report. Где human × system co-work happens день за днём.
+
+**UC-J.1 — Daily working page (planning + draft + EOD report)**
+- **Что:** Каждый день имеет dedicated working page (Daily Log) где владелец:
+  - **Утром:** планирует что хочет сделать сам + что должна сделать система
+  - **В течение дня:** черновик-area для творения / тестирования / экспериментов с pulled-in info из активных проектов
+  - **Вечером:** получает report (что сделано system'ой + сам пишет что сделал) или система автоматически собирает EOD summary
+- **Зачем:** Daily structure = sustainable execution. Без структуры дни blur, momentum теряется. С Daily Log — visibility + discipline.
+- **Принцип:** lightweight (не bureaucratic); черновик-friendly (place для messy thinking); auto-link to active projects.
+
+**UC-J.2 — Draft → review → promote/archive workflow**
+- **Что:** Items созданные на daily page — не сразу финальные. Они идут в **drafts** (per project / general). На review (EOD или weekly) — что годится → promoted в **чистовик** (project doc / wiki entry / decision); что не годится → archive (preserved но excluded из active query results).
+- **Зачем:** Mental space для exploration без commitment. Не каждая мысль должна сразу become artifact; drafts mehr space для experimentation.
+- **Принцип:** drafts persist (не auto-delete); promotion explicit (требует ack); archived items searchable но flagged.
+
+**UC-J.3 — Weekly draft review & integration**
+- **Что:** Раз в неделю система запускает (или предлагает) review накопленных drafts: что обработать / promote / archive / merge / drop. Output — clean state drafts area + integrated knowledge в wiki/projects.
+- **Зачем:** Без weekly review drafts накапливаются → information graveyard. С review — drafts либо promoted, либо archived с провенансом.
+- **Принцип:** review automated where possible (auto-suggest categorization); human ack для значимых items.
+
+---
+
+### Категория K — Communication & Network Tracking Layer (basic CRM)
+
+> Базовый слой tracking отношений и взаимодействий с людьми / организациями. Multi-context (business / family / mentor / friend / etc).
+
+**UC-K.1 — Multi-context relationship tracking**
+- **Что:** Все значимые контакты owner'а — в системе с structured info: имя / контакты / context (business / family / mentor / friend / partner / vendor / etc) / relationship strength / current state / history / mutual interests. Один human может занимать multiple contexts (business contact + friend).
+- **Зачем:** Без structured tracking — relationships fade, opportunities lost, last-touch unknown. С tracking — proactive maintenance + leverage.
+- **Принцип:** privacy-aware (sensitive info encrypted / restricted); consent-respected (если человек просит forget — forget); context-aware (business interactions ≠ family interactions, разные patterns).
+
+**UC-K.2 — Interaction history + relationship state**
+- **Что:** Каждое взаимодействие (звонок / email / meeting / message / introduction) recorded с date / context / outcome / next-action. Relationship state evolves через time (cold → warm → close → ally / friend → distant → reconnect).
+- **Зачем:** Memory aid + pattern visibility. "Когда последний раз говорил с X?" / "О чём договорились?" / "Кто X-у меня представил?" — answerable.
+- **Принцип:** lightweight capture (1-2 строки post-interaction); auto-extract из communication channels где возможно (email / messengers); human curation для quality.
+
+**UC-K.3 — Multi-purpose CRM (sales / partners / mentors / community / network)**
+- **Что:** Базовая CRM поддерживает разные purposes: prospects (sales pipeline) / partners (strategic relationships) / mentors-advisors (personal development) / community (network) / hires (recruiting) / friends (personal). Schema flexible per purpose; query patterns per purpose.
+- **Зачем:** Single-purpose CRM (sales-only) ограничивает. Multi-purpose — полная network awareness.
+- **Принцип:** один уровень data model (person / org / interaction / relationship), множественные views per purpose.
+
+---
+
 ### 🎯 Итог §1 — что система делает в одном предложении
 
-> **Jetix — это AI-augmented operating system для усиления мозга владельца: помогает создавать стратегические документы → фильтрует и накапливает знания в multi-wiki KB → синтезирует на основе них new outputs → выполняет complex задачи через self-learning agent swarm с Левенчук discipline → быстро учится новым skills под current strategic focus → всё running на git-based reversible foundation с auditable provenance + health monitoring + multi-channel access. Owner освобождает голову для стратегического мышления + чистоты.**
+> **Jetix — это AI-augmented operating system для усиления мозга профессиональных интеллектуальных работников: помогает создавать и держать стратегические документы → фильтрует и накапливает знания в multi-wiki KB → синтезирует на основе них new outputs → выполняет complex задачи через self-learning agent swarm с Левенчук discipline → быстро учится новым skills под current strategic focus → ведёт ежедневную работу через Daily Log + draft workflow → tracks отношения через multi-purpose CRM → регулярно проводит health checkups + подпинывает владельца на self-reflection → всё running на git-based reversible foundation с auditable provenance + health monitoring + multi-channel access. Двойной вектор: постоянное улучшение + сохранение чистоты/безопасности себя и владельца. Система подпинывает, не делает за — финальный выбор всегда у владельца.**
 
 ---
 
 ### 📊 Summary §1
 
-- **20 use cases в 8 категориях:**
+- **31 use case в 11 категориях:**
   - A. Strategic Management (3 UC)
   - B. Information Lifecycle (5 UC)
   - C. Self-Improvement & Learning (3 UC)
@@ -259,11 +353,16 @@ Jetix должен быть **двуслойным**:
   - F. AI Augmentation Continuity (2 UC)
   - G. Multi-channel Access (2 UC)
   - H. Foundation & Reliability (5 UC)
-- **Generic, sector-agnostic** — применимо к любой нише (AI consulting / медицина / e-commerce / research / преподавание)
-- **Главный принцип preserved:** система = усилитель мозга, чистота владельца — основной outcome
+  - **I. Continuous Health & Self-Improvement (4 UC)** — NEW
+  - **J. Daily Operations (3 UC)** — NEW
+  - **K. Communication & Network Tracking / basic CRM (3 UC)** — NEW
+- **Generic, sector-agnostic** — применимо к любой нише (AI consulting / медицина / e-commerce / research / преподавание / etc)
+- **Двойной вектор preserved:** улучшение (self + owner) + сохранение/безопасность (self + owner)
+- **Positioning explicit:** для профессиональных интеллектуальных работников, НЕ массовый продукт
+- **Style explicit:** система подпинывает / подсказывает / показывает — финальный выбор у владельца (per D2 architect-orbit + Левенчук)
 - **Левенчук discipline preserved:** agents не strategize, communication explicit, provenance mandatory
-- **Compound engineering core:** self-improvement + skill acquisition + methodology library = exponentiation engine
-- **Best practices integrated:** Karpathy LLM Wiki + Matuschak evergreens + Luhmann Zettelkasten (KM); LangGraph/CrewAI patterns (multi-agent); event sourcing / observability (foundation)
+- **Compound engineering core:** self-improvement + skill acquisition + methodology library + regular health checkups = exponentiation engine
+- **Best practices integrated:** Karpathy LLM Wiki + Matuschak evergreens + Luhmann Zettelkasten (KM); LangGraph/CrewAI patterns (multi-agent); event sourcing / observability (foundation); GTD-style daily/weekly review (operations); multi-purpose CRM patterns (relationships)
 
 > ✅ **§1 LOCKED for review.** Ruslan ack или modify (edit/add/remove) → дальше §2 (Потоки) или другой §.
 
