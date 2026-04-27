@@ -146,34 +146,40 @@ audit_doc: decisions/AUDIT-CURRENT-STATE-2026-04-27.md
 
 ### Sub-этап 1.3.B — Library / Best Practices Research (cycle 12 wave B, parallel с 1.3.A possibly)
 
+**ВАЖНО:** Per §4.5 critical constraint — **library на сервере primary, web research только supplementary**. Internal "consultant" agents create на основе **полного framework foundation study**, не surface-level summaries.
+
 **Что ROY делает:**
 
-1. **Discover library:** scan repo для books / research dumps / external materials available:
+1. **Discover library** (thorough — multiple search patterns):
    - `raw/research/*` (already known existing)
-   - Любые другие research / book extracts в repo
-   - Notion-referenced materials (если applicable)
+   - `~/jetix-os/raw/sources/` если есть
+   - `~/Documents/` / `~/Library/` / `~/Books/` — anywhere PDF/EPUB stored на сервере
+   - Find / locate / grep по common book filenames + canonical author names
+   - Любые другие research / book extracts в repo / на disk
 2. **Catalog best practices sources** which relevant к Foundation architecture:
-   - Левенчук ШСМ материалы
-   - Системное мышление books (Senge / Meadows / Sterman / etc)
-   - Менеджмент frameworks (Drucker / Lean / TOC / Kanban / Agile)
-   - Multi-agent patterns (LangGraph / CrewAI papers / FrameStack)
-   - Event sourcing / CQRS (Kleppmann / Fowler)
-   - Observability / SRE (Google SRE / Honeycomb)
-   - Knowledge management (Karpathy / Matuschak / Luhmann)
-   - AI safety / alignment (Anthropic Constitutional AI / etc)
+   - **Левенчук ШСМ материалы** — full books / lectures / methodology если available
+   - **Системное мышление books** (Senge / Meadows / Sterman / etc)
+   - **Менеджмент frameworks** (Drucker / Lean / TOC / Kanban / Agile)
+   - **Multi-agent patterns** (LangGraph / CrewAI papers / FrameStack)
+   - **Event sourcing / CQRS** (Kleppmann / Fowler)
+   - **Observability / SRE** (Google SRE / Honeycomb)
+   - **Knowledge management** (Karpathy / Matuschak / Luhmann)
+   - **AI safety / alignment** (Anthropic Constitutional AI / etc)
    - Любые другие relevant в library
-3. **Per source:** brief assessment (что useful / какие principles / как applicable)
-4. **Build "consultants" per major framework** — internal expert roles ROY can consult:
-   - "Levenchuk consultant" — applies Левенчук discipline rules
-   - "Systems thinking consultant" — applies systems perspective
-   - "Multi-agent architecture consultant" — applies multi-agent patterns
-   - "Reliability consultant" — applies SRE/event sourcing
-   - "KM consultant" — applies knowledge management patterns
+3. **Per source detailed assessment:** не "brief" — а **deep read** key foundational frameworks (per §4.5 — consultant pattern). Marginal frameworks — brief reference OK.
+4. **Build "consultants" per major framework** — internal expert agents ROY can consult:
+   - **"Levenchuk consultant"** — прочитал ВСЮ Левенчук foundation (не пара статей); applies discipline rules с deep understanding
+   - **"Systems thinking consultant"** — прочитал full systems thinking literature; applies systems perspective
+   - **"Multi-agent architecture consultant"** — прочитал foundational multi-agent papers; applies patterns
+   - **"Reliability consultant"** — прочитал SRE Book + event sourcing literature; applies disciplined patterns
+   - **"KM consultant"** — прочитал KM frameworks (Luhmann / Matuschak / etc); applies methodology
    - etc per dominant frameworks identified
+   - **Each consultant has documented foundation** (что прочитан) для transparency
+5. **Web research только supplementary** — если library не покрывает framework, max 5 sources external (focused on canonical introductions / authoritative summaries) + flag в output что shallower coverage.
 
-**Output:** Best Practices Integration Manifest (deliverable §2.5) draft + library inventory + consultant role definitions.
+**Output:** Best Practices Integration Manifest (deliverable §2.5) draft + library inventory (с file paths) + consultant role definitions (с foundation read documented).
 
-**ETA:** 2-3 часа ROY swarm (parallel с 1.3.A possibly, или sequential — ROY decides).
+**ETA:** 2-3 часа ROY swarm (parallel с 1.3.A possibly, или sequential — ROY decides). Library discovery — отдельный effort если deep.
 
 ### Sub-этап 1.3.C — Per-part Deep Work (cycle 12 waves C+, sequential per part)
 
@@ -260,6 +266,53 @@ audit_doc: decisions/AUDIT-CURRENT-STATE-2026-04-27.md
 - ❌ Skipping verification ("кажется работает")
 - ❌ Loss of provenance (где взяли idea?)
 - ❌ Architecture drift от FUNDAMENTAL Vision
+
+---
+
+## §4.5 ⚠️ CRITICAL — Best practices research depth (Ruslan emphasis 27.04 evening)
+
+**ОЧЕНЬ важная constraint которая applies ко всей работе ROY:**
+
+> **НЕ работать с framework на основе одной-двух статей "о том как работает Левенчук" / "о том как работает event sourcing" / etc. Это unacceptable shallow approach.**
+
+**Правильный pattern:**
+
+1. **Primary source — library на сервере** (CC discovery в Sub-этап 1.3.B). **Большинство нужной информации УЖЕ есть** в books / extracts / research dumps / foundations. External web research — **ТОЛЬКО supplementary**, не primary.
+
+2. **"Internal consultant" pattern (mandatory):** для каждого major framework (Левенчук / системное мышление / multi-agent / event sourcing / observability / KM / etc) — ROY создаёт **dedicated internal expert agent** который:
+   - **Прочитал ВСЮ foundation framework'а** (book полностью, не chapter; entire methodology, не excerpts)
+   - **Имеет deep понимание принципов** (не surface-level summary)
+   - **Может answer detailed questions** про framework's application к specific architectural decisions
+   - **Доступен другим subagents** для consultation per part work
+
+3. **На 100% глубоко (везде помечать):**
+   - Когда ROY work на specific part architecture — consultant'ы applied **на 100%**, не "почитал часть, забил хуй"
+   - **"Foundation studied на 100% насколько это возможно"** — не выборочно, не через summary
+   - Все decisions traced к specific framework principles (provenance per architectural choice)
+   - НЕ "Левенчук говорит X, поэтому делаем X" — а "согласно Левенчук [page/chapter reference], принцип Y means Z в контексте data lifecycle, поэтому в Foundation [specific implementation]"
+
+4. **Balance — sensible scope, но deep coverage chosen frameworks:**
+   - НЕ overdo (не перья дрожжи / 50 frameworks superficially)
+   - НЕ shallow (одна статья на framework — unacceptable)
+   - **Pick few critical frameworks** (Левенчук + системное мышление + multi-agent + event sourcing + KM + observability — primary). Per chosen framework — **полное foundation study**.
+   - Остальные frameworks — peripheral references (mentioned, not deep applied)
+
+5. **Если нужного framework нет в library:**
+   - **Сначала** check thoroughly что точно нет (multiple search patterns)
+   - **Потом** web research — но 5 sources max, focused on canonical introductions / authoritative summaries
+   - **Прямо flag в output** что "framework X не имеет полной library coverage, используется через web summary — risk: shallow application"
+
+**Anti-pattern — категорически запрещено:**
+
+- ❌ "Левенчук рекомендует X" из одного блог-поста / Twitter thread
+- ❌ Generic "best practices integrated" claims без specific references
+- ❌ Surface-level framework citations как decoration
+- ❌ Сherry-picking convenient principles, ignoring inconvenient ones from same framework
+- ❌ Using framework as cargo cult ("делаем X потому что framework сказал" без understanding why)
+
+**Везде помечать в documents:** "100% framework foundation studied" / "consultant agent X validated this section" / "framework principles applied to N% — areas Y/Z deferred к future work due to Z reason".
+
+**Это constraint applies ко ВСЕМ Sub-этапам 1.3.B + 1.3.C + 1.3.D**, не только library research.
 
 ---
 
