@@ -8,10 +8,11 @@ bundle: 1
 part: 6b
 parent_part: 6
 split_rationale: "OQ-MERGED-1 override Ruslan walkthrough 2026-04-27: scale-readiness Phase B/C/D, real-time gate vs quarterly audit cadence independence, Default-Deny constitutional ownership"
-status: post-critic-finalized
+status: ruslan-acked-canonical
 wisdom_loop_adoption: "YES=11 NO=3 ALREADY_APPLIED=5"
 critic_findings: "IP-1 clean; A.14 edges all typed; F-G-R self-dogfood complete; §6.1 never-list machine-readable 11-entry enum confirmed; §F.3 three-category Stoic structure confirmed; §H deep-module confirmed; §0 VSM S3 confirmed; corrigibility L9 strengthened with Askell verbatim; §J.4 burn-rate expanded to 1x/6x/14.4x; §K blameless-postmortem quote added + K-cascading new failure mode + Senge Law 11 note; §C.4 supersedes-not-corrects precision added; §B.6 SRE Book explicit citation; §G ASL-tier analogue note added; §M full 19-row wisdom table populated; NO: sycophancy detection mechanism (Wave D), batch sub-grouping algorithm (Phase B), semantic identity-claiming detection (Wave D)"
-F: F4
+F: F8
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md decisions #3 + #4 + #5 — F4→F8 constitutional. Default-Deny FRAMEWORK F8 constitutional ACK; blast-radius 4-tier structure (0/1/2/3) accepted as Foundation generic; AWAITING-APPROVAL packet schema with gate_class enum {stop_gate, stage_gate, draft_promotion} FROZEN as permanent contract for all future packets across all cycles. Future modification requires AWAITING-APPROVAL constitutional gate."
 ClaimScope: "Foundation generic — Default-Deny framework, blast-radius tier structure, AWAITING-APPROVAL packet schema, escalation taxonomy structure, halt-log-alert primitive, stage-gate predicates Hamel-binary discipline. RUSLAN-LAYER: specific whitelisted action classes, specific blast-radius assignments per action class, specific SLA values, terminal acker (Ruslan)."
 R:
   refuted_if: "Any canonical promotion bypasses Part 6b gate; OR any §6.1 violation goes silent (no halt + log + alert); OR any novel action executes without Default-Deny check"

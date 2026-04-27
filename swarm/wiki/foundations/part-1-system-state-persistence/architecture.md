@@ -6,10 +6,11 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 1
 part: 1
-status: post-critic-FLAG-MINOR-resolved
+status: ruslan-acked-canonical
 wisdom_loop_adoption: "YES=18 NO=4 ALREADY_APPLIED=18"
 critic_findings_resolved: "philosophy CC-1..CC-4 fixed inline; engineering DRY-1 / FINDING-2 / FINDING-3 / K15/K16/K17 fixed inline"
-F: F4
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md — F4→F5 (codified rule, written and reviewed at Wave C architecture level). Promotion to F6 contingent on ≥3 successful applications across cycles 13+ (Lindy substrate evidence accumulating). OQ-B1-7 unshare -n: NOT available (sandbox AppArmor); strace 6.8 fallback path confirmed available — P1.3 acceptance predicate satisfiable via strace."
 ClaimScope: "Foundation Parts 1-10; does not govern RUSLAN-LAYER executor bindings or Notion display layer"
 R:
   refuted_if: "Any Foundation part achieves durable canonical state without routing through this part's git interface"

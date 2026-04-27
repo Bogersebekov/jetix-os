@@ -8,10 +8,11 @@ bundle: 1
 part: 6a
 parent_part: 6
 split_rationale: "OQ-MERGED-1 override Ruslan walkthrough 2026-04-27: scale-readiness Phase B/C/D, fork-friendly portable provenance standard, independent change cadence (quarterly vs real-time)"
-status: post-critic-finalized
+status: ruslan-acked-canonical
 wisdom_loop_adoption: "YES=13 NO=3 ALREADY_APPLIED=19"
 critic_findings: "Cargo-cult flags: 0 (all citations carry consequence within 200 chars). IP-1 verdict: CLEAN — no executor names in Foundation-level definitions. A.14 purity: CLEAN — zero generic depends-on outside §D Prohibited declaration. Hamel-binary: all four P6a predicates are binary. Default-allow: none detected. Four HARD GAPS remain open and explicitly named."
-F: F4
+F: F8
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md decision #2 — F4→F8 constitutional. F-G-R schema canonicalized as Foundation invariant. OQ-B1-1 anchor wording refinements ACCEPTED: F4 = ≥3 cycles applied (Hamel-binary count threshold); F6 = cross-cycle reuse evidence; F8 = FUNDAMENTAL Vision lock-class. Future modification requires AWAITING-APPROVAL constitutional gate."
 ClaimScope: "Foundation generic — F-G-R schema, citation lint, approval log, quarterly audit framework. RUSLAN-LAYER: specific governance role bindings (Provenance Officer human assignment)"
 R:
   refuted_if: "Any canonical artefact in swarm/wiki/ promoted without F-G-R fields; OR any cargo-cult citation passes /lint --check-citations and reaches canonical state"
