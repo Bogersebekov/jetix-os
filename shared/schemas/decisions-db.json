@@ -1,0 +1,113 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "shared/schemas/decisions-db.json",
+  "title": "Decisions DB Index Entry",
+  "description": "Per UC-A.4 decisions tracking & recall. Lightweight, lint-enforceable, semantic-recall-able. Foundation-generic per Pillar A §I.3.",
+  "type": "object",
+  "required": [
+    "decision_id",
+    "what",
+    "when",
+    "by_whom",
+    "based_on",
+    "status",
+    "scope",
+    "connection"
+  ],
+  "properties": {
+    "decision_id": {
+      "type": "string",
+      "pattern": "^[DI]-[a-zA-Z0-9-]+$",
+      "description": "D-NN for Lock entries; I-<slug> for Strategic Insights; per Pillar A §I.3"
+    },
+    "what": {
+      "type": "string",
+      "description": "Concise statement of decision"
+    },
+    "when": {
+      "type": "string",
+      "description": "ISO date or date-time; null если not yet dated"
+    },
+    "by_whom": {
+      "type": "string",
+      "enum": [
+        "ruslan",
+        "ruslan-via-multi-chat",
+        "agent-draft-ruslan-acked",
+        "pending-review"
+      ],
+      "description": "Per FUNDAMENTAL §6.2 founder-agency"
+    },
+    "based_on": {
+      "type": "object",
+      "properties": {
+        "context": {"type": "string"},
+        "sources": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "reasoning": {"type": "string"},
+        "data": {"type": "string"}
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "superseded",
+        "reversed",
+        "paused",
+        "under-review",
+        "pending-review",
+        "deferred-phase-2-plus",
+        "draft-awaiting-discussion"
+      ]
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "level": {
+          "type": "string",
+          "enum": [
+            "constitutional",
+            "strategic",
+            "project",
+            "tactical",
+            "personal",
+            "operational"
+          ]
+        },
+        "affected_parts": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "external_commitments": {"type": "boolean"}
+      }
+    },
+    "connection": {
+      "type": "object",
+      "properties": {
+        "anchored_strategic_docs": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "derived_from_decisions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "contradicts_decisions": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "extended_by_decisions": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "lock_candidate": {
+      "type": "boolean",
+      "description": "If true, candidate for Lock Entry promotion per D27 evolution discipline"
+    }
+  }
+}

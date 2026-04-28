@@ -1,0 +1,153 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "shared/schemas/project-strategy.json",
+  "title": "Project Strategy",
+  "description": "Schema for project-level strategy artefacts hosted by Part 7 Pillar B extension. Foundation-generic per Wave C Bundle 5. Specific content RUSLAN-LAYER per project instance.",
+  "type": "object",
+  "required": [
+    "project_slug",
+    "strategy_type",
+    "outcome",
+    "appetite",
+    "pillar_a_anchor",
+    "circuit_breakers",
+    "F",
+    "G",
+    "R",
+    "owner_ack"
+  ],
+  "properties": {
+    "project_slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "strategy_type": {
+      "type": "string",
+      "enum": ["consulting", "research", "product", "bets"],
+      "description": "Mirrors Part 7 main project_types enum from .claude/config/project-types.yaml"
+    },
+    "outcome": {
+      "type": "object",
+      "required": ["statement", "hamel_binary_predicate"],
+      "properties": {
+        "statement": {
+          "type": "string",
+          "description": "Owner-authored prose describing target end-state"
+        },
+        "hamel_binary_predicate": {
+          "type": "string",
+          "description": "Boolean test that determines outcome achieved or not. e.g., 'cold_outreach_to_paying_client_count >= 3 by 2026-06-30'"
+        }
+      }
+    },
+    "appetite": {
+      "type": "object",
+      "required": ["weeks", "rationale_singer_shape_up"],
+      "properties": {
+        "weeks": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Singer Shape Up appetite-as-CONSTRAINT (NOT estimate). Mirrors Part 7 main §A.1 discipline"
+        },
+        "attention_budget_hours_per_week": {"type": "integer"},
+        "capital_budget_eur": {
+          "type": "number",
+          "minimum": 0
+        },
+        "rationale_singer_shape_up": {"type": "string"}
+      }
+    },
+    "pillar_a_anchor": {
+      "type": "object",
+      "required": ["type", "path"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["direction_card", "north_star", "phase_plan"]
+        },
+        "path": {"type": "string"},
+        "anchor_status_at_authoring": {
+          "type": "string",
+          "enum": ["active", "under-review"]
+        },
+        "anchor_supersession_action": {
+          "type": "string",
+          "enum": ["re-anchor", "re-shape", "escalate"]
+        }
+      }
+    },
+    "circuit_breakers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["condition", "action"],
+        "properties": {
+          "condition": {
+            "type": "string",
+            "description": "Hamel-binary predicate triggering breaker"
+          },
+          "action": {
+            "type": "string",
+            "enum": ["kill", "re-shape", "pause", "escalate"]
+          },
+          "rationale_munger_inversion": {"type": "string"}
+        }
+      }
+    },
+    "principles_compliance": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Refs to Pillar C principle docs"
+    },
+    "inherits_strategy_from": {
+      "type": "string",
+      "description": "Path to parent project strategy if sub-project"
+    },
+    "strategy_override": {
+      "type": "object",
+      "description": "Sections diverging from inherited parent"
+    },
+    "F": {
+      "type": "string",
+      "enum": ["F2", "F4", "F5"]
+    },
+    "G": {"type": "string"},
+    "R": {
+      "type": "string",
+      "enum": ["R-low", "R-medium", "R-medium-high", "R-high"]
+    },
+    "owner_ack": {
+      "type": "object",
+      "required": ["acked_by", "acked_date"],
+      "properties": {
+        "acked_by": {"const": "ruslan"},
+        "acked_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "supersedes": {"type": "string"},
+    "superseded_by": {"type": "string"},
+    "bet_pitch_pattern": {
+      "type": "object",
+      "description": "If strategy_type=bets, additional Bet Pitch sub-fields per Phase 1 Type 10",
+      "properties": {
+        "appetite_window": {
+          "type": "string",
+          "enum": ["6_weeks_default", "2_weeks_micro", "12_weeks_extended"]
+        },
+        "cooldown_window": {
+          "type": "string",
+          "default": "2_weeks"
+        },
+        "shape_up_pitch_clarity": {"type": "boolean"},
+        "rabbit_holes_anti_scope": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    }
+  }
+}

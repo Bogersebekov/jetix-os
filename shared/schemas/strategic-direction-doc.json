@@ -1,0 +1,115 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "shared/schemas/strategic-direction-doc.json",
+  "title": "Strategic Direction Document",
+  "description": "Schema for strategic-direction artefacts hosted by Part 11 (Pillar A). Foundation-generic per Wave C Bundle 5. Specific content RUSLAN-LAYER per Phase A instance.",
+  "type": "object",
+  "required": [
+    "doc_type",
+    "slug",
+    "status",
+    "F",
+    "G",
+    "R",
+    "constitutional_anchors",
+    "principles_compliance",
+    "prose_authored_by",
+    "created_date",
+    "owner_ack"
+  ],
+  "properties": {
+    "doc_type": {
+      "type": "string",
+      "enum": [
+        "lock_entry",
+        "north_star",
+        "strategic_insight",
+        "direction_card",
+        "phase_plan",
+        "strategic_reflection"
+      ],
+      "description": "One of 6 Foundation strategic-doc types per Phase 1 disposition ADOPT-INTO-PILLAR-A"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "scaffold-pending-review",
+        "active",
+        "under-review",
+        "superseded",
+        "paused",
+        "retired"
+      ]
+    },
+    "F": {
+      "type": "string",
+      "enum": ["F2", "F3", "F4", "F5", "F6", "F8"]
+    },
+    "G": {"type": "string"},
+    "R": {
+      "type": "string",
+      "enum": ["R-low", "R-medium", "R-medium-high", "R-high"]
+    },
+    "constitutional_anchors": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Refs to FUNDAMENTAL Vision sections / FPF anchors"
+    },
+    "fpf_anchors": {
+      "type": "array",
+      "items": {"type": "string"}
+    },
+    "principles_compliance": {
+      "type": "array",
+      "items": {"type": "string"},
+      "description": "Refs to Pillar C principle docs (Tier 1 + Tier 2)"
+    },
+    "prose_authored_by": {
+      "type": "string",
+      "enum": ["ruslan", "agent-draft-pending-ack", "hybrid-with-ack-trail"],
+      "description": "Per FPF IP-7 + Pillar C Tier-2 rule 1; LOCKED state must be ruslan or hybrid-with-ack-trail"
+    },
+    "created_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "last_reviewed_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "owner_ack": {
+      "type": "object",
+      "properties": {
+        "acked_by": {"const": "ruslan"},
+        "acked_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "ack_signature": {"type": "string"}
+      },
+      "required": ["acked_by", "acked_date"]
+    },
+    "supersedes": {
+      "type": "string",
+      "description": "Path to prior strategic doc this one supersedes (append-only chain)"
+    },
+    "superseded_by": {"type": "string"},
+    "cadence": {
+      "type": "string",
+      "description": "Cadence rule per type — see strategic-doc-types.yaml per-type table"
+    },
+    "audience_F_G_R_flags": {
+      "type": "object",
+      "description": "Audience-tier flags per FPF B.3"
+    },
+    "decisions_db_index_entry": {
+      "type": "object",
+      "description": "UC-A.4 decisions-DB index payload — surfaced at recall-time"
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "shared/schemas/principle-doc.json",
+  "title": "Principle Document",
+  "description": "Schema for principle artefacts hosted by Pillar C. Foundation-generic per Wave C Bundle 5.",
+  "type": "object",
+  "required": [
+    "principle_id",
+    "tier",
+    "category",
+    "slug",
+    "statement",
+    "rationale",
+    "scope",
+    "F",
+    "G",
+    "R",
+    "owner_ack",
+    "created_date"
+  ],
+  "properties": {
+    "principle_id": {
+      "type": "string",
+      "pattern": "^P-[CSM]-[0-9]+$"
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["tier_1_manager", "tier_2_system"]
+    },
+    "category": {
+      "type": "string",
+      "enum": ["foundation_generic", "ruslan_layer_overrides"],
+      "description": "Tier 1 always ruslan_layer_overrides; Tier 2 splits foundation_generic vs ruslan_layer_overrides per directory structure"
+    },
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "statement": {
+      "type": "string",
+      "description": "The principle text — concise, declarative"
+    },
+    "rationale": {
+      "type": "string",
+      "description": "Why this principle; what it prevents / enables"
+    },
+    "scope": {
+      "type": "object",
+      "properties": {
+        "applies_to": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "all_agents",
+              "specific_role_archetypes",
+              "owner_only",
+              "system_wide",
+              "specific_part_consumers"
+            ]
+          }
+        },
+        "specific_role_archetypes": {
+          "type": "array",
+          "items": {"type": "string"}
+        },
+        "specific_part_consumers": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "fundamental_anchor": {
+      "type": "string",
+      "description": "Required for tier_2_system foundation_generic. Refs FUNDAMENTAL §6.1 rule N"
+    },
+    "fpf_anchor": {"type": "string"},
+    "F": {
+      "type": "string",
+      "enum": ["F2", "F4", "F5", "F8"]
+    },
+    "G": {"type": "string"},
+    "R": {"type": "string"},
+    "owner_ack": {
+      "type": "object",
+      "required": ["acked_by", "acked_date"],
+      "properties": {
+        "acked_by": {"const": "ruslan"},
+        "acked_date": {
+          "type": "string",
+          "format": "date"
+        }
+      }
+    },
+    "supersedes": {"type": "string"},
+    "superseded_by": {"type": "string"},
+    "promoted_from_lock_entry": {
+      "type": "string",
+      "description": "If promoted via Pillar A Lock-to-principle pathway, ref to Lock Entry"
+    },
+    "enforcement": {
+      "type": "object",
+      "description": "For tier_2_system foundation_generic: derived enforcement contract to Part 6b",
+      "properties": {
+        "part_6b_action_class": {"type": "string"},
+        "part_6b_enforcement_mode": {
+          "type": "string",
+          "enum": ["halt_log_alert", "advisory", "default_deny"]
+        },
+        "grade": {"type": "string"}
+      }
+    },
+    "audit": {
+      "type": "object",
+      "properties": {
+        "review_cadence": {"type": "string"},
+        "last_reviewed_date": {
+          "type": "string",
+          "format": "date"
+        },
+        "violation_history": {
+          "type": "array",
+          "items": {"type": "object"}
+        }
+      }
+    }
+  }
+}
