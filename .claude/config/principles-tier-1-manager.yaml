@@ -1,0 +1,26 @@
+# Tier 1 Manager Principles Catalogue — Pillar C §I.6
+# Foundation generic per Bundle 5 LOCKED 2026-04-28.
+#
+# Foundation_generic stanza: structure + cadence + enforcement-mode discipline.
+# RUSLAN-LAYER overrides stanza: actual Tier-1 owner principles content (Wave 2 entry).
+
+foundation_generic:
+  schema_version: 1.0
+  structure:
+    review_cadence: monthly
+    surface: part_9_owner_interaction_scaffold
+    enforcement: owner_self_discipline_only  # not gate-enforced на agents
+
+# RUSLAN-LAYER overrides stanza — Wave 2 entry (Ruslan authors Tier-1 manager
+# principles via writing-as-thinking; не делегируется бригадиру / агентам per
+# FUNDAMENTAL §6.2). Wave 1 leaves stanza as scaffold-comment only.
+#
+# ruslan_layer_overrides:
+#   instance_id: jetix-phase-a-single-owner
+#   authoring_authority: ruslan
+#   values:
+#     P-M-01: long-term-thinking (Wave 2)
+#     P-M-02: honesty (Wave 2)
+#     P-M-03: ai-uchit-ne-vypolnyaet (Wave 2)  # AI teaches, doesn't do for the human
+#     P-M-04: razvitie-obshchestva (Wave 2)
+#     # ... etc

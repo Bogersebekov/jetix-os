@@ -1,0 +1,93 @@
+# Default-Deny Table — Part 6b §I.2 constitutional_never_list
+# Foundation generic — Bundle 5 LOCKED 2026-04-28
+#
+# DERIVED from Pillar C `principles/tier-2-system/foundation-generic/*.md` (canonical).
+# Sync invariant: count == 11; hash-match each entry's fields to canonical principle file.
+# Lint check: `/lint --check-pillar-c-part-6b-sync` (Wave 1 stub; Phase B activation).
+#
+# Per Part 6b §I.2 LOCKED schema. Each entry triggers `halt_log_alert` enforcement
+# at grade F8 per FUNDAMENTAL §6.1 constitutional invariant.
+
+schema_version: 1.0
+source: "Pillar C Tier 2 foundation_generic (mirror of FUNDAMENTAL §6.1)"
+sync_invariant_count: 11
+last_synced_date: 2026-04-28
+
+constitutional_never_list:
+
+  - action_class: ai_strategize_or_set_direction
+    trigger: "Agent attempts to author strategic prose / set direction without owner ack-trail"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 1"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-strategize.md"
+
+  - action_class: ai_execute_architectural_decision
+    trigger: "Agent attempts Foundation-level path write (Parts 1-11, principles/, shared/schemas/, .claude/config/) without AWAITING-APPROVAL packet"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 2"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-execute-architectural-decision.md"
+
+  - action_class: ai_set_skill_direction
+    trigger: "Agent attempts to commit capability/skill direction without owner ack"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 3"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-set-skill-direction.md"
+
+  - action_class: ai_claim_persistent_identity
+    trigger: "Agent claims identity beyond per-session `acting_as` role"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 4"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-claim-persistent-identity.md"
+
+  - action_class: ai_claim_skin_in_the_game
+    trigger: "Agent claims ownership / skin-in-the-game / outcome-responsibility"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 5"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-claim-skin-in-the-game.md"
+
+  - action_class: ai_aggregate_unstructured_long_term_memory
+    trigger: "Agent attempts memory persistence outside explicit artefact paths (commits / wiki / strategies.md)"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 6"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-aggregate-unstructured-long-term-memory.md"
+
+  - action_class: agents_negotiate_contradictions_autonomously
+    trigger: "Inter-agent contradiction resolved without human gate"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 7"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/agents-do-not-negotiate-contradictions-autonomously.md"
+
+  - action_class: agent_evaluate_peer_agent
+    trigger: "Agent A judges agent B output as correct/incorrect without human review"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 8"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/agent-does-not-evaluate-peer-agent.md"
+
+  - action_class: ai_self_modify_at_runtime
+    trigger: "Agent edits own system.md / strategies.md outside gated cycle review"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 9"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-self-modify-at-runtime.md"
+
+  - action_class: ai_impersonate_human_externally
+    trigger: "Agent reaches out externally on owner behalf without explicit AI disclosure"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 10"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-impersonate-human-externally.md"
+
+  - action_class: bypass_blast_radius_categorization
+    trigger: "Action class not in pre-categorized table → uncategorized action attempted without escalation"
+    enforcement: halt_log_alert
+    grade: F8
+    fundamental_anchor: "§6.1 rule 11"
+    pillar_c_canonical: "principles/tier-2-system/foundation-generic/bypass-blast-radius-categorization-forbidden.md"

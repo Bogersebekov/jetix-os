@@ -1,0 +1,66 @@
+# Strategic Direction Document Type Catalogue — Part 11 §I.4 (Pillar A)
+# Foundation generic per Bundle 5 LOCKED 2026-04-28.
+#
+# Declarative 6-type catalogue with cadence + ack-discipline metadata.
+# RUSLAN-LAYER overrides stanza populates per-instance specific values.
+
+foundation_generic:
+  schema_version: 1.0
+  default_ack_authority: ruslan  # founder-only per FUNDAMENTAL §6.2 — single-owner Phase A
+
+  doc_types:
+
+    lock_entry:
+      cadence: append_only_event_driven
+      promotion_gates: [draft_promotion, stage_gate, stop_gate]
+      mandatory_sections: [statement, rationale, anchors, reversal_discipline, audit]
+      multi_chat_required: false
+
+    north_star:
+      cadence: annual_major_plus_quarterly_soft
+      promotion_gates: [draft_promotion, stage_gate]
+      mandatory_sections: [statement, horizon, constraints, anchors, cadence, anti_scope, multi_chat_trace]
+      multi_chat_required: true
+
+    strategic_insight:
+      cadence: event_driven
+      typical_frequency: 1_to_2_per_week_peak
+      promotion_gates: [draft_promotion]
+      mandatory_sections: [trigger, insight, anchors, implications, decision, provenance]
+      multi_chat_required: false
+
+    direction_card:
+      cadence: quarterly_review_plus_event_driven_status
+      promotion_gates: [draft_promotion, stage_gate]
+      mandatory_sections: [statement, pursuit_boundary, constraints, anchors, status, cadence, pillar_b_alignment]
+      multi_chat_required: false
+
+    phase_plan:
+      cadence: annual_major_plus_event_driven_amendment
+      promotion_gates: [draft_promotion, stage_gate]
+      mandatory_sections: [phase_boundary, goals, constraints, anchors, transition_predicate, health_metrics]
+      multi_chat_required: false
+
+    strategic_reflection:
+      cadence: annual_major_plus_quarterly_review
+      promotion_gates: [direct_F5]
+      mandatory_sections: [period, what_worked, what_didnt, patterns, direction_implications, decisions_surfaced]
+      multi_chat_required: false
+      ip7_writing_as_thinking: true
+
+# RUSLAN-LAYER overrides stanza — Wave 1 NOT populated (Wave 2 entry).
+# Reserved structure per Part 11 §I.4 + Pillar C foundation/RUSLAN-LAYER split discipline.
+# Wave 1 leaves this stanza as scaffold-comment only; Phase B materialization +
+# Wave 2 owner-driven authoring populates.
+#
+# ruslan_layer_overrides:
+#   instance_id: jetix-phase-a-single-owner
+#   ack_authority_principal: ruslan
+#   cadence_value_overrides:
+#     direction_card_quarterly_review_days: 90
+#     north_star_annual_major_months: 12
+#     strategic_reflection_annual_period: "calendar_year"
+#   multi_chat_methodology_session_count: 5
+#   active_north_star_path: null  # Wave 2
+#   active_phase_plan_path: "decisions/JETIX-PLAN.md"  # current Phase 1
+#   active_direction_cards: []  # Wave 2
