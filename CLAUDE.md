@@ -1,8 +1,103 @@
 # Jetix OS — Master Configuration
 
+> **Foundation Architecture v1.0 LOCKED 2026-04-28** — Etap 1 of Генеральная чистка
+> CLOSED. See `## Foundation Architecture v1.0 (LOCKED)` section below for canonical
+> Foundation references; `## §4 Pillar C Principles` for boot-context Tier-2 inlined.
+> Tag: `foundation-architecture-locked-2026-04-28`.
+
 ## System Overview
 Jetix OS is a multi-agent system for managing an AI consulting business
 and personal life. Owner: Ruslan (Berlin, Germany).
+
+## Foundation Architecture v1.0 (LOCKED 2026-04-28)
+
+**Canonical Foundation Architecture closure.** Etap 1 of Генеральная чистки
+materialised through cycle `cyc-foundation-build-2026-04-28` (Wave A → B → C → D
++ Bundle 5 Strategic Layer → Wave E LOCKED tag). Tag:
+`foundation-architecture-locked-2026-04-28`.
+
+### 10 LOCKED Foundation parts F5
+
+- [Part 1 — System State Persistence](swarm/wiki/foundations/part-1-system-state-persistence/architecture.md)
+- [Part 2 — Signal Ingestion & Triage](swarm/wiki/foundations/part-2-signal-ingestion-triage/architecture.md)
+- [Part 3 — Knowledge Base & Methodology Library](swarm/wiki/foundations/part-3-knowledge-base-methodology-library/architecture.md)
+- [Part 4 — Role Taxonomy & Coordination Protocol](swarm/wiki/foundations/part-4-role-taxonomy-coordination-protocol/architecture.md)
+- [Part 5 — Compound Learning & Methodology Capture](swarm/wiki/foundations/part-5-compound-learning-methodology-capture/architecture.md)
+- [Part 6a — Provenance Officer](swarm/wiki/foundations/part-6a-provenance-officer/architecture.md)
+- [Part 6b — Human Gate](swarm/wiki/foundations/part-6b-human-gate/architecture.md)
+- [Part 7 — Project Lifecycle Substrate](swarm/wiki/foundations/part-7-project-lifecycle-substrate/architecture.md) **+ [Bundle 5 Pillar B supplement (project strategy slot)](swarm/wiki/foundations/part-7-project-lifecycle-substrate/bundle-5-supplement-pillar-b.md)**
+- [Part 8 — Health Monitoring & System Integrity](swarm/wiki/foundations/part-8-health-monitoring-system-integrity/architecture.md)
+- [Part 9 — Owner Interaction Scaffold](swarm/wiki/foundations/part-9-owner-interaction-scaffold/architecture.md)
+- [Part 10 — External Touchpoints & Network Interface](swarm/wiki/foundations/part-10-external-touchpoints-network-interface/architecture.md)
+
+### Strategic Layer Foundation extension F5 LOCKED (Bundle 5)
+
+- [Part 11 — Strategic Direction Substrate (Pillar A)](swarm/wiki/foundations/part-11-strategic-direction-substrate/architecture.md) — system-wide direction (6 strategic-doc types: Lock Entry / North Star / Strategic Insight / Direction Card / Phase Plan / Strategic Reflection); UC-A.1/A.2/A.3/A.4 hosting; Decisions DB
+- [`principles/` Foundation sub-system (Pillar C)](swarm/wiki/foundations/principles/architecture.md) — two-tier (Tier 1 manager + Tier 2 system) с foundation_generic + ruslan_layer_overrides per tier; canonical source for Part 6b constitutional_never_list
+
+### F8 Constitutional schemas
+
+- [`shared/schemas/`](shared/schemas/) — F-G-R / Default-Deny table / blast-radius / AWAITING-APPROVAL packet / Halt-Log-Alert / Corrigibility / WORD COUNT 10K-20K / canonical health-signal / message v2.0.0
+- `shared/schemas/message.schema.json` — message v2.0.0 with `acting_as:`
+- `shared/schemas/task.schema.json` — task contract
+- `shared/schemas/task-return-packet.json` — Part 4 §I.1 LOCKED
+- `shared/schemas/briefing.schema.json` — briefing contract
+- `shared/schemas/executor-binding.yaml.template` — IP-1 Role≠Executor RUSLAN-LAYER binding
+- `.claude/config/default-deny-table.yaml` — Part 6b §I.2 constitutional_never_list (11 entries derived from Pillar C Tier 2 foundation_generic)
+
+### C1 Shared infrastructure
+
+- [`swarm/lib/`](swarm/lib/) — shared protocols, hooks, routing
+- `swarm/lib/routing-table.yaml` — routing canonical
+- `swarm/lib/shared-protocols.md` — multi-agent protocol library
+- `swarm/lib/hooks/` — pre-commit + cycle hooks
+
+### Constitutional documents
+
+- [JETIX VISION FUNDAMENTAL v1.0](decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md) — 35 UC × 12 categories; Layer 1 of 2 (RUSLAN-LAYER overlay = Layer 2)
+- [JETIX FPF Constitutional Spec](design/JETIX-FPF.md) — 3758 lines; FPF-Steward governed; IP-1/IP-2/IP-3/IP-7 + A.6.B + A.14 + B.3
+- [Foundation Build Master Plan Brief](decisions/JETIX-FOUNDATION-BUILD-MASTER-PLAN-BRIEF-2026-04-27.md)
+- [Audit Current State](decisions/AUDIT-CURRENT-STATE-2026-04-27.md)
+
+### 8 RUSLAN-ACK records
+
+- [Bundle 1](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md) — Parts 1/2/4/6a baseline
+- [Bundle 1 supplement 1](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md) — retroactive constitutional pattern
+- [Bundle 1 supplement 2](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2-2026-04-28.md)
+- [Bundle 2](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md) — Parts 3/5/6b
+- [Bundle 3](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-28.md) — Parts 8/10
+- [Bundle 4](decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md) — Parts 7/9
+- [Wave D Integration Pass](decisions/RUSLAN-ACK-WAVE-D-INTEGRATION-PASS-2026-04-28.md) — Coverage 55/55; Inter-Part 98.1%; M3 8/8; STANDALONE PRESERVED 2.2× margin
+- [Bundle 5 Strategic Layer Foundation](decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md) — Pillar A/B/C structural placement + CLAUDE.md HYBRID + FUNDAMENTAL hierarchy Option 2
+
+### Strategic Layer Phase 1 baseline (predecessor)
+
+- [Phase 1 Strategic Layer Templates ack](decisions/RUSLAN-ACK-STRATEGIC-LAYER-PHASE-1-BASELINE-2026-04-28.md) + [templates ack](decisions/RUSLAN-ACK-STRATEGIC-LAYER-TEMPLATES-2026-04-28.md)
+- [Phase 1 templates exemplar archive](decisions/strategic/_templates/) — 7 templates (structural references for Pillar A architecture §I)
+
+## Critical Tier-2 Principles (inlined for boot context)
+
+> Canonical: `principles/tier-2-system/foundation-generic/` (Pillar C F5 LOCKED).
+> Sync invariant: `/lint --check-claude-md-sync` (Phase B materialization).
+> If divergent → `principles/` wins; this section is derived per `claude-md-reframing-decision.md` HYBRID split.
+
+**Default-Deny novel actions** (FUNDAMENTAL §6.1 rule 11) — every novel action class
+must be classified at `.claude/config/default-deny-table.yaml`; uncategorized → deny-and-escalate per Part 6b §I.2 LOCKED enforcement.
+
+**AI does NOT strategize** (FUNDAMENTAL §6.1 rule 1) — рой генерит варианты, surfaces options, drafts; **Ruslan = sole strategist**. Strategic prose `prose_authored_by:` must be `ruslan` or `hybrid-with-ack-trail` at F5 LOCKED state per Part 11 §A.1. Agent-pending = halt_log_alert violation.
+
+**AI does NOT execute architectural decisions автономно** (FUNDAMENTAL §6.1 rule 2) —
+Foundation-level path writes (Parts 1-11, principles/, shared/schemas/, .claude/config/) require AWAITING-APPROVAL packet via Part 6b stage_gate or stop_gate. Default-Deny otherwise.
+
+**Halt-Log-Alert on integrity violations** (Part 6b §I.2) — F8 grade violations halted ≤1s; F4 grade ≤5s; F2 grade ≤60s. All emit to `swarm/approvals/log.jsonl` + Part 8 SLI alert. Fail-loud per FUNDAMENTAL §5.5; no silent swallowing.
+
+**Corrigibility** (FUNDAMENTAL §4.3 + Bundle 1 RUSLAN-ACK + Askell HHH triad) — никакой механизм не может lock'ать owner out of system control. Owner ack-authority is final; agents cannot override, delay-without-permission, or pre-commit. Per Pillar C Tier 2: agents do NOT claim skin-in-the-game (rule 5); do NOT self-modify at runtime (rule 9).
+
+**F-G-R DOGFOOD on every promoted claim** (Part 6a §I.1 F8 schema) — каждое утверждение promoted в Foundation / Pillar / Lock entry carries Formality (F2-F8) / Group-scope / Reliability (R-low to R-high) per `f-g-r.json` schema. Per FPF B.3.
+
+**IP-1 Role≠Executor** (FPF IP-1 + Bundle 1 D-1 anti-conflation) — Foundation роли = U.Episteme abstract role-types (manager, strategist, sales-lead, etc.); executor bindings (specific agents like `claude-opus`, `sonnet-4-6`) = RUSLAN-LAYER per `shared/schemas/executor-binding.yaml.template`. Foundation parts MUST NOT name executor instances; Part 6b enforces.
+
+
 
 ## Architecture
 - 12 specialized agents across 6 departments
