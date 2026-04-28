@@ -474,6 +474,7 @@ Full JSON Schema draft-07. Philosophy-expert requirement: ≥4 named cross-fork 
     "fork_branch",
     "divergence_point",
     "reconciliation_strategy",
+    "approvals_reconciliation_strategy",
     "audit_trail_continuation",
     "f_g_r_on_imported_claims",
     "ip1_role_binding_overrides"
@@ -518,6 +519,11 @@ Full JSON Schema draft-07. Philosophy-expert requirement: ≥4 named cross-fork 
       "type": "string",
       "description": "How conflicts between fork and parent are resolved. Phase A only: 'deferred-phase-b'. All other values are Phase B architecture.",
       "enum": ["deferred-phase-b", "cherry-pick-manual", "merge-with-review", "fork-read-only"]
+    },
+    "approvals_reconciliation_strategy": {
+      "type": "string",
+      "description": "Top-level field promoted from metadata per OQ-B1-5 (Bundle 4 supplement 2). How fork's local approval acks reconcile against Foundation parent acks. Cross-ref Part 10 §I.1 (Bundle 4 declared the strategies operationally).",
+      "enum": ["parent-wins", "fork-wins", "manual-merge", "decline-import", "pending-review"]
     },
     "audit_trail_continuation": {
       "type": "object",
@@ -591,6 +597,12 @@ schema_version_history:
     effective_from: "2026-04-28"
     changelog: "Initial Phase A stub. reconciliation_strategy: deferred-phase-b only. schema_version field added per investor HARD GAP."
     notes: "Old cross-fork records without schema_version field are assumed version 1.0.0 for upcasting purposes."
+  - version: "1.1.0"
+    effective_from: "2026-04-28"
+    changelog: "Bundle 4 retroactive supplement 2 — approvals_reconciliation_strategy promoted from metadata open field to top-level required field with 5 declared strategies (parent-wins / fork-wins / manual-merge / decline-import / pending-review). Per OQ-B1-5 RUSLAN-ACK Bundle 1 + Bundle 4 §I.1 operational declaration."
+    notes: "Records prior to v1.1.0 with approvals_reconciliation_strategy in metadata.* are upcast on next read per K18 upcasting policy. Cross-reference Part 10 §I.1."
+    breaking: false
+    supersedes: "v1.0.0 metadata.approvals_reconciliation_strategy field"
 ```
 
 This block ensures that when the schema evolves (Phase B adds reconciliation strategies, Phase B adds new required fields), old records remain parseable by declaring which version they conform to. Young's upcasting requirement [src:event-sourcing-cqrs.md:§4 Principle 4 "Event Versioning / upcasting"].
