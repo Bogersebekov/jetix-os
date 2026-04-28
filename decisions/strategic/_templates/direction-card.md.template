@@ -2,11 +2,11 @@
 title: "Direction — <PLACEHOLDER direction name>"
 type: direction-card
 version: 1.0
-status: canonical
+status: draft
 cadence: quarterly review for activation/deferral; event-driven status changes in-quarter
 owner: ruslan-plus-agent (Ruslan defines/activates; mini-swarm operates within active Direction)
 audience: internal
-F: F5
+F: F3
 G: "<ClaimScope: ongoing strategic line of work; bounded by current Phase + parent North Star>"
 R: R-medium
 last_updated: <YYYY-MM-DD>

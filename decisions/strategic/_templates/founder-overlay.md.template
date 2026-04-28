@@ -2,11 +2,11 @@
 title: "Founder Overlay (RUSLAN-LAYER) — <YYYY-MM-DD baseline OR amendment subject>"
 type: founder-overlay
 version: <semver, e.g., 1.0 baseline OR 1.1 amendment>
-status: canonical
+status: draft
 cadence: annual baseline + event-driven amendments at Phase transitions
 owner: ruslan-plus-agent
 audience: internal
-F: F5
+F: F3
 G: "<ClaimScope: Ruslan-specific overlay over FUNDAMENTAL Layer 1 — bounded by current Phase + current archetype mix; replaceable without touching Layer 1>"
 R: R-medium
 last_updated: <YYYY-MM-DD>

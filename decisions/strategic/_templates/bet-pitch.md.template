@@ -2,11 +2,11 @@
 title: "Bet Pitch — <PLACEHOLDER bet name>"
 type: bet-pitch
 version: 1.0
-status: canonical
+status: draft
 cadence: per-cycle (Singer 6-week + 2-week cooldown; or 1w / 2w / R&D-mode appetite)
 owner: ruslan-plus-agent (Ruslan shapes; T2 drafting-support; betting-table ritual T0-only)
 audience: internal-only
-F: F5
+F: F3
 G: "<ClaimScope: shaped pitch for one cycle inside one Direction; archived at cycle-close>"
 R: R-low
 last_updated: <YYYY-MM-DD>
