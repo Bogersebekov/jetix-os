@@ -4,7 +4,7 @@ date: 2026-04-28
 type: foundation-architecture
 sub_system: principles (Foundation cross-cutting subordinate, NOT a numbered Part)
 pillar: C — Principles / Values (two-tier)
-status: AWAITING-APPROVAL — Bundle 5 brigadier draft
+status: F5 LOCKED — Ruslan ack 2026-04-28 (decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md)
 parent_cycle: cyc-foundation-build-2026-04-28
 bundle: 5-strategic-layer
 brigadier_phase: A-4 integrator drafts
@@ -22,9 +22,9 @@ fpf_anchors:
   - "FPF B.3 — F-G-R per principle artefact"
   - "FPF A.14 — typed edges (constrained-by)"
   - "FPF A.6.B — Boundary (L/A/D/E)"
-F: F4
-G: brigadier-Bundle-5 Pillar C integrator draft
-R: R-medium — pending Ruslan ack
+F: F5
+G: Foundation sub-system canonical — Principles Substrate (Pillar C) — Ruslan ack'd Bundle 5
+R: R-high — owner ack'd 2026-04-28
 locked_decisions_referenced: [D-2 architect-orbit, D-12 founder-agency, D-26 single-accountable]
 ip2_single_owner_bounded: "Phase A scope is single-owner; principles authoring authority = Ruslan only per FUNDAMENTAL §6.2. Tier 2 foundation_generic (11 hard rules from §6.1) is fork-portable; Tier 2 ruslan_layer_overrides + Tier 1 manager principles content = RUSLAN-LAYER per Phase A. F.9 Bridge structural change ≥35% required at Phase B (multi-owner / fork instances)."
 ClaimScope: "Foundation generic — two-tier structure (Tier 1 manager + Tier 2 system); Tier 2 foundation_generic 11-rule canonical authoring (mirroring FUNDAMENTAL §6.1); principle-doc schema + frontmatter; governance discipline (authoring authority, supersession, audit cadence); CLAUDE.md HYBRID sync invariant; Part 6b derivation contract (canonical → derived enforcement); Pillar A consumption contract (principles_compliance citation); cross-cutting integration. RUSLAN-LAYER: Tier 1 content (Ruslan's values), Tier 2 ruslan_layer_overrides content (Ruslan's instance-specific rules), specific principle texts."
@@ -62,7 +62,7 @@ Parts 1-11. Sub-system status preserves cross-cutting subordinate semantics.
 - Part 6a (Provenance Officer): F-G-R per principle artefact + supersession audit
 - CLAUDE.md (operational config): Tier 2 critical hard rules inlined for boot context per claude-md-reframing-decision.md HYBRID split
 
-[F4|G:Bundle 5 Pillar C architecture — Phase A single-owner; Fork-portable structure|R-medium — pending Ruslan ack]
+[F5|G:Foundation Pillar C canonical — Phase A single-owner; Fork-portable structure|R-high — Ruslan ack'd 2026-04-28]
 
 ---
 

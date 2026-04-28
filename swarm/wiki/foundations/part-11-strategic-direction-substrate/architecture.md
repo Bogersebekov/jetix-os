@@ -4,7 +4,7 @@ date: 2026-04-28
 type: foundation-architecture
 part: 11
 pillar: A — Main Strategic Documents (system-wide direction)
-status: AWAITING-APPROVAL — Bundle 5 brigadier draft
+status: F5 LOCKED — Ruslan ack 2026-04-28 (decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md)
 parent_cycle: cyc-foundation-build-2026-04-28
 bundle: 5-strategic-layer
 brigadier_phase: A-4 integrator drafts
@@ -29,9 +29,9 @@ fpf_anchors:
 ip2_single_owner_bounded: "Phase A scope is single-owner (Ruslan); strategic doc ack authority = Ruslan only per FUNDAMENTAL §6.2 founder-agency. Specific values (cadence weeks, ack SLA hours, content of Direction Cards) are RUSLAN-LAYER. Foundation generic = the doc-type structure + lifecycle + ack discipline + integration contracts. F.9 Bridge structural change ≥35% required at Phase B (multi-owner / fork instances)."
 critic_findings: "Draft prepared; awaiting Phase A-6 critic gate. Self-checks done: 6 doc types map to Phase 1 disposition ADOPT-INTO-PILLAR-A (Lock Entry, North Star, Strategic Insight, Direction Card, Phase Plan, Strategic Reflection); FUNDAMENTAL hierarchy = subordinate elaboration (Option 2); Pillar A does not author principles (Pillar C boundary respected); Pillar A does not author project strategy (Pillar B boundary respected)."
 ClaimScope: "Foundation generic — strategic-doc-type catalogue, lifecycle, cadence patterns, ack discipline, supersession via append-only, FUNDAMENTAL hierarchy contract, integration with Parts 4/5/6a/6b/7/8/9, decisions-DB structure (UC-A.4). RUSLAN-LAYER: actual content of strategic docs, specific cadence values, specific instance Direction Cards, specific Lock entries content, specific North Star focus, specific Phase Plan horizons."
-F: F4
-G: brigadier-Bundle-5 Pillar A integrator draft
-R: R-medium — pending Ruslan ack
+F: F5
+G: Foundation Part 11 canonical — Strategic Direction Substrate (Pillar A) — Ruslan ack'd Bundle 5
+R: R-high — owner ack'd 2026-04-28
 locked_decisions_referenced: [D-2 architect-orbit, D-21 Roy-Replication, D-22 Korp-Startup, D-26 single-accountable, D-27 Fork-and-merge, D-29 hybrid-framework]
 ---
 
@@ -55,7 +55,7 @@ lifecycles, governance, and integration contracts. The CONTENT of strategic
 documents (e.g., Ruslan's Direction Card for «AI consulting DACH Mittelstand»)
 is RUSLAN-LAYER personalization (next sprint).
 
-[F4|G:Bundle 5 Part 11 architecture — Phase A single-owner; Fork-portable|R-medium — pending Ruslan ack]
+[F5|G:Foundation Part 11 canonical — Phase A single-owner; Fork-portable|R-high — Ruslan ack'd 2026-04-28]
 
 ---
 

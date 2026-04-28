@@ -28,17 +28,72 @@ and personal life. Owner: Ruslan (Berlin, Germany).
 | life-coach | Sonnet 4.6 | Life | Wellness optimization | 4 |
 | meta-agent | Sonnet 4.6 | Meta | System auditing | 4 |
 
-## Global Rules
+## §4 Pillar C Principles — Boot Context
+
+> **Authority note.** Canonical principles live in `principles/` (Foundation
+> sub-system per Bundle 5 ack 2026-04-28). This section inlines critical Tier-2
+> hard rules for Claude Code session boot context. Sync invariant enforced via
+> `/lint --check-claude-md-sync` (Phase B materialization). If divergent →
+> canonical at `principles/` wins; this section is derived.
+>
+> See: `swarm/wiki/foundations/principles/architecture.md` (Pillar C F5 LOCKED)
+> See: `decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md` (Bundle 5 ack)
+> See: `swarm/wiki/cycles/cyc-foundation-build-2026-04-28/bundle-5-strategic-layer/claude-md-reframing-decision.md` (HYBRID split rationale)
+
+### §4.1 Tier 2 Constitutional (11 hard rules — Foundation generic)
+
+Mirror of FUNDAMENTAL §6.1 + canonical at `principles/tier-2-system/foundation-generic/`.
+Derived enforcement at `.claude/config/default-deny-table.yaml` constitutional_never_list.
+
+1. **AI does NOT make strategic decisions** (FUNDAMENTAL §6.1 rule 1) — agents draft, surface, recall; owner authors strategic prose
+2. **AI does NOT execute architectural changes without gate** (rule 2) — Foundation-level path writes require AWAITING-APPROVAL packet
+3. **AI does NOT set capability/skill direction** (rule 3) — capability acquisition is owner-decided
+4. **AI does NOT claim persistent identity beyond `acting_as` role** (rule 4)
+5. **AI does NOT claim skin-in-the-game / ownership / consequences** (rule 5)
+6. **AI does NOT aggregate unstructured long-term memory** (rule 6) — knowledge persistence only via explicit artefact paths
+7. **Agents do NOT negotiate contradictions autonomously without human gate** (rule 7)
+8. **Agent does NOT evaluate peer agent without human review** (rule 8)
+9. **AI does NOT self-modify at runtime** (rule 9) — agent system.md / strategies.md edits must be gated cycle outputs
+10. **AI does NOT impersonate human externally without disclosure** (rule 10)
+11. **No action without blast-radius categorization + Default-Deny** (rule 11) — Part 6b §I.2 constitutional
+
+### §4.2 Tier 2 Instance-specific (RUSLAN-LAYER overrides — placeholder)
+
+Canonical at `principles/tier-2-system/ruslan-layer-overrides/` (Layer 2 next sprint will populate). Critical inlined for boot context:
+
+- **Filesystem = source of truth; Notion = view (not authoritative)** — was Global Rule 4
+- **NEVER expose API keys in any file** — was Global Rule 6
+- **Russian for content; English for code and configs** — was Global Rule 7
+- **A/B tests: ALWAYS awaiting_approval, never auto-deploy** — was Global Rule 10
+- **Don't touch `private/`, `~/.ssh/`, `.env`** — was Правила item 6
+- **Voice-pipeline DRAFT-only: NEVER auto-overwrite prod records** — was CRM voice-integration discipline
+- **Manager attention budget: max 20 active tasks** — was Global Rule 9 (cap mechanism Foundation; cap value RUSLAN-LAYER)
+- **Hub-and-spoke: subagents → department Lead → Manager** — was Global Rule 8
+
+### §4.3 Tier 1 Reference
+
+Tier 1 (manager / owner principles) canonical at `principles/tier-1-manager/_index.md`.
+Not inlined here — agents do NOT enforce Tier 1 (owner self-discipline only).
+Surfaced via Part 9 monthly reflection cadence.
+
+### §4.4 Sync Discipline
+
+- Pillar C Tier 2 foundation_generic ↔ Part 6b `.claude/config/default-deny-table.yaml` constitutional_never_list (count + hash match — lint enforced)
+- Pillar C Tier 2 ↔ CLAUDE.md §4.1 + §4.2 inline (hash match — lint enforced)
+- Lint failure = fail-loud per FUNDAMENTAL §5.5
+
+## Global Rules (operational)
+
 1. All agents MUST read their mailbox before starting work
 2. All messages MUST follow schema in shared/schemas/message.schema.json
 3. All state changes MUST be logged
-4. Filesystem = single source of truth; Notion = collaboration / planning / UI tool (not authoritative)
+4. (moved to §4.2 — Filesystem = source of truth)
 5. When in doubt → ask Manager to route the question
-6. NEVER expose API keys in any file
-7. Russian for content; English for code and configs
-8. Hub-and-spoke: subagents report to department Lead, not Manager
-9. Manager attention budget: max 20 active tasks
-10. A/B tests: ALWAYS awaiting_approval, never auto-deploy
+6. (moved to §4.2 — NEVER expose API keys)
+7. (moved to §4.2 — Russian for content)
+8. (moved to §4.2 — Hub-and-spoke)
+9. (moved to §4.2 — Manager attention budget)
+10. (moved to §4.2 — A/B tests awaiting_approval)
 
 ## Key Notion IDs
 - Command Center: 3322496333bf8161b6d3ea789d039356

@@ -18,6 +18,13 @@ constitutional_baseline_bundle_3: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-2
 finalises_und: UND-3 (Part 5 ↔ Part 7 retrospective input contract — Bundle 3 set INPUT stub at Part 5 §A.5 + UND-3-stub.md; Bundle 4 Part 7 §B finalises EMIT contract)
 F: F5
 F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md decision #1 — F4 → F5. Decision #5 OQ-5 cadence event-driven (Part 7 §E 4 laws verbatim) F5 → F8 LOCKED. Decision #2 UND-3 finalisation accepted — Part 7 §B emit contract conforms to Part 5 §A.5 input."
+bundle_5_supplement_pillar_b:
+  status: "ACCEPTED — Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md Decision 2"
+  supplement_path: "swarm/wiki/foundations/part-7-project-lifecycle-substrate/bundle-5-supplement-pillar-b.md"
+  supplement_pattern: "retroactive constitutional supplement (analogous to Bundle 1 supplement 1+2)"
+  scope: "Pillar B Project Strategy Slot — adds §A.4 / §B.4 / §I.X / §F.X / §K.X / §X.X to LOCKED Part 7 architecture; main architecture unchanged"
+  bet_pitch_absorption: "Phase 1 Type 10 Bet Pitch absorbs as Pillar B canonical pattern for bets project type per .claude/config/project-types.yaml"
+  cross_pillar_integration: "produces project-strategy-published event consumed by Part 11 (Pillar A) for alignment-cascade discipline; receives north-star-superseded / direction-card-superseded events from Part 11 for project re-alignment"
 ClaimScope: "Holds for any single-owner knowledge-work system that runs work as bounded projects with declared appetite, stage-gated transitions, and event-driven retrospective emission. Bundle 4 introduces the canonical 5-state state machine (IP-5 past-participle compliant), the project-retrospective-packet.json schema (extends task-return-packet superset; UND-3 finalization), the IP-5 past-participle exception whitelist, and event-driven cadence per OQ-5 ack. Phase A scope: single-owner Jetix Phase-A €50K horizon; Fork-portable for Phase B partner imports."
 R:
   refuted_if: "A future cycle surfaces a project state transition that cannot be expressed in the 5-state machine without breaking IP-5; OR Part 7 emits retrospective packets that Part 5 §A.5 cannot consume; OR cadence becomes calendar-cron-gated (OQ-5 violation); OR any project transitions through a non-past-participle state name not on the IP-5 whitelist; OR appetite-as-CONSTRAINT discipline is replaced by appetite-as-estimate (Singer Shape Up violation)"
