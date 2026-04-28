@@ -1,0 +1,115 @@
+---
+schema_version: "1.0.0"
+schema_version_history:
+  - version: "1.0.0"
+    date: 2026-04-28
+    changes: "initial Wave C Bundle 4 P9.3 — 3-tier SLA taxonomy Foundation artefact (L1/L2/L3); RUSLAN-LAYER override pattern for specific time values"
+    breaking: false
+managed_by: brigadier
+last_modified: 2026-04-28
+owner_part: part-9-owner-interaction-scaffold
+constitutional_anchor: "FUNDAMENTAL §4.2-§4.3"
+---
+
+# Foundation-generic 3-tier SLA structure per FUNDAMENTAL §4.2-§4.3.
+# Specific time values are RUSLAN-LAYER overrides (declared at instance deployment).
+# Cross-references: Part 6b §I.3 blast-radius 4-tier table; Part 9 §J.
+
+foundation_generic:
+  tier_definitions:
+
+    - tier: L1
+      name: strategic
+      label: "L1 — Strategic"
+      description: |
+        External commitment OR Lock modification OR canonical promotion OR
+        financial decision above RUSLAN-LAYER threshold. Requires synchronous
+        owner review. Naval specific-knowledge filter: items here are
+        non-delegate-able strategic decisions.
+      target_latency_phase_a: "ruslan-layer-override"  # See ruslan_layer_overrides below
+      target_latency_default_recommendation: "<=4h same-session"
+      blast_radius_typical: 1  # Tier 1 — Strategic per Part 6b §I.3
+      gate_class_typical: "stop_gate"
+      event_examples_foundation_generic:
+        - "stage-gate ack on AWAITING-APPROVAL packets per FUNDAMENTAL §4.2-§4.3 human-only tasks"
+        - "external commitment write-ack via Part 10 RT-2 adapter"
+        - "Foundation revision proposal (change to decisions/JETIX-VISION-FUNDAMENTAL*)"
+        - "F8 invariant change"
+        - "canonical promotion (LOCKED tag application)"
+        - "new agent system.md creation or modification"
+      requires_synchronous_owner: true
+      batch_eligible: false
+
+    - tier: L2
+      name: tactical
+      label: "L2 — Tactical"
+      description: |
+        Meaningful change to non-canonical artefacts; new config entries;
+        routine policy edits; low-severity gate decisions. Friday batch window
+        acceptable — owner reviews accumulated L2 items in batch.
+      target_latency_phase_a: "ruslan-layer-override"
+      target_latency_default_recommendation: "<=7d batch (Friday window)"
+      blast_radius_typical: 2  # Tier 2 — Tactical per Part 6b §I.3
+      gate_class_typical: "stage_gate"
+      event_examples_foundation_generic:
+        - "wiki entry promotion F4→F5 (not yet canonical)"
+        - "agent strategies.md substantive revision (beyond DRR append)"
+        - "non-canonical config change additions to .claude/config/*.yaml"
+        - "draft-disposition: accept on weekly review"
+        - "new cron or scheduled task creation"
+        - "sg-banned-phrases.yaml new entry"
+      requires_synchronous_owner: false
+      batch_eligible: true
+      batch_window: "weekly-friday"
+      batch_cap_per_window: 5
+
+    - tier: L3
+      name: routine
+      label: "L3 — Routine"
+      description: |
+        Low-blast, reversible, routine operations. In whitelist. Auto-log
+        immediate; no gate. Naval delegate-able knowledge filter satisfied.
+      target_latency_phase_a: "ruslan-layer-override"
+      target_latency_default_recommendation: "immediate (auto-log to audit)"
+      blast_radius_typical: 3  # Tier 3 — Routine per Part 6b §I.3
+      gate_class_typical: null  # No gate
+      event_examples_foundation_generic:
+        - "read-only intelligence ingest via Part 10 RT-1 adapter (Phase B)"
+        - "CRM event log append"
+        - "daily-log commit via /plan-day or /close-day"
+        - "lint scan advisory (no enforcement)"
+        - "git commit with valid format token"
+        - "append-only log append"
+        - "health metric read"
+      requires_synchronous_owner: false
+      batch_eligible: false
+      auto_log: true
+
+  default_classification_uncertainty: L2  # Per FUNDAMENTAL §4.2 conservative-not-aggressive
+
+  blast_radius_mapping:
+    # Cross-reference to Part 6b §I.3 blast-radius 4-tier table.
+    # SLA tier maps to blast-radius typical assignment.
+    L1: blast_radius_tier_1
+    L2: blast_radius_tier_2
+    L3: blast_radius_tier_3
+
+ruslan_layer_overrides:
+  # Specific time values per Ruslan's Phase A reaction profile.
+  # Phase B partner forks override per fork's reaction-time profile.
+  instance_id: jetix-phase-a-single-owner
+  l1_target_latency: "<=4h same-session"
+  l2_target_latency: "<=7d Friday batch window"
+  l3_target_latency: "immediate auto-log"
+  financial_threshold_l1_strategic: null  # To be declared by Ruslan; affects when financial decisions cross L2→L1
+
+# PHASE-B per-owner overrides supported via sla-taxonomy.<owner_id>.yaml fork pattern.
+# NOT IMPLEMENTED Phase A; F.9 Bridge structural change >=35% required at multi-owner activation.
+# Activation requires design/F-9-Bridge-multi-owner-spec.md present (pre-commit hook enforces).
+
+# Cross-references:
+#   Part 6b §I.3 .claude/config/blast-radius-table.yaml (4-tier blast radius)
+#   Part 6b §I.4 shared/schemas/awaiting-approval-packet.json (gate_class enum)
+#   Part 9 §I.3 (this file's owner part)
+#   Part 9 §J.4 (SLA-tier classification ritual)
+#   Part 9 §K K6 (SLA tier mis-classification failure mode)

@@ -1,0 +1,87 @@
+---
+schema_version: "1.0.0"
+schema_version_history:
+  - version: "1.0.0"
+    date: 2026-04-28
+    changes: "initial Wave C Bundle 4 P7.2 — applied corrections (active->activated, review->under-review) declared canonical; whitelist of under-X exception forms"
+    breaking: false
+managed_by: brigadier
+last_modified: 2026-04-28
+owner_part: part-7-project-lifecycle-substrate
+constitutional_anchor: "FPF §5.5 + §5.5a (IP-5 past-participle alpha state machine)"
+---
+
+# FPF §5.5 IP-5 past-participle alpha state machine. Whitelisted under-X forms permitted per §5.5a.
+# Foundation generic. RUSLAN-LAYER may extend with instance-specific state names if needed via
+# AWAITING-APPROVAL gate_class: stage_gate per Part 6b §I.1 stage-gates.yaml.
+
+foundation_generic:
+
+  applied_corrections:
+    # Pre-Bundle-4 informal usage in projects/ paths corrected in Bundle 4.
+    # These corrections are now canonical; no reversion permitted without
+    # /lint --check-ip5-past-participle ack.
+
+    - from: "active"
+      to: "activated"
+      rationale: "FPF §5.5 past-participle form. 'active' is adjective; 'activated' is past-participle of activate."
+      cycle_applied: "cyc-foundation-build-2026-04-28"
+      bundle_applied: 4
+      part_owner: 7
+      semantic_check: "transition triggered by stage_gate_ack staged->activated; project becomes activated state"
+
+    - from: "review"
+      to: "under-review"
+      rationale: "FPF §5.5a whitelisted under-X form. 'review' is noun-form; 'under-review' makes the active-decision-pending semantic explicit. 'reviewed' implies review concluded — wrong semantic."
+      cycle_applied: "cyc-foundation-build-2026-04-28"
+      bundle_applied: 4
+      part_owner: 7
+      semantic_check: "transition triggered by task_return_packet_aggregation closure marker; project under active retrospective drafting with closure decision pending"
+
+  whitelist_under_x_forms:
+    # FPF §5.5a permits under-X forms when past-participle would imply concluded state.
+    # Future under-X additions require AWAITING-APPROVAL gate_class: stage_gate per Part 6b.
+
+    - form: "under-review"
+      semantic: "active review window with decision pending; reviewed would imply review concluded"
+      used_by:
+        - "part-7-project-lifecycle-substrate"
+      example_state_name: "under-review"
+
+  exceptions:
+    # Other patterns where past-participle is semantically inappropriate.
+    # Example: "draft" in some contexts may be noun-form acceptable.
+    # No exceptions yet in Bundle 4; reserved for future Wave D housekeeping.
+    []
+
+  lint_signal_skill_spec:
+    # Phase B implementation per OQ-MERGED-5 specify-and-stub pattern.
+    # Specification only Phase A.
+    skill_name: "/lint --check-ip5-past-participle"
+    purpose: |
+      Scan all state names across foundations/<part>/architecture.md §I sections;
+      flag any state name not past-participle AND not in whitelist_under_x_forms.
+      Fail with exit_code 1 if violation found.
+    inputs:
+      - "swarm/wiki/foundations/*/architecture.md (recursive scan §I.1 sections)"
+      - "projects/<slug>/project.yaml frontmatter (current_state field)"
+      - "this file (whitelist + applied_corrections)"
+    outputs:
+      - "lint report at swarm/lint/reports/<YYYY-MM-DD>-ip5-past-participle.md"
+      - "exit_code: 0 if clean; 1 if violations"
+    phase_a_status: "specification-only-not-implemented"
+    phase_b_materialisation: "Phase B — first /lint --check-ip5-past-participle Phase B run validating zero violations rises F4->F5 for this whitelist file"
+
+ruslan_layer_overrides:
+  instance_id: jetix-phase-a-single-owner
+  # RUSLAN-LAYER may add additional whitelist entries via fork.
+  # Phase B partner forks may declare instance-specific state names following same Foundation discipline.
+  additional_whitelist: []
+  additional_applied_corrections: []
+
+# Cross-references:
+#   Part 7 §I.1 5-state state machine (scoped/staged/activated/under-review/closed/archived)
+#   Part 7 §I.3 IP-5 whitelist reference (this file's owner part)
+#   Part 7 §K K1 (state machine drift failure mode)
+#   FPF §5.5 + §5.5a IP-5 past-participle alpha state machine
+#   Wave A A-1-critic-gate.md §6 item 1 (FLAG-MAJOR resolved)
