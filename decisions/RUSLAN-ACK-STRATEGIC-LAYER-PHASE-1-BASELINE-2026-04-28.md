@@ -140,9 +140,11 @@ preserved in deeper cycle.
 
 ---
 
-## §5 Next step: ROY brigadier deep cycle (Bundle 5 pattern)
+## §5 Next step: ROY brigadier deep cycle — **Bundle 5**
 
-**Workstream:** Strategic Layer Foundation Bundle — full Wave A-D depth.
+**Workstream name (LOCKED):** Strategic Layer Foundation **Bundle 5** — full Wave A-D depth.
+
+(Numbering follows Foundation Bundles 1-4 already ack'd; Bundle 5 = Strategic Layer Foundation as the next bundle in the Foundation series.)
 
 Indicative shape (Cloud Cowork to dispatch and refine):
 
@@ -177,7 +179,7 @@ Foundation completeness or (b) require post-LOCK retroactive supplement (anti-pa
 per FUNDAMENTAL §8.6 vertical-axis evolution discipline).
 
 **Reactivation predicate for Wave E LOCKED tag:**
-- Strategic Layer Foundation Bundle completes (Wave D integration report + AWAITING-APPROVAL ack'd)
+- Strategic Layer Foundation **Bundle 5** completes (Wave A-D bundle ack'd + AWAITING-APPROVAL ack'd)
 - Strategic Layer cross-references integrated into Foundation Parts 1-10 interface cards (where applicable)
 - Coherence audit passes Strategic Layer × Foundation parts matrix
 
