@@ -1,0 +1,138 @@
+---
+title: "Strategic Insight — <PLACEHOLDER concept name>"
+type: strategic-insight
+version: 1.0
+status: draft-awaiting-discussion
+cadence: event-driven
+owner: ruslan-plus-agent
+audience: internal
+F: F2
+G: "<ClaimScope: single-thesis crystallization; subject to lifecycle promotion (→ Direction Card OR Lock candidate) or deferral>"
+R: R-low
+last_updated: <YYYY-MM-DD>
+lifecycle_state: <draft-awaiting-discussion | accepted | deferred-phase-2-plus | promoted-to-direction | promoted-to-lock | archived>
+supersedes: <null OR prior version>
+references:
+  foundation_parts: [Part 2 signal ingestion (input source), Part 3 KB (consumes upon promotion), Part 6 governance (gate for Lock-promotion)]
+  fpf_anchors: [IP-7 writing-as-thinking]
+  parent_strategic_docs:
+    - decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md §6 (anti-scope check)
+    - decisions/strategic/founder-overlay-<date>.md (current overlay)
+    - decisions/strategic/north-star-<date>.md (gravity-well check)
+  trigger_source: <path to research file / voice transcript / mentor call note>
+locked_decisions_referenced: [D-<list of relevant Locks>]
+---
+
+# Strategic Insight — <concept name>
+
+## §0 TL;DR
+
+Per 5-corpus-exemplar pattern (`STRATEGIC-INSIGHT-*` files in `decisions/`): always
+1-3 paragraphs at the top stating the insight bluntly + main implication.
+
+*Example fragment:* "If <observed pattern>, then <strategic implication>. Specifically:
+<concrete consequence for current Phase>. **Это не новая архитектура — это кристаллизация
+того что уже есть** (cite existing Locks/Directions) **в прямо артикулированную позицию**."
+
+## §1 Trigger / source
+
+Where the insight came from. Not optional — provenance per Type 06 anti-cargo-cult
+discipline.
+
+*Example fragment:* "Trigger: research file `raw/research/2026-04-24-bios-clone-wars-jetix-ai-parallel.md`
+combined with voice brainstorm during mentor call 2026-04-24. Cloud Cowork
+synthesized + structured."
+
+## §2 The insight crystallized (single thesis)
+
+The single crystallized thesis. Should fit in 1 paragraph. If it expands beyond,
+either (a) the insight has multiple sub-claims and should split into multiple memos,
+or (b) the thesis is not yet crystallized.
+
+*Example fragment:* "Рынок AI в 2026 = рынок PC в 1982. Business ждёт стандарт, но
+боится privacy/security/vendor lock-in. Кто-то должен сыграть роль IBM+EISA+Phoenix
+одновременно: создать open-architecture standard + безопасную implementation +
+лицензируемую методологию."
+
+## §3 Historical pattern / paradigm fit
+
+Why this insight is plausible — pattern from history, paradigm shift, or framework fit.
+Per Stoic-Epistemic consultant card P2 (Kuhn paradigm awareness): declare which
+paradigm vocabulary the insight inhabits.
+
+*Example fragment:* "Pattern reference: PC market 1977-1981 — multiple incompatible
+platforms, latent demand for standard. IBM 1981 entry with open architecture + Phoenix
+1984 clean-room BIOS unlocked $4B → trillions cumulative. 7 structural lessons
+applicable to AI/Jetix (enumerated in §3.1)."
+
+## §4 Reconciliation with existing Locks
+
+Mandatory. Per FUNDAMENTAL §8.5 (constitutional constants) and per PM consultant
+card Tradeoff D (Lock-compliance check on every quarterly OKR — same discipline applies
+to Strategic Insights since they may promote to Locks).
+
+*Example fragment table:*
+| Existing Lock | How insight aligns / extends / contradicts |
+|---|---|
+| D-13 Closed core / Open surface | Aligns — insight extends the Open-surface logic to architecture-standard layer |
+| D-20 USB-C positioning | Aligns — insight gives USB-C positioning concrete implementation paths |
+| D-29 Korp-Startup positioning | Extends — insight provides Korp-Startup with technical-differentiation backbone |
+
+If any existing Lock would have to *change* for this insight to hold → flag explicitly
++ trigger Lock-reversal-predicate review per Type 03 §5.
+
+## §5 Implementation paths (3 typical, with trade-offs)
+
+Three options enumerated with pros/cons. Per Munger latticework + Capital consultant
+card P5 (inversion — design against failure modes for each path).
+
+*Example fragment:*
+
+**Path A: <name>** — *trade-off:* fast to validate but limited upside.
+**Path B: <name>** — *trade-off:* slower to validate but higher upside.
+**Path C: Hybrid** — *trade-off:* combines A + B but operational complexity higher.
+
+Each path: 2-3 sentences on what it does, what it costs, what would falsify it (per
+Stoic-Epistemic P1).
+
+## §6 Open questions (for Ruslan discussion)
+
+1-5 specific questions, not "more research needed" hand-waving. Each question should
+be answerable in a Ruslan-mentor session or via a concrete research action.
+
+*Example fragment:*
+- **Q1:** Does the historical pattern hold given X disanalogy? (specific test)
+- **Q2:** Path A vs Path B trade-off requires <specific data> to resolve — where do we get it?
+
+## §7 Anti-scope (what this insight is NOT)
+
+Mandatory. Per FUNDAMENTAL §6 anti-scope discipline + per Type 06 anti-cargo-cult
+guardrail.
+
+*Example fragment:*
+- ❌ NOT a new architecture (only crystallization of existing Locks D-13 + D-17 + D-20)
+- ❌ NOT a Phase 1 action item (status remains `draft-awaiting-discussion` until Ruslan ack)
+- ❌ NOT a marketing position (internal strategic frame, not external messaging)
+- ❌ NOT a falsified claim — explicit falsifiers are §5 path-trade-offs and §6 open Qs
+
+## §8 Immediate next actions (or deferred status)
+
+If `accepted` → 1-3 immediate actions (with owners + cadence).
+If `deferred-phase-2-plus` → explicit deferral rationale + reactivation predicate.
+
+*Example fragment (deferred):* "DEFERRED Phase-2+ per Ruslan 2026-04-25 directive.
+Reactivation predicate: Phase 2 €200K validation gate reached AND Mittelstand
+succession opportunity surfaces concretely (e.g., 1-2 named warm intros)."
+
+## §9 Provenance + sources
+
+- Original trigger: <full path to source file>
+- Drafting cycle: <cycle-ID>
+- Cloud Cowork session-tag: <session-id>
+- Locks reconciled (§4): list
+- Mentor discussion: <YYYY-MM-DD or N/A>
+- Lifecycle promotions: <list of state transitions with dates>
+
+---
+
+*Citation format:* `[D-<NN>]` for Locks, `[FUNDAMENTAL §X.Y]` for Layer 1, `[overlay §X.Y]` for Layer 2, `[card:<framework>]` for consultant cards, `[research/<file>:<section>]` for research-bundle citations.

@@ -1,0 +1,135 @@
+---
+title: "Direction — <PLACEHOLDER direction name>"
+type: direction-card
+version: 1.0
+status: <active | deferred-phase-2-plus | archived>
+cadence: quarterly review for activation/deferral; event-driven status changes in-quarter
+owner: ruslan-plus-agent (Ruslan defines/activates; mini-swarm operates within active Direction)
+audience: internal
+F: F3
+G: "<ClaimScope: ongoing strategic line of work; bounded by current Phase + parent North Star>"
+R: R-medium
+last_updated: <YYYY-MM-DD>
+direction_slug: <kebab-case-slug>
+parent_north_star: decisions/strategic/north-star-<date>.md
+direction_state_history:
+  - {date: <YYYY-MM-DD>, state: active, rationale: "<1 line>"}
+references:
+  foundation_parts: [Part 4 role taxonomy (executor binding), Part 7 project lifecycle (projects run inside), Part 9 owner interaction (quarterly review)]
+  fpf_anchors: [IP-2 bounded context, A.6.B L/A/D/E for activation predicate]
+  d_locks: [<list of Locks this Direction respects + ones it activates against>]
+  parent_strategic_docs:
+    - decisions/strategic/founder-overlay-<date>.md (overlay binds Directions per Phase)
+    - decisions/strategic/north-star-<date>.md (gravity well)
+related_directions: [<other Direction slugs, both active and deferred>]
+---
+
+# Direction — <name>
+
+## §0 Status
+
+One-line state declaration with date.
+
+*Example fragment:* "ACTIVE since 2026-04-15 (Phase 1+). Reviewed quarterly. No
+state transitions yet."
+
+OR for deferred:
+
+*Example fragment (deferred):* "DEFERRED Phase-2+ per Ruslan 2026-04-25 directive
+(verbatim quote in §6). Reactivation predicate in §5."
+
+## §1 Thesis (the single direction-claim)
+
+The single thesis this Direction commits to. 1-2 paragraphs.
+
+*Example fragment:* "Top Lists Partner Factory — productize Jetix's category-creation
+methodology by selecting 5-10 'Direction-builders' annually (founders of allied or
+adjacent niches), giving them a 6-month structured incubation under Jetix
+infrastructure, taking equity-or-revenue-share, releasing them as Roy-Replication
+instances per D27 Fork-and-merge."
+
+## §2 Hypothesis chain (what must be true)
+
+Per Stoic-Epistemic consultant card P1 (falsifiability) — list 3-5 hypotheses that
+must all hold for the Direction to work. Each carries a falsifier.
+
+*Example fragment:*
+- **H1:** Demand exists — at least 5 Direction-builders / year willing to commit 6 months under Jetix structure. *Falsifier:* if by Phase-1 exit fewer than 2 candidates have applied / engaged, H1 is dead.
+- **H2:** Jetix infrastructure transfers cleanly — partners can use the substrate without 50% Ruslan-time consumed. *Falsifier:* if cohort 1 averages >30% Ruslan-time per partner, H2 is degraded; >50%, dead.
+- **H3:** Category-creation generalizes — partners do create new categories (not just "Jetix copies"). *Falsifier:* if cohort 1 produces 0 distinct category-creation outcomes after 6 months, H3 is dead.
+
+## §3 Current bets
+
+Type 10 Bet Pitches (this cycle and next) operating inside this Direction. Maintained
+as a list, updated per cycle-close.
+
+*Example fragment:*
+| Cycle | Bet (slug) | Appetite | Status | Outcome (if closed) |
+|---|---|---|---|---|
+| 2026-Q2-cycle1 | top-lists-icp-research-shaped | 6w | shipped | ICP candidates v1.0 produced |
+| 2026-Q2-cycle2 | top-lists-cohort-1-recruitment-shaped | 6w | active | — |
+
+## §4 Capital + attention budget
+
+Concrete % of founder time + $ if applicable. Per Capital consultant card §3 (Buffett
+owner-earnings — capital allocation in Foundation = time/attention/money allocation).
+
+*Example fragment:* "Phase 1 attention: ~40% of founder deep-work hours. Phase B+:
+likely scale up to 50% if H1+H2 confirmed; or scale down to 20% if H1 falsified.
+Money: ~€2K/month for Direction-specific tooling + community operational costs.
+Reviewed at quarterly."
+
+## §5 Activation predicate (when active vs deferred)
+
+Per FPF A.6.B L/A/D/E pattern — declare what makes the Direction *active vs deferred*
+rather than ambient handwaving.
+
+For ACTIVE Direction: state the gate that would *deactivate* (defer to Phase B+).
+For DEFERRED Direction: state the gate that would *activate*.
+
+*Example fragment (active):* "Active while: H1 not falsified AND >25% founder
+attention warranted by parent North Star. Deactivation triggers: H1 falsified OR
+parent North Star pivots away from Korp-Startup category-creation OR a higher-priority
+Direction emerges that requires the attention budget."
+
+*Example fragment (deferred):* "Deferred until: Phase 2 validation gate reached
+(€200K) AND Mittelstand succession opportunity surfaces concretely (e.g., 1-2 named
+warm intros). Until then: research preserved, document preserved, no operational
+work."
+
+## §6 Dependencies
+
+Cross-references and Lock-compliance check. Per PM consultant card Tradeoff D.
+
+*Example fragment:*
+- Locks this Direction respects: D-13 (Closed core / Open surface), D-21 (Matchmaker), D-22 (ICP), D-29 (Korp-Startup positioning)
+- Locks this Direction would require to change before activating: <none for active; for deferred, list explicitly>
+- Parent North Star §<X.Y> — Direction is a manifestation of long-horizon claim
+- Parent Founder Overlay §4 — Direction listed in active-binding section
+- Related Directions: <interactions with other active/deferred Directions>
+
+## §7 Anti-scope (what this Direction is NOT)
+
+Mandatory.
+
+*Example fragment:*
+- ❌ NOT a project (projects run *inside* Direction; Direction is the standing line)
+- ❌ NOT a one-shot Strategic Insight (Type 06; insights crystallize → may promote here)
+- ❌ NOT a marketing position (internal strategic frame; sanitized variant for partners
+  if applicable)
+- ❌ NOT an OKR (OKRs are quarterly metric-tied; Direction is multi-quarter
+  hypothesis-tied)
+
+## §8 Provenance + sources
+
+- Direction origin: <triggering Strategic Insight Memo OR voice-brainstorm OR
+  research-trigger>
+- Activation date: <YYYY-MM-DD with cycle-ID>
+- State transitions: append-only — every change to `status` adds a row to
+  `direction_state_history` frontmatter
+- Quarterly review log: <list of review-session tags / dates>
+- Mentor consultation: <list>
+
+---
+
+*Citation format:* `[D-<NN>]` for Locks, `[north-star §X.Y]`, `[overlay §X.Y]`, `[card:<framework>]`, `[memory:<slug>]`.

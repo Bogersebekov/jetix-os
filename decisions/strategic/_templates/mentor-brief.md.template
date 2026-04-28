@@ -1,0 +1,141 @@
+---
+title: "Mentor Brief — <PLACEHOLDER mentor name + YYYY-MM-DD>"
+type: mentor-brief
+version: 1.0
+status: <draft | sanitization-checked | sent | superseded>
+cadence: event-driven (per call); per-mentor cadence (weekly / monthly / quarterly)
+owner: ruslan-plus-agent (T0+T2 drafting; T2 sanitization-check; T0 ack mandatory)
+audience: T3-mentor (sanitized; never T4 public)
+F: F2
+G: "<ClaimScope: snapshot-of-state for one mentor at one moment; not a multi-mentor or multi-time document>"
+R: R-low
+last_updated: <YYYY-MM-DD>
+mentor_name: <PLACEHOLDER>
+mentor_relationship: <e.g., advisor / friend / capital-source / domain-expert>
+prior_brief: <null OR path to last mentor brief>
+sanitization_checked_by: <agent or N/A — must include "T0 ack" line>
+references:
+  foundation_parts: [Part 9 owner interaction, Part 10 external touchpoints, Part 6 governance (sanitization gate)]
+  fpf_anchors: [B.3 trust calculus (mentor reads but does not approve)]
+  parent_strategic_docs:
+    - decisions/strategic/founder-overlay-<date>.md
+    - decisions/strategic/north-star-<date>.md (selected sections only)
+    - decisions/strategic/direction-<slug>.md (active Directions only)
+  reads_from_types:
+    - lock-entry (selected — only mentor-relevant Locks per §6.4 sanitization)
+    - direction-card (active Directions only)
+    - bet-pitch (top 3 active bets only — others filtered out)
+---
+
+# Mentor Brief — <mentor name>, <YYYY-MM-DD>
+
+## §0 Mentor-binding
+
+Who this brief is for + what relationship + what cadence + what's been discussed before.
+
+*Example fragment:*
+- **Mentor:** Антон (T3 inner stakeholder per FUNDAMENTAL §7.4)
+- **Relationship:** Strategic advisor; ad-hoc capital-source potential; quarterly cadence
+- **Last brief:** `decisions/strategic/mentor-brief-anton-2026-01-15.md`
+- **Last call notes:** `crm/transcripts/anton-call-2026-01-15.md`
+- **Specific knowledge mentor brings (per Naval filter):** DACH Mittelstand operational fluency + family-business succession experience + capital networks
+
+## §1 Sanitization checkpoint
+
+Mandatory section per FUNDAMENTAL §6.4 privacy boundary. Lists what was *removed* from
+upstream content + why. The mentor brief is a *filtered* synthesis, not a firehose;
+this section makes the filtering visible to the author (and to Ruslan ack).
+
+*Example fragment:*
+- ❌ Removed: 2 prospect-name + revenue-projection details (third-party private; mentor
+  did not sign NDA for these specific prospects)
+- ❌ Removed: 1 Direction (`m-and-a-direction`) currently `deferred-phase-2-plus` —
+  not relevant to current call agenda
+- ❌ Removed: Internal team friction notes (irrelevant to mentor's strategic-advisory role)
+- ✅ Kept: Aggregate Phase-1 status; top 3 active bets in named Direction;
+  mentor-relevant Locks (D-29 Korp-Startup positioning since mentor's specific knowledge
+  applies)
+
+**Sanitization check:** sanitization-checked by <T2 agent OR self-review>; T0 ack
+required before status moves `draft` → `sanitization-checked`.
+
+## §2 Current Phase status
+
+1-2 sentences: where we are. Not a deep-dive — that's what the call is for.
+
+*Example fragment:* "Phase 1 active, ~60% through 6-month €50K Q2 2026 cycle. 3
+active engagements (1 closed-won + 2 in proposal); 2 paid pilots scheduled for May.
+Top Lists Partner Factory cohort-1 recruitment in research stage. Bandwidth at ~85%."
+
+## §3 Top 3 active bets / projects
+
+Per PM consultant card P3 (opportunity-solution tree, weekly customer touchpoint slot)
++ Cagan empowered-team principle: limit to 3 — more is firehose.
+
+*Example fragment:*
+| # | Bet/Project | Direction | Status | Mentor input sought? |
+|---|---|---|---|---|
+| 1 | `mittelstand-readiness-assessment` | `top-lists-partner-factory` | Active, week 4/6 | Yes — see Q1 in §5 |
+| 2 | `consulting-engagement-X` | `quick-money-ai-consulting` | Active, week 2/12 | No — informational only |
+| 3 | `direction-card-mittelstand-icp-refresh` | `top-lists-partner-factory` | Shaped, awaiting bet | Yes — see Q2 in §5 |
+
+## §4 Recent Locks worth flagging
+
+Mentor-relevant Locks (per §1 sanitization). NOT a Lock-list dump — only the ones
+where mentor's specific knowledge applies (Naval filter again).
+
+*Example fragment:*
+- **D-29 Korp-Startup positioning** (locked 2026-04-26) — operational implications for
+  current consulting offer wording; mentor's Mittelstand fluency relevant.
+- **D-27 Fork-and-merge / Roy-Replication** (locked 2026-04-15) — relevant if mentor
+  has Direction-builder candidates in network.
+
+## §5 Open questions for mentor (1-3 specific)
+
+Per Naval specific-knowledge filter + Cagan empowered-team principle: mentor consulted
+on questions where their specific knowledge applies. NOT "what do you think
+generally?" — concrete, answerable.
+
+*Example fragment:*
+- **Q1 (top priority):** For prospect <sanitized identifier> — they are pushing for
+  fixed-price assessment in 4 weeks at €X. Per your DACH Mittelstand fluency: is
+  €X-floor walkaway-discipline likely to land or to repel? What's the typical
+  pricing-floor signal-vs-loss tradeoff for first-engagement-with-Mittelstand-family-
+  business?
+- **Q2:** Top Lists Partner Factory cohort recruitment: should the first cohort be
+  warm-network-only (lower friction, tighter quality control) or include 1-2
+  cold-IndieHackers candidates (per `project_outreach_channels` testing the channel)?
+  Your network-experience input here is specific knowledge.
+
+## §6 Anti-scope (what is NOT in this brief)
+
+Mandatory.
+
+*Example fragment:*
+- ❌ NOT a full firehose of all Phase-1 activity (filter applied per §1 sanitization)
+- ❌ NOT third-party-private information without explicit consent / NDA chain
+- ❌ NOT internal team-friction or operational-grind details (irrelevant to T3
+  strategic-advisory role)
+- ❌ NOT a marketing pitch ("look how well we're doing") — honest snapshot including
+  open questions where Ruslan does not yet know the answer
+- ❌ NOT a request for advisor approval — mentor influences thinking, does not hold
+  approval authority per FUNDAMENTAL §7.4 tier discipline
+
+## §7 Provenance + sources
+
+- Brief drafting cycle: <cycle-ID>
+- Sanitization-check session-tag: <session-id>
+- T0 ack: <YYYY-MM-DD>
+- Sources synthesized from: <list of upstream files — Founder Overlay version, North
+  Star version, active Direction cards, top Bet Pitches, recent Locks>
+- Sent date: <YYYY-MM-DD via channel-X>
+- Post-call notes (after mentor session): <link to call transcript / post-call DRR
+  entry capturing what was discussed + what was acted on>
+
+---
+
+*Citation format (with sanitization markers):*
+- `[overlay §X.Y]` Layer 2 binding refs
+- `[D-<NN>]` Locks (mentor-relevant only — sanitization-checked)
+- `[direction-<slug>]` Direction Cards (active only — sanitization-checked)
+- `[REDACTED-PROSPECT-N]` for sanitized third-party identifiers

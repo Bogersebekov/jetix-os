@@ -1,0 +1,126 @@
+---
+title: "Bet Pitch — <PLACEHOLDER bet name>"
+type: bet-pitch
+version: 1.0
+status: <shaped | betted | active | shipped | killed | extended-rejected>
+cadence: per-cycle (Singer 6-week + 2-week cooldown; or 1w / 2w / R&D-mode appetite)
+owner: ruslan-plus-agent (Ruslan shapes; T2 drafting-support; betting-table ritual T0-only)
+audience: internal-only
+F: F2
+G: "<ClaimScope: shaped pitch for one cycle inside one Direction; archived at cycle-close>"
+R: R-low
+last_updated: <YYYY-MM-DD>
+bet_slug: <kebab-case-slug>
+appetite: <1w | 2w | 6w | R&D-mode>
+parent_direction: decisions/strategic/direction-<slug>.md
+references:
+  foundation_parts: [Part 7 project lifecycle (Bet → Project), Part 5 compound learning (cycle compound)]
+  fpf_anchors: [IP-5 alpha state machine (bet lifecycle states are past-participle verbs)]
+  parent_strategic_docs:
+    - decisions/strategic/direction-<slug>.md (parent Direction)
+  consultant_cards:
+    - swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-b/consultants/product-management-cagan-shape-up.md (Singer Shape Up — primary)
+    - swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-b/consultants/capital-allocation-antifragility.md (Munger inversion — §4 rabbit-holes)
+---
+
+# Bet Pitch — <name>
+
+## §1 Appetite
+
+Declared up-front. Per Singer Shape Up Introduction: "Instead of asking how much time
+it will take to do some work, we ask: How much time do we want to spend?"
+
+*Example fragment:* "**6-week appetite.** This is a major Phase-1 bet — worth a full
+6-week cycle + 2-week cooldown. Smaller-appetite alternatives considered (2w
+quick-validation, R&D-mode exploration) were rejected because <rationale>."
+
+## §2 Problem framed (right elevation)
+
+Per Singer: "shaping is narrowing down the problem and designing the outline of a
+solution that fits within the constraints of our appetite." This section frames
+the *problem*, not the solution. The problem is at the appropriate elevation for
+the appetite (a 1-week bet has narrower problem framing than a 6-week bet).
+
+*Example fragment:* "Mittelstand decision-makers in DACH succession need a way to
+evaluate AI-augmented advisory before committing to a multi-quarter engagement. They
+currently lack: (a) a low-commitment trial format; (b) a comparable reference
+benchmark; (c) explicit anti-scope clarity on what the engagement is NOT. Without
+these, the sales cycle stalls at 3-month deliberation."
+
+## §3 Solution sketched (right fidelity)
+
+Per Singer: solution at the right fidelity — fat marker on whiteboard, not detailed
+spec. The Bet Pitch is *what gets bet on*; the Project Brief (Foundation Layer
+Type 11) instantiates with full detail.
+
+*Example fragment:* "Build a `Mittelstand AI Readiness Assessment` — a 1-week
+structured engagement with: standardized intake interview script (~90 min), 5-page
+written assessment with 3-tier readiness scoring + 5-12 specific blockers identified,
+delivered as a fixed-price deliverable. Targets: 3 paid pilots in Phase 1 cycle. Scope
+boundary: assessment ONLY, no implementation work bundled — that's a separate engagement
+class."
+
+## §4 Rabbit-holes flagged
+
+Per Munger inversion (Capital consultant card P5): "Don't ask how does this succeed.
+Ask how does this fail?" List 3-5 specific risks + how each is mitigated within the
+appetite OR explicitly accepted as residual risk.
+
+*Example fragment:*
+- **Rabbit-hole 1:** Intake interview script could expand into multi-session; mitigated by hard 90-min cap + scripted question list (no improvisation in pilot phase).
+- **Rabbit-hole 2:** Written assessment could over-engineer (50 pages instead of 5); mitigated by structural template + ≤5-page page-budget enforced at draft-1 review.
+- **Rabbit-hole 3:** Pricing pressure to give it free ("just to land the relationship"); mitigated by minimum €X price floor + walkaway-discipline if floor not met (residual risk: 0 pilots in cycle if all 3 prospects negotiate below floor).
+
+## §5 Outcome (distinct from deliverables)
+
+Per PM consultant card P1 (Outcome over Output): the Bet's success criterion is the
+*outcome* (measured value created), not the *deliverable* (artifact shipped). The
+distinction is enforced — a Bet that ships the deliverable but produces no outcome
+is not a successful Bet.
+
+*Example fragment:*
+- **Deliverables:** 3 written assessments shipped; intake script v1.0 in `crm/_templates/`; pricing-grid v1.0.
+- **Outcomes:** ≥1 prospect upgrades from assessment → multi-quarter engagement (validates the funnel hypothesis); ≥2 NPS-equivalent positive responses (validates value-perception). If 0 upgrades + ≤1 positive response after 8 weeks: outcome failed even if deliverables shipped.
+
+## §6 Parent Direction + parent OKR (if applicable)
+
+Cross-reference. Per PM consultant card P6 — projects with no Direction or OKR linkage
+are backlog candidates, not active bets. Bet Pitches must declare parents.
+
+*Example fragment:* "Parent Direction: `top-lists-partner-factory` — this Bet probes
+the assessment-as-funnel-entry hypothesis (H1 in Direction §2). Parent OKR: N/A in
+Phase 1 (OKRs DEFERRED Phase B+ per Strategic Layer Phase 2 verdict); proxy is
+North-Star §4 trajectory milestone 'Phase 2 €200K validation gate'."
+
+## §7 Circuit-breaker rule statement
+
+Per Singer Shape Up Ch. "The Betting Table": "If a project runs over, by default it
+doesn't get an extension." Stated literally in every Bet Pitch — not a convention,
+a structural commitment.
+
+*Example fragment:* "If this Bet runs over the 6-week appetite, it does NOT get an
+extension. It gets re-shaped or killed. Re-shape requires a new Bet Pitch with new
+appetite + new problem framing; kill requires a 1-line rationale + DRR entry capturing
+what was learned."
+
+## §8 Anti-scope (what this Bet is NOT)
+
+Mandatory.
+
+*Example fragment:*
+- ❌ NOT an MVP in Ries Lean-Startup sense — per PM consultant card P5 Tradeoff Resolution, MVPs operate at strategic-zoom; Bet Pitches operate at tactical-zoom.
+- ❌ NOT a Project Brief — Foundation Layer Type 11 instantiates downstream of the bet decision.
+- ❌ NOT a multi-cycle commitment — Bet is one-cycle by construction; recurrence requires new Bet Pitch.
+- ❌ NOT scope-negotiable mid-cycle (PMBOK adaptive tailoring conflicts with circuit-breaker; per PM card Tradeoff C, Foundation adopts Shape Up not PMBOK for solo-founder Phase 1).
+
+## §9 Provenance + sources
+
+- Bet origin: <which Direction Card / which insight / which prospect-conversation triggered>
+- Shaping session-tag: <session-id where shaping converged>
+- Betted-on date (state transition `shaped` → `betted`): <YYYY-MM-DD by Ruslan ack>
+- Cycle-close DRR: <link to compound entry capturing learnings>
+- Outcome measurement (post-cycle): <measurement date + result vs §5 criteria>
+
+---
+
+*Citation format:* `[direction-<slug> §X]` parent Direction, `[D-<NN>]` Locks, `[card:<framework>]` consultant cards, `[FPF §X.Y IP-N]` FPF anchors.

@@ -1,0 +1,107 @@
+---
+title: "Lock D-<NN> — <PLACEHOLDER short irreversible-decision title>"
+type: lock-entry
+version: 1.0
+status: draft
+cadence: append-only
+owner: ruslan-plus-agent
+audience: internal
+F: F4
+G: "<ClaimScope: bounded context where this Lock holds; e.g., 'Jetix architecture across all Phases until reversal predicate fires'>"
+R: R-medium
+last_updated: <YYYY-MM-DD>
+supersedes: <null OR path to predecessor lock if extending>
+lock_id: D-<NN>
+addendum_to: <null OR existing lock if this is an addendum>
+references:
+  foundation_parts: [Part 6 governance gate, Part 1 system state persistence, Part 8 health monitor]
+  fpf_anchors: [B.3 trust calculus, IP-3 artifacts-over-conversations]
+  parent_strategic_docs:
+    - decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md (§6 anti-scope respect)
+    - <decisions/strategic/founder-overlay-...md if applicable>
+  related_locks: [D-<MM>, D-<KK>]
+---
+
+# Lock D-<NN> — <PLACEHOLDER title>
+
+## §1 What is locked
+
+**One-sentence declarative.** *Example fragment:* "All system state lives in append-only
+git commits — no out-of-band mutable state, no UI-clicks-as-source-of-truth."
+
+Optionally a 1-paragraph clarification of scope edges (what is locked vs. what merely
+follows from being locked).
+
+## §2 Why this is irreversible
+
+Rationale (2-3 paragraphs) — what would degrade if this were not locked. Tie to:
+- A FUNDAMENTAL §6 anti-scope rule that this Lock enforces (cite by §6.X reference)
+- A consultant-card principle that justifies (cite framework + principle ID)
+- An incident or pattern in past cycles that motivates the irreversibility
+
+*Example fragment:* "Without this lock, system state diverges between Notion (UI) and
+filesystem (git). Cycle 3 surfaced 7 contradictions where Notion edits did not
+propagate; cycle 5 surfaced 2 more. Per Capital consultant card P2 (Graham margin-of-
+safety), over-engineer where downside is unrecoverable: silent state divergence
+compounds."
+
+## §3 Scope of what this Lock covers
+
+Bullet enumeration of what falls under the Lock + what does NOT. The "does NOT" line
+is mandatory — Locks must declare their boundaries.
+
+*Example fragment:*
+- ✅ Covers: All commits to `main` branch; all `decisions/*.md` artifacts; all
+  `swarm/wiki/*` content
+- ❌ Does NOT cover: Local scratch files in `tmp/`; ephemeral chat outputs that have
+  not yet been committed; external tool outputs not yet ingested
+
+## §4 Downstream artifacts depending on this Lock
+
+Table or list of artifacts that read/depend on this Lock. Maintained by FPF-Steward
+(IP-4) — each cycle that ack's this Lock-coherence verifies dependencies are still
+listed.
+
+*Example fragment:*
+| Artifact | How it depends |
+|---|---|
+| `swarm/wiki/cycles/*` | Stores all cycle artifacts as commits per this Lock |
+| `agents/<expert>/strategies.md` | Append-only DRR ledger per this Lock |
+
+## §5 Reversal predicate
+
+What evidence would force reconsideration of this Lock? Two parts:
+
+**Reversal trigger** *(what would have to be observed)*:
+*Example fragment:* "If git substrate becomes unsupportable for the Foundation
+state-volume (e.g., >10GB binary blobs requiring Git LFS adoption that adds
+unrecoverable failure modes), this Lock would need re-evaluation."
+
+**Reversal cost** *(blast radius if reversed)*:
+*Example fragment:* "Reversing requires migrating ~2K commits + reconciling all
+provenance refs in `wiki/graph/edges.jsonl`. Estimated 20-40h founder time + 1-2
+weeks elapsed for migration."
+
+## §6 Anti-scope (what does NOT go in this Lock)
+
+Mandatory section. Lock content is *only* what's locked. NOT:
+- Implementation details (those live in Foundation Part interface cards)
+- Phase plans (those live in Phase Plan or Founder Overlay)
+- Quarterly metrics (those live in Direction Cards or — if/when reactivated — OKRs)
+- Tactical decisions reversible within a cycle
+
+If a candidate-content seems to fit but isn't actually irreversible → it's not a Lock,
+it's a Direction (Type 07) update or a Strategic Insight (Type 06). Re-route.
+
+## §7 Provenance + sources
+
+- Initial draft cycle: <cycle-ID>
+- Ack'd by Ruslan on: <YYYY-MM-DD>
+- Mentor reviewed (T3): <yes/no/N/A>
+- Source corpus: <links to research files / voice memos / consultant cards that informed>
+- F-G-R re-check: <last quarterly FPF-Steward audit date + result>
+
+---
+
+*Citation format for inline references throughout:* `[D-<NN>]` for cross-Lock,
+`[FPF §X.Y]` for FPF anchors, `[FUNDAMENTAL §6.Z]` for anti-scope refs.

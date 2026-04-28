@@ -1,0 +1,126 @@
+---
+title: "Founder Overlay (RUSLAN-LAYER) — <YYYY-MM-DD baseline OR amendment subject>"
+type: founder-overlay
+version: <semver, e.g., 1.0 baseline OR 1.1 amendment>
+status: draft
+cadence: annual baseline + event-driven amendments at Phase transitions
+owner: ruslan-plus-agent
+audience: internal
+F: F3
+G: "<ClaimScope: Ruslan-specific overlay over FUNDAMENTAL Layer 1 — bounded by current Phase + current archetype mix; replaceable without touching Layer 1>"
+R: R-medium
+last_updated: <YYYY-MM-DD>
+supersedes: <null OR path to prior version>
+layer: 2
+overlays: decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md
+references:
+  foundation_parts: [Part 4 role taxonomy bind, Part 6 governance gate ack, Part 9 owner interaction scaffold]
+  fpf_anchors: [IP-2 bounded context]
+  d_locks: [D-29 Korp-Startup positioning, D-11 investment-fund philosophy, D-20 USB-C standard, D-21 Matchmaker, D-22 ICP]
+  parent_strategic_docs:
+    - decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md (Layer 1, LOCKED)
+---
+
+# Founder Overlay (RUSLAN-LAYER) — <subject>
+
+## §0 Layer-binding declaration
+
+This is **Layer 2** of the two-layer Vision pattern (per FUNDAMENTAL §0). Layer 1
+(`JETIX-VISION-FUNDAMENTAL-2026-04-27.md`) declares the generic, sector-agnostic
+substrate; this overlay binds Layer 1 to current-situation specifics. If Ruslan
+pivots niche/archetype/market, this overlay is rewritten — Layer 1 is not touched.
+
+*Example fragment:* "Baseline overlay v1.0 — captures Phase 1 (€50K Q2 2026 target)
+positioning as DACH Mittelstand AI consulting + Top Lists Partner Factory."
+
+## §1 Current archetype mix
+
+Per FUNDAMENTAL §7.1.1 (11-archetype taxonomy) — which 1-3 archetypes Ruslan
+currently occupies, with weight estimate. Multi-archetype is normal.
+
+*Example fragment:* "Dominant: Entrepreneur (60%) + Engineer (25%) + Researcher
+(15%). Phase B+ may shift toward Investor + Manager as Top Lists Partner Factory
+delivers and team scales."
+
+## §2 Current market segment + positioning
+
+Concrete answer to "where in the market are we, and how do we position?"
+
+Required sub-elements:
+- **Geographic / language scope** (e.g., DACH Mittelstand, Berlin-based, RU/EN/DE working languages)
+- **ICP definition** (cite `decisions/JETIX-PHILOSOPHY.md` D22 ICP)
+- **Korp-Startup positioning binding D-29** (one paragraph — what positioning means concretely)
+- **Channel(s)** (e.g., IndieHackers as first per inferred memory `project_outreach_channels`)
+
+*Example fragment:* "Mittelstand DACH succession-and-AI advisory; ICP per D22
+(15-200 FTE family-owned, €5-50M revenue, 1-3 senior decision-makers). Korp-Startup
+positioning per D29 means delivering startup-velocity inside enterprise constraints —
+not 'consulting' nor 'agency' but a category-creating wedge. Primary channel:
+IndieHackers community + warm referrals from current network."
+
+## §3 Current Phase + horizon
+
+Cross-reference to Phase Plan (`decisions/JETIX-PLAN.md`) — which Phase, what target,
+what Phase B+ deferral.
+
+*Example fragment:* "Phase 1 active: €50K Q2 2026 gate. Phase 2 deferred items per
+brief §1: M&A Direction, AI-BIOS Moment Direction, Arbitrage Traffic, AI-Psy-Led."
+
+## §4 Active Directions binding
+
+List of Type 07 Direction Cards currently `active` per this overlay. Each line: name +
+1-sentence binding rationale + capital/attention budget %.
+
+*Example fragment:* "Top Lists Partner Factory — ACTIVE Phase 1+; explicit standalone
+direction; ~40% founder attention. Quick-Money AI Consulting — ACTIVE Phase 1; revenue
+generator; ~50% founder attention. Brand + Research + Life-OS — operational
+maintenance; ~10% combined."
+
+## §5 Hybrid framework binding
+
+Per inferred memory `project_jetix_hybrid_framework_vision`, Jetix is hybrid:
+consulting / agency / platform / holding / community. The overlay declares current
+weight per leg.
+
+*Example fragment:* "Phase 1 weighting: consulting 60% / agency 20% / community 15% /
+platform 5% / holding 0%. Platform + holding emerge in Phase B+ as Top Lists Partner
+Factory + Korp-Startup model mature."
+
+## §6 Anti-scope (what is NOT in this overlay)
+
+Mandatory. Anti-scope keeps Layer 1 / Layer 2 split clean.
+
+NOT in this overlay:
+- Generic constitutional principles → Layer 1 (FUNDAMENTAL §1-§9)
+- Anti-scope rules applicable across instances → Layer 1 §6
+- Constitutional Lock content → `decisions/LOCKS-D*-ADDENDUM-*.md` directly
+- Phase action lists → `decisions/JETIX-PLAN.md`
+- Specific bet pitches → Type 10 `bet-pitch` instances
+
+If a candidate-content fits Layer 1 better (sector-agnostic) → Layer 1, not here.
+If a candidate-content is finer-grained (specific bet, project, OKR) → respective type.
+
+## §7 Provenance + cross-refs to Layer 1 anchors
+
+Each major claim above must cite Layer 1 anchor or memory:
+*Example fragment format:*
+- §1 archetype mix → FUNDAMENTAL §7.1.1
+- §2 ICP positioning → FUNDAMENTAL §7.3 + D22 + memory inferred from
+  `STRATEGIC-INSIGHT-MA-DIRECTION-2026-04-25` Mittelstand ICP overlap
+- §5 hybrid framework → memory `project_jetix_hybrid_framework_vision` (substituted
+  via inference per Phase 1 honest-limit declaration)
+
+## §8 Amendment history
+
+Append-only log of amendments. Each amendment dated + 1-line rationale.
+
+*Example fragment:*
+- 2026-04-30 v1.0 baseline created (Phase 1 €50K binding)
+- 2026-08-15 v1.1 §4 Direction list updated — AI-BIOS reactivated post-research-trigger
+- 2026-12-01 v2.0 Phase 1→2 transition rewrite
+
+---
+
+*Citation format:* `[FUNDAMENTAL §X.Y]` for Layer 1 refs, `[D-<NN>]` for Locks,
+`[memory:<slug>]` for memory anchors (with substitution flag if memory was inferred
+per Phase 1 honest-limit declaration).

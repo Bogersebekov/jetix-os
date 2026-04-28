@@ -1,0 +1,134 @@
+---
+title: "Jetix North Star — <PLACEHOLDER subject; e.g., 3-10 year DoT v1.0>"
+type: north-star
+version: 1.0
+status: draft
+cadence: annual major review + quarterly soft updates; major rewrite at Phase transitions
+owner: ruslan-only (with multi-chat methodology — see §7)
+audience: internal-primary; mentor (T3); partners (T4) get sanitized variant
+F: F3
+G: "<ClaimScope: long-horizon directional anchor, 3-10 year compelling vision; subject to annual review + Phase-transition rewrite>"
+R: R-medium
+last_updated: <YYYY-MM-DD>
+supersedes: <null OR path to prior version>
+horizon_years: <3-10>
+multi_chat_methodology_completed: <yes/no — see §7>
+references:
+  foundation_parts: [Part 9 owner interaction scaffold]
+  fpf_anchors: [IP-7 writing-as-thinking]
+  parent_strategic_docs:
+    - decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md (Layer 1)
+    - decisions/strategic/founder-overlay-<date>.md (Layer 2)
+  consultant_cards:
+    - swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-b/consultants/product-management-cagan-shape-up.md (Cagan compelling product vision)
+    - swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-b/consultants/stoic-epistemic.md (Naval specific knowledge filter; Popper falsifiability)
+---
+
+# Jetix North Star — <subject>
+
+## §1 What 3-10 years out looks like
+
+A *compelling* depiction of the future where Jetix succeeds — written to be felt as
+much as understood. Per Cagan Inspired Ch. 26 ("compelling product vision"), this
+section is evocative, not analytical. Should convey the texture of that future to a
+reader who is not Ruslan.
+
+*Example fragment:* "By 2032, Korp-Startup is a recognized category. 50-200 European
+Mittelstand companies operate under the Jetix methodology — startup-velocity decision-
+making inside enterprise constraints. Top Lists Partner Factory has graduated 20+
+Direction-builders. The Jetix substrate (Karpathy++ wiki + Левенчук discipline +
+Compounding Engineering) is forked into ~10 instances by other professional knowledge
+workers (per D27 Roy-Replication)."
+
+Length target: 1-3 paragraphs. NOT bulleted. Prose-form is itself the vision discipline.
+
+## §2 Our role in that future
+
+What is *specifically* Jetix-shaped about that future — not "AI consulting" generic.
+Per Naval specific-knowledge filter (consultant card #9 §3): articulate what Jetix
+provides that nobody else can replicate without becoming Jetix.
+
+*Example fragment:* "Jetix's role is the connective tissue between Mittelstand
+operational reality and AI capability frontier — a role that cannot be filled by pure
+consultants (no AI engineering depth), pure AI labs (no Mittelstand language), or
+generic agencies (no Korp-Startup category creation). The defensibility is not a moat
+in the Buffett sense; it is *category-creation* (per Type 06 Strategic Insight 'AI-BIOS
+Moment'). When the category is recognized, Jetix is the canonical reference."
+
+## §3 Why this destination matters
+
+Philosophical anchor — *for whom*, *why this way*, *why us*. Per Levenchuk IP-7 (the
+writing IS the thinking), this section captures Ruslan's strategic conviction at the
+moment of authoring; it is not an abstract market argument.
+
+*Example fragment:* "For Mittelstand decision-makers under generational succession +
+AI disruption pressure simultaneously. Why this way: pure consulting accelerates
+extraction; pure AI tooling fails at organizational adoption; the wedge is in the
+methodology layer (Korp-Startup) — neither tool nor advisor, a category-creating
+operating model. Why us: Ruslan's specific knowledge spans Mittelstand operational
+fluency (DACH context) + AI engineering depth + Левенчук discipline — a triple-
+intersection that is rare on its own and was authored deliberately, not stumbled into."
+
+## §4 Trajectory milestones (NOT OKRs)
+
+Phase boundaries as horizon-markers — distinct from quarterly OKRs (per Phase 2
+DEFER-2 verdict). Each milestone is a *gate* (per FUNDAMENTAL §8.6 evolution rhythms)
+not a metric.
+
+*Example fragment:*
+- **Phase 1 exit (Q2 2026):** €50K self-funded Phase 1 → Phase 2 validation gate
+- **Phase 2 exit (~2027):** €200K validation gate; first Top Lists Partner Factory cohort closed
+- **Mid-horizon (~2029):** Korp-Startup category recognized in DACH discourse; 5+ Mittelstand engagements completed
+- **Long-horizon (~2032):** see §1 depiction
+
+## §5 Honest acknowledgment of what we don't know
+
+Per Stoic-Epistemic consultant card P1 (Popper falsifiability — every claim needs its
+refuter): list 3-5 ways this North Star could be wrong. NOT pessimism — calibration.
+
+*Example fragment:*
+- **Falsifier 1:** If by Phase 2 exit no Mittelstand engagement converts to a multi-quarter relationship, the Korp-Startup positioning is not landing → North Star §2 needs revision.
+- **Falsifier 2:** If by mid-horizon the AI-BIOS Moment thesis fails (incumbents like McKinsey + Accenture or hyperscalers move into the category-niche directly) → §1 architecture vs. §1 incumbent-disruption needs re-evaluation.
+- **Falsifier 3:** If Top Lists Partner Factory does not produce ≥3 Direction-builders by 2028, the Roy-Replication thesis is not viable in the proposed cadence.
+
+## §6 Anti-scope (what does NOT go in this North Star)
+
+Mandatory.
+
+NOT in this document:
+- Quarterly tactics or current bets → Type 07 Direction Card / Type 10 Bet Pitch
+- Agent-specific instructions → agent system prompts (`agents/<expert>/system.md`)
+- Phase 1 action lists → Phase Plan (`decisions/JETIX-PLAN.md`)
+- Constitutional commitments → Layer 1 FUNDAMENTAL or Locks Ledger Entry
+- Specific revenue projections in detail → Capital Memo (Type 13 — DEFER Phase B+)
+
+If a candidate-content is finer-grained → re-route to appropriate type.
+
+## §7 Multi-chat methodology checklist
+
+Per inferred memory `methodology_multi_chat_review_for_critical_docs`, North Star
+authoring is multi-session by construction. This section tracks completion of each
+chat-session before status can move from `draft` → `reviewed` → `accepted`.
+
+*Example checklist:*
+- [ ] Chat 1: §1 + §2 drafted in primary authoring session (Cloud Cowork or equivalent)
+- [ ] Chat 2: §3 + §4 drafted in second-zoom session (different framing — Ruslan voice → Cloud Code)
+- [ ] Chat 3: §5 falsifiers reviewed in epistemic-discipline session (philosophy-expert mode)
+- [ ] Chat 4: integrative read-through with critic mode
+- [ ] Chat 5: mentor (T3) walkthrough — Антон or equivalent
+- [ ] Final ack — Ruslan moves status: draft → accepted
+
+A North Star authored in one session and ack'd same-day **violates this discipline**
+and must be flagged in Phase 5 AWAITING-APPROVAL.
+
+## §8 Provenance + sources
+
+- Layer 1 anchor: `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md`
+- Layer 2 overlay anchor: `decisions/strategic/founder-overlay-<date>.md`
+- Multi-chat sessions: list of cycle-IDs / chat-session-tags
+- Mentor review: Антон <YYYY-MM-DD> (or N/A if no mentor available at horizon)
+- Falsifier-reviews completed by: <philosophy-expert mode session-tag>
+
+---
+
+*Citation format:* `[FUNDAMENTAL §X.Y]` Layer 1, `[overlay §X.Y]` Layer 2, `[card:<framework>]` consultant card refs, `[memory:<slug>]` (with substitution flag if memory was inferred).
