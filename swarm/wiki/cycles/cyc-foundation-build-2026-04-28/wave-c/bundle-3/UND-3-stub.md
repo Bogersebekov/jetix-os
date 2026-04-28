@@ -7,9 +7,16 @@ wave: C
 bundle: 3
 parent_part_5_section: swarm/wiki/foundations/part-5-compound-learning-methodology-capture/architecture.md §A.5 + §I.4
 parent_oq: UND-3
-finalised_in: Bundle 4 (Part 7 architecture)
-status: stub-Bundle-3-defer-Bundle-4
-F: F2
+finalised_in: Bundle 4 (Part 7 architecture) — CONFORMANCE VERIFIED 2026-04-28 via M5 inter-Part lite coherence check
+status: finalised-Bundle-4-conformance-verified
+F: F4
+finalisation_record:
+  bundle_4_commit_part_7: "see git log --grep='Bundle 4 — Part 7'"
+  schema_option_picked: "Option A — task-return-packet superset (allOf reference); physical file shared/schemas/project-retrospective-packet.json"
+  cadence_option_picked: "Option α PRIMARY (per project closure event); Option β SECONDARY (per under-review draft increment)"
+  m5_coherence_check_result: "PASS — Part 7 §B project-retrospective-packet schema fields are SUPERSET of Part 5 §A.5 expected fields (project_id, state_transition, appetite_actual_vs_planned, lessons_learned[], dr_r_candidates[]); methodology_promotion_candidates[] added"
+  cross_ref_part_5: "swarm/wiki/foundations/part-5-compound-learning-methodology-capture/architecture.md §A.5 admissibility A-5"
+  cross_ref_part_7: "swarm/wiki/foundations/part-7-project-lifecycle-substrate/architecture.md §B.1 + §I.2"
 ClaimScope: "Holds for Part 5 input expectations from Part 7 retrospective output. Bundle 4 Part 7 picks ONE schema-reference path AND ONE cadence path; Bundle 3 declares OPTIONS only."
 R:
   refuted_if: "Bundle 4 Part 7 emission contract diverges materially from these expectations and Part 5 cannot consume Part 7 output without re-architecture"
