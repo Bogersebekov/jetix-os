@@ -7,14 +7,17 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 4
 phase: Wave-C-Bundle-4-architecture
-status: awaiting-ruslan-ack
+status: ruslan-acked-canonical
+ruslan_ack_record: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md
+ruslan_ack_date: 2026-04-28
 predecessor_interface_card: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/interface-cards/part-7-project-lifecycle-substrate.md
 constitutional_baseline_bundle_1: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md
 constitutional_baseline_bundle_1_supplement: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md
 constitutional_baseline_bundle_2: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-28.md
 constitutional_baseline_bundle_3: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-28.md
 finalises_und: UND-3 (Part 5 ↔ Part 7 retrospective input contract — Bundle 3 set INPUT stub at Part 5 §A.5 + UND-3-stub.md; Bundle 4 Part 7 §B finalises EMIT contract)
-F: F4
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md decision #1 — F4 → F5. Decision #5 OQ-5 cadence event-driven (Part 7 §E 4 laws verbatim) F5 → F8 LOCKED. Decision #2 UND-3 finalisation accepted — Part 7 §B emit contract conforms to Part 5 §A.5 input."
 ClaimScope: "Holds for any single-owner knowledge-work system that runs work as bounded projects with declared appetite, stage-gated transitions, and event-driven retrospective emission. Bundle 4 introduces the canonical 5-state state machine (IP-5 past-participle compliant), the project-retrospective-packet.json schema (extends task-return-packet superset; UND-3 finalization), the IP-5 past-participle exception whitelist, and event-driven cadence per OQ-5 ack. Phase A scope: single-owner Jetix Phase-A €50K horizon; Fork-portable for Phase B partner imports."
 R:
   refuted_if: "A future cycle surfaces a project state transition that cannot be expressed in the 5-state machine without breaking IP-5; OR Part 7 emits retrospective packets that Part 5 §A.5 cannot consume; OR cadence becomes calendar-cron-gated (OQ-5 violation); OR any project transitions through a non-past-participle state name not on the IP-5 whitelist; OR appetite-as-CONSTRAINT discipline is replaced by appetite-as-estimate (Singer Shape Up violation)"

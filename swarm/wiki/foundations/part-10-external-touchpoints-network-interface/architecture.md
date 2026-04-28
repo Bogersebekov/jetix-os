@@ -7,7 +7,9 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 4
 phase: Wave-C-Bundle-4-architecture
-status: awaiting-ruslan-ack
+status: ruslan-acked-canonical
+ruslan_ack_record: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md
+ruslan_ack_date: 2026-04-28
 predecessor_interface_card: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/interface-cards/part-10-external-touchpoints-network-interface.md
 constitutional_baseline_bundle_1: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md
 constitutional_baseline_bundle_1_supplement: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md
@@ -16,7 +18,8 @@ constitutional_baseline_bundle_3: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-2
 canonicalises_existing: "CRM cycle 10 (2026-04-26) — 24 source files / 35 unit tests / 10 /crm-* skills / 4 YAML schemas in crm/_schema/. Bundle 4 Part 10 CANONICALISES existing implementation; does NOT redesign."
 finalises_oq_merged_3: "FINAL CLOSURE for Foundation-level fork-separation per OQ-MERGED-3 Wave A scope. Bundle 4 = last opportunity. §X explicit DACH ICP / German GDPR / Linear+GitHub+Notion+Slack auth-token / contact-list / DACH intelligence URL examples MANDATORY."
 finalises_oq_b1_5: "OQ-B1-5 D27 reconciliation_strategy field promotion — END-OF-CYCLE supplement record at decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2-2026-04-28.md."
-F: F4
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md decision #1 — F4 → F5. Decisions #4 (OQ-MERGED-3 fork-separation FINAL CLOSURE) + #7 (Privacy STRUCTURAL — 4 invariants with schema fields + lint signal skill specs + Default-Deny entries) + #8 (CRM canonicalisation — existing 24 src / 35 tests / 10 skills / 4 schemas referenced NOT redesigned) all F5 → F8 LOCKED. Decision #9 OQ-B1-5 D27 retroactive supplement 2 accepted (cross-fork-provenance.json schema v1.1.0 approvals_reconciliation_strategy top-level + 5 strategies)."
 ClaimScope: "Holds for any single-owner knowledge-work system that maintains contact-network records + integrates external services + must enforce privacy invariants STRUCTURALLY (NOT behaviorally). Bundle 4 introduces canonical CRM data model schema + integration adapter pattern (RT-1 read-only intelligence + RT-2 write-ack action coordinators + L.1/L.2/L.3 service stubs) + 4 privacy invariants (consent / forget / encryption / no-protected-inference) with structural enforcement (schema fields + lint signals + Default-Deny entries) + C3 Phase A boundary (inbound external = Phase B work) + OQ-B1-5 D27 reconciliation strategy promotion. Phase A scope: single-owner Jetix Phase-A €50K horizon; Fork-portable for Phase B partner imports."
 R:
   refuted_if: "Part 10 architecture redesigns CRM data model OR omits explicit DACH/GDPR/auth-token/contact-list/intelligence-URL examples in §X (OQ-MERGED-3 fork-separation FINAL CLOSURE under-declared) OR proposes BEHAVIORAL privacy framing instead of STRUCTURAL (schema fields + lint + Default-Deny) OR allows Phase A inbound external auto-action without Ruslan ack (C3 violation) OR omits OQ-B1-5 D27 reconciliation_strategy top-level promotion"

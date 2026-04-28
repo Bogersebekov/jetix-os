@@ -7,7 +7,9 @@ cycle: cyc-foundation-build-2026-04-28
 wave: C
 bundle: 4
 phase: Wave-C-Bundle-4-architecture
-status: awaiting-ruslan-ack
+status: ruslan-acked-canonical
+ruslan_ack_record: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md
+ruslan_ack_date: 2026-04-28
 predecessor_interface_card: swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-a/interface-cards/part-9-owner-interaction-scaffold.md
 constitutional_baseline_bundle_1: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-2026-04-28.md
 constitutional_baseline_bundle_1_supplement: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-1-supplement-2026-04-28.md
@@ -15,7 +17,8 @@ constitutional_baseline_bundle_2: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-2-2026-04-2
 constitutional_baseline_bundle_3: decisions/RUSLAN-ACK-WAVE-C-BUNDLE-3-2026-04-28.md
 applies_c4_fix: "Wave A Part 9 §D used `PhaseOf Part 6` for governance gate dependency; Bundle 4 applies C4 nomenclature fix verbatim (`methodologically-uses Part 6`); brigadier autocheck rejects PhaseOf Part 6 in Part 9"
 ip2_single_owner_bounded: "Phase A scope is single-owner (Ruslan, Berlin); attention-budget cap (20 active tasks per Manager rule), 3-tier SLA values (L1 ≤4h same-session, L2 ≤7d batch, L3 immediate auto-log), Russian-primary content patterns are RUSLAN-LAYER values; Foundation generic = the 3-tier STRUCTURE + cap mechanism + schema. F.9 Bridge structural change ≥35% required at >10× scale per Wave A Ashby BOSC-A-T-X analysis."
-F: F4
+F: F5
+F_promotion_ack: "Ruslan ack 2026-04-28 per decisions/RUSLAN-ACK-WAVE-C-BUNDLE-4-2026-04-28.md decision #1 — F4 → F5. Decision #6 IP-2 single-owner bounded + multi-owner stub fields F5 → F8 LOCKED. Decision #3 C4 nomenclature fix accepted (Part 9 §D edge-table 0 PhaseOf Part 6 entries; methodologically-uses Part 6)."
 ClaimScope: "Holds for any single-owner knowledge-work system that needs canonical daily/weekly/monthly interaction shape with attention-budget cap + draft-disposition workflow + 3-tier SLA classification. Bundle 4 introduces daily-log + weekly-review schemas, draft-disposition table (C2 producer side), and 3-tier SLA taxonomy. Phase A scope: single-owner Jetix Phase-A €50K horizon; multi-owner Phase B/C requires F.9 Bridge structural change ≥35%. Fork-portable for Phase B partner imports."
 R:
   refuted_if: "A future cycle surfaces an owner interaction shape that cannot be expressed within daily-log/weekly-review/SLA-tier schemas without breaking IP-2 single-owner bounded; OR Part 9 attempts to pre-gate items into Part 6 (per C4 fix `methodologically-uses` not `PhaseOf`); OR weekly review fails to produce draft-disposition table; OR multi-owner case attempted without F.9 Bridge spec"
