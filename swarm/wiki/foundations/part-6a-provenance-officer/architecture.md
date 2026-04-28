@@ -134,7 +134,7 @@ Part 6b operates on a real-time per-artefact cadence. These are genuinely differ
 different decision authorities — a clean split per OQ-MERGED-1. [src:mgmt-expert-boundary.md:§B.1]
 
 **HARD GAPS surfaced.** Four gaps remain open after Wave C cell integration:
-- HARD GAP A: F4/F6/F8 F-level anchor wording refinements (§L below) — PROPOSED for Ruslan ack
+- HARD GAP A: F4/F6/F8 F-level anchor wording refinements (§L below) — CLOSED 2026-04-28 Wave D ack OQ-B1-1 (refinements F8 LOCKED)
 - HARD GAP B: P6a.2 scanner implementation timeline — close within 2 cycles of Wave C completion
 - HARD GAP C: D27 `cross-fork-provenance.json` needs `approvals_reconciliation_strategy` field
   (Part 1 schema gap, engineering-expert FINDING-3 in Phase B stub)
@@ -1106,10 +1106,11 @@ in this schema are refinements relative to the upstream FPF B.3 canonical descri
 - F8 is tied to "FUNDAMENTAL Vision lock-class" (grounds the constitutional boundary in
   Jetix's specific architectural context)
 
-These refinements are PROPOSED for Ruslan ack as F8 constitutional revisions. Until acked,
-the canonical anchor is FPF B.3 as stated in `design/JETIX-FPF.md:§12.7`; the refinements
-here are F5 design-level claims. Status: REQUIRES-APPROVAL.
-[src:philosophy-expert-multi-mode.md:§L P6a.1 epistemic note]
+These refinements are **ACCEPTED as F8 constitutional revisions** per Ruslan ack
+2026-04-28 (Wave D AWAITING-APPROVAL §4.1 OQ-B1-1 ACCEPT). The refined anchors
+above are now the canonical Jetix F-G-R F-level definitions, F8 LOCKED.
+Status: ACCEPTED-F8-CONSTITUTIONAL.
+[src:decisions/RUSLAN-ACK-WAVE-D-INTEGRATION-PASS-2026-04-28.md §2.1 OQ-B1-1]
 
 ### I.2 Approval Log JSONL Entry Schema (`shared/schemas/approval-log-entry.json`)
 
@@ -1553,9 +1554,12 @@ R:
 Promotes to F8 on Ruslan ack. Promotes to F6 after first implementation cycle passes
 validation.
 
-**HARD GAP A (open):** F4/F6/F8 anchor wording refinements are PROPOSED for Ruslan ack as F8
-constitutional revisions. Until acked: canonical anchor remains FPF B.3 as-stated. This
-architecture document carries the proposed refinements as F5 design claims, clearly flagged.
+**HARD GAP A (CLOSED 2026-04-28):** F4/F6/F8 anchor wording refinements **ACCEPTED**
+per Ruslan ack Wave D AWAITING-APPROVAL §4.1 OQ-B1-1. Refined anchors F8 LOCKED:
+F4="≥3 cycles applied (Hamel-binary count threshold; evidence in approval log)";
+F6="codified rule + 3+ successful applications + cross-cycle reuse evidence";
+F8="constitutional boundary (FUNDAMENTAL Vision lock-class; Ruslan ack mandatory)".
+[src:decisions/RUSLAN-ACK-WAVE-D-INTEGRATION-PASS-2026-04-28.md §2.1]
 
 ### P6a.2 — Citation Enforcement Scanner
 
