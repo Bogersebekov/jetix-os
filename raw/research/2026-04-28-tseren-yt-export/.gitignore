@@ -1,0 +1,13 @@
+# Per-video metadata dumps from Invidious (~2.5MB total). Reproducible via
+# tools/yt-helpers/ pipeline; not committed to keep repo size small.
+tserentserenov77/*.info.json
+system_school/*.info.json
+
+# Transcripts not committed (none successfully fetched in 2026-04-28 run;
+# YouTube bot challenge + Invidious caption endpoint empty body).
+top-transcripts/*
+
+# Allow sentinel files / future selective commits:
+!tserentserenov77/.keep
+!system_school/.keep
+!top-transcripts/.keep
