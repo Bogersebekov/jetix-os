@@ -2,11 +2,11 @@
 title: "Strategic Insight — <PLACEHOLDER concept name>"
 type: strategic-insight
 version: 1.0
-status: draft-awaiting-discussion
+status: canonical
 cadence: event-driven
 owner: ruslan-plus-agent
 audience: internal
-F: F2
+F: F5
 G: "<ClaimScope: single-thesis crystallization; subject to lifecycle promotion (→ Direction Card OR Lock candidate) or deferral>"
 R: R-low
 last_updated: <YYYY-MM-DD>

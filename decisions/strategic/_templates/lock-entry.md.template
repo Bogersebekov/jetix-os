@@ -2,11 +2,11 @@
 title: "Lock D-<NN> — <PLACEHOLDER short irreversible-decision title>"
 type: lock-entry
 version: 1.0
-status: draft
+status: canonical
 cadence: append-only
 owner: ruslan-plus-agent
 audience: internal
-F: F4
+F: F5
 G: "<ClaimScope: bounded context where this Lock holds; e.g., 'Jetix architecture across all Phases until reversal predicate fires'>"
 R: R-medium
 last_updated: <YYYY-MM-DD>

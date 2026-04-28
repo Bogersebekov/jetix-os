@@ -2,11 +2,11 @@
 title: "Jetix North Star — <PLACEHOLDER subject; e.g., 3-10 year DoT v1.0>"
 type: north-star
 version: 1.0
-status: draft
+status: canonical
 cadence: annual major review + quarterly soft updates; major rewrite at Phase transitions
 owner: ruslan-only (with multi-chat methodology — see §7)
 audience: internal-primary; mentor (T3); partners (T4) get sanitized variant
-F: F3
+F: F5
 G: "<ClaimScope: long-horizon directional anchor, 3-10 year compelling vision; subject to annual review + Phase-transition rewrite>"
 R: R-medium
 last_updated: <YYYY-MM-DD>

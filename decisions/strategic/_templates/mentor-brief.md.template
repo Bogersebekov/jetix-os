@@ -2,11 +2,11 @@
 title: "Mentor Brief — <PLACEHOLDER mentor name + YYYY-MM-DD>"
 type: mentor-brief
 version: 1.0
-status: <draft | sanitization-checked | sent | superseded>
+status: canonical
 cadence: event-driven (per call); per-mentor cadence (weekly / monthly / quarterly)
 owner: ruslan-plus-agent (T0+T2 drafting; T2 sanitization-check; T0 ack mandatory)
 audience: T3-mentor (sanitized; never T4 public)
-F: F2
+F: F5
 G: "<ClaimScope: snapshot-of-state for one mentor at one moment; not a multi-mentor or multi-time document>"
 R: R-low
 last_updated: <YYYY-MM-DD>
