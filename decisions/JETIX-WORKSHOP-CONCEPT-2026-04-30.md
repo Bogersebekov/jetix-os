@@ -7,6 +7,8 @@ supersedes: "house metaphor in foundation-master-overview-human-2026-04-29.md §
 authored_by: ruslan (verbatim dictation, AI = scribe per memory rule)
 parent_decisions:
   - decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md (Vision Layer 1, не отменяется)
+companion_doc:
+  - decisions/JETIX-TRM-MODEL-2026-04-30.md (TRM = бизнес-application этой концепции; Workshop = WHAT, TRM = HOW+market)
 F: F5
 G: jetix-conceptual-canonical
 R: refuted_if_metaphor_collapses_under_real_use_case
