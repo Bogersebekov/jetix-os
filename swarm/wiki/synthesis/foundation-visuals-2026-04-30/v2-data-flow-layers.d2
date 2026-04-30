@@ -1,0 +1,114 @@
+# V2 — Data Flow Layers
+# Вертикальный разрез слоёв данных в Jetix (raw → canonical → strategic → output)
+# Source: foundation-master-overview-human-2026-04-29.md
+#
+# Render:
+#   d2 --theme=200 --layout=elk v2-data-flow-layers.d2 v2.svg
+#   d2 --sketch v2-data-flow-layers.d2 v2-sketch.svg
+
+title: |md
+  # Data Flow Layers
+  ## Где живут данные — снизу (raw) к верху (output)
+| {near: top-center}
+
+direction: up
+
+# ────────────────────────────────────────────
+# 8 LAYERS (bottom → top)
+# Цвета — canonical Jetix schema из V1
+# ────────────────────────────────────────────
+
+L1: "🌐 1. External signals" {
+  style: {fill: "#fafafa"; stroke: "#9e9e9e"; stroke-width: 2; border-radius: 8; font-size: 16}
+
+  voice: "🎙 voice memo" {style: {fill: "#ffffff"; stroke: "#9e9e9e"}}
+  tg: "💬 Telegram" {style: {fill: "#ffffff"; stroke: "#9e9e9e"}}
+  docs: "📄 docs / PDF" {style: {fill: "#ffffff"; stroke: "#9e9e9e"}}
+  web: "🌐 web / URLs" {style: {fill: "#ffffff"; stroke: "#9e9e9e"}}
+}
+
+L2: "📦 2. Raw layer — raw/" {
+  style: {fill: "#eeeeee"; stroke: "#616161"; stroke-width: 2; border-radius: 8; font-size: 16}
+
+  transcripts: "raw/transcripts/" {style: {fill: "#ffffff"; stroke: "#616161"}}
+  articles: "raw/articles/" {style: {fill: "#ffffff"; stroke: "#616161"}}
+  research: "raw/research/" {style: {fill: "#ffffff"; stroke: "#616161"}}
+  books: "raw/books-md/\n402 книги" {style: {fill: "#ffffff"; stroke: "#616161"}}
+}
+
+L3: "🚪 3. Triage — Part 2 STOP-gate" {
+  style: {fill: "#f1f8e9"; stroke: "#558b2f"; stroke-width: 3; border-radius: 8; font-size: 16}
+
+  pipeline: "transcribe →\nextract →\nfilter →\nreview-report" {style: {fill: "#ffffff"; stroke: "#558b2f"}}
+  stop: "⛔ STOP\nhuman ack" {style: {fill: "#ffffff"; stroke: "#f57c00"; stroke-width: 2}}
+}
+
+L4: "⚙ 4. Working area" {
+  style: {fill: "#fff8e1"; stroke: "#f9a825"; stroke-width: 2; border-radius: 8; font-size: 16}
+
+  drafts: "swarm/wiki/drafts/" {style: {fill: "#ffffff"; stroke: "#f9a825"}}
+  staging: "staging /\nscratchpad" {style: {fill: "#ffffff"; stroke: "#f9a825"}}
+}
+
+L5: "📚 5. Wiki canonical — Part 3" {
+  style: {fill: "#dcedc8"; stroke: "#558b2f"; stroke-width: 3; border-radius: 8; font-size: 16}
+
+  entities: "concepts /\nentities /\nsources / topics" {style: {fill: "#ffffff"; stroke: "#558b2f"}}
+  claims: "claims / ideas /\nexperiments /\nsummaries" {style: {fill: "#ffffff"; stroke: "#558b2f"}}
+  methodology: "foundations /\nmethodology" {style: {fill: "#ffffff"; stroke: "#558b2f"}}
+}
+
+L6: "🎯 6. Strategic layer — decisions/strategic/" {
+  style: {fill: "#f3e5f5"; stroke: "#7b1fa2"; stroke-width: 3; border-radius: 8; font-size: 16}
+
+  strategic: "6 doc types:\nLock Entry · North Star ·\nDirection Card · Phase Plan ·\nReflection · Strategic Insight" {style: {fill: "#ffffff"; stroke: "#7b1fa2"}}
+}
+
+L7: "🛡 7. Operational" {
+  style: {fill: "#fff3e0"; stroke: "#f57c00"; stroke-width: 2; border-radius: 8; font-size: 16}
+
+  claude_md: "CLAUDE.md" {style: {fill: "#ffffff"; stroke: "#f57c00"}}
+  agents: ".claude/agents/" {style: {fill: "#ffffff"; stroke: "#f57c00"}}
+  skills: ".claude/skills/" {style: {fill: "#ffffff"; stroke: "#f57c00"}}
+  libs: "swarm/lib/" {style: {fill: "#ffffff"; stroke: "#f57c00"}}
+}
+
+L8: "🚀 8. External output — Part 10" {
+  style: {fill: "#fce4ec"; stroke: "#c2185b"; stroke-width: 2; border-radius: 8; font-size: 16}
+
+  notion: "📝 Notion" {style: {fill: "#ffffff"; stroke: "#c2185b"}}
+  tg_out: "💬 TG send" {style: {fill: "#ffffff"; stroke: "#c2185b"}}
+  github: "🔧 GitHub" {style: {fill: "#ffffff"; stroke: "#c2185b"}}
+  email: "✉ email" {style: {fill: "#ffffff"; stroke: "#c2185b"}}
+}
+
+# ────────────────────────────────────────────
+# UPWARD FLOWS (each layer → next)
+# Каждый transition — через ack/gate
+# ────────────────────────────────────────────
+
+L1 -> L2: "ingest" {style: {stroke: "#616161"; stroke-width: 2}}
+
+L2 -> L3: "pipeline\nautomation" {style: {stroke: "#558b2f"; stroke-width: 2}}
+
+L3 -> L4: "🔒 ack →\ndraft promotion" {style: {stroke: "#f9a825"; stroke-width: 2}}
+
+L4 -> L5: "🔒 ack →\nbrigadier promotes\nto canonical" {style: {stroke: "#558b2f"; stroke-width: 2}}
+
+L5 -> L6: "🔒 ack →\nRuslan prose +\nsynthesis" {style: {stroke: "#7b1fa2"; stroke-width: 2}}
+
+L6 -> L7: "config sync\n(Pillar C ↔ CLAUDE.md)" {style: {stroke: "#f57c00"; stroke-width: 2}}
+
+L7 -> L8: "🔒 RT-2 write-ack\n(Phase B)" {style: {stroke: "#c2185b"; stroke-width: 2}}
+
+# ────────────────────────────────────────────
+# LEGEND
+# ────────────────────────────────────────────
+
+legend: "Легенда" {
+  style: {fill: "#f5f5f5"; stroke: "#9e9e9e"; border-radius: 8; font-size: 14}
+
+  flow: "─── upward flow"
+  gate: "🔒 = ack/gate на переходе (Part 6b Human Gate)"
+  note: "Layer colors mirror V1 cluster colors\nдля visual continuity между диаграммами"
+}
