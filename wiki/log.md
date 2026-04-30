@@ -1,10 +1,18 @@
 ---
 type: log
-updated: 2026-04-26
+updated: 2026-04-30
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-04-30] [brigadier] foundation-overview-2026-04-29: master overview FINAL (technical 15.4K + human 4.2K, expansion-pass declined)
+2 master deliverables зафиксированы как FINAL v1.0 под LOCKED tag `foundation-architecture-locked-2026-04-28`:
+- `swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md` — 15.4K words / 1590 lines / 112 [src:...] citations / 4 Mermaid (Part 1 dependency, Part 2 internal flow, §14.2 main 52-edge inter-Part graph, Part 7 5-state machine). 17 §-секций: Executive Summary → Vision↔Architecture bridge → 11 Parts (§2-§12) → Pillar C two-tier (§13) → 52 cross-cutting edges (§14) → Health/Verification (§15) → Audit findings + 38-OQ Phase B roadmap (§16) → Sources manifest (§17).
+- `swarm/wiki/synthesis/foundation-master-overview-human-2026-04-29.md` — 4.2K words / 676 lines / 1 master Mermaid (6 cluster colour-coding: substrate / governance / knowledge / work / interaction / strategy). 6 §-секций: одна-абзац описание → метафора → 11 Parts простым языком → Pillar C 2-tier → architectural diagram → end-to-end task flow walkthrough → Phase B priorities.
+Cross-reference audit: 0 новых silent breaks; inherited Wave D findings (4) корректно учтены.
+Expansion-pass до 30-50K target ОТКЛОНЁН Ruslan'ом (риск водянистого текста).
+Commit `28224e0` brigadier dispatch + index/log update on `claude/jolly-margulis-915d34`.
 
 ## [2026-04-26] DEEP REPORT addendum: +2 NEW concepts из cross-cutting analysis | concepts: +2
 Synthesized через Cloud Cowork CC analysis voice-memos 24-26.04 (DEEP REPORT §4):
