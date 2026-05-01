@@ -1,3 +1,9 @@
+## 2026-05-01 20:41 — voice-router draft created: dima-draft
+  source: voice-memo  intent: add
+
+## 2026-05-01 20:41 — voice-router draft created: ilon-mask-draft
+  source: voice-memo  intent: add
+
 ## 2026-04-26 03:35 — batch summary (post Cloud Cowork ack §12 questions)
   3 contacts added (anton-mentor, vladislav-economist, rodion-youtuber) per CLAUDE.md
   "Ключевые люди" reference. Антон record enriched §1 + §10 + §13 — referenced
