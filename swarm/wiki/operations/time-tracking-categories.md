@@ -358,53 +358,71 @@ phase_2_extension: business + team layers (deferred)
 
 ---
 
-## §4 Deep Work — как улучшить и развить дальше
+## §4 Deep Work — расширенная схема (active с Day 1)
 
-**Phase 1 baseline (сейчас):** 6 sub-directions (RES / OBR / SOZD / UCH / PODG / KOM).
+**Phase 1 baseline:** 6 sub-directions (RES / OBR / SOZD / UCH / PODG / KOM) **+ 3 mandatory active tags** (energy / project / output).
 
-**Предложения для evolution:**
+### 4.1 Energy state tag — **ACTIVE с Day 1** ⭐
 
-### 4.1 Energy state tag
-Добавить tag отражающий **energy / focus state**:
-- `flow` — был в потоке (rare, valuable)
-- `шёл` — обычный workflow
-- `тяжело` — продирался
-- `туман` — не фокусировал, ушёл в Ебланил/Отдых
+Каждый Deep Work entry получает **energy tag** отражающий focus state:
 
-Это даст **2D view:** что × как. Можно увидеть что DW.SOZD редко в `flow` → причина refactor подхода.
+| Tag | Когда |
+|-----|-------|
+| `flow` | Был в потоке — rare, valuable. Время летит, output высокий |
+| `обычный` | Обычный workflow. Двигаешься, прогресс есть, без drama |
+| `тяжело` | Продирался — отвлекался, продирался через сложность, но дошёл |
+| `пиздец` | Вообще плохо — почти ничего не сделал, фокус разваливался, состояние хреновое |
 
-### 4.2 Project / theme tag (важно)
-Каждый DW entry должен иметь **project tag**:
-- `Jetix-foundation` / `Jetix-workshop` / `Jetix-TRM` / `Jetix-pipeline` / `Tseren` / `Mittelstand` / etc.
+**2D view:** что (sub-direction) × как (energy). Можно увидеть «DW.SOZD редко в `flow` → пересмотреть подход / время / условия».
 
-Когда придёт бизнес — projects расширятся (`client-X` / `partnership-Y`).
+### 4.2 Project / theme tag — **ACTIVE с Day 1** ⭐
 
-### 4.3 Output tag (опционально)
-Что произвёл за этот DW slot:
-- `доc` (документ создан / updated)
-- `решение` (decision made)
-- `understand` (gained understanding without artifact)
-- `gap` (закрыл gap в понимании)
-- `nothing` (потерял время в DW labels)
+Каждый Deep Work entry получает **минимум 1 project tag**:
 
-Поможет видеть **DW with output vs DW without** — если много `nothing`, сигнал к approach review.
+**Текущие project tags Phase 1:**
+- `Jetix-foundation` (Foundation v1.0 / 11 Parts / Pillar C)
+- `Jetix-workshop` (Workshop concept v2 / deep description)
+- `Jetix-TRM` (TRM model evolution / variants)
+- `Jetix-malware-analysis` (malware partnership analysis)
+- `Jetix-time-tracking` (текущий pipeline)
+- `Jetix-pipeline` (general infrastructure / scripts)
+- `Jetix-CC-OS` (Claude Code as OS work / Nate Herk integration)
+- `Jetix-voice` (voice pipeline + extraction)
+- `Tseren` (outreach to Tseren — research / preparation / video / send)
+- `Mittelstand` (general Mittelstand research / niche / sales prep)
 
-### 4.4 Future: BIKE method phase tag (per Nate Herk course)
-- `phase-1-training-wheels` (manual, watching mistakes)
-- `phase-2-guided` (automation drafts, я review)
-- `phase-3-watched` (autonomous + alerts)
-- `phase-4-handsoff`
+**Phase 2 extension** (когда появится бизнес): `client-{name}` / `partnership-{name}`.
 
-Поможет видеть progression of automation maturity.
+**Если работа не fit'ится в существующие projects** → добавить новый project tag в этот документ + использовать.
 
-### 4.5 Будущее: «cognitive load» tag
-- `low` (typing established knowledge)
-- `medium` (новая комбинация)
-- `high` (synthesize across domains)
+### 4.3 Output tag — **ACTIVE с Day 1** ⭐
 
-Поможет energy budgeting — высокая cognitive load работа должна быть в peak energy hours.
+Каждый Deep Work entry — что произвёл / получил / понял:
 
-**Sequence для evolution:** сначала освоить базовые 6 sub-directions хорошо в течение 2-4 недель. Потом добавлять tag по одному (energy → output → BIKE phase) — не всё сразу.
+| Tag | Что значит |
+|-----|------------|
+| `doc` | Создал / updated документ / артефакт (md / py / yaml / image / etc.) |
+| `решение` | Принял решение (decision logged куда-то) |
+| `understand` | Получил понимание без артефакта (mental model) |
+| `gap` | Закрыл gap в понимании (раньше не знал — теперь знаю) |
+| `nothing` | Потерял время в DW labels — entry classified как DW но output нулевой. **Honest tag** для self-review. |
+
+**Зачем:** видеть **DW with output vs DW без output**. Если много `nothing` → approach refactor.
+
+**Boundary с DW.OBR:** обработка / поток инсайтов → tag `understand` (mental model gained) или `gap` (specific вопрос закрылся). Производство документа из обработки → tag `doc` (с tag DW.SOZD).
+
+### 4.4 (отложено) BIKE method phase tag (per Nate Herk course)
+- `phase-1-training-wheels` / `phase-2-guided` / `phase-3-watched` / `phase-4-handsoff`
+- Активируется когда автоматизаций будет ≥3 (сейчас слишком рано — основная работа всё ещё manual / training-wheels).
+
+### 4.5 (отложено) Cognitive load tag
+- `low` / `medium` / `high`
+- Активируется после стабильности 2-4 недель energy/project/output discipline.
+
+**Active по фазам:**
+- ✅ Day 1: sub-direction (RES/OBR/SOZD/UCH/PODG/KOM) + energy + project + output
+- ⏸️ Через 2-4 недели стабильности: + BIKE phase
+- ⏸️ Через ещё 2-4 недели: + cognitive load
 
 ---
 
@@ -434,19 +452,19 @@ phase_2_extension: business + team layers (deferred)
 
 **Tags (universal набор):**
 
-*Sub-direction tags для Deep Work:*
-- `RES` (Research)
-- `OBR` (Обработка)
-- `SOZD` (Создание)
-- `UCH` (Учёба)
-- `PODG` (Подготовка)
-- `KOM` (Коммуникация — пока не активно)
+*Sub-direction tags для Deep Work (mandatory):*
+- `RES` (Research) / `OBR` (Обработка) / `SOZD` (Создание) / `UCH` (Учёба) / `PODG` (Подготовка) / `KOM` (Коммуникация — пока не активно)
 
-*Theme / project tags:*
-- `Jetix` (umbrella)
-- `Jetix-foundation` / `Jetix-workshop` / `Jetix-TRM` / `Jetix-pipeline` / `Jetix-malware-analysis` / `Jetix-time-tracking`
-- `Tseren` (specific outreach project)
-- *(будущее: `client-X` / `partnership-Y`)*
+*Energy tags для Deep Work (mandatory с Day 1):*
+- `flow` / `обычный` / `тяжело` / `пиздец`
+
+*Output tags для Deep Work (mandatory с Day 1):*
+- `doc` / `решение` / `understand` / `gap` / `nothing`
+
+*Project / theme tags (mandatory ≥1 для Deep Work):*
+- `Jetix-foundation` / `Jetix-workshop` / `Jetix-TRM` / `Jetix-pipeline` / `Jetix-malware-analysis` / `Jetix-time-tracking` / `Jetix-CC-OS` / `Jetix-voice`
+- `Tseren` / `Mittelstand`
+- *(Phase 2: `client-X` / `partnership-Y`)*
 
 *Sub-tags для Рутина:*
 - `еда` / `магазин` / `уборка` / `доктор` / `документы` / `другое`
@@ -463,26 +481,124 @@ phase_2_extension: business + team layers (deferred)
 *Sub-tags для Отдых:*
 - `активный` / `пассивный`
 
-**Description (свободный):** verbatim что делал. Можно русский / мат / specifics.
+**Полный набор tags на Deep Work entry (Day 1 example):**
+```
+RES + flow + Jetix-workshop + understand
+SOZD + обычный + Tseren + doc
+OBR + тяжело + Jetix-malware-analysis + gap
+PODG + пиздец + Tseren + nothing  ← honest tag
+```
 
-### §5.2 ActivityWatch categories (regex rules)
+**Description:** не свободный. См. §5.4 Description templates.
 
-ActivityWatch видит только computer activity. Mapping = subset.
+### §5.2 ActivityWatch categories (regex rules) — **упрощено per Ruslan 02.05**
+
+ActivityWatch видит только computer activity. AW сама **не различает sub-directions** Deep Work — это всё равно делается через CC. Поэтому в AW только **5 категорий** (не 6):
 
 **Категории и regex (web UI [http://localhost:5600/#/settings](http://localhost:5600/#/settings)):**
 
 | Категория | Regex (apps + URLs) | Mapping → Toggl |
 |-----------|---------------------|-----------------|
-| **Deep Work** | `claude\|antigravity\|cursor\|code\.exe\|notion\|miro\|terminal\|powershell\|git bash\|mingw\|obsidian` | Deep Work (любой sub-direction) |
-| **Research** | `github\.com\|stackoverflow\|anthropic\.com\|docs\.\|wikipedia\|developer\.\|arxiv` | Deep Work — DW.RES (часто) |
+| **Deep Work** | `claude\|antigravity\|cursor\|code\.exe\|notion\|miro\|terminal\|powershell\|git bash\|mingw\|obsidian\|github\.com\|stackoverflow\|anthropic\.com\|docs\.\|wikipedia\|developer\.\|arxiv` | Deep Work (любой sub-direction — RES / OBR / SOZD / UCH / PODG / KOM решается через Toggl) |
 | **Communication** | `telegram\|discord\|slack\|outlook\|gmail\|whatsapp\|mail\.google` | Deep Work DW.KOM (work) ИЛИ Ебланил (chat random) — manual classification в Toggl |
 | **Off-topic** | `youtube\.com\|netflix\|spotify\|twitch\|tiktok\|instagram` | Ебланил ИЛИ Отдых (manual) |
 | **Social** | `twitter\.com\|x\.com\|facebook\|reddit\.com` | Ебланил (almost always) |
 | **AFK** | (auto-detected by aw-watcher-afk) | Сон / Зарядка / Спорт / Рутина / Гулял / Отдых (offline) |
 
-**Важное правило:** AW даёт **objective baseline** (computer time). Toggl даёт **subjective intent** (что я считал deep work vs ebлан). Reports compare both — расхождение = useful insight.
+**Почему Research объединён с Deep Work:** research всё равно делается через CC + browse. AW показывает «X часов в Deep Work apps» — *что именно* там было (RES / OBR / SOZD) видно только через Toggl. Не дублируем измерение.
 
-### §5.3 Daily Log Notion structure
+**Важное правило:** AW даёт **objective baseline** (computer time в Deep Work apps). Toggl даёт **subjective intent + decomposition** (что именно делал внутри). Reports compare both — расхождение = useful insight (например AW показывает 3ч в Antigravity, а Toggl 2ч DW + 1ч tag нет — где тот час?).
+
+### §5.4 Description templates — против каши ⭐ (NEW)
+
+**Проблема (Ruslan, 02.05):** «один раз пишу `делал презентацию для Tseren'a`, второй раз `презентация для Tseren'a`, третий раз `узнал инсайт делаю презентацию для Tseren'a` — каша. Надо чтобы было adekvatно, дисциплинированно, по единому шаблону. Чтобы инсайты не лезли в Toggl description (для них отдельное место), но видно было что **именно** делал и что **произвёл**.»
+
+#### §5.4.1 Deep Work description template (mandatory)
+
+**Формат:**
+```
+[Глагол sub-direction] — [конкретный output / artifact / chunk] [(контекст / aspect)]
+```
+
+**Глаголы по sub-direction:**
+- **DW.RES** → `Изучение` / `Чтение` / `Просмотр`
+- **DW.OBR** → `Обработка` / `Синтез` / `Размышление` / `Mapping`
+- **DW.SOZD** → `Создание` / `Написание` / `Coding` / `Update`
+- **DW.UCH** → `Учёба` / `Practice` / `Drill`
+- **DW.PODG** → `Подготовка` / `Сбор` / `Pre-call` / `Agenda`
+- **DW.KOM** → `Звонок` / `Письмо` / `Review`
+
+**Принципы:**
+1. **Одно действие = одно entry.** Если перешёл на другое — новое entry.
+2. **Конкретный output:** не «работал над X», а «3 слайды видения TRM» / «структура §4 целиком» / «инсайт о positioning, добавил в slide 4».
+3. **Project tag всегда указан** в Tags (НЕ в description) — description focuses на artifact.
+4. **Инсайты НЕ в description.** Inсайты идут в `wiki/ideas/` или `wiki/concepts/` или Notion. В Toggl description — что **сделал**, не *что понял* (это `understand` output tag).
+
+**Примеры — каша vs дисциплина:**
+
+❌ Каша (как сейчас):
+```
+"делал презентацию для Tseren"
+"презентация для Tseren"
+"узнал новый инсайт делаю на этом презентацию для Tseren"
+"работал над Tseren"
+```
+
+✅ Дисциплина (template):
+```
+SOZD + Tseren + doc
+  → "Создание презы — 3 слайды видения TRM"
+
+SOZD + Tseren + doc
+  → "Создание презы — структура целиком"
+
+OBR + Tseren + understand
+  → "Обработка — angle позиционирования через workshop frame"
+
+PODG + Tseren + doc
+  → "Подготовка — outline 8 слайдов под Workshop+TRM"
+
+RES + Tseren + understand
+  → "Изучение — Telegram channel Tseren'a, voice + tone analysis"
+```
+
+**Правило discipline:** перед записью в Toggl ask себя:
+- Что **именно** я сделал? (не «работал над»)
+- Что **готово** в результате? (artifact / understanding / decision / nothing)
+
+#### §5.4.2 Базовый template для не-DW категорий
+
+Для остальных 7 направлений — простой формат:
+
+| Направление | Template | Пример |
+|-------------|----------|--------|
+| Сон | `[качество]` | `глубокий` / `прерывистый, проснулся 3 раза` |
+| Зарядка | `[что делал]` | `15 мин растяжка + чай + 5 мин planning` |
+| Спорт | `[тип] — [что делал, intensity]` | `бег — 5km easy pace` / `зал — пуш-пул 1ч` |
+| Рутина | `[task]` | `еда обед` / `магаз+уборка` / `зубной` |
+| Гулял | `[с кем] — [куда]` | `один — Tiergarten` / `с бро — центр` |
+| Отдых | `[что]` | `книга — Atomic Habits 30мин` / `медитация` |
+| Ебланил | `[что именно]` | `YouTube random 1ч` / `Telegram scroll 30мин` |
+
+**Принцип во всех:** **specifics, не generic.** «магаз» ≠ «магазин 30мин еда», но просто «обед» лучше чем «рутина».
+
+#### §5.4.3 Куда инсайты НЕ попадают
+
+Toggl description — **не место для инсайтов**. Если в OBR session родился insight:
+
+1. Toggl description: `Обработка — angle позиционирования через workshop frame` (что обработал)
+2. Toggl tag: `understand` (output type)
+3. **Insight сам** идёт в:
+   - `wiki/ideas/{insight-name}.md` (если raw idea)
+   - `wiki/concepts/{concept-name}.md` (если оформляется)
+   - Notion sub-page под Daily Log (если quick capture)
+   - Memory entry если cross-session relevant
+
+Toggl tracks **time + activity**, не contents. Contents → wiki / Notion.
+
+---
+
+### §5.5 Daily Log Notion structure
 
 В EOD section Daily Log entry в Notion:
 
@@ -494,9 +610,9 @@ ActivityWatch видит только computer activity. Mapping = subset.
 - **Спорт:** 0m
 - **Рутина:** 1h 20m
 - **Deep Work:** 5h 40m
-  - DW.OBR: 2h 30m (Jetix-malware-analysis)
-  - DW.SOZD: 2h 10m (Jetix-time-tracking)
-  - DW.RES: 1h (Jetix-workshop reading)
+  - DW.OBR: 2h 30m (Jetix-malware-analysis) — energy: `обычный` / outputs: `understand`+`gap`
+  - DW.SOZD: 2h 10m (Jetix-time-tracking) — energy: `flow` / outputs: `doc`
+  - DW.RES: 1h (Jetix-workshop reading) — energy: `обычный` / outputs: `understand`
 - **Гулял:** 30m
 - **Отдых:** 1h
 - **Ебланил:** 1h 40m (втык в телефон + youtube)
@@ -577,5 +693,11 @@ ActivityWatch видит только computer activity. Mapping = subset.
 
 ## §10 Sources / changelog
 
-- **2026-05-02:** initial creation. Verbatim Ruslan dictation. 8 направлений + Deep Work с 6 sub-directions + boundary cases + mapping в Toggl/AW/Daily Log.
+- **2026-05-02 v1.0:** initial creation. Verbatim Ruslan dictation. 8 направлений + Deep Work с 6 sub-directions + boundary cases + mapping в Toggl/AW/Daily Log.
+- **2026-05-02 v1.1:** post-review update per Ruslan ack:
+  - §4.1 Energy state — **активирован Day 1** (`flow`/`обычный`/`тяжело`/`пиздец`)
+  - §4.2 Project tag — **активирован Day 1** (10 project tags listed)
+  - §4.3 Output tag — **активирован Day 1** (`doc`/`решение`/`understand`/`gap`/`nothing`)
+  - §5.2 ActivityWatch — **Research category убрана** (объединена с Deep Work; sub-direction tracking только через Toggl)
+  - §5.4 Description templates — **новый раздел** (mandatory DW format против каши + базовый template для других 7 + правило «инсайты НЕ в Toggl description»)
 - *(future entries here)*
