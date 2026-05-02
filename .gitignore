@@ -27,3 +27,7 @@ node_modules/
 __pycache__/
 *.pyc
 .venv/
+
+# ActivityWatch raw exports (sensitive — URLs, window titles)
+raw/activitywatch/json/
+raw/activitywatch/archive/
