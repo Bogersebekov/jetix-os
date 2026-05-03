@@ -1,8 +1,18 @@
 ---
-source: beer-brain-of-the-firm-1972.pdf
-ocr_model: mistral-ocr-latest
-ocr_pages: 427
-ocr_date: 2026-04-22
+acquired_date: '2026-04-22'
+converted_date: '2026-04-27'
+converted_via: docling
+expert: systems-expert
+priority: P1
+quality_flags:
+- page_pollution (381)
+quality_grade: B
+slug: beer-brain-of-the-firm-1972
+subcategory: cybernetics
+tags:
+- cybernetics
+title: Beer Brain Of The Firm 1972
+word_count: 166645
 ---
 
 <!-- page 1 -->

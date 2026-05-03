@@ -1,0 +1,67 @@
+{
+  "source": "audio_534@25-04-2026_22-35-31.txt",
+  "processed_at": "2026-04-26T02:20:32",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Описать текущее состояние: что есть, чего нет, собрать все данные из головы в структурированном виде",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти специалиста по стратегическому управлению для совместной работы над стратегическими документами и планом действий",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Специалиста по стратегическому управлению можно усилить AI-инструментами для получения качественного результата",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Решения",
+      "content": "Работа над стратегическими документами является текущим стоппером - без этого дальше двигаться нельзя",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать портрет нужного специалиста по стратегическому управлению и определить где его искать",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Людей с опытом и мозгами много, поле для поиска специалистов безграничное",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    }
+  ]
+}

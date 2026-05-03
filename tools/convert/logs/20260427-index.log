@@ -1,0 +1,5 @@
+[2026-04-27 06:56:49] [INFO] === STEP 6: Build INDEX ===
+[2026-04-27 06:56:49] [WARN] Skip _INVENTORY-REVIEW.md: 'utf-8' codec can't decode byte 0x97 in position 58: invalid start byte
+[2026-04-27 06:56:49] [WARN] Skip raw_error_20260418_165656_199523.md: Expecting property name enclosed in double quotes: line 609 column 5 (char 22474)
+[2026-04-27 06:56:49] [WARN] Skip raw_error_20260418_165841_072752.md: Expecting property name enclosed in double quotes: line 575 column 5 (char 21209)
+[2026-04-27 06:56:49] [INFO] INDEX written: raw/books-md/INDEX.md

@@ -1,0 +1,67 @@
+{
+  "source": "audio_532@25-04-2026_08-05-39.txt",
+  "processed_at": "2026-04-26T02:20:11",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Принципы",
+      "content": "Ежедневно напоминать себе о вере в свои силы и возможности несколько раз в день - 'я все могу, я умею много чего, я справлюсь'",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Принципы",
+      "content": "Поддерживать высокую самооценку и ощущение себя на уровне - это влияет на уровень решений и видение",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Принципы",
+      "content": "Строить взаимоотношения с партнерами, бизнес-партнерами и близкими на основе поддержки общего видения для создания синергетического эффекта",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix станет компанией триллионного масштаба, приносящей триллионы долларов",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Привлечь человека из V-Work в команду и развивать это направление как часть Jetix",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "V-Work может стать одной из частей масштабного проекта Jetix",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    }
+  ]
+}

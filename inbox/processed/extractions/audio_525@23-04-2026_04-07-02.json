@@ -1,0 +1,77 @@
+{
+  "source": "audio_525@23-04-2026_04-07-02.txt",
+  "processed_at": "2026-04-24T04:51:51",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix и подход с AI-агентами повлияет на миллионы жизней, станет многомиллиардной корпорацией с мультимиллионным продуктом.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Подходить к развитию Jetix ответственно, понимая масштаб влияния на миллионы людей, которые будут зависеть от продукта.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Технологии ускоряют работу в 50 раз, для многих это будет выглядеть как магия, люди не смогут жить без этих возможностей.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Системный подход и AI-система для управления бизнесом будет крайне мощной среди предпринимателей.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать напоминание о работе над многомиллиардной корпорацией и соответствующем подходе к жизни и продукту.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Искать людей, которые осознают мощность продукта, уважают его и видят реальный потенциал для сотрудничества.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Продукт должен распространяться за счет качества, а не за счет плохой репутации.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

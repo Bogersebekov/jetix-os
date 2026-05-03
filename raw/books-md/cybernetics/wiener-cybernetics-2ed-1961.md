@@ -1,8 +1,18 @@
 ---
-source: wiener-cybernetics-2ed-1961.pdf
-ocr_model: mistral-ocr-latest
-ocr_pages: 226
-ocr_date: 2026-04-22
+acquired_date: '2026-04-22'
+converted_date: '2026-04-27'
+converted_via: docling
+expert: systems-expert
+priority: P1
+quality_flags:
+- page_pollution (117)
+quality_grade: B
+slug: wiener-cybernetics-2ed-1961
+subcategory: cybernetics
+tags:
+- cybernetics
+title: Wiener Cybernetics 2Ed 1961
+word_count: 88579
 ---
 
 <!-- page 1 -->

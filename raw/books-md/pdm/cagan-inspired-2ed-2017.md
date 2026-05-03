@@ -1,8 +1,16 @@
 ---
-source: cagan-inspired-2ed-2017.pdf
-ocr_model: mistral-ocr-latest
-ocr_pages: 295
-ocr_date: 2026-04-22
+acquired_date: '2026-04-22'
+converted_date: '2026-04-27'
+converted_via: docling
+expert: pm-expert
+priority: P1
+quality_grade: A
+slug: cagan-inspired-2ed-2017
+subcategory: pdm
+tags:
+- pdm
+title: Cagan Inspired 2Ed 2017
+word_count: 63680
 ---
 
 <!-- page 1 -->

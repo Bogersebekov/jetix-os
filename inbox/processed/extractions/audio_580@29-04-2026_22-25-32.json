@@ -1,0 +1,47 @@
+{
+  "source": "audio_580@29-04-2026_22-25-32.txt",
+  "processed_at": "2026-05-01T21:20:46",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Провести стратегическую сессию с Claude в plan mode + ultrathink: пусть проанализирует текущую систему быстрого анализа рынков/бизнесов, предложит улучшения и план запуска.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Довести систему быстрого анализа рынков и бизнесов до рабочего состояния — использовать Claude как аналитический движок для этой системы.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Какие стратегические варианты лучше всего: к каким людям обращаться, как именно выстраивать outreach и что делать дальше?",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Plan mode + ultrathink в Claude можно использовать не только для выполнения задач, но и для совместного стратегического обсуждения вариантов — как думающий партнёр.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    }
+  ]
+}

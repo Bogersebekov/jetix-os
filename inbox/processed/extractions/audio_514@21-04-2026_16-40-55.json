@@ -1,0 +1,87 @@
+{
+  "source": "audio_514@21-04-2026_16-40-55.txt",
+  "processed_at": "2026-04-24T04:49:50",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Стратегические гипотезы",
+      "content": "YouTube может стать золотой жилой для Jetix через автоматический анализ всех каналов по любой теме, сбор данных о рекламе, командах, возможностях кооперации в реальном времени.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать систему полного анализа YouTube-рынка по любой нише: поиск всех каналов, анализ рекламных возможностей, команд, контента и предложений кооперации.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "YouTube-создатели - идеальная целевая аудитория: дисциплинированные, ответственные, хотят развиваться, активно ищут улучшения и рост подписчиков.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix может агрессивно работать с YouTube, Instagram и Facebook рекламой одновременно, мониторя рынок в реальном времени.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "YouTube представляет реальный бизнес-мир, а не просто блогеров - много настоящих компаний ведут каналы, что открывает огромные возможности.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использовать YouTube-данные для обучения AI-моделей под конкретные бизнес-задачи и создания специализированных курсов.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Разработать методологию, систему и правила для работы с AI-агентами в различных сферах применения.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix должен стать основой для разработки методологии работы с AI-агентами - это не обсуждается.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

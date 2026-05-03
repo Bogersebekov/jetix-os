@@ -1,0 +1,47 @@
+{
+  "source": "audio_511@21-04-2026_15-28-41.txt",
+  "processed_at": "2026-04-24T04:49:05",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать токены/валюту для экосистемы Jetix с логикой распределения для специалистов и обеспечения безопасности",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Использовать криптовалютную логику для привлечения инвесторов и создания IPO/ICO проекта",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "После достижения 100 тысяч выручки необходимо расширять компанию и создавать отдельные отделы для специализированных направлений",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать отдел для разработки криптовалютной/токенной системы Jetix и проработать техническую реализацию",
+      "priority": "low",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "source": "audio_554@26-04-2026_10-27-12.txt",
+  "processed_at": "2026-05-01T20:57:33",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix строится на синергии и партнёрстве, а не на one-person подходе: 10 сильных замотивированных людей вместе идут к $100M ARR, используя взаимную ответственность и поддержку.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Конкурентное преимущество Jetix — синергия vs одиночки: пока остальные работают solo с набором инструментов, Jetix делает ставку на командную ответственность и агрессивный совместный натиск.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "С правильной командой сильных людей + скоростью AI можно построить и оформить работающий бизнес-«реактивный двигатель» за 1-2 месяца.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Сформировать ядро из 10 «горящих» людей под крылом Jetix, каждый из которых и так шёл к $1M ARR — вместе прицеливаться на $100M ARR через синергию и общую ответственность.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Решения",
+      "content": "В команду Jetix брать только по-настоящему горящих людей; подрядчики и «дяди» — только если человек не горит, это не core-команда.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Принципы",
+      "content": "Максимально держать всё под своей ответственностью, а не отдавать на подряд — так больше выхлоп и сохраняется контроль над результатом.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти инвесторов для финансирования роста Jetix — хотя бы минимальное финансирование для разгона.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Где и как находить «горящих» людей нужного уровня, готовых идти в команду Jetix на серьёзные цели?",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    }
+  ]
+}

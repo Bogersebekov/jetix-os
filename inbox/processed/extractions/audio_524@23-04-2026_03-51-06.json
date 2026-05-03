@@ -1,0 +1,87 @@
+{
+  "source": "audio_524@23-04-2026_03-51-06.txt",
+  "processed_at": "2026-04-24T04:51:40",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix как новая прослойка интернета и безопасная сеть для общения умных людей, где каждый человек имеет цифровой портрет и может находить единомышленников для совместной работы над сложными задачами.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Люди без цифровых портретов фактически не существуют в современном мире и имеют меньше шансов на успех и качественные связи.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создание сети на базе Telegram с криптозащитой, где люди публикуют свои интересы, задачи и возможности помощи, с модерацией и системой доверия.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать минимальный сайт с описанием 'кто я и чем занимаюсь' как основу цифрового портрета.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Связаться с Дуровым для интеграции Telegram в концепцию Jetix-сообщества.",
+      "priority": "low",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "В безопасном сообществе люди должны быть модерированы и проходить какую-то проверку, чтобы избежать спама и неадекватного поведения.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Существующие соцсети (Instagram, Facebook, TikTok) дают слишком поверхностное представление о человеке, не показывая его реальные интересы и возможности для сотрудничества.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Чувствую сильную одержимость и любовь к продукту Jetix, готов заниматься только этим проектом.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

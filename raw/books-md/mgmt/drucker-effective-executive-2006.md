@@ -5,7 +5,9 @@ converted_date: '2026-04-22'
 converted_via: pypdf-text-layer
 expert: mgmt-expert
 priority: P1
-quality_grade: A
+quality_flags:
+- low_headings (1)
+quality_grade: B
 slug: drucker-effective-executive-2006
 source_format: text-layer-pdf
 subcategory: mgmt

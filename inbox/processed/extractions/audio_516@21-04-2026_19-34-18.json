@@ -1,0 +1,37 @@
+{
+  "source": "audio_516@21-04-2026_19-34-18.txt",
+  "processed_at": "2026-04-24T04:50:08",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "В ближайший год нужно реализовать найденное направление, которое идеально совмещается с Jetix и включает нужных людей для сообщества.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Максимально использовать найденное направление для развития сообщества и проекта Jetix в течение следующего года.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Найдено долго искомое направление, которое органично совмещается с Jetix и привлекает нужных людей для сообщества.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

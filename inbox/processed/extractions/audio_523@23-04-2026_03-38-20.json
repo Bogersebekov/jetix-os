@@ -1,0 +1,97 @@
+{
+  "source": "audio_523@23-04-2026_03-38-20.txt",
+  "processed_at": "2026-04-24T04:51:25",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Сайт — это не просто веб-страница, а инструмент для быстрой презентации себя как профессионала, позволяющий людям быстро понять 'кто ты и стоит ли с тобой общаться'",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать несколько версий сайтов под разные аудитории с уникальными описаниями и подходами для каждой целевой группы",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если можем сделать один сайт, то можем сделать 50 разных сайтов под разные ниши — масштабируемый подход к клиентской работе",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Создать сайт Jetix на основе всех наработок (аналитика данных, YouTube сбор и др.) как демонстрацию возможностей системы",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Подход 'можно улучшить в 20 раз больше' — всегда предлагать максимальное решение клиенту, а не минимальное",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix как система, которая может создавать персонализированные решения для широкого спектра профессий с помощью AI-агентов",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Начать с предпринимателей как целевой аудитории, затем расширяться на другие профессии и ниши",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти людей в команду и партнеров для быстрого скейлинга Jetix системы",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи",
+      "content": "Использовать сайты как воронку для быстрой коммуникации с новыми людьми и привлечения в команду",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

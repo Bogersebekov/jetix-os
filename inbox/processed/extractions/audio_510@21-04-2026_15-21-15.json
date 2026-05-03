@@ -1,0 +1,117 @@
+{
+  "source": "audio_510@21-04-2026_15-21-15.txt",
+  "processed_at": "2026-04-24T04:48:58",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix целится поставить мировой рекорд по достижению капитализации в 1 триллион долларов - максимальная скорость от нуля до триллиона.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix может превзойти XAI, который за 2 года достиг капитализации в 100 миллиардов долларов.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать портал для соединения специалистов разных профилей (инвесторы, инженеры, продавцы, исследователи, AI) с адекватным взаимодействием и коммуникацией.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Строить инфраструктуру Company as a Code с самого начала, способную выдержать масштабирование до триллиона капитализации с качественными процессами.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Решения",
+      "content": "Jetix будет не one person company, а команда из 50-100 человек, работающая как холдинг с взаимодействующими агентами.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Эффект роя: создать методологию для появления других роев в разных нишах, странах и вертикалях с минимальным участием (5 часов в неделю).",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Описать систему взаимодействия локальных команд между собой - как они коммуницируют, берут совместные проекты при сохранении внутренней философии.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Jetix будет заниматься исследованием коммуникации людей, совместной работы компаний и будущей экономики как open source направление.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Плотно описать ICP (Ideal Customer Profile) и набрать реально крутых специалистов для команды.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Обратиться к Левенчуку или похожим экспертам по сложным инженерным делам за консультацией при необходимости глубокой экспертизы.",
+      "priority": "low",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Нужно стать крутым, прокачанным, умным специалистом, с которым хочется работать, на которого можно положиться и который ответственный.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

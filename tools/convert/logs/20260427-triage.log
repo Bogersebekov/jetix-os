@@ -1,0 +1,9 @@
+[2026-04-27 06:52:34] [INFO] === STEP 1: Triage ===
+[2026-04-27 06:52:34] [INFO] Checking PDF type: google-sre-book.pdf
+[2026-04-27 06:52:34] [INFO] Checking PDF type: bai-2022-cai.pdf
+[2026-04-27 06:52:34] [INFO] Checking PDF type: askell-2021-hhh.pdf
+[2026-04-27 06:52:34] [INFO] Checking PDF type: young-cqrs-2010.pdf
+[2026-04-27 06:52:34] [INFO] Triage complete. Total files: 165
+[2026-04-27 06:52:34] [INFO]   pdf_text: 4
+[2026-04-27 06:52:34] [INFO]   txt: 3
+[2026-04-27 06:52:34] [INFO]   unknown: 158

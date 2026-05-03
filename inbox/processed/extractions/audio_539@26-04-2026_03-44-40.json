@@ -1,0 +1,57 @@
+{
+  "source": "audio_539@26-04-2026_03-44-40.txt",
+  "processed_at": "2026-04-26T02:21:25",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix нужен для того, чтобы жизнь была классной, получать ресурсы релевантные опыту и знаниям, использовать их для развития жизни, компании и партнеров.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Видение",
+      "content": "Заниматься интересным делом, общаться с умными людьми, узнавать новое, тестировать, изучать, учиться, кайфовать от жизни, справляться с трудностями, ездить на переговоры по всему миру.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix должен позволить делать более масштабные и интересные проекты в будущем.",
+      "priority": "medium",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Принципы",
+      "content": "Стоит держать в голове эту цель Jetix и строить позиционирование соответствующим образом.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Видение",
+      "content": "Обрабатывать и обдумывать стратегические моменты, учиться, за это получать инвестиции и выхлоп от рабочих проектов, жить в отличном режиме с рычагами и стратегическим мышлением.",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    }
+  ]
+}

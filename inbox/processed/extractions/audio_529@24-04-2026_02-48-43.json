@@ -1,0 +1,87 @@
+{
+  "source": "audio_529@24-04-2026_02-48-43.txt",
+  "processed_at": "2026-04-24T04:52:38",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix делает Smart AI — как раньше были телефоны, потом смартфоны, так же произойдет с ИИ. Jetix создаст умный искусственный интеллект для умных людей.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Smart AI сохраняет контекст, обучается, помогает людям самим обучаться и управлять жизнью/проектами более эффективно. Требует глубокую экспертизу для использования.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Не все смогут пользоваться Smart AI из-за необходимых навыков, но те кто смогут — получат огромное преимущество в эффективности и возможностях над конкурентами.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix целится на слой миллионеров и людей зарабатывающих сотни тысяч — миллионы долларов в год, начиная от миллиона.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Четко описать ICP (Ideal Customer Profile) — кто наша целевая аудитория и как получаем от них деньги.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Система на Claude Code с папочками и википедией позволит реально делать Smart AI — это будет огромное преимущество.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Иметь первоклассных сотрудников и систему, которая помнит весь контекст жизни — это огромное преимущество, особенно если будет в безопасности локально.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Продвигать идею Smart AI через Jetix, показывать это преимущество.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "source": "audio_564@27-04-2026_14-27-40.txt",
+  "processed_at": "2026-05-01T21:05:55",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix контролирует 5% мирового ВВП к 2050 году, последовательно захватывая ниши — сначала локальный уровень, затем глобальный.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Видение",
+      "content": "Партнёры Jetix — самые насмотренные, умные и быстро реагирующие игроки; за счёт этого Jetix доминирует в ключевых нишах и выстраивает армию сильных людей.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix как система up-to-date рыночной аналитики (YouTube, Instagram, Facebook-реклама) даёт предпринимателям информационное преимущество для захвата ниш.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Продукт для предпринимателей: мониторинг рынков + лучшие наработки + управление публичными инвестициями — продвигать эту концепцию уже сейчас.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Нужно давить на разных уровнях одновременно (локальном и глобальном); актуальная рыночная информация — ключевое конкурентное преимущество.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Найти круг предпринимателей, которым интересно обсудить амбиции и концепцию Jetix.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Начать продвигать идею Jetix (рыночная аналитика + лучшие наработки) среди предпринимателей прямо сейчас.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Какой минимальный объём рынка (ниши) нужен Jetix для устойчивой работы на первом этапе?",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Принципы",
+      "content": "Захватывать рынки последовательно: сначала локальный уровень — там доказать модель, потом масштабироваться глобально.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    }
+  ]
+}

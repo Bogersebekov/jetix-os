@@ -5,7 +5,9 @@ converted_date: '2026-04-22'
 converted_via: pypdf-text-layer
 expert: engineering-foundations-expert
 priority: P1
-quality_grade: A
+quality_flags:
+- low_headings (1)
+quality_grade: B
 slug: vincenti-what-engineers-know-1990
 source_format: text-layer-pdf
 subcategory: engineering-foundations

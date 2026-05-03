@@ -1,0 +1,47 @@
+{
+  "source": "audio_555@26-04-2026_11-03-15.txt",
+  "processed_at": "2026-05-01T20:57:55",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Дисциплина и хаос (распиздяйство) — не противоположности, а компоненты, которые нужно дозировать. Задача — найти свои пропорции, а не выбирать одно из двух.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Принципы",
+      "content": "Знать свои личные пропорции дисциплина/хаос, уметь их измерять — это основа управления собой. Без замера нет управления.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Осознать и зафиксировать свои текущие пропорции дисциплины и хаоса в делах и в жизни — как отправную точку для управления.",
+      "priority": "low",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Руслан фиксирует у себя наличие обоих полюсов — и дисциплины, и распиздяйства. Осознаёт, что это нормально и управляемо при правильной дозировке.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-01"
+    }
+  ]
+}

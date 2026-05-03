@@ -1,8 +1,9 @@
 ---
-title: Deleted files log — deep multi-agent cleanup
-generated: '2026-04-22 16:06'
-type: cleanup-log
+generated: 2026-04-22 16:06
 mode: deep-substance-review
+quality_grade: A
+title: Deleted files log — deep multi-agent cleanup
+type: cleanup-log
 ---
 
 # raw/books-md/ deep cleanup — multi-agent content review

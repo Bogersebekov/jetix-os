@@ -1,0 +1,77 @@
+{
+  "source": "audio_515@21-04-2026_16-50-04.txt",
+  "processed_at": "2026-04-24T04:50:03",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Крупные корпорации (Porsche, BMW, Apple, Google, Tesla) и быстрорастущие стартапы станут инвесторами и партнерами Jetix в обмен на долю и пиар.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix получит от партнеров максимальные условия: безлимитные токены от Anthropic, офисы, транспорт, серверы, систему перелетов для команды.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Связаться с представителями крупных компаний, объяснить концепцию многомиллиардной компании и предложить партнерство в обмен на долю и помощь.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Jetix будет брать сложные заказы: внедрение ИИ в производство, заводскую безопасность, философские вопросы разработки.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix должен ежедневно бороться за лучшие возможности и условия для себя, команды и клиентов, постоянно анализировать и тестировать новые решения.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Для компаний выгодно давать безлимитные ресурсы небольшой команде (10-20 человек), если они занимаются open source и создают хороший пиар.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Активно контактировать с потенциальными партнерами через множество каналов, стучаться с разных аккаунтов до получения ответа на предложение о партнерстве.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "source": "audio_530@24-04-2026_12-13-11.txt",
+  "processed_at": "2026-04-26T02:19:51",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "У Jetix должна быть самая большая в мире коллекция Porsche, которые регулярно используются и обслуживаются командой на постоянной основе.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Принципы",
+      "content": "Философия Jetix - 'каждому по Porsche', как элемент корпоративной культуры и статуса компании.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    }
+  ]
+}

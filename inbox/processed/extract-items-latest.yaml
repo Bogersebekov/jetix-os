@@ -1,0 +1,146 @@
+- target: crm
+  intent: add
+  person_name: Илон Маск
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Илон Маск — целевой участник для привлечения в premium-сообщество предпринимателей
+    высокого уровня.
+  raw_quote: Илон Маск — целевой участник для привлечения в premium-сообщество предпринимателей
+    высокого уровня.
+  _provenance: fallback_kontakty
+  _source_extraction: audio_396@09-04-2026_04-22-20.json
+- target: crm
+  intent: add
+  person_name: Дима
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Дима — упомянут в контексте общения на выходных, где был показан уверенный
+    тон коммуникации.
+  raw_quote: Дима — упомянут в контексте общения на выходных, где был показан уверенный
+    тон коммуникации.
+  _provenance: fallback_kontakty
+  _source_extraction: audio_447@14-04-2026_12-15-56.json
+- target: crm
+  intent: add
+  person_name: Миша Таковинин
+  slug: null
+  role_hint: client_lead
+  source_channel: voice_memo
+  context: Основатель, упомянут как приоритетная цель для outreach. Руслан хочет добавить
+    его в воронку, проработать оффер и выйти с контактом.
+  raw_quote: по верхнеуровневым мишу таковинина этого оскара хардмана этих основателей...
+    этих всех сюда точно
+  _source_extraction: audio_558@26-04-2026_12-30-58.json
+- target: crm
+  intent: add
+  person_name: Оскар Хардман
+  slug: null
+  role_hint: client_lead
+  source_channel: voice_memo
+  context: Основатель, упомянут вместе с Таковининым как приоритетная цель для outreach.
+    Руслан хочет добавить его в воронку и выйти с контактом.
+  raw_quote: мишу таковинина этого оскара хардмана этих основателей... этих всех сюда
+    точно
+  _source_extraction: audio_558@26-04-2026_12-30-58.json
+- target: crm
+  intent: add
+  person_name: Алан Тропик
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Упомянут в контексте видения AI-корпорации как фигура, которую Руслан хотел
+    бы видеть в роли ответственного за брендинг.
+  raw_quote: алан тропик надо это это потом дальше брендинг
+  _source_extraction: audio_560@26-04-2026_13-55-46.json
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Упомянут как потенциальная фигура для роли офиса и бренда в рамках видения
+    построения AI-корпорации.
+  raw_quote: федорев добрый вечер давайте идите прочую бренд делайте офис и давайте
+    офис
+  _source_extraction: audio_560@26-04-2026_13-55-46.json
+- target: crm
+  intent: add
+  person_name: Церин
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: 'Ключевой потенциальный партнёр. Нужно проанализировать его профиль, сделать
+    персонализированное предложение и видео. Планируется обсуждение условий: менторство,
+    наблюдение за системой Jetix, вклад в стратегическое видение.'
+  raw_quote: проанализировать этого Церина, сделать ему персонализированное предложение
+    и видео в целом посмотреть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Левенчук
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Один из трёх ключевых людей для партнёрства и стратегического обсуждения
+    Jetix. Планируются плотные созвоны для фиксации условий сотрудничества.
+  raw_quote: мне надо вот это он плюс левенчук и плюс танки то еще основные люди которые
+    там есть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Танки
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут в связке с Цериным и Левенчуком как один из трёх ключевых людей
+    для обсуждения партнёрства и стратегии развития Jetix.
+  raw_quote: мне надо вот это он плюс левенчук и плюс танки то еще основные люди которые
+    там есть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Олег (или Виктор)
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Человек, продающий курсы по бизнес-мышлению, связан с Новой Почтой. Точное
+    имя не установлено — Олег или Виктор. Потенциально интересный партнёр на следующем
+    этапе.
+  raw_quote: этого олег олег как его как-то олег блять или виктор который продает
+    курсы по бизнес мышлению вот это его тоже я добавил бы
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Потенциальный партнёр для направления брендинга в будущей команде Jetix.
+    Упомянут в контексте разделения команды по направлениям.
+  raw_quote: а еще этого федорева тоже я бы сюда подключил одни блять на брендинг
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: touch
+  person_name: Царин Цариновым
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Активный созвон по обсуждению системы, развития Jetix и инфраструктуры.
+    Наработки Царина и МИМ интегрируются в концепцию позиционирования. Планируется
+    совместная работа как партнёров.
+  raw_quote: сейчас созваниваюсь с этим царином цариновым да вот с ним еще все обсуждаю
+    вот как раз с ним да в эту всю систему плюс дальнейшее развитие
+  _source_extraction: audio_582@30-04-2026_18-12-09.json
+- target: crm
+  intent: add
+  person_name: МИМ
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Организация, чьи наработки используются совместно с Цариным при создании
+    концепции Jetix. Упоминается как партнёрский ресурс для усиления позиционирования.
+  raw_quote: опираясь на еще наработки Церина и вот этой МИМ, и в целом то, что они
+    как бы со мной работают
+  _source_extraction: audio_582@30-04-2026_18-12-09.json

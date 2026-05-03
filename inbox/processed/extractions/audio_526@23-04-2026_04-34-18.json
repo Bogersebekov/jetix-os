@@ -1,0 +1,57 @@
+{
+  "source": "audio_526@23-04-2026_04-34-18.txt",
+  "processed_at": "2026-04-24T04:52:00",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Инсайты",
+      "content": "Электростанции требуют людей для работы — понимание того, что инфраструктура нуждается в человеческих ресурсах для функционирования.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix должен создать собственную вычислительную инфраструктуру — hardware и электростанции для обеспечения независимости.",
+      "priority": "low",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Много людей занимается бессмысленной работой — их можно перенаправить на полезные задачи: спам, общение с клиентами, продажи, создание контента.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Возможностей для применения людских ресурсов очень много — от спама до TikTok-контента, главное правильно направить.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Решения",
+      "content": "Продолжать развивать Jetix, инвестировать ресурсы в проект и использовать доступные человеческие ресурсы.",
+      "priority": "high",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

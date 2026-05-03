@@ -1,0 +1,67 @@
+{
+  "source": "audio_527@23-04-2026_05-51-35.txt",
+  "processed_at": "2026-04-24T04:52:10",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix будет заниматься реверс-инжинирингом на максималках для своего развития и развития общества - извлекать знания из AI, кодов, бизнесов конкурентов",
+      "priority": "high",
+      "project": "Jetix",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Максимально выжимать все возможное из инструкций, открытых знаний, кодов AI и бизнесов конкурентов",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать сетку по YouTube для распространения статей, исследований и контента",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Личное сообщество обеспечит быстрое развитие новых продуктов и поможет развитию как отдельных участников, так и всего сообщества",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Привлекать в сообщество предпринимателей с нахрапом, инженеров и осинтеров, инвесторов, стартаперов",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Написать документ-компас на 5-15 страниц, описывающий подход и отличительные черты Jetix",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

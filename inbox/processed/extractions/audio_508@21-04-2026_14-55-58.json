@@ -1,0 +1,97 @@
+{
+  "source": "audio_508@21-04-2026_14-55-58.txt",
+  "processed_at": "2026-04-24T04:48:29",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix займет позицию стандарта в мире AI-агентов как USB-C в электронике - будет присутствовать везде в бизнесе и работе с агентами.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Jetix не конкурирует с однопроектными компаниями, а строит enterprise-уровень корпорацию с быстрой адаптацией и решением сложных задач.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Для AI-мира потребуются новые протоколы, сети, законы и инструменты проверки, поскольку текущие системы не справляются с AI-генерируемым контентом.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix базируется на методологии быстрого обучения, изучения и тестирования с командой экспертов, способных быстро развиваться и создавать.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix идет на международный уровень как мультимиллиардная корпорация, работающая на стыке AI и бизнеса.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Бизнес-модель начинается с поиска сложных задач и людей для их решения, соединение происходит через AI-агентов для ускорения и повышения качества.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix фокусируется на изучении новейших наработок и их быстром внедрении качественно и безопасно, работая с быстро развивающимися людьми и технологиями.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Рассказывать людям о концепции Jetix, можно использовать голосовые сообщения и презентации системы работы.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Уверенность в правильности траектории Jetix и возможности не напрягаться при презентации концепции - достаточно голосовых сообщений.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}

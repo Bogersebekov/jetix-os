@@ -1,17 +1,21 @@
 ---
-title: "The Mythical Man-Month: Essays on Software Engineering"
-author: "Frederick P. Brooks, Jr."
-year: 1975
-subcategory: clean-code
+acquired_date: '2026-04-22'
+author: Frederick P. Brooks, Jr.
+converted_date: '2026-04-22'
+converted_via: claude-vision-max
 expert: unix-expert
 priority: P1
-acquired_date: "2026-04-22"
-converted_date: "2026-04-22"
-converted_via: "claude-vision-max"
+quality_grade: A
+source_format: scanned-pdf
+subcategory: clean-code
+tags:
+- clean-code
+- software-engineering
+- project-management
+- classics
+title: 'The Mythical Man-Month: Essays on Software Engineering'
 word_count: 39795
-quality_grade: "A"
-source_format: "scanned-pdf"
-tags: [clean-code, software-engineering, project-management, classics]
+year: 1975
 ---
 
 # Preface

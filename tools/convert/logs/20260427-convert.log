@@ -1,0 +1,17 @@
+[2026-04-27 06:52:34] [INFO] === STEP 3: Convert to Markdown ===
+[2026-04-27 06:52:34] [INFO] Converting 7 files...
+[2026-04-27 06:52:34] [INFO] Converting: google-sre-book.pdf (pdf_text)
+[2026-04-27 06:55:34] [INFO]   ✅ OK → raw/books-md/sre/google-sre-book.md
+[2026-04-27 06:55:34] [INFO] Converting: bai-2022-cai.pdf (pdf_text)
+[2026-04-27 06:55:51] [INFO]   ✅ OK → raw/books-md/anthropic/bai-2022-cai.md
+[2026-04-27 06:55:51] [INFO] Converting: askell-2021-hhh.pdf (pdf_text)
+[2026-04-27 06:56:20] [INFO]   ✅ OK → raw/books-md/anthropic/askell-2021-hhh.md
+[2026-04-27 06:56:20] [INFO] Converting: young-cqrs-2010.pdf (pdf_text)
+[2026-04-27 06:56:47] [INFO]   ✅ OK → raw/books-md/event-sourcing/young-cqrs-2010.md
+[2026-04-27 06:56:47] [INFO] Converting: google-srewb-implementing-slos.txt (txt)
+[2026-04-27 06:56:47] [INFO]   ✅ OK → raw/books-md/sre/google-srewb-implementing-slos.md
+[2026-04-27 06:56:47] [INFO] Converting: raw_error_20260418_165841_072752.txt (txt)
+[2026-04-27 06:56:47] [INFO]   ✅ OK → raw/books-md/processed/raw_error_20260418_165841_072752.md
+[2026-04-27 06:56:47] [INFO] Converting: raw_error_20260418_165656_199523.txt (txt)
+[2026-04-27 06:56:47] [INFO]   ✅ OK → raw/books-md/processed/raw_error_20260418_165656_199523.md
+[2026-04-27 06:56:47] [INFO] Conversion done. Success: 7, Fail: 0

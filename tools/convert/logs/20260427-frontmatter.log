@@ -1,0 +1,16 @@
+[2026-04-27 06:56:47] [INFO] === STEP 4: Add YAML Frontmatter ===
+[2026-04-27 06:56:47] [INFO] Processing 402 MD files...
+[2026-04-27 06:56:47] [ERROR] ❌ _INVENTORY-REVIEW.md: 'utf-8' codec can't decode byte 0x97 in position 58: invalid start byte
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/_FILTER-BLOCKED.md (9 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/pdm/cagan-inspired-2ed-2017.md (63680 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/cybernetics/beer-brain-of-the-firm-1972.md (166645 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/cybernetics/wiener-cybernetics-2ed-1961.md (88579 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/sre/google-srewb-implementing-slos.md (8744 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/sre/google-sre-book.md (190412 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/mgmt/grove-only-paranoid-survive-1996.md (55652 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/philosophy-science/popper-conjectures-and-refutations-1963.md (220339 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/anthropic/bai-2022-cai.md (19289 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/anthropic/askell-2021-hhh.md (24915 words)
+[2026-04-27 06:56:47] [INFO] ✅ raw/books-md/event-sourcing/young-cqrs-2010.md (17520 words)
+[2026-04-27 06:56:47] [ERROR] ❌ raw_error_20260418_165656_199523.md: Expecting property name enclosed in double quotes: line 609 column 5 (char 22474)
+[2026-04-27 06:56:47] [ERROR] ❌ raw_error_20260418_165841_072752.md: Expecting property name enclosed in double quotes: line 575 column 5 (char 21209)

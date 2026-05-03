@@ -1,8 +1,16 @@
 ---
-source: grove-only-paranoid-survive-1996.pdf
-ocr_model: mistral-ocr-latest
-ocr_pages: 103
-ocr_date: 2026-04-22
+acquired_date: '2026-04-22'
+converted_date: '2026-04-27'
+converted_via: docling
+expert: mgmt-expert
+priority: P1
+quality_grade: A
+slug: grove-only-paranoid-survive-1996
+subcategory: mgmt
+tags:
+- mgmt
+title: Grove Only Paranoid Survive 1996
+word_count: 55652
 ---
 
 <!-- page 1 -->

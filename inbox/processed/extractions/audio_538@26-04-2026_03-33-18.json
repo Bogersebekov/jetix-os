@@ -1,0 +1,67 @@
+{
+  "source": "audio_538@26-04-2026_03-33-18.txt",
+  "processed_at": "2026-04-26T02:21:17",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Создать бота по рефлексии и отдельное место для рефлексии в системе",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Перенести систему трекинга здоровья, привычек и состояния в основную систему для удобства использования",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить все connections с Telegram для быстрого взаимодействия с сервером",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Построить дашборды если необходимо для системы",
+      "priority": "low",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Задачи",
+      "content": "Разобраться с системой знаний: где записывать что изучаем, какие текущие вопросы есть и где это все хранить",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-26"
+    },
+    {
+      "category": "Идеи",
+      "content": "Создать мини рой AI-агентов для помощи со сбором знаний, учебой и анализом",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-26"
+    }
+  ]
+}

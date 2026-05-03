@@ -1,8 +1,18 @@
 ---
-source: popper-conjectures-and-refutations-1963.pdf
-ocr_model: mistral-ocr-latest
-ocr_pages: 418
-ocr_date: 2026-04-22
+acquired_date: '2026-04-22'
+converted_date: '2026-04-27'
+converted_via: docling
+expert: philosophy-expert
+priority: P1
+quality_flags:
+- page_pollution (407)
+quality_grade: B
+slug: popper-conjectures-and-refutations-1963
+subcategory: philosophy-science
+tags:
+- philosophy-science
+title: Popper Conjectures And Refutations 1963
+word_count: 220339
 ---
 
 <!-- page 1 -->

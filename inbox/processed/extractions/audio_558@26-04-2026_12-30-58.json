@@ -1,0 +1,99 @@
+{
+  "source": "audio_558@26-04-2026_12-30-58.txt",
+  "processed_at": "2026-05-01T21:00:05",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Задачи",
+      "content": "Добавить Мишу Таковинина, Оскара Хардмана и других упомянутых основателей в CRM как приоритетные цели для outreach.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Для каждого целевого основателя — описать и оценить конкретный оффер: что именно можем предложить и что именно нам нужно от них.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "Просчитать экономику и ценность предложения в цифрах — подготовить числовое обоснование оффера перед началом активного outreach.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Задачи",
+      "content": "После подготовки оффера и цифр — запустить агрессивный outreach-шторм по целевым основателям.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Контакты",
+      "content": "Миша Таковинин — основатель, упомянут как приоритетная цель для outreach и добавления в воронку.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Контакты",
+      "content": "Оскар Хардман — основатель, упомянут как приоритетная цель для outreach и добавления в воронку.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Основатели — ключевая целевая аудитория для первых продаж; имеет смысл сначала точечно проработать оффер под конкретных людей, затем идти с широким outreach-шумом.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-01"
+    }
+  ],
+  "crm_items": [
+    {
+      "target": "crm",
+      "intent": "add",
+      "person_name": "Миша Таковинин",
+      "slug": null,
+      "role_hint": "client_lead",
+      "source_channel": "voice_memo",
+      "context": "Основатель, упомянут как приоритетная цель для outreach. Руслан хочет добавить его в воронку, проработать оффер и выйти с контактом.",
+      "raw_quote": "по верхнеуровневым мишу таковинина этого оскара хардмана этих основателей... этих всех сюда точно"
+    },
+    {
+      "target": "crm",
+      "intent": "add",
+      "person_name": "Оскар Хардман",
+      "slug": null,
+      "role_hint": "client_lead",
+      "source_channel": "voice_memo",
+      "context": "Основатель, упомянут вместе с Таковининым как приоритетная цель для outreach. Руслан хочет добавить его в воронку и выйти с контактом.",
+      "raw_quote": "мишу таковинина этого оскара хардмана этих основателей... этих всех сюда точно"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "source": "audio_509@21-04-2026_14-59-51.txt",
+  "processed_at": "2026-04-24T04:48:40",
+  "model": "claude-sonnet-4-20250514",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Строим не обычную компанию на миллиард долларов, а компанию на сто миллиардов долларов с командой из 20-100 умных, мощных людей, работающих над масштабным амбициозным проектом.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Команда из 50-100 адекватно коммуницирующих и сотрудничающих людей может решить неподъемные для понимания большинства задачи.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Адекватно дописать систему, ответственно проверить и описать целевых людей для работы.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Приятно продавать и предлагать, когда есть что предлагать, знаешь что это полезно клиенту, и он точно не откажется.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Принципы",
+      "content": "Хочется заниматься делом, когда есть что делать, чем делать, время, вера в возможность, необходимость, интерес и видение смысла.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-04-24"
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать принципы эффективной работы и мотивации в системе.",
+      "priority": "low",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-04-24"
+    }
+  ]
+}
