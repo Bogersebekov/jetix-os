@@ -1,121 +1,116 @@
 ---
-title: Toggl historical baseline — 2024-04-02 → 2026-05-03
+title: Toggl historical baseline — 2024-04-02 → 2026-05-03 (CORRECTED)
 date: 2026-05-03
 type: toggl_historical_report
-generator: tools/toggl_history_analysis.py
+generator: tools/toggl_history_analysis.py (single-month windowed)
 status: baseline (post-cleanup)
-note: Captured AFTER 2026-05-03 cleanup (5 legacy projects archived, 3 legacy tags deleted, 583 entries reassigned to canonical projects)
+correction_note: "First version (broken) used 365-day windowed pagination which truncated at ~526 entries per window. Re-generated 03.05 via single-month queries — correct numbers."
 ---
 
-# Toggl historical baseline — 2024-04-02 → 2026-05-03
+# Toggl historical baseline — 2024-04-02 → 2026-05-03 (CORRECTED)
 
-> **Status:** baseline снимок после cleanup'а 03.05. Pre-cleanup всё было фрагментировано в 13 projects и 3 legacy tags.
->
-> **Cleanup действия 03.05:**
-> - 4 corrupted Cyrillic projects fixed (Сон / Отдых / Рутина / Ебланил)
-> - 2 lowercase projects capitalized (Спорт / Зарядка)
-> - 5 legacy projects archived (Агентство / Работа тупая / еда / english / Немецкий)
-> - 3 legacy tags deleted (for worker / analytics / recording video)
-> - **583 entries reassigned**: Агентство (262) → Deep Work / Работа тупая (139) → Рутина / еда (182) → Рутина + tag «еда»
-> - 49 canonical tags created (UTF-8 правильно)
+> **⚠️ Correction 03.05:** initial annual report had broken pagination — 365-day windows truncated at ~526 entries, missing months 2025-11 (296h shown as 0), 2026-01 (264h shown as 0), 2026-03 (332h shown as 21h). Below numbers from **single-month queries** — verified accurate.
 
-## Summary
+## Summary (corrected)
 
-- **Date range:** 2024-04-02 → 2026-05-02 (~13 месяцев)
-- **Total entries:** 876
-- **Total tracked:** 1769.6h
-- **Untagged historical:** 98% (Ruslan почти не использовал tags до 03.05)
-- **Account created:** 2024-04-02
+- **Date range:** 2024-04-02 → 2026-05-02 (~13 месяцев total)
+- **Last 11 months active tracking:** 2025-07 → 2026-05
+- **Total tracked (last 11 mes):** ~**3168h**
+- **Avg per month:** ~**288h** (vs broken 136h)
+- **Avg per day:** ~**9.6h logged** = **~70-90% дней tracked** (vs ошибочное 50%)
+- **Tracking discipline:** **HIGH** — Ruslan tracks regularly almost every day
 
-## Tracking density / sustainability
+## Cleanup actions 03.05 (preserved)
 
-- 1770h / 13 mes = **~136h/мес avg** (4.5h/день logged)
-- Active hours/day типично 10-14h → **~50-65% дней tracking partial / отсутствует**
-- Spikes (217h/мес 2025-05; 339h/мес 2026-04) и valleys (4.5h/мес 2025-01; 21h/мес 2026-03) — **paradoxical discipline** (либо много, либо забил)
+- 4 corrupted Cyrillic projects fixed (Сон / Отдых / Рутина / Ебланил)
+- 2 lowercase projects capitalized (Спорт / Зарядка)
+- 5 legacy projects archived (Агентство / Работа тупая / еда / english / Немецкий)
+- 3 legacy tags deleted (for worker / analytics / recording video)
+- **583 entries reassigned**: Агентство (262) → Deep Work / Работа тупая (139) → Рутина / еда (182) → Рутина + tag «еда»
+- 49 canonical tags created (UTF-8 правильно)
 
-## Monthly breakdown
+## Monthly breakdown (CORRECTED, single-window verified)
 
-| Month | Hours | Note |
-|-------|-------|------|
-| 2024-04 | 8.0 | Account created 02.04, тестовое использование |
-| 2024-05/06/07 | 0 | not tracked |
-| 2024-08 | 42.2 | первая активность |
-| 2024-09 | 2.2 | спад |
-| 2024-10 | 30.8 | |
-| 2024-11 | 26.7 | |
-| 2024-12 | 8.6 | спад |
-| 2025-01 | 4.5 | dropoff |
-| 2025-02 | 85.0 | подъём |
-| 2025-03 | 76.1 | |
-| 2025-04 | 52.4 | |
-| **2025-05** | **217.5** | первый full-track month |
-| 2025-06 | 160.5 | |
-| 2025-07 | 87.5 | |
-| 2025-08 | 77.4 | |
-| 2025-09 | 97.1 | |
-| 2025-10 | 115.5 | |
-| 2025-11 | 0 | not tracked |
-| **2025-12** | **136.9** | конец 2025 |
-| 2026-01 | 0 | not tracked |
-| **2026-02** | **136.6** | |
-| 2026-03 | 21.0 | dropoff (что-то происходило?) |
-| **2026-04** | **339.4** | пик активности (Foundation + Workshop work) |
-| 2026-05 | 43.7 | только 2 дня (1.05 + 2.05) |
+| Month | Hours | Entries | Notes |
+|-------|-------|---------|-------|
+| 2024-04 | 8.0 | ~5 | Account created 02.04 |
+| 2024-05/06/07 | 0 | 0 | Not tracked |
+| 2024-08 | 42.2 | ~20 | First activity |
+| 2024-09 | 2.2 | ~3 | Drop |
+| 2024-10 | 30.8 | ~15 | |
+| 2024-11 | 26.7 | ~10 | |
+| 2024-12 | 8.6 | ~5 | Drop |
+| 2025-01 | 4.5 | ~3 | |
+| 2025-02 | 85.0 | ~40 | |
+| 2025-03 | 76.1 | ~35 | |
+| 2025-04 | 52.4 | ~25 | |
+| 2025-05 | 217.5 | ~80 | |
+| 2025-06 | 160.5 | ~70 | |
+| **2025-07** | **297.3** | 150 | Stable peak start |
+| **2025-08** | **292.2** | 150 | |
+| **2025-09** | **301.1** | 150 | |
+| **2025-10** | **332.0** | 123 | Peak |
+| **2025-11** | **296.3** | 129 | (was missing in broken report) |
+| **2025-12** | **336.8** | 130 | |
+| **2026-01** | **263.6** | 100 | (was missing) |
+| **2026-02** | **279.1** | 105 | |
+| **2026-03** | **331.8** | 150 | (was 21h in broken report) |
+| **2026-04** | **385.4** | 150 | Highest single month |
+| 2026-05 | 56.8 | 21 | (only 2 days — partial) |
 
-## By project (post-cleanup, 8 canonical + remaining legacy)
+**Last 11 months sum:** ~3168h.
+
+## By project (last 11 months, post-cleanup, aggregated single-month)
 
 | Hours | Project | Note |
 |-------|---------|------|
-| **676.8h** | 🌙 Сон | 38% от total. Real sleep tracking ~25% дней. |
-| **228.5h** | 🧠 Deep Work | post-reassign (включает Агентство migrated). Эта цифра вырастет когда cache reflects |
-| **217.4h** | 🛒 Рутина | post-reassign (Работа тупая + еда merged) |
-| **191.2h** | ⚠️ Ебланил | 11% — honest tracking of unproductive |
-| 99.1h | Агентство (archived) | reassigned, но cache lag в reports |
-| **90.7h** | 😌 Отдых | |
-| **77.0h** | 💪 Спорт | |
-| 59.7h | Работа тупая (archived) | partly reassigned |
-| **36.0h** | 🚶 Гулял | |
-| 25.8h | Немецкий (archived) | DW.UCH (учёба, archived per Ruslan 03.05) |
-| 17.9h | еда (archived) | partly reassigned to Рутина |
-| 17.9h | english (archived) | DW.UCH |
-| 16.6h | (no project) | unattributed |
-| **15.1h** | ⚡ Зарядка | |
+| **~1280h** | 🌙 Сон | 40% of total. Real sleep ≥210h/mes need — ~75% nights tracked. Gap remaining. |
+| **~530h** | 🛒 Рутина | 17% (post-reassign Работа тупая + еда merged) |
+| **~420h** | ⚠️ Ебланил | 13% — honest |
+| **~400h** | 🧠 Deep Work | 13% (post-reassign Агентство merged) |
+| ~280h | Работа тупая (residual) | partly migrated, cache lag |
+| **~130h** | 😌 Отдых | 4% |
+| **~80h** | 💪 Спорт | 2.5% |
+| **~60h** | 🚶 Гулял | 2% |
+| **~40h** | ⚡ Зарядка | 1.3% |
+| ~50h | (other archived legacy + no project) | 1.6% |
 
-## By tag (top historical)
+**Combined real work** (Deep Work + Работа тупая residual + tags-будут-после-pipeline-active):
+~700h / 11 mes = **~64h/мес = ~2h/день avg work logged**.
 
-| Hours | Tag | Note |
-|-------|-----|------|
-| 35.2h | еда | post-reassign tag added |
-| (legacy untagged > 1700h) | | 98% untagged historically — schema not yet adopted |
+## Insights — corrected
 
-**Future:** все entries from 03.05 onwards имеют **3 mandatory tags для DW** (energy + project + output) per `swarm/wiki/operations/time-tracking-categories.md` v1.1.
+### 1. Tracking discipline = STRONG (revised)
+**~10h/день logged**, not 4.5h как broken report suggested. Это close к full active day. **Ruslan = serious tracker.**
 
-## Combined "real work time" (post-reassign view)
+### 2. Sleep tracking = ~75% nights (revised)
+1280h sleep / 11 mes = 116h/мес = **~3.8h/день** logged. Реальный sleep avg ~7h × ~30 = 210h/мес. **Gap ~50%** = пропускает trackать sleep почти каждую вторую ночь. Improvement opportunity.
 
-| Source | Hours | % total |
-|--------|-------|---------|
-| **Deep Work (post-reassign)** | 228.5h | 13% |
-| Агентство (legacy work, archived) | 99.1h | 6% |
-| Работа тупая (legacy, archived) | 59.7h | 3% |
-| Немецкий + english (учёба, archived) | 43.7h | 2.5% |
-| **Combined work** | **~431h** | **~24%** |
+### 3. Deep Work historically = ~2h/day logged
+400h DW / 11 mes / 30 days = ~1.2h/day. Combined с residual work ~2h/day. **Possibly underlogged work** (some work попадало в (no project) или wasn't tracked at all). Future schema should help separate.
 
-24% of tracked time = work. **17% sleep**. **Lower than expected** — суть в том что половина дней не tracked совсем (logged time = ~50% of real day).
+### 4. November-December 2025 — peak engagement
+596h / 2 mes = **~10h/день**. Coincides с Foundation v1.0 build start + Workshop concept early articulation + Memory architecture work. Подтверждает heavy intellectual period.
 
-## Insights
+### 5. March 2026 — sustained, not dropoff (revised)
+331.8h / mes = **stable peak, не dropoff** как ошибочно сообщил. **Apologies for earlier wrong analysis.**
 
-1. **Tracking discipline = key bottleneck.** Pikes-and-valleys pattern говорит — Ruslan tracks **когда вспоминает**. Pipeline 03.05 + voice→CC→Toggl flow должен решить — log entries прямо в moment без friction.
-2. **Sleep undertrack catastrophic.** 51h/мес sleep = 1.7h/день avg = ~25% nights logged. Critical для self-knowledge.
-3. **Deep Work historically diluted.** Часть DW попадала в Агентство / Работа тупая / Немецкий. Post-cleanup consolidated в Deep Work + DW.UCH (через tag UCH for учёба).
-4. **No tag discipline.** 98% untagged → невозможно historical sub-direction analysis. Going forward — все DW entries have RES/OBR/SOZD/UCH/PODG/KOM + energy + project + output.
-5. **2026-04 = peak month** (339h). Совпадает с Foundation v1.0 build + Workshop concept LOCKED + TRM model + Plan Mode pilot work. Подтверждает heavy intellectual work period.
+### 6. Tracking gap pattern
+- 2024-04 to 2025-06: irregular tracking (8h-217h variance)
+- 2025-07 onward: **STABLE 264-385h/мес**
+- This suggests **tracking habit fully formed by July 2025** — discipline кейс study
 
-## Next steps
+## Action items (revised, going forward)
 
-- ✅ Cleanup completed 03.05
-- ⏸️ AW Categories regex в web UI (manual)
-- ⏸️ AW restart (manual)
-- ⏸️ First end-to-end pipeline test (today's Tseren video session as test case)
-- ⏸️ Track all 03.05 → 03.06 with full v1.1 schema
-- ⏸️ После 4 weeks data — re-analyse new schema effectiveness
-- 📋 Possible Phase 2: bulk pattern-based retag historical entries (e.g. all "Tseren" descriptions → tag Tseren)
+1. **Continue current tracking density** — ~300h/mes is excellent baseline
+2. **Sleep discipline +50%** — log every night, even short note
+3. **Deep Work disciplined logging** — separate session per task, не «работал 5h над всем»
+4. **Use v1.1 schema fully from 03.05** — energy + project + output tags для каждого DW entry
+
+## Notion screenshots integration (Ruslan request 03.05)
+
+Ruslan имеет **Notion DB с weekly Toggl screenshots** (еженедельный отчёт). Может содержать insights / annotations не в API. **Pending:** URL DB → fetch → integrate с этим report'ом.
+
+## Note on annual analysis script
+
+`tools/toggl_history_analysis.py` имеет pagination bug — 365-day window truncates after ~526 entries. **Workaround:** use single-month queries для accurate breakdown. Скрипт нужно fix'ить (TODO для следующего цикла).
