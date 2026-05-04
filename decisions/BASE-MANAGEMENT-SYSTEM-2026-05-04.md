@@ -832,462 +832,458 @@ INPUT  →  ФИЛЬТР  →  ПЕРЕВАРИВАНИЕ  →  OUTPUT
 
 ---
 
-# 4. 🏗️ Архитектура системы — 13 слоёв в 6 группах
+# 4. 🏗️ Архитектура системы — 11 Foundation Parts + Pillar C
 
-> **Цель раздела:** как мастерская устроена technically + conceptually. От самого нижнего (где живут байты) до самого верхнего (где принимаются стратегические решения).
+> **Цель раздела:** как мастерская устроена technically + conceptually. От substrate (где всё хранится) до strategy (куда всё движется).
 >
-> **Метафора:** мастерская — это **здание** с подвалом, этажами и крышей. Информация течёт снизу вверх (raw input → strategic decisions) и сверху вниз (планы → исполнение).
+> **Источник истины:** Foundation v1.0 LOCKED 2026-04-28 (git tag `foundation-architecture-locked-2026-04-28`, `swarm/wiki/foundations/`). Этот раздел — **человеческая читалка** canonical архитектуры. Caждая Part описана в **двух регистрах**: системно (что это технически) + по-человечески (метафора).
+>
+> **Метафора:** мастерская — это **здание** с подвалом (substrate), цехами (processing), отделами (coordination), охраной (governance), телефонной станцией (interfaces) и крышей (strategy). 11 Parts = 11 функциональных модулей мастерской + Pillar C — это «общие правила дома» (cross-cutting).
 
 ---
 
-## 4.0 Обзор — все 13 слоёв одной картинкой
+## 4.0 Обзор — карта 11 Parts + Pillar C одной картинкой
 
 ```
 ═════════════════════════════════════════════════════════════════
-  ГРУППА F: STRATEGIC + VISIBILITY (крыша / навигация)
+  ГРУППА F: STRATEGY (крыша — куда движемся)
   ─────────────────────────────────────────────────────────
-  СЛОЙ 13. 🎯 Strategic / Planning Layer
-  СЛОЙ 12. 📊 Visibility / Dashboards / Reports
+  📍 Part 11 — Strategic Direction Substrate
 ═════════════════════════════════════════════════════════════════
-  ГРУППА E: ACTIVE EXECUTION (мозг + руки мастерской)
+  ГРУППА E: INTERFACES (связи внутрь и наружу)
   ─────────────────────────────────────────────────────────
-  СЛОЙ 11. 🔧 Tools / Skills / Adaptable Станки
-  СЛОЙ 10. 🤖 Agents / Виртуальные мастера
+  📍 Part 10 — External Touchpoints & Network Interface
+  📍 Part 9  — Owner Interaction Scaffold
 ═════════════════════════════════════════════════════════════════
-  ГРУППА D: PROJECTS & OPERATIONS (что мы делаем) ⭐ NEW
+  ГРУППА D: GOVERNANCE & HEALTH (правила + контроль здоровья)
   ─────────────────────────────────────────────────────────
-  СЛОЙ  9. 🚧 Project Management Layer
+  📍 Part 8  — Health Monitoring & System Integrity
+  📍 Part 6b — Human Gate
 ═════════════════════════════════════════════════════════════════
-  ГРУППА C: STATE & COMMS (нервная система + что у нас есть)
+  ГРУППА C: COORDINATION & EXECUTION (мастера и проекты)
   ─────────────────────────────────────────────────────────
-  СЛОЙ  8. 📬 Communication / Messaging / Mailboxes
-  СЛОЙ  7. 💎 Resource State / Resource Management Layer ⭐ NEW
-  СЛОЙ  6. 🧠 Memory / Context / Niches
+  📍 Part 7  — Project Lifecycle Substrate ⭐
+  📍 Part 4  — Role Taxonomy & Coordination Protocol
 ═════════════════════════════════════════════════════════════════
-  ГРУППА B: INFORMATION PROCESSING (переработка)
+  ГРУППА B: INPUTS & PROCESSING (вход + цех переработки)
   ─────────────────────────────────────────────────────────
-  СЛОЙ  5. 📚 Knowledge Organization / Wiki structure
-  СЛОЙ  4. ⚙️  Pipelines / Information Processing
+  📍 Part 6a — Provenance Officer
+  📍 Part 5  — Compound Learning & Methodology Capture
+  📍 Part 3  — Knowledge Base & Methodology Library
+  📍 Part 2  — Signal Ingestion & Triage
 ═════════════════════════════════════════════════════════════════
-  ГРУППА A: FOUNDATION (фундамент здания)
+  ГРУППА A: SUBSTRATE (фундамент здания + общие правила)
   ─────────────────────────────────────────────────────────
-  СЛОЙ  3. 📐 Conventions / Schemas / Единый язык
-  СЛОЙ  2. 🔍 Index / Search / Findability
-  СЛОЙ  1. 💾 Storage / Filesystem / Данные
+  📍 Pillar C — Principles Substrate (cross-cutting)
+  📍 Part 1   — System State Persistence
 ═════════════════════════════════════════════════════════════════
 ```
 
-**Общий принцип:** каждый слой опирается на нижестоящие. Без фундамента (A) ничего не работает. Без processing (B) данные мёртвые. Без state & comms (C) — нет преемственности и связи. **Без Projects (D) — нет операционной деятельности**. Без agents/tools (E) — нет исполнения. Без strategy/visibility (F) — нет смысла во всём остальном.
+**Как читать диаграмму:**
+- 🏠 Снизу — substrate (фундамент). Всё опирается на это.
+- 🔼 Каждая группа выше работает с тем, что ниже.
+- 🎯 Сверху — strategy (крыша). Сюда всё стекается, отсюда исходят directions.
+- 🌐 Pillar C — cross-cutting (cross all groups), как электричество в доме.
 
-> **⭐ Важное добавление 04.05:** изначально системa имела 11 слоёв. После анализа: в архитектуре отсутствовали явные слои **управления проектами** и **управления ресурсами**. Эти слои существовали неявно (размазаны по storage / memory / tools / visibility). Теперь они выделены отдельно — потому что это **самые активные операционные слои** мастерской, и без них вся остальная архитектура — теория.
-
----
-
-## ГРУППА A — FOUNDATION (фундамент здания)
-
-> *Эта группа — буквально пол / стены / электричество мастерской. Ничего "видимого" пользователю. Но без неё всё остальное физически невозможно.*
-
-### 🔹 Слой 1. 💾 Storage / Filesystem / Данные
-**Что это:** физическое место, где живут байты данных.
-
-**В системе:**
-- **Локальный filesystem** — папки на компьютере (proекты / wiki / artifacts)
-- **Cloud storage** — backup, синхронизация между устройствами
-- **Databases** — Notion DBs, локальные SQLite/JSON файлы, Toggl
-- **Repositories** — git для кода и текстовых документов
-
-**По-человечески:** это как полки и шкафы в мастерской. Сами по себе они ничего не делают, но без них некуда положить инструмент.
+> **Важное:** в canonical Foundation Part 6 разделён на **6a (Provenance Officer)** + **6b (Human Gate)**. Я их кладу в разные группы — Part 6a в processing (отслеживание источников), Part 6b в governance (точки утверждения). Это согласуется с canonical документом.
 
 ---
 
-### 🔹 Слой 2. 🔍 Index / Search / Findability
-**Что это:** механизм **найти** нужный кусок информации за секунды.
+## 4.1 Принципы архитектуры Foundation v1.0
 
-**В системе:**
-- `index.md` каталог всех страниц wiki
-- Поиск по содержимому (grep / ripgrep / Notion search)
-- Поиск по тэгам / metadata (frontmatter)
-- Cross-links между документами (graph)
+Прежде чем разбирать каждую Part — несколько cross-cutting принципов, которые объясняют **как** Parts связываются:
 
-**По-человечески:** это табличка-каталог при входе в мастерскую: "инструмент X лежит на полке Y, в ящике Z". Без этого — потратишь час чтобы найти нужное.
+### 🔗 F-G-R Tagging (Foundation / Generic / Ruslan-layer)
+Каждая Part имеет **F (Foundation generic — fork-portable)** и **R (Ruslan-layer specifics)**. Это значит: чужой человек может **взять Foundation как fork**, а конкретное наполнение (его специфика) — заменить под себя. **Каркас одинаков, наполнение разное.**
 
----
+### 🔗 Append-only discipline
+**Нет удалений.** Любые изменения — через `supersedes` (новая запись + ссылка на старую). История — навсегда. Это даёт `git checkout` к любой точке прошлого = «машина времени».
 
-### 🔹 Слой 3. 📐 Conventions / Schemas / Единый язык
-**Что это:** правила того, как **называть, структурировать, тегировать** всё в системе.
+### 🔗 Inter-Part contracts
+52 типизированных рёбра между Parts (verified в Wave D INTEGRATION-REPORT). Каждая Part знает **с кем она общается** и **через какой контракт**.
 
-**В системе:**
-- **Naming conventions** — `kebab-case.md`, даты `YYYY-MM-DD`
-- **YAML frontmatter** обязателен в каждом .md (тип / статус / тэги / дата)
-- **Schemas** — для message JSONL, для time-tracking entries, для voice extracts
-- **Тэги** — `#type/`, `#status/`, `#priority/`, `#topic/`
+### 🔗 Single accountable
+Каждая Part — **один owner**, кто за неё отвечает. Нет «общей ответственности».
 
-**По-человечески:** это как **общий язык** в мастерской. Все станки маркируются одинаково, все документы оформляются одинаково — поэтому можно легко находить, обмениваться, автоматизировать.
-
-> Без conventions через 3 месяца — хаос, через год — система мёртвая.
+### 🔗 Anti-scope hard rules
+Каждая Part имеет явный «**ЧЕГО НЕТ в моей зоне**». Это предотвращает scope creep между Parts.
 
 ---
 
-## ГРУППА B — INFORMATION PROCESSING (переработка)
+## ГРУППА A — SUBSTRATE (фундамент здания + общие правила)
 
-> *Эта группа — где **сырая информация превращается в осмысленную**. Это конвейер мастерской.*
+> *Эта группа — буквально пол / стены / электричество мастерской. Без неё ничего не работает. Pillar C = «общие правила дома», Part 1 = «куда складываются все факты».*
 
-### 🔹 Слой 4. ⚙️ Pipelines / Information Processing
-**Что это:** автоматические или полуавтоматические **конвейеры**, которые гоняют информацию через 4 фазы (input → filter → digest → output).
+### 🔹 Part 1 — System State Persistence
 
-**В системе:**
-- **Voice pipeline** — диктофон → транскрипция (Whisper) → extraction (Claude) → review → distribution
-- **Ingest pipeline** — `/ingest <path-or-url>` → wiki/ страницы + index + log + edges
-- **Time-tracking pipeline** — AW + Toggl → daily reports → cross-check
-- **Note-to-decision pipeline** — capture → digest → decision document
-- **Outreach pipeline** — research → personalize → send → track → follow-up
+**Системно:**
+Append-only, version-controlled ground-truth substrate. Любой commited state системы — **либо существует как git commit, либо не существует**. Git как substrate выбран по 4 критериям: Lindy-confirmed (19 лет), content-addressable (cryptographic hash), append-only by structural design (DAG), offline-first.
 
-**По-человечески:** это **транспортёрные ленты** в мастерской. Сырьё едет с одного конца, готовое изделие выезжает с другого. Мастер настраивает ленту один раз — дальше она работает.
+**По-человечески:**
+Это **подвал мастерской с архивом**. Каждое решение, каждая запись, каждый артефакт — кладётся туда с datestamp'ом. Никогда не удаляется. Через год можно открыть архив и сказать: «вот здесь я был 6 апреля, вот моё состояние». Нет другого источника истины — только архив.
 
----
+**Что хранит:**
+- Все wiki-страницы
+- Все decisions
+- Все voice transcripts + extracts
+- Все project files
+- Все agent memory snapshots
+- Все system events (через `shared/events.jsonl`)
 
-### 🔹 Слой 5. 📚 Knowledge Organization / Wiki structure
-**Что это:** **где живут переработанные знания** — структурно, найдобельно, связанно.
-
-**В системе:**
-- **9 entity types** в wiki/: concepts / entities / sources / topics / ideas / experiments / claims / summaries / foundations
-- **Niches** — срезы знаний по сферам (personal / business / sales / life / tech / meta)
-- **Edges graph** — типизированные связи между документами
-- **Comparisons** — bonus filing для парных сравнений
-
-**По-человечески:** это **склад готовых деталей** в мастерской. Не сваленные в кучу, а разложенные по типу, со связями "эта деталь подходит к станку Y, использовалась в проекте Z".
+> **Без Part 1 — нет системы.** Это substrate, на котором живут все остальные 10 Parts.
 
 ---
 
-## ГРУППА C — STATE & COMMS (нервная система + что у нас есть)
+### 🔹 Pillar C — Principles Substrate (cross-cutting sub-system)
 
-> *Эта группа — то, что делает мастерскую не складом, а **живым организмом**. Память + связь между частями + **состояние ресурсов которыми мы владеем**.*
+**Системно:**
+Two-tier структура принципов:
+- **Tier 1 — Manager / Owner principles** — ценности человека-владельца («развитие общества», «честность», «long-term thinking», «AI учит, не выполняет за человека»)
+- **Tier 2 — AI / System principles** — правила поведения системы («AI does not strategize», «default-deny novel actions», «filesystem source of truth»)
 
-### 🔹 Слой 6. 🧠 Memory / Context / Niches
-**Что это:** **persistent context**, который помнит "кто я / что я делал / куда иду".
+Tier 2 имеет **11-rule canonical core** (Foundation generic, fork-portable). Mirrors `JETIX-VISION-FUNDAMENTAL §6.1`.
 
-**В системе:**
-- **Per-agent memory** — system.md (core) / strategies.md (накопления) / scratchpad.md (working) / niche/ (срез)
-- **User profile** — кто пользователь, его предпочтения, контекст
-- **Decision log** — все важные решения с обоснованиями
-- **Strategic insights memory** — long-term понимания
+**По-человечески:**
+Это **«общие правила дома»**, висящие на стене у входа. Все обитатели (Parts, agents, владелец) видят их и обязаны соблюдать. Цитата Ruslan'а 28.04: «**принципы это такой как бы мега CLAUDE.md для всей системы**».
 
-**По-человечески:** это **память мастера и его помощников**. Без неё каждое утро начинаешь с "а что я делал вчера?". С ней — продолжаешь с того места где остановился.
+**Где консумируется:**
+- Part 6b (Human Gate) — Tier 2 11 правил mirror'ятся в `constitutional_never_list`
+- Part 11 (Strategic Direction) — strategic docs ссылаются через `principles_compliance:` frontmatter
+- Pillar B (Project strategies) — то же
+- CLAUDE.md — HYBRID sync механизирован
 
-> **Важно:** project-specific memory — это уже не L6. Активное состояние проектов живёт в **L9 Project Management**. L6 — это про context, identity, long-term insights, не про active operations.
-
----
-
-### 🔹 Слой 7. 💎 Resource State / Resource Management ⭐ NEW
-
-**Что это:** **активное состояние всех ресурсов владельца** — что у тебя есть, в каком количестве, какая динамика.
-
-### Зачем это отдельный слой
-Ресурсы — это **то, чем мастер реально владеет**, и **то, через что он создаёт результат в физическом мире**. Это **operational state**, не просто "память" и не просто "хранилище". Это **dashboard живой системы владения**.
-
-### 6 категорий ресурсов
-- 💰 **Финансы** — балансы / cashflow / инвестиции / расходы / runway
-- ⏱️ **Время** — куда уходит / какие блоки топовые / сколько освобождено / тренд
-- 📚 **Знания** — что освоил / в процессе / forgotten / personal Wikipedia
-- 👥 **Связи** — кто знаком / какой leverage / последний контакт / обещания / health relationships
-- 💻 **Compute** — подписки / доступы / токены / API quotas / серверы
-- 🤝 **Команда** — подрядчики / помощники / роли / обязательства / blocking issues
-
-### Что хранится в этом слое
-- **Текущее состояние** каждого ресурса (snapshot)
-- **История изменений** (timeline / тренды)
-- **Связи между ресурсами** (например — этот клиент связан с этим проектом и этим cashflow)
-- **Метрики качества** (например — финансы: расход/доход коэффициент; знания: % retention)
-- **Alerts / triggers** (например — баланс упал ниже X / время на проект Y > план)
-
-### Как реализовано
-- **Финансы** — отдельная DB (Notion / spreadsheet / банковский API integration), регулярные snapshots
-- **Время** — Toggl + AW + sync скрипты + reports (см. Time-tracking pipeline)
-- **Знания** — wiki/ + index + tags + graph (но **с тэгом "освоено / в процессе / отложено"**)
-- **Связи** — CRM-like структура (Notion DB / отдельная база), tracking last contact
-- **Compute** — registry подписок, expiry dates, cost per month
-- **Команда** — DB людей + roles + assignments + status
-
-### По-человечески
-Это **большой инвентарь мастера** — что у меня есть, в каком состоянии, что заканчивается, где излишек. **Аналог склада, но не сырья — а ВСЕГО ИМЕЮЩЕГОСЯ**.
-
-> Без этого слоя — ресурсы **невидимы**. Деньги где-то есть, но не знаешь сколько. Время уходит, но не знаешь куда. Знания накапливаются, но не знаешь какие. Это как **жить в темноте**.
-
-### Связь с принципом из 3.4
-Это **технический слой** для реализации принципа **«6 ресурсов = единая картина»** + **«сохранить + приумножить = математика»**. Без слоя L7 принцип в воздухе.
-
-### Связь с другими слоями
-- **L1 Storage** — сами данные (БД / файлы) живут на L1
-- **L4 Pipelines** — pipelines пополняют этот слой (Toggl sync, банковские sync, etc.)
-- **L9 Projects** — проекты потребляют ресурсы из этого слоя
-- **L12 Visibility** — дашборды показывают состояние этого слоя
-- **L13 Strategy** — strategic decisions опираются на состояние ресурсов
+> **Pillar C — НЕ пронумерованная Part.** Это cross-cutting sub-system, потому что её используют 5+ Parts одновременно. Numbering would imply peer-status with Parts 1-11.
 
 ---
 
-### 🔹 Слой 8. 📬 Communication / Messaging / Mailboxes
-**Что это:** **как разные части системы общаются** между собой.
+## ГРУППА B — INPUTS & PROCESSING (вход + цех переработки)
 
-**В системе:**
-- **Mailboxes** (JSONL) для каждого агента в `comms/mailboxes/`
-- **Message schema** — единый формат сообщений
-- **Notion как inter-system message bus** (Daily Log / tasks)
-- **Hub-and-spoke** — Manager как центральный роутер
+> *Эта группа — где сырьё попадает в мастерскую и превращается в полуфабрикат / готовое изделие. 4 Parts работают в pipeline.*
 
-**По-человечески:** это **внутренняя почта мастерской**. Когда у одного станка готова деталь — он "пишет письмо" следующему. Когда мастер хочет дать команду — отправляет через эту систему, не подходит к каждому лично.
+### 🔹 Part 2 — Signal Ingestion & Triage
 
----
+**Системно:**
+Захват входящих сигналов (voice notes / web sources / chat / docs) + первичная фильтрация (что попадает дальше / что в архив / что в мусор). Включает provenance metadata + категоризацию по type.
 
-## ГРУППА D — PROJECTS & OPERATIONS (что мы делаем) ⭐ NEW
+**По-человечески:**
+Это **охрана + ресепшн** мастерской. На входе в здание — проверка: что это за сигнал, откуда, важно ли вообще. Если важно — пропускаем дальше с paperwork'ом. Если нет — в мусор или архив.
 
-> *Эта группа отвечает на вопрос **«ЧТО МАСТЕРСКАЯ ДЕЛАЕТ ПРЯМО СЕЙЧАС?»**. Это самый видимый operational слой — то, ради чего вообще всё остальное существует.*
-
-### 🔹 Слой 9. 🚧 Project Management Layer
-
-**Что это:** **где живут все активные проекты** — со всем контекстом, статусом, задачами, dependencies.
-
-### Зачем это отдельный слой
-Проект — это **долгоживущая операционная единица**, объединяющая:
-- Цель (зачем делается)
-- Точку А и Точку Б (где сейчас и куда хотим)
-- Текущие задачи + backlog
-- Прогресс / blockers / risks
-- Resources allocated (время / деньги / люди)
-- Knowledge accumulated (что узнали по ходу)
-- Decisions made (что решили + почему)
-- Artifacts (что создано)
-
-**Это не просто "memory" и не просто "wiki entry"**. Это **активное состояние операций**, которое живёт от старта до закрытия проекта.
-
-### Что хранится в этом слое
-- **Список всех проектов** (active / paused / completed / cancelled)
-- **Project metadata** — название, тип, приоритет (P1-P4), фаза, owner
-- **Project state** — где сейчас, что блокирует, какие next steps
-- **Tasks DB** — все задачи проекта, статусы, deadlines
-- **Project journal / log** — хронология ключевых событий проекта
-- **Project artifacts** — links на created artifacts (документы, код, выходы)
-- **Resource allocation** — сколько времени уходит, сколько денег вложено
-- **Cross-project dependencies** — какие проекты от каких зависят
-
-### Как реализовано в Jetix
-- **Notion Projects DB:** `69a3c581-ab33-48d9-9827-ec8a8bb69d14`
-- **8 активных проектов** (см. CLAUDE.md): quick-money / research / brand / community / ai-tools / life-os / engineering-thinking / bets
-- **Daily Log DB** — связана с проектами через relation
-- **Tasks DB** — отдельная DB, relation на projects
-- **Project files в repo** — `projects/{project-id}/`
-- **Decisions** — `decisions/` с relation на проект
-
-### Что можно делать через этот слой
-- **Видеть весь портфель** проектов одной картиной (priority / phase / status)
-- **Drill down** в конкретный проект — состояние / next steps / blocked
-- **Видеть какие проекты съедают сколько ресурсов** (через L7 связи)
-- **Принимать решения о приоритезации** — какой ускорить, какой заморозить
-- **Триггеры** — проект завис на N дней → alert; проект превысил budget → review
-
-### По-человечески
-Это **большая доска проектов** в мастерской. На ней висят карточки всех активных проектов — что в работе, что блокировано, что готово к ship'у. Мастер каждое утро смотрит на эту доску и понимает что делать сегодня.
-
-> Без этого слоя — проекты **в голове**. Что приводит к проблеме 1.10 (управление проектами в голове = плохое управление).
-
-### Связь с принципом из 1.10
-Этот слой — **техническая реализация** принципа «**внешний слой управления проектами как физическая необходимость при >2 проектах**».
-
-### Связь с другими слоями
-- **L1 Storage** — данные проектов
-- **L5 Knowledge** — что узнали по проекту → переходит в общий wiki
-- **L6 Memory** — long-term context живёт здесь после закрытия проекта
-- **L7 Resource State** — проекты тратят ресурсы, видно через связь
-- **L10 Agents** — agents работают **в контексте** проектов
-- **L11 Tools** — конкретные станки используются **внутри** проектов
-- **L12 Visibility** — дашборды проектов
-- **L13 Strategy** — стратегические решения определяют какие проекты живут
+**Что обрабатывает:**
+- Voice notes из voice pipeline
+- Notion ideas из Bank of Ideas
+- Web research / scraped sources
+- Chat messages / разговоры
+- Docs / PDFs / books
 
 ---
 
-## ГРУППА E — ACTIVE EXECUTION (мозг + руки мастерской)
+### 🔹 Part 3 — Knowledge Base & Methodology Library
 
-> *Эта группа — собственно **те, кто делает работу** в проектах. Виртуальные мастера + их инструменты.*
+**Системно:**
+Karpathy LLM Wiki + OmegaWiki style. **9 entity types** × **9 edge types** × **6 niches**. Retrieval через HippoRAG Personalized PageRank на графе (не embeddings). Включает methodology library (как делать вещи).
 
-### 🔹 Слой 10. 🤖 Agents / Виртуальные мастера
-**Что это:** **специализированные исполнители** с ролями и зонами ответственности.
+**По-человечески:**
+Это **главный склад готовых деталей** в мастерской. Не сваленные кучей, а **разложены по типу с подписями и связями** между собой. Когда нужна деталь — находишь за секунды. Plus отдельная полка с **methodologies** (как делать N задачу, со всеми наработанными приёмами).
 
-**В системе (Jetix имеет 12 agents):**
-- **Manager** — координатор
-- **Personal assistant** — productivity, OPS lead
-- **System admin** — infrastructure
-- **Sales lead / researcher / outreach** — sales department
-- **Inbox processor / Knowledge synth / Crazy agent** — Brain department
-- **Strategist** — стратегические решения
-- **Life coach** — здоровье, режим
-- **Meta agent** — аудит системы
-
-**По-человечески:** это **бригада подмастерьев** в мастерской. У каждого своя специализация — один режет, другой полирует, третий упаковывает. Главный мастер раздаёт задания и принимает результат.
-
-> Каждый агент = специализированный prompt + memory + tools + niche knowledge. Это **виртуальный сотрудник**, который не устаёт, не забывает, дешёвый.
+**9 entity types:**
+concepts / entities / sources / topics / ideas / experiments / claims / summaries / foundations
 
 ---
 
-### 🔹 Слой 11. 🔧 Tools / Skills / Adaptable Станки
-**Что это:** **конкретные инструменты**, которыми пользуются agents (и сам владелец).
+### 🔹 Part 5 — Compound Learning & Methodology Capture
 
-**В системе (примеры — но добавляются регулярно):**
-- D2 diagrams skill
-- Plan Mode + ultrathink
-- Voice pipeline
-- Time-tracking sync (Toggl + AW)
-- MCP integrations (Notion / Toggl / GitHub)
-- Slash commands (`/ingest`, `/ask`, `/plan-day`, `/log-time`)
-- Custom Python scripts (aggregate, fetch, analyze)
+**Системно:**
+Mechanism для **накопления опыта**. Каждый успешный workflow / провал / урок → captured as methodology + добавляется в Part 3 library. Compound learning через writeback patterns.
 
-**По-человечески:** это **физические станки** на столах мастерской. Каждый — под конкретную операцию. Можно добавлять новые, удалять ненужные, менять конфигурацию (см. **2.4 Адаптивность станков**).
+**По-человечески:**
+Это **«дневник опыта мастера»**. Каждый раз когда что-то получилось хорошо — записываем как «правило». Когда что-то не получилось — записываем что не так и как избежать. Через год — большая копилка проверенных техник, которая работает на тебя.
 
-> Подробное описание ключевых станков — в **разделе 5**.
+**Связь с принципом 3.5:**
+Это технический mechanism для реализации «опыт мастера на 3 слоях» (проекты / рефлексия / жизнь).
 
 ---
 
-## ГРУППА F — STRATEGIC + VISIBILITY (крыша / навигация)
+### 🔹 Part 6a — Provenance Officer
 
-> *Эта группа — **где мастер думает о большом**, и **где он видит общую картину**. Без этого мастерская работает как фабрика — производит, но не понимает зачем.*
+**Системно:**
+Tracking откуда пришёл каждый knowledge item. Source attribution mandatory. Включает cross-fork-provenance v1.1.0 (для Phase B partner-fork import scenarios).
 
-### 🔹 Слой 12. 📊 Visibility / Dashboards / Reports
-**Что это:** **активная видимость** состояния системы — не "хранится в БД где-то", а **видно прямо сейчас**.
+**По-человечески:**
+Это **архивариус** мастерской. Каждая деталь на складе имеет **бирочку**: откуда пришла, когда, кто принёс, какой источник. Позже когда нужно verify — можно проследить цепочку до первоисточника. Без этого — через год не знаешь чему верить.
 
-**В системе:**
-- **Daily Log** — что было сегодня, что важно
-- **Weekly Reviews** — сводка недели, патт ерны, корректировки
-- **Monthly / Quarterly reports** — большая картина
-- **Live dashboards** — финансы / время / проекты / здоровье
-- **State-of-system one-pagers** — разные уровни абстракции
-
-**По-человечески:** это **большая доска в центре мастерской**, на которой видно: что в работе / что застряло / что готово / какая загрузка / куда движемся. Без этой доски — даже владелец не знает что происходит.
-
-> Подробно про принцип Visibility — в **разделе 6**.
+> **Зачем отдельная Part:** provenance — это foundation для trust + будущий `/verify` workflow. Без явного officer'а — теряется в хаосе.
 
 ---
 
-### 🔹 Слой 13. 🎯 Strategic / Planning Layer
-**Что это:** **самый верхний слой** — где принимаются решения о направлении, приоритетах, pivot'ах.
+## ГРУППА C — COORDINATION & EXECUTION (мастера и проекты)
 
-**В системе:**
-- **Vision document** — куда идём через 1/3/10 лет
-- **Quarterly plan** — что делаем в этом квартале
-- **Weekly priorities** — топ-3 на неделю
-- **Decisions log** — большие решения с обоснованиями (`decisions/`)
-- **Strategic insights memory** — ключевые понимания, направляющие выбор
-- **Plan Mode sessions** — глубокое обдумывание ключевых вопросов
+> *Эта группа — где **собственно происходит работа**. Кто работает + что они делают (проекты).*
 
-**По-человечески:** это **планировочный стол владельца** — там, где он сидит с чашкой чая, смотрит на всю картину, и решает "следующие 3 месяца — фокус на X, остальное — пока в backlog".
+### 🔹 Part 4 — Role Taxonomy & Coordination Protocol
 
-> Это **самый ценный слой**. Все нижние существуют **ради** этого. Без strategy всё остальное — производство ради производства.
+**Системно:**
+Single Claude session + composition через system prompt + niche slice + 5-layer memory. **12 ролей** (manager / personal-assistant / system-admin / sales-lead / sales-researcher / sales-outreach / inbox-processor / crazy-agent / knowledge-synth / strategist / life-coach / meta-agent). **Hub-and-spoke** — Manager как центральный роутер. Coordination через mailboxes (JSONL) + message schema v2.0.0.
+
+**По-человечески:**
+Это **штатное расписание + рация** мастерской. У каждого подмастерья — конкретная роль (что делает / за что отвечает). У всех — общая рация для общения. Manager — диспетчер, кто принимает запросы и распределяет.
+
+**12 ролей:**
+- 🎯 Manager (диспетчер / координатор)
+- 📋 Personal Assistant (productivity / OPS lead)
+- 🔧 System Admin (infrastructure)
+- 💼 Sales Lead / Researcher / Outreach (3 роли в Sales department)
+- 📥 Inbox Processor / 🎨 Crazy Agent / 🧠 Knowledge Synth (3 роли в Brain department)
+- 🎯 Strategist (стратегические решения)
+- 🌱 Life Coach (здоровье / режим)
+- 🔍 Meta Agent (audit системы)
+
+> **Важно:** это не 12 параллельных процессов. Это **один Claude**, который входит в роли через переключение system prompt + niche slice памяти. Cost-optimal, единый контекст.
 
 ---
 
-## 4.X Как слои связаны — потоки информации
+### 🔹 Part 7 — Project Lifecycle Substrate ⭐
 
-### Поток снизу вверх (raw → strategy)
+**Системно:**
+Где живут **все проекты от старта до закрытия**. Включает: project metadata + state + tasks + journal + artifacts + resource allocation + cross-project dependencies. Поддерживает full lifecycle (incubation → active → paused → completed → archived). Бы́льное связано с Part 1 (storage) + Part 11 (priorities) + Part 8 (health monitoring).
+
+**По-человечески:**
+Это **большая доска проектов** в центре мастерской. На ней висят карточки всех активных проектов — что в работе, что блокировано, что готово к ship'у. Мастер каждое утро смотрит на эту доску и понимает что делать сегодня.
+
+**Что хранится:**
+- Список проектов (active / paused / completed / cancelled)
+- Project metadata (название / тип / приоритет P1-P4 / фаза / owner)
+- Project state (где сейчас / blockers / next steps)
+- Tasks DB (все задачи проекта со статусами)
+- Project journal (хронология ключевых событий)
+- Artifacts links (доки / код / выходы)
+- Resource allocation (сколько времени / денег съедено)
+
+**Реализация в Jetix:**
+- Notion Projects DB: `69a3c581-ab33-48d9-9827-ec8a8bb69d14`
+- 8 активных проектов (CLAUDE.md): quick-money / research / brand / community / ai-tools / life-os / engineering-thinking / bets
+
+> **Это и есть answer на твой вопрос «где живут проекты»** (раздел 1.10). До 28.04 это было размазано — теперь явно выделено в Part 7.
+
+---
+
+## ГРУППА D — GOVERNANCE & HEALTH (правила + здоровье)
+
+> *Эта группа — **«нервная система контроля»**. Что-то подозрительное → стоп, проверка, alert. Без этого мастерская работает реактивно, на удачу.*
+
+### 🔹 Part 6b — Human Gate
+
+**Системно:**
+Точки в системе где **владелец (Ruslan) обязан approve** перед действием. Default-Deny F8 для novel actions (если не подпадает под automated rule — wait for human ack). Включает constitutional_never_list (11 hard rules из Pillar C Tier 2) — действия которые **никогда не делаются**, даже с ack.
+
+**По-человечески:**
+Это **«красные кнопки»** в мастерской. Если какое-то действие потенциально критическое (большой commit / отправка наружу / удаление чего-то) → станок не делает сам, **просит человека нажать ОК**. Plus список «**это никогда не делаем**» — даже если мастер сам захочет.
+
+**Зачем:**
+В системе с AI agents — **autonomy is dangerous**. Human Gate = safety mechanism. v1-beta: autonomy budget = 0 (всё через ack). v1-final: selective automation для maintenance.
+
+---
+
+### 🔹 Part 8 — Health Monitoring & System Integrity
+
+**Системно:**
+Мониторинг здоровья всех Parts. SLA L1 для system-wide events. Halt-Log-Alert workflows. Auto-populate `system-health.json` через `/lint`. Integrity checks (сходится ли state, нет ли orphans, не нарушены ли invariants).
+
+**По-человечески:**
+Это **врач + охранник** мастерской. Регулярно проверяет: всё ли работает, нет ли утечек, не сломался ли какой-то станок. Если что-то не так → alert владельцу + log для будущего разбора.
+
+**Что мониторит:**
+- Здоровье Parts (active / degraded / down)
+- Lint violations (нарушение conventions / schemas)
+- Orphans (документы без связей)
+- Stale claims (knowledge не обновлялся X времени)
+- Resource depletion (token quotas / compute / storage)
+- Security violations (попытка нарушить hard rules)
+
+---
+
+## ГРУППА E — INTERFACES (связи внутрь и наружу)
+
+> *Эта группа — **как мастерская общается** с владельцем и с внешним миром. Без этого мастерская — изолированный остров.*
+
+### 🔹 Part 9 — Owner Interaction Scaffold
+
+**Системно:**
+Как Ruslan взаимодействует с системой. Включает: command interfaces (slash commands / `./jetix` CLI / Claude Code prompts) + ритуалы (morning `/plan-day` / evening `/close-day` / weekly `/review week`) + ack workflows.
+
+**По-человечески:**
+Это **офис владельца** в мастерской — стол, телефон, рация. Всё, через что Ruslan **отдаёт команды** и **получает отчёты** от системы. Стандартизированные ритуалы (утро / вечер / неделя / месяц) — чтобы не забыть проверить важное.
+
+**Включает:**
+- Slash commands (`/plan-day`, `/close-day`, `/ingest`, `/ask`, `/log-time`...)
+- `./jetix` CLI wrapper
+- Notion ack pages (AWAITING-APPROVAL packets)
+- Weekly / monthly review prompts
+- Voice diктовка интерфейс
+
+---
+
+### 🔹 Part 10 — External Touchpoints & Network Interface
+
+**Системно:**
+Все способы общения с **внешним миром**. MCP integrations (Notion / Toggl / GitHub / etc.) + outbound API calls + cross-fork imports (для Phase B partner ecosystem). STRUCTURAL F8 — формальные contracts с external systems.
+
+**По-человечески:**
+Это **телефонная станция + почта** мастерской. Через неё — звонки в другие мастерские (другие сервисы), отправка артефактов наружу (deliverables клиентам), получение сообщений извне.
+
+**Интегрировано:**
+- Notion (read / write через MCP)
+- Toggl (time entries + reports)
+- GitHub (issues / PRs / commits)
+- Filesystem (built-in)
+- Voice (Whisper API)
+- LLM providers (Anthropic / future OpenAI / local)
+
+> **Связь с принципом 2.3.7 «телефон»** в метафоре мастерской — это технический слой реализующий «связь с другими мастерскими / сервисами».
+
+---
+
+## ГРУППА F — STRATEGY (крыша — куда движемся)
+
+> *Это **самый верхний слой**. Самый ценный. Все нижние существуют **ради** этого. Без strategy — мастерская работает но непонятно зачем.*
+
+### 🔹 Part 11 — Strategic Direction Substrate ⭐
+
+**Системно:**
+Pillar A — где живут **strategic decisions** (vision / quarterly plans / OKRs / large bets / pivot decisions). Strategic docs цитируют Pillar C через `principles_compliance:` frontmatter. Connected to Part 7 (приоритезация проектов) + Part 8 (health → strategy adjustments) + Part 11 ↔ Pillar A feedback loop.
+
+**По-человечески:**
+Это **планировочный стол владельца** на крыше мастерской. С панорамой на год / 3 года / 10 лет. Здесь сидит мастер с чашкой чая, смотрит на **всю картину**, и решает: «следующие 3 месяца — фокус на X, остальное — пока в backlog».
+
+**Что хранится:**
+- Vision document (1 / 3 / 10 лет)
+- Quarterly plans + OKRs
+- Top-3 weekly priorities
+- Decisions log (`decisions/` с обоснованиями)
+- Strategic insights memory
+- Plan Mode session outputs
+- Bets tracker (большие гипотезы)
+
+> **Это самый ценный слой.** Все 10 нижних Parts существуют, чтобы делать **возможным** правильную strategy. Без этого вся остальная инфраструктура — производство ради производства.
+
+---
+
+## 4.2 Как Parts связаны — потоки информации
+
+### Поток снизу вверх (substrate → strategy)
 ```
-Sensor (input) → Storage → Index → Pipeline → Wiki/Memory/Resource State →
-  → Project context → Agents (digest) → Visibility (dashboard) → Strategic (decision)
+Sensor (input) → Part 2 (ingest+triage) → Part 3 (knowledge) →
+  → Part 5 (compound learning) → Part 7 (если связано с проектом) →
+  → Part 8 (health check) → Part 11 (strategic update)
 ```
-Пример: voice note → файл → ingested → digest pipeline → wiki entry → 
-  попало в context конкретного проекта (L9) → 
-  agent читает в context (L10) → подсвечивается в weekly report (L12) → 
-  владелец видит → принимает strategic decision (L13).
 
 ### Поток сверху вниз (strategy → execution)
 ```
-Strategic decision → Plan → Project allocation → Mailbox messages → 
-  Agents → Tools/Skills → Pipelines → Outputs → 
-  Resource State updated → Visibility (track progress)
+Part 11 (strategic decision) → Part 7 (project prioritization) →
+  → Part 4 (role assignments) → Part 9 (owner instructions) →
+  → Part 10 (external actions) → Part 1 (state updated)
 ```
-Пример: strategic decision "фокус на Y" → план на квартал → 
-  активирован project Y в L9 → сообщения агентам → агенты используют станки → 
-  ресурсы из L7 расходуются → pipelines гоняют работу → артефакты выходят → 
-  состояние L7 обновляется → видны на dashboard L12.
 
-### Поток горизонтальный (project ↔ resource)
+### Поток governance (orthogonal)
 ```
-Project (L9) ←→ Resource State (L7)
+Любое action → Part 6b (Human Gate если novel) →
+  ack/deny → Part 6a (provenance recorded) →
+  → Part 8 (health monitoring updated)
 ```
-Каждый проект **знает сколько ресурсов он съел** (через L7). 
-Каждый ресурс **знает на какой проект ушёл** (cross-link).
 
-### Принцип
-> **Информация циркулирует.** Снизу — сырые данные превращаются в инсайты. Сверху — стратегия превращается в действия. Горизонтально — проекты и ресурсы постоянно сверяются. **Мастерская = многомерная машина**.
+### Поток principles (cross-cutting)
+```
+Pillar C — read by ALL Parts on every operation
+       ↓
+Tier 2 11 rules mirror to Part 6b constitutional_never_list
+Tier 1 owner values inform Part 11 strategic direction
+```
+
+### Inter-Part contracts
+**52 typed inter-Part edges** (verified в Wave D INTEGRATION-REPORT, M-D-2 PASS 98.1%). Каждый contract имеет: producer Part / consumer Part / тип edge / data schema / SLA.
+
+> **Это не «всё со всем общается»**. Это **explicit network** где каждое ребро — verified contract.
 
 ---
 
-## 4.Y Сводка 13 слоёв
+## 4.3 Где живут проекты и ресурсы — explicit ответ (canonical)
 
-| Слой | Группа | Что | По-человечески |
-|------|--------|-----|----------------|
-| **13** | F | Strategic / Planning | Планировочный стол владельца |
-| **12** | F | Visibility / Dashboards | Большая доска в центре мастерской |
-| **11** | E | Tools / Skills / Станки | Физические станки на столах |
-| **10** | E | Agents / Виртуальные мастера | Бригада подмастерьев |
-| **9**  | **D** ⭐ | **Project Management** | **Большая доска проектов** |
-| **8**  | C | Communication / Mailboxes | Внутренняя почта |
-| **7**  | **C** ⭐ | **Resource State** | **Инвентарь мастера (всё что есть)** |
-| **6**  | C | Memory / Context / Niches | Память мастера и помощников |
-| **5**  | B | Knowledge / Wiki | Склад готовых деталей |
-| **4**  | B | Pipelines / Processing | Транспортёрные ленты |
-| **3**  | A | Conventions / Schemas | Общий язык маркировки |
-| **2**  | A | Index / Search | Каталог "что где лежит" |
-| **1**  | A | Storage / Filesystem | Полки и шкафы |
+> **Финальный ответ на твой вопрос** «где у нас, блять, слой управления проектами и слой управления ресурсами?»
 
-> Запомнить: **A — фундамент, B — переработка, C — состояние и связь, D — операционные проекты, E — мастера и их инструменты, F — стратегия и видимость**.
+### 📁 Проекты — Part 7 (Project Lifecycle Substrate)
+
+| Что | Где | Foundation Part |
+|-----|-----|-----------------|
+| Список проектов + metadata | Notion Projects DB / `projects/` | **Part 7** |
+| Активный state проекта | Part 7 + project journal в Part 1 | **Part 7** + Part 1 |
+| Сырые files / artifacts | filesystem `projects/{id}/` | **Part 1** Storage |
+| Knowledge накопленный по проекту | wiki entries with project tag | **Part 3** KB |
+| Decisions по проекту | `decisions/` с relation на проект | **Part 11** Strategy |
+| Tasks проекта | Notion Tasks DB | **Part 7** |
+| Communication проекта | mailboxes / Daily Log | **Part 4** Coordination |
+| Сколько съел ресурсов | cross-link Part 7 ↔ resource state | **Part 7** + Part 1 |
+| Видимость прогресса | dashboards / health monitoring | **Part 8** Health |
+| Strategic priority | strategic layer | **Part 11** |
+| Provenance проекта | tracking откуда пришла идея | **Part 6a** |
+| Approvals (большие decisions) | Human Gate на ключевых точках | **Part 6b** |
+
+### 💎 Ресурсы — comprehensive хранение через Part 1 + дисплей через Part 8
+
+В canonical Foundation **Resource State** **не выделен в отдельную Part**, а распределён:
+
+| Ресурс | Где state | Где обновляется | Где видно |
+|--------|-----------|-----------------|-----------|
+| 💰 Финансы | **Part 1** (Notion / spreadsheet / API) | Part 2 (manual + sync) | **Part 8** dashboards |
+| ⏱️ Время | **Part 1** (Toggl / AW JSON) | Part 2 (auto sync pipelines) | **Part 8** dashboards |
+| 📚 Знания | **Part 3** wiki + index + tags | Part 2 (ingest) → Part 5 (compound) | **Part 8** + Part 3 search |
+| 👥 Связи | **Part 1** (CRM-like Notion DB) | Part 2 (manual + parsers) | **Part 8** dashboards |
+| 💻 Compute | **Part 1** (registry в `compute-state/`) | Part 2 + Part 8 monitoring | **Part 8** alerts |
+| 🤝 Команда | **Part 1** (DB people + roles) | Part 4 (assignments) | **Part 8** + Part 9 |
+
+> **Если хочешь явный «Resource State» layer** — его можно добавить как **Phase B sub-system** (наподобие Pillar C для principles). Сейчас в v1.0 LOCKED — реализован через распределение по существующим Parts. Это работает, но при росте может стать тесно. Тогда выделим в отдельную sub-system **«Pillar D — Resource State»** (cross-cutting, как Pillar C).
 
 ---
 
-## 4.Z Где в этой архитектуре «живут» проекты и ресурсы — explicit ответ
+## 4.4 Сводка 11 Parts + Pillar C
 
-> **Раньше (до 04.05) этого не было. Теперь — есть. Вот четкое разделение:**
+| # | Part | Группа | Что делает | По-человечески |
+|---|------|--------|-----------|----------------|
+| **11** | Strategic Direction Substrate | F | Strategic decisions / vision / OKRs | Планировочный стол |
+| **10** | External Touchpoints & Network Interface | E | MCP / API / external systems | Телефонная станция |
+| **9** | Owner Interaction Scaffold | E | Команды / ритуалы / ack | Офис владельца |
+| **8** | Health Monitoring & System Integrity | D | Мониторинг здоровья / lint / alerts | Врач + охранник |
+| **7** | **Project Lifecycle Substrate** ⭐ | C | **Управление проектами от старта до закрытия** | **Большая доска проектов** |
+| **6b** | Human Gate | D | Точки ack владельцем + never_list | Красные кнопки |
+| **6a** | Provenance Officer | B | Tracking источников / attribution | Архивариус |
+| **5** | Compound Learning & Methodology Capture | B | Накопление methodology + writeback | Дневник опыта |
+| **4** | Role Taxonomy & Coordination Protocol | C | 12 ролей + mailboxes + protocol | Штатное расписание + рация |
+| **3** | Knowledge Base & Methodology Library | B | Wiki + 9 entity types + retrieval | Главный склад деталей |
+| **2** | Signal Ingestion & Triage | B | Захват inputs + первичная фильтрация | Охрана + ресепшн |
+| **1** | System State Persistence | A | Git + filesystem + append-only | Подвал с архивом |
+| **C** | Pillar C — Principles Substrate | A (cross) | Tier 1 + Tier 2 принципы | Правила дома на стене |
 
-### 📁 Где живёт ИНФОРМАЦИЯ о проекте?
+> **Запомнить:**
+> - **A — substrate** (фундамент + правила)
+> - **B — inputs & processing** (вход + переработка)
+> - **C — coordination & execution** (мастера + проекты)
+> - **D — governance & health** (контроль)
+> - **E — interfaces** (связи)
+> - **F — strategy** (крыша)
 
-**Распределено по слоям, каждый отвечает за свою часть:**
+---
 
-| Что | Где | Слой |
-|-----|-----|------|
-| Список проектов + metadata | Notion Projects DB / `projects/` | **L9** Project Management |
-| Активный state проекта (где сейчас, blockers) | L9 + project journal в L1 | **L9** + L1 |
-| Сырые files / artifacts проекта | filesystem `projects/{id}/` | **L1** Storage |
-| Knowledge накопленный по проекту | wiki entries with project tag | **L5** Knowledge |
-| Decisions по проекту | `decisions/` + relation на проект | **L6** Memory |
-| Tasks проекта | Notion Tasks DB | **L9** Project Management |
-| Communication проекта | mailboxes / Daily Log | **L8** Comms |
-| Сколько съел ресурсов | L7 cross-link на L9 | **L7** Resource State |
-| Видимость прогресса | dashboards | **L12** Visibility |
-| Strategic priority проекта | strategic layer | **L13** Strategy |
+## 4.5 Связь с canonical документами
 
-### 💎 Где живёт ИНФОРМАЦИЯ о ресурсах?
+Этот раздел — **человеческая читалка** Foundation v1.0. Полный canonical:
 
-**Концентрировано в L7 Resource State, с распределением по типу ресурса:**
+- **Каждая Part:** `swarm/wiki/foundations/part-N-*/architecture.md` (server)
+- **Pillar C:** `swarm/wiki/foundations/principles/architecture.md`
+- **Integration verification:** `swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-d/INTEGRATION-REPORT.md`
+- **Locked tag:** `git tag foundation-architecture-locked-2026-04-28`
+- **Constitutional anchor:** `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md`
+- **FPF:** `design/JETIX-FPF.md`
 
-| Ресурс | Где основные данные | Где обновляется | Видимость |
-|--------|---------------------|-----------------|-----------|
-| 💰 Финансы | Notion / spreadsheet / банковский API | manual + L4 pipelines | L12 dashboard |
-| ⏱️ Время | Toggl + AW + JSON reports | L4 pipelines auto | L12 dashboard |
-| 📚 Знания | wiki/ + index + tags | L4 ingest pipeline | L12 dashboard |
-| 👥 Связи | CRM-like Notion DB | manual + email parsers | L12 dashboard |
-| 💻 Compute | registry в `compute-state/` | manual + monitoring | L12 dashboard |
-| 🤝 Команда | DB people + roles | manual + mailbox tracking | L12 dashboard |
+> **Если в этом разделе и canonical документе есть расхождение** — **canonical wins**. Этот раздел — упрощённая презентация, не источник истины.
 
-**Все 6 ресурсов** имеют:
-- **Текущий state** (snapshot на сейчас) — L7
-- **Историю изменений** (timeline) — L1 (raw) + L7 (aggregated)
-- **Связи с проектами** (какой проект сколько съел) — L7 ↔ L9
-- **Visibility** (dashboard) — L12
-- **Стратегические триггеры** (alert если ресурс падает / тренд негативный) — L7 → L12 → L13
-
-### ✅ Итог
-**Раньше** проекты и ресурсы были "размазаны" по разным слоям — всегда непонятно где что искать. **Теперь** есть **explicit operational layers** L7 (Resource State) и L9 (Project Management), которые:
-- Концентрируют **active state**
-- Связаны cross-link друг с другом и с другими слоями
-- Имеют **dashboards** на L12
-- Дают **fundamentum** для стратегических решений на L13
-
-> Это и есть **operational core мастерской**. Без L7 и L9 — мастерская работает в темноте.
 
 ---
 
