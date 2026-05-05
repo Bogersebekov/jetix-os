@@ -2307,24 +2307,222 @@ Pipeline на старте — **manual is OK**. Автоматизируешь 
 
 # 📎 Appendix
 
-## A. Источники этого документа
-- Workshop concept LOCKED v1 (30.04.2026)
-- TRM model LOCKED (30.04.2026, partial — для context, не для Jetix-specifics)
-- Workshop deep narrative (server CC, 01.05.2026)
-- Voice extract Workshop people (01.05.2026)
-- Гипотеза abstraction levels CPU/Memory (02.05.2026, RAW)
-- 12-month retrospective (03.05.2026)
-
-## B. Связанные документы
-- `decisions/JETIX-CORPORATION-2026-05-04.md` — следующий слой: Jetix как конкретное применение этой Базовой системы
-
-## C. Глоссарий
-*[Заполнить ключевые термины: Foundation / Information processing / Adaptable станки / Knowledge accumulation / Part / Pillar C / Мастерская / Compound learning]*
+> Дополнительные материалы — справки / источники / глоссарий / changelog. **Не обязательны** для понимания основного текста, но полезны при углублённом изучении или возврате к терминам.
 
 ---
 
-**Status:** SKELETON v0.1, in active drafting (04.05.2026).
+## A. 📚 Источники этого документа
 
-**Next step:** Ruslan + Claude diктуют content per section. Начинаем с раздела 1 (Проблематика) → 2 (Метафора) → 3 (Принципы) → дальше по порядку.
+> Откуда взяты ключевые тезисы / метафоры / архитектурные решения. Если хочешь проверить или углубиться — иди по ссылкам.
 
-**Estimated length when complete:** 1500-2500 строк (полный концептуальный документ).
+### A.1 Foundation v1.0 (canonical базис)
+- **`swarm/wiki/foundations/`** — все 11 Parts (`part-1-system-state-persistence` ... `part-11-strategic-direction-substrate`) + Pillar C (`principles/architecture.md`)
+- **`swarm/wiki/cycles/cyc-foundation-build-2026-04-28/wave-d/INTEGRATION-REPORT.md`** — verification отчёт по 52 inter-Part contracts
+- **Git tag:** `foundation-architecture-locked-2026-04-28`
+- **LOCKED:** Ruslan ack'd 28.04.2026
+
+### A.2 Концептуальные документы (Jetix-specific, для context)
+- **`decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md`** — Workshop metaphor v1 LOCKED (271 строка, источник для разделов 2-3 этого документа)
+- **`decisions/JETIX-TRM-MODEL-2026-04-30.md`** — TRM business model LOCKED (упомянут как Phase B / Jetix Corp territory)
+- **`decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md`** — constitutional anchor (§6.1 — 11 hard rules → mirror в Pillar C Tier 2)
+- **`design/JETIX-FPF.md`** — Foundation Pillar Framework (anti-scope hard rules, F-G-R, Boundary)
+- **`design/SYSTEM-DESIGN-TECH-SUMMARY.md`** v1-beta-FINAL (approved 2026-04-18) — 7 принципов + 18 ADRs Jetix OS архитектуры
+
+### A.3 Воркшоп deep dives и voice extracts
+- **`swarm/wiki/synthesis/jetix-as-workshop-deep-description-2026-05-01.md`** — server CC deep narrative
+- **`swarm/wiki/synthesis/voice-extract-workshop-people-2026-05-01.md`** — voice insights под Workshop углом
+
+### A.4 Аналитика и retrospective
+- **`reports/retrospective_2025-05_to_2026-04.md`** — 12-month retrospective (03.05.2026, 8158h verified, 3 phases trajectory)
+- **`reports/toggl_full_history_v2_2026-05-03.json`** — raw historical Toggl data (12 months, source для retrospective)
+- **`reports/timeline-narrative-2025-07_to_2026-05.md`** — narrative timeline (на сервере, в `claude/youthful-driscoll-484b2c`)
+
+### A.5 Гипотезы и raw research
+- **Notion `3542496333bf81cb9e15d7b49410db73`** — Гипотеза abstraction levels (CPU/Memory mapping → расширение Visual/View principle)
+- **`design/JETIX-ARCHITECTURE-WORKING.md`** — 8-слойная бизнес-архитектура (L0-L7), parallel concept к Foundation 11 Parts
+- **`raw/research/hybrid-framework-synthesis-2026-04-18.md`** — synthesis 8 layers (101K документ, исходный для бизнес-architecture)
+
+### A.6 Внешние интеллектуальные источники
+- **Karpathy LLM Wiki** — концепция wiki как knowledge graph для LLM (Part 3)
+- **OmegaWiki** — структурированный многоязычный словарь, источник для 9 entity types (Part 3)
+- **HippoRAG** — Personalized PageRank retrieval для Knowledge Base (Part 3)
+- **Cal Newport «Deep Work»** — фундамент для deep work hours / focus discipline
+- **Yuval Noah Harari «Sapiens» / «Homo Deus»** — расширение картины мира (видение мира в Knowledge accumulation)
+- **Никлас Луман «Zettelkasten»** — методология structured note-taking + compound thinking
+- **Tiago Forte «Building a Second Brain» (BASB)** — антипаттерн раздел 7.7
+- **Алан Кей** — «методология важнее инструмента» (ADR-005 Kay-принцип)
+
+---
+
+## B. 🔗 Связанные документы
+
+> Что читать после этого, в каком порядке.
+
+### B.1 Прямой следующий слой
+- **`decisions/JETIX-CORPORATION-2026-05-04.md`** (или `2026-05-05.md` после написания) — **Документ 1B**: Jetix как платформа поверх Базовой системы. Конкретное applied use case с TRM моделью, ролью владельца, 3 фазами эволюции, видением. Базовая Система = универсальный foundation, Jetix Corp = одна из возможных реализаций.
+
+### B.2 Operational уровень (для Ruslan'а лично)
+- **`reports/retrospective_2025-05_to_2026-04.md`** — где я был последние 12 mes, какие patterns
+- **`swarm/wiki/operations/quick-log-template.md`** — quick-log template для daily Toggl debrief
+- **`swarm/wiki/operations/time-tracking-categories.md`** — canonical doc по time tracking v1.1
+- **Notion Daily Log** (DB `30a24963-33bf-8005-817a-000beb10bcd4`) — ежедневные планы и итоги
+
+### B.3 Foundation deep dives (если хочешь по каждой Part глубже)
+Каждая Part имеет полный architecture.md — читай в порядке:
+1. `swarm/wiki/foundations/part-1-system-state-persistence/architecture.md` (substrate базис)
+2. `swarm/wiki/foundations/principles/architecture.md` (Pillar C — правила дома)
+3. Дальше по порядку Part 2 → Part 11
+
+### B.4 Технический deep dive
+- **`design/SYSTEM-DESIGN-TECH.md`** (2456 строк) — полный технический документ Jetix OS v1-beta
+- **`design/ARCHITECTURE-TARGET.md`** — current vs v1-beta vs v1-final vs v2 contrast
+- **`design/AGENT-PROTOCOLS.md`** — детали 12 agent ролей и протоколов
+- **`design/DATA-FLOWS.md`** — потоки данных между Parts
+- **`design/IMPLEMENTATION-PLAN-2026-04-18.md`** — план implementation v1-beta
+
+### B.5 Constitution и принципы
+- **`CLAUDE.md`** (root проекта) — главные конвенции + правила работы для AI
+- **`.claude/rules/global.md`** — global rules для Claude Code
+
+---
+
+## C. 📖 Глоссарий
+
+> Алфавитный словарь ключевых терминов документа. 1-3 предложения на термин + ссылка на раздел подробного объяснения.
+
+---
+
+### **Adaptable станки** (Adaptable tools)
+Инструменты в мастерской, которые **можно быстро добавить / удалить / переделать** под текущую задачу — за час / день, не за месяц. Главное свойство мастерской vs статичной системы. Примеры: D2 / MCP / Plan Mode / Voice pipeline. → См. **2.4** и **5.X**.
+
+### **Append-only**
+Принцип: **нет удалений**. Любые изменения — через `supersedes` (новая запись + ссылка на старую). История навсегда. Даёт `git checkout` к любой точке прошлого = «машина времени». → См. **4.1** и Foundation Part 1.
+
+### **Anti-pattern**
+Что-то что **выглядит как Базовая Система** но принципиально другое (зоопарк инструментов / завод / Notion-стек / автономный AI / etc.). 9 anti-patterns с тестами. → См. **раздел 7**.
+
+### **Compound learning**
+Каждое решение / урок / провал → попадает в систему → влияет на следующие решения. Эффект через год — 3-5×, через 3 года — 10-30× умнее себя сейчас. Реализован в Foundation Part 5. → См. **6.3**.
+
+### **Decisions log**
+Накопительный append-only список **больших decisions** с обоснованиями. Хранится в `decisions/` папке git-репо. Через 2-3 года = главный источник learnings (что я думал тогда → что получилось). → См. **6.5** и **8.4**.
+
+### **F-G-R Tagging** (Foundation / Generic / Ruslan-layer)
+Разметка содержимого: **F (Foundation generic)** = fork-portable архитектура которую может взять любой; **R (Ruslan-layer)** = специфика конкретного владельца (контент, ценности, контекст). Каркас одинаков, наполнение разное. → См. **4.1** и Pillar C.
+
+### **Foundation v1.0**
+Canonical архитектура из 11 Parts + Pillar C, LOCKED 28.04.2026. Git tag `foundation-architecture-locked-2026-04-28`. Источник истины для раздела 4. → См. **4.0**.
+
+### **Foundation Part** (или просто **Part**)
+Один из 11 функциональных модулей Foundation v1.0 (Part 1 — System State Persistence, Part 2 — Signal Ingestion & Triage, ..., Part 11 — Strategic Direction Substrate). Каждый Part имеет single accountable owner + anti-scope hard rules. → См. **4.0** и таблицу **4.4**.
+
+### **Generic vs Specific** (см. **Specific vs Generic**)
+
+### **HippoRAG**
+Personalized PageRank retrieval по графу (вместо vector embeddings). Используется в Foundation Part 3 для `/ask` workflow. Преимущества: explicit edges, debuggable, без vector DB. → См. **A.6**.
+
+### **Human Gate** (Foundation Part 6b)
+Точки в системе где владелец **обязан approve** перед действием. Default-Deny F8 для novel actions. Включает `constitutional_never_list` (11 hard rules) — действия которые **никогда не делаются** даже с ack. → См. **раздел 4 Группа D**.
+
+### **Karpathy LLM Wiki**
+Концепция wiki как knowledge graph оптимизированного для использования LLM (от Andrej Karpathy). 9 entity types × 9 edge types × 6 niches. Основа Foundation Part 3. → См. **A.6**.
+
+### **Knowledge accumulation** (накопление знаний / опыта мастера)
+Mechanism того, как система **становится умнее со временем** для конкретного владельца. 3 уровня Wikipedia: Personal / Insights / Project. Plus натренированные агенты на этой базе. → См. **раздел 6**.
+
+### **MCP** (Model Context Protocol)
+Протокол для подключения внешних сервисов к AI-системе через единый интерфейс. Уже подключено: Notion / Toggl / GitHub / Filesystem. Реализуется в Foundation Part 10. → См. **5.4**.
+
+### **Memory layers** (5-layer memory)
+Структура памяти агентов: `system.md` (core) / `strategies.md` (накопления) / `scratchpad.md` (working) / `niche/` (срез) / mailboxes (recall). → См. **CLAUDE.md** Per-agent memory.
+
+### **Methodology library**
+Часть Foundation Part 3 — collection методологий «как делать N задачу». Накапливается через Part 5 (Compound Learning). При появлении похожей задачи — методология достаётся и применяется. → См. **6.5**.
+
+### **Niche**
+Срез знаний по сфере (personal / business / sales / life / tech / meta). Каждый агент видит свой niche slice через symlinks в `wiki/niches/`. Плюс — niche tag в frontmatter wiki entries. → См. **CLAUDE.md** + Wiki Architecture v2.
+
+### **Mastersкая** (Workshop)
+Главная **метафора** Базовой Системы. Место где работает мастер с adaptable станками. Каждый мастер уникален по специализации (инвестор / коуч / повар / founder), но архитектура мастерской одинакова. → См. **раздел 2**.
+
+### **Owner** (владелец)
+Человек, который владеет мастерской и принимает все ключевые decisions. Играет 5+ ролей: Архитектор / Арбитр / Дегустатор / Исполнитель / Судья. Обозначается также как **Manager** в Pillar C. → См. **2.5**.
+
+### **Pillar C** (Principles Substrate)
+Cross-cutting Foundation sub-system (НЕ пронумерованная Part). Two-tier: **Tier 1 — Manager/Owner principles** (ценности владельца) + **Tier 2 — AI/System principles** (правила поведения системы). Tier 2 имеет 11-rule canonical core. → См. **раздел 4 Группа A**.
+
+### **Pipeline**
+Автоматическая или полуавтоматическая последовательность шагов обработки информации. Примеры: voice pipeline (record → transcribe → extract → review → distribute), time-tracking pipeline, ingest pipeline. → См. **5.1-5.5**.
+
+### **Plan Mode**
+CC режим где AI работает как **scribe + mirror + stress-tester**, не пишет код / не делает действия, а **обсуждает план**. Подходит для бизнес-стратегии и сложных decisions. Обычно с keyword `ultrathink`. → См. **5.5**.
+
+### **Project Lifecycle Substrate** (Foundation Part 7)
+Где живут все активные проекты со всем контекстом. Main answer на вопрос «где живут проекты в архитектуре». Включает project metadata + state + tasks + journal + artifacts + resource allocation. → См. **раздел 4 Группа C** и **4.3**.
+
+### **Provenance**
+Tracking откуда пришёл каждый knowledge item — какой источник / кто захватил / когда. Source attribution mandatory. Реализован в Foundation Part 6a (Provenance Officer). → См. **раздел 4 Группа B**.
+
+### **Resource State** (или **6 ресурсов**)
+6 типов ресурсов которыми владеет мастер: 💰 Финансы / ⏱️ Время / 📚 Знания / 👥 Связи / 💻 Compute / 🤝 Команда. В Foundation v1.0 распределены через Part 1 + Part 2 + Part 8 (нет отдельной Part). → См. **3.4** и **4.3**.
+
+### **Scribe pattern**
+Подход где AI **только записывает слова владельца** или extract'ит из supplied sources, **НЕ предлагает свои content / structure / frameworks**. Применяется при filling strategic docs. → См. **5.5** и memory `feedback_ai_is_scribe_not_author_for_strategic_docs.md`.
+
+### **Slash command**
+Команда в Claude Code начинающаяся с `/`. Примеры: `/plan-day` (утренний ритуал) / `/close-day` (вечерний) / `/ingest <path>` (добавить источник в wiki) / `/ask "<вопрос>"` (поиск+синтез) / `/log-time` (Toggl entry). → См. **CLAUDE.md** Skills.
+
+### **Specific vs Generic**
+Различие между generic Wikipedia (для всех) и **personal Wikipedia (для тебя одного)**. Personal — главный leverage. Накапливается через 3 уровня (Personal / Insights / Project). → См. **6.1**.
+
+### **Strategic Direction Substrate** (Foundation Part 11)
+Самый верхний слой архитектуры. Где живут strategic decisions / vision / quarterly plans / OKRs / large bets / pivot decisions. Все нижние Parts существуют ради этого. → См. **раздел 4 Группа F**.
+
+### **Subagent**
+Специализированная роль которую может играть Claude (Knowledge Synth / Strategist / Sales Lead / etc.). 12 субагентов в Jetix. Реализуется через смену system prompt + niche slice. → См. **Foundation Part 4** и **6.2**.
+
+### **Substrate**
+Фундаментальный нижний слой на котором живёт всё остальное. В Foundation v1.0 = git-репозиторий (Part 1). Без substrate — нет системы. → См. **раздел 4 Группа A**.
+
+### **TRM** (Total Resource Management)
+Бизнес-модель Jetix Corp где управляется 6 ресурсов клиента (€/⏱/📢/📚/💻/👥) за mgmt fee + performance fee. **Phase B** концепция, не часть Базовой Системы. → См. **8.X** и Документ 1B.
+
+### **ultrathink**
+Keyword в Claude Code для **глубокого размышления** при запросе. Используется в Plan Mode + при стратегических decisions. → См. **5.5**.
+
+### **Voice pipeline**
+Конвейер обработки голосовых заметок: запись → Whisper transcription → Claude extraction → review → manual distribution. → См. **5.2**.
+
+### **Wave** (Foundation Wave)
+Этап в cycle построения Foundation. Bundle 1-5 проходили через Waves A-E (planning / drafting / integration / verification / lock). INTEGRATION-REPORT — итог Wave D. → См. **4.1**.
+
+### **Wiki**
+Главная knowledge base в `wiki/` папке репо. 9 entity types: concepts / entities / sources / topics / ideas / experiments / claims / summaries / foundations. Plus 6 niches. Plus typed edges graph. → См. **Foundation Part 3** и **A.6**.
+
+### **Writeback** (Writeback patterns)
+Mechanism где после операции (`/ask` / `/close-day` / experiment) **результат пишется обратно** в wiki как новый knowledge item. Это enables compound learning. → См. **6.3** и Foundation Part 5.
+
+---
+
+## D. 📅 Changelog документа
+
+| Дата | Версия | Что |
+|------|--------|-----|
+| 2026-05-04 | v0.1 | Skeleton создан — 10 разделов, frontmatter, audience guide |
+| 2026-05-04 | v0.2 | Audience расширен 4 → 15 портретов; Section 1 Проблематика — 11 проблем + сводка + сравнительная таблица + спецификация |
+| 2026-05-04 | v0.3 | Sections 2 (Метафора Мастерской) + 3 (Принципы) — глубоко |
+| 2026-05-04 | v0.4 | Sections 4 (Архитектура самосочинённая 13 layers) + 5 (Adaptable станки) + 6 (Visual/View) — изначальная версия |
+| 2026-05-04 | v0.5 | FIX section 4 — добавил 2 explicit слоя (Project Mgmt + Resource State) — 13 layers in 6 groups |
+| 2026-05-04 | v0.6 | **REWRITE section 4 под canonical Foundation v1.0 (11 Parts + Pillar C)** — выбран Variant X после анализа |
+| 2026-05-04 | v0.7 | Section 6 (Visual/View) **DELETED**; Section 6 Knowledge Accumulation filled deeply; Section 7 Anti-patterns — 9 НЕ-это с тестами; renumber 7→6, 8→7, 9→8, 10→9 |
+| 2026-05-05 | v0.8 | Section 8 Применимость (7 профилей) + Section 9 Как начать (Day 1 / first month / 5 errors / 6-12 mes outcome) |
+| 2026-05-05 | v0.9 | Appendix A (sources) + B (related docs) + C (Glossary 30+ terms) + D (Changelog) |
+| TBD | v1.0 | TL;DR (Section 0) + finalization → **LOCK** |
+
+---
+
+**Status:** v0.9 — почти complete, ожидает TL;DR + final review → LOCK as v1.0.
+
+**Next step:** написать TL;DR (Section 0 — один абзац суммирующий весь документ) + финальный review → LOCK с git tag `base-management-system-locked-YYYY-MM-DD`.
+
+**Length:** ~2700 строк (на v0.9), expected ~2800 при v1.0.
