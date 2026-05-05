@@ -1887,46 +1887,421 @@ Tier 1 owner values inform Part 11 strategic direction
 
 # 8. 🎯 Применимость — кому и для чего
 
-> **Цель раздела:** конкретные сценарии "если ты Х → возьми это и сделай Y".
+> **Цель раздела:** конкретные сценарии «если ты X → возьми Y → получишь Z». Базовая Система — это **каркас**, наполнение каждый собирает под себя. Ниже — 7 типичных профилей с конкретикой что именно взять и какой ожидать ROI.
 
-## 9.1 Personal use (1 человек)
-- **Цель:** управлять собственными ресурсами на 10x более эффективно
-- **Что взять:** все 4 слоя
-- **Минимум:** Foundation + Information processing
-- **ROI:** освобождение 5-15h/неделю + меньше losses
+> **Универсальное:** независимо от профиля, **первый месяц** — установить Substrate (Part 1) + один input pipeline (Part 2) + базовый knowledge structure (Part 3) + ритуалы Owner Interaction (Part 9). Это даёт **минимально работающую мастерскую**. Дальше — наращиваешь под свою специфику.
 
-## 9.2 Solo founder / Creative
-- **Цель:** усилить себя как одного агента до возможностей команды
-- **Что взять:** + adaptive tools (4-5 ключевых станков)
-- **ROI:** не нанимать первые 5 ролей
+---
 
-## 9.3 Управление командой (5-50 человек)
-- **Цель:** общая картина + decentralized execution
-- **Что взять:** + strategic layer + visibility
-- **ROI:** меньше meetings, больше owned work
+## 8.1 👤 Personal Use — один человек, для жизни
 
-## 9.4 Investor / Capital allocator
-- **Цель:** видеть состояние portfolio + thesis evolution
-- **Что взять:** Foundation + visibility слой
-- **ROI:** faster better decisions
+**Кто:** любой амбициозный человек, который хочет управлять собственными ресурсами и временем эффективно. Без бизнеса / команды.
 
-## 9.5 Researcher / Knowledge worker
-- **Цель:** накопить персональный knowledge graph
-- **Что взять:** Foundation + knowledge accumulation
-- **ROI:** compound learning advantage
+### Цель
+Превратить хаос личной жизни в **управляемую мастерскую**. Освободить голову от вечного «не забыть бы». Накопить личную Wikipedia за 1-3 года.
+
+### Что взять (минимум для start)
+- **Part 1** — git-репозиторий для всех заметок / decisions / артефактов
+- **Part 2** — один input pipeline (voice notes на телефон → транскрипция → wiki)
+- **Part 3** — Personal Wikipedia (минимум 3 раздела: contexts / decisions / sources)
+- **Part 9** — утренний `/plan-day` + вечерний `/close-day` ритуалы
+
+### Что добавить через 1-3 месяца
+- **Part 5** — compound learning (writeback после `/close-day`)
+- **Part 7** — Project tracking (даже личные проекты — здоровье / хобби / отношения)
+- **Part 11** — quarterly reviews, vision update
+- 2-3 натренированных агента (life coach / personal assistant)
+
+### Ожидаемый ROI
+- **5-15 часов/неделю освобождено** (нет вечного "что я хотел сделать?")
+- **Меньше losses** — забытые обещания / просроченные платежи / упущенные возможности → почти нули
+- **Через год** — личная Wikipedia на 500-1000 страниц, по которой можно искать
+- **Через 3 года** — натренированный AI-помощник который знает тебя глубже чем кто-либо
+
+### Реальный пример (Ruslan)
+12 месяцев tracking → 8159h записанного времени → 12-month retrospective → понимание собственных циклов → стратегические corrections.
+
+---
+
+## 8.2 🚀 Solo Founder / Indie Hacker
+
+**Кто:** один человек строит продукт / бизнес. Нет команды или 1-2 contractors. Хочет конкурировать с компаниями в 10-50 человек.
+
+### Цель
+**Усилить себя как одного агента до возможностей команды.** Не нанимать первые 5-10 ролей до тех пор, пока validate'нут продукт и есть деньги.
+
+### Что взять
+- **Всё из Personal Use (8.1)**, плюс:
+- **Part 4** — 3-5 виртуальных ролей (researcher / writer / strategist / sales / coder) — каждая = специализированный prompt + niche slice
+- **Part 7** — Project Lifecycle для main продукта + 2-3 параллельных бета-проектов
+- **Part 10** — MCP integrations (Notion / GitHub / email / Stripe / выбранные tools)
+- **Part 11** — strategic vision document с quarterly OKRs
+- **Adaptable станки**: voice pipeline (capture мыслей в потоке) / D2 (диаграммы / архитектура) / Plan Mode (стратегические сессии)
+
+### Что НЕ нанимать первые месяцы (заменяет AI агенты)
+- Personal assistant / virtual assistant
+- Junior researcher
+- Content writer / copywriter
+- Data analyst (basic)
+- Sales SDR (для warm outbound)
+- Project coordinator
+
+### Ожидаемый ROI
+- **Не нанимать первые 5 ролей** = €5-15K/месяц экономии
+- **Скорость shipping** в 2-3× выше vs solo founder без системы
+- **Стратегические решения** на уровне компании в 10-20 человек
+- **Knowledge accumulation** = главный moat против будущих competitors
+
+### Реальный пример
+Jetix Phase 3 (мар-апр 2026) — построение OS как solo founder при помощи 12 AI-ролей. ~250h Deep Work за 2 месяца → Foundation v1.0 LOCKED + Workshop concept + TRM model.
+
+---
+
+## 8.3 👨‍💼 CEO / Co-founder растущей компании (5-50 человек)
+
+**Кто:** lead растущей team. Уже не один, но и не enterprise. Сложность — общая картина теряется, meetings жрут время.
+
+### Цель
+**Сохранить общую картину при decentralized execution.** Меньше meetings — больше owned work. Каждый член команды понимает что куда движется без постоянных synchronization calls.
+
+### Что взять
+- **Всё из Solo Founder (8.2)**, плюс:
+- **Part 4** — расширенная Role Taxonomy включая human roles + virtual augmentation
+- **Part 7** — Project Lifecycle с multi-owner support, dependencies, resource allocation между projects
+- **Part 8** — Health Monitoring расширенный для команды (kpi / blockers / morale signals)
+- **Part 10** — integrations с командными tools (Slack / Linear / GitHub / Notion teamspace)
+- **Part 11** — visible strategy (vision + quarterly + weekly priorities) что **видит каждый член команды**
+
+### Главный leverage
+**Strategy + State of System видны каждому.** Не нужно объяснять каждому что куда идём — он сам видит. Это сокращает meetings на 50-70% и повышает alignment.
+
+### Ожидаемый ROI
+- **Meetings сокращены 50-70%** = ~10-20h/неделю освобождено для каждого ключевого члена команды
+- **Faster decisions** — context уже есть, не нужно "соберём встречу обсудить"
+- **Меньше miscommunication** — все видят strategy + project state
+- **Onboarding нового человека** в 2-3× быстрее (вся история в системе)
+
+### Когда НЕ подходит
+- Если команда уже >100 — это enterprise, нужны другие решения (Salesforce / Workday / etc.)
+- Если культура — top-down command-and-control — система не приживётся (требует автономии исполнителей)
+
+---
+
+## 8.4 💼 Investor / Capital Allocator
+
+**Кто:** angel / VC / wealth manager / family office. Управляет portfolio из investments. Принимает много decisions с большими последствиями.
+
+### Цель
+**Видеть состояние portfolio + thesis evolution + сделанные decisions с outcomes** — для качественных будущих decisions.
+
+### Что взять
+- **Part 1** — git-репозиторий для всех memos / theses / decisions
+- **Part 3** — Knowledge Base структурированная по темам investment (industries / business models / founders / patterns)
+- **Part 5** — Compound Learning (каждое decision → outcome → урок → правило)
+- **Part 6a** — Provenance Officer (какой источник дал какой инсайт)
+- **Part 7** — Project Lifecycle для каждого portfolio company / deal
+- **Part 8** — Health Monitoring для portfolio (KPIs, alerts на degradation)
+- **Part 11** — Strategic Direction (thesis evolution log)
+- **Натренированный агент** на твоей investment philosophy + history
+
+### Главный leverage
+**Decisions log с outcomes** — через 2-3 года видишь свои patterns:
+- В каких industries у тебя alpha?
+- Какие сигналы предсказывали успех / провал?
+- Какие founders теряют tractioniу через 18 месяцев?
+- Какая твоя bias в скрининге?
+
+Без этого — ты учишься медленно. С этим — каждое следующее decision на порядок умнее.
+
+### Ожидаемый ROI
+- **Faster better decisions** — context loaded мгновенно, тратишь время на качество, не сборку контекста
+- **Pattern recognition** — через 100+ deals видишь что-то что не видит middle-of-the-pack VC
+- **Compound advantage** — самый ценный долгосрочный moat в venture / investing
+
+### Реальный пример
+Marc Andreessen / Peter Thiel — оба известны тем что **держат personal knowledge graphs** (Andreessen — public posts, Thiel — структурированные книги). Их edge — accumulated thinking за десятилетия.
+
+---
+
+## 8.5 🎓 Researcher / Knowledge Worker / Аналитик
+
+**Кто:** academic researcher / industry analyst / consultant / journalist. Работа = превращать сырую информацию в insights.
+
+### Цель
+**Накопить персональный knowledge graph** — твою личную Wikipedia по теме исследования. Compound через год = твоё уникальное преимущество vs всех кто читает то же самое поверхностно.
+
+### Что взять
+- **Part 1** — git как версионируемая база
+- **Part 2** — Signal Ingestion: PDFs / web articles / podcast transcripts → structured items
+- **Part 3** — Knowledge Base с **9 entity types** (твоя стихия — concepts / claims / sources / experiments)
+- **Part 5** — Compound Learning (каждый прочитанный source → claims → links → updated understanding)
+- **Part 6a** — Provenance Officer (academic discipline — каждое утверждение с источником)
+- **HippoRAG retrieval** для `/ask` — чтобы при написании синтеза находить все релевантные источники
+- **Натренированный агент** на твоей теме исследования
+
+### Главный leverage
+**HippoRAG-style retrieval по personal knowledge graph** — задал вопрос → агент находит ВСЕ релевантные source'ы из твоей wiki + синтезирует ответ с citations. Это как иметь PhD-level research assistant 24/7.
+
+### Ожидаемый ROI
+- **Чтение 5-10× медленнее** (потому что captures + structure), но **retention 10-100× выше**
+- **Написание synthesis** — за час vs неделя без системы
+- **Cross-disciplinary insights** — система видит связи между topics, которые ты сам забыл
+- **Через 5 лет** — твой personal knowledge graph = main asset для consulting / publishing / teaching
+
+### Реальный пример
+Niklas Luhmann (немецкий социолог) — знаменитый Zettelkasten на 90,000 заметок. Опубликовал 70+ книг и 400+ статей. Прямо говорил: «не я думаю, мой Zettelkasten думает». Базовая Система = **Zettelkasten 2.0 с AI augmentation**.
+
+---
+
+## 8.6 🧑‍🏫 Coach / Mentor / Therapist / Educator
+
+**Кто:** работаешь с людьми один-на-один или в группах. Качество твоей работы = твой track record + способность вспомнить детали о каждом client.
+
+### Цель
+**Помнить каждого клиента глубоко** + **накапливать методологию** работы. Иметь **personal expertise database** которая через годы = главный профессиональный актив.
+
+### Что взять
+- **Part 1** — git для всех client notes / methodologies / artifacts
+- **Part 2** — voice pipeline (после сессии диктуешь — система структурирует)
+- **Part 3** — KB с разделами: clients / methodologies / cases / breakthroughs / failures
+- **Part 5** — Compound Learning: каждая успешная техника → methodology → переиспользуется
+- **Part 7** — Project Lifecycle для каждого long-term client (если работаешь сериями)
+- **Part 9** — Owner ритуалы (pre-session prep / post-session reflection)
+- **Натренированный агент** на твоей методологии + client base
+
+### Главный leverage
+**Перед каждой сессией** — агент за 30 секунд даёт тебе:
+- Краткое резюме предыдущих 3 сессий с этим клиентом
+- Открытые вопросы / темы не закрытые
+- Релевантные методологии из твоей базы для текущей фазы
+- Patterns этого клиента (когда срывается / когда в потоке)
+
+### Ожидаемый ROI
+- **Clients чувствуют** что их помнят и понимают глубоко → retention + referrals
+- **Continuous improvement** твоей методологии — каждый client делает тебя лучше для следующего
+- **Через 5 лет** — methodology library = можно учить других / писать книгу / запускать масштабирование
+
+---
+
+## 8.7 🎨 Creator / Writer / YouTuber / Содержатель
+
+**Кто:** делаешь контент (текст / видео / подкасты / визуальное искусство). Твой output = твоя ценность.
+
+### Цель
+**Никогда не страдать от writer's block** + **постоянно компилировать insights в публикуемые артефакты** + **строить library своих идей и forms** для compound creative output.
+
+### Что взять
+- **Part 1** — git для всех черновиков / publications / source materials
+- **Part 2** — voice / camera capture мыслей и observations (для creators критично — мысль теряется за минуты)
+- **Part 3** — KB с разделами: ideas / outlines / drafts / published / inspiration sources
+- **Part 5** — Compound: каждая publication → analytics → урок что работает
+- **Part 7** — content calendar / publication pipeline
+- **Adaptable станки:** Voice pipeline (capture в потоке) + Plan Mode (для глубоких форматов) + автоматизация publishing
+
+### Главный leverage
+**Idea backlog никогда не пустой.** Подходишь к работе → агент даёт тебе 10 idea'и для следующего пост / видео / эпизод, **основанных на твоей теме / твоей audience / твоих past wins**. Не generic «10 contentе ideas for X niche», а тебе релевантное.
+
+### Ожидаемый ROI
+- **Output 2-3×** при том же time investment (нет потерь на «не знаю что писать»)
+- **Quality compounds** — каждый artifact опирается на предыдущие, темы развиваются глубже
+- **Long-tail wins** — старый контент находит новых читателей через твою же search/recommendation систему
+
+---
+
+## 8.X Сводка применимости
+
+| Профиль | Главное что взять | Главный ROI |
+|---------|-------------------|-------------|
+| 👤 Personal use | Parts 1-3, 9 + ритуалы | 5-15h/неделю освобождено |
+| 🚀 Solo Founder | + Parts 4, 7, 10, 11 + станки | Не нанимать первые 5 ролей |
+| 👨‍💼 CEO 5-50 чел | + расширенные Parts 4, 8 | Meetings −50-70%, alignment ↑ |
+| 💼 Investor | + Decision log + Compound | Pattern recognition через 100+ deals |
+| 🎓 Researcher | + HippoRAG + Provenance | Personal knowledge graph = main asset |
+| 🧑‍🏫 Coach | + Client memory + methodology lib | Глубокая память каждого клиента |
+| 🎨 Creator | + Idea backlog + voice pipeline | Output 2-3× + quality compounds |
+
+> **Ключевое:** все профили — **могут coexist в одной системе**. Investor который ещё и Creator + Researcher — берёт все три набора. Каркас тот же, наполнение комбинируется.
 
 ---
 
 # 9. 🚀 Как начать (если ты вдохновился)
 
-## 10.1 Минимальный setup (1 день)
-*[Заполнить: что нужно поставить / настроить / начать делать в первый день.]*
+> **Цель раздела:** дать конкретный actionable план first day → first week → first month — чтобы человек не утонул в попытке "построить всю систему сразу", а начал маленько и нарастил постепенно.
 
-## 10.2 Первый месяц
-*[Заполнить: что добавить через неделю / две / месяц.]*
+> **Главный принцип:** **build minimum viable workshop за 1 день, итерируй ежедневно, не пытайся сделать perfect.** Через 3 месяца у тебя будет работающая мастерская, через 12 — она будет для тебя tailor-made.
 
-## 10.3 Что НЕ делать
-*[Заполнить: типичные ошибки — over-engineering / wrong tools / no discipline / complexity creep.]*
+---
+
+## 9.1 Минимальный setup (Day 1) — 4-6 часов работы
+
+**Цель:** к концу первого дня — у тебя git-repository, базовая структура wiki, первый capture pipeline, и один ритуал.
+
+### Шаг 1 — Substrate (Part 1) — 60 мин
+- Создай git-репозиторий: `mkdir my-workshop && cd my-workshop && git init`
+- Структура папок:
+  ```
+  wiki/         — твоя Wikipedia
+  decisions/    — большие решения
+  daily-log/    — ежедневные логи
+  projects/     — активные проекты
+  reports/      — periodic reports
+  ```
+- Создай `CLAUDE.md` (или просто README) — кто ты, цели, конвенции
+- Первый commit: `git add . && git commit -m "[init] my workshop"`
+
+### Шаг 2 — Conventions (Part 1 deep) — 30 мин
+Зафиксируй **базовые conventions** в `_meta/conventions.md`:
+- Файлы — `kebab-case.md`
+- Даты — `YYYY-MM-DD`
+- YAML frontmatter обязателен в каждом .md
+- Логи — append-only (новое сверху)
+
+### Шаг 3 — Knowledge Base scaffold (Part 3) — 60 мин
+Создай минимум **3 entity types** в `wiki/`:
+- `wiki/concepts/` — идеи / фреймворки / модели
+- `wiki/sources/` — книги / статьи / разговоры
+- `wiki/decisions/` — большие decisions с обоснованиями
+
+Для каждого — простейший template в `wiki/_templates/`.
+
+### Шаг 4 — Один input pipeline (Part 2) — 60-90 мин
+Выбери **один источник** для start (НЕ все сразу):
+- **Если ты говорун** → voice pipeline (телефон → запись → транскрипт)
+- **Если ты читатель** → web/PDF capture pipeline (источник → структурированный summary в `wiki/sources/`)
+- **Если ты человек разговоров** → meeting notes pipeline
+
+Pipeline на старте — **manual is OK**. Автоматизируешь потом.
+
+### Шаг 5 — Один ритуал (Part 9) — 30 мин
+Установи **один регулярный ритуал**:
+- **Evening `/close-day`** — простейший: 5 минут, заметка что сделал / что узнал / что планируешь завтра в `daily-log/YYYY-MM-DD.md`
+
+### Шаг 6 — Принципы на стене (Pillar C) — 30 мин
+Запиши **3-5 личных принципов** в `principles/manifesto.md`. Например:
+- «Внимание дороже денег»
+- «Output > input»
+- «Не делать долго того, что можно делегировать AI»
+
+### К концу Day 1 у тебя есть
+- ✅ Git-репозиторий с structured папками
+- ✅ Conventions зафиксированы
+- ✅ KB scaffold (3 entity types)
+- ✅ Один input pipeline (capture работает)
+- ✅ Один ритуал (`/close-day`)
+- ✅ Принципы на стене
+
+**Это уже работающая мастерская.** Простая, минимальная, но РАБОТАЕТ.
+
+---
+
+## 9.2 Первый месяц — нарастаем постепенно
+
+### Week 1 — Discipline в базовом ритуале
+- **Делай `/close-day` каждый день**, без исключений
+- Не добавляй ничего нового — закрепи привычку
+- В конце недели — **первый weekly review** (15-30 мин): что прошло / что узнал / что важно на след. неделю
+
+### Week 2 — Расширь capture
+- Добавь **второй input pipeline** (если первый был voice → добавь reading; если reading → добавь discussions)
+- Каждый день минимум 1 запись в `wiki/sources/` с твоими insights
+
+### Week 3 — Добавь первый AI-агент
+- Возьми один из 12 ролей (например, **Personal Assistant**) — сделай для него `system.md` с твоими conventions / целями / контекстом
+- Используй его 3-5 раз для рутинных задач
+- Добавь в `strategies.md` что узнал про работу с этим агентом
+
+### Week 4 — Первый Project setup (Part 7)
+- Возьми **один реальный текущий проект**
+- Создай `projects/<project-id>/` с структурой:
+  - `README.md` (цель / точка А / точка Б)
+  - `journal.md` (хронология)
+  - `tasks.md` (текущие задачи)
+- Делай updates ежедневно
+
+### К концу первого месяца у тебя есть
+- ✅ Stable daily ритуал (`/close-day` каждый день, без skip)
+- ✅ 2 input pipelines работают
+- ✅ 50-100 wiki entries (накопилось за месяц)
+- ✅ 1 натренированный AI-агент
+- ✅ 1 проект ведётся через систему
+- ✅ Первый weekly + monthly review сделан
+
+**Поздравляю. У тебя теперь работающая мастерская v1.0.**
+
+---
+
+## 9.3 Месяцы 2-3 — углубление
+
+### Месяц 2
+- Добавить **2-3 ещё AI-агентов** под твои direction'ы (Strategist / Knowledge Synth / Researcher)
+- **Compound learning** — после каждого project milestone → урок → wiki/foundations/methodology
+- **Time tracking pipeline** — Toggl + AW + sync скрипты (для visibility что куда уходит)
+- **Decisions log** — фиксируешь все important decisions с rationale
+
+### Месяц 3
+- **Knowledge consolidation** — раз в неделю просматриваешь wiki, мерджишь дубли, добавляешь cross-links
+- **Quarterly review** — где я был 3 мес назад / где сейчас / куда через 3 мес
+- **Strategic Direction Substrate (Part 11)** — оформляешь vision + quarterly OKRs
+- Возможно — **MCP integrations** под твои tools
+
+---
+
+## 9.4 ⚠️ Что НЕ делать (типичные ошибки)
+
+> Большинство людей начинают и бросают. Вот **5 ошибок** которые приводят к этому.
+
+### ❌ Ошибка #1: Over-engineering на старте
+**Симптом:** «давай сначала продумаю всю архитектуру, выберу идеальные tools, спроектирую все pipelines».  
+**Результат:** через 2 недели не написано ни одной wiki-страницы, потому что архитектура ещё «не идеальна».  
+**Правильно:** **Day 1 = шаги 1-6 выше за 4-6 часов**. Дальше итерируешь. Perfect is the enemy of good enough.
+
+### ❌ Ошибка #2: Wrong tools (модные, не подходящие тебе)
+**Симптом:** «возьму Notion + Obsidian + Linear + Toggl + Cal + ещё 5 hot tools».  
+**Результат:** разваленная экосистема, переключение между tools жрёт время больше чем экономит.  
+**Правильно:** **минимум tools на старте**. Git + один markdown editor + один воркфлоу. Добавляешь по нужде, не «потому что популярно».
+
+### ❌ Ошибка #3: No discipline (запускаешь и забываешь)
+**Симптом:** установил систему, ритуал делал 3 дня, потом «не до этого».  
+**Результат:** через месяц система мёртвая, ты разочарован, говоришь «не работает».  
+**Правильно:** **выбери ОДИН ритуал и делай его каждый день минимум 30 дней**. Без discipline никакая система не работает. Лучше маленькая работающая чем большая мёртвая.
+
+### ❌ Ошибка #4: Complexity creep — добавляешь всё подряд
+**Симптом:** через месяц у тебя 15 templates / 20 категорий / 8 ритуалов.  
+**Результат:** настолько сложно что сам не помнишь что куда. Capture перестаёт работать.  
+**Правильно:** **периодический simplification ритуал** — раз в месяц спрашивай "что в системе можно убрать без ущерба?". Простота — это feature, не bug.
+
+### ❌ Ошибка #5: Капитальная сборка вместо incremental
+**Симптом:** «беру 2-недельный отпуск чтобы построить систему».  
+**Результат:** строишь на основе **гипотез о том что нужно**, а не **реального опыта использования**. Через месяц обнаруживаешь что половина не нужна.  
+**Правильно:** **build small, use, iterate**. Каждая фича добавляется потому что **уже почувствовал боль её отсутствия**, а не "так в книжке писали".
+
+---
+
+## 9.5 Через 6-12 месяцев — что будет
+
+При **дисциплинированном использовании** Базовой Системы за 6-12 месяцев:
+
+- 📚 **Wiki** на 500-2000 entries — твоя личная Wikipedia
+- 🤖 **5-10 натренированных агентов** под твою специфику
+- ⏱️ **Time-tracking baseline** на год с анализом patterns
+- 📅 **Decisions log** с 100+ записями + outcomes на старые
+- 🎯 **Vision + Strategy** актуальные, пересматриваются quarterly
+- 🚧 **Projects** ведутся структурно, ничего не теряется
+- 📊 **Compound learning** видимый эффект (старые проблемы решаются быстрее)
+
+**Главное:** через год ты **не сможешь представить как жил без этого**. Так же как сейчас не можешь представить жить без интернета.
+
+---
+
+## 9.6 Дальше — Phase B (опционально)
+
+Когда готов — **Phase B расширения** (это уже Jetix Corporation territory, см. Документ 1B):
+- Multi-user / fork-portable Foundation
+- Partners / community уровень
+- Productized services на базе твоей мастерской
+- TRM model для клиентов
+
+Но это — **уже не Базовая Система**, это **applied use case**. Базовая Система достаточна сама по себе для **личной жизни и карьеры**.
 
 ---
 
