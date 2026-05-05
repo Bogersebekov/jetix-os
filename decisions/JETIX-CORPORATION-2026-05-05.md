@@ -272,19 +272,269 @@ Jetix **НЕ**:
 
 # 2. 🏭 Jetix как Мастерская — расширение метафоры
 
-> **Цель раздела:** показать как универсальная метафора Мастерской из Документа 1A применяется специфически в Jetix.
+> **Цель раздела:** показать как универсальная метафора Мастерской из Документа 1A применяется специфически в Jetix через **3 фазы эволюции**: одна мастерская одного владельца → команда работает с одной системой → community мастеров с мастерскими (mega-system).
 
-## 2.1 Jetix как одна большая мастерская
-*[Ruslan владеет одной мастерской. Внутри — все 11 Parts активны. Специализация мастерской — Mittelstand consulting + TRM.]*
+> **База:** Workshop concept LOCKED 30.04.2026 (`decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md`).
 
-## 2.2 Jetix как сеть мастерских (Phase 3)
-*[Когда партнёры подключаются — каждый имеет свою мастерскую (свой fork Foundation), но все связаны через Jetix infrastructure layer. Это сеть мастерских.]*
+---
 
-## 2.3 Что добавляется поверх Базовой Системы (Jetix-specific)
-*[Какие специфические станки / процессы / роли есть в Jetix мастерской, которых нет в generic Базовой Системе.]*
+## 2.1 Phase 1 — Jetix как одна мастерская одного владельца (текущее состояние)
 
-## 2.4 Эволюция Jetix мастерской — 3 фазы
-*[Phase 1: 1 мастер (Ruslan solo). Phase 2: команда (5-10 чел + virtual augmentation). Phase 3: сеть мастерских (community + partners).]*
+### Что это сейчас
+**Сейчас Jetix — это первый, мега-маленький вариант мастерской.** Один владелец (Ruslan) + AI-агенты (12 ролей) + накопленная knowledge база + инструменты. Это уже **довольно охуенная мастерская** — но это **только начало**.
+
+> **Verbatim Ruslan:** *«Это уже довольно охуенная мастерская»* — даже на текущем minimal состоянии Phase 1.
+> [src: decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md:§6 Phase 1]
+
+### Что эта мастерская может уже сейчас (Phase 1 capabilities)
+
+Несмотря на размер «один мастер» — мастерская позволяет:
+
+#### 📚 Получать информацию от лучших учителей
+Через `/ingest` любого источника (книги, статьи, lectures от лучших экспертов мира) → переработка → структурированная информация в твоей wiki. Это как иметь **personal knowledge graph всех лучших учителей по твоим темам**.
+
+#### 💬 Быстро общаться с любыми экспертами (через AI-augmented context)
+Plan Mode + натренированные агенты на твоей базе → быстро формулируешь вопрос, быстро получаешь синтез из множества источников, быстро готов к разговору с реальным экспертом (если нужен).
+
+#### 🎓 Быстро обучаться
+3 уровня Wikipedia (Personal / Insights / Project) + методология library + writeback patterns → **обучение с compound effect**. Каждое обучение опирается на предыдущее, не начинаешь с нуля.
+
+#### 🧠 Быстро решать сложные задачи
+12 натренированных AI-агентов под разные роли (researcher / strategist / writer / analyst / etc.) + adaptable станки → задачи которые solo founder делал бы 2 недели — мастерская делает за 2 дня.
+
+#### 👁️ Видеть картину целиком
+Visual / View principle (Foundation Part 8 + dashboards) + state-of-system one-pagers → **в любой момент видишь общее состояние** твоей жизни / бизнеса / проектов.
+
+> *Иными словами:* даже мастерская Phase 1 уровня — **это уже мощная штука**. Один человек с Foundation v1.0 LOCKED + 12 ролей + adaptable станки делает то что обычно требует команды 5-10 человек.
+
+### Специализация мастерской Phase 1
+Текущая специализация — **Ruslan-мастер**, который занимается:
+- AI-leverage methodology
+- Total Resource Management R&D
+- Workshop concept development
+- Phase 1 €50K consulting + producer center
+
+Другой мастер взял бы Foundation, заменил RUSLAN-LAYER на свою — и поехал бы в свою специализацию (medicine / arts / quant trading / coaching / etc.).
+
+### Что есть в мастерской Phase 1 (станки и инструменты)
+
+> **Verbatim Ruslan:** *«полный набор нахуй мега корпорации в одной в одной блять программки в jetix… лучшая research и лучшая блять аналитика up to date… лучшая crm… лучшая блять автоматизация… сбор твоих знаний… ёбаный нож швейцарский нож в виде в мире с Jetix. Это ебаный космический корабль»*
+> [src: voice-extract-workshop-people-2026-05-01.md:§1.1.2, audio_565@27-04-2026]
+
+Конкретные станки (текущий arsenal):
+- **D2 diagrams** — text → SVG за минуты (system architecture / process flows)
+- **MCP integrations** — Notion / Toggl / GitHub / file system / etc.
+- **Plan Mode + ultrathink** — стратегические сессии с AI как scribe
+- **Voice pipeline** — диктофон → transcription → extraction → review
+- **Time-tracking pipeline** — Toggl + AW + sync + reports + 12-mes baseline
+- **12 AI-агентов** — Manager / Personal Assistant / Sales Lead/Researcher/Outreach / Knowledge Synth / Crazy Agent / Strategist / Life Coach / Meta Agent / System Admin / Inbox Processor
+- **Karpathy LLM Wiki** + HippoRAG retrieval (9 entity types × 9 edge types × 6 niches)
+- **Compound learning pipeline** — каждое решение → урок → правило → методология
+
+### Phase 1 trust structure — closed circle
+> **Verbatim Ruslan:** *«именно для начальной стадии вот джекса что мы все-таки будем действовать больше как мафия — то есть мы там собрались какие-то свои ресурсы собрали хорошо бизнес там работа да есть это свободные ресурсы инвестируем»*
+> [src: voice-extract:§1.9.4, audio_563@27-04-2026]
+
+**Phase 1 → Phase 2 trust evolution:** closed-circle mafia-style trust в начале → постепенно открывается для curated participants → Phase 3 community.
+
+---
+
+## 2.2 Phase 2 — команда работает с одной мастерской
+
+### Что это
+Несколько человек + AI + **одна** Jetix-мастерская. Workflow тот же информация-centric. Цель командная. Система чуть-чуть улучшается под team scenarios.
+[src: decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md:§6 Phase 2]
+
+### Phase 1 → Phase 2 transition trigger
+> **Verbatim Ruslan (audio_562@27-04-2026):** *«Мы сейчас заканчиваем этот фондейшн… это, по сути, уже готовый продукт. Это можно уже давать идти людям.»*
+> [src: voice-extract:§1.3.1]
+
+**Trigger:** Foundation v1.0 LOCKED ✅ (это произошло 28.04.2026). Phase 1 → Phase 2 ready.
+
+### Phase 2 mechanism — solo консультант → партнёры приводят
+> **Verbatim Ruslan (audio_536):** *«для начала я хочу это вот самостоятельно как такой бизнес-консультант… попутно уже сразу накапливать команду… уже эти партнеры за меня другим партнером помогали — будь то финансами, будь то ресурсами»*
+> [src: voice-extract:§1.3.2]
+
+**Phase 2 mechanism:**
+1. Ruslan начинает делать TRM-lite консалтинг + producer center
+2. Первые партнёры подключаются — приносят свои ресурсы / навыки / клиентов
+3. Команда растёт до 5-10 человек + virtual augmentation через AI агентов
+4. Все работают **в одной Jetix мастерской**, не своих fork'ах
+5. Tseren Tserenov идентифицирован как **first concrete Phase 2 partnership target**
+
+### Что меняется в мастерской на Phase 2
+- Расширяется Part 4 (Role Taxonomy) — добавляются human roles в дополнение к AI-агентам
+- Расширяется Part 8 (Health Monitoring) — multi-person health signals
+- Расширяется Part 10 (External Touchpoints) — больше intеграций под team workflows
+- Pillar C Tier 1 (Manager principles) — каждый member читает + соглашается до joining
+
+---
+
+## 2.3 Phase 3 — community мастеров с мастерскими (mega-system) ⭐
+
+### Что это — главная concept мета-мастерской
+**Phase 3 — это то самое «Jetix как мета-мастерская среди других мастерских»** (см. §1.1 Кандидат A).
+
+> **Verbatim Ruslan:** *«Когда уже будет комьюнити таких вот мастеров с своими мастерскими, можно будет делать уже мега систему — в которой внутри вот эти мастера у которых есть мастерские смогут между собой коммуницировать и работать над уже более сложными проектами/задачами, для которых одной мастерской даже прям хорошо настроенной но одной мастерской одного человека не хватит.»*
+> [src: decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md:§8 quote 13]
+
+### Как это работает — model
+1. **Каждый мастер** имеет **свой fork Foundation** (свою специализированную мастерскую)
+2. Мастер берёт **кусок задачи** (часть большой проблемы) в свою мастерскую
+3. Внутри своей мастерской **разбирает / перерабатывает / создаёт** свою деталь
+4. Выдаёт **одну качественную деталь** обратно в общий community-уровень
+5. Все детали **аггрегируются на верхнем (community) уровне** в **finished product**
+
+> Это тоже информационный flow: получили информацию (часть задачи) → выдали информацию (свой результат). Та же мастерская, тот же principle — только теперь сеть.
+
+### Phase 3 trigger
+> **Verbatim Ruslan (audio_576@29-04-2026):** Phase 3 trigger = «когда задачи > одной мастерской» — задачи становятся настолько сложными что одна мастерская одного человека (даже хорошо настроенная) не справляется.
+> [src: voice-extract:§1.3.3]
+
+### Какие задачи требуют Phase 3 community
+- **Cross-domain research projects** (требуют экспертизы AI + кибербез + юр.практика + research одновременно)
+- **Multi-resource TRM full** для крупных клиентов (€670K+/год — требуют network of operators)
+- **Civilizational-scale initiatives** (200-year vision — один человек не унесёт)
+- **Patent / IP creation** в нескольких domain'ах одновременно
+- **Investment due diligence** на портфель из 30+ компаний
+
+### Phase 3 specializations внутри community
+Каждый мастер в community может специализироваться по своему направлению:
+- 🤖 **AI / искусственный интеллект** — мастер по prompt engineering / agent architectures / model selection
+- 🛡️ **Кибербезопасность** — мастер по security audit / penetration / compliance
+- ⚖️ **Юриспруденция / законы** — мастер по contracts / regulatory / IP / GDPR
+- 🔬 **Research / heavy аналитика** — мастер по market research / scientific literature / synthesis
+- 💰 **Investment** — мастер по wealth management / venture / capital allocation
+- 📚 **Education / методологии** — мастер по learning design / knowledge transfer
+- 👥 **Talent / HR** — мастер по curated talent matching / coaching
+- 🎯 **Strategy** — мастер по systemic thinking / vision / scenario planning
+- 📢 **Marketing / audience** — мастер по content / community / monetization
+- 💻 **Engineering / product** — мастер по building / architecting
+- ... и другие domain'ы по нужде
+
+> **Каждая специализация = свой fork Foundation с своей RUSLAN-LAYER replacement.**
+
+### Phase 3 take rate / business model
+*Подробно в §3 (TRM) и §4 (Платформа). Кратко:*
+- **Take rate с обеих сторон marketplace** (Asset Owners + Resource Operators)
+- **15-25% blended** (vs 35-50% у Toptal/Catalant — Jetix берёт меньше для anti-disintermediation)
+- **GMV scenarios:** 100 Operators × 3 клиента = €60M GMV / €15M revenue платформы; 1000 × 3 = €600M / €150M
+
+### Critical timing для Phase 3 trigger
+> *«Все эти marketplace компании (Toptal / Catalant / Andela) потратили **5-10 лет** в Phase 1+2 прежде, чем перейти в Phase 3. Прыгнуть сразу в платформу не получалось ни у кого. Переход Jetix в Phase 3 — **не раньше 2028-2029**.»*
+> [src: decisions/JETIX-TRM-MODEL-2026-04-30.md:§16]
+
+---
+
+## 2.4 Что добавляется поверх Базовой Системы (Jetix-specific станки)
+
+> *Базовая Система имеет универсальные станки. Jetix мастерская добавляет специфические для AI-leverage / TRM / partner ecosystem контекста.*
+
+### Jetix-specific дополнения к Foundation
+
+#### 🏦 Top Lists Partner Factory
+Specialized recruitment / curation станок — поиск партнёров через Top Lists методологию (см. memory `project_jetix_partner_factory_top_lists.md`).
+
+#### 🎬 Producer Center
+Phase 1 offering — медиа-центр для English-speaking infobiz клиентов. Отдельный workflow от стандартного TRM.
+
+#### 📊 TRM Dashboard
+Multi-resource dashboard для каждого клиента (6 ресурсов в одном view). Aggregates Foundation Part 8 visibility под TRM-specific KPIs.
+
+#### 🤝 Mentor Search Pipeline
+Отдельный workstream для unlock'а Phase 0 isolation as stopper class (`swarm/wiki/operations/quick-money/personal-mentor-search/`).
+
+#### 📚 Methodology Publishing Pipeline
+Pipeline для конвертации накопленной internal methodology → publishable artifacts (Phase 2+).
+
+#### 🪙 Token Economy Layer
+Phase 2 internal / Phase 3+ public — alternative-to-IPO liquidity path. Trigger: $100K self-earned.
+
+#### 📅 Tseren Tserenov Outreach Track
+Specific dedicated workflow (Phase 1 → 2 first transition partnership).
+
+#### 🌐 Cross-Workshop Communication Protocol
+Phase 3+ станок — стандарт communication между мастерскими в community (TRM Network platform layer).
+
+### Что НЕ добавляется (anti-features)
+- ❌ **Отдельный custom AI-product** — Jetix не делает свой AI-tool. Использует existing best-in-class через MCP integration.
+- ❌ **Vendor lock-in инфраструктура** — Foundation v1.0 fork-portable, открытая архитектура.
+- ❌ **Closed ecosystem без partners** — community открыта (curated, но не closed) Phase 2+.
+
+---
+
+## 2.5 Эволюция фаз — сводная таблица
+
+> *3 фазы Workshop концепции в одной таблице. Cross-mapping с TRM phases — в §3.*
+
+| Параметр | Phase 1 (текущее) | Phase 2 (2027-2029) | Phase 3 (2029+) |
+|----------|-------------------|---------------------|-----------------|
+| **Структура** | Один владелец + AI агенты | Команда 5-10 + AI augmentation | Community мастеров с своими мастерскими |
+| **Размер мастерской** | Мега-маленькая, но мощная | Medium | Mega-system / network of workshops |
+| **Trust** | Closed circle "mafia-style" | Curated team | Community с входным фильтром |
+| **Ключевые triggers** | Foundation v1.0 LOCKED ✅ | First partnerships (Tseren) | Задачи > одной мастерской |
+| **Capabilities** | Knowledge от лучших учителей / быстрое решение / видение целиком | + командная работа / распределение ролей | + cross-workshop coordination / mega-projects |
+| **Business model** | Phase 1 consulting + producer center | TRM Phase 2 (managing 30+ клиентов) | TRM Phase 3 (двусторонняя marketplace + take rate 15-25%) |
+| **Revenue** | €50K Q2 2026 → €200K validation | €1M-€20M ARR | €150M+ revenue / GMV €600M-€1B+ |
+| **Timeline** | 2025-04 → 2026-Q4 | 2027-2029 | 2029+ (NOT before) |
+| **Главное** | Build foundation + first ship | Scale managing capabilities | Network effects + platform leverage |
+
+---
+
+## 2.6 Visual / View principle в Jetix мастерской
+
+> *Программирование с визуальным редактором — аналогия для Jetix interface к информации.*
+
+> **Verbatim Ruslan:** *«именно система позволяет вот это посмотреть это как бы конкретно то что есть и удобно этим пользоваться, передвигать чтобы не смотреть на все свои дома всех своих людей все свои машины — ты отдельно смотришь на вот этот view который тебе дает система, и тебе это позволяет удобнее этим всем распоряжаться, использовать, мастерить.»*
+> [src: decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md:§8 quote 14]
+
+### Two-direction visibility (refinement)
+- **Internal** — для владельца / команды быстро войти в любую роль ("записывать где ты кто")
+- **External** — public dashboard для accountability + transparency (anti-pyramid signal)
+
+> **Verbatim Ruslan (audio_553):** *«сразу же надо будет сделать сайт получается как раз — смотрите можете по всем метрикам следить за компанией»*
+> [src: voice-extract:§1.4.2]
+
+**Phase 1 → 2 → 3:** internal visibility всегда; external visibility начинается с Phase 1 site → Phase 2 detailed metrics dashboard → Phase 3 platform-wide marketplace transparency.
+
+---
+
+## 2.7 Mafia → Community evolution mechanism
+
+> *Critical понимание: Phase 1 закрытая mafia-style trust → Phase 3 open community.*
+
+**Phase 1 (now):** closed circle. Свои ресурсы, своя сеть, никаких randoms.
+**Phase 2:** carefully expanded. Партнёры приводятся через **personal vetting** + **track record requirements**.
+**Phase 3:** community с входным фильтром (5 critical filter из ICP §7) + reputation system + curated access.
+
+**Это не противоречие.** Это **поэтапное открытие** по мере того как:
+1. Foundation становится stable (28.04.2026 ✓)
+2. Methodology становится publishable
+3. Track record накапливается (€50K → €200K → €1M validation)
+4. Защита от disintermediation встроена (7 layers — см. §4.6)
+
+> Преждевременное открытие = scam-like attraction (плохие участники) + dilution качества. Поэтапное = sustainable growth с сохранением quality bar.
+
+---
+
+## 2.8 Какая мастерская у каждого мастера в Phase 3 (illustrative examples)
+
+> *Чтобы было понятно — Phase 3 community будет состоять из specialized мастерских.*
+
+| Мастер | Его мастерская | Что делает в Jetix community |
+|--------|---------------|------------------------------|
+| 🤖 AI specialist | Foundation + AI tools focus | Внедряет latest AI tools для клиентов platform |
+| 🛡️ Cybersec expert | Foundation + security audit станки | Делает security review для всех TRM-клиентов |
+| ⚖️ Legal advisor | Foundation + legal templates / contracts | Управляет contract layer для TRM agreements |
+| 🔬 Research lead | Foundation + heavy analytics | Делает deep research проекты по запросу |
+| 💰 Wealth manager | Foundation + investment tooling | Управляет финансовым ресурсом TRM |
+| 🎯 Strategy advisor | Foundation + scenario planning | Помогает clients с strategic decisions |
+| 📚 Education designer | Foundation + curriculum tools | Делает educational artifacts из накопленной methodology |
+| 📢 Audience operator | Foundation + content / monetization | Управляет audience-ресурсом TRM |
+| 💻 Engineering lead | Foundation + dev tooling | Делает custom builds для клиентов |
+| 👥 Talent operator | Foundation + curated matching | Управляет team-ресурсом TRM + recruitment |
+
+> **Каждый мастер = эксперт в своём direction.** Jetix как мета-мастерская = их **collective intelligence** через shared infrastructure.
 
 ---
 
