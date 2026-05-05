@@ -1040,9 +1040,9 @@ Toptal / Catalant / Andela спроектированы для 2010-х (pre-LLM 
 
 ---
 
-## 4.3 3 источника проектов на платформе
+## 4.3 4 источника проектов на платформе
 
-> *Это критическая особенность — платформа не просто marketplace. У неё 3 источника входящих проектов.*
+> *Это критическая особенность — платформа не просто marketplace. У неё 4 источника входящих проектов. **Источник 4 особенно важен** — это участники Jetix создают свои проекты и сами привлекают клиентов извне.*
 
 ### 🏠 Источник 1 — Внутренние Jetix-проекты
 - Развитие самой Jetix (Foundation evolution / станки / methodology)
@@ -1062,7 +1062,71 @@ Toptal / Catalant / Andela спроектированы для 2010-х (pre-LLM 
 - Платформа: подбирает участников + структурирует workflow + курирует execution
 - **Кто платит:** external owner; Jetix take rate с обеих сторон (см. §4.5)
 
-> **Главная фишка:** партнёры на платформе **получают доступ к проектам всех 3 источников**. Это **существенно больше deal flow** чем у solo professional.
+### 👤 Источник 4 — Проекты создаваемые внутренними участниками Jetix ⭐
+
+> *Это **отдельный, критически важный источник**. Партнёры / фрилансеры / полу-фрилансеры / свободные мастера, **уже находящиеся внутри Jetix**, могут запускать свои собственные проекты на платформе и сами привлекать клиентов извне.*
+
+#### Как работает
+1. **Участник Jetix** (партнёр / фрилансер / свободный мастер) использует платформу как **infrastructure для своего бизнеса**
+2. Создаёт **свой проект** на платформе (например: «улучшение operations для X-индустрии бизнеса»)
+3. **Сам идёт во внешнюю среду** и привлекает потенциальных клиентов / партнёров (это **не** Jetix их приводит — а сам участник)
+4. Jetix даёт участнику **infrastructure для исполнения**:
+   - Возможность **собрать команду** через платформу (другие Operators под нужные роли)
+   - Доступ к **общим ресурсам** (AI инструменты / методологии / wiki / станки)
+   - **Удобные workflow templates** + escrow + billing + dispute resolution
+   - **Brand association** Jetix (доверие к участнику ↑)
+
+#### Почему это отдельный источник
+**Разница с Источниками 1-3:**
+- В Источниках 2-3 — **Jetix приводит клиента** на платформу
+- В Источнике 4 — **участник сам приводит клиента**, Jetix только обеспечивает infrastructure
+
+#### Кому подходит этот формат
+- Solo консультант / coach — у него уже есть свой outreach / sales
+- Полу-фрилансер с собственной нишей и специализацией
+- Свободный мастер которому нужна команда под конкретный проект, но не хочет нанимать
+- Партнёр-foundеr со своим стартапом — использует Jetix infrastructure для execution
+- Любой кто хочет **«внешнее развитие»** через свои каналы, но с Jetix-leverage
+
+#### Бизнес-модель этого источника (компенсация Jetix)
+
+**2 варианта (могут комбинироваться):**
+
+**Вариант A — Revenue share с проекта**
+- Jetix получает **% от прибыли проекта** (5-15%, зависит от deep integration)
+- Участник: основная прибыль остаётся у него, Jetix — часть за infrastructure
+
+**Вариант B — Infrastructure usage fee**
+- Jetix получает **% за пользование наработками** (общие AI инструменты / методологии / станки / brand)
+- Это **более фиксированная модель** — не зависит от прибыли проекта
+- Может быть retainer-style («€500-2000/мес за access to Jetix infrastructure») или per-project markup
+
+> **На практике обычно гибрид** — небольшой infrastructure fee + revenue share с проекта. Это **align'ит интересы** Jetix с успехом участника.
+
+#### Главная ценность для участника
+- **Не надо строить infrastructure с нуля** (saved 6-12 мес setup time)
+- **Доступ к talent pool** для команды (не недели на recruitment)
+- **Brand & credibility** через association с Jetix
+- **Compound learning** — каждый твой проект делает других участников Jetix умнее (и наоборот)
+
+#### Главная ценность для Jetix
+- **Расширение deal flow** через внешние outreach каналы участников
+- **Diversification of revenue** — не зависит только от Jetix-driven sales
+- **Network growth** — каждый участник приводит свою сеть
+- **Methodology validation** — больше реальных кейсов = больше проверки наработок
+
+---
+
+> **Главная фишка:** участники платформы **получают доступ к проектам всех 4 источников** одновременно. Это **существенно больше deal flow** + **больше форматов вовлечения** чем у solo professional.
+
+### Сводная таблица источников
+
+| # | Источник | Кто приводит клиента | Кто платит Jetix | Главная ценность для участника |
+|---|----------|---------------------|------------------|-------------------------------|
+| 1 | Внутренние Jetix-проекты | Jetix (это сам Jetix) | Jetix (compensation) | Working on system development |
+| 2 | TRM-driven (клиенты Jetix) | Jetix через TRM | Клиент → Jetix → участник доля | Steady deal flow |
+| 3 | External Owners | Внешний клиент → платформа | Клиент → Jetix take rate | Volume через marketplace |
+| 4 | **Самостоятельный участник** ⭐ | **Сам участник** | Участник (revenue share / infra fee) | **Свой бизнес + Jetix leverage** |
 
 ---
 
@@ -1300,21 +1364,277 @@ Toptal / Catalant / Andela спроектированы для 2010-х (pre-LLM 
 
 ---
 
-# 5. 🤝 Управляющая компания
+# 5. 🤝 Управляющая компания — Jetix берёт ответственность за результат
 
-> **Цель раздела:** объяснить что Jetix не только консультирует, но и реально управляет частью ресурсов клиента.
+> **Цель раздела:** объяснить что Jetix не просто консультирует / советует, а **реально управляет** частью ресурсов клиента и **берёт ответственность за результат**. Это центральное отличие от классического консалтинга — и центральная причина почему клиенту имеет смысл работать с Jetix даже за бóльшие fees.
+>
+> **Связь с §3 TRM:** этот раздел и §3 пересекаются. **§3 описывает offering структурно** (6 ресурсов / fees / лестница / архитектура). **§5 описывает philosophy** того, **почему** мы можем брать ответственность и **как** это меняет risk profile для клиента.
 
-## 5.1 Что значит «управляющая»
-*[Не просто советы — реальное управление частью ресурсов клиента (с его согласия). Like Berkshire Hathaway но для Mittelstand operations.]*
+---
 
-## 5.2 Типы управления
-*[Финансами / временем CEO / аудиторией / etc. Разные depth levels.]*
+## 5.1 Что значит «управляющая компания» — ключевое отличие
 
-## 5.3 Юридическая структура
-*[Как оформляется управление. Контракты / authority / boundaries.]*
+### Классический консалтинг
+- Делает **рекомендации** (отчёт / презентация / advisory)
+- **Клиент потом** сам решает что внедрять, как, когда, кем
+- **Клиент несёт всю ответственность** за результат
+- Если рекомендация не сработала — консалтинг говорит «вы её неправильно внедрили / условия изменились» и **уходит**
+- Pricing: fixed fee / hourly — independent of результат
 
-## 5.4 Trust building
-*[Как мы строим trust с клиентом чтобы он отдал управление частью ресурсов.]*
+### Jetix как управляющая компания
+- **Реально управляет** частью ресурсов клиента (с его согласия / по контракту)
+- **Сам внедряет** + сам поддерживает + сам оптимизирует
+- **Берёт ответственность за результат** — performance fee только если есть рост
+- Если что-то не сработало — **Jetix остаётся**, разбирается, исправляет
+- Pricing: management fee + **performance fee** (% от incremental профита)
+
+### Главная фраза
+> **«Мы не какие-то там просто консультанты. Мы берём ответственность за результат.»**
+>
+> *Это и есть центральная позиционная разница, которую клиент должен понять с первой встречи.*
+
+---
+
+## 5.2 ⭐ Почему Jetix может брать на себя такую ответственность
+
+> **Это критический раздел.** Объясняет **why now** для клиента — почему именно Jetix может сделать то что обычная консалтинг-фирма не может.
+
+### Причина 1 — Лучшие наработки / up-to-date инструменты
+Jetix **систематически собирает и применяет лучшие** существующие наработки в:
+- Искусственном интеллекте (latest models / agents / tools)
+- Кибербезопасности (best practices / audit frameworks)
+- Юриспруденции (legal templates / regulatory expertise)
+- Research methodologies (academic + industry frontline)
+- Investment / wealth management
+- Operations / talent / process design
+
+**Не «один эксперт со своими старыми методами»** — а **постоянно обновляющаяся библиотека best practices**, доступная **всем мастерам / Operators** на платформе.
+
+### Причина 2 — Дисциплинированная работа с информацией
+Базовая Система Управления (Документ 1A) даёт нам:
+- **Structured capture** — ничего не теряется
+- **Knowledge accumulation** — каждый случай делает нас умнее
+- **Provenance Officer (Part 6a)** — знаем откуда что пришло
+- **Compound learning (Part 5)** — методологии накапливаются
+
+> **Это означает:** к каждому новому клиенту мы приходим **со всем накопленным опытом** прошлых клиентов. Не начинаем с нуля.
+
+### Причина 3 — Быстрая сборка нужных компетенций
+Через **платформу** (см. §4) мы за **дни/недели** собираем команду под конкретный проект из **уже выверенных** мастеров / Operators. Не **месяцы рекрутинга** + не «такие себе» хайры.
+
+### Причина 4 — Лучшие специалисты в сети
+Каждая роль (AI / cybersec / legal / research / investment / etc.) представлена **топовым specialist'ом** в Jetix-сети. **Curated через 5 critical filter** (см. §7) + track record validation.
+
+### Причина 5 — AI-leverage умножает возможности
+12 натренированных AI-агентов + adaptable станки → один Operator делает работу 3-5 человек. **Это снижает cost при сохранении качества** → можем брать risk который traditional consulting не может позволить.
+
+### Что из этого следует
+> *Из-за того что:*
+> - Мы используем **самые лучшие наработки**
+> - Мы **дисциплинированно** с ними работаем
+> - Мы **быстро** собираем нужные компетенции
+> - У нас **лучшие специалисты** в сети
+> - Мы используем **AI-leverage** для productivity multiplier
+>
+> **— Мы можем себе позволить реально управлять частью ресурсов клиента и брать за это ответственность.**
+
+> *Это не пустая декларация — это **systemic preparation** which makes responsibility-taking technically possible. Без этой подготовки взять ответственность = blind risk.*
+
+---
+
+## 5.3 Risk-sharing model — Jetix размазывает риски, клиент рискует меньше
+
+> ⭐ **Главный insight model:** Jetix не «убирает» риск — а **distributes его** через portfolio эффект.
+
+### Перспектива клиента (один проект)
+**Без Jetix:**
+- Клиент один сталкивается с risk проекта
+- Если проект не получится — **потеря 100% capital + времени + энергии**
+- Это **большой risk** который многие клиенты **не могут себе позволить**
+
+**С Jetix:**
+- Клиент платит management fee (предсказуемый) + performance fee (только если есть результат)
+- Jetix **берёт на себя operational responsibility**
+- Если проект не получился — клиент потерял management fee, **но execution risk был на Jetix**
+- **Win rate проекта повышается** (см. §5.2 — почему Jetix может)
+- → **Net риск клиента ниже** даже после management fee
+
+### Перспектива Jetix (portfolio)
+**Один проект для Jetix = 1/N от total Jetix portfolio.**
+
+- Если проект не получился — **малый удар** на Jetix (потеря 1/N от revenue + reputation hit)
+- Если 5 проектов параллельно из 30 не получились — **15-20% downturn**, manageable
+- **Risk pool диверсифицируется** между десятками клиентов / партнёров / Operators
+
+### Asymmetric risk profile (выгоден всем)
+
+| Сценарий | Один клиент без Jetix | Один клиент с Jetix | Jetix portfolio |
+|----------|----------------------|---------------------|-----------------|
+| Проект успех | Полная прибыль | Прибыль − performance fee 20% | Performance fee × N |
+| Проект провал | Полная потеря (100%) | Потеря mgmt fee только (~5-10% от total budget) | -1/N hit, manageable |
+| **Net effect** | **High volatility, ruin risk** | **Lower volatility, capped downside** | **Diversified, sustainable** |
+
+> **Главная мысль:** Jetix не магически убирает риск (риск всегда есть). **Jetix меняет risk distribution** — клиенту выгодно платить premium за этот transfer.
+
+### Почему это работает математически
+- **N клиентов одновременно** → variance ↓ через закон больших чисел
+- **Performance fee aligns incentives** — мы зарабатываем больше когда клиент зарабатывает больше
+- **Cross-pollination knowledge** — каждый клиент даёт learnings которые помогают остальным
+- **Aggregate Jetix learns from N projects** — accumulated expertise becomes compound advantage
+
+---
+
+## 5.4 Типы управления — depth levels (по 6 ресурсам)
+
+> *Связано с §3 (TRM 6 ресурсов) — но здесь делаем акцент на **depth** управления, не на структуре.*
+
+### 💰 Финансы
+- **Light** — advisory + planning (regulatory simple)
+- **Medium** — cash management + budget execution (с authority + reporting)
+- **Deep** — investment portfolio management (требует BaFin license, Phase 3+)
+
+### ⏱️ Время CEO
+- **Light** — calendar review + priority advisory
+- **Medium** — fractional COO/Integrator (рекомендации становятся executions)
+- **Deep** — AI Chief of Staff (доступ к календарю, переписке, decision filtering)
+
+### 📢 Аудитория
+- **Light** — content strategy
+- **Medium** — execution management (LinkedIn / newsletters / podcast)
+- **Deep** — full ownership of audience monetization + growth (revenue share)
+
+### 📚 Информация / знания
+- **Light** — knowledge audit + recommendations
+- **Medium** — KB construction + ongoing maintenance
+- **Deep** — full Knowledge Operations (research delivery / synthesis / methodology development)
+
+### 💻 Compute / AI infrastructure
+- **Light** — vendor selection advisory
+- **Medium** — broker model (Jetix управляет AI subscriptions клиента)
+- **Deep** — full infrastructure ownership (AI agents trained на клиентском контексте, hosted by Jetix)
+
+### 🤝 Команда
+- **Light** — talent recruitment advisory
+- **Medium** — fractional executive ops (Jetix-provided role play)
+- **Deep** — full team ownership (Jetix recruits / manages / fires + curates через сеть)
+
+> **Каждый клиент** может выбрать свой **depth level per resource** — не обязательно одинаковый. Например: Deep на финансы + Medium на время + Light на остальное.
+
+---
+
+## 5.5 Trust building — поэтапный onboarding (не «отдай всё сразу»)
+
+### Главная антипринцип
+> **Никто не отдаст управление 6 ресурсами незнакомцу сразу.** Это структурная проблема доверия.
+
+### Решение — Land-and-Expand лестница (см. §3.5)
+
+| Step | Уровень | Что отдаёт клиент | Trust accumulated |
+|------|---------|------------------|-------------------|
+| 1 | L0 €3k гипотеза | Минимум — задача + €3k | Низкий риск, проверка качества |
+| 2 | L1 €5k/мес ретейнер | Information access (KB, methodologies) | «Они знают что делают» |
+| 3 | L2 один ресурс | Один ресурс под mgmt | «Они могут управлять» |
+| 4 | L3 AI Chief of Staff | Календарь, переписка, decision flow | «Я доверяю им integration deep» |
+| 5 | L4 venture operator | Новые ventures + capital | «Они partner level» |
+| 6 | L5 TRM-full | Все 6 ресурсов | «Они инфраструктура моего бизнеса» |
+
+### Mechanism trust accumulation
+1. **Каждый L доказывает Jetix-компетенцию** через результат
+2. **Performance fee** показывает skin-in-the-game (Jetix не зарабатывает без roста)
+3. **Reporting + transparency** на каждом этапе (Visual / View principle)
+4. **Public-company-style accountability** (см. anti-pyramid mechanism, §6.4 collection)
+5. **Network references** — другие клиенты Jetix могут confirmable verify experience
+
+### Anti-pattern (что не работает)
+- ❌ «Подпиши TRM-full сразу за €670k/год» — никто не подпишет
+- ❌ «Платим по результату только, без management fee» — Jetix не может work без operational coverage
+- ❌ «100% performance-based» — слишком рискованно для Jetix без validation period
+
+---
+
+## 5.6 Юридическая структура — boundaries и authority
+
+### Phase 1 — Standard consulting contracts
+- Без Asset Management license
+- Advisory authority only (рекомендации)
+- Light operational delegation (через специальные SOWs)
+- **Limit:** не управляет официально investment portfolio
+- **Pricing:** mgmt fee + performance fee allowed (НЕ falls under regulated AM в большинстве jurisdictions)
+
+### Phase 2 — Extended multi-resource contracts
+- Расширенные SOWs покрывают 3-5 ресурсов
+- **Не BaFin-licensed** ещё — но close to that boundary
+- **Альтернатива:** партнёрство с лицензированной структурой для финансов
+
+### Phase 3 — BaFin license (KAGB / WpHG)
+- **Capital requirement:** €730k+
+- **Compliance staff:** dedicated team
+- **Reporting:** quarterly to BaFin
+- **Audit:** external annual
+- **Worth it because:** unlocks full TRM-full финансы management
+- **Timeline:** 3-5 лет to acquire (parallel with Phase 2 growth)
+
+### Universal contract elements (любая фаза)
+- **Clear KPIs at start** — что считается «success» для каждого ресурса
+- **Baseline measurement** — что было ДО Jetix (для performance fee calculation)
+- **Authority boundaries** — что Jetix может делать без согласования / что требует ack
+- **Reporting cadence** — weekly / monthly / quarterly to client
+- **Termination clauses** — exit ramp obligations / hand-over period
+- **Confidentiality** — chinese walls между разными клиентами Jetix
+- **Dispute resolution** — neutral arbitration (NOT internal Jetix authority)
+
+---
+
+## 5.7 Сравнение «Jetix управляющая» vs другие модели
+
+| Параметр | Jetix Mgmt Co | Classic Consulting (Big 4) | Holding (BlackRock) | Interim Executive |
+|----------|---------------|---------------------------|---------------------|-------------------|
+| **Что делает** | Управляет 6 ресурсами клиента | Даёт рекомендации | Управляет 1 ресурсом (деньги) | Один человек на одну роль |
+| **Скейл управления** | До 30+ клиентов parallel через AI | Linear (people-bound) | Тысячи клиентов через algorithms | 1 клиент в моменте |
+| **Risk transfer от клиента** | Высокий (operational responsibility) | Минимальный | Только финансовый | Limited (зависит от контракта) |
+| **Performance fee** | 15-25% от incremental | Редко (только результаты) | 10-20% от gains | Возможно через equity |
+| **Skin-in-the-game** | Сильный (через performance) | Слабый | Сильный по финансам | Зависит |
+| **Cross-resource synergy** | Уникально (6 ресурсов одновременно) | НЕТ | НЕТ (только финансы) | НЕТ |
+| **Use of AI / leverage** | Native, по умолчанию | Ad-hoc | Algorithmic для финансов | Personal capability |
+| **Best fit для** | Клиент с растущим бизнесом ищущий operator | One-time strategic projects | Wealth preservation / growth | Crisis / specific role gap |
+
+---
+
+## 5.8 Анти-паттерны управляющей компании
+
+### ❌ Промахи которые мы НЕ делаем
+
+#### Не пытаемся быть «classic asset manager»
+Jetix **не классическая управляющая компания типа BlackRock**. Они управляют **финансами** для **тысяч клиентов** через algorithms. Мы управляем **6 ресурсами** для **десятков клиентов** через **AI + curated team**.
+
+#### Не работаем без skin-in-the-game
+Если клиент хочет «pay us flat fee — мы делаем что-то — без performance fee» — **это не наш формат**. Мы работаем только когда **align'ены интересы** через performance.
+
+#### Не даём управление без вётинга клиента
+Не каждый клиент подходит. Мы **отбираем** через 5 critical filter (см. §7) — потому что управление requires ownership / discipline / long-term thinking от обеих сторон. Без этого = неудача гарантирована.
+
+#### Не обещаем guaranteed outcomes
+Risk transfer ≠ risk elimination. Мы **снижаем** risk через preparation + diversification, но **гарантий** на конкретный результат не даём. Это honest-pricing вместо overpromising-underdelivering.
+
+#### Не работаем с conflict of interest
+Если потенциальный клиент **прямой конкурент** существующего клиента — отказываемся. Chinese walls + sectoring (1 клиент на отрасль).
+
+---
+
+## 5.X Сводка управляющей компании
+
+| Аспект | Кратко |
+|--------|--------|
+| **Ключевое отличие** | Берём ответственность за результат, не просто советуем |
+| **Главная фраза** | «Мы не консультанты — мы управляющая компания» |
+| **Почему можем** | Лучшие наработки + дисциплина + быстрая сборка + лучшие специалисты + AI-leverage |
+| **Risk model** | Distribute, not eliminate. Asymmetric для клиента (lower volatility) и Jetix (diversified) |
+| **Depth levels** | Light / Medium / Deep per resource — клиент выбирает |
+| **Trust building** | Land-and-Expand лестница L0-L5 (см. §3.5) |
+| **Юр. структура** | Phase 1 — standard consulting contracts; Phase 3 — BaFin license unlocks full TRM |
+| **Anti-patterns** | Не classic AM / не без skin-in-the-game / не без вётинга / не guaranteed outcomes / не conflict of interest |
+
+> **Главный вывод:** Jetix как управляющая компания **меняет фундаментально** взаимоотношения клиент-провайдер. Не «купил — получил отчёт — внедрил сам». А **«отдал часть управления → получил результат → разделил прибыль»**. Это **архитектурный сдвиг** в том как может выглядеть бизнес-партнёрство в эпоху AI.
 
 ---
 
