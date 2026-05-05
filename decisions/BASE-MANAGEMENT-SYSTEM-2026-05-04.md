@@ -1,9 +1,11 @@
 ---
 title: Базовая Система Управления — концептуальный документ
 type: decision
-status: SKELETON (drafting in progress)
-version: 0.1
+status: LOCKED v1.0
+version: 1.0
 created: 2026-05-04
+locked: 2026-05-05
+git_tag: base-management-system-locked-2026-05-05
 author: Ruslan + Claude (stupefied-ride session)
 audience: любой человек с головой — инвестор / инженер / менеджер / исследователь / другой founder
 purpose: дать читателю полное понимание ЧТО это, ЗАЧЕМ, ДЛЯ КОГО, КАК работает — без привязки к Jetix
@@ -57,7 +59,7 @@ NOT_INCLUDED:
 
 ## 0. TL;DR (one paragraph)
 
-> *[ЗАПОЛНИТЬ В КОНЦЕ — после написания всех разделов написать абзац который суммирует весь документ. Цель: чтобы прочитав только этот блок, человек уже понимал суть на 70%.]*
+> **Базовая Система Управления** — это **архитектурный каркас персональной мастерской** (метафора), которую любой амбициозный человек (инвестор / founder / менеджер / коуч / researcher / creator) может построить под себя для управления своей жизнью, ресурсами, проектами и накопления опыта. Она основана на **первом принципе**: *всё, с чем работаем — это информация* (input → фильтр → переваривание → output). Состоит из **11 функциональных Foundation Parts** (System State Persistence / Signal Ingestion / Knowledge Base / Role Coordination / Compound Learning / Provenance / Human Gate / Project Lifecycle / Health Monitoring / Owner Interaction / Strategic Direction) + **Pillar C — Principles** (cross-cutting). Использует **adaptable станки** (D2 / MCP / Plan Mode / Voice / Time-tracking — добавляются и удаляются за день под текущую задачу) и **натренированных AI-агентов** на твоей базе знаний (3 уровня личной Wikipedia: Personal / Insights / Project). Главный leverage — **compound learning**: каждое решение / урок / провал → попадает в систему → влияет на следующие, давая через 1-3 года 10-30× умнее себя сейчас. Это **не** Notion-стек / не productivity методология / не AI-чат / не консалтинг-фирма. Это **программируемая инфраструктура** для тех кто **ценит** свою информацию / внимание / жизнь / проекты и хочет их развития. Минимальный setup — 1 день; работающая мастерская — 1 месяц; compound advantage — через год; uncopyable competitive moat — через 3-5 лет. Базовая Система — universal foundation; конкретное applied use case (Jetix Corp) описан в Документе 1B.
 
 ---
 
@@ -2517,12 +2519,16 @@ Mechanism где после операции (`/ask` / `/close-day` / experiment
 | 2026-05-04 | v0.7 | Section 6 (Visual/View) **DELETED**; Section 6 Knowledge Accumulation filled deeply; Section 7 Anti-patterns — 9 НЕ-это с тестами; renumber 7→6, 8→7, 9→8, 10→9 |
 | 2026-05-05 | v0.8 | Section 8 Применимость (7 профилей) + Section 9 Как начать (Day 1 / first month / 5 errors / 6-12 mes outcome) |
 | 2026-05-05 | v0.9 | Appendix A (sources) + B (related docs) + C (Glossary 30+ terms) + D (Changelog) |
-| TBD | v1.0 | TL;DR (Section 0) + finalization → **LOCK** |
+| **2026-05-05** | **v1.0** | **TL;DR (Section 0) написан + LOCKED. Git tag `base-management-system-locked-2026-05-05`. Status → LOCKED v1.0** |
 
 ---
 
-**Status:** v0.9 — почти complete, ожидает TL;DR + final review → LOCK as v1.0.
+**Status:** ✅ **LOCKED v1.0** as of 2026-05-05.
 
-**Next step:** написать TL;DR (Section 0 — один абзац суммирующий весь документ) + финальный review → LOCK с git tag `base-management-system-locked-YYYY-MM-DD`.
+**Git tag:** `base-management-system-locked-2026-05-05`
 
-**Length:** ~2700 строк (на v0.9), expected ~2800 при v1.0.
+**Length:** ~2530 строк.
+
+**Что дальше:** см. Документ 1B — `decisions/JETIX-CORPORATION-2026-05-05.md` (Jetix как applied use case Базовой Системы).
+
+**Будущие изменения:** через `supersedes` (новая запись + ссылка на старую). Этот файл — append-only canonical reference.
