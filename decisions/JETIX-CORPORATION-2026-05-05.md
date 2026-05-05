@@ -1638,21 +1638,407 @@ Risk transfer ≠ risk elimination. Мы **снижаем** risk через prep
 
 ---
 
-# 6. 🧪 Большая афёра века / Эксперимент
+# 6. 🧪 Большая авантюра века / Эксперимент
 
-> **Цель раздела:** честно описать что Jetix — это в значительной степени эксперимент / афёра века. Без претензии что мы 100% знаем что делаем.
+> **Цель раздела:** описать главную ambition Jetix — **собрать всех авантюристов мира под одной крышей** и **запустить их на самую большую авантюру века**. Это не маркетинговая фраза — это **архитектурный принцип self-selection** для участников.
+>
+> **Преобладающая интонация раздела:** честно признаём что это **эксперимент** + **engineering-faith bet** (не gambling). Мы делаем что никто ещё не делал — и понимаем что не на 100% знаем как именно. Но **подготовлены** через Foundation v1.0 + накопленную methodology + curated team.
 
-## 6.1 Что значит «афёра века»
-*[Не negative connotation — это честное признание масштаба амбиции. Мы пытаемся построить что-то чего никто ещё не делал.]*
+---
 
-## 6.2 Что именно тестируется
-*[Гипотезы: AI-native operational company / Total Resource Management as service / partner ecosystem / etc.]*
+## 6.1 ⭐ Главная мысль — собрать всех авантюристов на самую большую авантюру века
 
-## 6.3 Что если не получится
-*[Честный fallback: что мы выносим даже из failed experiment. Накопленный knowledge / methodology / network.]*
+### One-liner
+> **«Объединить всех авантюристов в самую большую авантюру.»**  
+> *— Verbatim Ruslan, audio_401, 2026-04. LOCKED как D1 Vision tagline.*
 
-## 6.4 Что если получится
-*[Trajectory €50K → €500K → €5M → €50M+ revenue / Mittelstand transformation / новая категория бизнеса в DACH.]*
+### Расшифровка
+- **«Авантюристов»** — не gamblers / mass-public. Конкретные **профессионалы / founders / исследователи** которые и так уже работают над собственными амбициозными проектами (см. §6.2 определение).
+- **«Объединить»** — собрать на одной платформе, дать инструменты для коммуникации, создать общий язык и общую инфраструктуру.
+- **«Самая большая авантюра»** — главная авантюра века, которая больше любого личного проекта (см. §6.5 что это).
+
+### Почему именно «авантюра»
+Слово выбрано **сознательно** — оно работает как **filter / self-selection mechanism**:
+- Привлекает: **builders, проактивных, тех кто любит игру в долгую**
+- Отталкивает: **passive consumers, gamblers, те кто ждут готового решения**
+- **Громкость invitation = узкий target audience** (это feature, не bug)
+
+> Это **predator-outside framing** (D1 LOCKED §4.2) — провокативный tone используется как self-selection. **НЕ aggression at people**, а filter who responds.
+
+---
+
+## 6.2 Кто такой авантюрист — определение + 6+ типов
+
+### Определение
+**Авантюрист** в контексте Jetix — это человек, который:
+- **Имеет какую-то личную авантюру** — большую цель / проект / гипотезу которую хочет воплотить
+- **Готов вкладываться** временем / ресурсами / умом ради воплощения
+- **Любит игру в долгую** (long-term mindset, не quick win seeking)
+- **Не ждёт готовых ответов** — готов открывать / экспериментировать / адаптироваться
+- **Имеет skin-in-the-game** — рискует своим, не ищет «бесплатный билет»
+
+### Авантюра ≠ безответственная игра
+**Это критически важное различие:**
+- Авантюрист = **calculated risk taker** (skilled player)
+- НЕ gambler (random risk taker)
+- Авантюра подкреплена **подготовкой / методологией / track record**
+- Это ближе к "**explorer**" чем к "**casino player**"
+
+### Типы авантюристов — у каждого своя личная авантюра
+
+> *У каждого профессионала есть своя авантюра — то что он сам считает большим вызовом. Все они потенциальные участники Jetix.*
+
+| Тип | Личная авантюра |
+|-----|-----------------|
+| 🚀 **Founder / Предприниматель** | Построить компанию которая изменит индустрию / рынок |
+| 💼 **Менеджер / Operator** | Собрать **лучшую команду** / построить best-in-class operations |
+| 💰 **Инвестор** | Найти / build winning bets через unique thesis |
+| 🔬 **Исследователь / Учёный** | Сделать прорыв в понимании / закрыть важный белый пятно |
+| 🛠️ **Indie hacker / Builder** | Построить продукт который полюбят / нишевая монетизация |
+| 🎓 **Educator / Methodology developer** | Описать методологию которая поможет другим |
+| 🎯 **Strategist / Thinker** | Понять / описать новую модель мира |
+| 📢 **Creator / Influencer** | Построить аудиторию + влияние через качественный контент |
+| 🤝 **Coach / Advisor** | Помочь конкретным людям достичь их максимума |
+| 💻 **Engineer / Tech expert** | Построить или improve систему делающую невозможное возможным |
+| ⚖️ **Politician / Reformer** | Изменить структуру / правила / систему к лучшему |
+
+> **У каждого — своя personal авантюра.** В каком-то смысле — у каждого профессионала уровня выше определённого порога. Jetix хочет **их всех** под одной крышей.
+
+---
+
+## 6.3 База — вера в будущее
+
+### Принципиальное основание
+**Авантюра не работает без веры в будущее.**
+
+> *Если ты не веришь что будущее можно сделать лучше — ты не возьмёшься за большое дело. Останешься в comfort zone.*
+
+### Что значит «вера в будущее»
+- Понимание что **текущее ≠ предел**
+- Уверенность что **agency делает разницу** (наши действия влияют на исход)
+- Long-term horizon — действуешь сегодня для результата через 1/3/10 лет
+- Доверие к **процессу + дисциплине** (не «всё зависит от удачи»)
+- Optimism + realism balance — оба нужны, ни один не достаточен
+
+### Почему это критично для платформы
+**Jetix как сообщество работает только когда все участники имеют эту базу.** Если кто-то skeptik / cynic / nihilist — он будет **тормозить** работу остальных. Проектный riск ↑.
+
+**Поэтому:** один из критериев входа в Jetix (см. ICP §7) — это **upward direction** (см. ICP filter D22) = **active belief in better future + готовность работать ради него**.
+
+### Engineering-faith, не blind faith
+**Вера ≠ магия.** В контексте Jetix:
+- ✅ Вера выражается через **resource allocation** (вкладываешь время / деньги / энергию)
+- ✅ Вера подкреплена **engineering preparation** (Foundation / methodology / curated team)
+- ✅ Вера протестирована на **incremental milestones** (€50K → €200K → €1M)
+- ❌ НЕ вера через affirmations / wishful thinking / hope
+
+> **Engineering-faith** = «строю инфраструктуру для $1T scale, потому что верю что engineering preparation делает разницу» (vs «надеюсь что повезёт»).
+
+---
+
+## 6.4 Что делает Jetix для авантюристов — 4 функции
+
+### Функция 1 — Помогает воплощать ИХ личные авантюры быстрее/качественнее
+Каждый участник имеет свою personal авантюру. Jetix даёт ему:
+- **Foundation infrastructure** — не строит с нуля
+- **Adaptable станки** (D2 / MCP / Plan Mode / Voice / etc.)
+- **AI-агенты** (12 ролей готовых)
+- **Compound learning** из других participants
+- **Curated talent pool** для команды
+
+> Эффект: личная авантюра воплощается в **2-5× быстрее** чем без Jetix.
+
+### Функция 2 — Создаёт инфраструктуру для **коммуникации** между авантюристами
+- **Общий язык** (Foundation v1.0 grammar)
+- **Стандартные форматы** (proposals / contracts / artifacts)
+- **Платформа для связи** (Phase 2-3 marketplace, см. §4)
+- **Translation cost ≈ 0** между участниками
+
+> Эффект: авантюристы которые раньше работали изолированно — теперь могут **collaborate** на проектах больше любого одного.
+
+### Функция 3 — Запускает их на **главную авантюру века**
+> *Это самое амбициозное.* Jetix не только помогает с личными авантюрами — но **направляет collective force** на главную авантюру (см. §6.5).
+
+- Создание **shared vision** того куда мы все идём
+- Координация **collective projects** Phase 3 community
+- Накопление **shared methodology** которая выйдет наружу мира
+
+### Функция 4 — Тестирует / экспериментирует / документирует
+- Какие процессы работают для авантюристов
+- Какие инструменты дают наибольший leverage
+- Как авантюристы лучше collaborate в разных конфигурациях
+- **Накапливаем methodology** = output для следующих поколений
+
+---
+
+## 6.5 ⭐ Что такое самая большая авантюра века — главная цель
+
+> **Это центральная амбиция Jetix.** Главная авантюра, на которую мы запускаем всех авантюристов мира.
+
+### 4 направления главной авантюры
+
+#### 1. Улучшение общества
+- Новые модели коллаборации (vs current LinkedIn-style transactional)
+- Новые формы organizations (Korp-Startup vs traditional corp)
+- Новые механизмы доверия (Reputation system / engineering-faith vs blind authority)
+- Снижение systemic frictions (information overload / coordination cost / talent matching)
+
+#### 2. Создание лучших способов жизни
+- Personal sovereignty через AI-leverage (см. JETIX-VISION D1 tagline)
+- Liberation от рутины через автоматизацию
+- Compound learning как новая базовая практика
+- Workshop-as-life-pattern (mastery + tools + project + community)
+
+#### 3. Новые инструменты / методы работы — с чем угодно
+- С **информацией** (Wiki + retrieval + synthesis methodologies)
+- С **людьми** (curated talent matching + cross-resource collaboration)
+- С **временем** (Time tracking + compound + 6-resource management)
+- С **деньгами** (TRM-style management vs traditional wealth management)
+- С **знаниями** (Knowledge accumulation + sharing protocols)
+- С **технологиями** (AI-agent orchestration + adaptable станки)
+
+#### 4. Стать новой культурой / философией следующих поколений
+- Engineering-faith как replacement для blind faith / hopeful thinking
+- Skin-in-game responsibility как new standard
+- Quality > quantity в talent / partnerships / клиентах
+- Compound learning > consumption
+- Cooperation > extraction
+- **«Mafia inside / Predator outside»** — sustainable organizational grammar
+
+> *Итог:* **создать общество удобное / качественное + описать / проработать чтобы потом им можно было пользоваться, кайфовать, быстро применять**. Это **infrastructure для civilizations 2030+** который потом «можно скопипастить».
+
+### Civilizational scale
+> **Verbatim Ruslan:** *«Jetix настолько блять будет масштабным, мощным… что это будет, блядь, сопоставимо, сука, с странами какими-то.»*  
+> [src: audio_496, decisions/JETIX-VISION.md:§14]
+
+> *Это сопоставимо с **созданием новой цивилизационной инфраструктуры**.* Не «компания заработала много» — а «способ жизни / работы изменился у поколения».
+
+---
+
+## 6.6 ⭐ Что Jetix тестирует — 5 главных гипотез
+
+> *Это конкретные experimental claims которые мы doing test через operational existence Jetix.*
+
+### Гипотеза 1 — AI-native operational company возможна
+- **Тест:** один человек + 12 AI ролей делает работу команды 5-10 человек
+- **Validation:** Phase 1 €50K → Phase 2 €5-20M ARR с командой 30-50
+- **Если работает:** новый класс entity (vs traditional consulting / SaaS / agency)
+
+### Гипотеза 2 — Total Resource Management as service на 6 ресурсах одновременно
+- **Тест:** один клиент отдаёт 6 ресурсов в управление, Jetix delivers result
+- **Validation:** L0 → L5 ladder progression на реальных клиентах
+- **Если работает:** переопределение «консалтинга» в эпоху AI
+
+### Гипотеза 3 — Авантюристы могут работать друг с другом эффективно
+- **Тест:** Phase 2-3 platform — несколько авантюристов на общих проектах через общую инфраструктуру
+- **Validation:** проекты Level 3-5 (cross-domain mega-проекты) собираются и завершаются успешно
+- **Если работает:** model для distributed collaboration smart people (новая категория org)
+
+### Гипотеза 4 — ⭐ Авантюра управления — адекватные люди в управлении
+> *Самая амбициозная гипотеза — изменить строй общества.*
+
+**Тест:**
+- Сейчас управлением (компаниями / проектами / ресурсами) часто занимаются **рандомные люди** — не за заслуги / компетенции, а потому что **повезло иметь доступ** к ресурсам / связям / ситуации
+- Jetix показывает альтернативу: **управление берут на себя действительно адекватные** — те кто разбираются в управлении, имеют track record, готовы нести ответственность
+- TRM модель + curated Operators = practical demonstration этого
+
+**Validation:**
+- Через 5-10 лет — Jetix Operators управляют ресурсами в десятки раз эффективнее «рандомных назначенцев»
+- Compound demonstration → social pressure → systemic change
+- Не утопия, а **gradual reframing** через example
+
+**Если работает:** изменение standards того, **кому доверяют управление в обществе**. Это и есть «новая культура / философия» (см. §6.5).
+
+### Гипотеза 5 — USB-C universal connector в AI-business space (Phase 3+)
+- **Тест:** Jetix существует на уровне universal protocol (vs vendor lock-in)
+- **Validation:** партнёры / клиенты / инструменты coexist через Jetix не теряя независимости
+- **Если работает:** standards-level interoperability в новой эре business
+
+---
+
+## 6.7 ⭐ Авантюра управления — изменение строя
+
+> ⭐ **Это одна из самых важных вещей которую Jetix тестирует.** Заслуживает отдельного раздела.
+
+### Текущая проблема управления в обществе
+**Кто сейчас управляет** компаниями / ресурсами / большими проектами?
+- Часто — **наследники** (повезло родиться)
+- Часто — **те у кого есть связи** (повезло встретить нужных людей)
+- Часто — **те у кого есть капитал** (повезло начать с ресурсами)
+- **Не всегда** — те кто реально **разбираются в управлении** + способны нести ответственность
+
+> *Это не критика конкретных людей — это **structural problem**. Selection mechanism для управленческих позиций часто **не корреллирует с компетенцией**.*
+
+### Авантюра Jetix
+**Что если можно изменить эту структуру?**
+
+- Создать **alternative path** в управление: через **track record** + **методологию** + **curated network**
+- Демонстрировать что **адекватные люди** управляют **в разы лучше** «рандомных назначенцев»
+- Через compound demonstration → создать **social pressure** → systemic change
+
+### Mechanism
+1. **Phase 1-2:** Jetix Operators управляют ресурсами клиентов **лучше альтернатив**
+   - Performance fee показывает skin-in-game
+   - Track record накапливается публично
+   - **Existence proof** что это возможно
+2. **Phase 3:** Платформа открывается — больше Operators получают доступ к management roles через **competence-based selection**, не connections
+3. **Phase 4+ / 200y:** Альтернативная модель selection укореняется в обществе. Управленческие позиции всё чаще **earned through competence**, не **inherited / lucky**
+
+### Это НЕ
+- ❌ Революция / overthrow существующих структур
+- ❌ Заявление что «текущие управленцы плохие»
+- ❌ Идеологическое движение
+
+### Это
+- ✅ **Practical demonstration** альтернативы
+- ✅ **Gradual reframing** через successful examples
+- ✅ Изменение **defaults** в society — что считается «нормальным» для управленческих позиций
+- ✅ Создание **infrastructure** для этой альтернативы (Foundation + Jetix)
+
+> *Это и есть «новая культура / философия следующих поколений».*
+
+---
+
+## 6.8 Engineering-faith bet — НЕ pyramid / scam / hype
+
+> **Critical:** это не финансовая авантюра типа crypto-pump или MLM. Это **engineering-grounded ambition**.
+
+### Что значит «engineering-faith»
+> **Verbatim Ruslan:** *«Это все должно быть не какая-то там ебаная пирамида или еще что-то, блядь. Нет. А реально адекватные инструменты, наработки, технологий.»*  
+> [src: holding-vision-2026-04-21 Note 5]
+
+**Engineering-faith =** вера выраженная через:
+- **Реальные инструменты** (D2 / MCP / Plan Mode / 12 AI агентов / станки)
+- **Адекватная методология** (Foundation v1.0 LOCKED, 11 Parts + Pillar C, fork-portable)
+- **Founder commitment** (skin-in-game, full-time, full investment of life)
+- **Track record накапливается** (€50K → €200K → €1M validation milestones)
+- **Infrastructure-first** ($1T scale baked into Phase 1 architecture, без редизайна)
+
+### Не: hopeful talk / blind belief / get-rich-quick scheme
+- ❌ Нет «инвестируйте сейчас и получите multiple X»
+- ❌ Нет MLM / referral structure
+- ❌ Нет токенов как primary monetization (Phase 2-3 internal utility, не speculation)
+- ❌ Нет hype-driven marketing
+- ❌ Нет «секретного метода чтобы быстро заработать»
+
+### Trust mechanism — public-company-style transparency from Day 1
+> **Verbatim Ruslan (audio_556):** *«джек должен быть публичной компании — вести себя как публичная компания, чтобы любой аналитик мог проверить, посмотреть, видеть, для все пятна, все как управляется»*  
+> [src: voice-extract:§1.9.7]
+
+**Mechanism:**
+- Jetix **ведёт себя как public company** даже до листинга
+- Метрики / decisions / structure — **видимы для аналитика**
+- Это **anti-pyramid signal** — не «закрытая контора с секретами»
+- Cross-cuts Visual / View principle (external dashboard для accountability)
+
+> *Любой потенциальный participant может **сам проверить** что Jetix реально делает что говорит. Это invariably anti-scam mechanism.*
+
+---
+
+## 6.9 Cooperation, не extraction — ключевая ценность
+
+> **Verbatim Ruslan (audio_554):** *«пока остальные дурачки целятся на какой-то one-person бизнес, в одиночку какие-то инструменты используют и так далее. Jetix наоборот нацелен на синергию, на сотрудничество, на партнерство»*  
+> [src: voice-extract:§1.5.1]
+
+### Implications
+- **Не zero-sum game** где Jetix забирает у конкурентов / клиентов / партнёров
+- **Positive-sum** — synergy создаёт **новую value** которая распределяется между всеми
+- **Open-source philosophy** (см. wiki/concepts) — методологии publish'аются, не скрываются
+- **Revenue Share contract** — партнёры сохраняют свои ресурсы и навыки даже если Jetix распадётся (антифрагильность)
+
+### Quote re: Open Source
+> «Jetix мог бы забирать до 70% прибыли партнёра за счёт экосистемы. Мы этого не делаем — потому что верим, что устойчивее платформа, в которой каждый участник сохраняет свою силу. Если завтра Jetix исчезнет, ваши ресурсы, контакты и навыки останутся у вас. Это закреплено контрактно.»  
+> [src: wiki/ideas/revenue-share-jetix-philosophy.md]
+
+---
+
+## 6.10 Что если не получится — honest fallback
+
+> *Никакой авантюры без реалистичного fallback.* Что мы выносим даже из failed experiment?
+
+### Что **остаётся** даже если Jetix не достигнет $1T scale
+
+#### 1. Накопленный knowledge / methodology
+- Foundation v1.0 LOCKED — fork-portable architecture, может быть взята другим founder'ом
+- Workshop concept + TRM methodology — published artifacts
+- Compound learning library — десятки методологий для конкретных задач
+- 12-mes retrospective + tracking baseline — proven discipline
+
+#### 2. Network of skilled people
+- Curated network через 5 critical filter — these people remain connected даже без Jetix
+- Каждый участник вынес свой compound learning и навыки
+- Cross-pollination knowledge между participants → они индивидуально сильнее
+
+#### 3. Foundation v1.0 — fork-portable infrastructure
+- Архитектура которую любой другой founder может взять и использовать
+- 11 Parts + Pillar C полностью документированы
+- Open-source ethos позволяет наследование
+
+#### 4. Compound-engineering practices что показали себя
+- Plan Mode + ultrathink for strategic decisions
+- Voice pipeline → structured artifacts
+- D2 diagrams as live documentation
+- Time-tracking discipline through Toggl + AW
+- Knowledge management through Karpathy LLM Wiki + HippoRAG
+
+#### 5. Personal transformation founder + early team
+- Через Phase 2 (mind-training) + Phase 3 (active build) — фундаментальное upgrade человеческого capital
+- Это **personal accumulation** который никуда не девается
+
+> **Failure scenario:** Jetix achieves €5-10M ARR по TRM-lite формату, не доходит до Phase 3. **All above stays valid.** Founder + early participants remain stronger than they would be otherwise.
+
+---
+
+## 6.11 Что если получится — масштаб амбиции
+
+### Trajectory
+**€5K (now, 2026-04-21)** → **€50K Q2 2026** → **€200K validation** → **€1M ARR** → **$100M** → **$100B** → **$1T market cap**
+
+### $1T trajectory — engineering-faith bet
+> **Verbatim Ruslan:** *«Jetix целится на то, чтобы стать первой… поставить вообще мировой рекорд по достижению капитализации в 1 триллион долларов. Скорость, за которую будет достигнута эта цифра от нуля, от создания компании до триллиона.»*  
+> [src: holding-vision-2026-04-21 Note 5]
+
+**Precedent to beat:** XEI → $100B за 2 года.
+
+### Что меняется в мире (200-year vision)
+- ✅ **Новая категория organization** признана и копируется (AI-native operational corp)
+- ✅ **TRM как mainstream** управления бизнесом (vs traditional consulting / family office)
+- ✅ **Workshop-as-life-pattern** распространяется среди профессионалов
+- ✅ **Compound learning** становится default expectation для high-performance roles
+- ✅ **Engineering-faith** как cultural norm (vs blind faith / wishful thinking)
+- ✅ **Curated networks** quality > quantity признаны лучшим способом organize
+- ✅ **Адекватные люди в управлении** становится more common (мест авантюры управления — см. §6.7)
+
+### Two leverages в long-term (200y vision)
+1. **AI-эффективность** — больше выходных продуктов на единицу ресурса (для всех клиентов / партнёров)
+2. **AI-безопасность** — снижение systemic risks (cybersec, supply chain, decision quality)
+
+### Founder constitution принцип
+> «Когда система станет большой, контролировать её напрямую невозможно — поэтому ценности и предохранители закладываются ДО роста.»  
+> [src: wiki/ideas/founder-responsibility-jetix-constitution.md]
+
+**Это значит:** Foundation v1.0 + Pillar C (Tier 2 11 hard rules) уже **закладывают safeguards** на долгосрочное development. Когда Jetix станет $100B+, эти safeguards будут active без нужды в personal control founder'а.
+
+---
+
+## 6.X Сводка авантюры века
+
+| Аспект | Кратко |
+|--------|--------|
+| **Главная мысль** | «Объединить всех авантюристов в самую большую авантюру» |
+| **Кто авантюрист** | Профессионал с personal авантюрой + готовностью вкладываться + long-term mindset |
+| **Типы** | Founder / Менеджер / Инвестор / Researcher / Indie / Educator / Strategist / Creator / Coach / Engineer / Reformer (11 archetypes) |
+| **База** | Вера в будущее (engineering-faith, не blind faith) |
+| **Что Jetix даёт авантюристам** | Infrastructure / коммуникация / inclusion в главную авантюру / тестирование |
+| **Главная авантюра века** | Улучшение общества + лучшие способы жизни + новые инструменты + стать новой культурой |
+| **5 главных гипотез** | AI-native company / TRM as service / cooperation авантюристов / **изменение управления в обществе** ⭐ / USB-C universal connector |
+| **Авантюра управления** | Адекватные люди в управлении вместо «рандомных хуесосов с доступом» — gradual reframing через examples |
+| **Trust mechanism** | Engineering-faith + public company transparency Day 1 + reverse all Anti-pyramid signals |
+| **Cooperation philosophy** | Positive-sum / synergy / open source / revenue share / антифрагильность партнёров |
+| **Если не получится** | Foundation+methodology+network+practices+personal upgrade — все остаётся valid |
+| **Если получится** | $1T trajectory / новая категория org / civilizational infrastructure / 200-year impact |
+
+> **Главный вывод:** Афёра века Jetix — это **engineering-faith bet** на изменение **how smart people work together** + **how society organizes management**. **Не gambling, не pyramid, не hype.** Calculated, prepared, founder-committed bet которая опирается на real tools / methodology / track record. **И именно поэтому** мы зовём авантюристов — потому что они **различают** реальную авантюру от пустой обещалки.
 
 ---
 
