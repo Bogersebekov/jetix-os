@@ -956,21 +956,347 @@ Toptal / Catalant / Andela спроектированы для 2010-х (pre-LLM 
 
 ---
 
-# 4. 🌐 Платформа для проектов — partners ecosystem
+# 4. 🌐 Платформа для проектов — partners ecosystem (Phase 2-3)
 
-> **Цель раздела:** описать Phase 2-3 видение — Jetix как платформа на которой партнёры запускают свои проекты.
+> **Цель раздела:** описать центральное Phase 2-3 видение Jetix — **платформу на которой собираются мастера, исполнители, инвесторы и совместно решают всё более сложные / амбициозные проекты**. Это эволюция от service company (Phase 1) → managing company (Phase 2) → **двусторонняя платформа** (Phase 3).
+>
+> **База:** `decisions/JETIX-TRM-MODEL-2026-04-30.md` §14-§17 + Workshop concept §6 Phase 3 + wiki/concepts.
 
-## 4.1 Зачем нужна платформа партнёрам
-*[Почему партнёр должен присоединиться к Jetix vs строить своё. Compound learning / shared infrastructure / synergy.]*
+---
 
-## 4.2 Кто потенциальные партнёры
-*[Профили: solo founder с своей экспертизой / advisor / coach / consultant с маленьким practice / etc.]*
+## 4.1 Зачем нужна платформа — главная мотивация
 
-## 4.3 Как технически работает (fork Foundation)
-*[Партнёр получает fork Foundation v1.0 (canonical 11 Parts + Pillar C). Накладывает свою RUSLAN-LAYER специфику. Подключается к shared Jetix infrastructure.]*
+### Главная боль которую платформа решает
+Любой амбициозный человек / партнёр / профессионал имеет одну и ту же проблему: **время утекает в рутину и поиск, а не в реальную работу**.
 
-## 4.4 Какие проекты партнёры могут делать
-*[Свои consulting practices / свои клиенты / свои specializations / cross-collaboration с другими партнёрами.]*
+Конкретно:
+- 🕒 **Недели тратятся на поиск нужных людей** (исполнителей / экспертов / инвесторов)
+- 🕒 Потом ещё недели — на вётинг кого взять / кому доверять
+- 🕒 В итоге часто берут **«таких себе людей»** — потому что кончилось терпение / время
+- 🕒 А потом **месяцы** — на coordination / коммуникацию / explaining контекста
+- 🔥 **Реальная важная работа — остаётся в остатке** (вечерами / выходными / "когда-нибудь потом")
+
+### Что платформа делает
+**Платформа Jetix решает эту проблему system-level:**
+
+1. **Автоматизирует рутину** — поиск / вётинг / first contact / coordination → **освобождает время** для глубокой работы
+2. **Курирует доступ к реально крутым людям** — не все подряд, а **уже отобранные** через 5 critical filter (см. §7) и track record
+3. **Создаёт общий язык** — все участники говорят в одних терминах (Foundation v1.0 grammar) → нет потерь на translation
+4. **Стандартизирует workflows** — типовые процессы для типовых задач (proposals / contracts / payments / disputes)
+5. **Накапливает knowledge для всех** — каждый проект делает базу всех участников богаче
+
+> **Главная ценность для партнёра:**  
+> *«Вместо 70% времени на administrative / search / coordination — 70% времени на important / strategic / creative.»*
+
+### Почему это критично именно сейчас
+**Все более сложные / амбициозные проекты** требуют:
+- Cross-domain expertise (один человек не может быть экспертом в AI + cybersec + legal + research одновременно)
+- Multi-resource management (см. TRM §3 — 6 ресурсов сразу)
+- Speed of iteration (AI-era — циклы ускорились 5-10×)
+
+**Один человек или маленькая команда — не справляется.** Нужна **сеть curated профессионалов** с общей инфраструктурой.
+
+---
+
+## 4.2 Что платформа конкретно делает — 5 функций
+
+### 1. 🔧 Управление проектами (cross-participants)
+- Каждый проект имеет project journal / state / dependencies / deliverables (Foundation Part 7)
+- Все участники видят **одну картину** проекта (Visual / View principle)
+- Standard project lifecycle: ideation → scoping → execution → delivery → retro → archive
+
+### 2. 💎 Управление общими ресурсами
+- 6 ресурсов TRM (см. §3) — но теперь не одного клиента, а **между участниками платформы**
+- Финансы — escrow, billing, automated payouts
+- Время — calendar coordination, capacity planning
+- Audience — cross-promotion mechanisms
+- Knowledge — shared wiki, methodology library
+- Compute — shared infrastructure / discounts on tools
+- Команда — pool of vetted operators
+
+### 3. 🎭 Роли — каждый может быть в разных
+На платформе **один и тот же человек** может играть **разные роли** в разных проектах:
+- **Управляющий** одного проекта (driver, decision maker)
+- **Исполнитель** другого (specialized contribution)
+- **Investor** третьего (capital + advisory)
+- **Researcher** четвёртого (deep dive)
+- **Mentor / Critic** пятого (review + feedback)
+
+> Это — **mastery в действии**: проф мастер не зацикливается на одной роли, переключается под задачу.
+
+### 4. 🧪 Тестирование гипотез
+- Гипотезы (стратегические / продуктовые / market) **тестируются на платформе** через:
+  - Quick experiments (€3k AI Brain on Demand формат — см. §3.7)
+  - Pilot projects с курируемыми участниками
+  - A/B tests across multiple projects
+  - Cross-pollination знаний между проектами
+- Результаты **накапливаются** в общую methodology library
+
+### 5. 🏛️ Общий язык / standard
+- Все участники работают в **Foundation v1.0 grammar** (или совместимом fork)
+- Общие conventions (даты / naming / tags / statuses)
+- Стандартные форматы (proposals / SOWs / contracts / reports)
+- **Translation cost → 0** между участниками
+
+---
+
+## 4.3 3 источника проектов на платформе
+
+> *Это критическая особенность — платформа не просто marketplace. У неё 3 источника входящих проектов.*
+
+### 🏠 Источник 1 — Внутренние Jetix-проекты
+- Развитие самой Jetix (Foundation evolution / станки / methodology)
+- Internal R&D
+- Phase 2-3 transitions
+- **Где:** свои проекты, для своих целей; партнёры участвуют либо как owners, либо за compensation
+
+### 🏢 Источник 2 — Проекты Jetix-клиентов (TRM-driven)
+- Когда Jetix управляет ресурсами клиента (TRM, см. §3) — у этого клиента возникают **под-проекты**
+- Эти под-проекты могут требовать специализированных Operators / экспертов
+- Jetix **разбивает** клиентский проект на parts → распределяет между участниками платформы → координирует
+- **Кто платит:** клиент Jetix; Jetix берёт margin; участники получают свою долю
+
+### 🌍 Источник 3 — Проекты извне (External Owners)
+- **Внешние клиенты / организации** приходят на платформу с проектом
+- «У меня есть проект X — нужны такие-то ресурсы / экспертиза. Сделайте.»
+- Платформа: подбирает участников + структурирует workflow + курирует execution
+- **Кто платит:** external owner; Jetix take rate с обеих сторон (см. §4.5)
+
+> **Главная фишка:** партнёры на платформе **получают доступ к проектам всех 3 источников**. Это **существенно больше deal flow** чем у solo professional.
+
+---
+
+## 4.4 Какие проекты партнёры могут делать — уровни сложности
+
+> *Логика уровней — от простого (низкий риск, малая команда) до сложного (высокий impact, multi-domain).*
+
+### Level 1 — Single-resource задача
+- **Что:** один Operator решает локальную задачу для клиента
+- **Пример:** «нужен audit security для SaaS компании»
+- **Длительность:** 1-4 недели
+- **Размер команды:** 1-2 человека
+- **Цена:** €5-30k
+
+### Level 2 — Multi-step проект одного направления
+- **Что:** один Operator + 1-2 поддерживающих, сложный workflow
+- **Пример:** «полный AI-внедрение в operations Mid-size компании»
+- **Длительность:** 2-6 месяцев
+- **Размер команды:** 2-5 человек
+- **Цена:** €30-150k
+
+### Level 3 — Cross-domain проект
+- **Что:** требует одновременно нескольких specializations
+- **Пример:** «complete digital transformation Mittelstand клиента — AI + cybersec + legal + change management»
+- **Длительность:** 6-18 месяцев
+- **Размер команды:** 5-15 человек
+- **Цена:** €150-500k
+
+### Level 4 — TRM-full клиент
+- **Что:** полное Total Resource Management (см. §3)
+- **Пример:** клиент €670k/год по TRM-full модели
+- **Длительность:** 2-5+ лет
+- **Размер команды:** 10-30 человек (через платформу)
+- **Цена:** €500k-3M+
+
+### Level 5 — Mega-проекты Phase 3 community
+- **Что:** проекты которые ОДНОЙ мастерской не под силу (см. Workshop §2.3)
+- **Пример:** patent + IP creation в нескольких domain'ах / cross-region market entry / civilizational-scale initiative
+- **Длительность:** 1-5 лет
+- **Размер команды:** 30-100+ через сеть мастеров с мастерскими
+- **Цена:** €1M-50M+
+
+> **Каждый партнёр** может работать на нескольких уровнях одновременно — driver одного Level 2 проекта + исполнитель Level 4 в роли своего specialty.
+
+---
+
+## 4.5 Бизнес-модель платформы — Take rate с обеих сторон
+
+### Структура fees (двусторонний marketplace)
+
+| Источник | Размер | Логика |
+|----------|--------|--------|
+| **С Operator (партнёра)** | **15-20%** от его revenue с проекта | Платит за лиды, vetting, infra, brand, billing, dispute resolution |
+| **С Asset Owner (клиента)** | €1-5k/мес или **5%** от mgmt fee | Платит за curation, dispute resolution, AI tools, escrow |
+| **С performance fee** | **10-15% override** | Платит за то, что платформа повышает шанс успеха через synergy |
+| **С compute markup** | **20-30% наценка** | Своя добавленная стоимость on AI infrastructure |
+
+### Пример экономики платформы (Phase 3 mature scenario)
+
+#### Сценарий 1: 100 Operators × 3 клиента = 300 контрактов
+- Средний контракт: **€200k/год** → GMV **€60M/год**
+- Take rate ~25% blended → **€15M/год revenue платформы**
+- Маржа 50-70% → **€7.5-10.5M EBITDA**
+
+#### Сценарий 2: 1000 Operators × 3 клиента = 3000 контрактов
+- GMV: **€600M/год**
+- Revenue платформы: **€150M/год**
+- Валуация: **€1.5-3 млрд** (10-20× revenue marketplace мультипликатор)
+
+> **Это и есть $1T trajectory point** — Phase 3 платформа генерит revenue экспоненциально с network effects.
+
+---
+
+## 4.6 ⭐ 7 слоёв защиты от disintermediation (главная угроза marketplace)
+
+> *Главная угроза любого marketplace: Operator находит на платформе клиента → отрабатывает 3 месяца → договаривается работать напрямую — мимо платформы. Все довольны кроме Jetix.*
+
+> *Чем выше take rate и чем дороже одна сделка — тем сильнее стимул дисинтермедиироваться. **TRM с €200k+ контрактами — самая уязвимая категория.***
+
+### Layer 1 — Инфраструктурный lock-in
+**Jetix HQ / OS как операционная платформа.** Уйдя с платформы, Operator теряет:
+- Foundation v1.0 infrastructure
+- AI агенты + tools (12 ролей готовых)
+- Workflow templates / станки
+- Накопленную knowledge базу
+
+> **Ушёл = вернулся к ручной работе.** Это уже сильный barrier.
+
+### Layer 2 — Шаринг clients = шаринг рисков
+- **Escrow платежей** — клиент платит на платформу, не Operator'у напрямую
+- **Юридический контракт** — платформа гарантирует клиенту качество
+- **Страховка ответственности** — покрытие через платформу
+- **Dispute resolution** — neutral arbitration через Jetix
+
+> Уход с платформы = клиент теряет защиту = клиент **сам не захочет** уходить с Operator'ом.
+
+### Layer 3 — Performance-based reputation system
+- **Рейтинги, отзывы, performance history** — собственность платформы, не Operator'а
+- Уход = потеря track record для следующих клиентов
+- На платформе Operator стоит дороже потому что **есть видимая история**
+
+### Layer 4 — AI-leverage недоступен вне платформы
+- Флот AI агентов даёт **3-5× продуктивности**
+- Уйдёшь — будешь пытаться build the same → не получится один (huge cost)
+- Это эквивалент того что **вне платформы Operator зарабатывает в 3-5× меньше** даже на тех же клиентах
+
+### Layer 5 — Cross-resource synergy
+- **На платформе для того же клиента работают ещё 5 Operators** (другие ресурсы TRM)
+- Все обмениваются контекстом через Jetix
+- **Уход одного = потеря синергии** для клиента → клиент теряет Operator первым (по ценности)
+- **Это уникальное преимущество TRM-структуры** vs Toptal / Catalant
+
+### Layer 6 — Контрактные ограничения
+- **No-circumvention clause** — стандартный 24-мес запрет работать напрямую с клиентом, найденным через платформу
+- Психологический барьер + реальный legal cost при нарушении
+
+### Layer 7 — Низкий take rate (мета-стратегия)
+**Главный insight:** Jetix НЕ берёт 35-50% как Toptal. Берёт 15-25%.
+
+- 25% → **стимул уйти средний**
+- 15% → **стимул уйти маленький**
+- 10% → **стимул уйти почти нулевой**
+
+**Жертва margin per deal ради volume + retention.** Платформа выживает через **maximum GMV × разумный take rate** — не через **высокую margin × малый GMV**.
+
+> **Главный «секрет» работающих маркетплейсов** (Wharton academic):  
+> *«Наиболее эффективная anti-disintermediation стратегия — это не «запрет», а **постоянное добавление ценности**. Если платформа реально полезна — уход с неё становится невыгодным даже без юридических запретов.»*
+
+---
+
+## 4.7 Главный антипринцип платформы — внутренняя cohesion, внешняя конкуренция
+
+> ⭐ **Critical логика которую Ruslan специально выделил.**
+
+### Внутри платформы — все вместе
+- **Никаких конкурирующих отделов** внутри Jetix
+- **Никаких internal политических игр** между разделами
+- Все мастера / Operators / партнёры — **на одной стороне**
+- Конфликты интересов разрешаются через **chinese walls / sectoring** (см. §3.9 risk #2)
+- Каждый знает: «я и другие участники Jetix — **одна команда**, не competitors»
+
+### Снаружи платформы — конкуренция полная
+- **Все кто не внутри / не с Jetix / против Jetix — конкуренты**
+- Конкурентам — **полный набор инструментов** (market share / pricing / talent / partnerships)
+- Это «**Predator-outside**» framing (D1 Vision Decision 8)
+- НО — это **НЕ aggression at people**. Это **competition at market level** (как McKinsey vs BCG, не personal attacks)
+
+### Почему это критично для платформы
+**Без этого принципа:**
+- Phase 1: Ruslan vs первые партнёры — competing for same clients → платформа разваливается
+- Phase 2: Internal teams грызутся за resources → coordination cost > leverage
+- Phase 3: Operators grызутся за наиболее прибыльные deals → клиенты разбегаются
+
+**С этим принципом:**
+- Phase 1-2: Cohesion enables fast scaling
+- Phase 3: Operators **referят друг другу** клиентов под другие domains → network effect усиливается
+- **Внешний враг (other consulting firms / other platforms) объединяет внутри**
+
+> **Это и есть «Mafia inside / Predator outside»** организационная грамматика.
+
+---
+
+## 4.8 Phase transition к платформенной фазе — chicken-and-egg solution
+
+### Проблема Phase 3
+**Operators не приходят без клиентов; клиенты не приходят без Operators.** Все известные решения (Uber, Airbnb, Toptal, Catalant) проходили через **одну схему**:
+
+1. **Phase 1** — сервисная компания, набирает первых клиентов руками
+2. **Phase 2** — масштабируется через свою команду + Operators + first systematic processes
+3. **Phase 3** — открывается как платформа
+
+### Хорошая новость для Jetix
+**Именно это Jetix делает в Phase 1-2** (см. §3.11) — путь к платформе **уже встроен** в текущую стратегию TRM.
+
+### Critical timing — НЕ раньше 2028-2029
+> *«Все эти marketplace компании потратили **5-10 лет** в Phase 1+2 прежде, чем перейти в Phase 3. Прыгнуть сразу в платформу не получалось ни у кого.»*
+
+| Компания | Phase 1 (сервис) | Phase 2 (масштаб) | Phase 3 (платформа) | Текущий статус |
+|----------|----------------|-------------------|---------------------|----------------|
+| **Toptal** | Ручной скаутинг 100 разработчиков | $200M+ ARR through own team | Открытая платформа 3% acceptance rate | $200M+ ARR, $1B+ |
+| **Catalant** | Ручной матчинг ex-MBA | Команда менеджеров | Marketplace 35k+ экспертов, 30% commission | ~$50M ARR |
+| **Andela** | Bootcamp + staff aug | Сами растили инженеров | Open marketplace 175k+ | $200M+ ARR, $1.5B |
+
+> **Урок:** не пытаться открыть платформу преждевременно. Накопить track record в Phase 1-2, потом открывать.
+
+---
+
+## 4.9 Уникальная конкурентная позиция Jetix vs Toptal/Catalant/Andela
+
+### 3 структурных преимущества (повторение из §3.12, в контексте платформы)
+
+#### 1. Resource multidimensionality (TRM-структура)
+**Все остальные marketplace'ы матчат один тип отношений** (заказчик ⇄ фрилансер; investor ⇄ deal). **Jetix матчит 6 типов ресурсов одновременно** — уникальный сетевой эффект, которого нет ни у кого.
+
+#### 2. AI-native infrastructure с Day 1
+- Toptal / Catalant / Andela спроектированы для **2010-х (pre-LLM era)**
+- Jetix HQ изначально **AI-native** — на одно поколение технологий впереди
+- Operators получают **3-5× leverage** через AI агентов — ни у кого нет такого
+
+#### 3. Cross-resource synergy для одного клиента
+- На платформе для одного клиента работают **до 6 Operators одновременно** (по 6 ресурсам)
+- Все обмениваются контекстом
+- **Network effects per client** — отсутствуют у single-resource marketplace
+
+### Дополнительные преимущества
+
+#### 4. Foundation v1.0 fork-portable architecture
+- Каждый Operator может **взять fork Foundation** — иметь свою специализированную мастерскую
+- Не централизованная платформа диктующая workflow — а **distributed** где платформа = grammar + protocol
+- Это решает scalability problem Phase 3
+
+#### 5. Methodology compound across Operators
+- Каждая успешная methodology одного Operator → попадает в общую library
+- **Все Operators становятся умнее** с каждым проектом
+- Compound learning эффект на уровне network, не одного человека
+
+---
+
+## 4.X Сводка платформы
+
+| Аспект | Кратко |
+|--------|--------|
+| **Зачем нужна** | Освободить время партнёров на важное; курировать доступ к крутым людям; общий язык |
+| **5 функций** | Управление проектами / Управление ресурсами / Roles / Гипотезы / Общий язык |
+| **3 источника проектов** | Внутренние Jetix / TRM-driven / External owners |
+| **5 levels проектов** | Single-resource → TRM-full → Mega-проекты community |
+| **Take rate** | 15-25% blended (vs Toptal 35-50%) — anti-disintermediation strategy |
+| **GMV scenario Phase 3 mature** | 100 Operators = €60M GMV / €15M revenue; 1000 Operators = €600M / €150M |
+| **7 layers anti-disintermediation** | Infra lock-in / Escrow / Reputation / AI-leverage / Cross-resource synergy / Contracts / Low take rate |
+| **Главный антипринцип** | Внутри cohesion / Снаружи конкуренция (Mafia inside / Predator outside) |
+| **Phase 3 timing** | НЕ раньше 2028-2029 (precedent: Toptal/Catalant 5-10 лет в Phase 1+2) |
+| **5 структурных advantages** | Resource multidim / AI-native Day 1 / Cross-resource synergy / Fork-portable / Methodology compound |
+
+> **Главный вывод:** платформа — это **фракция Phase 3 vision**, но её механика **уже встроена в Phase 1-2 операционную модель**. Каждый клиент и каждый партнёр Phase 1-2 — это уже **proto-platform participant**.
 
 ---
 
