@@ -2458,21 +2458,321 @@ Risk transfer ≠ risk elimination. Мы **снижаем** risk через prep
 
 ---
 
-# 9. 🤝 Предложение партнёрам
+# 9. 🤝 Предложение — 3 уровня вовлечения (Партнёры / Клиенты / Работники)
 
-> **Цель раздела:** для тех кто рассматривает партнёрство — что мы даём, что просим.
+> **Цель раздела:** базовое разделение трёх категорий людей которых Jetix принимает + что каждой стороне даёт + что просит. Это **первый набросок каркаса** — детали работают итеративно по мере real-world feedback.
 
-## 9.1 Что Jetix даёт партнёру
-*[Foundation infrastructure / shared knowledge / cross-collaboration / leads / tools / community.]*
+> **Принципиально:** между этими тремя категориями граница не жёсткая. Один человек может быть **одновременно** клиентом + работником, или партнёром + клиентом. Главное — **разные роли = разные взаимоотношения** с Jetix, и каждая роль имеет свою structure.
 
-## 9.2 Что Jetix просит у партнёра
-*[Commitment level / contribution / values alignment / etc.]*
+---
 
-## 9.3 Типы партнёрств
-*[Light / medium / deep partnership tiers. Что входит в каждый.]*
+## 9.1 ⭐ Уровень 1 — Партнёр (top tier — мощные наработки)
 
-## 9.4 Как присоединиться
-*[Process / criteria / next steps.]*
+### Кто это
+**Партнёр** — это **самый верхний уровень** вовлечения. Это люди у которых **уже есть очень мощные наработки**, и они приходят в Jetix не «чтобы научиться», а **с собственным капиталом ценности**.
+
+#### Что значит «мощные наработки» (любое из перечисленного):
+- 🎯 **Большая аудитория** — десятки/сотни тысяч подписчиков, собственный bandwidth для распространения
+- 🛠️ **Свои инструменты / методологии** — работающие наработки которые они уже применяют
+- 💰 **Реально большие ресурсы** — финансовые / материальные / связи
+- 🤝 **Влияние / связи / репутация** в индустрии или сообществе
+- 📚 **Track record значимых проектов** — exits / built companies / leadership roles
+
+> **Это не «у меня есть деньги».** Это **построенный capital** в одной или нескольких категориях. Причём финансы — **не главное** (см. §7.7 — knowledge & skills > просто финансы).
+
+### Что Jetix даёт Партнёру
+- 🔑 **Доступ к управлению частью ресурсов Jetix** — financial / time / knowledge resources
+- 👥 **Доступ к команде Jetix** — все 12 ролей AI-агентов + core team
+- 🚀 **Все самые последние наработки** Jetix — Foundation v2.0+ / methodology library / станки
+- 🤝 **Связь с другими партнёрами** уровня 1 — closed network top participants
+- 🎯 **Стратегическая роль в Jetix evolution** — голос в направлении компании
+
+### ⭐ Главное value proposition для Партнёра — Jetix как инструмент-помощник для ЕГО наработок
+**Это критически важно:** Jetix **НЕ заменяет** партнёра / **НЕ забирает** его наработки. Jetix **усиливает** уже имеющиеся.
+
+#### Конкретно — что Jetix делает с ИХ существующими наработками:
+- 💸 **Помогает в монетизации их аудитории** (TRM Audience layer + new revenue streams)
+- 📡 **Помогает в распространении их хороших идей** (через Jetix network + AI augmentation)
+- ✨ **Помогает в улучшении их идей** (через 12 агентов + методологии + cross-pollination с другими партнёрами)
+- ⚡ **Помогает в ускорении производства их идей** (Foundation infrastructure + станки + 3-5× productivity multiplier)
+
+> **Метафора:** партнёр приходит со своим «бизнесом» — Jetix даёт ему «турбонаддув», но **его бизнес остаётся его**.
+
+### Что Jetix просит у Партнёра
+
+#### 1. Контрибуция в развитие Jetix
+- Сваий **опыт / знания / станки / ресурсы** обратно в общую систему
+- Каждый партнёр делает Jetix умнее → каждый партнёр получает выгоду от вклада остальных (compound)
+
+#### 2. Распространение Jetix
+- Партнёр распространяет факт сотрудничества с Jetix через свои каналы
+- Это NOT classic referral marketing — это **organic mention** через track record / cases
+
+#### 3. Финансовая participation (один или несколько вариантов — TBD case-by-case)
+> *Варианты — пока в разработке. Ниже черновик логичных options:*
+
+##### Вариант A — Initial investment / contribution
+- Single или периодический **финансовый contribution** при входе
+- Размер depending on access / leverage получаемого
+- Range: €50k-500k+ initial investment / year (для top-tier партнёров)
+
+##### Вариант B — Equity / Membership stake
+- Партнёр получает **долю в Jetix** corresponding to contribution
+- Вторая сторона: **долгосрочный alignment** через ownership
+- Tier: «founding partner» / «founding investor» / «member»
+
+##### Вариант C — Revenue share с проектов где Jetix участвует
+- На проектах где Jetix actively contributes — Jetix берёт **% от revenue**
+- Partner основной получатель, Jetix — co-receiver
+- Range: 5-15% Jetix take
+
+##### Вариант D — Performance fee on partner growth
+- Если партнёр **growth'ит после** входа в Jetix — Jetix берёт **% от incremental growth**
+- Аналогично TRM модели для клиентов
+- Range: 10-20% от incremental
+
+##### Вариант E — Membership fee
+- Регулярная **fixed fee** за membership на платформе
+- Tier-based (Light / Medium / Deep partnership)
+- Range: €1k-10k/мес depending on tier
+
+#### Гибридная модель (на практике)
+**Реалистично — комбинация нескольких variants** под конкретного партнёра. Например:
+- Initial investment €100k + equity 1-3% + revenue share 10% на co-projects
+- Membership €5k/мес + performance fee 15% на growth
+- 100% equity model для founding partners (без cash investment, но deep contribution)
+
+> ⚠️ **Honest:** деталей финансовой модели для партнёров пока **не finalized**. Будет работать **итеративно** по мере того как первые партнёры реально подключаются и видим что работает / что нет. **Это нормально** для Phase 1-2 — структуру partnership финализируем по living examples, не upfront.
+
+### Подтипы партнёров (preliminary)
+- 🌟 **Founding Partner** — ранний партнёр большого scale, deeply integrated, equity-significant
+- 🤝 **Strategic Partner** — fokусированный на one-domain (audience / capital / talent / etc.)
+- 💼 **Operating Partner** — активно делает работу через Jetix infrastructure (близок к core team)
+- 🏛️ **Network Partner** — основной leverage = его network / influence / reputation
+- 💰 **Investor Partner** — основной leverage = capital + advisory (тогда дополнительно к knowledge & skills)
+
+> *Эти подтипы — **black box на сейчас**. Они эволюционируют как первые партнёры подключаются и формируют real patterns.*
+
+---
+
+## 9.2 ⭐ Уровень 2 — Клиент
+
+### Кто это
+**Клиент** — **те кто имеют ресурсы и хотят развиваться**, но не имеют (или не интересно) построение собственного capital уровня партнёра. Они хотят **использовать наработки Jetix** для своего бизнеса / проекта / жизни.
+
+#### Quality bar для клиента (см. §7 ICP)
+- ✅ Достаточно **ресурсов** для входа (минимум для Type 1: €X финансов или Y времени)
+- ✅ **Желание развиваться** + active belief in better future
+- ✅ Соответствует **5 critical filter** (Startupper / Azart / Stable / Adequate / Upward)
+- ✅ Готов **играть в долгую** (6-36 мес horizon)
+
+### Что Jetix даёт Клиенту
+**Прогрессивно (через Land-and-Expand ladder L0-L5):**
+
+#### Stage 1 — Доступ к лучшим наработкам Jetix
+- Foundation v2.0+ infrastructure
+- 12 натренированных AI агентов
+- Adaptable станки
+- Knowledge base + methodology library
+
+#### Stage 2 — Консультирование
+- Strategic advisory от Jetix experts
+- Plan Mode sessions для key decisions
+- Methodology guidance per нужду
+
+#### Stage 3 — Управление частью ресурсов
+- Начинает с **одного ресурса** (например, время CEO или audience)
+- Performance-based contracts
+- AI-leverage operationally
+
+#### Stage 4 — Расширение управления (TRM growth)
+- Постепенно больше ресурсов под Jetix mgmt
+- Larger leverage, deeper integration
+- Eventually: TRM-full (все 6 ресурсов)
+
+### Что Jetix просит у Клиента
+
+#### 1. Стабильная ставка (mgmt fee)
+- **Recurring monthly** — независимо от результата
+- Покрывает operational cost Jetix
+- Range: €3k-60k/мес (по уровню L0-L5)
+
+#### 2. Процент от успеха (performance fee)
+- **% от incremental** прибыли / роста / outcomes
+- Range: 15-25% от growth attributable to Jetix
+- Считается через baseline measurement
+
+> *Подробно эта структура расписана в §3 (TRM) и §3.5 (Land-and-Expand ladder).*
+
+### Главное отличие Клиент vs Партнёр
+| Аспект | Партнёр | Клиент |
+|--------|---------|--------|
+| **Что приходит с собой** | Уже мощные наработки | Ресурсы + желание развиваться |
+| **Зачем приходит** | Усилить свой существующий capital | Использовать Jetix для своего развития |
+| **Доля в Jetix** | Возможна (equity / membership) | Нет |
+| **Голос в стратегии Jetix** | Есть | Нет |
+| **Платежи** | Initial / equity / membership / revenue share / performance | Mgmt fee + performance fee |
+| **Cross-pollination внутри Jetix** | Активная | Indirect (через используемые tools) |
+| **Минимум для входа** | Существующий capital + alignment | Ресурсы + желание + 5 critical filter |
+
+---
+
+## 9.3 ⭐ Уровень 3 — Работник
+
+### Кто это
+**Работник Jetix** — те кто **работают внутри Jetix**, делают платформу + работают с клиентами + развивают methodology. Это разделено на **2 уровня** (см. §7.7):
+
+#### Низкий уровень — entry / supporting
+- Желание развиваться + базовая дисциплина + values alignment
+- Promo / community / content / admin / coordination
+
+#### Высокий уровень — core team
+- + значимые достижения за спиной (track record)
+- + knowledge & skills (особенно НЕ просто финансы)
+- TRM management / partner relations / system building
+
+### Что Jetix даёт Работнику
+
+#### 1. Зарплата
+- **Стабильное вознаграждение** на уровне market+ для соответствующих ролей
+- Может быть retainer / salary / hybrid
+- Performance bonuses на key milestones
+
+#### 2. Место для созидания (НЕ просто job)
+- Работа с **реально интересными задачами**
+- Доступ к **последним наработкам** + AI-leverage
+- Среда где можно **глубоко расти** в своей экспертизе
+- **Crewmates с track record** — работа с крутыми людьми (см. §7.7 vetting)
+
+#### 3. Опыт + знания + connections
+- Каждый проект делает работника лучше
+- Network внутри Jetix + extended (партнёры / клиенты)
+- Reputation в индустрии через association с Jetix
+
+### Что Jetix просит у Работника
+
+#### 1. Стабильная работа + execution
+- Reliable delivery на assigned tasks
+- Quality bar высокий (см. §7.7 — нет профанов)
+- Communication через стандартные channels
+
+#### 2. ⭐ Процент от ИХ выручки (несильно большой)
+**Важная особенность:** Jetix берёт **некоторый процент** от выручки которую работник генерирует через Jetix (на проектах с клиентами / партнёрами). Но **не сильно большой** — чтобы:
+- Работник мог **спокойно существовать** на остатке
+- Был **stable income** база (от Jetix зарплаты)
+- Сохранялся **incentive расти** (бóльшая выручка → бóльшая абсолютная сумма работнику)
+
+**Range:** 10-25% от Jetix-attributable revenue работника (точные numbers — TBD по living examples).
+
+### ⭐ Главный принцип — accumulation остаётся с работником
+
+**Это критически важно — антипаттерн «корпоративного рабства»:**
+
+> **Если работник захочет уйти / поменять деятельность — всё что он накопил остаётся с ним.**
+
+#### Что значит «остаётся с ним» (accumulation portable):
+- ✅ Полученные **навыки / экспертиза** — остаются (не «proprietary knowledge of Jetix»)
+- ✅ Накопленные **personal connections** — остаются
+- ✅ Личные **methodologies / frameworks** разработанные — остаются
+- ✅ **Reputation built** через Jetix association — остаётся
+- ✅ **Personal portfolio** of cases / examples — остаётся
+
+#### Что НЕ остаётся (только Jetix-собственность):
+- ❌ Конкретные client confidential data
+- ❌ Jetix proprietary IP / patents (если где-то есть)
+- ❌ Active client contracts (Jetix continues servicing them)
+
+#### Контраст с traditional corporate
+**Traditional corporate:** уходишь → теряешь доступ к knowledge / network / reputation built within. **Накопление испаряется** при exit.
+
+**Jetix:** уходишь → **накопление остаётся**. Это и есть **антифрагильность для работника** — analogically partner Revenue Share principle (см. §6.9).
+
+> *Это **fundamental shift** в employment relationship.* Это делает Jetix **lower risk** option для skilled people — даже если не понравится через год, **они выходят сильнее** чем входили.
+
+### Подтипы работников (preliminary)
+- 🟢 **Entry-level** — promotion / community / admin (стартовый путь, нет track required)
+- 🟡 **Specialist** — узкая экспертиза в одном domain (AI / cybersec / legal / etc.)
+- 🔴 **Core team / Operator** — высокий track + работа с клиентами и партнёрами
+- 🔴 **Founding team** — earliest core team, deep equity / participation
+
+---
+
+## 9.4 Сводное сравнение 3 уровней вовлечения
+
+| Параметр | 🌟 Партнёр | 💼 Клиент | 👷 Работник |
+|----------|-----------|----------|-------------|
+| **Что приходит с собой** | Существующий capital (audience / tools / resources / influence) | Ресурсы + желание развиваться | Желание развиваться + (для core) track record |
+| **Зачем приходит** | Усилить existing capital через Jetix | Развиваться через Jetix infrastructure | Работать в meaningful environment |
+| **Что Jetix даёт** | Доступ к Jetix resources + tools + network + усиление их идей | Access к tools → консультирование → resource management | Зарплата + место созидания + accumulation |
+| **Что Jetix просит** | Contribution + распространение + finansoval participation (Initial / equity / membership / revenue share / performance) | Mgmt fee + performance fee | Execution + small % от Jetix-attributable revenue |
+| **Глубина integration** | Strategic (голос в направлении) | Operational (используют сервис) | Internal (часть команды) |
+| **Ownership / equity** | Может быть (equity / membership) | Нет | Может быть для founding / core team |
+| **Exit пользу** | Партнёр сохраняет свои наработки + Jetix-built network | Клиент — получил value за период работы | **Работник — accumulation portable** ⭐ |
+| **Размер группы Phase 2-3** | 10-50 partners | 100-1000+ clients | 30-100+ team members |
+
+---
+
+## 9.5 Cross-roles — один человек = несколько ролей
+
+> *Реалистично — границы между категориями плавающие.*
+
+### Возможные комбинации
+- **Партнёр + Клиент** — у партнёра есть свой бизнес который тоже использует Jetix services
+- **Партнёр + Работник** — Operating Partner / Founding Partner может одновременно работать в core team
+- **Клиент + Работник** — клиент так понравилось что захотел стать частью команды (после vetting на core team criteria)
+- **Работник → Партнёр** — long-term core team member может evolve в Founding Partner status через accumulated contribution
+
+### Каждая роль — своя структура отношений
+**Ключевое:** даже если человек в нескольких ролях, **каждая роль имеет свою clear structure**:
+- Как Партнёр — equity / contribution / strategic voice
+- Как Клиент — mgmt fee + performance
+- Как Работник — salary + small % + accumulation portable
+
+> *Это позволяет **clarity** в отношениях даже при сложных multi-role configurations.*
+
+---
+
+## 9.6 Process присоединения (preliminary)
+
+> *Детали будут finalize по мере реальных examples. Сейчас — общий principle.*
+
+### Для Партнёров
+1. Initial conversation — взаимный fit assessment
+2. Deep dive — capability + intentions + alignment
+3. Contract structuring — выбор финансовой модели (один из вариантов A-E из §9.1)
+4. Onboarding — integration в Jetix infrastructure + introduction в network
+5. **Trial period 3-6 мес** — обе стороны могут exit без consequences
+6. Long-term partnership — formalized через chosen structure
+
+### Для Клиентов
+1. **L0 €3k гипотеза** — initial paid engagement (минимальный risk обе стороны)
+2. Если успех → **L1 retainer** (€3-10k/мес)
+3. Прогрессия по TRM ladder L0-L5 (см. §3.5)
+
+### Для Работников (Entry уровень)
+1. Initial application + interview
+2. Small starter task (paid) — demonstrate capability
+3. 3-month probation — accumulating real work
+4. Permanent role assignment
+
+### Для Работников (Core team)
+1. Track record verification
+2. Deep interview по domain + values + approach
+3. Reference checks через network
+4. Trial project (paid, defined scope) — demonstrated competence
+5. Core team integration
+
+---
+
+## 9.X Сводка предложения — 3 уровня
+
+| # | Уровень | Минимум для входа | Что получает | Что даёт Jetix |
+|---|---------|------------------|--------------|----------------|
+| 1 | 🌟 **Партнёр** | Существующий capital (любой формы) + alignment | Доступ к Jetix resources + network + усиление их идей | Contribution + распространение + financial participation |
+| 2 | 💼 **Клиент** | Ресурсы + желание развиваться + 5 critical filter | Прогрессивный access → консультирование → resource mgmt | Mgmt fee + performance fee |
+| 3 | 👷 **Работник** | Желание развиваться + (core: track record + skills>finance) | Зарплата + место созидания + **portable accumulation** | Execution + small % revenue |
+
+> **Honest disclaimer:** структура — **первый набросок**. Финансовые details (особенно для Партнёров) — будут finalize **итеративно** через первые real-world examples. Это нормально для Phase 1-2 — system эволюционирует через living patterns, не upfront design.
 
 ---
 
