@@ -196,3 +196,36 @@ git tag -l "*locked*"
 - Когда server CC завершит → новая Cloud Cowork сессия (через handoff prompt выше) продолжит с Platform of Truth task → потом D2 + Tseren video.
 
 **Wall-clock estimate:** server CC закончит за 7-10 hours brigadier работы. New Cowork session ready to pickup как только увидишь готовый файл `swarm/wiki/synthesis/foundation-master-overview-human-workshop-2026-05-06.md` + ack packet.
+
+---
+
+## 🔔 STATUS UPDATE 2026-05-06 (server CC bridge signal)
+
+**Server CC завершил вторую задачу — GitHub history + canonical docs inventory.**
+
+Оба report'а на `main` со `status: complete`:
+
+| Report | Path | Lines | Commit |
+|--------|------|-------|--------|
+| GitHub Repo History | `reports/github-repo-history-2026-05-06.md` | 730 | `9f14549` (draft) → `9aadbca` (ACKED) |
+| Canonical Docs Inventory | `reports/canonical-docs-inventory-2026-05-06.md` | 980 | `9f14549` (draft) → `9aadbca` (ACKED) |
+
+**Constitutional posture:** F4 research deliverables. Не tagged (не canonical decisions). Ничего не superseded. `decisions/` не trogan.
+
+**§8 observations требуют твоего внимания (если будет время):**
+- `jetix-as-workshop-deep-description-2026-05-01.md` — referenced но не существует
+- TRM model status ambiguity — commit говорит LOCKED, header draft
+- 5+ AWAITING-APPROVAL packets с stale frontmatter после ack
+- Duplicate `[concept] LOCKED` commits 2026-04-30
+- D25-D29 parallel records (addendum + scaffold pattern)
+
+(Полный список §8 — внутри обоих reports. Это observations, НЕ recommendations — strategy-decisions твои.)
+
+**✅ Platform of Truth phase ready to start.**
+
+Новая Cloud Cowork сессия имеет полный inventory context для §4 задачи (Platform of Truth structure decision):
+- `reports/github-repo-history-2026-05-06.md` — что было создано когда + chronology + LOCKED tags + statistics
+- `reports/canonical-docs-inventory-2026-05-06.md` — что сегодня source-of-truth + topical groupings + cross-ref graph + active vs stale heuristic
+- `reports/foundation-consolidation-status-2026-05-06.md` — Foundation overviews analysis (до этого)
+
+Эти 3 report'а — input для Platform of Truth structure proposal (Вариант A canonical/ folder с symlinks vs Вариант B INDEX file vs Вариант C — твоё решение).
