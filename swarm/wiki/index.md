@@ -1,7 +1,7 @@
 ---
 title: Swarm Wiki v3 — Index
 type: index
-updated: 2026-04-30T00:00:00Z
+updated: 2026-05-06T00:00:00Z
 ---
 
 # Swarm Wiki v3 — Index
@@ -57,7 +57,8 @@ Bootstrap empty — populated lazily by `/ingest`.
 ## Synthesis
 
 - `synthesis/foundation-master-overview-technical-2026-04-29.md` — **FINAL v1.0 master overview (technical)**: 15.4K words, 112 [src:...] citations, 4 Mermaid; 17 §-секций covering Vision↔Architecture bridge + 11 Parts + Pillar C + 52 inter-Part edges + audit findings + Phase B roadmap. LOCKED tag `foundation-architecture-locked-2026-04-28`.
-- `synthesis/foundation-master-overview-human-2026-04-29.md` — **FINAL v1.0 master overview (human-readable)**: 4.2K words, 1 master Mermaid (6 кластеров: substrate / governance / knowledge / work / interaction / strategy); метафора + 11 частей простым языком + Pillar C + end-to-end task flow + Phase B priorities.
+- `synthesis/foundation-master-overview-human-workshop-2026-05-06.md` — **FINAL v1.0 master overview (human-readable, Workshop metaphor)**: 1531 строк; canonical метафора Мастерской (7 элементов / 5 ролей владельца / 3 фазы эволюции); полное покрытие 11 Foundation Parts + Pillar C через workshop frame; ~10 verbatim Ruslan quotes; cross-refs на Документы 1A/1B + Workshop concept LOCKED; 4 audience reading paths. LOCKED 2026-05-06, git tag `foundation-overview-human-workshop-locked-2026-05-06`.
+- `synthesis/foundation-master-overview-human-2026-04-29.md` — **SUPERSEDED 2026-05-06**: 4.2K words, метафора «дом» (комнаты / подвал / прихожая / гостиная); replaced by `foundation-master-overview-human-workshop-2026-05-06.md` per JETIX-WORKSHOP-CONCEPT-2026-04-30 LOCKED + Документы 1A/1B LOCKED v1.0. Retained для history (append-only discipline).
 
 ## Drafts (active reference — authoritative per-layer detail)
 

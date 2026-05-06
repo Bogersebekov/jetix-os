@@ -1,10 +1,14 @@
 ---
-title: "Foundation Architecture v1.0 — Human-Readable Overview"
+title: "Foundation Architecture v1.0 — Human-Readable Overview (SUPERSEDED)"
 date: 2026-04-29
 type: synthesis-master-overview-human
+status: SUPERSEDED
 audience: smart-human-without-context
 related_technical_overview: swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md
 foundation_locked_tag: foundation-architecture-locked-2026-04-28
+superseded_by: swarm/wiki/synthesis/foundation-master-overview-human-workshop-2026-05-06.md
+superseded_at: 2026-05-06
+supersession_reason: replaced metaphor "дом" with canonical Workshop metaphor per JETIX-WORKSHOP-CONCEPT-2026-04-30 LOCKED + Documents 1A/1B LOCKED
 ---
 
 # Foundation Architecture v1.0 — Что у нас получилось

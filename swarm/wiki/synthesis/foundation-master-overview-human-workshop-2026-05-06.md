@@ -1,9 +1,11 @@
 ---
 title: Foundation Master Overview — Human-readable через метафору Мастерской
 type: synthesis
-status: F4 draft (awaiting Ruslan ack)
-version: 1.0-workshop
+status: LOCKED v1.0
+version: 1.0
 created: 2026-05-06
+locked: 2026-05-06
+git_tag: foundation-overview-human-workshop-locked-2026-05-06
 brigadier_pass: foundation-overview-human-workshop-2026-05-06
 supersedes: swarm/wiki/synthesis/foundation-master-overview-human-2026-04-29.md
 related_technical_overview: swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md
@@ -1528,4 +1530,4 @@ non-master filter, Phase transitions, mafia trust, etc.
 `workshop-concept: LOCKED 2026-04-30`
 `document-1a: LOCKED v1.0 2026-05-05`
 `document-1b: LOCKED v1.0 2026-05-06`
-`this-overview: F4 draft 2026-05-06 — awaiting Ruslan ack for v1.0 LOCK`
+`this-overview: LOCKED v1.0 2026-05-06 — git tag foundation-overview-human-workshop-locked-2026-05-06`
