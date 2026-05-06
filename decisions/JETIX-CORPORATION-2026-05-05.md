@@ -1,10 +1,11 @@
 ---
 title: Jetix Corporation — концептуальный документ (применение Базовой Системы)
 type: decision
-status: v0.13 — ready for Ruslan final review → LOCK
-version: 0.13
+status: LOCKED v1.0
+version: 1.0
 created: 2026-05-05
-last_updated: 2026-05-06
+locked: 2026-05-06
+git_tag: jetix-corporation-locked-2026-05-06
 author: Ruslan + Claude
 audience: потенциальные партнёры / клиенты / инвесторы / future Jetix members + сам Ruslan для clarity
 purpose: дать читателю полное понимание ЧТО такое Jetix Corp как платформа/корпорация — построенная поверх Базовой Системы Управления. Видение, бизнес-модель, фазы эволюции, предложение партнёрам.
@@ -3806,12 +3807,18 @@ Network effects formula 2^N (group formations) — стандартное фор
 | 2026-05-06 | v0.10 | §9 Предложение rewritten как 3 уровня вовлечения (Партнёр / Клиент / Работник). 5 вариантов финансовой participation для Партнёра. Portable accumulation для Работников |
 | 2026-05-06 | v0.11 | §10 Roadmap filled (Phase 1 detailed plan): 8-step path к $100K к концу лета 2026. Главный stopper — synergy с Tseren/Левенчук/ШСМ |
 | 2026-05-06 | v0.12 | §11 Синергия filled (knowledge accumulation на network уровне / cross-resource synergy / clients-partners interactions / Reed's Law network effects / coalitionary thinking / 6-component synergy formula / Y0-Y10 numerical эффекты / 5 anti-patterns) |
-| **2026-05-06** | **v0.13** | **§12 Anti-patterns filled (11 НЕ-это с тестами). §0 TL;DR написан. Appendix A (sources) + B (related) + C (Glossary 25+ Jetix-specific terms) + D (changelog). Document приведён в working state — ожидает Ruslan review для LOCK** |
-| TBD | v1.0 | Final review → **LOCK** + git tag `jetix-corporation-locked-YYYY-MM-DD` |
+| 2026-05-06 | v0.13 | §12 Anti-patterns filled (11 НЕ-это с тестами). §0 TL;DR написан. Appendix A (sources) + B (related) + C (Glossary 25+ Jetix-specific terms) + D (changelog). Document приведён в working state — ожидает Ruslan review для LOCK |
+| **2026-05-06** | **v1.0** | **Ruslan ack — Document LOCKED. Git tag `jetix-corporation-locked-2026-05-06`. Status → LOCKED v1.0** |
 
 ---
 
-**Status:** v0.13 — **almost complete, ready for Ruslan final review**.
+**Status:** ✅ **LOCKED v1.0** as of 2026-05-06.
+
+**Git tag:** `jetix-corporation-locked-2026-05-06`
+
+**Length:** ~3838 строк.
+
+**Будущие изменения:** через `supersedes` (новая запись + ссылка на старую). Этот файл — append-only canonical reference.
 
 **Что сделано (все 12 разделов filled deeply):**
 - §0 TL;DR ✓
@@ -3829,9 +3836,9 @@ Network effects formula 2^N (group formations) — стандартное фор
 - §12 Anti-patterns ✓ (11 НЕ-это)
 - Appendix A + B + C + D ✓
 
-**Next step:** Ruslan читает документ целиком → даёт final feedback → **LOCK** as v1.0 with git tag `jetix-corporation-locked-2026-05-06` (или later дата).
-
-**Length:** 3700+ строк (на v0.13).
+**Что дальше:**
+- Документ 1B — canonical reference. Используется при общении с потенциальными партнёрами / клиентами / для строительства Jetix.
+- Следующий operational шаг — Шаг 1.B Roadmap (см. §10): synergy с Tseren / Левенчук / ШСМ → 8-step path к $100K к концу лета 2026.
 
 **Parent reference:** Документ 1A — `decisions/BASE-MANAGEMENT-SYSTEM-2026-05-04.md` (LOCKED v1.0 2026-05-05).
 
