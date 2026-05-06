@@ -1,7 +1,19 @@
+---
+title: "Jetix Total Resource Management (TRM) — Идея, рынок, бизнес-модель, риски"
+date: 2026-04-30
+type: system-concept
+status: LOCKED v1.0
+version: 1.0
+locked: 2026-04-30
+locked_reason: retroactive frontmatter alignment with commit message [concept] LOCKED + companion canonical relationship to JETIX-WORKSHOP-CONCEPT-2026-04-30 LOCKED
+companion_canonical: decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md
+status_fix_by: canonical-cleanup-2026-05-06 (Ruslan walkthrough ack via CANONICAL-WALKTHROUGH-2026-05-06.md)
+---
+
 # Jetix Total Resource Management (TRM)
 ## Идея, рынок, бизнес-модель, риски
 
-> **Статус:** черновик-концепция, апрель 2026
+> **Статус:** LOCKED v1.0 (2026-04-30) — companion canonical to JETIX-WORKSHOP-CONCEPT-2026-04-30 LOCKED
 > **Контекст:** разговор о scaling Jetix beyond consulting → asset management mental model → расширение на ресурсы шире финансовых
 
 ---

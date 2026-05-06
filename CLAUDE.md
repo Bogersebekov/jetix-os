@@ -9,6 +9,19 @@
 Jetix OS is a multi-agent system for managing an AI consulting business
 and personal life. Owner: Ruslan (Berlin, Germany).
 
+## 📖 Source of Truth (Canonical Docs)
+
+Все active canonical документы — [canonical/INDEX.md](canonical/INDEX.md).
+
+Walkthrough всех 110 docs со статусом → [CANONICAL-WALKTHROUGH-2026-05-06.md](CANONICAL-WALKTHROUGH-2026-05-06.md).
+
+Other indices:
+- Deferred — [deferred/INDEX.md](deferred/INDEX.md) (не активно но помним; 5 strategic insights + 1 active WIP companion)
+- Archive — [archive/INDEX.md](archive/INDEX.md) (~63 pre-Foundation docs, append-only history via `git mv`)
+- Strategic Layer F2 promotion queue — `decisions/strategic/` (29 D-Lock entries + 4 insights + 7 templates; active Wave 1.4 pipeline, NOT moved)
+- Cross-ref audit log — [archive/cross-ref-changes-log-2026-05-06.md](archive/cross-ref-changes-log-2026-05-06.md) (post-cleanup; documented only, NOT auto-fixed)
+- Missing files / substitutions log — [archive/missing-files-2026-05-06.md](archive/missing-files-2026-05-06.md)
+
 ## Foundation Architecture v1.0 (LOCKED 2026-04-28)
 
 **Canonical Foundation Architecture closure.** Etap 1 of Генеральная чистки
