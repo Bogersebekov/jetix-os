@@ -2776,21 +2776,272 @@ Risk transfer ≠ risk elimination. Мы **снижаем** risk через prep
 
 ---
 
-# 10. 🚀 Roadmap к €50K → €1T trajectory
+# 10. 🚀 Roadmap к $100K к концу лета 2026 (Phase 1 detailed plan)
 
-> **Цель раздела:** конкретные шаги.
+> **Цель раздела:** конкретный operational план Ruslan'а на ближайшие месяцы — от текущей точки (созвон с Tseren) до **$100K** к концу лета 2026. Этот раздел **более personal** чем остальные (содержит конкретные имена и задачи), потому что это **operational roadmap THIS Jetix instance**, не generic concept.
 
-## 10.1 Q2 2026 — €50K первые
-*[Конкретный план до 30.06.2026.]*
+> **Главный gating point:** партнёрство с мастерской инженеров-менеджеров (Левенчук / ШСМ) + обсуждение условий с Tseren или Левенчуком. **Всё остальное в roadmap — после этого partnership lock**.
 
-## 10.2 H2 2026 — продуктизация
-*[Что делаем после первой выручки.]*
+---
 
-## 10.3 2027 — масштабирование
-*[Партнёры / больше клиентов / first methodology publish.]*
+## 10.1 ⭐ Главный stopper / question — synergy с мастерской инженеров-менеджеров
 
-## 10.4 2028+ — категория
-*[Превращение в признанную категорию.]*
+### Что нужно сделать сейчас (даже до plan execution)
+
+**Ruslan нужно провести синергию** между:
+- **Своей стороны:** амбиции / vision / Jetix concept / Foundation v1.0 LOCKED / energy
+- **Стороны Tseren / Левенчук / ШСМ:** реально работающая системa / методология системного мышления / накопленные наработки
+
+**Это НЕ "проект"** — это **fundamental enabling step**. Без него остальной roadmap не запустится с правильной energy.
+
+### Конкретно — что сейчас на повестке
+1. **Созвон с Tseren** (Tserenov) — обсуждение партнёрства / сотрудничества / совместной работы
+2. **Discussion с Левенчуком** (Анатолий Левенчук, ШСМ) — обсуждение условий synergy
+3. **Главный запрос Ruslan'а:** освободить личное время для:
+   - Глубокого разбора в системном мышлении ШСМ
+   - Внедрения всех самых последних наработок мастерской инженеров-менеджеров
+   - Допиливания Jetix concept до production-grade
+
+### Открытый вопрос условий
+**Несколько возможных форматов synergy** (TBD по итогам discussion):
+- Tseren / Левенчук **что-то должны** Ruslan'у (existing obligations / commitments)
+- Они **инвестируют небольшие деньги** в Ruslan'а (€X на освобождение времени)
+- Они дают **доступ к наработкам** в обмен на что-то от Ruslan'а
+- Гибрид нескольких variants
+
+### Ruslan position (verbatim spirit)
+> *«Готов на любые условия — просто пожалуйста, увидите эту идею, дайте мне поговорить с вами, немного обучиться, немного эту систему допилить. Я быстро обучусь, а дальше приду с бабками. Соответственно продвинем эту систему далее.»*
+
+**Промiс:** освобождение времени now → быстрая обучаемость → revenue generation в ближайшие месяцы → возврат + продвижение.
+
+> **Это reasoning behind whole roadmap.** Без enabling synergy step — следующие фазы либо медленнее, либо менее качественно.
+
+---
+
+## 10.2 Step-by-step roadmap (current → конец лета 2026)
+
+### 📅 Step 1 — Сейчас (первые дни)
+**Действие:** Ruslan созванивается с Tseren / переговоры с Левенчук.
+
+**Результат:** обсудили варианты партнёрства / сотрудничества / совместной работы / условия.
+
+**Длительность:** 1-2 недели (depending on availability counterparts).
+
+---
+
+### 📅 Step 2 — Глубокий разбор + внедрение (2-3 weeks after Step 1)
+
+**Действие:** Ruslan погружается в:
+- Системное мышление ШСМ — глубокий разбор методологии Левенчука
+- Внутренности самой системы мастерской инженеров-менеджеров
+- **Внедрение всех последних наработок** в Jetix instance
+
+**Параллельно:** synergy effect наработок:
+- Ruslan's existing Foundation v1.0 + Workshop concept + TRM
+- Левенчук's накопленные методологии + системное мышление framework
+- Cross-pollination → **новый уровень обоих систем**
+
+**Длительность:** 2-3 недели intensive.
+
+**Результат:** Jetix instance upgraded с интеграцией ШСМ методологий; Ruslan deeply understands системное мышление; готовая база для следующих steps.
+
+---
+
+### 📅 Step 3 — Strategic document (1 неделя after Step 2)
+
+**Действие:** **Совместное составление strategic документа** — Ruslan + Tseren + Левенчук.
+
+**Что в документе:**
+- Обсуждение всех scenarios партнёрства / dynamics
+- Фиксация **одного "документа правды"** — clear shared understanding
+- Roles + responsibilities + decision rights
+- Финансовая структура synergy
+- Long-term vision alignment
+
+**Длительность:** 1 неделя focused work.
+
+**Результат:** **Document of Truth** — single source с которого все стороны действуют.
+
+---
+
+### 📅 К концу первого месяца (4-6 weeks from now)
+
+**State после Steps 1-3:**
+- ✅ Обсуждено партнёрство с Tseren / Левенчук
+- ✅ Latest наработки ШСМ + systemic thinking — внедрены в Jetix
+- ✅ Система **уже работает** на upgraded level
+- ✅ Strategic document зафиксирован
+- ✅ **Ruslan имеет доступ к команде 3-5 человек** (инженеры мастерской менеджеров + энтузиасты)
+
+> **Critical:** к этой точке у Ruslan'a **полный operational toolkit + people + clarity** для следующей фазы.
+
+---
+
+### 📅 Step 4 — Месяц 2-3 (work over продажи системы)
+
+**Действие:** Ruslan + команда (3-5 человек) работают над **продажами Jetix системы / экзокортекса** другим людям.
+
+**Target audience продажи:**
+- Предприниматели (особенно большие)
+- Стартапёры с амбицией
+- Smart entrepreneurs с ресурсами + желанием развиваться (см. ICP §7)
+
+**Базовые опции offering (Phase 1 product-market fit):**
+1. **Решение конкретных гипотез** (€3-5k AI Brain on Demand format — см. §3.7)
+2. **Установка и внедрение системы** клиенту
+3. **Работа с системой** — ongoing setup / onboarding / training
+
+**Цель:** Заработать **первые $50,000** за 1-2 месяца.
+
+---
+
+### 📅 Step 5 — Reinvestment (после первых $50K)
+
+**Действие:** Полученные $50K **обратно в систему**:
+- Расширение команды (наём / contracts с performing людьми)
+- Улучшение infrastructure / tools
+- Развитие methodology / станков
+
+**Параллельно** — определение **what продукты делать дальше** (на основе real customer feedback, не предположений).
+
+---
+
+### 📅 Распределение ролей в Step 4-5
+
+**Ruslan ответственность:**
+- 📡 Distribution / распространение
+- 🎯 Поиск партнёров и клиентов
+- 💰 Sales motion
+- 🤝 Relationship building
+
+**Tseren / Левенчук + команда ответственность:**
+- 🔧 Система / stability / infrastructure
+- ⚡ Новые наработки / methodology development
+- 🔬 Глубокая проработка / quality
+- 🛠️ Internal R&D
+
+> **Это complementary специализация** — Ruslan = front-office (sales / partnerships / scaling) + Tseren / Левенчук = back-office (system / quality / depth).
+
+---
+
+### 📅 Step 6 — К концу лета 2026 (август-сентябрь)
+
+**Цель: $100,000 заработано.**
+
+**Mix этих $100K (примерно):**
+- $30-50K — клиенты на L0-L1 (гипотезы + аналитические retainers)
+- $30-50K — клиенты на L2 (один ресурс под management)
+- $10-30K — performance fees / consulting deeper
+
+**State to end-of-summer:**
+- ✅ $100K cumulative revenue
+- ✅ **5-10 paying clients** (различных уровней)
+- ✅ Команда 5-10 человек active
+- ✅ System работает в production
+- ✅ Track record — proof of concept achieved
+
+---
+
+### 📅 Step 7 — Strategic session после $100K
+
+**Действие:** Снова **strategic session** — Ruslan + Tseren + Левенчук + команда:
+- Анализ что работает / что нет (real data из месяца Step 4-6)
+- Определение что делать дальше — какие продукты / какие markets / какая структура
+- **Сборка более лучшей команды** — поиск / онбординг topа specialists
+- Planning Q4 2026 / 2027
+
+---
+
+### 📅 Step 8 — Q4 2026+ — Ruslan all-in
+
+**Действие:** Ruslan **все амбиции / энергию / силу** vкидывает в:
+- 🔍 Поиск инвесторов
+- 🎯 Поиск клиентов
+- 💰 Переговоры
+- 📡 Pushing distribution / partnerships
+- 🚀 Подталкивание команды + всех participants
+
+**Вся organization** mobilized для acceleration.
+
+---
+
+### 📅 2027-2028 — TBD
+
+**Что будет:** **в душе не ебу пока не поговорим с Tseren / Левенчуком** + не увидим real data из 2026.
+
+**Reasoning:** planning слишком далеко — **artificially capping** возможности. Vision §8.2 (€100M ARR через 3 года) направляет **direction**, но конкретный path Q1 2027+ — **emergent** на основе real Q4 2026 state.
+
+---
+
+## 10.3 Sequencing summary table
+
+| Период | Step | Ключевое действие | Результат |
+|--------|------|-------------------|-----------|
+| **Now** | 1 | Созвон с Tseren / Левенчук | Обсуждены условия synergy |
+| **Weeks 2-4** | 2 | Глубокий разбор + внедрение наработок ШСМ | Jetix instance upgraded |
+| **Week 5** | 3 | Strategic document с Tseren + Левенчук | Document of Truth зафиксирован |
+| **End of Month 1** | — | Snapshot | Система внедрена, доступ к команде 3-5 чел |
+| **Months 2-3** | 4 | Продажи Jetix системы предпринимателям | **$50K заработано** |
+| **After $50K** | 5 | Reinvestment в систему + команду | Стабильная operational база |
+| **End summer 2026** | 6 | $100K cumulative achieved | **$100K achieved + 5-10 clients** |
+| **Sep-Oct 2026** | 7 | Strategic session + сборка лучшей команды | Q4 plan + improved team |
+| **Q4 2026+** | 8 | Ruslan all-in distribution / sales / fundraising | Acceleration phase |
+| **2027-2028** | TBD | TBD после strategic session с Tseren / Левенчуком | TBD |
+
+---
+
+## 10.4 Главный gating dependency — partnership lock
+
+> **Это критично понять:** весь roadmap **зависит от Step 1-3** (synergy с Tseren / Левенчуком).
+
+### Если synergy запускается gracefully
+- Step 4-6 идут с **boost** от ШСМ методологии + access к команде
+- $100K к концу лета — **realistic**
+- Foundation upgrades faster
+- **Network effects starting** уже в Q3-Q4 2026
+
+### Если synergy не запускается
+- Roadmap не отменяется, но **более slow + менее resonant**
+- Ruslan делает Phase 1 в основном sam + AI agents
+- Возможно $100K к концу года (не лету), но достижимо
+- Отсутствие методологии ШСМ = более длительный путь к категориальной clarity
+
+> **Поэтому Step 1-3 = top priority.** Всё после — execution на уже unlocked enabling infrastructure.
+
+---
+
+## 10.5 Ruslan personal commitment (the asks)
+
+> *Это secciya для honest ask потенциальным синергии-counterparts (Tseren / Левенчук / ШСМ).*
+
+**Что Ruslan просит:**
+- ⏰ Освободить **немного личного времени** (через discussion обязательств / небольшую инвестицию / подключение наработок)
+- 📚 **Доступ к ШСМ методологиям** + системному мышлению фреймворку
+- 🤝 **Access к команде** инженеров-менеджеров (3-5 человек на совместную работу первые месяцы)
+- 💬 **Время на discussion** condition + scenarios + strategic alignment
+
+**Что Ruslan обещает:**
+- ⚡ **Быстрая обучаемость** — погружение интенсивное, не лениво
+- 💰 **Возврат через revenue** — первые $50K-100K в течение 2-4 месяцев
+- 📡 **Распространение** ШСМ + методологии Левенчука через Jetix network
+- 🎯 **Long-term partnership** — не one-time consultation, а ongoing collaborative evolution
+
+> *«Готов на любые условия — просто пожалуйста, увидите эту идею.»*
+
+---
+
+## 10.X Сводка roadmap
+
+| Аспект | Кратко |
+|--------|--------|
+| **Главный stopper** | Synergy с мастерской инженеров-менеджеров (Tseren / Левенчук / ШСМ) |
+| **Цель Phase 1** | $100K к концу лета 2026 (revised up от €50K) |
+| **Path** | 8 steps — synergy → strategic document → команда → продажи → reinvest → $100K → strategic session → all-in Q4 |
+| **Распределение ролей** | Ruslan = distribution / sales / partnerships; Tseren-Левенчук + команда = система / quality / depth |
+| **2027-2028** | TBD после strategic session |
+| **Long-horizon** | Не ограничивает (см. §8.3) |
+
+> **Главный вывод:** roadmap критически зависит от **первых 4-6 weeks** (synergy unlock). После — **execution на мощной enabling base**. До — **гораздо медленнее без leverage**.
 
 ---
 
