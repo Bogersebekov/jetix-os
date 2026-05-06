@@ -2,6 +2,7 @@
 title: GitHub Repo History — full inventory с первого commit'а до 2026-05-06
 date: 2026-05-06
 type: research-report
+status: complete
 author: server-cc-claude/jolly-margulis-915d34
 purpose: фактическая история работы с repo для контекста перед задачей "Platform of Truth" (consolidating canonical docs); pure inventory + analysis, никаких рекомендаций
 constitutional_anchor:

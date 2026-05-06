@@ -2,6 +2,7 @@
 title: Canonical Docs Inventory — what serves as source-of-truth on 2026-05-06
 date: 2026-05-06
 type: research-report
+status: complete
 author: server-cc-claude/jolly-margulis-915d34
 purpose: фактический inventory всех "основных" документов на сегодня — LOCKED canonical / drafts / superseded / pending — для контекста перед задачей "Platform of Truth"; pure inventory + topical groupings + cross-ref graph + active vs stale heuristic, НИКАКИХ recommendations
 constitutional_anchor:
