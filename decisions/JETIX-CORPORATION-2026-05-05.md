@@ -2268,19 +2268,193 @@ Risk transfer ≠ risk elimination. Мы **снижаем** risk через prep
 
 # 8. 📊 Видение 1 / 3 / 10 лет
 
-> **Цель раздела:** где Jetix через год / 3 года / 10 лет.
+> **Цель раздела:** конкретные numerical milestones куда Jetix движется. **3 horizon'а** — 1 год / 3 года / 10 лет. С честным признанием что **10 лет — это уже за пределами current planning** (см. §8.3).
 
-## 8.1 Через 1 год (середина 2027)
-*[€50K achieved → €100-300K ARR / 3-5 клиентов / 1-2 партнёра / Foundation v2.0 / first methodology publish.]*
+> **Контекст:** текущая точка (2026-05) — €5K на счету, Foundation v1.0 LOCKED, Workshop concept LOCKED, TRM model LOCKED, Phase 1 €50K Q2 2026 в процессе.
 
-## 8.2 Через 3 года (2029)
-*[€1-5M ARR / 15-30 клиентов / 5-10 партнёров / community 50-200 people / признание в DACH consulting space.]*
+---
 
-## 8.3 Через 10 лет (2036)
-*[€50M+ ARR / категория «AI-native operational corp» признана / multi-region / patents / Trust ecosystem.]*
+## 8.1 Через 1 год — середина 2027
 
-## 8.4 Через 10 лет — экспериментальный сценарий
-*[Что если получится действительно big — €1T trajectory. Как может выглядеть Jetix как infrastructure для нового способа делать business в Европе.]*
+### Ключевые числа
+- **50+ клиентов** (по разным уровням TRM ladder + AI Brain on Demand transactions)
+- **10+ партнёров** в платформе (Source 4 — приводят своих клиентов; см. §4.3)
+- **€500K+ ARR** — это **минимум**
+
+### Что это значит
+**€500K ARR — это уже доказанная operational компания.** Не «начинающий founder», а **functioning business с repeating revenue**.
+
+### Mix revenue для €500K ARR (примерный breakdown)
+- **30-50 клиентов на L0-L1** (€3-10k за гипотезу или ретейнер) → **€150-200K ARR**
+- **5-10 клиентов на L2** (€5-15k/мес — один ресурс под управлением) → **€150-250K ARR**
+- **1-3 клиента на L3-L4** (€15-30k/мес — Chief of Staff / Venture Operator) → **€100-150K ARR**
+- **0-1 клиент на L5 TRM-full** (€30-60k/мес) — **bonus**, если успели поднять
+
+### Состав команды на 1 год
+- Ruslan (founder)
+- 3-7 человек core team (см. §7.7 — track record required)
+- 5-10 supporting roles / entry уровень
+- 10+ партнёров приходят со своими клиентами
+- 12-15 AI агентов в активной работе
+
+### Foundation status 1 год
+- **Foundation v2.0** опубликована (improvement over v1.0 based on real usage)
+- **First methodology publish** — открытая публикация одной key methodology (book / framework / workshop)
+- **Track record** на 50+ клиентах = strong validation для следующих
+- Public-company-style transparency — first quarterly report публично
+
+### Главная цель Year 1
+**Validation что operational model работает** — TRM ladder проходится клиентами, retention высокий, performance fees материализуются. **Это **proof point** для Phase 2 transition.**
+
+---
+
+## 8.2 Через 3 года — 2029
+
+### Ключевые числа
+- **€100M+ ARR** — переход в категорию **major operational corporation**
+- **500+ клиентов** (по разным TRM levels)
+- **20+ партнёров** в core network (deep integration через платформу)
+- **Community 1000+ человек** (extended network — не все active каждый день, но curated participants)
+
+### Что это значит
+**€100M ARR — это уже категория признаваемая глобально.** Это:
+- **Уровень Toptal** в их prime ($200M+ ARR)
+- **Уровень premier consulting boutique** (топовые niche firms)
+- **Достаточный масштаб для serious institutional credibility**
+
+### Mix revenue для €100M ARR
+- **300-400 клиентов на L1-L3** retainer + один-два ресурса под mgmt → **€60-80M ARR**
+- **50-80 клиентов на L4-L5** (TRM-full / Venture Operator) → **€20-30M ARR**
+- **Performance fees** на existing клиентов growth → **€10-20M ARR**
+- **Платформа take rate** (early Phase 3) — Source 4 + external owners → начинает материализоваться → **€5-10M ARR**
+
+### Состав команды на 3 года
+- Founding + early team (ядро 5-10 человек)
+- **30-50 человек core team** (operations / partner relations / Operators)
+- **100-200 partners + extended Operators** в network
+- **1000+ community members** (curated network для exchange + future Operators)
+- **30+ AI агентов** активные + специализированные под domains
+
+### Foundation status 3 года
+- Foundation v3.0+ — production-grade на 1000+ users
+- Multiple methodologies опубликованы — Jetix признан **methodology-leader** в AI-leverage space
+- Patents (EU + select international) на ключевые processes
+- **Phase 3 платформа** — early launch, take rate 15-25% начинает работать
+
+### Главная цель Year 3
+**Категориальное признание.** Jetix известен как **«AI-native operational corporation»** — новая категория business, понятная investors / journalists / клиентам / talent. **Translation cost описывать что мы делаем → почти ноль.**
+
+### Признание в индустрии
+- Покрытие в Tier 1 business media (Bloomberg / FT / Handelsblatt / etc.)
+- Speaker invitations на major industry events
+- Academic case studies в business schools
+- Other companies copying / adapting Foundation architecture
+
+---
+
+## 8.3 ⭐ Через 10 лет — 2036
+
+### Honest acknowledgement
+> **Через 10 лет — мы в душе не ебём что это и как будет.**
+
+И **это feature, не bug.**
+
+### Почему мы НЕ описываем 10 лет конкретно
+1. **Мир изменится непредсказуемо** — AI / society / business landscape transformations невозможно предвидеть
+2. **Jetix будет настолько огромной**, что **текущее планирование** её **ограничивает** vs liberates
+3. **Любые конкретные numbers сейчас** — это **lower bound** того что может быть, не цель
+4. **Engineering-faith principle** — закладываем infrastructure для $1T scale + 200-year horizon в Phase 1, но **не пытаемся predict** конкретный путь
+
+### Что мы знаем о 10-летнем horizon
+- ✅ Будет **просто огромное и масштабное**
+- ✅ Разрастётся настолько сильно, что **вообще все будут в шоке**
+- ✅ Будет **сопоставимо со странами какими-то** (verbatim Ruslan, audio_496)
+- ✅ Может быть **первой компанией достигшей $1T** (см. ambition § 6.11 + JETIX-VISION D19)
+- ✅ Будет **новая культура / философия** для следующих поколений (см. §6.5)
+- ✅ Будут **patents / IP** в нескольких domains
+- ✅ Будет **multi-region presence** (не привязан к Берлину / DACH)
+- ✅ Будет **trust ecosystem** где Jetix participants automatically доверяют друг другу
+
+### Что НЕ пытаемся pin down
+- ❌ Конкретное revenue number ($1B / $10B / $100B / $1T — diapason слишком широкий)
+- ❌ Точное количество клиентов / партнёров (от десятков тысяч до миллионов)
+- ❌ Точная корпоративная structure (может быть holding / multi-corp / DAO / unprecedented)
+- ❌ География (от Europe-centered до global)
+- ❌ Выход (IPO / private / token economy / hybrid)
+
+### Стыдно даже думать
+> **Verbatim Ruslan:** *«Через десять лет — настолько большое будет, что даже стыдно как-то думать, что там через 10 лет будет. Потому что настолько будет большое, что не хочется даже его текущим планированием ограничивать.»*
+
+> **Это правильное отношение к 10y horizon.** Lock'нуть конкретный 10y plan = **artificially capping** возможности.
+
+### Принцип: infrastructure first, scale follows
+**Что мы делаем:**
+- Закладываем **infrastructure для $1T scale** в Phase 1 architecture (Foundation v1.0)
+- Накапливаем **methodology + knowledge + network** которые compound экспоненциально
+- Поддерживаем **engineering-faith** + **public-company-style transparency**
+- Растём **incrementally** через validated milestones (€50K → €500K → €100M → ...)
+
+**Что не делаем:**
+- НЕ обещаем конкретные 10y outcomes
+- НЕ ограничиваем upside рамками текущего понимания
+- НЕ продаём 10y vision — продаём near-term value (€3K AI Brain → L5 TRM)
+
+---
+
+## 8.4 Phase milestones — visible roadmap
+
+> *Между 1y, 3y, 10y horizons — есть **promеточные milestones**.*
+
+| Milestone | Что |
+|-----------|-----|
+| **Q2 2026 (now)** | €50K committed revenue (единственная **committed absolute date**) |
+| **Q4 2026** | €200K validation — proof что repeating revenue работает |
+| **Mid 2027 (1y)** | €500K+ ARR / 50+ клиентов / 10+ партнёров |
+| **End 2028** | €5-10M ARR / Phase 2 platform начинает прорастать |
+| **2029 (3y)** | €100M ARR / category recognition / Phase 3 platform launch |
+| **~2030-2032** | $100M-$1B revenue / multiple regions / first patents EU |
+| **~2033-2035** | $1B+ ARR / global presence / category dominance |
+| **2036+ (10y)** | TBD — but huge by any measure. **Будут в шоке.** |
+
+### Key transitions (когда фазы переключаются)
+- **Phase 0 → Phase 1:** $20-30K self-funded (Q1 2026) — **прошли ✓**
+- **Phase 1 → Phase 2:** €50K achieved + first 1-3 partners (Q2 2026) — **в процессе**
+- **Phase 2 → Phase 3:** €5-20M ARR + 30+ established клиентов (~2028-2029)
+- **Phase 3 → Phase 4 (civilizational):** TBD ambient — likely $1B+ revenue + 1000+ network
+
+---
+
+## 8.5 200-year horizon — civilizational legacy
+
+> *За пределами 10 лет — есть **200-year vision** который informs current decisions, не как target, а как **direction setter**.*
+
+### Что ставим в long horizon
+> *«Долгосрочная цель Jetix — вклад в создание будущего, где базовые проблемы (голод, болезни, неравенство) решены. Микро-задача: каждый бизнес, который Jetix делает безопаснее и эффективнее через AI, — кирпичик.»*  
+> [src: wiki/ideas/200-year-vision-jetix-humanity.md]
+
+### 2 leverages в long-term
+1. **AI-эффективность** — больше выходных продуктов на единицу ресурса (кумулятивно через всех клиентов / партнёров)
+2. **AI-безопасность** — снижение systemic risks (cybersec, supply chain, decision quality, governance)
+
+### Founder constitution принцип
+> *«Когда система станет большой, контролировать её напрямую невозможно — поэтому ценности и предохранители закладываются ДО роста.»*  
+> [src: wiki/ideas/founder-responsibility-jetix-constitution.md]
+
+**Это значит:** Foundation v1.0 + Pillar C (Tier 2 11 hard rules) уже **закладывают safeguards** на долгосрочное development. Когда Jetix станет $100B+, эти safeguards будут active **без нужды в personal control founder'а**.
+
+---
+
+## 8.X Сводка видения
+
+| Horizon | Состояние Jetix | Признание |
+|---------|----------------|-----------|
+| **Q2 2026 (now)** | Phase 1 finishing, €50K committed | Building, not yet recognized |
+| **1 год (mid 2027)** | €500K+ ARR / 50 clients / 10 partners — **functioning business** | Industry-aware (early adopters) |
+| **3 года (2029)** | **€100M+ ARR** / 500+ clients / 20+ partners / 1000+ community — **major operational corp** | **Category recognition** в Tier 1 media |
+| **10 лет (2036)** | **TBD — стыдно думать** | TBD — будут в шоке |
+| **200 лет** | Contributing infrastructure для civilizations 2200+ | Possibly civilizational legacy |
+
+> **Главный вывод:** **1y и 3y — конкретные операционные цели**. **10y — engineering-faith bet** на огромную долгосрочную ценность которую не пытаемся predict, но **закладываем инфраструктуру для**. **200y — direction setter**, не target.
 
 ---
 
