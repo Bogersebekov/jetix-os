@@ -1,0 +1,198 @@
+# Workshop — 7 базовых элементов мастерской
+# Source: BASE-MANAGEMENT-SYSTEM-2026-05-04.md §1.3
+#
+# Render commands:
+#   d2 --layout=elk --theme=200 workshop-7-elements.d2 workshop.svg
+#   d2 --sketch --layout=elk --theme=200 workshop-7-elements.d2 workshop-sketch.svg
+#
+# Open в D2 Studio: copy-paste весь этот файл в new diagram
+
+title: |md
+  # 🏭 Мастерская — 7 базовых элементов
+  ### Скелет любой мастерской (Документ 1A §1.3)
+| {near: top-center}
+
+direction: down
+
+# ═══════════════════════════════════════════════════════
+# INPUT — что приходит снаружи
+# ═══════════════════════════════════════════════════════
+
+input: "📥 INPUT\n(информация о мире)" {
+  shape: cloud
+  style: {
+    fill: "#e3f2fd"
+    stroke: "#1565c0"
+    stroke-width: 2
+    font-size: 16
+    bold: true
+  }
+}
+
+# ═══════════════════════════════════════════════════════
+# WORKSHOP — мастерская как контейнер
+# ═══════════════════════════════════════════════════════
+
+workshop: "🏭 МАСТЕРСКАЯ" {
+  style: {
+    fill: "#fff8e1"
+    stroke: "#f57c00"
+    stroke-width: 4
+    border-radius: 16
+    font-size: 22
+    bold: true
+  }
+
+  # ── Слой 1: Защита и приём ──────────────────────
+  guard: "🛡️ Охрана" {
+    shape: hexagon
+    style: {
+      fill: "#ffebee"
+      stroke: "#c62828"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Фильтр на входе — не пускаем мусор. Спам, низкокачественные источники, отвлечения отсекаются."
+  }
+
+  # ── Слой 2: Substrate ───────────────────────────
+  foundation: "🏗 Фундамент" {
+    shape: rectangle
+    style: {
+      fill: "#e8eaf6"
+      stroke: "#283593"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Substrate — пол, стены, электричество. Где живут данные, единый язык (даты, naming, тэги)."
+  }
+
+  # ── Слой 3: Knowledge ────────────────────────────
+  storage: "📦 Склад" {
+    shape: cylinder
+    style: {
+      fill: "#e0f2f1"
+      stroke: "#00695c"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Сырьё (источники) + полуфабрикаты (drafts) + готовые изделия. Структурированный, найти за секунды."
+  }
+
+  # ── Слой 4: Work — центр мастерской ──────────────
+  master: "👤 Мастер" {
+    shape: person
+    style: {
+      fill: "#fce4ec"
+      stroke: "#ad1457"
+      stroke-width: 4
+      shadow: true
+      font-size: 18
+      bold: true
+    }
+    tooltip: "Сам владелец + AI агенты (12 ролей) + human collaborators. Многостаночник по ролям."
+  }
+
+  tools: "🔧 Станки" {
+    shape: package
+    style: {
+      fill: "#fff3e0"
+      stroke: "#e65100"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Adaptable инструменты — D2 / MCP / Plan Mode / Voice / Time-tracking. Добавляются за день, удаляются без боли."
+  }
+
+  automation: "🤖 Автоматизация" {
+    shape: queue
+    style: {
+      fill: "#f3e5f5"
+      stroke: "#6a1b9a"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Sync pipelines / cron jobs / scheduled reviews. Мастер занимается мастерством, рутина платится минимально."
+  }
+
+  # ── Слой 5: Network ──────────────────────────────
+  phone: "📞 Телефон" {
+    shape: oval
+    style: {
+      fill: "#e1f5fe"
+      stroke: "#01579b"
+      stroke-width: 3
+      multiple: true
+      shadow: true
+      font-size: 14
+    }
+    tooltip: "Связь с другими мастерами. Не строй с нуля — запроси у того, у кого уже есть. Узел в сети."
+  }
+
+  # ── Внутренние связи ─────────────────────────────
+  guard -> foundation: "checked\ndata" {style.stroke: "#c62828"; style.stroke-width: 2}
+  foundation -> storage: "stored" {style.stroke: "#283593"; style.stroke-width: 2}
+  storage -> master: "context\nload" {style.stroke: "#00695c"; style.stroke-width: 2}
+  master -> tools: "uses" {style.stroke: "#ad1457"; style.stroke-width: 2; style.bold: true}
+  tools -> automation: "triggers" {style.stroke: "#e65100"; style.stroke-width: 2}
+  automation -> storage: "updates" {style.stroke: "#6a1b9a"; style.stroke-width: 2; style.stroke-dash: 3}
+  master -> phone: "reaches\nout" {style.stroke: "#ad1457"; style.stroke-width: 2}
+  phone -> master: "knowledge\nback" {style.stroke: "#01579b"; style.stroke-width: 2; style.stroke-dash: 3}
+}
+
+# ═══════════════════════════════════════════════════════
+# OUTPUT — что производит мастерская
+# ═══════════════════════════════════════════════════════
+
+output: "📤 OUTPUT\n(решения / артефакты / действия)" {
+  shape: cloud
+  style: {
+    fill: "#f1f8e9"
+    stroke: "#33691e"
+    stroke-width: 2
+    font-size: 16
+    bold: true
+  }
+}
+
+# ═══════════════════════════════════════════════════════
+# Информационный поток INPUT → WORKSHOP → OUTPUT
+# ═══════════════════════════════════════════════════════
+
+input -> workshop.guard: "сырая\nинформация" {
+  style: {
+    stroke: "#1565c0"
+    stroke-width: 3
+    bold: true
+    font-size: 14
+  }
+}
+
+workshop.master -> output: "готовый\nрезультат" {
+  style: {
+    stroke: "#33691e"
+    stroke-width: 3
+    bold: true
+    font-size: 14
+  }
+}
+
+# ═══════════════════════════════════════════════════════
+# Подпись внизу — главный принцип
+# ═══════════════════════════════════════════════════════
+
+principle: |md
+  > **Главный принцип:** всё, с чем работаем — это **информация**.
+  > Мастерская превращает input → структурированный output через 7 элементов.
+  > Каждый элемент — adaptable: добавляется за день, удаляется без боли.
+| {near: bottom-center; style.font-size: 14}
