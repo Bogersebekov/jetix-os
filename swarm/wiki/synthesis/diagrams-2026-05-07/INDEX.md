@@ -10,6 +10,13 @@ parent_canonical:
   - decisions/JETIX-CORPORATION-2026-05-05.md
   - decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md
   - decisions/JETIX-TRM-MODEL-2026-04-30.md
+style_guide: ../../operations/mermaid-style-guide-2026-05-07.md
+preview_setup: ../../operations/mermaid-preview-setup-2026-05-07.md
+authoring_skills:
+  - .claude/skills/mermaid-create/SKILL.md
+  - .claude/skills/mermaid-iterate/SKILL.md
+  - .claude/skills/mermaid-export/SKILL.md
+  - .claude/skills/mermaid-validate/SKILL.md
 status: active
 ---
 
@@ -88,3 +95,16 @@ swarm/wiki/synthesis/diagrams-2026-05-07/
 ```
 
 Старые D2 sources (`workshop-7-elements.d2` + `v1-component-architecture.d2`) **остаются** в `swarm/wiki/synthesis/foundation-visuals-2026-04-30/` — append-only, как archive.
+
+---
+
+## 🛠 Canonical tooling (2026-05-07)
+
+- **Style guide** — [`mermaid-style-guide-2026-05-07.md`](../../operations/mermaid-style-guide-2026-05-07.md) — palette, naming, init directive, validation checklist
+- **Preview setup** — [`mermaid-preview-setup-2026-05-07.md`](../../operations/mermaid-preview-setup-2026-05-07.md) — Antigravity / GitHub / Notion / mermaid.live / mmdc
+- **Skills:**
+  - `/mermaid-create <topic>` — scaffold new diagram
+  - `/mermaid-iterate <file> <change>` — apply text-instruction edit
+  - `/mermaid-export <file>` — render SVG/PNG
+  - `/mermaid-validate <file-or-glob>` — syntax + style compliance check
+- **Research base** — [`reports/mermaid-research-notes-2026-05-07.md`](../../../../reports/mermaid-research-notes-2026-05-07.md) — Mermaid 2026 syntax + render env feature matrix
