@@ -27,7 +27,7 @@ flowchart TB
 
         MASTER(("👤 <b>МАСТЕР</b><br/><small>+ AI-агенты<br/>+ collaborators</small>")):::master
 
-        TOOLS["🔧 Станки<br/><small>D2 / MCP / Voice<br/>adaptable за день</small>"]:::tools
+        TOOLS["🔧 Станки<br/><small>Mermaid / MCP / Voice<br/>adaptable за день</small>"]:::tools
         AUTO["🤖 Автоматизация<br/><small>cron / sync / pipelines</small>"]:::auto
         PHONE["📞 Телефон<br/><small>сеть других мастеров</small>"]:::phone
 
