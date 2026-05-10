@@ -229,3 +229,97 @@ Per TRM model — possible but legally complex (cross-border revenue share, equi
 ---
 
 **Brigadier signature.** AI scribe acting_as `strategic-insight-recorder-role`. Verbatim Ruslan quotes preserved. Source attribution (Manifest AI text) included. Hypothesis options unfolded as brainstorm — Ruslan-decided.
+
+---
+
+## §13 R&D Reinvestment Flywheel — third Manifest-pattern (added 2026-05-10)
+
+> **Verbatim Ruslan, 2026-05-10:** «Jetix будет по такому же методу двигаться — очень жёстко реинвестировать в R&D направление, прям пизда как жёстко, прям нахуй плотно.»
+
+### §13.1 Source — Manifest AI text part 2
+
+> «Реинвестирование profits — это второй гениальный ход. Традиционные юрфирмы распределяют годовые прибыли как партнёрские бонусы (= деньги вылетают из компании). Manifest реинвестирует их в R&D. То есть с каждым годом софт становится лучше → юристы продуктивнее → цена услуг для клиентов падает → больше клиентов → больше денег для R&D. Это flywheel, как у Amazon.»
+
+### §13.2 Pattern explained
+
+**Traditional firms:**
+```
+Yearly profit → distribute как partner bonuses → money leaves company
+```
+Result: stable each year, no compound growth from internal capability.
+
+**Manifest / Amazon flywheel:**
+```
+Profit → reinvest в R&D → лучше софт → юристы продуктивнее →
+цена услуг падает → больше клиентов → больше profit → repeat
+```
+Result: **compound growth**, system gets cheaper-to-deliver + better-quality каждый год.
+
+### §13.3 Jetix application
+
+**Jetix будет следовать тому же — но в knowledge work / information management:**
+
+```
+Profit → жёсткий reinvest в R&D Jetix substrate →
+Jetix smarter (lens configs / agent roles / KB depth) →
+partners (founders/educators/coaches) получают better leverage →
+цена delivery падает → больше partners → больше profit → repeat
+```
+
+**Что значит конкретно:**
+- **Жёсткий reinvest** — minimum 60-80% net profits в R&D первые 3-5 лет (vs typical 10-20%)
+- **Минимизация partner bonuses / dividends** в Phase 1-2 (Ruslan + ранние partners get equity / future appreciation, не cash bonuses)
+- **R&D priority** — Jetix kernel evolution (foundation model thinking) > short-term feature wins
+- **Compound learning** — каждое R&D вложение делает систему умнее → leverage для всех existing partners
+
+### §13.4 Conflict с distribution profits expectations
+
+| Stakeholder | Default expectation | Jetix Flywheel ask |
+|---|---|---|
+| Ranny investors (если будут) | Annual dividends / exits | Long-term equity appreciation |
+| Partners в Jetix | Yearly bonuses | Equity + future cash flow growth |
+| Ruslan (founder) | Salary / lifestyle | Reinvest until critical mass reached |
+| Customer / Mittelstand | Lower prices | **Get this** — flywheel benefits них |
+
+**Trade-off:** painful first 2-3 года. Cash flow tight. Lifestyle modest. **But** — после critical mass (likely Phase 2-3) — flywheel kicks in, exponential.
+
+### §13.5 Implications для current Phase 1
+
+- **Phase 1 ($100K target)** — uncompromised. Profits НЕ distribute, реinvest в:
+  - R&D Jetix kernel (Foundation model evolution)
+  - Tool integrations (more "станки" в substrate)
+  - First-partner onboarding infrastructure (templates / lens configs / agent roles)
+  - Knowledge graph deepening (privacy-preserved aggregations)
+- **NOT** lifestyle expansion / luxury / non-business spend — minimum living costs only
+- **NOT** premature hires — only what R&D или customer-delivery directly requires
+
+### §13.6 Hypothesis options (R&D priority allocation)
+
+> Brainstorm only. Ruslan-decided.
+
+**HR.1 — 80/20 split** — 80% reinvest, 20% Ruslan compensation (modest).
+**HR.2 — 100% reinvest first 12 months, then 70/30** — extreme early, ease later.
+**HR.3 — Allocation matrix** — 40% R&D substrate / 30% partner success / 20% knowledge graph / 10% buffer.
+**HR.4 — Per-vertical R&D budgets** — when Jetix-distros launch (HP.4), each vertical gets own R&D allocation = competitive within ecosystem.
+
+### §13.7 Risks (R&D Reinvestment specifically)
+
+**RR.1 — Cash flow shock if Phase 1 doesn't hit $100K** — without revenue, "reinvest" is moot. Need clear minimum survival threshold (e.g., 6-month runway preserved before reinvesting any "profit").
+
+**RR.2 — Partner expectations mismatch** — если Jetix partners ожидают cash distributions + Jetix reinvests → conflict. Address в Document 1B §9 partnership terms (equity-leaning, не dividend-leaning).
+
+**RR.3 — Burnout** — extreme reinvest = founder lives lean while building. 18-36 months of restraint hard. Flag для personal sustainability planning.
+
+### §13.8 Cross-link
+
+- **Companion** — STRATEGIC-INSIGHT-JETIX-AS-FOUNDATION-MODEL (Foundation = WHAT Jetix is) + STRATEGIC-INSIGHT-JETIX-PARTNERSHIP-MODEL §1-§12 (Partnership = HOW Jetix grows). **R&D Flywheel = HOW Jetix compounds** (third leg).
+- **Document 1B §9** — Партнёр/Клиент/Работник framework. R&D reinvestment implies partnership terms должны быть equity-heavy не cash-heavy. Update точка при revisit.
+- **TRM model §3** — management fee + performance fee. Performance fee already aligned с long-term value (vs immediate cash). Reinvestment posture makes performance fee structure more critical.
+
+### §13.9 Action items (R&D Reinvestment specifically)
+
+- [ ] Define "minimum survival threshold" — какой living cost / runway required перед reinvest
+- [ ] При Phase 1 → Phase 2 transition — explicit allocation matrix (per HR.3 hypothesis)
+- [ ] При Document 1B re-visit — add §9.X "R&D Reinvestment posture" + partnership terms (equity-leaning)
+- [ ] Track R&D % spending в financial dashboards (when financial pipeline matures)
+- [ ] Memory update — append note про reinvestment posture в `project_jetix_partnership_model.md`
