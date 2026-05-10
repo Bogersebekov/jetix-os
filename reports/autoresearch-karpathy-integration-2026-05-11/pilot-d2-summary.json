@@ -1,0 +1,237 @@
+{
+  "elapsed_sec": 2.3,
+  "experiment_id": "exp-2026-05-11-d2-voice-lens-pilot",
+  "summary": {
+    "total_experiments": 81,
+    "kept": 8,
+    "reverted": 72,
+    "skipped": 1,
+    "keep_ratio": 0.099,
+    "total_cost_eur": 0.0
+  },
+  "cost": {
+    "date": "2026-05-10",
+    "today_total_eur": 0.0,
+    "daily_cap_eur": 10.0,
+    "pct_of_cap": 0.0,
+    "exceeded": false,
+    "alert_fired": false
+  },
+  "constitutional_violations": 0,
+  "gate_hits": 80,
+  "constitutional_hits_in_loop": 0,
+  "kept_variants_count": 8,
+  "drr_candidates": [
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00001.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00010.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00024.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00042.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00048.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00052.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00065.md",
+    "reports/autoresearch-karpathy-integration-2026-05-11/drr-candidates/exp-2026-05-11-d2-voice-lens-pilot-v00069.md"
+  ],
+  "baseline_metric": 0.129,
+  "final_metric": 0.24,
+  "improvement_pct": 11.1,
+  "started": "2026-05-10T23:44:08",
+  "finished": "2026-05-10T23:44:11",
+  "max_experiments_requested": 80,
+  "baseline_secondary": {
+    "tier1_coverage": 0.129,
+    "source_diversity_ratio": 0.55,
+    "max_source_concentration": 0.15,
+    "no_single_source_concentration_pass": true,
+    "avg_top_score": 0.7646,
+    "high_prio_share": 0.8,
+    "items_above_threshold": 48,
+    "top_n_actual": 20
+  },
+  "kept_variants": [
+    {
+      "variant_name": "v00001",
+      "delta": 0.032299999999999995,
+      "secondary": {
+        "tier1_coverage": 0.1613,
+        "source_diversity_ratio": 0.65,
+        "max_source_concentration": 0.15,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7763,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 45,
+        "top_n_actual": 20
+      },
+      "changes": [
+        {
+          "property": "scoring_weights.recency",
+          "old_value": 0.1,
+          "new_value": 0.0526,
+          "rationale": "perturb recency weight by -0.05 then renormalize"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00010",
+      "delta": 0.037699999999999984,
+      "secondary": {
+        "tier1_coverage": 0.1667,
+        "source_diversity_ratio": 0.65,
+        "max_source_concentration": 0.15,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7763,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 45,
+        "top_n_actual": 20
+      },
+      "changes": [
+        {
+          "property": "tier_swap.Цэрэнов",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00024",
+      "delta": 0.043399999999999994,
+      "secondary": {
+        "tier1_coverage": 0.1724,
+        "source_diversity_ratio": 0.65,
+        "max_source_concentration": 0.15,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7763,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 20
+      },
+      "changes": [
+        {
+          "property": "tier_swap.сетевой эффект",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00042",
+      "delta": 0.049600000000000005,
+      "secondary": {
+        "tier1_coverage": 0.1786,
+        "source_diversity_ratio": 0.65,
+        "max_source_concentration": 0.15,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7763,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 20
+      },
+      "changes": [
+        {
+          "property": "tier_swap.Mittelstand",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00048",
+      "delta": 0.08529999999999999,
+      "secondary": {
+        "tier1_coverage": 0.2143,
+        "source_diversity_ratio": 0.68,
+        "max_source_concentration": 0.12,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7711,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 25
+      },
+      "changes": [
+        {
+          "property": "top_n",
+          "old_value": 20,
+          "new_value": 25,
+          "rationale": "top_n +5"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00052",
+      "delta": 0.0932,
+      "secondary": {
+        "tier1_coverage": 0.2222,
+        "source_diversity_ratio": 0.68,
+        "max_source_concentration": 0.12,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7711,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 25
+      },
+      "changes": [
+        {
+          "property": "tier_swap.Документ 1A",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00065",
+      "delta": 0.1018,
+      "secondary": {
+        "tier1_coverage": 0.2308,
+        "source_diversity_ratio": 0.68,
+        "max_source_concentration": 0.12,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7711,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 25
+      },
+      "changes": [
+        {
+          "property": "tier_swap.Phase 1",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    },
+    {
+      "variant_name": "v00069",
+      "delta": 0.11099999999999999,
+      "secondary": {
+        "tier1_coverage": 0.24,
+        "source_diversity_ratio": 0.68,
+        "max_source_concentration": 0.12,
+        "no_single_source_concentration_pass": true,
+        "avg_top_score": 0.7711,
+        "high_prio_share": 1.0,
+        "items_above_threshold": 43,
+        "top_n_actual": 25
+      },
+      "changes": [
+        {
+          "property": "tier_swap.Total Resource Management",
+          "old_value": "tier_1",
+          "new_value": "tier_2",
+          "rationale": "demote keyword from tier-1 to tier-2"
+        }
+      ],
+      "strategy": "programmatic"
+    }
+  ],
+  "abort_reason": "completed"
+}

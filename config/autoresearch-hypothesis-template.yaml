@@ -1,0 +1,122 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# AutoResearch hypothesis template — universal across D.1..D.16 domains
+# ═══════════════════════════════════════════════════════════════════════════
+# Authoritative spec: reports/autoresearch-karpathy-integration-2026-05-11/PLAN.md §3.3
+# Mirrors the voice-pipeline lens-config pattern (config-driven, no skill changes).
+#
+# Usage:
+#   1. Copy this file to config/autoresearch-hypothesis-<YYYY-MM-DD>-<short-slug>.yaml
+#   2. Fill in domain / hypothesis / mutable_substrate / acceptance_predicate
+#   3. Author program/<domain>.md (research agenda — Ruslan-authored per Q8 hybrid)
+#   4. Run: python3 tools/jetix-autoresearch/orchestrator.py --hypothesis <path>
+#
+# Constitutional discipline:
+#   - All Foundation paths are auto-excluded by constitutional_gate.py (R2)
+#   - Every mutation must declare blast_radius (R11)
+#   - hard-fail on any Default-Deny match (Q5 ack 2026-05-11)
+# ═══════════════════════════════════════════════════════════════════════════
+
+schema_version: 0.1
+experiment_id: exp-YYYY-MM-DD-<domain>-<short-slug>
+acting_as: autoresearch-brigadier
+domain: <one of D.1..D.16; e.g. D.2-voice-lens-config>
+hypothesis: |
+  One-sentence statement of what we're testing and why.
+
+# Initial lens / artefact under test — fed to evaluator as baseline.
+initial_lens_config: config/voice-pipeline-lens-2026-05-10-tseren.yaml
+
+baseline:
+  metric_name: <e.g. tier1_anchor_coverage>
+  current_value: null  # measured at orchestrator start
+  measurement_method_ref: tools/jetix-autoresearch/evaluator/voice_lens.py
+
+# ─── LOCKED part ───────────────────────────────────────────────────────────
+# What mutation MUST NOT touch (R2/R6/R11 enforcement).
+locked_substrate:
+  files:
+    - inbox/processed/filtered/batch_2026-05-10.json  # corpus is frozen
+    - tools/jetix-autoresearch/evaluator/voice_lens.py  # scoring formula structure
+  configs: []
+  rationale: |
+    Corpus + scoring-formula structure define the metric. They must remain
+    constant across experiments to make variant comparisons valid.
+
+# ─── MUTABLE part ──────────────────────────────────────────────────────────
+# What variants can change. constitutional_gate enforces.
+mutable_substrate:
+  files:
+    - config/voice-pipeline-lens-2026-05-10-tseren.yaml
+  configs:
+    - scoring_weights.{keyword,semantic,domain_element,recency}
+    - threshold
+    - top_n
+    - domain_element_weights.*
+    - tier_1_keywords[]
+    - tier_2_keywords[]
+    - tier_3_keywords[]
+  constraints:
+    - no_new_package_installs
+    - simplicity_prior_strong
+    - max_diff_lines: 200
+    - preserve_scoring_weights_renormalization  # sum=1.0
+
+# ─── Variants ──────────────────────────────────────────────────────────────
+# Programmatic mode auto-generates these from mutation operators.
+# LLM mode (cc_helper via Max sub) generates them with the research agenda
+# from program/<domain>.md as context.
+variants: []
+
+# ─── Evaluation ────────────────────────────────────────────────────────────
+evaluation:
+  acceptance_predicate: |
+    Hamel-binary:
+      PASS iff tier1_coverage >= 0.80 AND
+              source_diversity_ratio >= 0.50 AND
+              max_source_concentration <= 0.35
+      FAIL otherwise.
+  primary_metric: tier1_anchor_coverage
+  secondary_metrics:
+    - source_diversity_ratio
+    - max_source_concentration
+    - avg_top_score
+    - high_prio_share
+    - items_above_threshold
+  judge_mode: deterministic  # Q7 ack 2026-05-11 (D.2 = deterministic)
+
+# ─── Budget ────────────────────────────────────────────────────────────────
+budget:
+  max_experiments: 80
+  daily_cap_eur: 10.0                  # Q2 ack 2026-05-11 (hard cap)
+  alert_pct: 0.80                       # 80% soft alert
+  max_cost_eur_per_experiment: 0.5
+  wall_clock_budget_per_experiment_minutes: 5
+  abort_on_consecutive_failures: 10    # Q9 ack 2026-05-11
+
+# ─── Gate ──────────────────────────────────────────────────────────────────
+gate:
+  blast_radius: Tier-3                 # RUSLAN-LAYER cosmetic-config (low blast)
+  auto_keep_threshold_pct: 1.0         # Q3 ack 2026-05-11 (≥1% improvement, no regression)
+  external_domain: false               # external-surface domains never auto-keep
+  promotion_gate: draft_promotion      # Part 5 §B.2 + Part 6b §I.4
+  promotion_threshold_validated_cycles: 3  # Q4 ack 2026-05-11
+  pre_mutation_gate_mode: hard_fail    # Q5 ack 2026-05-11
+
+# ─── Provenance ────────────────────────────────────────────────────────────
+provenance:
+  parent_program_md: program/d2-voice-lens.md
+  parent_canonical:
+    - swarm/wiki/operations/voice-pipeline-canonical-2026-05-10.md
+    - swarm/wiki/foundations/part-5-compound-learning-methodology-capture/architecture.md
+    - swarm/wiki/foundations/part-6b-human-gate/architecture.md
+  sources:
+    - reports/autoresearch-karpathy-integration-2026-05-11/PLAN.md
+
+# ─── Constitutional ────────────────────────────────────────────────────────
+constitutional:
+  default_deny_class: autoresearch_propose_mutation   # added to deny-table per §4.4
+  rationale: |
+    RUSLAN-LAYER mutable_substrate (lens config). Pre-authorized iff
+    (a) mutation within declared mutable_substrate, (b) no
+    constitutional_never_list match, (c) cost within budget. Hard-fail
+    on any violation per Q5.

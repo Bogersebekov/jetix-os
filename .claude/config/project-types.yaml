@@ -227,6 +227,50 @@ types:
         spawned_paths: []
     default_kpi_targets: {}           # bets start with no fixed KPI targets; set after SG-2
 
+  # ── AUTORESEARCH (added 2026-05-11 per Ruslan ack Phase 2 MVP) ────────────
+  # Standalone Karpathy-style propose→eval→keep-or-revert project type.
+  # Authoritative spec: reports/autoresearch-karpathy-integration-2026-05-11/PLAN.md
+  # Q11 ack 2026-05-11: BOTH supported — standalone (this type) + embedded
+  # (inside any other project; hypothesis-config lives in the host project dir).
+  autoresearch:
+    type_specific_files:
+      - context.md                    # metrics source: cycle_count, experiments_run_total, etc.
+      - hypotheses/.gitkeep           # directory; one per-domain hypothesis-config slug
+      - program/.gitkeep              # directory; Ruslan-authored research agenda per Q8 hybrid
+    adaptive: false
+    default_experts:
+      - engineering-expert            # design-safety review on mutations (R2/R6)
+      - investor-expert               # cost/ROI envelope per run; burn-rate anomalies
+    default_stage_gates:
+      SG-0:
+        predicate: "context.md:experiments_run_total >= 1"
+        description: "Baseline measurement complete — first orchestrator run finished."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-1:
+        predicate: "count(reports/autoresearch-*/drr-candidates/*.md) >= 5"
+        description: "At least 5 DRR-candidate entries emitted (KEEP variants exist)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-2:
+        predicate: "count(reports/autoresearch-*/drr-candidates/*.md:validated_in_cycles: 3) >= 1"
+        description: "At least 1 DRR candidate cleared Q4 threshold (≥3 validated cycles)."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+      SG-4:
+        predicate: "context.md:cycle_count >= 5 AND context.md:active_tasks_current >= 3"
+        description: "Domain pilot has sustained activity — eligible for cross-domain expansion proposal."
+        state: pending
+        fired_at: null
+        spawned_paths: []
+    default_kpi_targets:
+      keep_variants_total: ">=5"
+      constitutional_violations_total: "==0"
+      daily_cost_within_cap: true
+
 # ─────────────────────────────────────────────────────────────────────────────
 # Promotion rules — B3 merged into B2 per Ruslan Gate-2 decision.
 # When a bets project hits a stage-gate, it may auto-spawn additional scaffold
