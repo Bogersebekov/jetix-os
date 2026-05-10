@@ -184,6 +184,71 @@ Existing pixel-art дизайн = идеальная база для Realm:
 - Equity-leaning partnership (per RES.3)
 - Compound learning environment
 
+### §6.1 ⭐ Game Economy Experts — high priority targets (ack Ruslan 2026-05-11)
+
+> «Точно подключим к gamification chuvaka, который вот экономику игр рассказывал. Сейчас, во-первых, теорию игр изучим. И второе, человека, который game economy создал, продвигал.» — Verbatim Ruslan, 2026-05-11.
+
+**Identified candidates** (real-world game economy professionals):
+
+#### GE.1 — Yanis Varoufakis ⭐ TOP CANDIDATE
+- **Role:** Valve's economist-in-residence (2012-2014); studied Steam / TF2 / Dota 2 virtual economies
+- **Background:** Greek-Australian academic economist; former **Greek Finance Minister (2015)**; co-founder DiEM25 progressive European movement
+- **Books:** «And the Weak Suffer What They Must?» / «Talking to My Daughter About the Economy» / «Technofeudalism: What Killed Capitalism» (2023 — directly discusses how Valve/Steam economy patterns connect к broader technofeudalism critique)
+- **Why relevant:** **Real-world economist** applied к game economy + media persona + progressive politics (Manifest pattern fit) + connects games ↔ real economy theory
+- **How to approach:** Public figure — accessible через social media / academic channels / podcast outreach; high-bar but Manifest-pattern progressive partner candidate
+- **Sources:**
+  - [The Nation: «The Videogame That Yanis Varoufakis Used to Study the Eurozone»](https://www.thenation.com/article/archive/videogame-yanis-varoufakis-used-study-eurozone/)
+  - [Aftermath: Varoufakis on Technofeudalism + Valve role](https://aftermath.site/yanis-varoufakis-technofeudalism-valve-steam-interview/)
+  - [Yahoo Finance: «Steam could produce better macroeconomic forecasts than Goldman Sachs»](https://finance.yahoo.com/news/valves-former-economist-says-steam-214635614.html)
+
+#### GE.2 — Eyjólfur Guðmundsson
+- **Role:** Chief Economist CCP Games (EVE Online) с 2007
+- **Background:** PhD; University of Akureyri (Iceland)
+- **Why relevant:** **Longest-running real-world economist** в game industry; publishes EVE Online quarterly economic reports; data-rich precedent для Jetix
+- **How to approach:** Industry / academic channels
+- **Source:** CCP Games / EVE Online publications
+
+#### GE.3 — Edward Castronova
+- **Role:** Academic; pioneering economist of virtual worlds
+- **Background:** Indiana University professor; author **«Synthetic Worlds»** (2005) + **«Exodus to the Virtual World»**
+- **Why relevant:** **Foundational academic** того что virtual economies = real economies; thought leader
+
+#### GE.4 — Vili Lehdonvirta
+- **Role:** Oxford Internet Institute professor; virtual economy researcher
+- **Background:** Academic; book **«Virtual Economies: Design and Analysis»** (MIT Press)
+- **Why relevant:** Modern academic foundation для design choices
+
+#### GE.5 — Daniel James
+- **Role:** Founder Three Rings (Puzzle Pirates) — game с known design as economist
+- **Why relevant:** Hands-on game designer who explicitly думает в econ terms
+
+#### GE.6 — Ramin Shokrizade
+- **Role:** Game economy / monetization expert
+- **Background:** Industry consultant; specializes в virtual goods + whaling psychology
+- **Why relevant:** Counter-perspective — что NOT делать (toxic monetization patterns — Jetix learns to avoid)
+
+### §6.2 Game Theory — academic foundation to study
+
+Прежде чем applying gamification и hiring experts, study foundational game theory:
+
+- **John Maynard Smith** — evolutionary game theory (ESS, cooperation patterns)
+- **John Nash** — Nash equilibrium (multi-player decision making)
+- **Robert Axelrod** — Iterated Prisoner's Dilemma («Evolution of Cooperation»)
+- **Thomas Schelling** — strategy of conflict / focal points
+- **Modern applications** — mechanism design (Hurwicz / Maskin / Myerson), auction theory, matching markets (Roth)
+- **Behavioral game theory** — Camerer, etc.
+
+**Why study:** game economy design = applied game theory. Без foundation = build on intuition.
+
+### §6.3 Action items (added 2026-05-11)
+
+- [ ] Future research deep-dive — Yanis Varoufakis Valve era materials (papers + interviews + his book Technofeudalism)
+- [ ] Future research — EVE Online quarterly economic reports archive (CCP Games)
+- [ ] Future research — Castronova «Synthetic Worlds» + Lehdonvirta «Virtual Economies»
+- [ ] Future outreach (Phase 2+) — Yanis Varoufakis as **first** game economy partner target; pitch = Manifest-pattern partnership
+- [ ] Future learning — Game Theory foundations (Nash / Axelrod / Schelling); allocate Phase 2 study time
+- [ ] Memory update — `project_game_economy_experts_outreach.md` separate entry
+
 ---
 
 ## §7 Hypothesis options для развития
