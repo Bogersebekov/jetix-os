@@ -234,3 +234,28 @@ tools/jetix-autoresearch/results/cost-ledger/2026-05-10.jsonl  (cost trail)
 
 **No autonomous next steps will be taken.** Stop after push + signal per
 RUSLAN ANSWERS in the dispatch prompt.
+
+---
+
+## §9 Ruslan ack 2026-05-11 (Cycle 1 close — merge + tag authorization)
+
+> Recorded as gated cycle-close per Tier 2 R9.
+
+- **Q-pilot-1 ack:** Promote shortlist `v00048 / v00052 / v00065 / v00069` to
+  methodology-candidate review; wait ≥3 cycles validation per Q4 threshold.
+  **No promotion attempted at cycle 1.**
+- **Q-pilot-2 ack:** YES — re-run with `--llm-share 0.10` for LLM-creative
+  mutations. Deferred to next session (separate scheduled task).
+- **Q-pilot-3 ack:** More D.2 cycles first (target ≥3 validated cycles for
+  methodology promotion). D.4 / D.11 expansion **deferred** until D.2 meets
+  Q4 threshold.
+- **Q-pilot-4 ack:** All 4 AWAITING-APPROVAL packets in
+  `swarm/approvals/log.jsonl` are **acknowledged**: pause-restart events
+  legitimate; diversity_jolt successfully resumed propose loop after each.
+- **Constitutional posture ack:** 0 violations / 80 gate-hits / append-only
+  discipline / Tier 2 R1/R2/R6/R9/R11 all PASS — all green.
+- **Merge authorization:** merge `claude/voice-pipeline-2026-05-10` to `main`;
+  tag this commit family as `autoresearch-v1-2026-05-11`.
+
+Strategies promoted from cycle 1 → `agents/autoresearch-brigadier/strategies.md`
+(see file). Methodology promotion **not yet** triggered; awaits cycles 2 + 3.
