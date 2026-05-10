@@ -240,6 +240,42 @@ Existing pixel-art дизайн = идеальная база для Realm:
 
 **Why study:** game economy design = applied game theory. Без foundation = build on intuition.
 
+### §6.2.1 ⭐ Academic professors teaching economy через gaming (Ruslan TOP target — clarification ack 2026-05-11)
+
+> «Это какой-то профессор, у него видео на YouTube, интервью» — Ruslan, 2026-05-11. (Не Varoufakis — он не academic-professor framing.)
+
+#### GE.7 ⭐ Joost van Dreunen — MOST LIKELY TARGET
+- **Role:** Professor at NYU Stern School of Business — teaches **business of video games as academic discipline**
+- **Background:** Industry analyst + academic; founded **SuperData Research** (gaming market intelligence, acquired by Nielsen)
+- **Book:** **«One Up: Creativity, Competition, and the Global Business of Video Games»** (2020) — primary text on game industry economics
+- **Newsletter:** **SuperJoost** — regular industry economic analysis
+- **Why fit Ruslan's description:**
+  - Academic professor ✓
+  - YouTube videos + interviews + podcasts ✓ (regularly featured Marketplace / various business podcasts)
+  - **Explains real economic principles через лens of video game economy** ✓ (his core methodology)
+- **How to approach:** Email NYU Stern + podcast outreach + newsletter subscribe
+- **Sources:**
+  - [Marketplace: «What video games can teach us about economics»](https://www.marketplace.org/story/2023/07/24/what-video-games-can-teach-us-about-economic-decision-making) — features van Dreunen
+  - NYU Stern faculty page (verify)
+  - SuperJoost newsletter
+
+#### GE.8 — Dmitri Williams
+- **Role:** Professor at **University of Southern California (USC)**
+- **Background:** Uses video games to study real-world behavior; co-founder Ninja Metrics (game analytics)
+- **Why relevant:** Combines academic rigor + practical game data analysis; published research
+- **Source:** USC Annenberg School of Communication; multiple academic papers
+
+#### GE.9 — Noah Trudeau (PhD candidate, не professor yet — but YouTube/Twitch)
+- **Role:** PhD candidate Economics at West Virginia University
+- **Background:** Teaches economic principles через video games; **offers office hours via Twitch**
+- **Why relevant:** Younger / more accessible; modern teaching format (livestream + games); может быть easier first contact
+- **Source:** [WVU profile](https://business.wvu.edu/news-and-events/news/2020/04/17/level-up-chambers-college-ph-d-student-teaches-economic-principles-through-video-games)
+
+#### GE.10 — Jeff Sarbaum
+- **Role:** Faculty at **UNC Greensboro**
+- **Background:** Designed Flash game to teach microeconomics; featured NPR + Boston Globe
+- **Why relevant:** Hands-on pedagogy creator; could collaborate на educational module Jetix Realm
+
 ### §6.3 Action items (added 2026-05-11)
 
 - [ ] Future research deep-dive — Yanis Varoufakis Valve era materials (papers + interviews + his book Technofeudalism)
