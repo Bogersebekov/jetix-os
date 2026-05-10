@@ -206,6 +206,50 @@ Per TRM model — possible but legally complex (cross-border revenue share, equi
 
 ---
 
+## §10.1 RESOLUTIONS — Ruslan ack 2026-05-10 ⭐
+
+После initial brainstorm + второго pass — Ruslan закрыл 2 из 3 tensions:
+
+### RES.1 — Mittelstand DACH ICP → ABANDONED. Online-first ONLY.
+
+> **Verbatim Ruslan, 2026-05-10:** «Этот ебаный датча и сипим вообще нахуй выкидываем, забываем. Нам поебать на это.»
+
+**Status:** Mittelstand DACH **больше не Phase 1 ICP**. Online-first verticals = **only** Phase 1 focus.
+
+**Implications:**
+- Document 1B §7 ICP **needs rewrite** — Mittelstand DACH → Online verticals (founders / educators / bloggers / solo consultants / indie devs / producers / community managers)
+- Mittelstand может быть Phase 3+ expansion **at most** — не Phase 2.
+- Voice-pipeline lens config Tseren — keep as is (Цэрэн = online vertical, fits)
+- **Don't pull Mittelstand reference в Цэрэн video** — just don't elevate it. Original outreach уже не emphasized Mittelstand, OK as is.
+
+**Action:** при Document 1B re-visit — explicit §7 ICP rewrite. До тех пор — этот insight = canonical guidance.
+
+### RES.2 — R&D Reinvestment → 90% target. Founder living costs minimal.
+
+> **Verbatim Ruslan, 2026-05-10:** «Что в reinvestment — всё нахуй сука 90 процентов всё же только можно взять всё сука пиздуется обратно в R&D. Это копейки на founder living cost, не еби голову.»
+
+**Status:** §13 R&D Reinvestment posture **resolved at 90%** target.
+
+**Implications:**
+- Discard hypothesis HR.1-HR.4 — replaced with **direct decision**: 90% net profits → R&D. 10% (or less) → founder bare living costs.
+- Living costs = **bare minimum** только. No lifestyle expansion / luxury / non-business spend.
+- Risks RR.1 (cash flow shock) + RR.3 (burnout) — accepted. Ruslan goes lean. Survival threshold = bare-bones (rent / food / health).
+- При Document 1B re-visit — §9 partnership terms must reflect: equity-heavy / dividend-light. Partners принимают long-term flywheel posture explicitly.
+
+**Action:** target 90% reinvest как baseline. Adjust только если cash flow shock requires temporary lower (say 70%) для survival — но recover к 90% asap.
+
+### RES.3 — Equity-leaning partnership terms → DEFERRED to Phase 1-2 transition.
+
+> **Verbatim Ruslan, 2026-05-10:** «Похуй, ну там что-то выберем.»
+
+**Status:** Document 1B §9 partnership terms structure (Партнёр variants A-E) — **stays current** до Phase 1→2 transition. Decision then.
+
+**Implications:**
+- No immediate change.
+- Note for Phase 1→2 strategic session — review §9 партнёр options through reinvestment posture + Manifest-pattern lens. Equity-heavy variants (D / E TBD) likely preferred but not forcibly committed.
+
+---
+
 ## §11 What NOT to do
 
 - ❌ NOT redirect Phase 1 plan ($100K Mittelstand consulting) immediately — verify with Ruslan first
