@@ -276,6 +276,102 @@ Existing pixel-art дизайн = идеальная база для Realm:
 - **Background:** Designed Flash game to teach microeconomics; featured NPR + Boston Globe
 - **Why relevant:** Hands-on pedagogy creator; could collaborate на educational module Jetix Realm
 
+### §6.2.2 ⭐⭐⭐ CONFIRMED — Edward Castronova (Ruslan ack 2026-05-11)
+
+> «Я говорил конкретно об этом человеке. Всех остальных оставляем (хорошие находки, потом тоже будем использовать).» — Ruslan, 2026-05-11
+
+**Edward Castronova = primary academic mentor candidate для Jetix Realm economy design.**
+
+Detail beyond §6 (GE.3):
+- **Affiliation:** Indiana University — Department of Media School
+- **Pioneering work:** «Synthetic Worlds: The Business and Culture of Online Games» (2005) — academic foundation field
+- **Other books:** «Exodus to the Virtual World» (2007), «Wildcat Currency» (2014, virtual currencies)
+- **Methodology:** treats virtual worlds as **legitimate economic environments** with real-world implications; pioneer of measuring GNP of game worlds (EverQuest 77th richest country if it were nation, 2002)
+- **YouTube / interviews:** Multiple academic lectures + interviews; appears regularly в discussions virtual economy
+- **Why Castronova specifically:**
+  - Academic professor framing ✓
+  - YouTube videos ✓
+  - Interviews ✓
+  - **Founded the academic discipline** of virtual world economics
+  - Bridges real economy ↔ game economy theory
+- **How to approach:** Indiana University Media School + academic conferences + email outreach + podcast format (his work) + book club discussion
+
+**Confirmed как primary academic mentor target Phase 2+** (после Phase 1 traction). Strategic Council expansion vector — он = «Cus D'Amato» в domain virtual economy academic theory.
+
+---
+
+## §6.4 ⭐ Machinations.io — Core tool for Jetix arsenal (added Ruslan 2026-05-11)
+
+> «Сайт тоже изучи, как он работает, как его используют. Его механику в Jetix будем использовать прямо сейчас — как Mermaid + Notion + и т.д. Это и для геймификации удобно, и для реальной работы экономики.» — Ruslan, 2026-05-11
+
+### §6.4.1 Что такое Machinations.io
+
+**Browser-based visual platform для design + simulate game systems + economies.**
+
+- **URL:** [machinations.io](https://machinations.io/)
+- **Type:** Interactive diagram tool для economic systems
+- **Functionality:**
+  - Map ANY game system в interactive diagram (resources / sources / drains / converters / triggers)
+  - Set parameters (rates / probabilities / chains)
+  - **Simulate** behavior с **Monte Carlo runs** (randomness included, не just averages)
+  - **Balance economies** before deployment — test hypotheses без живых players
+  - Collaborative (multiple designers одновременно)
+- **Pricing:** Free to start (Google login). Paid tiers для team/enterprise.
+
+### §6.4.2 Что Machinations gives Jetix
+
+Mechanics для **2 use cases** одновременно:
+
+#### Use case A — Jetix Realm internal economy design
+
+- Model TRM 6 ресурсов (Capital / Time / Audience / Knowledge / Compute / Network) как **resource pool nodes**
+- Quest rewards = sources → flow into player pools
+- Clan tax = drain → goes to platform R&D fund
+- Energy regeneration = automatic source per time
+- Marketplace exchange = converter (resource A → resource B at rate X)
+- Simulate **before launching** — test balance, prevent broken economies
+
+#### Use case B — Real business economy modeling
+
+- Model **real Jetix business** как economic system
+- Revenue streams (services / partnerships / equity) = sources
+- Costs (founder living / R&D / infrastructure) = drains
+- Reinvestment 90% (RES.2) = converter
+- Simulate cash runway scenarios (RES.2 implication — RR.1 cash flow shock risk)
+- **Test «Что если» scenarios** до commitment
+
+### §6.4.3 Position в Jetix tool arsenal (станки мастерской)
+
+**Machinations.io = новый канonical станок в Workshop:**
+
+| Tool | Назначение | Used for |
+|---|---|---|
+| Mermaid (LOCKED) | Visual diagrams (system architecture, flows) | Communication / sharing |
+| Notion | Structured documents + relations + dashboards | Knowledge management + tracking |
+| Claude Code | Code + content generation + agent orchestration | Build + automate |
+| Voice pipeline | Voice notes → structured insights | Idea capture |
+| **Machinations.io** ⭐ | **Economic systems design + simulation** | **Economy modeling + balance testing** |
+
+**Adaptable станок discipline:** per Workshop concept §1.4 — добавляется за день, может быть removed если перестал быть полезным.
+
+### §6.4.4 Action items (Machinations integration)
+
+- [ ] **Test sign-up** — Ruslan creates free account на machinations.io
+- [ ] **First prototype** — model TRM 6 ресурсов как resource pools + 2-3 quest flows (test internal economy design pattern)
+- [ ] **Second prototype** — model real Jetix business cash flow (test RES.2 90% reinvest cash runway scenarios)
+- [ ] **Documentation** — `swarm/wiki/operations/machinations-canonical-2026-05-XX.md` (similar к mermaid-style-guide pattern)
+- [ ] **Future skill** — `.claude/skills/machinations-create/` (parallel к mermaid-create) — auto-scaffold economic models
+- [ ] **Future cross-link** — Strategic Insight Foundation Model H.6 «Kubernetes for AI agents» + Machinations = economy designer toolkit pour Phase 2 product
+
+### §6.4.5 Sources
+
+- [machinations.io](https://machinations.io/) — main site
+- [«What is game economy design»](https://machinations.io/articles/what-is-game-economy-design) — core methodology
+- [«What are game simulations»](https://machinations.io/articles/what-are-game-simulations-and-why-should-you-care) — simulation patterns
+- [GameFromScratch tutorial](https://gamefromscratch.com/machinations-game-design-tool/) — third-party walkthrough
+- [«Balancing, solved!»](https://machinations.io/articles/balancing-solved) — balancing methodology
+- [Games Design Diagram Examples](https://machinations.io/articles/games-design-diagram-examples) — examples gallery
+
 ### §6.3 Action items (added 2026-05-11)
 
 - [ ] Future research deep-dive — Yanis Varoufakis Valve era materials (papers + interviews + his book Technofeudalism)
