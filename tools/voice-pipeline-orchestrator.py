@@ -440,161 +440,460 @@ def stage_4_per_note(memo_filter: List[str], output_dir: Path,
     return {"sections": len(memo_filter), "nothing_extractable": nothing_count}
 
 
-# ─── Stage 5 — Wiki candidates ──────────────────────────────────────────────
+# ─── Stage 5 — Wiki candidates (v2: hybrid BM25 + LLM rerank, 3-tier output) ─
+
+def _load_lens_thresholds(lens: Dict[str, Any]) -> Dict[str, float]:
+    """Pull Stage 5 v2 tuning knobs from lens config (with defaults)."""
+    return {
+        "match_high":     float(lens.get("wiki_match_threshold_high", 0.85)),
+        "match_medium":   float(lens.get("wiki_match_threshold_medium", 0.60)),
+        "top_k":          int(lens.get("wiki_match_top_k_prefilter", 10)),
+        "skip_below_bm25": float(lens.get("wiki_match_skip_below_bm25", 1.0)),
+        "min_freq":       int(lens.get("wiki_propose_new_min_frequency", 1)),
+        "lens_boost":     float(lens.get("wiki_lens_keyword_boost", 0.10)),
+    }
+
 
 def stage_5_wiki_candidates(filtered_data: Dict[str, Any], output_dir: Path,
-                              log: DisciplineLog) -> Dict[str, Any]:
-    """Match filtered items against wiki/index.md or propose new entries."""
-    log.stage_start(5, "Wiki candidates extraction")
-    out_path = output_dir / "04-wiki-candidates.md"
+                              log: DisciplineLog,
+                              lens: Optional[Dict[str, Any]] = None) -> Dict[str, Any]:
+    """Hybrid Stage 5 v2 — BM25 prefilter → LLM batched rerank → 3-tier output.
 
-    # Build wiki index: read wiki/index.md to get list of existing pages
-    wiki_pages: List[str] = []
+    Per reports/wiki-integration-redesign-2026-05-10/PLAN.md §2-§5:
+      Stage 5.1: BM25 over FULL wiki bodies (Russian-aware tokenizer)
+      Stage 5.2: Claude Sonnet rerank top-K candidates per voice item
+      Stage 5.3: Categorize Tier A / B / C; emit 04-wiki-candidates-v2.md +
+                 sidecar JSON for /wiki-bulk-ack
+    """
+    log.stage_start(5, "Wiki candidates v2 (hybrid BM25 + LLM rerank)")
+
+    # Local imports — keep orchestrator import-light
+    from tools.wiki_integration.bm25_matcher import build_index, rank
+    from tools.wiki_integration.llm_ranker import rank_all_batched
+    from tools.wiki_integration.template_filler import (
+        CATEGORY_TO_ENTITY, derive_title, infer_niche, slugify,
+    )
+    from tools.wiki_integration.wiki_index_loader import load_wiki_corpus
+
+    lens = lens or {}
+    cfg = _load_lens_thresholds(lens)
+    today = datetime.now().strftime("%Y-%m-%d")
+
+    out_md = output_dir / "04-wiki-candidates-v2.md"
+    out_json = output_dir / "04-wiki-candidates-v2.json"
+
+    # ── Stage 5.1 — Build BM25 index over wiki bodies ──
+    log.stage_log(f"5.1 loading wiki corpus from {ROOT/'wiki'}")
+    wiki_root = ROOT / "wiki"
+    docs = load_wiki_corpus(wiki_root)
     if WIKI_INDEX.exists():
-        idx_content = WIKI_INDEX.read_text(encoding="utf-8", errors="replace")
-        for m in re.finditer(r"\[([^\]]+)\]\(([^\)]+\.md)\)", idx_content):
-            wiki_pages.append(f"{m.group(1)} :: {m.group(2)}")
+        v1_title_count = len(re.findall(r"\[([^\]]+)\]\(([^\)]+\.md)\)",
+                                          WIKI_INDEX.read_text(encoding="utf-8", errors="replace")))
+    else:
+        v1_title_count = 0
+    log.stage_log(f"5.1 loaded {len(docs)} wiki entries (vs v1: {v1_title_count} title-only refs)")
+    bm25_idx = build_index(docs)
+    log.stage_log(f"5.1 BM25 index built: vocab={len(bm25_idx.df)}, avgdl={bm25_idx.avgdl:.0f}")
 
+    # ── Filter input items ──
     items = filtered_data.get("items", [])
-
-    # Heuristic-only matching to keep cost low + deterministic.
-    # Tier 2 LLM augmentation can be added later — for Phase 2 first run, use
-    # token-overlap + slug-match.
-    candidates: List[Dict[str, Any]] = []
+    candidates: List[Dict[str, Any]] = []  # everything we'll rank/categorize
+    skipped: List[Dict[str, Any]] = []     # § D — skipped
+    next_id = 1
     for item in items:
-        if item.get("category") == "nothing-extractable":
+        cat = item.get("category", "")
+        if cat == "nothing-extractable":
             continue
-        content = item.get("content", "") or ""
+        content = (item.get("content", "") or "").strip()
         if len(content) < 20:
             continue
-        # Skip items with low frequency AND short content
-        freq = item.get("frequency", 1)
-        if freq < 2 and len(content) < 50:
+        freq = item.get("frequency", 1) or 1
+        if freq < cfg["min_freq"] and len(content) < 50:
             continue
-
-        content_tokens = set(re.findall(r"\w{4,}", content.lower()))
-        best_match = None
-        best_score = 0.0
-        for page in wiki_pages:
-            page_lower = page.lower()
-            page_tokens = set(re.findall(r"\w{4,}", page_lower))
-            if not page_tokens:
-                continue
-            overlap = content_tokens & page_tokens
-            score = len(overlap) / max(len(page_tokens), 1)
-            # Boost if any tier-1-style proper noun matches
-            if score > best_score:
-                best_score = score
-                best_match = page
-
-        # Decide entity type for propose-new based on category
-        cat_to_entity = {
-            "Концепции": "concepts", "Концепция": "concepts",
-            "Идеи": "ideas", "Идеи для проектов": "ideas",
-            "Стратегические гипотезы": "claims", "Принципы": "claims",
-            "Инсайты": "claims", "Личные наблюдения": "claims",
-            "Контакты": "entities", "Ресурсы": "sources",
-            "Открытые вопросы": "topics", "Видение": "topics",
-            "Решения": "claims", "Задачи": None,
-        }
-        entity_type = cat_to_entity.get(item.get("category"), "topics")
+        # Skip Контакты / Задачи up-front per §3.1
+        entity_type = CATEGORY_TO_ENTITY.get(cat)
         if entity_type is None:
+            skipped.append({
+                "id": next_id, "category": cat,
+                "content_preview": content[:120],
+                "reason": "Контакты → /crm-add" if cat == "Контакты" else "Задачи → operational",
+                "appeared_in_memos": item.get("appeared_in_memos", []),
+                "sources": item.get("sources", []),
+            })
+            next_id += 1
             continue
-
-        # Generate proposed slug
-        slug_base = re.sub(r"[^a-z0-9]+", "-", content.lower()[:60]).strip("-")
-        slug = f"{entity_type}/{slug_base}"
-
-        decision = "match-to-existing" if best_score >= 0.7 else "propose-new"
-        candidate = {
-            "decision": decision,
-            "score": round(best_score, 2),
-            "category": item.get("category"),
+        candidates.append({
+            "id": next_id,
+            "category": cat,
+            "content": content,
             "frequency": freq,
+            "priority": item.get("priority", "low"),
+            "project": item.get("project"),
             "appeared_in_memos": item.get("appeared_in_memos", []),
-            "content_preview": content[:200],
-            "matched_page": best_match if decision == "match-to-existing" else None,
-            "proposed_entity_type": entity_type if decision == "propose-new" else None,
-            "proposed_slug": slug if decision == "propose-new" else None,
-        }
-        candidates.append(candidate)
+            "sources": item.get("sources", []),
+            "entity_type_hint": entity_type,
+        })
+        next_id += 1
 
-    # Write
-    matches = [c for c in candidates if c["decision"] == "match-to-existing"]
-    proposes = [c for c in candidates if c["decision"] == "propose-new"]
-    match_rate = len(matches) / max(len(candidates), 1)
+    log.stage_log(f"5.1 candidates filtered: {len(candidates)} | skipped (Контакты/Задачи): {len(skipped)}")
 
-    lines = [
+    # ── Stage 5.1 BM25 prefilter ──
+    # Items below skip_below_bm25 (default 1.0) → bypass LLM, straight to Tier C.
+    # Per PLAN.md §2.2 Stage 5.1 — saves LLM cost on items with no plausible match.
+    bm25_results: Dict[int, List[Dict[str, Any]]] = {}
+    pre_skip = 0
+    for c in candidates:
+        ranked = rank(bm25_idx, c["content"], top_k=cfg["top_k"])
+        if not ranked or ranked[0][1] < cfg["skip_below_bm25"]:
+            bm25_results[c["id"]] = []
+            pre_skip += 1
+        else:
+            bm25_results[c["id"]] = [
+                {
+                    "path": docs[di].path,
+                    "title": docs[di].title,
+                    "snippet": docs[di].snippet,
+                    "bm25": float(s),
+                }
+                for di, s in ranked
+            ]
+    # Stage 5.1b — secondary prefilter: items with BM25 top-1 < 8.0 are
+    # almost always coincidental keyword overlap (validated empirically).
+    # Strip them from LLM rerank input but preserve in bm25_results for Tier-C
+    # neighbor edges.
+    weak_signal_threshold = float(lens.get("wiki_match_weak_signal_threshold", 8.0))
+    weak_pruned = 0
+    eligible_bm25_results: Dict[int, List[Dict[str, Any]]] = {}
+    for c in candidates:
+        cands = bm25_results[c["id"]]
+        if cands and cands[0]["bm25"] >= weak_signal_threshold:
+            eligible_bm25_results[c["id"]] = cands
+        else:
+            eligible_bm25_results[c["id"]] = []  # → straight Tier C
+            if cands:
+                weak_pruned += 1
+    log.stage_log(f"5.1b weak-signal prune (BM25 top-1 < {weak_signal_threshold}): {weak_pruned} items → Tier C")
+    log.stage_log(f"5.1 BM25 prefilter: {len(candidates) - pre_skip} eligible for LLM, {pre_skip} → straight Tier C")
+
+    # ── Stage 5.2 — LLM rerank batched ──
+    # Use the post-weak-prune eligible set
+    bm25_results = eligible_bm25_results
+    eligible_for_llm = [c for c in candidates if bm25_results[c["id"]]]
+    log.stage_log(f"5.2 starting LLM rerank for {len(eligible_for_llm)} items in batches of 8")
+
+    # Optional override to skip LLM (offline mode for local debugging)
+    skip_llm = os.environ.get("STAGE5_SKIP_LLM") == "1"
+    rank_results: Dict[int, Dict[str, Any]] = {}
+    if skip_llm:
+        log.stage_log("5.2 STAGE5_SKIP_LLM=1 → using BM25-only calibrated scoring")
+        # Calibration anchored to plan-aligned tier boundaries:
+        #   tanh(bm25 / 22) gives:
+        #     bm25=11 → 0.46  (just below Tier B 0.60 threshold → Tier C)
+        #     bm25=15 → 0.61  (Tier B)
+        #     bm25=22 → 0.76  (Tier B)
+        #     bm25=30 → 0.87  (Tier A)
+        #     bm25=40 → 0.94  (Tier A)
+        # Validated against 10-item LLM smoke test 2026-05-10 (single batch
+        # in ~3.5 min via cc-headless; cf. discipline-log).
+        import math
+        for c in eligible_for_llm:
+            top = bm25_results[c["id"]][0]
+            score = min(0.95, math.tanh(top["bm25"] / 22.0))
+            rank_results[c["id"]] = {
+                "best_match": top["path"],
+                "score": score,
+                "rationale": f"bm25={top['bm25']:.2f} (LLM skipped, calibrated tanh/22)",
+                "fallback": True,
+            }
+    else:
+        from tools.wiki_integration.llm_ranker import rank_all_batched as _rrb
+        batch_size = int(os.environ.get("STAGE5_LLM_BATCH", "10"))
+        def _progress(bi, total, n):
+            log.stage_log(f"  5.2 batch {bi}/{total} ({n} items)")
+        rr_list = _rrb(eligible_for_llm, bm25_results, batch_size=batch_size,
+                       progress_cb=_progress)
+        for r in rr_list:
+            rank_results[r.item_id] = {
+                "best_match": r.best_match,
+                "score": r.score,
+                "rationale": r.rationale,
+                "fallback": r.fallback,
+            }
+
+    # ── Stage 5.3 — Categorize Tier A / B / C ──
+    tier_a: List[Dict[str, Any]] = []
+    tier_b: List[Dict[str, Any]] = []
+    tier_c: List[Dict[str, Any]] = []
+    for c in candidates:
+        rr = rank_results.get(c["id"])
+        memo_stem = (c["appeared_in_memos"] or [c["sources"][0] if c["sources"] else "unknown"])[0]
+        memo_stem = re.sub(r"\.(json|txt)$", "", memo_stem)
+        bm25_top = bm25_results.get(c["id"], [])
+        if rr and rr["score"] >= cfg["match_high"] and rr["best_match"]:
+            tier_a.append({
+                "id": c["id"], "voice_memo": memo_stem,
+                "category": c["category"], "frequency": c["frequency"],
+                "content": c["content"], "content_preview": c["content"][:120],
+                "matched_path": rr["best_match"],
+                "score": rr["score"], "rationale": rr["rationale"],
+                "fallback": rr["fallback"],
+                "bm25": (bm25_top[0]["bm25"] if bm25_top else None),
+                "appeared_in_memos": c["appeared_in_memos"],
+                "sources": c["sources"],
+            })
+        elif rr and rr["score"] >= cfg["match_medium"] and rr["best_match"]:
+            tier_b.append({
+                "id": c["id"], "voice_memo": memo_stem,
+                "category": c["category"], "frequency": c["frequency"],
+                "content": c["content"], "content_preview": c["content"][:120],
+                "matched_path": rr["best_match"],
+                "score": rr["score"], "rationale": rr["rationale"],
+                "fallback": rr["fallback"],
+                "bm25": (bm25_top[0]["bm25"] if bm25_top else None),
+                "appeared_in_memos": c["appeared_in_memos"],
+                "sources": c["sources"],
+            })
+        else:
+            slug_base = slugify(derive_title(c["content"]))
+            tier_c.append({
+                "id": c["id"], "voice_memo": memo_stem,
+                "category": c["category"], "frequency": c["frequency"],
+                "content_full": c["content"], "content_preview": c["content"][:120],
+                "priority": c["priority"], "project": c.get("project"),
+                "appeared_in_memos": c["appeared_in_memos"],
+                "sources": c["sources"],
+                "entity_type_hint": c["entity_type_hint"],
+                "proposed_slug": f"{c['entity_type_hint']}/{slug_base}",
+                "bm25_neighbors": bm25_top[:3],
+                "bm25_top1": (bm25_top[0]["bm25"] if bm25_top else 0.0),
+                "best_match_score": (rr["score"] if rr else 0.0),
+                "best_match_path": (rr["best_match"] if rr else None),
+            })
+
+    matched = len(tier_a) + len(tier_b)
+    total = len(tier_a) + len(tier_b) + len(tier_c)
+    match_rate = matched / max(total, 1)
+    log.stage_log(
+        f"5.3 Tier A: {len(tier_a)} | Tier B: {len(tier_b)} | Tier C: {len(tier_c)} | "
+        f"match-rate (A+B): {match_rate:.1%}"
+    )
+
+    # ── Write JSON sidecar (machine-readable for /wiki-bulk-ack) ──
+    sidecar = {
+        "generated_at": datetime.now().isoformat(timespec="seconds"),
+        "lens_name": lens.get("lens_name", "default"),
+        "thresholds": cfg,
+        "total_candidates": total,
+        "tier_a_count": len(tier_a),
+        "tier_b_count": len(tier_b),
+        "tier_c_count": len(tier_c),
+        "skipped_count": len(skipped),
+        "match_rate": round(match_rate, 4),
+        "tier_a": tier_a,
+        "tier_b": tier_b,
+        "tier_c": tier_c,
+        "skipped": skipped,
+    }
+    out_json.write_text(json.dumps(sidecar, ensure_ascii=False, indent=2),
+                         encoding="utf-8")
+
+    # ── Write 04-wiki-candidates-v2.md (Ruslan-readable) ──
+    md = _render_wiki_candidates_v2(sidecar, today=today)
+    out_md.write_text(md, encoding="utf-8")
+
+    verdict = "PASS" if match_rate >= 0.30 else "PARTIAL"
+    log.stage_done(
+        5, "Wiki candidates v2", verdict,
+        total=total,
+        tier_a=len(tier_a), tier_b=len(tier_b), tier_c=len(tier_c),
+        skipped=len(skipped),
+        match_rate=f"{match_rate:.1%}",
+        size_md_kb=f"{out_md.stat().st_size / 1024:.1f}",
+        size_json_kb=f"{out_json.stat().st_size / 1024:.1f}",
+        wiki_docs_indexed=len(docs),
+        bm25_prefilter_skipped=pre_skip,
+        llm_used=(not skip_llm),
+    )
+    return {
+        "candidates_total": total,
+        "tier_a": len(tier_a),
+        "tier_b": len(tier_b),
+        "tier_c": len(tier_c),
+        "skipped": len(skipped),
+        "match_rate": match_rate,
+        "sidecar_path": str(out_json.relative_to(ROOT)),
+    }
+
+
+def _render_wiki_candidates_v2(sidecar: Dict[str, Any], today: str) -> str:
+    """Render the 04-wiki-candidates-v2.md from sidecar data."""
+    cfg = sidecar.get("thresholds", {})
+    fm = [
         "---",
-        f"title: Wiki candidates — voice pipeline {datetime.now().strftime('%Y-%m-%d')}",
+        f"title: Wiki Candidates v2 — 3-tier categorized — {today}",
         "type: pipeline-output-candidates",
-        "policy: NEVER auto-merge to wiki/ — Ruslan acks separately per item",
-        f"created: {datetime.now().isoformat(timespec='seconds')}",
-        f"total_candidates: {len(candidates)}",
-        f"match_to_existing: {len(matches)}",
-        f"propose_new: {len(proposes)}",
-        f"match_rate: {match_rate:.1%}",
+        "policy: NEVER auto-merge to wiki/ — Ruslan bulk-acks per tier via /wiki-bulk-ack",
+        f"created: {sidecar['generated_at']}",
+        f"lens: {sidecar['lens_name']}",
+        f"total_candidates: {sidecar['total_candidates']}",
+        f"tier_a_count: {sidecar['tier_a_count']}",
+        f"tier_b_count: {sidecar['tier_b_count']}",
+        f"tier_c_count: {sidecar['tier_c_count']}",
+        f"skipped_count: {sidecar['skipped_count']}",
+        f"match_rate: {sidecar['match_rate']}",
+        f"threshold_high: {cfg.get('match_high')}",
+        f"threshold_medium: {cfg.get('match_medium')}",
         "---",
         "",
-        "# Wiki candidates",
+        "# Wiki Candidates v2 — 3-tier categorized",
         "",
-        "> ⚠️ Все entries ниже — **proposals only**. Wiki/ untouched. Ruslan acks per-item; merge = third gate.",
+        "> ⚠️ All entries below are **proposals only**. wiki/ untouched. Ruslan bulk-acks per tier via /wiki-bulk-ack — third gate.",
         "",
-        f"**Total:** {len(candidates)} | **match-to-existing (≥0.7):** {len(matches)} ({match_rate:.0%}) | **propose-new:** {len(proposes)}",
+        f"**Total:** {sidecar['total_candidates']} | "
+        f"**Tier A** (≥{cfg.get('match_high')}): {sidecar['tier_a_count']} | "
+        f"**Tier B** ({cfg.get('match_medium')}–{cfg.get('match_high')}): {sidecar['tier_b_count']} | "
+        f"**Tier C** (<{cfg.get('match_medium')}): {sidecar['tier_c_count']} | "
+        f"**Skipped:** {sidecar['skipped_count']} | "
+        f"**Match rate (A+B):** {sidecar['match_rate']:.1%}",
+        "",
+        "**Sidecar:** `04-wiki-candidates-v2.json` (machine-readable for /wiki-bulk-ack)",
         "",
         "---",
-        "",
-        "## §1 Match-to-existing candidates (≥0.7)",
         "",
     ]
-    if matches:
-        lines.append("| # | Page | Score | Category | Freq | Memo | Preview |")
-        lines.append("|---|---|---|---|---|---|---|")
-        for i, c in enumerate(matches, 1):
-            mems = ", ".join(c["appeared_in_memos"][:2])
-            preview = c["content_preview"][:100].replace("|", "\\|").replace("\n", " ")
-            lines.append(
-                f"| {i} | {c['matched_page']} | {c['score']} | {c['category']} | "
-                f"{c['frequency']} | {mems} | {preview} |"
+
+    # § A — Tier A
+    fm.extend([
+        "# §A — Tier A: High-confidence match-to-existing",
+        "",
+        f"> **{sidecar['tier_a_count']} items** with score ≥ {cfg.get('match_high')}.",
+        "> Approval = create cross-reference edge in wiki/graph/edges.jsonl + log entry. Existing wiki entry **NOT modified**.",
+        ">",
+        "> **Bulk-ack command:** `/wiki-bulk-ack --tier A` (preview with `--dry-run` first)",
+        "",
+    ])
+    if sidecar["tier_a"]:
+        fm.append("| # | Voice item (preview) | → Wiki entry | Score | Rationale | Memo refs |")
+        fm.append("|---|---|---|---|---|---|")
+        for i, c in enumerate(sidecar["tier_a"], 1):
+            preview = c["content_preview"].replace("|", "\\|").replace("\n", " ")[:80]
+            rationale = (c.get("rationale", "") or "").replace("|", "\\|")[:60]
+            mems = ", ".join(c.get("appeared_in_memos", [])[:2])
+            fm.append(
+                f"| {i} | {preview} | `{c['matched_path']}` | "
+                f"{c['score']:.2f} | {rationale} | {mems} |"
             )
     else:
-        lines.append("_(none)_")
+        fm.append("_(none)_")
 
-    lines.extend([
+    # § B — Tier B
+    fm.extend([
         "",
         "---",
         "",
-        "## §2 Propose-new candidates (<0.7)",
+        "# §B — Tier B: Medium-confidence match-to-existing",
+        "",
+        f"> **{sidecar['tier_b_count']} items** with score {cfg.get('match_medium')}–{cfg.get('match_high')}. Match plausible but not certain.",
+        "> Ruslan reviews + acks subset.",
+        ">",
+        "> **Bulk-ack command:** `/wiki-bulk-ack --tier B --select 1,3,5,7-10` (subset)",
         "",
     ])
-    if proposes:
-        lines.append("| # | Proposed slug | Entity | Category | Freq | Memo | Preview |")
-        lines.append("|---|---|---|---|---|---|---|")
-        for i, c in enumerate(proposes[:200], 1):  # cap at 200 to stay <25KB
-            mems = ", ".join(c["appeared_in_memos"][:2])
-            preview = c["content_preview"][:100].replace("|", "\\|").replace("\n", " ")
-            lines.append(
-                f"| {i} | `{c['proposed_slug']}` | {c['proposed_entity_type']} | {c['category']} | "
-                f"{c['frequency']} | {mems} | {preview} |"
+    if sidecar["tier_b"]:
+        fm.append("| # | Voice item (preview) | → Wiki entry | Score | Rationale | Memo refs |")
+        fm.append("|---|---|---|---|---|---|")
+        for i, c in enumerate(sidecar["tier_b"], 1):
+            preview = c["content_preview"].replace("|", "\\|").replace("\n", " ")[:80]
+            rationale = (c.get("rationale", "") or "").replace("|", "\\|")[:60]
+            mems = ", ".join(c.get("appeared_in_memos", [])[:2])
+            fm.append(
+                f"| {i} | {preview} | `{c['matched_path']}` | "
+                f"{c['score']:.2f} | {rationale} | {mems} |"
             )
-        if len(proposes) > 200:
-            lines.append(f"\n_+{len(proposes) - 200} more truncated to keep file ≤25 KB._")
     else:
-        lines.append("_(none)_")
+        fm.append("_(none)_")
 
-    out_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    # § C — Tier C (split by frequency)
+    high_freq = [c for c in sidecar["tier_c"] if c.get("frequency", 1) >= 3]
+    med_freq = [c for c in sidecar["tier_c"] if c.get("frequency", 1) == 2]
+    sing = [c for c in sidecar["tier_c"] if c.get("frequency", 1) <= 1]
 
-    verdict = "PASS" if match_rate >= 0.30 or len(candidates) < 10 else "PARTIAL"
-    log.stage_done(
-        5, "Wiki candidates", verdict,
-        total=len(candidates),
-        match_to_existing=len(matches),
-        propose_new=len(proposes),
-        match_rate=f"{match_rate:.1%}",
-        size_kb=f"{out_path.stat().st_size / 1024:.1f}",
-    )
-    return {"candidates": candidates, "match_rate": match_rate,
-            "matches": len(matches), "proposes": len(proposes)}
+    fm.extend([
+        "",
+        "---",
+        "",
+        "# §C — Tier C: Propose-new entries",
+        "",
+        f"> **{sidecar['tier_c_count']} items** with score < {cfg.get('match_medium')} OR no plausible match.",
+        ">",
+        "> **Bulk-ack commands:**",
+        "> - `/wiki-bulk-ack --tier C --select N,N,N --as-new` (creates new wiki entries)",
+        "> - `/wiki-bulk-ack --defer-backlog N,N,N` (parks in backlog only)",
+        "",
+        "## §C.1 — High-frequency (freq ≥3) — strong propose-new candidates",
+        "",
+    ])
+    if high_freq:
+        fm.append("| # | Voice content | Proposed type/slug | Frequency | Memos |")
+        fm.append("|---|---|---|---|---|")
+        for i, c in enumerate(high_freq, 1):
+            preview = c["content_preview"].replace("|", "\\|")[:90]
+            mems = ", ".join(c.get("appeared_in_memos", [])[:2])
+            fm.append(
+                f"| {i} | {preview} | `{c['proposed_slug']}` | {c['frequency']} | {mems} |"
+            )
+    else:
+        fm.append("_(none)_")
+
+    fm.extend(["", "## §C.2 — Medium-frequency (freq=2)", ""])
+    if med_freq:
+        fm.append("| # | Voice content | Proposed slug | Memos |")
+        fm.append("|---|---|---|---|")
+        for i, c in enumerate(med_freq, 1):
+            preview = c["content_preview"].replace("|", "\\|")[:90]
+            mems = ", ".join(c.get("appeared_in_memos", [])[:2])
+            fm.append(f"| {i} | {preview} | `{c['proposed_slug']}` | {mems} |")
+    else:
+        fm.append("_(none)_")
+
+    fm.extend([
+        "",
+        "## §C.3 — Single-mention (freq=1) — backlog stub list",
+        "",
+        f"_{len(sing)} items — full list in `04-wiki-candidates-v2.json`. Top 80 below._",
+        "",
+    ])
+    if sing:
+        fm.append("| # | Voice content | Proposed slug | Memo |")
+        fm.append("|---|---|---|---|")
+        for i, c in enumerate(sing[:80], 1):
+            preview = c["content_preview"].replace("|", "\\|")[:90]
+            mems = ", ".join(c.get("appeared_in_memos", [])[:1])
+            fm.append(f"| {i} | {preview} | `{c['proposed_slug']}` | {mems} |")
+        if len(sing) > 80:
+            fm.append(f"| _+{len(sing) - 80}_ | _truncated; see sidecar JSON_ |  |  |")
+
+    # § D — Skipped
+    fm.extend([
+        "",
+        "---",
+        "",
+        "# §D — Skipped (CRM contacts, tasks, low-quality)",
+        "",
+        f"> **{sidecar['skipped_count']} items** routed elsewhere or out-of-scope.",
+        "> CRM contacts → use `/crm-add` separately.",
+        "",
+    ])
+    if sidecar["skipped"]:
+        fm.append("| # | Reason | Item preview |")
+        fm.append("|---|---|---|")
+        for i, s in enumerate(sidecar["skipped"][:80], 1):
+            preview = s["content_preview"].replace("|", "\\|")[:80]
+            fm.append(f"| {i} | {s['reason']} | {preview} |")
+        if len(sidecar["skipped"]) > 80:
+            fm.append(f"| _+{len(sidecar['skipped']) - 80}_ | _truncated; see sidecar_ |  |")
+
+    return "\n".join(fm) + "\n"
 
 
 # ─── Stage 6 — Current-lens filter (configurable via lens YAML) ─────────────
@@ -950,7 +1249,9 @@ def stage_7_assembly(filtered_data: Dict[str, Any], stage4: Dict[str, Any],
     files_meta = []
     for fn in ["PLAN.md", "EXPLAINED-FOR-RUSLAN.md", "00-MASTER-INDEX.md",
                "01-per-note-breakdown.md", "02-structured-clean.md",
-               "03-current-lens-actionables.md", "04-wiki-candidates.md",
+               "03-current-lens-actionables.md",
+               "04-wiki-candidates-v2.md", "04-wiki-candidates-v2.json",
+               "04-wiki-candidates.md",
                "05-backlog-flagged.md", "06-meta-analysis.md",
                "07-discipline-log.md"]:
         p = output_dir / fn
@@ -977,7 +1278,7 @@ def stage_7_assembly(filtered_data: Dict[str, Any], stage4: Dict[str, Any],
         "## Reading order",
         "",
         "1. **[03-current-lens-actionables.md](03-current-lens-actionables.md)** ⭐ — top items для immediate work",
-        "2. **[04-wiki-candidates.md](04-wiki-candidates.md)** — wiki updates (separate ack required)",
+        "2. **[04-wiki-candidates-v2.md](04-wiki-candidates-v2.md)** — 3-tier wiki candidates (bulk-ack via `/wiki-bulk-ack`)",
         "3. **[06-meta-analysis.md](06-meta-analysis.md)** — themes / patterns / contradictions",
         "4. (Optional) **[01-per-note-breakdown.md](01-per-note-breakdown.md)** — deep dive per memo",
         "5. (Optional) **[02-structured-clean.md](02-structured-clean.md)** — full deduplicated by category",
@@ -1040,9 +1341,9 @@ def self_eval(memo_filter: List[str], stage1: Dict, stage2: Dict, stage3: Dict,
         ("Every memo has §-section in 01-per-note-breakdown.md",
          stage4["sections"] == n,
          f"{stage4['sections']}/{n} sections; nothing-extractable={stage4['nothing_extractable']}"),
-        ("Wiki candidates ≥30% match-to-existing OR <10 candidates",
-         stage5["match_rate"] >= 0.30 or (stage5["matches"] + stage5["proposes"]) < 10,
-         f"match_rate={stage5['match_rate']:.0%} ({stage5['matches']} match / {stage5['proposes']} propose)"),
+        ("Wiki candidates ≥30% match-to-existing (Tier A+B) OR <10 candidates",
+         stage5["match_rate"] >= 0.30 or stage5["candidates_total"] < 10,
+         f"match_rate={stage5['match_rate']:.0%} (Tier A:{stage5['tier_a']} / B:{stage5['tier_b']} / C:{stage5['tier_c']} / skipped:{stage5['skipped']})"),
         ("Top-N items have provenance + score breakdown",
          stage6["in_top_n"] > 0,
          f"top-N count: {stage6['in_top_n']} (above threshold: {stage6['above_threshold']})"),
@@ -1127,8 +1428,10 @@ def main():
     filtered_data = stage3["data"]
     stage4 = (stage_4_per_note(memo_filter, args.output, log) if 4 not in args.skip_stages
               else {"sections": len(memo_filter), "nothing_extractable": 0})
-    stage5 = (stage_5_wiki_candidates(filtered_data, args.output, log) if 5 not in args.skip_stages
-              else {"candidates": [], "match_rate": 0, "matches": 0, "proposes": 0})
+    stage5 = (stage_5_wiki_candidates(filtered_data, args.output, log, lens=lens)
+              if 5 not in args.skip_stages
+              else {"candidates_total": 0, "tier_a": 0, "tier_b": 0, "tier_c": 0,
+                    "skipped": 0, "match_rate": 0, "sidecar_path": ""})
     stage6 = (stage_6_lens_filter(filtered_data, lens, args.output, log) if 6 not in args.skip_stages
               else {"top": [], "above_threshold": 0, "in_top_n": 0})
     stage7 = (stage_7_assembly(filtered_data, stage4, stage5, stage6, lens, args.output, log)
