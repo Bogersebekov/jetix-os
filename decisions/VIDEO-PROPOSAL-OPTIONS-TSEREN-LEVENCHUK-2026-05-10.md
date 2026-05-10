@@ -1063,6 +1063,271 @@ flowchart LR
 
 ---
 
+## §11.A Mermaid diagram — Value Exchange Flow ⭐
+
+> **Angle 2.** Bidirectional value flow — что Jetix даёт (D-items §2) ↔ что хочет получить (R-items §3).
+> D-items grouped by category (substrate / methodology / leverage / network / commitment); R-items grouped
+> по value type (methodology / audience / co-creation / network / strategic / financial). **⭐ marks** = highest
+> mutual-value exchanges. Variant A cool blues palette per style guide §1.3-§1.4.
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#fff8e1', 'primaryTextColor':'#000', 'primaryBorderColor':'#f57c00', 'lineColor':'#555', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'13px'}}}%%
+flowchart LR
+
+    %% --- LEFT — Jetix gives (D-items grouped by category) ---
+    subgraph JETIX_GIVES ["🏭 <b>JETIX даёт</b><br/><small>15 D-items</small>"]
+        direction TB
+
+        subgraph CAT_SUBSTRATE ["🏗 <b>Substrate</b>"]
+            direction TB
+            DG_SUBSTRATE["⭐ <b>D1</b> Workshop concept + v4 diagram<br/><b>D4</b> Foundation v1.0 11 Parts<br/><b>D7</b> Document 1A/1B (283KB)<br/><b>D12</b> Open repo / canon transparency"]:::ladder_l4
+        end
+
+        subgraph CAT_INFRA ["🤖 <b>AI Infrastructure</b>"]
+            direction TB
+            DG_INFRA["⭐ <b>D2</b> 12-agent roster<br/><b>D5</b> Mermaid pipeline + visuals<br/><b>D6</b> Voice pipeline canon (47-memo)"]:::ladder_l3
+        end
+
+        subgraph CAT_METHOD ["📋 <b>Methodology / Business</b>"]
+            direction TB
+            DG_METHOD["<b>D8</b> TRM model L0-L5<br/><b>D11</b> Manifest-pattern partnership<br/><b>D15</b> Doc Truth co-creation infra"]:::ladder_l2
+        end
+
+        subgraph CAT_COMMIT ["💎 <b>Commitment / Reach</b>"]
+            direction TB
+            DG_COMMIT["<b>D3</b> 12-mo disciplined track record<br/><b>D10</b> R&D Flywheel (RES.2 90%)<br/><b>D13</b> Strategic Council vector<br/><b>D14</b> Online verticals access"]:::ladder_l1
+        end
+
+        DG_DEFER["⛔ <b>D9</b> Foundation Model insight<br/><small>NOT communicated — Stage 5 only (AP1)</small>"]:::guard
+    end
+
+    %% --- CENTER — Bidirectional channel ---
+    JETIX(("🏗 <b>Jetix</b><br/><small>Ruslan + 12 agents +<br/>Foundation v1.0</small>")):::partner_a
+
+    THEM(("👥 <b>Цэрэн +<br/>Левенчук + МИМ</b><br/><small>11 yr partnership<br/>~7K сообщество</small>")):::partner_b
+
+    %% --- RIGHT — Jetix receives (R-items grouped by value type) ---
+    subgraph THEY_GIVE ["🎯 <b>JETIX получает</b><br/><small>14 R-items</small>"]
+        direction TB
+
+        subgraph VAL_METHOD ["📚 <b>Methodology depth</b>"]
+            direction TB
+            RG_METHOD["⭐ <b>R1</b> ШСМ methodologies integration<br/>(Doc 1B §10 Step 2 — synergy unlock)<br/><b>R10</b> Левенчук architectural critique<br/><b>R12</b> RES.2 reinvest sanity check"]:::ladder_l4
+        end
+
+        subgraph VAL_AUDIENCE ["📡 <b>Audience / Channel</b>"]
+            direction TB
+            RG_AUDIENCE["⭐ <b>R2</b> МИМ-community channel access<br/><b>R6</b> Endorsement signal<br/><b>R11</b> МИМ-conf 11-я speaker slot"]:::ladder_l3
+        end
+
+        subgraph VAL_CREATE ["🛠 <b>Co-creation</b>"]
+            direction TB
+            RG_CREATE["<b>R3</b> Co-creation fundamental docs<br/><b>R9</b> Joint product (Workshop × методология)<br/><b>R14</b> Reusable partnership template"]:::ladder_l2
+        end
+
+        subgraph VAL_NETWORK ["🌐 <b>Network / Strategic</b>"]
+            direction TB
+            RG_NETWORK["<b>R4</b> Strategic guidance (reciprocal)<br/><b>R5</b> Warm intros (Council expansion)<br/><b>R7</b> Manifest first instantiation<br/><b>R13</b> Honest reality assessment"]:::ladder_l1
+        end
+
+        RG_DEFER["⏳ <b>R8</b> Possible equity / financial<br/><small>RES.3 deferred — Stage 4-5 only (AP3)</small>"]:::ladder_l0
+    end
+
+    %% --- Edges: Jetix gives ---
+    JETIX_GIVES ==>|"value transfer"| JETIX
+    JETIX ==>|"D1+D4+D7 substrate"| THEM
+    JETIX ==>|"D2+D5+D6 infrastructure"| THEM
+    JETIX -.->|"D8+D11+D15 methodology"| THEM
+    JETIX -.->|"D3+D10+D13+D14 commitment"| THEM
+
+    %% --- Edges: They give ---
+    THEM ==>|"R1+R10+R12 methodology"| JETIX
+    THEM ==>|"R2+R6+R11 audience"| JETIX
+    THEM -.->|"R3+R9+R14 co-creation"| JETIX
+    THEM -.->|"R4+R5+R7+R13 network"| JETIX
+    THEY_GIVE ==>|"value transfer"| THEM
+
+    %% --- Cross strongest exchanges (⭐) ---
+    DG_SUBSTRATE -.->|"⭐ Workshop substrate"| RG_METHOD
+    DG_INFRA -.->|"⭐ AI infrastructure"| RG_METHOD
+    DG_COMMIT -.->|"⭐ Commitment signal"| RG_AUDIENCE
+
+    %% --- Anti-pattern guard ---
+    DG_DEFER -.x JETIX
+    RG_DEFER -.x JETIX
+
+    %% --- classDef block ---
+    classDef partner_a fill:#fce4ec,stroke:#ad1457,stroke-width:4px,color:#000
+    classDef partner_b fill:#e3f2fd,stroke:#1565c0,stroke-width:4px,color:#000
+    classDef ladder_l0 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef ladder_l1 fill:#bbdefb,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef ladder_l2 fill:#90caf9,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef ladder_l3 fill:#64b5f6,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef ladder_l4 fill:#42a5f5,stroke:#0d47a1,stroke-width:3px,color:#fff
+    classDef guard fill:#ffebee,stroke:#c62828,stroke-width:3px,color:#000
+
+    style JETIX_GIVES fill:#fff8e1,stroke:#f57c00,stroke-width:4px
+    style THEY_GIVE fill:#fff8e1,stroke:#f57c00,stroke-width:4px
+    style CAT_SUBSTRATE fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style CAT_INFRA fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style CAT_METHOD fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style CAT_COMMIT fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style VAL_METHOD fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style VAL_AUDIENCE fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style VAL_CREATE fill:#fffde7,stroke:#f9a825,stroke-width:2px
+    style VAL_NETWORK fill:#fffde7,stroke:#f9a825,stroke-width:2px
+```
+
+### §11.A Diagram legend
+
+| Element | Function |
+|---|---|
+| **JETIX_GIVES** (left) | 15 D-items grouped по 4 categories (Substrate / AI Infrastructure / Methodology / Commitment) + D9 deferred (Foundation Model — AP1) |
+| **THEY_GIVE** (right) | 14 R-items grouped по 4 value types (Methodology / Audience / Co-creation / Network) + R8 deferred (financial — RES.3 / AP3) |
+| **JETIX ↔ THEM** (center) | Bidirectional channel; partner_a (Ruslan/Jetix) + partner_b (Tseren+Levenchuk+МИМ) per Mermaid Style Guide §1.4 |
+| **`==>` thick edges** | Strongest exchanges (substrate / methodology / audience access) |
+| **`-.->` dashed edges** | Secondary / supportive flows |
+| **`-.x` blocked edge** | Deferred items (D9 / R8) — explicit Stage 5 / RES.3 reservation |
+| **⭐ markers** | Highest-mutual-value pairs (D1+D4+D7 ↔ R1+R10+R12; D2+D5+D6 ↔ R1; D3+D10+D14 ↔ R2+R6) |
+| **Yellow inner subgraphs** | D/R category groupings (4 each side) |
+
+### §11.A Strongest mutual-value exchanges (⭐)
+
+1. **D1+D4+D7 (Substrate) ↔ R1+R10+R12 (Methodology depth)** — Workshop concept + Foundation v1.0 + Doc 1B trade for ШСМ methodology integration + Левенчук critique. **The synergy unlock core** (Doc 1B §10.1).
+2. **D2+D5+D6 (AI Infrastructure) ↔ R1 (Methodology integration)** — 12-agent + Mermaid + Voice pipeline trade for Tseren's IWE / multi-agent setup co-build (TG §15.1 pitch angle 1).
+3. **D3+D10+D14 (Commitment + Online verticals) ↔ R2+R6+R11 (Audience access + Endorsement)** — 12-mo track record + R&D Flywheel + online verticals plan trade for МИМ-community channel + endorsement signal + 11-я конференция speaker slot.
+
+---
+
+## §11.B Mermaid diagram — Call Decision Tree / Navigator ⭐
+
+> **Angle 3.** Decision tree для navigating §10 tensions during call. Root = «Call started»; branches = scenarios
+> (T1-T7); each branch leads к suggested move + outcome category. **Outcome leaves coloured:** 🟢 green (good
+> trajectory) / 🟡 yellow (neutral / wait) / 🔴 red (failure mode — fall back to Doc 1B §10.4).
+> Variant A cool blues palette per style guide §1.3.
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#fff8e1', 'primaryTextColor':'#000', 'primaryBorderColor':'#f57c00', 'lineColor':'#555', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'12px'}}}%%
+flowchart TB
+
+    ROOT(["📞 <b>Call started</b><br/><small>Stage 2 first conversation</small>"]):::ladder_l5
+
+    ROOT --> READ_SIGNAL{"<b>Read engagement signal</b><br/><small>в первые 5-10 min</small>"}
+
+    READ_SIGNAL --> T1{"<b>T1 — Скептичны?</b><br/><small>«Why different?»<br/>«seen many such pitches»</small>"}
+    READ_SIGNAL --> T2{"<b>T2 — Нет времени?</b><br/><small>«сейчас МИМ-конф / sprint»<br/>«может позже»</small>"}
+    READ_SIGNAL --> T3{"<b>T3 — Want $$ upfront?</b><br/><small>«Сколько готовы вложить?»</small>"}
+    READ_SIGNAL --> T4{"<b>T4 — Non-committal?</b><br/><small>«Подумаем»<br/>«вернёмся через несколько мес»</small>"}
+    READ_SIGNAL --> T5{"<b>T5 — Подключают других?</b><br/><small>«Дайте Анатолий тоже»<br/>«team member хочет видеть»</small>"}
+    READ_SIGNAL --> T6{"<b>T6 — Want immediate value?</b><br/><small>«Что вы конкретно даёте СЕЙЧАС?»</small>"}
+    READ_SIGNAL --> T7{"<b>T7 — Pain Jetix не solves?</b><br/><small>«У нас проблема X»<br/>(где X outside scope)</small>"}
+
+    %% --- T1 branches ---
+    T1 --> T1A["<b>Move:</b> Ask их critique vs defend<br/><small>R10/R13 honest assessment</small>"]:::ladder_l2
+    T1A --> O_HOT1[("🟢 <b>Honest critique → trust build</b><br/><small>→ F2/F4 advance</small>")]:::ladder_l5
+    T1A --> O_NEUTRAL1[("🟡 <b>Critique без actionable fit</b><br/><small>→ F3 advisor light, не push</small>")]:::ladder_l2
+    T1A --> O_RED1[("🔴 <b>«Не сработает» — closure</b><br/><small>→ Doc 1B §10.4 fallback solo path</small>")]:::guard
+
+    %% --- T2 branches ---
+    T2 --> T2A["<b>Move:</b> Stage 1 only — observe<br/><small>не push; re-engage 30-60d</small>"]:::ladder_l2
+    T2A --> O_NEUTRAL2[("🟡 <b>Polite defer</b><br/><small>→ schedule re-engage in 30-60d</small>")]:::ladder_l2
+    T2 --> T2B["<b>Alt:</b> F3 Mentor lighter<br/><small>quarterly 1-2h ask</small>"]:::ladder_l1
+    T2B --> O_NEUTRAL3[("🟡 <b>Light advisory accepted</b><br/><small>→ slow-positive trajectory</small>")]:::ladder_l2
+
+    %% --- T3 branches ---
+    T3 --> T3A["<b>Move:</b> Navigate RES.2 90% reinvest<br/><small>equity-leaning, не cash<br/>F5 reserved Stage 3+</small>"]:::ladder_l3
+    T3A --> O_HOT3[("🟢 <b>Equity-leaning accepted</b><br/><small>→ F1 Founding Partner trajectory</small>")]:::ladder_l5
+    T3A --> O_RED3[("🔴 <b>Cash-only mismatch</b><br/><small>→ NOT compatible RES.2 — graceful exit</small>")]:::guard
+
+    %% --- T4 branches ---
+    T4 --> T4A["<b>Move:</b> Do NOT push<br/><small>map possibilities, leave open<br/>respect deliberate-choice (TG §13.1)</small>"]:::ladder_l1
+    T4A --> O_NEUTRAL4[("🟡 <b>Open door, no commit</b><br/><small>→ re-engage 30-60d с update</small>")]:::ladder_l2
+    T4A --> O_HOT4[("🟢 <b>Reconsider after week</b><br/><small>→ F4 micro-project test</small>")]:::ladder_l4
+
+    %% --- T5 branches ---
+    T5 --> T5A["<b>Move:</b> Welcome (R5 в действии)<br/><small>+ ask кто эти люди<br/>+ provide отдельный onboarding</small>"]:::ladder_l3
+    T5A --> O_HOT5[("🟢 <b>Council expansion vector</b><br/><small>→ A2.1 acceleration<br/>→ Strategic Council formation</small>")]:::ladder_l5
+    T5A --> O_NEUTRAL5[("🟡 <b>Spectator mode only</b><br/><small>→ ОK, but slower decision cycle</small>")]:::ladder_l2
+
+    %% --- T6 branches ---
+    T6 --> T6A["<b>Move:</b> F4 specific co-project<br/><small>30-60 day MVP<br/>+ honest long-horizon framing M3</small>"]:::ladder_l3
+    T6A --> O_HOT6[("🟢 <b>Concrete project agreed</b><br/><small>→ A3.1 ШСМ deep dive parallel</small>")]:::ladder_l5
+    T6A --> O_NEUTRAL6[("🟡 <b>«Interesting, надо обсудить»</b><br/><small>→ Stage 3 follow-up scheduled</small>")]:::ladder_l2
+
+    %% --- T7 branches ---
+    T7 --> T7A["<b>Move:</b> Honest «не сейчас»<br/><small>+ optional «evolve together?» Q</small>"]:::ladder_l2
+    T7A --> O_HOT7[("🟢 <b>Honesty appreciated</b><br/><small>→ trust signal; continue main thread</small>")]:::ladder_l4
+    T7A --> O_NEUTRAL7[("🟡 <b>Pivots focus к другому area</b><br/><small>→ adapt offering OR exit gracefully</small>")]:::ladder_l2
+
+    %% --- Anti-pattern guard ---
+    AP_GUARD["⛔ <b>Anti-patterns 12 (avoid throughout)</b><br/><small>AP1 Foundation Model • AP2 desperation • AP3 financial Stage 1<br/>AP4 «ещё tool» • AP5 generic AI • AP6 Mittelstand<br/>AP7 извиняться за scale • AP8 agile/Acatech • AP9 template<br/>AP10 «помощь» • AP11 student-Левенчук • AP12 generic ref</small>"]:::guard
+
+    AP_GUARD -.->|"watchdog"| READ_SIGNAL
+
+    %% --- Default trajectory note ---
+    DEFAULT_NOTE["⭐ <b>Default trajectory if no specific tension</b><br/><small>F4 Co-creation specific (Workshop × МИМ)<br/>+ Q1/Q6/Q7 Stage 1 questions<br/>+ MAT1 v4 visual screenshare</small>"]:::ladder_l4
+
+    READ_SIGNAL -.->|"baseline"| DEFAULT_NOTE
+    DEFAULT_NOTE --> O_HOT_DEFAULT[("🟢 <b>Mutual interest → Stage 3</b><br/><small>F8 phased trajectory engaged</small>")]:::ladder_l5
+
+    %% --- classDef block ---
+    classDef ladder_l0 fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef ladder_l1 fill:#bbdefb,stroke:#1565c0,stroke-width:2px,color:#000
+    classDef ladder_l2 fill:#90caf9,stroke:#0d47a1,stroke-width:2px,color:#000
+    classDef ladder_l3 fill:#64b5f6,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef ladder_l4 fill:#42a5f5,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef ladder_l5 fill:#1e88e5,stroke:#0d47a1,stroke-width:4px,color:#fff
+    classDef guard fill:#ffebee,stroke:#c62828,stroke-width:3px,color:#000
+
+    %% --- Outcome leaf colors (override) ---
+    style O_HOT1 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT3 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT4 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT5 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT6 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT7 fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+    style O_HOT_DEFAULT fill:#c8e6c9,stroke:#2e7d32,stroke-width:3px,color:#000
+
+    style O_NEUTRAL1 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL2 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL3 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL4 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL5 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL6 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+    style O_NEUTRAL7 fill:#fff9c4,stroke:#f9a825,stroke-width:2px,color:#000
+
+    style O_RED1 fill:#ffcdd2,stroke:#c62828,stroke-width:3px,color:#000
+    style O_RED3 fill:#ffcdd2,stroke:#c62828,stroke-width:3px,color:#000
+```
+
+### §11.B Diagram legend
+
+| Element | Function |
+|---|---|
+| **ROOT** | Call started — Stage 2 first conversation entry point |
+| **READ_SIGNAL** | Diamond decision node — read engagement signal в первые 5-10 min |
+| **T1-T7 branches** | 7 tension scenarios from §10; each = decision point |
+| **Move nodes** (blue ladder gradient) | Suggested action для каждой scenario; default per §10 |
+| **🟢 Green outcome leaves** | Good trajectory — F2/F4/F8/F1 advance; Council expansion; A3.1 unlock |
+| **🟡 Yellow outcome leaves** | Neutral / wait — re-engage 30-60d; F3 advisor light; spectator mode |
+| **🔴 Red outcome leaves** | Failure mode — fall back to Doc 1B §10.4 (slower solo path; $100K к концу года не лету) |
+| **⛔ AP_GUARD** | Anti-patterns 12 watchdog — apply throughout, NOT only at decision points |
+| **⭐ DEFAULT_NOTE** | Baseline trajectory if no specific tension surfaces — F4 + Q1/Q6/Q7 + MAT1 visual |
+
+### §11.B Outcome distribution
+
+| Outcome category | Count | Tensions producing |
+|---|---|---|
+| 🟢 Green (good) | 7 outcome leaves | T1/T3/T4/T5/T6/T7 + DEFAULT |
+| 🟡 Yellow (neutral / wait) | 7 outcome leaves | T1/T2 (×2) /T4/T5/T6/T7 |
+| 🔴 Red (failure → fallback) | 2 outcome leaves | T1 (closure) + T3 (cash-only mismatch) |
+
+**Reading:** Most tensions have green path available — depends on Ruslan's read of signal + correct move
+selection. Failure modes (red) are recoverable per Doc 1B §10.4 fallback (slower solo path, не abandon
+Phase 1). Yellow paths = patience required; re-engagement 30-60d standard cycle.
+
+---
+
 ## §12 Cross-references
 
 ### §12.1 Action Plan ↔ this document mapping
@@ -1260,7 +1525,7 @@ flowchart LR
 
 - **Branch:** `claude/voice-pipeline-2026-05-10` (existing, draft commit pending)
 - **Doc path:** `decisions/VIDEO-PROPOSAL-OPTIONS-TSEREN-LEVENCHUK-2026-05-10.md`
-- **15 sections completed:** §0 purpose / §1 audience profile / §2 D# 15 / §3 R# 14 / §4 F# 8 / §5 M# 8 / §6 Q# 8 / §7 AP# 12 / §8 5-stage disclosure / §9 MAT# 12 / §10 T# 7 / §11 Mermaid / §12 cross-refs / §13 Q.A# 13 / §14 NOT do / §15 related / §16 constitutional / §17 final signal
+- **15 sections completed (+2 added Mermaid angles):** §0 purpose / §1 audience profile / §2 D# 15 / §3 R# 14 / §4 F# 8 / §5 M# 8 / §6 Q# 8 / §7 AP# 12 / §8 5-stage disclosure / §9 MAT# 12 / §10 T# 7 / **§11 Mermaid Collaboration Possibilities Flow / §11.A Mermaid Value Exchange Flow ⭐ / §11.B Mermaid Call Decision Tree ⭐** / §12 cross-refs / §13 Q.A# 13 / §14 NOT do / §15 related / §16 constitutional / §17 final signal
 - **Options counts:**
   - **D# (что давать):** 15
   - **R# (что получать):** 14
@@ -1271,7 +1536,10 @@ flowchart LR
   - **MAT# (materials to show):** 12
   - **T# (tensions during call):** 7
 - **Stage 1-5 disclosure breakdown:** Stage 1 (this video) = M1/M5/M7/M8 + D1+Q1+CTA; Stage 2 (first call) = D3/D4/D6/D7 + F-format menu + M2+M4; Stage 3 (2-я call) = D8/D10 + format chosen + M3; Stage 4 (post commit) = full canonical + Council names; Stage 5 (Phase 1→2) = D9 Foundation Model + RES.3 unlock + Strategic Insights full
-- **Mermaid included:** ✅ Variant A cool blues palette per style guide (8 formats × 5 stages × 3 outcomes + AP guard)
+- **Mermaid included:** ✅ **3 diagrams** (Variant A cool blues palette per style guide):
+  - §11 Collaboration Possibilities Flow (8 formats × 5 stages × 3 outcomes + AP guard)
+  - §11.A Value Exchange Flow (D-items 4 categories ↔ R-items 4 value types + 3 ⭐ strongest exchanges)
+  - §11.B Call Decision Tree (7 tensions × suggested moves × 16 colored outcomes — 7🟢 / 7🟡 / 2🔴)
 - **Open questions (Q.A#) для Ruslan:** **13** (Q.A1-Q.A13)
 - **Constitutional posture:** ✅ Tier 2 R1/R2/R6 + append-only + Default-Deny + Foundation Model contained + RES.1/2/3 honored
 
