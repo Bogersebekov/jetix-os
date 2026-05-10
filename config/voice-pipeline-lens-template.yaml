@@ -1,0 +1,78 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# Voice Pipeline Lens Template
+# ═══════════════════════════════════════════════════════════════════════════
+# Canonical reference: swarm/wiki/operations/voice-pipeline-canonical-2026-05-10.md
+#
+# Usage:
+#   1. Copy this file to config/voice-pipeline-lens-<YYYY-MM-DD>-<focus>.yaml
+#   2. Fill in lens_name / lens_purpose / canonical_anchors / keywords
+#   3. Adjust scoring_weights / threshold / top_n if defaults not suited
+#   4. Run: python3 tools/voice-pipeline-orchestrator.py --lens <path> --output <folder>
+#
+# Lens reusability principle:
+#   - Pipeline = stable. Lens = configurable.
+#   - Each batch of voice memos gets its own lens (current focus).
+#   - All lenses kept forever as historical snapshots of priorities.
+# ═══════════════════════════════════════════════════════════════════════════
+
+lens_name: "<descriptive-slug e.g. tseren-video-2026-05-10>"
+lens_purpose: "<one line — что хочешь вытянуть из voice notes>"
+created: <YYYY-MM-DD>
+
+# Optional canonical doc anchors — give CC context for semantic distance scoring
+canonical_anchors:
+  # - decisions/SOME-DOC.md
+  # - swarm/wiki/foundations/...
+
+# ─────────────────────────────────────────────────────────────────────────
+# 3-tier keyword anchors — high / medium / low relevance
+# ─────────────────────────────────────────────────────────────────────────
+# Tier 1 = items containing ANY tier-1 keyword get highest keyword_match score
+# Tier 2 = secondary signal
+# Tier 3 = background — items with only tier-3 keywords get low score
+#
+# Tip: tier-1 keywords should be SPECIFIC (names, paths, terms) — not "growth"
+# ─────────────────────────────────────────────────────────────────────────
+
+tier_1_keywords:
+  - <main-focus-keyword-1>
+  - <main-focus-keyword-2>
+
+tier_2_keywords:
+  - <secondary-keyword-1>
+
+tier_3_keywords:
+  - <background-keyword-1>
+
+# ─────────────────────────────────────────────────────────────────────────
+# Scoring formula:
+#   relevance_score = w1×keyword_match + w2×semantic_distance
+#                   + w3×domain_element_weight + w4×recency_vs_canonical
+# ─────────────────────────────────────────────────────────────────────────
+
+scoring_weights:
+  keyword: 0.40
+  semantic: 0.35
+  domain_element: 0.15
+  recency: 0.10
+
+threshold: 0.60
+top_n: 20
+
+# ─────────────────────────────────────────────────────────────────────────
+# Optional — domain element weights (Workshop / TRM / etc.)
+# Set to {} or omit if not applicable to this lens
+# ─────────────────────────────────────────────────────────────────────────
+
+domain_element_weights:
+  workshop_master: 1.0
+  workshop_storage: 0.8
+  workshop_other: 0.6
+  trm_resource: 0.9
+  none: 0.5
+
+# ─────────────────────────────────────────────────────────────────────────
+# Output spec — orchestrator writes to this path
+# ─────────────────────────────────────────────────────────────────────────
+
+output_path: "reports/voice-pipeline-<YYYY-MM-DD>/03-current-lens-actionables.md"
