@@ -1,0 +1,155 @@
+# ═══════════════════════════════════════════════════════════════════════════
+# Voice Pipeline Lens — Tseren Video / Phase 1 Priorities (2026-05-10)
+# ═══════════════════════════════════════════════════════════════════════════
+# First instantiation of the reusable lens config pattern.
+# Canonical: swarm/wiki/operations/voice-pipeline-canonical-2026-05-10.md §4.4
+# ═══════════════════════════════════════════════════════════════════════════
+
+lens_name: "tseren-video-2026-05-10"
+lens_purpose: "Top-N items для записи видео proposal Цэрэну + Phase 1 priorities (synergy unlock with Levenchuk/ШСМ; $100K end-summer-2026 target)"
+created: 2026-05-10
+
+canonical_anchors:
+  - decisions/JETIX-CORPORATION-2026-05-05.md
+  - decisions/BASE-MANAGEMENT-SYSTEM-2026-05-04.md
+  - swarm/wiki/synthesis/diagrams-2026-05-07/workshop-deep/v4-system-boundary.md
+  - swarm/wiki/foundations/part-11-strategic-direction-substrate/architecture.md
+
+# ─────────────────────────────────────────────────────────────────────────
+# Tier 1 — main focus (high relevance)
+# Phase 1 Tseren / Levenchuk synergy + $100K target + Workshop / TRM / Foundation
+# ─────────────────────────────────────────────────────────────────────────
+
+tier_1_keywords:
+  # People / partnership
+  - Tseren
+  - Цэрэн
+  - Tserenov
+  - Цэрэнов
+  - видео Цэрэну
+  - synergy
+  - синергия
+  - ШСМ
+  - Школа системного мышления
+  - Levenchuk
+  - Левенчук
+  # Commercial / phase
+  - $100K
+  - 100K
+  - Phase 1
+  - Фаза 1
+  - 8-step roadmap
+  - 8-шаговый план
+  # System architecture
+  - Workshop
+  - Мастерская
+  - TRM
+  - Total Resource Management
+  - Foundation v1.0
+  - Document 1A
+  - Document 1B
+  - Документ 1A
+  - Документ 1B
+  # Business model / market
+  - L0-L5 ladder
+  - Mittelstand
+  - Reed's Law
+  - сетевой эффект
+  - network effects
+
+# ─────────────────────────────────────────────────────────────────────────
+# Tier 2 — secondary (medium relevance)
+# ─────────────────────────────────────────────────────────────────────────
+
+tier_2_keywords:
+  - methodology
+  - методология
+  - AI leverage
+  - knowledge management
+  - управление знаниями
+  - client engagement
+  - клиент
+  - partner role
+  - партнёр
+  - structuring
+  - audience
+  - аудитория
+  - founder
+  - основатель
+  - retainer
+  - подписка
+  - onboarding
+  - процесс
+  - первый клиент
+  - L0 diagnostic
+  - €3K
+  - 3K offer
+
+# ─────────────────────────────────────────────────────────────────────────
+# Tier 3 — background (low relevance)
+# ─────────────────────────────────────────────────────────────────────────
+
+tier_3_keywords:
+  - long-term vision
+  - 10-year
+  - anti-pattern
+  - personal development
+  - history
+  - retrospective
+  - hypothesis
+  - philosophy
+  - eventually
+
+# ─────────────────────────────────────────────────────────────────────────
+# Scoring (defaults per canonical §4.2)
+# ─────────────────────────────────────────────────────────────────────────
+
+scoring_weights:
+  keyword: 0.40
+  semantic: 0.35
+  domain_element: 0.15
+  recency: 0.10
+
+threshold: 0.60
+top_n: 20
+
+# ─────────────────────────────────────────────────────────────────────────
+# Domain element weights — Workshop v4 elements + TRM resources
+# ─────────────────────────────────────────────────────────────────────────
+
+domain_element_weights:
+  workshop_master: 1.0
+  workshop_guard: 0.9
+  workshop_foundation: 0.9
+  workshop_storage: 0.85
+  workshop_tools: 0.75
+  workshop_auto: 0.75
+  workshop_phone: 0.85
+  trm_finances: 0.95
+  trm_ceo_time: 0.95
+  trm_audience: 0.95
+  trm_knowledge: 0.9
+  trm_compute: 0.85
+  trm_team: 0.9
+  none: 0.5
+
+# ─────────────────────────────────────────────────────────────────────────
+# Output spec
+# ─────────────────────────────────────────────────────────────────────────
+
+output_path: "reports/voice-pipeline-2026-05-10/03-current-lens-actionables.md"
+
+# ─────────────────────────────────────────────────────────────────────────
+# Roadmap step linkage hints (from Document 1B §10 8-step roadmap)
+# Stage 6 attempts to link each top-N item to the most relevant step
+# ─────────────────────────────────────────────────────────────────────────
+
+roadmap_steps:
+  step_1: "Call Tseren / negotiate with Levenchuk — synergy conditions"
+  step_2: "Deep dive + integrate ШСМ methodologies into Jetix instance"
+  step_3: "Strategic document: Ruslan + Tseren + Levenchuk (Document of Truth)"
+  step_4: "Sales of Jetix system to entrepreneurs — $50K earned"
+  step_5: "Reinvest + expand team — stable operational base"
+  step_6: "$100K cumulative + 5-10 paying clients (end summer 2026)"
+  step_7: "Strategic session + recruit better team (Sep-Oct 2026)"
+  step_8: "Ruslan all-in: distribution / sales / fundraising (Q4 2026+)"
