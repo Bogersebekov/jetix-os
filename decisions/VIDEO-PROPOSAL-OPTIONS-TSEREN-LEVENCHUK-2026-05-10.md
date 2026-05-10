@@ -220,14 +220,6 @@ questions для Ruslan ack. Output is a **decision-ready menu**, не recommend
 - **Resonates:** **T+L.** Tseren id=604 voice — «совместное создание fundamental docs» уже на повестке
 - **Why valuable:** Direct «what» of Action Plan A3.2 / Document 1B §10 Step 3; concrete deliverable proposed
 
-### D16 — Workshop как practical example Network State substrate (real-world Balaji vision implementation)
-
-- **Что:** Workshop concept (LOCKED 30.04) Phase 3 evolution structurally резонирует с Network State substrate pattern (Balaji Srinivasan). 5 of 7 NS steps map clean (founder + commandment / online community / network union / in-person / archipelago); 2 explicitly diverge (cryptoeconomy + diplomatic recognition — Workshop = professional, NOT political).
-- **Source:** STRATEGIC-INSIGHT-BALAJI-NETWORK-STATE-2026-05-10.md §3 mapping table; raw research report 2026-05-10
-- **Resonates:** **T+L.** Цэрэн в системно-мыслительном поле — Network State concept likely уже в его field of awareness; Левенчук — frame резонирует с системным подходом к community substrate evolution
-- **Why valuable:** Articulates **WHERE Workshop ends up at scale** (companion to Foundation Model = WHAT и Partnership Model = HOW). Demonstrates Workshop = practical implementation evidence for substrate-+-community pattern, not theoretical claim. Positions Jetix в larger discourse without political baggage.
-- **Disclosure caveat:** **NOT Stage 1.** Per AP1 (don't elevate Foundation Model insight) — same logic applies здесь. Reserve для Stage 2-3 (post mutual interest signal) если call goes substantive. Brand-taint risk на Balaji association — keep frame analytical, not promotional.
-
 ---
 
 ## §3 Что хотим получить (R# — comprehensive list)
@@ -502,19 +494,11 @@ questions для Ruslan ack. Output is a **decision-ready menu**, не recommend
 - **Why audience needs hear:** Removes pressure of single specific ask; gives them choice; matches Tseren's deliberate-choice style (TG §13.1)
 - **Strength of evidence:** Action Plan D.3 default decision; Open framing reduces friction
 
-### M9 — «Эта идея уже подтверждена практикой — мы строим Workshop как часть этой большей мысли»
-
-- **Statement:** «Pattern, который мы реализуем в Workshop — substrate + community evolution через phases — резонирует с уже артикулированной мыслью (Balaji / Network State). Мы её НЕ копируем; мы независимо пришли к похожей структуре в профессиональной плоскости. Это валидирует — мы не одиноки в этой логике, и одновременно у нас есть practical implementation evidence, которое NS критики обычно противопоставлять не могут.»
-- **Source:** STRATEGIC-INSIGHT-BALAJI-NETWORK-STATE-2026-05-10.md §1 + §3 mapping
-- **Why audience needs hear:** Counter-anchors против скепсиса «вы изобретаете велосипед» — показываем, что pattern уже признан в discourse, но мы applying в domain где ещё не делали. Также signal для T+L что мы tracking discourse outside их обычной orbit.
-- **Strength of evidence:** Strategic Insight Balaji + Workshop concept LOCKED + companion Foundation/Partnership Model insights triangulating
-- **Disclosure caveat:** **Stage 2+ disclosure** (NOT Stage 1 video). Brand-taint risk per AP1 logic + STRATEGIC-INSIGHT-BALAJI §6.2; useful только если call landed mutual interest. Frame must stay analytical («pattern resonance»), not promotional («мы как Balaji»).
-
 ### §5.1 Message priorities — Stage 1 vs later
 
 - **Stage 1 (this video) HIGH priority:** M1 / M5 / M7 / M8 (substrate + serious + parallel + open)
-- **Stage 1 LOW priority OR omit:** M3 (90% reinvest could feel premature); M6 ($1T frame — risk grandiose); M4 (could feel pressuring без context); **M9 (Balaji/NS resonance — brand taint risk Stage 1)**
-- **Stage 2+ disclosure:** M3 / M4 / M6 / **M9** land naturally after substrate established and mutual analytical posture clear
+- **Stage 1 LOW priority OR omit:** M3 (90% reinvest could feel premature); M6 ($1T frame — risk grandiose); M4 (could feel pressuring без context)
+- **Stage 2+ disclosure:** M3 / M4 / M6 land naturally after substrate established
 
 ---
 
@@ -881,14 +865,6 @@ questions для Ruslan ack. Output is a **decision-ready menu**, не recommend
 - **Source:** `decisions/STRATEGIC-INSIGHT-JETIX-*-2026-05-10.md`
 - **Why:** Phase 2 alignment; sharing internal thinking = trust signal
 
-### MAT13 — Reference к Balaji Network State report (если в conversation возникает)
-
-- **Format:** Reference / link (NOT proactive show)
-- **When:** **On-demand only** — если Цэрэн / Левенчук сами поднимают Network State / Balaji / community substrate / sovereignty discourse в разговоре. NEVER proactive intro.
-- **Source:** `raw/research/balaji-network-state-report-2026-05-10.md` (~60 источников web research) + `decisions/STRATEGIC-INSIGHT-BALAJI-NETWORK-STATE-2026-05-10.md` (mapping analysis)
-- **Why:** Demonstrates we have done the discourse-mapping work; Workshop = independent practical instantiation, not derivative; analytical posture, not fan stance. Strategic Insight § 3 mapping table = ready-made artifact for substantive conversation.
-- **Disclosure caveat:** Brand-taint risk per STRATEGIC-INSIGHT-BALAJI §6.2 — share **only** if T/L initiate discourse. Frame: «Здесь у нас есть analytical mapping — 5 of 7 NS steps map clean, 2 explicitly diverge. Хотите взглянуть?» NOT «Мы как Balaji» / «Мы строим Network State».
-
 ### §9.1 Materials priority compact table
 
 | Material | Stage 1 | Stage 2 | Stage 3 | Stage 4 | Stage 5 |
@@ -905,7 +881,6 @@ questions для Ruslan ack. Output is a **decision-ready menu**, не recommend
 | MAT10 TRM model | — | — | ✅ | — | — |
 | MAT11 FUNDAMENTAL | — | — | — | ✅ | — |
 | MAT12 Strategic Insights | — | — | — | — | ✅ |
-| MAT13 Balaji NS report | on-demand | on-demand | on-demand | on-demand | on-demand |
 
 ---
 
@@ -1518,9 +1493,7 @@ Phase 1). Yellow paths = patience required; re-engagement 30-60d standard cycle.
 ## §15 Related artefacts
 
 - **Action Plan (acked baseline)** — `decisions/ACTION-PLAN-PHASE-1-NEAR-FUTURE-2026-05-10.md`
-- **Strategic Insights (binding guidance)** — Foundation Model + Partnership Model + **Balaji/Network State** (3 files)
-- **Strategic Insight Balaji/Network State** — `decisions/STRATEGIC-INSIGHT-BALAJI-NETWORK-STATE-2026-05-10.md` (Workshop Phase 3 = Network State substrate pattern; 5 of 7 NS steps map; 2 explicitly diverge; outreach to Balaji deferred until Phase 1 traction)
-- **Balaji research report (source)** — `raw/research/balaji-network-state-report-2026-05-10.md` (~60 web sources, May 2026)
+- **Strategic Insights (binding guidance)** — Foundation Model + Partnership Model (2 files)
 - **Canonical (5 LOCKED docs)** — Document 1B / Document 1A / Workshop / TRM / FUNDAMENTAL
 - **Foundation v1.0 (LOCKED)** — `swarm/wiki/foundations/part-{1..11}/architecture.md`
 - **Voice pipeline 8 deliverables** — `reports/voice-pipeline-2026-05-10/`
