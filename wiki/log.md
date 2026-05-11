@@ -1,10 +1,21 @@
 ---
 type: log
-updated: 2026-04-30
+updated: 2026-05-11
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-11] [voice-bulk-ack] match-to-existing Tier A: 39 edges appended | edges: +39
+- audio_395@09-04-2026_04-18-29 → sources/2026-04-16-jetix-as-infrastructure-metaphor.md (score=0.95)
+- audio_397@09-04-2026_04-37-43 → ideas/tool-community-symbiosis-loop.md (score=0.88)
+- audio_399@09-04-2026_04-57-04 → sources/2026-04-16-consulting-as-trojan-horse.md (score=0.95)
+- audio_401@09-04-2026_05-11-23 → sources/2026-04-16-unite-adventurers-biggest-adventure.md (score=0.95)
+- audio_402@09-04-2026_05-21-34 → ideas/think-do-feedback-loop.md (score=0.95)
+- audio_404@09-04-2026_06-56-07 → ideas/anti-free-riding-accountability.md (score=0.86)
+- audio_427@13-04-2026_04-36-59 → ideas/biznes-na-vnedrenii-dashbordov-vizualnoy-analitiki.md (score=0.92)
+- audio_453@15-04-2026_03-08-39 → ideas/sistema-pravil-dlya-rabochey-nedeli-i-otdykha.md (score=0.93)
+- _… +31 more — see edges.jsonl_
 
 ## [2026-04-30] [brigadier] foundation-overview-2026-04-29: master overview FINAL (technical 15.4K + human 4.2K, expansion-pass declined)
 2 master deliverables зафиксированы как FINAL v1.0 под LOCKED tag `foundation-architecture-locked-2026-04-28`:
