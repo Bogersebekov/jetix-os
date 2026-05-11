@@ -237,6 +237,8 @@ PRE-DISPATCH check — verify Realm entity slugs exist:
 
 ## §3 Methodology
 
+> **Addendum reference (Шаг B.1):** Source quality 3-tier classification (T1 anchor / T2 supportive / T3 DRAFT) + REJECT list — see [Source Quality Addendum §1](gamification-source-quality-addendum-2026-05-11.md#1-source-quality-policy--3-tier--reject).
+
 ### §3.1 Per-domain mining strategy
 
 | Domain | Primary source pattern | Quality filter | Cite-format |
@@ -366,6 +368,8 @@ Per Plan agent recommendation (Section 1 design memo):
 
 ### §4.3 Checkpoint cadence — PER-DOMAIN (not time-based)
 
+> **Addendum reference (Шаг B.1):** Per-source + per-entry audit frontmatter + real-time halt thresholds (>20% low-confidence / >10% high hallucination / >15% cite-failure → PAUSE) + post-domain audit summary template — see [Source Quality Addendum §3](gamification-source-quality-addendum-2026-05-11.md#3-self-audit-hooks).
+
 4 checkpoints (end of each domain), не 30-min wall-clock pulses. Cadence aligns с logical units.
 
 Each checkpoint writes to brigadier scratchpad:
@@ -384,6 +388,8 @@ Final hand-back: full report `reports/gamification-mining-run-2026-05-11.md` (se
 ---
 
 ## §5 Quality Filters + Preserve-List
+
+> **Addendum reference (Шаг B.1):** Extends §5.1 REJECT with explicit content-farm / streamer / Wikipedia-cite / AI-gen / Reddit-primary list AND §5.3 cite-or-skip с audit-frontmatter contract (`source_classifier:` per-source + `audit:` per-entry) — see [Source Quality Addendum §1 + §3](gamification-source-quality-addendum-2026-05-11.md).
 
 ### §5.1 Garbage filter (REJECT)
 
@@ -839,6 +845,8 @@ flowchart LR
 ---
 
 ## §11 Execution Sequence (когда Ruslan скажет «поехали gamification mining»)
+
+> **Addendum gate (Шаг B.1):** Step 0 cannot complete until Pre-Execution Checklist passes (CORE 3 books manual-downloaded + Ruslan ack §6 Q1+Q2+Q5 + Addendum §1+§3 reviewed) — see [Source Quality Addendum §5](gamification-source-quality-addendum-2026-05-11.md#5-pre-execution-checklist).
 
 ### Step 0 — PRE-DISPATCH (10 min)
 
