@@ -1,0 +1,37 @@
+{
+  "source": "audio_639@11-05-2026_21-41-45.txt",
+  "processed_at": "2026-05-11T20:26:36",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Бокс и физические тренировки дают ощущение «звериного состояния» и поддерживают нервную систему. Физическая активность воспринимается как необходимая, а не опциональная часть жизни.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Принципы",
+      "content": "Спорт (бокс, единоборства) — обязательно на регулярной основе: поддерживает физическое состояние, нервную систему и ощущение тела.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Поставить бокс / кемпфен на регулярную основу — внести в расписание как обязательный блок.",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "source": "audio_641@11-05-2026_21-41-47.txt",
+  "processed_at": "2026-05-11T20:28:21",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix строит лучшую мастерскую с лучшими условиями и инструментами — доступ к инструментарию сам по себе является достаточной компенсацией, лучшие инженеры будут приходить даже на низкую зарплату.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Видение",
+      "content": "Мастерская Jetix собирает лучших инженеров, деятелей и авантюристов со всего мира — они приходят за инструментами, условиями и масштабом, а не за высокой зарплатой.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Видение",
+      "content": "Общее direction команды Jetix — развиваться и строить что-то глобальное и масштабное; у каждого есть личный смысл, но объединяет общее направление.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Доступ к инфраструктуре и инструментам Jetix настолько ценен, что может заменять высокую зарплату — это конкурентное преимущество при привлечении топ-талантов.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Монетизация мастерской Jetix через плату за пользование инструментами и инфраструктурой — люди платят за доступ к платформе, это отдельный revenue stream помимо консалтинга.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Принципы",
+      "content": "Смысл жизни и direction держать 'в зубах' ежедневно — иначе он теряется; каждый член команды помнит свой личный и общий смысл, работает из него.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать 'лист философии' — документ с философией, смыслом и direction Jetix для себя и всей команды.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Донести философию и общий смысл всей команде — сделать систематическим напоминание о direction и дисциплине, не разово, а ежедневно.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Фиксирует паттерн: смысл жизни теряется в моменты без систематического напоминания — нужна структура, которая удерживает его в фокусе.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Роль Руслана — сформулировать и 'запустить' идею/смысл; дальше она должна течь и развиваться органически и глубоко командой без постоянного контроля.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    }
+  ]
+}

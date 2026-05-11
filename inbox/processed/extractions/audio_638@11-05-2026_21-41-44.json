@@ -1,0 +1,79 @@
+{
+  "source": "audio_638@11-05-2026_21-41-44.txt",
+  "processed_at": "2026-05-11T20:26:21",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "OnlyFans как одно из первых бизнес-направлений Jetix: рекрутинг 20-30 моделей, AI-автоматизация и персонализация видеоконтента, системный подход для максимизации заработка.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить механику OnlyFans: как платформа работает, сколько реально можно зарабатывать, собрать лучшие способы монетизации.",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Подтянуть Чувакатова (искал шаблоны в TikTok) к OnlyFans-направлению — потенциальный исполнитель или партнёр.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить автоматизацию и персонализацию видеоконтента для OnlyFans-направления через AI-инструменты.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "OnlyFans с системным подходом, AI-автоматизацией и масштабом (20-30 моделей) может быть высокомаржинальным направлением — большинство игроков не применяют системные методы, что создаёт конкурентное преимущество.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    },
+    {
+      "category": "Контакты",
+      "content": "Чувакатов — человек, который искал шаблоны в TikTok; рассматривается как потенциальный участник OnlyFans-направления Jetix.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-11"
+    }
+  ],
+  "crm_items": [
+    {
+      "target": "crm",
+      "intent": "add",
+      "person_name": "Чувакатов",
+      "slug": null,
+      "role_hint": "partner_prospect",
+      "source_channel": "voice_memo",
+      "context": "Упомянут как потенциальный участник OnlyFans-направления Jetix — ранее искал шаблоны в TikTok, рассматривается как исполнитель или партнёр.",
+      "raw_quote": "Чувакатову подтягиваем, который, блядь, в ТикТоке шаблоны искал."
+    }
+  ]
+}

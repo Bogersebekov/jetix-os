@@ -1,3 +1,87 @@
+## 2026-05-11 20:42 — voice-router draft created: oleg-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: oskar-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: fedorev-draft-6
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: dmitriy-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: dima-draft-4
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tserin-draft-5
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tserin-draft-4
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: oleg-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: fedorev-draft-5
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: oskar-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: chuvakatov-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router auto-touch: tseren-tserenov
+  intent: touch  note: Церен упоминается как партнёрский контакт под одну из ключевых ролей Jetix. План
+
+## 2026-05-11 20:42 — voice-router draft created: anatoliy-levenchuk-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tserin-draft-3
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: anatoliy-levenchuk-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tsarin-draft
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: mim-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: fedorev-draft-4
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: oleg-ili-viktor-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tanki-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: levenchuk-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: tserin-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: fedorev-draft-3
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: alan-tropik-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: oskar-khardman-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: misha-takovinin-draft-2
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: dima-draft-3
+  source: voice-memo  intent: add
+
+## 2026-05-11 20:42 — voice-router draft created: ilon-mask-draft-3
+  source: voice-memo  intent: add
+
 ## 2026-05-01 21:25 — voice-router draft created: mim-draft
   source: voice-memo  intent: add
 
