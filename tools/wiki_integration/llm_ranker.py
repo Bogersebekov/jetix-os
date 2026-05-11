@@ -15,11 +15,36 @@ Resilience:
 """
 
 import json
+import os
 import re
-from dataclasses import dataclass, field
+import time
+from dataclasses import asdict, dataclass, field
+from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 from tools.lib.cc_helper import claude_call
+
+
+class ThrottleError(RuntimeError):
+    """Raised when CC headless returns rate-limit / Max-usage signal.
+
+    Distinguished from generic RuntimeError so rank_all_batched can apply
+    sleep+retry policy per plan-doc §5.4.1 (2026-05-11).
+    """
+
+
+_THROTTLE_SIGNALS = (
+    "rate_limit", "rate limit", "Rate limit",
+    "429",
+    "usage limit", "Usage limit",
+    "Max usage", "weekly limit",
+    "exceeded usage",
+    "quota exceeded",
+)
+
+
+def _is_throttle(err_text: str) -> bool:
+    return any(sig in err_text for sig in _THROTTLE_SIGNALS)
 
 
 SYSTEM_PROMPT = """You match user voice-memo extracts against existing wiki entries.
@@ -148,13 +173,23 @@ def rank_batch(
                 score = min(score, 0.0)
             rationale = (row.get("rationale") or "")[:300]
             out[rid] = RankResult(rid, best, score, rationale, fallback=False)
-    except Exception as e:
-        # Whole batch failed — fall back per-item
+    except RuntimeError as e:
+        # Distinguish throttle (re-raise for retry) from generic failure (fallback).
+        if _is_throttle(str(e)):
+            raise ThrottleError(str(e)) from e
+        # Whole batch failed (non-throttle) — fall back per-item
         for vi in voice_items:
             cands = candidates_per_item.get(vi["id"], [])
             top = cands[0] if cands else None
             out[vi["id"]] = _fallback_for_item(vi["id"], top)
-        # Stamp the first one with the error for observability
+        if voice_items:
+            first_id = voice_items[0]["id"]
+            out[first_id].rationale = f"(batch-failed: {str(e)[:80]}; BM25-fallback)"
+    except Exception as e:
+        for vi in voice_items:
+            cands = candidates_per_item.get(vi["id"], [])
+            top = cands[0] if cands else None
+            out[vi["id"]] = _fallback_for_item(vi["id"], top)
         if voice_items:
             first_id = voice_items[0]["id"]
             out[first_id].rationale = f"(batch-failed: {str(e)[:80]}; BM25-fallback)"
@@ -169,26 +204,112 @@ def rank_batch(
     return [out[vid] for vid in expected_ids]
 
 
+def _save_checkpoint(path: Path, completed: Dict[int, "RankResult"],
+                       retry_events: List[Dict[str, Any]]) -> None:
+    payload = {
+        "schema_version": 1,
+        "saved_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "completed_count": len(completed),
+        "retry_events": retry_events,
+        "results": [asdict(r) for r in completed.values()],
+    }
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    tmp.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    tmp.replace(path)
+
+
+def _load_checkpoint(path: Path) -> tuple[Dict[int, "RankResult"], List[Dict[str, Any]]]:
+    if not path.exists():
+        return {}, []
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {}, []
+    completed: Dict[int, RankResult] = {}
+    for row in data.get("results", []):
+        rr = RankResult(
+            item_id=int(row["item_id"]),
+            best_match=row.get("best_match"),
+            score=float(row.get("score") or 0.0),
+            rationale=row.get("rationale") or "",
+            fallback=bool(row.get("fallback", False)),
+        )
+        completed[rr.item_id] = rr
+    return completed, data.get("retry_events", [])
+
+
 def rank_all_batched(
     voice_items: List[Dict[str, Any]],
     candidates_per_item: Dict[int, List[Dict[str, Any]]],
     batch_size: int = 8,
     model: str = "claude-sonnet-4-6",
     progress_cb=None,
+    checkpoint_path: Optional[Path] = None,
+    checkpoint_every: int = 0,
+    retry_max: int = 3,
+    retry_sleep_sec: int = 1800,
 ) -> List[RankResult]:
     """Process all voice_items in batches.
 
     Args:
         progress_cb: optional callback(batch_idx, total_batches, n_items) for logging
+        checkpoint_path: if set, JSON state file written every `checkpoint_every` batches
+                         (idempotent resume — completed item_ids skipped on restart)
+        checkpoint_every: 0 = no periodic write; final state still written on completion
+        retry_max: max throttle retries per batch (default 3, per plan-doc §5.4.1)
+        retry_sleep_sec: sleep duration before each retry (default 1800 = 30 min)
+
+    Raises:
+        ThrottleError after retry_max exhausted on a single batch.
     """
-    out: List[RankResult] = []
-    total = (len(voice_items) + batch_size - 1) // batch_size
-    for bi in range(total):
-        batch = voice_items[bi * batch_size : (bi + 1) * batch_size]
+    completed: Dict[int, RankResult] = {}
+    retry_events: List[Dict[str, Any]] = []
+
+    if checkpoint_path is not None:
+        completed, retry_events = _load_checkpoint(checkpoint_path)
+        if completed and progress_cb:
+            progress_cb(0, 0, len(completed))  # signal resume
+
+    pending = [vi for vi in voice_items if vi["id"] not in completed]
+    total_pending_batches = (len(pending) + batch_size - 1) // batch_size
+
+    for bi in range(total_pending_batches):
+        batch = pending[bi * batch_size : (bi + 1) * batch_size]
         if progress_cb:
-            progress_cb(bi + 1, total, len(batch))
-        out.extend(rank_batch(batch, candidates_per_item, model=model))
-    return out
+            progress_cb(bi + 1, total_pending_batches, len(batch))
+
+        attempt = 0
+        while True:
+            try:
+                batch_out = rank_batch(batch, candidates_per_item, model=model)
+                for r in batch_out:
+                    completed[r.item_id] = r
+                break
+            except ThrottleError as exc:
+                attempt += 1
+                event = {
+                    "batch_idx": bi + 1,
+                    "attempt": attempt,
+                    "ts_utc": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                    "signal": str(exc)[:200],
+                }
+                retry_events.append(event)
+                if checkpoint_path is not None:
+                    _save_checkpoint(checkpoint_path, completed, retry_events)
+                if attempt > retry_max:
+                    raise ThrottleError(
+                        f"retry_max={retry_max} exhausted on batch {bi+1}: {exc}"
+                    ) from exc
+                time.sleep(retry_sleep_sec)
+
+        if checkpoint_path is not None and checkpoint_every > 0 \
+                and (bi + 1) % checkpoint_every == 0:
+            _save_checkpoint(checkpoint_path, completed, retry_events)
+
+    if checkpoint_path is not None:
+        _save_checkpoint(checkpoint_path, completed, retry_events)
+
+    return [completed[vi["id"]] for vi in voice_items if vi["id"] in completed]
 
 
 # ─── Smoke test ─────────────────────────────────────────────────────────────

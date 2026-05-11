@@ -479,8 +479,9 @@ def stage_5_wiki_candidates(filtered_data: Dict[str, Any], output_dir: Path,
     cfg = _load_lens_thresholds(lens)
     today = datetime.now().strftime("%Y-%m-%d")
 
-    out_md = output_dir / "04-wiki-candidates-v2.md"
-    out_json = output_dir / "04-wiki-candidates-v2.json"
+    suffix = os.environ.get("STAGE5_OUTPUT_SUFFIX", "v2")
+    out_md = output_dir / f"04-wiki-candidates-{suffix}.md"
+    out_json = output_dir / f"04-wiki-candidates-{suffix}.json"
 
     # ── Stage 5.1 — Build BM25 index over wiki bodies ──
     log.stage_log(f"5.1 loading wiki corpus from {ROOT/'wiki'}")
@@ -608,10 +609,15 @@ def stage_5_wiki_candidates(filtered_data: Dict[str, Any], output_dir: Path,
     else:
         from tools.wiki_integration.llm_ranker import rank_all_batched as _rrb
         batch_size = int(os.environ.get("STAGE5_LLM_BATCH", "10"))
+        ckpt_every = int(os.environ.get("STAGE5_CHECKPOINT_EVERY", "0"))
+        ckpt_path_env = os.environ.get("STAGE5_CHECKPOINT_PATH")
+        ckpt_path = Path(ckpt_path_env) if ckpt_path_env else (output_dir / f"_checkpoint_{suffix}.json")
         def _progress(bi, total, n):
             log.stage_log(f"  5.2 batch {bi}/{total} ({n} items)")
         rr_list = _rrb(eligible_for_llm, bm25_results, batch_size=batch_size,
-                       progress_cb=_progress)
+                       progress_cb=_progress,
+                       checkpoint_path=ckpt_path if ckpt_every > 0 else None,
+                       checkpoint_every=ckpt_every if ckpt_every > 0 else 0)
         for r in rr_list:
             rank_results[r.item_id] = {
                 "best_match": r.best_match,
