@@ -1,0 +1,13 @@
+slug: koster-theory-of-fun-2004
+tool_used: pymupdf4llm
+pages_pdf: 214
+chars_md: 254575
+words_md: 43033
+headers_md: 51
+images_extracted: 3
+images_dir_size_kb: 497.9
+md_size_kb: 252.2
+wall_seconds: 124.9
+status: quality_fail
+quality_flags: ["koster_few_images=3"]
+converted_at: 2026-05-11T13:09:04

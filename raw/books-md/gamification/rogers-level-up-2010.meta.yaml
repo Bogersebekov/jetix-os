@@ -1,0 +1,13 @@
+slug: rogers-level-up-2010
+tool_used: pymupdf4llm
+pages_pdf: 516
+chars_md: 818215
+words_md: 145551
+headers_md: 328
+images_extracted: 14
+images_dir_size_kb: 6693.0
+md_size_kb: 809.5
+wall_seconds: 255.2
+status: ok
+quality_flags: []
+converted_at: 2026-05-11T13:14:35

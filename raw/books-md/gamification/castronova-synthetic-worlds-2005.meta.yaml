@@ -1,0 +1,13 @@
+slug: castronova-synthetic-worlds-2005
+tool_used: pymupdf4llm
+pages_pdf: 338
+chars_md: 947495
+words_md: 158684
+headers_md: 168
+images_extracted: 3
+images_dir_size_kb: 2.6
+md_size_kb: 932.3
+wall_seconds: 91.0
+status: ok
+quality_flags: []
+converted_at: 2026-05-11T12:52:01

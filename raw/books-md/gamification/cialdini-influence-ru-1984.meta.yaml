@@ -1,0 +1,13 @@
+slug: cialdini-influence-ru-1984
+tool_used: pymupdf4llm
+pages_pdf: 407
+chars_md: 772124
+words_md: 104931
+headers_md: 155
+images_extracted: 1
+images_dir_size_kb: 152.8
+md_size_kb: 1319.3
+wall_seconds: 140.7
+status: ok
+quality_flags: []
+converted_at: 2026-05-11T13:04:43
