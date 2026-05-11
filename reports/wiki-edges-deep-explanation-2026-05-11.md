@@ -209,45 +209,41 @@ Per CLAUDE.md `Wiki Architecture v2`:
 **Что значит:** воice = только **одна линия input'а**. В будущем точно так же:
 
 ```mermaid
-%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#a1dab4', 'primaryTextColor':'#000', 'primaryBorderColor':'#225ea8', 'lineColor':'#444', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'13px'}}}%%
 flowchart LR
+    S1[Voice memos]
+    S2[Books]
+    S3[Articles]
+    S4[Videos]
+    S5[Notion]
+    S6[Calls]
+    S7[AI chats]
+    S8[Emails]
 
-    subgraph SOURCES ["Future inputs"]
-        S1["Voice memos<br/>сегодня — main"]:::voice
-        S2["Books<br/>402 books in raw"]:::book
-        S3["Articles<br/>URL ingest"]:::article
-        S4["Videos and YouTube"]:::video
-        S5["Notion pages and conversations"]:::note
-        S6["Calls transcripts"]:::call
-        S7["AI conversations Claude and GPT"]:::ai
-        S8["Emails and messages"]:::email
-    end
+    INGEST[ingest skill]
 
-    INGEST["ingest skill<br/>Universal pipeline<br/>extract then categorize then match then edge"]:::ingest
+    WIKI[Wiki 552 entries 577 edges]
 
-    WIKI["Wiki<br/>552 entries growing<br/>577 edges growing"]:::wiki
+    S1 --> INGEST
+    S2 --> INGEST
+    S3 --> INGEST
+    S4 --> INGEST
+    S5 --> INGEST
+    S6 --> INGEST
+    S7 --> INGEST
+    S8 --> INGEST
 
-    S1 ==> INGEST
-    S2 ==> INGEST
-    S3 ==> INGEST
-    S4 ==> INGEST
-    S5 ==> INGEST
-    S6 ==> INGEST
-    S7 ==> INGEST
-    S8 ==> INGEST
+    INGEST --> WIKI
 
-    INGEST ==>|extracts entries + creates edges| WIKI
-
-    classDef voice fill:#ffffcc,stroke:#888,stroke-width:2px,color:#000
-    classDef book fill:#fdb18b,stroke:#a35332,stroke-width:2px,color:#000
-    classDef article fill:#41b6c4,stroke:#1a6e7d,stroke-width:2px,color:#000
-    classDef video fill:#fce4ec,stroke:#ad1457,stroke-width:2px,color:#000
-    classDef note fill:#a1dab4,stroke:#225ea8,stroke-width:2px,color:#000
-    classDef call fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
-    classDef ai fill:#e8eaf6,stroke:#283593,stroke-width:2px,color:#000
-    classDef email fill:#fff3e0,stroke:#e65100,stroke-width:2px,color:#000
-    classDef ingest fill:#e41a1c,stroke:#a00,stroke-width:4px,color:#fff
-    classDef wiki fill:#225ea8,stroke:#0d2858,stroke-width:4px,color:#fff
+    style S1 fill:#ffffcc,stroke:#888,color:#000
+    style S2 fill:#fdb18b,stroke:#a35332,color:#000
+    style S3 fill:#41b6c4,stroke:#1a6e7d,color:#000
+    style S4 fill:#fce4ec,stroke:#ad1457,color:#000
+    style S5 fill:#a1dab4,stroke:#225ea8,color:#000
+    style S6 fill:#e1f5fe,stroke:#01579b,color:#000
+    style S7 fill:#e8eaf6,stroke:#283593,color:#000
+    style S8 fill:#fff3e0,stroke:#e65100,color:#000
+    style INGEST fill:#e41a1c,stroke:#a00,stroke-width:4px,color:#fff
+    style WIKI fill:#225ea8,stroke:#0d2858,stroke-width:4px,color:#fff
 ```
 
 **Это значит:**
