@@ -2,7 +2,11 @@
 title: Gamification Deep Wiki Mining — Source Quality & Manual Downloads Addendum (Шаг B.1)
 date: 2026-05-11
 type: mining-plan-addendum
-status: DRAFT — awaits Ruslan §6 ack (7 open questions) + manual downloads → Шаг C trigger
+status: ACK'D 2026-05-11 — §6 Q1-Q7 resolved + §1/§3 ack'd by Ruslan; awaits CORE 3 manual downloads in raw/ → Шаг C trigger
+ack_log:
+  - 2026-05-11 Ruslan ack §6 Q1-Q7 (Q1 MD preferred / Q2 FULL 9 target CORE 3 minimum / Q3 skip paid GDC / Q4 skip Audible / Q5 thresholds default / Q6 Tier 2 wikis mechanics-only / Q7 Twitter Tier 3 named-author OR REJECT)
+  - 2026-05-11 Ruslan ack §1 tier policy unchanged
+  - 2026-05-11 Ruslan ack §3 self-audit hooks unchanged (all thresholds mandatory)
 authored_by: claude-opus-4-7 (acting_as gamification-curator-role) + Ruslan (vision + spec)
 prose_authored_by: hybrid-with-ack-trail
 parent_plan_doc: reports/gamification-deep-wiki-mining-plan-2026-05-11.md
@@ -46,7 +50,7 @@ related_canonical:
  7. Self-audit per-source frontmatter: source_classifier { tier / type / verifiable_author / year / cross_validated / primary_source_url_or_path }.
  8. Self-audit per-entry frontmatter: audit { confidence / primary_source_cited / hallucination_risk / fallback_to_bm25 } + post-domain summary template.
  9. Real-time halt thresholds: >20% low-confidence per domain → PAUSE; >10% high hallucination → PAUSE; cite-failure rate >15% → PAUSE; primary_source_cited:false → REJECT entry.
-10. Шаг C trigger БЛОКИРОВАН до: Ruslan ack §6 (минимум Q1+Q2+Q5) + CORE 3 books в raw/ + Addendum §1+§3 reviewed. Без ack — NOT trigger mining.
+10. STATUS ACK'D 2026-05-11: §6 Q1-Q7 resolved (FULL 9 target / MD preferred / halt thresholds default) + §1+§3 ack'd. Шаг C trigger waits ONLY на CORE 3 manual downloads physical placement в raw/books-md/gamification/ или raw/papers-pdf/gamification/.
 ```
 
 ---
@@ -257,40 +261,44 @@ All 4 cross-references формата `> **Addendum reference / gate:** ... — 
 
 ## §5 Pre-Execution Checklist (gates Шаг C trigger)
 
-- [ ] Ruslan скачал минимум **CORE 3** (Castronova *Synthetic Worlds* + Eyal *Hooked* + Koster *Theory of Fun*)
-- [ ] `mkdir -p raw/books-md/gamification raw/papers-pdf/gamification raw/talks-transcripts/gamification` выполнено
-- [ ] Books положены в `raw/books-md/gamification/` (если Markdown конверсия через Calibre) **OR** PDF в `raw/papers-pdf/gamification/` (если не конвертирован)
-- [ ] CC verify через `Read` tool на 1-2 sample files — paths resolve, content parseable (NOT hallucinated)
-- [ ] Pipeline registry знает paths — manual grep before Шаг C (`grep -rln "raw/books-md/gamification" .claude/config/ swarm/lib/ tools/` — confirm or note no config required since paths are convention-based)
-- [ ] Ruslan answered §6 Open Questions — **минимум Q1, Q2, Q5** (book format / priority depth / halt thresholds — these are gating)
-- [ ] §1 (Tier policy) + §3 (Audit hooks) reviewed + ack'd by Ruslan
+Status snapshot 2026-05-11 (post Ruslan §6 ack):
+
+- [ ] Ruslan скачал минимум **CORE 3** (Castronova *Synthetic Worlds* + Eyal *Hooked* + Koster *Theory of Fun*) — **IN PROGRESS** (Ruslan downloading parallel; target FULL 9 per Q2 ack)
+- [ ] `mkdir -p raw/books-md/gamification raw/papers-pdf/gamification raw/talks-transcripts/gamification` — **PENDING** (Ruslan within minutes)
+- [ ] Books placed в `raw/books-md/gamification/` (Calibre MD conversion preferred per Q1 ack) **OR** PDF в `raw/papers-pdf/gamification/` — **PENDING** download
+- [ ] CC verify через `Read` tool на 1-2 sample files — paths resolve, content parseable — **PENDING** file placement
+- [✓] Pipeline registry знает paths — convention-based, no config required (per §5 note; confirmed)
+- [✓] Ruslan answered §6 Open Questions — **Q1-Q7 all resolved 2026-05-11** (see §6 inline ACK'D)
+- [✓] §1 (Tier policy) + §3 (Audit hooks) reviewed + ack'd by Ruslan — **2026-05-11** (unchanged, all thresholds mandatory as written)
 
 **Шаг C trigger condition:** all 7 boxes checked. Brigadier dispatch НЕ initiated иначе.
 
+**Remaining blockers (4):** download CORE 3 minimum → mkdir dirs → place files → CC sample-read verify. Ruslan signals separately when git push с книгами done.
+
 ---
 
-## §6 Open Questions (Ruslan ack required)
+## §6 Open Questions — RESOLVED 2026-05-11 (Ruslan ack)
 
 **Q1 (gating).** Книги — конвертировать в Markdown (Calibre `ebook-convert`) или достаточно PDF в `raw/papers-pdf/gamification/`?
-**Default:** PDF acceptable for all; MD preferred for Tier 1 anchors (Castronova / Eyal / Koster).
+**✓ ACK'D 2026-05-11:** MD preferred для всех books — convert via Calibre `ebook-convert` → `raw/books-md/gamification/`. PDF-only книги → `raw/papers-pdf/gamification/`, далее separate conversion to MD для consistency.
 
-**Q2 (gating).** Приоритет manual downloads — CORE 3 (Castronova + Hooked + Theory of Fun) / CORE 5 / FULL 9?
-**Default:** CORE 3 минимум для trigger; EXTENDED 4 по мере доступности (не блокирует).
+**Q2 (gating).** Приоритет manual downloads — CORE 3 / CORE 5 / FULL 9?
+**✓ ACK'D 2026-05-11:** Target = **FULL 9** (CORE 5 + EXTENDED 4). Минимум для Шаг C trigger = **CORE 3** (Castronova *Synthetic Worlds* + Eyal *Hooked* + Koster *Theory of Fun*). Остальные подгрузим в ближайшие часы — не блокируют trigger, но maximize до FULL 9 if feasible.
 
-**Q3.** GDC Vault paid talks подключаем (потребуется paid sub trial) или skip?
-**Default:** skip — free public talks достаточно для Шаг C; paid в Шаг C+1 если value подтверждён.
+**Q3.** GDC Vault paid talks подключаем или skip?
+**✓ ACK'D 2026-05-11:** Skip paid GDC — free public talks достаточно для Шаг C.
 
-**Q4.** Audible workflow — если книги в Audible — нужен Whisper transcription?
-**Default:** skip Audible-only books для Шаг C; transcription отложен в Шаг C+1.
+**Q4.** Audible workflow — нужна Whisper transcription?
+**✓ ACK'D 2026-05-11:** Skip Audible-only для Шаг C — только manually-downloadable books (MD/PDF). Audible transcription отложен в Шаг C+1.
 
-**Q5 (gating).** Halt thresholds — `>20%` low-confidence per domain → PAUSE; `>10%` high hallucination → PAUSE; `>15%` cite-failure → PAUSE. Устраивают или подкрутить (e.g. stricter `>15%` / `>5%` / `>10%`)?
-**Default:** проценты как написано; subject к Ruslan tuning.
+**Q5 (gating).** Halt thresholds (>20% low-confidence / >10% high hallucination / >15% cite-failure)?
+**✓ ACK'D 2026-05-11:** Accept as is. Tunable после первого checkpoint если data покажет drift.
 
-**Q6.** Tier 2 включает game wikis (OSRS, EVE Uniwiki, WoW Wiki) — okay anchor только для **game-mechanics description**, NOT для theory claims. Confirm?
-**Default:** confirmed unless Ruslan возражает.
+**Q6.** Tier 2 game wikis (OSRS / EVE Uniwiki / WoW Wiki) — anchor только для mechanics description, NOT для theory claims?
+**✓ ACK'D 2026-05-11:** Confirmed. Game wikis Tier 2 mechanics-only, NOT для theory.
 
-**Q7.** REJECT list — добавить ещё категории? Specific example: Twitter/X threads как primary citation source?
-**Default:** Twitter/X threads → Tier 3 with named-author + thread-archive-URL requirement; иначе REJECT.
+**Q7.** REJECT list — Twitter/X threads policy?
+**✓ ACK'D 2026-05-11:** Twitter/X threads → **Tier 3** с mandatory `verifiable_author: true` (named human handle) + thread-archive-URL (e.g. Nitter snapshot / Archive.org) в `primary_source_url_or_path`. Иначе → **REJECT**.
 
 ---
 
@@ -309,10 +317,12 @@ All 4 cross-references формата `> **Addendum reference / gate:** ... — 
 
 **Push:** `git push origin main` after commit success.
 
-**Gate:** Шаг C trigger **NOT** initiated. Awaiting:
-1. Ruslan ack on §6 (minimum Q1 + Q2 + Q5)
-2. Manual download checklist §5 minimum CORE 3
-3. Optional Ruslan-requested tweaks to §1 (tier policy) or §3 (halt thresholds)
+**Gate (post-ack 2026-05-11):** Шаг C trigger **NOT** initiated. Remaining blocker:
+1. ~~Ruslan ack on §6~~ **DONE 2026-05-11** (Q1-Q7 all resolved; §6 inline)
+2. Manual download checklist §5 minimum **CORE 3** physical placement в raw/ — IN PROGRESS
+3. ~~Optional tweaks to §1/§3~~ **DONE** — accepted as written (no tweaks requested)
+
+Brigadier dispatch WAITS на Ruslan explicit signal `«Шаг C: starts brigadier dispatch — gamification deep wiki mining»` AFTER он confirms CORE 3 physical presence + git push с книгами done.
 
 ---
 
