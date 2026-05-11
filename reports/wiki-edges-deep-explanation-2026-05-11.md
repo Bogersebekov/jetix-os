@@ -212,20 +212,20 @@ Per CLAUDE.md `Wiki Architecture v2`:
 %%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#a1dab4', 'primaryTextColor':'#000', 'primaryBorderColor':'#225ea8', 'lineColor':'#444', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'13px'}}}%%
 flowchart LR
 
-    subgraph SOURCES ["📥 Future inputs (любые)"]
-        S1["📝 Voice memos<br/><small>сегодня — main</small>"]:::voice
-        S2["📚 Books<br/><small>(уже есть 402 books in raw/)</small>"]:::book
-        S3["📰 Articles<br/><small>(URL ingest)</small>"]:::article
-        S4["🎥 Videos / YouTube transcripts"]:::video
-        S5["💬 Notion pages / conversations"]:::note
-        S6["📞 Calls transcripts"]:::call
-        S7["🤖 AI conversations<br/><small>Claude / GPT chats</small>"]:::ai
-        S8["📧 Emails / messages"]:::email
+    subgraph SOURCES ["Future inputs"]
+        S1["Voice memos<br/>сегодня — main"]:::voice
+        S2["Books<br/>402 books in raw"]:::book
+        S3["Articles<br/>URL ingest"]:::article
+        S4["Videos / YouTube"]:::video
+        S5["Notion pages / conversations"]:::note
+        S6["Calls transcripts"]:::call
+        S7["AI conversations<br/>Claude/GPT chats"]:::ai
+        S8["Emails / messages"]:::email
     end
 
-    INGEST(("🔄 /ingest skill<br/><b>Universal pipeline</b><br/><small>extract → categorize → match → edge</small>")):::ingest
+    INGEST["/ingest skill<br/>Universal pipeline<br/>extract / categorize / match / edge"]:::ingest
 
-    WIKI[("📚 Wiki<br/><b>552 entries → growing</b><br/><small>edges.jsonl<br/>577 → growing</small>")]:::wiki
+    WIKI["Wiki<br/>552 entries growing<br/>577 edges growing"]:::wiki
 
     S1 ==> INGEST
     S2 ==> INGEST
@@ -236,7 +236,7 @@ flowchart LR
     S7 ==> INGEST
     S8 ==> INGEST
 
-    INGEST ==>|extracts entries +<br/>creates edges| WIKI
+    INGEST ==>|extracts entries + creates edges| WIKI
 
     classDef voice fill:#ffffcc,stroke:#888,stroke-width:2px,color:#000
     classDef book fill:#fdb18b,stroke:#a35332,stroke-width:2px,color:#000
@@ -284,19 +284,19 @@ flowchart LR
 %%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#a1dab4', 'primaryTextColor':'#000', 'primaryBorderColor':'#225ea8', 'lineColor':'#444', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'13px'}}}%%
 flowchart TB
 
-    subgraph CURRENT ["⚙️ Current state — BM25 only"]
+    subgraph CURRENT ["Current state — BM25 only"]
         BM25_T_A["Tier A: 39"]:::high
         BM25_T_B["Tier B: 593"]:::medium
         BM25_T_C["Tier C: 630"]:::low
     end
 
-    LLM_RERUN(["🌙 Overnight LLM rerun<br/><small>9 hours<br/>1262 items × Claude rate</small>"]):::process
+    LLM_RERUN["Overnight LLM rerun<br/>9 hours<br/>1262 items via Claude"]:::process
 
-    subgraph AFTER ["🟢 After LLM rerun (estimated)"]
-        FINAL_T_A["Tier A: ~25-30<br/><small>тщательнее filtered<br/>higher precision</small>"]:::high
-        FINAL_T_B["Tier B: ~300-400<br/><small>cleaner subset<br/>LLM-validated semantics</small>"]:::medium
-        FINAL_T_C["Tier C: ~500-600<br/><small>cleaner propose-new<br/>fewer false positives</small>"]:::low
-        FINAL_NEW["NEW: bridging items<br/><small>some items moved A↔B<br/>some moved B↔C</small>"]:::new
+    subgraph AFTER ["After LLM rerun (estimated)"]
+        FINAL_T_A["Tier A: 25-30<br/>тщательнее filtered<br/>higher precision"]:::high
+        FINAL_T_B["Tier B: 300-400<br/>cleaner subset<br/>LLM-validated semantics"]:::medium
+        FINAL_T_C["Tier C: 500-600<br/>cleaner propose-new<br/>fewer false positives"]:::low
+        FINAL_NEW["NEW bridging items<br/>some moved A to B<br/>some moved B to C"]:::new
     end
 
     CURRENT --> LLM_RERUN
@@ -362,11 +362,11 @@ flowchart LR
     T3["📅 +1 год"]:::time
     T4["📅 +3 года"]:::time
 
-    W0["📚 Wiki<br/>552 entries<br/>577 edges<br/><b>+39 = 616</b>"]:::small
-    W1["📚 Wiki<br/>~700 entries<br/>~1500 edges<br/><i>ingest sources</i>"]:::medium
-    W2["📚 Wiki<br/>~1500 entries<br/>~8000 edges<br/><i>compound year</i>"]:::large
-    W3["📚 Wiki<br/>~3000 entries<br/>~25000 edges<br/><i>knowledge moat</i>"]:::huge
-    W4["📚 Wiki<br/>~10000 entries<br/>~150000 edges<br/><b>encyclopedia of Ruslan's thinking</b><br/><i>uncopyable moat</i>"]:::massive
+    W0["Wiki сейчас<br/>552 entries<br/>577 edges<br/>+39 = 616"]:::small
+    W1["Wiki +1 мес<br/>~700 entries<br/>~1500 edges<br/>ingest sources"]:::medium
+    W2["Wiki +6 мес<br/>~1500 entries<br/>~8000 edges<br/>compound year"]:::large
+    W3["Wiki +1 год<br/>~3000 entries<br/>~25000 edges<br/>knowledge moat"]:::huge
+    W4["Wiki +3 года<br/>~10000 entries<br/>~150000 edges<br/>encyclopedia of thinking<br/>uncopyable moat"]:::massive
 
     T0 --> W0
     T1 --> W1
