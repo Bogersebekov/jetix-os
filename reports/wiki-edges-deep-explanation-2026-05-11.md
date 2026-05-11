@@ -216,14 +216,14 @@ flowchart LR
         S1["Voice memos<br/>сегодня — main"]:::voice
         S2["Books<br/>402 books in raw"]:::book
         S3["Articles<br/>URL ingest"]:::article
-        S4["Videos / YouTube"]:::video
-        S5["Notion pages / conversations"]:::note
+        S4["Videos and YouTube"]:::video
+        S5["Notion pages and conversations"]:::note
         S6["Calls transcripts"]:::call
-        S7["AI conversations<br/>Claude/GPT chats"]:::ai
-        S8["Emails / messages"]:::email
+        S7["AI conversations Claude and GPT"]:::ai
+        S8["Emails and messages"]:::email
     end
 
-    INGEST["/ingest skill<br/>Universal pipeline<br/>extract / categorize / match / edge"]:::ingest
+    INGEST["ingest skill<br/>Universal pipeline<br/>extract then categorize then match then edge"]:::ingest
 
     WIKI["Wiki<br/>552 entries growing<br/>577 edges growing"]:::wiki
 
