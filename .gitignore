@@ -31,3 +31,7 @@ __pycache__/
 # ActivityWatch raw exports (sensitive — URLs, window titles)
 raw/activitywatch/json/
 raw/activitywatch/archive/
+
+# Wiki-rebuild pipeline checkpoint state (transient runtime, not provenance)
+# Audit trail goes to <pipeline-dir>/checkpoint-summary.md (committed) per Q4 ack 2026-05-11
+_checkpoint_*.json

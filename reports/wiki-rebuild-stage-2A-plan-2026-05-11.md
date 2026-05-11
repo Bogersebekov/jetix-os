@@ -4,7 +4,7 @@ type: execution-plan
 project: wiki-integration / quick-money P1
 created: 2026-05-11
 created_berlin: 2026-05-11T03:45 CEST
-ack_state: ruslan-acked (4 deviations confirmed)
+ack_state: ruslan-acked (4 deviations + Q1-Q5 open questions resolved)
 execution_state: NOT YET STARTED — awaits explicit "поехали Stage 2A" command
 target_window: 2026-05-11T22:00 → 2026-05-12T07:00 Berlin
 authority: Day Plan 11.05 Step 2 (Notion 35c2496333bf81c88389fb2cd0ec90a8)
@@ -18,7 +18,7 @@ constitutional_classification: F2 blast-radius, Default-Deny ALLOWED
 - **Цель:** Первый полноценный LLM precision rerank wiki candidates (v2 был BM25-only с `STAGE5_SKIP_LLM=1`, не semantic).
 - **Scope:** Hybrid — delta detection в `raw/transcripts/` (~0-50 новых memos) + 1627 existing filtered → 1262-1300 candidates.
 - **Methodology:** `claude-sonnet-4-6`, batch=8, sequential, BM25 prefilter top-10, thresholds A≥0.85 / B≥0.60.
-- **Budget:** ~2.3M in / ~163K out tokens (Max sub, no €). Checkpoint every 50 batches → idempotent resume.
+- **Budget:** ~2.3M in / ~163K out tokens (Max sub, no €). Checkpoint every 50 batches → idempotent resume. Auto-retry on throttle: 3× 30min, then halt-for-Ruslan with Telegram escalation.
 - **ETA:** 22:00 Berlin 2026-05-11 → 07:00 2026-05-12 (9h window, expected 4-5h actual).
 - **Output:** `reports/voice-pipeline-2026-05-10/04-wiki-candidates-v3.{md,json}` + `match-rate-comparison-v3.md`.
 - **Tier estimates:** A 39→25-30, B 593→300-400, C 630→500-650. Match-rate 50.1%→28-35% (DROP expected = correct).
@@ -65,11 +65,16 @@ Stage 5 LLM rerank on combined candidate set.
 
 | Source | Path | Count | Date range | Status |
 |--------|------|-------|------------|--------|
-| Voice transcripts | `raw/transcripts/` | 198 | 2026-04-15 → 2026-05-10 | Stages 1-4 already run on these |
-| Inbox voice | `inbox/voice/` | 2 | recent | Awaiting transcribe |
+| Voice transcripts (PRIMARY) | `raw/transcripts/` | 198 | 2026-04-15 → 2026-05-10 | Stages 1-4 already run on these |
+| Inbox voice (registry check) | `inbox/voice/` | 2 | recent | Awaiting transcribe; INCLUDED only if `inbox/voice/` appears in pipeline registry (`tools/run_pipeline.sh` scan paths) per Q1 ack |
 | Wiki ideas (Банк идей FS snapshot) | `wiki/ideas/` | 258 | snapshot 2026-04-16 | Already wiki entries (NOT candidates) — they form part of the **target** corpus, not source |
 | Filtered annotated items | `reports/voice-pipeline-2026-05-10/_filtered-annotated.json` | 1627 items / 47 memos | 2026-05-10 batch | Stage 3 output; 1262 went to candidates, 365 skipped |
 | **Delta to ingest** | new since 2026-05-10 23:46 (last git commit on `raw/transcripts/`) | TBD by dry-run | post 2026-05-10 | Run Stages 1-4 on these only |
+
+**Delta scope policy (Q1 ack 2026-05-11):** PRIMARY = `raw/transcripts/` only.
+Secondary voice paths (`recordings/`, `voice-notes/`, `inbox/voice/`) — INCLUDE
+only if `tools/run_pipeline.sh` already scans them in its source registry;
+otherwise SKIP. Dry-run prints which paths are scanned.
 
 **Wiki target corpus** (what candidates match against): 552 entries indexed
 during v2 run, vocab=6550, avgdl=102. No re-index needed unless wiki entries
@@ -373,17 +378,45 @@ Every 50 batches (every ~30 min if 30s/batch):
 - Append discipline-log line: `5.2 batch {N}/{T} ({n} items), {sec}s avg`
 - If checkpoint missing on resume → start from last checkpoint (idempotent)
 
-### §5.4 Halt conditions
+### §5.4 Halt conditions + retry/escalation policy (Q2 + Q5 ack)
 
-| Condition | Threshold | Action |
-|-----------|-----------|--------|
-| LLM call failures | >5 consecutive batch failures | Halt; write halt-log to `swarm/approvals/log.jsonl` (per Tier 2 R11 fail-loud) |
-| Wall clock | >6 h Stage 5.2 alone | Halt; write partial v3 + checkpoint |
-| OOM | Python MemoryError | Halt; checkpoint state preserved |
-| Throttle / Max-quota | repeated 429 / "rate_limit" in cc_helper | Halt; resume manually next session |
-| Disk space | <500 MB free in repo | Halt; clean up logs |
+#### §5.4.1 Throttle auto-retry (Q2 ack)
 
-All halts emit Halt-Log-Alert per Part 6b §I.2 + write to `swarm/approvals/log.jsonl`.
+On Max-quota / rate-limit signal (`429` / `"rate_limit"` in `cc_helper` response):
+1. **Retry 1:** sleep 30 min → resume from checkpoint → retry batch
+2. **Retry 2:** sleep 30 min → resume → retry batch
+3. **Retry 3:** sleep 30 min → resume → retry batch
+4. **All 3 retries failed** → halt-for-Ruslan with Telegram escalation (§5.4.3 tier-2)
+
+State: retry counter persisted in `_checkpoint_v3.json` so cross-session resume
+preserves count. Counter resets on first successful batch after a retry.
+
+#### §5.4.2 Halt conditions
+
+| Condition | Threshold | Action | Escalation tier |
+|-----------|-----------|--------|-----------------|
+| LLM call failures (non-throttle) | >5 consecutive batch failures | Halt; checkpoint preserved | Tier 2 |
+| Wall clock | >6 h Stage 5.2 alone | Halt; write partial v3 | Tier 2 |
+| OOM | Python MemoryError | Halt; checkpoint preserved | Tier 2 |
+| Throttle retries exhausted | 3× 30min retries failed | Halt-for-Ruslan | Tier 2 |
+| Disk space | <500 MB free in repo | Halt; clean up logs | Tier 2 |
+| Throttle (mid-retry) | each individual 429 hit | Continue retry loop (no halt) | Tier 1 |
+
+#### §5.4.3 Two-tier alert routing (Q5 ack)
+
+- **Tier 1 — routine** (each throttle retry attempt):
+  - Write to `swarm/approvals/log.jsonl` (silent file-only, per Tier 2 R11 fail-loud)
+  - Append discipline-log line in `_stage5_v3_rerun.log.md`
+  - **No Telegram push** — recovery is automatic
+- **Tier 2 — halt-for-Ruslan** (any non-recoverable halt):
+  - Tier 1 actions + **Telegram push via `inbox-processor` agent**
+  - Telegram message format: `[Stage 2A HALT] <condition> at <time>. Checkpoint at <path>. See <log path>.`
+- **Always** (regardless of tier): write Part 8 SLI alert to canonical SLI alert
+  channel per Part 8 §I.2 health monitoring schema.
+
+All halts emit Halt-Log-Alert per Part 6b §I.2. Telegram delivery is best-effort
+(if `inbox-processor` agent unavailable, fall back to file-only — does not
+block halt sequence).
 
 ### §5.5 Monitoring
 
@@ -401,14 +434,29 @@ Per-hour summary line auto-emitted by orchestrator (existing
 
 ### §6.1 Files written
 
-| File | Path | Type | Expected size |
-|------|------|------|---------------|
-| Candidates v3 | `reports/voice-pipeline-2026-05-10/04-wiki-candidates-v3.md` | markdown | ~250 KB |
-| Sidecar v3 | `reports/voice-pipeline-2026-05-10/04-wiki-candidates-v3.json` | JSON | ~2.5-3 MB |
-| Rerun log v3 | `reports/voice-pipeline-2026-05-10/_stage5_v3_rerun.log.md` | log | ~10-20 KB |
-| Checkpoint | `reports/voice-pipeline-2026-05-10/_checkpoint_v3.json` | JSON state | ~5-20 KB |
-| Match-rate comparison | `reports/wiki-integration-redesign-2026-05-10/match-rate-comparison-v3.md` | analysis | ~30-50 KB |
-| Filtered v3 | `reports/voice-pipeline-2026-05-10/_filtered-annotated-v3.json` | JSON | ~1.4 MB (+ delta) |
+**Versioning (Q3 ack 2026-05-11):** all output files use `-v3` suffix. v2 files
+preserved untouched (rollback always possible). No overwrite, no rename.
+
+| File | Path | Type | Expected size | Git tracking |
+|------|------|------|---------------|--------------|
+| Candidates v3 | `reports/voice-pipeline-2026-05-10/04-wiki-candidates-v3.md` | markdown | ~250 KB | committed |
+| Sidecar v3 | `reports/voice-pipeline-2026-05-10/04-wiki-candidates-v3.json` | JSON | ~2.5-3 MB | committed |
+| Rerun log v3 | `reports/voice-pipeline-2026-05-10/_stage5_v3_rerun.log.md` | log | ~10-20 KB | committed |
+| Checkpoint state (Q4) | `reports/voice-pipeline-2026-05-10/_checkpoint_v3.json` | JSON state | ~5-20 KB | **gitignored** (`_checkpoint_*.json` pattern) |
+| Checkpoint summary (Q4) | `reports/voice-pipeline-2026-05-10/checkpoint-summary.md` | markdown audit | ~2-5 KB | committed (final state only, written once on completion or terminal halt) |
+| Match-rate comparison | `reports/wiki-integration-redesign-2026-05-10/match-rate-comparison-v3.md` | analysis | ~30-50 KB | committed |
+| Filtered v3 | `reports/voice-pipeline-2026-05-10/_filtered-annotated-v3.json` | JSON | ~1.4 MB (+ delta) | committed |
+
+#### §6.1.1 Checkpoint hybrid policy (Q4 ack)
+
+- **Runtime state** = `_checkpoint_v3.json` — survives restart, gitignored to
+  avoid repo bloat (binary-like JSON state with full batch results, may grow
+  significantly during long runs).
+- **Audit trail** = `checkpoint-summary.md` — written once on Stage 5.2
+  completion OR terminal halt. Compact markdown record: batches completed,
+  retry events, final tier counts, throttle incidents. Committed for audit.
+- **Pattern in `.gitignore`:** `_checkpoint_*.json` — covers v3 and future
+  versions (`_checkpoint_v4.json`, etc.) without per-file rules.
 
 ### §6.2 Tier shrink/grow estimates
 
@@ -444,8 +492,11 @@ edges). v3 Tier A is union of (carry-forward) and (new LLM ≥0.85). Floor: 39.
 
 ### R-2: Stage 5.2 LLM rate-limit / throttle hits before completion
 
-**Mitigation:** Max-quota checkpoint approach (§5.3). Resumable from last
-checkpoint. Worst case: 50%-complete v3 published, plan tomorrow to finish.
+**Mitigation (Q2 ack):** Automatic retry — 3× sleep(30min) → resume from
+checkpoint. Each retry attempt logged as Tier-1 alert (silent, file-only).
+Only after all 3 retries fail → Tier-2 halt-for-Ruslan via Telegram (per §5.4.3).
+Worst case: 50%-complete v3 published with retry exhaustion banner; Ruslan
+resumes manually next session.
 
 ### R-3: LLM produces inconsistent JSON / parser errors
 
@@ -554,18 +605,19 @@ LLM-rerank centerpiece.
 ```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#fff8e1', 'primaryTextColor':'#000', 'primaryBorderColor':'#f57c00', 'lineColor':'#555', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'14px'}}}%%
 flowchart TD
-    POOL[Voice memos pool<br/>198 transcripts in raw transcripts]:::cloud
+    POOL[Voice memos pool<br/>raw transcripts PRIMARY scope]:::cloud
     DELTA[Delta detection<br/>git log since 2026-05-10 23:46]:::phone
     GATE{Delta count gt 0?}:::guard
     S14[Stages 1-4 on delta only<br/>0 to 60 min]:::auto
     MERGE[Merge with existing<br/>1627 filtered items]:::storage
     RERANK[Stage 5.2 LLM rerank<br/>claude-sonnet-4-6 batch 8<br/>combined 1262 to 1300 candidates]:::master
-    CKPT[Checkpoint every 50 batches<br/>checkpoint v3 json]:::ladder_l2
+    CKPT[Checkpoint every 50 batches<br/>_checkpoint_v3.json gitignored<br/>survives restart]:::ladder_l2
     THR{Max throttle hit?}:::guard
-    HALT[HALT and write halt-log<br/>swarm approvals log jsonl]:::guard
-    RESUME[Resume from checkpoint<br/>idempotent re-entry]:::auto
+    RETRY{Retry count lt 3?}:::guard
+    SLEEP[Sleep 30 min<br/>Tier 1 alert silent<br/>log jsonl plus discipline log]:::auto
+    HALT[HALT for Ruslan<br/>Tier 2 alert plus Telegram push<br/>via inbox-processor agent]:::guard
     OUT[Tier A B C reranked output<br/>04-wiki-candidates-v3.md plus json]:::cloud
-    CMP[Match-rate comparison v2 to v3<br/>match-rate-comparison-v3.md]:::cloud
+    CMP[Match-rate comparison v2 to v3<br/>plus checkpoint-summary.md committed]:::cloud
     BULK[Bulk-ack workflow<br/>next day separate human task]:::partner_a
 
     POOL --> DELTA
@@ -576,10 +628,11 @@ flowchart TD
     MERGE --> RERANK
     RERANK --> CKPT
     CKPT --> THR
-    THR -->|yes| HALT
-    HALT --> RESUME
-    RESUME --> RERANK
     THR -->|no| OUT
+    THR -->|yes| RETRY
+    RETRY -->|yes| SLEEP
+    SLEEP --> RERANK
+    RETRY -->|no exhausted| HALT
     OUT --> CMP
     CMP --> BULK
 
@@ -612,35 +665,40 @@ gantt
 
 ---
 
-## §10 OPEN QUESTIONS
+## §10 RESOLVED QUESTIONS (Q1-Q5 ack 2026-05-11)
 
-Five items requiring Ruslan decision before `поехали Stage 2A`:
+All five questions resolved before `поехали Stage 2A` trigger. Decisions:
 
-1. **Delta detection scope.** Plan currently scans `raw/transcripts/` + `inbox/voice/`
-   only. Other potential sources NOT included: `reports/review_*.md` manual notes,
-   Telegram exports, email-ingest queue (`inbox/email/` if exists). Confirm scope
-   or extend before run.
+1. **Q1 Delta detection scope** — RESOLVED: PRIMARY scope = `raw/transcripts/`
+   only. Secondary paths (`recordings/`, `voice-notes/`, `inbox/voice/`) — INCLUDE
+   only if already in `tools/run_pipeline.sh` source registry; else SKIP.
+   Dry-run prints scanned paths. Reflected in §1 SCOPE.
 
-2. **Throttle resume policy.** On Max-quota throttle, plan halts + writes
-   checkpoint. Two modes:
-   - **Manual:** halt → wait for Ruslan ack утром → re-run script with checkpoint
-   - **Automatic:** halt → sleep 30 min → retry up to 3 times → if still fail, then halt-for-Ruslan
-   Currently default = manual. Change?
+2. **Q2 Throttle resume policy** — RESOLVED: Automatic — 3 retries × 30min
+   sleep on each Max-quota / 429 event. After 3rd retry failure → halt-for-Ruslan
+   with Telegram escalation (Q5 tier-2). Retry counter persisted in
+   `_checkpoint_v3.json` across sessions. Reflected in §5.4.1 + §7 R-2.
 
-3. **Versioning convention.** Plan uses `-v3` suffix (e.g. `04-wiki-candidates-v3.md`).
-   v2 files preserved untouched. Alternative: overwrite v2 + rely on git history.
-   Confirm suffix approach (safer, more storage) vs overwrite (cleaner directory).
+3. **Q3 Versioning convention** — RESOLVED: `-v3` suffix confirmed for ALL output
+   files. v2 artefacts untouched (rollback inviolable). No overwrite, no rename.
+   Reflected in §6.1 header.
 
-4. **Checkpoint state path.** Plan writes `_checkpoint_v3.json` to
-   `reports/voice-pipeline-2026-05-10/`. Not currently in `.gitignore` — would
-   be committed. Decisions: (a) gitignore checkpoint files (transient state, not
-   provenance), (b) commit them (audit trail), (c) move to ephemeral path
-   `tmp/checkpoints/`. Current default = commit (audit trail).
+4. **Q4 Checkpoint state path** — RESOLVED: hybrid policy.
+   - State file: `reports/voice-pipeline-2026-05-10/_checkpoint_v3.json`
+     — gitignored (`_checkpoint_*.json` pattern in `.gitignore`); survives
+     restart for resume.
+   - Audit file: `reports/voice-pipeline-2026-05-10/checkpoint-summary.md`
+     — committed; written once on completion or terminal halt; compact
+     markdown record (batches, retries, tier counts, throttle incidents).
+   - Reflected in §6.1 + §6.1.1.
 
-5. **Halt + Halt-Log-Alert escalation channel.** §5.4 says writes to
-   `swarm/approvals/log.jsonl` + Part 8 SLI alert. For overnight run, alert
-   delivery: (a) silent file-only (read in morning), (b) push to Telegram via
-   `inbox-processor` agent, (c) email digest. Current default = file-only.
+5. **Q5 Halt + Halt-Log-Alert escalation channel** — RESOLVED: two-tier routing.
+   - **Tier 1 (routine retry):** file-only `swarm/approvals/log.jsonl` +
+     discipline log. No Telegram. Silent recovery.
+   - **Tier 2 (halt-for-Ruslan):** Tier-1 actions + Telegram push via
+     `inbox-processor` agent. Best-effort delivery.
+   - **Always (regardless of tier):** Part 8 SLI alert written.
+   - Reflected in §5.4.3.
 
 ---
 
@@ -673,7 +731,21 @@ Ruslan ack'd 4 deviations from original prompt formulation:
 4. **Same v2 prompts** in `llm_ranker.py:25-39` for Stage 2A. Prompt rewrite (v4)
    is a separate future task, not part of this overnight run.
 
-Plan archived: 2026-05-11T03:45 CEST. Awaits explicit `поехали Stage 2A` to execute.
+Plan archived: 2026-05-11T03:45 CEST.
+
+### §12.1 Q1-Q5 ack (2026-05-11 second pass)
+
+Ruslan ack'd all 5 open questions from §10:
+
+1. **Q1 Delta scope** — `raw/transcripts/` PRIMARY; secondary paths only if in pipeline registry.
+2. **Q2 Throttle** — Automatic 3×30min retries → halt-for-Ruslan after exhaustion.
+3. **Q3 Versioning** — `-v3` suffix confirmed; v2 untouched.
+4. **Q4 Checkpoint** — Hybrid: gitignored state file + committed audit summary.
+5. **Q5 Escalation** — Two-tier: Tier-1 silent file-only; Tier-2 Telegram via inbox-processor.
+
+`.gitignore` updated with `_checkpoint_*.json` pattern in same commit.
+
+Awaits explicit `поехали Stage 2A` to execute.
 
 ---
 
