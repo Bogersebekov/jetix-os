@@ -16,7 +16,7 @@ Each edge is a JSONL line:
 
 Paths are relative to repo root and include the `.md` extension.
 
-## Wiki edges (9 types — pre-existing)
+## Wiki edges (10 types — 9 pre-existing + inspired_by added 2026-05-12)
 
 | Type | Direction | Meaning |
 |------|-----------|---------|
@@ -30,6 +30,7 @@ Paths are relative to repo root and include the `.md` extension.
 | `parent_of` | parent → child | Hierarchical containment (taxonomic) |
 | `part_of` | child → parent | Compositional containment (member-of-collection) |
 | `same_as` | A → B | A and B refer to the same entity |
+| `inspired_by` | derivative → source | Concept/design inspired by an external source (looser than `derived_from`) — added 2026-05-12 for gamification cross-domain mining |
 
 ## CRM edges (8 types — added 2026-04-26)
 

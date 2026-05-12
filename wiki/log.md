@@ -1,10 +1,38 @@
 ---
 type: log
-updated: 2026-05-11
+updated: 2026-05-12
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-12] [gamification-promote] staged 133 edges → canonical edges.jsonl | edges: +133
+- 57 supports / 49 inspired_by / 14 extends / 8 derived_from / 5 contradicts
+- Source: wiki/graph/edges-gamification-pending-2026-05-11.jsonl (Decision 4 staged)
+- 5 contradicts edges document anti-patterns (whaling, freemium-funnel, extractive-platform) vs Hexagon — documented as boundary, not undermining
+- edge-types.md extended: `inspired_by` added (10 wiki edge types now)
+
+## [2026-05-12] [voice-bulk-ack] match-to-existing Tier A: 38 edges appended | edges: +38
+- audio_416@11-04-2026_02-25-38 → ideas/klyuchevoy-aktiv-korporatsii-ne-usluga-a-metodologiya-a.md (score=0.88)
+- audio_425@13-04-2026_04-06-05 → concepts/curated-community-access.md (score=0.85)
+- audio_427@13-04-2026_04-36-59 → ideas/uzhe-est-klienty-s-dengami-skvoznaya-analitika-biznesa.md (score=0.87)
+- audio_430@13-04-2026_04-55-09 → ideas/hr-uslugi-kak-napravlenie-korporatsii-sborka-komand-ass.md (score=0.87)
+- audio_443@14-04-2026_11-42-45 → ideas/metod-posledovatelnogo-fokusa-v-biznese.md (score=0.87)
+- audio_467@16-04-2026_08-10-09 → ideas/sistema-upravleniya-proektami-dashbordy-chit-kod.md (score=0.85)
+- audio_505@20-04-2026_12-16-57 → ideas/investfond-investiruyushchiy-v-lyudey-a-ne-tolko-v-proe.md (score=0.87)
+- audio_524@23-04-2026_03-51-06 → concepts/curated-community-access.md (score=0.90)
+- _… +30 more — see edges.jsonl_
+
+## [2026-05-12] [voice-bulk-ack] match-to-existing Tier A: 137 edges appended | edges: +137
+- audio_2026-04-15_22-27-47 → ideas/position-of-power-yes-and-no.md (score=0.88)
+- audio_393@09-04-2026_04-00-41 → ideas/glubokiy-podkhod-konkurentnoe-preimushchestvo.md (score=0.87)
+- audio_393@09-04-2026_04-00-41 → ideas/tools-feedback-community-flywheel.md (score=0.95)
+- audio_395@09-04-2026_04-18-29 → ideas/global-vision-system-of-future.md (score=0.87)
+- audio_395@09-04-2026_04-18-29 → ideas/jetix-as-infrastructure-metaphor.md (score=0.97)
+- audio_396@09-04-2026_04-22-20 → ideas/global-vision-system-of-future.md (score=0.85)
+- audio_396@09-04-2026_04-22-20 → ideas/soobshchestvoklan-skhozhie-tsennosti-vzaimozashchita-se.md (score=0.88)
+- audio_397@09-04-2026_04-37-43 → sources/2026-04-16-jetix-corporation-1000-pros-100k-agents.md (score=0.87)
+- _… +129 more — see edges.jsonl_
 
 ## [2026-05-11] [voice-bulk-ack] match-to-existing Tier A: 39 edges appended | edges: +39
 - audio_395@09-04-2026_04-18-29 → sources/2026-04-16-jetix-as-infrastructure-metaphor.md (score=0.95)
