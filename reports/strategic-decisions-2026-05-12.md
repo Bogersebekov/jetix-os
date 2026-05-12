@@ -32,7 +32,7 @@ constitutional_posture: AI=scribe records Ruslan strategic decisions per Tier 2 
 | **Q1** | Octagon (8) vs Heptagon (7) fold | **Heptagon fold (7)** — People-Network-State as 7th, Cooperation folds into it | Sequence ahead of Charter | F2 (insight architecture) |
 | **Q2** | Anti-Extraction R12 elevation timing | **NOW preemptive** — Tier 2 12th rule via AWAITING-APPROVAL packet (Part 6b stage_gate) | Immediate next | **F5** (Foundation modification) |
 | **Q3** | First Clan Charter draft author | **Ruslan solo с CC scribe support** — base v0 written together | After Q2 ack | F3 (constitutional anchor) |
-| **Q4** | First Clan names | **✅ CONFIRMED 8 members** — Федорев / Хартман / Брагинский / Цэрэн / Левенчук / Дмитрий / Дуров / Гиренко (Дима + Антон REMOVED per Ruslan ack) | CRM entries created | F2 (CRM) |
+| **Q4** | First Clan names | **✅ CONFIRMED 9 members** — Федорев / Хартман / Брагинский / Цэрэн / Левенчук / Дмитрий / Дуров / Гиренко / Тарасов (Дима + Антон REMOVED per Ruslan ack) | CRM entries created | F2 (CRM) |
 | **Q5** | Marathon Seasons spec timing | **Phase 1 priority** — but detailed spec defer (not blocking) | After Charter v0 | F2 (Realm operational) |
 | **Q6** | Public manifesto separate or in Charter | **Embed в Charter (combined)** — single artifact = constitution + manifesto | Within Charter | F3 |
 | **Q7** | First Clan size | **5 base / 10 target / 10-15 ambition** (flexible cap) | Start L1 при 5 confirmed | — |
@@ -133,7 +133,7 @@ constitutional_posture: AI=scribe records Ruslan strategic decisions per Tier 2 
 
 **REMOVED from earlier list:** Дима, Антон (per Ruslan ack 2026-05-12: «их убирай, мы их не берем»).
 
-**Confirmed 8 (initial L1 cohort):**
+**Confirmed 9 (initial L1 cohort):**
 
 | # | Name | Role | Primary contact | CRM slug |
 |---|---|---|---|---|
@@ -145,13 +145,14 @@ constitutional_posture: AI=scribe records Ruslan strategic decisions per Tier 2 
 | 6 | **Дмитрий (Гуманитарщина)** | Host YouTube «Гуманитарщина» — humanities-bridge | [YouTube](https://www.youtube.com/@Гуманитарщина) | `dmitriy-humanitarschina` |
 | 7 | **Павел Дуров** | Founder Telegram + TON — aspirational anchor | [TG](https://t.me/durov) | `pavel-durov` |
 | 8 | **Егор Гиренко** | Strategy Club host | [TG](https://t.me/egorgirenkostrategyclub) | `egor-girenko` |
+| 9 | **Владимир Тарасов** | Основатель Таллинской школы менеджеров / автор «Искусство управленческой борьбы» — inspirational anchor + mentor-candidate Tier 1 | [YouTube](https://www.youtube.com/channel/UC_auB3XQdxXzg0BJIRqOTtg) | `vladimir-tarasov` |
 
 **Statistics:**
-- 5 ru-speaking primary, 3 multi-lingual capable
-- 4 strategist profile / 2 mentor candidates (Левенчук primary + Брагинский) / 1 humanities bridge / 1 investor / 1 founder (Дуров aspirational)
-- 1 warm contact (Цэрэн — video sent 04.05) / 7 cold
+- 5 ru-speaking primary, 3-4 multi-lingual capable
+- 4 strategist profile / **3 mentor candidates (Левенчук + Брагинский + Тарасов)** / 1 humanities bridge / 1 investor / 1 founder (Дуров aspirational) / 1 inspirational anchor (Тарасов)
+- 1 warm contact (Цэрэн — video sent 04.05) / 8 cold
 
-**Note:** Ruslan target = 10 (per Q7 decision). **Текущий 8** — flexible per Q7 spec (5 base / 10 target / 10-15 ambition). 2 spots remain for organic discovery.
+**Note:** Ruslan target = 10 (per Q7 decision). **Текущий 9** — flexible per Q7 spec (5 base / 10 target / 10-15 ambition). 1 spot remains for organic discovery.
 
 **Per-person CRM entries created** в `crm/people/{slug}.md` (lightweight initial — frontmatter + §0 contacts + §3 context + §11 history). **Deep research per person scheduled** — outreach strategy / mutual contacts / biographical research / connection points с Jetix vision.
 
