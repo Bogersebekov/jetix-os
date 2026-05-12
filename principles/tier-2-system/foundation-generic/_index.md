@@ -1,17 +1,18 @@
 ---
-title: "Tier 2 foundation_generic — 11 hard rules MOC"
-date: 2026-04-28
+title: "Tier 2 foundation_generic — 12 hard rules MOC"
+date: 2026-05-12
 type: tier-2-foundation-generic-moc
 F: F8
-G: "Foundation generic — mirror of FUNDAMENTAL §6.1 (constitutional)"
+G: "Foundation generic — mirror of FUNDAMENTAL §6.1 + additive R12 (constitutional)"
 R: R-high
 created_date: 2026-04-28
+last_updated_date: 2026-05-12
 ---
 
-# Tier 2 foundation_generic — 11 constitutional hard rules
+# Tier 2 foundation_generic — 12 constitutional hard rules
 
-Mirror of `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md` §6.1.
-Per Pillar C §A.1 invariant: count == 11; each file maps to exactly one
+Mirror of `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md` §6.1 + additive R12 (rule 12 candidate; packet-acked 2026-05-12).
+Per Pillar C §A.1 invariant: count == 12; each file maps to exactly one
 FUNDAMENTAL §6.1 rule via `fundamental_anchor:` frontmatter.
 
 | # | Slug | FUNDAMENTAL §6.1 rule | Part 6b action_class |
@@ -27,8 +28,16 @@ FUNDAMENTAL §6.1 rule via `fundamental_anchor:` frontmatter.
 | 9 | [ai-does-not-self-modify-at-runtime](ai-does-not-self-modify-at-runtime.md) | rule 9 | ai_self_modify_at_runtime |
 | 10 | [ai-does-not-impersonate-human-externally](ai-does-not-impersonate-human-externally.md) | rule 10 | ai_impersonate_human_externally |
 | 11 | [bypass-blast-radius-categorization-forbidden](bypass-blast-radius-categorization-forbidden.md) | rule 11 | bypass_blast_radius_categorization |
+| 12 | [ai-does-not-extract-value-beyond-agreed-share](ai-does-not-extract-value-beyond-agreed-share.md) | candidate rule 12 (additive 2026-05-12) | ai_extract_value_beyond_agreed_share |
 
 ## Sync invariants
 
-- Pillar C foundation_generic ↔ Part 6b `.claude/config/default-deny-table.yaml` constitutional_never_list — count + hash match (lint enforced)
+- Pillar C foundation_generic ↔ Part 6b `.claude/config/default-deny-table.yaml` constitutional_never_list — count + hash match (lint enforced); count == 12 as of 2026-05-12
 - Pillar C foundation_generic ↔ CLAUDE.md §4.1 inline — hash match (lint enforced)
+
+## Audit history
+
+| Date | Event | Note |
+|---|---|---|
+| 2026-04-28 | created | Wave 1 baseline — 11 rules mirror of FUNDAMENTAL §6.1 |
+| 2026-05-12 | R12 added | Anti-Extraction elevation via Part 6b stage_gate ack (packet `swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md`); parent insight H7 People-NS LOCKED commit `93b796d`; count 11 → 12 |

@@ -148,9 +148,9 @@ Foundation-level path writes (Parts 1-11, principles/, shared/schemas/, .claude/
 > See: `decisions/RUSLAN-ACK-STRATEGIC-LAYER-BUNDLE-5-2026-04-28.md` (Bundle 5 ack)
 > See: `swarm/wiki/cycles/cyc-foundation-build-2026-04-28/bundle-5-strategic-layer/claude-md-reframing-decision.md` (HYBRID split rationale)
 
-### §4.1 Tier 2 Constitutional (11 hard rules — Foundation generic)
+### §4.1 Tier 2 Constitutional (12 hard rules — Foundation generic)
 
-Mirror of FUNDAMENTAL §6.1 + canonical at `principles/tier-2-system/foundation-generic/`.
+Mirror of FUNDAMENTAL §6.1 + additive R12 (candidate rule 12 — packet-acked 2026-05-12). Canonical at `principles/tier-2-system/foundation-generic/`.
 Derived enforcement at `.claude/config/default-deny-table.yaml` constitutional_never_list.
 
 1. **AI does NOT make strategic decisions** (FUNDAMENTAL §6.1 rule 1) — agents draft, surface, recall; owner authors strategic prose
@@ -164,6 +164,7 @@ Derived enforcement at `.claude/config/default-deny-table.yaml` constitutional_n
 9. **AI does NOT self-modify at runtime** (rule 9) — agent system.md / strategies.md edits must be gated cycle outputs
 10. **AI does NOT impersonate human externally without disclosure** (rule 10)
 11. **No action without blast-radius categorization + Default-Deny** (rule 11) — Part 6b §I.2 constitutional
+12. **No extraction beyond agreed share** (FUNDAMENTAL §6.1 candidate rule 12 — additive 2026-05-12) — AI / substrate cannot extract value from members beyond agreed share; members can fork-and-leave without penalty. [src: H7 People-NS LOCKED 2026-05-12 commit `93b796d` + Game Theory M-C mechanism §11 + Q2 ack `reports/strategic-decisions-2026-05-12.md` §2 + packet `swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md`]
 
 ### §4.2 Tier 2 Instance-specific (RUSLAN-LAYER overrides — placeholder)
 

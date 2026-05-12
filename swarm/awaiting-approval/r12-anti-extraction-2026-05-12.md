@@ -2,7 +2,7 @@
 title: AWAITING-APPROVAL — R12 Anti-Extraction Tier 2 Elevation
 date: 2026-05-12
 type: constitutional-change-packet
-status: PENDING-RUSLAN-ACK
+status: EXECUTED
 gate_class: stage_gate
 packet_id: r12-anti-extraction-2026-05-12
 authored_by: ai-scribe (CC draft per Q2 ack 2026-05-12)
@@ -22,6 +22,31 @@ ack_required: true
 ack_owner: ruslan
 review_checkpoint: post-sync-lint-pass (12=12=12 across foundation-generic / yaml / CLAUDE.md §4.1)
 recommendation: APPROVE-AND-EXECUTE-SYNC
+ack_record:
+  date: 2026-05-12
+  ack_type: chat-approve-execute (Option A — APPROVE)
+  acked_by: ruslan
+  ack_text: "Ruslan: ack R12 packet. APPROVE-AND-EXECUTE-SYNC."
+  ack_note: "Chat-channel ack via Option A. CC proceeds to Step 2 sync invariant execution per packet §7 + §9."
+executed_at: 2026-05-12
+lint_pass: true
+lint_method: "Manual verification at ack-time (auto-lint /lint --check-claude-md-sync = stub-phase-b-materialization per .claude/skills/lint-check-pillar-c-part-6b-sync.md + lint-check-tier-2-foundation-count.md)"
+lint_results:
+  foundation_generic_file_count: 12
+  yaml_constitutional_never_list_count: 12
+  yaml_sync_invariant_count_field: 12
+  claude_md_section_4_1_numbered_items: 12
+  claude_md_heading_count_claim: 12
+  index_md_moc_table_rows: 12
+  hash_match_action_class: "ai_extract_value_beyond_agreed_share verified across principle file / yaml entry / _index.md MOC"
+  hash_match_pillar_c_canonical: "principles/tier-2-system/foundation-generic/ai-does-not-extract-value-beyond-agreed-share.md verified in yaml + _index.md"
+  result: PASS
+sync_locations_executed:
+  - "CREATE: principles/tier-2-system/foundation-generic/ai-does-not-extract-value-beyond-agreed-share.md"
+  - "UPDATE: principles/tier-2-system/foundation-generic/_index.md (title 11→12, MOC table row 12 appended, audit history)"
+  - "UPDATE: .claude/config/default-deny-table.yaml (constitutional_never_list 12th entry appended; sync_invariant_count 11→12; last_synced_date 2026-05-12)"
+  - "UPDATE: CLAUDE.md §4.1 (heading 11→12 hard rules, item 12 appended with full provenance)"
+commit_sha: "same-commit-as-this-frontmatter-update (atomic single commit per Step 2 spec)"
 ---
 
 # AWAITING-APPROVAL Packet — R12 Anti-Extraction Tier 2 Elevation
