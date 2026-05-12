@@ -336,4 +336,94 @@ L2: Multi-clan first cohort 100 specialists
 
 ---
 
-*Awaits Ruslan: (a) Q4 10 names message → CC records, (b) Ruslan opens Heptagon insight writing session, (c) CC starts R12 AWAITING-APPROVAL packet draft в parallel.*
+## §12 Evening locks 12.05 — 4 Charter-scope decisions (post-digest read)
+
+После Ruslan прочитал digest `reports/phase-4-wiki-digest-2026-05-11.md` (12K слов / 22 sections), он ack'нул 4 critical Q для Charter v0 scope:
+
+### Q-Digest-1 — Source of truth ✅ filesystem-only
+
+**Decision:** Filesystem остаётся source of truth per Global Rule 4 (RUSLAN-LAYER, see CLAUDE.md §4.2). Digest file (`reports/phase-4-wiki-digest-2026-05-11.md`) keeps только в git repo / Jetix database; not migrated в Notion or Postgres.
+
+**Rationale:** preserves constitutional discipline (Global Rule 4 / CLAUDE.md §4.2); avoids Notion-only constitutional violation per digest §9; future-proofs against vendor lock-in.
+
+**Implications:**
+- All future digests + decisions docs storage = repo filesystem
+- Notion = view-only collaboration layer (not authoritative)
+- Postgres вариант deferred — может revisit Phase 2+ если scale-need surfaces
+
+### Q-Digest-2 — Phase 1 Realm scope ✅ FULL 6 archetypes
+
+**Decision:** Phase 1 Realm включает **все 6 archetypes** (Hunter / Guardian / Scholar / Creator / Architect / Merchant) — NOT subset.
+
+**Ruslan ack verbatim:** «давай нахуй шесть архетипов. Вообще заебись, чем больше, тем лучше. Нормально, блять, покрываем.»
+
+**Rationale:**
+- Full 6 = comprehensive coverage всех тип activities в L1 (no specialist excluded)
+- Per Strategic Insight Gamified Platform §4.2 canonical 6 archetypes already established
+- Per Шаг D Q3.4.1 archetype design — 6 baseline уже surfaced в Question Mining
+- L1 9 members не все fit в subset 3 archetypes — would force misalignment
+
+**Implications:**
+- Charter v0 references all 6 archetypes
+- E2 Class entity stub stays as-is (no subset reduction)
+- L1 members mapped к archetypes per their profile (TBD per profile read)
+
+### Q-Digest-3 — Launch mode ✅ STEALTH (mentor + partner conversations only)
+
+**Decision:** Phase 1 = **stealth mode**. Even не «soft launch» — просто **conversations с potential L1 mentors / partners** на основе Charter v0 + H7 People-NS insight.
+
+**Ruslan ack verbatim:** «Для начала стелс. Да, стелс, блять, через... Мы даже не лаунчим, а просто общаемся с менторами, блять, потенциальными партнерами и так далее.»
+
+**Rationale:**
+- Per digest §9 surprising finding N-6 (stealth vs public launch contradiction surfaced в Шаг B Top 5)
+- Per H7 §7 H7.4 «Charter = combined manifesto + constitution» — Charter design embeds stealth-compatible framing
+- Per H7 §8 R-B «Cringe collapse» risk — public launch без real cohort risks brand damage
+- L1 stage (5 confirmed → 10 target) = recruit-by-conversation, NOT recruit-by-broadcast
+- Solid per Tyson mentorship pattern — depth-relationships > broad-broadcasting
+
+**Implications:**
+- NO public website launch Phase 1
+- NO social media campaigns Phase 1
+- NO public Charter signing ceremony
+- Yes: 1-on-1 conversations с 9 L1 candidates + their networks
+- Yes: Dmitry letter / Tseren video (per existing prompts) = stealth-compatible outreach
+- Public surface postponed → L2 / Phase 2 OR triggered by external event
+
+### Q-Digest-4 — Monetization model ✅ ALL variants open
+
+**Decision:** НЕ LOCK на одну monetization model — keep all 3 open:
+1. Consulting €50-150/час + clan-share 80-95% (Torn V1 style)
+2. Meta-offer «правая рука» 1-2 clients × $20K/mo
+3. Subscription model (originally Phase 2)
+
+**Ruslan ack verbatim:** «Монетизационная модель, блять, локэм на всем подряд, нахуй. Любой вариант можем оформить, будь то правая рука, будь то консультация, будь то подписка. Не хуй делать.»
+
+**Rationale:**
+- L1 stealth phase = NO pricing pressure yet; не нужно lock
+- Different L1 candidates likely have different willingness/capacity profiles — flexibility wins
+- Per Шаг D Q1.10.5 + Q4.8.4 monetization variants — keep all surfaced
+- N-4 May insight (20-30K€/mo Ruslan minimum) — applies to whichever model gets clients; не requires single model
+
+**Implications:**
+- Charter v0 mentions ALL 3 monetization paths as available (not exclusive)
+- Per-L1 conversation may surface preferred path per member
+- Monetization lock decision deferred к Phase 2 OR triggered by first client commitment
+
+---
+
+## §13 Next executable sequence (post-evening-locks)
+
+| # | Action | Priority | Owner |
+|---|---|---|---|
+| 1 | Charter v0 writing — base v0 prose | **HIGH** (next big artifact для L1) | Ruslan + CC scribe support |
+| 2 | Mini-packet: N-2 $1M revised goal — update Vision FUNDAMENTAL §4 timeline | MEDIUM (housekeeping) | CC drafts → Ruslan ack |
+| 3 | Mini-packet: N-1 ICP shift «running businesses» — update Doc 1B §7 | MEDIUM (positioning consistency) | CC drafts → Ruslan ack |
+| 4 | Optional mini-update H7 §6 — N-3 bottleneck framing as operational metric | LOW | CC drafts → Ruslan ack |
+| 5 | R13 candidate evaluation — N-8 AI discipline framework — separate research или embed в Charter | OPTIONAL | TBD Ruslan strategize |
+| 6 | FUNDAMENTAL §6.1 R12 follow-up packet — formal §6.1 amendment | LOW (housekeeping) | CC drafts → Ruslan ack |
+| 7 | L1 profiles read — 9 files × 1500-2000 words | MEDIUM (informs Charter outreach order) | Ruslan |
+| 8 | Voice memos M-batch — pending more memos to upload (если есть после 11.05) | LOW | Ruslan + pipeline |
+
+---
+
+*Evening locks ack'd 2026-05-12. Charter v0 writing = next big task. All other items deferred to allow Ruslan focus на Charter prose session.*
