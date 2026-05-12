@@ -11,6 +11,7 @@ revision_history:
   - 2026-05-12T22:XX — §1 Preamble replaced with Ruslan dictated prose (Wispr voice → CC structured); §2-§14 still pending Ruslan pass
   - 2026-05-12T23:XX — §1.7 marathon timeline updated 10-15→100-200 лет (Ruslan ack — Charter ambition = generational scale, distinct от L0-L6 operational ladder timeline 10-15y которая остаётся в §13)
   - 2026-05-12T23:30 — LOCKED v0 (Ruslan ack — «Мissия оставим. Все остальное похуй, пока нормально. Лока им, идем дальше.»); §1 Preamble Ruslan-voice; §2-§14 ai-draft accepted as-is для first outreach; deeper revision pass allowed in future per Tier 2 R1 (Ruslan стays canonical author authority)
+  - 2026-05-12T23:45 — §1.0a «Что есть Jetix» добавлена (Ruslan dictated framing: мастерская по работе с информацией + принципы + геймификация + 3-layer architecture + Phase 1/2 цели); new mermaid §1.0a.viz Jetix Workshop Architecture; marathon timeline updates везде (100-200y везде где про ambition, 10-15y operational ladder preserved); same content зеркальный в Pitch §3 + Pitch M3 mermaid
 ack_record:
   - date: 2026-05-12
     ack_type: read-and-confirmed-as-is-for-first-outreach
@@ -62,6 +63,55 @@ monetization: "all 3 variants open — consulting / правая рука / subs
 **Хартия** — это не product spec, не business plan, не roadmap. Это **constitutional document** организации: декларация того, во что мы верим, по каким правилам играем, и под чем готовы поставить подпись. Над инструкциями. Над strategy. Stable artifact, который меняется не от настроения, а только через формальный процесс amendment.
 
 Хартия — это то, что подписывают, когда хотят зайти всерьёз. От «нравится идея» — к «я в этом, и вот мои обязательства».
+
+### §1.0a Что есть Jetix (короткое определение)
+
+Прежде чем разворачивать манифест — **что такое Jetix конкретно, без философии**:
+
+**Jetix — это мастерская по работе с информацией.** Не консалтинг-фирма, не AI-стартап, не coworking. **Мастерская** в старом смысле: место, где мастера и подмастерья работают вместе с общими инструментами, по общим принципам, в общем ритме. Только инструменты другие — AI, языковые модели, графы знаний, автоматизация. И материал, с которым работаем, — не дерево или металл, а **информация**: исследования, методологии, стратегии, тексты, протоколы, систематизация знаний.
+
+**Принципы**, на которых мастерская стоит: **ответственность** (за результат, за слово, за людей, которых привёл), **дисциплина** (работа с информацией длинная, не каждый день feels хорошо), **авантюризм** (заходить туда, где открывается новое), **системное мышление** (связи между задачами и системами), + другие принципы, добавляемые по мере того как формируется культура L1.
+
+И всё это — в **геймифицированном, интересном стиле**: Кланы (3-10 человек), Классы (6 архетипов: Hunter / Guardian / Scholar / Creator / Architect / Merchant), Квесты (реальные задачи), Сезоны (3-month cycles), видимая репутация.
+
+**Для кого:** лучших мастеров, профессионалов, авантюристов — людей, которые хотят работать с информацией, влиять на жизнь, создавать новое.
+
+**Архитектура** — три слоя: мастерская (substrate) → в ней сеть (внутренние связи) → сеть мастерских (multi-clan federation на L2+) — всё геймифицировано через Realm.
+
+**Цели:** **Phase 1** — собрать всех таких профессионалов в одной мастерской с лучшими инструментами, перестроить общество в удобный и безопасный режим. **Phase 2** — исследования и развитие человечества как такового.
+
+#### §1.0a.viz Jetix Workshop Architecture (visual)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryColor':'#fff8e1', 'primaryTextColor':'#000', 'primaryBorderColor':'#f57c00', 'lineColor':'#555', 'fontFamily':'Inter, system-ui, sans-serif', 'fontSize':'14px'}}}%%
+flowchart TB
+    PRINCIPLES["<b>Принципы мастерской</b><br/><small>ответственность / дисциплина<br/>авантюризм / системное мышление<br/>+ другие culture L1</small>"]:::principles
+
+    L1["<b>1 Мастерская</b> (substrate)<br/><small>Workshop concept<br/>Foundation v1.0<br/>AI / LLM / графы знаний / автоматизация</small>"]:::layer1
+    L2["<b>2 Внутренняя сеть</b><br/><small>L1 clan participants<br/>репутация + обмен + общие инструменты</small>"]:::layer2
+    L3["<b>3 Сеть мастерских</b><br/><small>multi-clan federation на L2+<br/>cross-clan cooperation</small>"]:::layer3
+
+    REALM["<b>Геймификация через Realm</b><br/><small>Кланы 3-10 / 6 Классов / Квесты / Сезоны 3-mo<br/>видимая репутация / Marathon на 100-200 лет</small>"]:::realm
+
+    PRINCIPLES ==> L1
+    L1 ==> L2
+    L2 ==> L3
+    L1 -.-|геймифицировано| REALM
+    L2 -.-|геймифицировано| REALM
+    L3 -.-|геймифицировано| REALM
+
+    ICP["<b>Для кого</b><br/><small>лучшие мастера / профессионалы / авантюристы<br/>работа с информацией / влияние на жизнь / создание нового</small>"]:::icp
+    ICP ==> L1
+
+    classDef principles fill:#c8e6c9,stroke:#1b5e20,stroke-width:3px,color:#000
+    classDef layer1 fill:#e3f2fd,stroke:#1565c0,stroke-width:3px,color:#000
+    classDef layer2 fill:#bbdefb,stroke:#1565c0,stroke-width:3px,color:#000
+    classDef layer3 fill:#90caf9,stroke:#0d47a1,stroke-width:3px,color:#000
+    classDef realm fill:#fff8e1,stroke:#f57c00,stroke-width:4px,color:#000
+    classDef icp fill:#fce4ec,stroke:#ad1457,stroke-width:3px,color:#000
+```
+
+---
 
 ### §1.1 Зачем мы пишем эту Хартию
 
@@ -168,7 +218,7 @@ L1 — это **5-10-15 стратегических игроков**, не ма
 | **L3** | 1K | Specialist federation; public Charter v1 launch | 12-24 мес |
 | **L4** | 10K-50K | Jetix Realm public; Marathon momentum | 24-36 мес |
 | **L5** | 100K-1M | Mass adoption; critical mass | 5 лет |
-| **L6** | 10M+ | People-Network-State recognition by ecosystem | 10-15 лет |
+| **L6** | 10M+ | People-Network-State recognition by ecosystem | 10-15 лет operational / 100-200 лет Charter ambition (generational) |
 
 [src: H7 People-NS §6 + Q7 ack 2026-05-12]
 
@@ -245,7 +295,7 @@ L1 member может играть 1-2 архетипа. Архетип — не 
 - **Baseline cycle:** 3 месяца / Season (12 недель active + 1 неделя retrospection / planning).
 - **Phase 1 priority** (per Q5 ack): концепция Marathon Seasons получает дальнейшую elaboration в отдельном spec — но даже без полного spec, **L1 First Clan уже работает в режиме Season 0 (соло Руслан) → Season 1 (L1 launch)**.
 - **Per-Season структура:** Quest cohort assignment → mid-Season checkpoint → end-Season retrospection + reputation update.
-- **Marathon horizon:** 10-15 лет (L1 → L6 ladder). Каждый Season = move в long-game.
+- **Marathon horizon:** Charter ambition = **100-200 лет** (generational scale). L0→L6 operational ladder = 10-15 лет до L6 (10M+ recognition). Каждый Season = move в long-game.
 
 [src: H6 Gamified Platform §4 + Q5 ack 2026-05-12 detailed spec deferred]
 
@@ -415,7 +465,7 @@ flowchart TB
     H6["<b>H6 Gamified Platform</b><br/><small>Realm operational layer</small>"]:::auto
 
     %% --- Heptagon synthesis ---
-    H7["<b>H7 People-Network-State</b><br/><small>synthesis substrate</small><br/>L0→L6 ladder, 10-15y horizon"]:::storage
+    H7["<b>H7 People-Network-State</b><br/><small>synthesis substrate</small><br/>L0→L6 ladder<br/>100-200y Charter ambition"]:::storage
 
     %% --- Edges ---
     H1 ==> H7
@@ -450,7 +500,7 @@ flowchart LR
     L3["<b>L3</b><br/>1K<br/><small>12-24mo<br/>Federation</small>"]:::ladder_l3
     L4["<b>L4</b><br/>10K-50K<br/><small>24-36mo<br/>Realm public</small>"]:::ladder_l4
     L5["<b>L5</b><br/>100K-1M<br/><small>5y<br/>Mass adoption</small>"]:::ladder_l5
-    L6["<b>L6</b><br/>10M+<br/><small>10-15y<br/>People-NS recognition</small>"]:::ladder_l5
+    L6["<b>L6</b><br/>10M+<br/><small>10-15y operational<br/>100-200y ambition<br/>People-NS recognition</small>"]:::ladder_l5
 
     L0 ==> L1 ==> L2 ==> L3 ==> L4 ==> L5 ==> L6
 
