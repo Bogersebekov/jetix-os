@@ -9,6 +9,7 @@ ruslan_will_rewrite: true  # §2-§14 pending Ruslan revision pass
 revision_history:
   - 2026-05-12T07:21 — AI initial draft (all sections ai-draft-pending-ruslan-revision)
   - 2026-05-12T22:XX — §1 Preamble replaced with Ruslan dictated prose (Wispr voice → CC structured); §2-§14 still pending Ruslan pass
+  - 2026-05-12T23:XX — §1.7 marathon timeline updated 10-15→100-200 лет (Ruslan ack — Charter ambition = generational scale, distinct от L0-L6 operational ladder timeline 10-15y которая остаётся в §13)
 parent_insights:
   - decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md  # H7 LOCKED — Heptagon parent
   - decisions/STRATEGIC-INSIGHT-JETIX-AS-FOUNDATION-MODEL-2026-05-10.md       # H1
@@ -104,7 +105,7 @@ monetization: "all 3 variants open — consulting / правая рука / subs
 
 Если ты дочитал до этого места — мы, скорее всего, говорим на одном языке. Прочитай Хартию дальше. Подпиши, если согласен с её constitutional principles. Откажись, если нет — без давления, без обиды, без социальной цены. Fork-and-leave работает в обе стороны.
 
-Это marathon на 10-15 лет, не sprint. Места хватит на всех, кто готов работать всерьёз.
+Это marathon на 100-200 лет, не sprint. Места хватит на всех, кто готов работать всерьёз.
 
 ---
 
