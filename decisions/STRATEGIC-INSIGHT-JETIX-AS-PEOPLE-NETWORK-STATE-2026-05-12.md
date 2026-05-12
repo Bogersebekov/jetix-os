@@ -2,10 +2,15 @@
 title: Strategic Insight — Jetix as People-Network-State (Heptagon Evolution, 7th insight)
 date: 2026-05-12
 type: strategic-insight
-status: DRAFT-PENDING-RUSLAN-REVISION
+status: LOCKED
 authored_by: ai-draft (CC scribe initial draft based on People-NS research + Game Theory research + Ruslan ack 2026-05-12 Q1 Heptagon fold + Q2 R12 elevation)
-prose_authored_by: ai-draft-pending-ruslan-revision
-ruslan_will_rewrite: true
+prose_authored_by: hybrid-with-ack-trail
+ruslan_will_rewrite: false
+ack_record:
+  - date: 2026-05-12
+    ack_type: read-and-confirmed
+    ack_text: "Ruslan: окей, я документ прочитал, хорошо. Тогда подтверждаю его локализацию."
+    ack_note: "AI-draft accepted as-is via hybrid-with-ack-trail pattern. Future Ruslan revisions allowed in-place per Tier 2 R1 — он остаётся sole strategist + canonical author."
 recorded_via: AI draft скаф based on:
   - reports/jetix-people-network-state-research-2026-05-11.md (Ruslan verbatim hypothesis 11.05 evening)
   - reports/jetix-game-theory-cheating-research-2026-05-12.md (companion research — game-theoretic foundation)
