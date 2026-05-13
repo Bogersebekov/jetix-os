@@ -193,3 +193,4 @@ output_dir: reports/voice-pipeline-2026-05-10
 **completed:** 2026-05-11T08:19:51
 
 - 2026-05-11T08:19:51Z | Stage 2A v3 LIVE END — state=COMPLETED elapsed=20788s
+- 2026-05-11T08:19:54Z | Stage 2A launcher END (rc=0, push=0) | [wiki-rebuild] Stage 2A v3 done — 158 batches, 137/621/504, 60.1% (v2 50.1% → v3 60.1%)
