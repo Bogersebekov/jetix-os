@@ -1,0 +1,1779 @@
+{
+  "generated_at": "2026-05-14T00:11:00",
+  "model": "claude-sonnet-4-6",
+  "input_files": [
+    "audio_646@13-05-2026_02-09-44.json",
+    "audio_647@13-05-2026_02-11-45.json",
+    "audio_648@13-05-2026_02-17-18.json",
+    "audio_649@13-05-2026_02-30-00.json",
+    "audio_650@13-05-2026_04-01-54.json",
+    "audio_651@13-05-2026_04-14-32.json",
+    "audio_652@13-05-2026_05-30-52.json",
+    "audio_653@13-05-2026_20-15-04.json",
+    "audio_654@14-05-2026_00-31-18.json",
+    "text-notes-2026-05-13-night.json"
+  ],
+  "input_items_count": 125,
+  "output_items_count": 125,
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Чувствует огромный подъём и гордость за накопленные наработки — количество документов, идей и планов впечатляет даже его самого. Ощущение максимальной уверенности и заряженности.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Идея развития Jetix до мирового уровня оформилась лаконично и воспринимается как «гениальная» — всё вытекло само собой, органично.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Когда за плечами есть инструменты, опыт и уверенность в результате — возникает неподдельная уверенность, которую невозможно сыграть. Это само по себе мощнейший инструмент продаж.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "При продажах обязательно транслировать состояние уверенности — оно неподдельное и передаётся. Нужно только добавлять этого состояния, больше ничего не менять.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "На следующей неделе провести созвоны, собрать обратную связь по наработкам, начать активный поиск клиентов.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Приоритет ближайших двух недель — работа с мастерской менеджеров: обсуждение системы с умными людьми, получение обратной связи, докрутка.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Записать видео с целями и планом: сначала подтягиваем систему до нужного уровня, затем обсуждаем с умными людьми и стратегически прописываем.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "В одиночку систему дальше стратегически не описать и не развить — для этого нужна помощь мастерской менеджеров и умнейших людей. Одному непонятно что искать и как делать дальше.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как научиться «тянуть систему» до нужного уровня самостоятельно, прежде чем переходить к плотной работе с клиентами?",
+      "priority": "medium",
+      "project": "Life OS",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_646@13-05-2026_02-09-44.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Решения",
+      "content": "Приоритет на ближайший период — сначала подтянуть систему и настроить стратегию монетизации совместно с Царём и Анатолием Левенчуком, и только потом двигаться к активному поиску клиентов и воплощению амбиций.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Организовать встречу (2 часа) с Царём и Анатолием Левенчуком — представить наработки, выслушать обратную связь, вместе настроить стратегию монетизации.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Завтра записать видео (первый видеоконтент для Jetix).",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить сайт для Jetix — как часть упаковки и позиционирования.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Заняться упаковкой: оформление, позиционирование, имидж — в рамках плана на месяц.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Настроить фундамент системы совместно с мастерской менеджеров, пройти необходимое обучение — перед переходом к активной фазе поиска людей.",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Накоплено достаточно наработок, идей и материалов — ощущение готовности идти к людям сформировалось. Есть с чем прийти на встречу.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Две стратегические сессии с ключевыми людьми (Царь + Левенчук) дадут ясность по монетизации и разблокируют дальнейший план действий.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Продвижение Jetix на мировой уровень — глобальная амбиция подтверждена как ориентир. Всё текущее — фундамент под это.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Сначала фундамент, обучение и настройка системы — потом реализация амбиций и активный поиск людей. Не торопиться выходить без готовой базы.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Контакты",
+      "content": "Анатолий Левенчук — запланирована стратегическая сессия по монетизации (формат: 2 часа, Руслан презентует наработки и идеи).",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Контакты",
+      "content": "Царь — упомянут как ключевой человек для совместной работы по стратегии монетизации вместе с Левенчуком.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Ночью — отдых, нужно хорошо выспаться перед активным днём с записью видео. Высокий эмоциональный подъём и уверенность от накопленных наработок.",
+      "priority": "low",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_647@13-05-2026_02-11-45.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix строится как компания вселенского масштаба — десятки специалистов, работающих над понятными задачами в хорошем настроении, на уровне мощности, который конкурентам даже не снился.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Собственная школа реальных профессионалов, предоставляющих услуги и владеющих продуктами высочайшего качества — принципиально другого уровня по сравнению с любыми существующими системами.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Решения",
+      "content": "Сначала зафиксировать и проработать мощный майнсет глобального масштаба, и только потом идти с ним на переговоры и продажи — чтобы уровень клиентов и денег был соответствующим.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Проработать майнсет совместно с Цериным и Анатолием Левенчуком — настроить на глобальный, вселенский масштаб.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать проработанный майнсет в системе для регулярного пересмотра — повесить на стену, внести в Life OS.",
+      "priority": "high",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Обучиться у более опытных людей управлению командой и построению очереди из специалистов (возможно, нужна финансовая или ментальная поддержка).",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Внедрить геймификацию в систему личного развития — использовать как инструмент роста (упоминается готовый инструмент у 'ребят').",
+      "priority": "low",
+      "project": "Life OS",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать собственную школу реальных профессионалов, которые будут предоставлять услуги и обладать продуктами — на качественно другом уровне, чем у любых конкурентов.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если зафиксировать майнсет глобального масштаба до выхода на продажи — уровень клиентов, партнёров и денег (баснословных) будет соответствующим; без этого масштаб сделок будет занижен.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Не размениваться на мелочи — Jetix занимается глобальными вещами и воплощает глобальные планы. Масштаб — вселенский, это нужно удерживать постоянно.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Уверенность и знание — не слепая вера. Заходить в переговоры только с уже зафиксированным и проработанным майнсетом.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Контакты",
+      "content": "Церин — упомянут как человек, с которым нужно совместно проработать майнсет на глобальный масштаб Jetix.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Контакты",
+      "content": "Анатолий Левенчук — упомянут в контексте работы с майнсетом и настройки на глобальный масштаб; вероятно, известный специалист по системному мышлению.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Голосовая заметка выполняет функцию самонастройки — вербализация масштаба видения служит инструментом удержания нужного состояния и уверенности.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Есть чёткое ощущение, что текущий момент — только начало, и масштаб будущего настолько велик, что это нужно регулярно осознавать, чтобы не занижать планки в ежедневной работе.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_648@13-05-2026_02-17-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix-методология должна стать глобальной привычкой уровня мытья рук: управление входящей информацией, регулярные чекапы себя и своего настроя распространятся по всему миру через все языки и культуры.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix в мировом масштабе: автоматизированный аутрич, воронки, онбординг настроены, сильная команда (продавцы, психологи, контент-нарезчики) — всё это реализуемо при правильном фундаменте и генерирует огромный доход и влияние.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Аналогия мытья рук: один человек начал мыть руки перед операциями → смертность упала в разы → сейчас весь мир использует эту практику. Jetix-методология имеет такой же потенциал глобального распространения — она логична, полезна, самораспространяется через ценность.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Целевая аудитория Jetix самофильтруется: те, кому важно развиваться и следить за собой, будут использовать систему качественнее, больше в неё вкладывать и активнее её распространять — не нужно уговаривать.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "С правильными автоматизациями (аутрич, воронки, онбординг) Jetix можно масштабировать до мирового уровня пугающе быстро — это реализуемо при наличии хорошего фундамента, которым и нужно заниматься сейчас.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Конкретный план масштабирования Jetix: 100 подкастов + нарезчики видеоконтента + сильные продавцы для персонального аутрича + психологи для проработки системы — всё это можно прописать и реализовать последовательно.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Накидать конкретный план масштабирования Jetix до мирового уровня: гипотезы, кого аутричить, кого нанять в команду, какие воронки и онбординг настроить, как монетизировать.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "На следующей неделе начать воплощать наговоренные идеи по позиционированию и масштабированию Jetix.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Сходить на 100 конкретных тематических подкастов для распространения Jetix-методологии и личного бренда.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Нанять людей (фрилансеры/студенты) для нарезки видеоконтента из длинных материалов и распространения в соцсетях.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Нанять сильных продавцов для персонального аутрича — анализ каждого потенциального клиента и индивидуальная коммуникация.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Нанять психологов для дальнейшей проработки и научного обоснования Jetix-системы.",
+      "priority": "low",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать бесплатную и платную версию Jetix-системы/инструкции: бесплатный вход снижает барьер, платная даёт глубину и монетизацию.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix-система = привычка уровня мытья рук: управлять тем, что в тебя попадает, что ты производишь, регулярно делать чекапы себя и своего настроя. Логична, полезна, не требует убеждения — только правильного объяснения.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Философия Jetix: управлять собой ради собственной безопасности и развития, чтобы не причинить вред близким. Только люди с такими ценностями будут использовать систему — это и есть фильтр целевой аудитории.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Сколько людей потенциально увидят, попробуют и заинтересуются Jetix-системой? Как посчитать потенциал охвата, конверсию и монетизацию на разных масштабах?",
+      "priority": "medium",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Руслан ощущает, что Jetix уже находится на уровне методологии ('мы есть этот уровень') — не стремится к нему, а уже является носителем системного подхода уровня мытья рук.",
+      "priority": "low",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Контакты",
+      "content": "Царин — автор поста с аналогией 'системный подход = привычка мыть руки', которую Руслан использует как ключевой фрейм для позиционирования Jetix.",
+      "priority": "low",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_649@13-05-2026_02-30-00.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix станет настолько профессиональной и мощной командой с интеллектуальными разработками, патентами и технологиями управления бизнесом и экономикой, что не только корпорации, но и целые страны будут проситься с ней работать.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix создаст новую (модифицированную) структуру экономики и общества с разными версиями и ответвлениями, где каждый человек может выбрать подходящую для себя среду.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайт",
+      "content": "На человека реально влияет только ближайшее окружение — примерно 10–100 человек офлайн и ментально. То, что происходит на другом континенте или даже в другой стране, не ощущается и практически не влияет на поведение.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать и детально проработать концепцию ближнего окружения (10–100 человек офлайн + ментально) как ключевого элемента системы и продукта Jetix.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Донести видение масштаба и амбиций Jetix (уровень стран) в первую очередь до участников мастерской инженеров-менеджеров и посмотреть на реакцию.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Уровень амбиций Jetix — ни капли меньше, ни сантиметра ниже: мировой масштаб, работа со странами, интеллектуальные разработки высшего уровня.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "При правильном накоплении интеллектуальных разработок и технологий управления страны сами будут обращаться к Jetix за помощью в перестройке экономики — это реалистичный долгосрочный горизонт.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Разработать концепцию модульной социально-экономической структуры с разными версиями и ответвлениями, где люди осознанно выбирают окружение и среду обитания под себя.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_650@13-05-2026_04-01-54.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Онлайн-мастерские сначала мощно развиваются, затем переходят в офлайн: склады и workspaces разных размеров, стилей и направлений — миллиарды разных пространств на любой вкус. Это базовая установка Jetix.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Физическое пространство мастерской: работаешь за компом и тут же тестируешь продукты на токарном станке, проводишь эксперименты — аналог Сколково/университетских лабораторий, но как базовая инфраструктура Jetix для любого участника.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Долгосрочно всё переходит к разработке игр и Ready Player One-уровню реальности: сложные вещи с точными вычислениями, высокотехнологичные проекты. Jetix приближает к этому быстрее.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Мировая сеть мастерских как метро: множество станций и ответвлений, люди свободно перемещаются между пространствами и идеологиями. World-wide распространение через взаимовыгодное сотрудничество.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Мастерские + жильё + питание = полностью упакованная экосистема, максимально удобная, вылизанная и приятная — способствует развитию клана, не ленивости.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Один склад/warehouse можно адаптировать под невообразимое количество разных занятий и направлений — невероятная гибкость физического пространства как базового актива. На этом и деньги, и синергия, и эксперименты.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Открытые пространства с свободным перемещением между мастерскими/идеологиями — принципиально другое, чем закрытые эксперименты типа старых социальных опытов. Открытость = мощный дифференциатор.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Бизнес-модель Jetix проникает в другие бизнесы как вирус: прокачивает их через мастерские/инструменты, из-за чего им становится «в падлу» уходить. Устойчивое удержание без принуждения.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Мастерские способствуют синергии и созданию новых проектов/изобретений — это R&D-инфраструктура Jetix как побочный эффект от community-пространств.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Подход распространяется по миру через взаимовыгодное сотрудничество — по чуть-чуть между разными пространствами и сообществами, не директивно. Вирусная модель роста без принуждения.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Физические мастерские/workspaces со своими стилями и направлениями: от изучения конкретных тем до прототипирования на станках — пространства под любые интересы и уровни команд/кланов.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Добавить к мастерским жилые пространства и питание — создать полноценную среду обитания для участников. Аналог кампусов/коливингов, но встроенный в экосистему Jetix.",
+      "priority": "low",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Разные уровни команд, кланов, сообществ внутри экосистемы мастерских — тестировать разные социальные структуры с урбанистами и социологами. Открытые пространства как полигон социальных экспериментов.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Строить в правильном порядке: сначала себя → потом клан → потом мировое распространение. World-wide пошагово, не перепрыгивая уровни.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Выбирать более адекватные и благоприятные варианты жизни и бизнеса, тестировать соответствующие гипотезы — статистически это приводит к лучшим результатам быстрее.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Готов бесконечно заниматься поиском, тестированием и продвижением новых, более эффективных и приятных способов работать и жить. 8-часовой грайнд ради денег воспринимается как устаревшая модель, которую хочется заменить.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать концепцию мастерских (онлайн → офлайн → экосистема), переварить и начать оформлять как структурный элемент видения Jetix.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как выстроить бизнес-модель мастерских так, чтобы она была устойчива к «разрушителям» — тем, кто разрушает системы и бизнесы? Какие конкретно защитные механизмы нужны?",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_651@13-05-2026_04-14-32.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix как глобальная экосистема «кланов» вокруг брендов инфлюенсеров и блогеров: геймификация, взаимное сотрудничество аудиторий, монетизация через проценты — масштаб «нового мирового порядка» через интернет, потом в оффлайн.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Каждый партнёр/блогер получает свой «клан» — лояльную аудиторию, которая сотрудничает внутри, решает бизнес-задачи, получает процент; Jetix — платформа и бэкбон для всех этих кланов.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Инфлюенсеры и блогеры с уже готовой аудиторией (даже 10K подписчиков) — главный канал роста Jetix: распространение через доверие и рекомендации быстрее и дешевле, чем холодный outreach.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "«Клан» (геймифицированное сообщество под брендом конкретного человека) даёт больший выхлоп, чем просто аудитория или воронка продаж — за счёт сложной экосистемы сотрудничества и более высокого доверия.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Геймификация с повторяющимися взаимодействиями «взламывает» теорему заключённого: в доверяющих сообществах под одним брендом доминируют кооперативные стратегии, хейтеры вытесняются органически.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Система «кланов» вокруг брендов блогеров: участники выполняют задачи, сотрудничают между собой, получают долю от продаж мастерских; блогер получает активную монетизированную аудиторию, Jetix — процент.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Продюсирование немедийных экспертов: упаковка, YouTube daily-life контент, сбор лояльной аудитории → монетизация через мастерские и партнёрства Jetix.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Централизованная библиотека шаблонов контента в Jetix (видео, влоги, стратегические пояснения) — для унификации продвижения себя, мастерской менеджеров и всех партнёров.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи",
+      "content": "«Цифровые аватары» + инфраструктура для коммуникации внутри аудитории одного блогера: сейчас подписчики изолированы друг от друга — если дать им платформу для сотрудничества под общими ценностями, информация переливается быстрее.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "За 2 недели описать фундамент системы: кланы, монетизацию, продвижение через инфлюенсеров — чтобы сразу запускать партнёрства и тестировать модель.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать модель бартера/партнёрства для каждого типа потенциального партнёра (блогер, немедийный эксперт, бизнесмен) — что предлагаем, что получаем, как работает процент.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Составить список целевых инфлюенсеров и блогеров по всем платформам (LinkedIn, Twitter, Facebook, YouTube) для первичного outreach по системе Jetix — фокус на 10K–1M аудитории.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Детально описать геймификацию кланов: механики, типы задач, структуру вознаграждений, уровни доверия участников — оформить как спецификацию для мастерской менеджеров.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Существующие аудитории блогеров — уже готовый «комбайн»: один сигнал в 600K аудиторию даёт немедленный резонанс; не нужно строить аудиторию с нуля — нужно подключаться к уже существующим.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Аудитория блогера изолирована внутри себя и не умеет сотрудничать — именно этот разрыв может закрыть Jetix, создав инфраструктуру для взаимодействия подписчиков между собой.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Каждому потенциальному партнёру доносить идею кланов до полного понимания — не останавливаться, пока не поймут и не попробуют на себе.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Сначала заработать деньги — без денег нет ресурсов на продвижение и масштабирование системы кланов; деньги = топливо для экспансии.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Какие существуют методы управления/вовлечения людей в систему: просьба, покупка, аренда ресурсов, создание своего — нужно изучить отдельно как пул для работы с мастерской менеджеров.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Открытые вопросы",
+      "content": "Как организовать взаимодействие между аудиториями разных блогеров под единым брендом Jetix, не размывая доверие к оригинальному блогеру?",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Экспансивное состояние с каскадной генерацией идей — ощущение «всё уже есть, бери не хочу»; риск: много видения, мало конкретных шагов — важно сразу структурировать в задачи.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_652@13-05-2026_05-30-52.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix как система ответственного подхода к жизни — сначала метод взаимодействия между людьми, затем строй общества мирового масштаба. Захват аудиторий по шаблону: локальные блогеры → глобальные инфлюенсеры → политики; одна индустрия за другой.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Решения",
+      "content": "Перед любым значимым взаимодействием (продажи, найм, убеждение, партнёрство) — собирать большой массив информации о человеке и просчитывать все варианты. Идти только на те действия, где вероятность успеха максимальна ('бить твёрдым по пустому').",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Перед любым стратегическим взаимодействием — максимальная предварительная разведка: собрать данные о человеке, просчитать все исходы, выбрать только ключевые действия. Не идти в лоб — идти туда, где пусто.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Начинать с малого и масштабировать по шаблону: один элемент → второй → третий. Сфокусировать энергию нескольких людей на одну точку — рычаг сильнее, чем разрозненные усилия.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Инсайты",
+      "content": "Принцип 'бить твёрдым по пустому' универсален: применим к продажам, найму, переговорам, убеждению и сбору команды. Предварительная разведка и просчёт вариантов резко увеличивают вероятность успеха — вплоть до 100%.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если собрать 10 стратегических партнёров + инвесторов, которые направят ресурсы (время, деньги, команду, опыт, наработки) на одну точку — создаётся достаточный рычаг для последовательного захвата индустрий и аудиторий.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Последовательный захват аудиторий по единому шаблону (один блогер/индустрия → следующий) эффективнее параллельного: шаблон проверяется на малом, затем тиражируется с нарастающим масштабом.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать первых 10 стратегических партнёров и инвесторов — людей, готовых вложить время, финансы и команду. Сейчас Руслан делает это в одиночку; задача активная.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Разработать и зафиксировать шаблон предварительного исследования перед любым стратегическим взаимодействием (продажи, найм, партнёрство, убеждение): что собирать, как просчитывать, какие действия делать.",
+      "priority": "high",
+      "project": "AI-инструменты",
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Фреймворк 'pre-interaction intelligence': систематический сбор данных о человеке перед продажей/наймом/партнёрством, просчёт вариантов исхода, выбор оптимальной стратегии. Потенциально — AI-инструмент для автоматизации этого процесса.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Руслан работает в одиночку над задачей масштаба 'собрать 10 стратегических партнёров + инвесторов'. Осознаёт необходимость дисциплинированного системного подхода — не хаотичных действий, а просчитанных ходов.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_653@13-05-2026_20-15-04.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix создаёт универсальную 'дорогу' — единые правила управления сложными системами — и выдаёт 'фюрершайны' (сертификаты управленца). Как ПДД работают одинаково во всех странах, так и правила Jetix должны работать worldwide.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_654@14-05-2026_00-31-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Продукт/направление Jetix — сертификация управленцев сложными AI-системами ('фюрершайн'). Jetix претендует на роль глобального органа стандартизации: создаёт правила и удостоверяет право управлять сложными системами.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_654@14-05-2026_00-31-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Единые мировые правила управления сложными системами необходимы для глобальной совместимости и эффективного развития человечества — без них 'разные разъёмы не воткнуть друг к другу'. Кто создаст этот стандарт — займёт ключевую позицию.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_654@14-05-2026_00-31-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Сложными системами должны управлять реальные люди с опытом — это уже происходит в лучших системах, но нужно сделать повсеместным и закреплённым формальным стандартом (как требование прав для вождения).",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_654@14-05-2026_00-31-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Оформить концепцию 'фюрершайна Jetix' в документ позиционирования: Jetix как создатель стандартов управления сложными системами и орган сертификации управленцев — включить в документ 'Кто я' / 'Кто такой Jetix'.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "audio_654@14-05-2026_00-31-18.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Слушал Майкла Джексона ночью — ощущение отличное, заряжает. Хочет научиться так же чувствовать тело и двигаться.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить историю Майкла Джексона — как строил образ, харизму, движение вокруг себя.",
+      "priority": "low",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи",
+      "content": "Научиться танцевать и лучше чувствовать тело — для харизмы, энергии, самовыражения.",
+      "priority": "low",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Гениальная корпорация, которая продвигает предпринимателей, дисциплинированных людей, топовых музыкантов и блогеров — как спорт и игру, с реальным обучением и ростом, а не имитацией. Брать каждого харизматичного и мотивированного.",
+      "priority": "high",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Продвигать предпринимательство и системный подход как спорт и игру — стабильно и логично выстроено, люди реально учатся и улучшаются. Включать в орбиту музыкантов и блогеров.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Синергия предпринимательского сообщества с топовыми музыкантами и блогерами — их аудитория + харизма + охват может дать мощный эффект масштаба при правильной интеграции.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Видение",
+      "content": "Строить жизнь вокруг путешествий, тусовок и больших проектов с людьми, которые тебя понимают и занимаются теми же делами. Это важнее большинства других целей — ахуенно и очень интересно.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    },
+    {
+      "category": "Принципы",
+      "content": "Окружать себя людьми, которые понимают тебя и делают аналогичные дела — путешествовать, делать тусовки и большие проекты вместе. Всю жизнь строить вокруг этих людей.",
+      "priority": "medium",
+      "project": "Сообщество",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-13",
+      "sources": [
+        "text-notes-2026-05-13-night.txt"
+      ],
+      "duplicate_flag": null
+    }
+  ],
+  "groups_by_project": {},
+  "meta_analysis": {
+    "key_themes": [],
+    "contradictions": [],
+    "patterns": [],
+    "key_findings": []
+  },
+  "_delta_from": "voice-batch-2026-05-13-14 (10 new files only — no filter dedup)",
+  "_source_batch": "voice-batch-2026-05-13-14"
+}

@@ -402,3 +402,86 @@ Voice batch не дал нового material по master/apprentice mechanic. S
 > **Constitutional posture (Tier 2 R1).** Этот отчёт = surfacing only. Никакой
 > strategic prose не LOCKED здесь. Все candidates требуют Ruslan ack для
 > promotion в Charter / Heptagon / Pitch / wiki canonical. AI ≠ author. AI = scribe.
+
+---
+
+## 📈 Appendix A — Stage 5 LLM rerank results (2026-05-14 00:37)
+
+> **Update appended after writing buckets 1-5.** Stage 5 wiki-match rerank ran
+> in parallel — `tools/wiki_integration/_rerun_stage5_2026-05-13-14-batch.py`.
+> Elapsed: 1491 sec (~25 min). Sonnet 4.6 backend via cc-headless.
+
+### Stage 5 stats (vs May batch baseline)
+
+| Metric | May batch (2026-05-12) | This batch (2026-05-14) | Delta |
+|---|---|---|---|
+| Total scored | 512 | 94 | — |
+| Tier A (≥0.85) | 38 | **10** | high-conf matches |
+| Tier B (0.6-0.85) | 251 | **49** | medium matches |
+| Tier C (<0.6) | 223 | **35** | propose-new candidates |
+| Skipped (Контакты/Задачи) | 134 | 31 | — |
+| Match rate (A+B) | 56.4% | **62.8%** | **+6.4pp ⬆️** |
+
+**Interpretation.** Higher A+B rate чем May batch = voice batch **reinforces** existing canonical (good — coherent thinking) more than fragments. 32% novelty rate в bucket-analysis confirms this signal.
+
+### Stage 5 Tier A — 10 confirmed strong matches к existing wiki
+
+| # | Voice idea (preview) | Matched wiki | Score |
+|---|---|---|---|
+| 1 | «Уверенность от инструментов / опыта — не сыграешь» (audio_646) | `concepts/engineering-faith.md` | 0.88 |
+| 2 | «Сначала фундамент — потом амбиции» (audio_647) | `ideas/system-first-myth-second.md` | 0.88 |
+| 3 | «Майнсет глобального масштаба до выхода на продажи» (audio_648) | `ideas/money-value-mindset-pre-launch.md` | 0.87 |
+| 4 | «Масштаб майнсета = масштаб денег» (audio_648) | `ideas/masshtab-resheniy-opredelyaet-masshtab-zhizni-osoznanno.md` | 0.87 |
+| 5 | «Уверенность ≠ слепая вера» (audio_648) | `concepts/engineering-faith.md` | 0.90 |
+| 6 | «Мировой масштаб + auto outreach + funnels + team» (audio_649) | `ideas/scaling-plan-self-clients-team-worldwide.md` | 0.85 |
+| 7 | «Мастерские + жильё + питание = экосистема» (audio_651) | `ideas/vork-khata-vork-selo-idealnoe-rabochee-okruzhenie.md` | 0.88 |
+| 8 | «Захват аудиторий: блогеры → инфлюенсеры → политики» (audio_653) | `ideas/model-vliyaniya-ideynyy-vdokhnovitel-lokalnye-rasprostr-2.md` | 0.85 |
+| 9 | «Последовательный захват по шаблону» (audio_653) | `ideas/metod-posledovatelnogo-fokusa-v-biznese.md` | 0.85 |
+| 10 | **«Jetix как универсальная дорога / фюрершайн»** (audio_654) | `ideas/jetix-as-infrastructure-metaphor.md` | **0.87** |
+
+### 🎯 Key Bucket-impact updates from Stage 5
+
+**Update to Bucket 2.1 (8-й insight Standards Body candidate):**
+- Stage 5 Tier A.10 — «фюрершайн / универсальная дорога» **уже matches `ideas/jetix-as-infrastructure-metaphor.md` at 0.87** (high-confidence).
+- **Re-classification:** NOT 8-й insight candidate. Это **expansion/elaboration of existing canonical** `ideas/jetix-as-infrastructure-metaphor.md` (which exists in wiki since pre-Foundation). Standards Body / certification = specific application of infrastructure-metaphor framing.
+- **Action update:** Surface для elaboration of existing `ideas/jetix-as-infrastructure-metaphor.md` (add Standards Body как specific instance), NOT separate Heptagon insight. Saves promotion attempt.
+
+**Update to Bucket 1.1 (привычка мыть руки):**
+- Stage 5 Tier B.14 + B.20 — closest matches at **0.62 + 0.68** = NO Tier A match → **confirmed NOVEL**.
+- Stays in Bucket 1 as candidate for video Цэрэну.
+
+**Update to Bucket 4.2 (Phase 3 life trajectory):**
+- Stage 5 Tier B.49 — «путешествия+тусовки+проекты с понимающими людьми» matches `sources/2026-04-16-safe-hedonism-personal-motivation.md` at **0.68** = Tier B.
+- **Re-classification:** EXPANSION к existing safe-hedonism source, not full novel. Still good for Pitch §3 elaboration framing.
+
+**Update to Bucket 3.1 (embodiment dimension):**
+- Stage 5 не подобрал text-notes §1 (MJ) — likely в Tier C (low match). Stays NOVEL.
+
+### Tier C — propose-new candidates (35 items)
+
+Stage 5 surface'нула 35 propose-new candidates (all freq=1, single-mention).
+**Most align с buckets above as either Sub-items или Bucket 5 (Deferred).**
+Notable Tier C novel candidates:
+- «Аналогия мытья рук» как глобальная привычка (audio_649) — already в Bucket 1.1
+- «Целевая аудитория самофильтруется» (audio_649) — extension к H7 self-selection thesis
+- «Голосовая заметка как самонастройка» (audio_648) — Tier 1 self-discipline practice
+- «Философия Jetix — управление собой ради безопасности близких» (audio_649) — Charter §1 candidate elaboration
+- «Ruslan ощущает что Jetix уже на уровне методологии» (audio_649) — state-anchor
+
+**Full Tier C list:** `reports/voice-pipeline-2026-05-13-14-batch/04-wiki-candidates-2026-05-13-14-batch.md` §C.
+
+### Wiki bulk-ack guidance
+
+```bash
+# Preview Tier A (highest-confidence cross-references)
+/wiki-bulk-ack --tier A --dry-run --batch=voice-batch-2026-05-13-14
+
+# Apply Tier A after review (creates cross-ref edges в wiki/graph/edges.jsonl)
+/wiki-bulk-ack --tier A --batch=voice-batch-2026-05-13-14
+
+# Tier B subset review (selective ack)
+/wiki-bulk-ack --tier B --select=N,N,N --batch=voice-batch-2026-05-13-14
+```
+
+> **NOT auto-applied.** Per pipeline policy `NEVER auto-merge to wiki/`.
+> Ruslan bulk-acks per tier via /wiki-bulk-ack (third gate).
