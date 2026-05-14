@@ -267,6 +267,62 @@
   _source_extraction: audio_646@11-05-2026_21-41-58.json
 - target: crm
   intent: add
+  person_name: Анатолий Левенчук
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Планируется стратегическая сессия (~2 часа) по монетизации Jetix. Руслан
+    хочет представить наработки и идеи, получить обратную связь и совместно выстроить
+    стратегию заработка.
+  raw_quote: настроить стратегию по заработку денег и в целом вот по монетизации вот
+    уже с царем и анатолием левенчуком вот это в первую очередь
+  _source_extraction: audio_647@13-05-2026_02-11-45.json
+- target: crm
+  intent: add
+  person_name: Царь
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут рядом с Анатолием Левенчуком как ключевой человек для настройки
+    стратегии монетизации. Скорее всего ментор или партнёр (никнейм).
+  raw_quote: настроить стратегию по заработку денег и в целом вот по монетизации вот
+    уже с царем и анатолием левенчуком
+  _source_extraction: audio_647@13-05-2026_02-11-45.json
+- target: crm
+  intent: add
+  person_name: Церин
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут как человек, с которым нужно совместно проработать майнсет на
+    глобальный масштаб Jetix. Имя, возможно, неполное.
+  raw_quote: И с Майнсетом еще тоже надо будет очень сильно поработать. И с моим,
+    и вот с Церина, и Анатолия Левенчука.
+  _source_extraction: audio_648@13-05-2026_02-17-18.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: anatoliy-levenchuk
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Упомянут в контексте совместной работы над майнсетом и настройки на глобальный
+    масштаб; вероятно, известный в РФ специалист по системному мышлению и инженерии.
+  raw_quote: И с Майнсетом еще тоже надо будет очень сильно поработать. И с моим,
+    и вот с Церина, и Анатолия Левенчука.
+  _source_extraction: audio_648@13-05-2026_02-17-18.json
+- target: crm
+  intent: add
+  person_name: Царин
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Автор поста с аналогией 'системный подход как привычка мыть руки' — Руслан
+    цитирует эту идею как ключевой фрейм для позиционирования Jetix.
+  raw_quote: вот привычкой культурой как в постах царина было о том что вот это вот
+    системный подход это как привычка мыть руки реально крутое сравнение
+  _source_extraction: audio_649@13-05-2026_02-30-00.json
+- target: crm
+  intent: add
   person_name: Дима
   slug: null
   role_hint: partner_prospect

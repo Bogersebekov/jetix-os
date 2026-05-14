@@ -1,10 +1,10 @@
 ---
-name: Царин
-slug: tsarin-draft
+name: Дима
+slug: dima-draft-5
 type: person
 aliases: []
 roles:
-- partner_prospect
+- interesting
 niche: ''
 occupation: ''
 income_bucket: unknown
@@ -28,15 +28,15 @@ tools:
 origin:
   source_channel: voice_memo
   introduced_by: null
-  first_contact_date: 2026-05-11
-  context: Руслан планирует объяснить позиционирование Jetix и предложение о совместной работе. Упомянут рядом с Анатолием Левенчуком как ключевой собеседник.
+  first_contact_date: 2026-05-13
+  context: Дима — упомянут в контексте общения на выходных, где был показан уверенный тон коммуникации.
 icp:
   startupper: unknown
-  scored_at: 2026-05-11
+  scored_at: 2026-05-13
   scored_by: tbd
 pipeline:
   status: draft_from_voice
-  last_touch_date: '2026-05-13'
+  last_touch_date: 2026-05-13
   next_action: ''
   next_action_date: ''
   owner: ruslan
@@ -45,10 +45,10 @@ value:
   to_them: ''
   relationship_strength: 1
 tags: []
-created: 2026-05-11
-updated: '2026-05-13'
+created: 2026-05-13
+updated: 2026-05-13
 ---
-# Царин
+# Дима
 
 ## §1. Кто
 [3-5 строк краткое био. Чем занимается, откуда, что важно знать с первого взгляда.]
@@ -111,10 +111,7 @@ TBD
 
 ## §11. История взаимодействий (newest top, append-only)
 
-### 2026-05-13 — auto-from-voice
-- Активный созвон по обсуждению системы, развития Jetix и инфраструктуры. Наработки Царина и МИМ интегрируются в концепцию позиционирования. Планируется совместная работа как партнёров.
-
-### 2026-05-11 — added to CRM
+### 2026-05-13 — added to CRM
 - Initial entry created.
 
 ## §12. Текущий статус + next action
@@ -138,6 +135,6 @@ TBD
 
 ## §15. Voice source
 
-_From voice memo 2026-05-11:_
+_From voice memo 2026-05-13:_
 
-> вот этому царину и анатолию левенчуку да и все они все поймут
+> Дима — упомянут в контексте общения на выходных, где был показан уверенный тон коммуникации.
