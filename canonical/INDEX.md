@@ -12,6 +12,8 @@ authority: Ruslan walkthrough ack 110-item checklist (2026-05-06)
 
 # Canonical Docs — Source of Truth (2026-05-06)
 
+> **See first:** [JETIX-DOCUMENT-MAP-2026-05-15.md](../decisions/JETIX-DOCUMENT-MAP-2026-05-15.md) — карта местности всех актуальных documents + 3 mermaid + 4 reading tracks per audience. Используется как primary orientation для video screen-share, L1 onboarding, и self-orientation.
+
 > Это **single page** со ссылками на все active canonical документы Jetix OS.
 > Каждый doc ниже — LOCKED canonical (production source-of-truth) или active living
 > infrastructure. Пройти структурированный walkthrough всего что было — см.

@@ -5,6 +5,7 @@ type: outreach-document-index
 status: ready
 purpose: курируемый pool LOCKED docs для отправки L1 partners + mentors + first prospects; рекомендованный sequence чтения
 target_audience: L1 9 candidates + future cohorts
+companion: ../decisions/JETIX-DOCUMENT-MAP-2026-05-15.md  # general document map (3 mermaid + 4 reading tracks); outreach-focused subset of MAP
 F: F2
 G: outreach-document-pool-applied-now
 R: refuted_if_document_links_break_OR_pool_grows_too_large_to_curate
@@ -13,6 +14,8 @@ reading_rate_assumption: 200 words/min (intellectual Russian content average)
 
 # 📚 Jetix Document Pool — для outreach + reading sequence
 
+> **Companion:** [JETIX-DOCUMENT-MAP-2026-05-15.md](../decisions/JETIX-DOCUMENT-MAP-2026-05-15.md) — общая карта местности всех документов + 4 reading tracks (Quick / L1 / Researcher / Mentor). Этот doc pool = outreach-specific subset с per-L1 customization (которой нет в general MAP).
+>
 > **Назначение.** Чёткий курируемый pool документов для отправки L1 partners / mentors / first prospects. Stage-by-stage sequence чтобы не перегружать получателя.
 >
 > **Reading rate baseline:** 200 слов/мин (intellectual Russian content average). У всех разный темп — кто-то быстрее, кто-то медленнее.

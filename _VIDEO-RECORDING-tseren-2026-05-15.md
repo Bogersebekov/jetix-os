@@ -131,15 +131,20 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 
 **Почему блок нужен:** «вижу своими глазами что куча качественной информации со схемами и пояснениями». Не объясняешь детали — показываешь что это вообще есть.
 
+**Primary visual (Tab 0):** [JETIX-DOCUMENT-MAP-2026-05-15.md](decisions/JETIX-DOCUMENT-MAP-2026-05-15.md) — карта местности с 3 mermaid (категориальная / reading ladder / граф зависимостей). Вместо открытия 6 отдельных файлов — один MAP показывает всю систему одним взглядом. Покивая на mermaid'ы.
+
 **Сценарий walkthrough (быстро, по файлам):**
-1. [Workshop Architecture mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «вот архитектура мастерской, 3-layer, всё связано»
-2. [Heptagon mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «7 strategic insights, каждый — отдельный lock»
-3. [Foundation Architecture overview](swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md) — «11 Parts + Pillar C, constitutional substrate» (не расписываешь каждую Part)
-4. [Knowledge graph (edges.jsonl)](wiki/graph/edges.jsonl) — «вот wiki, вот edges между концептами»
+1. [JETIX-DOCUMENT-MAP](decisions/JETIX-DOCUMENT-MAP-2026-05-15.md) — Mermaid 1 (категориальная карта) + Mermaid 3 (граф зависимостей) — «вот вся карта системы одним взглядом, 9 категорий, color-coded»
+2. [Workshop Architecture mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «вот архитектура мастерской, 3-layer, всё связано»
+3. [Heptagon mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «7 strategic insights, каждый — отдельный lock»
+4. [Foundation Architecture overview](swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md) — «11 Parts + Pillar C, constitutional substrate» (не расписываешь каждую Part)
 5. [Charter v0 LOCKED](decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md) — «конституция клана, LOCKED с 12.05»
 6. [Monetization Wave 2 папка](reports/monetization-research-2026-05-14/wave2/) — «H-M / H-A / H-C / H-F / H-O бакеты, test designs, industry numbers»
+7. (reserve) [Knowledge graph (edges.jsonl)](wiki/graph/edges.jsonl) — «вот wiki, вот edges между концептами»
 
 **Тон:** быстро, не задерживаясь, покивая на масштаб и качество schemes. Не «вот этот конкретный mermaid показывает...». Это не обучающее видео.
+
+**Преимущество MAP как Tab 0:** одним документом показываешь всю архитектуру + reading tracks для receiver'а (он сразу видит «вот мой track для дальнейшего изучения»). Меньше переключений между tabs во время screen-share.
 
 ---
 
@@ -222,6 +227,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 
 ## §7 СВЯЗАННЫЕ ФАЙЛЫ
 
+- **JETIX-DOCUMENT-MAP (карта местности, Block 5 primary visual):** [decisions/JETIX-DOCUMENT-MAP-2026-05-15.md](decisions/JETIX-DOCUMENT-MAP-2026-05-15.md)
 - Antigravity чек-лист (tabs prep): [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)
 - Previous version (12.05, narrower): [outreach/video-script-tseren-2026-05-12.md](outreach/video-script-tseren-2026-05-12.md)
 - Pitch Doc: [outreach/jetix-mentor-partner-pitch-2026-05-12.md](outreach/jetix-mentor-partner-pitch-2026-05-12.md)

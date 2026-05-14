@@ -23,6 +23,7 @@ notion_view: https://www.notion.so/3602496333bf8177bc3fd06a81d944aa
 
 | # | Tab (клик чтобы открыть) | Что внутри | Блок видео |
 |---|---|---|---|
+| **0** ⭐ | [**JETIX-DOCUMENT-MAP** (карта местности)](decisions/JETIX-DOCUMENT-MAP-2026-05-15.md) | **Primary visual для screen-share.** 3 mermaid (категориальная карта 34 docs / reading ladder 4 tracks / граф зависимостей) + per-doc table + instructions per audience. Один документ показывает всю систему. | **Блок 5 (главный)** + reference во всех остальных |
 | 1 | [Workshop Architecture mermaid (Pitch §11 M3)](outreach/jetix-mentor-partner-pitch-2026-05-12.md) | 3-layer: мастерская → сеть → сеть мастерских. Геймификация как механика. 4 принципа видны. | Блок 3 |
 | 2 | [Heptagon mermaid (Pitch §11 M1)](outreach/jetix-mentor-partner-pitch-2026-05-12.md) | Foundation Model / Partnership / R&D Flywheel / Network State Balaji / Tyson Mentorship / Gamified Platform / People-NS. Все LOCKED. | Блок 5 |
 | 3 | [Foundation Architecture overview](swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md) | 11 Parts + Pillar C + 12 Constitutional rules. LOCKED 28.04.2026. | Блок 2 + 5 |
@@ -33,6 +34,8 @@ notion_view: https://www.notion.so/3602496333bf8177bc3fd06a81d944aa
 | 8 | [Pitch Doc (full)](outreach/jetix-mentor-partner-pitch-2026-05-12.md) | Entry document для отправки после видео (~18 мин чтения). 12 секций. | reserve / post-recording |
 | 9 (option) | [H7 People-Network-State](decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md) | Synthesis 7 insights → People-NS framework. Механика anti-extraction. | Блок 5 если время |
 | 10 (option) | [TRM Model](decisions/JETIX-TRM-MODEL-2026-04-30.md) | 6 resources × L0-L5 ladder. Ресурсы мастерской. | reserve |
+
+> **Tab 0 — primary visual для Block 5.** Открываешь MAP, показываешь Mermaid 1 (категориальная карта всех 34 docs одним взглядом) → Mermaid 3 (граф зависимостей) → Mermaid 2 (reading tracks per audience — receiver сразу видит «вот мой track»). Tabs 1-7 — drill-down per file если нужно показать конкретную диаграмму или папку.
 
 ---
 
@@ -68,6 +71,7 @@ notion_view: https://www.notion.so/3602496333bf8177bc3fd06a81d944aa
 
 ## 📦 Связанные файлы
 
+- **JETIX-DOCUMENT-MAP (карта местности, Tab 0):** [decisions/JETIX-DOCUMENT-MAP-2026-05-15.md](decisions/JETIX-DOCUMENT-MAP-2026-05-15.md)
 - Main scenario (что говорить блок за блоком): [_VIDEO-RECORDING-tseren-2026-05-15.md](_VIDEO-RECORDING-tseren-2026-05-15.md)
 - Document pool + per-L1 sequence: [outreach/jetix-document-pool-2026-05-12.md](outreach/jetix-document-pool-2026-05-12.md)
 - CRM Tseren: [crm/people/tseren-tserenov-l1.md](crm/people/tseren-tserenov-l1.md)
