@@ -3,6 +3,7 @@ book: "Whyte, William F. & Whyte, Kathleen K. — Making Mondragón: The Growth 
 year: 1991
 tier: 1
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

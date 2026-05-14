@@ -3,7 +3,7 @@ title: "Wave 2 — Cross-Pollination Matrix"
 date: 2026-05-14
 type: matrix-analysis
 parent: v0 §4-§8 (75 H) + wave2/q-expanded-as-hypotheses.md (73 sub-H)
-status: hypothesis-pool
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

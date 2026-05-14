@@ -3,6 +3,7 @@ book: "Shapiro, Carl & Varian, Hal — Information Rules: A Strategic Guide to t
 year: 1999
 tier: 2
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

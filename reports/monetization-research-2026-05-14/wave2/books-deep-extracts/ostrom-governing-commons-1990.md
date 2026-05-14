@@ -3,6 +3,7 @@ book: "Ostrom, Elinor — Governing the Commons"
 year: 1990
 tier: 2
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

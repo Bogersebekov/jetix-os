@@ -4,7 +4,7 @@ date: 2026-05-14
 type: phase-deep-dive
 parent: v0 §12
 phase: 5
-status: hypothesis-pool
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

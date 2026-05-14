@@ -3,6 +3,7 @@ book: "Henrich, Joseph — The WEIRDest People in the World"
 year: 2020
 tier: 2
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

@@ -3,6 +3,7 @@ book: "Raymond, Eric S. — The Cathedral and the Bazaar"
 year: 1999
 tier: 1
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

@@ -3,7 +3,7 @@ title: "Wave 2 — New Hypotheses Surfaced"
 date: 2026-05-14
 type: hypothesis-surface-log
 parent: v0 + wave2 phases 2a-2f
-status: hypothesis-pool
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

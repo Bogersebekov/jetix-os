@@ -3,7 +3,7 @@ title: "Jetix Monetization × Audience Cooperation Methodology — Wave 2 Deeper
 date: 2026-05-14
 type: methodology-extension
 scope: F5 Wave 2 (deep mining append-only to v0)
-status: ai-draft-pending-ruslan-revision
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 prose_authored_by: ai-draft-pending-ruslan-revision
 provenance_base_commit: eebdcc2
 parent_v0: decisions/JETIX-MONETIZATION-AUDIENCE-COOPERATION-METHODOLOGY-v0-2026-05-14.md
@@ -48,7 +48,7 @@ tags:
   - "#topic/monetization"
   - "#topic/audience-cooperation"
   - "#topic/wave2"
-  - "#status/ai-draft-pending-ruslan-revision"
+  - "#status/ruslan-acked-as-hypothesis-bank-2026-05-14"
   - "#priority/critical"
 ---
 

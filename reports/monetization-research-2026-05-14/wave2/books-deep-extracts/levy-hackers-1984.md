@@ -3,6 +3,7 @@ book: "Levy, Steven — Hackers: Heroes of the Computer Revolution"
 year: 1984
 tier: 2
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

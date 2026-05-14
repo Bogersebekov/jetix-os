@@ -3,7 +3,7 @@ title: "Jetix Monetization × Audience Cooperation Methodology v0"
 date: 2026-05-14
 type: methodology
 scope: F5 (Phase 1 Foundation companion doc)
-status: ai-draft-pending-ruslan-revision
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 prose_authored_by: ai-draft-pending-ruslan-revision
 provenance_base_commit: 68fa423
 parent_canonical:
@@ -37,15 +37,21 @@ tags:
   - "#topic/monetization"
   - "#topic/audience"
   - "#topic/cooperation"
-  - "#status/ai-draft-pending-ruslan-revision"
+  - "#status/ruslan-acked-as-hypothesis-bank-2026-05-14"
   - "#priority/critical"
 ---
 
 # JETIX Monetization × Audience Cooperation Methodology — v0
 
-**Server CC ai-draft-pending-ruslan-revision · Foundation v1.0 LOCKED 2026-04-28 anchor · Heptagon LOCKED 2026-05-12 · Charter v0 LOCKED 2026-05-12 · Provenance base commit `68fa423`.**
+> **STATUS UPDATE 2026-05-14:** Ruslan-acked as hypothesis bank for Phase 2+ client work.
+> Не LOCK, не Foundation-promote, не Charter/Pitch material. Дальнейшее использование =
+> извлечение релевантных H по триггеру (новый клиент / monetization вопрос / test wave
+> kickoff). Никакой H не selected; surfacing-only mode сохранён (Tier 2 R1).
+> См. ack-trail: `decisions/RUSLAN-ACK-MONETIZATION-HYPOTHESIS-BANK-2026-05-14.md`.
 
-> **Constitutional posture:** Это **ai-draft-pending-ruslan-revision** документ. Каждое strategic claim требует Руслановой ревизии перед LOCK. AI = scribe / structurer / hypothesis-surfacer; Ruslan = sole strategist (Tier 2 R1). Никаких LOCK'ов на содержательные гипотезы. R12 anti-extraction check присутствует на КАЖДУЮ monetization variant в §4. Provenance per item per Tier 2 R6.
+**Server CC ruslan-acked-as-hypothesis-bank-2026-05-14 · Foundation v1.0 LOCKED 2026-04-28 anchor · Heptagon LOCKED 2026-05-12 · Charter v0 LOCKED 2026-05-12 · Provenance base commit `68fa423`.**
+
+> **Constitutional posture:** Bank-status ack ≠ content-LOCK. Каждое strategic claim в bank-режиме = hypothesis-to-test, не selected variant. AI = scribe / structurer / hypothesis-surfacer; Ruslan = sole strategist (Tier 2 R1). Никаких LOCK'ов на содержательные гипотезы. R12 anti-extraction check присутствует на КАЖДУЮ monetization variant в §4. Provenance per item per Tier 2 R6. `prose_authored_by:` остаётся `ai-draft-pending-ruslan-revision` (содержание не редактировалось при ack).
 
 ---
 

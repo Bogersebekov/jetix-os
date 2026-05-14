@@ -4,7 +4,7 @@ date: 2026-05-14
 type: phase-deep-dive
 parent: decisions/JETIX-MONETIZATION-AUDIENCE-COOPERATION-METHODOLOGY-v0-2026-05-14.md §12
 phase: 1
-status: hypothesis-pool
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

@@ -2,7 +2,7 @@
 title: "Industry examples — creator economy & audience monetization (2025-2026)"
 date: 2026-05-14
 type: research-output
-status: research-inventory
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 prose_authored_by: ai-synthesis-from-general-knowledge
 provenance_base_commit: 68fa423
 parent_doc: decisions/JETIX-MONETIZATION-AUDIENCE-COOPERATION-METHODOLOGY-v0-2026-05-14.md

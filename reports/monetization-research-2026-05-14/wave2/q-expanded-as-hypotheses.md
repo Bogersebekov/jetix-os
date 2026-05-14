@@ -3,7 +3,7 @@ title: "Wave 2 — Open Q Expanded as Hypothesis Clusters"
 date: 2026-05-14
 type: hypothesis-expansion
 parent: decisions/JETIX-MONETIZATION-AUDIENCE-COOPERATION-METHODOLOGY-v0-2026-05-14.md §14 Open Q
-status: hypothesis-pool
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 constitutional_anchor: Tier 2 R1 (NO selection); Tier 2 R6 (provenance); R12 audit per H-M sub-H.
 quota: "15 Q × ≥4 sub-H = ≥60 sub-hypotheses"

@@ -3,7 +3,7 @@ title: "Wave 2 — Industry Numbers Deep Mining"
 date: 2026-05-14
 type: industry-research
 parent: reports/monetization-research-2026-05-14/industry-examples.md
-status: hypothesis-pool-supporting-evidence
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 quota: "≥20 examples with concrete MAU/ARPU/LTV/CAC/take rate/churn/cooperation/R12 indicators"
 tags:

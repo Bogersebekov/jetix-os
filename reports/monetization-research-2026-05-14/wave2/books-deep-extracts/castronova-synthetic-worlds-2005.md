@@ -4,6 +4,7 @@ year: 2005
 tier: 1
 mined_from: model knowledge + wiki/sources/synthetic-worlds-castronova
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 

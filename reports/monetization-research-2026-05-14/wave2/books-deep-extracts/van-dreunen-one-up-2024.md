@@ -4,6 +4,7 @@ year: 2024
 tier: 1
 mined_from: model knowledge + wiki/sources/one-up-van-dreunen
 date: 2026-05-14
+status: ruslan-acked-as-hypothesis-bank-2026-05-14
 provenance_base_commit: eebdcc2
 ---
 
