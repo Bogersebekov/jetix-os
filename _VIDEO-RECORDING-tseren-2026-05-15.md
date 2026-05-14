@@ -5,12 +5,8 @@ type: outreach-video-scenario
 status: ready-to-record
 target: Цэрэн Цэрэнов (@TserenTserenov) — Managing Partner МИМ
 purpose: первое касание → выход на 30-60 мин созвон
-companion_files:
-  - outreach/video-antigravity-checklist-2026-05-15.md (tabs prep)
-  - outreach/jetix-mentor-partner-pitch-2026-05-12.md (Pitch Doc для отправки после)
-  - decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md (Charter для отправки после)
-  - outreach/jetix-document-pool-2026-05-12.md (full doc pool per L1)
-supersedes: outreach/video-script-tseren-2026-05-12.md (12.05 version, narrower)
+companion: _VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md
+supersedes: outreach/video-script-tseren-2026-05-12.md
 duration_target: 5-7 min
 recording_format: talking head + Antigravity screen-share
 language: russian
@@ -24,6 +20,8 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 
 > **Контекст.** Получатель — Цэрэн Цэрэнов (Managing Partner **МИМ — Мастерская Инженеров-Менеджеров**, 11 лет с Левенчуком). Канал: TG `@TserenTserenov`. Длина: 5-7 мин talking head + Antigravity screen-share. Этап воронки: первое касание → созвон 30-60 мин.
 >
+> **Tabs prep:** [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md) — открыть ДО записи.
+>
 > **Bridge к Цэрэну:** МИМ = «Мастерская» в названии. Моё «мастерская по работе с информацией» — рядом. Это хребет видео.
 
 ---
@@ -31,7 +29,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 ## §0 Общая рамка
 
 - **Как держусь:** прямо, без воды, talking points (не verbatim), «есть серьёзное предложение», не «можно я расскажу»
-- **Что показываем экраном:** Antigravity с открытыми файлами (см. `outreach/video-antigravity-checklist-2026-05-15.md`)
+- **Что показываем экраном:** Antigravity с открытыми файлами (см. [Antigravity чек-лист](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md))
 - **На чём вырубаемся:** я говорю >80% времени; demo «я нажимаю кнопки»; перечисление 12 Constitutional rules; извинения «извини что длинно»
 
 ---
@@ -97,7 +95,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 - Сначала под себя → понял что может работать для тысяч других
 - **Bridge:** твоя МИМ — мастерская инженеров-менеджеров с 11-летним track record. Моя — мастерская по работе с информацией. **Рядом.**
 
-**Visual:** Workshop Architecture mermaid (Pitch §11 M3) — screen-share.
+**Visual:** [Workshop Architecture mermaid (Pitch §11 M3)](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — screen-share.
 
 ---
 
@@ -114,7 +112,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 **4b. Краткий план на будущее (4 пункта):**
 
 1. **Систему счастье ещё допилить** — доработать базовую систему жизнеобеспечения
-2. **70+ гипотез монетизации уже есть** — surface'ировано с test designs, готово к обсуждению
+2. **70+ гипотез монетизации уже есть** — surface'ировано с test designs, готово к обсуждению ([Monetization v0](decisions/JETIX-MONETIZATION-AUDIENCE-COOPERATION-METHODOLOGY-v0-2026-05-14.md) + [Wave 2](reports/monetization-research-2026-05-14/wave2/))
 3. **Продвижение через сильных инженеров + лучших блогеров + продавцов** — не один, а вместе с right people
 4. **Pipeline доступа к YouTube-блогерам — полуавтомат, в боевой готовности:**
    - Любого блогера можно «достать» — выйти на контакт и сделать предложение
@@ -125,7 +123,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 - Как это стыкуется с МИМ
 - Где видишь себя в этом (mentor / partner / connector / просто вовлечённый наблюдатель)
 
-**Visual:** Antigravity screen-share — «monetization hypothesis bank» файлы видны (не объясняешь — покиваешь на масштаб).
+**Visual:** Antigravity screen-share — [Monetization Wave 2 folder](reports/monetization-research-2026-05-14/wave2/) видна (не объясняешь — покиваешь на масштаб).
 
 ---
 
@@ -134,12 +132,12 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 **Почему блок нужен:** «вижу своими глазами что куча качественной информации со схемами и пояснениями». Не объясняешь детали — показываешь что это вообще есть.
 
 **Сценарий walkthrough (быстро, по файлам):**
-1. **Workshop Architecture mermaid** — «вот архитектура мастерской, 3-layer, всё связано»
-2. **Heptagon mermaid** — «7 strategic insights, каждый — отдельный lock»
-3. **Foundation Architecture overview** — «11 Parts + Pillar C, constitutional substrate» (не расписываешь каждую Part)
-4. **Knowledge graph (722+ entries)** — «вот wiki, вот edges между концептами»
-5. **Charter v0 LOCKED** — «конституция клана, LOCKED с 12.05»
-6. **Monetization Wave 2 папка** — «H-M / H-A / H-C / H-F / H-O бакеты, test designs, industry numbers»
+1. [Workshop Architecture mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «вот архитектура мастерской, 3-layer, всё связано»
+2. [Heptagon mermaid](outreach/jetix-mentor-partner-pitch-2026-05-12.md) — «7 strategic insights, каждый — отдельный lock»
+3. [Foundation Architecture overview](swarm/wiki/synthesis/foundation-master-overview-technical-2026-04-29.md) — «11 Parts + Pillar C, constitutional substrate» (не расписываешь каждую Part)
+4. [Knowledge graph (edges.jsonl)](wiki/graph/edges.jsonl) — «вот wiki, вот edges между концептами»
+5. [Charter v0 LOCKED](decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md) — «конституция клана, LOCKED с 12.05»
+6. [Monetization Wave 2 папка](reports/monetization-research-2026-05-14/wave2/) — «H-M / H-A / H-C / H-F / H-O бакеты, test designs, industry numbers»
 
 **Тон:** быстро, не задерживаясь, покивая на масштаб и качество schemes. Не «вот этот конкретный mermaid показывает...». Это не обучающее видео.
 
@@ -176,7 +174,7 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 
 ## §3 ANTIGRAVITY SHOW PREP
 
-Полный чек-лист с tabs / описаниями / порядком переключения — `outreach/video-antigravity-checklist-2026-05-15.md`.
+Полный чек-лист с tabs / описаниями / порядком переключения — [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md).
 
 ---
 
@@ -207,16 +205,16 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 ```
 
 **3 docs после positive response:**
-1. [Pitch Doc](https://github.com/Bogersebekov/jetix-os/blob/main/outreach/jetix-mentor-partner-pitch-2026-05-12.md) (~18 мин)
-2. [Charter v0](https://github.com/Bogersebekov/jetix-os/blob/main/decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md) (~24 мин)
-3. [Anton report](https://github.com/Bogersebekov/jetix-os/blob/main/reports/anton-call-report-2026-05-11.md) (~29 мин, опционально)
+1. [Pitch Doc](outreach/jetix-mentor-partner-pitch-2026-05-12.md) (~18 мин) — [GitHub](https://github.com/Bogersebekov/jetix-os/blob/main/outreach/jetix-mentor-partner-pitch-2026-05-12.md)
+2. [Charter v0](decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md) (~24 мин) — [GitHub](https://github.com/Bogersebekov/jetix-os/blob/main/decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md)
+3. [Anton report](reports/anton-call-report-2026-05-11.md) (~29 мин, опционально) — [GitHub](https://github.com/Bogersebekov/jetix-os/blob/main/reports/anton-call-report-2026-05-11.md)
 
 ---
 
 ## §6 ПОСЛЕ RECORDING
 
 1. Upload + TG message + видео → `@TserenTserenov`
-2. CRM update: `crm/people/tseren-tserenov-l1.md` §11 history → `2026-05-XX — Video sent. Awaits response. Charter+Pitch ready to send.`
+2. CRM update: [crm/people/tseren-tserenov-l1.md](crm/people/tseren-tserenov-l1.md) §11 history → `2026-05-XX — Video sent. Awaits response. Charter+Pitch ready to send.`
 3. `pipeline.last_touch_date: 2026-05-XX`
 4. Рефлексия в Notion-странице §8 — что в итоге звучало / что поправить для видео под следующих L1 (Левенчук / Тарасов / ...)
 
@@ -224,16 +222,16 @@ R: refuted_if_no_response_within_14d_OR_recording_diverges_significantly
 
 ## §7 СВЯЗАННЫЕ ФАЙЛЫ
 
-- Antigravity checklist (tabs prep) — `outreach/video-antigravity-checklist-2026-05-15.md`
-- Previous version (12.05, narrower) — `outreach/video-script-tseren-2026-05-12.md`
-- Pitch Doc (для отправки после) — `outreach/jetix-mentor-partner-pitch-2026-05-12.md`
-- Charter v0 (для отправки после) — `decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md`
-- Anton report (для deep readers) — `reports/anton-call-report-2026-05-11.md`
-- H7 People-NS Insight — `decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md`
-- Document pool + per-L1 sequence — `outreach/jetix-document-pool-2026-05-12.md`
-- CRM Tseren — `crm/people/tseren-tserenov-l1.md`
-- Notion view (live edit) — https://www.notion.so/3602496333bf815cb7e0cfc5f433046f
+- Antigravity чек-лист (tabs prep): [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)
+- Previous version (12.05, narrower): [outreach/video-script-tseren-2026-05-12.md](outreach/video-script-tseren-2026-05-12.md)
+- Pitch Doc: [outreach/jetix-mentor-partner-pitch-2026-05-12.md](outreach/jetix-mentor-partner-pitch-2026-05-12.md)
+- Charter v0: [decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md](decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md)
+- Anton report: [reports/anton-call-report-2026-05-11.md](reports/anton-call-report-2026-05-11.md)
+- H7 People-NS: [decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md](decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md)
+- Document pool + per-L1 sequence: [outreach/jetix-document-pool-2026-05-12.md](outreach/jetix-document-pool-2026-05-12.md)
+- CRM Tseren: [crm/people/tseren-tserenov-l1.md](crm/people/tseren-tserenov-l1.md)
+- Notion view (live edit): https://www.notion.so/3602496333bf815cb7e0cfc5f433046f
 
 ---
 
-*Создано 2026-05-15 (Ruslan brief 14.05 evening + 15.05 extension: roadmap preview в Блоке 1 + Antigravity checklist отдельно). При повторной записи под Левенчука / Тарасова / других L1 — форк файла и адаптация Блоков 3+4 под bridge points этого кандидата.*
+*Создано 2026-05-15. В корне репо для удобства Antigravity — все ссылки relative и кликабельные. При повторной записи под Левенчука / Тарасова / других L1 — форк файла и адаптация Блоков 3+4 под bridge points этого кандидата.*
