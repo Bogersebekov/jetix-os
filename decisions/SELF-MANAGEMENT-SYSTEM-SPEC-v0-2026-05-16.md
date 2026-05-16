@@ -85,14 +85,42 @@ Surface (per §1 of audio_668 + audio_110):
 - **Для замечания просадок ранo (дни не месяцы)** — `audio_95`
 - **Для surface'а паттернов** ("когда я делаю X, состояние Y") — `audio_668`
 
-### §2.4 Logic-loop: вопросы → ответы → действия
+### §2.4 Logic-loop: вопросы → ответы → действия (структура мышления, не только self-check)
 
 Source: `audio_668` — «Логика такая: задавать определённые вопросы, фиксировать эти вопросы, искать на них ответы — чтобы так мозг работал, эту структуру натянуть в мозге.»
 
-- **System asks questions** ("как ты сегодня себя чувствуешь?", "что произошло за последний час?")
-- **Records the questions** в запасничок
-- **Searches for answers** (через past data / external resources / coach session)
-- **Surface answers back** в форме napominalok / dashboard
+Source clarification (Ruslan 2026-05-16, voice→text): «Это именно на какие-то такие — то есть не только "как я себя сегодня чувствую", а именно нужно задавать вопросы просто: как можно сделать вот это, или как может работать это с этим? То есть какие-то текущие вопросы есть, записывать, и потом уже благодаря ним держать фокус какой-то более адекватно.»
+
+**Принцип:** вопросы = primary tool управления вниманием и мозгом. Фиксируем — мозг получает «крючки» для поиска ответов в фоне.
+
+**Две категории вопросов (обе равноценны):**
+
+#### A. Self-check questions (state / reflection)
+- «Как ты сегодня себя чувствуешь?»
+- «Что произошло за последний час?»
+- «На что тратил время / где compound, где утечка?»
+
+#### B. Open exploration questions (focus-holders) ⭐
+Это **главный сдвиг** от чистого self-tracking к **structure для мышления**:
+- «Как можно сделать вот это?» (конкретная задача / проблема)
+- «Как может работать это с этим?» (interaction / integration thinking)
+- «Что я не понимаю про X?»
+- «Какие гипотезы у меня сейчас открыты?»
+- «Где у меня stopper / друк / тупик?»
+
+**Назначение категории B** — держать фокус более адекватно. Записал вопрос → мозг (background thread) ищет ответ в течение дня / недели / месяца. Без записи — вопрос растворяется в шуме.
+
+**Workflow:**
+1. **System asks** category-A questions (запланированные time-triggered — утро / вечер / неделя)
+2. **Ruslan adds** category-B questions ad-hoc (когда возникает) — voice / typed
+3. **Records the questions** в запасничок (file `questions/open.md` или DB)
+4. **Searches for answers:**
+   - Category A — past data / dashboards / coach session
+   - Category B — research / voice-pipeline surface / wiki / chat с CC / discussions с L1
+5. **Surface answers back** — напоминалки / dashboard / digest когда answer найден
+6. **Закрытие вопроса** — answer logged + cross-ref в источник (wiki / decision / spec)
+
+**Анти-pattern.** Вопрос задан и не записан → растворился → focus blurred. Это primary failure mode который system должна prevent.
 
 ### §2.5 Past+future synergy
 
