@@ -20,6 +20,14 @@ language: russian
 
 ---
 
+## §0.0 RUSLAN ACK 2026-05-17 — blockers cleared
+
+- ✅ **Aisystant subscription** — платим. Берёшь всё что можно с подписки. (€/мес ok.)
+- ✅ **Книги Левенчука** — берём всё что есть. Sam посмотришь какие нужны / какие купить (Ridero / Litres / OSS scans / etc). Действуй автономно.
+- ✅ **Резидентура ШСМ** — apply на ближайший cohort, выясни формат изнутри.
+- ✅ **Cost cap snapshot:** €10/день baseline снят на FPF/IWE corpus; если выходит за €50 — log + halt + ask.
+- ✅ **Всё остальное blockers** — игнор, action.
+
 ## §0 Constitutional posture (read first)
 
 - **Tier 2 R1.** Ты scribe + structurer + analyst. Не authoring strategy. Ruslan = sole strategist. Все выводы surface'инг, не «рекомендую X».
