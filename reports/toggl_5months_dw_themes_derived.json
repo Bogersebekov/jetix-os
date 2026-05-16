@@ -1,0 +1,73 @@
+{
+  "method": "keyword-derived from description (Dec-Apr untagged) + v1.1 tags (May only)",
+  "themes_by_month": {
+    "2025-12": {
+      "__unclassified": 18.0,
+      "Self-knowledge / Values / Notes": 25.667,
+      "Сообщество / Community / Network": 6.416,
+      "Reading (Sapiens / Homo Deus / книги)": 23.6665,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 9.334,
+      "Insights / Flow / Reflection": 3.5835
+    },
+    "2026-01": {
+      "Reading (Sapiens / Homo Deus / книги)": 25.165999999999997,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 14.333,
+      "__unclassified": 11.168,
+      "Self-knowledge / Values / Notes": 8.834999999999999,
+      "Self-OS / Система жизни": 2.583,
+      "Insights / Flow / Reflection": 1.583
+    },
+    "2026-02": {
+      "__unclassified": 3.167,
+      "Self-OS / Система жизни": 30.194500000000005,
+      "Insights / Flow / Reflection": 4.833,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 11.9455,
+      "AI tools / CC / Vibe coding / Agents": 12.195
+    },
+    "2026-03": {
+      "__unclassified": 31.666999999999994,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 23.251000000000005,
+      "Self-OS / Система жизни": 25.5835,
+      "Insights / Flow / Reflection": 7.833,
+      "AI tools / CC / Vibe coding / Agents": 13.501499999999998,
+      "Self-knowledge / Values / Notes": 1.5
+    },
+    "2026-04": {
+      "__unclassified": 44.019999999999996,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 5.0,
+      "Jetix Foundation / Wiki / Strat docs": 50.69616666666666,
+      "Insights / Flow / Reflection": 5.027666666666667,
+      "Self-knowledge / Values / Notes": 10.860666666666667,
+      "AI tools / CC / Vibe coding / Agents": 17.503,
+      "Self-OS / Система жизни": 3.583,
+      "Reading (Sapiens / Homo Deus / книги)": 2.1665,
+      "Tseren outreach (Цэрэн / Tseren)": 11.5
+    },
+    "2026-05": {
+      "__unclassified": 5.833,
+      "Insights / Flow / Reflection": 4.999666666666666,
+      "AI tools / CC / Vibe coding / Agents": 4.5835,
+      "Self-OS / Система жизни": 2.0,
+      "Jetix Foundation / Wiki / Strat docs": 10.125166666666667,
+      "Tseren outreach (Цэрэн / Tseren)": 12.3335,
+      "Workshop / Gamification": 12.000166666666667,
+      "Сообщество / Community / Network": 1.5,
+      "Mentor sessions (учитель/Августин/Антон/экономист)": 0.875,
+      "Self-knowledge / Values / Notes": 0.25
+    }
+  },
+  "total_5mo": {
+    "__unclassified": 113.85499999999999,
+    "Self-knowledge / Values / Notes": 47.11266666666667,
+    "Сообщество / Community / Network": 7.916,
+    "Reading (Sapiens / Homo Deus / книги)": 50.998999999999995,
+    "Mentor sessions (учитель/Августин/Антон/экономист)": 64.7385,
+    "Insights / Flow / Reflection": 27.859833333333338,
+    "Self-OS / Система жизни": 63.944,
+    "AI tools / CC / Vibe coding / Agents": 47.783,
+    "Jetix Foundation / Wiki / Strat docs": 60.82133333333333,
+    "Tseren outreach (Цэрэн / Tseren)": 23.8335,
+    "Workshop / Gamification": 12.000166666666667
+  },
+  "caveat": "Dec-Apr 2026 DW entries have NO Toggl tags (legacy schema); themes inferred from description keywords. May 2026 onward uses v1.1 tag schema (Tseren / Jetix-foundation / Jetix-workshop / SOZD / OBR / PODG)."
+}
