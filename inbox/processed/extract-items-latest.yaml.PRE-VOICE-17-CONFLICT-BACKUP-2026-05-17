@@ -1,0 +1,495 @@
+- target: crm
+  intent: add
+  person_name: Илон Маск
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Илон Маск — целевой участник для привлечения в premium-сообщество предпринимателей
+    высокого уровня.
+  raw_quote: Илон Маск — целевой участник для привлечения в premium-сообщество предпринимателей
+    высокого уровня.
+  _provenance: fallback_kontakty
+  _source_extraction: audio_396@09-04-2026_04-22-20.json
+- target: crm
+  intent: add
+  person_name: Дима
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Дима — упомянут в контексте общения на выходных, где был показан уверенный
+    тон коммуникации.
+  raw_quote: Дима — упомянут в контексте общения на выходных, где был показан уверенный
+    тон коммуникации.
+  _provenance: fallback_kontakty
+  _source_extraction: audio_447@14-04-2026_12-15-56.json
+- target: crm
+  intent: add
+  person_name: Миша Таковинин
+  slug: null
+  role_hint: client_lead
+  source_channel: voice_memo
+  context: Основатель, упомянут как приоритетная цель для outreach. Руслан хочет добавить
+    его в воронку, проработать оффер и выйти с контактом.
+  raw_quote: по верхнеуровневым мишу таковинина этого оскара хардмана этих основателей...
+    этих всех сюда точно
+  _source_extraction: audio_558@26-04-2026_12-30-58.json
+- target: crm
+  intent: add
+  person_name: Оскар Хардман
+  slug: null
+  role_hint: client_lead
+  source_channel: voice_memo
+  context: Основатель, упомянут вместе с Таковининым как приоритетная цель для outreach.
+    Руслан хочет добавить его в воронку и выйти с контактом.
+  raw_quote: мишу таковинина этого оскара хардмана этих основателей... этих всех сюда
+    точно
+  _source_extraction: audio_558@26-04-2026_12-30-58.json
+- target: crm
+  intent: add
+  person_name: Алан Тропик
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Упомянут в контексте видения AI-корпорации как фигура, которую Руслан хотел
+    бы видеть в роли ответственного за брендинг.
+  raw_quote: алан тропик надо это это потом дальше брендинг
+  _source_extraction: audio_560@26-04-2026_13-55-46.json
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Упомянут как потенциальная фигура для роли офиса и бренда в рамках видения
+    построения AI-корпорации.
+  raw_quote: федорев добрый вечер давайте идите прочую бренд делайте офис и давайте
+    офис
+  _source_extraction: audio_560@26-04-2026_13-55-46.json
+- target: crm
+  intent: add
+  person_name: Церин
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: 'Ключевой потенциальный партнёр. Нужно проанализировать его профиль, сделать
+    персонализированное предложение и видео. Планируется обсуждение условий: менторство,
+    наблюдение за системой Jetix, вклад в стратегическое видение.'
+  raw_quote: проанализировать этого Церина, сделать ему персонализированное предложение
+    и видео в целом посмотреть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Левенчук
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Один из трёх ключевых людей для партнёрства и стратегического обсуждения
+    Jetix. Планируются плотные созвоны для фиксации условий сотрудничества.
+  raw_quote: мне надо вот это он плюс левенчук и плюс танки то еще основные люди которые
+    там есть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Танки
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут в связке с Цериным и Левенчуком как один из трёх ключевых людей
+    для обсуждения партнёрства и стратегии развития Jetix.
+  raw_quote: мне надо вот это он плюс левенчук и плюс танки то еще основные люди которые
+    там есть
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Олег (или Виктор)
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Человек, продающий курсы по бизнес-мышлению, связан с Новой Почтой. Точное
+    имя не установлено — Олег или Виктор. Потенциально интересный партнёр на следующем
+    этапе.
+  raw_quote: этого олег олег как его как-то олег блять или виктор который продает
+    курсы по бизнес мышлению вот это его тоже я добавил бы
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Потенциальный партнёр для направления брендинга в будущей команде Jetix.
+    Упомянут в контексте разделения команды по направлениям.
+  raw_quote: а еще этого федорева тоже я бы сюда подключил одни блять на брендинг
+  _source_extraction: audio_573@28-04-2026_18-00-57.json
+- target: crm
+  intent: touch
+  person_name: Царин Цариновым
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Активный созвон по обсуждению системы, развития Jetix и инфраструктуры.
+    Наработки Царина и МИМ интегрируются в концепцию позиционирования. Планируется
+    совместная работа как партнёров.
+  raw_quote: сейчас созваниваюсь с этим царином цариновым да вот с ним еще все обсуждаю
+    вот как раз с ним да в эту всю систему плюс дальнейшее развитие
+  _source_extraction: audio_582@30-04-2026_18-12-09.json
+- target: crm
+  intent: add
+  person_name: МИМ
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Организация, чьи наработки используются совместно с Цариным при создании
+    концепции Jetix. Упоминается как партнёрский ресурс для усиления позиционирования.
+  raw_quote: опираясь на еще наработки Церина и вот этой МИМ, и в целом то, что они
+    как бы со мной работают
+  _source_extraction: audio_582@30-04-2026_18-12-09.json
+- target: crm
+  intent: add
+  person_name: Царин
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Руслан планирует объяснить позиционирование Jetix и предложение о совместной
+    работе. Упомянут рядом с Анатолием Левенчуком как ключевой собеседник.
+  raw_quote: вот этому царину и анатолию левенчуку да и все они все поймут
+  _source_extraction: audio_615@11-05-2026_21-40-50.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Упомянут как человек, которому Руслан хочет донести позиционирование Jetix
+    — видение + совместная работа + ресурсы.
+  raw_quote: вот этому царину и анатолию левенчуку да и все они все поймут и в целом
+    должно но заработать хорошо
+  _source_extraction: audio_615@11-05-2026_21-40-50.json
+- target: crm
+  intent: add
+=======
+  context: Руслан планирует объяснить Царину позиционирование Jetix — оффер совместной
+    работы с ресурсами, а не просьбу о работе.
+  raw_quote: вот всю эту ситуацию адекватно пояснить вот этому царину и анатолию левенчуку
+    да и все они все поймут
+  _source_extraction: audio_602@06-05-2026_05-19-22.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: anatoly-levenchuk
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Руслан планирует питч позиционирования Jetix Левенчуку. Вероятно, известный
+    специалист по системному мышлению — потенциальный ментор или партнёр.
+  raw_quote: вот всю эту ситуацию адекватно пояснить вот этому царину и анатолию левенчуку
+    да и все они все поймут и в целом должно но заработать хорошо
+  _source_extraction: audio_602@06-05-2026_05-19-22.json
+- target: crm
+  intent: touch
+>>>>>>> Stashed changes
+  person_name: Церин
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Планируется серия глубоких созвонов для совместной проработки позиционирования
+    Jetix, создания фундаментальных документов и системного описания 'кто я'. Записывать
+    каждый созвон.
+  raw_quote: Особенно это все уже надо с Церином и с Анатолием как-то обсуждать. очень
+    глубоко короче качественно
+  _source_extraction: audio_617@11-05-2026_21-41-03.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Связан с мастерской менеджеров, системный подход к управлению. Планируется
+    обсуждение позиционирования, входов/выходов системы Jetix, воронки и рекламы для
+    мастерской. Нужно узнать про их текущую систему.
+  raw_quote: царину и этому анатолию левенчуку ну и получается это мастерской тоже
+    для начала надо будет еще про ну узнать как у них там с этой блять с системой
+  _source_extraction: audio_617@11-05-2026_21-41-03.json
+=======
+  context: Запланированы глубокие обсуждения позиционирования Jetix и создание фундаментальных
+    документов. Планируется записывать каждый созвон. Ключевой человек для проработки
+    стратегии и позиционирования.
+  raw_quote: особенно это все уже надо с Церином и с Анатолием как-то обсуждать. очень
+    глубоко короче качественно
+  _source_extraction: audio_604@07-05-2026_02-54-25.json
+- target: crm
+  intent: touch
+  person_name: Анатолий Левенчук
+  slug: anatoly-levenchuk
+  role_hint: mentor
+  source_channel: voice_memo
+  context: Системный мыслитель. Упомянут для совместного обсуждения позиционирования
+    Jetix и Мастерской менеджеров, создания фундаментальных документов с записью созвонов.
+  raw_quote: соответственно вот царину и этому анатолию левенчуку ну и получается
+    это мастерской тоже для начала надо будет еще про ну узнать как у них там с этой
+    блять с системой
+  _source_extraction: audio_604@07-05-2026_02-54-25.json
+>>>>>>> Stashed changes
+- target: crm
+  intent: touch
+  person_name: Церен
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Церен упоминается как партнёрский контакт под одну из ключевых ролей Jetix.
+    Планируется сделать видео с диаграммами для объяснения концепции. Рассматривается
+    как кандидат для партнёрства.
+  raw_quote: Вот как раз уже с Цереном, да. Как одна из таких ролей, для которой мне
+    ну, снова-таки надо, да, с человеком партнериться. Это надо будет сейчас вот Церину
+    в видео сделать.
+  _source_extraction: audio_629@11-05-2026_21-41-29.json
+=======
+  context: Упомянут как один из первых кандидатов на партнёрскую роль для тестирования
+    ролевого outreach. Руслан планирует сделать для него видео-презентацию Jetix с
+    диаграммами.
+  raw_quote: Вот как раз уже с Цереном, да, как одна из таких ролей, для которой мне
+    ну, снова-таки надо, да, с человеком партнериться... это надо будет сейчас вот
+    Церину в видео сделать
+  _source_extraction: audio_616@08-05-2026_02-36-30.json
+- target: crm
+  intent: touch
+  person_name: Кран
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Руслан выражает уважение человеку с никнеймом 'Кран' после совместной сессии
+    или взаимодействия. Сессия дала хорошие результаты — Руслан доволен, настроение
+    позитивное.
+  raw_quote: реально он задумался ну крану просто респект ну конечно посмотрим результат
+  _source_extraction: audio_619@08-05-2026_05-31-57.json
+>>>>>>> Stashed changes
+- target: crm
+  intent: add
+  person_name: Чувакатов
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Упомянут как потенциальный участник OnlyFans-направления Jetix — ранее
+    искал шаблоны в TikTok, рассматривается как исполнитель или партнёр.
+  raw_quote: Чувакатову подтягиваем, который, блядь, в ТикТоке шаблоны искал.
+  _source_extraction: audio_638@11-05-2026_21-41-44.json
+=======
+  context: Упоминается как человек, который искал шаблоны в TikTok. Руслан хочет привлечь
+    его к потенциальному OnlyFans/контент-автоматизация направлению.
+  raw_quote: Чувакатову подтягиваем, который, блядь, в ТикТоке шаблоны искал.
+  _source_extraction: audio_625@09-05-2026_03-26-55.json
+>>>>>>> Stashed changes
+- target: crm
+  intent: add
+  person_name: Оскар
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Упомянут как один из топ-стратегов для привлечения в Jetix через мастерскую
+    менеджеров. Руслан хочет собрать его в стратегический круглый стол.
+  raw_quote: вот эта мастерская менеджеров, Оскар, получается, кто там, Федорев, ну,
+    короче, всех, до кого могут дотянуться
+  _source_extraction: audio_642@11-05-2026_21-41-52.json
+=======
+  context: Упомянут как один из лучших людей для стратегического управления в команде
+    Jetix. Руслан хочет привлечь его в стратегический совет компании (мастерская менеджеров).
+  raw_quote: вот как раз там, да, вот эта мастерская менеджеров, Оскар, получается,
+    кто там, Федорев, ну, короче, всех, до кого могут дотянуться
+  _source_extraction: audio_629@09-05-2026_05-31-16.json
+>>>>>>> Stashed changes
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Упомянут как потенциальный топ-стратег для команды Jetix, связан с мастерской
+    менеджеров.
+  raw_quote: вот эта мастерская менеджеров, Оскар, получается, кто там, Федорев, ну,
+    короче, всех, до кого могут дотянуться
+  _source_extraction: audio_642@11-05-2026_21-41-52.json
+- target: crm
+  intent: add
+  person_name: Олег
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Олег из Траблшутеров — потенциальный топ-стратег для стратегической команды
+    Jetix.
+  raw_quote: мне кажется, для Олега, Олег, вот тоже, который Траблшутеры
+  _source_extraction: audio_642@11-05-2026_21-41-52.json
+=======
+  context: Потенциальный участник стратегического совета Jetix. Упомянут в связке
+    с Оскаром как один из лучших людей для стратегического управления.
+  raw_quote: вот эта мастерская менеджеров, Оскар, получается, кто там, Федорев, ну,
+    короче, всех, до кого могут дотянуться
+  _source_extraction: audio_629@09-05-2026_05-31-16.json
+- target: crm
+  intent: add
+  person_name: Олег (Траблшутеры)
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Олег из Траблшутеров — потенциальный стратег для Jetix, упомянут в одном
+    ряду с Оскаром и Федоревым как кандидат в стратегический совет.
+  raw_quote: для Олега, Олег, вот тоже, который Траблшутеры
+  _source_extraction: audio_629@09-05-2026_05-31-16.json
+>>>>>>> Stashed changes
+- target: crm
+  intent: add
+  person_name: Церин
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Упомянут как важный контакт — результаты предстоящего разговора с ним определяют
+    следующие шаги Руслана.
+  raw_quote: уже будем отталкиваться от результатов разговора с Церином
+  _source_extraction: audio_642@11-05-2026_21-41-52.json
+- target: crm
+  intent: add
+=======
+  context: Ключевой разговор с Цериным предстоит. Руслан планирует отталкиваться от
+    его результатов для определения следующих шагов по Jetix.
+  raw_quote: уже будем отталкиваться от от результатов разговора с Церином. Вот. Тоже
+    желательно побыстрее это все сделать.
+  _source_extraction: audio_629@09-05-2026_05-31-16.json
+- target: crm
+  intent: touch
+>>>>>>> Stashed changes
+  person_name: Церин
+  slug: null
+  role_hint: client_lead
+  source_channel: voice_memo
+<<<<<<< Updated upstream
+  context: Руслан готовит для Церина проработанное предложение/презентацию — описание
+    что предлагает и чем занимается. Связан с 'мастерской менеджеров'.
+  raw_quote: делаю очень пиздатая предложение церину тоже вот презентацию сейчас все
+    продумываю
+  _source_extraction: audio_646@11-05-2026_21-41-58.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: null
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Планируется стратегическая сессия (~2 часа) по монетизации Jetix. Руслан
+    хочет представить наработки и идеи, получить обратную связь и совместно выстроить
+    стратегию заработка.
+  raw_quote: настроить стратегию по заработку денег и в целом вот по монетизации вот
+    уже с царем и анатолием левенчуком вот это в первую очередь
+  _source_extraction: audio_647@13-05-2026_02-11-45.json
+- target: crm
+  intent: add
+  person_name: Царь
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут рядом с Анатолием Левенчуком как ключевой человек для настройки
+    стратегии монетизации. Скорее всего ментор или партнёр (никнейм).
+  raw_quote: настроить стратегию по заработку денег и в целом вот по монетизации вот
+    уже с царем и анатолием левенчуком
+  _source_extraction: audio_647@13-05-2026_02-11-45.json
+- target: crm
+  intent: add
+  person_name: Церин
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут как человек, с которым нужно совместно проработать майнсет на
+    глобальный масштаб Jetix. Имя, возможно, неполное.
+  raw_quote: И с Майнсетом еще тоже надо будет очень сильно поработать. И с моим,
+    и вот с Церина, и Анатолия Левенчука.
+  _source_extraction: audio_648@13-05-2026_02-17-18.json
+- target: crm
+  intent: add
+  person_name: Анатолий Левенчук
+  slug: anatoliy-levenchuk
+  role_hint: advisor
+  source_channel: voice_memo
+  context: Упомянут в контексте совместной работы над майнсетом и настройки на глобальный
+    масштаб; вероятно, известный в РФ специалист по системному мышлению и инженерии.
+  raw_quote: И с Майнсетом еще тоже надо будет очень сильно поработать. И с моим,
+    и вот с Церина, и Анатолия Левенчука.
+  _source_extraction: audio_648@13-05-2026_02-17-18.json
+- target: crm
+  intent: add
+  person_name: Царин
+  slug: null
+  role_hint: interesting
+  source_channel: voice_memo
+  context: Автор поста с аналогией 'системный подход как привычка мыть руки' — Руслан
+    цитирует эту идею как ключевой фрейм для позиционирования Jetix.
+  raw_quote: вот привычкой культурой как в постах царина было о том что вот это вот
+    системный подход это как привычка мыть руки реально крутое сравнение
+  _source_extraction: audio_649@13-05-2026_02-30-00.json
+- target: crm
+  intent: add
+  person_name: Дима
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Первый потенциальный партнёр Jetix. Экспертиза в области настроения, самочувствия
+    и веры в себя. Руслан планирует упаковать его как коллаборацию под брендом Jetix
+    и совместно аутричить аудиторию.
+  raw_quote: одни из первых партнеров клиентов, это уже вот Диму, как мега охуенного
+    помощника по наркоте сделать и упаковать, плюс еще этот, по поднятию вот охуенного
+    настроения, самочувствия и так далее, вере в себя... это его вместе да это же
+    как часть jetix это оформить
+  _source_extraction: audio_650@11-05-2026_21-42-02.json
+- target: crm
+  intent: add
+  person_name: Дмитрий
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут как один из ~10 ключевых людей для закрытой проработки фундамента
+    Jetix перед публичным запуском.
+  raw_quote: гуманитарщина дмитрий потом федорев влог оскар олег который troubleshooter
+    и мастерская инженеров менеджеров
+  _source_extraction: audio_656@11-05-2026_21-42-12.json
+- target: crm
+  intent: add
+  person_name: Федорев
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Ведёт влог. Упомянут как один из ~10 ключевых людей для закрытой проработки
+    фундамента Jetix перед запуском.
+  raw_quote: федорев влог оскар олег который troubleshooter и мастерская инженеров
+    менеджеров
+  _source_extraction: audio_656@11-05-2026_21-42-12.json
+- target: crm
+  intent: add
+  person_name: Оскар
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Упомянут как один из ~10 ключевых людей для закрытой проработки фундамента
+    Jetix перед публичным запуском.
+  raw_quote: гуманитарщина дмитрий потом федорев влог оскар олег который troubleshooter
+    и мастерская инженеров менеджеров
+  _source_extraction: audio_656@11-05-2026_21-42-12.json
+- target: crm
+  intent: add
+  person_name: Олег
+  slug: null
+  role_hint: partner_prospect
+  source_channel: voice_memo
+  context: Troubleshooter, связан с мастерской инженеров-менеджеров. Один из ~10 ключевых
+    людей для закрытой проработки фундамента Jetix.
+  raw_quote: олег который troubleshooter и мастерская инженеров менеджеров
+  _source_extraction: audio_656@11-05-2026_21-42-12.json
+=======
+  context: Руслан активно готовит развёрнутое предложение Церину — собирает идеи из
+    заметок, оформляет концепцию 'мировые рекорды', планирует записать видео-презентацию.
+    Связан с 'Мастерской менеджеров'.
+  raw_quote: делаю очень пиздатая предложение церину тоже вот презентацию сейчас все
+    продумываю
+  _source_extraction: audio_633@10-05-2026_03-53-44.json
+>>>>>>> Stashed changes

@@ -1,0 +1,27 @@
+{
+  "source": "audio_615@07-05-2026_20-20-48.txt",
+  "processed_at": "2026-05-10T03:46:44",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Важная деятельность — это та, в которой человек видит смысл. Важное и осмысленное тесно связаны, хотя это не обязательно одно и то же.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Принципы",
+      "content": "Заниматься важным = заниматься тем, что несёт смысл. Важность без смысла — пустая активность.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ]
+}

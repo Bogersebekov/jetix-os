@@ -1,0 +1,27 @@
+{
+  "source": "audio_626@09-05-2026_03-29-47.txt",
+  "processed_at": "2026-05-10T03:56:43",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Личные наблюдения",
+      "content": "Бокс и физические нагрузки поддерживают «звериное состояние» и положительно влияют на нервную систему; важно ощущать тело хорошо и при этом работать в полную силу.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Принципы",
+      "content": "Спорт (бокс, единоборства) — обязательно на регулярной основе, без исключений.",
+      "priority": "medium",
+      "project": null,
+      "actionable": true,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ]
+}

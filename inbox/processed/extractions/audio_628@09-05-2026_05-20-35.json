@@ -1,0 +1,87 @@
+{
+  "source": "audio_628@09-05-2026_05-20-35.txt",
+  "processed_at": "2026-05-10T03:58:33",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix строит лучшую 'мастерскую' мира: инженеры приходят не за высокой зарплатой, а за доступом к инструментам и условиям — инструменты сами по себе и есть компенсация.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Видение",
+      "content": "Jetix притягивает лучших инженеров, деятелей и авантюристов со всего мира для совместного построения чего-то глобального и масштабного.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Альтернативная модель найма: зарплаты ниже рынка, но инструменты настолько крутые что это с лихвой компенсируется — ключевой дифференциатор Jetix от корпораций в борьбе за таланты.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Задачи",
+      "content": "Собрать 'лист философии' Jetix заново — документ о смысле, ценностях и общем направлении компании.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Задачи",
+      "content": "Сформулировать и донести смысл и ценности до всей команды — держать в фокусе ежедневно, не давать теряться.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Инсайты",
+      "content": "Смысл и цель легко теряются без постоянного напоминания — нужна система ежедневного возврата к нему, иначе он 'выпадает из зубов'.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Принципы",
+      "content": "Смысл держим 'в зубах' ежедневно: каждый в команде помнит общее направление и свою роль — развиваться, строить что-то глобальное, дисциплина.",
+      "priority": "high",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Роль Руслана — сформулировать и запустить ключевую идею; дальше она должна течь и развиваться глубоко и качественно самостоятельно командой.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ]
+}

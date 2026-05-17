@@ -1,0 +1,77 @@
+{
+  "source": "audio_596@02-05-2026_05-01-23.txt",
+  "processed_at": "2026-05-10T03:31:35",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix должен создавать клиентам настолько масштабную выгоду, что без него становится неудобно и не хочется работать иначе — органический lock-in через ценность, а не через принуждение.",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Принципы",
+      "content": "Jetix не заставляет клиентов оставаться — но делает так, чтобы у них не было причин уходить: ценность превышает любую альтернативу. Не lock-in, а зависимость от качества.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "now",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Если Jetix даёт клиентам не просто инструменты, но и идеи, инсайты, гипотезы и ресурсы для их развития — клиент становится заинтересован в росте Jetix, а не просто потребляет услугу.",
+      "priority": "high",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Разработать систему вознаграждения или бонусов для клиентов, заинтересованных в росте Jetix: партнёрские бонусы, co-investor схема или реферальная программа.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "«Life on limited» — эксклюзивный формат подписки на Jetix с ограниченным числом мест и особыми условиями доступа.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи",
+      "content": "Jetix как клуб и партнёрство, а не просто сервис: клиент — член клуба с привилегиями и stake в развитии Jetix.",
+      "priority": "medium",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Задачи",
+      "content": "Зафиксировать в документе структуры партнёрства три уровня ценности для клиента: масштабная выгода → эмоциональная привязанность (не хочется без) → заинтересованность в росте Jetix.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ]
+}

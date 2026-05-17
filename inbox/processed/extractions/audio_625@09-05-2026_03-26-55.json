@@ -1,0 +1,79 @@
+{
+  "source": "audio_625@09-05-2026_03-26-55.txt",
+  "processed_at": "2026-05-10T03:56:23",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Идеи для проектов",
+      "content": "OnlyFans-направление как отдельный бизнес под Jetix: нанять 20-30 моделей, автоматизировать производство контента, персонализировать видео через AI, поставить команду. Позиционируется как «море бабла» при системном подходе.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Задачи",
+      "content": "Изучить механику OnlyFans: как работает платформа, лучшие способы монетизации, потолок заработка, кейсы. Собрать всё в ресёрч.",
+      "priority": "low",
+      "project": "Ресёрч",
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Задачи",
+      "content": "Подтянуть Чувакатова к проекту — он занимался поиском шаблонов в TikTok, потенциально полезен для контент-автоматизации.",
+      "priority": "low",
+      "project": null,
+      "actionable": true,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи",
+      "content": "Персонализация видеоконтента через AI как конкурентное преимущество в контент-бизнесе (OnlyFans и аналоги) — все подходы адаптируются под зрителя автоматически.",
+      "priority": "low",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "OnlyFans + AI-автоматизация + системный подход = несправедливое преимущество, потому что текущие игроки в нише не используют системного мышления и инструментов. Гипотеза требует валидации через ресёрч.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Контакты",
+      "content": "Чувакатов — занимался поиском шаблонов в TikTok, упоминается как потенциальный участник в контент-направлении.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ],
+  "crm_items": [
+    {
+      "target": "crm",
+      "intent": "add",
+      "person_name": "Чувакатов",
+      "slug": null,
+      "role_hint": "partner_prospect",
+      "source_channel": "voice_memo",
+      "context": "Упоминается как человек, который искал шаблоны в TikTok. Руслан хочет привлечь его к потенциальному OnlyFans/контент-автоматизация направлению.",
+      "raw_quote": "Чувакатову подтягиваем, который, блядь, в ТикТоке шаблоны искал."
+    }
+  ]
+}

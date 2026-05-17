@@ -37,6 +37,12 @@ status: active
 | 3 | [03-l0-l5-ladder.md](03-l0-l5-ladder.md) | 🪜 L0-L5 Land-and-Expand ladder (от €3K diagnostic → asset management) | TRM §5 + 1B §3 |
 | 4 | [04-collaboration-triangle.md](04-collaboration-triangle.md) | ⚭ Synergy: Ruslan + Цэрэн + ШСМ (Левенчук) → Mittelstand | 1B §10 Roadmap |
 
+### Verification artifacts (out-of-sequence, не часть палитры для Цэрэна)
+
+| File | Purpose | Created |
+|------|---------|---------|
+| [99-test-flow.md](99-test-flow.md) | Smoke-test of `/mermaid-create` skill — info flow projection BASE-MANAGEMENT-SYSTEM (chaos → filter → workshop → KB ↔ action) | 2026-05-07 |
+
 ---
 
 ## 🔄 Workflow

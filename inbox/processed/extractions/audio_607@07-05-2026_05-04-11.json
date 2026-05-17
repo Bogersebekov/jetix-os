@@ -1,0 +1,77 @@
+{
+  "source": "audio_607@07-05-2026_05-04-11.txt",
+  "processed_at": "2026-05-10T03:41:44",
+  "model": "claude-sonnet-4-6",
+  "items": [
+    {
+      "category": "Видение",
+      "content": "Jetix становится технологическим партнёром Guinness World Records мирового уровня: сначала консалтинг, затем внедрение AI-систем в центры обработки входящих заявок и трекинга рекордов. «Мы туда идём — и не на миллиметр ниже».",
+      "priority": "high",
+      "project": "Бренд",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Стратегические гипотезы",
+      "content": "Guinness World Records — потенциальный enterprise-клиент Jetix: гипотеза, что организация такого масштаба будет заказывать AI-консалтинг и затем внедрять пайплайны Jetix в свою операционную инфраструктуру.",
+      "priority": "medium",
+      "project": "Быстрые деньги",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Создать крупнейшую качественную базу знаний держателей рекордов Гиннесса (100+ человек) через Karpathy LLM-подход — структурированные знания, пригодные для использования и анализа.",
+      "priority": "low",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Расширить базу знаний: добавить 100 умнейших людей — их интервью, базы знаний и «базы мудрости» — как второй слой поверх базы рекордсменов Гиннесса.",
+      "priority": "low",
+      "project": "Ресёрч",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи для проектов",
+      "content": "Автоматизированная AI-система для Guinness World Records: обработка входящих заявок на рекорды и трекинг статусов — готовый AI-продукт от Jetix как B2B-решение.",
+      "priority": "medium",
+      "project": "AI-инструменты",
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Идеи",
+      "content": "Таблица с тысячей разных гипотез как инструмент систематического анализа — постепенно верифицировать и убирать, автоматизировать процесс со временем.",
+      "priority": "low",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    },
+    {
+      "category": "Личные наблюдения",
+      "content": "Высокая эмоциональная энергия и чёткая декларация масштаба амбиций — состояние ясности направления и уверенности: «мы туда идём, и не на миллиметр ниже». Фиксация как точка опоры.",
+      "priority": "medium",
+      "project": null,
+      "actionable": false,
+      "horizon": "backlog",
+      "delegate": null,
+      "date": "2026-05-10"
+    }
+  ]
+}
