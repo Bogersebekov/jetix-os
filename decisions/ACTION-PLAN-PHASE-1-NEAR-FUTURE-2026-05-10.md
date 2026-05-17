@@ -1006,3 +1006,21 @@ flowchart LR
 > Ruslan = sole strategist (picks paths из D.1-D.5; triggers / postpones actions per Tier ladder).
 > Foundation Model framing contained per Insight §5 constraint. Constitutional posture verified.
 > Awaiting Ruslan ack или iterate.
+
+---
+
+## APPEND 2026-05-17 — Phase namespace clarification
+
+Per `decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md` LOCK (Ruslan ack §0.7):
+
+«Phase 1» в этом document = `Commercial-Phase-1` per LOCK 2026-05-17.
+
+- `Commercial-Phase-1` = commercial near-future May 2026; $100K target; Mittelstand / Online-first ICP
+- `Commercial-Phase-2` = post-$100K milestone (revenue + audience build)
+- `Commercial-Phase-3` = scale operations $1M+
+
+Distinct from `Workshop-Phase-N` (workshop maturity) / `Agent-Deploy-Phase-N` (DEPRECATED CLAUDE.md roster) / `Swarm-Phase-A/B/C` (ROY operational).
+
+Bare «Phase 1» references выше preserved per append-only — historic; new commits use prefix.
+
+[src: decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md §2]

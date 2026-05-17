@@ -271,3 +271,20 @@ Jetix даёт **view** на:
 3. ➡️ V3-V7 в visuals писать в active workshop language (motion / craft / production)
 4. ➡️ Tseren outreach video — раздел 3 «3 уровня системы» обновить с workshop frame
 5. ➡️ Memory обновлено — все будущие сессии Cloud Cowork знают concept
+
+---
+
+## §13 APPEND 2026-05-17 — Phase namespace clarification (PHASE-NAMESPACE-CONVENTION-2026-05-17 LOCK)
+
+Per `decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md` LOCK (Ruslan ack §0.7):
+
+References к «Phase N» в этом document scope to **Workshop maturity ladder** — use prefix form `Workshop-Phase-N`:
+- `Workshop-Phase-1` = «мастерская одного владельца» (solo)
+- `Workshop-Phase-2` = «команда»
+- `Workshop-Phase-3` = «multi-instance / meta-workshop»
+
+Bare «Phase 1» / «Phase 2» в text сверху preserved per append-only — historic; new sections use prefix.
+
+Distinct from `Commercial-Phase-N` (revenue milestones, ACTION-PLAN) / `Agent-Deploy-Phase-N` (DEPRECATED CLAUDE.md roster) / `Swarm-Phase-A/B/C` (ROY operational).
+
+[src: decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md §2]
