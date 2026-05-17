@@ -57,6 +57,36 @@ Plus Evolution sub-block per FPF §3.5.
 - expected-evolution:
   - cycle_10: Check for same pattern in Doc 04 (Corporation) and Doc 07 (E2E Overview) where Foundation-as-design vs cycles-as-runtime is described. If catches ≥2 instances, add to §3.1 Conformance Checklist as check #9.
 
+### 2026-05-17 — FPF A.1.1 BC-2: U.BoundedContext containment is a spec violation
+
+1. **Decision:** When a doc models a U.System supersystem as compositionally containing U.BoundedContext instances (workshop BoundedContexts inside a platform U.System), flag it as FPF A.1.1 BC-2 (Flat Context Map) violation. Correct modeling: (a) workshops = U.System sub-holons inside a platform U.System (valid A.1 holarchic composition), each with an *associated* U.BoundedContext that is peer-level to the Platform context via explicit Bridges — OR (b) platform and each workshop = peer U.BoundedContexts connected only by Bridges (BC-5). Never model BoundedContext-inside-BoundedContext or U.System-compositionally-containing-BoundedContext.
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; Doc 05 (Platform) §4 FPF formal version declared `composition: set_of(WorkshopBoundedContext_N)` with workshops typed as U.BoundedContext (A.1.1). FPF A.1.1:4.3 BC-2 explicit: "No U.BoundedContext is modeled as inheriting from, containing, or being contained by another U.BoundedContext." A.1.1:4.3 also states contexts have no is-a or containment relations; cross-context relationships via Bridges only. The Mermaid diagram's subgraph nesting reinforced the violation visually. [src: FPF-Spec.md lines 1375, 1385, 1419]
+3. **Result:** FAIL-1 blocking correction raised. Fix options: R-1A (workshops as U.System sub-holons + peer BoundedContexts via Bridges) or R-1B (all as peer BoundedContexts via Bridges). Effort: medium.
+4. **Review:** partial — fix not yet applied; pending revision cycle. Validate when revised Doc 05 draft reviewed.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-platform-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check Doc 06 (Clean Internet Layer) and Doc 07 (E2E Overview) for same U.BoundedContext containment pattern. If fires ≥2 more times, promote to §3.1 Conformance Checklist as check #9.
+  - cycle_50: If OQ-4 (Workshop = BoundedContext vs brand-layer) resolves, update this rule with canonical Ruslan decision as the normative reference.
+
+### 2026-05-17 — FPF A.3.1: U.Method is enacted, not hosted; run-time instance is U.Work
+
+1. **Decision:** When a doc uses "hosting" as the relationship between a platform U.System and U.Methods from participating workshops, flag it as FPF A.3.1 misuse. FPF A.3.1:4.1 defines U.Method as an abstract transformation type that is **enacted** by a U.System bearing a TransformerRole to produce U.Work. A platform provides the substrate enabling enactment, not a "hosting" container. Additionally, the run-time occurrence of a method is U.Work (dated, spatiotemporally bounded enactment), not a "method occurrence" — that conflates design-time (U.Method) with run-time (U.Work).
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; Doc 05 (Platform) §2.1 and §4 used "platform_role: infrastructure_for_method_occurrence" and "Method hosting (A.3.1)". FPF A.3.1:4.1: "U.Method is described by U.MethodDescription and enacted by a U.System bearing a TransformerRole to produce U.Work." FPF A.3.1:4.7: "U.Method is local to a U.BoundedContext." No FPF primitive called "hosting" or "method occurrence" exists. The enactment chain is the canonical pattern: TransformerRole → enacts → U.Method (via MethodDescription) → produces → U.Work. [src: FPF-Spec.md lines 5833-5837, 5900]
+3. **Result:** FAIL-2 blocking correction raised. Fix = replace "hosting" framing with "enactment substrate" + replace "method occurrence" with "U.Work instances." Effort: small.
+4. **Review:** partial — fix not yet applied; pending revision cycle. Validate when revised Doc 05 draft reviewed.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-platform-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check Doc 02 (Methodology) for same Method/MethodDescription/Work conflation pattern. If fires ≥2 more times, add to §3.1 Conformance Checklist as check #9.
+  - cycle_50: If method-hosting language persists in L1-audience docs for pedagogical reasons, consider creating an approved "simplified FPF" glossary note that maps platform-as-enactment-substrate to "hosting" with explicit caveat.
+
 ### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — interface-card batch dispatch + A.14 typed-edge architectural decisions
 
 1. **Decision**: For Phase A-2 interface card authoring, accept 3-4 cards per single dispatch (vs 1 card = 1 dispatch). Total 10 cards in 3 dispatches (Parts 1-3 / 4-6 / 7-10). Each card §A-§H with A.14 typed dependency edges (NO generic "depends-on") + L/A/D/E lanes per FPF A.6.B + F-G-R per B.3.

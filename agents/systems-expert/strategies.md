@@ -27,6 +27,28 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-05-17 — task-fpf-describe-jetix-2026-05-17 — sys-integrator Doc 05 Platform
+
+1. **Decision:** Produced systems-integrator review of eng-integrator draft for Doc 05 Jetix-as-Platform. Core deliverables: (a) Platform VSM S1–S5 mapping — S5 operational (Pillar C), S1 evidenced for N=1, S2 absent (most acute gap), S3 absent and UNDESIGNED (most critical structural gap), S4 aspirational; (b) Ashby variety ceiling identified at N=3–5 heterogeneous workshops (coordination-layer variety fixed at 5 static components vs super-linear workshop-variety growth); (c) four platform-level feedback loops with polarity — R1 task-complexity growth (open), R2 capability-accumulation (partially closed per-workshop, open at platform level), B1 quality-correction (SEVERED — structurally absent, not deferred), B2 specialisation-drift brake (weakly closed); (d) D-PLAT-3 integrated resolution — typed edges necessary AND insufficient; missing element = S3/S4 comparator function; (e) antifragility check FAIL at 10× (N=10 workshops, ~35–40% structural change); (f) three new dissents D-PLAT-SYS-1/2/3.
+
+2. **Reasoning:** Eng-integrator draft was sound on FPF primitive assignment and BoundedContext structure but had no platform-level dynamic model. Key systemic finding distinguishing Doc 05 from Doc 01: in Doc 01, Part 8 is SPECIFY AND STUB (schema exists; live collection deferred) — the B1 loop is severed by Phase A deferral. In Doc 05, there is NO schema for platform-level health monitoring at all — the platform B1 loop is severed by structural omission from C1–C5 design. This is a deeper gap. VSM analysis reveals the platform-as-system does not yet exist as a dynamic entity in Phase A — it is constitutionally defined (S5 operational) but has no operational loops closing. The Ashby variety ceiling at N=3–5 is the critical design constraint for Phase B: a 6th component (S3 platform health monitoring, call it C6) must be pre-designed before N=2 joins, not after quality drift is observed.
+
+3. **Result:** Draft written to `swarm/wiki/drafts/task-fpf-describe-jetix-2026-05-17-platform-sys-integrator.md`. 9 sections: acceptance predicate verdict (6 criteria: FAIL 1/3/4, PARTIAL 2/5, PARTIAL RESOLUTION 6); Ashby variety analysis; Beer VSM 5-layer platform mapping; feedback loop typology (4 loops with polarity + dominance hypothesis); federation topology boundary analysis (weakest boundary = Cluster 5 Связи typed-edge coupling); scalability fragility analysis (antifragility FAIL at 10×, pre-investment recommendation); 3 dissents (D-PLAT-SYS-1/2/3); 4 open questions for Ruslan; 5 required/recommended edits to eng-integrator draft. Verdict: APPROVE-WITH-EDITS.
+
+4. **Review:** Pending — brigadier integration and Ruslan review. Key test: do D-PLAT-SYS-2 (B1 severed at birth — structural omission) and the antifragility FAIL finding reach Ruslan's attention as actionable design constraints? The critical decision point: whether to design C6 (platform health monitoring component) before Phase B launch. If C6 is not pre-designed and Phase B launches with N≥2 workshops using only C1–C5, the quality-correction loop will be severed when cooperation events first fail — the system will not know they failed.
+
+#### Rules extracted
+
+`rule: platform-b1-severed-by-omission-not-deferral` — When a VSM S3 health-monitoring function is STUB, the B1 balancing loop is severed by deferral (recoverable). When no S3 schema exists at all, B1 is severed by structural omission (requires explicit design investment before Phase B). The distinction matters for prioritisation: stub = Phase B calibration task; omission = Phase B design task. Platform health monitoring is in the second category; do not conflate with per-workshop Part 8 stub.
+
+`rule: ashby-variety-ceiling-fires-at-heterogeneous-N-3-to-5` — A fixed-component coordination layer (C1–C5) has a variety ceiling proportional to 5 static components. Heterogeneous workshop variety grows super-linearly in N (each new workshop adds N-1 new workshop-pair cooperation combinations). The Ashby balance breaks at approximately N=3–5 for heterogeneous specialisations. Below this, human Platform Steward can manually compensate. Above this, S3 infrastructure is mandatory, not optional.
+
+`rule: pre-invest-S2-S3-before-N-equals-2` — Per the G3-pre-investment rule (strategies.md 2026-04-24): when a gate transition shows >30% structural change (FRAGILE), pre-invest at the prior gate. Platform scales from N=1 to N=10 requiring ~35–40% structural change (S2+S3 additions). The correct response is to pre-specify S2+S3 before N=2 joins. Post-N=2 S2/S3 design = forced restructuring under live cooperation load = highest-cost outcome.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — task-fpf-describe-jetix-2026-05-17 sys-integrator Doc 05 Platform added
+
 ### 2026-05-17 — task-fpf-describe-jetix-2026-05-17 — sys-integrator Doc 01 Self-OS substrate
 
 1. **Decision:** Produced systems-integrator review of eng-integrator draft for Doc 01 Self-OS substrate. Core deliverables: (a) VSM S1–S5 mapping of Foundation Parts 1+5+8+9; (b) Meadows leverage-point ranking for info-processing loop (L6 = highest); (c) Ashby requisite-variety budget with explicit gap declaration; (d) four named feedback loops with polarity (R1 externalisation +, R2 compound +, B1 health correction − SEVERED, B2 attention-budget − weak); (e) D-DOC01-B validation confirming sync-table → feedback-loop reframing; (f) three new dissents D-DOC01-SYS-1/2/3.
