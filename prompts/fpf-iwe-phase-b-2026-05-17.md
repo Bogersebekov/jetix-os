@@ -82,11 +82,12 @@ Same as Phase A §0:
 
 **Новое (priority high → low):**
 
-1. **GitHub Цэрэна** — `github.com/TserenTserenov` (или похожий handle). Поиск public repos:
-   - IWE-related
-   - МИМ-related
-   - Любые другие методология / engineering работы
-   - Mirror в `raw/external/tseren-github-2026-05-17/`
+1. **GitHub Цэрэна — PRIMARY IWE SOURCE** — `github.com/TserenTserenov/FMT-exocortex-template` (Ruslan нашёл 17.05). Это **IWE template, primary IWE artifact**. Действия:
+   - `git clone https://github.com/TserenTserenov/FMT-exocortex-template raw/external/tseren-github-2026-05-17/FMT-exocortex-template/`
+   - Прочитать README + ВСЕ файлы целиком
+   - Distill — что есть FMT, как connected с FPF, какие compounds (exocortex pattern)
+   - Также проверить `github.com/TserenTserenov?tab=repositories` на другие public repos (IWE-related, МИМ-related, методология / engineering)
+   - Mirror всё в `raw/external/tseren-github-2026-05-17/`
 2. **Цэрэновские публичные материалы (доп. к 28.04 захвату):**
    - TG @TserenTserenov — пройтись по 619 извлечённых постов с фильтром IWE / интеллект / методология
    - YouTube @TserenTserenov — попытаться extract transcripts top-20 по тэгам IWE
