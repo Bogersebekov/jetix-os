@@ -14,6 +14,7 @@ source: reports/phase-0-fpf-scope/04-kasha-cleanup-flags.md §0 §1 §2
 R1: surface only. Ruslan ack'ает actions.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','quadrant1TextFill':'#1a202c','quadrant2TextFill':'#1a202c','quadrant3TextFill':'#1a202c','quadrant4TextFill':'#1a202c','quadrantTitleFill':'#1a202c','quadrantPointTextFill':'#1a202c','quadrantInternalBorderStrokeFill':'#4a5568','quadrantExternalBorderStrokeFill':'#1a202c','quadrantXAxisTextFill':'#1a202c','quadrantYAxisTextFill':'#1a202c'}}}%%
 quadrantChart
     title Kasha Severity vs Volume (7 categories)
     x-axis "Low volume (few items)" --> "High volume (many items)"
@@ -34,6 +35,7 @@ quadrantChart
 **Severity breakdown table:**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','xyChart':{'titleColor':'#1a202c','xAxisLabelColor':'#1a202c','yAxisLabelColor':'#1a202c','xAxisTitleColor':'#1a202c','yAxisTitleColor':'#1a202c','plotColorPalette':'#c62828'}}}}%%
 xychart-beta
     title "Kasha Item Count per Category"
     x-axis ["P-1 CE-3","P-2 Dead refs","P-3 LIVE-FLAG","P-4 Counts","P-5 FVA","P-6 Phase names","P-7 EP-2"]
@@ -44,6 +46,7 @@ xychart-beta
 **Critical items requiring immediate attention (CR-01..CR-12):**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','primaryBorderColor':'#2d3748','lineColor':'#4a5568','clusterBkg':'#f7fafc','clusterBorder':'#4a5568','titleColor':'#1a202c','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     CR01["CR-01 LIVE-FLAG\nDoc 1B §7 Mittelstand\nvs ACTION-PLAN Online-first\n[CRITICAL for L1 outreach]"]
     CR07["CR-07 EP-5 F-grade\nsemantic drift\n[CRITICAL for L1 audience]"]
@@ -62,9 +65,9 @@ flowchart TD
     CR02 --> |"systemic: 13 Foundation Parts"| CR03
     CR05 --> |"overdue"| CR06
 
-    classDef critical fill:#f8d7da,stroke:#721c24
-    classDef high fill:#fff3cd,stroke:#856404
-    classDef medium fill:#d4edda,stroke:#28a745
+    classDef critical fill:#f8d7da,stroke:#721c24,color:#1a202c,stroke-width:3px
+    classDef high fill:#fff3cd,stroke:#856404,color:#1a202c,stroke-width:2px
+    classDef medium fill:#d4edda,stroke:#28a745,color:#1a202c,stroke-width:2px
 
     class CR01,CR07 critical
     class CR02,CR05,CR06,CR08 high

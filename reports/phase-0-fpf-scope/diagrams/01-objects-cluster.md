@@ -14,6 +14,7 @@ source: reports/phase-0-fpf-scope/01-jetix-objects-inventory.md §1 §QR-CARD
 Цвет/форма = layer. Внутри cluster = объекты одного типа.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','primaryBorderColor':'#2d3748','lineColor':'#4a5568','clusterBkg':'#f7fafc','clusterBorder':'#4a5568','titleColor':'#1a202c','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph LayerD["Layer D — Future Vision (vapor)"]
         direction LR
@@ -66,11 +67,11 @@ flowchart TB
     O13 -->|"governed by"| O11
     O14 -->|"supersystem for"| O13
 
-    classDef layerA fill:#d4edda,stroke:#28a745
-    classDef layerB fill:#cce5ff,stroke:#004085
-    classDef layerC fill:#fff3cd,stroke:#856404
-    classDef layerD fill:#f8d7da,stroke:#721c24
-    classDef liveflag fill:#ffe5b4,stroke:#e65c00
+    classDef layerA fill:#d4edda,stroke:#28a745,color:#1a202c,stroke-width:2px
+    classDef layerB fill:#cce5ff,stroke:#004085,color:#1a202c,stroke-width:2px
+    classDef layerC fill:#fff3cd,stroke:#856404,color:#1a202c,stroke-width:2px
+    classDef layerD fill:#f8d7da,stroke:#721c24,color:#1a202c,stroke-width:2px
+    classDef liveflag fill:#ffe5b4,stroke:#e65c00,color:#1a202c,stroke-width:3px
 
     class O01,O04,O06b layerA
     class O06a,O07,O08,O11 layerB

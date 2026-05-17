@@ -13,6 +13,7 @@ source: reports/phase-0-fpf-scope/03-comparison-matrix.md §2 §4 §5 §12
 Validity legend: SC = structural correspondence / MSL = matching-scope-limited / MG = mechanism-gap / SD = structural-divergence / CM = categorical-mismatch / BL = BLOCKED
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','quadrant1TextFill':'#1a202c','quadrant2TextFill':'#1a202c','quadrant3TextFill':'#1a202c','quadrant4TextFill':'#1a202c','quadrantTitleFill':'#1a202c','quadrantPointTextFill':'#1a202c','quadrantInternalBorderStrokeFill':'#4a5568','quadrantExternalBorderStrokeFill':'#1a202c','quadrantXAxisTextFill':'#1a202c','quadrantYAxisTextFill':'#1a202c'}}}%%
 quadrantChart
     title Comparison Validity: Jetix Objects vs L1 Sources
     x-axis "Low comparison validity (vapor/CM)" --> "High comparison validity (SC/MSL)"
@@ -44,6 +45,7 @@ quadrantChart
 **Supplementary heatmap table (detailed):**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','xyChart':{'titleColor':'#1a202c','xAxisLabelColor':'#1a202c','yAxisLabelColor':'#1a202c','xAxisTitleColor':'#1a202c','yAxisTitleColor':'#1a202c','plotColorPalette':'#1565c0'}}}}%%
 xychart-beta
     title "Comparison Validity Score (0=CM/BL, 1=SC) by Object × Source"
     x-axis ["O-01","O-02","O-03","O-04","O-05","O-06a","O-06b","O-07","O-08","O-09","O-10","O-11","O-12","O-13","O-14"]

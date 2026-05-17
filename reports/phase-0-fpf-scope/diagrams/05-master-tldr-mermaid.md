@@ -13,6 +13,7 @@ source: reports/phase-0-fpf-scope/01-jetix-objects-inventory.md §QR-CARD; 02-ob
 Честное представление Jetix для L1 аудитории: что работает, что STUB, что vapor.
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','primaryBorderColor':'#2d3748','lineColor':'#4a5568','clusterBkg':'#f7fafc','clusterBorder':'#4a5568','titleColor':'#1a202c','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     subgraph ExternalLoop["External Loop [GAP: not yet closed; revenue = 0]"]
         direction LR
@@ -76,13 +77,13 @@ flowchart TD
     LIVEFLAG["⚠ LIVE-FLAG\nDoc 1B §7 Mittelstand\nvs ACTION-PLAN Online-first\nUnresolved 7+ days\nBoth в outreach pack"]
     LIVEFLAG -.->|"affects"| L1PARTNER
 
-    classDef s5node fill:#cce5ff,stroke:#004085
-    classDef s4node fill:#e2d9f3,stroke:#6f42c1
-    classDef s3node fill:#d4edda,stroke:#28a745
-    classDef s2node fill:#fff3cd,stroke:#856404
-    classDef s1node fill:#f8d7da,stroke:#721c24
-    classDef gapnode fill:#dee2e6,stroke:#6c757d,stroke-dasharray:5 5
-    classDef liveflag fill:#ffe5b4,stroke:#e65c00
+    classDef s5node fill:#cce5ff,stroke:#004085,color:#1a202c,stroke-width:2px
+    classDef s4node fill:#e2d9f3,stroke:#6f42c1,color:#1a202c,stroke-width:2px
+    classDef s3node fill:#d4edda,stroke:#28a745,color:#1a202c,stroke-width:2px
+    classDef s2node fill:#fff3cd,stroke:#856404,color:#1a202c,stroke-width:2px
+    classDef s1node fill:#f8d7da,stroke:#721c24,color:#1a202c,stroke-width:2px
+    classDef gapnode fill:#dee2e6,stroke:#6c757d,color:#1a202c,stroke-width:2px,stroke-dasharray:5 5
+    classDef liveflag fill:#ffe5b4,stroke:#e65c00,color:#1a202c,stroke-width:3px
 
     class FUNDAMENTAL,PILLARC,R12 s5node
     class HEXAGON,PART11 s4node
@@ -110,6 +111,7 @@ flowchart TD
 **Scalability at 10× (fragile threshold):**
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','xyChart':{'titleColor':'#1a202c','xAxisLabelColor':'#1a202c','yAxisLabelColor':'#1a202c','xAxisTitleColor':'#1a202c','yAxisTitleColor':'#1a202c','plotColorPalette':'#c62828'}}}}%%
 xychart-beta
     title "Structural change required at scale gates (%)"
     x-axis ["€50K current","€200K first-hire","€1M managed team","$100M ARR","$1T Clan 100y"]

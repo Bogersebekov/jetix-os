@@ -13,6 +13,7 @@ source: reports/phase-0-fpf-scope/03-comparison-matrix.md §3 DD-6; 02-objects-p
 **Critical note (D-2 / CM-06):** Foundation 11 Parts ≠ FPF Parts A-K isomorphism. Different subject-kinds: Jetix = org substrate; FPF = epistemological framework. This diagram maps «which FPF primitives are ADOPTED IN which Foundation Parts» — NOT «Part N = FPF Part N».
 
 ```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter, system-ui, sans-serif','primaryTextColor':'#1a202c','primaryBorderColor':'#2d3748','lineColor':'#4a5568','clusterBkg':'#f7fafc','clusterBorder':'#4a5568','titleColor':'#1a202c','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph FPF["FPF Spec (C1 vendored)"]
         direction TB
@@ -54,10 +55,10 @@ flowchart LR
     FE -->|"E.5 analog"| P6b
     FE -->|"E.5 analog"| PC
 
-    classDef fpfDeriv fill:#d4edda,stroke:#28a745
-    classDef memDom fill:#f8d7da,stroke:#721c24
-    classDef partial fill:#fff3cd,stroke:#856404
-    classDef unique fill:#e0cffc,stroke:#6f42c1
+    classDef fpfDeriv fill:#d4edda,stroke:#28a745,color:#1a202c,stroke-width:2px
+    classDef memDom fill:#f8d7da,stroke:#721c24,color:#1a202c,stroke-width:2px
+    classDef partial fill:#fff3cd,stroke:#856404,color:#1a202c,stroke-width:2px
+    classDef unique fill:#e0cffc,stroke:#6f42c1,color:#1a202c,stroke-width:3px
 
     class P4,P6a,P6b fpfDeriv
     class P1,P3,P5,P8,P9,P10 memDom
