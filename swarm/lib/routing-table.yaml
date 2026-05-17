@@ -7,6 +7,16 @@
 #
 # AWAITING-APPROVAL gate_class for modifications: stage_gate per Part 6b §I.4 F8 LOCKED schema.
 # Modification governance per swarm/lib/README.md §4 (Part 3 lead, Part 4 advisory per C1).
+#
+# NOTE 2026-05-17 — LEGACY 12-AGENT ROSTER DEPRECATED.
+# Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.6 + AWAITING-APPROVAL packet
+# `swarm/awaiting-approval/legacy-12-agents-deprecation-2026-05-17.md`. Legacy roster
+# (manager / personal-assistant / system-admin / sales-* / inbox-processor / crazy-agent /
+# knowledge-synth / strategist / life-coach / meta-agent + staging-writer + sweep-worker —
+# 14 files) archived at `.claude/agents/_archived/`. ACTIVE = ROY swarm only
+# (brigadier + 5 ROY experts + 4 sub-brigadiers). Role entries below remain
+# role-archetype level (IP-1 abstract); any execution path к legacy slugs returns
+# AP-routing-error в Phase B+ enforcement.
 
 schema_version: "1.0.0"
 schema_version_history:

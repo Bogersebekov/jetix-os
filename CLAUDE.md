@@ -113,28 +113,57 @@ Foundation-level path writes (Parts 1-11, principles/, shared/schemas/, .claude/
 
 
 ## Architecture
-- 12 specialized agents across 6 departments
+- **ROY swarm operational (Phase A+):** brigadier + 5 ROY experts + 4 sub-brigadiers — см. `## Active ROY Swarm` ниже
+- **Legacy 12-agent roster DEPRECATED-2026-05-17** (per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.6 + AWAITING-APPROVAL packet `swarm/awaiting-approval/legacy-12-agents-deprecation-2026-05-17.md`)
 - Communication: JSONL mailboxes in comms/mailboxes/
 - State: JSON files in shared/state/
 - Knowledge: shared/knowledge/
 - Filesystem: single source of truth (authoritative)
 - Notion: collaboration / planning / UI tool (not authoritative; filesystem wins any conflict)
 
-## Agent Roster
-| Agent | Model | Dept | Function | Phase |
-|-------|-------|------|----------|-------|
-| manager | Sonnet 4.6 | MGMT | Coordination hub | 1 |
-| personal-assistant | Haiku 4.5 | OPS | Productivity, OPS lead | 1 |
-| system-admin | Haiku 4.5 | OPS | Infrastructure | 1 |
-| sales-lead | Sonnet 4.6 | Sales | Sales coordination | 2 |
-| sales-researcher | Haiku 4.5 | Sales | Prospect research | 2 |
-| sales-outreach | Haiku 4.5 | Sales | Outreach & community | 2 |
-| inbox-processor | Haiku 4.5 | Brain | Information triage | 2 |
-| crazy-agent | Sonnet 4.6 | Meta | Creative disruption | 2 |
-| knowledge-synth | Sonnet 4.6 | Brain | Deep synthesis, Brain lead | 3 |
-| strategist | Opus 4.6 | MGMT | Strategic decisions | 3 |
-| life-coach | Sonnet 4.6 | Life | Wellness optimization | 4 |
-| meta-agent | Sonnet 4.6 | Meta | System auditing | 4 |
+## Active ROY Swarm (Phase A+ operational — canonical)
+
+9 ROY swarm agents в `.claude/agents/`:
+
+| Agent | Role | Domain | Status |
+|---|---|---|---|
+| brigadier | Orchestrator | Routing 5 experts × 4 modes | active |
+| engineering-expert | ROY expert | Engineering / clean-code / architecture | active |
+| investor-expert | ROY expert | Capital allocation / unit-econ / moats | active |
+| mgmt-expert | ROY expert | PM / delivery / ethics-surface | active |
+| philosophy-expert | ROY expert | Epistemology / mental models / stoic | active |
+| systems-expert | ROY expert | Systems thinking / cybernetics / VSM | active |
+| project-brigadier | Mini-swarm template | Project-scope dispatch (≤7 active tasks) | template |
+| quick-money-brigadier | Mini-swarm | quick-money P1 project | active |
+| levenchuk-deep-dive-brigadier | Mini-swarm stub | Levenchuk P3 deep-dive (stub) | stub |
+
+**Routing canonical:** `swarm/lib/routing-table.yaml` (RUSLAN-LAYER specific entries; Phase B partner forks structure).
+**Authority:** brigadier = single dispatcher per hub-and-spoke (per Part 4 §H + IP-1 strict).
+
+## Agent Roster (DEPRECATED-2026-05-17 — preserved per append-only)
+
+> **STATUS: DEPRECATED 2026-05-17** — Ruslan-acked via voice-batch processing (`prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.6 + D-05 work-plan ack). Files archived at `.claude/agents/_archived/<slug>.md` (preserved via `git mv`).
+>
+> **Active = ROY Swarm only** (см. `## Active ROY Swarm` выше).
+>
+> Table preserved per append-only — historic substrate; NOT current operational roster.
+
+| Agent | Model | Dept | Function | Phase | Status |
+|-------|-------|------|----------|-------|--------|
+| manager | Sonnet 4.6 | MGMT | Coordination hub | 1 | DEPRECATED-2026-05-17 |
+| personal-assistant | Haiku 4.5 | OPS | Productivity, OPS lead | 1 | DEPRECATED-2026-05-17 |
+| system-admin | Haiku 4.5 | OPS | Infrastructure | 1 | DEPRECATED-2026-05-17 |
+| sales-lead | Sonnet 4.6 | Sales | Sales coordination | 2 | DEPRECATED-2026-05-17 |
+| sales-researcher | Haiku 4.5 | Sales | Prospect research | 2 | DEPRECATED-2026-05-17 |
+| sales-outreach | Haiku 4.5 | Sales | Outreach & community | 2 | DEPRECATED-2026-05-17 |
+| inbox-processor | Haiku 4.5 | Brain | Information triage | 2 | DEPRECATED-2026-05-17 |
+| crazy-agent | Sonnet 4.6 | Meta | Creative disruption | 2 | DEPRECATED-2026-05-17 |
+| knowledge-synth | Sonnet 4.6 | Brain | Deep synthesis, Brain lead | 3 | DEPRECATED-2026-05-17 |
+| strategist | Opus 4.6 | MGMT | Strategic decisions | 3 | DEPRECATED-2026-05-17 |
+| life-coach | Sonnet 4.6 | Life | Wellness optimization | 4 | DEPRECATED-2026-05-17 |
+| meta-agent | Sonnet 4.6 | Meta | System auditing | 4 | DEPRECATED-2026-05-17 |
+| staging-writer | (utility) | scribe | System-design staging writer | utility | DEPRECATED-2026-05-17 |
+| sweep-worker | (utility) | scribe | Notion sweep batch worker | utility | DEPRECATED-2026-05-17 |
 
 ## §4 Pillar C Principles — Boot Context
 
