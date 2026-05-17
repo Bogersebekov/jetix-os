@@ -192,3 +192,67 @@ gantt
 ---
 
 *Brigadier integration of 3 cells. §5.5.5 gate: provenance ✓ inline / EP-5 disclosure (carried from §3 master) ✓ / LIVE-FLAG (BL-01) carried forward ✓ / BLOCKED sources (B2/C3) flagged ✓ / dissents preserved AP-6 ✓ / R1 surface-only ✓ — no new strategy authored, all actions voiced or immediate-derivative. Word count: ~1950.*
+
+---
+
+## §10 APPEND 2026-05-17 evening — Ruslan acks deprioritization markers
+
+> **Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.3 (explicit «голову не ебать»):**
+>
+> Following items DEPRIORITIZED / CLOSED. **§1-§9 sections preserved per append-only** — historic state intact; this section adds deprecation markers.
+
+### §10.1 Immediate actions (§1) — deprecation markers
+
+- **IA-02 LIVE-FLAG ICP** → `RUSLAN-DEPRIORITIZED-2026-05-17`
+  Reason: «Pohuy на старое» (Ruslan §0.3). NOT actively pursued. Doc 1B §7 не trog'ается per append-only.
+- **IA-04 EP-5 F-grade disclosure patch** → `RUSLAN-DEPRIORITIZED-2026-05-17`
+  Reason: «Не понял, удаляй нахуй» (Ruslan §0.3). НО: EP-5 disclosure всё ещё factually correct (Jetix F8 ≠ FPF B.3 F8). Existing disclosures preserved in docs где она была; только «active patch action» removed.
+
+**IA-01** (trust mechanism insight) и **IA-03** (Tseren+Levenchuk outreach send) NOT deprioritized — both completed/in-progress этого batch (IA-01 = H8 LOCK; IA-03 = outreach already sent per §0.3 «послание уже отправлено»).
+
+### §10.2 Short-term (§2) — deprecation markers
+
+- **ST-04 B2 Aisystant unblock** → `CLOSED-by-decision-2026-05-17`
+  Reason: «IWE chat rejected, only materials» (memory rule per Ruslan 17.05 evening). Aisystant subscription only для materials access; chat/MCP rejected.
+- **ST-05 Strategic Council** → `RUSLAN-CLOSED-2026-05-17`
+  Reason: «Послание уже отправлено, pohuy на старое» (Ruslan §0.3). 7-day window elapsed; Ruslan formal closure.
+
+**ST-01 / ST-02 / ST-03 / ST-06** NOT deprioritized — all carry forward per §0.4 active week plan:
+- ST-01 Единый FPF документ для L1 — carry forward
+- ST-02 Существующие планы → FPF translation — carry forward
+- ST-03 Onboarding-via-FPF hypothesis — LOCKED этого batch as `wiki/claims/onboarding-via-fpf-3h-vs-3-4w.md` (T5)
+- ST-06 Human-readable Jetix description (workflow Human → FPF → Human → FPF → ...) — carry forward per §0.4
+
+### §10.3 Blockers (§4) — updates
+
+- **BL-01 LIVE-FLAG ICP fork** → status: `Ruslan-deprioritized-2026-05-17 (NOT blocker for active work)`. Doc 1B vs ACTION-PLAN inconsistency exists; не resolved; не blocker per Ruslan ack.
+- **BL-02 EP-5 F-grade disclosure absent** → status: `Ruslan-deprioritized-2026-05-17 as active patch`. Disclosure discipline preserved где уже applied.
+- **BL-03 B2 Aisystant subscription** → status: `CLOSED-by-decision-2026-05-17` (IWE materials-only mode adopted).
+
+### §10.4 Decisions §5 — resolution status
+
+| Decision | Resolution этого batch |
+|---|---|
+| D-01 ICP canonical | Deprioritized per §10.1 IA-02 — не decision required в этот цикл |
+| D-02 text_001 placement | RESOLVED → H8 LOCK Octagon insight (этого batch T2) |
+| D-03 L1 collab doc authorship | Carries forward — ST-01 active |
+| D-04 Onboarding hypothesis | RESOLVED → wiki claim T5 (этого batch) |
+| D-05 Legacy 12-agent roster | RESOLVED → deprecated etого batch T6 |
+| D-06 Phase namespace cleanup | RESOLVED → LOCK этого batch T7 |
+| D-07 NC-1 Trust Infrastructure | RESOLVED → wiki concept + O-21 candidate (Phase 0 inventory) этого batch T4/T10 |
+| D-08 NC-2 «Дорога» | RESOLVED → wiki concept этого batch T4 |
+
+### §10.5 New active week plan post-acks
+
+| # | Item | Source | Status |
+|---|---|---|---|
+| ACT-1 | ST-01 Единый FPF документ для L1 | §0.4 | active |
+| ACT-2 | ST-02 Перевести существующие планы на FPF | §0.4 | active |
+| ACT-3 | ST-06 Human-readable Jetix description (workflow Human → FPF → Human → FPF → ...) | §0.4 | active |
+| ACT-4 | Tseren + Levenchuk outreach (after recall что отправлено) | §0.3 | carry |
+| ACT-5 | Oscar Hartmann deep research + outreach plan | T8 / NEW-K-01 | active |
+| ACT-6 | Phase 0+ batch follow-up review (this batch outputs) | этот prompt | active |
+
+---
+
+*Append-only deprecation markers section. §1-§9 preserved verbatim. Ruslan ack via `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.3 + §0.4 explicit.*
