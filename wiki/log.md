@@ -1,10 +1,21 @@
 ---
 type: log
-updated: 2026-05-12
+updated: 2026-05-17
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-17] [phase-0-plus-ruslan-acks] voice-batch-17.05 wiki promotion | entries: +11
+- Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.1: «ВСЕ wiki candidates Tier A/B/C → ACK PROMOTE»
+- **3 concepts:** trust-infrastructure-positive-signaling (NC-1); jetix-as-road-protocol-infrastructure (NC-2); human-as-developer-and-consumer
+- **3 claims:** onboarding-via-fpf-3h-vs-3-4w (T5 falsifiable + test design); fpf-sot-multi-view-pattern-ruslan-articulation (Tier A independent articulation); safety-baseline-clan-precondition
+- **4 ideas:** trust-mechanism-shift-money-to-fpf-role-based (H8 origin); gaming-team-ontology-source-domain; fpf-as-universal-language-aspirational (F1 affect-marker); macro-societal-vision-states-communities; l1-three-systems-collaboration-frame
+- **1 source:** 2026-05-17-text-001-trust-mechanisms (text dictation card)
+- Locked in parallel: H8 Octagon Strategic Insight → `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md`
+- Edges appended: +18 (see edges.jsonl)
+- F-G-R per entry; EP-5 disclosure per H8 LOCK file
+- index.md regeneration deferred к next /ingest cycle (auto-regen mechanism)
 
 ## [2026-05-12] [gamification-promote] staged 133 edges → canonical edges.jsonl | edges: +133
 - 57 supports / 49 inspired_by / 14 extends / 8 derived_from / 5 contradicts
