@@ -202,3 +202,111 @@ graph TB
 - **NOT replacement of LLM Wiki pattern study** — pattern adoption already in CLAUDE.md
 
 **Word count:** ~1680
+
+---
+
+## §8 На человеческом — кто это и зачем нам (added Cloud Cowork 2026-05-18)
+
+### §8.1 Кто такой Andrej Karpathy
+
+Простыми словами — **один из самых известных AI-инженеров в мире**, родом из Словакии, работал на самых топовых позициях:
+
+- **Stanford PhD** под руководством Fei-Fei Li (известная в AI). Создал CS231n — курс «Convolutional Neural Networks for Visual Recognition», который **половина мира** так или иначе смотрела когда училась AI.
+- **Один из основателей OpenAI** (2015, до того как OpenAI стал famous).
+- **Director of AI в Tesla** (2017-2022) — отвечал за весь Autopilot / self-driving stack. Это значит он реально **строил AI который ездит по дорогам**, не просто research papers писал.
+- **Вернулся в OpenAI в 2024** — там сейчас работает над «midtraining + synthetic data generation» (как лучше тренировать модели).
+
+**Почему он важен для культуры:** он умеет **объяснять AI просто**. Его YouTube канал «Andrej Karpathy» — «Zero to Hero» playlist + «Deep Dive into LLMs» — это **literally school для всего AI community** последних 5 лет. Многие AI инженеры мира выросли на его видео.
+
+**По влиянию:** если Sam Altman — это CEO OpenAI (политика), то Karpathy — это **технический преподаватель-герой** в индустрии. Когда он пишет в Twitter / GitHub Gist — миллионы людей читают.
+
+### §8.2 Что такое Eureka Labs
+
+В **июле 2024** Karpathy ушёл из OpenAI (ненадолго, потом вернулся) и **основал свою company** — Eureka Labs (Delaware LLC).
+
+**Его idea простыми словами:**
+- Сейчас если хочешь чему-то учиться → есть курсы Coursera / университеты / YouTube. Но **учитель один на 100-1000 студентов**.
+- **AI-преподаватель** теоретически может быть **персональным** для каждого студента (отвечать на твои конкретные вопросы / адаптироваться под твой уровень / следить за прогрессом).
+- Eureka Labs строит **первую AI-native школу** — где AI-помощник встроен в курс **с самого начала**, не прикручен сбоку.
+
+Аналогия: представь школу где **у каждого студента есть личный репетитор-AI который знает что ты уже понял, что нет, и адаптирует материал под тебя**. И это **scale-able** — могут быть тысячи студентов с одним «human» учителем, потому что AI делает основную работу.
+
+**Status сейчас:** компания работает, funding не разглашается, **первый продукт = курс LLM101n** (см. ниже).
+
+### §8.3 Что такое LLM101n
+
+**Это курс** который Karpathy анонсировал в **июле 2024**. Простыми словами:
+
+- **Тема:** «Построй свою маленькую ChatGPT с нуля» (на Python)
+- **Для кого:** undergrad-level (студенты + опытные программисты которые хотят понять LLM изнутри)
+- **Формат:** ~17 глав от basics языковых моделей до multimodal AI
+- **Финал:** ты строишь «Storyteller AI» — маленький LLM который может рассказывать истории, как ChatGPT, но **ты его построил сам, понимаешь каждую строку кода**
+- **Free + open-source** на GitHub
+- **Hybrid:** ты можешь учиться один (self-paced) или в cohort (с группой одновременно)
+
+**Why huge:** **>36,000 GitHub stars за ~1 месяц** после анонса. Это **viral velocity** — для сравнения, большинство курсов набирают столько за годы. Сигнал = люди голодны до этого формата.
+
+### §8.4 Что такое LLM Wiki (April 2026)
+
+**Это не курс и не компания.** Это **persona experiment / pattern** который Karpathy опубликовал в GitHub Gist в апреле 2026 (~1 месяц назад).
+
+**Idea простыми словами:**
+- Karpathy ведёт **личную wiki в markdown** где **AI помогает её писать + расти**
+- Wiki **компаундируется across sessions** — то есть знания накапливаются с каждой сессией с AI
+- У него самого там уже **>100 статей, 400,000+ слов**
+- Каждая статья = markdown с frontmatter + cross-links + structured по topics
+
+**Why interesting:**
+- Это **новый способ organize knowledge** в AI-эпоху — wiki которую AI помогает поддерживать
+- **Jetix wiki/ substrate напрямую based on это** — в CLAUDE.md прямо написано «Wiki Architecture v2 (Karpathy LLM Wiki + OmegaWiki)»
+- Это **direct ancestor** того что у нас в repo лежит как `wiki/`
+
+### §8.5 Почему всё это интересно для Jetix
+
+**3 distinct lineage от Karpathy к Jetix:**
+
+#### Lineage 1: LLM Wiki → Jetix wiki/ substrate (УЖЕ ADOPTED)
+- Karpathy показал что AI + markdown wiki + compounded knowledge = working pattern
+- Jetix `wiki/` — это **наш вариант этой идеи**, расширенный F-G-R discipline + Foundation
+- Status: уже работает, мы использовали его pattern
+
+#### Lineage 2: LLM101n → Workshop pattern (POTENTIAL borrow)
+- LLM101n model = **free + open-source + hands-on build + cohort+self-paced dual mode + GitHub-native**
+- Это **literally формат который мы хотим для Workshop** (vision/03 Jetix as Workshop)
+- Karpathy уже доказал что format работает на 36K stars за месяц
+- **Jetix Workshop может borrow exactly эту структуру** — но для **methodology + cross-domain engineering** вместо LLM building
+
+#### Lineage 3: Eureka Labs → Future Jetix collaboration potential
+- Karpathy строит AI-native education infrastructure
+- Jetix Workshop = adjacent space (methodology education with AI substrate)
+- **Если Jetix Phase 2+ demo strong** → можно think about collaboration / cross-pollination
+- Karpathy = OpenAI-affiliated; Jetix = Claude/Anthropic — это complementary, не competing
+
+### §8.6 Конкретно как может работать с Jetix
+
+**Сейчас (Phase 0-1, zero cost):**
+
+1. **Read его LLM101n curriculum** — посмотри как он structure курс (table of contents / chapter progression / build deliverables). Apply ту же structure к Workshop curriculum.
+
+2. **Smотри LLM Wiki Gist в деталях** — он показывает свой workflow: как AI помогает поддерживать wiki, какие prompt patterns использует, какие conventions. Это **прямо ready-to-use patterns** для нашего wiki/.
+
+3. **Follow на Twitter / YouTube** — он часто публикует свои thoughts на AI tooling / education / pattern languages. Мы можем catch'ить ideas рано.
+
+**Phase 2 (когда у нас substantive demo Jetix):**
+
+4. **Thoughtful GitHub issue / PR** в LLM101n repo — если что-то про methodology или engineering education можем contribute, это **первый legitimate touchpoint**.
+
+5. **Cohort participate** — если Eureka Labs запустит первую public cohort, Ruslan может **participate as student + observer** — учится сразу + видит pattern.
+
+**Phase 3+ (когда Jetix has revenue + L1 cooperation):**
+
+6. **Cold outreach к Karpathy** возможен — но **только когда у Jetix есть substantive demo** (working Workshop + LOCKED methodology + revenue evidence). Иначе он vry busy person, time = wasted.
+
+### §8.7 Резюме на 2 строки
+
+**Karpathy = legend AI инженер + строит AI-native школу + придумал AI-помощник для wiki которую мы уже используем.** Для Jetix он = **paradigm precedent** (Workshop pattern + wiki/ pattern + AI-native education) и **возможный future ally** когда у нас будет что показать.
+
+---
+
+*Plain English section added by Cloud Cowork 2026-05-18 per Ruslan request. Word count of §8: ~950.*
+
