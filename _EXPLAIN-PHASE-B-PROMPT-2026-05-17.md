@@ -43,6 +43,91 @@ language: russian
 
 ---
 
+## §1.A 🚀 SWARM MODE (новое 17.05)
+
+**Phase B запускается через Brigadier**, не single claude -p session. У нас в repo полноценный multi-agent swarm:
+
+- **Brigadier** (`.claude/agents/brigadier.md`, opus model) — canonical orchestrator с `Task` tool
+- **5 domain experts** (sonnet) × **4 modes** = 20 invocation cells:
+  - `engineering-expert` (code/FPF), `philosophy-expert` (epistemic), `systems-expert` (feedback), `mgmt-expert` (org), `investor-expert` (capital)
+  - Modes: critic / optimizer / integrator / scalability / writing-support
+- **Structured Task() packets** — каждый cell возвращает summary + proposed_writes + provenance + confidence + escalations + dissents
+- **§5.5.5 provenance gate** — 6-check перед canonical write
+- **§5 dissent preservation** — contradictory выводы СОХРАНЯЮТСЯ, не дропаются
+
+**Per-шаг dispatch matrix:**
+
+| Шаг | Cells |
+|---|---|
+| §1 FPF tighten (review shape) | engineering×critic + philosophy×critic + mgmt×critic |
+| §2 IWE collect (design shape) | knowledge-synth + engineering×integrator + philosophy×critic |
+| §3 Jetix vs IWE audit (review) | philosophy×critic + systems×integrator + mgmt×integrator |
+| §4 Pack Jetix (design) | engineering×scalability + mgmt×integrator + philosophy×critic |
+| §5 Cooperation plan (design+optimize) | mgmt×optimizer + investor×scalability + philosophy×critic |
+| §6 Letter bases (writing-support) | sales-outreach writing-support |
+
+**Triple-perspective per шаг** = multiple Claude instances независимо thinking → integration с dissent preservation. Это намного качественнее single-agent run.
+
+**ultrathink триггер** в §0 prompt'a → extended thinking ON для всех cell invocations.
+
+## §1.B Swarm flow (mermaid)
+
+```mermaid
+%%{init: {'theme':'base','themeVariables':{'fontFamily':'Inter','fontSize':'11px'}}}%%
+flowchart TB
+    SCC["Server CC = Brigadier<br/>opus, Task tool"]:::brig
+    BMA["Brigadier reads:<br/>brigadier.md + shared-protocols.md<br/>+ routing-table.yaml"]:::brigread
+
+    subgraph S1["§1 FPF tighten v2 (review)"]
+        E1["eng × critic"]:::cell
+        P1["phil × critic"]:::cell
+        M1["mgmt × critic"]:::cell
+    end
+    subgraph S2["§2 IWE collect (design)"]
+        KS["knowledge-synth"]:::cell
+        E2["eng × integrator"]:::cell
+        P2["phil × critic"]:::cell
+    end
+    subgraph S3["§3 Jetix vs IWE (review)"]
+        P3["phil × critic"]:::cell
+        SY3["sys × integrator"]:::cell
+        M3["mgmt × integrator"]:::cell
+    end
+    subgraph S4["§4 Pack Jetix (design)"]
+        E4["eng × scalability"]:::cell
+        M4["mgmt × integrator"]:::cell
+        P4["phil × critic"]:::cell
+    end
+    subgraph S5["§5 Cooperation plan"]
+        M5["mgmt × optimizer"]:::cell
+        I5["investor × scalability"]:::cell
+        P5["phil × critic"]:::cell
+    end
+    subgraph S6["§6 Letter bases (writing-support)"]
+        SO["sales-outreach"]:::cell
+    end
+
+    GATE["§5.5.5 provenance gate<br/>6-check before canonical write"]:::gate
+    OUT["Canonical writes<br/>+ pack-for-l1/"]:::out
+
+    SCC --> BMA --> S1 & S2
+    S1 --> GATE
+    S2 --> S3 & S4
+    S3 --> GATE
+    S4 --> S5
+    S5 --> S6
+    S6 --> GATE
+    GATE --> OUT
+
+    classDef brig fill:#ffe0b2,stroke:#e65100,stroke-width:3px
+    classDef brigread fill:#fff3e0,stroke:#e65100
+    classDef cell fill:#e0f2f1,stroke:#00695c
+    classDef gate fill:#fce4ec,stroke:#ad1457,stroke-width:2px
+    classDef out fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+```
+
+---
+
 ## §2 Что делает этот prompt (одним абзацем)
 
 Server CC берёт всё что собрано Phase A + новые Tseren materials, **уплотняет FPF понимание** до читабельной v2, **собирает IWE corpus** включая Tseren FMT-exocortex-template, **сравнивает Jetix vs IWE** (mirror'я Phase A self-audit vs FPF), **упаковывает Jetix как single navigable working file** в стиле github.com/ailev/FPF или Tseren IWE template, **составляет 3-tier cooperation plan по FPF**, и **готовит content blocks для писем Левенчуку + Цэрэну** (но не финальный текст — это Ruslan-authored). Финал — `outreach/pack-for-l1-2026-05-17/` готов к отправке.

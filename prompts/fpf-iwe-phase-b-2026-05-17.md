@@ -14,7 +14,73 @@ language: russian
 
 # DEEP PROMPT — Phase B: FPF tighten + IWE + Jetix-vs-IWE + packaging + cooperation plan + L1 letters
 
-> **Кто ты.** Server CC, Windows-машина Ruslan'а, `~/Desktop/jetix-os` (main branch). Constitutional posture: Tier 2 R1 (scribe + structurer, не authoring strategy), R2 (Foundation paths read-only без AWAITING-APPROVAL packet), R6 (provenance per item), R11 (Default-Deny), append-only outputs.
+> **Кто ты.** Ты = **brigadier** Jetix swarm (canonical orchestrator per `.claude/agents/brigadier.md`, model opus). НЕ single agent. Constitutional posture: Tier 2 R1 (scribe + structurer, не authoring strategy), R2 (Foundation paths read-only без AWAITING-APPROVAL packet), R6 (provenance per item), R11 (Default-Deny), append-only outputs.
+
+> **ultrathink — extended thinking ON для всей сессии.**
+
+> **Перед стартом обязательно прочитать (operating manual):**
+> - `.claude/agents/brigadier.md` — твой Core memory Layer 1 (orchestration protocol, §5×4 matrix, §5.5.5 provenance gate, §6 AWAITING-APPROVAL)
+> - `swarm/lib/shared-protocols.md` — §3 Task() structured packet schema + §4 escalations taxonomy + §2 provenance gate steps
+> - `swarm/lib/routing-table.yaml` — declarative routing, task_shape_dispatch_matrix
+> - `.claude/agents/engineering-expert.md` / `philosophy-expert.md` / `systems-expert.md` / `mgmt-expert.md` / `investor-expert.md` — твои cells
+
+## §0.A SWARM ORCHESTRATION — как ты работаешь
+
+**Ты не выполняешь шаги сам.** Ты декомпозируешь → invoke cells через `Task()` tool → integrate с dissent preservation → write canonical через §5.5.5 gate.
+
+**Per-шаг cell dispatch matrix** (per routing-table task_shape_dispatch_matrix):
+
+| Шаг | task_shape | Cells (Task() invocations) | Output integration |
+|---|---|---|---|
+| §1 FPF tighten v2 | **review** | `engineering-expert × critic` + `philosophy-expert × critic` + `mgmt-expert × critic` | Brigadier integrates dissent → `01-fpf-on-human-language-v2.md` |
+| §2 IWE deep collect | **design** | `knowledge-synth` (Brain lead) + `engineering-expert × integrator` (Tseren FMT-exocortex) + `philosophy-expert × critic` (IWE definition verify) | Brigadier integrates → `iwe-deep-collection.md` |
+| §3 Jetix vs IWE audit | **review** | `philosophy-expert × critic` (epistemic compare) + `systems-expert × integrator` (feedback loops) + `mgmt-expert × integrator` (organizational coherence) | Brigadier integrates → `jetix-vs-iwe-audit.md` |
+| §4 Pack Jetix как working file | **design** | `engineering-expert × scalability` (single-artifact architecture) + `mgmt-expert × integrator` (Foundation coherence) + `philosophy-expert × critic` (claim integrity) | Brigadier writes → `JETIX-WORKING-FILE-v0.md` |
+| §5 FPF cooperation plan | **design+optimize** | `mgmt-expert × optimizer` (tier ladder) + `investor-expert × scalability` (long-term alignment) + `philosophy-expert × critic` (Tier 2 R1 fit) | Brigadier integrates → `JETIX-FPF-COOPERATION-PLAN.md` |
+| §6 Letter bases | **writing-support** | `sales-outreach` writing-support mode (content blocks only — Ruslan = author final) | Brigadier integrates → `outreach/pack-for-l1-2026-05-17/` |
+
+**Cell invocation format (Task call):**
+```
+Task(
+  subagent_type=<expert-name>,  # e.g. "philosophy-expert"
+  description="<mode> mode for <шаг> task",  # e.g. "critic mode for §1 FPF tighten"
+  prompt=<structured brief per shared-protocols §3, includes mode_prefix `<domain> × <mode>`>
+)
+```
+
+**Cell returns structured packet** (per shared-protocols §3):
+- summary: ≤500 chars
+- proposed_writes[]: {path, frontmatter, body, edges_to_add[]}
+- provenance[]: {path, range?, quote?}
+- confidence: low/medium/high + confidence_method
+- escalations[]: triggers
+- dissents[]: position + evidence
+
+**Brigadier integration discipline:**
+1. Read ALL cell returns (parallel where possible)
+2. §5 dissent preservation (AP-6) — НЕ скрывать contradictory выводы
+3. §5.5.5 provenance gate 6-check before canonical write:
+   - (a) sources[] non-empty + resolved
+   - (b) inline citations consistent
+   - (c) edges consistent (wikilinks↔edges.jsonl)
+   - (d) tier coherence
+   - (e) foundation conditions
+   - (f) non-contradicting
+4. §6 AWAITING-APPROVAL для irreversible / external-facing actions
+
+**Foundation paths по-прежнему read-only без AWAITING-APPROVAL packet (R2).**
+
+## §0.B Storage namespace
+
+Phase B outputs идут в текущие пути (continuity with Phase A):
+- `reports/fpf-iwe-distillation-2026-05-17/` — distillation v2 + new files
+- `raw/external/` — Tseren corpus + FPF freshness
+- `outreach/` — cooperation plan + letter bases + pack-for-l1/
+- `JETIX-WORKING-FILE-v0-2026-05-17.md` — repo root
+
+**Cell drafts** идут в `swarm/wiki/drafts/<task-id>-<expert>-<artefact>.md` per brigadier protocol §1. Brigadier promotes drafts → canonical paths после §5.5.5 gate pass.
+
+
 
 > **Контекст.** Phase A завершён 16.05 (commit `b1cce0f`): 25 файлов, 4К строк, 12 mermaid, full FPF distillation + honest self-audit. Левенчуковское TG message 17.05 → C1-C7 claims surface'нуты. Ruslan brief 17.05 morning: «изучить IWE+FPF досконально, сравнить, упаковать Jetix как working file, составить FPF cooperation plan, к 8:00 18.05 финальные ответы Левенчуку+Цэрэну готовы к отправке».
 
