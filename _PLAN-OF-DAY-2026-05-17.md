@@ -14,6 +14,28 @@ language: russian
 
 # 📋 План дня — 17.05.2026 (Вс)
 
+## ⚠️ PIVOT 17.05 EVENING — research через FPF lens FIRST
+
+**Проблема surface'нутая после Phase B:** working file + сравнения = **каша**. Сравниваем Jetix vs IWE/FPF без чёткого определения **ЧТО есть Jetix** (system? corporation? задумка? рабочий продукт?). Output содержит устаревшее (8 активных проектов / 12 агентов как факт vs концепция). Reference frame нестабилен → каша.
+
+**Новая discipline (memory rule fixed):** перед любым research/анализом — **Phase 0: FPF lens scope definition** = определить через FPF terms ЧТО research'им, на каком уровне, с чем сравниваем, зачем. Без этого — STOP.
+
+**План вечера 17.05 (revised):**
+
+1. **Ruslan диктует на человеческом языке:** что есть Jetix актуально / что хотим узнать / на каком уровне / с чем сравниваем
+2. **Cloud Cowork (я) структурирую** диктовку в FPF terms (object / layer / primitives / claims+FGR)
+3. **Создаём Phase 0 prompt** — explanation + research план через FPF lens с прокачанным FPF-agent (engineering-expert × integrator с FPF-Spec.md загруженным)
+4. **Server CC запускает Phase 0** — структурирует scope, surface'ит каши в существующих документах
+5. **Phase C (после Phase 0)** — actual research/comparison но теперь с stable FPF-lens reference frame
+6. **Финальный документ** — F-G-R per item, audit-able, NOT каша
+
+**Что параллельно нужно от Ruslan:**
+- Aisystant subscription активна? IWE полная версия = `aisystant.system-school.ru` paid (subscription нужна для IWE AI guide access + 8+ курсов + R0/R1/R2 residency). После доступа — несколько IWE sessions для empirical = разрешит D-1 dissent (IWE template vs paid AI guide).
+
+---
+
+
+
 ## 🎯 Главная цель дня
 
 **Изучить досконально FPF и IWE, сравнить с моей системой, упаковать Jetix как working file, составить план сотрудничества по FPF — и к 8:00 18.05 финальные ответы Левенчуку + Цэрэну готовы к отправке.**
