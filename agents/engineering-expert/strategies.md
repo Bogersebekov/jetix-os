@@ -28,6 +28,36 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-05-17 — A.2.9 context-policy cross-reference must be self-declared, not delegated to a pending sibling doc
+
+1. **Decision:** When a doc uses U.SpeechAct (A.2.9) with the «institutes» semantic, it must declare the context-policy for that speech act directly in its own A.1.1 BoundedContext section (or equivalent §2.1 expansion). Delegating the policy declaration to another doc via a cross-reference is not sufficient — especially when the referenced section does not yet exist. The phantom-reference pattern (citing «doc X §4.1.4» before doc X has been revised to contain that section) is a provenance gate failure.
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; Doc 06 (Clean Internet Layer) §2.2 A.2.9 row claimed «Clan-context policy declared in doc 03 §4.1.4». Doc 03 critic (FAIL-2, FAIL-3) had already found that doc 03 has no formal A.1.1 BoundedContext and no §4.1.4. Doc 06 integrator was written anticipating a doc 03 structure that did not yet exist, creating a phantom cross-reference. FPF A.2.9:4.1 normative: absent explicit context-policy, SpeechAct is treated as communicative Work occurrence only — not institutional. Secondary pattern: §4.1 formal section mapped SpeechAct to `publish(F_grade, G_scope, R_condition)` — an F-G-R publication act — contradicting the §2.2 description of SpeechAct as trust-constituting. F-G-R is B.3, not A.2.9 content.
+3. **Result:** FAIL-1 blocking correction raised (moderate); D-DOC06-ENG-4 + D-DOC06-ENG-5 dissents introduced. RC-1 fix: self-declare the trust-infrastructure context-policy in doc 06 §2.1; fix §4.1 SpeechAct formal expression to use actType + institutes fields (CommitmentIdRef, RoleAssignmentRef). Effort: medium.
+4. **Review:** partial — fix not yet applied; pending revision cycle. Pattern confirmed across two cycles (doc 03 + doc 06). Promote to §3.1 Conformance Checklist as check #9 candidate if it fires in doc 07.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-internet-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check doc 07 (E2E Overview) for same phantom-cross-reference pattern. If fires ≥1 more time, promote to §3.1 Conformance Checklist check #9 (FPF-primitive-policy-self-declared).
+  - cycle_50: If the self-declaration pattern becomes standard across all 7 docs, mark validated and add to critic briefing template.
+
+### 2026-05-17 — Formal section aspirational-tag discipline: §4 formal ≠ §2 honest-status
+
+1. **Decision:** When a doc's §2 primitive table correctly tags a primitive as F2/aspirational (e.g. A.10 Evidence Graph = stub), the §4 formal section must carry the same aspirational tag on any expression involving that primitive. Formally expressing `A.10.EvidenceGraph(A, trail)` as a callable binary predicate when the §2 table says «formal Evidence Graph = aspirational» is an internal inconsistency — the formal section overstates operational status.
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; Doc 06 §2.2 and §3.8 correctly state A.10 Evidence Graph formal schema = stub; git log = primitive implementation (F2). However, §4.1 TrustFormation predicate uses `A.10.EvidenceGraph(A, observed_work_trail)` without aspirational annotation — as if the Evidence Graph is queryable. This inconsistency could mislead a reader into thinking TrustFormation is currently computable. The fix is a one-line annotation: `[aspirational; current primitive: A.10_primitive(A) = git_log_entries(A)]`.
+3. **Result:** FAIL-3 minor correction raised. Effort: small. Pattern: formal sections often inherit implicit operational framing from pseudocode style; aspirational tags must be explicitly imported from the honest-status section.
+4. **Review:** partial — pending revision. Generalizable pattern: whenever §2 says «aspirational» or «F2 primitive», check §4 for implicit operational framing.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-internet-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check doc 07 §4 formal sections for same aspirational-tag gap. If fires ≥1 more time, add to critic Conformance Checklist check.
+  - cycle_50: Consider a generic rule: «§4 formal sections must carry honest-status annotations matching §2 table F-grades».
+
 ### 2026-05-17 — FPF primitive misuse detection: U.WorkPlan vs U.MethodDescription vs U.Episteme
 
 1. **Decision:** When a doc uses `U.WorkPlan (A.15.2)` to classify a set of heuristic principles or rules-of-thumb, check the A.15.2:4.1 definition (planned windows + intended performers + resource budgets + acceptance targets + dependencies). If those structural elements are absent, the correct primitive is `U.MethodDescription (A.3.2)` (recipe for how) or `U.Episteme` (surfaced candidate), not `U.WorkPlan`. OQ-style caveats in the same document that acknowledge "Ruslan не ack'нул" are a signal that the primitive is not yet U.WorkPlan — catch these early in critic mode.

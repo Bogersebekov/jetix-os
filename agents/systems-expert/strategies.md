@@ -27,6 +27,28 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-05-17 — task-fpf-describe-jetix-2026-05-17 — sys-integrator Doc 07 End-to-End Overview
+
+1. **Decision:** Produced systems-integrator 3rd-cell review of eng-integrator draft for Doc 07 (End-to-End Overview). Core deliverables: (a) composite Beer VSM S1–S5 mapping across all 6 layers simultaneously — S5 text-operational, S4 partial, S3 ABSENT at every layer (composite control deficit), S2 partial at L1/absent at L5, S1 partial at L1 only; (b) cross-layer feedback loop composition topology — 6 loops identified (R1 open, R2 partial, B1 severed-by-deferral, B2 weak, B3 severed-by-omission, R3 aspirational); (c) 4 named cascade failure paths with severity/mitigation assessment; (d) Bootstrap deadlock identification (L3/L6 circular dependency + break-out path specification); (e) architectural completeness verdict (complete for description, incomplete for execution — 3 specific gaps); (f) 4 dissents D-DOC07-SYS-1..4; (g) 3 required edits + 2 recommended additions + 3 OQ for Ruslan.
+
+2. **Reasoning:** Eng-integrator draft for Doc 07 was well-structured but approached the stack as a description synthesis (E.17 MVPK + consistency audit + honest-status table). Missing: composite system dynamics. Key insight building on two prior sys-integrator passes (Doc 01 + Doc 05): when all 6 layers are viewed simultaneously, the S3 absence becomes a composite-level property, not just a per-layer note. No layer produces a health signal that informs any other layer. The system is entirely open-loop on quality across all levels. Additionally, the B1/B3 distinction (deferral vs structural omission) established in the Doc 05 pass applies at the composite level: B1 has a recovery path; B3 requires design investment before N=2. The bootstrap deadlock between L3/L6 (each waiting for the other) is a structural pattern that can be broken with a single intentional activation event — this is a Phase B design decision, not an organic emergence event.
+
+3. **Result:** Draft written to `swarm/wiki/drafts/task-fpf-describe-jetix-2026-05-17-overview-sys-integrator.md`. 9 sections: composite VSM S1-S5 mapping; cross-layer feedback loop composition (6 loops with polarity + dominance hypothesis); bridge integrity analysis (8 bridges; 1 active, 2 partial, 5 vapor; bootstrap deadlock named); 4 cascade failure paths; architectural completeness verdict (binary); composite viability assessment; 5 synthesis claims with F-G-R; 4 dissents preserved; recommended edits + OQ. Verdict: APPROVE-WITH-EDITS.
+
+4. **Review:** Pending — brigadier integration and Ruslan review. Key tests: (1) does the C6 pre-design requirement (OQ-SYS-1) reach Ruslan as a BLOCKING decision before Phase B platform activation? (2) does the composite S3 gap synthesis change the Phase B prioritisation sequence? (3) does the bootstrap deadlock naming (OQ-SYS-3) lead to an intentional activation design rather than waiting for organic emergence?
+
+#### Rules extracted
+
+`rule: composite-s3-absence-is-system-level-property` — When S3 health monitoring is absent at every layer of a multi-layer stack simultaneously (whether by deferral or by omission), the system has no level at which corrective signal can accumulate and propagate. This is qualitatively different from per-layer S3 absence. Name it explicitly at the synthesis level; do not leave it implicit across individual doc honest-status tables.
+
+`rule: bootstrap-deadlock-requires-intentional-break-out` — When two layers each depend on the other being operational first (circular dependency, e.g. L3 needs L6 trust; L6 gains utility from L3 role-declarations), this is a bootstrap deadlock. Deadlocks of this type in social systems are breakable by N=1 manual activation by a trusted actor using primitive mechanisms (git + LOCKED artefacts), bypassing the full formal infrastructure. Name the deadlock explicitly and specify the minimal break-out event; do not treat it as a problem that resolves through organic emergence.
+
+`rule: cross-layer-cascade-analysis-required-at-synthesis-level` — When synthesising a multi-doc decomposition of a composite system, identify the inter-layer cascade paths for each severed loop. A severed B1 at L1 and a severed B3 at L5 do not compensate each other; their simultaneous absence creates a composite open-loop condition that is not visible by reading any individual doc. Composite synthesis must name this explicitly.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — task-fpf-describe-jetix-2026-05-17 sys-integrator Doc 07 End-to-End added
+
 ### 2026-05-17 — task-fpf-describe-jetix-2026-05-17 — sys-integrator Doc 05 Platform
 
 1. **Decision:** Produced systems-integrator review of eng-integrator draft for Doc 05 Jetix-as-Platform. Core deliverables: (a) Platform VSM S1–S5 mapping — S5 operational (Pillar C), S1 evidenced for N=1, S2 absent (most acute gap), S3 absent and UNDESIGNED (most critical structural gap), S4 aspirational; (b) Ashby variety ceiling identified at N=3–5 heterogeneous workshops (coordination-layer variety fixed at 5 static components vs super-linear workshop-variety growth); (c) four platform-level feedback loops with polarity — R1 task-complexity growth (open), R2 capability-accumulation (partially closed per-workshop, open at platform level), B1 quality-correction (SEVERED — structurally absent, not deferred), B2 specialisation-drift brake (weakly closed); (d) D-PLAT-3 integrated resolution — typed edges necessary AND insufficient; missing element = S3/S4 comparator function; (e) antifragility check FAIL at 10× (N=10 workshops, ~35–40% structural change); (f) three new dissents D-PLAT-SYS-1/2/3.
