@@ -28,6 +28,35 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-05-17 — FPF primitive misuse detection: U.WorkPlan vs U.MethodDescription vs U.Episteme
+
+1. **Decision:** When a doc uses `U.WorkPlan (A.15.2)` to classify a set of heuristic principles or rules-of-thumb, check the A.15.2:4.1 definition (planned windows + intended performers + resource budgets + acceptance targets + dependencies). If those structural elements are absent, the correct primitive is `U.MethodDescription (A.3.2)` (recipe for how) or `U.Episteme` (surfaced candidate), not `U.WorkPlan`. OQ-style caveats in the same document that acknowledge "Ruslan не ack'нул" are a signal that the primitive is not yet U.WorkPlan — catch these early in critic mode.
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; Self-OS P-1..P-10 classified as U.WorkPlan in §2.1/§4 of eng-integrator draft. A.15.2:4.3 lexical sanity table explicitly distinguishes "workflow/recipe" (MethodDescription) from "schedule/calendar/plan" (WorkPlan). The draft's own OQ-DOC01-4 said "до ack — они = surfaced candidates, не confirmed U.WorkPlan" — internal contradiction the critic surfaced. Source: FPF-Spec.md A.15.2:4.1, A.15.2:4.3.
+3. **Result:** Blocking correction R-1 raised; D-DOC01-ENG-1 dissent introduced. Fix = replace U.WorkPlan with U.MethodDescription candidate. Effort: small.
+4. **Review:** partial — fix not yet applied; pending revision cycle. Validate at next cycle when revised draft is reviewed.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-self-os-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check if U.WorkPlan misuse recurs in Doc 02 (Methodology) or Doc 03 (Tribe); if pattern repeats ≥2 more times promote to AP-ENG table.
+  - cycle_50: If U.MethodDescription candidate → Ruslan ack flow works without recurrence, mark this rule validated.
+
+### 2026-05-17 — A.4 Temporal Duality: "simultaneous modes" is a spec violation
+
+1. **Decision:** When an FPF-described doc states a holon "exists in two modes simultaneously" (design-time + run-time), flag it as A.4:4 temporal invariant violation. The invariant `Tᴰ ∩ Tᴿ = ∅` is explicit. The correct framing is "alternates between" or "currently in run-time (with Foundation frozen as design artifact)." The confusion is common because Foundation LOCKED looks like both: it is a design artifact (Tᴰ output) that the run-time system relies on (Tᴿ).
+2. **Reasoning:** cycle task-fpf-describe-jetix-2026-05-17; §0 TL;DR of eng-integrator draft used "существует в двух режимах одновременно." A.4:4 specifies Tᴰ ∩ Tᴿ = ∅ and CC-A.4.1 requires tagging with current scope. Source: FPF-Spec.md A.4:4, CC-A.4.4.
+3. **Result:** Blocking correction R-2 raised; D-DOC01-ENG-2 dissent introduced. Fix = one sentence replacement. Effort: small.
+4. **Review:** partial — pending revision. Validate when revised draft reviewed.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — created from task-fpf-describe-jetix-2026-05-17-self-os-eng-critic
+- last-review: 2026-05-17
+- expected-evolution:
+  - cycle_10: Check for same pattern in Doc 04 (Corporation) and Doc 07 (E2E Overview) where Foundation-as-design vs cycles-as-runtime is described. If catches ≥2 instances, add to §3.1 Conformance Checklist as check #9.
+
 ### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — interface-card batch dispatch + A.14 typed-edge architectural decisions
 
 1. **Decision**: For Phase A-2 interface card authoring, accept 3-4 cards per single dispatch (vs 1 card = 1 dispatch). Total 10 cards in 3 dispatches (Parts 1-3 / 4-6 / 7-10). Each card §A-§H with A.14 typed dependency edges (NO generic "depends-on") + L/A/D/E lanes per FPF A.6.B + F-G-R per B.3.

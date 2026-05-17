@@ -27,6 +27,28 @@ Plus Evolution sub-block per FPF §3.5.
 
 ## Entries
 
+### 2026-05-17 — task-fpf-describe-jetix-2026-05-17 — sys-integrator Doc 01 Self-OS substrate
+
+1. **Decision:** Produced systems-integrator review of eng-integrator draft for Doc 01 Self-OS substrate. Core deliverables: (a) VSM S1–S5 mapping of Foundation Parts 1+5+8+9; (b) Meadows leverage-point ranking for info-processing loop (L6 = highest); (c) Ashby requisite-variety budget with explicit gap declaration; (d) four named feedback loops with polarity (R1 externalisation +, R2 compound +, B1 health correction − SEVERED, B2 attention-budget − weak); (e) D-DOC01-B validation confirming sync-table → feedback-loop reframing; (f) three new dissents D-DOC01-SYS-1/2/3.
+
+2. **Reasoning:** Eng-integrator draft was architecturally sound on component identification but incomplete on dynamic modelling. Key systemic finding: Part 8 Phase A STUB status severs B1 balancing loop entirely — substrate runs on two reinforcing loops (R1, R2) plus one weak balancing loop (B2). This is a reinforcing-dominant configuration — benign for early growth but fragile to R1 disruption (voice-pipeline outage, travel, energy depletion). VSM gap analysis reveals S2 as the most ACUTE operational gap (no daily-log directory materialised) even though S3 is the most structurally significant gap. Multi-timescale prerequisite-dependency chain (daily B3 → weekly R4 → monthly R3 → quarterly B4) was not visible in the eng-integrator diagram — this is a communication gap for L1 audience.
+
+3. **Result:** Draft written to `swarm/wiki/drafts/task-fpf-describe-jetix-2026-05-17-self-os-sys-integrator.md`. Acceptance predicate: FAIL on criteria 2 (Ashby) and 3 (VSM) for the eng-integrator draft; this review remedies both. Three dissents introduced (D-DOC01-SYS-1/2/3). Net recommendation: APPROVE-WITH-EDITS (5 specific edits enumerated). Five F-G-R triples produced (one per major claim).
+
+4. **Review:** Pending — brigadier integration and Ruslan review. Key test: do the D-DOC01-SYS-2 (S2 gap most acute) and D-DOC01-SYS-1 (B1 severed) dissents reach Ruslan's attention as actionable guidance for the next sprint? If S2 is materialised (daily-log directory created + minimal tracking habit started) within 30 days, D-DOC01-SYS-2 is partially resolved and the B1/S3 gap becomes the primary systems concern.
+
+#### Rules extracted
+
+`rule: vsm-stub-means-loop-severed-not-weakened` — When a VSM-level component (e.g. S3 health monitoring) is in STUB state (schema exists; live collection absent), the feedback loop it closes is effectively SEVERED, not merely weakened. The distinction matters for honest audit: a severed loop cannot produce corrective signal even if the schema is complete. Report as severed until live signal is evidenced.
+
+`rule: s2-gap-more-acute-than-s3-gap-at-phase-a` — In a single-owner system at Phase A, S2 coordination gaps (daily anti-oscillation, attention scheduling) are more immediately actionable than S3 control gaps (health monitoring schema). S2 gaps are addressable with a habit change + minimal file materialisation (same sprint). S3 gaps require Phase B investment. Prioritise S2 fixes first; S3 is the structural gap but not the urgent one.
+
+`rule: multi-timescale-loops-have-prerequisite-dependency` — When sync points between systems are reframed as feedback loops at different timescales, check for prerequisite-dependency chains: the fastest loop must be operational before the slowest loop's outputs can be trusted. Declare this chain explicitly in systems artefacts for L1 audiences who may otherwise interpret sync points as independent.
+
+#### Evolution
+- changelog:
+  - 2026-05-17 — task-fpf-describe-jetix-2026-05-17 sys-integrator Doc 01 added
+
 ### 2026-04-27 — cyc-foundation-build-2026-04-28 (Wave A+B) — integrator-merge synthesis pattern
 
 1. **Decision**: As Phase A-1 integrator, merged 20 candidate parts from 4 part-proposing experts (engineering / mgmt / investor / self) into 10 Foundation main parts using **Popper falsifier test** as deduplication criterion: "If this part did not exist as a separate part, what observable system behaviour would degrade?". Treated cross-cutting concerns (git discipline / provenance / rhythm / append-only / IP-1) as ambient disciplines, NOT parts (Popper test failed).
