@@ -224,3 +224,132 @@ graph TD
 - **NOT verification of Plurality book chapter details** — plurality.net 403'd; need next-pass dive
 
 **Word count:** ~1730
+
+---
+
+## §10 На человеческом — кто эти двое и зачем нам Plurality (added Cloud Cowork 2026-05-18)
+
+### §10.1 Кто такая Audrey Tang
+
+**Audrey Tang (唐鳳)** — одна из самых интересных фигур в digital governance мире.
+
+- **Тайвань, родилась 1981**, **трансгендер** (она используют she/her но open about identity)
+- **Hacker / programmer с 12 лет**, вышла из школы в 14, **self-taught**
+- Работала в **Perl community** (open-source) + several Silicon Valley startups в 20s
+- **Sunflower Movement 2014** — Taiwanese protest movement against закона, который рассматривался как pro-China. Audrey помогала через open-source civic tech.
+- **2016: Тайвань назначил её Digital Minister** — **первый трансгендер в кабинете** + **самый молодой министр** в истории Тайваня (35 лет)
+- Её работа: **civic tech + digital democracy + government-by-radical-transparency**
+- **Stepped down 2024** (новое правительство; теперь private practice + Plurality work)
+
+**Знаменита тем что:** во время **COVID** organized open-source mask-distribution system в Taiwan — **глобальный case study** how government can be **agile + transparent + tech-savvy**. Tайвань имел один из лучших COVID responses благодаря этому.
+
+**Философия:** «**radical transparency**» — все её правительственные meetings были **публично записаны** + опубликованы. Никаких back-room deals.
+
+### §10.2 Кто такой E. Glen Weyl
+
+**E. Glen Weyl** — американский **political economist** + tech-thinker.
+
+- **Princeton PhD economics**, был professor at Yale + University of Chicago
+- Сейчас работает в **Microsoft Research** — основал «Plural Tech Collaboratory»
+- **Founder of RadicalxChange** movement (radicalxchange.org)
+- **Co-author с Vitalik Buterin** знаменитого paper **«Decentralized Society (DeSoc): Finding Web3's Soul»** (May 2022) — где introduced **Soulbound Tokens (SBT)** concept
+- Книга **«Radical Markets»** (2018, с Eric Posner) — radical economic ideas (quadratic voting, COST, etc.)
+
+**Известен прежде всего как изобретатель / popularizer:**
+- **Quadratic Voting (QV)** — голосование где смallие contributions weighted heavier через square root function (mitigates tyranny of majority)
+- **Quadratic Funding (QF)** — funding mechanism для public goods (used by Gitcoin)
+- **Soulbound Tokens (SBT)** — non-transferable NFTs as identity attestations (см. research-adjacent cluster 5 substrate matrix)
+
+**Аналогия:** если Vitalik = builder + philosopher, Weyl = **economist-theorist** который придумывает mechanisms которые потом crypto people implementiruyut.
+
+### §10.3 Что такое Plurality (книга 2024)
+
+В **2024** Tang + Weyl + community опубликовали книгу:
+
+**«⿻ 數位 Plurality: The Future of Collaborative Technology and Democracy»**
+
+Что-то necessary explain про название:
+- **⿻** (Unicode «overlapping squares») — символ который Tang + Weyl используют как logo
+- **數位** = «digital» по-китайски (отражает Taiwan corner)
+- **Plurality** = философское понятие — «cooperation across differences» (сотрудничество с теми кто разный)
+
+**Что в книге:**
+- **Vision для digital technology** которая supports **democracy + cooperation** а не **polarization + inequality**
+- Drawing **на Taiwan's experience** (vTaiwan / Pol.is / digital democracy tools)
+- **Practical tools** + **philosophical foundation**
+
+### §10.4 ⭐ Почему сама книга = novel artifact
+
+**Это первая в истории книга которая одновременно:**
+
+1. **Open-source authored** — на GitHub (`pluralitybook/plurality`)
+2. **Public domain (CC0)** — свободно копируй, переводи, ремиксуй
+3. **Self-governed** — community of dozens of volunteers wrote majority
+4. **Переведена на 12+ языков** глобальной volunteer community
+5. **Tang + Weyl = bridge persons**, не «sole authors»
+
+**Почему important:** Это **proof-of-concept** что **серьёзная intellectual work** может быть produced открыто + распределённо + community-owned + бесплатно. Раньше серьёзные книги writers writing alone + publisher monopoly + copyright.
+
+Это **literal living example** того pattern которого мы хотим для Jetix («Pattern Language for Engineering Methodology» candidate).
+
+### §10.5 Конкретные tools которые они built
+
+**Pol.is** — augmented deliberation tool. Как работает:
+- Участники голосуют на statements (agree/disagree/skip)
+- Algorithm clusters opinions
+- **Surface cross-cluster consensus** (что-то на чём согласны даже opposing groups)
+- Used в **vTaiwan** + многих government deliberations глобально
+- **Free + open-source + production-ready**
+
+**vTaiwan** — Taiwan's digital democracy platform. Уже used для **regulating Uber + Airbnb + AI policy** в Тайване. **Real working example** of digital democracy.
+
+**Quadratic Voting / Funding** — Weyl's mechanisms. **Gitcoin** использует QF для funding open-source projects (миллионы $$$ за годы).
+
+### §10.6 Plurality ↔ Jetix overlap
+
+| Plurality element | Jetix аналог | Уровень |
+|---|---|---|
+| **Augmented deliberation (Pol.is)** | Workshop deliberation + multi-Clan coordination | **STRONG** — direct precedent |
+| **Open-source self-governed book** | Jetix open-source ethos + **«Pattern Language for Eng Methodology»** candidate | **DIRECT** — same model |
+| **CC0 public domain** | Jetix licensing (currently unclear; default permissive) | **OPPORTUNITY** |
+| **Quadratic mechanisms** | H8 trust mechanisms + Workshop revenue distribution (Mondragón parallel) | **STRONG** |
+| **SBT identity** (Weyl + Buterin 2022) | H8 substrate option (direction 07) | **DIRECT alternative** |
+| **«Cooperation across differences»** | Bilingual + cross-domain + multi-Clan | **STRONG** |
+| **Polarization mitigation** | AP-6 preserve dissent + R12 anti-extraction | **DIRECT** |
+
+**Чем отличается:**
+- Plurality = **democracy-tech** focus (government + civic); Jetix = **engineering-methodology-tech** focus
+- Plurality = government + civic primary; Jetix = engineering community + workshop primary
+- Plurality = deliberation-tools focus; Jetix = methodology-distribution focus
+
+### §10.7 Зачем нам Plurality конкретно
+
+**Сейчас (Phase 0-1, zero-cost):**
+
+1. **Read «Plurality» книгу** — free PDF (CC0), available on plurality.net + GitHub. ~3-5 часов read time. **Direct learning** для open-source authoring model + cooperation theory.
+
+2. **Pol.is pilot** для Workshop deliberation — **free + production-ready tool**. Можем pilot для **одной Workshop session** — surface multi-perspective consensus на FPF Pattern Language candidates. Zero cost, immediate feedback.
+
+3. **Quadratic Funding mental model** — даже если не implementаем mechanism, понимание **почему square root function фairer** = useful framework для thinking about revenue distribution в first Clan.
+
+4. **Открытое authoring как model для нашей книги** — если решим Phase 1 viral artifact, **Plurality recipe = exact precedent** (GitHub + CC0/CC-BY + community PRs + bilingual + bridge persons).
+
+**Phase 2 (когда Workshop demo strong):**
+
+5. **Pol.is pilot multi-session** — scale to multi-Clan deliberation
+6. **QF experiment** для Workshop revenue distribution — does it produce fairer outcomes than equal split?
+
+**Phase 3+:**
+
+7. **Plurality Institute exploratory contact** — Weyl + community могут быть interested в Jetix specifically as engineering-domain instance of Plurality philosophy. Cold outreach **только** после Workshop demo + Pattern Language artefact published.
+
+8. **Audrey Tang** — она reachable через Mastodon + ex-government роль. **Direct outreach можно consider Phase 2+** если у Jetix есть concrete demo + если есть Taiwan angle (engineer community contacts в Tайване).
+
+### §10.8 Резюме на 2 строки
+
+**Audrey Tang = ex-Digital Minister Taiwan + digital democracy practitioner** (Pol.is + vTaiwan). **Glen Weyl = political economist + изобретатель Quadratic Voting/Funding + SBT (с Buterin)**. **Plurality book** = их совместный proof-of-concept open-source community-authored CC0 book. Для Jetix = **готовый precedent** для нашей «Pattern Language for Engineering Methodology» book + **готовые tools** (Pol.is для deliberation, QF для revenue) + **philosophical alignment** на cooperation-across-differences.
+
+---
+
+*Plain English section added by Cloud Cowork 2026-05-18 per Ruslan request. Word count of §10: ~1150.*
+

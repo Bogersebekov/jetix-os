@@ -195,3 +195,129 @@ Brigadier-surfaced positioning option (per cluster 6 §7.1 open question): **Jet
 - **NOT outreach plan to Buterin** — R1 read-only
 
 **Word count:** ~1880
+
+---
+
+## §10 На человеческом — кто такой Бутерин и зачем нам d/acc (added Cloud Cowork 2026-05-18)
+
+### §10.1 Кто такой Vitalik Buterin
+
+Простыми словами — **создатель Ethereum** (второй по размеру crypto после Bitcoin) + один из самых влиятельных мыслителей в crypto-tech-philosophy.
+
+- Родился **1994 в Коломне** (Россия), вырос в Канаде
+- В **19 лет** написал whitepaper Ethereum (2013), запустили в 2015
+- Сейчас (2026) — Ethereum работает, обрабатывает миллиарды $ ежедневно, тысячи приложений построены поверх
+- **Vitalik = не CEO** (Ethereum decentralized), но de facto **главный мыслитель** + culture-setter
+- Его blog [vitalik.eth.limo](https://vitalik.eth.limo) — **must-read в crypto/tech-philosophy circles**
+
+**Почему он важен культурно:** Vitalik не просто строит technology, он **пишет философию** того как tech должна развиваться. Когда он публикует blog post — это часто становится framework который people adoptают как mental model.
+
+**Аналогия:** если Karpathy = технический герой-учитель в AI, то Vitalik = **philosophical heavyweight** в crypto + governance + tech-society space.
+
+### §10.2 Что такое e/acc (effective accelerationism)
+
+Чтобы понять d/acc — сначала про e/acc.
+
+В **октябре 2023** **Marc Andreessen** (известный VC, Netscape founder) опубликовал «Techno-Optimist Manifesto» — манифест что **технология = abso лютное благо**, нужно её **акселерировать** без оглядки на риски.
+
+Параллельно появился **e/acc movement** (effective accelerationism) — vibe-based tribe в Twitter / Bay Area:
+- **Pseudonymous фигура «Beff Jezos»** (позже разоблачён как Guillaume Verdon, ex-Google quantum physicist)
+- Slogan: «accelerate everything»
+- Anti-doomer, pro-AGI ASAP, free-market everything
+- **Контр-движение** к AI safety community (которые говорят «нам нужны guardrails, осторожнее с AGI»)
+
+### §10.3 Что такое d/acc
+
+**В ноябре 2023** Vitalik опубликовал **«My techno-optimism»** в ответ на e/acc.
+
+**d/acc** = «**d**ecentralized, **d**emocratic, **d**efensive (and **d**ifferentiated) **acc**eleration»
+
+Простыми словами:
+- **«Да, акселерация нужна»** (соглашается с e/acc base direction)
+- **НО:** «не вся технология одинакова. Выбираем ту, что усиливает **defense** (защита), а не **offense** (атака)»
+- **«И ту, что distributes power** (распределяет силу), а не **concentrates** (концентрирует)»
+
+Аналогия: если e/acc = «дави на газ, всё пройдёт само», то d/acc = «дави на газ **но в правильном направлении** — туда где мы можем защититься + где сила распределяется**».
+
+### §10.4 «d/acc: one year later» (Jan 2025) — что работает
+
+В **январе 2025** Vitalik написал retrospective — что за год работает:
+
+| Работает | Почему |
+|---|---|
+| **Open-source vaccines** + verifiable proof | Defense > offense (защита от болезней) |
+| **Community Notes** на Twitter | Distributed verification > centralized truth |
+| **Prediction markets** mainstreaming | Распределённое знание > expert capture |
+| **ZK-SNARKs** в government IDs | Privacy preserves power distribution |
+| **Account abstraction** в Ethereum | User-control > platform-control |
+| **Open-source medical imaging + BCI** | Defense + распределение медицинских capability |
+
+**Историческая аналогия Vitalik:** «**демократическая Швейцария + квази-анархистская Зомия**» (горные regions Юго-Восточной Азии где state-власть никогда не утвердилась) — **NOT feudal concentration**.
+
+### §10.5 d/acc vs Jetix — overlap
+
+**Что у нас совпадает с d/acc:**
+
+| d/acc принцип | Jetix аналог | Совпадение |
+|---|---|---|
+| Differential acceleration (выбираем что accelerate) | FPF prioritizes substrate-agnostic + R12-aligned | **STRONG** |
+| Defense > offense | Pre-mortem discipline + Default-Deny + R11 | **STRONG** |
+| Distribute power | **R12 anti-extraction** + Corrigibility + multi-Clan substrate | **DIRECT** |
+| Open-source ethos | wiki/ + Karpathy substrate + open licensing | **STRONG** |
+| Democratic verification | F-G-R provenance + AP-6 dissent + role-attestation | **MEDIUM** |
+| Anti-feudal (Switzerland + Zomia) | Mondragón + Kibbutz lineage (research-adjacent cluster 6) | **DIRECT analogy** |
+
+**Что отличает Jetix от d/acc:**
+- d/acc = **tech acceleration framing** (что строить); Jetix = **methodology substrate framing** (как мыслить)
+- d/acc = **crypto-native primary** (Ethereum, ZK, SBT); Jetix = **substrate-agnostic** (не привязан к crypto)
+- d/acc = **decentralized infrastructure** focus; Jetix = **engineering community** focus
+
+### §10.6 Что такое «m/acc» (positioning candidate)
+
+Brigadier surface'нул naming candidate: **«m/acc» = methodology accelerationism**.
+
+**Идея:** Jetix может positioned себя в этом «acc-разговоре» как **отдельная tribe** alongside e/acc + d/acc. Thesis:
+
+> «Accelerate engineering methodology distribution + AI co-readability + role-attestation — defensively + distributively — чтобы methodology mastery scales beyond entrenched certification economies (Six Sigma, Agile cert mafia, etc.).»
+
+**Pros:**
+- Получаем **готовую vocabulary** в meta-discourse (m/acc + d/acc + e/acc share namespace)
+- Counter-positioning vs Six Sigma / Agile commercialization (anti-extraction)
+- **Russian-English fit:** «м/уск» (м/ускорение) транслитерация работает
+
+**Cons:**
+- **Crypto-tribe perception risk** — m/acc может inherit crypto-association от e/acc + d/acc → может **отпугнуть** не-crypto methodology community (ШСМ + INCOSE + SEMAT)
+- «Acceleration» framing **conflicts** с methodology depth — methodology mastery = slow, не accelerate-friendly
+- Naming **gimmick risk** (помнят bunding, забывают substance)
+- Beff Jezos disclosure = pseudonym-tribe carry identity-management cost
+
+**Решение:** Ruslan picks. **Defer until Workshop demo strong** — без substantive deliverable любая acc-tribe positioning = пустая.
+
+### §10.7 Зачем нам Buterin / d/acc конкретно
+
+**Сейчас (Phase 0-1, zero-cost):**
+
+1. **Read Vitalik's blog** vitalik.eth.limo — особенно «My techno-optimism» (Nov 2023) + «d/acc one year later» (Jan 2025) + recent posts. Mental models = **highly transferable** к Jetix substrate decisions.
+
+2. **Follow @VitalikButerin Twitter** — он regularly публикует на governance / cooperation / public goods / methodology adjacencies.
+
+3. **Substrate decision input:** d/acc принципы — это **готовый framework** для нашей H8 (Trust Infrastructure) selection. «Defense > offense + distribute power» = excellent compass.
+
+**Phase 2 (когда Jetix demo strong):**
+
+4. **d/aDDy attendance** — d/acc Discovery Day на Devcon. Conference присутствие = neutral entry в community.
+
+5. **«m/acc» evaluation** — Ruslan-decided yes/no/defer как positioning hook.
+
+**Phase 3+:**
+
+6. **Cold outreach к Vitalik** возможен — но only если у нас есть substantive (Workshop + revenue + Pattern Language artefact). Vitalik **очень occupied**, time = wasted otherwise.
+
+### §10.8 Резюме на 2 строки
+
+**Vitalik = создатель Ethereum + философ-герой crypto/tech-philosophy.** d/acc = его framework «акселерируем технологию, но defensively + distributively, не offensively + concentrating». **Jetix values ⊆ d/acc values** на ~80% — это **готовый philosophical alignment** + possible naming hook («m/acc»), но **substrate решаем отдельно** (не привязываемся к crypto).
+
+---
+
+*Plain English section added by Cloud Cowork 2026-05-18 per Ruslan request. Word count of §10: ~1180.*
+
