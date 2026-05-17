@@ -428,3 +428,33 @@ Per R1 Tier 2: surface only. Ruslan decides.
 ---
 
 *Brigadier integration of 3 cells (eng × integrator FPF-loaded + phil × critic boundaries + mgmt × integrator org reality). §5.5.5 gate: provenance ✓ inline citations ✓ tier coherence ✓ dissents preserved per AP-6 ✓ non-recommendation R1 ✓. Output: `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md`.*
+
+---
+
+## §9 APPEND 2026-05-17 evening — Phase 0+ batch additions
+
+Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.5 + §0.6:
+
+### §9.1 Additional object candidate — O-21 Trust Infrastructure
+
+| # | Object name | FPF primitive (eng) | FPF Part hosting | FPF status | Org reality | Bounded context | Top claim F-G-R | Provenance |
+|---|---|---|---|---|---|---|---|---|
+| **O-21** | **Trust Infrastructure (NC-1 candidate)** — capability cluster заменяющая/дополняющая money-as-trust-medium | Capability cluster: A.2.8 Commitment × A.2.9 SpeechAct × A.2.1 RoleAssignment × A.10 Evidence × B.3 F-G-R × E.5 Guard-Rails × E.17 MVPK | Part A + E (multi-Part composition; H8 first Jetix insight requiring such) | задумка → прорабатывается | **aspirational** (substrate F4-partial; first Clan beta cohort TBD) | Holds: NC-1 wiki concept entry; H8 Octagon LOCK; positive face of R12 anti-extraction | F3 · trust-infrastructure-h8-candidate · `refuted_if_first_Clan_OR_L1_interaction_requires_money_as_primary_trust_basis OR role-attestation_mechanism_evidenced_inoperable_within_90d` | `raw/voice-memos-2026-05-17-batch/text_001@17-05-2026_22-00.md`; `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md` (H8 LOCK); `wiki/concepts/trust-infrastructure-positive-signaling.md` |
+
+**Status:** `Ruslan-acked-as-candidate-pending-architectural-decision` (D-07 deferred — O-21 new object vs sub-aspect O-11/O-13).
+
+### §9.2 O-05 NC-2 re-frame note
+
+O-05 Methodology candidate re-typing: **NC-2 «Jetix-as-road / protocol infrastructure»** — Ruslan voiced 16.05 (audio_670). Re-typing FPF primitive A.3.2 vs A.6.1 surfaced как D-08; reserved для Ruslan decision. NC-2 wiki concept entry: `wiki/concepts/jetix-as-road-protocol-infrastructure.md`.
+
+### §9.3 OQ-MASTER-8 Octagon naming resolved
+
+OQ-MASTER-8 (Hexagon vs Heptagon naming) **RESOLVED** by H8 LOCK 2026-05-17 → **Octagon (8) canonical from this LOCK forward** per `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md` §11.
+
+### §9.4 OQ-MASTER-7 (ROY swarm) + OQ-T4-4 (legacy roster) resolved
+
+Per Ruslan ack §0.6 — legacy 12-agent roster **DEPRECATED-2026-05-17** + ROY swarm canonical в CLAUDE.md ## Active ROY Swarm section. AWAITING-APPROVAL packet `swarm/awaiting-approval/legacy-12-agents-deprecation-2026-05-17.md`. OQ-MASTER-7 + OQ-T4-4 RESOLVED.
+
+---
+
+*Append-only per phase-0-plus batch execution. Original §1-§8 preserved. §5.5.5 gate: provenance ✓ inline / Ruslan ack §0.5+§0.6 explicit / O-21 candidate status pending D-07 architectural decision.*

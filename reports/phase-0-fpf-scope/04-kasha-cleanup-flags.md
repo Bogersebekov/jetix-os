@@ -383,3 +383,56 @@ For each flag, available append-only actions (Ruslan picks):
 ---
 
 *Brigadier integration of 3 cells (phil × critic 42 items + 7 XD + 4 pre-Foundation + 4 UM + 6 dissents; eng × critic 31 concrete items + API scan; mgmt × critic 36 FVA + 7 portfolio + 7 SA + 5 DF + 8 PH + 9 RF + 9 ST + 4 dissents). **~80 unique items** after deduplication. §5.5.5 gate: provenance per row ✓ append-only suggestions ✓ no actions chosen ✓ R1 compliant ✓ dissents preserved per AP-6 ✓ API scan run + CLEAN. Output: `reports/phase-0-fpf-scope/04-kasha-cleanup-flags.md`.*
+
+---
+
+## §16 APPEND 2026-05-17 evening — Ruslan acks deprecation/resolution markers
+
+Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.3 + §0.6 + §0.7. **§1-§15 preserved per append-only.** This section adds deprecation / resolution markers per item.
+
+### §16.1 Critical items §1 — status updates
+
+| # | Item | Status update |
+|---|---|---|
+| CR-01 | LIVE INCONSISTENCY ICP fork | **RUSLAN-DEPRIORITIZED-2026-05-17** — «Pohuy на старое»; Doc 1B §7 не trog'ается; not active blocker |
+| CR-02 | `design/JETIX-FPF.md` dead-link | Still open; not deprioritized; needs AWAITING-APPROVAL packet (separate) |
+| CR-03 | `decisions/AUDIT-CURRENT-STATE-2026-04-27.md` missing | Still open; minor cleanup; deferred |
+| CR-04 | Master plan brief archived | Still open; same as CR-02 cluster |
+| CR-05 | Strategic Council 7-day window elapsed | **RUSLAN-CLOSED-2026-05-17** — «послание уже отправлено, pohuy на старое» |
+| CR-06 | Tseren+Levenchuk outreach overdue | **RUSLAN-CLOSED-2026-05-17** — same as CR-05 (per §0.3 ack) |
+| CR-07 | EP-5 F-grade semantic drift | **RUSLAN-DEPRIORITIZED-2026-05-17** as active patch action — disclosure discipline preserved где applied; «удаляй нахуй» per §0.3 |
+| CR-08 | «12 agents» role-type vs executor | **RESOLVED-2026-05-17** — T6 legacy 12 agents DEPRECATED + ROY swarm canonical в CLAUDE.md |
+| CR-09 | active-projects.json stale 33d | Still open; deferred (lower-priority cleanup) |
+| CR-10..CR-12 | TRM resources / count inconsistencies | Still open; deferred |
+
+### §16.2 Phase namespace PH-01..PH-08 — RESOLVED-by-LOCK
+
+**PH-01 / PH-02 / PH-03 / PH-04 / PH-05 / PH-06 / PH-07 / PH-08** все **RESOLVED-by-LOCK-2026-05-17** per `decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md`. Prefix convention LOCKED (Workshop-Phase-N / Commercial-Phase-N / Agent-Deploy-Phase-N DEPRECATED / Swarm-Phase-A/B/C / Phase-0-FPF-Scope / Phase-0-Plus). Workshop + ACTION-PLAN docs received append-only clarifications. Foundation Parts deferred (R2 protected).
+
+### §16.3 SA-07 / ST-05 Strategic Council related — CLOSED
+
+**SA-07** (Strategic Council overdue tracker) + **ST-05** (Strategic Council formation status check) → **RUSLAN-CLOSED-2026-05-17** per §0.3 ack.
+
+### §16.4 ST-04 Aisystant — CLOSED-by-decision
+
+**ST-04 B2 Aisystant subscription** → **CLOSED-by-decision-2026-05-17** per Ruslan 17.05 evening «IWE chat rejected, only materials» memory rule.
+
+### §16.5 New kasha flags introduced этого batch
+
+| # | Item | Source | Status |
+|---|---|---|---|
+| NEW-K-01 | Oscar Hartmann CRM-add | audio_673 voice batch 17.05 | RESOLVED-2026-05-17 (T8 — updated existing crm/people/oskar-khartmann.md с partnership-candidate frame + resource profile) |
+| NEW-K-02 | «Нанимаем звёзд» Phase C+ hiring intent | audio_673 | tracking-gap; Phase C remit; deferred |
+| NEW-K-03 | Gaming ontology «закинуть в систему» | audio_671 | RESOLVED-as-wiki-idea (T1 — wiki/ideas/gaming-team-ontology-source-domain-2026-05-17.md) + engineering-thinking P3 scope |
+| NEW-K-04 | Macro-societal audio_669-670 routing | audio_669-670 | RESOLVED-as-wiki-idea (T1 — wiki/ideas/macro-societal-vision-states-communities-2026-05-17.md) + D-MGMT-VOICE-1 routing ambiguity surface |
+
+### §16.6 Cumulative resolution count
+
+- **RESOLVED этого batch:** PH-01..PH-08 (8 items) + CR-08 + NEW-K-01 + NEW-K-03 + NEW-K-04 = **12 items resolved**
+- **DEPRIORITIZED этого batch:** CR-01 + CR-07 = **2 items deprioritized** (preserved в backlog, not active)
+- **CLOSED-by-decision этого batch:** CR-05 + CR-06 + ST-04 + ST-05 + SA-07 = **5 items closed**
+- **Still open (carried to next batch):** CR-02 / CR-03 / CR-04 / CR-09 / CR-10 / CR-11 / CR-12 + most §2 / §3 / §4 categories = **~50+ items carried**
+
+---
+
+*Append-only deprecation/resolution markers section. §1-§15 preserved verbatim. Ruslan ack via `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.3 + §0.6 + §0.7 explicit.*

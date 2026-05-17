@@ -234,3 +234,66 @@ constitutional_posture: R1 surface-only + R2 Foundation read-only + R6 provenanc
 ---
 
 *Brigadier integration of 3 cells (eng × scalability single navigable artefact + mgmt × integrator org coherence + phil × critic epistemic discipline). §5.5.5 gate: provenance ✓ / EP-1..EP-5 disclosures ✓ / LIVE-FLAG surfaced ✓ / BLOCKED sources flagged ✓ / dissents preserved AP-6 ✓ / R1 surface-only ✓. Word count: ~1900 ≤ 2000 budget. 5 diagrams в `diagrams/`. L1 read time: 10 minutes.*
+
+---
+
+## §8 APPEND 2026-05-17 evening — Phase 0+ batch updates
+
+Per Ruslan acks `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` (full evening cycle).
+
+### §8.1 §QR-CARD critical blockers — UPDATED
+
+| Original (above) | Status post-Ruslan-ack 2026-05-17 evening |
+|---|---|
+| 1. **LIVE-FLAG ICP** (Doc 1B vs ACTION-PLAN) | **RUSLAN-DEPRIORITIZED-2026-05-17** — «Pohuy на старое». NOT active blocker. |
+| 2. **EP-5 F-grade disclosure** | **RUSLAN-DEPRIORITIZED-2026-05-17** as active patch — disclosure discipline preserved где applied. |
+| 3. **B2 Aisystant unblock** | **CLOSED-by-decision-2026-05-17** — IWE materials-only mode. |
+| 4. **«24-48h critical» Tseren/Levenchuk** | **RUSLAN-CLOSED-2026-05-17** — «послание уже отправлено» per §0.3. |
+
+**Net active blockers post-batch: 0** (все 4 carried forward Phase 0 §QR-CARD blockers RESOLVED or DEPRIORITIZED этого batch).
+
+### §8.2 New canonical references this batch
+
+- **H8 Strategic Insight LOCKED** → `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md` (Octagon 8th vertex; XD-03 resolved)
+- **NC-1 Trust Infrastructure** → `wiki/concepts/trust-infrastructure-positive-signaling.md` (concept)
+- **NC-2 Jetix-as-road / protocol infrastructure** → `wiki/concepts/jetix-as-road-protocol-infrastructure.md` (concept; O-05 re-frame candidate)
+- **O-21 candidate** added к inventory §9.1 (`01-jetix-objects-inventory.md` append)
+- **Strategic Directions captured** → `decisions/STRATEGIC-DIRECTIONS-VOICE-17-2026-05-17.md` (SD-01..SD-06)
+- **Phase Namespace Convention LOCKED** → `decisions/PHASE-NAMESPACE-CONVENTION-2026-05-17.md`
+- **Legacy 12 agents DEPRECATED** → `swarm/awaiting-approval/legacy-12-agents-deprecation-2026-05-17.md` + `.claude/agents/_archived/` + CLAUDE.md updates
+- **11 wiki entries promoted** (Tier A/B/C all) — see `wiki/log.md` 2026-05-17 entry
+
+### §8.3 OQ-MASTER updates
+
+| OQ | Status |
+|---|---|
+| OQ-MASTER-1 (load-bearing «Jetix» primary referent) | Still open — Phase 0 master surface only; Ruslan decides Phase 0+ continuation |
+| OQ-MASTER-2 (ICP fork resolution) | **CLOSED — Ruslan deprioritized** per §0.3 |
+| OQ-MASTER-3 (EP-5 disclosure system-wide) | **CLOSED — Ruslan deprioritized** as active patch; disclosure where applied preserved |
+| OQ-MASTER-4 (Foundation typing D-2) | Still open — deferred к next FPF research cycle |
+| OQ-MASTER-5 (Workshop A.1.1) | Still open |
+| OQ-MASTER-6 (R12 surface к FPF community) | Still open — folded into H8 §6.1 H.3 hypothesis option |
+| OQ-MASTER-7 (ROY swarm disclosure) | **RESOLVED** — CLAUDE.md ## Active ROY Swarm section этого batch |
+| OQ-MASTER-8 (Hexagon vs Heptagon naming) | **RESOLVED** → Octagon canonical per H8 §11 |
+| OQ-MASTER-9 (C4 benchmark timing) | **CLOSED-by-decision** — Aisystant materials-only |
+| OQ-MASTER-10 (Phase namespace) | **RESOLVED** → `PHASE-NAMESPACE-CONVENTION-2026-05-17.md` |
+
+**Open OQ count post-batch: 3** (OQ-1, OQ-4, OQ-5; down from 10).
+
+### §8.4 5 adjacent-possible — re-evaluated
+
+Updated post-batch:
+- ~~O-01 auto-KB~~ (still relevant; not pursued этого batch)
+- **O-04 first client (highest variety impact)** — still primary
+- ~~O-09 NQD-CAL alternatives~~ (gaming ontology research scoped в engineering-thinking P3 per SD-05)
+- ~~O-10 ICP fix~~ — Ruslan deprioritized (§0.3)
+- **O-11 R12 ack** — still relevant (H8 LOCK strengthens; R12 enforcement still vapor)
+- **NEW O-21 Trust Infrastructure** — added candidate; Phase C remit
+
+### §8.5 Word count audit
+
+Original master = ~1900 words ≤ 2000 budget. This append = ~500 words. Total post-append = ~2400 (outside budget but explicitly append-only audit trail, not L1 publication content). L1 publication freshly drafted version recommended вместо append-extended master для next outreach cycle.
+
+---
+
+*Append-only Phase 0+ batch updates. Original §0-§7 preserved verbatim. Ruslan ack via `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` full evening cycle.*
