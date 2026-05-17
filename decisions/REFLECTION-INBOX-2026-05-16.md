@@ -76,6 +76,24 @@ dual_routed_to:
 
 ---
 
+### Append from voice batch 17.05 — 2026-05-17 (brigadier-integrated phil × critic)
+
+> Source: `prompts/voice-pipeline-2026-05-17-fpf-filtered.md` Stage 3 reflection routing. Cell draft: `swarm/wiki/drafts/task-voice-pipeline-2026-05-17-philosophy-critic-reflection-batch.md` §2.
+
+#### A8. Discovery joy mode — «как интересно получается»
+
+- **Source.** `raw/voice-transcripts/audio_673@17-05-2026_19-49-05.txt` (открытие); + парный паттерн в `raw/voice-memos-2026-05-17-batch/text_001@17-05-2026_22-00.md` (opening «Ебать мой хуй, что интересно получается»).
+- **Контекст.** «Ух-ух блять как интересно получается... это реально гениально». Discovery joy state когда Ruslan находит что-то большое.
+- **Rationale.** Affect-signature peak state — не factual evidence о quality of insight. Self-OS marker (one of peak states). [F: F1 · affect-discovery-mode · phil cell §4]
+
+#### A9. Гнев / возбуждение против государства как системы
+
+- **Source.** `raw/voice-transcripts/audio_670@16-05-2026_15-00-42.txt` (середина — фрагмент про «намордник» + «по новой создать»).
+- **Контекст.** «Надо на всех этих мразей намордник натянуть... по новой просто всё создать... Китай, Америку — всю эту залупу мне похуй разодрать нахуй».
+- **Rationale.** Strong аффективный discharge против институциональных структур (гнев + revolutionary excitement). NOT стратегический plan — affect state. Reflection-relevant: насколько этот гнев = fuel vs drain. [F: F2 · interpretive]
+
+---
+
 ## §B — Личные наблюдения о себе
 
 ### B1. Год трекинга времени — milestone
@@ -119,6 +137,34 @@ dual_routed_to:
 - **Source.** `audio_93@19-04-2026_06-01-05.ogg` (фрагмент конца)
 - **Контекст.** «Когда по ебалу прилетает — сразу запоминаешь, настораживаешься. Когда всё летит — наоборот не настораживаешься. Может быть опасно. Важно помнить везде — в создании компании, в изучении, в действиях.»
 - **Rationale.** Self-pattern recognition: cognitive bias в успех-mode.
+
+---
+
+### Append from voice batch 17.05 — 2026-05-17 (brigadier-integrated phil × critic)
+
+#### B8. «Человек-армия» — личная identity через Тарасова
+
+- **Source.** `raw/voice-transcripts/audio_669@16-05-2026_13-46-17.txt` (последняя треть).
+- **Контекст.** «Это вот человек армия — это вообще гениальнейшая выражение сука, его надо разобрать ещё очень детально. Тарасов гений».
+- **Rationale.** Ruslan нашёл в чужой концепции (Тарасов «человек-армия») личный identity-frame: один человек = developer + consumer своей жизни. Observation о себе через метафору — не просто Jetix-теория. [F: F2 · self-observation-via-metaphor · phil cell §2 B-NEW-1]
+
+#### B9. «Я — система Руслан» — identity-as-system самоопределение
+
+- **Source.** `raw/voice-transcripts/audio_672@17-05-2026_18-59-52.txt` (фрагмент в конце).
+- **Контекст.** «Составить надо какой-то вот единственный документ... я я система такая то я система Руслан там начинает как-то работать вместе с системой Цэрэн и Анатолий».
+- **Rationale.** Self-OS moment: Ruslan переводит собственную идентичность в FPF-онтологию. Use-mention slip (см. §3 phil cell): FPF «система» применяется к себе как stakeholder + субъект одновременно. Dual-routed (eng track как FPF mapping, reflection как identity-frame). [F: F2 · identity-as-system · phil cell §2 B-NEW-2]
+
+#### B10. Стиль познания через онтологии и таксономии
+
+- **Source.** `raw/voice-transcripts/audio_671@17-05-2026_01-07-28.txt` (целиком).
+- **Контекст.** «Говорить на одном языке, на одном словаре — это раз. И второе — знать чётко роли друг друга. Вот по Левенчуку это вот как раз крутое наблюдение».
+- **Rationale.** Observation о когнитивном стиле: Ruslan структурирует мир через системные онтологии (словарь, роли). Геймерские тусовки как пример — интуиция о развитой role-ontology. Self-observation о том как он learn'ит. [F: F2 · self-cognition-style · phil cell §2 B-NEW-3]
+
+#### B11. Trust-mechanism insight — possible motivated reasoning под стратегическим тезисом (calibration note)
+
+- **Source.** `raw/voice-memos-2026-05-17-batch/text_001@17-05-2026_22-00.md` (целиком).
+- **Контекст.** Тезис «деньги — плохой trust signal; FPF + открытость + роли работают лучше» при cross-ref с B3 (16.05: «свобода ограничена финансами») — может быть частично мотивирован личным опытом ограниченных ресурсов. Система где Ruslan ценится без денег = система где он конкурентоспособен прямо сейчас.
+- **Rationale.** Calibration note, NOT invalidation insight. Идея может быть объективно ценной независимо от emotional roots. Но reflection-relevant: тема trust = собственная боль. [F: F2 · interpretive · phil cell §5 layer 2]
 
 ---
 
@@ -291,6 +337,22 @@ dual_routed_to:
 - **Source.** `audio_89@14-04-2026_11-46-54.ogg` + `audio_92@18-04-2026_02-13-30.ogg`
 - **Контекст.** «Work-хата надо, своё пространство, дом целый. Ощущение приватности владения. Отсутствие долбоёбов. Личная хата базово — ты приходишь домой, тишина, пахнет чем ты настроил, никто не подпиздывает. Расслабленность, безопасность.»
 - **Rationale.** Lifestyle/environment vision + state-prerequisite for deep work.
+
+---
+
+### Append from voice batch 17.05 — 2026-05-17 (brigadier-integrated phil × critic)
+
+#### F7. Видение себя как «того кто зафиксирует что делать» глобально
+
+- **Source.** `raw/voice-transcripts/audio_670@16-05-2026_15-00-42.txt` (финальная часть).
+- **Контекст.** «Умнейших людей которые должны могут решить этот вопрос хватает. Не хватает просто вот как раз их сотрудничества... Что я с радостью могу вот вам зафиксировать, показать, рассказать».
+- **Rationale.** Vision о своей роли: не строитель системы как таковой, а «тот кто ставит правильный вопрос умным людям + указывает направление сотрудничества». Aspirational self-identity (coordinator of smart people), не текущая роль. Граница self-belief / hyperbole — phil cell §3 use-mention slip note: register мессианский. [F: F2 · vision-self-in-world · phil cell §2 F-NEW-1]
+
+#### F8. Aspirational identity-community — «новый порядок системных мыслителей / пользователей Jetix»
+
+- **Source.** `raw/voice-memos-2026-05-17-batch/text_001@17-05-2026_22-00.md` (§2 para 4).
+- **Контекст.** «Вот этот новый возможный порядок системных мыслителей — ну или же вот пользователей Jetix — тоже можно будет потом использовать и описать».
+- **Rationale.** Aspirational self-placement: Ruslan видит себя как часть/инициатора нового порядка где trust = role-attestation + открытость, не капитал. Желаемая identity-community где он «свой» за счёт компетенции а не капитала. [F: F2 · interpretive · phil cell §5 layer 4]
 
 ---
 
