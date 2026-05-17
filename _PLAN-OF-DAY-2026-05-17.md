@@ -52,9 +52,16 @@ language: russian
 
 ---
 
-## 🛠️ Какие prompts сегодня запускаем
+## 🛠️ Какие prompts / runs сегодня запускаем
 
-### Сегодня — **ОДИН** prompt: **Phase B**
+### Параллельно **ДВА** run'a:
+
+**Run 1 — Phase B (server CC, claude -p autonomous)**
+**Run 2 — `/ultrareview` (multi-agent cloud swarm review)** — Ruslan-triggered, billed, не Claude Code
+
+---
+
+### Run 1 — Phase B (server CC autonomous)
 
 - **Prompt file:** [`prompts/fpf-iwe-phase-b-2026-05-17.md`](prompts/fpf-iwe-phase-b-2026-05-17.md)
 - **Explanation file (ОБЯЗАТЕЛЬНО ЧИТАТЬ ПЕРВЫМ):** [`_EXPLAIN-PHASE-B-PROMPT-2026-05-17.md`](_EXPLAIN-PHASE-B-PROMPT-2026-05-17.md)
@@ -63,9 +70,43 @@ language: russian
 
 **Почему ОДИН prompt а не 6 разных:** шаги имеют чёткие зависимости (§2 → §3 → §4 → §5 → §6), splitting на 6 promptov добавит overhead context loading × 6 без выгоды. Один autonomous run = эффективнее. Если в середине Ruslan хочет course correct — interrupt + relaunch с new prompt.
 
+---
+
+### Run 2 — `/ultrareview` (multi-agent swarm)
+
+- **Что это:** multi-agent cloud review of current branch — весь рой прокаченный, не одна Claude Code сессия. Cloud-based, billed.
+- **Кто запускает:** Ruslan сам командой `/ultrareview` (no-arg = bundles local main branch). Cloud Cowork (я) технически НЕ может запустить — это user-triggered.
+- **Где запустить:** в любой Claude Code сессии — open new chat / terminal → type `/ultrareview` → enter.
+- **Что делает:** агенты роя независимо проверяют current state (Phase A артефакты, Phase B prompt, working files), surface'ат gaps / contradictions / improvements.
+- **Зачем параллельно Phase B:** Phase B = forward synthesis (создаём pack-for-l1). /ultrareview = retrospective sweep (проверяем что не упустили / где косяк). Двойная проверка.
+- **Когда output:** /ultrareview работает в фоне cloud, результат приходит когда завершится (обычно 10-30 минут).
+
+---
+
 ### Завтра утром (после Phase B finish):
 - **Letter finalization** — Ruslan-authored, не отдельный server CC prompt (это его работа)
 - **Pack отправка** — Ruslan-authored
+
+---
+
+## 🔀 Dual-run logic
+
+| Параметр | Run 1 — Phase B (claude -p) | Run 2 — `/ultrareview` (swarm) |
+|---|---|---|
+| Кто запускает | Cloud Cowork готовит / Ruslan launch'ает в tmux | Ruslan сам командой `/ultrareview` |
+| Тип | Single autonomous agent (claude -p) | Multi-agent cloud swarm |
+| Direction | Forward synthesis (создаём artifacts) | Retrospective sweep (review existing) |
+| Где работает | Local Windows tmux | Cloud (external compute) |
+| Billing | Anthropic Max subscription (включено) | Billed per run |
+| Output | 15-20 файлов в repo, commits + push | Review report (delivered когда swarm finish) |
+| Время | 8-12 часов | ~10-30 минут |
+| Конфликты | НЕТ — разные namespace artifacts | НЕТ — read-only review |
+
+**Порядок launch (не критичен — параллельны):**
+1. Ruslan читает `_EXPLAIN-PHASE-B-PROMPT-2026-05-17.md`
+2. Ruslan launch'ает `/ultrareview` (отдельная chat / terminal) — пусть в фоне идёт
+3. Ruslan launch'ает Phase B (tmux + claude --dangerously) — long autonomous
+4. К 8:00 18.05 оба готовы → Ruslan собирает финальный pack
 
 ---
 
@@ -78,6 +119,7 @@ flowchart TB
     PLAN["План дня + Explanation files"]:::plan
     ACK{"Ruslan ack<br/>explanation?"}:::ack
     LAUNCH["Launch Phase B<br/>tmux + claude dangerous"]:::launch
+    ULTRA["⚡ /ultrareview<br/>(swarm cloud review)"]:::ultra
 
     subgraph PHASEB["Phase B server CC autonomous (8-12h)"]
         S1["§1 FPF tighten v2<br/>+ freshness sync upstream"]:::step
@@ -96,10 +138,15 @@ flowchart TB
     FINISH["Phase B SUMMARY<br/>+ pack-for-l1 готов"]:::finish
     MORNING["18.05 утро<br/>Ruslan finalize letters<br/>отправка к 8:00"]:::morning
 
+    URL["Swarm review report<br/>(~10-30 min)"]:::ultraout
+
     START --> PLAN --> ACK
     ACK -->|"go"| LAUNCH --> S1 & S2
+    ACK -->|"go"| ULTRA --> URL
     ACK -->|"course correct"| PLAN
-    S6 --> FINISH --> MORNING
+    S6 --> FINISH
+    URL --> FINISH
+    FINISH --> MORNING
 
     classDef start fill:#e8eaf6,stroke:#283593,stroke-width:2px
     classDef plan fill:#e3f2fd,stroke:#1565c0,stroke-width:2px
@@ -108,6 +155,8 @@ flowchart TB
     classDef step fill:#e0f2f1,stroke:#00695c,stroke-width:1px
     classDef finish fill:#e1f5fe,stroke:#01579b,stroke-width:2px
     classDef morning fill:#f1f8e9,stroke:#33691e,stroke-width:2px
+    classDef ultra fill:#ffe0b2,stroke:#e65100,stroke-width:3px
+    classDef ultraout fill:#fff3e0,stroke:#e65100,stroke-width:1px
 ```
 
 ---

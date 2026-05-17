@@ -228,6 +228,20 @@ flowchart TB
    - ⚠️ «стой, change X» → я меняю prompt + re-explain, потом launch
    - ❌ «не сейчас» → ждём
 
+### Параллельный run — `/ultrareview` (swarm)
+
+Дополнительно к Phase B (claude -p, single agent) — Ruslan запускает `/ultrareview` в отдельной Claude Code сессии:
+- Multi-agent cloud swarm review
+- Retrospective sweep current state (Phase A артефакты, Phase B prompt, working files)
+- ~10-30 минут в фоне
+- Independent от Phase B — параллельно, не конфликтуют
+
+**Кто запускает:** Ruslan сам. Cloud Cowork (я) НЕ может — это user-triggered + billed.
+
+**Команда:** в любой Claude Code session / new chat → `/ultrareview` → enter (без аргументов = bundles local main branch)
+
+---
+
 ### Launch команды (после ack)
 
 ```
