@@ -1,10 +1,25 @@
 ---
 type: log
-updated: 2026-05-17
+updated: 2026-05-19
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-19] [voice-pipeline-batch-4] Tier A auto-promotions | entries: +6
+
+- Per voice-pipeline-2026-05-19-batch-4 Phase 5 (6 audio 18-19.05): F4+ confidence + clear voice anchors
+- **6 concepts (Tier A):**
+  - `concepts/offline-workspace-6-elements.md` (O-30 — 6 functions: creative/sport/sleep/food/office/learning)
+  - `concepts/table-of-hundreds-outreach.md` (O-31 — 150-300 contacts × 10-20/day cadence)
+  - `concepts/two-stage-launch-protocol.md` (O-34 — elite plan-mode → mass spread)
+  - `concepts/numerical-targets-eoy-2026.md` (O-36 — 1M / $1B / 100M user-hours)
+  - `concepts/equal-conditions-hackathon.md` (O-40 — Rawlsian fairness design)
+  - `concepts/cascade-150-to-15-amplification.md` (O-31+O-36 math)
+- **Phase 0 inventory §14 APPEND:** 12 new candidate objects O-30 to O-41 surfaced (6 Tier A promoted + 5 Tier B Ruslan-ack pending + 1 Tier C deferred)
+- Tier B Ruslan-ack queue: anti-sisyphus / responsibility-era H9 / brain-extension / 6-resource-investor / 5-step-pizdaty
+- AWAITING-APPROVAL packets queued: O-35 Virtual State Legal (Balaji deferred trigger) + O-39 H9 Responsibility-Era (Octagon LOCK)
+- Engineer workshop = explicit current STOPPER acknowledged (F5; BL-1 immediate priority)
 
 ## [2026-05-17] [phase-0-plus-ruslan-acks] voice-batch-17.05 wiki promotion | entries: +11
 - Per Ruslan ack `prompts/phase-0-plus-ruslan-acks-2026-05-17.md` §0.1: «ВСЕ wiki candidates Tier A/B/C → ACK PROMOTE»

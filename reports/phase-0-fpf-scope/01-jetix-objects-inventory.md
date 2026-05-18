@@ -952,3 +952,54 @@ R1 surface (F3-candidate surfacing, not promotion) + R2 (Foundation read-only pr
 
 *§13 appended by brigadier per hackathon-platform-deep-research-2026-05-18 Phase 8 closure. R1 + R6 + R11 + R12 + EP-5 + append-only preserved.*
 
+---
+
+## §14 APPEND-2026-05-19 — voice-pipeline-2026-05-19-batch-4 (12 NCs O-30 to O-41)
+
+### §14.1 Batch-4 trigger
+
+- **Source.** 6 voice dictations 18-19.05 (`raw/voice-memos-2026-05-19-batch/audio_682-687.md`)
+- **Run.** `reports/voice-pipeline-2026-05-19-batch-4/` (5 reports + SUMMARY)
+- **Constitutional posture.** R1 surface + R2 read-only + R6 provenance + R11 Default-Deny + EP-5
+
+### §14.2 12 new candidate objects (O-30 to O-41)
+
+| # | Object | F | Tier | Source (audio) |
+|---|---|---|---|---|
+| O-30 | Offline Workshop Infrastructure (Склад / 6 functions) | F4 | A | audio_682+683+687 |
+| O-31 | Table-of-Hundreds Outreach Queue (150-300 contacts × 10-20/day) | F4 | A | audio_682+686 |
+| O-32 | Berlin Grundstück / Local Geographic Anchor (subsumed under O-30) | F3 | C | audio_683 |
+| O-33 | Meaning-Making Substrate (Anti-Sisyphus) | F3 | B | audio_684 |
+| O-34 | Two-Stage Launch Protocol (elite plan-mode → mass spread) | F4 | A | audio_685 |
+| O-35 | Virtual State Legal Foundations (Network State adjacent) | F2 | B | audio_685 |
+| O-36 | Numerical Targets Anchor (1M / $1B / 100M user-hours by EOY 2026) | F2 aspirational / F4 cascade math | A | audio_686 |
+| O-37 | 6-Resource Investor Model (lawyers / financiers / crypto / AI / philosophy + 1 TBD) | F3 | B | audio_686 |
+| O-38 | Engineer Workshop Bottleneck (current STOPPER — Ruslan-explicit) | F5 | A | audio_686 |
+| O-39 | Responsibility-Era Thesis (H9 candidate) | F3 | B | audio_687 (+ audio_684 unification) |
+| O-40 | Equal-Conditions Hackathon Protocol (Rawlsian veil) | F4 | A | audio_687 |
+| O-41 | Brain Extension / Skill-vs-Memory Framework | F4 | B | audio_687 |
+
+### §14.3 Tier breakdown
+- **Tier A immediate (auto-promote in batch-4 Phase 5):** O-30 / O-31 / O-34 / O-36 / O-38 / O-40 — 6 candidates
+- **Tier B Ruslan-ack required:** O-33 / O-35 / O-37 / O-39 / O-41 — 5 candidates
+- **Tier C defer (subsumed):** O-32 — 1 candidate
+
+### §14.4 Updated inventory state
+
+- Pre-batch-4 (post §13): 14 acked + 4 prior candidates (O-21-24) + 5 NEW candidates (O-25-29) = 23 objects (9 candidates pending)
+- Post-batch-4: 14 acked + 4 (O-21-24) + 5 (O-25-29) + 12 NEW (O-30-41) = **35 objects (21 candidates pending)**
+
+### §14.5 Decision path forward (R1 surface)
+- 6 Tier A wiki concept promotions in Phase 5 (no further ack)
+- 5 Tier B require Ruslan ack — surfaced в batch-4 SUMMARY top-12 decision items
+- 2 AWAITING-APPROVAL packets queued: O-35 (Virtual State) + O-39 (H9 Octagon LOCK candidate)
+- Critical path identified: O-38 Engineer Workshop Bottleneck = immediate primary unblock; cascade through O-30 workshop + O-31 outreach + O-36 targets
+
+### §14.6 Constitutional posture
+
+R1 surface (candidate surfacing, not promotion) + R2 (Foundation/Pillar C/Octagon LOCK read-only preserved) + R6 (per-claim voice anchor cited) + R11 (Default-Deny for novel actions) + EP-5 (F-grade explicit; F2-F5 spread) + append-only ✓.
+
+---
+
+*§14 appended by brigadier per voice-pipeline-2026-05-19-batch-4 Phase 5. R1 + R6 + R11 + EP-5 + append-only preserved.*
+
