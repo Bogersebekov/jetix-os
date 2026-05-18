@@ -1,0 +1,44 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+flowchart LR
+  subgraph plan["PLAN-MODE (9 processes primary)"]
+    P1[1. Stakeholder<br/>Expectations]
+    P2[2. Technical<br/>Requirements]
+    P3[3. Logical<br/>Decomposition]
+    P4[4. Design Solution<br/>Definition GAP]
+    P10[10. Technical<br/>Planning]
+    P11[11. Requirements<br/>Management]
+    P13[13. Technical Risk<br/>Management]
+    P16[16. Technical<br/>Assessment]
+    P17[17. Decision<br/>Analysis]
+  end
+
+  subgraph both["BOTH (2 processes)"]
+    B7[7. Product<br/>Verification]
+    B12[12. Interface<br/>Management]
+  end
+
+  subgraph exec["EXECUTE-MODE (6 processes primary)"]
+    E5[5. Product<br/>Implementation]
+    E6[6. Product<br/>Integration]
+    E8[8. Product<br/>Validation GAP]
+    E9[9. Product<br/>Transition]
+    E14[14. Configuration<br/>Management]
+    E15[15. Technical Data<br/>Management]
+  end
+
+  P1 --> P2 --> P3 --> P4 --> P10 --> P11 --> P13 --> P16 --> P17
+  P17 -.toggle.-> B7
+  B7 --> B12
+  B12 -.toggle.-> E5
+  E5 --> E6 --> E8 --> E9 --> E14 --> E15
+  E15 -.reflection feedback.-> P1
+
+  classDef planMode fill:#dbeafe,color:#1a202c
+  classDef execMode fill:#bbf7d0,color:#1a202c
+  classDef both fill:#fef3c7,color:#1a202c
+  classDef gap fill:#fecaca,color:#1a202c
+
+  class P1,P2,P3,P10,P11,P13,P16,P17 planMode
+  class E5,E6,E9,E14,E15 execMode
+  class B7,B12 both
+  class P4,E8 gap
