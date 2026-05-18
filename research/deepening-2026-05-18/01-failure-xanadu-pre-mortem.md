@@ -203,3 +203,70 @@ graph TD
 - **NOT replacement for Phase 0 work-plan** — input to it
 
 **Word count:** ~1450
+
+---
+
+## §7 На человеческом — что такое Xanadu и зачем нам этот разбор (added brigadier 2026-05-18)
+
+### §7.1 Что это
+
+**Project Xanadu** — это **самый известный технический провал в истории hypertext / гипертекста**. Ted Nelson (родился 1937, ещё живой) придумал концепцию в **1960 году в Harvard** — за 30 лет до того как Tim Berners-Lee запустил World Wide Web (1989-1991).
+
+Идея Nelson была **намного амбициознее WWW**: universal library с двусторонними «вечными» links + автоматические royalty за цитирование + versioning + transclusion (литерально «виртуальные копии» документов внутри других документов). Это всё в 1960-х.
+
+**Что случилось:** проект **54 года пытался shipping, ничего значительного не выпустил**. WWW (более простой, односторонние links) пришёл в 1989-1991 → захватил весь мир. Xanadu остался proof-of-concept после Open Xanadu 2014.
+
+Аналогия: представь, что ты в 1960 году придумал «полную идеальную операционную систему будущего» с 7 features одновременно, и **30 лет** пытался построить всё сразу — а тем временем кто-то другой выпустил гораздо более простую систему, она победила, потому что **shipped first + iterated**.
+
+### §7.2 Ключевые pointы (7 failure modes)
+
+- **Overdesign** — Nelson хотел shipping 7 features bundled (transclusion + tumblers + version compare + royalty + permissions + redundancy + nonsequential). WWW shipped только 1-2 features (hyperlinks + URLs) → выиграл
+- **Performance/scope mismatch** — пытались строить universal library на компьютерах с **128-256 KB RAM** которые «едва справлялись с одной книгой»
+- **«Rabid prototyping»** (не «rapid») — переписывали core снова и снова, без convergence
+- **Perpetual 6-month estimates** — ~60 пропущенных дедлайнов за 30+ лет, каждый раз «осталось 6 месяцев»
+- **Persistent denial** — техно-гордыня; «hyper-warped into techno-hubris zone» (цитата John Walker, Autodesk founder)
+- **Anti-WWW resistance** — Nelson dismissed WWW как «trivial simplification», отказывался учиться у работающей альтернативы
+- **Utopianism** — «save the world» рамка вытеснила shipping discipline; vision-as-virtue над product-as-virtue
+
+### §7.3 Зачем нам это для Jetix
+
+**Прямой риск для Jetix:** FPF spec уже содержит **~14 primitives** (A.1-A.6.B + B.3 F-G-R + B.7 + Default-Deny + Corrigibility + R12 + role-attestation + Karpathy wiki integration). Это **literally Xanadu 7-feature bundle pattern**, только с 14 features. Опасность: попытаться shipping всё сразу → не shipping ничего.
+
+**Cure уже встроен в Foundation:**
+- **R1 surface-only** = anti-techno-hubris (никаких «save the world» strategic claims без owner ack)
+- **Foundation Architecture LOCKED 2026-04-28** = anti-rabid (не переписываем core каждые 2 недели)
+- **F-G-R discipline per claim** = anti-denial (каждое утверждение carries explicit refutation conditions)
+
+**Что остаётся под риском:**
+1. **Какие 3-5 из 14 primitives = MVP?** Сейчас не выбрано explicitly → Phase 0 work-plan input
+2. **Infrastructure scale assumptions** — FPF claims «AI-co-readable substrate at community scale» — на скольких users работает? 10? 100? 10K?
+3. **Vision/* scope creep risk** — vision set держать frozen после Phase 1
+4. **«2-day prototype» (vision/07) Xanadu test** — если slips >1 week без scope cut, pattern emerging
+
+**Cross-refs:** vision/07 prototype, reports/phase-0-fpf-scope/00, vision/03 Workshop ship-test, Foundation Architecture LOCKED, R1 §4.1.
+
+### §7.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Назвать explicit 3-5 MVP FPF primitives** — какие ship первыми, какие потом
+2. **Сделать infrastructure pre-mortem** — at what scale FPF substrate becomes infeasible? Numbers, не vibes
+3. **Поставить explicit deadline на 2-day prototype** — если slips >1 week → scope cut, не extension
+
+**Phase 1:**
+
+4. **Freeze vision/* set на Phase 1 end** — никакого нового vision/10, /11 doc до того как Workshop run real
+5. **Workshop test (vision/03) MUST ship before Foundation v2.0** — Xanadu cure pattern
+
+**Continuous:**
+
+6. **Active citation discipline** — каждое substantial FPF claim cites adjacent methodology (SEMAT / Cynefin / TRIZ / ШСМ) → anti-WWW-resistance mode
+
+### §7.5 Резюме на 2 строки
+
+**Xanadu = 54-летний урок «не bundling 7 features перед shipping одной»; WWW выиграл потому что shipped narrow MVP.** Для Jetix: FPF 14 primitives → нужно explicit назвать MVP subset (3-5), shipping order, refutation conditions — иначе Xanadu trajectory возможна.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §7: ~720.*
+

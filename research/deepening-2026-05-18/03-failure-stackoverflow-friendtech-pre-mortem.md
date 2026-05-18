@@ -221,3 +221,88 @@ graph TD
 - **NOT verification each statistic** — multi-source triangulation; some 2024 forecast figures may revise
 
 **Word count:** ~1480
+
+---
+
+## §9 На человеческом — два разных способа потерять community (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+Это **сравнение двух больших провалов community substrate** — Stack Overflow (медленный 15-летний decay + AI-удар) и Friend.tech (быстрый 13-месячный bubble). Оба = examples что бывает когда «trust mechanism» уходит из-под ног.
+
+**Stack Overflow** — все знают: сайт где программисты задают и отвечают на вопросы. **Запущен 2008**. Был **доминирующий standard** для технических Q&A 10+ лет.
+
+**Friend.tech** — менее известный: **август 2023 - сентябрь 2024**, decentralized social network на Base blockchain. Идея: «купи token-ключ к private channel какого-то creator'а; ключи tradeable» — то есть **доступ к человеку = финансовый actif**.
+
+Аналогии:
+- Stack Overflow = библиотека которую все 15 лет наполняли волонтёры → пришёл AI → волонтёры не нужны → библиотека пустеет, **78% падение questions YoY к декабрю 2025** (forecast)
+- Friend.tech = крипто-bubble «купи доступ к influencer'у» → 13 месяцев hype → team забрал $44M из $90M total fees → ушли в null address без notice
+
+### §9.2 Ключевые pointы (numbers)
+
+**Stack Overflow decline:**
+- Questions: **87K/month (March 2023)** → **58.8K (March 2024, -32.5%)** → **52K (Dec 2024, -40.2% YoY)** → **forecast 19K by Dec 2025 (-78% YoY)**
+- AI tool usage among devs: **44% (2023) → 62% (2024) → 84% (2025)**
+- 2 compound failures: **gamification cultural mutation (slow, 2008-2022)** + **AI extinction event (fast, 2023-2026)**
+
+**Friend.tech collapse:**
+- **10 авг 2023** launch: 4,400 ETH day-1
+- **21 авг 2023** peak: 525K tx/day + $1.7M daily fees
+- **27 авг 2023**: -90% tx, -87% fees за **6 дней**
+- **сент 2024**: revenue $21 за 30 дней → team transferred contract to null address
+- **$44M** забрали creators of **$90M** total fees → ~$46M extracted from users (R12 violation textbook)
+
+**Pattern matched:** оба = **single primary trust mechanism** (reputation OR token) → mechanism captured (gamification OR speculation) → mechanism стал valueless → нет fallback → community collapsed.
+
+### §9.3 Зачем нам это для Jetix
+
+**Direct input в H8 design** (H8 = Octagon Foundation Trust LOCKED 2026-05-17 — substrate для role-attestation в Jetix).
+
+**5 anti-gaming heuristics для H8:**
+
+1. **Multi-signal trust** — не single «mastery score». H8 уже LOCKED multi-signal: FPF F-G-R triple + role-attestation + demonstrated results
+2. **Anti-extraction R12** — revenue-share transparency, Mondragón-style ratios (см. research/deepening-2026-05-18/06)
+3. **Substrate-agnostic** — VC + PGP + Karpathy-sigs в parallel, не lock-in single tech (см. research/deepening-2026-05-18/07 substrate matrix)
+4. **Reset capability** — reputation aging + periodic recalibration (Friend.tech не имела, SO не имела)
+5. **Exit discipline** — Workshop members могут export full FPF history at any time per R12 fork-and-leave
+
+**Friend.tech-style warnings (вещи которых Jetix НЕ должен делать):**
+- НЕ tokenize Workshop membership → keep payment direct (Substack-style)
+- НЕ делать «mastery score» tradeable — F-G-R inherently non-transferable
+- Watch revenue split — Team take >50% = R12 violation pattern
+- НЕТ silent shutdown protocol — Foundation Part 7 должна иметь explicit exit + transfer
+
+**Stack Overflow-style warnings:**
+- НЕ single reputation score gates privileges — multi-signal
+- НЕ downvote-asymmetric design — AP-6 preserve dissent уже в posture
+- Volunteer labor должен быть compensated — R12 contributor-value-flow
+- **AI substitution mitigation:** FPF должен быть **AI-co-readable** но **не AI-replaceable** — методология сама = the value, не tool wrapper
+
+**Cross-refs:** decisions/STRATEGIC-INSIGHT-H8-* (H8 LOCKED 2026-05-17), swarm/wiki/foundations/principles/architecture.md (R12), research/deepening-2026-05-18/07 (substrate matrix), 06 (Mondragón anti-extraction).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Audit H8 Octagon design:** убедиться что используются **≥3 distinct trust signals** для role-attestation, не single score
+2. **Workshop revenue split policy** — explicitly заявить «participant share ≥50%» **до** первого Workshop run
+3. **Foundation Part 7 shutdown protocol** — explicit Workshop-shutdown protocol с export-history capability для members
+
+**Phase 1 (когда Workshop запускается):**
+
+4. **AI-substitution check** — FPF artifacts должны retain methodology lineage value даже если LLM substrate перестанет работать. Тест: «Если завтра все LLM API исчезнут, что осталось ценного?»
+
+5. **Newcomer onboarding cushion** — Workshop pattern (vision/03) включает структурированный onboarding (anti-SO «новичков обижают» pattern)
+
+**Continuous:**
+
+6. **Не позволять single Foundation-level metric стать «THE» score** — periodic check
+
+### §9.5 Резюме на 2 строки
+
+**Stack Overflow умер от gamification + AI; Friend.tech умер от financialization + extraction.** Jetix H8 design должен escape оба attractor'а: multi-signal trust + revenue-share transparency + exit discipline + AI-resistant methodology value.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~720.*
+

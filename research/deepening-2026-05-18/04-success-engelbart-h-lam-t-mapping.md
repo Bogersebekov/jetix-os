@@ -185,3 +185,107 @@ graph TD
 - **NOT 5-tuple proposal canonical** — brigadier inference, AP-6 dissent preserved
 
 **Word count:** ~1550
+
+---
+
+## §9 На человеческом — кто такой Engelbart и почему FPF буквально его наследник (added brigadier 2026-05-18)
+
+### §9.1 Кто такой Doug Engelbart
+
+**Doug Engelbart (1925-2013)** — американский engineer-исследователь, тот самый человек который в **декабре 1968** провёл легендарную «**Mother of All Demos**» в San Francisco. За **90 минут** одного demo он показал миру **впервые в истории**:
+- Computer mouse (он его изобрёл)
+- Hypertext (links между документами)
+- Real-time collaborative editing (Google Docs, но в 1968)
+- Video conferencing (Zoom, но в 1968)
+- Online live document collaboration
+- Windowed UI
+- Outline editing
+
+Аналогия: представь что в 1968 году один человек показал на одном demo всё что было нужно для Internet эпохи — а потом 25 лет индустрия медленно это всё переоткрывала.
+
+Но **до Mother of All Demos** была теоретическая работа — **«Augmenting Human Intellect: A Conceptual Framework»** (October 1962, AFOSR-3233). Это **64-летняя бумага**, которая является **прямым предком Jetix FPF**.
+
+### §9.2 Что такое H-LAM/T
+
+В этой бумаге Engelbart определил **augmentation system** как **H-LAM/T**:
+
+**H** = **H**uman (человек), который использует:
+- **L** = **L**anguage (язык — как ты режешь мир на концепты + символы)
+- **A** = **A**rtifacts (артефакты — physical objects: typewriter, pencil, computer)
+- **M** = **M**ethodology (методология — methods + procedures + strategies для goal-centered activity)
+- **T** = в которой он **T**rained (тренирован)
+
+Простыми словами: «**обученный человек + язык + инструменты + методология**» = система которая может решать сложные задачи которые один человек без этих **4 things** не решит.
+
+**Самая важная часть** = **Neo-Whorfian hypothesis** (Engelbart, 1962 verbatim):
+> «Both the language used by a culture, and the capability for effective intellectual activity are directly affected during their evolution by the means by which individuals control the external manipulation of symbols.»
+
+Это **co-evolution thesis**: язык + инструменты + cognition **развиваются вместе как loop**, не отдельно. Если меняется substrate (например появился LLM), меняется и cognition пользователей.
+
+### §9.3 Ключевые pointы
+
+- **Engelbart 1962 paper** = literal 4-tuple parent FPF substrate framing
+- **Mother of All Demos = 9 декабря 1968** в Brooks Hall, San Francisco
+- Engelbart умер **2013** в California
+- Бумага доступна на dougengelbart.org/content/view/138/000 (primary) + Internet Archive
+- **NLS (oN-Line System)** = working prototype 1968 — он empirically bootstrapped, его команда сама себя augment'ила (важно: practice what you preach)
+- Институциональная support: SRI (Stanford Research Institute) + ARPA funding
+- Engelbart **underused** — пост-NLS его frame не scaled много lessons про institutional resistance
+- **Verbatim 4 definitions из бумаги** — каждая short, clear (см. §1.1-§1.4 выше)
+
+### §9.4 Зачем нам это для Jetix
+
+**Эта бумага = Foundation-anchor reference для всего FPF.**
+
+**Direct mapping H-LAM/T ↔ FPF:**
+
+| Engelbart 1962 | Jetix FPF analog |
+|---|---|
+| **Artifacts** (typewriter, pencil) | FPF B.7 wiki/ + shared/schemas/*.json + Karpathy LLM Wiki — расширили artifact class к AI-substrate |
+| **Language** (concepts + symbols) | FPF A.6.B dual-language (human-readable + machine-readable) + B.3 F-G-R |
+| **Methodology** (procedures для goal) | FPF object set (A.2.8 / A.2.9 / E.5 + 14 Phase-0 objects) |
+| **Training** (operational skill) | Workshop (vision/03) + H7 mastery-as-currency + Train-The-Trainer |
+
+**Что Jetix добавил к Engelbart:**
+1. **AI-co-readability** (A.6.B) — Engelbart substrate был human-only, мы добавили machine-reader как 2nd primary actor
+2. **Constitutional governance** (Pillar C Tier 2) — у Engelbart не было Default-Deny / Corrigibility
+3. **Role-attestation H8** — у Engelbart было collaboration в NLS, но не trust-as-substrate
+4. **Cross-domain transfer** — Engelbart focused на knowledge-work; Jetix targets engineering methodology
+5. **Russian-English bilingual** — NLS English-only
+6. **Network-state framing (H4)** — Engelbart pre-Internet
+7. **Anti-extraction R12** — Engelbart benefited from SRI institutional support; R12 didn't exist
+
+**Что Engelbart имеет, что Jetix может underweight:**
+1. **Co-evolution thesis explicit** — Neo-Whorfian hypothesis frames cognition + tool как coupled loop. Jetix FPF + Karpathy wiki должны explicitly claim same
+2. **Empirical bootstrap discipline** — NLS team augmented themselves first. Jetix Foundation-bootstrap claim worth comparing
+3. **Operational effectiveness as test** — Engelbart explicitly «to the point where operationally effective». Jetix F-G-R captures formality + reliability, но **operational-effectiveness-as-grade** could be additive (F-G-R-O?)
+
+**Cross-refs:** design/JETIX-FPF.md, swarm/wiki/foundations/part-4-role-taxonomy-coordination-protocol/architecture.md (VSM), vision/jetix-fpf-describe/* (parallel run).
+
+### §9.5 Concrete actions
+
+**Сейчас (Phase 0 — surface only):**
+
+1. **Прочитать Engelbart 1962 paper целиком** (dougengelbart.org/content/view/138/000) — это short paper, ~50 страниц, и literally самый важный foundational text для всего что мы делаем
+2. **Выбрать Foundation-anchor sentence** из 3 candidate'ов в §3 (или написать свой) — 1 строчка которая будет cite'аться во всех FPF-related docs
+
+**Phase 1:**
+
+3. **Add Engelbart citation** в FPF Constitutional Spec preamble — explicit lineage acknowledgment (как DOC §6.1 уже cites Karpathy precedent)
+
+4. **5-tuple проверка** — добавлять ли «Network» к H-LAM/T → H-LAMNT? Brigadier surfaced это в §4, но это **brigadier inference**, не canonical. Ruslan решает
+
+**Phase 2:**
+
+5. **Workshop pattern (vision/03) с explicit reference к Engelbart Training definition** — «conditioning to operational effectiveness» = exact target Workshop'а
+
+6. **Empirical bootstrap** — Foundation team (сейчас Ruslan + Cloud Cowork + brigadier) должна empirically bootstrap, как NLS team — practice what you preach (мы это уже делаем в каком-то sense через cycles в swarm/wiki/cycles/)
+
+### §9.6 Резюме на 2 строки
+
+**Engelbart 1962 H-LAM/T = literal 4-tuple parent FPF; Mother of All Demos 1968 = visual proof что multi-feature substrate работает.** Для Jetix: explicit lineage в Foundation preamble + Workshop pattern должен match Engelbart Training definition + co-evolution thesis worth claiming explicit.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~830.*
+

@@ -166,3 +166,65 @@ research/deepening-2026-05-18/
 
 **Word count:** ~960 (under 1000 budget)
 **Brigadier Phase 1 complete 2026-05-18.**
+
+---
+
+## §6 На человеческом — что это за документ и зачем он (added brigadier 2026-05-18)
+
+### §6.1 Что это
+
+Это **«меню глубокого ныряния»** — план из 14 тем, в которые имеет смысл копнуть глубже после того как мы (brigadier) обзорно прочесали корпус `research/adjacent-ideas-2026-05-17/` (10 документов, ~150K слов). Все 10 «соседних идей» — это срезы того, что вокруг Jetix существует (Pattern Language, Engelbart, SEMAT, Cybersyn, EVE Online, Mondragón, Karpathy и т.д.).
+
+Аналогия: представь что ты прочитал содержание 10 толстых книг и составил список из 14 глав, которые точно стоят отдельного разбора — потому что они либо **дают рецепт что делать** (success cases типа Mondragón / Engelbart / Karpathy), либо **показывают как НЕ надо** (failure cases типа Xanadu / Cybersyn / Friend.tech), либо **отвечают на конкретный архитектурный вопрос** (substrate matrix для H8 role-attestation).
+
+Это **не решения** — Руслан смотрит и выбирает что важно сейчас, что отложить. R1 surface-only.
+
+### §6.2 Ключевые pointы
+
+- **14 направлений** в 8 категориях: 3 failure pre-mortems + 3 success-case mechanisms + 1 substrate matrix + 1 methodology lineage + 3 people deep profiles + 1 cross-domain transfer + 1 virtual tribe + 1 tacit-explicit transfer
+- **Top-7 приоритет:** (07) Substrate matrix, (05) Pattern Language lineage, (04) Engelbart, (01) Xanadu, (02) Cybersyn, (08) SEMAT gap, (10) Buterin d/acc
+- **63 open questions** найдены через корпус — это «вопросы которые остались висеть»
+- **52 кандидата в Top-12 interesting people** (08 список) — приоритет People deep profiles
+- **18 failure cases** уже названы — Phase 0 work-plan input
+- **Все 14 = 1-3 страницы каждое**, primary-source-preferred, F-G-R discipline, mermaid diagrams где полезно
+- **Параллельно с jetix-fpf-describe** — этот document не trog'ает vision/jetix-fpf-describe/ subset
+
+### §6.3 Зачем нам это для Jetix
+
+**Это input в Phase 0 decisions** — конкретно:
+
+1. **Failure pre-mortems (01/02/03)** → input в work-plan «что НЕ делать в первую очередь» (например Xanadu учит ship narrow MVP, не bundle 7 features)
+2. **Success mechanisms (04/05/06)** → input в Foundation design (Engelbart H-LAM/T прямо мапается на FPF; Mondragón = 68-летний пример R12 anti-extraction; Alexander → Cunningham → Karpathy = 49-летний lineage Pattern Language → Wiki)
+3. **Substrate matrix (07)** → direct supplement к H8 (как делать role-attestation — VC / SBT / PGP / wiki-signatures / Coordinape)
+4. **SEMAT gap (08)** → competitive landscape для FPF — кто уже пытался + что не получилось
+5. **People profiles (09/10/11)** → ranking кандидатов для Phase 2+ outreach (после того как у нас будет что показать)
+6. **Cross-domain (12)** → тест трансферабельности FPF на aerospace (NASA SE) — если работает там → подтверждает claim
+7. **Tribe lessons (13/14)** → организационные паттерны для vision/04 first Clan + vision/08 L1+ multi-Clan
+
+Все 14 → cross-cutting synthesis в `98-CROSS-CUTTING-SYNTHESIS.md` + summary для Ruslan в `99-SUMMARY-FOR-RUSLAN.md`.
+
+### §6.4 Concrete actions
+
+**Сейчас (этот sprint — уже выполнено):**
+
+1. **Прочитать `99-SUMMARY-FOR-RUSLAN.md` сначала** — это 10-минутный читательский экстракт с Top-7 actions
+2. **По каждой нужной теме читать соответствующий doc 01-14** — не нужно читать все
+
+**Phase 0 (когда работаешь над FPF scope):**
+
+3. **Использовать 07 substrate matrix** для H8 final design — там 5 substrates × 9 dimensions сравнение
+4. **Использовать 01/02/03 pre-mortems** как «red team» при сборке Phase 0 work-plan — каждая Jetix decision проверь против 7 Xanadu modes + 5 Cybersyn modes + Friend.tech финансиализация
+
+**Phase 1-2 (по мере роста):**
+
+5. **Использовать 06 Mondragón + 13 EVE Online** как input для first Clan governance design
+6. **Использовать 14 TPS tacit→explicit** для Workshop mentorship pattern
+
+### §6.5 Резюме на 2 строки
+
+**Это план из 14 тем для deepening reads, которые брига нашёл при обзоре research-adjacent corpus** — Ruslan смотрит, выбирает что нужно, остальное отложено. Все 14 уже сделаны как отдельные docs 01-14 + 98 cross-cutting + 99 summary.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §6: ~620.*
+

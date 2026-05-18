@@ -183,3 +183,78 @@ graph LR
 - **NOT verification of Eden Medina 2011** — secondary citations only this pass
 
 **Word count:** ~1500
+
+---
+
+## §8 На человеческом — что такое Cybersyn и что мы из этого учим (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+**Cybersyn** — это **первый в истории cybernetic governance system**, построенный в Чили в **1971-1973** при президенте Salvador Allende. Главный архитектор — **Stafford Beer** (британский cybernetician, автор Viable System Model / VSM). Sponsor с чилийской стороны — **Fernando Flores** (тот самый Flores, который потом стал известным philosopher of language — «commitments» framework).
+
+**Что они построили:**
+- **IBM 360/50 mainframe** (один компьютер на всю страну, по 1972 году это серьёзно)
+- **Telex network «Cybernet»** — 500 промышленных предприятий подключены проводами к Сантьяго
+- **Operations Room (Opsroom)** — физический круглый зал с **7 swivel chairs** + экранами, как из научной фантастики. Литерально как Star Trek bridge
+- **Software:** Cyberstride (статистический мониторинг), CHECO (экономическая симуляция)
+
+**Что произошло:**
+- **Октябрь 1972** — chilean trucker strike парализовал страну → Cybersyn реально **скоординировал supply distribution** через свой telex network. Это **сработало в реальном кризисе**
+- **Май 1973** — 26.7% национализированных industries уже подключены
+- **11 сентября 1973** — Pinochet coup. Военные нашли Operations Room **целым и нетронутым** → **специально его разрушили** потому что «open egalitarian aspects» им не понравились
+
+Аналогия: представь что в 1972 году кто-то построил **prototype Network State substrate** который реально работал во время национального кризиса — а через 11 месяцев пришла военная диктатура и физически уничтожила сервера, потому что им не нравилась идеология.
+
+### §8.2 Ключевые pointы
+
+- **Cybersyn умер не от технических причин — от политических.** Технически он работал
+- **Stafford Beer** продолжал работать с VSM в Канаде / Мексике / Венесуэле / Уругвае (URUCIB 1986-88 успех; Mexico + Venezuela неудача) **до своей смерти в 2002**
+- **Pattern:** post-Cybersyn успехи Beer'а коррелируют с (a) стабильностью политического окружения + (b) его персональным присутствием на проекте
+- **5 человек canonical team:** Beer (UK) / Flores (Chile) / Vuskovic (политическое прикрытие) / Bonsiepe (German interface designer) / Espejo (operations manager)
+- **Беер сам не написал structured post-mortem** про Cybersyn — gap который мы должны избежать в Jetix
+- **Eden Medina «Cybernetic Revolutionaries» (MIT Press 2011)** = академический canonical reference (мы пока fetched secondary только; F4 deep next pass)
+
+### §8.3 Зачем нам это для Jetix
+
+**5 прямых уроков:**
+
+1. **Political-regime coupling** — Cybersyn был anchored к Allende government. Когда правительство упало, система упала. **Jetix parallel:** FPF + Foundation сейчас anchored к Ruslan + Russian-engineering-methodology lineage (ШСМ + МИМ). Если Russian political environment shifts (sanctions, internet isolation, etc.) → substrate может стать недоступным для русскоязычного community. **Question:** есть ли English Foundation copy / non-RU Workshop functional?
+
+2. **Single-founder dependency** — без Beer'а Cybersyn-grade VSM design не воспроизводился. **Jetix parallel:** Ruslan = sole-author of vision + strategic prose (per CLAUDE.md §4.1 R1). Mitigation в place: Foundation Architecture v1.0 LOCKED = institutional substrate. **Open question:** is substrate institutional enough that L2+ partners could continue без Ruslan на 90 дней?
+
+3. **Centralization + visibility = political target** — Opsroom был визуально знаковый → coup forces целенаправленно его разрушили. **Jetix parallel:** если single Workshop становится «THE» symbol → acquires fragility. **Mitigation:** distributed substrate (vision/04 first Clan + vision/08 L1+ multi-Clan + R12 fork-and-leave).
+
+4. **Threshold political stability requirement** — Beer post-1973 успехи только когда (a) политика стабильна + (b) он лично присутствует. **Jetix parallel:** Workshop pattern depends on participant access (travel + funding + time). Digital-first substrate (LLM + wiki/) = primary, Workshop = supplement.
+
+5. **Absence of founder retrospective** — Beer не написал structured post-mortem. **Mitigation в Jetix:** pre-mortem discipline (вот этот doc — пример) + R6 provenance + AP-6 preserve dissent + retrospective per phase end recommended.
+
+**Cross-refs:** swarm/wiki/foundations/principles/architecture.md (Pillar C R12 Corrigibility), Foundation Part 4 (VSM citation), JETIX-VISION-FUNDAMENTAL §4.3 (Corrigibility), vision/08 L1+ roadmap.
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Drill: «Foundation survives 90 days без Ruslan availability»** — назначить L2+ partner gedanken и проверить: может ли он ship Workshop без Ruslan check-in? Документировать gap
+
+2. **English Foundation copy maintained** — проверить что Foundation Architecture v1.0 + Pillar C доступны в English (не только Russian) — иначе RU isolation = total loss
+
+**Phase 1:**
+
+3. **Не делать «THE» Opsroom Workshop venue** — multiple geographies / languages active simultaneously
+
+4. **Bus-factor ≥ 3 для каждого critical Foundation component** — at least 3 people can edit each Foundation Part (Bundle 1-5 + Pillar C)
+
+5. **Phase 1 end retrospective doc** — Ruslan пишет «что worked / что didn't» в Cybersyn-anti-pattern style (Beer не написал — мы пишем)
+
+**Phase 2+:**
+
+6. **L2+ partner ownership transfer тестировать** — Train-The-Trainer pattern (GTD-style); если L2 partner не может self-sustain → Beer post-Cybersyn pattern emerging
+
+### §8.5 Резюме на 2 строки
+
+**Cybersyn умер от политики, не от техники — а Beer не оставил post-mortem, что усугубило урок.** Jetix mitigation: distributed substrate + L2+ partner ownership + English Foundation copy + per-phase retrospective discipline.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~780.*
+
