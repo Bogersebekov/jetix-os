@@ -458,3 +458,46 @@ Per Ruslan ack §0.6 — legacy 12-agent roster **DEPRECATED-2026-05-17** + ROY 
 ---
 
 *Append-only per phase-0-plus batch execution. Original §1-§8 preserved. §5.5.5 gate: provenance ✓ inline / Ruslan ack §0.5+§0.6 explicit / O-21 candidate status pending D-07 architectural decision.*
+
+---
+
+## §10 APPEND 2026-05-18 — voice batch 2 (text_007 Ethereum architecture)
+
+Per voice batch 2 (`reports/voice-pipeline-2026-05-18-batch-2/`) brigadier integration + text_007 Ruslan ack 18.05 morning. R1 surface + append-only.
+
+### §10.1 NEW Object candidate — O-23 Jetix Ethereum architecture
+
+| # | Object name | FPF primitive (eng) | FPF Part hosting | FPF status | Org reality | Bounded context | Top claim F-G-R | Provenance |
+|---|---|---|---|---|---|---|---|---|
+| **O-23** | **Jetix on Ethereum architecture (NC-B2-3 candidate)** — 3-layer composition: FPF methodology layer + Ethereum L2 execution substrate + R12-aligned value flow | Composition: `B.2 MHT` (3-layer composition) × `A.6.1 U.Mechanism` (execution substrate) × `A.6.B Boundary Norm Square` (substrate boundary) × `U.RoleAssignment` (A.2.1 on-chain attestation) × `U.Commitment` (A.2.8 programmable enforcement) × `B.3 F-G-R` (claim provenance on-chain) | Part A + E + multi-Part composition; touches O-07 + O-09 + O-11 + O-13 + O-14 | задумка → прорабатывается | **aspirational** (Phase 3 architecture doc surfaced; Phase 2+ overlay candidate; not yet realized) | Holds: 10-doc + 5 mermaid architecture (`decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`); 2 AWAITING-APPROVAL packets pending Ruslan ack | F2 · jetix-on-ethereum-architecture-candidate · `refuted_if_substrate_decision_reverted_OR_crypto_tribe_perception_alienates_methodology_community_OR_R12_violated_by_lock-in_OR_regulatory_blocker_unmitigated` · ⚠️ Architectural decision; AWAITING-APPROVAL packets required перед LOCK | `raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`; `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/` (10 docs + 5 mermaid); `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`; `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`; `reports/voice-pipeline-2026-05-18-batch-2/` |
+
+**Status:** `brigadier-surfaced-candidate-pending-Ruslan-ack` (2 AWAITING-APPROVAL packets gate LOCK).
+
+### §10.2 NEW Object candidate — O-22 Man-as-Army × Jetix integration
+
+| # | Object name | FPF primitive (eng) | FPF Part hosting | FPF status | Org reality | Bounded context | Top claim F-G-R | Provenance |
+|---|---|---|---|---|---|---|---|---|
+| **O-22** | **Man-as-Army × Jetix integration (NC-B2-2)** — distributed resilience architecture pattern; each Clan member = self-army holder; «армия из таких воинов» = exponentially capable + regenerable | Composition: `U.Role` multi-instantiation (A.2) × `U.Capability` (A.2.2) cross-role composition × `B.2 MHT` × `A.5 Kernel Modularity` × `B.4 Canonical Evolution Loop` × `E.5 Guard-Rails` self-discipline | Part A + Part B; touches O-04 + O-13 + O-14 | задумка → прорабатывается | **aspirational** (concept doc surfaced; Phase 1+ test surface) | Holds: concept doc `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md`; wiki concept page candidate | F3 · man-as-army-jetix-integration · `refuted_if_clan_member_attrition_causes_propagation_collapse_OR_no_multi-role_demonstration_within_90d_OR_self-army_pattern_inapplicable_to_Workshop_substrate` | `raw/voice-memos-2026-05-17-batch/text_006@2026-05-18_morning.md`; `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md`; `reports/voice-pipeline-2026-05-18-batch-2/` |
+
+**Status:** `brigadier-surfaced-candidate-pending-Ruslan-ack` (concept doc surface only).
+
+### §10.3 LIVE-FLAGS surfaced (2; require AWAITING-APPROVAL ack)
+
+| Flag | Conflict | Resolution path |
+|---|---|---|
+| H8 LOCKED 2026-05-17 substrate-agnostic principle vs text_007 18.05 Ethereum-primary | append-only discipline | AWAITING-APPROVAL packet `h8-ethereum-substrate-extension-2026-05-18.md` (Option A/B/C surface) |
+| Pillar C Tier 2 R12 substrate-agnostic foundation_generic vs programmable enforcement option | substrate-agnostic foundation_generic intact; programmable = RUSLAN-LAYER overlay candidate | AWAITING-APPROVAL packet `r12-programmable-ethereum-2026-05-18.md` |
+
+### §10.4 H9 Strategic Insight candidate (deferred)
+
+Possible 9th vertex Octagon → Nonagon: «Jetix on Ethereum substrate» (architectural pivot). **NOT auto-promoted** per prompt §4 «НЕ create new Strategic Insight LOCKs автоматически». Surface as candidate; Ruslan reflection + Phase 3 architecture doc reviewed + AWAITING-APPROVAL packets resolved → possibly promote Phase 3+.
+
+### §10.5 Updated inventory count
+
+- Pre-batch: 14 core objects + O-15 → O-21 candidates
+- Post-batch-2: + O-22 (Man-as-Army) + O-23 (Ethereum architecture) **as candidates** (pending Ruslan ack)
+- **Total surface count: 16 core + candidates** (Ruslan picks promotion path)
+
+---
+
+*§10 appended by brigadier per voice-pipeline-2026-05-18-batch-2 Phase 5. R1 surface + R6 + append-only + EP-5.*
