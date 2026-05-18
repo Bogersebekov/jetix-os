@@ -2,7 +2,28 @@
 title: AWAITING-APPROVAL — R12 programmable enforcement via Ethereum (RUSLAN-LAYER overlay)
 date: 2026-05-18
 type: pillar-c-overlay-extension-packet
-status: AWAITING-RUSLAN-ACK
+status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+ack_trail:
+  - timestamp: 2026-05-18 (evening Berlin)
+  - decision: Option D Hybrid (Mondragón wage ratios + QF revenue distribution + Fork-and-leave exit tokens — все три вместе)
+  - acked_via: Cloud Cowork chat session (Ruslan: «Давай всё туда акаем»)
+  - decision_rationale: |
+      Option D Hybrid = full R12 programmable stack:
+      (1) Mondragón ratio enforcement (3:1→9:1 wage ratios programmatically capped via smart contract);
+      (2) Quadratic Funding для Workshop revenue distribution (Tang+Weyl mechanism proven via Gitcoin);
+      (3) Fork-and-leave exit tokens (programmable R12 anti-extraction guarantee per Clan member).
+      
+      Tier 2 R12 text LOCKED 2026-05-12 = PRESERVED (no amendment).
+      foundation_generic count = 12 unchanged.
+      RUSLAN-LAYER overlay only (instance-specific, not Foundation generic).
+      
+      Distinctive feature vs competitors (no other crypto project does programmable R12).
+      Attractor для Tang+Weyl camp + d/acc community.
+      Brigadier-recommended option.
+  - acked_by: ruslan
+  - prose_authored_by: ruslan-acked-via-cloud-cowork-transcription
+  - default_deny_table_additions_acked: 4 new action classes (per packet §4) — pending implementation phase
+  - substrate_decision: Ethereum via H8 Option A ack (paired packet h8-ethereum-substrate-extension-2026-05-18.md)
 gate_class: stage_gate
 packet_id: r12-programmable-ethereum-2026-05-18
 authored_by: brigadier-scribe (this autonomous run per text_007 + Phase 3 architecture)

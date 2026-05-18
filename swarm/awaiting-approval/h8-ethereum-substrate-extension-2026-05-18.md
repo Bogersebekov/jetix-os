@@ -2,7 +2,18 @@
 title: AWAITING-APPROVAL — H8 Octagon substrate extension (Ethereum option introduction)
 date: 2026-05-18
 type: foundation-extension-packet
-status: AWAITING-RUSLAN-ACK
+status: RUSLAN-ACKED-OPTION-A-2026-05-18
+ack_trail:
+  - timestamp: 2026-05-18 (evening Berlin)
+  - decision: Option A (Additive surface — Ethereum как одна из официальных опций; substrate-agnostic principle preserved)
+  - acked_via: Cloud Cowork chat session (Ruslan: «Давай всё туда акаем»)
+  - decision_rationale: |
+      Option A preserves H8 LOCKED substrate-agnostic principle (no lock-in risk per Option B);
+      enables Phase 2+ Ethereum overlay implementation; keeps flexibility для других substrates
+      (PGP / VC / Karpathy wiki sigs / Coordinape); supports Buterin Phase 1 outreach с legitimate
+      «Jetix on Ethereum» story; aligns с d/acc + Plurality camps; brigadier-recommended option.
+  - acked_by: ruslan
+  - prose_authored_by: ruslan-acked-via-cloud-cowork-transcription
 gate_class: stage_gate
 packet_id: h8-ethereum-substrate-extension-2026-05-18
 authored_by: brigadier-scribe (this autonomous run per text_007 voice dictation 18.05 morning)
