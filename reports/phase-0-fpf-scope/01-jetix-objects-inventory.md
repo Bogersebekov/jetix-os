@@ -1003,3 +1003,51 @@ R1 surface (candidate surfacing, not promotion) + R2 (Foundation/Pillar C/Octago
 
 *§14 appended by brigadier per voice-pipeline-2026-05-19-batch-4 Phase 5. R1 + R6 + R11 + EP-5 + append-only preserved.*
 
+---
+
+## §15 APPEND-2026-05-19 — Tier B 5 NCs status update (Ruslan ack)
+
+### §15.1 Trigger
+
+- **Source.** `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 Phase 1 + Ruslan ack 2026-05-19
+- **Constitutional posture.** R1 surface (status update; NO Tier-level promotion auto; ack-recorded only)
+
+### §15.2 Status updates (5 NCs)
+
+| # | Object | Prior status (§14) | New status |
+|---|---|---|---|
+| O-33 | Meaning-Making Substrate (Anti-Sisyphus) | brigadier-surfaced-Tier-B-pending-ack | **RUSLAN-ACKED-2026-05-19** (wiki promoted → `ideas/anti-sisyphus-meaning-substrate.md`) |
+| O-35 | Virtual State Legal Foundations | brigadier-surfaced-Tier-B-pending-ack | **DEFERRED-to-AWAITING-APPROVAL packet** (`swarm/awaiting-approval/o-35-virtual-state-legal-2026-05-19.md` candidate — packet authoring deferred separately; Ruslan ack via voice for wiki/idea NOT yet recorded; §14.3 Tier B classification preserved) |
+| O-37 | 6-Resource Investor Model | brigadier-surfaced-Tier-B-pending-ack | **RUSLAN-ACKED-2026-05-19** (wiki promoted → `ideas/6-resource-investor-model.md`; **GAP FLAG: 6th category undefined**) |
+| O-39 | Responsibility-Era Thesis (H9 candidate) | brigadier-surfaced-Tier-B-pending-ack | **RUSLAN-ACKED-2026-05-19** (wiki promoted → `ideas/responsibility-era-thesis.md`; H9 LOCK packet pending separately at [[swarm/awaiting-approval/h9-strategic-insight-candidate-2026-05-18]]) |
+| O-41 | Brain Extension / Skill-vs-Memory Framework | brigadier-surfaced-Tier-B-pending-ack | **RUSLAN-ACKED-2026-05-19** (wiki promoted → `ideas/brain-extension-skill-test.md`) |
+
+### §15.3 Important — what was NOT changed
+
+- **No Tier-level promotion auto** — Tier B → Tier A only via separate Ruslan ack
+- **No F-grade auto-bump** — F-grades preserved (F3 / F4 per §14.2)
+- **No Octagon LOCK** for O-39 (H9 candidate) — LOCK packet pending Ruslan ack via [[swarm/awaiting-approval/h9-strategic-insight-candidate-2026-05-18]]
+- **No 6th category resolution** for O-37 — GAP FLAG remains; surface as 1-day ack question to Ruslan
+- **O-35 NOT promoted in this batch** — wiki idea file NOT created (out of Tier B-promotion scope per `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 5-idea list; if Ruslan acks O-35 separately → separate promotion run)
+
+### §15.4 Updated inventory state
+
+- Pre-§15: 35 objects (14 acked + 21 candidates pending)
+- Post-§15 ack-status updates: 35 objects (14 acked + 16 candidates pending + 5 Tier-B Ruslan-acked-without-Tier-promotion)
+
+### §15.5 Companion artefacts created (this sprint synthesis run)
+
+- `reports/sprint-synthesis-2026-05-19/01-new-info-17-19-may.md` (Phase 2 — Doc 1)
+- `reports/sprint-synthesis-2026-05-19/02-action-plan-proposal.md` (Phase 3 — Doc 2)
+- `reports/sprint-synthesis-2026-05-19/03-state-map-gaps.md` (Phase 4 — Doc 3)
+- `reports/sprint-synthesis-2026-05-19/00-SUMMARY-FOR-RUSLAN.md` (Phase 5)
+- `reports/sprint-synthesis-2026-05-19/diagrams/` (8 mermaid)
+
+### §15.6 Constitutional posture
+
+R1 surface (status update only; NOT promotion) + R2 (Foundation/Pillar C/Octagon LOCK content read-only preserved) + R6 (Ruslan ack source cited; per-NC verbatim voice anchors in wiki/ideas files) + R11 (Default-Deny; LOCK candidates remain в AWAITING-APPROVAL packets) + EP-5 (F-grades explicit; preserved) + append-only ✓.
+
+---
+
+*§15 appended by brigadier per `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 Phase 1 closure. R1 + R6 + R11 + EP-5 + append-only preserved.*
+

@@ -6,6 +6,20 @@ updated: 2026-05-19
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-05-19] [sprint-synthesis] Tier B 5 ideas promoted (Ruslan ack 2026-05-19) | entries: +5
+
+- Per `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 (Phase 1) + Ruslan ack 2026-05-19
+- **5 ideas (Tier B):**
+  - `ideas/anti-sisyphus-meaning-substrate.md` (O-33 — Camus counter-thesis; F3; voice anchor audio_684)
+  - `ideas/responsibility-era-thesis.md` (O-39 — H9 candidate; F3; voice anchor audio_687+684)
+  - `ideas/brain-extension-skill-test.md` (O-41 — AI-augmented capability metric; F4; voice anchor audio_687)
+  - `ideas/6-resource-investor-model.md` (O-37 — 5 explicit + 1 GAP; F3; voice anchor audio_686)
+  - `ideas/5-step-pizdaty-pattern.md` (O-33-companion — methodology unit; F3; voice anchor audio_684)
+- **Phase 0 inventory §15 APPEND:** O-33/O-37/O-39/O-41 status «RUSLAN-ACKED-2026-05-19» (status only — NO Tier promotion auto per R1)
+- **GAP FLAG:** 6-resource model 6th category undefined — surface to Ruslan as 1-day ack question
+- **H9 candidate:** Responsibility-Era — LOCK packet pending [[swarm/awaiting-approval/h9-strategic-insight-candidate-2026-05-18]]; R1 surface NOT promoted к LOCK
+- F-G-R per entry; voice anchor verbatim в §2 каждого
+
 ## [2026-05-19] [voice-pipeline-batch-4] Tier A auto-promotions | entries: +6
 
 - Per voice-pipeline-2026-05-19-batch-4 Phase 5 (6 audio 18-19.05): F4+ confidence + clear voice anchors

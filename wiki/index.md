@@ -308,7 +308,15 @@ regenerated_from: filesystem
 - [Жизнь как игра — нужна панель управления с правилами и миссией (Notion idea)](sources/2026-04-16-zhizn-kak-igra-nuzhna-panel-upravleniya-s-pravilami-i-m.md) [life]
 - [Жизнь = обновление, на любом масштабе (Notion idea)](sources/2026-04-16-zhizn-obnovlenie-na-lyubom-masshtabe.md) [meta]
 
-## Ideas (257)
+## Ideas (262)
+
+> **§APPEND 2026-05-19** (sprint-synthesis Phase 1; Ruslan-acked Tier B):
+> - [Anti-Sisyphus Meaning Substrate — Jetix as user-meaning enabler (Camus counter-thesis)](ideas/anti-sisyphus-meaning-substrate.md) [meta]
+> - [Responsibility-Era Thesis — adequate period for humanity collective maturation (H9 candidate)](ideas/responsibility-era-thesis.md) [meta]
+> - [Brain Extension Skill Test — cheat-sheet allowed = AI-augmented capability metric](ideas/brain-extension-skill-test.md) [tech]
+> - [6-Resource Investor Model — recruiting across lawyers/financiers/crypto/AI/philosophy/+1](ideas/6-resource-investor-model.md) [business]
+> - [5-Step Pizdaty Pattern — select-people → method → execute → sold → invested → use → build-on-shoulders](ideas/5-step-pizdaty-pattern.md) [meta]
+
 
 - [0.3% платят за AI — ты уже в элите пользователей](ideas/03-platyat-za-ai-ty-uzhe-v-elite-polzovateley.md) [tech]
 - [Видение через 200 лет: Jetix как вклад в будущее человечества](ideas/200-year-vision-jetix-humanity.md) [business]
