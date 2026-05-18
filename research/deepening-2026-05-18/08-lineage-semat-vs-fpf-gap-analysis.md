@@ -188,3 +188,101 @@ SEMAT Alpha state = both health AND progress signal. FPF B.3 F-G-R = formality +
 - **NOT verification of OMG specification details** — 2018 v1.2 confirmed; deeper formal-spec dive deferred
 
 **Word count:** ~1850
+
+---
+
+## §9 На человеческом — что такое SEMAT и чему нас учит его медленное adoption (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+**SEMAT** = «**Software Engineering Methods and Theory**» — initiative founded **2009** одним из самых известных software engineering legends — **Ivar Jacobson** (он же изобретатель Unified Process, RUP, use-cases). Цель: создать **universal language для software methodology** так чтобы любую методологию (Scrum / XP / Waterfall / Kanban) можно было описать одинаковыми primitives.
+
+**Что они построили:**
+- **Essence Kernel** — «simple thinking framework» с 7 **Alphas** (Abstract Level Progress and Health Attributes)
+- **OMG beta standard 2013** → **Essence Specification v1.2 в 2018**
+- **7 Alphas:** Opportunity / Stakeholders / Requirements / Software System / Team / Work / Way of Working
+- Каждая Alpha имеет state transitions (например Software System: Architecture Selected → Demonstrable → Usable → Ready → Operational → Retired)
+
+**Что произошло:** **SEMAT остался niche.** Adoption — **KTH Royal Institute Sweden** SE courses, **OMG-standardized**, но **никогда не достигла Scrum-scale viral adoption** несмотря на Jacobson's pedigree. **15 лет спустя** — нишевый research-academic substrate.
+
+Аналогия: представь что в 2009 году ОЧЕНЬ известный software engineer (как если бы Linus Torvalds сказал «давайте создадим universal language для SE methodology») создал rigorous, peer-reviewed, OMG-standardized framework — а через 15 лет это никто не использует, кроме как в учебном курсе в Швеции. И при этом **Scrum** (намного proще + меньше rigor) **доминирует** методологический market.
+
+### §9.2 Ключевые pointы
+
+- **2009** — SEMAT initiative founded (Jacobson + colleagues)
+- **2013** — Essence стандарт **OMG beta**
+- **2018** — **Essence Specification v1.2** released
+- **7 Alphas** (canonical primitives) — каждая с state transitions
+- **Adoption modest:** KTH Royal Institute, OMG-standardized; niche
+- **Jacobson pedigree:** изобретатель Unified Process, RUP, use-cases — НО viral adoption не случилось
+
+**5 hypothesized SEMAT slow-adoption causes:**
+
+1. **No viral artifact** — academic paper (ACM Queue 2012) + OMG spec; no Karpathy-Gist-style viral substrate
+2. **No community vehicle** — OMG = standards body, not vibrant practitioner community (vs Scrum Alliance / Agile Manifesto community)
+3. **Competing с Scrum economy** — Scrum certification money + entrenched practitioner network = network-effect lock-in
+4. **No specific payoff** — SEMAT abstract benefits don't compete с «я получил Scrum cert + работу + зарплату» concrete payoff
+5. **Substrate maturity timing** — 2009-2013 был pre-LLM era; methodology kernel concept needed AI substrate to compound
+
+### §9.3 Зачем нам это для Jetix
+
+**SEMAT = closest direct precedent к FPF** — он literally **тот же ambition** (universal methodology language), только 17 лет раньше + без AI substrate. **3 overlapping concepts** (methodology-modularity / health-monitoring / common-ground); **9 distinct dimensions** где Jetix differs (substrate / cross-domain / AI / governance / trust / NS / bilingual / pre-mortem / Workshop).
+
+**5 direct lessons для FPF (как избежать SEMAT trajectory):**
+
+| Lesson | FPF implementation |
+|---|---|
+| **L1: Build viral artifact early** | Phase 1 Karpathy-Gist-style FPF artifact (per direction 05 «Pattern Language for Engineering Methodology») |
+| **L2: Build community vehicle alongside spec** | Workshop pattern (vision/03) + ШСМ + МИМ existing community = bootstrap. **НЕ OMG-standards-body trajectory** |
+| **L3: Specific payoff** | FPF practitioners earn revenue через Workshop monetization + role-attestation H8 — concrete economic benefit, not abstract virtue |
+| **L4: AI-substrate timing right** | 2026 LLM maturity = FPF substrate timing advantage over SEMAT 2009-2013 |
+| **L5: Counter-Scrum positioning** | «Reimagining Agile» movement = potential ally pool; FPF can position as anti-commoditization Agile-successor (но careful с tone) |
+
+**Что TO KEEP from SEMAT:**
+
+1. **Alpha state cards** = useful UI pattern. Jetix Foundation Part 1 (System State Persistence) + Part 8 (Health Monitoring) could borrow
+2. **Kernel + language layer split** — SEMAT split «kernel» от «language layer». Jetix аналог: Foundation 11 Parts (kernel) + vision/* + workshop curricula + Clan-specific overlays (language layer). **Already aligned**
+3. **Health + Progress separation** — SEMAT Alpha = both health AND progress signal. FPF B.3 F-G-R = formality + group + reliability — но **«operational effectiveness» dimension может быть missing** (per direction 04 Engelbart §2.2). Worth considering 4th dimension: **F-G-R-O** или F-G-R + Operational-Effectiveness as separate Alpha-style attribute
+
+**7 Alphas ↔ FPF mapping (rough):**
+- Opportunity → A.6.B Opportunity + Workshop opportunity-framing
+- Stakeholders → A.2.8 Commitment + role-attestation
+- Requirements → B.3 F-G-R claims
+- Software System → FPF artefact / vision/* output
+- Team → Clan + L1+ structure + H7 People-NS
+- Work → stage gates + Foundation Part 7 lifecycle
+- Way of Working → Foundation 11 Parts + Pillar C
+
+**FPF ≠ SEMAT extension — FPF is SEMAT-adjacent reimagining** (cross-domain + AI + governance + bilingual).
+
+**Cross-refs:** design/JETIX-FPF.md, reports/phase-0-fpf-scope/00, research/adjacent-ideas-2026-05-17/04 (engineering-methodologist communities), research/deepening-2026-05-18/05 (Pattern Language as viral artifact).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Прочитать ACM Queue 2012 paper** (Jacobson «The Essence of Software Engineering: The SEMAT Kernel») — если accessible. Это short paper, важно для baseline
+2. **Decision: adopt SEMAT vocabulary OR parallel-invent?** Counter §6.2 surfaced это — SEMAT 7 Alphas могут directly map к FPF concepts; direct dependency = legitimacy + interop benefits; cost = less Jetix-specific framing
+
+**Phase 1:**
+
+3. **Ship ≥1 viral FPF artifact** — Pattern Language candidate per direction 05 OR equivalent — test SEM1, SEM4
+4. **Workshop revenue concrete benefit documented** — published «participants earn X via Workshop» — test SEM2
+5. **«Counter-Scrum» tone careful** — positioning должно быть **«complementary»**, не «replacement» — most likely accurate: FPF coexists с Scrum + Agile + Cynefin
+
+**Phase 2:**
+
+6. **F-G-R-O consideration** — добавить **Operational Effectiveness** 4th dimension к F-G-R? Per Engelbart Training definition (doc 04 §2.2) + SEMAT Alpha state pattern. Worth design discussion
+
+**Continuous:**
+
+7. **Distinguishable from SEMAT по ≥5 dimensions named explicitly** — already documented in §1 (substrate / cross-domain / AI / governance / trust / NS / bilingual = 7 distinct dimensions); test SEM3 confirmed
+
+### §9.5 Резюме на 2 строки
+
+**SEMAT = same FPF ambition but 17 лет раньше, без AI substrate, без viral vehicle → остался niche academic.** Для Jetix: 5 lessons (viral artifact + community vehicle + specific payoff + AI-substrate timing + careful counter-Scrum tone) + keep Alpha state cards + kernel/language split + consider F-G-R-O 4th dimension.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~830.*
+

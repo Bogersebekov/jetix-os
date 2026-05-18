@@ -206,3 +206,97 @@ graph TD
 - **NOT exhaustive substrate inventory** — 5 substrates only; ZKPs, BBS-credentials, DIDs, other CRDT-based alternatives не deeply covered
 
 **Word count:** ~1900
+
+---
+
+## §8 На человеческом — какой substrate для trust выбрать (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **самый важный технический выбор для H8 (Octagon Trust Infrastructure LOCKED 2026-05-17)**. **H8** = механизм с помощью которого Jetix будет доказывать что «вот этот человек реально умеет вот это» — без центральной authority типа университета или сертификата.
+
+Существует 5 production-ready / emerging substrates:
+
+1. **W3C VC v2.0** = Verifiable Credentials W3C standard. **Recommendation 15 May 2025** — то есть **только что (год назад) стал official**. Это **digital documents** которые можно подписывать криптографически и selectively disclose (показать только часть, скрыть остальное)
+
+2. **SBT** = Soulbound Tokens. Идея Vitalik Buterin + Glen Weyl + Puja Ohlhaver (paper **«Decentralized Society: Finding Web3's Soul»**, SSRN 4105763, May 2022). Non-transferable tokens на blockchain — то есть **«ты получил badge, ты не можешь продать»**
+
+3. **PGP Web of Trust** = старый proven mechanism (с **1992**, 34 года). Free + off-chain. Key-signing parties где люди подписывают друг друга
+
+4. **Karpathy-wiki-signatures** = новая convention (April 2026, Karpathy LLM Wiki). Trust через **Git commit history** в markdown wiki
+
+5. **Coordinape GIVE/GET** = peer-reward system (production 2021+). Используется Yearn / Bankless / Gitcoin DAO. Каждый epoch члены получают GIVE tokens, allocat'ят на peers, в конце epoch конвертируется в GET (Ethereum-bound)
+
+Аналогии:
+- **VC v2.0** = «digital passport / cert который ты сам носишь и показываешь когда нужно, selectively»
+- **SBT** = «непродаваемый badge в твоём crypto wallet, виден всем on-chain»
+- **PGP** = «cryptographic подпись твоего товарища что он тебя знает; transitive trust работает через цепочки»
+- **Karpathy wiki-sig** = «история commits в markdown wiki = твой reputation»
+- **Coordinape** = «epoch peer-reward DAO mechanism — ты раздал GIVE tokens, мы видим кому, ты получил обратно как GET»
+
+### §8.2 Ключевые pointы (9-dimension comparison summary)
+
+**Off-chain + free (Jetix-friendly):**
+- **W3C VC v2.0**: Rec 2025-05-15, selective disclosure (SD-JWT + BBS + ZKP), no DID dependency
+- **PGP WoT**: 34 years mature, ~57.5K strong set, UX friction real
+- **Karpathy-wiki-sig**: emerging, Git ubiquity, public commit history
+
+**On-chain + costs (lock-in risk):**
+- **SBT**: blockchain (Ethereum), gas costs, **identifiable** (discrimination risk per paper itself)
+- **Coordinape**: production 2021+, gas + epoch ops, Ethereum lock-in
+
+**Critical finding:** **VC v2.0 + PGP + Karpathy-wiki-sigs are off-chain + free** → directly accommodate Jetix R12 + substrate-agnostic claim. **SBT + Coordinape are on-chain** → couple к crypto rails (Friend.tech-collapse vulnerability per doc 03).
+
+### §8.3 Зачем нам это для Jetix
+
+**Это direct supplement к H8 LOCKED 2026-05-17.** H8 claims «substrate-agnostic role-attestation» — это значит **Foundation требует только shape (F-G-R triple + role-attestation)**, конкретный substrate = RUSLAN-LAYER overlay per Clan / Phase.
+
+**Brigadier-inferred recommendation (layered approach):**
+
+```
+Phase 1 (immediate, free):  PGP + Karpathy-wiki-sigs
+Phase 2 (production):       + W3C VC v2.0 (over Phase 1)
+Phase 2+ (pattern adopt):   Coordinape epoch-peer-reward для Workshop revenue (БЕЗ Ethereum)
+Phase 3+ (optional):        SBT только для crypto-native partner Clans (не Foundation default)
+```
+
+**Логика:**
+- **Phase 1 ship immediately** = PGP-signed Foundation Part changes + Karpathy-wiki-sig convention formalized in shared/schemas/. Zero infrastructure, zero cost
+- **Phase 2 production** = VC v2.0 layer over PGP (PGP signatures становятся VC issuance method). W3C Rec = mature enough для production launch
+- **Phase 2+ pattern, not substrate** = borrow Coordinape epoch-peer-reward LOGIC для Workshop revenue distribution, but **не lock-in Ethereum**. F-G-R + epoch allocation = adoptable design without crypto dependency
+- **Phase 3+ optional** = SBT для crypto-native partner Clans, но **не Foundation default** (Russian L1 may face crypto regulatory barriers)
+
+**Substrate-agnostic claim preserved:** Foundation requires F-G-R triple + role-attestation **shape**; specific substrate = RUSLAN-LAYER overlay per Clan.
+
+**Cross-refs:** decisions/STRATEGIC-INSIGHT-H8-* (H8 LOCKED), swarm/wiki/foundations/principles/architecture.md (R12 substrate-agnostic), research/deepening-2026-05-18/03 (anti-gaming H8 design), research/deepening-2026-05-18/11 (Tang/Weyl Plurality QF context).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0 — implementation prep):**
+
+1. **Formalize Karpathy-wiki-sig convention в `shared/schemas/wiki-sig.schema.json`** — какие fields в frontmatter / commit message constitute «signed claim». Это уже de-facto convention в нашем wiki/, нужно formalize
+2. **Setup PGP keypair для Ruslan** (если ещё нет) — `gpg --gen-key`, publish public key в crm/people/ruslan.md + GitHub
+3. **Прочитать W3C VC v2.0 spec preamble** (https://www.w3.org/TR/vc-data-model-2.0/) — first 20 страниц для baseline understanding
+
+**Phase 1 (когда Workshop launches):**
+
+4. **First Foundation Part change carries PGP signature** — test H8S1 statement
+5. **Workshop revenue mechanism designed БЕЗ Ethereum** — borrow Coordinape epoch logic, implement в plain SQL / JSON file. Test H8S5
+
+**Phase 2 (production):**
+
+6. **VC v2.0 implementation pilot** — first Workshop graduate gets VC-formatted attestation. SpruceID / TruAge / SD-JWT as reference implementations
+7. **Fork-and-leave test event** — verify attestation portability (Workshop member exports VC + PGP signatures → moves to other Clan)
+
+**Phase 3+ (optional, не canonical):**
+
+8. **Crypto-native partner Clans** могут pilot SBT as supplementary substrate; document trade-offs
+
+### §8.5 Резюме на 2 строки
+
+**Из 5 substrates: VC v2.0 + PGP + Karpathy-wiki-sigs = off-chain + free → Jetix layer; SBT + Coordinape = on-chain → optional only.** Recommended layered approach: Phase 1 PGP + wiki-sig; Phase 2 add VC v2.0; Phase 2+ Coordinape pattern (не substrate); Phase 3+ SBT optional для crypto Clans.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~870.*
+

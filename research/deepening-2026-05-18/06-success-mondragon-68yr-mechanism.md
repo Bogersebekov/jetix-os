@@ -213,3 +213,96 @@ ULMA + Orona departed citing governance disagreements. **Mode:** federation gove
 - **NOT promotion of Catholic-humanism framing** — Mondragón rooting noted, не Jetix template
 
 **Word count:** ~1850
+
+---
+
+## §8 На человеческом — 68-летний кооператив и что из него можно взять (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+**Mondragón** — это **самый большой worker cooperative в мире**, в Стране Басков (Испания). Существует с **14 апреля 1956** = **70 лет в 2026**. Это **самый длинный sustainable пример R12 anti-extraction at industrial scale**.
+
+**Основатель:** священник **Father José María Arizmendiarrieta**. Первый cooperative назывался **Talleres Ulgor** (производство paraffin heaters — обогревателей; позже стал Fagor Electrodomésticos — известный бренд бытовой техники).
+
+**Что они представляют сейчас (2024):**
+- **70,085 рабочих** (30,660 в Стране Басков + 29,340 в остальной Испании + ~10K за границей)
+- **€11.213 миллиарда выручки + €632 миллиона чистой прибыли**
+- **4 сектора:** Finance (Laboral Kutxa bank) / Industry (73% международных продаж) / Retail (Eroski supermarkets) / Knowledge (Mondragón University + 12 технических центров)
+
+**Почему это работает 70 лет:**
+
+1. **Wage ratio cap 3:1 to 9:1** между executive и minimum-wage worker; средний **5:1**. В US tech ratio часто **1000:1**. Mondragón rules буквально constraint этого
+2. **One worker = one vote** в каждом кооперативе — capital не голосует
+3. **Cooperative Congress (с 1984)** — formal governance body, утверждает правила majority vote
+4. **Mondragón University + 12 tech centers** — поколения 2, 3, 4 обучены внутри системы
+
+Аналогия: представь что в 1956 году basque священник основал **производственный кооператив** в маленьком городе → к 2024 году это **€11+ billion empire** где все 70K людей **владельцы**, средний ratio зарплаты 5:1, есть свой банк + университет + 12 R&D центров.
+
+### §8.2 Ключевые pointы
+
+- **14 апреля 1956** founded by Father José María Arizmendiarrieta
+- **Arizmendiarrieta died 1976** — 28 лет informal operations до Cooperative Congress 1984
+- **1959** — Caja Laboral bank founded (year-3 milestone — capital independence)
+- **1984** — Cooperative Congress institutionalized governance (post-charismatic-founder transition)
+- **2008** — Ampo + Irizar departed (mild crisis)
+- **2013** — Fagor Electrodomésticos bankruptcy **€1.1B debt** — federation absorbed shock, workers reallocated
+- **December 2022** — ULMA + Orona departed (**-13% workforce, -15% sales**) citing «pressure» — federation survived
+- **2024** — 70K workers, €11.213B revenue
+- **Critiques** (Chomsky 2012, Navarro): «embedded в capitalist system» + «two-tier» (non-owner employees ~14%)
+
+### §8.3 Зачем нам это для Jetix
+
+**Mondragón = empirical proof что R12 anti-extraction работает at industrial scale за 68 лет** — это load-bearing evidence для Jetix Pillar C Tier 2 R12.
+
+**8 прямых mappings Mondragón → Jetix:**
+
+| Mondragón | Jetix |
+|---|---|
+| Cooperative Congress (1984) | Foundation Architecture LOCKED (2026-04-28) |
+| Wage ratio 3:1-9:1 | Workshop revenue split ratio (TBD — Phase 1 design input) |
+| One worker = one vote | Pillar C Tier 2 R12 + Corrigibility |
+| Mondragón University + 12 tech centers | Workshop + Train-The-Trainer pattern |
+| Caja Laboral (1959) | Internal capital allocation Phase 2-3 candidate |
+| Majority rule governance | H8 governance protocol |
+| Dec 2022 departure tolerance | R12 fork-and-leave (proved empirically at 10K-worker scale!) |
+| Catholic humanism root | Pillar C Tier 1 manager principles |
+
+**3 critique-based warnings:**
+
+1. **Chomsky's «embedded в capitalist system»** — internal cooperative logic vs external market reality = tension. Jetix Workshops competing на consulting market могут face same pressure. Mitigation: explicit R12 design + transparent revenue share
+
+2. **Navarro «two-tier system»** — ~14% Mondragón workers abroad lack full membership. **Jetix parallel:** при L1 → L2 → L3 expansion, at what threshold non-Clan-member contractors emerge? Pre-design needed: Jetix avoids two-tier OR explicitly limits to N% non-member
+
+3. **2022 departures «pressure + interference»** — federation governance can be perceived as overreach by component cooperatives. **Jetix mitigation:** Pillar C subsidiarity (delegate decisions to lowest competent level) + Corrigibility (Clans can reject Foundation directives)
+
+**Cross-refs:** swarm/wiki/foundations/principles/architecture.md (Pillar C R12), JETIX-VISION-FUNDAMENTAL §6.1 R12, swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md, vision/03 Workshop, vision/04 first Clan, vision/08 L1+ multi-Clan.
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Назначить Workshop max revenue-share ratio** — Mondragón empirical answer: 5:1 average sustainable; 9:1 high boundary; >9:1 = drift toward capitalist firm. Jetix may pick **narrower (1:1 to 3:1) для L1 small-Clan**; expand to 5:1 at L2+
+2. **Прочитать Greg MacLeod «From Mondragón to America» (1997)** — academic deep на mechanism transfer beyond Basque context
+
+**Phase 1:**
+
+3. **Train-The-Trainer mechanism** в Workshop — formal substrate (curriculum + cert); inter-generational continuity per Mondragón University pattern (anti-kibbutz-2nd-gen-loss)
+4. **Trial «fork-and-leave» event** — explicitly test R12 in Phase 1-2 (controlled departure scenario)
+
+**Phase 2-3:**
+
+5. **Non-Clan-member contractor share documented** — explicit cap (например ≤14% — Mondragón empirical edge)
+6. **Internal capital allocation mechanism** rozważa — Caja Laboral analog когда Workshop revenue стабильная
+
+**Continuous:**
+
+7. **Foundation rules survive «component cooperative perceives overreach» stress test** — periodic Clan-level review
+
+### §8.5 Резюме на 2 строки
+
+**Mondragón = 70-летнее empirical proof что cooperative governance с wage cap 5:1 + 1-worker-1-vote + Train-The-Trainer + tolerance к exit survives industrial scale, bankruptcies, and 10K-worker departures.** Для Jetix: direct template для Workshop revenue ratio + L1-Clan structure + R12 fork-and-leave validation.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~830.*
+

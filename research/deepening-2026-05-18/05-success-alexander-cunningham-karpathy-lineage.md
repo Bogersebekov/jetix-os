@@ -211,3 +211,113 @@ F4+ R-medium+ attestations from existing Clan members = role-attestation.
 - **NOT replacement of FPF B.3 F-G-R schema** — pattern format = potential view, not substitute
 
 **Word count:** ~1700
+
+---
+
+## §8 На человеческом — 49-летняя цепочка от архитектора к Karpathy (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **самая длинная и самая релевантная цепочка передачи идей** в нашем corpus — от **архитектора зданий 1977 года** до **AI-wiki 2026** через 5 пересадок жанра. **49 лет одной линии**.
+
+**Цепочка по шагам:**
+
+1. **1977** — Christopher Alexander + 5 со-авторов выпускают «**A Pattern Language**» — книга для **архитекторов зданий и градостроителей**. **253 паттернов**. Каждый паттерн = «вот эта проблема + вот это решение + вот эти связи с другими». Идея: «жизненный город» строится из re-usable patterns
+
+2. **1987** — на конференции **OOPSLA** Kent Beck + Ward Cunningham берут эту идею и **переносят на software design**. «Software patterns» — software analog архитектурных patterns
+
+3. **1994** — Gang of Four (Gamma + Helm + Johnson + Vlissides) пишут «**Design Patterns: Elements of Reusable Object-Oriented Software**» — **23 паттерна** для OOP. **500K+ копий в English + 13 languages**. Каждый программист 1995-2010 читал
+
+4. **25 марта 1995** — Cunningham запускает **WikiWikiWeb** на Portland Pattern Repository. **Первый wiki в мире вообще.** Принципы: «freedom, simplicity, power». (Read-only с 1 февраля 2015 из-за vandalism)
+
+5. **2001** — Wales + Sanger запускают Wikipedia → wiki идея становится универсальной
+
+6. **April 2026** — Andrej Karpathy публикует **LLM Wiki Gist** — markdown wiki которую LLM поддерживает + растит across sessions. **Direct ancestor нашего wiki/**
+
+Аналогия: представь что в 1977 году архитектор написал книгу «как делать живые дома» — а через 49 лет AI-инженер использует ту же структуру чтобы делать «живую wiki которую AI поддерживает». Это **literally один patternlineage** через 5 different domain'ов и 49 лет.
+
+### §8.2 Ключевые pointы
+
+- **1977** Alexander + 5: «A Pattern Language» — 253 patterns для buildings
+- **1987 OOPSLA** Beck + Cunningham — pattern concept → software (jaws dropped в community)
+- **1994** GoF — «Design Patterns» — 23 patterns, 500K+ copies, 13 languages
+- **25 марта 1995** Cunningham — WikiWikiWeb — первый wiki в мире
+- **1 февраля 2015** — WikiWikiWeb стал read-only (vandalism beyond moderation capacity)
+- **2001** — Wikipedia (Wales / Sanger) generalizes wiki
+- **April 2026** — Karpathy LLM Wiki Gist — wiki как LLM-living substrate
+
+**Transfer mechanism (4-step recipe):**
+1. **Substrate concept in D1** (architecture pattern format)
+2. **Bridge person с cross-domain literacy** (Beck + Cunningham знают и architecture и software)
+3. **Right venue / amplification** (OOPSLA conference, Addison-Wesley book, GitHub Gist)
+4. **Operationally useful artifact in D2** (23 patterns reference, 1 working wiki)
+5. **Community curates + compounds 5-50 years**
+
+### §8.3 Зачем нам это для Jetix
+
+**Это самая сильная single adjacency** named в Master Index §3.1.1.
+
+**Прямой Phase 1 candidate:** «**Pattern Language for Engineering Methodology**» как viral artifact для Jetix.
+
+**Mapping ко всем 4 transfer elements:**
+
+| Element | Jetix-specific |
+|---|---|
+| **D1 → D2** | Engineering methodology (current state, fragmented) → AI-co-readable methodology substrate |
+| **Bridge person** | Ruslan + Anatoly + Tseren (RU-EN + ШСМ + AI literacy) |
+| **Venue** | GitHub Gist (Karpathy-style) + ШСМ ecosystem + vision/* publication |
+| **Operational artifact** | «Pattern Language for Engineering Methodology» — Phase 1 candidate |
+| **Community + compounding** | Workshop (vision/03) — 5-50 year horizon |
+
+**Format alignment с Alexander 1977:**
+
+Каждый FPF pattern = problem + solution + essential field of relationships. Это **literal format** Alexander'а адаптированный к engineering methodology domain.
+
+Пример pattern (см. §4.2 в основном doc):
+```
+# Pattern N: Role-Attestation Through Demonstrated Results
+## Context: Workshop launching, new participant без credentials
+## Forces: demonstrated work product = trust signal; self-claim = unreliable; etc.
+## Solution: F-G-R triples; 3 F4+ R-medium+ attestations from Clan members
+## See also: [[Pattern N-1: Substrate-Agnostic Trust]]
+```
+
+**Cross-refs:** research/adjacent-ideas-2026-05-17/07 methodology-distribution, CLAUDE.md «Wiki Architecture v2 (Karpathy LLM Wiki + OmegaWiki)», vision/03 Workshop, positioning §7.7 (named candidate).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Read Alexander 1977 «A Pattern Language»** — first 50 страниц достаточно чтобы понять format. Особенно look at: «Mosaic of Subcultures», «Subculture Boundary», «Identifiable Neighborhood» — patterns про community structure, relevant для Workshop design
+2. **Read Karpathy LLM Wiki Gist** (https://gist.github.com/karpathy/...) — посмотреть как он использует wiki в современном LLM-era
+
+**Phase 1:**
+
+3. **Draft 5-7 FPF Pattern Language candidates** в Alexander format — pilot из 5-7 паттернов про:
+ - Role-Attestation Through Demonstrated Results
+ - Substrate-Agnostic Trust (cross-ref H8)
+ - Anti-Gaming Multi-Signal (cross-ref 03-failure-SO)
+ - R12 Anti-Extraction Workshop (cross-ref 06-Mondragón)
+ - F-G-R Discipline (cross-ref FPF B.3)
+ - Bilingual Drift Mitigation (cross-ref text_006)
+ - L1 Bootstrap Pattern (cross-ref vision/04 first Clan)
+
+4. **Publish drafts через GitHub Gist + vision/* pages** — Karpathy-style substrate moment
+
+**Phase 2:**
+
+5. **L1 Workshop runs первые FPF patterns** real — empirical bootstrap (Engelbart-style, см. doc 04)
+6. **Iterate format на основе feedback** — patterns + F-G-R schema co-evolve
+
+**5-50 year horizon (когда Jetix scaled):**
+
+7. **«Engineering Methodology Pattern Language» как viral artifact** в инженерной community — 49-летний lineage suggests возможно
+
+### §8.5 Резюме на 2 строки
+
+**Alexander 1977 → Beck/Cunningham 1987 → GoF 1994 → WikiWikiWeb 1995 → Wikipedia 2001 → Karpathy LLM Wiki 2026** — 49 лет одной линии передачи через 5 domain'ов. Для Jetix: «Pattern Language for Engineering Methodology» = Phase 1 candidate, format borrowing direct, lineage justifies the bet.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~810.*
+
