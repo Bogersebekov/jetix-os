@@ -241,3 +241,104 @@ language: russian + english
 - [Anthropic courses GitHub](https://github.com/anthropics/courses)
 - [Anthropic prompt engineering tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial)
 - [Simon Willison on Anthropic tutorial](https://simonwillison.net/2024/Aug/30/anthropic-prompt-engineering-interactive-tutorial/)
+
+---
+
+## §8 На человеческом — 5 моделей как distribute methodology (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор как разные methodologies распространяют себя в мире** — direct adjacency для FPF universal-language test_002 (vision/01).
+
+**5 проверенных моделей:**
+
+1. **Book + certification body** — GTD (David Allen 2001, 90 countries partners) / TOC (Goldratt «The Goal» 3M books) / Scrum / Six Sigma
+2. **Book + viral cross-domain transfer** — **Christopher Alexander «A Pattern Language» (1977)** → Beck/Cunningham 1987 → GoF 1994 → WikiWikiWeb 1995 → Karpathy LLM Wiki 2026 (см. research/deepening-2026-05-18/05 — 49-летний lineage deep dive)
+3. **Industrial consulting** — Toyota TPS (1950s+, см. research/deepening-2026-05-18/14)
+4. **Manifesto + viral certification** — Agile/Scrum (см. cluster 4)
+5. **Free + LLM-substrate (recent)** — **Anthropic prompt engineering courses (Aug 2024)** GitHub free + Haiku-optimized; Karpathy LLM Wiki Gist (April 2026)
+
+Аналогии:
+- **GTD model** = «написал bestseller книгу + создал company + сертифицируешь trainers + 3-extra-day Train-The-Trainer model»
+- **Pattern Language model** = «написал book для архитекторов зданий → 10 лет спустя programmers извлекли идею → 30 лет спустя AI engineers used the same pattern для wiki» (49 years!)
+- **Toyota consulting model** = «70 лет internal practice → external consultants → Lean brand → Six Sigma fusion»
+- **Anthropic free GitHub courses** = «zero cost, viral, Haiku для дешевого student API calls»
+
+### §8.2 Ключевые pointы
+
+- **GTD:** **35 years methodology** development; **Certified Trainers + GTD Coaches в 90 countries**; **3 extra days Train-The-Trainer**
+- **Pattern Language (1977)** → Beck/Cunningham 1987 OOPSLA («jaws dropped») → **Gang of Four «Design Patterns» (1994)** → WikiWikiWeb (1995, **first wiki ever**, Ward Cunningham) → Wikipedia 2001 → **Karpathy LLM Wiki April 2026** — **strongest single adjacency для FPF**
+- **Alexander verbatim:** «A group of people who use a common pattern language can make a design together just as well as a single person can within his mind»
+- **TPS 70+ years sustained** distribution — internal training + consulting + Lean Manufacturing brand + Six Sigma fusion
+- **Anthropic courses (Aug 2024):** GitHub `anthropics/courses` + 9-chapter interactive tutorial + **Haiku optimized for cost** + AWS Workshop + Pluralsight; **distribution channels diverse**
+- **Karpathy LLM Wiki Gist** = **zero infrastructure, replicable в days**
+
+### §8.3 Зачем нам это для Jetix
+
+**Direct adjacency для FPF + Workshop + L1 collaboration scaling.**
+
+**5 distribution patterns mapped к Jetix:**
+
+| Distribution model | Jetix application |
+|---|---|
+| **GTD Train-The-Trainer (3-day model)** | Direct template для Workshop facilitator certification |
+| **Alexander Pattern Language** | **Strongest single precedent** для «Engineering Pattern Language for Methodology» Phase 1 artifact (см. research/deepening-2026-05-18/05) |
+| **Toyota consulting model** | Workshop Train-The-Trainer + mentor-pairing pattern (см. research/deepening-2026-05-18/14 TPS deep) |
+| **Manifesto + viral certification** | Jetix может adopt manifesto pattern; AP-6 dissent: соул-loss risk |
+| **Anthropic free GitHub courses** | **Direct viral model** — GitHub + free + tutorial structure |
+
+**Strongest single insight:** **Pattern Language → Design Patterns trajectory = direct precedent для FPF universal-language-distribution** (49-летний lineage, см. research/deepening/05 deep dive). Phase 1 candidate viral artifact = «**Pattern Language for Engineering Methodology**».
+
+**4-element transfer recipe** (per research/deepening/05):
+1. Substrate concept (Alexander format)
+2. Bridge person (Beck + Cunningham 1987 cross-domain literacy)
+3. Right venue (OOPSLA conference)
+4. Operationally useful artifact (GoF book)
+
+**Jetix equivalent:**
+1. Substrate: Alexander format + F-G-R + AI-co-readability
+2. Bridge: Ruslan + L1 (Anatoly + Tseren) — RU+EN+ШСМ+AI literacy
+3. Venue: GitHub Gist (Karpathy-style) + ШСМ ecosystem
+4. Artifact: «Pattern Language for Engineering Methodology»
+
+**Modern viral substrate** — Anthropic courses Aug 2024 = template:
+- GitHub primary distribution
+- Free + open-source
+- Interactive tutorial structure
+- Multi-channel (GitHub + AWS Workshop + Pluralsight + Google Sheets)
+- Cost discipline (Haiku for student API calls)
+
+**Cross-refs:** vision/01 FPF universal language, vision/03 Workshop, vision/04 first Clan, design/JETIX-FPF.md, research/deepening-2026-05-18/05 (Alexander lineage), research/deepening-2026-05-18/14 (TPS Train-The-Trainer), research/adjacent-ideas-2026-05-17/04 (TOC + GTD models), CLAUDE.md «Wiki Architecture v2».
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Read Alexander 1977 «A Pattern Language»** first 50 pages — format reference (Mosaic of Subcultures / Subculture Boundary / Identifiable Neighborhood patterns про community structure)
+2. **Read Anthropic prompt-eng-interactive-tutorial** на GitHub — Anthropic-style viral free model template
+3. **Read Karpathy LLM Wiki Gist** — Karpathy zero-infrastructure viral pattern
+
+**Phase 1:**
+
+4. **«Engineering Pattern Language for Methodology» artifact draft** — 5-7 patterns в Alexander format (см. research/deepening/05 §4.2 example)
+5. **GTD-style 3-day Train-The-Trainer** в Workshop facilitator certification adaptation
+6. **GitHub-first viral distribution model** для FPF artifacts — Anthropic courses template
+
+**Phase 2:**
+
+7. **Cross-domain transfer hypothesis test** — pick aerospace (NASA SE) и test FPF utility (см. research/deepening-2026-05-18/12 — already drafted)
+8. **«TPS internal vs published Toyota Way» gap study** — explicit tacit-vs-explicit lessons (research/deepening-2026-05-18/14)
+
+**Continuous:**
+
+9. **Anti-extraction R12 + distribution economics** open design question — how Jetix monetizes без extraction?
+10. **Six Sigma backlash lesson check** — где FPF risks «process-over-people» trap? Periodic Pillar C check
+
+### §8.5 Резюме на 2 строки
+
+**5 methodology distribution models: book+cert (GTD/TOC) / book+viral transfer (Pattern Language → 49-летний lineage) / industrial consulting (TPS 70yr) / manifesto+cert (Agile) / free+LLM-substrate (Anthropic+Karpathy).** Для Jetix: «Engineering Pattern Language» Phase 1 artifact (strongest precedent) + GTD-style 3-day Train-The-Trainer + Anthropic-style GitHub viral model.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~830.*
+

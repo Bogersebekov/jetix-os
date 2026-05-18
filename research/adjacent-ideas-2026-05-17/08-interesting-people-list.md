@@ -156,3 +156,115 @@ language: russian + english
 - **7 deferred per memory** (Balaji + adjacencies trigger threshold)
 - **All Phase 0 actions = zero-cost** (follow + read only)
 - **All Phase 1+ outreach pending Ruslan ack**
+
+---
+
+## §8 На человеческом — список 52 candidates для read/follow/future-contact (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **список из 52 interesting people** которые могут быть relevant для Jetix через research-adjacent corpus (10 clusters). **R1 surface-only — НИКАКОГО outreach без Ruslan ack.** Это «**carded contact list**» — кого читать, за кем следить, кого потенциально contact'ить в будущем (когда у Jetix будет что показать).
+
+**Структура:**
+- **Top 12 priority** (cross-cluster strategic)
+- **12 methodology + community founders**
+- **8 Network State + tribal substrate**
+- **8 trust + cooperative infrastructure**
+- **7 historical / read-only (deceased)** — для reading only
+- **5 adjacent thinkers** (read-only)
+- **Total: 52 candidates** (matches 30-50 target)
+
+Аналогия: представь список из 52 людей — каждый интересен по разному поводу. Кто-то умер (читай их книги, например Christopher Alexander 2022, David Graeber 2020). Кто-то живой и активен (Karpathy, Buterin, Bret Victor). Кто-то уже в Jetix orbit (Anatoly Levenchuk, Tseren). С большинством **нет смысла contact'ить** пока нет демки. С Top-3-5 кого мы знаем, можно работать ближе.
+
+### §8.2 Ключевые pointы — Top-12 priority
+
+| # | Name | Why critical | Action |
+|---|---|---|---|
+| 1 | **Andrej Karpathy** | LLM Wiki pattern author (April 2026); direct ancestor Jetix wiki/; possible viral distribution model | Follow @karpathy + Eureka Labs; **deferred cold contact** until Jetix demo strong |
+| 2 | **Anatoly Levenchuk** | Primary Russian methodology baseline; «новый порядок системных мыслителей» direct reference | **Already in Jetix orbit** |
+| 3 | **Bret Victor** | Closest active visionary on humane computing; «Inventing on Principle» 2012; Realtalk system | Watch Dynamicland; possible Berkeley visit Phase 2+ |
+| 4 | **Vitalik Buterin** | DeSoc/SBT paper co-author; «d/acc one year later» Jan 2025 retrospective | Read blog regularly |
+| 5 | **Glen Weyl** | SBT + RxC co-founder; «Plurality» 2024 book co-author с Audrey Tang | Read «Plurality»; deferred outreach |
+| 6 | **Ivar Jacobson** | SEMAT founder — closest direct precedent к FPF | Read SEMAT updates; possible academic citation |
+| 7 | **Dave Snowden** | Cynefin 5-domain framework | Watch 2024-2026 talks |
+| 8 | **Ward Cunningham** | WikiWikiWeb creator 1995 (first wiki ever); Pattern Repository | Follow ward.bay.wiki |
+| 9 | **Kent Beck** | TDD + XP + Pattern transfer pioneer (Alexander → software 1987) | Follow @kentbeck Mastodon |
+| 10 | **Audrey Tang** | former Taiwan Digital Minister; Plural tech | Watch talks; read «Plurality» |
+| 11 | **Charles Broskoski** | Are.na co-founder; sustainable mission-driven community 10+ year | **Interview-worthy** для Jetix community design |
+| 12 | **Цэрэн (Tseren)** | МИМ; Jetix L1 partner | **Active L1 — already integrated** |
+
+**6 deceased (read only):**
+- Douglas Engelbart (2013) — read 1962 framework
+- Vannevar Bush (1974) — «As We May Think» 1945
+- Christopher Alexander (2022) — «A Pattern Language» 1977
+- Edgar Cahn (Jan 2022, 86) — TimeBanks
+- David Graeber (2020) — «Debt: First 5,000 Years»
+- Pieter Hintjens (2016) — ZeroMQ governance essays
+
+### §8.3 Зачем нам это для Jetix
+
+**Phase-divided outreach discipline:**
+
+**Phase 0 (zero-cost — already established):**
+- Follow Top-12 priority candidates on public channels
+- Read key artifacts (Engelbart 1962, Alexander 1977, Plurality book, Karpathy LLM Wiki, Buterin d/acc)
+- Subscribe to relevant Substacks / blogs
+- **NO outreach** — establish presence first
+
+**Phase 1+ outreach candidates** (when Workshop demos strong):
+- **Bret Victor** (community-aligned humane computing)
+- **Charles Broskoski** (sustainable community design)
+- **Dave Snowden** (Cynefin integration)
+- **Anatoly Levenchuk** (already in orbit — possible deeper collaboration)
+- **Anthropic education team** (possible Jetix course collaboration)
+
+**Phase 2+ outreach** (capital + traction + artifact):
+- **Karpathy** (Jetix wiki/ extends his pattern at scale)
+- **Balaji Srinivasan** (per memory `project_balaji_outreach_target` trigger: $100K + 20+ workshops + published artifact)
+- **Vitalik Buterin** (d/acc + Jetix m/acc alignment)
+- **Glen Weyl** (Plural Tech + role-attestation alignment)
+
+**Per memory `project_balaji_outreach_target` (2026-05-12 LOCKED):**
+- Balaji outreach **deferred to Phase 2+**
+- Trigger: **$100K + 20+ мастерских + published artifact**
+- Until then: read + follow only
+
+**Cross-refs:** memory `project_balaji_outreach_target`, all 10 research-adjacent cluster docs (01-09), research/deepening-2026-05-18/09 (Karpathy deep), research/deepening-2026-05-18/10 (Buterin deep), research/deepening-2026-05-18/11 (Tang+Weyl Plurality deep).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Follow Top-12 priority candidates** на их public channels (Twitter, Mastodon, Substack, blogs) — initiate presence
+2. **Read 5 key artifacts:**
+ - Engelbart 1962 (dougengelbart.org/content/view/138)
+ - Alexander 1977 (first 50 pages)
+ - Karpathy LLM Wiki Gist
+ - Buterin «d/acc one year later» Jan 2025
+ - «Plurality» book (Tang/Weyl 2024) free online plurality.net
+3. **Subscribe relevant Substacks** — Buterin, Karpathy, Audrey Tang, Maggie Appleton, Gwern
+
+**Phase 1 (когда Workshop demos strong + Ruslan ack):**
+
+4. **Contact Bret Victor** — community-aligned, lowest-friction first outreach candidate
+5. **Charles Broskoski interview** для Jetix community design — 10+ year sustainable model insights
+6. **Anthropic education team** возможное collaboration — Jetix course parallel
+
+**Phase 2+ (capital + traction + artifact thresholds):**
+
+7. **Karpathy outreach** — when Jetix wiki/ extends his pattern at substantive scale
+8. **Balaji outreach** — when $100K + 20 workshops + artifact (per memory trigger)
+9. **Buterin / Weyl** — when m/acc framing finalized + Phase 1 retrospective published
+
+**Continuous:**
+
+10. **Living-status discipline maintain** — verify public profiles + recent activity references; mark DECEASED appropriately
+
+### §8.5 Резюме на 2 строки
+
+**52 interesting people candidates: Top-12 priority (Karpathy / Anatoly / Bret Victor / Buterin / Weyl / Jacobson / Snowden / Cunningham / Beck / Tang / Broskoski / Tseren); 6 deceased (read-only); all Phase 1+ outreach pending Ruslan ack.** Phase 0 = follow + read only; Phase 2+ Balaji per $100K + 20 workshops + artifact trigger.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~830.*
+

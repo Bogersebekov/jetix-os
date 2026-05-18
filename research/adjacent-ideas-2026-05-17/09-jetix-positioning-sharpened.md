@@ -258,3 +258,108 @@ Per R1 + R6 honesty discipline:
 ---
 
 ## Word count: ~2200 (under 2500 budget)
+
+---
+
+## §9 На человеческом — 5 claims чем Jetix unique vs adjacent (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+Это **synthesis document** — brigadier прочитал 7 cluster docs research-adjacent (universal language / intelligence-as-tool / platforms / engineering communities / trust beyond money / virtual tribes / methodology distribution) + дополнительные → surfaced **5 unique vectors** where Jetix creates novel combination, не purely reproducing existing work.
+
+**Важно: это draft hypothesis, не canonical positioning.** Ruslan-strategic-prose остаётся sole-author per Pillar C R1. Это brigadier surface для Ruslan review.
+
+Аналогия: представь что у тебя есть 100+ существующих methodologies / communities / substrates → brigadier спрашивает «**что у Jetix есть combination'а которого ни у кого нет?**» Surface 5 candidates → Ruslan решает какие promote.
+
+### §9.2 Ключевые pointы — 5 claims
+
+**Claim 1: AI-co-readable methodology substrate с constitutional governance**
+- Combination: human-readable (RU+EN) + machine-readable (FPF B.3 F-G-R, JSON-LD compat) + Default-Deny + Corrigibility + R12 + EP-5 disclosure
+- **No adjacent project combines all 6 elements.** SEMAT универсальный SE но not AI-readable; Karpathy AI substrate но not methodology; Schema.org machine-readable но not methodology
+
+**Claim 2: Cross-domain engineer + Russian-English bilingual + methodology-roots**
+- TRIZ closest (RU roots + cross-domain), но split RU/Western и без AI substrate
+- INCOSE cross-domain но English-only
+- ШСМ RU-only mostly
+- **Jetix bilingual-by-design + cross-domain engineer + AI substrate = novel**
+
+**Claim 3: Workshop pattern (Phase 0-3) с pre-mortem discipline**
+- Explicit failure-mode pre-mortem based on adjacent: Xanadu over-design / Praxis $525M failure / Cybersyn fragility / Engelbart underuse / SO gamification / Six Sigma backlash
+- Snowden Cynefin 2024 reflection = closest precedent
+- **Jetix explicit pre-mortem discipline (cluster 1-7 failure-cases → Phase 0) = unusual at this scale**
+
+**Claim 4: Trust infrastructure (H8 Octagon LOCKED) substrate-agnostic role-attestation**
+- Every adjacent trust mechanism couples к specific substrate (VC → PKI; SBT → blockchain; PGP → GnuPG; Coordinape → Ethereum)
+- **Jetix H8 explicitly substrate-agnostic** — allows VC OR PGP OR Karpathy-wiki signatures. Escapes crypto-tribe coupling
+
+**Claim 5: Foundation Architecture v1.0 LOCKED up-front (vs reactive evolution)**
+- Debian: Constitution 1998 — 5 years after founded
+- Mondragón: Cooperative Congress 1984 — 28 years after founded
+- Linux / Bitcoin: governance reactive over decades
+- **Jetix encoded 10+ parts + 3 pillars + 11 Tier 2 rules BEFORE scaling beyond founder + L1 = structurally different timing**
+
+**Single sentence summary:** Jetix uniquely combines methodology + AI substrate + constitutional governance + multilingual + role-attestation + cross-domain transfer with pre-mortem discipline — **none of these alone is novel; the combination at this scale at this time is novel**.
+
+### §9.3 Зачем нам это для Jetix
+
+**Honest disclosures (per R1 + R6) — что Jetix НЕ uniquely invents:**
+
+- **LLM Wiki substrate** — directly adapted from Karpathy
+- **Cybernetic governance** — Beer VSM precedes Foundation Part 4
+- **Pattern Language** — Alexander 1977 + Beck/Cunningham 1987 + GoF 1994 precede any Jetix pattern catalogue
+- **Network State framing** — Balaji 2022 book; H4 = Балaji-derived
+- **Role-attestation** — PGP WoT 1992; W3C VC 2025; SBT 2022 all precede H8 options
+- **Quadratic mechanisms** — Weyl + Buterin RxC precedes any Jetix QV/QF
+- **Anti-extraction principle** — Mondragón 1956 wage-ratio precedes R12 articulation
+- **Open-source constitutional governance** — Debian 1998 precedes Foundation
+
+**8 Jetix risks (per Cluster 1-7 failure-case extraction):**
+
+- **Xanadu over-design** → R1 surface-only must hold
+- **Praxis capital-vs-legitimacy** → funding ≠ execution
+- **Stack Overflow gamification → ecology decay** → reputation system design
+- **Six Sigma «process over people»** → Pillar C Tier 1 trap avoidance
+- **Kibbutz generational decline** → 2nd-generation continuity unclear
+- **Lojban precision-vs-adoption paradox** → FPF must avoid
+- **Cybersyn political fragility** → Corrigibility R12 mitigates not eliminates
+- **Debian fork (Devuan 2014)** → governance ≠ schism immunity
+
+**Cross-refs:** vision/01-09 (all FPF/strategy docs), design/JETIX-FPF.md, decisions/JETIX-VISION-FUNDAMENTAL, swarm/wiki/foundations/* (Foundation Architecture LOCKED), all 10 research-adjacent cluster docs, all 14 research-deepening docs (01-14 + 98 + 99).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0 — strategic recommendations):**
+
+1. **Read 5 priority artefacts** (zero-cost):
+ - Engelbart 1962 «Augmenting Human Intellect»
+ - Alexander 1977 «A Pattern Language» (key chapters)
+ - Buterin Jan 2025 «d/acc: one year later»
+ - Karpathy April 2026 LLM Wiki Gist
+ - Tang/Weyl 2024 «Plurality» book (plurality.net)
+
+2. **Pre-mortem strengthening** — Phase 0 work-plan should include explicit pre-mortem docs (Xanadu / Praxis / Cybersyn / SO+Friend.tech) — **already done в research/deepening-2026-05-18/01, 02, 03**
+
+**Phase 1:**
+
+3. **Substrate-agnostic H8 design experiment** — pilot W3C VC + PGP-signed claims + Karpathy-wiki signatures **in parallel** для first Clan; surface which works (see research/deepening-2026-05-18/07 substrate matrix)
+4. **Foundation Architecture stress test** — Phase 1 must include at least 1 «constitutional violation drill» to verify enforcement (not ceremonial)
+5. **Bilingual interop test** — Phase 1 artifact dual-language Anatoly/Tseren + English-only future partner co-edit
+
+**Phase 2:**
+
+6. **Cross-domain transfer test** — apply FPF к aerospace systems engineering (NASA SE) — already drafted в research/deepening-2026-05-18/12; INCOSE reviewer pilot
+7. **«Pattern Language for Engineering Methodology» Phase 1 viral artifact** — direct Alexander → Beck/Cunningham trajectory analog (see research/deepening-2026-05-18/05)
+
+**Continuous:**
+
+8. **Counter-positioning honest** — periodic check «what does Jetix NOT uniquely invent» (per §6.1 disclosure)
+9. **Refutation conditions per claim monitored** — каждая claim 1-5 имеет refutation test condition (per §1.3, §2.3, §3.3, §4.3, §5.3)
+
+### §9.5 Резюме на 2 строки
+
+**5 unique vectors где Jetix создаёт novel combination: AI-co-readable methodology + constitutional governance / RU-EN bilingual + cross-domain + methodology-roots / Workshop pattern + pre-mortem discipline / substrate-agnostic H8 / Foundation Architecture LOCKED up-front.** Honest disclosures: most individual elements уже существуют; **combination at this scale at this time = novel claim, тестируемый Phase 1-2**.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~850.*
+

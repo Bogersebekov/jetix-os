@@ -224,3 +224,107 @@ Religious communities (Quaker / Benedictine / kibbutz) frequently outperform sec
 - [NixOS deserves great governance — Discourse](https://discourse.nixos.org/t/nix-deserves-great-governance/26096)
 - [Kibbutz — Wikipedia](https://en.wikipedia.org/wiki/Kibbutz)
 - [Kibbutz — Jewish Agency](https://www.jewishagency.org/what-exactly-is-a-kibbutz/)
+
+---
+
+## §8 На человеческом — 5 типов virtual tribes и что мы из них учим (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор разных типов «virtual tribes» / community форм** — кто как организован, что работает, что нет. Direct adjacency для **vision/04 first Clan 10 people** + **text_004 «virtual tribe» framing**.
+
+**5 типов:**
+
+1. **Ideology-tribes** (Twitter + Substack + Spaces, loose) — **e/acc** (Marc Andreessen + Beff Jezos = Guillaume Verdon disclosed Dec 2023) vs **d/acc** (Vitalik Buterin Nov 2023 + «one year later» Jan 2025)
+2. **Game-tribes** (EVE Online 20+ years) — Corporations + Alliances с executor (см. research/deepening-2026-05-18/13 deep dive)
+3. **Open-source tribes** — NixOS (2-year elected steering committee) / Debian (Constitution 1998) / Apache Software Foundation
+4. **Intentional communities physical** — Kibbutz Israel (Kvutzat Degania 1909, ~270 kibbutzim peak, **2005 legal split**)
+5. **Recent crypto-tribes** — Friend.tech 2023-2024 collapse / Praxis (covered Cluster 3)
+
+Аналогии:
+- **e/acc** = «pro-AI acceleration tribe» — Twitter manifestos, чёрно-белые avatars
+- **d/acc** = «decentralized + defensive + democratic + differentiated acceleration» — Buterin's frame
+- **EVE Online** = «гigantic многолетняя онлайн-игра где players образовали literally virtual states» (см. research/deepening/13)
+- **NixOS** = «open-source community с formal governance — elected steering committee 2-year terms»
+- **Debian** = «30-year sustained open-source через Constitution + annual DPL elections»
+- **Kibbutz** = «израильские collective settlements, common income pool, direct democracy — 100+ лет lessons включая 2005 split»
+
+### §8.2 Ключевые pointы
+
+**Ideology-tribes:**
+- **Marc Andreessen** «Techno-Optimist Manifesto» **Oct 2023**
+- **Beff Jezos = Guillaume Verdon** disclosed **Dec 2023 Forbes** (Canadian ex-Google quantum + theoretical physicist)
+- **Buterin d/acc** Nov 2023 «My techno-optimism» blog
+- **«d/acc: one year later»** **Jan 5, 2025** — explicit retrospective (rare!)
+- Pop-up cities: Edge City Lanna, Vitalia, Zuzalu, Edge Esmeralda — Network State-adjacent
+
+**Game-tribes:**
+- EVE Online 2003+ → 23 years sustained
+- Corp/Alliance structure (см. research/deepening/13)
+- B-R5RB Battle Jan 2014 — $300K real-money equivalent
+
+**Open-source:**
+- NixOS: elected steering committee 2-year terms, annual elections, Stichting NixOS Foundation
+- Debian: Constitution 1998 (one of first formal open-source governance docs); DPL annual elections
+- Apache: meritocracy + «Apache Way»
+
+**Kibbutz:**
+- Kvutzat Degania 1909 (first kibbutz)
+- ~270 kibbutzim peak
+- **2005 legal split** into 3 forms: Shitufi (cooperative) / MitChadesh (mixed) / MetuChavim (privatized)
+- 100+ years lessons including 2nd-generation-loss pattern
+
+### §8.3 Зачем нам это для Jetix
+
+**Direct adjacencies:**
+
+| Jetix artefact | Tribe pattern |
+|---|---|
+| vision/04 first Clan 10 people | Kibbutz + EVE Corp + NixOS steering committee = proven small-tribe substrate patterns |
+| vision/08 L1+ multi-Clan | EVE Corp+Alliance structure (см. research/deepening/13) |
+| Pillar C governance | Debian Constitution + NixOS governance = explicit constitution comparisons |
+| Foundation Architecture LOCKED | NixOS «community goals supersede individual interests» philosophy aligned |
+| Tribal positioning | **«m/acc»** (methodology acceleration) framing candidate? Tribal niche между e/acc и d/acc |
+| 2nd-generation continuity | Kibbutz 100-year lessons — 2nd-gen-loss pattern; mentor-pairing (research/deepening/14 TPS) mitigation |
+
+**5 critical lessons:**
+
+1. **e/acc vs d/acc framing** = active live tribal differentiation на Substack. **Jetix может be «m/acc» (methodology/acc) tribal niche** — defensive + decentralized + methodology-anchored. AP-6 dissent: needs naming pre-mortem
+2. **Buterin «d/acc one year later» (Jan 5, 2025)** = rare structured retrospective discipline — **Jetix model для Phase 1 close retrospective** (см. research/deepening/14 TPS Hansei)
+3. **EVE 20-year governance proof** — Corp/Alliance с executor + 50%+ support model works (см. research/deepening/13 deep)
+4. **Debian + NixOS** = 25-30 year open-source sustained via explicit constitution + elections. **Jetix Pillar C analog**
+5. **Kibbutz 2nd-generation loss** = warning. Jetix needs explicit «2nd generation» mechanism — currently invisible. Mentor-pairing (research/deepening/14 TPS lesson) = candidate mitigation
+
+**Cross-refs:** vision/04 first Clan, vision/08 L1+ multi-Clan, Pillar C Tier 2, AP-6 dissent, research/deepening-2026-05-18/13 (EVE deep), research/deepening-2026-05-18/14 (TPS mentor-pairing), research/deepening-2026-05-18/06 (Mondragón institutionalization parallel).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Read Buterin «d/acc: one year later»** (Jan 5, 2025) — rare retrospective example; learn the pattern для Phase 1 close
+2. **«m/acc» naming pre-mortem** — should Jetix adopt «m/acc» (methodology acceleration) framing? Compare к m/acc surface evidence; AP-6 dissent (см. research/deepening/10 §4)
+3. **Constitutional draft from Debian + NixOS** — 1-week exercise comparing Debian Constitution + NixOS governance с Jetix Pillar C Tier 2; gap analysis
+
+**Phase 1:**
+
+4. **EVE Corp+Alliance pattern** для vision/08 L1+ — simple + tested structure; map к Jetix lead Clan / brigadier roles (см. research/deepening/13)
+5. **Generational continuity mechanism** для Jetix design — currently invisible; constitutional design gap; mentor-pairing pattern (research/deepening/14 TPS)
+
+**Phase 2:**
+
+6. **Edge City / Vitalia attendance** — worth Jetix L2 representative attending one в 2026-2027? Direct intel + relationships
+7. **Kibbutz field-research** Israel visit — 1-week cost-benefit; 100-year-cohort insights
+
+**Continuous:**
+
+8. **Religious vs secular cohesion mechanisms** study — почему religious tribes outlast secular? Worth FPF «sacred» element discussion (Anatoly Tseren философия)
+9. **Beff Jezos disclosure parallel** — what is Jetix's «anonymous persona» risk? None currently identified, periodic check
+
+### §8.5 Резюме на 2 строки
+
+**5 типов virtual tribes: ideology (e/acc vs d/acc) / game (EVE 20yr) / open-source (Debian 30yr, NixOS) / intentional (Kibbutz 100yr с 2005 split) / crypto (Friend.tech collapse).** Для Jetix: «m/acc» framing pre-mortem; EVE Corp+Alliance для vision/08; Debian+NixOS Constitution comparison; mentor-pairing для 2nd-gen continuity.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~780.*
+
