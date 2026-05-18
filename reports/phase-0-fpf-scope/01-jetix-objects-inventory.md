@@ -744,6 +744,102 @@ O-29 surfacing = R1 surface only. NOT promoted к LOCK by brigadier. Ruslan ack 
 
 ---
 
+## §12 APPEND-2026-05-18-evening — O-28 promotion к F3 candidate (Outreach System Scalable deep research)
+
+### §12.1 Surfacing context
+
+§12 appended by brigadier per `research/outreach-deep-2026-05-18/` Phase 8 (Outreach System Scalable Deep Research run, sibling к ml-ai-engineers / hackathon-platform / system-merger streams; parallel-safe, different namespace).
+
+Per concept doc D `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (F2 acked 2026-05-18 evening) + deep research substrate now available — O-28 candidate (§10.4 above) eligible for F2 → F3 promotion review.
+
+### §12.2 O-28 candidate — Outreach System Scalable (F3 promotion candidate)
+
+- **Candidate-id:** O-28 (was F2 surface §10.4; now F3 promotion candidate)
+- **Surfaced-by:** brigadier-scribe via outreach-system-scalable-deep-research-2026-05-18 Phase 8
+- **Pre-ack status:** `brigadier-surfaced-F3-promotion-candidate-pending-Ruslan-ack`
+- **Origin:** text_009 Thread 5/12/13/14/15 + text_008 meta-directive + concept doc D F2 ack + 8-phase deep research run (12 docs + 10 mermaid diagrams + 37 testable H)
+- **FPF primitives (per Phase 0 §1):**
+  - A.16 Work-as-process (outreach pipeline)
+  - U.MethodDescription (outreach method canonical) + U.Method (per-execution)
+  - U.SpeechAct + U.PromiseContent (per-target invocation primitives)
+  - A.2 U.Role (operator role-types: 10-team + 100-trained + personalised; per-target class role-pair)
+  - U.System holonic (outreach engine = Jetix sub-system)
+  - B.5.1 Explore (cross-precedent mining)
+  - E.5 Guard-rails (R12 anti-extraction)
+- **F-G-R promotion:** F2 → F3 candidate / G=jetix-outreach-system-scalable-2026-05-18 / R=refuted_if_(10-team not assembled 60d OR 100-trained not assembled 12mo OR 36K/yr throughput not achieved at 100-op scale OR R12 extraction emerges OR R1 violated OR per OS-T1..T5 falsifier triggered)
+- **Status:** research-LOCKED-2026-05-18 / 6-resources-taxonomy-OPEN (Ruslan picks из A/B/C/D) / compensation-models-OPEN (3 candidates 10-team + 3 candidates 100-trained) / scope-primary-OPEN (Ruslan picks Combination α/β/γ) / activation-VAPOR (Phase 1 Q3 2026)
+- **Cross-precedent triangulation (F3-eligible substrate):**
+  - Sahil Lavingia augmented-solo + content-as-outreach (high-fit; R12-aligned)
+  - Pieter Levels build-in-public + community substrate (high-fit; R12-aligned)
+  - GitHub DevRel education-as-outreach (high-fit; R12-aligned)
+  - Naval Ravikant asymmetric leverage + specific knowledge (high-fit; R12-aligned)
+  - Andrew Chen a16z warm-intro chain (mechanism-only; reject capital-extraction)
+  - Y Combinator funnel + cohort (mechanism-only; reject equity-extraction)
+- **Mechanism:**
+  - 10-person video team Phase 1 (Q3 2026 60-day; 5 roles × deep spec)
+  - 100-trained cohort Phase 2 (Q4 2026 - Q3 2027 12-month; 4-tier curriculum + TPS 1:5 pairing)
+  - Personalised dispatch Phase 3 (Q1 2027+; 36K personalised/year aggregate)
+  - 6 target classes × T1/T2/T3 prioritisation matrix
+  - R12 per-stage anti-extraction gates (CRITICAL — Outreach = highest extraction risk surface)
+- **Constitutional posture:** R1 surface + R6 provenance + R11 Default-Deny + R12 (CRITICAL) + EP-5 + AP-6 dissent preservation + breadth-NOT-selection + FPF-lens-FIRST + append-only.
+- **Cross-refs:**
+  - `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (concept doc D F2 acked)
+  - `vision/11-outreach-system-scalable.md` (companion)
+  - `research/outreach-deep-2026-05-18/` (this deep research stream; 12 docs + 10 diagrams + 37 H bank)
+  - `research/outreach-deep-2026-05-18/99-SUMMARY-FOR-RUSLAN.md` (≤1500w summary + 15 Q for ack)
+  - `research/ml-ai-engineers-2026-05-18/09-hypotheses-bank-breadth.md` H-ML-22/36/39/40/44 (cross-fertilised)
+  - `research/deepening-2026-05-18/14-tacit-explicit-tps-mechanism.md` (TPS pattern for 100-trained)
+  - `decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md` (R12 LOCK)
+  - `decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md` (Workshop apprenticeship pattern)
+  - `vision/08-l1-collaboration-roadmap.md` (L1 priority)
+  - `crm/README.md` + `crm/_schema/strategy-hooks.yaml` (CRM substrate)
+  - `text_009@2026-05-18_evening.md` Thread 5/12/13/14/15 + `text_008@2026-05-18_evening.md` (voice anchors)
+
+### §12.3 F3 promotion path
+
+O-28 carries F2 surface from §10.4 (concept doc D ack 2026-05-18 evening); deep research run now provides:
+- 6-precedent triangulation (3-of-4 «adopt» verdict; 2-of-4 «mechanism-only»; explicit R12 verdict per precedent)
+- 4 operational specifications (10-team / 100-trained / personalised / target taxonomy)
+- 37 testable H bank with refutation conditions
+- 12 cross-cutting patterns identified
+- 10 mermaid diagrams
+
+Ruslan ack promotes к F3 (substrate triangulation evidence). HUMAN GATE per R2 + R11 Default-Deny + Pillar C Tier-2 rule 2 (AI does NOT execute architectural changes without gate). Refer Phase 0 §13 OS-T1..T5 falsifier preserved.
+
+If O-28 promoted к F3:
+- Phase 0 inventory total: 14 (acked) + 4 prior candidates (O-21-24) + 4 candidates §10 (O-25-28) + 1 §11 (O-29) = 23 объектов (18 candidates pending Ruslan ack; 1 F3 promotion candidate = O-28)
+- Phase 1 10-team activation Q3 2026 60-day unblocked (pending AWAITING-APPROVAL packet)
+- Master Workshop substrate-readiness gate identification triggered (pre-condition для T1 Critical dispatch)
+- Pillar A Strategic Direction Substrate extension AWAITING-APPROVAL packet candidate (separate path from Hackathon packet B)
+
+### §12.4 Constitutional note
+
+O-28 F3 promotion candidate = R1 surface only. NOT promoted к LOCK by brigadier. Ruslan ack required per IP-1 + IP-2 + Pillar C Tier-2 rule 2.
+
+R12 anti-extraction (CRITICAL для Outreach) preserved через:
+- 4 candidate compensation models surfaced (Ruslan picks; brigadier flags Mondragón-cap default)
+- Programmable enforcement Option D Hybrid acked 2026-05-18 (parallel Ethereum substrate extension)
+- Per-stage R12 audit gates (Phase 5 4-layer + Phase 6 per-class)
+- Fork-and-leave preserved (cohort + trainee exit) per First Clan Charter R12 LOCK 2026-05-12
+
+### §12.5 Updated inventory state
+
+| Object class | Count |
+|---|---|
+| Foundation Parts (acked) | 11 (Parts 1-11) |
+| Strategic Insights (LOCKED) | 8 Octagon LOCKs (Constitution / Capital / Game-Theory / Trust / People / Mythology / Compounding / Ethereum) |
+| Object candidates (pre-Phase 0) | 14 acked + 5 prior pending |
+| §10 candidates | 4 (O-25/26/27/28) |
+| §11 candidate | 1 (O-29) |
+| §12 promotion candidate | 1 (O-28 → F3) |
+| Total | 23 объектов; 18 candidates pending; 1 F3 promotion candidate |
+
+---
+
+*§12 appended by brigadier per outreach-system-scalable-deep-research-2026-05-18 Phase 8. R1 + R6 + R11 + R12 + EP-5 + append-only preserved.*
+
+---
+
 ## §13 APPEND-2026-05-18-evening — O-25 F3-candidate corroboration (hackathon-platform-deep research)
 
 > **Source:** `research/hackathon-platform-deep-2026-05-18/` namespace (8-Phase brigadier run completed 2026-05-18 evening per `prompts/hackathon-platform-deep-research-2026-05-18.md`).
