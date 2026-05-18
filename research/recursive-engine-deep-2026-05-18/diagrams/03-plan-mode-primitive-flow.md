@@ -1,3 +1,6 @@
+# plan mode primitive flow
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
   trigger[Voice anchor / open-question / cycle trigger]
@@ -30,3 +33,5 @@ flowchart TD
   class check decision
   class P8 monitor
   class ready,ruslanAck terminal
+
+```

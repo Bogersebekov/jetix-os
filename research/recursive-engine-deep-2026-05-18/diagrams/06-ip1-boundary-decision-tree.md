@@ -1,3 +1,6 @@
+# ip1 boundary decision tree
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
   action[Action requested<br/>in execute-mode]
@@ -39,3 +42,5 @@ flowchart TD
   class ruslanAck ruslan
   class action,cat1,cat2,cat3,verdict,ackOption decision
   class halt halt
+
+```

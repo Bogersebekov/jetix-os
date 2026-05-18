@@ -1,3 +1,6 @@
+# 5 cycles 1 week gantt
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title 5 plan-execute cycles 1-week trial — Recursive Engine concept
@@ -26,3 +29,5 @@ gantt
     section Weekly rollup
     Weekly Hansei + metrics dashboard  :rollup, 2026-05-26, 12h
     Phase 5 §4 4-week test setup       :sustain, after rollup, 12h
+
+```

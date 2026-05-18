@@ -1,3 +1,6 @@
+# engelbart 4 tuple co evolution
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   H[Human / Trained<br/>Ruslan + ROY swarm + cohort] --> A[Artifacts<br/>wiki/ + schemas + AI substrate]
@@ -22,3 +25,5 @@ graph TD
   class H foundational
   class A,L,M,T engelbart1962
   class N jetixAdditive
+
+```

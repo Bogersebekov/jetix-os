@@ -1,3 +1,6 @@
+# engine pattern overview master
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   subgraph constitutional["Constitutional Layer (READ-ONLY)"]
@@ -66,3 +69,5 @@ flowchart TB
   class ruslanAuth,cycleN,preAuth,escalate instance
   class engelbart,nasa,tps,universal precedent
   class refute refutation
+
+```

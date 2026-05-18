@@ -1,3 +1,6 @@
+# hansei kaizen weekly ritual
+
+```mermaid
 %%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
   start[Cycle N starts<br/>plan-mode trigger]
@@ -39,3 +42,5 @@ flowchart TD
   class ruslanSurface,packet ruslan
   class gatedCommit,canonical,applied,nextCycle,pattern terminal
   class refuted,rejectedKZ refuted
+
+```
