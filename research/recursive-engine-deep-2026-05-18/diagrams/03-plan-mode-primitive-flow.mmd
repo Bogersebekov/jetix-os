@@ -1,0 +1,32 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+flowchart TD
+  trigger[Voice anchor / open-question / cycle trigger]
+  trigger --> P1[P1: Surface candidate<br/>brigadier reads context]
+  P1 --> P2[P2: Cell dispatch matrix<br/>5 experts × 4 modes]
+  P2 --> cells{Cells produce<br/>draft outputs}
+  cells -->|AP-6| P3[P3: Dissent preservation<br/>Counter 1/2/3/4 sections]
+  cells -->|F-grade| P4[P4: F-G-R per claim<br/>F2-F8 + G + R refutation]
+  P3 --> P6[P6: Provenance gate<br/>src: per claim]
+  P4 --> P6
+  P6 --> P7[P7: Word budget enforcement<br/>frontmatter word_budget:]
+  P7 --> check{Foundation-touching<br/>OR novel action?}
+  check -->|Yes| P5[P5: AWAITING-APPROVAL<br/>escalation packet]
+  check -->|No| autoSurface[Surface to research/<br/>OR decisions/strategic/]
+  P5 --> ruslanAck[Ruslan ack-authority<br/>NOT brigadier]
+  autoSurface --> ready[Ready for Ruslan<br/>review or execute-mode]
+  ruslanAck --> ready
+
+  P8[P8: Halt-Log-Alert<br/>F8/F4/F2 grade detection]
+  P8 -.monitors.- cells
+  P8 -.monitors.- P5
+  P8 -.monitors.- P6
+
+  classDef primitive fill:#dbeafe,color:#1a202c
+  classDef decision fill:#fef3c7,color:#1a202c
+  classDef monitor fill:#fecaca,color:#1a202c
+  classDef terminal fill:#bbf7d0,color:#1a202c
+
+  class P1,P2,P3,P4,P5,P6,P7 primitive
+  class check decision
+  class P8 monitor
+  class ready,ruslanAck terminal
