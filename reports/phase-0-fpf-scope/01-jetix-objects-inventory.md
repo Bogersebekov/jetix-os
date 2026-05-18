@@ -570,3 +570,42 @@ Both LIVE-FLAGS from §10.3:
 ---
 
 *§11 appended by brigadier per Ruslan ack commit 8a3d800. R1 transcription + R6 provenance + EP-5 + append-only preserved.*
+
+---
+
+## §12 APPEND-2026-05-18-evening — O-24 candidate (hackathon-deep research)
+
+> **Source:** `research/hackathon-deep-2026-05-18/` namespace (5-Phase brigadier run completed 2026-05-18 evening per `prompts/hackathon-deep-research-2026-05-18.md`).
+>
+> **Constitutional posture:** R1 surface-only candidate — Ruslan ack required for promotion to acked status.
+
+### §12.1 O-24 candidate — «Hackathon as Jetix activation pattern»
+
+**Candidate-id:** O-24
+**Surfaced-by:** brigadier scribe via 5-Phase hackathon-deep research (Phase 5 closure)
+**Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+**Justification:** Hackathon = compressed information-flow event format (per Harari Nexus framework + this research §1-§5). 4 Jetix integration hypotheses analyzed (A/B/C/D); ranked recommendation surfaced; vapor at all 4 currently. **First test = Hypothesis A pilot** (lowest cost; 1-2 events Year-1).
+
+**Two wiki concepts promoted (Tier A):**
+- `wiki/concepts/hackathon-as-information-flow-event.md` — F3 grade
+- `wiki/concepts/jetix-self-bootstrapping-hackathons.md` — F2 grade (Hypothesis C vapor)
+
+**Cross-refs:**
+- `research/hackathon-deep-2026-05-18/00-SUMMARY-FOR-RUSLAN.md` (master summary)
+- `research/hackathon-deep-2026-05-18/03-jetix-hypotheses-deep.md` (4 hypotheses deep)
+- `research/hackathon-deep-2026-05-18/04-inventory.md` (11 platforms catalogued)
+- `research/hackathon-deep-2026-05-18/05-mike-swift-mlh-deep-profile.md` (Hypothesis A primary gateway)
+- `research/hackathon-deep-2026-05-18/06-ai-grant-nfdg-deep-profile.md` (Hypothesis C investor scenario)
+- `research/hackathon-deep-2026-05-18/07-audrey-tang-g0v-vtaiwan-deep-profile.md` (Hypothesis C+D primary precedent)
+- `research/hackathon-deep-2026-05-18/diagrams/` (5 standalone mermaid diagrams)
+
+**Pillar C compliance:** R1 surface-only (4 hypotheses ranked не auto-decided) + R6 provenance per claim + R11 Default-Deny + R12 anti-extraction discipline applied throughout + EP-5 disclosed F3.
+
+**Decision path forward:**
+- Ruslan review master summary (`00-SUMMARY-FOR-RUSLAN.md` ≤1500 words)
+- Ruslan ack OR ack-with-modifications OR defer
+- If acked: Phase 0 inventory updates to `acked-2026-XX-XX`; promotes к possible Strategic Insight H9 candidate (current Octagon + 1 = Nonagon transition) IF combined с Ethereum acked-H8/R12 trajectory
+
+---
+
+*§12 appended by brigadier per 5-Phase hackathon-deep research closure. R1 + R6 + EP-5 + append-only preserved.*
