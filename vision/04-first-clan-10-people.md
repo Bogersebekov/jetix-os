@@ -180,3 +180,71 @@ Disclosure EP-2:
 7. **Existing 9 profiles list — surfaced or kept private** until activation?
 
 [src: text_002 ¶3-4 + Charter §0-§1 + Q7 ack + Q-D3 ack]
+
+---
+
+## §APPEND-2026-05-18 — text_005-007 implications
+
+> Per voice batch 2 (text_005-007 18.05 morning). R1 surface + R6 + append-only.
+
+### §APPEND.1 — text_005 Power Rangers pitch script formalization
+
+text_005 ¶1-8 carries first-clan activation script structure:
+
+| Pitch element | FPF primitive | Carriage |
+|---|---|---|
+| Frame: «уникальный шанс» | `U.Context` (A.1.1) | Opening |
+| Substrate enumeration: «инструменты / язык / вычисления / описано» | `U.System` + `U.Method` + `U.MethodDescription` | Body §1 |
+| Personal commitment: «500 часов + миллиарды наработок» | `A.10 Evidence Graph` | Body §2 |
+| Open offer: «расскажу / научу / помогу / сделаю — всё что угодно» | `A.2.8 U.Commitment` (open) | Body §3 |
+| Mutual ask: «обратная связь + ресурсы — интересно?» | `A.2.9 U.SpeechAct` (mutual signaling) | Close |
+| Vision composite: Power Rangers + махина + smysl + abundance | `U.Outcome` + `B.2 MHT` (composition) | Carrier |
+| Discipline: «мужиков не подвести» | `E.5 Guard-Rails` (interpersonal) | Continuous |
+
+**Composition principle (NC-B2-1 surface):** «Мастера соединяются → мега-инструменты → coordinated махина» = `B.2 MHT` (Meta-Holon Transition) + `B.1.6 Γ_work` (capability composition) + `A.5 Kernel Modularity` (composable units).
+
+**Target voiced (text_005 ¶5):** 10 партнёров «в полной боевой готовности на следующей неделе» (week 2026-05-25). **Aspirational** — phil critic flagged affect-mode «полная боевая готовность»; preserve as target, not commitment.
+
+### §APPEND.2 — text_006 Man-as-Army member model
+
+Per `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md`:
+
+**Each first-clan signatory = self-army:**
+- Multi-role holder (`U.Role` multi-instantiation: разведчик + стратег + воин + дипломат + ...)
+- Self-discipline + mission-alignment + cross-role competence
+- Mentor-paired (TPS pattern; Ruslan + L1 cores high-touch Stage 1)
+
+**Mass-activation progression (text_006 ¶6-7 + concept doc §7.1):**
+
+```
+Stage 0 (now):   1 (Ruslan as proto-self-army)
+Stage 1 (Q3 2026): 10 (Charter v0 target)
+Stage 2 (Q4 2026 - Q2 2027): 100
+Stage 3 (2028+): 1000
+Stage 4 (long-horizon): 100k+
+```
+
+**Foundation continues deepening parallel** (text_006 ¶8): «фундамент строится мощный — кидаем снежный ком на развитие фундамента». NOT sequential «freeze Foundation then expand»; B.4 evolution loop continuous.
+
+### §APPEND.3 — Delivery method (text_006 ¶5)
+
+«Лично каждому донести — первые 10, до 10k — лично прийти, посадить, затолкать».
+
+**Resource implication:** Stage 1 first-10 = high-touch personal delivery; Stage 2 100 = mentor-mediated; Stage 3+ 1000+ = Workshop platform + Pattern Language artefact (low-touch + platform-amplified).
+
+### §APPEND.4 — Updated open questions
+
+Add к §6:
+- **Q-NEW-1:** Power Rangers pitch script — formalize в crm/_templates/ для outreach use?
+- **Q-NEW-2:** «Армия» metaphor positioning — keep / replace («Команда» / «Гильдия» / «Мастерская» alternatives)?
+- **Q-NEW-3:** 100k aspiration target — F1 vision / F2 falsifiable / F3 commitment grade?
+- **Q-NEW-4:** Mentor-pairing capacity — Ruslan as primary mentor Stage 1; mentor capacity Stage 2?
+
+### §APPEND.5 — Cross-refs
+
+- `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md` (Phase 2 deliverable)
+- `wiki/concepts/pitch-pattern-power-rangers.md` (Phase 5 wiki promote)
+- `wiki/concepts/man-as-army-jetix.md` (Phase 5 wiki promote)
+- `reports/voice-pipeline-2026-05-18-batch-2/` (analysis trail)
+
+[src: text_005-007 verbatim 2026-05-18 morning Berlin + concept doc + batch-2 analysis]

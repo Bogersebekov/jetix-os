@@ -294,3 +294,61 @@ Historic «Hexagon» / «Heptagon» references in earlier docs preserved per app
 ---
 
 *Brigadier scribe LOCK record per Ruslan ack §0.2 (`prompts/phase-0-plus-ruslan-acks-2026-05-17.md`). §5.5.5 gate: provenance ✓ inline (text_001 + audio_672 + audio_673 + cross-cell §03 drafts) / EP-5 disclosed ✓ / F-G-R triple ✓ / dissents preserved AP-6 ✓ / R1 surface-only ✓ — Ruslan = sole strategist, brigadier = scribe + multi-source synthesis. Word count: ~2300.*
+
+---
+
+## §H8-EXT-CANDIDATE-2026-05-18 — Ethereum substrate option (AWAITING-APPROVAL pending)
+
+> **Append-only extension surface.** Per text_007 voice dictation 18.05 morning + Phase 3 architecture doc + AWAITING-APPROVAL packet `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`.
+>
+> **Status: AWAITING-RUSLAN-ACK (Option A / B / C).** This section = surface only; substrate-agnostic principle preserved until Ruslan picks.
+
+### Context
+
+text_007 (`raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`) ¶2-3: «как раз вот эфир — как раз эфир, гениально — как раз вот Jetix работает с эфиром, конечно. Ну и не уровнем ниже... как именно вот Jetix на вот этот FPF и в целом всю децентрализацию и крипту короче вместе соединить».
+
+Architectural pivot candidate introduced. Touches H8 substrate-agnostic principle (LOCKED 2026-05-17 §positioning §4).
+
+### Proposed extension (Option A — brigadier recommended F2)
+
+Ethereum L2 (Base default; Optimism fallback) introduced as Phase 2+ substrate **option** in layered approach per direction 07 §3.
+
+**Substrate matrix extended (6 substrates):**
+
+| Substrate | Phase | Status |
+|---|---|---|
+| PGP Web of Trust | Phase 1 | Baseline (off-chain, free) |
+| Karpathy-wiki-signatures | Phase 1 | Baseline (off-chain, free) |
+| W3C VC v2.0 | Phase 2 | + production substrate (off-chain) |
+| Soulbound Tokens (SBT) | Phase 2+ | Phase 2+ overlay option (within Ethereum substrate) |
+| Coordinape pattern | Phase 2+ | Pattern reference (peer-reward; not full substrate) |
+| **Ethereum L2 (NEW)** | **Phase 2+ overlay** | **Substrate option for DAO + SBT + QF + R12 programmable** |
+
+**Substrate-agnostic principle preserved:** Foundation requires F-G-R + role-attestation **shape**; specific substrate = RUSLAN-LAYER overlay per Clan / Phase.
+
+### Constitutional preservation
+
+- **Append-only discipline:** H8 LOCKED 2026-05-17 substrate-agnostic positioning text **NOT modified**; this §H8-EXT-CANDIDATE-2026-05-18 = append after existing content
+- **IP-1 Role≠Executor:** Ethereum contract addresses live in RUSLAN-LAYER overlay (`shared/state/ethereum-bindings.yaml` Phase 2+); Foundation Parts unchanged
+- **Substrate-agnostic Foundation principle:** Ethereum = **one option among 6**, NOT default
+- **AWAITING-APPROVAL discipline:** Ruslan ack required to make extension canonical
+
+### Cross-refs
+
+- AWAITING-APPROVAL packet: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`
+- Parallel packet (R12 programmable enforcement RUSLAN-LAYER overlay): `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`
+- Phase 3 architecture doc: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+- Source voice: `raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`
+- Voice-pipeline batch-2 analysis: `reports/voice-pipeline-2026-05-18-batch-2/`
+- Direction 07 substrate matrix: `research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.md` (Phase 4 §9 append)
+
+### Status
+
+- ⏳ Awaiting Ruslan ack on packet Option A / B / C
+- 📋 If Option A acked → this §H8-EXT-CANDIDATE renamed к §H8-EXT-LOCKED-2026-05-18
+- 🔁 If Option B acked → H8 v2 re-LOCK ceremony (this file marked v1 deprecated; new file LOCKED v2)
+- ⛔ If Option C (defer) → this §H8-EXT-CANDIDATE preserved as surface only; no further action
+
+---
+
+*§H8-EXT-CANDIDATE-2026-05-18 appended by brigadier per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R2 LOCK extension via append-only + R6 + EP-5. Word count addition: ~600.*

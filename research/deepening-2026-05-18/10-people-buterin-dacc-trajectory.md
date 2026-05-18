@@ -321,3 +321,96 @@ Brigadier surface'нул naming candidate: **«m/acc» = methodology acceleratio
 
 *Plain English section added by Cloud Cowork 2026-05-18 per Ruslan request. Word count of §10: ~1180.*
 
+---
+
+## §11 APPEND-2026-05-18 — Buterin outreach Phase 1 acceleration (text_007 Ruslan ack)
+
+> Per voice batch 2 (text_007 18.05 morning Ruslan dictation). R1 surface + R6 + append-only.
+
+### §11.1 Trigger
+
+text_007 ¶1 (`raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`):
+
+> «Во-первых, это чел, но от братик, который нам надо. Братика блять тупо в команду уже буквально завтра. Для тела тыщу видосы записываю. В общем очень важно — он как раз этот продвигатель всей этой истории. Ну то есть он уже и башен плотненько как раз вот всю эту идею концепцию продвигает.»
+
+**Status:** Ruslan = sole strategist (Tier 2 R1). Direct voice ack accelerates Buterin outreach from **Phase 2+ deferred** (direction 10 §5 original brigadier R1 surface) to **Phase 1 attempt** (text_007 18.05 morning).
+
+### §11.2 R1 status reconciliation
+
+**Direction 10 §5 R1 discipline original:**
+- ❌ NO cold outreach без Ruslan ack
+- ⏳ Phase 2+ collaboration consideration
+
+**text_007 18.05 voice = Ruslan ack.** Per Tier 2 R1 — Ruslan = sole strategist; direct voice = canonical ack. Brigadier:
+- ✅ Phase 1 outreach attempt = Ruslan personal action authorized
+- ✅ Brigadier-automated outreach NOT authorized (R1 surface; Ruslan acts personally)
+- ✅ R1 discipline honored (Ruslan ack drives reversal, brigadier scribes)
+
+### §11.3 Updated outreach posture (extending §5)
+
+**Phase 1 outreach attempt — Ruslan personal action:**
+- **Channel options:**
+  1. Twitter @VitalikButerin (public reply / DM)
+  2. Email via vitalik.eth.limo contact
+  3. d/aDDy attendance (Devcon)
+  4. Plurality book community contribution + organic engagement
+- **Materials carrier (substance for outreach):**
+  - Phase 3 architecture doc: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+  - Foundation Architecture v1.0 LOCKED 2026-04-28
+  - Concept doc «Man-as-Army × Jetix»
+  - Pattern Language artefact (Phase 2 deliverable if available)
+- **Framing posture:**
+  - Substance-first; no over-promising
+  - Anti-crypto-tribe: «Ethereum as substrate ≠ identity»
+  - Humility: cold-outreach success rate inherently low
+
+### §11.4 m/acc framing decision (extending §4)
+
+**Status per direction 10 §4.4 R1:** «m/acc opt-in if Workshop demo strong; Phase 1-2 avoid m/acc tribal positioning».
+
+**Post-text_007 ack consideration:** Buterin outreach Phase 1 attempt = direct conversation surface; m/acc framing risk:
+- **Pro:** shared vocabulary с d/acc tribe; recognition hook
+- **Con:** premature (Workshop demo NOT yet strong); may signal tribal identity vs substance focus
+
+**Brigadier recommendation (F2 surface):** **Defer m/acc framing для Phase 1 outreach.** Use «substrate-utilization» framing instead («Foundation + FPF aligned с d/acc values; Ethereum = chosen substrate; not tribal identity»).
+
+### §11.5 Test-able statements update (extending §7)
+
+Add к §7 test-able statements:
+
+| # | Statement | Test horizon |
+|---|---|---|
+| **B6-NEW** | Buterin Phase 1 outreach attempt completed by Ruslan within 60 days of text_007 ack | 60d (2026-07-17) |
+| **B7-NEW** | Outreach attempt result classified (engaged / no response / negative) within 90 days | 90d |
+| **B8-NEW** | Phase 3 architecture doc carries as substance in outreach materials | Outreach event |
+| **B9-NEW** | m/acc framing deferred per brigadier F2 recommendation | Outreach event |
+
+### §11.6 Risk surface update (extending §6 + cross-link к Phase 3 architecture §10 R-09)
+
+**Goodwill burn risk:** Failed outreach + over-promising = reputation damage.
+
+**Mitigation stack:**
+1. Substantive material (Phase 3 architecture doc + Foundation v1.0) carries
+2. No over-promising («interested in your reaction» not «join team»)
+3. Humility posture (Buterin extremely busy; failure expected)
+4. Alternative engagement paths (Plurality contribution / RetroPGF / d/aDDy attendance)
+5. Public-channel-only baseline (Twitter follow + blog comments = zero-risk)
+
+Cross-link: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/10-risks-mitigations.md` §10 R-09.
+
+### §11.7 Cross-refs
+
+- vision/08 §APPEND-2026-05-18 (parallel append): `vision/08-l1-collaboration-roadmap.md`
+- Phase 3 architecture doc: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+- AWAITING-APPROVAL packet H8 substrate: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`
+- Voice batch 2 analysis: `reports/voice-pipeline-2026-05-18-batch-2/`
+- Source voice: `raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`
+
+### §11.8 Updated 2-line summary
+
+**Vitalik = создатель Ethereum + d/acc philosopher.** Per text_007 Ruslan ack 18.05: outreach **Phase 1 attempt** (Ruslan personal action; substance = Phase 3 architecture doc + Foundation v1.0 + concept doc). **m/acc framing deferred** (brigadier F2 recommendation); substrate-utilization framing preferred. Cold-outreach success rate inherently low; humility posture preserved.
+
+---
+
+*§11 appended by brigadier 2026-05-18 per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R6 + append-only.*
+

@@ -174,3 +174,48 @@ Disclosure EP-3 fidelity:
 6. **Tools-layer adoption signal** — what indicates «workshop has X tools functioning» vs «X tools listed»?
 
 [src: text_002 ¶3 + text_003 ¶1 + WORKSHOP-CONCEPT § all]
+
+---
+
+## §APPEND-2026-05-18 — text_006 человек-армия integration
+
+> Per voice batch 2 (text_006 18.05 morning). R1 surface + R6 + append-only.
+
+### §APPEND.1 — Workshop hosts self-armies
+
+Per `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md` §4:
+
+**Workshop = host substrate for self-armies cooperation via FPF.** Each Workshop member = self-army (multi-role; self-disciplined; mission-aligned). Workshop platform = interface where self-armies compose into supersystem holon (Meta-Holon Transition `B.2 MHT`).
+
+**Composition properties** (per concept doc §6.1):
+
+| Property | Mechanism in Workshop |
+|---|---|
+| Independence | Each member = self-managing (own roles + capabilities) |
+| Mission alignment | Shared FPF substrate = `U.Episteme` (A.16) shared |
+| Role flexibility | `U.Role` multi-instantiation allows member to play разведчик/стратег/воин/дипломат roles per project |
+| Regeneration | Workshop continues if individual member exits (Mondragón 68yr + EVE 23yr precedents) |
+| Voluntary engagement | R12 fork-and-leave preserved at Workshop scope |
+| Substrate-mediated cooperation | FPF language = single-source-of-truth (audio_672-673 articulation) |
+
+### §APPEND.2 — Workshop platform implications
+
+Extending §3 «Что platform реализует»:
+- **Self-army onboarding layer** — interface where individual members express + cultivate multi-role competence (mentor-pairing per TPS pattern direction 14)
+- **Composition emergence layer** — interface where self-armies compose into Clan-supersystem holon (per concept doc §6.1)
+- **Distributed resilience monitoring** — Workshop tracks member-attrition + regeneration events (DRA-T2 test per concept doc §6.3)
+
+### §APPEND.3 — Updated open questions
+
+Add к §6:
+- **Q-NEW-1:** Self-army cultivation curriculum в Workshop — formal capability-expansion path?
+- **Q-NEW-2:** Workshop multi-role demonstration testing — DRA-T1 falsifier (≥3-role competence within 90d)?
+- **Q-NEW-3:** Member-attrition simulation event — DRA-T2 stress-test scheduling?
+
+### §APPEND.4 — Cross-refs
+
+- `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md` §4 object mapping (O-14 Meta-workshop = direct fit)
+- `wiki/concepts/man-as-army-jetix.md` (Phase 5 wiki promote)
+- `reports/voice-pipeline-2026-05-18-batch-2/` (analysis trail)
+
+[src: text_006 verbatim 2026-05-18 morning Berlin + concept doc + batch-2 analysis]

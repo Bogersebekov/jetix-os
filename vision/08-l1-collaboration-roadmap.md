@@ -193,3 +193,70 @@ Failure modes (surfaced):
 8. **Tseren's specific role** — methodology applier / educator / co-designer?
 
 [src: text_002 ¶4 + audio_672 ¶2 + audio_673 ¶3 + Charter v0 + R12 packet]
+
+---
+
+## §APPEND-2026-05-18 — text_007 Buterin Phase 1 acceleration
+
+> Per voice batch 2 (text_007 18.05 morning). R1 surface + R6 + append-only.
+
+### §APPEND.1 — Ruslan ack reverses brigadier R1 surface
+
+**Direction 10 §5 original brigadier R1 surface (2026-05-18 morning Cloud Cowork):**
+- ❌ NO cold outreach без Ruslan ack
+- ⏳ Phase 2+ collaboration consideration с Plurality Institute (Workshop curriculum)
+
+**text_007 ¶1 Ruslan voice acceleration:**
+> «Это чел, но от братик, который нам надо. Братика блять тупо в команду уже буквально завтра. Для тела тыщу видосы записываю. В общем очень важно — он как раз этот продвигатель всей этой истории.»
+
+**Status reversal:** Ruslan = sole strategist (Tier 2 R1). Direct voice ack = Phase 1 outreach attempt authorized. Brigadier:
+- ✅ Surface Buterin Phase 1 outreach as Ruslan-personal action
+- ✅ Phase 3 architecture doc (`decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`) = substance carrier
+- ⚠️ Cold-outreach success rate inherently low (per direction 10 §6 Counter 1)
+- ⚠️ d/acc lineage perception risk preserved (per direction 10 §4.3 con 1)
+
+### §APPEND.2 — Buterin outreach roadmap addition (NEW stage)
+
+**Insert Stage 0.5 before existing Stage 1:**
+
+**Stage 0.5 — Buterin Phase 1 outreach attempt (NEW per text_007 ack 18.05)**
+- **Owner:** Ruslan personal action
+- **Materials:** Phase 3 architecture doc + Foundation Architecture v1.0 LOCKED + concept doc «Man-as-Army × Jetix» + Pattern Language artefact (Phase 2 deliverable if available)
+- **Channel options:**
+  1. Twitter @VitalikButerin (public reply / DM)
+  2. Email via vitalik.eth.limo contact
+  3. d/aDDy attendance (Devcon)
+  4. Plurality book community contribution + organic engagement
+- **Framing posture:**
+  - Substance-first: «Foundation v1.0 LOCKED + Pattern Language + Workshop substrate aligned с d/acc»
+  - No over-promising: «interested in your reaction», not «join team»
+  - Humility: «cold outreach success rate inherently low; we have substance regardless»
+  - Anti-crypto-tribe positioning: «Ethereum as substrate ≠ crypto-tribe identity»
+- **Success criteria:**
+  - Engagement signal (Twitter reply / email response / Devcon meeting) = success
+  - No response = expected baseline
+  - Negative response = Phase 2+ defer
+
+### §APPEND.3 — Plurality Institute parallel track
+
+**Phase 2+ collaboration retained (direction 10 §5):**
+- Plurality book community contribution (CC0; OS-authored per Tang+Weyl precedent)
+- Pol.is pilot Phase 1-2 (one Workshop deliberation session)
+- Plurality Institute relationship-building через open-source community
+
+### §APPEND.4 — Updated open questions
+
+Add к §6:
+- **Q-NEW-1:** Buterin outreach timing — when within Phase 1? Tied к Phase 3 architecture doc completion (this run = substance ready)
+- **Q-NEW-2:** m/acc framing для Buterin outreach — adopt / defer / drop? (per direction 10 §4.4)
+- **Q-NEW-3:** Goodwill burn mitigation — if outreach attempt poorly received, what fallback engagement path?
+- **Q-NEW-4:** Anatoly + Tseren collaboration vs Buterin outreach prioritization — sequential / parallel?
+
+### §APPEND.5 — Cross-refs
+
+- AWAITING-APPROVAL packet H8 substrate extension: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`
+- Phase 3 architecture doc: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+- Research direction 10 §11 append (Phase 4 parallel): `research/deepening-2026-05-18/10-people-buterin-dacc-trajectory.md`
+- Voice batch 2 analysis: `reports/voice-pipeline-2026-05-18-batch-2/`
+
+[src: text_007 verbatim 2026-05-18 morning + direction 10 §5 R1 + Tier 2 R1 Ruslan = sole strategist]

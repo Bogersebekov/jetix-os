@@ -300,3 +300,96 @@ Phase 3+ (optional):        SBT только для crypto-native partner Clans 
 
 *Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~870.*
 
+---
+
+## §9 APPEND-2026-05-18 — Ethereum-primary supplement post-text_007
+
+> Per voice batch 2 (text_007 18.05 morning Ruslan dictation). R1 surface + R6 + append-only.
+
+### §9.1 Trigger
+
+text_007 ¶2-3 (`raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`):
+
+> «как раз вот эфир — как раз эфир, гениально — как раз вот Jetix работает с эфиром, конечно. Ну и не уровнем ниже... как именно вот Jetix на вот этот FPF и в целом всю децентрализацию и крипту короче вместе соединить.»
+
+**Status:** Ruslan ack introduces Ethereum L2 substrate as Phase 2+ overlay option. Substrate-agnostic principle preserved (per AWAITING-APPROVAL packet `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`).
+
+### §9.2 Substrate matrix update — 6 substrates (extending §1)
+
+Adding 6th column **Ethereum L2** to §1 9-dimension matrix:
+
+| Dimension | Ethereum L2 (NEW) |
+|---|---|
+| **Maturity** | 2020+ L2 production (OP / ARB / Base / zkSync) |
+| **Substrate** | Ethereum + L2 rollups |
+| **Transferability** | Configurable per token type (SBT non-transferable; ERC-20 transferable) |
+| **Privacy** | Configurable (ZK or public) |
+| **Anti-Sybil** | Configurable; SBT layer |
+| **Revocation** | Smart-contract governance |
+| **Cost per attestation** | L2 gas ~$0.01-0.10 |
+| **Production deployments** | Optimism Gov + Arbitrum DAO + Base ecosystem + Gitcoin Grants |
+| **Lock-in risk** | Medium (L2 ↔ L1 ↔ cross-L2 migration tooling exists) |
+
+### §9.3 Updated layered approach (§3 modification)
+
+Per Ruslan ack 18.05:
+
+```
+Phase 1 (immediate, free):      PGP + Karpathy-wiki-sigs (off-chain)
+Phase 2 (production):           + W3C VC v2.0 (off-chain selective disclosure)
+Phase 2+ (Ethereum overlay):    + Ethereum L2 (Base default; Optimism fallback)
+                                Substrate option for: SBT role-attestation,
+                                DAO governance, QF Workshop revenue,
+                                R12 programmable enforcement (RUSLAN-LAYER overlay)
+Phase 3+ (optional):            SBT continuation + Coordinape pattern adoption
+```
+
+**Substrate-agnostic principle PRESERVED:** Foundation requires F-G-R + role-attestation shape; Ethereum = **specific overlay binding**; Foundation principle intact.
+
+### §9.4 Original recommendation amendment
+
+**§0 TL;DR original recommendation:**
+> «launch with PGP + Karpathy-wiki-sigs... add VC v2.0 at Phase 2+...; SBT + Coordinape optional for crypto-native partner Clans, не Foundation default»
+
+**Post-text_007 ack update (this §9):**
+- Phase 1-2 baseline unchanged (off-chain stack)
+- **Phase 2+ Ethereum overlay** = newly-introduced architectural option
+- SBT becomes implementation option WITHIN Ethereum substrate layer (not standalone)
+- Substrate-agnostic Foundation principle remains canonical
+
+### §9.5 Cross-refs
+
+- AWAITING-APPROVAL packet: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`
+- AWAITING-APPROVAL packet (R12 programmable): `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`
+- Phase 3 architecture doc: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+- L2 selection trade-offs: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/07-cost-economy-l2-selection.md`
+- Source voice: `raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md`
+- Voice batch 2 analysis: `reports/voice-pipeline-2026-05-18-batch-2/`
+
+### §9.6 Test-able statements update (extending §4)
+
+Add к §4 H8 substrate statements:
+
+| # | Statement | Refutation horizon |
+|---|---|---|
+| **H8S7-NEW** | Ethereum substrate introduction does NOT violate substrate-agnostic Foundation principle | Continuous; AWAITING-APPROVAL packet adherence |
+| **H8S8-NEW** | Multi-substrate stack continues Phase 2+ (PGP + wiki-sig + VC v2.0 NOT replaced) | Phase 2+ |
+| **H8S9-NEW** | Fork-and-leave portability across substrates demonstrated (DRA-T4 from concept doc) | Phase 2+ |
+| **H8S10-NEW** | Crypto-tribe perception impact study completed Phase 2 (acceptable results) | Phase 2 close |
+
+### §9.7 Counter-positions update
+
+Extending §5 counter-positions:
+
+- **Counter 5 (NEW phil critic):** «Ethereum substrate introduction may signal commitment к crypto-tribe identity; methodology community may distance» — Mitigation: substrate-utilization framing + Phase 1 establishment before Ethereum + no native token (per Phase 3 architecture doc §2-§10).
+- **Counter 6 (NEW investor scalability):** «Phase 2+ Ethereum overlay cost ($50-200K audit + deployment) requires Workshop revenue justification» — Mitigation: Phase 2 + Phase 2+ overlap allows revenue establishment before commit.
+- **Counter 7 (NEW sys integrator):** «Ethereum substrate selection = lock-in risk despite multi-substrate stack» — Mitigation: cross-L2 bridges + non-custodial wallets + Foundation principle substrate-agnostic = preserved.
+
+### §9.8 Updated 2-line summary
+
+**Из 6 substrates (POST text_007 ack): VC v2.0 + PGP + Karpathy-wiki-sigs = off-chain baseline; SBT + Coordinape + Ethereum-L2 = Phase 2+ overlay options.** Substrate-agnostic Foundation principle PRESERVED (Ethereum = overlay, not default). AWAITING-APPROVAL packet pending Ruslan ack on substrate matrix extension.
+
+---
+
+*§9 appended by brigadier 2026-05-18 per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R6 + append-only.*
+
