@@ -393,3 +393,68 @@ Extending §5 counter-positions:
 
 *§9 appended by brigadier 2026-05-18 per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R6 + append-only.*
 
+---
+
+## §10 APPEND-2026-05-18 evening — Ethereum substrate ACKED supplement (post-ack)
+
+> Per Ruslan ack 2026-05-18 evening H8 Option A + R12 Option D Hybrid (commit 8a3d800). R1 transcription + R6 + append-only.
+
+### §10.1 Status update — substrate matrix extension acked
+
+**Pre-ack status (§9 above):** Brigadier-surfaced 6-substrate matrix extension; AWAITING-APPROVAL packet pending Ruslan ack.
+
+**Post-ack status (this section):** **H8 Option A acked 2026-05-18 evening** — substrate matrix permanently extended к 6 substrates with Ethereum L2 added as Phase 2+ overlay option. Substrate-agnostic Foundation principle PRESERVED (Ethereum = RUSLAN-LAYER overlay per IP-1).
+
+### §10.2 Acked recommendations (extending §3 layered approach)
+
+**Phase 1 (current, off-chain free):**
+- PGP + Karpathy-wiki-sigs baseline (active)
+
+**Phase 2 (production, off-chain):**
+- + W3C VC v2.0 production substrate (planned)
+
+**Phase 2+ overlay (acked 2026-05-18):**
+- + Ethereum L2 (Base default; Optimism fallback) — **acked Option A additive surface**
+- SBT role-attestation (production-ready substrate via EAS; EIP-5114 emerging)
+- DAO governance (Aragon OSx default; Moloch v3 alternative)
+- Quadratic Funding для Workshop revenue distribution
+- **R12 programmable enforcement Option D Hybrid (acked)** — Mondragón 5:1 ratio cap + QF + fork-and-leave smart contracts
+
+**Phase 3+ optional:**
+- SBT continuation + Coordinape pattern adoption
+- Cross-L2 multi-substrate deployment
+
+### §10.3 H8S statements update — testing path forward
+
+Update к §4 + §9.6 test-able statements:
+
+| # | Statement | Status |
+|---|---|---|
+| H8S7-NEW | Ethereum substrate introduction does NOT violate substrate-agnostic Foundation principle | ✅ Acked via Option A (additive surface; preserved) |
+| H8S8-NEW | Multi-substrate stack continues Phase 2+ (PGP + wiki-sig + VC v2.0 NOT replaced) | ✅ Acked (layered approach preserved) |
+| H8S9-NEW | Fork-and-leave portability across substrates demonstrated (DRA-T4) | ⏳ M2P-3 pilot deployment test (Phase 2+) |
+| H8S10-NEW | Crypto-tribe perception impact study completed Phase 2 (acceptable results) | ⏳ M2P-1 pre-condition (Phase 2 deliverable) |
+| H8S11-NEW (acked) | Programmable R12 enforcement Option D Hybrid acked + RUSLAN-LAYER overlay | ✅ Acked 2026-05-18 commit 8a3d800 |
+| H8S12-NEW | 4 RUSLAN-LAYER action classes в Default-Deny table active | ✅ Added commit 99363c7 |
+
+### §10.4 Updated 2-line summary
+
+**Из 6 substrates: VC v2.0 + PGP + Karpathy-wiki-sigs = off-chain baseline (Phase 1-2); SBT + Coordinape + Ethereum-L2 = Phase 2+ overlay options ACKED 2026-05-18 (Option A H8 additive surface + Option D Hybrid R12 programmable RUSLAN-LAYER overlay).** Substrate-agnostic Foundation principle PRESERVED (Ethereum = overlay, not default). Phase 2+ implementation unblocked at decision-checkpoint level (per `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/11-phase-2-implementation-checklist.md`).
+
+### §10.5 Cross-refs
+
+- Acked H8 packet: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` (RUSLAN-ACKED-OPTION-A-2026-05-18)
+- Acked R12 packet: `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` (RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18)
+- H8 LOCK §H8-EXT-ACKED-OPTION-A-2026-05-18: `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md`
+- Phase 3 architecture (F3 acked): `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/00-MASTER-ARCHITECTURE.md` §12 ack-trail
+- Implementation checklist: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/11-phase-2-implementation-checklist.md`
+- Buterin outreach materials: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/12-buterin-outreach-materials-draft.md`
+- Wiki concept R12 programmable: `wiki/concepts/r12-programmable-enforcement.md`
+- Default-Deny table 4 RUSLAN-LAYER action classes: `.claude/config/default-deny-table.yaml`
+- CLAUDE.md §4.2 RUSLAN-LAYER overlay line
+- Phase 0 inventory §11 (O-23 acked): `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md`
+
+---
+
+*§10 appended by brigadier 2026-05-18 evening per Ruslan ack commit 8a3d800. R1 transcription (Ruslan = sole strategist) + R6 + EP-5 + append-only.*
+
