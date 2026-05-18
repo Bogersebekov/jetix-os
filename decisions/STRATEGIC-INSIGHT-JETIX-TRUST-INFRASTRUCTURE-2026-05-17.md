@@ -352,3 +352,54 @@ Ethereum L2 (Base default; Optimism fallback) introduced as Phase 2+ substrate *
 ---
 
 *§H8-EXT-CANDIDATE-2026-05-18 appended by brigadier per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R2 LOCK extension via append-only + R6 + EP-5. Word count addition: ~600.*
+
+---
+
+## §H8-EXT-ACKED-OPTION-A-2026-05-18 — Ruslan ack confirmed (Option A — additive substrate option)
+
+> **Append-only ack trail.** Supersedes «AWAITING-RUSLAN-ACK» status в §H8-EXT-CANDIDATE-2026-05-18 above (preserved unchanged as historical pre-ack record).
+
+### Ack record
+
+- **Timestamp:** 2026-05-18 evening Berlin
+- **Decision:** **Option A — Additive substrate option** (Ethereum как одна из официальных опций; substrate-agnostic principle preserved)
+- **Acked via:** Cloud Cowork chat session (Ruslan: «Давай всё туда акаем»)
+- **Acked by:** ruslan
+- **Commit reference:** `8a3d800 [ack-trail][awaiting-approval] Ruslan ack 2026-05-18 — H8 Option A + R12 Option D Hybrid`
+- **Packet:** `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` frontmatter status = `RUSLAN-ACKED-OPTION-A-2026-05-18`
+- **prose_authored_by:** ruslan-acked-via-cloud-cowork-transcription
+
+### Decision rationale (per packet ack_trail)
+
+> Option A preserves H8 LOCKED substrate-agnostic principle (no lock-in risk per Option B);
+> enables Phase 2+ Ethereum overlay implementation; keeps flexibility для других substrates
+> (PGP / VC / Karpathy wiki sigs / Coordinape); supports Buterin Phase 1 outreach с legitimate
+> «Jetix on Ethereum» story; aligns с d/acc + Plurality camps; brigadier-recommended option.
+
+### Canonical post-ack effect
+
+- **§H8-EXT-CANDIDATE-2026-05-18 body content** (above) now = **canonical H8 §extension** — substrate matrix permanently extended к 6 substrates с Ethereum L2 added as Phase 2+ overlay option
+- **H8 LOCKED 2026-05-17 substrate-agnostic principle** = **PRESERVED** (foundation principle intact; Ethereum = RUSLAN-LAYER overlay per IP-1)
+- **Phase 2+ Ethereum overlay implementation** = **unblocked** at decision-checkpoint level (P2-D5 per implementation roadmap)
+- **Companion R12 programmable enforcement** (Option D Hybrid) acked в parallel (`swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`)
+
+### Constitutional preservation
+
+- **Tier 2 R1** ✓ — Ruslan = sole strategist; Ruslan acked
+- **Tier 2 R2** ✓ — AWAITING-APPROVAL packet discipline honored; no autonomous LOCK overwrite
+- **Append-only** ✓ — §H8-EXT-CANDIDATE preserved unchanged as pre-ack record; this §H8-EXT-ACKED-OPTION-A appended after
+- **R6 provenance** ✓ — ack_trail in packet frontmatter + commit 8a3d800
+- **EP-5** ✓ — F-grade now post-ack = F3 (single-author Ruslan-ack + brigadier-scribe + 3-cell batch-2 triangulation + packet discipline) ; ≠ FPF B.3 F8
+
+### Cross-refs
+
+- Packet (acked frontmatter): `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md`
+- Parallel R12 ack: `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` (Option D Hybrid acked)
+- Phase 3 architecture (F2 → F3 post-ack): `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/`
+- Implementation checklist: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/11-phase-2-implementation-checklist.md`
+- Direction 07 §10 acked supplement: `research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.md`
+- Wiki concept (jetix-on-ethereum.md): updated post-ack status pending Step 7
+
+---
+
+*§H8-EXT-ACKED-OPTION-A-2026-05-18 appended by brigadier per Ruslan ack commit `8a3d800`. R1 surface (transcription only; Ruslan = sole strategist) + R6 + EP-5 + append-only preserved.*
