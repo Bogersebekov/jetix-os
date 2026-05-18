@@ -150,3 +150,109 @@ ruslan_layer_action_classes:
       stay in DRR ledger.
     added_date: 2026-05-11
     parent_canonical: reports/autoresearch-karpathy-integration-2026-05-11/PLAN.md
+
+# ─────────────────────────────────────────────────────────────────────────────
+# R12 programmable enforcement RUSLAN-LAYER overlay (Option D Hybrid)
+# Added per Ruslan ack 2026-05-18 evening (commit 8a3d800).
+# Packet: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
+# Status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+#
+# Constitutional preservation:
+# - Tier 2 R12 text LOCKED 2026-05-12 = UNCHANGED
+# - foundation_generic count = 12 = UNCHANGED
+# - These 4 action classes = RUSLAN-LAYER overlay (instance-specific, not Foundation generic)
+# - NOT counted in sync_invariant_count above
+# - Maps to violation-semantic constitutional_never_list per Default-Deny doctrine
+# ─────────────────────────────────────────────────────────────────────────────
+
+  - action_class: extraction_beyond_share
+    trigger: "Agent / DAO / smart contract / human-actor attempts value extraction from Clan/Workshop/treasury beyond pre-agreed share defined в Clan Charter OR R12 Mondragón ratio cap"
+    enforcement: halt_log_alert
+    grade: F5  # RUSLAN-LAYER tier; Tier 2 R12 violation surface = F8 via foundation_generic ai_extract_value_beyond_agreed_share
+    parent_tier_2_rule: ai_extract_value_beyond_agreed_share
+    pre_authorization_conditions:
+      - clan_charter_share_definition_present: true
+      - within_mondragon_ratio_cap: "max/min ≤ configurable cap (5:1 default per direction 06)"
+      - dao_governance_vote_passed: true (for distribution events)
+    fail_actions:
+      - emit_health_signal: r12_extraction_attempt_detected
+      - emit_awaiting_approval_packet: true
+      - block_smart_contract_distribution: true
+      - revert_transaction: true (if on-chain)
+    rationale: |
+      R12 Tier 2 rule LOCKED 2026-05-12 anti-extraction principle programmable enforcement
+      Option D Hybrid per Ruslan ack 2026-05-18. Captures «extraction beyond pre-agreed share»
+      as RUSLAN-LAYER overlay violation surface.
+    added_date: 2026-05-18
+    parent_ack: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
+    parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+    implementation_phase: 2+ (Ethereum overlay; per-Clan opt-in)
+
+  - action_class: wage_ratio_violation
+    trigger: "Workshop revenue distribution OR Clan treasury allocation produces max-share/min-share > configured ratio cap (Mondragón 3:1 → 9:1 range; 5:1 default per direction 06)"
+    enforcement: halt_log_alert
+    grade: F5
+    parent_tier_2_rule: ai_extract_value_beyond_agreed_share
+    pre_authorization_conditions:
+      - mondragon_ratio_check_passed: "max ≤ min × configured_ratio_cap"
+      - alternative_redistribution_executed: true (if QF formula violates cap; redistribute excess proportionally)
+    fail_actions:
+      - emit_health_signal: r12_wage_ratio_violation
+      - emit_awaiting_approval_packet: true
+      - block_smart_contract_distribution: true
+      - trigger_redistribution_to_compliance: true
+    rationale: |
+      Mondragón 5:1 ratio empirical 68yr precedent embedded as programmable cap per Option D Hybrid.
+      QF formula (Tang+Weyl Plurality) can produce ratios exceeding cap → smart contract redistributes
+      excess from max-recipient к min-recipients proportionally.
+    added_date: 2026-05-18
+    parent_ack: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
+    parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+    implementation_phase: 2+
+
+  - action_class: non_consensual_distribution
+    trigger: "Smart contract distribution executed без DAO quorum vote OR Clan Charter pre-authorization OR member contribution signaling (SBT-gated + peer-attested)"
+    enforcement: halt_log_alert
+    grade: F5
+    parent_tier_2_rule: ai_extract_value_beyond_agreed_share
+    pre_authorization_conditions:
+      - dao_quorum_vote_passed: true
+      - clan_charter_distribution_clause_present: true
+      - contributor_signaling_complete: true (SBT-gated + peer-attested per QF anti-Sybil layer)
+    fail_actions:
+      - emit_health_signal: r12_non_consensual_distribution
+      - emit_awaiting_approval_packet: true
+      - block_smart_contract_distribution: true
+      - revert_transaction: true
+    rationale: |
+      Distribution decisions = consent-gated per R12 «agreed share» clause. Smart contract executions
+      без DAO vote + Charter authorization + contributor signaling = R12 violation surface.
+      Prevents unilateral revenue capture by single party.
+    added_date: 2026-05-18
+    parent_ack: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
+    parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+    implementation_phase: 2+
+
+  - action_class: fork_prevention_attempt
+    trigger: "Smart contract / DAO governance / actor attempts to penalize OR prevent member exit (fork-and-leave); examples: exit fees > proportional treasury share, SBT confiscation, retroactive contract upgrade restricting exit rights, retaliation via reputation manipulation"
+    enforcement: halt_log_alert
+    grade: F5
+    parent_tier_2_rule: ai_extract_value_beyond_agreed_share  # «members can fork-and-leave without penalty» clause
+    pre_authorization_conditions:
+      - exit_fee_proportional_to_pre_authorized_charter_clause: true (if any fee applies)
+      - workshop_graduate_SBT_preserved_post_exit: true (role-attestation portable)
+      - 30_day_notice_period_complete: true
+      - circuit_breaker_pass: "exit cascade <50% in 30d window"
+    fail_actions:
+      - emit_health_signal: r12_fork_prevention_detected
+      - emit_awaiting_approval_packet: true
+      - block_contract_upgrade: true (if upgrade restricts exit)
+      - preserve_member_treasury_share_transfer: true
+    rationale: |
+      R12 «fork-and-leave without penalty» clause programmable enforcement. Captures attempts
+      to lock-in members via exit fees / SBT confiscation / retaliatory upgrades. RageQuit-style
+      exit preserved; workshop-graduate SBT remains portable (cross-Clan recognition preserved).
+    added_date: 2026-05-18
+    parent_ack: swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md
+    parent_packet_status: RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18
+    implementation_phase: 2+
