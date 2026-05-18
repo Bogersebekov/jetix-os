@@ -740,6 +740,59 @@ O-29 surfacing = R1 surface only. NOT promoted к LOCK by brigadier. Ruslan ack 
 
 ---
 
+## §12 APPEND-2026-05-18-evening — O-27 F3 candidate promotion (Education Layer deep research evidence)
+
+### §12.1 Surfacing context
+
+§12 appended by brigadier per `research/education-layer-deep-2026-05-18/` Phase 8 (sibling run к batch-3 Phase 5 §10.3 O-27 prior F2 surface). Different namespace; parallel-safe per prompt. F2 → F3 promotion candidate evidence assembled.
+
+### §12.2 O-27 F3 promotion candidate (Education Layer System Thinking)
+
+- **Candidate-id:** O-27 (prior F2 §10.3 surface)
+- **Promotion target:** F3 candidate (cross-precedent triangulation + cross-cell + cross-stream evidence assembled)
+- **Promoted-by:** brigadier-scribe via education-layer-system-thinking-deep-research-2026-05-18 Phase 8 cross-cutting synthesis (12 patterns; 8 F3 promotion candidates identified)
+- **Pre-ack status:** `brigadier-surfaced-F3-candidate-pending-Ruslan-ack`
+- **F3 promotion evidence:**
+  - 7-precedent deep mining (Phase 1): Harari 4 Cs + Karpathy LLM101n + Engelbart H-LAM/T + ШАД/ШСМ + NASA APPEL + Meadows + Beer VSM
+  - Tier 1 Foundation 5-7 modules curriculum operationalised (Phase 2): Meadows + Ashby + Beer + Senge + Kauffman + Conway + Cynefin с 4 Cs alignment matrix
+  - NASA SE life/work/body-as-spaceship integration (Phase 3): 7 processes × 3 nested holonic scales
+  - Master-Apprentice 4-role typology operationalised (Phase 4): Apprentice / Journeyman / Master / Grandmaster + 1:5/1:3 ratios + Mondragón ≤9× cap
+  - Gratitude IP-1 STRICT boundary (Phase 5): pre-authorised vs Default-Deny + 4 Default-Deny table addendum entries proposed
+  - «Базовое образование» Options A/B/C/D + cohort progression Entry → Tier 4 (Phase 6)
+  - 37 hypothesis bank breadth (Phase 7): 6 categories × test design + refutation conditions
+  - 12 cross-cutting patterns synthesized (Phase 8): 8 F3 promotion candidates (Patterns 1/2/3/5/6/8/10/12)
+- **F-G-R updated:** F3-candidate / G=education-layer-system-thinking-2026-05-18 / R=refuted_if_(Workshop curriculum lacks systems-thinking module OR 4Cs alignment fails OR R1 violated OR paternalism complaint unmitigated OR Master Workshop cohort assembly fails Q3-Q4 2026 OR specialist trajectory EL-T4 falsifier fails 18mo OR IP-1 violation detected anywhere)
+- **Status:** research-LOCKED-2026-05-18 / curriculum-DRAFT-via-deep-research / F3-promotion-pending-Ruslan-ack
+- **Cross-refs:**
+  - `research/education-layer-deep-2026-05-18/00-MASTER-INDEX.md` (this research stream entry point)
+  - `research/education-layer-deep-2026-05-18/98-cross-cutting-synthesis.md` §13 (F3 promotion candidate evidence)
+  - `research/education-layer-deep-2026-05-18/99-SUMMARY-FOR-RUSLAN.md` (≤1500w summary)
+  - `decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md` (concept doc E F2 baseline)
+  - `research/harari-jetix-lens-2026-05-18/03-21-lessons-jetix-lens.md` P1#1 (4 Cs primary cross-link)
+  - `research/deepening-2026-05-18/05/09/04/12/14` (5 directions cross-link)
+  - `text_009@2026-05-18_evening.md` Thread 6+7+8 (voice anchor)
+  - `swarm/wiki/foundations/principles/architecture.md` (Pillar C 12 rules — gratitude IP-1 STRICT enforcement)
+  - O-25 (Hackathon Platform; Tier 3 activation vehicle cross-link)
+  - O-28 (Outreach scalable; Tier 1+2 cohort source cross-link)
+  - O-29 (ML/AI engineering substrate; H-ML-1 refutation test cross-link)
+
+### §12.3 F3 promotion path
+
+If Ruslan acks O-27 F3 candidate promotion:
+- Phase 0 inventory: O-27 carries F3-candidate status (cross-precedent + cross-stream + cross-cell evidence).
+- Workshop curriculum drafting unblocked (Tier 1 5-7 module composition; «Базовое образование» Option picked; Master Workshop of Engineers Q3-Q4 2026 cohort activation).
+- Default-Deny table addendum (4 new entries; Phase 5 §2.3) промоция packet ready.
+
+### §12.4 Constitutional note
+
+O-27 F3 promotion = R1 surface only. NOT promoted к F5 LOCK by brigadier. Ruslan ack required per IP-1 + IP-2 + Pillar C Tier-2 rule 1 (AI does NOT make strategic decisions) + rule 2 (AI does NOT execute architectural changes without gate). Paternalism mitigation foregrounded per phase + IP-1 STRICT preserved per Phase 5. Refer 99-SUMMARY-FOR-RUSLAN §6 (15 open questions) + 98-cross-cutting-synthesis §13 (F3 promotion candidate evidence).
+
+---
+
+*§12 appended by brigadier per education-layer-system-thinking-deep-research-2026-05-18 Phase 8. R1 + R6 + R11 + R12 + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + paternalism-foregrounded + append-only preserved.*
+
+---
+
 *§11 appended by brigadier per ml-ai-engineers-deep-research-2026-05-18 Phase 8. R1 + R6 + R11 + EP-5 + append-only preserved.*
 
 ---
