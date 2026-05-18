@@ -209,3 +209,30 @@ Out-of-scope discipline:
 8. **AWAITING-APPROVAL packet trigger** — кто writes draft packet (brigadier? Ruslan?) после L0 ack?
 
 [src: text_003 ¶1-2 + text_002 ¶3 + vision/03 + vision/06]
+
+---
+
+## §APPEND-2026-05-18-evening — Prototype scope = hackathon engine (text_009 Thread 9)
+
+### §APPEND.1 — Prototype scope shift
+
+text_009 Thread 9 ¶7: «по сути дальше это будет тоже вот мастерская по работе с информацией ну соответственно люди вот как раз эти мастера и будут в этой мастерской работать ну и там как-то она дальше на блокчейне будет развиваться лететь кайфовать». Workshop = master of information processing; hackathon = activation mode на этом substrate.
+
+**Prototype 2-day intent (NOT SLA) — scope:**
+- Hackathon event orchestration MVP (initiate / participant matching / FPF-mediated coordination / mentor pairing / mock reward distribution)
+- Recursive self-development engine prototype (plan-mode + execute-mode auto-toggle within R1+IP-1 framing)
+- FPF protocol-mediated participant onboarding flow
+- Quadratic Funding distribution mock (no real funds yet — sandbox)
+
+### §APPEND.2 — Two-day Claude Code intent context
+
+Prototype = «just enough к first hackathon test». NOT full hackathon platform. NOT SLA promise. 2-day intent = soft target; brigadier surfaces if extension needed.
+
+### §APPEND.3 — Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A)
+- `vision/06-layered-architecture-L0-L4.md` §APPEND (L1 = hackathon engine MVP)
+- `vision/10-hackathon-platform-recursive-engine.md` (new companion)
+- `swarm/awaiting-approval/pillar-a-hackathon-mode-extension-2026-05-18.md` (packet B)
+
+[src: text_009 Thread 9 verbatim 2026-05-18 evening + vision/06 §APPEND + research/hackathon-deep-2026-05-18 inventory]

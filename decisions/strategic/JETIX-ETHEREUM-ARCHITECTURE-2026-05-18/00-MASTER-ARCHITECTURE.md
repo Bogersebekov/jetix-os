@@ -396,3 +396,44 @@ Decision-checkpoint P2-D5 (per `09-implementation-roadmap.md`) — Ethereum over
 ---
 
 *§12 ack-trail appended by brigadier per Ruslan ack commit 8a3d800. R1 transcription (Ruslan = sole strategist) + R6 provenance + EP-5 + append-only preserved.*
+
+---
+
+## §13 — Hackathon mode integration с DAO governance + QF prize distribution (text_009 Thread 9-11)
+
+> Brigadier appends per voice-pipeline-2026-05-18-batch-3 Phase 2. R1 surface + R6 + append-only. **H8 substrate-agnostic posture PRESERVED; Ethereum overlay R12 programmable LOCKED 2026-05-18 commit `8a3d800`.**
+
+### §13.1 — Hackathon clan-wars governance substrate
+
+text_009 Thread 11: «хакатоны будут это как раз вот эти клановые войны». Ethereum DAO governance multi-clan substrate (§05) provides Hackathon clan-wars governance layer:
+- **Clan = DAO sub-entity** with on-chain governance + SBT-based role attestation.
+- **Hackathon = event-scoped sub-DAO** instantiated per event (day/month/year rhythm).
+- **Inter-clan coordination** via multi-clan DAO governance (§05).
+- **Member voting** scoped to participating clans + event-scope.
+
+### §13.2 — Quadratic Funding для hackathon prize distribution
+
+§06 (Quadratic Funding) operationalizes hackathon prize distribution per R12 anti-extraction discipline:
+- Sponsor projects fund QF pool per hackathon (matching mechanism).
+- Participants vote QF allocation (Plurality voting per Tang+Weyl).
+- Prize distribution = matching-fund × √(individual contributions) — extraction-resistant by design.
+- No shareholder model; cooperative pool аналог Mondragón cooperative dividends.
+
+### §13.3 — Hackathon = Workshop activation mode (substrate-agnostic preservation)
+
+H8 substrate-agnostic stance PRESERVED:
+- Hackathon platform = Workshop activation pattern (Workshop = master of information processing per vision/03 + JETIX-WORKSHOP-CONCEPT-2026-04-30).
+- Ethereum substrate = overlay option (not replace); R12 programmable enforcement (LOCKED 2026-05-18 commit `8a3d800`).
+- Foundation v1.0 substrate-agnostic principle preserved.
+
+### §13.4 — Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A — operational pattern)
+- `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/05-dao-governance-multi-clan.md` (clan governance)
+- `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/06-quadratic-funding.md` (QF revenue distribution)
+- `decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md` §APPEND (clan-wars = hackathons)
+- `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` (R12 enforcement substrate ack)
+
+---
+
+*§13 appended by brigadier per voice-pipeline-2026-05-18-batch-3 Phase 2. H8 substrate-agnostic preserved; R12 anti-extraction discipline preserved. R1 + R6 + EP-5 + append-only.*

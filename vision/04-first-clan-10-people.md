@@ -248,3 +248,39 @@ Add к §6:
 - `reports/voice-pipeline-2026-05-18-batch-2/` (analysis trail)
 
 [src: text_005-007 verbatim 2026-05-18 morning Berlin + concept doc + batch-2 analysis]
+
+---
+
+## §APPEND-2026-05-18-evening — Clan-wars = hackathons различных rhythms (text_009 Thread 11)
+
+### §APPEND.1 — Clan-wars operational identity
+
+text_009 Thread 11 (¶10): «хакатоны будут это как раз вот эти клановые войны соответственно они будут там вообще разных режимов ритмов и так далее там могут быть и на день могут быть блядь и на месяц и на год блять» [src: text_009:¶10].
+
+**Operational identity merge:** Clan-wars (Charter §clan-warfare-mode LOCKED 2026-05-12) = hackathons различных rhythms. Multi-rhythm:
+- **Day-rhythm hackathons** — solving сложнейшие задачи «на раз два за день» (text_009 Thread 3 ¶2).
+- **Month-rhythm hackathons** — medium-complexity projects, sponsor cycle.
+- **Year-rhythm hackathons** — major project marathons; deep collaboration cycles.
+
+**«Любые проекты welcome»** — clan-wars accept any project type через FPF protocol-mediated coordination (Thread 11 «вот пожалуйста это как раз вот те проекты которые welcome блять любое можно делать»).
+
+### §APPEND.2 — Elite-belief onboarding (Harari overlay)
+
+First Clan = elite-belief onboarding curriculum (per research/harari-jetix-lens-2026-05-18/02-sapiens.md P2#6). Initial cohort = «прошаренные / крутые специалисты» (text_009 Thread 3 ¶3) carrying mythology + bureaucracy dual-layer.
+
+Cross-precedent: Mondragón cooperative 68-year first-cohort onboarding pattern; EVE Online Alliance 23-year leadership corp onboarding [src: research/deepening-2026-05-18/06-mondragon-68yr + 13-tribe-eve-online-20yr].
+
+### §APPEND.3 — Updated open questions
+
+- **Q-NEW-EVENING-1:** First clan-war = day-rhythm hackathon? Month-rhythm sponsor cycle? Year-rhythm Master Workshop apprenticeship?
+- **Q-NEW-EVENING-2:** Elite-belief curriculum format — formal cohort training OR organic mythology emergence?
+- **Q-NEW-EVENING-3:** Multi-rhythm calendar — Year-1 cadence proposed in concept doc A Activation Gantt?
+
+### §APPEND.4 — Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A; operational pattern)
+- `wiki/concepts/clan-wars-hackathon-mode.md` (Tier B wiki promote AWAITING ack)
+- `swarm/awaiting-approval/h6-hackathon-platform-pre-eminent-2026-05-18.md` (H6 operational pre-eminence packet)
+- `reports/voice-pipeline-2026-05-18-batch-3/` (analysis trail)
+
+[src: text_009 Thread 11 verbatim 2026-05-18 evening + research/harari-jetix-lens-2026-05-18 P2#6 elite-belief + research/deepening-2026-05-18/06-mondragon-68yr]

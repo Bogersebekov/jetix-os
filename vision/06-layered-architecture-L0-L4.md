@@ -194,3 +194,29 @@ Disclosure EP-3: estimates (e.g. «2 days CC» for L1) = intent, NOT SLA.
 7. **L4 «Methodology / Ontology distribution» — ownership claim** — это ШСМ-Anatoly authority OR Jetix-derivative? Tension implication.
 
 [src: text_003 ¶1-4 + text_002 ¶3 + Phase 0 master §1]
+
+---
+
+## §APPEND-2026-05-18-evening — L1 = hackathon engine MVP (text_008/009)
+
+### §APPEND.1 — L1 prototype scope shift к hackathon engine
+
+text_008 ¶1 + text_009 Thread 1-2: L1 prototype layer = hackathon engine MVP. Operational primitives:
+- Marathon-event orchestration (initiate → match participants/mentors → solve → reward → recurse)
+- FPF protocol-mediated coordination (за 2 часа в лица в проекты — text_009 ¶2)
+- Multi-rhythm cycle support (day/month/year — Thread 11)
+- Quadratic Funding revenue distribution (per Ethereum architecture acked 18.05)
+- Plan-mode / execute-mode auto-toggle (Thread 1 recursive self-development)
+
+### §APPEND.2 — L0 → L1 transition implications
+
+L0 = Foundation v1.0 LOCKED (Parts 1-11, Pillar A/C). L1 = hackathon engine MVP buildable on L0 substrate без Foundation modifications. AWAITING-APPROVAL packet B (Pillar A Hackathon-Phase namespace) IF L1 requires phase-namespace canonical addition.
+
+### §APPEND.3 — Cross-refs
+
+- `vision/07-prototype-platform-2-days-cc.md` §APPEND (prototype scope = hackathon engine)
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A — operational pattern)
+- `decisions/strategic/JETIX-RECURSIVE-SELF-DEVELOPMENT-ENGINE-2026-05-18.md` (concept doc B — engine pattern)
+- `swarm/awaiting-approval/pillar-a-hackathon-mode-extension-2026-05-18.md` (packet B)
+
+[src: text_008 ¶1 + text_009 Thread 1-2-11 verbatim 2026-05-18 evening + research/hackathon-deep-2026-05-18 4 hypotheses ranked]

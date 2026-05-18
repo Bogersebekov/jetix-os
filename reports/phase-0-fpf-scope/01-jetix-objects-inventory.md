@@ -609,3 +609,80 @@ Both LIVE-FLAGS from §10.3:
 ---
 
 *§12 appended by brigadier per 5-Phase hackathon-deep research closure. R1 + R6 + EP-5 + append-only preserved.*
+
+---
+
+## §10 — Hackathon platform + system merger + education + outreach candidates (text_008/009 batch-3)
+
+> Brigadier surface §10 per voice-pipeline-2026-05-18-batch-3 Phase 5. 4 NC candidates F2 carrying brigadier-surfaced status; Ruslan acks для F3+ promotion. R1 + R6 + EP-5 + append-only.
+
+### §10.1 O-25 candidate — «Jetix as hackathon platform»
+
+- **Candidate-id:** O-25
+- **Surfaced-by:** brigadier scribe via voice-pipeline-2026-05-18-batch-3 Phase 5
+- **Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+- **Origin:** text_008 + text_009 Thread 1-2-3.
+- **FPF primitives:** A.1 (System: hackathon platform) + A.3 (Method: marathon-mode) + A.15 (work-as-artefact per event) + U.MethodDescription
+- **F-G-R:** F2 / G=hackathon-platform-2026-05-18 / R=refuted_if_first_hackathon_within_90d_fails_OR_R12_extraction_emerges
+- **Status:** text-LOCKED-2026-05-18 / operational-VAPOR.
+- **Mechanism:** marathon events с FPF-connected participants + AI/mentors/tools/compute stack + multi-rhythm cycles (day/month/year).
+- **Cross-refs:**
+  - `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A)
+  - `vision/10-hackathon-platform-recursive-engine.md`
+  - `wiki/concepts/jetix-as-hackathon-platform.md` (Tier A)
+  - `swarm/awaiting-approval/h6-hackathon-platform-pre-eminent-2026-05-18.md` (packet A)
+
+### §10.2 O-26 candidate — «System merger protocol (FPF-based M&A для info systems)»
+
+- **Candidate-id:** O-26
+- **Surfaced-by:** brigadier scribe via voice-pipeline-2026-05-18-batch-3 Phase 5
+- **Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+- **Origin:** text_009 Thread 10.
+- **FPF primitives:** A.6.B (bounded context bridge) + U.BoundedContext + NEW: U.System merger + U.PromiseContent
+- **F-G-R:** F2 / G=system-merger-protocol-2026-05-18 / R=refuted_if_no_2_systems_merge_via_FPF_within_12mo
+- **Status:** text-LOCKED-2026-05-18 / mechanism-VAPOR.
+- **Mechanism:** «намордник» (constraint imposition) + «USB-C port» (interop bridge) sub-protocols через FPF as universal merger language.
+- **Cross-refs:**
+  - `decisions/strategic/JETIX-SYSTEM-MERGER-PROTOCOL-FPF-2026-05-18.md` (concept doc C)
+  - `vision/13-system-merger-protocol.md` (optional companion)
+  - `wiki/concepts/system-merger-protocol-fpf.md` (Tier A)
+  - `swarm/awaiting-approval/h9-strategic-insight-candidate-2026-05-18.md` (packet C — H9 candidate flag)
+
+### §10.3 O-27 candidate — «Education layer (системное мышление база)»
+
+- **Candidate-id:** O-27
+- **Surfaced-by:** brigadier scribe via voice-pipeline-2026-05-18-batch-3 Phase 5
+- **Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+- **Origin:** text_009 Thread 6.
+- **FPF primitives:** A.3 (Method: системное мышление curriculum) + U.MethodDescription + U.Episteme (transmission)
+- **F-G-R:** F2 / G=education-layer-2026-05-18 / R=refuted_if_Workshop_curriculum_lacks_systems-thinking_module_OR_4Cs_alignment_fails
+- **Status:** text-LOCKED-2026-05-18 / curriculum-VAPOR.
+- **Mechanism:** Workshop curriculum + hackathon teaching vehicle + Harari 4 Cs alignment (research/harari-jetix-lens-2026-05-18 P1#1).
+- **Cross-refs:**
+  - `decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md` (concept doc E)
+  - `vision/12-education-layer-base.md`
+  - `wiki/concepts/education-layer-systems-thinking.md` (Tier A)
+
+### §10.4 O-28 candidate — «Outreach system scalable»
+
+- **Candidate-id:** O-28
+- **Surfaced-by:** brigadier scribe via voice-pipeline-2026-05-18-batch-3 Phase 5
+- **Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+- **Origin:** text_009 Thread 5 + Thread 13.
+- **FPF primitives:** A.16 (work-as-process) + U.Method + U.SpeechAct + U.Commitment
+- **F-G-R:** F2 / G=outreach-system-scalable-2026-05-18 / R=refuted_if_10-person_video_team_not_assembled_within_60d_OR_personalized_pattern_fails_to_scale_to_100
+- **Status:** text-LOCKED-2026-05-18 / pattern-VAPOR.
+- **Mechanism:** 10-people video team → 100 trained operators → personalized outreach к 3000+ миллиардерам / инженерам / платформам.
+- **Cross-refs:**
+  - `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (concept doc D)
+  - `vision/11-outreach-system-scalable.md`
+  - `wiki/concepts/outreach-system-scalable.md` (Tier A)
+  - `vision/08-l1-collaboration-roadmap.md` §APPEND-2026-05-18-evening
+
+### §10.5 Promotion path
+
+All 4 candidates carry F2 surface status. Ruslan ack promotes к F3+ (cross-cell triangulation + cross-precedent evidence already in concept docs). Phase 0 inventory total: 14 (acked) + 4 candidates (O-21-24 prior surface) + 4 NEW candidates (O-25-28) = 22 объектов (18 candidates pending Ruslan ack).
+
+---
+
+*§10 appended by brigadier per voice-pipeline-2026-05-18-batch-3 Phase 5. R1 + R6 + EP-5 + append-only preserved.*

@@ -190,3 +190,36 @@ This document = **surface only**. Все steps derived from voiced content + LOC
 If Ruslan disagrees с any step framing, R1 protocol = direct rewrite (Ruslan = sole strategist + canonical author); brigadier accepts in-place revision.
 
 [src: text_003 ¶4 + all 7 companion vision docs §6 + Tier 2 R1]
+
+---
+
+## §APPEND-2026-05-18-evening — Hackathon model pivot integration (text_008/009)
+
+### §APPEND.1 — Immediate steps repositioned
+
+text_008 ¶1 directive: «через как раз в эту модель хакатона будем продвигаться сейчас очень активно». 24-48h + this-week steps shifted к hackathon model push.
+
+**Updated immediate priorities:**
+1. **Concept doc A finalization** (`JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md`) — operational pattern + Activation Gantt + 3-event Year-1 cadence proposal.
+2. **AWAITING-APPROVAL packets** (Phase 4) — H6 overlay + Pillar A Hackathon-Phase + H9 candidate surface.
+3. **Outreach scaling pattern documentation** (concept doc D) — 10-person video team setup начало.
+4. **L1 outreach materials prep** — Karpathy / Musk / Anthropic priority targets (post-batch-3 packet ack).
+5. **First hackathon picks** — bloggers + sponsor mode (Thread 11) — Ruslan picks specific event.
+
+### §APPEND.2 — «×100» multiplier framing pending
+
+ACTION-PLAN-PHASE-1 $100K target = FLOOR per text_008. «×100» stretch operator semantics OPEN — Ruslan picks (ST-2 strategic tension в batch-3 work plan).
+
+### §APPEND.3 — Speed discipline
+
+text_008 ¶1 «с двух ног врываться» — operational tempo mantra. APX-6 в REFLECTION-INBOX. Applied к outreach + hackathon launch + concept doc finalization.
+
+### §APPEND.4 — Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A)
+- `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (concept doc D)
+- `swarm/awaiting-approval/h6-hackathon-platform-pre-eminent-2026-05-18.md` (packet A)
+- `swarm/awaiting-approval/pillar-a-hackathon-mode-extension-2026-05-18.md` (packet B)
+- `reports/voice-pipeline-2026-05-18-batch-3/00-SUMMARY-FOR-RUSLAN.md` (Phase 6)
+
+[src: text_008 ¶1 + text_009 Thread 11+12+13 verbatim 2026-05-18 evening + ACTION-PLAN-PHASE-1-2026-05-17.md baseline]

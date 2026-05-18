@@ -260,3 +260,48 @@ Add к §6:
 - Voice batch 2 analysis: `reports/voice-pipeline-2026-05-18-batch-2/`
 
 [src: text_007 verbatim 2026-05-18 morning + direction 10 §5 R1 + Tier 2 R1 Ruslan = sole strategist]
+
+---
+
+## §APPEND-2026-05-18-evening — Karpathy + Musk + Anthropic priority + outreach scaling (text_009 Thread 12-15)
+
+### §APPEND.1 — Three priority pulls
+
+text_009 Thread 12 (¶13): «побыстрее всех каких-то ключевых лиц как можно быстрее втягивать... вот этого андрей карпати точно... этого илона маска кто процентов антропик» [src: text_009:¶13].
+
+**Priority L1 targets (post-Buterin H8-acked):**
+1. **Andrey Karpathy** — «для всех пацанов подтянет» — network multiplier (deep ML community).
+2. **Elon Musk** — order-of-magnitude reach (audience access + capital).
+3. **Anthropic** — capability-layer integration + L1 access (model substrate).
+
+### §APPEND.2 — Snowball logic (Thread 12)
+
+«если там какие-то, блядь, 10 американских компаний как-то вместе там работают, ну, скорее всего, да, есть у них хоть какое-то влияние. А если 100, блядь, ну, снова-таки, да... это просто вот дубина нахуй, это снежный ком».
+
+**Pull-through dynamics:** 10 cooperating American companies = visible influence stratum; 100 = exponential network effect; single anchor (Karpathy / Musk / Anthropic) → cascade pull.
+
+### §APPEND.3 — Outreach scaling pattern (Thread 5 + 13)
+
+text_009 ¶3 + ¶15:
+- Step 1: 10-person video team records outreach к broad audience.
+- Step 2: 100 trained operators apply personalized outreach.
+- Step 3: Personalized video per target.
+- Target audience: «3 тысячи миллиардеров... миллионеров... разрабов / инженеров / платформ» (text_009 ¶14).
+
+«Чтобы не я это делал» (Thread 13 ¶15) = operationalization requirement (Ruslan не scaling bottleneck).
+
+### §APPEND.4 — «Не ступеньки ниже» discipline (Thread 14)
+
+text_009 Thread 14 ¶15: «до мастерской инженеров надо достучаться, уже с ними это все обработать, обсудить и уже... И, сука, не ступеньки ниже. Точка.»
+
+Master Workshop of Engineers = primary L1 aspiration. No compromise — outreach materials level matches aspiration.
+
+### §APPEND.5 — Cross-refs
+
+- `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (concept doc D — pattern formalized)
+- `vision/11-outreach-system-scalable.md` (new companion)
+- `wiki/concepts/outreach-system-scalable.md` (Tier A wiki)
+- `decisions/REFLECTION-INBOX-2026-05-16.md` §APX-8 (не ступеньки ниже discipline)
+- `reports/voice-pipeline-2026-05-18-batch-3/` (analysis trail)
+
+[src: text_009 Thread 12+5+13+14 verbatim 2026-05-18 evening + Phase 0 inventory O-28 candidate]

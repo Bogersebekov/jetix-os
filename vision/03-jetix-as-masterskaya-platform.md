@@ -219,3 +219,46 @@ Add к §6:
 - `reports/voice-pipeline-2026-05-18-batch-2/` (analysis trail)
 
 [src: text_006 verbatim 2026-05-18 morning Berlin + concept doc + batch-2 analysis]
+
+---
+
+## §APPEND-2026-05-18-evening — Workshop = master of information processing + hackathon activation mode (text_009 Thread 9)
+
+### §APPEND.1 — Workshop operational identity clarification
+
+text_009 Thread 9 (¶7): «по сути дальше это будет тоже вот мастерская по работе с информацией ну соответственно люди вот как раз эти мастера и будут в этой мастерской работать».
+
+**Workshop = master of information processing.** Operational identity explicit:
+- Participants = «мастера» working в master workshop.
+- Subject matter = information processing (FPF discipline operationalized).
+- Activation mode = hackathon (event-scoped activation pattern).
+
+### §APPEND.2 — 4 Cs school positioning (Harari overlay)
+
+Per research/harari-jetix-lens-2026-05-18 P1#1: Workshop = «4 Cs school positioning» — Critical thinking + Communication + Collaboration + Creativity (Harari 21 Lessons §3 C-21-7 ChatGPT-era education).
+
+**Cross-precedent integration:**
+- Workshop curriculum = 4 Cs base education layer (Concept doc E).
+- Hackathon = primary teaching vehicle (Pattern Language teaching — research/deepening §5).
+- Master apprenticeship cycle = TPS mentor-pairing pattern (research/deepening §14).
+
+### §APPEND.3 — Recursive self-development engine overlay
+
+text_009 Thread 1 (¶1): «система развивается уже с самого начала, ну, как бы сама себя же развивала, снова-таки говорила, как себя развивать, блядь, ну потом выделяла на это ресурсы».
+
+Workshop как substrate carries recursive self-development engine:
+- Plan-mode toggle: Workshop surfaces direction candidates.
+- Execute-mode toggle: Workshop allocates resources + assigns roles.
+- IP-1 caveat: cycle = brigadier surfaces → Ruslan acks → execution proceeds (NOT autonomous self-modification per Pillar C Tier 2 rule 9).
+
+### §APPEND.4 — Cross-refs (evening batch)
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A — hackathon = Workshop activation mode)
+- `decisions/strategic/JETIX-RECURSIVE-SELF-DEVELOPMENT-ENGINE-2026-05-18.md` (concept doc B)
+- `decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md` (concept doc E — Workshop curriculum)
+- `vision/10-hackathon-platform-recursive-engine.md` (new companion)
+- `vision/12-education-layer-base.md` (new companion)
+- `research/harari-jetix-lens-2026-05-18/03-21-lessons.md` P1#1 (4 Cs school positioning)
+- `reports/voice-pipeline-2026-05-18-batch-3/` (analysis trail)
+
+[src: text_009 Thread 1+9 verbatim 2026-05-18 evening + research/harari-jetix-lens-2026-05-18 P1#1 + research/deepening-2026-05-18 §5 + §14]

@@ -171,3 +171,41 @@ NOT-scope (explicit):
 7. **English-language vs Russian-language testing cohort** — D-10 LOCKED («English first, Germany later»), но ШСМ + Анатолий primary Russian — split cohort?
 
 [src: text_002 ¶3 + D-10 + Charter §launch_mode]
+
+---
+
+## §APPEND-2026-05-18-evening — Bloggers + sponsor projects = первый старт mode (text_009 Thread 11)
+
+### §APPEND.1 — Bloggers + sponsor operational pattern
+
+text_009 Thread 11 (¶12): «уже можно там для начала аудитории блогеров соединять снова такие на проекты за которые платят спонсоры раз а второе ну которая возможно интересно этим блогерам да для начала самое быстрое» [src: text_009:¶12].
+
+**Pattern formalization:**
+1. Bloggers audience = primary first-event participant pool (accessible / low-friction).
+2. Sponsor projects = monetization layer (sponsors pay; participants solve).
+3. Quality predicate: «проекты которые возможно интересно блогерам» (alignment between sponsor projects + blogger audience interest).
+4. Speed predicate: «для начала самое быстрое» — first hackathon = bloggers + sponsor mode (NOT enterprise / NOT Master Workshop initially).
+
+### §APPEND.2 — Acceleration к key-person targets (Thread 12)
+
+«побыстрее всех каких-то ключевых лиц как можно быстрее втягивать с максимальными вычислениями ресурсами» (text_009 ¶12-13): Karpathy + Musk + Anthropic priority pull after bloggers + sponsor baseline established.
+
+**Sequencing surface (R1):**
+- Stage 1: Bloggers + sponsor (low-friction, fast learn) — first 2-3 hackathons.
+- Stage 2: Engineers / developers — Workshop-mode hackathons.
+- Stage 3: L1 key-person unlock (Karpathy etc.) — exponential pull-through.
+
+### §APPEND.3 — 100× scope multiplier applied (Thread 4)
+
+«десятки миллионов человек к концу 2026» (text_009 Thread 4 ¶3). Multi-rhythm hackathons (day/month/year) operationalize scale ramp 10 → 1,000 → 100,000 → 1M participants over Year-1.
+
+Phil critic surface (per batch-3 §A.3): «×100 multiplier» semantics OPEN — Ruslan picks (literal target / stretch operator / urgency framing).
+
+### §APPEND.4 — Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc A)
+- `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` (concept doc D — outreach pattern)
+- `vision/10-hackathon-platform-recursive-engine.md` (new companion)
+- `reports/voice-pipeline-2026-05-18-batch-3/04-detailed-work-plan.md` (Tier-1/2/3 sequencing)
+
+[src: text_009 Thread 11+12+4 verbatim 2026-05-18 evening + research/hackathon-deep-2026-05-18/05-mike-swift-mlh-deep-profile.md Hypothesis A primary gateway]
