@@ -414,3 +414,73 @@ Cross-link: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/10-risks
 
 *§11 appended by brigadier 2026-05-18 per voice-pipeline-2026-05-18-batch-2 Phase 4. R1 surface + R6 + append-only.*
 
+---
+
+## §12 APPEND-2026-05-18 evening — Outreach materials draft ACKED + Phase 1 carrier ready
+
+> Per Ruslan ack 2026-05-18 evening (commit 8a3d800) + Step 6 outreach materials draft committed (commit c8963ac). R1 transcription + R6 + append-only.
+
+### §12.1 Status update — Phase 1 outreach acceleration acked + materials prepared
+
+**Pre-step-6 status (§11 above):** Phase 1 outreach acceleration acked via text_007 ¶1 direct Ruslan voice (sole-strategist Tier 2 R1); materials TBD.
+
+**Post-step-6 status (this section):** **Outreach materials draft committed** — `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/12-buterin-outreach-materials-draft.md` (commit c8963ac). Phase 1 outreach materials carrier = ready for Ruslan personal execution.
+
+### §12.2 Outreach materials structure (per Step 6 commit)
+
+| Section | Content |
+|---|---|
+| §0 | Framing principles (substance-first, no over-promising, humility, anti-crypto-tribe, m/acc deferred) |
+| §1 | One-pager «Jetix on Ethereum» English (~500 words) — substance carrier для Twitter DM / email |
+| §2 | 7 talking-point cards для live conversation (Devcon / Plurality event / call) |
+| §3 | Russian translation для Ruslan reference |
+| §4 | Outreach channel matrix (Twitter DM recommended low-friction first; Plurality contribution parallel track) |
+| §5 | Risk mitigations (goodwill burn / crypto-tribe perception / time-waste / alternative paths) |
+| §6 | Success criteria classification (optimal → acceptable → expected baseline → defer → unlikely-but-possible) |
+| §7 | Open questions (timing / channel / format / public-vs-private / cadence / coordination Anatoly+Tseren) |
+
+### §12.3 m/acc framing decision confirmed (per §11.4)
+
+**Status:** **Defer m/acc framing для Phase 1 outreach** confirmed per:
+- §11.4 brigadier F2 recommendation (this doc)
+- Step 6 §0 outreach framing principles
+- Direction 10 §4.4 R1 (m/acc opt-in if Workshop demo strong; Phase 1-2 avoid)
+
+Use **«substrate-utilization» framing** instead: «Foundation + FPF aligned с d/acc values; Ethereum = chosen substrate; not tribal identity».
+
+### §12.4 Updated B-statements (extending §7 + §11.5)
+
+| # | Statement | Status |
+|---|---|---|
+| B6-NEW | Buterin Phase 1 outreach attempt completed by Ruslan within 60 days of text_007 ack | ⏳ Ruslan personal action; deadline 2026-07-17 |
+| B7-NEW | Outreach attempt result classified (engaged / no response / negative) within 90 days | ⏳ Post-attempt evaluation |
+| B8-NEW | Phase 3 architecture doc carries as substance в outreach materials | ✅ Acked via Step 6 commit c8963ac |
+| B9-NEW | m/acc framing deferred per brigadier F2 recommendation | ✅ Confirmed Step 6 §0 |
+| B10-NEW (acked) | Outreach materials draft committed + ready for Ruslan execution | ✅ Acked 2026-05-18 commit c8963ac |
+| B11-NEW | Substrate-utilization framing > tribal-identity framing | ✅ Confirmed Step 6 §0 |
+
+### §12.5 Phase 2-3 escalation paths preserved
+
+If Phase 1 outreach result classification (per §12.4 B7-NEW):
+- **Optimal (engaged):** Phase 2 collaboration consideration explored с Plurality Institute (§5 direction 10)
+- **Acceptable (acknowledged):** Phase 2-3 organic engagement через Plurality contribution + d/aDDy attendance
+- **Expected (no response):** Phase 2+ proceeds independent; substance carries
+- **Negative reaction:** Re-strategize positioning; pause direct outreach; substance-focus continues
+- **Goodwill burn (unlikely):** Recovery plan — pause; reassess; alternative paths
+
+### §12.6 Cross-refs
+
+- Outreach materials draft: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/12-buterin-outreach-materials-draft.md` (commit c8963ac)
+- Implementation checklist: `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/11-phase-2-implementation-checklist.md`
+- Phase 3 architecture (F3 acked): `decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/00-MASTER-ARCHITECTURE.md` §12 ack-trail
+- Vision/08 §APPEND-2026-05-18 (Buterin Phase 1 acceleration): `vision/08-l1-collaboration-roadmap.md`
+- AWAITING-APPROVAL packets (both acked): `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` + `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md`
+
+### §12.7 Updated 2-line summary
+
+**Phase 1 outreach acceleration acked via text_007 ¶1 (2026-05-18 morning) + outreach materials draft committed Step 6 (2026-05-18 evening commit c8963ac). Substance carrier ready: 1-pager English + 7 talking-point cards + Russian reference. m/acc framing deferred; substrate-utilization framing confirmed.** Cold-outreach success rate inherently low; humility posture preserved; alternative engagement paths (Plurality contribution / RetroPGF / d/aDDy) backup-ready.
+
+---
+
+*§12 appended by brigadier 2026-05-18 evening per Ruslan ack commit 8a3d800 + outreach materials Step 6 commit c8963ac. R1 transcription (Ruslan = sole strategist + outreach executor) + R6 + EP-5 + append-only.*
+
