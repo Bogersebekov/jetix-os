@@ -207,6 +207,7 @@ Canonical at `principles/tier-2-system/ruslan-layer-overrides/` (Layer 2 next sp
 - **Voice-pipeline DRAFT-only: NEVER auto-overwrite prod records** — was CRM voice-integration discipline
 - **Manager attention budget: max 20 active tasks** — was Global Rule 9 (cap mechanism Foundation; cap value RUSLAN-LAYER)
 - **Hub-and-spoke: subagents → department Lead → Manager** — was Global Rule 8
+- **R12 programmable enforcement Option D Hybrid via Ethereum substrate (acked 2026-05-18)** — Phase 2+ overlay binding R12 anti-extraction to smart-contract patterns (Mondragón ratio cap + QF revenue distribution + fork-and-leave exit tokens); Tier 2 R12 text LOCKED 2026-05-12 = PRESERVED; foundation_generic count = 12 UNCHANGED; per-Clan opt-in via Charter; 4 RUSLAN-LAYER action classes в `.claude/config/default-deny-table.yaml` (extraction_beyond_share / wage_ratio_violation / non_consensual_distribution / fork_prevention_attempt). [src: `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` Ruslan ack commit `8a3d800` + parallel `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` Option A ack]
 
 ### §4.3 Tier 1 Reference
 
