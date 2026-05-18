@@ -741,3 +741,65 @@ O-29 surfacing = R1 surface only. NOT promoted к LOCK by brigadier. Ruslan ack 
 ---
 
 *§11 appended by brigadier per ml-ai-engineers-deep-research-2026-05-18 Phase 8. R1 + R6 + R11 + EP-5 + append-only preserved.*
+
+---
+
+## §13 APPEND-2026-05-18-evening — O-25 F3-candidate corroboration (hackathon-platform-deep research)
+
+> **Source:** `research/hackathon-platform-deep-2026-05-18/` namespace (8-Phase brigadier run completed 2026-05-18 evening per `prompts/hackathon-platform-deep-research-2026-05-18.md`).
+>
+> **Constitutional posture:** R1 surface-only — surfaces O-25 candidate F3-promotion-eligibility; **Ruslan ack required** для actual F2 → F3 status change.
+
+### §13.1 O-25 — corroboration update
+
+**Candidate-id:** O-25 (previously surfaced §10.1 2026-05-18; F2 baseline)
+**Now-surfaced-as:** F3-candidate
+**Surfaced-by:** brigadier scribe via 8-Phase hackathon-platform-deep research
+**Pre-ack status:** `brigadier-surfaced-F3-candidate-pending-Ruslan-ack`
+
+**F2 → F3 corroboration delta (8-phase deep research delivers):**
+
+1. **Phase 0 FPF lens scope** — 4 candidate scopes formalised (system / method / event-class / cohort-mechanism); per-phase scope dominance matrix produced.
+2. **Phase 1 30+ variants survey** — 30 platforms × 6 categories × 10 dimensions; 5 cross-platform implications converging Jetix differentiation.
+3. **Phase 2 per-rhythm spec** — 6 rhythms × 8 dimensions; cohort × rhythm fit matrix; multi-rhythm nesting fractal.
+4. **Phase 3 cohort dynamics** — 6 cohort segments × 7 dimensions + 5 mermaid + outreach script templates.
+5. **Phase 4 sponsor/funding** — 6 mechanisms × 6 dimensions + R12 anti-extraction checks per mechanism; hybrid recommendation surfaced.
+6. **Phase 5 first event Q3 2026 blueprint** — concrete operational spec (date / venue / theme / sponsor / participants / mentors / prize pool / R12 checks / budget €23K).
+7. **Phase 6 Year-1 calendar** — 6-event ladder Q3 2026 → Q3 2027 + Gantt + dependencies + risk matrix + €453K budget.
+8. **Phase 7 hypothesis bank** — 45 H × 5 categories × F-G-R per H + cross-ref ML/AI 45 H bank.
+9. **Phase 8 synthesis** — 12 cross-cutting patterns + meta-patterns + 10 mermaid diagrams.
+
+### §13.2 F3 promotion eligibility check
+
+Per FPF B.3 F-grade canon:
+- **F2 surface:** single-voice (Ruslan text_008/009) + brigadier-structured + 5-cell triangulation. ✓ achieved 2026-05-18 (§10.1 baseline).
+- **F3 candidate:** cross-precedent corroboration + multi-stream evidence + cohort-specific operational blueprint + falsifier-grade hypothesis bank. ✓ DELIVERED by этот 8-phase research run.
+- **F4+ would require:** Foundation B.3 F8 independent verification by third-party reviewer + sustained operational track record (not pursued here).
+
+**Eligibility:** F3-candidate eligible per delta evidence. **Promotion gate:** Ruslan ack required per R2 + R11 + Pillar C Tier 2 rule 2.
+
+### §13.3 Cross-refs (etot research run)
+
+- `research/hackathon-platform-deep-2026-05-18/00-MASTER-INDEX.md` (entry point)
+- `research/hackathon-platform-deep-2026-05-18/99-SUMMARY-FOR-RUSLAN.md` (≤1500w 10-min read)
+- `research/hackathon-platform-deep-2026-05-18/06-first-event-Q3-2026-blueprint.md` (operational anchor)
+- `research/hackathon-platform-deep-2026-05-18/08-hypotheses-bank-breadth.md` (45 H bank + cross-ref ML)
+- `research/hackathon-platform-deep-2026-05-18/98-cross-cutting-synthesis.md` (12 patterns)
+- `research/hackathon-platform-deep-2026-05-18/diagrams/` (10 mermaid)
+
+### §13.4 Decision path forward (R1 surface)
+
+If Ruslan acks O-25 F3 promotion:
+- Phase 0 inventory total: 14 (acked) + 5 candidates (O-21-24 prior + O-29 ML) + 4 candidates (O-25-28) → O-25 promoted к F3-acked status.
+- Phase 5 first event blueprint = ready for AWAITING-APPROVAL packet trigger (Anthropic outreach + AI Grant Batch 5 application).
+- Concept doc A (`decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md`) updated с F2 → F3 metadata.
+- Pillar A Hackathon-Phase extension packet B Option A/B/C selection unblocked.
+
+### §13.5 Constitutional posture
+
+R1 surface (F3-candidate surfacing, not promotion) + R2 (Foundation read-only preserved) + R6 (cross-phase + cross-stream provenance cited) + R11 (Default-Deny; novel actions (sponsor outreach, AI Grant) require AWAITING-APPROVAL) + R12 (anti-extraction checks per Phase 4 §9 + Phase 5 §11) + EP-5 (F-grade explicit; F3 candidate, не F8) + breadth-NOT-selection (45 H bank surface, not recommendation) + append-only ✓.
+
+---
+
+*§13 appended by brigadier per hackathon-platform-deep-research-2026-05-18 Phase 8 closure. R1 + R6 + R11 + R12 + EP-5 + append-only preserved.*
+
