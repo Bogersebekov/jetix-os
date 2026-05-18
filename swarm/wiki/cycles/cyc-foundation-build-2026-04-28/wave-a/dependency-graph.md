@@ -42,6 +42,7 @@ Generic `depends-on` DOES NOT appear in this graph. Where interface cards used i
 ### §1.2 Mermaid diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     P1[Part 1: System State Persistence]
     P2[Part 2: Signal Ingestion & Triage]

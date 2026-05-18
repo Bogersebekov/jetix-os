@@ -456,6 +456,7 @@ pipeline velocity и ICP-precision.
 **Определение:** не контакт в CRM и не компания-объект, а живые отношения с progression и health. Аналог Opportunity в Essence.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> lead
     lead --> qualified : ICP ≥ 70 + BANT

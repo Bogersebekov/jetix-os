@@ -133,6 +133,7 @@ Nelson dismissed WWW as «trivial simplification»; quote (Nelson, paraphrased):
 ## §3 Cross-domain mapping — Xanadu mode → Jetix early-warning indicators
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   X1[Xanadu: 7-feature bundle] --> J1[Jetix risk: 14 FPF primitives ship-together]
   X2[Xanadu: scope-infrastructure mismatch] --> J2[Jetix risk: FPF substrate at unknown-scale]

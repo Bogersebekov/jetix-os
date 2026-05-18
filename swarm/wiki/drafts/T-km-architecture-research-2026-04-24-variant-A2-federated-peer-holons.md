@@ -42,6 +42,7 @@ This variant occupies the **ontological-layered / federated-peer-holons / by-con
 ## §3 Architecture Diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     subgraph "Jetix-methodology-holon (closed-implementation, open-interface)"
       MethRepo[jetix-methodology-repo<br/>swarm/wiki/themes/<br/>swarm/wiki/foundations/<br/>swarm/lib/<br/>.claude/agents/<br/>.claude/skills/]

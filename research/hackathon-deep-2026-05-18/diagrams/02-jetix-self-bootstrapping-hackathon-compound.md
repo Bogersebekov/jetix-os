@@ -10,6 +10,7 @@ parent: research/hackathon-deep-2026-05-18/03-jetix-hypotheses-deep.md §3
 > Hypothesis C recursive amplification visualization. Each event builds substrate; substrate enables next event.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     START[Pre-Year-1 state<br/>Workshop = vapor<br/>FPF spec only]
 

@@ -8,6 +8,7 @@ source: doc 09
 # Diagram 08 — Hypothesis bank (45 H) × category × priority
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Industry (H-ML-1..10)"
         I1[H-ML-1 Education gap]

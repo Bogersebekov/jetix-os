@@ -12,6 +12,7 @@ parent: ../00-MASTER-ARCHITECTURE.md
 ## §1 Full lifecycle sequence
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
   participant Soul as Member Soul<br/>(non-custodial wallet)
   participant Issuer as Issuer Soul<br/>(Workshop / Clan / DAO)

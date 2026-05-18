@@ -45,6 +45,7 @@ language: russian + english
 ## §1 Trajectory reconstruction (verified)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
   title 49-year Alexander → Karpathy lineage (cross-domain transfer)
   1977 : A Pattern Language (Alexander+5) — 253 patterns, building arch
@@ -107,6 +108,7 @@ Karpathy adapts wiki concept к LLM-living substrate (April 2026 GitHub Gist).
 ## §3 Cross-domain transfer pattern (4-step recipe)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
   S1[Substrate concept in domain D1] --> S2[Bridge person — cross-domain literacy]
   S2 --> S3[Right venue / amplification]

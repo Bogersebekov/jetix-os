@@ -155,6 +155,7 @@ The three conflict dimensions are **attention** (Ruslan's time and focus budget,
 ### Mermaid: Synergy Flows
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     C[§3.1 Consulting]-->|graduates D22-passing clients| SN[§3.5 Secure Network]
     P[§3.2 Producer]-->|retainer clients become members| SN

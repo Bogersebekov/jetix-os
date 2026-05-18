@@ -13,6 +13,7 @@ source: reports/phase-0-fpf-scope/01-jetix-objects-inventory.md §QR-CARD; 02-ob
 Честное представление Jetix для L1 аудитории: что работает, что STUB, что vapor.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     subgraph ExternalLoop["External Loop [GAP: not yet closed; revenue = 0]"]
         direction LR
@@ -110,6 +111,7 @@ flowchart TD
 **Scalability at 10× (fragile threshold):**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 xychart-beta
     title "Structural change required at scale gates (%)"
     x-axis ["€50K current","€200K first-hire","€1M managed team","$100M ARR","$1T Clan 100y"]

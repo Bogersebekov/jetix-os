@@ -14,6 +14,7 @@ source: reports/phase-0-fpf-scope/01-jetix-objects-inventory.md §1 §QR-CARD
 Цвет/форма = layer. Внутри cluster = объекты одного типа.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph LayerD["Layer D — Future Vision (vapor)"]
         direction LR

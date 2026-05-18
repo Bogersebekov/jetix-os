@@ -8,6 +8,7 @@ parent: research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.
 # Diagram 01 — H8 Substrate Decision Tree (Phase 1 → 3+)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
   Q1{Phase 1: need immediate role-attestation?}
   Q1 -->|Yes| PGP[PGP-signed Foundation Part changes + Karpathy-wiki-sig convention]

@@ -12,6 +12,7 @@ parent: ../00-MASTER-ARCHITECTURE.md
 ## §1 R12 programmable enforcement state diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
   [*] --> R12_Text: Pillar C Tier 2<br/>rule 12 LOCKED 2026-05-12
   

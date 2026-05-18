@@ -91,6 +91,7 @@ text_007 ¶2-3 (18.05 morning): «Jetix работает с эфиром, кон
 ## §1 3-layer architectural stack overview
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph L1 ["Layer 1 — Methodology (Foundation v1.0 LOCKED 2026-04-28)"]
     FPF[FPF Spec + Foundation 11 Parts + Pillar C]

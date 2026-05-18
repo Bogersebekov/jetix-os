@@ -40,6 +40,7 @@ This variant occupies the **thin-scaffold / high-autonomy / single-brigadier** q
 ## §3 Architecture Diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     Ruslan -->|/project-bootstrap <slug> <p-level>| Bootstrap[/project-bootstrap skill]
     Bootstrap --> Scaffold[5-file scaffold]

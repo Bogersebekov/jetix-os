@@ -55,6 +55,7 @@ language: russian + english
 ## §1 TPS tacit→explicit mechanism (4 layers)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   T1[Layer 1: TPS internal practice 1950s+] --> T2[Layer 2: Womack/Jones 1990 — Lean brand]
   T2 --> T3[Layer 3: Liker 2004 — 14 Principles + 4P model]

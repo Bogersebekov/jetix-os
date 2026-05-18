@@ -45,6 +45,7 @@ Wiki вырос с 552 → **722 entries** (+170, +31%). Concepts взорвал
 ### §2.1 Wiki growth diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph BEFORE [BEFORE Step C 552 entries]
         B1[concepts 14]:::low
@@ -82,6 +83,7 @@ flowchart LR
 ### §2.2 Domain → Realm linking map
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     subgraph DOMAINS [4 Mining Domains]
         GAMES[GAMES 81 entries<br/>14 games plus 30 mechanics plus 12 economy]:::games
@@ -137,6 +139,7 @@ flowchart TD
 ### §2.3 Quality target achievement
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     Start[Шаг C Mining Quality Targets]:::start
 

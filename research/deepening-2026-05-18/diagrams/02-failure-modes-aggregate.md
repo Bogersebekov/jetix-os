@@ -10,6 +10,7 @@ parent_3: research/deepening-2026-05-18/03-failure-stackoverflow-friendtech-pre-
 # Diagram 02 — Aggregate Failure Modes (Xanadu + Cybersyn + Stack Overflow + Friend.tech)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph "Xanadu 54yr — over-design failure"
     X1[7-feature bundle simultaneous]

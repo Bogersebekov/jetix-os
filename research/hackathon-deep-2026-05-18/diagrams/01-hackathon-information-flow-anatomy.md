@@ -10,6 +10,7 @@ parent: research/hackathon-deep-2026-05-18/02-fpf-mapping.md §5
 > Sankey-style visualization of 6 income streams → 9 stakeholder transformations → N outputs.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     %% 6 income streams
     I1[Ideas pre-event<br/>~200 variations]

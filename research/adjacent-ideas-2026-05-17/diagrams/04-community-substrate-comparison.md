@@ -10,6 +10,7 @@ parent: research/adjacent-ideas-2026-05-17/00-MASTER-RESEARCH-INDEX.md
 > Cross-platform feature comparison — anchors vision/03 Jetix-as-Workshop decisions.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     subgraph "Feature dimensions"
         F1[Sustained 10+ years?]
@@ -54,6 +55,7 @@ graph LR
 ## Reading
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 quadrantChart
     title Community substrate positioning matrix
     x-axis "Low constitutional governance" --> "Strong constitutional governance"

@@ -8,6 +8,7 @@ source: doc 98 §13
 # Diagram 07 — Research stream cross-integration
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "THIS RESEARCH (2026-05-18 evening)"
         ML[research/ml-ai-engineers/<br/>21 tools + 7 workflow steps + 5 classes + 45 H + universal pattern]

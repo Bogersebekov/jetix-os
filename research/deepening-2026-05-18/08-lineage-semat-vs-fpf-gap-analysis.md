@@ -76,6 +76,7 @@ SEMAT (Software Engineering Methods and Theory) — Ivar Jacobson + colleagues, 
 ## §2 SEMAT 7 Alphas ↔ FPF object mapping
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   SO[SEMAT: Opportunity] -.maps to?.- FO[FPF: A.6.B Opportunity + Workshop opportunity-framing]
   SS[SEMAT: Stakeholders] -.maps to?.- FS[FPF: A.2.8 Commitment + role-attestation]

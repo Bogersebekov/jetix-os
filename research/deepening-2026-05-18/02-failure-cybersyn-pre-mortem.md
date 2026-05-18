@@ -40,6 +40,7 @@ Project Cybersyn (Chile, **July 1971 → September 11 1973**) — **2-year cyber
 ## §1 Timeline reconstruction + key figures
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
   title Cybersyn → Stafford Beer post-1973 trajectory
   1971-07 : Fernando Flores contacts Beer
@@ -120,6 +121,7 @@ Beer's post-Cybersyn pattern: **success only when political environment stable A
 ## §3 Distributed-substrate design implications (R12 + Corrigibility)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
   C1[Cybersyn: single political regime] -->|fragility| Cure1[Distributed Clans + multi-jurisdiction]
   C2[Cybersyn: single founder] -->|bus-factor 1| Cure2[Foundation Architecture institutional]

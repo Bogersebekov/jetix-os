@@ -86,6 +86,7 @@ System merger pattern (A.1 × A.1):
 ## §3 Mermaid — 2-system merge через FPF protocol
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Pre-merger State"
         S1[System A — Host]

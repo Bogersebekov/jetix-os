@@ -39,6 +39,7 @@ acceptance_predicate: refuted_if_(any_tool_missing_Jetix_applicability OR FPF_pr
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Idea] --> B[Notebook cell]
     B --> C[Execute]
@@ -80,6 +81,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Data] --> B[Preprocessor]
     B --> C[Estimator]
@@ -118,6 +120,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Tensor] --> B[nn.Module]
     B --> C[Forward pass]
@@ -162,6 +165,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Pre-trained model] -->|from HF Hub| B[AutoModel.from_pretrained]
     C[Data] -->|from HF Datasets| D[Dataset.from_*]
@@ -199,6 +203,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Tabular data + categoricals] --> B[CatBoost]
     B -->|ordered target stats| C[Encoding sans leakage]
@@ -234,6 +239,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Data] --> B[XGBoost]
     B --> C[Tree 1 on residuals]
@@ -269,6 +275,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Large data] --> B[LightGBM]
     B -->|histogram-based split| C[Fast computation]
@@ -303,6 +310,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Define search space] --> B[Objective function]
     B --> C[Optuna Study]

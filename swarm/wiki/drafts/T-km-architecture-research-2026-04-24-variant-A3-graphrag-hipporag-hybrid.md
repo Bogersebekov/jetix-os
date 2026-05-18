@@ -40,6 +40,7 @@ This variant occupies the **pre-compiled-heavy / graph-native / cross-document-s
 ## §3 Architecture Diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     subgraph "Per-client A2 substrate (foundation)"
       ClientWiki[clients/<slug>/swarm/wiki/]

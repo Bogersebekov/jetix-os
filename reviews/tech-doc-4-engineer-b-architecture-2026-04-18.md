@@ -103,6 +103,7 @@ input-output с контекстом 200K, а стоимость Opus упала
 ### 2.1 Диаграмма
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     %% Actors
     Ruslan[["👤 Ruslan<br/>operator / driver-mechanic<br/>4 роли: user / founder / operator / advocate"]]
@@ -190,6 +191,7 @@ flowchart TB
 ### 3.1 Диаграмма
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     User["👤 Ruslan"]
     Ant["Antigravity IDE<br/>+ Claude Code CLI<br/>+ Obsidian"]
@@ -423,6 +425,7 @@ LangChain, не CrewAI, не Autogen — **минимальная оркестр
 ### 4.1 Brain / Claude Code — components
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph Brain["🧠 Central Claude Code"]
         direction TB
@@ -453,6 +456,7 @@ heavy parallel work (например, fetch 20 Notion страниц через
 ### 4.2 Wiki — components
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Wiki["📚 wiki/ — Karpathy + OmegaWiki"]
         direction TB
@@ -494,6 +498,7 @@ flowchart TB
 ### 4.3 Operational Data — components
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph OpsData["📋 Operational Data"]
         direction TB
@@ -518,6 +523,7 @@ flowchart LR
 ### 4.4 Strategy — components
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Strategy["🎯 strategy/"]
         direction TB
@@ -541,6 +547,7 @@ flowchart TB
 ### 4.5 Integration Layer — components
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph Integ["🔌 Integration Layer"]
         direction TB
@@ -604,6 +611,7 @@ review. Это страховка от мусора (ADR-010 SAFE-SAVE + human g
 ### 5.2 Event log locations (иерархия)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph EventLogs["🔄 Event log streams (append-only)"]
         direction TB
@@ -727,6 +735,7 @@ decisions. Day loop не смешивается с wiki log. Это даёт:
 ### 5.5 Event routing diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Triggers["Триггеры (все по команде Ruslan)"]
         UserCmd["Ruslan команда<br/>/ingest, /ask,<br/>/close-day, etc"]
@@ -777,6 +786,7 @@ flowchart TB
 ### 6.1 Morning ritual
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -803,6 +813,7 @@ sequenceDiagram
 ### 6.2 `/ingest` raw → wiki
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -837,6 +848,7 @@ sequenceDiagram
 ### 6.3 `/ask` query → synthesis + writeback
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -865,6 +877,7 @@ sequenceDiagram
 ### 6.4 Evening ritual (`/close-day`)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -897,6 +910,7 @@ sequenceDiagram
 ### 6.5 Weekly "натягивания" (cross-pollination)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -920,6 +934,7 @@ sequenceDiagram
 ### 6.6 Error flow — SAFE-SAVE
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -944,6 +959,7 @@ sequenceDiagram
 ### 6.7 Migration flow (Notion → Wiki)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -994,6 +1010,7 @@ sequenceDiagram
 ### 7.1 Role-switching diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     User["👤 Ruslan (conversation)"]
 
@@ -1114,6 +1131,7 @@ source of truth.
 ### 7.6 "Умнеют ли агенты" (System Prompt Learning)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     Session["Session: role X работает"] --> Feedback["Feedback<br/>(Ruslan или результат)"]
     Feedback --> MetaAgent["meta-agent анализирует<br/>(permissionMode: plan)"]
@@ -1140,6 +1158,7 @@ gap #9). Наполнятся по мере работы.
 ### 8.1 State classification
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Ephemeral["Ephemeral state (session-local)"]
         CCContext["Claude context window<br/>(в RAM of Claude API)"]
@@ -1197,6 +1216,7 @@ flowchart TB
 ### 8.3 4-layer information model (from SDH §4.3)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     L1["L1 Raw<br/>immutable<br/>raw/, inbox/,<br/>daily-log/drafts/"] --> L2["L2 Processed<br/>atomic<br/>wiki/sources/,<br/>wiki/ideas/"]
     L2 --> L3["L3 Synthesized<br/>concepts, claims,<br/>foundations<br/>wiki/"]
@@ -2089,6 +2109,7 @@ v1/v2.
 ### 14.1 4 фазы (α / β / γ / δ)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Notion decommission timeline
     dateFormat YYYY-MM-DD
@@ -2310,6 +2331,7 @@ IF error / unclear / impossible task:
 **A.6.1 Manager activation (for cross-department coordination):**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -2329,6 +2351,7 @@ sequenceDiagram
 **A.6.2 Knowledge-synth for deep research:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor R as Ruslan
     participant CC as Claude Code
@@ -2346,6 +2369,7 @@ sequenceDiagram
 ### A.7 Hub-and-spoke vs star — v1-beta simplified
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     Ruslan["👤 Ruslan"]
     M["manager"]
@@ -2386,6 +2410,7 @@ direct к Ruslan'у.
 Все потоки в одной диаграмме:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     %% Inputs
     Voice[("🎤 Voice memos")]
@@ -2478,6 +2503,7 @@ flowchart LR
 ### B.2 Layered view (L1 → L2 → L3 → L4)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph L1["L1 Raw (immutable)"]
         direction TB
@@ -2516,6 +2542,7 @@ flowchart LR
 ### B.3 Writeback loop (compounding knowledge)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     participant R as Ruslan
     participant CC as Claude
@@ -2536,6 +2563,7 @@ sequenceDiagram
 ### B.4 Day-loop flow (main daily flow)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph Morning["08:00-10:00 Morning"]
         M1["/plan-day"]
@@ -2566,6 +2594,7 @@ flowchart LR
 ### B.5 Weekly natygivanie flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Weekly["Eвоскресенье-понедельник"]
         W1["Aнализ: все tasks × все projects<br/>→ 'кто кому помогает?'"]
@@ -2579,6 +2608,7 @@ flowchart TB
 ### B.6 Migration flow (Notion α-phase)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     N[("Notion Bank of Ideas<br/>+ 11 system pages")]
 
@@ -2610,6 +2640,7 @@ flowchart LR
 ### B.7 Error flow (SAFE-SAVE)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     Start["agent executing"]
     Err{"error /<br/>unclear /<br/>conflict?"}
@@ -2630,6 +2661,7 @@ flowchart TB
 **B.8.1 Project state machine:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Idea
     Idea --> Proposed : "concrete A→B formulated"
@@ -2646,6 +2678,7 @@ stateDiagram-v2
 **B.8.2 Task state machine:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Backlog
     Backlog --> Today : "pulled for today"
@@ -2661,6 +2694,7 @@ stateDiagram-v2
 **B.8.3 Hypothesis state machine:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Formulated
     Formulated --> Backlog
@@ -2679,6 +2713,7 @@ stateDiagram-v2
 **B.8.4 Decision state machine:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Draft
     Draft --> Recorded : "written to decisions/ + context + rationale"
@@ -2693,6 +2728,7 @@ stateDiagram-v2
 **B.8.5 Idea state machine:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> Captured
     Captured --> InIdeasPool : "in ideas-pool/inbox.md"
@@ -2753,6 +2789,7 @@ stateDiagram-v2
 ### C.3 Migration sequencing (project plan)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Architecture migration timeline (v1-beta → v1-final)
     dateFormat YYYY-MM-DD

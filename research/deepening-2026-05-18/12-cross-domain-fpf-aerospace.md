@@ -47,6 +47,7 @@ language: russian + english
 ## §1 NASA SE Handbook structure (verified)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
   PA[Pre-Phase A: Concept Studies] --> A[Phase A: Concept Development]
   A --> B[Phase B: Preliminary Design]

@@ -90,6 +90,7 @@ language: russian
 ## §2 Mermaid 1 — Категориальная карта (все актуальные documents)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     %% =============================================================
     %% Mermaid 1: Categorical Overview of all active Jetix OS docs
@@ -241,6 +242,7 @@ flowchart TB
 ## §3 Mermaid 2 — Reading Order Ladder (4 tracks per audience)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     %% =============================================================
     %% Mermaid 2: Reading tracks per audience type
@@ -324,6 +326,7 @@ flowchart LR
 ## §4 Mermaid 3 — Граф зависимостей (cites / extends / supersedes)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     %% =============================================================
     %% Mermaid 3: Dependency graph — how documents build on each other

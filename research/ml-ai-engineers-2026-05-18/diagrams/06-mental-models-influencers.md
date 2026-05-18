@@ -8,6 +8,7 @@ source: doc 02 §2
 # Diagram 06 — 9 mental models + key thinkers
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Pedagogy + Software 2.0 paradigm"
         K[Karpathy<br/>Software 2.0<br/>LLM-as-OS<br/>nanoGPT pedagogy]

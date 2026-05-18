@@ -14,6 +14,7 @@ source: reports/phase-0-fpf-scope/04-kasha-cleanup-flags.md §0 §1 §2
 R1: surface only. Ruslan ack'ает actions.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 quadrantChart
     title Kasha Severity vs Volume (7 categories)
     x-axis "Low volume (few items)" --> "High volume (many items)"
@@ -34,6 +35,7 @@ quadrantChart
 **Severity breakdown table:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 xychart-beta
     title "Kasha Item Count per Category"
     x-axis ["P-1 CE-3","P-2 Dead refs","P-3 LIVE-FLAG","P-4 Counts","P-5 FVA","P-6 Phase names","P-7 EP-2"]
@@ -44,6 +46,7 @@ xychart-beta
 **Critical items requiring immediate attention (CR-01..CR-12):**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     CR01["CR-01 LIVE-FLAG\nDoc 1B §7 Mittelstand\nvs ACTION-PLAN Online-first\n[CRITICAL for L1 outreach]"]
     CR07["CR-07 EP-5 F-grade\nsemantic drift\n[CRITICAL for L1 audience]"]

@@ -8,6 +8,7 @@ parent: research/deepening-2026-05-18/98-CROSS-CUTTING-SYNTHESIS.md
 # Diagram 04 — Jetix Phase Actions by Pattern
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
   title Jetix Phase 0 → 2+ actions surfaced by deepening research
   dateFormat YYYY-MM

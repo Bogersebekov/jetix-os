@@ -269,6 +269,7 @@ May 2026  Tseren + Workshop + Foundation (37h из 55h)
 ## §7 Mermaid 1 — Monthly DW bar chart
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 xychart-beta
     title "Deep Work hours per month (Dec 2025 → May 2026)"
     x-axis ["Dec 25", "Jan 26", "Feb 26", "Mar 26", "Apr 26", "May 26*"]
@@ -285,6 +286,7 @@ xychart-beta
 ## §8 Mermaid 2 — Themes breakdown (5.5 months total DW = 520.9h)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 pie title "Deep Work themes — Dec 2025 → May 16 2026 (520.9h total)"
     "Unclassified (mostly Apr sales/ICP research + planning)" : 114
     "Mentor sessions (учитель/Августин/Антон/экономист)" : 65

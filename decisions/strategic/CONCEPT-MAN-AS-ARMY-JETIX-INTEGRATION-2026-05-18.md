@@ -243,6 +243,7 @@ text_006 ¶1-8 (18.05 morning Berlin Ruslan dictation): **Тарасов «че�
 ## §8 Workshop activation Gantt candidate (sequencing)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
   title Workshop Activation × Self-Army Cultivation (Stages 0 → 2)
   dateFormat YYYY-MM-DD

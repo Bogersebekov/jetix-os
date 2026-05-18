@@ -8,6 +8,7 @@ source: doc 08
 # Diagram 05 — ML/AI engineer × Jetix 5-class relationship graph
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     HC[Hackathon<br/>Participant<br/>Class 3]
     HM[Hackathon<br/>Mentor<br/>Class 4]

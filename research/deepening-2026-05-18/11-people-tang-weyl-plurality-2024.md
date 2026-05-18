@@ -60,6 +60,7 @@ language: russian + english
 ## §1 «Plurality» substrate model (book + community)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   P[Plurality book] --> P1[Tang practical implementation]
   P --> P2[Weyl theoretical foundation]

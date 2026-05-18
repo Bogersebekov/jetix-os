@@ -8,6 +8,7 @@ source: Ruslan-shared infographic «Стек в ML»
 # Diagram 01 — ML stack 3 layers (21 tools)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Layer 3 — ПРОДУКТОВАЯ РАЗРАБОТКА (deploy + monitor + scale)"
         DK[Docker]

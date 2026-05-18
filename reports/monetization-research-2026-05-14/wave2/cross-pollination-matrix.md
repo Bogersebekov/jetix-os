@@ -101,6 +101,7 @@ Most pairs are **N (neutral)** — independent mechanisms.
 ## §5 Mermaid graph — top 30 strongest edges
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     %% Monetization core
     HM1[H-M-001 revenue share]

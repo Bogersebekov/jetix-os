@@ -38,6 +38,7 @@ acceptance_predicate: refuted_if_(any_tool_missing_Jetix_applicability OR FPF_pr
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Dockerfile] --> B[docker build]
     B --> C[Immutable image]
@@ -74,6 +75,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[DAG file .py] --> B[Scheduler]
     B --> C[Task 1]
@@ -111,6 +113,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Driver] --> B[Cluster Manager]
     B --> C[Executor 1]
@@ -148,6 +151,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Training script] -->|wandb.log| B[W&B server]
     B --> C[Dashboard]
@@ -183,6 +187,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Code] --> B[MLflow Project]
     B --> C[Tracking server]
@@ -219,6 +224,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Prometheus] --> G[Grafana]
     B[Loki logs] --> G
@@ -256,6 +262,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Python function + type hints] --> B[FastAPI route]
     B --> C[Auto OpenAPI docs]
@@ -287,6 +294,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Working tree] -->|git add| B[Staging]
     B -->|git commit| C[Local repo]
@@ -321,6 +329,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Local repo] -->|push| B[GitHub repo]
     B --> C[Issues]
@@ -356,6 +365,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Self-hosted GitLab] --> B[Code]
     A --> C[CI/CD pipelines]
@@ -392,6 +402,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[YAML manifests] --> B[kubectl apply]
     B --> C[Control plane]

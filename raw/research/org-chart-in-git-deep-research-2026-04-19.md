@@ -890,6 +890,7 @@ Org-граф (вершины = роли, рёбра = отношения) мож
 ### F.4 Визуализация эволюции
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gitGraph
    commit id: "org/v0.1.0 — 4 roles"
    commit id: "org/v0.2.0 — add sales-lead"
@@ -1128,6 +1129,7 @@ future/sales-split-roles → разделение sales-lead на SDR + AE (B)
 **Mermaid-пример для Jetix org chart:**
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     ACL[Anchor Circle Lead<br/>Ruslan] --> SL[Sales Lead<br/>Claude]
     ACL --> DL[Delivery Lead<br/>Claude]

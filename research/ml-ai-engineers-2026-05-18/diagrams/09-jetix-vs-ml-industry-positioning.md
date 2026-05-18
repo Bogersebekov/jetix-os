@@ -8,6 +8,7 @@ source: doc 98 §14 + doc 08
 # Diagram 09 — Jetix vs ML industry positioning
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "ML training alternatives"
         CV[Coursera / Udacity<br/>MOOC scale]

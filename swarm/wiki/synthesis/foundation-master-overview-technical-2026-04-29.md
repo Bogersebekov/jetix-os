@@ -308,6 +308,7 @@ Per FPF A.6.B L/A/D/E lane separation [src:foundations/part-1-system-state-persi
 ### §2.4 Integration points
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     P1[Part 1: System State Persistence<br/>git substrate + commit interface]
     P2[Part 2 Triage] -->|operates-in| P1
@@ -412,6 +413,7 @@ draft_promotion]` [src:foundations/part-6b-human-gate/architecture.md:§I.4]. **
 ### §3.6 Internal flow diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     A[External signal:<br/>voice / URL / PDF /<br/>email / clipboard / file] --> B["/ingest --anchor=&lt;topic&gt;"]
     B --> C{D28 anchor<br/>validated?}
@@ -814,6 +816,7 @@ The governance machinery is correctly over-engineered relative to the cost. Grah
 ### §9.2 The 5-state state machine (IP-5 past-participle compliant)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> scoped: /project-bootstrap
     scoped --> staged: stage-gate ack (Ruslan)
@@ -1117,6 +1120,7 @@ Per Wave D Phase D-2 [src:wave-d/D-2-contracts-matrix.md:§2]: 52 unique inter-P
 ### §14.2 The dependency graph (Mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Substrate
       P1[Part 1<br/>System State Persistence<br/>git substrate]

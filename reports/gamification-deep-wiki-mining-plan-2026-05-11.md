@@ -721,6 +721,7 @@ parent_anchor: decisions/STRATEGIC-INSIGHT-JETIX-AS-GAMIFIED-PLATFORM-2026-05-11
 ### §9.1 Mermaid A — Brigadier dispatch flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     Start[Step 0: Pre-dispatch<br/>slug table + scratchpad init + Realm stub check] --> D1[Step 1: DOMAIN games<br/>14 games parallel 4-way<br/>40 min]
     Start --> D2[Step 2: DOMAIN experts<br/>10 candidates parallel 5-way<br/>25 min]
@@ -744,6 +745,7 @@ flowchart TD
 ### §9.2 Mermaid B — Edge-type usage matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     GM[Game mechanics<br/>~90 concepts] -->|inspired_by ~40%| Realm[Jetix Realm E1-E6<br/>6 entities]
     Exp[Expert frameworks<br/>~55 entries] -->|supports ~15%| Realm

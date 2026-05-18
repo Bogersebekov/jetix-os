@@ -297,6 +297,7 @@ Wiki Tier A/B/C promotion (~5-10 concepts):
 ## §8 Mermaid схема (visual flow input → processing → output)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUT (existing)"
         T8[text_008 meta-directive]

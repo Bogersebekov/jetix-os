@@ -41,6 +41,7 @@ acceptance_predicate: refuted_if_(any_tool_missing_Jetix_applicability OR FPF_pr
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Idea] --> B[Python prototype]
     B --> C{Production?}
@@ -76,6 +77,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     M[Math foundation] --> LA[Linear algebra]
     M --> P[Probability]
@@ -114,6 +116,7 @@ graph TB
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Python list] -->|slow loop| B[Pure Python]
     A -->|np.array| C[NumPy ndarray]
@@ -149,6 +152,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[CSV/Parquet/SQL] --> B[pd.read_*]
     B --> C[DataFrame]
@@ -189,6 +193,7 @@ Layered figure model: Figure → Axes → Artists. Backend-agnostic (Agg / Qt / 
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Data] --> B[matplotlib]
     B -->|imperative pyplot| C[Quick plot]
@@ -224,6 +229,7 @@ graph LR
 
 **Mermaid:**
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Data] --> B[Polars Lazy]
     B --> C[Build query plan]

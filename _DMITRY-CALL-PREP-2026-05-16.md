@@ -189,6 +189,7 @@ R: refuted_if_call_diverges_significantly_OR_no_response
 ## §6 MERMAID 1 — Timeline 1.5 года (gantt)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title 1.5 года Руслана (январь 2025 → май 2026)
     dateFormat YYYY-MM-DD
@@ -225,6 +226,7 @@ gantt
 ## §7 MERMAID 2 — Что построено за фазу 3 (структура наработок)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     Vision[JETIX VISION FUNDAMENTAL<br/>35 UC × 12 categories<br/>LOCKED 27.04]
 

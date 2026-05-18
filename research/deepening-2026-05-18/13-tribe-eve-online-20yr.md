@@ -53,6 +53,7 @@ EVE Online (CCP Games, **2003 → 2026 = 23 years**) — sandbox MMO с sustaine
 ## §1 EVE Alliance/Corporation governance primitives → Jetix vision/04 + vision/08 mapping
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   EVE_C[EVE Corporation] -.maps to.- J_C[Jetix Clan vision/04 first 10]
   EVE_A[EVE Alliance] -.maps to.- J_A[Jetix L1+ multi-Clan vision/08]

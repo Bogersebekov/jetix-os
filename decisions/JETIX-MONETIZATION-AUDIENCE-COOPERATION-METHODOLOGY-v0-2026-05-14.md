@@ -85,6 +85,7 @@ tags:
 **Этот документ — F5 companion doc к Heptagon + Charter.** Он НЕ модифицирует canonical архитектуру (Tier 2 R2 boundary); он операционализирует её. Парент-цепочка:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     F0[Foundation v1.0 LOCKED 2026-04-28<br/>Pillars A/B/C + 11 Parts]
     H7[H7 People-NS LOCKED<br/>10M target / 250-300K top-1% / M-A/M-B/M-C]
@@ -182,6 +183,7 @@ flowchart TD
 | All defect | Very low (+1) | Very low (+1) |
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     A[Audience member i<br/>action choice]
     A --> B{Cooperate?}
@@ -212,6 +214,7 @@ flowchart TD
 **Layer 2 (M-B) — Visible reputation cascade.** Realm rank = E1 Persona visible stats (TRM 6 resources accumulated / Clan standing / Quest completion / mentor cascade history). Каждое action — recorded, observable. Defection = rank drop visible to all. [src: H7 People-NS §3 M-B | wiki/concepts/jetix-realm/e1-persona.md | wiki/concepts/jetix-realm/e3-clan.md | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     A[Action by member i] -->|recorded| B[Realm rank update<br/>E1 Persona stats]
     B -->|visible to| C[All Clan members<br/>E3]
@@ -271,6 +274,7 @@ flowchart LR
 ### §3.6 Cooperation cascade summary
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     M0[Member action]
     L1[Layer 1: Repeated game M-A<br/>Seasons 3-month + L0-L6 10-15y<br/>40-60 iterations minimum]
@@ -520,6 +524,7 @@ flowchart TD
 ### §4.7 Revenue flow diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     A[L1 partner audience<br/>monetizes via Realm]
     B[Audience members<br/>subscribe / progress / certify]
@@ -554,6 +559,7 @@ flowchart LR
 ### §4.8 R12 audit matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     HM[18 H-M Monetization variants] --> SORT{R12 audit}
     SORT -->|✓ Pass clean| PASS[H-M-001 / 003 / 004 / 005 / 008 / 010 / 012 / 014 / 015 / 016<br/>10 variants]
@@ -772,6 +778,7 @@ flowchart TD
 ### §5.19 Member earning paths diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     M[Audience member<br/>L0 entry → L6 mastership]
 
@@ -976,6 +983,7 @@ flowchart LR
 ### §6.19 Cooperation cascade map
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     M[Member action]
 
@@ -1032,6 +1040,7 @@ flowchart TD
 ### §6.20 Defection penalty graph
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     A[Defection event] --> SIZE{Severity}
 
@@ -1141,6 +1150,7 @@ flowchart LR
 ### §7.11 Federation graph
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph FAC[Faction A — Phase 2+]
         C1[Clan-1 Hunters]
@@ -1183,6 +1193,7 @@ flowchart TB
 ### §7.12 Realm rank portability
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     M[Member at L3 rank in Clan-1]
     M -->|request| TRANS[Cross-Clan transition<br/>H-F-002 protocol]
@@ -1214,6 +1225,7 @@ flowchart LR
 - **Provenance:** [src: reports/monetization-research-2026-05-14/industry-examples.md §3 | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor User
     participant Realm
@@ -1238,6 +1250,7 @@ sequenceDiagram
 - **Provenance:** [src: decisions/JETIX-TRM-MODEL-2026-04-30.md §11 24mo trajectory | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor Partner
     participant Jetix
@@ -1273,6 +1286,7 @@ sequenceDiagram
 - **Provenance:** [src: decisions/JETIX-CORPORATION-2026-05-05.md §11 / decisions/JETIX-TRM-MODEL-2026-04-30.md §11 | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor Partner
     participant Jetix
@@ -1300,6 +1314,7 @@ sequenceDiagram
 - **Provenance:** [src: outreach/jetix-mentor-partner-pitch-2026-05-12.md | outreach/video-script-tseren-2026-05-12.md | reports/voice-batch-2026-05-13-14-ideas-report.md Bucket 2.3 | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor Influencer
     participant Jetix
@@ -1333,6 +1348,7 @@ sequenceDiagram
 - **Provenance:** [src: decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md signing protocol | commit 68fa423]
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor L1Candidate
     participant Jetix
@@ -1406,6 +1422,7 @@ sequenceDiagram
 | **Stage 7 — Sovereign** | Partner-owned permanent presence в Realm | L3+ mastership / partial Realm ownership |
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     S1[Stage 1 Surface<br/>awareness] --> S2[Stage 2 Discovery<br/>trust + 2h strategy]
     S2 --> S3[Stage 3 Pilot<br/>2w Quest]
@@ -1528,6 +1545,7 @@ flowchart LR
 4. **Week 4:** First Joint Quest launch (audience members invited; revenue split agreed)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     actor Blogger
     actor Jetix
@@ -1569,6 +1587,7 @@ sequenceDiagram
 ### §10.9 Bloggers playbook — full funnel diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     A[Identification<br/>9 L1 candidates per Charter] --> B[First contact<br/>variants 1.1 / 1.4 / 1.6]
     B --> C[Discovery call 60min]
@@ -1741,6 +1760,7 @@ Short adaptations of §10 universal skeleton (per §9 framework — 5% domain ov
 ### §12.2 3 Timeline scenarios
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Path to Virtual State — 3 Timeline Scenarios (years from 2026)
     dateFormat YYYY
@@ -1822,6 +1842,7 @@ gantt
 ### §12.6 6-phase ladder diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     P1[Phase 1 — Pre-state<br/>1-100 members<br/>€100K-€1M ARR<br/>Founder + Council]
     P2[Phase 2 — Proto-state<br/>100-10K members<br/>€1M-€20M ARR<br/>Council + Member vote]
@@ -1917,6 +1938,7 @@ flowchart LR
 ### §13.6 Risk matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     R[Risk register §13]
 

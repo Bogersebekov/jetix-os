@@ -139,6 +139,7 @@ Cross-ref critical blockers из §QR-CARD: все 4 блокера присут
 ## §8 Timeline / priority matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Voice batch 17.05 — Work-plan priority / timeline
     dateFormat  YYYY-MM-DD

@@ -123,6 +123,7 @@ Engelbart's **Neo-Whorfian hypothesis:** «Both the language used by a culture, 
 Engelbart 1962 = 4-tuple. Modern era arguably adds 1 component:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   H[Human / Trained] --> A[Artifacts: digital + AI substrate]
   H --> L[Language: human + machine co-readable]

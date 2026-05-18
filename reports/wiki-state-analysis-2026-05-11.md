@@ -216,6 +216,7 @@ Recurring themes которые LLM подтвердил с high confidence:
 ### §5.1 Wiki State Overview — entries + edges breakdown
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     Wiki[wiki KB<br/>575 entries 609 edges]:::root
 
@@ -250,6 +251,7 @@ flowchart TD
 ### §5.2 Stage 2A v3 Tier Transition Matrix (v2 → v3)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sankey-beta
 
 V2 Tier A,V3 Tier A,20
@@ -268,6 +270,7 @@ V2 Tier C,V3 Tier C,294
 ### §5.3 Как browse wiki — навигация для Ruslan
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     You[Ты Ruslan]:::you
 

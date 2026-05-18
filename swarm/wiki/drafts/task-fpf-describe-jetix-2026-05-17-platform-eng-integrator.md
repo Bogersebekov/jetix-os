@@ -192,6 +192,7 @@ Per brief requirement: A.1.1 full treatment consistent with doc 03/04 pattern.
 Workshop Concept (LOCKED 2026-04-30) описывает любую мастерскую через 6 кластеров. Это — building blocks: у каждой мастерской они есть; платформа обеспечивает shared версию каждого кластера для coordination.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph Platform["🏭 Платформа (U.System supersystem)"]
     direction TB
@@ -338,6 +339,7 @@ L1_prototype_intent (EP-3):
 Diagram выше в §3.2 является основным. Supplementary sequence diagram для cooperation event flow между мастерскими:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
   participant C as 👤 Client
   participant P as 📡 Platform<br/>(coordination layer)

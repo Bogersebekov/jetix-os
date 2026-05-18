@@ -89,6 +89,7 @@ System: Jetix-education-layer (A.1)
 ## §3 Mermaid — Education layer flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Entry — Hackathon Participation"
         E1[First Hackathon Event]

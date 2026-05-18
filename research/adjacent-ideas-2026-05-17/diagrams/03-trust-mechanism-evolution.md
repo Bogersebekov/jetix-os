@@ -10,6 +10,7 @@ parent: research/adjacent-ideas-2026-05-17/00-MASTER-RESEARCH-INDEX.md
 > Timeline of trust-mechanism precedents — anchors H8 Octagon LOCKED 2026-05-17.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
     title Trust-mechanism evolution (1925-2026) — H8 Adjacency Timeline
 

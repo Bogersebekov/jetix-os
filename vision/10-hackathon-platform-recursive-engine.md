@@ -78,6 +78,7 @@ System: Jetix-as-hackathon-platform (A.1)
 ## §3 Mermaid — Hackathon engine cycle
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "Plan-Mode (brigadier surfaces)"
         P1[ROY Swarm Cells Dispatch]

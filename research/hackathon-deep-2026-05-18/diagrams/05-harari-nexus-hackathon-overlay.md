@@ -10,6 +10,7 @@ parent: research/hackathon-deep-2026-05-18/01-fundamentals.md §5 + research/har
 > Visualization of how Harari Nexus framework's 3 theories of information + mythology+bureaucracy stack + self-correcting mechanisms map к hackathon dynamics.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     %% Harari Nexus framework
     subgraph NEXUS ["Harari Nexus framework (2024)"]

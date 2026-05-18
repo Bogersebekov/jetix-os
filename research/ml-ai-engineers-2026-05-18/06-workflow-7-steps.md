@@ -55,6 +55,7 @@ acceptance_predicate: refuted_if_(any_step_missing_FPF_mapping OR Jetix_universa
 
 ### §1.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     A[Business problem<br/>vague] --> B[Stakeholder interview]
     B --> C[Clarify customer episteme]
@@ -104,6 +105,7 @@ graph TB
 
 ### §2.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     A[Identify sources] --> B[Build pipeline]
     B --> C[Extract + clean]
@@ -155,6 +157,7 @@ graph TB
 
 ### §3.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Baseline model<br/>simple, fast] --> B[Evaluate]
     B --> C{Beats non-ML baseline?}
@@ -204,6 +207,7 @@ graph LR
 
 ### §4.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     A[Model errors] --> B[Error analysis<br/>cluster failures]
     B --> C[Hypothesis: cause]
@@ -256,6 +260,7 @@ graph TB
 
 ### §5.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     A[Trained model] --> B[Offline eval<br/>held-out test]
     B --> C{Pass thresholds?}
@@ -310,6 +315,7 @@ graph TB
 
 ### §6.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[Approved model] --> B[Package<br/>ONNX/Torch/Docker]
     B --> C[CI/CD pipeline]
@@ -363,6 +369,7 @@ graph LR
 
 ### §7.5 Mermaid
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     A[Deployed model] --> B[Drift monitoring]
     B --> C{Drift detected?}

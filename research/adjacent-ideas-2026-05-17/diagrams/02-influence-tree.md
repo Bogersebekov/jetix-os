@@ -10,6 +10,7 @@ parent: research/adjacent-ideas-2026-05-17/00-MASTER-RESEARCH-INDEX.md
 > Visualizes 80-year intellectual lineage from Bush 1945 → Karpathy 2026 + adjacent methodology streams.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     Bush["**Vannevar Bush 1945**<br/>'As We May Think'<br/>Memex"]
     Wiener["**Norbert Wiener 1948**<br/>Cybernetics"]

@@ -124,6 +124,7 @@ Smaller departures; federation continued.
 ## §3 Mondragón ↔ Jetix mapping matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   M1[Cooperative Congress 1984] -.maps to.- J1[Foundation Architecture LOCKED 2026]
   M2[Wage ratio 3:1-9:1] -.maps to.- J2[Workshop revenue split ratio TBD]

@@ -148,6 +148,7 @@ Full per-part interface cards (sections A-H) live in:
 ### §3.1 Mermaid Diagram (Topological — Layer 0 to Layer 5)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     P1[P1: System State Persistence]
     P2[P2: Signal Ingestion & Triage]

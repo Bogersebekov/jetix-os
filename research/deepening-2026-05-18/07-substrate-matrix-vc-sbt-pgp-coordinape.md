@@ -139,6 +139,7 @@ H8 Trust Infrastructure LOCKED 2026-05-17 claims **substrate-agnostic role-attes
 ## §3 Recommended Jetix layered approach
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   P1[Phase 1: PGP + Karpathy-wiki-sigs] --> P2[Phase 2: + W3C VC v2.0]
   P2 --> P3[Phase 3+: optional SBT for crypto-native Clans]

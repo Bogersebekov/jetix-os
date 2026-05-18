@@ -8,6 +8,7 @@ source: doc 07 §1 + §3
 # Diagram 04 — Universal pattern flow + cross-domain instances
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     P[POSE PROBLEM<br/>+ acceptance criteria]
     G[GATHER EVIDENCE<br/>+ provenance]

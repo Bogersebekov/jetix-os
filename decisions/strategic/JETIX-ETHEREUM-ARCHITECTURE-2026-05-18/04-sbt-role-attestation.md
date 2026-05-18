@@ -93,6 +93,7 @@ Per direction 07 §1 9-dimension matrix, SBT is **one option among 6**:
 ## §6 SBT lifecycle
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
   participant Soul as Member Soul (wallet)
   participant Issuer as Workshop / Clan / DAO (issuer Soul)

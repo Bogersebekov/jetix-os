@@ -289,6 +289,7 @@ Per-phase commits + final `git push origin main`.
 ## §8 Mermaid схема (visual flow)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUT"
         I1[Ruslan-shared infographics<br/>21 tools + 7 steps]

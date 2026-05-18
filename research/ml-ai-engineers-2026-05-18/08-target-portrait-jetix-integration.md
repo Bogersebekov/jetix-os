@@ -243,6 +243,7 @@ ML engineer's employer / organisation buys Jetix-provided ML services: model dev
 ## §10 Mermaid — 5-class relationship graph
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     HC[Hackathon<br/>Participant]
     HM[Hackathon<br/>Mentor]

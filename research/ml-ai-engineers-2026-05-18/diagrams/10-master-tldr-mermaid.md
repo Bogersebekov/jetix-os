@@ -8,6 +8,7 @@ source: aggregation 12 docs + 10 diagrams
 # Diagram 10 — Master TL;DR (research at-a-glance)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUTS"
         I1[2 Ruslan-shared infographics<br/>21 tools + 7 workflow steps]

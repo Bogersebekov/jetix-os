@@ -204,6 +204,7 @@ Surface only этого batch. Not promoted к Clan archetype addition без em
 ## §7 Cross-SD relationships
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     SD01[SD-01 FPF cooperation language] --> SD02[SD-02 Trust narrative]
     SD02 -- LOCKED H8 --> H8[Strategic Insight #8 LOCKED]

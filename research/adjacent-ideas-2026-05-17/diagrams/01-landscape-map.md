@@ -10,6 +10,7 @@ parent: research/adjacent-ideas-2026-05-17/00-MASTER-RESEARCH-INDEX.md
 > Visualizes the 7 clusters as a constellation of adjacent fields с Jetix position в центре.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     JETIX(("**JETIX**<br/>FPF + Workshop + H1-H8<br/>Russian+English<br/>methodology + AI substrate"))
 

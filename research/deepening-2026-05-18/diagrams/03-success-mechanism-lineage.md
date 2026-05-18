@@ -8,6 +8,7 @@ parent: research/deepening-2026-05-18/98-CROSS-CUTTING-SYNTHESIS.md
 # Diagram 03 — Success Mechanism Lineage
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
   subgraph "Engelbart H-LAM/T 1962"
     E1[Artifacts]

@@ -138,6 +138,7 @@ Batch period 16.05 13:46 → 17.05 22:00. Voiced actions кластеризую�
 ## §8 Timeline / priority matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Voice batch 17.05 — Work-plan priority/timeline
     dateFormat  YYYY-MM-DD

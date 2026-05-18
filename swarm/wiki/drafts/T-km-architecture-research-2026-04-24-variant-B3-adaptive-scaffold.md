@@ -40,6 +40,7 @@ This variant occupies the **adaptive-scaffold / phase-gated-autonomy / morphogen
 ## §3 Architecture Diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     Ruslan -->|/project-bootstrap-adaptive <slug> <p-level>| Bootstrap[/project-bootstrap --adaptive]
 

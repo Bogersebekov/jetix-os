@@ -311,6 +311,7 @@ Honest acknowledgement — areas where Jetix has source other than Harari:
 ## §8 Mermaid diagram — Harari corpus mapped к Jetix Octagon
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     %% Harari corpus
     SAP[Sapiens 2011<br/>Cognitive Revolution<br/>shared myths]

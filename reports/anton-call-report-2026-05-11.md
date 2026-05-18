@@ -455,6 +455,7 @@ sources:
 ### §J.1 Timeline 5 фаз (gantt)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Путь Ruslan'a 2026-03-11 → 2026-05-11 (60 дней)
     dateFormat YYYY-MM-DD
@@ -494,6 +495,7 @@ gantt
 ### §J.2 Insights map — 6 Hexagon + связи
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     FM[1 Foundation Model<br/>WHAT — industrial mill<br/>10.05]:::primary
     PM[2 Partnership Model<br/>HOW grow — Manifest style<br/>10.05]:::primary
@@ -535,6 +537,7 @@ flowchart TB
 ### §J.3 State Точка А → Точка Б
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 stateDiagram-v2
     [*] --> PointA
 

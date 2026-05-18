@@ -18,6 +18,7 @@ constitutional_posture: R1 + R2 + R6 + EP-5
 > Sequence of events integrating text_002 (vision) + text_003 (sequencing). Time flows top→bottom.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     Start(["text_001+002+003 voiced<br/>2026-05-17 evening"]) --> Phase0Check{"Phase 0<br/>14 objects<br/>inventory ready?"}
 

@@ -13,6 +13,7 @@ source: reports/phase-0-fpf-scope/03-comparison-matrix.md §3 DD-6; 02-objects-p
 **Critical note (D-2 / CM-06):** Foundation 11 Parts ≠ FPF Parts A-K isomorphism. Different subject-kinds: Jetix = org substrate; FPF = epistemological framework. This diagram maps «which FPF primitives are ADOPTED IN which Foundation Parts» — NOT «Part N = FPF Part N».
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph FPF["FPF Spec (C1 vendored)"]
         direction TB

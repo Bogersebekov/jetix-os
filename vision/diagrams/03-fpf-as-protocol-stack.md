@@ -18,6 +18,7 @@ constitutional_posture: R1 + R2 + R6 + EP-5
 > Visual encoding: FPF + open data + role-based attestation = composed trust + cooperation protocol stack. Inspired by OSI layering metaphor; semantic-only (NOT literal network stack spec).
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart BT
     subgraph App ["L5 — Application layer<br/>(Jetix Workshop / Clan / first projects)"]
         AppA["Cooperation events"]

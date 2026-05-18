@@ -15,6 +15,7 @@ constitutional_posture: R1 + R2 + R6 + EP-5
 > Visual encoding of text_003 strict-order sequencing. Inversion = R1 violation.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart BT
     subgraph L4 ["L4 — Methodology / Ontology distribution"]
         L4a["ШСМ corpus"]

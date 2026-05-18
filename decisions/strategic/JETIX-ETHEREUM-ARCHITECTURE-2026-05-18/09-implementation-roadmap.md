@@ -140,6 +140,7 @@ parent: 00-MASTER-ARCHITECTURE.md
 ## §6 Gantt overview
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
   title Jetix on Ethereum — Implementation Roadmap
   dateFormat YYYY-MM-DD

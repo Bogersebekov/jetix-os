@@ -12,6 +12,7 @@ parent: ../00-MASTER-ARCHITECTURE.md
 ## §1 Multi-Clan Federation architecture
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph Federation ["Multi-Clan FEDERATION DAO (Phase 3+)"]
     Fed_Treasury[Federation Treasury<br/>shared infrastructure funds]

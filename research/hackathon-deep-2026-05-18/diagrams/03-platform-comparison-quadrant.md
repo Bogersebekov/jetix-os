@@ -10,6 +10,7 @@ parent: research/hackathon-deep-2026-05-18/04-inventory.md §2
 > 11 major platforms positioned across 2 primary axes: scope (volume vs depth) × info-flow alignment with Jetix R12.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 quadrantChart
     title Hackathon platforms — scope × R12 alignment
     x-axis "Volume orientation" --> "Depth orientation"

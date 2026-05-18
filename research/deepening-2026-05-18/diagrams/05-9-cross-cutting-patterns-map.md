@@ -8,6 +8,7 @@ parent: research/deepening-2026-05-18/98-CROSS-CUTTING-SYNTHESIS.md
 # Diagram 05 — 9 Cross-Cutting Patterns × 14 Directions Coverage
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph "9 Cross-Cutting Patterns"
     P1[1. Substrate-vs-governance trade-off]

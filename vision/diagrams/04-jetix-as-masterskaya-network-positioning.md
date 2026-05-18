@@ -17,6 +17,7 @@ constitutional_posture: R1 + R2 + R6 + EP-5
 > Visual encoding: Jetix workshop = local node; platform = interface; «exit» = participation в broader clean info network.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph Ruslan ["Ruslan + ROY swarm<br/>(owner workshop)"]
         Owner["Ruslan (sole strategist)"]

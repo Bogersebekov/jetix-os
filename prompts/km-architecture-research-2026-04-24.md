@@ -961,6 +961,7 @@ agent-touchpoints (which role reads where), write-back loops. Example
 Mermaid:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     Ruslan[Ruslan voice/text input] -->|/ingest| Ingest[/ingest skill]
     Ingest --> Sources[swarm/wiki/sources/]
@@ -2240,6 +2241,7 @@ accretes backlink-index overhead at G2+.
 
 ### Architecture diagram
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     ...
 ```

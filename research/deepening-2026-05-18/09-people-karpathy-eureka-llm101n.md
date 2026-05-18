@@ -134,6 +134,7 @@ language: russian + english
 ## §3 Karpathy ↔ Jetix lineage diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   K[Andrej Karpathy] --> A[Eureka Labs July 2024]
   K --> B[LLM101n course July 2024]

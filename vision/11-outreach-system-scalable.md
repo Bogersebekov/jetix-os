@@ -73,6 +73,7 @@ System: Jetix-outreach-system (A.1)
 ## §3 Mermaid — Outreach scaling flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     subgraph "Stage 1 (60 days) — 10-person video team"
         T1[Video Producers x2]

@@ -12,6 +12,7 @@ parent: ../00-MASTER-ARCHITECTURE.md
 ## §1 Full flow diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   Client[Workshop Client<br/>пays fiat €10K]
   Corp[Jetix UG/GmbH<br/>legal entity O-02<br/>receives fiat]

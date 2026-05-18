@@ -51,6 +51,7 @@ language: russian + english
 ## §1 Stack Overflow trajectory (2008-2026)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 xychart-beta
   title "Stack Overflow monthly questions (approximate)"
   x-axis [2010, 2014, 2018, 2022, 2023-03, 2024-03, 2024-12, 2025-12-forecast]
@@ -82,6 +83,7 @@ xychart-beta
 ## §2 Friend.tech trajectory (Aug 2023 - Sept 2024)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
   title Friend.tech 13-month bubble + collapse
   2023-08-10 : Launch — 4,400 ETH day-1
@@ -138,6 +140,7 @@ timeline
 ### §4.1 Anti-gaming design heuristics
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
   H8[H8 Octagon LOCKED] --> A[Anti-gaming: multi-signal trust]
   H8 --> B[Anti-extraction: R12 enforced]

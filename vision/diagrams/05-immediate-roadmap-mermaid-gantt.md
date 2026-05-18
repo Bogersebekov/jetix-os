@@ -16,6 +16,7 @@ constitutional_posture: R1 + R2 + R6 + EP-3 + EP-5
 > Visual encoding 8 immediate steps (vision/09 §2). Dates = intent only (EP-3 fidelity flag), NOT SLA.
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Immediate Roadmap — 2026-05-17 → 2026-05-31 (intent, NOT SLA)
     dateFormat YYYY-MM-DD

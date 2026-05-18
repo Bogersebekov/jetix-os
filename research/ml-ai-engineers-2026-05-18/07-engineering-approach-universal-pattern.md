@@ -313,6 +313,7 @@ Risk: teaching pattern too rigidly produces formulaic engineers who can't adapt.
 ## §9 Mermaid — universal pattern flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     P[POSE PROBLEM<br/>+ acceptance criteria] --> G[GATHER EVIDENCE<br/>+ provenance]
     G --> B[BASELINE<br/>simplest viable]

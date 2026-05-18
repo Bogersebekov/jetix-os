@@ -55,6 +55,7 @@ language: russian + english
 ## §1 d/acc trajectory anchored
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
   title Buterin d/acc evolution
   2023-10 : Andreessen Techno-Optimist Manifesto — e/acc surge

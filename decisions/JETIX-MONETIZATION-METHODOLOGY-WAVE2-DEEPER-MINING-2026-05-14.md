@@ -90,6 +90,7 @@ Wave 2 = DEEPER MINING expansion on top of v0 (commit `1e411ee`).
 ## §1 Map of Wave 2 artefacts
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     V0[v0 Methodology Doc<br/>commit 1e411ee<br/>75 H + 15 Open Q]
     PLAN[PLAN-monetization-wave2-2026-05-14.md<br/>Phase 2a-2h plan mirror]

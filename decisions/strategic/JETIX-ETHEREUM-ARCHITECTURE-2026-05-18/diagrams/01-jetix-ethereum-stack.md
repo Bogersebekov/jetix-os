@@ -12,6 +12,7 @@ parent: ../00-MASTER-ARCHITECTURE.md
 ## §1 Full stack diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
   subgraph L1_Methodology ["LAYER 1 — Methodology (FPF + Foundation v1.0 LOCKED 2026-04-28)"]
     direction LR

@@ -8,6 +8,7 @@ source: Ruslan-shared infographic «Чем занимается ML-инжене�
 # Diagram 02 — ML workflow 7 steps
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     S1[Шаг 1<br/>Постановка задачи<br/>метрики<br/>общение с заказчиком]
     S2[Шаг 2<br/>Сбор данных<br/>аналитика<br/>выборка + валидация]
