@@ -1,0 +1,68 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+flowchart TB
+  subgraph constitutional["Constitutional Layer (READ-ONLY)"]
+    direction LR
+    foundation[Foundation v1.0<br/>LOCKED 2026-04-28]
+    pillarC[Pillar C Tier 2<br/>12 hard rules]
+    schemas[shared/schemas<br/>F-G-R + AWAIT + Halt]
+    defaultDeny[default-deny-table.yaml<br/>11 entries constitutional]
+    visionFund[VISION-FUNDAMENTAL<br/>+ 8 Octagon LOCKs]
+  end
+
+  subgraph engineAbstract["Engine Pattern (Type-Level U.MethodDescription)"]
+    direction LR
+    planMode[PLAN-MODE<br/>brigadier surfaces<br/>candidates]
+    executeMode[EXECUTE-MODE<br/>brigadier dispatches<br/>cells execute]
+    reflection[REFLECTION<br/>Hansei + Kaizen<br/>cycle boundary]
+  end
+
+  subgraph instances["Pattern Instances (Token-Level executor-bound)"]
+    direction TB
+    ruslanAuth[Ruslan = sole strategist<br/>+ ack-authority]
+    cycleN[Cycle N invocation<br/>per RUSLAN-LAYER]
+    preAuth[Pre-auth scope<br/>11 cases A1-A11]
+    escalate[AWAITING-APPROVAL<br/>11 cases B1-B11 + 6 edge]
+  end
+
+  subgraph crossPrecedent["Cross-Precedent Triangulation"]
+    direction LR
+    engelbart[Engelbart 1962<br/>H-LAM/T 4-tuple<br/>co-evolution]
+    nasa[NASA SE 17 processes<br/>15-of-17 mapped<br/>5-cycle iteration]
+    tps[TPS Hansei + Kaizen<br/>14 Principles<br/>tacit→explicit]
+    universal[Universal 7-step<br/>6-precedent triangulation<br/>scientific method+OODA+Cynefin]
+  end
+
+  foundation -.governs.- engineAbstract
+  pillarC -.governs.- engineAbstract
+  schemas -.governs.- engineAbstract
+  defaultDeny -.governs.- escalate
+  visionFund -.governs.- ruslanAuth
+
+  planMode --> executeMode
+  executeMode --> reflection
+  reflection -.next cycle informed.-> planMode
+
+  ruslanAuth -.acks.- planMode
+  cycleN -.instance of.- engineAbstract
+  preAuth -.within scope.- executeMode
+  escalate -.beyond scope.- ruslanAuth
+
+  engelbart -.precedent.- engineAbstract
+  nasa -.precedent.- engineAbstract
+  tps -.precedent.- reflection
+  universal -.precedent.- engineAbstract
+
+  refute{{Refutation conditions<br/>RE-T1: 5 cycles fail<br/>RE-T2: escalation >50%<br/>RE-T3: runtime self-mod<br/>RE-T4: Foundation modified<br/>RE-T5: ack drops <1/week}}
+  cycleN -.test against.- refute
+
+  classDef readOnly fill:#fecaca,color:#1a202c
+  classDef pattern fill:#dbeafe,color:#1a202c
+  classDef instance fill:#fef3c7,color:#1a202c
+  classDef precedent fill:#bbf7d0,color:#1a202c
+  classDef refutation fill:#fde68a,color:#1a202c
+
+  class foundation,pillarC,schemas,defaultDeny,visionFund readOnly
+  class planMode,executeMode,reflection pattern
+  class ruslanAuth,cycleN,preAuth,escalate instance
+  class engelbart,nasa,tps,universal precedent
+  class refute refutation
