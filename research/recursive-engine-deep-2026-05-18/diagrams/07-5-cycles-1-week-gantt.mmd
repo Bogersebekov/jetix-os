@@ -1,0 +1,28 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+gantt
+    title 5 plan-execute cycles 1-week trial — Recursive Engine concept
+    dateFormat YYYY-MM-DD
+    axisFormat %a %d
+    section Cycle 1 «5 H ack»
+    Plan-mode hypothesis shortlist     :c1p, 2026-05-19, 1d
+    Ruslan ack 5-min review            :c1ack, after c1p, 4h
+    Execute test designs               :c1e, after c1ack, 8h
+    section Cycle 2 «3 packets ack»
+    Plan-mode packet review summary    :c2p, 2026-05-20, 1d
+    Ruslan ack option A/B/C/Deny       :c2ack, after c2p, 4h
+    Execute per-ack dispatch           :c2e, after c2ack, 8h
+    section Cycle 3 «hackathon spec»
+    Plan-mode hackathon blueprint      :c3p, 2026-05-21, 1d
+    Ruslan ack multi-option            :c3ack, after c3p, 6h
+    Execute outreach scripts           :c3e, 2026-05-22, 1d
+    section Cycle 4 «sponsor outreach»
+    Plan-mode sponsor outreach draft   :c4p, 2026-05-23, 1d
+    Ruslan ack script + manual send    :c4ack, after c4p, 12h
+    Execute crm log append             :c4e, after c4ack, 4h
+    section Cycle 5 «Hansei Week-1»
+    Plan-mode cross-cycle review       :c5p, 2026-05-25, 1d
+    Ruslan ack improvements            :c5ack, after c5p, 6h
+    Execute standardisation queue      :c5e, after c5ack, 8h
+    section Weekly rollup
+    Weekly Hansei + metrics dashboard  :rollup, 2026-05-26, 12h
+    Phase 5 §4 4-week test setup       :sustain, after rollup, 12h
