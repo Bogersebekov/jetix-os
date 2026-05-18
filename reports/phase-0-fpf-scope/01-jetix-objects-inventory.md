@@ -501,3 +501,72 @@ Possible 9th vertex Octagon → Nonagon: «Jetix on Ethereum substrate» (archit
 ---
 
 *§10 appended by brigadier per voice-pipeline-2026-05-18-batch-2 Phase 5. R1 surface + R6 + append-only + EP-5.*
+
+---
+
+## §11 APPEND 2026-05-18 evening — O-22 + O-23 ACKED status update
+
+> Per Ruslan ack 2026-05-18 evening (commit 8a3d800). R1 (transcription only; Ruslan = sole strategist) + R6 + append-only.
+
+### §11.1 O-22 Man-as-Army × Jetix integration — status update
+
+**Pre-ack status (§10.2 above):** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+
+**Post-ack status (this section):** `acked-via-concept-doc-implicit-2026-05-18` (concept doc surface = brigadier's mechanism; Ruslan did NOT explicitly ack O-22 as separate object but acked all parallel R12 + H8 packets which carry Man-as-Army как architectural underpinning)
+
+**Status evidence:**
+- Concept doc: `decisions/strategic/CONCEPT-MAN-AS-ARMY-JETIX-INTEGRATION-2026-05-18.md` (committed 8ee024b)
+- Wiki concept: `wiki/concepts/man-as-army-jetix.md` (committed 1ee1587)
+- Vision/03 + vision/04 §APPEND-2026-05-18 (committed 9073dd7)
+- F-grade: F3 (concept-grade; not LOCK-grade)
+
+**Status_evidence object_id stability:** O-22 candidate-id preserved для Phase 0 inventory referencing; eventual Pillar C extension OR wiki-concept-only path = OQ-MAA-4 deferred per concept doc §9 Option A recommended.
+
+### §11.2 O-23 Jetix Ethereum architecture — status update
+
+**Pre-ack status (§10.1 above):** `brigadier-surfaced-candidate-pending-Ruslan-ack` (2 AWAITING-APPROVAL packets gate LOCK)
+
+**Post-ack status (this section):** `acked-H8-option-A-2026-05-18 + R12-option-D-hybrid-2026-05-18`
+
+**Status evidence:**
+- H8 packet acked: `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` (frontmatter status = `RUSLAN-ACKED-OPTION-A-2026-05-18`; commit 8a3d800)
+- R12 packet acked: `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` (frontmatter status = `RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18`; commit 8a3d800)
+- Default-Deny table updated с 4 RUSLAN-LAYER action classes (commit 99363c7)
+- H8 LOCK §H8-EXT-ACKED-OPTION-A-2026-05-18 appended (commit 038a387)
+- F-grade post-ack: F2 surface → **F3 acked** (single-author Ruslan-ack + brigadier-scribe + 3-cell batch-2 triangulation + packet discipline + Default-Deny table update)
+
+**Substrate-agnostic Foundation principle:** **PRESERVED** (Ethereum = RUSLAN-LAYER overlay per IP-1; substrate matrix extension via Option A additive surface).
+
+**Pillar C Tier 2 R12 text:** **UNCHANGED** (no amendment; programmable enforcement = RUSLAN-LAYER overlay Option D Hybrid; foundation_generic count = 12 preserved).
+
+### §11.3 LIVE-FLAGS resolution
+
+Both LIVE-FLAGS from §10.3:
+- ✅ **RESOLVED** (Option A) — H8 LOCKED 2026-05-17 substrate-agnostic principle vs text_007 18.05 Ethereum-primary
+- ✅ **RESOLVED** (Option D Hybrid) — Pillar C Tier 2 R12 substrate-agnostic vs programmable enforcement
+
+### §11.4 H9 Strategic Insight candidate (still deferred)
+
+«Jetix on Ethereum substrate» as 9th vertex (Octagon → Nonagon transition) remains **deferred** per prompt §4 + concept doc §10 — surface only; Ruslan reflection + Phase 3 architecture doc reviewed + AWAITING-APPROVAL packets acked (now done) → **next step: Ruslan reflection → possible Phase 3+ promotion ceremony**.
+
+### §11.5 Updated inventory state
+
+- Pre-batch (2026-05-17): 14 core + O-15 → O-21 candidates
+- Post-batch-2 brigadier-surface (2026-05-18 morning): + O-22 (Man-as-Army) + O-23 (Ethereum architecture) **as candidates**
+- **Post-ack-trail (2026-05-18 evening):** O-22 + O-23 **acked** (status: concept-validated + architecture-acked respectively)
+- **Total inventory state:** 14 core + O-15..O-21 candidates (older) + O-22 + O-23 **acked** (this batch-2)
+
+### §11.6 Decision-blocker resolution matrix
+
+| Pre-ack decision-blocker | Resolution path | Status |
+|---|---|---|
+| D-B2-03 H8 LOCK extension Option A/B/C | Option A acked | ✅ RESOLVED |
+| D-B2-04 R12 programmable Option A/B/C/D / defer | Option D Hybrid acked | ✅ RESOLVED |
+| D-B2-05 O-23 «Jetix Ethereum architecture» — add Phase 0 inventory | Inventory §11 append now | ✅ RESOLVED |
+| D-B2-06 H9 candidate timing | Deferred (Ruslan reflection pending) | ⏳ DEFERRED |
+| D-B2-09 L2 selection (Optimism / Arbitrum / Base) | Phase 3 doc §07 surfaces Base default | ⏳ Phase 2+ pending |
+| D-B2-10 DAO framework (Aragon / Moloch / ...) | Phase 3 doc §05 surfaces Aragon default | ⏳ Phase 2+ pending |
+
+---
+
+*§11 appended by brigadier per Ruslan ack commit 8a3d800. R1 transcription + R6 provenance + EP-5 + append-only preserved.*
