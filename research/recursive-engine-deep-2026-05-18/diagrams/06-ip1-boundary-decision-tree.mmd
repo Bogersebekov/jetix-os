@@ -1,0 +1,41 @@
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+flowchart TD
+  action[Action requested<br/>in execute-mode]
+  action --> cat1{In Pre-Auth catalog<br/>A1-A11?}
+  cat1 -->|Yes| exec[Execute<br/>within pre-auth scope]
+  cat1 -->|No| cat2{In Default-Deny<br/>catalog B1-B11?}
+  cat2 -->|Yes| escalate[AWAITING-APPROVAL<br/>packet к Ruslan]
+  cat2 -->|No| cat3{Edge case<br/>E1-E6?}
+  cat3 -->|Yes| edgeRes[Apply edge<br/>resolution rule]
+  cat3 -->|No| novel[Novel action class<br/>R11 Default-Deny]
+  novel --> packetExt[AWAITING-APPROVAL packet<br/>+ catalog extension request]
+  edgeRes --> verdict{Pre-auth OR<br/>escalate?}
+  verdict -->|Pre-auth| exec
+  verdict -->|Escalate| escalate
+  packetExt --> ruslanAck[Ruslan ack-authority<br/>FINAL]
+  escalate --> ruslanAck
+  ruslanAck --> ackOption{Option<br/>A/B/C/Deny?}
+  ackOption -->|Ack option| executePerAck[Execute per ack option<br/>append-only commit trail]
+  ackOption -->|Deny| logDenial[Append-only log<br/>swarm/approvals/log.jsonl]
+  exec --> commit[Atomic commit + push<br/>execute-mode E2/E4]
+  executePerAck --> commit
+  logDenial --> reflect[Cycle Hansei capture<br/>reasoning preserved]
+  commit --> reflect
+
+  halt[HALT F8/F4/F2<br/>if pre-auth attempted on Default-Deny]
+  cat2 -.violation detected.-> halt
+  novel -.if executed silently.-> halt
+
+  classDef preAuth fill:#bbf7d0,color:#1a202c
+  classDef defaultDeny fill:#fecaca,color:#1a202c
+  classDef edge fill:#fef3c7,color:#1a202c
+  classDef ruslan fill:#fde68a,color:#1a202c
+  classDef decision fill:#dbeafe,color:#1a202c
+  classDef halt fill:#dc2626,color:#ffffff
+
+  class exec,executePerAck,commit,reflect preAuth
+  class escalate,packetExt,logDenial defaultDeny
+  class edgeRes,novel edge
+  class ruslanAck ruslan
+  class action,cat1,cat2,cat3,verdict,ackOption decision
+  class halt halt
