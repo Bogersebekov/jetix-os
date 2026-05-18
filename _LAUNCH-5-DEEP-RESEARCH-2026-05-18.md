@@ -44,7 +44,7 @@ echo "Ready to launch 5 deep research runs"
 ### Run 1 — Hackathon Platform Deep Research
 
 ```bash
-tmux new -d -s hp-deep "claude --dangerously-skip-permissions"
+tmux new -s hp-deep "claude --dangerously-skip-permissions"
 ```
 
 Attach + paste prompt:
@@ -67,7 +67,7 @@ Detach: `Ctrl-b` → `d`
 ### Run 2 — Recursive Self-Development Engine Deep Research (IP-1 STRICT)
 
 ```bash
-tmux new -d -s re-deep "claude --dangerously-skip-permissions"
+tmux new -s re-deep "claude --dangerously-skip-permissions"
 ```
 
 Attach + paste prompt:
@@ -91,7 +91,7 @@ Detach: `Ctrl-b` → `d`
 ### Run 3 — System Merger Protocol Deep Research (H9 candidate)
 
 ```bash
-tmux new -d -s sm-deep "claude --dangerously-skip-permissions"
+tmux new -s sm-deep "claude --dangerously-skip-permissions"
 ```
 
 Attach + paste prompt:
@@ -114,7 +114,7 @@ Detach: `Ctrl-b` → `d`
 ### Run 4 — Outreach System Scalable Deep Research
 
 ```bash
-tmux new -d -s os-deep "claude --dangerously-skip-permissions"
+tmux new -s os-deep "claude --dangerously-skip-permissions"
 ```
 
 Attach + paste prompt:
@@ -138,7 +138,7 @@ Detach: `Ctrl-b` → `d`
 ### Run 5 — Education Layer System Thinking Deep Research (Paternalism + IP-1 Phase 5)
 
 ```bash
-tmux new -d -s el-deep "claude --dangerously-skip-permissions"
+tmux new -s el-deep "claude --dangerously-skip-permissions"
 ```
 
 Attach + paste prompt:
