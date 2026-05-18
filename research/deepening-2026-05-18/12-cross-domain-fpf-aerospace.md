@@ -219,3 +219,109 @@ NASA explicit: **Verification = «built it right»** (matches requirements); **V
 - **NOT replacement of FPF B.3 F-G-R schema** — NASA mapping = adjacency, не identity
 
 **Word count:** ~1900
+
+---
+
+## §11 На человеческом — переносится ли FPF на аэрокосмос (added brigadier 2026-05-18)
+
+### §11.1 Что это
+
+Это **тест-эксперимент** на одно из ключевых claims в positioning: «**FPF переносится cross-domain beyond software engineering**». То есть FPF (Foundation Primitives Framework) должен работать не только для software, но и для других engineering domains.
+
+**Test domain pick:** **aerospace systems engineering** (NASA Systems Engineering Handbook). Почему aerospace а не biotech / heavy industry:
+- (a) мature методология (50+ years)
+- (b) fewer-domain-jargon-noise vs biotech
+- (c) **INCOSE direct overlap** (International Council on Systems Engineering)
+- (d) **OMG SysML v2 lineage** (final adoption June 2025)
+- (e) **NASA materials = public domain** (free доступ)
+
+**NASA SE Handbook structure:**
+- **7 project phases:** Pre-A (Concept Studies) → A (Concept Dev) → B (Preliminary Design) → C (Final Design + Fabrication) → D (Assembly + Integration + Test) → E (Operations + Sustainment) → F (Closeout)
+- **17 technical processes:** 9 development steps + 8 management steps
+- **«SE engine»** cycles 5 times Pre-A → D
+
+Аналогия: «давайте проверим может ли наш methodology framework (FPF) описать как NASA строит spacecraft» — если 15 из 17 NASA processes мапаются на FPF primitives → claim cross-domain переноса подтверждён (на surface level).
+
+### §11.2 Ключевые pointы
+
+- **NASA SE Handbook SP-2007-6105 Rev1** — canonical reference, public domain
+- **7 NASA phases** (Pre-A → F)
+- **17 NASA technical processes** (9 development + 8 management)
+- **9 development:** Stakeholder Expectations → Technical Requirements → Logical Decomposition → Design Solution → Implementation → Integration → Verification → Validation → Transition
+- **8 management:** Technical Planning → Requirements Mgmt → Interface Mgmt → Risk → Configuration → Data Mgmt → Assessment → Decision Analysis
+- **OMG SysML v2 final adoption: June 2025** — KerML metamodel + formal semantics + textual syntax
+- **INCOSE** = International Council on Systems Engineering (потенциальный reviewer pool)
+
+### §11.3 Зачем нам это для Jetix
+
+**Это direct refutation test для positioning §2** «cross-domain engineer» claim. Если FPF transfers structurally к aerospace → strong evidence что Jetix substrate работает не только software-domain.
+
+**Brigadier-inferred mapping result (F3):**
+
+| Mapping density | Count |
+|---|---|
+| **15 of 17 NASA processes** have **strong FPF analog** (≥F3 R-medium) | strong |
+| **2 of 17** have **partial mapping** (Jetix Phase 0-1 immature: Design Solution Definition + Product Validation) | partial |
+| **0 of 17** have **no analog** | none |
+
+**Direct mappings (highlights):**
+- NASA Stakeholder Expectations ↔ FPF A.2.8 Commitment + role-attestation
+- NASA Technical Requirements ↔ FPF B.3 F-G-R claims
+- NASA Interface Management ↔ FPF shared/schemas/*.json + message v2 + executor binding
+- NASA Configuration Management ↔ FPF git-native rollback + company-as-code discipline
+- NASA Decision Analysis ↔ FPF A.2.9 SpeechAct + AWAITING-APPROVAL packet + Default-Deny
+
+**4 NASA-strength FPF can borrow:**
+
+1. **Phases vs stage gates** — NASA explicit 7 phases with milestone-based transitions. FPF B3 stage-gates less explicit phase decomposition. **Lesson:** borrow NASA phase-naming для Workshop curriculum
+2. **«SE engine» iteration cycle** — explicit cycle count. **Lesson:** Pillar B project lifecycle (Foundation Part 7) may need explicit cycle discipline
+3. **17 codified processes** — vs FPF 11 Parts + Pillar A/B/C. **Lesson:** process-level mapping may help cross-domain onboarding
+4. **Verification vs Validation distinction** — NASA explicit: «built it right» vs «built right thing». FPF mixes в F-G-R. **Lesson:** consider explicit V&V distinction в FPF B.3
+
+**6 FPF-strength NASA SE underweights:**
+1. AI-co-readability (A.6.B) — NASA pre-LLM
+2. Constitutional governance (Pillar C Tier 2) — NASA process не constitutional
+3. Trust infrastructure (H8) — NASA relies on institutional certification (PE / Defence)
+4. Network State framing (H4) — NASA federal agency
+5. R12 anti-extraction — NASA budget-driven
+6. Russian-English bilingual — NASA English-only
+
+**OMG SysML v2 cross-pollination opportunity:** SysML v2 textual syntax + FPF F-G-R = possible interoperability bridge.
+
+**Cross-refs:** research/adjacent-ideas-2026-05-17/09 positioning §2, research/adjacent-ideas-2026-05-17/04 (INCOSE + OMG SysML), design/JETIX-FPF.md, research/deepening-2026-05-18/08 (SEMAT gap).
+
+### §11.4 Concrete actions
+
+**Сейчас (Phase 0 — surface only):**
+
+1. **Прочитать NASA SE Handbook executive summary** — first 30 страниц SP-2007-6105 Rev1 (free PDF на NTRS / MIT Open Learning Library)
+2. **Прочитать ШСМ материалы про systems engineering** — Anatoly Levenchuk = INCOSE-adjacent в RU; его framework partial overlap
+
+**Phase 1-2 (experiment design):**
+
+3. **Pick one NASA SE process** (suggested: process 11 Requirements Management)
+4. **Express as FPF artifact** используя B.3 F-G-R + A.2.8 Commitment + A.2.9 SpeechAct
+5. **Submit to INCOSE community member** (Anatoly Levenchuk + ШСМ network = natural reviewer pool) for review
+6. **Measure refutation conditions:**
+ - Если INCOSE reviewer cannot map → cross-domain claim refuted
+ - Если требует extensive jargon translation → claim weakened
+ - Если suggests SE-process improvements → claim strengthened
+- **Cost:** ~1 неделя brigadier + reviewer time. **Zero monetary cost**
+
+**Phase 2:**
+
+7. **SysML v2 interop draft** — express one Jetix Workshop artifact в SysML v2 textual syntax; reverse — SysML v2 model в FPF B.3 + Karpathy wiki
+8. **Borrow NASA V&V distinction** — design F-G-R extension для verification vs validation
+
+**Phase 3+ (harder tests):**
+
+9. **Harder-domain transfer test** — biotech R&D / cooperative networks / education domain. Aerospace = «softball test» (engineering-rooted, well-documented). Real cross-domain = less codified methodology
+
+### §11.5 Резюме на 2 строки
+
+**FPF maps к 15/17 NASA SE processes — strong evidence cross-domain transfer works at surface level.** Phase 1-2 experiment: express one NASA process as FPF artifact, submit к INCOSE reviewer (Anatoly + ШСМ network) — 1 week + zero cost. Phase 3 harder test (biotech / education).
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §11: ~790.*
+

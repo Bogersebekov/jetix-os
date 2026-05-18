@@ -196,3 +196,116 @@ graph TD
 - **NOT verification of Toyota internal practice** — tacit-explicit gap acknowledged
 
 **Word count:** ~1830
+
+---
+
+## §9 На человеческом — как Toyota передавал tacit knowledge 70 лет (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+**Toyota Production System (TPS)** — японская manufacturing methodology, разработана **с 1950-х** в Toyota. **70+ лет** Toyota practice'ла TPS внутри, **decades before formal external documentation**. Это **canonical case** of «**tacit knowledge → explicit knowledge transfer**» — как передать opaque process knowledge через десятилетия + поколения.
+
+**Известные попытки externalization:**
+
+1. **1990 — «The Machine That Changed the World»** (Womack / Jones / Roos, MIT IMVP) — first major external articulation. Coined «**Lean Manufacturing**» brand
+2. **2004 — «The Toyota Way»** (Jeffrey Liker) — **14 Management Principles** organized в **4P model: Philosophy / Process / People+Partners / Problem Solving**
+
+**14 Principles в 2 категориях:**
+- **Continuous improvement:** long-term vision / step-by-step challenges / root-cause analysis / ongoing innovation
+- **Respect for human resources:** stable personnel / slow promotion + careful succession / mentorship pairing / internal leader growth
+
+**Ключевые tacit→explicit mechanisms:**
+- **Mentorship pairing** — experienced + newer team members
+- **Slow promotion + careful succession** — knowledge protection
+- **Internal leader growth** — «grow next generation of leaders internally»
+- **Coaching manager role** — manager as coach, не command-control
+- **Genchi Genbutsu** = «go-and-see» (managers physically visit work-site)
+- **Hansei** = humble reflection on mistakes (ritual)
+- **Kaizen** = continuous improvement micro-loops
+
+**Failure pattern:** «Toyota Way published 2004 vs internal TPS practice gap. **Even owner of methodology can struggle to externalize practice into transmissible form.**»
+
+Аналогия: представь что у Toyota есть рецепт супер-effective manufacturing который **работает 70 лет** — но когда они пытаются написать книгу «вот как мы это делаем», 50% знания **теряется** при transfer, потому что значительная часть = **tacit** (то что в головах опытных мастеров, не в текстах). И **Lean consultants** copy книгу но не имеют **Sensei lineage** → diluted version.
+
+### §9.2 Ключевые pointы
+
+- **1950s+** TPS internal practice begins
+- **1990** Womack/Jones/Roos «The Machine That Changed the World» — first external
+- **2004** Liker «The Toyota Way» — 14 Principles + 4P model
+- **2010s+** Six Sigma backlash («process killed innovation»)
+- **«Lean dilution»** — many self-declared Lean consultants без TPS depth
+- **Lossy transfer pattern (4 layers):** Toyota internal Senseis → Lean brand → Liker 14 Principles → Six Sigma + consulting commoditization
+
+### §9.3 Зачем нам это для Jetix
+
+**Это direct input для Workshop curriculum design + mastery transfer mechanism** (vision/03 Workshop / Мастерская).
+
+**Mapping 14 Principles → FPF Workshop:**
+- **10 of 14 DIRECT** mapping
+- **4 of 14 MEDIUM** mapping
+- **0 of 14 absent**
+
+**TPS 14 Principles strongly resonate с Jetix Workshop + Foundation design.** Direct examples:
+- **P1 Long-term philosophy** ↔ Foundation Architecture v1.0 LOCKED
+- **P5 Stop-and-fix (Jidoka)** ↔ Halt-Log-Alert + Default-Deny + Pillar C R11
+- **P6 Standardized tasks** ↔ F-G-R schema + Foundation 11 Parts
+- **P7 Visual control** ↔ wiki/ + Karpathy substrate + Part 8 health monitoring
+- **P8 Reliable tested technology** ↔ Substrate-agnostic H8 (cf. direction 07)
+- **P9 Grow leaders internally** ↔ Workshop apprenticeship + Train-the-Trainer
+- **P10 Develop people** ↔ H7 People-NS «mastery as currency»
+- **P11 Respect extended network** ↔ L1+ multi-Clan + R12
+- **P14 Learning organization (Hansei + Kaizen)** ↔ Pre-mortem + retrospective + Compound Learning Part 5
+
+**4 Jetix-underweight gaps (TPS strengths we miss):**
+
+1. **Mentor-pairing discipline (P9 + P10)** — Toyota Sensei system: experienced practitioner mentors newer long-form (years). **Jetix gap:** Workshop currently focuses on curriculum + demonstration; mentor-pairing protocol implicit. **Phase 1-2 design surface:** explicit mentor-pairing matching + duration discipline
+
+2. **Slow promotion + succession (P10)** — Toyota promotions take years; succession planned across generations. **Jetix gap:** Foundation Architecture LOCKED 2026 но no «succession protocol» explicit (cf. Cybersyn single-founder lesson, doc 02). **Phase 1-2:** Pillar C extension с succession protocol
+
+3. **Genchi Genbutsu — go-and-see (P12)** — managers physically visit work-site. **Jetix risk:** «too much в LLM, не enough genchi-genbutsu» — AI-substrate reduces need to physically go. **Phase 1-2:** physical Workshop component explicit + AI-substrate complement (не substitute)
+
+4. **Hansei + Kaizen rituals (P14)** — Toyota: **explicit reflection rituals** (Hansei humble reflection on mistakes; Kaizen continuous improvement micro-loops). **Jetix gap:** pre-mortem + retrospective mentioned, но **ritualized cadence** not yet explicit (daily / weekly / per-cycle rhythm). **Phase 1+:** explicit Hansei + Kaizen-style cadence в Workshop curriculum
+
+**3 failure-mode warnings для Jetix:**
+
+| TPS failure | Jetix risk | Mitigation |
+|---|---|---|
+| **Lean brand dilution** | FPF brand dilution at scale | Explicit FPF certification (TOCICO-style); role-attestation gates «certified» claim |
+| **Six Sigma backlash** | Foundation rigidity perception | Pillar C Tier 1 + Corrigibility = explicit anti-rigidity; AP-6 dissent built-in |
+| **Published book vs internal practice gap** | Foundation v1.0 ≠ practice mastery | Workshop pattern explicit; mentor-pairing; Hansei + Kaizen cadence |
+
+**Cross-refs:** vision/jetix-fpf-describe/03 Workshop / Мастерская, research/adjacent-ideas-2026-05-17/07 (methodology distribution), research/deepening-2026-05-18/06 (Mondragón Train-the-Trainer parallel), research/deepening-2026-05-18/02 (Cybersyn single-founder anti-pattern).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Прочитать Liker «The Toyota Way» summary** (Wikipedia article + Flevy summary) — overview 14 Principles, 4P model
+2. **Identify 4 Jetix-underweight gaps** для Phase 1 design — mentor-pairing / succession / genchi-genbutsu / Hansei+Kaizen rituals
+
+**Phase 1 (Workshop design):**
+
+3. **Explicit mentor-pairing protocol** в Workshop curriculum — matching mechanism + duration (e.g., 3 months minimum); test TPS1
+4. **Hansei + Kaizen cadence rituals** определены — weekly retrospective + daily standup analog. Test TPS4
+5. **Physical Workshop component preserved** (genchi-genbutsu) — Workshop = physical + AI-substrate hybrid, не pure-online. Test TPS3
+
+**Phase 1-2:**
+
+6. **Foundation succession protocol drafted** — Pillar C extension; bus-factor ≥ 3 для каждого critical Foundation component. Test TPS2
+
+**Phase 2+:**
+
+7. **FPF certification discipline** considered — analog TOCICO; role-attestation gates «certified» claim — anti-Lean-dilution. Test TPS5
+
+**Continuous:**
+
+8. **«Lean dilution»-style FPF brand monitoring** — periodic check (e.g., quarterly): сколько self-declared FPF practitioners без F-G-R discipline?
+
+### §9.5 Резюме на 2 строки
+
+**TPS = 70-летний empirical case что tacit knowledge **частично** externalizable через 14 Principles + mentor-pairing + Hansei/Kaizen rituals, но lossy transfer real.** Для Jetix Workshop: 10/14 principles already align; 4 gaps (mentor-pairing / succession / genchi-genbutsu / rituals) = Phase 1 design priorities.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~870.*
+

@@ -209,3 +209,115 @@ graph TD
 - **NOT verification of EVE Alliance dissolution rate** — survivorship bias acknowledged
 
 **Word count:** ~1880
+
+---
+
+## §9 На человеческом — EVE Online как 20-летний эксперимент virtual tribe (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+**EVE Online** — MMO (massively multiplayer online game) от исландской компании **CCP Games**, запущена **май 2003**. **23 года к 2026.** Это **самый долгоживущий sandbox MMO с player-driven economy + politics**, в котором десятки тысяч players образовали complex governance structures — Corporations + Alliances + diplomatic treaties + wars + betrayals — **literally virtual tribes которые работали 20+ years**.
+
+**Структурные primitives:**
+- **Corporation** = in-game player organization (10-2000+ members)
+- **Alliance** = group of corporations holding **sovereignty** (capability которая отдельной corp недоступна)
+- **Executor Corporation** = chosen by member CEOs to manage alliance
+- **Maintenance bill:** 2M ISK/member-corp/month
+- **≥50% member corp CEO support** to maintain executor status; lost → alliance dissolves
+- **Empire Control skill level V** required for sovereignty
+- **«Declare Support»** button = explicit consent mechanism
+
+**Famous stress test (Battle of B-R5RB, 27 января 2014):**
+- **21 час** single battle
+- **7,548 player characters** (peak 2,670 в system)
+- **576 capital ships lost, 75 Titans**
+- **11 trillion ISK = ~$300,000 USD** real money equivalent
+- **CFC/Russian alliances vs N3/Pandemic Legion**
+- **Trigger:** scheduled CONCORD payment missed by H A V O C corp (одна административная ошибка → mega-битва на $300K)
+- **CCP erected permanent monument «The Titanomachy»** — wrecks остались в system как memorial
+
+**10-year retrospective (Jan 2024):** «remains EVE's most iconic event». Битва catalyzed alliance reorganization **но EVE community persisted**.
+
+Аналогия: представь что в 2003 году группа исландцев запустила онлайн-игру, в которой за 20+ лет образовались **literally virtual states** с governments, banks, armies, ambassadors, diplomats, espionage agencies, и реальные battles стоимостью **$300K в реальных деньгах** не убивают community — она reorganizes и продолжает. EVE = живая proof that virtual tribes can sustain decades.
+
+### §9.2 Ключевые pointы
+
+- **2003** EVE Online launch (CCP Games, Reykjavík)
+- **Corporation** primitive — 10-2000+ players
+- **Alliance** primitive — coalition of corps with sovereignty
+- **Executor Corp** — chosen by CEOs, conditional on ≥50% support
+- **27 января 2014** — Battle of B-R5RB — 21 hours, $300K USD lost
+- **«Titanomachy» monument** — permanent in-game memorial
+- **2024 retrospective** — community survived; EVE turns 21+ years
+- **8 longevity factors:** sandbox + player-driven content / real economic substrate / permanent consequences / diversity of playstyles / CCP narrative respect / long-form events / anti-griefing balance / cross-corp diplomacy substrate
+
+### §9.3 Зачем нам это для Jetix
+
+**EVE = empirical proof что 20-year virtual tribe persistence is possible** through explicit governance + sovereignty mechanics + voluntary alliance membership + executor accountability + visible failure events that **don't kill** the substrate.
+
+**8 direct mappings EVE → Jetix:**
+
+| EVE primitive | Jetix analog |
+|---|---|
+| EVE Corporation | Jetix Clan (vision/04 first 10) |
+| EVE Alliance | Jetix L1+ multi-Clan (vision/08) |
+| EVE Executor Corp | Jetix lead Clan / brigadier role |
+| ≥50% CEO support to executor | Foundation Pillar C consent mechanism |
+| 2M ISK/member alliance bill | Workshop revenue split for Foundation upkeep |
+| Sovereignty + Empire Control V | H4 Network State substrate qualifications |
+| «Declare Support» button | Explicit consent protocol — Foundation Part 6b |
+| Lost support = alliance dissolves | R12 fork-and-leave penalty-free |
+
+**8 design lessons:**
+
+1. **Sovereignty requires composition** — single Corp can't hold sovereignty; must compose into Alliance. Jetix: first-Clan 10-person alone не constitute NS substrate; requires L1+ multi-Clan
+2. **Executor with conditional support** — operational power conditional on ≥50% recall. Не unilateral, не democracy — meritocratic delegation с recall. Jetix Pillar C corrigibility = analogous
+3. **Maintenance bill as commitment device** — pay or dissolve. Jetix Workshop revenue split + Foundation upkeep analog
+4. **Explicit support declaration** — «Declare Support» button = explicit consent. Jetix Foundation Part 6b human gate aligned
+5. **Sovereignty skill requirement** — Empire Control V needed. Jetix H7 People-NS «mastery as currency» aligned
+6. **Visible failure без substrate collapse** — B-R5RB 2014 catalyzed reorganization, не collapse. Foundation must survive «admin error» stress events
+7. **Permanent monument for collective memory** — Titanomachy. Jetix Foundation audit log + decisions/* + cycles/* aligned
+8. **Real-money externality is real** — players invest real money + years. R12 anti-extraction = real-economic protection
+
+**7 EVE failure modes мы должны защититься:**
+
+- Betrayal arcs → role-attestation gating
+- Administrative error cascades → Part 8 health monitoring + Halt-Log-Alert
+- Alliance dissolution → R12 fork-and-leave preservation
+- Power consolidation → anti-monopoly mechanisms
+- Real-money fraud → KYC + role-attestation + revenue transparency
+- Burnout decline → sabbatical / rotation patterns
+- CCP intervention → Foundation Architecture LOCKED + Pillar C (Ruslan-equivalent CCP role; constitutional limits matter)
+
+**Cross-refs:** vision/04 first Clan, vision/08 L1+ multi-Clan roadmap, vision/jetix-fpf-describe/03 (virtual tribe substrate), vision/jetix-fpf-describe/04 (corporation), research/deepening-2026-05-18/03 (anti-Friend.tech), research/deepening-2026-05-18/02 (anti-Cybersyn central control).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Прочитать EVE University Alliances wiki** (https://wiki.eveuniversity.org/Alliances) — short, structural overview
+2. **Прочитать B-R5RB Wikipedia article + 10-year retrospective** — case study mechanism
+
+**Phase 1 (first Clan launch):**
+
+3. **First-Clan recall mechanism explicit + tested** — analog «Declare Support»: explicit consent, recall-able, threshold (≥50%? ≥66%?) — design choice. Test EVE2
+4. **«Administrative error stress» drill** — Phase 1-2 controlled test (например constitutional rule violation simulation; Workshop revenue dispute simulation). Test EVE4
+
+**Phase 2-3 (L1+ multi-Clan):**
+
+5. **L1+ multi-Clan composition design** — follow EVE Alliance pattern (executor + ≥X% support). Test EVE1
+6. **Foundation upkeep cost-sharing mechanism** — Phase 2-3 design (Mondragón 5:1 + EVE 2M ISK bill = combined template)
+
+**Continuous:**
+
+7. **Foundation audit log preserves all constitutional events** (Titanomachy analog) — уже aligned через decisions/* + cycles/*
+8. **NO real-money speculation tied к Workshop participation** — anti-Friend.tech + anti-EVE-gambling preserved. Test EVE6
+
+### §9.5 Резюме на 2 строки
+
+**EVE = 20-летний empirical proof что virtual tribes survive massive stress events (B-R5RB $300K loss) через executor + sovereignty + voluntary alliance + explicit consent + permanent memory + admin discipline.** Для Jetix: 8 direct mappings EVE primitives → vision/04 + vision/08; design first-Clan recall mechanism + Foundation upkeep cost-sharing + admin error drill.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~880.*
+

@@ -225,3 +225,85 @@ language: russian + english
 - **NOT exhaustive pattern inventory** — 9 patterns; more may exist below surface
 
 **Word count:** ~1880
+
+---
+
+## §14 На человеческом — что общего у 14 deepening directions (added brigadier 2026-05-18)
+
+### §14.1 Что это
+
+Это **meta-документ** — brigadier прочитал все **14 deepening docs (01-14)** + 10 research-adjacent docs и выделил **9 cross-cutting patterns**, которые повторяются across multiple directions. Это **синтетический шаг**: «вот что повторяется в Xanadu + Cybersyn + Toyota + Karpathy + Mondragón + EVE + и т.д.»
+
+**Это не decisions** — это **patterns + strategic implications matrix** для Ruslan. R1 surface-only. Brigadier picks patterns; **Ruslan picks integration**.
+
+Аналогия: представь что ты прочитал 14 case studies про разные failures и successes — и кто-то говорит «вот 9 закономерностей которые повторяются». Это **synthesis layer** — не сам corpus, а **что мы из corpus поняли**.
+
+### §14.2 Ключевые pointы — 9 patterns
+
+1. **Substrate-vs-governance trade-off** — viral substrate (Karpathy / WikiWikiWeb / Lean) требует governance discipline против decay; governed substrate требует viral mechanism
+2. **Single-founder fragility** — Cybersyn / Levenchuk ШСМ / Engelbart NLS / CCP Games / Plurality (Tang+Weyl) — bus-factor 1 problem
+3. **Tacit→explicit transfer lossiness** — TPS / Mondragón / Engelbart / Toyota — все suffer documentation-vs-practice gap
+4. **Visible-symbol vs distributed-substrate** — Cybersyn Opsroom / Workshop physical / EVE Titanomachy — visibility = attack surface
+5. **Anti-gaming necessity for trust mechanisms** — Stack Overflow / Friend.tech / SBT / Coordinape — single-score systems decay
+6. **Cross-domain transfer requires 4 elements** — substrate + bridge person + venue + operational artifact (Pattern Language lineage)
+7. **Pre-mortem + retrospective discipline** — Xanadu / Cybersyn / Six Sigma + Beer silence — most failures lack post-mortem
+8. **Open-source + community governance shape** — Debian / NixOS / Plurality / Mondragón Cooperative Congress — explicit constitution + recall mechanism
+9. **Network composition for sovereignty** — EVE Corp→Alliance / Mondragón Cooperative Congress / Network State — single unit не holds sovereignty
+
+### §14.3 Зачем нам это для Jetix
+
+**Это integration layer для Foundation Architecture design.** Каждый pattern имеет direct application к existing Jetix structures.
+
+**Strategic implications matrix:**
+
+| Pattern | Phase 0-1 zero-cost action | Phase 1-2 design surface |
+|---|---|---|
+| 1. Substrate vs governance | Maintain Karpathy substrate + Foundation governance both | Explicit governance-of-substrate doc |
+| 2. Single-founder fragility | Foundation L2+ readability audit | Succession protocol Pillar C extension |
+| 3. Tacit→explicit lossiness | Mentor-pairing protocol draft | Workshop apprenticeship + Hansei/Kaizen rituals |
+| 4. Visible-symbol vs distributed | Workshop = practice, not symbol | Multi-Workshop diversity policy |
+| 5. Anti-gaming trust | H8 multi-signal (≥3) verification | Reset capability + R12 enforcement |
+| 6. Cross-domain transfer (4 elements) | Pattern Language for Eng Methodology draft | Phase 1 viral artifact |
+| 7. Pre-mortem + retrospective | This deepening corpus | Phase-close retrospective discipline |
+| 8. Open-source + recall governance | R12 fork-and-leave test | L2+ recall protocol |
+| 9. Network composition | vision/04 + vision/08 structural | Foundation Part 7 lifecycle alignment |
+
+**Top-3 most actionable patterns по priority:**
+
+1. **Pattern 2 (Single-founder fragility)** — конкретно: «Foundation survives 90 days без Ruslan availability?» drill. Эта vulnerability **самая срочная** для Jetix
+2. **Pattern 6 (Cross-domain transfer 4 elements)** — концretно: «Pattern Language for Engineering Methodology» Phase 1 viral artifact. Это самая big-upside opportunity
+3. **Pattern 5 (Anti-gaming trust)** — конкретно: H8 LOCKED уже multi-signal, нужно verify ≥3 distinct signals + reset capability + R12 enforcement в Phase 1 implementation
+
+**Cross-refs:** все 14 directions 01-14, 10 research-adjacent docs, Foundation Architecture v1.0 LOCKED, Phase 0 14-object FPF inventory.
+
+### §14.4 Concrete actions
+
+**Сейчас (по top-3 priorities):**
+
+1. **Pattern 2 drill:** «Foundation survives 90 days без Ruslan» gedanken experiment — назначить L2+ partner candidate; check: может ли он ship Workshop без Ruslan check-in?
+2. **Pattern 6 artifact:** start draft «Pattern Language for Engineering Methodology» — 5-7 patterns в Alexander format (см. doc 05 §4.2 example)
+3. **Pattern 5 verify:** audit H8 design — ≥3 distinct trust signals + reset capability documented?
+
+**Phase 1 (по всем 9 patterns):**
+
+4. **Foundation v1.0 retrospective doc** at Phase 1 close — what worked / what didn't (Pattern 7, Beer-anti-pattern)
+5. **Mentor-pairing protocol** draft в Workshop curriculum (Pattern 3, TPS lesson)
+6. **R12 fork-and-leave test** controlled event (Pattern 8, Mondragón Dec 2022 evidence)
+
+**Phase 2:**
+
+7. **Succession protocol Pillar C extension** (Pattern 2, Mondragón Cooperative Congress 1984 institutional moment)
+8. **Multi-Workshop diversity policy** — no single «THE» Workshop Opsroom (Pattern 4, Cybersyn lesson)
+
+**Continuous:**
+
+9. **Phase-close retrospective discipline** — Hansei + Kaizen-style cadence (Pattern 7 + Pattern 3 — Toyota + Buterin d/acc «one year later» exemplary practice)
+
+### §14.5 Резюме на 2 строки
+
+**9 patterns связывают 14 deepening directions: substrate↔governance / founder fragility / tacit lossiness / visibility risk / anti-gaming / 4-element transfer / pre-mortem discipline / open-source governance / network composition.** Top-3 actionable: founder-fragility drill + Pattern Language artifact + H8 multi-signal verify.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §14: ~720.*
+
