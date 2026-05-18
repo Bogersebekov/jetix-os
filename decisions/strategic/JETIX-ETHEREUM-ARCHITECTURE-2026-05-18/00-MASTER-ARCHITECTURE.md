@@ -2,26 +2,34 @@
 title: Jetix on Ethereum — Master Architecture (integrated narrative)
 date: 2026-05-18
 type: strategic-architecture-master
-status: brigadier-structured (R1 surface; F2 architectural decision)
+status: RUSLAN-ACKED-2026-05-18-evening (H8 Option A + R12 Option D Hybrid; commit 8a3d800); F3 architectural decision post-ack
 authored_by: ruslan-via-voice-dictation+brigadier-structured
 prose_authored_by: ruslan-via-voice-dictation+brigadier-structured
+ack_trail:
+  - timestamp: 2026-05-18 evening Berlin
+  - decision: H8 Option A (additive Ethereum substrate option; substrate-agnostic preserved) + R12 Option D Hybrid (Mondragón + QF + fork-and-leave; Tier 2 text preserved)
+  - acked_via: Cloud Cowork chat session
+  - commit: 8a3d800
+  - packets_acked:
+    - swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md (RUSLAN-ACKED-OPTION-A-2026-05-18)
+    - swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md (RUSLAN-ACKED-OPTION-D-HYBRID-2026-05-18)
 parents:
   - raw/voice-memos-2026-05-17-batch/text_007@2026-05-18_morning.md (verbatim source)
-  - decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md (H8 LOCKED Octagon — substrate-agnostic baseline)
-  - swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md (R12 Tier 2 rule 12)
-  - research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.md (substrate matrix baseline)
-  - research/deepening-2026-05-18/10-people-buterin-dacc-trajectory.md (Buterin d/acc baseline)
+  - decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md (H8 LOCKED Octagon — substrate-agnostic baseline + §H8-EXT-ACKED-OPTION-A-2026-05-18)
+  - swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md (R12 Tier 2 rule 12 — text LOCKED)
+  - research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.md (substrate matrix baseline; §10 acked supplement)
+  - research/deepening-2026-05-18/10-people-buterin-dacc-trajectory.md (Buterin d/acc baseline; §12 outreach acked)
   - research/deepening-2026-05-18/11-people-tang-weyl-plurality-2024.md (Plurality + QV/QF + SBT baseline)
 cells_dispatched: eng × integrator FPF-loaded + eng × scalability + sys × integrator + investor × scalability + phil × critic (per prompt §2)
-F: F2
+F: F3
 G: jetix-on-ethereum-architecture-master
-R: refuted_if_substrate_decision_reverted_OR_crypto_tribe_perception_alienates_methodology_community_OR_R12_violated_by_lock-in_OR_regulatory_blocker_unmitigated
-constitutional_posture: R1 surface-only + R2 Foundation read-only + R6 provenance + append-only + EP-5
+R: refuted_if_substrate_decision_reverted_post_ack_OR_crypto_tribe_perception_alienates_methodology_community_OR_R12_violated_by_lock-in_OR_regulatory_blocker_unmitigated
+constitutional_posture: R1 surface-only (Ruslan acked; brigadier transcribes) + R2 Foundation read-only + R6 provenance + append-only + EP-5
 language: russian + english (FPF primitives)
 mandatory_disclosures:
-  - EP-5: F2 surface-grade = single-voice ack + brigadier-scribe + cross-direction (07/10/11) triangulation; ≠ FPF B.3 F8
-  - LIVE-FLAG: H8 LOCKED 2026-05-17 substrate-agnostic vs Ethereum-primary architecture tension — AWAITING-APPROVAL packet required перед LOCK
-  - LIVE-FLAG: Pillar C R12 substrate-agnostic foundation_generic preserved; programmable enforcement = RUSLAN-LAYER overlay candidate
+  - EP-5: F3 acked-grade = Ruslan ack + brigadier-scribe + cross-direction (07/10/11) triangulation + 2 AWAITING-APPROVAL packets acked + Default-Deny table updated; ≠ FPF B.3 F8
+  - RESOLVED-FLAG: H8 LOCKED 2026-05-17 substrate-agnostic = PRESERVED via Option A acked 2026-05-18 (additive substrate option; Ethereum = RUSLAN-LAYER overlay per IP-1)
+  - RESOLVED-FLAG: Pillar C R12 substrate-agnostic foundation_generic = PRESERVED; Tier 2 text UNCHANGED; programmable enforcement = RUSLAN-LAYER overlay Option D Hybrid acked 2026-05-18 (4 new RUSLAN-LAYER action classes in .claude/config/default-deny-table.yaml)
 related:
   - decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/01-substrate-selection-rationale.md
   - decisions/strategic/JETIX-ETHEREUM-ARCHITECTURE-2026-05-18/02-fpf-on-ethereum-mapping.md
@@ -323,4 +331,68 @@ Phase 3 (2027+)
 
 ---
 
-**Word count:** ~2400.
+**Word count:** ~2400 (pre-ack body) + ~480 (§12 ack-trail below).
+
+---
+
+## §12 Ack-trail 2026-05-18 evening (post-ack supplement)
+
+> Append-only ack confirmation. Body §0-§11 above = canonical post-ack architecture content (NO retroactive edits to body).
+
+### §12.1 Acked decisions
+
+| Component | Ack option | Packet |
+|---|---|---|
+| **H8 substrate extension** | **Option A** — Additive substrate option (Ethereum among 6; substrate-agnostic preserved) | `swarm/awaiting-approval/h8-ethereum-substrate-extension-2026-05-18.md` |
+| **R12 programmable enforcement** | **Option D Hybrid** — Mondragón ratios + QF + fork-and-leave (RUSLAN-LAYER overlay) | `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` |
+
+### §12.2 Status changes
+
+| Item | Pre-ack | Post-ack (this section) |
+|---|---|---|
+| Master architecture F-grade | F2 surface | **F3 acked** |
+| H8 LOCK §extension status | candidate (AWAITING-RUSLAN-ACK) | **acked Option A** (§H8-EXT-ACKED-OPTION-A-2026-05-18 in H8 LOCK doc) |
+| Pillar C R12 enforcement | text-only Phase 1 baseline | text-only Phase 1 + **programmable RUSLAN-LAYER overlay Option D Hybrid Phase 2+ option** |
+| Default-Deny table | 12 foundation_generic + 2 RUSLAN-LAYER | 12 foundation_generic + **6 RUSLAN-LAYER (2 autoresearch + 4 R12-programmable)** |
+| Phase 0 inventory O-23 | candidate | **acked** |
+
+### §12.3 Phase 2+ implementation unblocked
+
+Decision-checkpoint P2-D5 (per `09-implementation-roadmap.md`) — Ethereum overlay introduction = **unblocked**. Implementation phase 2+ may proceed per `11-phase-2-implementation-checklist.md`.
+
+### §12.4 Constitutional preservation post-ack
+
+| Invariant | Status |
+|---|---|
+| H8 LOCKED 2026-05-17 substrate-agnostic principle | ✓ PRESERVED (Option A additive surface) |
+| Pillar C Tier 2 R12 text LOCKED 2026-05-12 | ✓ PRESERVED (no amendment) |
+| foundation_generic count = 12 | ✓ PRESERVED |
+| IP-1 Role≠Executor | ✓ PRESERVED (Ethereum addresses live в RUSLAN-LAYER overlay) |
+| Append-only discipline | ✓ PRESERVED (§12 appended; §0-§11 body unchanged) |
+| R1 sole-strategist | ✓ Ruslan = ack-authority |
+| EP-5 F-grade disclosure | ✓ F3 acked grade ≠ FPF B.3 F8 |
+
+### §12.5 Cross-refs
+
+- H8 §H8-EXT-ACKED-OPTION-A-2026-05-18: `decisions/STRATEGIC-INSIGHT-JETIX-TRUST-INFRASTRUCTURE-2026-05-17.md`
+- Default-Deny table 4 RUSLAN-LAYER action classes: `.claude/config/default-deny-table.yaml`
+- CLAUDE.md §4.2 line: R12 programmable enforcement Option D Hybrid
+- Phase 0 inventory §11: `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md`
+- Implementation checklist: `11-phase-2-implementation-checklist.md`
+- Buterin outreach materials: `12-buterin-outreach-materials-draft.md`
+- Wiki concept R12 programmable: `wiki/concepts/r12-programmable-enforcement.md`
+- Direction 07 §10 acked: `research/deepening-2026-05-18/07-substrate-matrix-vc-sbt-pgp-coordinape.md`
+- Direction 10 §12 outreach acked: `research/deepening-2026-05-18/10-people-buterin-dacc-trajectory.md`
+
+### §12.6 Next steps (post-ack)
+
+1. ✅ Step 6 — Create `11-phase-2-implementation-checklist.md` + `12-buterin-outreach-materials-draft.md` (next commits)
+2. ✅ Step 7 — Wiki concept `r12-programmable-enforcement.md` (next commits)
+3. ✅ Step 8-9 — Direction 07 §10 + direction 10 §12 acked supplements
+4. ⏳ Buterin Phase 1 outreach attempt (Ruslan personal action; materials carrying = this doc + §12 doc + concept docs)
+5. ⏳ H9 Strategic Insight candidate ceremony preparation (deferred until Ruslan reflection)
+6. ⏳ Phase 2+ implementation execution (per §11 checklist; opt-in per Clan via Charter)
+
+---
+
+*§12 ack-trail appended by brigadier per Ruslan ack commit 8a3d800. R1 transcription (Ruslan = sole strategist) + R6 provenance + EP-5 + append-only preserved.*
