@@ -473,3 +473,111 @@ Ruslan = sole strategist. OQ-D02-1/2/3/5 BLOCKING для дальнейшей pr
 ---
 
 *Brigadier integration complete (3-cell verification chain per Phase 1 plan; 9 dissents tracked all resolved-by-edit). §5.5.5 gate passed. R1 attribution explicit. EP-5 + EP-2 + LIVE-FLAG B2 disclosed. Cross-link to doc 03 (text_004 PRIMARY) confirmed как EP-2 mention only.*
+
+---
+
+## §9 На человеческом — Jetix as Methodology (added brigadier 2026-05-18)
+
+### §9.1 Что это
+
+Это **doc 02 из 7-document series «Jetix as FPF-described»**. Описывает Jetix **как методологию** — способ мышления и работы, который можно описать через **FPF** (Foundation Patterns Framework Анатолия Левенчука), передать другим, и **форкнуть без extraction** (R12).
+
+**FPF простыми словами:** это **«мета-язык для описания методов»**. Тип онтологии (онтология = «формальный словарь для описания мира»). Создан Левенчуком (Анатолий Левенчук, ШСМ). Содержит примитивы типа **U.System / U.Role / U.Method / U.Commitment / U.MethodDescription / U.WorkPlan / U.Episteme** — это building blocks для описания **любых методов / бизнесов / кооперации / самостоятельной работы / философии**.
+
+**Jetix-as-methodology через FPF-линзу:** это **U.MethodDescription (A.3.2)** = рецепт действий (упорядоченный набор шагов, ролей, входов/выходов, описывающий КАК производить результат).
+
+Аналогия: представь что **FPF = словарь для описания рецептов** (как поваренная книга для chef'ов имеет вокабуляр «нарезать», «обжарить», «приготовить»). А **Jetix-as-Methodology = один конкретный рецепт** написанный в этом словаре. И этот рецепт можно **fork'нуть** (взять, адаптировать под себя, ходить с ним куда хочешь) **без penalty** (R12 anti-extraction).
+
+**Честный статус (B.5.1 Exploration):** **Fork guide v0 = aspirational (6-step outline)**; **0 forkers** подтверждено на 2026-05-17; distributable format отсутствует. Методология работает сейчас как **внутренняя organizational framework** (F4 internal-operational), **НЕ как публичный дистрибутив** (F2 aspirational).
+
+### §9.2 Ключевые pointы
+
+**5 verbatim source anchors** (см. §1):
+
+1. **audio_672:** «у нас должен быть **один source of truth**... это наш **очиститель от путаницы**»
+2. **audio_672:** «мы нанимаем звёзд, но даём им **язык кооперации, вот этот FPF**, плюс ещё... усилитель + переводчик»
+3. **text_002:** «по FPF общаться — использовать в описаниях всех методов, бизнесов, вариантов кооперации, самостоятельной работы, философии. Создать новую систему»
+4. **audio_673 (с hedge):** «вы общаетесь об одном и том же — **в какой-то степени**» (не панацея!)
+5. **Clan Charter §11:** «Участники могут выйти из Clan в любой момент, сохраняя всё что наработали»
+
+**FPF mapping для Jetix-as-methodology:**
+- **Primary primitive:** U.MethodDescription (A.3.2) — рецепт действий, sector-agnostic by primitive design (НЕ доказано universal по применению)
+- **Secondary:** U.Method (A.3.1) — конкретное occurrence (Ruslan применяет MethodDescription сейчас)
+- **Proto-candidate (downgraded):** U.WorkPlan (A.15.2) — Fork guide satisfies только **2/5 A.15.2 fields**; cannot promote until v1.0
+- **Artefact:** U.Episteme (A.16) — Foundation v1.0 LOCKED = artefact lock (НЕ FPF B.3 F8 independent verification)
+- **Multi-view:** E.17 MVPK — этот document имеет 3 views (FPF formal §4 + Plain Russian §3 + Mermaid §5)
+- **State:** B.5.1 Exploration (first of four: Exploration → Shaping → Evidence → Operation)
+
+**ШСМ/МИМ overlay = planned ontological substrate (F2 aspirational):**
+- ШСМ (Школа Системного Менеджмента, Левенчук) + МИМ (Master of Information Modeling)
+- НЕ изобретаем новый онтологический язык; planning to build on FPF как substrate (don't-reinvent-the-wheel)
+- Currently F2 aspirational; not formally typed as O-22; OQ-D02-2 pending Ruslan ack
+
+**6 OQ (Open Questions) для Ruslan ack:**
+- OQ-D02-1 (LOAD-BEARING): Fork guide v0 → v1.0 с full A.15.2 fields? Или v0 + «proto-candidate» flag?
+- OQ-D02-2: ШСМ/МИМ overlay как reference или formal O-22 «ШСМ-МИМ ontological substrate»?
+- OQ-D02-3 (Phase 0 OQ-11): O-05 Phase C remit activation trigger
+- OQ-D02-4: LIVE-FLAG B2 Aisystant unblock когда?
+- OQ-D02-5 (Phase 0 OQ-12): R12 как contribution к FPF Part E — public proposal Левенчуку или Jetix-internal?
+- OQ-D02-6: U.WorkPlan correction retrospective pass на Doc 01?
+
+### §9.3 Зачем нам это для Jetix
+
+**Это foundational для всего FPF-describe series** (docs 01-07). Methodology = **abstraction слой** между Self-OS substrate (doc 01) и Virtual Tribe substrate (doc 03), Corporation (doc 04), Platform (doc 05), Clean Internet Layer (doc 06), End-to-End Overview (doc 07).
+
+**Структурно:**
+
+| Layer | Doc | FPF primary primitive |
+|---|---|---|
+| Self-OS substrate | 01 | U.System (A.1) |
+| **Methodology** | **02 (this)** | **U.MethodDescription (A.3.2)** |
+| Virtual Tribe | 03 | U.Role + U.Capability + U.Commitment (text_004 PRIMARY) |
+| Corporation | 04 | U.Organisation + economic primitives |
+| Platform | 05 | U.System (B.7-style substrate) |
+| Clean Internet Layer | 06 | Trust cluster (H8 7-primitive) |
+| End-to-End | 07 | All combined |
+
+**Phase 0 14-object inventory = first pattern library v1** — типизирована через FPF примитивы. Следующий мастер получает не пустой бланк, а **14 типизированных примеров** с FPF-аннотациями.
+
+**Direct adjacencies к research-deepening:**
+- **SEMAT Essence Kernel** (research/deepening-2026-05-18/08) = closest precedent FPF-as-universal-language ambition
+- **Alexander Pattern Language** (research/deepening-2026-05-18/05) = 49-летний trajectory architecture → wiki → LLM Wiki; Phase 1 viral artifact candidate
+- **TPS tacit→explicit transfer** (research/deepening-2026-05-18/14) = Train-The-Trainer pattern для Workshop adaptation
+- **Mondragón R12 anti-extraction** (research/deepening-2026-05-18/06) = 70-year empirical proof anti-extraction works at scale
+
+**Cross-refs:** vision/jetix-fpf-describe/01 (self-os substrate, sibling), vision/jetix-fpf-describe/03 (virtual tribe substrate, text_004 PRIMARY HOME), vision/jetix-fpf-describe/06 (FPF as trust cluster H8), reports/phase-0-fpf-scope/01-jetix-objects-inventory.md (O-05 entry), decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md §11 (R12 constitutional anchor).
+
+### §9.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Ruslan ack на OQ-D02-1 (LOAD-BEARING)** — Fork guide v0 → v1.0 path? Или v0 + proto-candidate flag достаточно?
+2. **Ruslan ack на OQ-D02-2** — ШСМ/МИМ overlay formalize как O-22?
+
+**Phase 1:**
+
+3. **«Engineering Pattern Language for Methodology»** Phase 1 viral artifact candidate (per research/deepening/05) — 5-7 patterns в Alexander format
+4. **Fork guide v1.0** с full A.15.2 fields (windows + dependencies + resource budgets + acceptance targets) если OQ-D02-1 promote
+5. **First Forker pilot** — find 1 person willing to fork Jetix MethodDescription и adapt под свою область
+
+**Phase 2:**
+
+6. **«Pattern Language for Engineering Methodology»** published as GitHub Gist (Karpathy-style viral distribution per research/adjacent/07 methodology distribution)
+7. **Workshop pattern launches с FPF-typed curriculum** — 14-object Phase 0 inventory + Patterns
+
+**Phase 3+:**
+
+8. **R12 как public proposal к FPF Part E (Левенчук)** if OQ-D02-5 resolved positively — contribution upstream к FPF Spec
+
+**Continuous:**
+
+9. **Aisystant subscription unblock monitoring** (LIVE-FLAG B2) — когда unblocked, pass через Doc 02 для IWE claims update
+
+### §9.5 Резюме на 2 строки
+
+**Jetix-as-Methodology = U.MethodDescription (A.3.2) в FPF-vocab — forkable, R12 anti-extraction-guaranteed «рецепт» для work-with-information; sector-agnostic by primitive design (NOT universal-by-validation); status F2 aspirational (0 forkers, Fork guide v0 = 6-step outline).** Foundational doc для всего 7-document FPF-describe series; ШСМ/МИМ = planned ontological substrate; «Pattern Language for Engineering Methodology» = Phase 1 viral artifact candidate.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §9: ~900.*
+
