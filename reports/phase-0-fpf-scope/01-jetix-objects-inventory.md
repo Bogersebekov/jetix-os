@@ -686,3 +686,58 @@ All 4 candidates carry F2 surface status. Ruslan ack promotes к F3+ (cross-cell
 ---
 
 *§10 appended by brigadier per voice-pipeline-2026-05-18-batch-3 Phase 5. R1 + R6 + EP-5 + append-only preserved.*
+
+---
+
+## §11 O-29 candidate — «ML/AI engineering substrate» (added 2026-05-18 evening)
+
+### §11.1 Surfacing context
+
+§11 appended by brigadier per `research/ml-ai-engineers-2026-05-18/` Phase 8 (sibling run к batch-3 Phase 5 §10). Different namespace; parallel-safe per prompt.
+
+### §11.2 O-29 candidate — ML/AI engineering substrate
+
+- **Candidate-id:** O-29
+- **Surfaced-by:** brigadier-scribe via ml-ai-engineers-deep-research-2026-05-18 Phase 6 hypothesis H-ML-45
+- **Pre-ack status:** `brigadier-surfaced-candidate-pending-Ruslan-ack`
+- **Origin:** Ruslan-shared infographics 2026-05-18 evening (21 tools + 7 workflow steps) + text_008+009 Master Workshop of Engineers aspiration + universal-pattern claim (Phase 4 doc 07 F2 surface)
+- **FPF primitives:**
+  - U.MethodDescription (ML 7-step workflow = methodology object)
+  - A.2 U.Role (ML/AI engineer role-type cluster: ML eng / researcher / data sci / MLOps / data eng / applied scientist / AI researcher)
+  - U.System holonic (ML stack 3-layer / 21 tools as substrate)
+  - U.Capability (ML-specific augmentation capabilities)
+  - B.5.1 Explore + B.5.2 Abductive Loop (workflow patterns)
+- **F-G-R:** F2 / G=ml-ai-engineering-substrate-2026-05-18 / R=refuted_if_(Workshop curriculum ML module NOT teachable as distinct substrate within 6mo cohort OR ML 7-step universal-pattern claim refuted in empirical test per doc 07 §7 OR ML/AI engineer role taxonomy collapses post-foundation-model shift per H-ML-8)
+- **Status:** research-LOCKED-2026-05-18 / curriculum-VAPOR / substrate-pattern-F2-surface
+- **Mechanism:**
+  - Workshop curriculum «ML engineering through FPF» module candidate
+  - Hackathon platform ML-themed first event cohort hypothesis (H-ML-10 + H-ML-38)
+  - Master Workshop of Engineers primary cohort target (H-ML-36)
+  - Cross-disciplinary universal-pattern teaching substrate (Pattern 12)
+  - Sovereign-AI consulting offer category (H-ML-22 + H-ML-41)
+- **Cross-refs:**
+  - `research/ml-ai-engineers-2026-05-18/00-MASTER-INDEX.md` (this research stream entry point)
+  - `research/ml-ai-engineers-2026-05-18/07-engineering-approach-universal-pattern.md` (universal pattern F2 substrate)
+  - `research/ml-ai-engineers-2026-05-18/08-target-portrait-jetix-integration.md` (5 Jetix-relationship classes)
+  - `research/ml-ai-engineers-2026-05-18/09-hypotheses-bank-breadth.md` H-ML-45 (this candidate as testable hypothesis)
+  - `research/ml-ai-engineers-2026-05-18/99-SUMMARY-FOR-RUSLAN.md` §6 question #1 (Ruslan ack required)
+  - `research/deepening-2026-05-18/09-people-karpathy-eureka-llm101n.md` (Karpathy direction substrate)
+  - `decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md` (Education Layer parallel)
+  - `text_008+009@2026-05-18_evening.md` Thread 14 (voice anchor)
+
+### §11.3 Promotion path
+
+O-29 carries F2 surface status. Ruslan ack promotes к F3 (cross-stream triangulation evidence в research stream + 6-precedent universal pattern + 45 hypothesis bank). HUMAN GATE per R2 + R11 Default-Deny.
+
+If O-29 ack'd:
+- Phase 0 inventory total: 14 (acked) + 4 prior candidates (O-21-24) + 4 candidates §10 (O-25-28) + 1 NEW candidate (O-29) = 23 объектов (19 candidates pending Ruslan ack)
+- Workshop curriculum ML module unblocked
+- ML consulting offer category formal recognition
+
+### §11.4 Constitutional note
+
+O-29 surfacing = R1 surface only. NOT promoted к LOCK by brigadier. Ruslan ack required per IP-1 + IP-2 + Pillar C Tier-2 rule 2 (AI does NOT execute architectural changes without gate). Refer doc 07 §5 IP-1 caveat enforcement.
+
+---
+
+*§11 appended by brigadier per ml-ai-engineers-deep-research-2026-05-18 Phase 8. R1 + R6 + R11 + EP-5 + append-only preserved.*
