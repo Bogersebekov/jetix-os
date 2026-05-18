@@ -44,10 +44,19 @@ echo "Ready to launch 5 deep research runs"
 ### Run 1 — Hackathon Platform Deep Research
 
 ```bash
-tmux new -d -s hp-deep "cd ~/jetix-os && claude --print --dangerously-skip-permissions 'ultrathink
-
-Прочитай _EXPLAIN-hackathon-platform-deep-research-2026-05-18.md и prompts/hackathon-platform-deep-research-2026-05-18.md. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.' 2>&1 | tee logs/hp-deep-\$(date +%Y%m%d-%H%M%S).log"
+tmux new -d -s hp-deep "claude --dangerously-skip-permissions"
 ```
+
+Attach + paste prompt:
+```bash
+tmux attach -t hp-deep
+```
+
+```
+ultrathink. Прочитай _EXPLAIN-hackathon-platform-deep-research-2026-05-18.md и prompts/hackathon-platform-deep-research-2026-05-18.md. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.
+```
+
+Detach: `Ctrl-b` → `d`
 
 **Scope:** 30+ platform variants survey + per-rhythm spec + cohort dynamics + sponsor + funding mechanisms + first event Q3 2026 blueprint + multi-rhythm Year-1 calendar + 30-50 H bank + 10+ mermaid.
 **Namespace:** `research/hackathon-platform-deep-2026-05-18/`
@@ -58,10 +67,19 @@ tmux new -d -s hp-deep "cd ~/jetix-os && claude --print --dangerously-skip-permi
 ### Run 2 — Recursive Self-Development Engine Deep Research (IP-1 STRICT)
 
 ```bash
-tmux new -d -s re-deep "cd ~/jetix-os && claude --print --dangerously-skip-permissions 'ultrathink
-
-Прочитай _EXPLAIN-recursive-self-development-engine-deep-research-2026-05-18.md и prompts/recursive-self-development-engine-deep-research-2026-05-18.md. IP-1 STRICT throughout — pattern = abstract method; instances bound к executors per RUSLAN-LAYER. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.' 2>&1 | tee logs/re-deep-\$(date +%Y%m%d-%H%M%S).log"
+tmux new -d -s re-deep "claude --dangerously-skip-permissions"
 ```
+
+Attach + paste prompt:
+```bash
+tmux attach -t re-deep
+```
+
+```
+ultrathink. Прочитай _EXPLAIN-recursive-self-development-engine-deep-research-2026-05-18.md и prompts/recursive-self-development-engine-deep-research-2026-05-18.md. IP-1 STRICT throughout — pattern = abstract method; instances bound к executors per RUSLAN-LAYER. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.
+```
+
+Detach: `Ctrl-b` → `d`
 
 **Scope:** Engelbart H-LAM/T 1962 verbatim + NASA SE 15-of-17 deep map + Plan-mode primitive catalog + Execute-mode primitive catalog + TPS Hansei/Kaizen + IP-1 boundary cases (≥10 entries) + 5 plan-execute cycles 1-week trial + 20-30 H bank + 8+ mermaid.
 **Namespace:** `research/recursive-engine-deep-2026-05-18/`
@@ -73,10 +91,19 @@ tmux new -d -s re-deep "cd ~/jetix-os && claude --print --dangerously-skip-permi
 ### Run 3 — System Merger Protocol Deep Research (H9 candidate)
 
 ```bash
-tmux new -d -s sm-deep "cd ~/jetix-os && claude --print --dangerously-skip-permissions 'ultrathink
-
-Прочитай _EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md и prompts/system-merger-protocol-deep-research-2026-05-18.md. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.' 2>&1 | tee logs/sm-deep-\$(date +%Y%m%d-%H%M%S).log"
+tmux new -d -s sm-deep "claude --dangerously-skip-permissions"
 ```
+
+Attach + paste prompt:
+```bash
+tmux attach -t sm-deep
+```
+
+```
+ultrathink. Прочитай _EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md и prompts/system-merger-protocol-deep-research-2026-05-18.md. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.
+```
+
+Detach: `Ctrl-b` → `d`
 
 **Scope:** 4-precedent deep mining (USB-C/TCP-IP/HTTP/OpenAPI+GraphQL) + M&A academic playbook + 2 sub-protocols formalisation (намордник + USB-C порт) + Strategic Q decision matrix (A/B/C surface) + first merger test case (2 AI companies) + R12 programmable enforcement + 25-35 H bank + 8+ mermaid + H9 LOCK readiness evidence.
 **Namespace:** `research/system-merger-deep-2026-05-18/`
@@ -87,10 +114,19 @@ tmux new -d -s sm-deep "cd ~/jetix-os && claude --print --dangerously-skip-permi
 ### Run 4 — Outreach System Scalable Deep Research
 
 ```bash
-tmux new -d -s os-deep "cd ~/jetix-os && claude --print --dangerously-skip-permissions 'ultrathink
-
-Прочитай _EXPLAIN-outreach-system-scalable-deep-research-2026-05-18.md и prompts/outreach-system-scalable-deep-research-2026-05-18.md. R12 anti-extraction foregrounded throughout. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.' 2>&1 | tee logs/os-deep-\$(date +%Y%m%d-%H%M%S).log"
+tmux new -d -s os-deep "claude --dangerously-skip-permissions"
 ```
+
+Attach + paste prompt:
+```bash
+tmux attach -t os-deep
+```
+
+```
+ultrathink. Прочитай _EXPLAIN-outreach-system-scalable-deep-research-2026-05-18.md и prompts/outreach-system-scalable-deep-research-2026-05-18.md. R12 anti-extraction foregrounded throughout. Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.
+```
+
+Detach: `Ctrl-b` → `d`
 
 **Scope:** 6-precedent deep mining (Sahil/Chen/Naval/Levels/GitHub/YC) + 6-resources framework 4-taxonomy surface + 10-person video team operationalised (5 roles × deep spec) + 100-trained cohort 4-tier training + personalized outreach mechanism (LLM-assist + human craft) + 6 target audience classes × tier prioritisation + 25-37 H bank + 10+ mermaid.
 **Namespace:** `research/outreach-deep-2026-05-18/`
@@ -102,10 +138,19 @@ tmux new -d -s os-deep "cd ~/jetix-os && claude --print --dangerously-skip-permi
 ### Run 5 — Education Layer System Thinking Deep Research (Paternalism + IP-1 Phase 5)
 
 ```bash
-tmux new -d -s el-deep "cd ~/jetix-os && claude --print --dangerously-skip-permissions 'ultrathink
-
-Прочитай _EXPLAIN-education-layer-system-thinking-deep-research-2026-05-18.md и prompts/education-layer-system-thinking-deep-research-2026-05-18.md. Paternalism mitigation foregrounded throughout. IP-1 STRICT в Phase 5 (gratitude operationalisation). Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.' 2>&1 | tee logs/el-deep-\$(date +%Y%m%d-%H%M%S).log"
+tmux new -d -s el-deep "claude --dangerously-skip-permissions"
 ```
+
+Attach + paste prompt:
+```bash
+tmux attach -t el-deep
+```
+
+```
+ultrathink. Прочитай _EXPLAIN-education-layer-system-thinking-deep-research-2026-05-18.md и prompts/education-layer-system-thinking-deep-research-2026-05-18.md. Paternalism mitigation foregrounded throughout. IP-1 STRICT в Phase 5 (gratitude operationalisation). Выполни все автономно, 8 phases, per-phase commit, final push origin main. Ruslan acked. Не пауза.
+```
+
+Detach: `Ctrl-b` → `d`
 
 **Scope:** 7-precedent deep mining (Harari/Karpathy/Engelbart/ШАД/NASA/Meadows/Beer) + Tier 1 Foundation 5-7 module curriculum + NASA life/work/body-as-spaceship (7 processes × 3 scales) + Master-Apprentice 4-role typology + Hackathon = Tier 3 activation + gratitude prophecy IP-1 STRICT operationalisation + «Базовое образование» Options A/B/C/D + cohort progression sequencing + 25-37 H bank + 10+ mermaid.
 **Namespace:** `research/education-layer-deep-2026-05-18/`
