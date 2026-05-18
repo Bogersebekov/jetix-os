@@ -216,3 +216,108 @@ Discord (Jason Citron, 2015+) — gaming-rooted; now spans communities. >150M MA
 - [Gitcoin Kevin Owocki DAOs interview](https://www.dlnews.com/articles/defi/why-gitcoin-guru-kevin-owocki-still-believes-in-daos/)
 - [Roam alternatives 2026](https://www.atlasworkspace.ai/blog/roam-research-alternative)
 - [Creator economy stats](https://www.snsinsider.com/reports/creator-economy-market-8072)
+
+---
+
+## §8 На человеческом — platforms connecting people, что уже существует (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор существующих platforms для community + creator economy + decentralized substrate** — то на что Jetix может опереться или с чем будет компетировать.
+
+**4 segments:**
+
+1. **Network-State experiments** — попытки построить «online-first communities → sovereign entities»
+2. **Tools-for-thought networks** — где люди collaborat'ят на ideas (Roam, Obsidian, Are.na, Karpathy LLM Wiki)
+3. **Creator economy** — Patreon / Substack / Beehiiv / Mighty Networks — payment substrate для creators
+4. **Decentralized protocols + DAOs** — Mastodon / ActivityPub / Gitcoin / Coordinape
+
+Аналогии:
+- **Praxis** = «давайте соберём $525M, найдём locale, и литерально построим город для крипто-fans» (raised, не shipped)
+- **Próspera** = «легально автономная zone в Honduras с charter-city status» ($11B legal battle с Honduras government)
+- **Are.na** = «Internet memory palace», как Pinterest но для ideas, ad-free, member-supported
+- **Substack** = «легко принимай платежи за свой newsletter / video / podcast»
+- **Coordinape** = «epoch peer-reward DAO — кому ты дал GIVE tokens этот месяц»
+- **Gitcoin quadratic funding** = «множество мелких donors weight больше чем один whale»
+
+### §8.2 Ключевые pointы
+
+**Network-State (Balaji Srinivasan, 2022 book):**
+- **Praxis** = $525M raised October 2024, **151K «citizens» from 80 countries** (self-report Jan 2026); pivoted к Greenland 2024; member companies aggregate $1.117B (unverified)
+- **Próspera** = ZEDE charter city Roatán Honduras; **$11B legal battle** since 2022; Coinbase CEO Brian Armstrong commitment Jan 2025
+- **Solana Foundation + Kazakhstan «Solana Economic Zone»** 2026; Bhutan Solana digital nomad visa
+- **Network School Malaysia** retreat (Balaji)
+
+**Tools-for-thought (Roam → Obsidian migration):**
+- Roam $15/mo vs Obsidian free ($4/mo sync) vs Logseq free open-source
+- **Are.na** sustained ad-free community (2014+)
+- **Karpathy LLM Wiki** April 2026
+
+**Creator economy:**
+- **Patreon:** $10B+ paid lifetime, $2B+ annual, 25M+ paid memberships
+- **Substack:** **5M paid subs March 2025**, ~$450M run-rate, $1.1B valuation July 2025
+- **Total creator economy:** **$203.6B (2024) → $1.18T forecast (2032)**, 24.6% CAGR
+
+**Decentralized protocols + DAOs:**
+- **Mastodon:** **500K (2022) → 10M+ (2024)** = 20× growth via Twitter/X exit waves; ActivityPub W3C standard
+- **DAOs:** 13,000+ entities, $24.4B treasury, 3.9M token holders
+- **Gitcoin:** $45M+ distributed grants; quadratic funding
+- **Coordinape:** DAO contributor tracking (см. research/deepening-2026-05-18/07)
+- **Friend.tech 2024 collapse** (см. research/deepening-2026-05-18/03)
+
+### §8.3 Зачем нам это для Jetix
+
+**Прямые adjacency:**
+
+| Jetix artefact | Adjacent platform |
+|---|---|
+| H4 Balaji Network State | Praxis ($525M attempt) + Próspera (legal vehicle) + Network School (retreat model) — direct case studies |
+| H8 Trust Infrastructure | Coordinape + Gitcoin quadratic funding = working non-money trust mechanisms |
+| vision/03 Workshop/Masterskaya | Praxis pop-up city + Próspera physical hub + Are.na community |
+| vision/04 first Clan 10-people | Are.na sustained small-community + Indie Hackers culture |
+| vision/07 prototype в 2 дня | Substack / Patreon as backend (don't build payment processing) |
+| vision/08 L1+ collaboration | Discord / Slack для L1 informal coord; Coordinape для contribution attestation |
+| CRM system | Substack subs + Patreon supporters = potential CRM imports |
+| R12 anti-extraction | DAO failure modes inform R12 mechanism design |
+
+**4 critical lessons:**
+
+1. **Praxis $525M raised без delivery** — funding ≠ legitimacy. **Lesson:** Jetix должен deliver Workshop early, не raise pre-product
+2. **Mastodon 20× growth driven by triggered exits** (Twitter/X migration waves) — communities switch when alternative is ready + incumbents fail. **Lesson:** Jetix opportunity window = LinkedIn / Slack / Discord trust crisis; ready alternative needed
+3. **Are.na sustained ad-free model** since 2014 — **community accountable to members works** на decade timescale. **Lesson:** R12 + member-supported model is empirically viable
+4. **DAO failure rate высокий** — governance crisis pattern. **Lesson:** Foundation Architecture LOCKED + Pillar C Corrigibility = explicit anti-DAO-collapse design
+
+**Audio_672 «нанимаем звёзд + даём им FPF»** — direct precedent: Substack model. Star creator + monetization substrate = working pattern.
+
+**Cross-refs:** vision/03 Workshop, vision/04 first Clan, vision/07 prototype, H4 LOCKED, H8 LOCKED, R12 anti-extraction, research/deepening-2026-05-18/03 (Friend.tech post-mortem), research/deepening-2026-05-18/07 (substrate matrix incl. Coordinape).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Read Praxis post-mortem material** + write Jetix's own Praxis-style pre-mortem (per §7 open question 1) — what if Jetix raises money без delivery?
+2. **Are.na trial** — create channel «Jetix First Clan reading list» — test community substrate before custom platform (1-week experiment)
+
+**Phase 1:**
+
+3. **Substack pilot для star creator** — test with Anatoly Levenchuk или Tseren: «звезда + FPF artifact bundle» on Substack. 1-month experiment
+4. **Workshop monetization through Substack/Patreon** — не build own payment processing; reuse existing rails
+5. **Coordinape pilot для H8 first iteration** — could attestation start через Coordinape integration before custom protocol?
+
+**Phase 2:**
+
+6. **Mastodon instance для Jetix community** — self-hosted identity layer; cost vs benefit analysis
+7. **Quadratic funding для Workshop revenue distribution** — Gitcoin pattern applied к Clan internal revenue: smaller contributors weighted more
+
+**Phase 3+:**
+
+8. **Charter city legal study** — ZEDE structure если future Jetix physical instances; Próspera как case study (включая $11B legal lesson)
+
+### §8.5 Резюме на 2 строки
+
+**Platforms field = 4 segments (NS / tools-for-thought / creator economy / DAOs); Praxis $525M shows funding ≠ legitimacy; Substack 5M subs proves direct creator-monetization works; Mastodon 20× growth shows triggered exits enable migration.** Для Jetix: reuse existing rails (Substack для monetization, Coordinape pilot для H8); deliver Workshop early; write own Praxis-style pre-mortem.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~830.*
+

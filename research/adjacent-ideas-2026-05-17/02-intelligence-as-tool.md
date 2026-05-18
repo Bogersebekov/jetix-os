@@ -207,3 +207,100 @@ language: russian + english
 - [Variety (cybernetics) — Wikipedia](https://en.wikipedia.org/wiki/Variety_(cybernetics))
 - [Karpathy LLM Wiki Gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - [OmegaWiki — full LLM Wiki implementation](https://github.com/skyllwt/OmegaWiki)
+
+---
+
+## §8 На человеческом — 70-летняя линия «intelligence как инструмент» (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор кто думал про intelligence как extended tool, не «штука внутри головы»** — 70-летняя линия мыслителей. Начинается **1945** с Vannevar Bush «As We May Think» (Atlantic Monthly, июль 1945, где он описал **Memex** — «гипертекстовая мебель» из microfilm + electromechanical controls, предсказал Internet за 50 лет).
+
+**Main lineage:**
+1. **1945** — **Vannevar Bush** «Memex» = «furniture-sized library of collective knowledge»
+2. **1960** — **Ted Nelson** придумывает «hypertext» term; **Project Xanadu** 30-летний failure
+3. **1962** — **Doug Engelbart** «Augmenting Human Intellect» — defines **H-LAM/T** (см. research/deepening-2026-05-18/04)
+4. **1968+** — **Alan Kay** at Xerox PARC — **Dynabook** + Smalltalk + GUI + metamedium concept
+5. **1998** — **Andy Clark + David Chalmers** «**The Extended Mind**» — formal philosophy of cognition extending into environment («cognitive processes ain't all in the head»; Otto/Inga thought experiment)
+6. **2012+** — **Bret Victor** «Inventing on Principle» + **Dynamicland (2017+)** — spatial computing
+7. **April 2026** — **Andrej Karpathy** LLM Wiki Gist — persistent markdown wiki maintained by LLM
+
+**Parallel branch — Cybernetics:**
+- **1948** — Norbert Wiener «Cybernetics»
+- **1956** — Ashby «Introduction to Cybernetics» — **Law of Requisite Variety: «only variety can absorb variety»**
+- **1971-1973** — Stafford Beer Project Cybersyn (см. research/deepening-2026-05-18/02)
+
+**Active Inference branch (newer):**
+- **2006+** — Karl Friston Free Energy Principle (FEP) — brain как Bayesian inference engine
+
+Аналогия: представь что 70 лет одна **линия мыслителей** говорят «**intelligence не в голове, а в системе человек+инструменты+язык+методология**». Они изобретают mouse (Engelbart 1968), personal computing (Kay 1972), hypertext (Nelson 1965), philosophy this (Clark/Chalmers 1998), spatial computing (Victor 2017), LLM-wiki (Karpathy 2026) — все это **branches одного intellectual tree**.
+
+### §8.2 Ключевые pointы
+
+- **Engelbart 1962 H-LAM/T** = literal 4-tuple parent FPF (см. research/deepening-2026-05-18/04 deep dive)
+- **Clark/Chalmers 1998** «**Otto/Inga thought experiment**» — Otto с notebook = functionally equivalent Inga's memory; active externalism
+- **Stafford Beer VSM** = Foundation Part 4 citation (уже canonical в Jetix)
+- **Ashby «only variety can absorb variety»** = inlined в systems-expert agent
+- **Karpathy LLM Wiki** = direct CLAUDE.md «Wiki Architecture v2» substrate
+- **Xanadu fail = 30 лет over-design** (deep dive в research/deepening-2026-05-18/01)
+- **Friston FEP** = bayesian agents reading structured data — possible academic alignment
+
+### §8.3 Зачем нам это для Jetix
+
+**Это foundational intellectual lineage** для FPF substrate. **Engelbart H-LAM/T (1962) = literal 4-tuple parent.** Jetix == «AI-co-readable extension of H-LAM/T to engineering-methodology distribution at scale».
+
+**Direct overlap (Jetix opens onto):**
+
+| Jetix claim | Adjacent precedent | Overlap |
+|---|---|---|
+| FPF = «trained human + artifacts + language + methodology» | Engelbart H-LAM/T (1962) | **EXACT — same 4-tuple** |
+| Karpathy LLM Wiki pattern в wiki/ | Karpathy LLM Wiki Gist (April 2026) | **DIRECT adoption** |
+| Role-attestation + memory transfer | Clark/Chalmers Otto-notebook | **STRONG — FPF artifacts = extended cognition substrate** |
+| VSM в Foundation Part 4 | Beer VSM + Cybersyn | **DIRECT — uже Foundation citation** |
+| Dynamic media для methodology onboarding | Alan Kay Dynabook + Bret Victor Dynamicland | **STRONG — «medium for thought»** |
+
+**Jetix UNIQUE (lineage не имеет):**
+- Methodology-distribution focus + role-attestation as primary trust
+- Russian-English bilingual + multi-cultural
+- Default-Deny + constitutional governance (Pillar C Tier 2)
+- Network State + economic substrate (text_004 + Balaji)
+
+**5 lessons from failures:**
+
+1. **Xanadu** — 30 years over-design → ship usable subset first (см. doc 01 deepening)
+2. **Cybersyn** — political fragility → distributed substrate per Pillar C R12 + Corrigibility
+3. **Engelbart underuse** — institutional substrate matters as much as invention quality. Xerox PARC ate credit for mouse/GUI. **Lesson:** Foundation Architecture LOCKED 2026 = pre-institutional discipline
+4. **Dynamicland** — laboratory beats product = mission staying laboratory. Workshop pattern (vision/03) must ship-not-only-pilot
+5. **Karpathy LLM Wiki** = «simple pattern + LLM substrate + GitHub Gist» = viral adoption mechanism — **distribution model для FPF**
+
+**Cross-refs:** vision/01 universal language, vision/02 internet for engineers, vision/03 Workshop, H8 Trust Infrastructure, Foundation Part 4 (VSM), CLAUDE.md «Wiki Architecture v2», research/deepening-2026-05-18/01 (Xanadu deep), research/deepening-2026-05-18/02 (Cybersyn deep), research/deepening-2026-05-18/04 (Engelbart deep), research/deepening-2026-05-18/09 (Karpathy deep).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Прочитать Engelbart 1962 paper целиком** (dougengelbart.org/content/view/138) — short, ~50 страниц, foundational text
+2. **Прочитать Clark/Chalmers 1998** Extended Mind paper — short, ~13 страниц — Otto/Inga thought experiment важен для FPF artefacts framing
+
+**Phase 1:**
+
+3. **Foundation-anchor sentence** explicitly equating FPF substrate с Engelbart H-LAM/T — 3 candidates surfaced в research/deepening/04 §3; Ruslan picks
+4. **Karpathy distribution model adoption** — simple pattern + GitHub Gist viral mechanism для FPF Pattern Language artifact (см. research/deepening-2026-05-18/05)
+
+**Phase 2:**
+
+5. **Jetix own «Xanadu pre-mortem»** написать — Phase 1 end retrospective + refutation conditions (см. doc 01 §4 уже surfaced)
+6. **Friston FEP collaboration** — explore — can Active Inference describe role-attestation Bayesian update? Possible academic paper
+
+**Phase 3+:**
+
+7. **Visit Dynamicland Berkeley** при наличии resources — Realtalk pattern fits Workshop physical+digital hybrid
+
+### §8.5 Резюме на 2 строки
+
+**70-year lineage «intelligence as coupled tool» от Bush 1945 → Engelbart 1962 H-LAM/T → Clark/Chalmers 1998 Extended Mind → Karpathy 2026 LLM Wiki** = direct intellectual ancestry FPF. Для Jetix: cite Engelbart Foundation-anchor + borrow Karpathy distribution model + write own Xanadu pre-mortem.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~800.*
+

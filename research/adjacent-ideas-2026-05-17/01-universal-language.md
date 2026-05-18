@@ -209,3 +209,98 @@ language: russian (basic) + english (verbatim citations)
 - [Mathlib — Lean Lang](https://lean-lang.org/use-cases/mathlib/)
 - [Structured data 2024 — Web Almanac](https://almanac.httparchive.org/en/2024/structured-data)
 - [JSON-LD — Wikipedia](https://en.wikipedia.org/wiki/JSON-LD)
+
+---
+
+## §8 На человеческом — что такое «универсальный язык» и какие precedents есть (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор поля «универсальных / точных языков»** — кто пытался создать единый язык для людей / машин / систем за последние 100+ лет. Это **первый research-adjacent cluster** = baseline для всего что мы делаем в FPF universal-language ambition.
+
+**4 ствола изучения:**
+
+1. **Conlangs с философской миссией** — Lojban (1987) / Ithkuil (~1978) / Toki Pona (2001) / Esperanto (1887). Фокус: cognition + cultural neutrality
+2. **Formal specification languages** — TLA+ / Lean / Coq / Alloy / Z. Фокус: математическая строгость для concurrent / distributed systems
+3. **Controlled Natural Languages (CNL)** — Attempto ACE / SBVR / Simplified Technical English. Мост между текстом и формальной логикой
+4. **Semantic Web stack** — RDF / OWL / JSON-LD / Schema.org. Машинно-читаемый граф знаний
+
+Аналогии:
+- **Lojban** = «английский на стероидах predicate logic» — каждое предложение mathematically unambiguous, но learning curve огромный
+- **Ithkuil** = «семантический сжатый файл» — короткое слово содержит огромное количество meaning, но **almost zero speakers** (даже автор не для daily speech)
+- **Toki Pona** = «120 слов и точка» — заставляет precision через minimalism
+- **TLA+** = «математика для распределённых систем», используется в AWS, Intel, Microsoft
+- **ACE (Attempto)** = «english который компьютер тоже понимает» — литерально pipeline text → first-order logic → Prolog
+- **JSON-LD / Schema.org** = «вот эта страница про book/movie/person», понимает Google → AI grounding
+
+### §8.2 Ключевые pointы
+
+- **Esperanto (1887)** = ~2M speakers, most successful conlang
+- **Lojban (1987)** = ~hundreds fluent speakers, predicate-logic grammar
+- **Ithkuil (~1978)** = ~zero speakers, 81 grammatical cases, philosophical artifact
+- **Toki Pona (2001)** = ~few thousand active, 120 words, **metacognition exercise**
+- **TLA+** (Leslie Lamport ~1994) = used в AWS, Intel, Compaq; **«quixotic attempt to overcome engineers' antipathy towards mathematics»**
+- **Lean + mathlib** = >1M lines formalized math; **AlphaProof IMO silver 2024**; Lean FRO launched July 2023
+- **Attempto ACE** (U Zurich 1995+) = ACE text → APE → DRS → OWL/SWRL/Prolog pipeline
+- **JSON-LD adoption** = **34% (2022) → 41% (2024)**; **>87% enterprise top-3 ranking sites**
+- **Knowledge graphs** = «imperative for organizations implementing generative AI» (Gartner 2024)
+
+### §8.3 Зачем нам это для Jetix
+
+**Это foundational adjacency для FPF universal-language claim** (vision/01-fpf-as-universal-language).
+
+**Direct overlap (что Jetix может borrow):**
+
+| FPF claim | Adjacent precedent | Overlap |
+|---|---|---|
+| «Один source of truth + multiple translation views» | Attempto ACE → DRS → OWL/Prolog | **HIGH — ACE = literal реализация паттерна** |
+| «Minimal vocabulary forces precision» | Toki Pona ~120 words | MEDIUM same philosophy |
+| «Predicate logic as substrate» (FPF B.3 F-G-R) | Lojban grammar | MEDIUM |
+| Machine-readable role attestation | Schema.org / JSON-LD | **HIGH potential — FPF roles могут быть JSON-LD entities** |
+| Community + tooling + payoff drives adoption | Lean+mathlib+AlphaProof; TLA+@AWS; Schema.org@Google | **DIRECT LESSON** |
+
+**Что Jetix UNIQUE (existing conlangs не имеют):**
+- Role-attestation как primary trust mechanism (H8)
+- Multi-actor coordination (FPF A.2.8 Commitment / A.2.9 SpeechAct)
+- Dual-language (Russian content + English primitives)
+- Human + AI co-readability (FPF A.6.B)
+- Universal language **for methodology onboarding** specifically
+
+**Critical failure pattern lesson:**
+
+**~99% of conlangs achieve <100 active speakers.** Theoretical elegance ≠ adoption. **Adoption requires:**
+- Sustained community (decades)
+- Pragmatic payoff (Esperanto: travel; Toki Pona: metacognition; Lean: prove theorems)
+- Low barrier (Toki Pona 120 words; Esperanto 16 rules)
+- Tooling (dictionaries, courses, software)
+
+**TLA+ partial adoption pattern:** despite Lamport prestige + AWS + ~30 years, still niche. **Reason:** engineers must learn temporal logic; **tooling improved late** (TLA+ Toolbox 2010s). Lean took off after **VS Code integration + mathlib + AlphaProof** — **timing of tooling matters**.
+
+**Cross-refs:** vision/01 FPF universal language, FPF H8 Trust Infrastructure, FPF B.3 F-G-R, FPF A.6.B disclosure, 14 Phase 0 objects, audio_672 «универсальный язык кооперации».
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **Прочитать ACE Wikipedia + 1 ACE paper** — pipeline pattern (text → DRS → OWL/Prolog) = direct precedent для FPF A.6.B dual-encoding
+2. **Audit JSON-LD usage** — могут ли FPF role definitions быть JSON-LD entities? W3C VC stack overlap? (см. также research/deepening-2026-05-18/07 substrate matrix)
+3. **Read Sonja Lang Boulder roundtable transcript** (March 2024) — Toki Pona metacognition lessons
+
+**Phase 1:**
+
+4. **ACE-FPF mapping experiment** — express A.2.8 Commitment / A.2.9 SpeechAct / E.5 Guard-Rails as ACE → DRS rules. ~1 week experiment
+5. **Tooling investment timing** — Lean roadmap (VS Code 2017 + mathlib 2018 + AlphaProof 2024) = ~7 year tooling compound. **Phase 1 = sweet spot для начала FPF tooling** (LLM substrate)
+
+**Phase 2+:**
+
+6. **Define FPF «Lojban moment» refutation test** — precision adopted that nobody uses. Например: FPF F-G-R discipline practiced by Ruslan only after 2 years → refuted-at-Phase-2
+7. **Hire Lean community advisor candidate** — community structure analysis (mathlib exponential growth 2020-2024 mechanism)
+
+### §8.5 Резюме на 2 строки
+
+**Universal-language field = 4 stems (conlangs / formal specs / CNL / Semantic Web); 99% conlangs fail at <100 speakers; success requires community + tooling + payoff + decade-compound.** Для Jetix: borrow ACE pipeline pattern (direct precedent A.6.B) + JSON-LD для role-attestation; avoid Lojban-moment (precision nobody uses).
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~810.*
+

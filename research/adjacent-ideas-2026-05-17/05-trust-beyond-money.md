@@ -237,3 +237,94 @@ All face Goodhart's-law gaming over time.
 - [Mondragón about](https://www.mondragon-corporation.com/en/about-us/)
 - [Graeber Debt — Wikipedia](https://en.wikipedia.org/wiki/Debt:_The_First_5,000_Years)
 - [Slashdot — SO reputation downfall 2025](https://developers.slashdot.org/story/25/06/02/0922250/)
+
+---
+
+## §8 На человеческом — какие precedents trust beyond money (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор существующих trust mechanisms, которые работают без денег** — direct adjacency для **H8 Octagon Trust Infrastructure LOCKED 2026-05-17**. Audio_672 core insight = «деньги ↔ trust beyond money»: для Jetix substrate trust между members должен работать не только через payments.
+
+**5 categories adjacent precedents:**
+
+1. **Time-based currencies** — TimeBanks (Edgar Cahn 1980+); Ithaca HOURS; LETS schemes
+2. **Reputation systems** — PGP Web of Trust (Zimmermann 1992); Stack Overflow karma; GitHub stars; Linux maintainership; Apache committer
+3. **Cryptographic credentials** — W3C Verifiable Credentials v2.0 (Rec May 2025); Soulbound Tokens (SBT, Buterin/Weyl/Ohlhaver 2022)
+4. **Mechanism design** — RadicalxChange Quadratic Voting + Quadratic Funding (Weyl); Plurality book (Tang/Weyl 2024)
+5. **Cooperative + gift economies** — Mondragón (70K employees, 1956+); Graeber «Debt» (2011); Marcel Mauss «The Gift» (1925)
+
+Аналогии:
+- **TimeBank** = «1 час работы любого = 1 час работы любого другого» (Cahn philosophy)
+- **PGP Web of Trust** = «cryptographic подпись на friend's key, transitively trust строится через цепочки» (с 1992 = 34 года)
+- **VC v2.0** = «digital passport с selective disclosure, W3C standard Recommendation 2025»
+- **SBT** = «non-transferable badge на blockchain, виден all»
+- **Quadratic Voting** = «voice credits → square-root counted, не 1-token-1-vote» (anti-tyranny majority)
+- **Mondragón** = «70-year cooperative с wage cap 5:1 average и one-worker-one-vote» (см. research/deepening/06)
+
+### §8.2 Ключевые pointы
+
+- **TimeBanks** — Edgar Cahn 1980+; **died Jan 23, 2022, age 86**; 4 principles: We Are All Assets / Redefining Work / Reciprocity / Social Networks
+- **PGP Web of Trust** — Zimmermann 1992; strong set: **18K (2003) → 62K (2018) → 57.5K (2019)**
+- **Stack Overflow** — asymmetric karma (+10 upvote, -1 to recipient downvote, **-2 to downvoter**); 2025 «How SO reputation system led to downfall» Slashdot (см. research/deepening/03)
+- **W3C VC v2.0** — **Recommendation 15 May 2025**; production: TruAge, CA DMV, SpruceID, Danube Tech, ETRI Korea
+- **SBT paper «Decentralized Society: Finding Web3's Soul»** — SSRN 4105763, May 2022; Buterin + Weyl + Ohlhaver
+- **Quadratic Funding** — used by Gitcoin ($45M+ distributed); square-root counting amplifies small donors
+- **Mondragón** — 70,085 employees (2024), 5:1 average wage ratio, **68 years sustained value-aligned coordination**
+- **Graeber «Debt: First 5,000 Years» (2011)** — «human economies» = ongoing obligations vs debt = impersonal calculation
+
+### §8.3 Зачем нам это для Jetix
+
+**Direct adjacencies for H8:**
+
+| H8 design surface | Adjacent precedent | Lesson |
+|---|---|---|
+| Role-attestation substrate | **W3C VC v2.0 + SBT** | Cryptographic, machine-verifiable; VC selective disclosure preferred (см. research/deepening/07) |
+| Trust transitivity | **PGP Web of Trust** | 34-year working transitive trust network; directed graph; key-signing parties |
+| Non-money cooperative trust at scale | **Mondragón 70 years** | Working 70-year non-money-primary trust at industrial scale (см. research/deepening/06) |
+| Anti-extraction (R12) positive face | **TimeBanks 4 principles** | «Everyone has something to contribute» = positive R12 framing |
+| Reputation gamification anti-pattern | **Stack Overflow 2025 downfall** | Single-signal asymmetric karma decays ecology (см. research/deepening/03) |
+| Anti-tyranny majority | **Quadratic Voting** | Voice credits + square-root counting; relevant для H8 governance |
+| Anthropological framing | **Graeber + Mauss** | Trust = ongoing obligations, не debt; FPF role-attestation = «human economy» pattern |
+
+**Direct H8 design implications (cross-ref research/deepening/07 substrate matrix):**
+
+- **Layer 1 (immediate, free):** PGP-signed Foundation Part changes + Karpathy-wiki-sig convention formalized
+- **Layer 2 (production):** add W3C VC v2.0 over Phase 1
+- **Layer 2+ (pattern adopt):** Coordinape epoch-peer-reward для Workshop revenue (БЕЗ Ethereum)
+- **Layer 3+ (optional):** SBT только для crypto-native partner Clans
+
+**Cross-refs:** decisions/STRATEGIC-INSIGHT-H8-* (H8 LOCKED 2026-05-17), R12 anti-extraction, vision/03 Workshop, vision/08 L1+, research/deepening-2026-05-18/03 (SO + Friend.tech), research/deepening-2026-05-18/06 (Mondragón), research/deepening-2026-05-18/07 (substrate matrix), research/deepening-2026-05-18/11 (Tang + Weyl Plurality).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **W3C VC v2.0 spec preamble** прочитать (first 20 страниц) — production-ready substrate primary candidate
+2. **TimeBanks 4 principles** в Pillar C Tier 1 / Workshop curriculum incorporate как positive R12 framing
+3. **Read Graeber «Debt» chapter 1-3** (если ещё не) — anthropological frame для H8
+
+**Phase 1:**
+
+4. **PGP web-of-trust pilot** — 10-person first Clan key-signing party as proof-of-concept; FPF artifacts as PGP-signed claims
+5. **Stack Overflow downfall pre-mortem** — где Jetix рискует SO trajectory (gamification eats ecology)?
+6. **TimeBanks failure mode parity** — где Jetix рискует «flat-currency-no-skill-signal»? FPF schema must differentiate
+
+**Phase 2:**
+
+7. **W3C VC v2.0 implementation pilot** — first Workshop graduate gets VC-formatted attestation; SpruceID / TruAge как reference
+8. **Quadratic Funding для first Clan revenue distribution** — Gitcoin pattern applied к hypothetical 10-person Workshop
+9. **«Plurality» book deep read** (Tang/Weyl 2024) — H4+H7+H8 cross-cluster overlap (см. research/deepening-2026-05-18/11)
+
+**Phase 3+:**
+
+10. **Mondragón study visit possible** (Спания, Country Basques) — 68-летний working cooperative; intelligence gathering
+
+### §8.5 Резюме на 2 строки
+
+**5 categories trust-beyond-money: TimeBanks (Cahn) / PGP WoT (1992, 34yrs) / W3C VC v2.0 (Rec May 2025) / Quadratic Voting (Weyl) / Mondragón (70 years cooperative).** Для H8 layered approach: PGP + VC v2.0 + Mondragón cooperative logic; avoid Stack Overflow gamification + Friend.tech financialization attractors.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~750.*
+

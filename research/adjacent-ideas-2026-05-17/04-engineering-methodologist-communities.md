@@ -205,3 +205,105 @@ language: russian + english
 - [Agile Manifesto](https://agilemanifesto.org/)
 - [Lean Tech Manifesto](https://www.planet-lean.com/articles/the-lean-tech-manifesto)
 - [Reimagining Agile — Rememo 2024](https://rememo.io/blog/agile-2023-an-examination-of-emerging-trends)
+
+---
+
+## §8 На человеческом — кто уже делает engineering methodology (added brigadier 2026-05-18)
+
+### §8.1 Что это
+
+Это **обзор существующих methodologist communities** — кто уже работает в той же area где Jetix хочет positioning. **Это adjacency map: что вокруг Jetix существует + какие precedents у нас есть.**
+
+**4 типа:**
+
+1. **Standards bodies** — INCOSE (International Council on Systems Engineering, 21K+ members), OMG (UML, SysML, BPMN), IEEE / ACM
+2. **Pioneering methodology + descendant orgs** — SEMAT (Jacobson Essence Kernel), Cynefin (Snowden), TRIZ (Altshuller, Russian-rooted!), TOC (Goldratt «The Goal» 3M+ books)
+3. **Manifesto + viral** — Agile (25 years 2026), Lean Tech Manifesto 2024
+4. **Russian methodology lineage** — Левенчук ШСМ → EEM Institute (715-page «Systems Thinking 2020»), Цэрэн МИМ
+
+Аналогии:
+- **INCOSE** = «professional association systems engineers, 70+ chapters, 52 working groups»
+- **SEMAT** = «давайте создадим universal language для software methodology» (см. research/deepening-2026-05-18/08 deep dive)
+- **Cynefin** = «5 типов проблем: clear / complicated / complex / chaotic / disorder» — sense-making device
+- **TRIZ** = «русский Альтшуллер проанализировал 40K патентов и вывел 40 Principles of Invention» — **Russian-rooted methodology distribution model**
+- **TOC** = «Goldratt написал novel «The Goal», 3M copies sold, certification body TOCICO» — **novel + cert + consulting** distribution
+- **Левенчук ШСМ** = **primary Russian baseline** для Jetix (Anatoly Levenchuk 30+ years strategy consulting, government + heavy industry)
+
+### §8.2 Ключевые pointы
+
+- **INCOSE:** 21,000+ members, 70+ chapters, 52 WGs, 70+ countries; 34th Symposium July 2024 Dublin; Healthcare WG specialty
+- **OMG SysML v2 final adoption: June 2025** — KerML metamodel + formal semantics + **textual syntax** (enables AI integration)
+- **SEMAT** = closest direct precedent к FPF (see research/deepening-2026-05-18/08)
+- **Cynefin** = 25-year sustained via consulting practice; Snowden 2024 «overconfidence» acknowledgment (rare retrospective discipline!)
+- **TRIZ** = Russian-rooted distribution model; Altshuller Institute US + multiple Russian/European communities; **prototype для Jetix RU-rooted distribution**
+- **TOC** = 3M books, 23 languages, hundreds universities; **TOCICO certification body**
+- **«Reimagining Agile» 2024-2026** initiative — original signatories reclaiming philosophy; potential ally pool
+- **Lean Tech Manifesto 2024** (Fabrice Bernhard, Theodo) — Lean + Agile + tech innovation at scale
+- **Левенчук «Systems Thinking 2020»** — 715-page RU + EN textbook
+- **Цэрэн МИМ** — direct Jetix L1 relationship per CLAUDE.md
+
+### §8.3 Зачем нам это для Jetix
+
+**Это competitive + alliance landscape для FPF.**
+
+**Closest direct precedent: SEMAT** — same ambition («universal methodology language»), same structure (Alphas with state transitions ≈ FPF objects with quality gates), same target audience. **15 years adoption struggle = direct lesson** (см. research/deepening-2026-05-18/08 deep dive).
+
+**4 distribution models compared:**
+
+| Methodology | Distribution model | Adoption result |
+|---|---|---|
+| **SEMAT Essence** | OMG standards body + academic paper | Slow (15 years niche) |
+| **Cynefin** | Consulting practice + 25-year community | Sustained niche |
+| **TRIZ** | Russian-rooted + Altshuller Institute + workshops | Sustained niche; **prototype for RU-rooted distribution** |
+| **TOC** | Novel («The Goal») + certification (TOCICO) + consulting | 3M books, 23 languages — **strong adoption** |
+| **Agile/Scrum** | Manifesto + viral + certification economy | Mass adoption + commodity dilution |
+| **Lean Tech Manifesto** | 2024 launch — too early to assess | TBD |
+| **Jetix FPF** | Foundation + Workshop + AI substrate (new) | TBD |
+
+**Direct adjacencies для Jetix:**
+
+1. **SEMAT-FPF gap analysis** — map every FPF object to SEMAT Alpha. 1-week exercise. Direct competitive analysis
+2. **Cynefin integration** — could FPF problem-types use Cynefin 5-domain classification as standardized triage? Easy win
+3. **TRIZ as RU-rooted distribution prototype** — TRIZ shows Russian-methodology can distribute internationally; pattern для Jetix bilingual
+4. **TOC «The Goal» analogy** — possible Jetix narrative artifact «The Workshop» novel? Cost-benefit pre-mortem
+5. **OMG SysML v2 textual syntax** — direct FPF cross-pollination opportunity (см. research/deepening-2026-05-18/12 NASA SE deep)
+6. **«Reimagining Agile» alliance** — possible joint manifesto positioning
+7. **INCOSE outreach** — Jetix L2+ member presenting at INCOSE 2026 IS (Spain, July 2026) = distribution surface
+
+**Critical risks:**
+- **Levenchuk sole-author dependency** mitigation (ШСМ heir-apparent? — analog to Mondragón post-Arizmendiarrieta institutionalization, see research/deepening-2026-05-18/06)
+- **Agile commoditization pattern** — Jetix must avoid superficial implementation + soul-loss trajectory
+
+**Cross-refs:** vision/01 universal language, design/JETIX-FPF.md, research/deepening-2026-05-18/08 (SEMAT deep), research/deepening-2026-05-18/12 (NASA SE / OMG SysML), research/deepening-2026-05-18/14 (TPS / Lean lessons).
+
+### §8.4 Concrete actions
+
+**Сейчас (Phase 0):**
+
+1. **SEMAT-FPF gap analysis 1-week exercise** — map every FPF object to SEMAT Alpha. Output: «FPF = SEMAT-adjacent reimagining» (already drafted в research/deepening-2026-05-18/08)
+2. **Cynefin 5-domain classification** integration — could FPF problem-types use это? Easy legibility win
+
+**Phase 1:**
+
+3. **TRIZ distribution mechanism study** — как Russian-rooted methodology achieves international adoption? Direct prototype for Jetix bilingual
+4. **«The Workshop» novel cost-benefit pre-mortem** — TOC «The Goal» analog; worth commissioning narrative artifact?
+5. **«Reimagining Agile» community handles find** — possible ally pool
+
+**Phase 2:**
+
+6. **INCOSE 2026 IS (Spain, July 2026)** — Jetix L2+ member present? Distribution surface
+7. **OMG SysML v2 cross-pollination experiment** — express one Jetix Workshop artifact в SysML v2 textual syntax (see research/deepening-2026-05-18/12)
+8. **Левенчук heir-apparent intelligence** — sole-author dependency mitigation analysis
+
+**Continuous:**
+
+9. **Foundation Architecture + Pillar C** = explicit anti-Agile-commoditization design (rigidity + soul-loss prevention via Corrigibility + AP-6)
+
+### §8.5 Резюме на 2 строки
+
+**Methodologist landscape: SEMAT = closest direct precedent (slow adoption); Cynefin = 25-year sustained niche; TRIZ = Russian-rooted distribution prototype; TOC = novel + cert (3M books); Agile = mass adoption + commodity dilution.** Для Jetix: SEMAT gap analysis already done; consider Cynefin integration + TRIZ distribution lessons + «The Workshop» novel pre-mortem; INCOSE outreach Phase 2.
+
+---
+
+*Plain English section added by brigadier 2026-05-18 per Ruslan request. Word count of §8: ~830.*
+
