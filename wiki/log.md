@@ -6,6 +6,17 @@ updated: 2026-05-19
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-05-19] [voice-pipeline-batch-6] Tier A 3 concepts/claims (RUSLAN-ACK-IMPLIED per batch-6 prompt §10 acceptance criteria) | entries: +3
+
+Tier A auto-promotion 3 wikis из voice-pipeline-2026-05-19-batch-6 (audio_694-696 day batch):
+- [[concepts/fpf-as-info-transfer-vocabulary]] (O-63) — ⭐ verbatim Ruslan FPF positioning anchor: «FPF просто помогает эффективно передавать, создавать и фиксировать… удобный словарь»; highest-grade Ruslan voice FPF anchor sprint-wide
+- [[concepts/mastery-formula]] (O-64) — verbatim Ruslan mastery formula: «мастерство = количество × качество × глубина обработки информации × метод = опыт»; Education Layer pedagogy substrate
+- [[claims/persistence-beats-talent]] (O-69) — verbatim Ruslan claim: «упорство бьёт талант, потому что mastery = accumulated info; talent = genetic baseline»; Education Layer motivational anchor
+
+Source: [[raw/voice-memos-2026-05-19-batch/audio_694]], [[raw/voice-memos-2026-05-19-batch/audio_695]], [[raw/voice-memos-2026-05-19-batch/audio_696]] (PRIMARY); [[reports/voice-pipeline-2026-05-19-batch-6/]].
+
+Also surface: 8 Tier B candidates ack-pending (O-62 Fund-of-Humanity HIGH-risk Pillar C review / O-65 5 functional skills / O-66 Triple-win / O-67 Reset experiment / O-68 Multi-modal methods / O-70 Trichotomy / O-71 Supportive control / O-72 Support-handcuff subsumed); 8 NEW deep research candidates DR-1 thru DR-8 (top-3 P1: Fund-Mondragón / FPF-Field-Test / Mastery-Calibration).
+
 ## [2026-05-19] [k-4-intellect-audit] Tier B/C 2 concepts (candidates — Ruslan ack pending) | entries: +2
 
 - Per `prompts/k-4-intellect-12-component-audit-2026-05-19.md` Phase 8 closure

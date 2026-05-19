@@ -705,3 +705,39 @@ R1 preserved (Ruslan sole strategist; ack required для все strategic moves
 ---
 
 *§APPEND-2026-05-19-evening-2 per Ruslan focus pivot. Master Packaging autopilot; notes processing primary focus.*
+
+
+## §APPEND-2026-05-19-batch-6 — voice-pipeline batch-6 reflection items surface
+
+batch-6 voice-pipeline (audio_694-696, 19.05 day batch) surfaces reflection items (Ruslan-personal vs Jetix-strategic split per inbox routing rule).
+
+### Jetix-strategic items → routed к `reports/voice-pipeline-2026-05-19-batch-6/`
+
+Primary content (FPF positioning anchor + mastery formula + intellect skills + Fund-of-Humanity surface + layered control) = Jetix-strategic; full processing в batch-6 reports.
+
+### Reflection-inbox items (personal / vision / patterns под себя)
+
+| Item | Source | Reflection angle |
+|---|---|---|
+| Ruslan-as-управляющий ambition surface | audio_696 claims 17-21 | Self-OS check: founder ambition healthy? «под охуенные критерии стабильно» = self-confidence vs grandiosity calibration question |
+| «Здесь-и-сейчас» systemic pause frame | audio_696 claim 17 | Personal mindfulness practice anchor — Ruslan voice frames systemic-pause not just personal mindfulness; both apply |
+| Persistence vs talent self-application | audio_696 claim 16 | Self-reflection: how does Ruslan personally apply persistence?  daily/weekly practice anchors? |
+| «Чувство меры» as personal discipline | audio_696 claim 9 | Self-OS «чувство меры» = when start/stop deep work; current sprint duration check |
+| Layered control = self-management mirror | audio_695 | Self-OS: who is Ruslan's controller? (community? mentors? journaling = self-controller?) |
+| Учеба-понимание-метод trichotomy personal | audio_694 | Self-OS: которые из 3 layers Ruslan лично сейчас strong/weak? |
+
+### Self-OS routing decisions
+
+- Items routed к `decisions/SELF-MANAGEMENT-SYSTEM-SPEC-v0-2026-05-16.md` для Self-OS integration consideration (NOT auto; Ruslan reviews per routing rule)
+- Items NOT routed к wiki/ или canonical Jetix (per inbox boundary)
+- Mindfulness / «чувство меры» / persistence application = Self-OS Tier 1 manager (per Pillar C inline §4.3)
+
+### Constitutional preservation
+
+- ✓ Routing rule preserved (Self-OS vs Jetix-strategic split per inbox header)
+- ✓ Verbatim Ruslan voice анchor preserved
+- ✓ AP-6 dissent preservation — «founder-managed fund» frame preserved despite governance risk surface (per audio_696 file §3 IMPL-2)
+
+---
+
+*§APPEND-2026-05-19-batch-6 reflection items routed к Self-OS substrate consideration. Per Ruslan focus pivot — notes processing primary, master packaging autopilot. 6 reflection-inbox items surface; Self-OS owner decides integration.*

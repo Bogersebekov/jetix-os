@@ -1583,3 +1583,71 @@ Per Ruslan ack «погнали All» + Top-5 decisions acked 2026-05-19.
 ---
 
 *§24 2026-05-19 evening per Ruslan ack «All». A + D + C-partial executed; B (R12 Charter) deferred next batch.*
+
+
+## §25 APPEND-2026-05-19-batch-6 — voice-pipeline-2026-05-19-batch-6 (11 NCs O-62 to O-72)
+
+batch-6 voice-pipeline (audio_694-696, 19.05 day batch: 10:20 / 11:54 / 17:05) surfaces 11 NEW NC candidates через 10-lens cross-analysis (30 datapoints + Sprint-Synthesis-v2 added as 10th lens). Per `reports/voice-pipeline-2026-05-19-batch-6/`.
+
+### §25.1 NC summary (11 candidates)
+
+| ID | Title | Source audio | F-grade | Risk | Tier (proposed) | Action |
+|---|---|---|---|---|---|---|
+| O-62 | Fund-of-Humanity Positioning | audio_696 claims 17-21 | F2 R-low | **HIGH** constitutional | B (HIGH-risk) | SD-1 Pillar C review |
+| O-63 | FPF-as-Info-Transfer-Vocabulary | audio_696 claim 11 verbatim | F3 R-medium | Low | A auto-promote | Tier A wiki created Phase 5 |
+| O-64 | Mastery Formula | audio_696 claim 8 | F3 R-medium | Low | A auto-promote | Tier A wiki created Phase 5 |
+| O-65 | 5 Intellect Functional Skills | audio_696 claims 1-5 | F3 R-medium | Low | B ack-pending | D-3 decision: sub-spec O-51 vs independent |
+| O-66 | Triple-Win Positioning | audio_696 claim 20 | F2 R-low | Medium (credibility) | B ack-pending | SD-3 A/B outreach test |
+| O-67 | Здесь-и-сейчас Systemic Pause Experiment | audio_696 claims 17-19 | F1 R-low | Medium (utopian) | B ack-pending | SD-2 workshop bounded design |
+| O-68 | Multi-Modal Methods Palette | audio_696 claim 10 | F2 R-low | Low | B ack-pending | BL-3 FPF B-layer extension |
+| O-69 | Persistence > Talent | audio_696 claim 16 verbatim | F3 R-medium | Low | A auto-promote | Tier A wiki created Phase 5 |
+| O-70 | Learning-Knowledge-Understanding Trichotomy | audio_694 verbatim | F2 R-medium | Low | B ack-pending | Education Layer sub-primitive |
+| O-71 | Recursive Supportive Control Pattern | audio_695 verbatim | F3 R-high | Low | B ack-pending | Bundle 1 §APPEND candidate |
+| O-72 | Control-as-Support vs Control-as-Handcuff Distinction | audio_695 verbatim | F3 R-medium | Low | C subsumed → O-71 | merge into O-71 wiki |
+
+### §25.2 Tier A auto-promotions (3) — RUSLAN-ACK-IMPLIED per batch-6 prompt §10
+
+Phase 5 wiki creations (per batch-6 prompt §6.2):
+
+- ✅ `wiki/concepts/fpf-as-info-transfer-vocabulary.md` (O-63) — verbatim Ruslan FPF positioning anchor
+- ✅ `wiki/concepts/mastery-formula.md` (O-64) — verbatim Ruslan mastery formula
+- ✅ `wiki/claims/persistence-beats-talent.md` (O-69) — verbatim Ruslan persistence-vs-talent claim
+
+Promotion rationale: Tier A applies к verbatim Ruslan voice quotes (R1 surface only); not strategic interpretation. Wiki entries = verbatim preservation + cross-ref index. Per batch-6 prompt acceptance criteria + memory rule `feedback_breadth_not_selection.md`.
+
+### §25.3 Existing objects strengthened
+
+- O-27 Education Layer (F3 candidate) — audio_694 + 696 (5 skills + mastery formula + trichotomy) → F5 LOCK candidate ready (post DR-3 + DR-5 deep research)
+- O-29 ML/AI Engineering Substrate (F3 candidate) — audio_696 zadrot claim corroboration
+- O-31 Jetix-as-Society-Debugger (NC batch-5) — audio_696 «hack-system» verbatim corroboration
+- O-47 Information Substrate Hypothesis (NC batch-5) — audio_696 «человек = пучок info» verbatim corroboration
+- O-51 Intellect 12-Component Spec (NC batch-5) — audio_696 5 functional skills extension
+- O-52 Method of Systems Thinking (Tier A wiki) — audio_696 multi-modal methods extension
+- O-53 Sense of Measure / Scientific Approach (Tier A wiki) — audio_696 «чувство меры» verbatim corroboration ⭐
+- O-56 Jetix-as-Exokortex (Tier A wiki) — audio_696 substrate (info-augmentation) frame
+
+### §25.4 8 NEW deep research candidates surfaced (Bucket C special — per Ruslan focus pivot)
+
+Per `reports/voice-pipeline-2026-05-19-batch-6/05-candidates-3-buckets.md` §C.2:
+
+- **DR-1 ⭐⭐ Fund-of-Humanity Mondragón Substrate** (P1) — BLOCKS O-62 operationalisation
+- **DR-2 ⭐⭐ FPF-as-Vocabulary Field-Test Empirical** (P1) — informs FPF formal body decision
+- **DR-3 ⭐ Mastery Formula Calibration** (P2) — Education Layer F5 LOCK precondition
+- **DR-4 ⭐ Здесь-и-сейчас Reset Experiment Feasibility** (P3) — O-67 operationalisation gating
+- **DR-5 ⭐ 5 Functional Skills Pedagogy Operationalisation** (P2) — Education Layer F5 LOCK
+- **DR-6 ⭐ Layered Control Patterns Comparative** (P3) — Bundle 1 §APPEND substrate
+- **DR-7 Multi-Modal Methods Palette** (P3) — FPF B-layer extension
+- **DR-8 Society-as-Old-Methods Transition Dynamics** (P3) — O-31 Society-Debugger operationalisation
+
+### §25.5 Constitutional posture
+
+- ✓ R1 surface only — all NCs ack-pending per R11 Default-Deny
+- ✓ R6 — per-claim provenance с [src: audio_NNN claim N] tags
+- ✓ R11 — Default-Deny; 0 auto LOCK promotion; Tier A wiki = verbatim quote preservation only
+- ✓ R12 anti-extraction — *HIGH-risk* O-62 Fund-of-Humanity ack-pending Pillar C SD-1 review
+- ✓ IP-1 STRICT — substrate ≠ instance preserved; O-62 «Ruslan-как-управляющий» requires RUSLAN-LAYER executor binding
+- ✓ EP-5 — F-grade explicit per NC
+
+---
+
+*§25 appended 2026-05-19 evening per voice-pipeline-2026-05-19-batch-6. 11 NCs surfaced O-62-O-72; 3 Tier A wikis created Phase 5; 8 NEW deep research candidates surfaced. All claims R1 surface only per R11 Default-Deny.*
