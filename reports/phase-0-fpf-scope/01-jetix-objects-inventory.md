@@ -1498,3 +1498,42 @@ R1 STRICT (brigadier-scribe; 3 sequencing options parallel; NO recommendation) +
 ---
 
 *§22 appended by brigadier-scribe per `prompts/k-4-intellect-12-component-audit-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+
+## §23 RUSLAN-ACKED-2026-05-19-evening — K-6 insights Tier A promotion + top-5 decisions ack
+
+### §23.1 K-6 Tier A wiki promotions (Ruslan ack «инсайты тоже зафиксировать»)
+
+| Object | Status update | Wiki concept |
+|---|---|---|
+| **O-52 Method of Systems Thinking** | RUSLAN-ACKED-2026-05-19 (Tier A promoted) | `wiki/concepts/method-systems-thinking.md` |
+| **O-53 Sense of Measure principle** | RUSLAN-ACKED-2026-05-19 (Tier A); Pillar C Tier 2 rule 14 candidate (defer ack until 4-week empirical evidence) | `wiki/concepts/sense-of-measure-scientific-approach.md` |
+| **O-56 Jetix Workshop = Exokortex** ⭐⭐ | RUSLAN-ACKED-2026-05-19 (Tier A); possible Strategic Insight H-candidate (Octagon → Nonagon transition? — alternative к H9 System Merger) | `wiki/concepts/jetix-as-exokortex.md` |
+
+### §23.2 Top-5 decisions ack (2026-05-19 evening — Ruslan «всё подтверждаю»)
+
+| # | Decision | Ack status |
+|---|---|---|
+| **1** | **D1 Monetization mix** — top-5 short-term (V1 Hackathon sponsorship + V2 Workshop training + V3 Consulting + V4 quick-money P1 + V5 AI Grant) | **RUSLAN-ACKED-2026-05-19** |
+| **2** | **BL-1 Engineer Workshop STOPPER unblock priority** — Q3 2026 cohort recruitment 5-15 candidates | **PRIORITIZED-RUSLAN-ACKED-2026-05-19** |
+| **3** | **3 AWAITING-APPROVAL packets Option A** (H6 operational pre-eminence overlay + Pillar A Hackathon-Phase namespace + H9 Strategic Insight candidate surface 3 candidates) | **RUSLAN-ACKED-2026-05-19** — Option A везде |
+| **4** | **D2 Tier-1 partner cultivation 2-3 named targets** (Karpathy + Buterin + Anthropic OR Musk default; specific names Ruslan refines per opportunity) | **RUSLAN-ACKED-2026-05-19** (default targets confirmed) |
+| **5** | **D5 R12 Charter publication** — author / ack draft | **RUSLAN-ACKED-2026-05-19** (brigadier-draft → Ruslan-final-author flow) |
+
+### §23.3 Status / next actions
+
+- 3 AWAITING-APPROVAL packets — execute Option A overlays (Cloud Cowork follow-up)
+- D1 monetization → C.1 one-pager + C.2 pitch deck v1 substrate ready
+- BL-1 engineer cohort — Outreach Phase 1 10-team activation (Platform v2 §8)
+- D2 Tier-1 outreach — Karpathy + Buterin + Anthropic + RU L2 (per K-2 reception map)
+- D5 R12 Charter — brigadier drafts, Ruslan final-authors strategic prose
+- Sprint-synthesis-v2 aggregate run = unblocked
+- Master Packaging Step 6 = critical path activated
+
+### §23.4 Constitutional posture
+
+R1 (Ruslan acks — Tier A wiki promotions surface only; О-52/53/56 status update only; не Foundation modification) + R2 (Pillar C Tier 2 rule 14 candidate = SURFACE only; not added к foundation_generic; AWAITING-APPROVAL packet flow required) + R6 + R11 + R12 + IP-1 STRICT (O-56 Exokortex caveat: substrate = abstract method; instances = bound к executors per RUSLAN-LAYER) + EP-5 + append-only.
+
+---
+
+*§23 appended 2026-05-19 evening per Ruslan ack «всё подтверждаю + инсайты тоже куда-то зафиксировать». Tier A K-6 insights + top-5 decisions acked.*
