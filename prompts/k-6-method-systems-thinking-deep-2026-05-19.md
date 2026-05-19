@@ -10,8 +10,9 @@ phases: 8
 estimated_duration: ~1 week wall-clock
 estimated_cost: <€3.50
 voice_anchors:
-  - raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md
-  - raw/voice-memos-2026-05-19-batch/text_013@2026-05-19_afternoon.md
+  - raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md (10 core components)
+  - raw/voice-memos-2026-05-19-batch/text_013@2026-05-19_afternoon.md (8 additions 1)
+  - raw/voice-memos-2026-05-19-batch/text_014@2026-05-19_afternoon.md (10 additions 2 + Jetix=Exokortex thesis ⭐)
 constitutional_posture: R1 + R6 + R11 + R12 + IP-1 STRICT + EP-5 + append-only + FPF-lens-FIRST + breadth-NOT-selection
 output_namespace: research/method-systems-thinking-deep-2026-05-19/
 parallel_safe: true (different namespace; no interdependencies с other K-runs)
@@ -32,9 +33,10 @@ ultrathink
 - `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (8 sections + mermaid)
 - `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` (this file)
 
-**Voice anchors (PRIMARY — verbatim):**
+**Voice anchors (PRIMARY — verbatim; ВСЕ ТРИ MANDATORY):**
 - `raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md` (10 core method components: systems / information / processing / flow / strategy / rules / values / direction / sense-of-measure / intellect-cycle)
-- `raw/voice-memos-2026-05-19-batch/text_013@2026-05-19_afternoon.md` (8 additions: self-knowledge / influence-discrimination / active-selection / improvement-drive / meta+concrete-mixed / gradient-view / parts-decomposition / recursive-lifecycle-8-step)
+- `raw/voice-memos-2026-05-19-batch/text_013@2026-05-19_afternoon.md` (8 additions 1: self-knowledge / influence-discrimination / active-selection / improvement-drive / meta+concrete-mixed / gradient-view / parts-decomposition / recursive-lifecycle-8-step)
+- `raw/voice-memos-2026-05-19-batch/text_014@2026-05-19_afternoon.md` ⭐ (10 additions 2: info-categories / rule-knowledge / intellect-rule-quality / 3-stage-throughput-input / 3-stage-throughput-processing / 3-stage-throughput-output-memory / reconnaissance-phase / process-not-circle / per-iteration-selection / **Jetix=Exokortex ontological claim**)
 
 **Cross-references (READ for context):**
 - `decisions/strategic/JETIX-RECURSIVE-SELF-DEVELOPMENT-ENGINE-2026-05-18.md` (cycle formalisation parent)
@@ -187,7 +189,7 @@ ultrathink
 
 Cell dispatch: all 5 cells × 18 components
 
-### 18 components synthesis matrix:
+### 28 components synthesis matrix:
 
 **text_012 (10 components):**
 1. ALL = systems
@@ -201,7 +203,7 @@ Cell dispatch: all 5 cells × 18 components
 9. ⭐ **Sense of Measure (чувство меры)** — deep dive Phase 6
 10. Intellect-cycle (system self-development)
 
-**text_013 (8 additions):**
+**text_013 (8 additions 1):**
 11. System self-knowledge
 12. Influence-discrimination (good / bad)
 13. Active selection of positive influences
@@ -211,6 +213,20 @@ Cell dispatch: all 5 cells × 18 components
 17. Parts decomposition (break → improve → composite effect)
 18. Recursive lifecycle 8-step — deep dive Phase 7
 
+**text_014 (10 additions 2):**
+19. Info consumption categories (own system / interaction / **rules of other systems**)
+20. **Rule-knowledge → survival/success** dependency
+21. Intellect quality (= method + computational capability) → rule-knowledge quality
+22. **3-stage throughput #1 — Input bandwidth** (количество info может попасть внутрь)
+23. **3-stage throughput #2 — Processing** (метод + speed + computational capability)
+24. **3-stage throughput #3 — Output use** (quality dependent на **memory**)
+25. **Reconnaissance phase** (back to scanning + determining next consumption)
+26. **PROCESS not circle** (continuous, infinite, NOT mere repetition)
+27. **Per-iteration selection** (values + method + specific info caждую iteration)
+28. ⭐⭐ **Jetix Workshop = Exokortex (экзокортекс)** — ontological claim (deep dive Phase 5.5)
+
+**Note:** All 28 components MUST be addressed. Components 22-24 = 3-stage throughput model. Component 28 = critical ontological claim requiring дополнительной Phase 5.5 deep dive.
+
 Per component (≤300w):
 - Definition (verbatim Ruslan voice anchor citation)
 - Precedent corroboration (which Phase 1-4 thinker addresses)
@@ -219,9 +235,58 @@ Per component (≤300w):
 - Q3 2026 priority (T1 immediate / T2 mid-term / T3 long-term substrate)
 - Test design (refutation conditions)
 
-Output: `06-18-method-components-synthesis.md` (~5000w + components × precedent matrix + concept map mermaid)
+Output: `06-28-method-components-synthesis.md` (~6500w + components × precedent matrix + concept map mermaid)
 
-COMMIT 6: `[k-6][method-systems-thinking] Phase 5 18 method components synthesis (text_012 + text_013)`
+COMMIT 6: `[k-6][method-systems-thinking] Phase 5 28 method components synthesis (text_012 + text_013 + text_014)`
+
+═══════════════════════════════════════════════════════════
+§7.5 PHASE 5.5 — Jetix=Exokortex ontological deep ⭐⭐
+═══════════════════════════════════════════════════════════
+
+Cell dispatch: phil × critic + eng × scalability + sys × cybernetics
+
+### Sources to mine:
+
+**Primary (4):**
+- Andy Clark + David Chalmers «The Extended Mind» (1998) — extended cognition thesis
+- Andy Clark «Natural-Born Cyborgs» (2003) + «Supersizing the Mind» (2008)
+- Doug Engelbart «Augmenting Human Intellect» (1962) — H-LAM/T = exokortex prototype
+- Karpathy «Software 2.0» + LLM-as-OS thread — modern exokortex substrate
+
+**Adjacent (3):**
+- Donna Haraway «Cyborg Manifesto» (1985) — human-AI hybrid
+- Vernor Vinge «Singularity» concept — exokortex acceleration
+- Hofstadter «I am a Strange Loop» (2007) — consciousness-as-loop, applicable к exokortex-self-loop
+
+### Operational deep dive:
+
+1. **Definition** — what is exokortex? (extended cognitive substrate beyond biological brain)
+2. **Components** — language (FPF) + tools (AI substrate) + repository (wiki / Phase 0) + protocols (ROY swarm) + methodology (this method)
+3. **4 capabilities (text_014 §2.30):**
+   - AI amplification + acceleration self
+   - Same-language interaction (FPF)
+   - Higher capability interaction между bigger systems
+   - Quality / speed / efficiency improvement
+4. **Jetix Workshop instantiation** — how Workshop = exokortex concretely
+5. **Implications:**
+   - Education Layer = exokortex training
+   - Outreach = exokortex-equipped partner finding
+   - Hackathons = exokortex-augmented project execution
+   - Recursive Engine = exokortex-driven self-development
+6. **IP-1 boundary** — exokortex = substrate; humans = decision actors (NOT autonomous self-modifying AI)
+7. **Risks:**
+   - Dependence risk (atrophy of unaugmented capabilities)
+   - Access asymmetry (haves vs have-nots; R12 anti-extraction concerns)
+   - Sovereignty (whose exokortex?)
+8. **Falsifiers / test designs:**
+   - 10x speedup hypothesis (text_014: «ускорять себя» — testable)
+   - Same-language interaction enables previously-impossible collaboration test
+   - Quality improvement measurable test
+   - Sovereignty / R12 alignment audit
+
+Output: `07-jetix-exokortex-ontological-deep.md` (~3500w + exokortex stack mermaid + extended mind diagram)
+
+COMMIT 6.5: `[k-6][method-systems-thinking] Phase 5.5 Jetix=Exokortex ontological deep (Clark+Chalmers / Engelbart / Karpathy / Haraway)`
 
 ═══════════════════════════════════════════════════════════
 §8 PHASE 6 — Sense of Measure (чувство меры) operational definition
@@ -353,23 +418,28 @@ Mirror previous summaries:
   - Vision narrative L3 substrate (C.4 promotion doc)
   - Education Layer curriculum substrate
 
-### 8-10 Mermaid diagrams в `diagrams/`:
+### 12 Mermaid diagrams в `diagrams/`:
 1. `01-method-flow-7-pillars.md` — input/process/output × strategy+rules+values+direction+sense-of-measure
 2. `02-system-self-development-cycle.md` — cycle from text_012 §2.13
 3. `03-best-variant-selection.md` — mechanism from text_012 §2.15
 4. `04-gradient-view-parts-decomposition.md` — text_013 §2.16+17
 5. `05-recursive-lifecycle-8-step.md` — text_013 §2.18
-6. `06-cross-precedent-corroboration-matrix.md` — 10 thinkers × 18 components
+6. `06-cross-precedent-corroboration-matrix.md` — 10 thinkers × 28 components
 7. `07-self-knowledge-influence-active-selection-trio.md` — text_013 §2.11-13
 8. `08-sense-of-measure-decision-tree.md` — Phase 6 output
 9. `09-description-spreading-hypothesis-flow.md` — Phase 8 H-MST-26-35
 10. `10-master-tldr-mermaid.md` — full method at-a-glance
+11. `11-3-stage-throughput-process.md` — text_014 §2.22-26 (input → processing → output-use + reconnaissance) — PROCESS not circle
+12. `12-jetix-exokortex-stack.md` — Phase 5.5 output (Workshop = exokortex; Clark+Chalmers extended mind diagram)
 
 ### Phase 0 inventory §APPEND:
 - O-52 «Method of Systems Thinking» candidate status update (deep research evidence)
 - O-53 «Sense of Measure principle» candidate (NEW; surface для Pillar C Tier 2 rule 14 consideration)
 - O-54 «System self-knowledge + influence + active selection» candidate (NEW)
 - O-55 «Recursive method lifecycle 8-step» candidate (NEW; cross-link Recursive Engine)
+- **O-56 «Jetix Workshop = Exokortex» ontological claim candidate** ⭐⭐ (NEW; possible Strategic Insight H-candidate; cross-link Clark+Chalmers/Engelbart/Karpathy)
+- O-57 «3-stage throughput model» candidate (NEW; input bandwidth + processing speed + output use/memory)
+- O-58 «Reconnaissance phase + per-iteration values+method+info selection» candidate (NEW)
 
 COMMIT 9: `[k-6][method-systems-thinking] Phase 8 hypothesis bank + cross-cutting + summary + 10 mermaid + Phase 0 §APPEND + final push`
 
