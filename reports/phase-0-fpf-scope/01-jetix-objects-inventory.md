@@ -1051,3 +1051,50 @@ R1 surface (status update only; NOT promotion) + R2 (Foundation/Pillar C/Octagon
 
 *§15 appended by brigadier per `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 Phase 1 closure. R1 + R6 + R11 + EP-5 + append-only preserved.*
 
+---
+
+## §16 APPEND-2026-05-19 — Platform v2 deep run NEW candidates (O-42 / O-43 / O-44 / O-45)
+
+### §16.1 Trigger
+
+- **Source.** `prompts/jetix-platform-v2-description-2026-05-19.md` Phase 9 closure + voice anchors text_010 + text_011
+- **Constitutional posture.** R1 surface (candidate registration; NOT Tier-promotion); pending Ruslan ack для Tier classification
+
+### §16.2 4 new object candidates
+
+| # | Object | Origin | Surface description |
+|---|---|---|---|
+| **O-42** | Jetix Platform Description v2 (comprehensive substrate) | text_010 + text_011 + 9-phase deep run 2026-05-19 | Comprehensive Platform description: 22 people categories + 32 resources + 5-Tier hackathon + FPF 8-layer protocol + 7-role Jetix substrate spec с IP-1 28-entry boundary + 10 values + 20 outreach templates + 15 monetization variants. Substrate для Master Packaging Step 6. |
+| **O-43** | Project-of-Humanity meta-project (values anchor) | text_011 §1 «развитие человечества — проект вообще всего человечества» | Meta-project frame uniting ALL human projects under «humanity development» substrate. Operationalised в Phase 6 values + Phase 8 partner-framing reveal pattern. Anchor для outreach + Charter. |
+| **O-44** | Pre-existing-partnership reveal pattern (outreach mechanism) | text_011 §1 «алло дядя — теперь ты знаешь — мы партнёры» | 8-step reveal sequence (ANCHOR → REVEAL → ZOOM OUT → DECLARATION → OFFER → ASK → CONVERGE → GOAL-ALIGN). Operationalised в Phase 6 §11 + Phase 8 20 templates. |
+| **O-45** | Reciprocal value template (outreach script class) | text_011 §1 «гони ресурсы — я help» | Reciprocal value framing class — X/Y/Z they need + A/B/C мы нужно. Operationalised в Phase 6 reciprocal value matrix + Phase 8 per-template structure. |
+
+### §16.3 Companion artefacts created (this platform-v2 run)
+
+- `reports/jetix-platform-v2-2026-05-19/00-MASTER-INDEX.md`
+- `reports/jetix-platform-v2-2026-05-19/01-fpf-lens-scope.md` (Phase 0)
+- `reports/jetix-platform-v2-2026-05-19/02-people-categories-taxonomy.md` (Phase 1)
+- `reports/jetix-platform-v2-2026-05-19/03-resources-taxonomy.md` (Phase 2)
+- `reports/jetix-platform-v2-2026-05-19/04-hackathon-mechanics-progression.md` (Phase 3)
+- `reports/jetix-platform-v2-2026-05-19/05-fpf-interaction-protocol.md` (Phase 4)
+- `reports/jetix-platform-v2-2026-05-19/06-jetix-organisational-role.md` (Phase 5)
+- `reports/jetix-platform-v2-2026-05-19/07-values-foundation-partner-framing.md` (Phase 6)
+- `reports/jetix-platform-v2-2026-05-19/08-monetization-variants.md` (Phase 7)
+- `reports/jetix-platform-v2-2026-05-19/09-partner-positioning-operationalised.md` (Phase 8)
+- `reports/jetix-platform-v2-2026-05-19/99-SUMMARY-FOR-RUSLAN.md` (Phase 9)
+- `reports/jetix-platform-v2-2026-05-19/diagrams/` (7 mermaid)
+
+### §16.4 Status / Ruslan ack pending
+
+- Pre-§16: 35 objects (14 acked + 16 candidates pending + 5 Tier-B Ruslan-acked-without-Tier-promotion)
+- Post-§16: 39 objects (14 acked + 20 candidates pending + 5 Tier-B Ruslan-acked) — **+4 candidates O-42 / O-43 / O-44 / O-45**
+- All 4 = brigadier-surfaced; Ruslan ack pending для Tier classification (Tier A / Tier B / NC); F-grade per candidate F2 substantively surfaced
+
+### §16.5 Constitutional posture
+
+R1 surface (candidate registration only) + R2 (Foundation/Pillar C/Octagon LOCK content read-only preserved) + R6 (voice anchor citations + 9-phase doc cross-refs) + R11 (Default-Deny novel actions; LOCK candidates pending separate Ruslan ack) + R12 (anti-extraction discipline preserved per all 4 candidates) + IP-1 STRICT (Jetix substrate; humans decide; pattern ≠ instance) + EP-5 (F-grades explicit) + append-only ✓.
+
+---
+
+*§16 appended by brigadier per `prompts/jetix-platform-v2-description-2026-05-19.md` Phase 9 closure. R1 + R6 + R11 + R12 + IP-1 + EP-5 + append-only preserved.*
+
