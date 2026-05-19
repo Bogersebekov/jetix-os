@@ -118,9 +118,11 @@ sibling_runs:
 | O-53 | Sense of Measure principle | Enriched (Phase 6) | Pillar C Tier 2 rule 14 candidate |
 | O-54 | System self-knowledge + influence + active selection trio | NEW | candidate Tier A |
 | O-55 | Recursive method lifecycle 8-step | NEW (Phase 7) | candidate Tier A |
-| O-56 | Jetix Workshop = Exokortex ⭐⭐ | NEW (Phase 5.5) | candidate Strategic Insight H |
 | O-57 | 3-stage throughput model | NEW | candidate Tier A |
 | O-58 | Reconnaissance phase + per-iteration selection | NEW | candidate Tier B |
+| O-59 ⭐⭐ | Jetix Workshop = Экзокортекс | NEW (Phase 5.5) | candidate Strategic Insight H |
+
+> **Renumbering note:** prompt §10 originally proposed O-56 для «Jetix=Exokortex»; ID O-56 was concurrently claimed by K-5 Safety→Develop run (§18 of Phase 0 inventory). K-6 «Exokortex» candidate is therefore promoted to **O-59**. All other K-6 candidate IDs unchanged. See Phase 0 inventory §19 for authoritative entries.
 
 ## Voice-anchor coverage
 

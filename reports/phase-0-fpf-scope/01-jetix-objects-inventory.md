@@ -1148,3 +1148,119 @@ R1 surface (candidate registration only — strategic prose = ruslan-via-voice-d
 ---
 
 *§17 appended by brigadier per `prompts/voice-batch-5-deep-analysis-2026-05-19.md` Phase 5 closure. R1 + R6 + R11 + R12 + IP-1 + EP-5 + append-only preserved.*
+
+---
+
+## §18 K-5 Safety→Develop Cross-Disciplinary Validation appendage (2026-05-19 afternoon)
+
+### §18.1 Trigger
+
+K-5 Safety→Develop cross-disciplinary research run (Phases 0-8). Voice anchor: audio_690@19-05-2026_04-05-57.md §1 «Safety→Develop ordering principle». Per `prompts/k-5-safety-develop-validation-2026-05-19.md`.
+
+### §18.2 1 NC surfaced
+
+**O-56 «R13 Safety→Develop Ordering substrate» (NC candidate)** — Tier B (Ruslan ack required для promotion to Pillar C Tier 2 rule 13)
+- **Type:** constitutional candidate (Pillar C foundation_generic extension)
+- **Evidence:** 5 disciplines verbatim corroboration (Maslow / SRE / Jidoka / Knight / Taleb) + 4 adjacent (NASA / nuclear / aviation / HRO) + cross-corroboration matrix density ~88% + ≥3 counter-cases bounded (crisis / greenfield / competitive race)
+- **F-grade aggregate:** F2 для pattern existence + F3 для universality + F4 для constitutional R13 promotion (Ruslan ack required)
+- **R12 alignment:** STRONG (complementary; not redundant; both protect base before expansion)
+- **Status:** AWAITING-APPROVAL packet substrate DRAFT ready at `research/safety-develop-validation-2026-05-19/09-DRAFT-r13-awaiting-approval-packet-substrate.md` (NOT placed в `swarm/awaiting-approval/` per R1 STRICT)
+- **Voice anchor:** audio_690 §1 verbatim «система сперва обеспечивает свое как бы выживание, безопасность, а потом уже идёт развиваться»
+- **Cross-ref:** Phases 1-7 К-5 research + R12 packet LOCKED 2026-05-12 + Foundation Part 6b §I.2
+
+### §18.3 Tier classification
+
+- **Tier B** (Ruslan ack needed для constitutional R13 promotion): O-56
+
+### §18.4 Companion artefacts created (this К-5 run)
+
+- `research/safety-develop-validation-2026-05-19/00-MASTER-INDEX.md`
+- `research/safety-develop-validation-2026-05-19/01-fpf-lens-scope.md` (Phase 0)
+- `research/safety-develop-validation-2026-05-19/02-maslow-hierarchy.md` (Phase 1)
+- `research/safety-develop-validation-2026-05-19/03-sre-error-budget.md` (Phase 2)
+- `research/safety-develop-validation-2026-05-19/04-toyota-jidoka.md` (Phase 3)
+- `research/safety-develop-validation-2026-05-19/05-knight-risk-uncertainty.md` (Phase 4)
+- `research/safety-develop-validation-2026-05-19/06-taleb-antifragile-black-swan.md` (Phase 5)
+- `research/safety-develop-validation-2026-05-19/07-cross-disciplinary-synthesis.md` (Phase 6)
+- `research/safety-develop-validation-2026-05-19/08-hypotheses-bank-pillar-c-extension.md` (Phase 7 — 25 H + R13 evidence)
+- `research/safety-develop-validation-2026-05-19/09-DRAFT-r13-awaiting-approval-packet-substrate.md` (Phase 7 — DRAFT packet)
+- `research/safety-develop-validation-2026-05-19/98-cross-cutting-synthesis.md` + `99-SUMMARY-FOR-RUSLAN.md` (Phase 8)
+- 8 mermaid diagrams в `research/safety-develop-validation-2026-05-19/diagrams/`
+- Wiki Tier B: `wiki/concepts/safety-develop-cross-disciplinary-corroboration.md` (research-surface concept)
+- Wiki Tier C: `wiki/concepts/sre-error-budget.md` + `wiki/concepts/taleb-via-negativa.md` (reference concepts)
+
+### §18.5 Status / Ruslan ack pending
+
+- Pre-§18: 45 objects (14 acked + 26 candidates pending + 5 Tier-B Ruslan-acked-without-Tier-promotion)
+- Post-§18: 46 objects (14 acked + 27 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-56**
+- O-56 = Tier B AWAITING-APPROVAL packet substrate DRAFT (Ruslan acks separately для actual packet creation)
+
+### §18.6 Constitutional posture
+
+R1 STRICT (research surface; NO autonomous R13 promotion) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL READ-ONLY throughout K-5 run) + R6 (verbatim discipline quotes + retrieved_date per claim) + R11 (Default-Deny; no novel actions executed) + R12 (alignment STRONG between R12 LOCKED and R13 candidate; complementary not redundant) + IP-1 STRICT (Safety→Develop pattern abstract; Jetix instance application = RUSLAN-LAYER overlay) + EP-5 (F-grade F2/F3/F4 calibrated per claim) + append-only + breadth-NOT-selection (≥3 counter-cases mandatory + executed) + FPF lens FIRST (Phase 0 carries throughout).
+
+---
+
+*§18 appended by brigadier per `prompts/k-5-safety-develop-validation-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+---
+
+## §19 APPEND-2026-05-19 — K-6 Method of Systems Thinking deep run (7 NCs: O-52 / O-53 / O-54 / O-55 / O-57 / O-58 / O-59)
+
+### §19.1 Trigger
+
+K-6 «Method of Systems Thinking / View of World / Approach to Life» comprehensive deep research run (Phases 0-8 + Phase 5.5). Voice anchors: text_012 + text_013 + text_014 (verbatim Ruslan dictation 2026-05-19 afternoon). Per `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` + sibling `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md`.
+
+### §19.2 7 NCs surfaced
+
+| O-ID | Title | Source | Type | Tier |
+|---|---|---|---|---|
+| **O-52** | Method of Systems Thinking | text_012 §1 verbatim + text_013 + text_014 + Ruslan additions | META-METHOD candidate | candidate META-METHOD (enriched substrate) |
+| **O-53** | Sense of Measure principle (enriched) | text_012 §2.9 + Phase 6 cross-cultural deep (Aristotle + Confucius + Jidoka + parsimony convergence) | constitutional candidate | **Pillar C Tier 2 rule 14 candidate** (Ruslan ack required) |
+| **O-54** | System self-knowledge + influence discrimination + active selection trio | text_013 §2.11-13 + Phase 5 §11-13 + Phase 8 Pattern 4-5-6 | wiki concept candidate | Tier A candidate |
+| **O-55** | Recursive method lifecycle 8-step | text_013 §2.18 + Phase 7 (doc 09) + cross-link Recursive Engine | wiki concept candidate | Tier A candidate |
+| **O-57** | 3-stage throughput model (input bandwidth + processing + output-use/memory) | text_014 §2.22-24 + Phase 5 §22-24 + diagram 11 | wiki concept candidate | Tier A candidate |
+| **O-58** | Reconnaissance phase + per-iteration selection (values + method + info) | text_014 §2.25-28 + Phase 5 §25-27 + diagram 11 | wiki concept candidate | Tier B candidate |
+| **O-59** ⭐⭐ | Jetix Workshop = Экзокортекс | text_014 §2.29 + Phase 5.5 (doc 07) | **Strategic Insight H-candidate** | Strategic Insight H-candidate (Ruslan ack required) |
+
+**Renumbering note:** K-6 prompt §10 originally proposed O-56 для «Jetix=Exokortex»; ID O-56 was concurrently claimed by K-5 Safety→Develop run (per §18 above). K-6 «Exokortex» candidate is therefore promoted to **O-59**. All other K-6 candidate IDs (O-52, O-53, O-54, O-55, O-57, O-58) unchanged from prompt.
+
+### §19.3 Tier classification (proposed by brigadier)
+
+- **Tier A wiki concept candidate** (Ruslan ack for promotion): O-54 + O-55 + O-57
+- **Tier B wiki concept candidate** (Ruslan ack for tier classification): O-58
+- **Constitutional Pillar C Tier 2 rule 14 candidate** (Ruslan ack required для constitutional promotion): O-53
+- **Strategic Insight H-candidate** (Ruslan ack required для Strategic Insight Decision DB entry per Pillar A): O-59
+- **META-METHOD substrate (enriched)**: O-52 — already candidate from §15+§16 era; K-6 = comprehensive substrate enrichment
+
+### §19.4 Companion artefacts created (this К-6 run)
+
+- `research/method-systems-thinking-deep-2026-05-19/00-MASTER-INDEX.md`
+- `research/method-systems-thinking-deep-2026-05-19/01-fpf-lens-scope-ip1-boundary.md` (Phase 0)
+- `research/method-systems-thinking-deep-2026-05-19/02-foundation-meadows-ashby-wiener-deep.md` (Phase 1)
+- `research/method-systems-thinking-deep-2026-05-19/03-beer-vsm-deep.md` (Phase 2)
+- `research/method-systems-thinking-deep-2026-05-19/04-senge-sterman-org-systems-deep.md` (Phase 3)
+- `research/method-systems-thinking-deep-2026-05-19/05-cross-stream-bertalanffy-boyd-bateson-hofstadter-deep.md` (Phase 4)
+- `research/method-systems-thinking-deep-2026-05-19/06-31-method-components-synthesis.md` (Phase 5 — main synthesis)
+- `research/method-systems-thinking-deep-2026-05-19/07-jetix-exokortex-ontological-deep.md` (Phase 5.5 — O-59 substrate)
+- `research/method-systems-thinking-deep-2026-05-19/08-sense-of-measure-scientific-approach-deep.md` (Phase 6 — O-53 substrate; rule 14 candidate)
+- `research/method-systems-thinking-deep-2026-05-19/09-recursive-lifecycle-8-step.md` (Phase 7 — O-55 substrate)
+- `research/method-systems-thinking-deep-2026-05-19/10-hypotheses-bank-breadth.md` (Phase 8 — 35 H)
+- `research/method-systems-thinking-deep-2026-05-19/98-cross-cutting-synthesis.md` (12 patterns)
+- `research/method-systems-thinking-deep-2026-05-19/99-SUMMARY-FOR-RUSLAN.md` (≤1500w)
+- `research/method-systems-thinking-deep-2026-05-19/diagrams/01-12-*.md` (12 mermaid diagrams)
+
+### §19.5 Status / Ruslan ack pending
+
+- Pre-§19: 46 objects (14 acked + 27 candidates pending + 5 Tier-B Ruslan-acked)
+- Post-§19: 53 objects (14 acked + 34 candidates pending + 5 Tier-B Ruslan-acked) — **+7 NCs O-52 / O-53 / O-54 / O-55 / O-57 / O-58 / O-59**
+- 0 K-6 NCs auto-promoted at brigadier level (R1 surface only)
+- All 7 K-6 NCs AWAITING-RUSLAN-ACK per `99-SUMMARY-FOR-RUSLAN.md` §3 top-5 decisions table
+
+### §19.6 Constitutional posture
+
+R1 STRICT (research surface; NO autonomous promotion of method / sense-of-measure / exokortex к LOCK / Foundation / Pillar C) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCKs / 5 concept docs / 5 deep research / Platform v2 READ-ONLY throughout K-6 run) + R6 (verbatim Ruslan voice anchor citations + cross-precedent provenance per claim) + R11 (Default-Deny; no novel actions executed; description-spreading hypothesis surfaced as test design only) + R12 (anti-extraction discipline preserved: method openly published; Workshop ratio cap + fork-and-leave preserved; sovereignty Charter mechanism surfaced) + IP-1 STRICT (method = pattern; instances bound к executors per RUSLAN-LAYER; pattern≠instance disambiguation in every component + Phase 5.5 §6 + Phase 7 footers + Pattern 11 cross-cutting) + EP-5 (F-grade F2/F3 surface predominant; F4+ promotions reserved for Ruslan-ack) + append-only + breadth-NOT-selection (10+ thinkers × 31 components × 35 H broad surface preserved) + FPF lens FIRST (Phase 0 mandatory; applied throughout 13 docs).
+
+---
+
+*§19 appended by brigadier per `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
