@@ -173,3 +173,13 @@ Document explicit terms / expectations / commitments structure для mentor rel
 ---
 
 **Brigadier signature.** AI scribe acting_as `strategic-insight-recorder-role`. Verbatim Ruslan quotes preserved. Source attribution (YouTube link). Hypothesis options unfolded as brainstorm — Ruslan-decided. Future research items flagged.
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Corroboration
+
+- **Mastery formula** (audio_696 claim 8; O-64) — mentorship = method-transmission accelerator; corroborates Tyson pattern (deep mentor → apprentice info-processing leverage)
+- **Persistence>Talent** (claim 16; O-69) — mentorship value = persistence amplification, not talent-selection
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/ + wiki/concepts/mastery-formula.md + wiki/claims/persistence-beats-talent.md]

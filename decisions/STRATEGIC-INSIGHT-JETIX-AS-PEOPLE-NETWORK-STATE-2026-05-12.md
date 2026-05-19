@@ -302,3 +302,14 @@ Mы используем engagement mechanics НЕ extractively (Indistractable 
 *Awaits Ruslan revision pass → LOCKED status → enables Charter writing + R12 elevation + L1 outreach.*
 
 **AI = scribe-draft. Ruslan = sole strategist + canonical author. Per Tier 2 R1.**
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Corroboration
+
+- **Layered supportive control** (audio_695; O-71) — People-NS governance = multi-tier supportive, не handcuffing; corroborates Mondragón Social Council + R12 fork-and-leave
+- **FPF-vocabulary** (claim 11; O-63) — inter-cell communication protocol для NS; standardised vocabulary preserves federation
+- **Fund-of-Humanity claims (17-21) SKIPPED** per Ruslan ack 2026-05-19 evening — preserved here для append-only audit only, no integration
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/ + wiki/concepts/recursive-supportive-control-pattern.md + wiki/concepts/fpf-as-info-transfer-vocabulary.md]

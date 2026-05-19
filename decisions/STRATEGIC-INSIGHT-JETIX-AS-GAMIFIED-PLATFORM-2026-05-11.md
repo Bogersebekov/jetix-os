@@ -608,3 +608,13 @@ H6 Gamified Platform operationally pre-eminent среди 8 Octagon Strategic In
 ---
 
 *§APPEND-2026-05-19 Ruslan ack Option A — operational pre-eminence overlay. R1 + R2 + R11 + EP-5 + append-only preserved.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Corroboration
+
+- **5 functional intellect skills** (audio_696 claims 1-5; O-65) — gamification target dimensions: world-creation / decision / rule-discovery / method-selection / creation
+- **Mastery formula** (claim 8) — game progression = mastery accumulation metric (quantity × quality × depth × method)
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/ + wiki/concepts/intellect-5-functional-skills.md]
