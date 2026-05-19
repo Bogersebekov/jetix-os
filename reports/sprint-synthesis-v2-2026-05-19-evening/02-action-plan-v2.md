@@ -363,3 +363,19 @@ Detailed: `diagrams/05-dependency-map-v2.md`.
 ---
 
 *Doc 2 v2 closure 2026-05-19 evening. Sprint-synthesis-v2 Phase 2 of 5. Cross-references: `01-new-info-since-v1.md` (Phase 1) + `03-state-map-v2.md` (Phase 3) + `04-master-packaging-step6-roadmap.md` (Phase 4) + `00-SUMMARY-FOR-RUSLAN.md` (Phase 5). 4 mermaid in `diagrams/`. R1 + R6 + R11 + R12 + EP-5 + IP-1 + append-only.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate Integration
+
+> Source: voice batch-6 (audio_694/695/696) processed 2026-05-19 evening. Fund-of-Humanity O-62 SKIPPED per Ruslan ack — not integrated.
+
+**Critical path extensions:**
+- **B.1 outreach extraction COMPLETE** — FPF/Mastery/Persistence anchors → Karpathy + Engineer packs
+- **3 NEW Tier A wikis** corroborate Step 6 (Master Packaging substrate): O-63 FPF-vocabulary / O-64 Mastery formula / O-69 Persistence>Talent
+- **3 NEW Tier B wikis** created Phase 5 batch-6 fixation: O-65 5 functional skills / O-70 Trichotomy / O-71 Supportive control
+- **5 NEW deep research candidates** retained (DR-1 Fund-Mondragón DROPPED per O-62 SKIP): DR-2 FPF-Field-Test (P1) / DR-3 Mastery Calibration (P2) / DR-5 5-Skills Pedagogy (P2) / DR-6 Layered Control (P3) / DR-7 Multi-Modal (P3) / DR-8 Society-Old-Methods (P3)
+- **Pitch deck v1 substrate enhanced** — FPF positioning anchor (claim 11) directly usable
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/]

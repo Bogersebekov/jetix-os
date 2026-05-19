@@ -117,3 +117,20 @@ After Ruslan ack:
 - Part 1 §I.1 schema v1.1.0 becomes F8 LOCKED.
 - Bundle 4 Wave C closure achieved → Wave D integration pass dispatch
   (separate cycle).
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Audio_695 Layered Control Voice Substrate
+
+> Bundle 1 RUSLAN-ACK 2026-04-28 (Parts 1/2/4/6a constitutional baseline) — voice corroboration 2026-05-19 evening.
+> Canonical Bundle 1 RUSLAN-ACK ack file absent → this supplement-2 used as §APPEND target per
+> `prompts/batch-6-fixation-execute-2026-05-19-evening.md` §2 fallback rule.
+
+audio_695 (~1 min, 11:54 19.05) Ruslan verbatim:
+- Multi-tier governance / layered control / supportive (не handcuffing)
+- Recursive supportive control pattern (O-71 Tier B wiki created Phase 5 batch-6 fix)
+
+Cross-link: O-71 wiki + Foundation Part 4 (Role Taxonomy) + Part 6b (Human Gate)
+
+[src: raw/voice-memos-2026-05-19-batch/audio_695@19-05-2026_11-54-46.md + wiki/concepts/recursive-supportive-control-pattern.md]
