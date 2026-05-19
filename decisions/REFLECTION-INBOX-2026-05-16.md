@@ -675,3 +675,33 @@ R1 preserved (Ruslan sole strategist; ack required для все strategic moves
 ---
 
 *§APPEND-2026-05-19-evening per Ruslan ack 2026-05-19 evening. Decisions logged.*
+
+
+## §APPEND-2026-05-19-evening-2 — Master Packaging = autopilot mode + focus shift to notes
+
+**Ruslan ack 2026-05-19 evening:** «не ебать голову specifics; promotion docs / pitch deck / engineer cohort = на автомате потом; зафиксировать базово; идём обрабатывать заметки.»
+
+### Status frozen (autopilot mode)
+
+- **6 promotion docs (C.1-C.6)** — substrate ready (Doc 4 Master Packaging Step 6 roadmap); drafting deferred (Ruslan-author когда готов; не block current flow)
+- **Engineer cohort 5-15 specific names** — defer (per Ruslan «поебать»); cohort discovery via outreach script template когда dispatch
+- **D2 Tier-1 Anthropic + Buterin specifics** — Karpathy pack drafted; Buterin/Anthropic packs defer
+- **B R12 Charter brigadier-draft** — defer; substrate evidence accumulated (K-5 + Ethereum architecture)
+
+### Focus shift — NEXT batch
+
+**Per Ruslan order:**
+1. **Notebook notes mining** — Ruslan передаёт physical notebook content (photos / transcripts)
+2. **Telegram new notes** — если есть новые после audio_691
+3. **Levenchuk DEEP DIVE** ⭐⭐⭐ — all materials + books → distill → Jetix concept натянуть + extract логику
+
+### Constitutional preservation
+
+- ✓ All ack'd items remain ack'd (D1 / BL-1 / 3 packets / D2 / D5)
+- ✓ Master Packaging substrate v2 preserved (4 v2 docs + 10 mermaid + Summary)
+- ✓ Outreach drafts preserved (Karpathy + Engineer cohort scripts)
+- ✓ Focus pivot ≠ scope shrinkage (autopilot = «later» not «cancelled»)
+
+---
+
+*§APPEND-2026-05-19-evening-2 per Ruslan focus pivot. Master Packaging autopilot; notes processing primary focus.*
