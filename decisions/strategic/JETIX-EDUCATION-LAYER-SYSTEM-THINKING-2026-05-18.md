@@ -239,3 +239,15 @@ Education layer = mechanism for gratitude loop activation:
 ---
 
 *Concept doc E brigadier-structured per voice-pipeline-2026-05-18-batch-3 Phase 3. R1 + R2 + R6 + R11 + R12 + EP-5 + paternalism mitigation preserved. AWAITING-RUSLAN-ACK.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate (audio_694/696)
+
+- **5 functional intellect skills surface** (audio_696 claims 1-5; O-65) — world-creation / decision-making / rule-discovery / method-selection / creation-function — Education Layer module candidates
+- **Mastery formula** (claim 8; O-64): мастерство = количество × качество × глубина × метод = опыт — pedagogy substrate; literature corroboration Ericsson / Polanyi / Schön / Dreyfus / Csikszentmihalyi ready
+- **Persistence>Talent** (claim 16; O-69) — accessible-to-persistence positioning anchor
+- **Learning-Knowledge-Understanding Trichotomy** (audio_694; O-70) — учеба = поглощение / знание = информация / понимание = знание метода (Ryle/Polanyi lit corroboration)
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/01-per-note-breakdown.md audio_696 claims 1-5/8/16 + audio_694]

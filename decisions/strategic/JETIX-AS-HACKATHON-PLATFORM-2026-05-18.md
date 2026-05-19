@@ -237,3 +237,13 @@ This concept doc carries F2 surface. Pillar A Strategic Direction Substrate exte
 ---
 
 *Concept doc A brigadier-structured per voice-pipeline-2026-05-18-batch-3 Phase 3. R1 + R2 + R6 + R11 + R12 + EP-5 + IP-1 preserved. AWAITING-RUSLAN-ACK.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate (audio_696)
+
+- **Coordination experiment frame** (audio_696 partial claims; non-Fund-related parts only) — multi-party coordination at workshop scale; Hackathon = bounded coordination experiment substrate
+- **Triple-win frame surface only** (claim 20; O-66 ack-pending SD-3 A/B) — defer operationalisation; preserve voice anchor reference here
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/01-per-note-breakdown.md audio_696 — Fund-of-Humanity SKIPPED per Ruslan ack 2026-05-19 evening]

@@ -200,3 +200,13 @@ This concept doc surfaces engine pattern at F2. Pillar A Strategic Direction Sub
 ---
 
 *Concept doc B brigadier-structured per voice-pipeline-2026-05-18-batch-3 Phase 3. R1 + R2 + R6 + R11 + IP-1 STRICT + EP-5 preserved. AWAITING-RUSLAN-ACK.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate (audio_696)
+
+- **World-creation primitive** (audio_696 claim 1, part of 5 functional skills) — расширяет IP-1 28-entry boundary с primitives на process-driven creation per recursive lifecycle
+- **Mastery formula leverage** (claim 8; O-64) — методом усиливаем все info-processing факторы; Recursive Engine = method-execution substrate
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/01-per-note-breakdown.md audio_696 claims 1/8]

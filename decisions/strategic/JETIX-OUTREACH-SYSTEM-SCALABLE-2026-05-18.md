@@ -230,3 +230,13 @@ Outreach pattern = potential Pillar A extension candidate (separate from Hackath
 ---
 
 *Concept doc D brigadier-structured per voice-pipeline-2026-05-18-batch-3 Phase 3. R1 + R2 + R6 + R11 + R12 + EP-5 preserved. AWAITING-RUSLAN-ACK (6-resources taxonomy + first script).*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate (audio_696)
+
+- **FPF-vocabulary anchor** ⭐⭐ (claim 11; O-63) — primary outreach positioning hook; Karpathy + engineer cohort packs updated 2026-05-19 evening
+- **Mastery formula + Persistence>Talent** (claims 8/16; O-64/O-69) — engineer-resonant frames; accessible-to-persistence positioning counters elitism
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/01-per-note-breakdown.md audio_696 claims 8/11/16]

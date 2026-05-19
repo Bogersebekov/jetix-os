@@ -225,3 +225,13 @@ Candidate position: «System Merger Protocol» = potential 9th Strategic Insight
 ---
 
 *Concept doc C brigadier-structured per voice-pipeline-2026-05-18-batch-3 Phase 3. R1 + R2 + R6 + R11 + R12 + EP-5 preserved. AWAITING-RUSLAN-ACK; H9 candidate flag surface.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate (audio_695/696)
+
+- **FPF-as-vocabulary positioning anchor** ⭐⭐ (audio_696 claim 11; O-63) — «удобный словарь» frame = info-transfer protocol between systems; direct corroboration System Merger Protocol FPF thesis (намордник + USB-C port)
+- **Layered control supportive vs handcuffing** (audio_695; O-71) — multi-tier governance substrate corroboration; merger surface не controlling, supportive
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/01-per-note-breakdown.md audio_695 + audio_696 claim 11]
