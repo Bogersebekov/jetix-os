@@ -116,3 +116,37 @@ Per `reports/phase-0-fpf-scope/04-kasha-cleanup-flags.md`:
 ---
 
 *Brigadier scribe convention LOCK. §5.5.5 gate: prefix table ✓ / 4 affected docs identified ✓ / Foundation R2 skip noted ✓ / append-only discipline preserved ✓ / Ruslan ack §0.7 explicit ✓.*
+
+
+## §APPEND-2026-05-19 — Hackathon-Phase namespace addition (RUSLAN-ACKED Option A)
+
+**Ack:** Ruslan 2026-05-19 evening — packet `swarm/awaiting-approval/pillar-a-hackathon-mode-extension-2026-05-18.md` Option A acked.
+
+### NEW namespace: `Hackathon-Phase-N`
+
+Added to existing 4 phase vocabularies (Workshop-Phase / Commercial-Phase / Agent-Deploy-Phase / Swarm-Phase):
+
+**Hackathon-Phase-T1** = day-rhythm online micro-hackathons (5-20 participants)
+**Hackathon-Phase-T2** = weekend-rhythm online standard hackathons (20-100 participants)
+**Hackathon-Phase-T3** = week-rhythm hybrid hackathons (50-200 participants)
+**Hackathon-Phase-T4** = week-month-rhythm onsite Berlin Workshop hackathons (20-100 participants)
+**Hackathon-Phase-T5** = quarter-year-rhythm offline major projects (100-500 participants)
+
+### Usage convention
+
+When referring к hackathon Tier event:
+- ✓ «Hackathon-Phase-T1 (day-rhythm bloggers + sponsor)»
+- ✓ «Hackathon-Phase-T4 (Berlin Workshop Grundstück week-month)»
+- ✗ Bare «Phase 1 hackathon» (ambiguous with Commercial-Phase-1 / Workshop-Phase-1)
+
+### Cross-refs
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` (concept doc parent)
+- `research/hackathon-platform-deep-2026-05-18/04-hackathon-mechanics-progression.md` (5-Tier spec)
+- `reports/jetix-platform-v2-2026-05-19/04-hackathon-mechanics-progression.md` (Platform v2 hackathon Tier)
+
+[src: swarm/awaiting-approval/pillar-a-hackathon-mode-extension-2026-05-18.md Option A + Platform v2 §3]
+
+---
+
+*§APPEND-2026-05-19 Ruslan ack Option A — Hackathon-Phase namespace addition. R1 + R2 Pillar A LOCK content preserved + R11 + EP-5 + append-only.*

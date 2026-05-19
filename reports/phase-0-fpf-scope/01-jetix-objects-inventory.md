@@ -1537,3 +1537,49 @@ R1 (Ruslan acks — Tier A wiki promotions surface only; О-52/53/56 status upda
 ---
 
 *§23 appended 2026-05-19 evening per Ruslan ack «всё подтверждаю + инсайты тоже куда-то зафиксировать». Tier A K-6 insights + top-5 decisions acked.*
+
+
+## §24 Cloud Cowork executes — A/D/C completion 2026-05-19 evening
+
+Per Ruslan ack «погнали All» + Top-5 decisions acked 2026-05-19.
+
+### §24.1 A — 3 AWAITING-APPROVAL Option A overlays EXECUTED
+
+- ✅ **H6 LOCK §APPEND-2026-05-19** — operational pre-eminence overlay (content preserved; framing overlay added)
+- ✅ **PHASE-NAMESPACE-CONVENTION §APPEND-2026-05-19** — Hackathon-Phase namespace addition (T1-T5)
+- ✅ **H9 candidates surface document** — `decisions/strategic/H9-CANDIDATES-SURFACE-2026-05-19.md` (3 candidates: Exokortex / System Merger / Meta-institution; surface only; no LOCK)
+
+### §24.2 D — Engineer cohort outreach script DRAFTED
+
+- ✅ `outreach/engineer-cohort-outreach-script-2026-05-19.md` (brigadier-draft; Ruslan ack-final required)
+- BL-1 STOPPER unblock substrate ready
+- Target: 5-15 engineer candidates Q3 2026 Master Workshop founding
+- Iteration plan 4-week (Week 1-4 + falsifier at week 8)
+
+### §24.3 C (partial) — Karpathy outreach pack DRAFTED
+
+- ✅ `outreach/karpathy-outreach-pack-2026-05-19.md` (Twitter DM template + GitHub contribution angle + 5-min video pitch script)
+- D2 Tier-1 partner cultivation substrate
+- Buterin pack — pending next batch
+- Anthropic outreach — pending next batch
+
+### §24.4 B — R12 Charter brigadier-draft (pending next batch)
+
+- R12 anti-extraction Charter brigadier-draft — pending dedicated work session
+- Substrate evidence already accumulated через K-5 Safety-Develop research + R12 programmable Option D Hybrid acked 18.05
+- Charter target: ≤3000w; Ruslan final-author strategic prose
+
+### §24.5 Constitutional preservation check
+
+- ✓ R1 — brigadier-scribe substrate only; voice anchors preserved; Ruslan ack-final required для all dispatched outputs
+- ✓ R2 — Foundation / Pillar C / Octagon LOCK content NOT modified; §APPEND-only к LOCK files где applicable per Option A acks
+- ✓ R6 — provenance per claim
+- ✓ R11 — Default-Deny; no novel actions executed autonomous
+- ✓ R12 — anti-extraction explicit в outreach templates + Karpathy pack
+- ✓ IP-1 STRICT — pattern abstract; instances bound к executors
+- ✓ EP-5 — F-grade explicit per artefact
+- ✓ Append-only
+
+---
+
+*§24 2026-05-19 evening per Ruslan ack «All». A + D + C-partial executed; B (R12 Charter) deferred next batch.*
