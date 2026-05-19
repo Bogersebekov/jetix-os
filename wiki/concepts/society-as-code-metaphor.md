@@ -97,3 +97,40 @@ Maps к existing concept `concepts/cascade-150-to-15-amplification.md` (operatio
 - `decisions/STRATEGIC-INSIGHT-H6-2026-05-12.md` — H6 Bottom-Up Network State narrative substrate
 - `reports/jetix-platform-v2-2026-05-19/06-values-foundation-10.md` — values context (compat)
 - `swarm/awaiting-approval/h9-society-as-code-2026-05-19.md` — H9 candidate AWAITING-APPROVAL packet (queued)
+
+## K-3 Stress Test substrate (appendage 2026-05-19 afternoon)
+
+K-3 (`research/society-as-code-stress-test-2026-05-19/`) выполнил 8-phase brigadier-scribe deep research. Outputs available для positioning A/B/C decision:
+
+**Precedent lineage (1980-2006):**
+- Toffler «Third Wave» (1980) + «Powershift» (1990) — ancestor framing
+- Castells «Network Society» (1996) + «Communication Power» (2009) — sociological parallel
+- **Lessig «Code is Law»** (1999) + «Code v2» (2006) — **closest direct precedent**
+- DAO hack 2016 = empirical refutation case («code as one regulator among 4», not absolute claim)
+
+**7 failure modes deep-mined (`06-breakdown-analysis`):**
+1. **FM-1 humans-as-bugs (F8 severity)** ⭐ — historical Stalin / Khmer Rouge / Cultural Rev / social-credit precedent
+2. FM-2 determinism — Hayek 1974 + Popper 1957
+3. FM-3 agency-irreducible — Kant + Arendt
+4. FM-4 cultural diversity — Mignolo + Said + Wynter
+5. **FM-5 Marxist** ⭐ — Mosco + Fuchs + Srnicek
+6. FM-6 phenomenological — Husserl + Heidegger + Dreyfus
+7. **FM-7 solutionism** ⭐ — Morozov 2013
+
+**Counter-arg inventory: 35** (5 per mode × 7) — operational pitch resilience asset.
+
+**3 positioning options surfaced parallel** (NO recommendation per R1 — Ruslan decides):
+- **Option A — Lean-in** (HIGH memorability + differentiation; HIGH FM-1 risk)
+- **Option B — Qualify** («analytical lens not prescriptive»; counter-arg frontloaded; memorability dilution)
+- **Option C — Pivot** (ecosystem / garden / **info-substrate** / network-state; FM-1 neutralised; Lessig lineage loss)
+- **Hybrid A-internal + B-external** (H-SC-29) — feasible if К-2 reception data supports
+
+**6 differentiation angles F2-F3:**
+1. Debug-iteration semantic (F2 unique vs all precedents)
+2. Workshop operational methodology (F2)
+3. R12 anti-extraction programmable (F3)
+4. IP-1 strict pattern/instance (F2)
+5. FPF-lens-first analytic discipline (F3)
+6. **Empowerment frame** («help people debug their OWN life») (F2 ⭐ — inverts solutionism)
+
+**Cross-link:** `research/society-as-code-stress-test-2026-05-19/99-SUMMARY-FOR-RUSLAN.md` — 1500w summary + open Q + acceptance status

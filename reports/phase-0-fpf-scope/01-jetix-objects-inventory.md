@@ -1264,3 +1264,159 @@ R1 STRICT (research surface; NO autonomous promotion of method / sense-of-measur
 ---
 
 *§19 appended by brigadier per `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+---
+
+## §20 APPEND-2026-05-19 — K-2 AGI Reception Market Deep run (1 NC candidate: O-60)
+
+### §20.1 Trigger
+
+K-2 «AGI Reception Market Deep» research run (Phases 0-8). Voice anchor: `audio_690@19-05-2026_04-05-57.md` (verbatim Ruslan: «AGI = когда вся система вместе лаконично работает» — system-level NOT computer-level). Per `prompts/k-2-agi-reception-market-deep-2026-05-19.md` + sibling `_EXPLAIN-k-2-agi-reception-market-deep-2026-05-19.md`.
+
+### §20.2 1 NC surfaced
+
+| O-ID | Title | Source | Type | Tier |
+|---|---|---|---|---|
+| **O-60** | AGI Reception Market Mapping (L1/L2/L3 audience reception + competitive landscape + 7 unique angles + pitch framing breadth) | audio_690 voice anchor + Phase 1-6 (Big Labs / critics / alt-frames / L1/L2/L3 reception simulations / 10 competitors / white-space matrix) | research-substrate candidate | F2 surface; Ruslan-ack required для wiki promotion or Strategic Insight candidacy |
+
+**Renumbering note:** O-56 = K-5 Safety→Develop (§18); O-52..O-55 + O-57..O-59 = K-6 (§19). Next sequential ID = **O-60** для K-2.
+
+### §20.3 Tier classification (proposed by brigadier)
+
+- **F2 surface candidate** (Ruslan ack для wiki Tier-B/C promotion ИЛИ Strategic Insight Decision DB entry per Pillar A): O-60
+- NO constitutional / Foundation / LOCK candidacy proposed (research surface only per R1)
+
+### §20.4 Companion artefacts created (this K-2 run)
+
+- `research/agi-reception-market-deep-2026-05-19/00-MASTER-INDEX.md`
+- `research/agi-reception-market-deep-2026-05-19/01-fpf-lens-scope.md` (Phase 0 — FPF scope + IP-1 STRICT boundary)
+- `research/agi-reception-market-deep-2026-05-19/02-agi-discourse-landscape.md` (Phase 1 — Big Labs + critics + alt-frames 2024-2026)
+- `research/agi-reception-market-deep-2026-05-19/03-collective-substrate-framing-analysis.md` (Phase 2 — framing analysis + differentiation)
+- `research/agi-reception-market-deep-2026-05-19/04-l1-engineer-reception.md` (Phase 3 — L1 simulation)
+- `research/agi-reception-market-deep-2026-05-19/05-l2-founder-reception.md` (Phase 4 — L2 simulation)
+- `research/agi-reception-market-deep-2026-05-19/06-l3-investor-reception.md` (Phase 5 — L3 simulation)
+- `research/agi-reception-market-deep-2026-05-19/07-competitive-landscape-differentiation.md` (Phase 6 — 10 competitors + 7 unique angles)
+- `research/agi-reception-market-deep-2026-05-19/08-hypotheses-bank-pitch-framing.md` (Phase 7 — 35 H + 3-tier pitch framing)
+- `research/agi-reception-market-deep-2026-05-19/98-cross-cutting-synthesis.md` (Phase 8 — 15 patterns)
+- `research/agi-reception-market-deep-2026-05-19/99-SUMMARY-FOR-RUSLAN.md` (Phase 8 — ≤1500w + C.1/C.2 substrate)
+- `research/agi-reception-market-deep-2026-05-19/diagrams/01-10-*.md` (8-10 mermaid)
+
+### §20.5 Status / Ruslan ack pending
+
+- Pre-§20: 53 objects (per §19)
+- Post-§20: **54 objects** (14 acked + 35 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-60**
+- 0 K-2 NCs auto-promoted at brigadier level (R1 surface only)
+- O-60 AWAITING-RUSLAN-ACK per `99-SUMMARY-FOR-RUSLAN.md` §3 open questions
+
+### §20.6 Constitutional posture
+
+R1 STRICT (research surface; no autonomous promotion to Foundation / LOCK / Strategic Insight Decision DB) + R2 STRICT (Foundation v1.0 / Pillar C / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCKs READ-ONLY throughout K-2 run) + R6 (verbatim Big Lab AGI definition quotes + retrieved_date per source) + R11 (Default-Deny; no novel actions executed; WebFetch+WebSearch within budget cap; no API key calls) + R12 (alignment STRONG — «AGI = collective substrate» framing аnti-extraction compatible by design; Ethereum substrate Phase-2+ deferred preserves non-crypto positioning) + IP-1 STRICT (abstract «AGI = collective substrate» = U.Episteme Foundation-generic Layer 1; Jetix-instance binding = RUSLAN-LAYER Layer 2; per-phase explicit layer markers) + EP-5 (F2-F3 surface; reception simulations F2 explicit; Big Lab quotes F3 verbatim with retrieved_date) + append-only (new namespace only; cross-link existing canonical READ-ONLY; 1 §APPEND to this inventory) + breadth-NOT-selection (35 H + 3 anchors + 3 hooks per L1/L2/L3 tier surfaced parallel; NO single-best recommendation selected) + FPF-lens-FIRST (Phase 0 mandatory before Phase 1).
+
+---
+
+*§20 appended by brigadier per `prompts/k-2-agi-reception-market-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1-STRICT + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+---
+
+## §19 K-3 Society-as-Code Stress Test appendage (2026-05-19 afternoon)
+
+### §19.1 Trigger
+
+K-3 society-as-code metaphor stress-test deep research run (Phases 0-8). Voice anchor: `raw/voice-memos-2026-05-19-batch/audio_689@19-05-2026_03-35-50.md` §1 «society-as-code + Jetix-as-debugger metaphor». Per `prompts/k-3-society-as-code-stress-test-2026-05-19.md`.
+
+### §19.2 1 NC surfaced
+
+**O-54 «Society-as-Code Positioning Stress Test artifact» (NC candidate)** — Tier B (Ruslan ack required for Tier classification + positioning A/B/C decision)
+- **Type:** positioning artifact / counter-argument inventory (operational pitch asset)
+- **Evidence:** 3 primary thinkers (Toffler / Castells / Lessig) + 3 adjacent (Meadows / Boyd / Vinge) + 7 failure modes deep-mined + 35 counter-arguments (5/mode × 7) + 6 differentiation angles F2-F3 + 30 hypotheses + 3 positioning options surfaced parallel
+- **F-grade aggregate:** F2 для precedent lineage + F2 для top differentiation angles (Workshop methodology + Empowerment frame) + F3 для R12 programmable + F8 severity для FM-1 humans-as-bugs reputational risk
+- **R12 alignment:** PASS ✅ with caveats (Pillar C rule 12 + Ethereum overlay direct response к Marxist FM-5; Lessig open-code lineage)
+- **Status:** AWAITING-RUSLAN-REVIEW positioning A/B/C/Hybrid decision; counter-arg inventory ready for pitch deployment
+- **Voice anchor:** audio_689 §1 verbatim («общество как программный код... миллионы багов... Jetix идёт их исправлять»)
+- **Cross-ref:** O-46 (Society-as-Code Metaphor — primary concept; positioning here = O-54 stress-test artifact) + Octagon H7 People-NS + Pillar C Tier 2 rule 12 R12 + Lessig 1999/2006 closest precedent
+
+### §19.3 Tier classification
+
+- **Tier B** (Ruslan ack required для positioning decision + Tier C wiki concept promotion): O-54
+
+### §19.4 Companion artefacts created (this К-3 run)
+
+- `research/society-as-code-stress-test-2026-05-19/00-MASTER-INDEX.md`
+- `research/society-as-code-stress-test-2026-05-19/01-fpf-lens-scope.md` (Phase 0)
+- `research/society-as-code-stress-test-2026-05-19/02-toffler-third-wave-powershift.md` (Phase 1)
+- `research/society-as-code-stress-test-2026-05-19/03-castells-network-society.md` (Phase 2)
+- `research/society-as-code-stress-test-2026-05-19/04-lessig-code-is-law.md` (Phase 3) ⭐
+- `research/society-as-code-stress-test-2026-05-19/05-adjacent-meadows-boyd-vinge.md` (Phase 4)
+- `research/society-as-code-stress-test-2026-05-19/06-breakdown-analysis-where-metaphor-fails.md` (Phase 5) ⭐⭐
+- `research/society-as-code-stress-test-2026-05-19/07-jetix-differentiation-counter-arguments.md` (Phase 6)
+- `research/society-as-code-stress-test-2026-05-19/08-hypotheses-bank-jetix-positioning.md` (Phase 7 — 30 H + 3 positioning options)
+- `research/society-as-code-stress-test-2026-05-19/98-cross-cutting-synthesis.md` + `99-SUMMARY-FOR-RUSLAN.md` (Phase 8)
+- 8 mermaid diagrams в `research/society-as-code-stress-test-2026-05-19/diagrams/`
+- Wiki Tier B: `wiki/concepts/society-as-code-metaphor.md` (refreshed with К-3 stress-test substrate)
+- Wiki Tier C: `wiki/concepts/jetix-as-debugger-method-tactic.md` (new — method tactic concept)
+- Wiki Tier C: `wiki/concepts/humans-as-bugs-trap.md` (new — failure mode 1 reference concept)
+
+### §19.5 Status / Ruslan ack pending
+
+- Pre-§19: 46 objects (14 acked + 27 candidates pending + 5 Tier-B Ruslan-acked-without-Tier-promotion)
+- Post-§19: 47 objects (14 acked + 28 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-54**
+- O-54 = Tier B AWAITING-RUSLAN-REVIEW; positioning A/B/C/Hybrid decision pending
+
+### §19.6 Constitutional posture
+
+R1 STRICT (research surface; NO positioning recommendation per breadth-NOT-selection) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCK READ-ONLY throughout K-3 run) + R6 (verbatim primary-source quotes Toffler/Castells/Lessig + retrieved_date per claim) + R11 (Default-Deny; no novel actions executed) + R12 (anti-extraction check Phase 7 §3 PASS ✅ with caveats; Pillar C rule 12 + Ethereum overlay = direct Marxist FM-5 counter) + IP-1 STRICT (metaphor abstract; Jetix instance = RUSLAN-LAYER; positioning A/B/C decision = Ruslan sovereign) + EP-5 (F2-F8 severity per claim) + append-only + breadth-NOT-selection (7 failure modes deep + 3 positioning options parallel + tradeoff matrix balanced) + FPF lens FIRST (Phase 0 set lens before Phase 1+).
+
+---
+
+*§19 appended by brigadier-scribe per `prompts/k-3-society-as-code-stress-test-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+---
+
+## §21 APPEND — K-1 Info-Substrate Philosophy Deep Research (2026-05-19)
+
+### §21.1 Trigger
+
+K-1 info-substrate philosophy deep research run (Phases 0-8). Voice anchor: `raw/voice-memos-2026-05-19-batch/audio_690@19-05-2026_04-05-57.md` §1 «информация subsрат hypothesis + AGI = вся система вместе лаконично работает». Per `prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md`.
+
+### §21.2 1 NC surfaced
+
+**O-52 «Info-Substrate Philosophy Lineage artifact» (NC candidate)** — Tier B (Ruslan ack required для Tier classification + positioning A/B/C decision)
+- **Type:** citation chain + counter-argument inventory + methodology mapping (Vision narrative L3 framing substrate)
+- **Evidence:** 4 primary thinkers deep-mined (Wheeler «It from Bit» 1989 / Wolfram «Computational Universe» NKS 2002 + Wolfram Physics 2020+ / Floridi «Philosophy of Information» 2011+2013+2014 / Bateson «Mind and Nature» 1972+1979) + 3 adjacent thinkers (Shannon 1948 / Wiener 1948+1950 / von Foerster 1974) + 5 opposing schools deep-mined (Materialism / Dualism / Functionalism / Pansychism / Phenomenology) + top-5 critiques aggregated с counter-arguments + 30 hypotheses bank + 3 Jetix positioning options A/B/C parallel + tradeoff matrix populated + 8 mermaid diagrams + EU AI Act 2024 regulatory tailwind lineage (HLEG-AI 2019 Floridi → EU AI Act 2024)
+- **F-grade aggregate:** F3 для primary thinker verbatim claims (multi-source corroborated; training-knowledge baseline) + F2 для hypotheses bank H-IS-1..30 + F3 для EU regulatory lineage + F3 для R12 alignment confirmation
+- **R12 alignment:** PASS ✅ — 4 STRONG (Floridi 2013 + Wiener 1950 ch.X + vF «increase choices») + 1 STRONGEST (Bateson «Roots of Ecological Crisis» 1972 = direct R12 ancestor) + 1 TENSION mitigatable (Wolfram PCE substrate-irrelevance → capability vs ethical-instance split) + 2 NEUTRAL (Wheeler / Shannon); NO opponents of R12 across 7 thinkers
+- **Status:** AWAITING-RUSLAN-REVIEW positioning A/B/C decision; Vision narrative L3 citation chain ready; phenomenological mitigation language required (R-HIGH critique durable)
+- **Voice anchor:** audio_690 §1 verbatim («всё есть информация: помидор это информация, дерево это информация, человек это информация» + «Вот вам AGI: когда вся система вместе лаконично работает»)
+- **Cross-ref:** O-47 (Information Substrate Hypothesis — primary concept; this artefact = lineage substrate) + H7 People-NS LOCKED 2026-05-12 (substrate-as-collective precedent) + H8 Trust Infrastructure LOCKED 2026-05-17 + Foundation Part 8 Health Monitoring (Shannon SLI/SLO candidate) + Recursive Engine O-22 (Wiener feedback) + R12 LOCKED 2026-05-12 + FPF F-G-R discipline (Floridi LoA parallel) + voice-pipeline-2026-05-19-batch-5 Summary §7 K-1-5 roster
+
+### §21.3 Tier classification
+
+- **Tier B** (Ruslan ack required для positioning decision + Tier C wiki concept promotion): O-52
+
+### §21.4 Companion artefacts created (this K-1 run)
+
+- `research/info-substrate-philosophy-deep-2026-05-19/00-MASTER-INDEX.md`
+- `research/info-substrate-philosophy-deep-2026-05-19/01-fpf-lens-scope.md` (Phase 0)
+- `research/info-substrate-philosophy-deep-2026-05-19/02-wheeler-it-from-bit.md` (Phase 1)
+- `research/info-substrate-philosophy-deep-2026-05-19/03-wolfram-computational-universe.md` (Phase 2)
+- `research/info-substrate-philosophy-deep-2026-05-19/04-floridi-philosophy-information.md` (Phase 3) ⭐ closest methodology
+- `research/info-substrate-philosophy-deep-2026-05-19/05-bateson-mind-nature.md` (Phase 4) ⭐ closest semantics
+- `research/info-substrate-philosophy-deep-2026-05-19/06-adjacent-shannon-wiener-von-foerster.md` (Phase 5)
+- `research/info-substrate-philosophy-deep-2026-05-19/07-adoption-opposing-schools.md` (Phase 6) ⭐⭐ phenomenology STRONGEST critique
+- `research/info-substrate-philosophy-deep-2026-05-19/08-hypotheses-bank-jetix-positioning.md` (Phase 7 — 30 H + 3 positioning options A/B/C)
+- `research/info-substrate-philosophy-deep-2026-05-19/98-cross-cutting-synthesis.md` + `99-SUMMARY-FOR-RUSLAN.md` (Phase 8)
+- 8 mermaid diagrams в `research/info-substrate-philosophy-deep-2026-05-19/diagrams/`
+
+### §20.5 Status / Ruslan ack pending
+
+- Pre-§20: 47 objects (post-§19 K-3)
+- Post-§20: **48 objects** (14 acked + 29 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-52**
+- O-52 = Tier B AWAITING-RUSLAN-REVIEW; positioning A/B/C decision pending + phenomenological mitigation language pending + EU AI Act compliance pathway review pending (H-IS-6 needs legal counsel)
+
+### §20.6 Constitutional posture
+
+R1 STRICT (research surface; brigadier-scribe; NO autonomous positioning recommendation per breadth-NOT-selection memory rule) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCK READ-ONLY throughout K-1 run; cross-link only) + R6 (verbatim primary-source quotes Wheeler/Wolfram/Floridi/Bateson + Shannon/Wiener/vF + retrieved_date per claim; training-knowledge baseline disclosed Phase 0 §5) + R11 (Default-Deny novel actions; only WebFetch/WebSearch built-in tools) + R12 (anti-extraction check Phase 7 §6 PASS ✅ — 4 STRONG + 1 STRONGEST + 1 TENSION + 2 NEUTRAL; NO opponents) + IP-1 STRICT (substrate philosophy = abstract pattern; Jetix instance = RUSLAN-LAYER per executor-binding; per-claim discipline enforced all 8 phases §4.X IP-1 caveats) + EP-5 (F2-F3 per claim; F3 для primary thinker verbatim claims multi-source corroborated) + append-only (new namespace + this §20 §APPEND only) + breadth-NOT-selection (30 H с refutation conditions + 3 positioning options A/B/C parallel + tradeoff matrix balanced) + FPF lens FIRST (Phase 0 set lens before Phase 1+; FPF primitive mapping per phase explicit).
+
+---
+
+*§20 appended by brigadier-scribe per `prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
