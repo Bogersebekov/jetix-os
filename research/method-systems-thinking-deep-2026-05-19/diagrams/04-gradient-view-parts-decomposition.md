@@ -10,6 +10,7 @@ source: text_013 §2.16-17
 # Gradient view + parts decomposition (text_013 §2.16-17)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     SYS[System overall<br/>«не на 100% perfect»]
     SYS --> P1[Part 1: info consumption]

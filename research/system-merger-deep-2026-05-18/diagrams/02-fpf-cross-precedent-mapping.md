@@ -9,6 +9,7 @@ parent_doc: 02-cross-precedent-deep-4.md (§F design imperatives)
 # Diagram 02 — 4 Precedents → FPF Primitive Mapping
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph USB-C
         USBC_PHYS[Physical connector]

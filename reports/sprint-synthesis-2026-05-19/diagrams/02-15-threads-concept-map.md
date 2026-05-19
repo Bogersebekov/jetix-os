@@ -9,6 +9,7 @@ diagram_id: 02
 # Diagram 02 — 15 Strategic Threads × Concept Docs × NCs
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     KEY[KEYSTONE audio_686<br/>18.05 15:22]:::keystone
     KEY --> T8[T8 Engineer Workshop<br/>STOPPER F5]:::stopper

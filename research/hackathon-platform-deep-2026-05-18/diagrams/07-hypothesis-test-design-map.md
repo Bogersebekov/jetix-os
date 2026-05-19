@@ -8,6 +8,7 @@ parent: ../08-hypotheses-bank-breadth.md
 # Diagram 07 — Hypothesis test design map
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     YearStart[Year-1 Start 2026-08]
     Event1[Event 1 Q3 Day]

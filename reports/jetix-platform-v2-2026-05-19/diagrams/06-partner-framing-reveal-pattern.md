@@ -11,6 +11,7 @@ diagram_subject: Phase 6 — Partner framing reveal pattern + 8-step structure
 ## 8-step reveal sequence
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     START[Outreach start]
     START --> S1[1. ANCHOR<br/>«Ты работаешь над их project»]
@@ -35,6 +36,7 @@ graph TD
 ## Pre-meeting profiling required (FPF discipline)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     PROFILE[Pre-outreach profiling<br/>per template]
     PROFILE --> P1[Their project<br/>1-2 paragraphs]
@@ -55,6 +57,7 @@ graph LR
 ## Saturation discipline (3-tier)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     SAT[Saturation strategy<br/>«каждому запихаю» tempered by quality]
 
@@ -82,6 +85,7 @@ graph TD
 ## 10 values × 22 categories × R12 alignment
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     VALUES[10 Values<br/>Phase 6 §0]
 

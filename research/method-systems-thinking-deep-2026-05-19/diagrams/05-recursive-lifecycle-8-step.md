@@ -10,6 +10,7 @@ source: text_013 §2.18
 # Recursive lifecycle 8-step (text_013 §2.18 + Phase 7)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     S1[Step 1<br/>Создали метод<br/>«описали метод»]
     S2[Step 2<br/>План улучшить себя<br/>(Jetix)]

@@ -256,6 +256,7 @@ For non-L1 / non-Master-Workshop positive responses:
 ## §6 Personalisation flow mermaid
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   T[Target] --> R[Researcher dossier L1]
   R --> RA{R12 audit L1}

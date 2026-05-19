@@ -243,6 +243,7 @@ Mitigation tactics:
 ## §7 12-month activation Gantt
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
   title 12-month 100-trained cohort activation
   dateFormat YYYY-MM-DD
@@ -273,6 +274,7 @@ gantt
 ## §8 Curriculum mermaid
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   T1[Tier 1 Foundation<br/>R12 + FPF + Methodology<br/>~60d] --> T2[Tier 2 Methodology<br/>Role + LLM + CRM<br/>~60d]
   T2 --> T3[Tier 3 Specialisation<br/>6 target classes<br/>~90d]

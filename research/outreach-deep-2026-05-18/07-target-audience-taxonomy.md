@@ -293,6 +293,7 @@ Per Phase 2 List D synthesised (default recommendation):
 ## §6 Per-class mermaid
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   subgraph "Tier 1 Critical"
     C1[L1 key-person ~10-20<br/>Ruslan personal]

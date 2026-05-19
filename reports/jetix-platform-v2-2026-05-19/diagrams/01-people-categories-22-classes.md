@@ -9,6 +9,7 @@ diagram_subject: Phase 1 — 22 people categories
 # Diagram 1 — 22 People Categories × 5 Super-Clusters × Q3 2026 Tier
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     JETIX[Jetix Substrate v2<br/>22 people categories]
 

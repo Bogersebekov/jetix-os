@@ -48,6 +48,7 @@ sibling_explanations:
 ## §1 Current State Landscape (Diagram 1)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "FOUNDATION (LOCKED 2026-04-28)"
         F1[Foundation v1.0<br/>11 Parts + Pillar A/C]
@@ -161,6 +162,7 @@ graph TB
 ## §2 Causation Flow (Diagram 2) — text_008-009 → концепты → deep research
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     subgraph "INPUT (voice)"
         V1[text_008<br/>meta-directive<br/>100x multiplier]
@@ -252,6 +254,7 @@ graph LR
 ### §3.2 Research scope (8 phases mirror ml-ai-engineers pattern)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUT"
         IA[5 concept docs A<br/>+ vision/10 + Phase 0 O-24/O-25]
@@ -341,6 +344,7 @@ graph TB
 ### §4.2 Research scope
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUT"
         IA[Concept doc B<br/>Recursive Engine F2]
@@ -434,6 +438,7 @@ Open Q из concept doc C: **Jetix как outsource OR Jetix как platform-com
 ### §5.2 Research scope
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "INPUT"
         IA[Concept doc C<br/>System Merger F2]
@@ -530,6 +535,7 @@ graph TB
 ML/AI research 45 hypotheses bank cross-fertilises все 3 deep research runs:
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "ML/AI 45 HYPOTHESES BANK"
         MH1[H-ML-1-10<br/>Industry hypotheses]
@@ -585,6 +591,7 @@ graph TB
 ## §7 3-Month Roadmap (Diagram 7)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title 3-Month Roadmap — Hackathon Push + Deep Research + First Events
     dateFormat YYYY-MM-DD

@@ -9,6 +9,7 @@ parent_doc: 05-strategic-q-decision-matrix.md §5
 # Diagram 06 — Strategic Q Decision Tree
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     Q1{Q1: Is FPF as universal merger language<br/>a defining bet for Jetix?}
     Q1 -->|YES| Q2

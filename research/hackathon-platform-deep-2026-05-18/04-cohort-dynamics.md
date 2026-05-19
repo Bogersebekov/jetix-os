@@ -354,6 +354,7 @@ Brief: [link]
 ## §7 Cross-cohort dynamics (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     SPONSOR[Sponsors<br/>$$$$ + theme] --> EVENT[Event<br/>1-day or week]
     EVENT --> PARTICIPANT[Participants<br/>engineers/founders]
@@ -376,6 +377,7 @@ graph TD
 ## §8 Cohort funnel (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     A[100K AI-engineers global] --> B[10K RU L2 telegram]
     B --> C[1K engaged with Jetix substrate]
@@ -390,6 +392,7 @@ graph LR
 ## §9 Sponsor-mentor-participant triangle (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     SPONSOR[Sponsor]
     PARTICIPANT[Participant]
@@ -409,6 +412,7 @@ Per MLH precedent. [src: `research/hackathon-deep-2026-05-18/05-mike-swift-mlh-d
 ## §10 Bloggers + sponsor first-activation loop (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     Sponsor->>Jetix: Commits €5K
     Jetix->>Bloggers: Offer recap deal
@@ -425,6 +429,7 @@ sequenceDiagram
 ## §11 Mentor scaling curve (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     E1[Event 1: 5 ROY + 3 external = 8 mentors] --> A1[5 alumni]
     A1 --> E2[Event 2: 5 ROY + 3 ext + 5 alumni = 13]

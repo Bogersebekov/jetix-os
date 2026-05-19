@@ -9,6 +9,7 @@ parent_doc: 04-two-sub-protocols-formalised.md §A.2 + §D
 # Diagram 03 — Ashby Requisite Variety × Merger Boundary
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph Incoming_System
         V_I[V_I: Incoming behavioural variety<br/>states + actions + roles + data classes]

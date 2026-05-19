@@ -10,6 +10,7 @@ source: text_012 §2.13-15
 # System self-development cycle (text_012 §2.13-15)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     GOAL[System sets own goal<br/>text_012 §2.13]
     TASK[Tasks: consume info to understand path]

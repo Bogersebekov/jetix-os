@@ -249,6 +249,7 @@ Per Phase 5 §10 detailed breakdown.
 ## §7 Gantt diagram (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Jetix Hackathon Platform Year-1 Calendar (Q3 2026 — Q3 2027)
     dateFormat  YYYY-MM-DD
@@ -316,6 +317,7 @@ Per concept doc A §8: floor 10 → 1000 reachable; stretch 10 → 100K requires
 ## §10 Per-event dependencies map
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     E1[Event 1: Day, Q3 2026<br/>bloggers+sponsor]
     E2[Event 2: Month, Q3-Q4<br/>sponsor-project]

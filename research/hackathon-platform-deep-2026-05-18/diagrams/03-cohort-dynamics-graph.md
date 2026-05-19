@@ -8,6 +8,7 @@ parent: ../04-cohort-dynamics.md
 # Diagram 03 — Cohort dynamics graph
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     SPONSOR[Sponsors<br/>$$ + theme]
     EVENT[Event execution]

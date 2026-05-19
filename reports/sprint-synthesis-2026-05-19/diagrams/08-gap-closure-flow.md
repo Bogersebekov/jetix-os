@@ -9,6 +9,7 @@ diagram_id: 08
 # Diagram 08 — Gap Closure Flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph CRIT[" CRITICAL P1 immediate (Week 1) "]
         G1[G-1 Monetization<br/>VAPOR → Spec C.7]:::crit

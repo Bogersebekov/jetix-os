@@ -10,6 +10,7 @@ source: Phase 6
 # Sense of Measure decision tree + Scientific Approach parsimony convergence
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     DECISION{Decision needed:<br/>intervene vs let-be<br/>continue vs stop<br/>refine vs ship}
 

@@ -9,6 +9,7 @@ parent_doc: 02-cross-precedent-deep-4.md
 # Diagram 01 — Cross-Precedent Adoption Timelines
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 timeline
     title 4 universal protocol precedents adoption timelines
     section TCP/IP (Phase 1 §B)

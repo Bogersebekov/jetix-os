@@ -268,6 +268,7 @@ Per Pillar C Tier 2 R12 + RUSLAN-LAYER R12-programmable Option D Hybrid (acked 2
 ## §5 60-day activation Gantt
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
   title 60-day 10-team activation
   dateFormat YYYY-MM-DD
@@ -291,6 +292,7 @@ gantt
 ## §6 RACI handoff diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
   R[Researcher] -->|dossier| C[Copywriter]
   C -->|script + tokens| V[Video Producer]

@@ -10,6 +10,7 @@ source: Phase 5.5 + text_014 §2.29-30
 # Jetix Workshop = Экзокортекс stack (Phase 5.5)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     subgraph BIO[Bio-internal cognition]
         BRAIN[Biological brain<br/>Ruslan + participants]

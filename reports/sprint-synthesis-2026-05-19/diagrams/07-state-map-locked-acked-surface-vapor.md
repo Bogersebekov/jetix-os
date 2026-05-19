@@ -9,6 +9,7 @@ diagram_id: 07
 # Diagram 07 — 5-Tier State Map
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     subgraph LOCKED[" LOCKED F8 / F5+ — UNTOUCHABLE "]
         F[Foundation v1.0<br/>11 Parts + Pillar A/C<br/>tag 2026-04-28]:::locked

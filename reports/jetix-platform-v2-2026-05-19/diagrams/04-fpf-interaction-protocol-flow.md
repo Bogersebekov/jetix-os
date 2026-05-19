@@ -9,6 +9,7 @@ diagram_subject: Phase 4 — FPF interaction protocol 8-layer stack flow
 # Diagram 4 — FPF Interaction Protocol Flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     autonumber
     actor User as Participant
@@ -58,6 +59,7 @@ sequenceDiagram
 ## Layer flow (linear simplified)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     L1[L1 Identity<br/>Registration + FPF profile]
     L2[L2 Promise<br/>Offers + Asks]
@@ -87,6 +89,7 @@ graph LR
 ## Mode negotiation (System Merger Protocol cross-ref)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     PARTNER[Partner system<br/>FPF-fluency assessment]
     PARTNER --> Q1{Full FPF<br/>fluent?}

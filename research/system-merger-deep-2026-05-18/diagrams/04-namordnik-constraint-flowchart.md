@@ -9,6 +9,7 @@ parent_doc: 04-two-sub-protocols-formalised.md §A
 # Diagram 04 — Намордник Constraint Catalog Enforcement Flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     START[Cross-boundary action attempted]
     START --> CATEGORIZE{Action class<br/>categorized in<br/>merger Default-Deny<br/>table?}

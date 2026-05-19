@@ -140,6 +140,7 @@ Direct cross-link к Education Layer Tier 1 curriculum module candidate (`resear
 ## §7 Diagram (mermaid)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     S5["S5 Policy / Identity<br/>(Ruslan + VISION-FUNDAMENTAL)"]
     S4["S4 Intelligence<br/>(phil-expert + sys-expert + K-research)"]

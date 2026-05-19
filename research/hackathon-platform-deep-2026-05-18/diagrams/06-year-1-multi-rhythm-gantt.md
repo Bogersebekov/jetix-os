@@ -8,6 +8,7 @@ parent: ../07-multi-rhythm-year-1-calendar.md
 # Diagram 06 — Year-1 multi-rhythm Gantt
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Jetix Hackathon Platform Year-1 Calendar (Q3 2026 — Q3 2027)
     dateFormat  YYYY-MM-DD

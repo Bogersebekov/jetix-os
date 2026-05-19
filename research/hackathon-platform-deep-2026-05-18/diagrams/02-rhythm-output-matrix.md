@@ -8,6 +8,7 @@ parent: ../03-per-rhythm-mechanism-spec.md
 # Diagram 02 — Rhythm-to-output matrix
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     Day[Day rhythm<br/>8-24h<br/>Output: idea/blueprint]
     Weekend[Weekend rhythm<br/>48-72h<br/>Output: MVP/pitch]

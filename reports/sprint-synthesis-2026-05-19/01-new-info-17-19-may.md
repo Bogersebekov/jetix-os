@@ -336,6 +336,7 @@ Cheat-sheet allowed на skill tests = measures reasoning + tool-use, NOT raw me
 ## §7 Mermaid
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 %% diagrams/01-17-19-may-timeline.md (inline)
 gantt
     title 17-19.05 Sprint Timeline
@@ -370,6 +371,7 @@ gantt
 ```
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 %% diagrams/02-15-threads-concept-map.md (inline)
 graph TD
     KEY[KEYSTONE audio_686 18.05 15:22]

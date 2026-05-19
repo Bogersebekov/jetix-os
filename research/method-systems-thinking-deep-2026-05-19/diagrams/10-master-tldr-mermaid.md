@@ -10,6 +10,7 @@ source: K-6 full
 # Master TLDR — K-6 Method of Systems Thinking at-a-glance
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     VOICE["Voice anchors<br/>text_012 + text_013 + text_014<br/>+ Ruslan society additions"]
 

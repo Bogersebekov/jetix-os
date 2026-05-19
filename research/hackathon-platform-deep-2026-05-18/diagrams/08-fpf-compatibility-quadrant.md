@@ -8,6 +8,7 @@ parent: ../02-hackathon-variants-survey.md §9
 # Diagram 08 — RU adoption × FPF compatibility quadrant
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 quadrantChart
     title RU adoption vs FPF compatibility (30 platforms)
     x-axis Low FPF compat --> High FPF compat

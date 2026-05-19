@@ -9,6 +9,7 @@ diagram_id: 06
 # Diagram 06 — Promotion Package 6-Doc Roadmap
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Daily Log 19.05 Step 6 — Promotion Package 6 Docs
     dateFormat YYYY-MM-DD

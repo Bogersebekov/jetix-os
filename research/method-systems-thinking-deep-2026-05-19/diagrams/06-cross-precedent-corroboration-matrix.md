@@ -10,6 +10,7 @@ source: Phase 5 §3
 # Cross-precedent corroboration matrix (10 thinkers × selected K-6 components)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph THINKERS[10 primary thinkers]
         MEAD[Meadows]

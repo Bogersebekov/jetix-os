@@ -10,6 +10,7 @@ source: text_012 §2.4-9
 # Method flow × 7 pillars (text_012 §2.4-9)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph PILLARS["7 pillars (text_012 §2.5-9)"]
         STRAT[Strategy]

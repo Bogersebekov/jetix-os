@@ -8,6 +8,7 @@ parent: ../05-sponsor-funding-mechanisms.md §9 + ../06-first-event-Q3-2026-blue
 # Diagram 09 — R12 enforcement в hackathon context
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     PARTICIPANT[Participant]
     SPONSOR[Sponsor]

@@ -10,6 +10,7 @@ source: text_014 §2.22-28
 # 3-stage throughput process — text_014 §2.22-28 (PROCESS not circle)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     SELECT["Per-iteration selection<br/>(text_014 §2.28)<br/>• values<br/>• method of processing<br/>• specific info"]
 

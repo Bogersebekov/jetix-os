@@ -9,6 +9,7 @@ diagram_id: 04
 # Diagram 04 — 12 P1 Decisions Flow + Blockers
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TD
     Start[Ruslan ack 19.05<br/>Tier B 5 ideas]:::done
 

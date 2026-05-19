@@ -9,6 +9,7 @@ diagram_subject: Phase 2 — 32 resources umbrella
 # Diagram 2 — 32 Resources × 6 Super-Classes × R12 Flag
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     SUBSTRATE[Jetix Substrate<br/>32 resources umbrella]
 

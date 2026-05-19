@@ -44,6 +44,7 @@ constitutional_posture: R1 surface + R6 + EP-5 + append-only
 ## §1 State Landscape (Diagram 1) — что есть, что preserved, что в процессе
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "🔴 FOUNDATION LOCKED (READ-ONLY)"
         F1[Foundation v1.0<br/>11 Parts + Pillar A/C<br/>2026-04-28]
@@ -187,6 +188,7 @@ graph TB
 ## §2 Timeline (Diagram 2) — sprint 16-19.05 chronological
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Jetix Sprint Timeline 16-19.05.2026
     dateFormat YYYY-MM-DD
@@ -342,6 +344,7 @@ gantt
 ## §4 Reading Order (Diagram 3) — что читать в каком порядке
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     subgraph "STEP 1 — Critical pitch-substrate (60 min)"
         R1[K-2 AGI Reception Summary<br/>10 min ⭐⭐ PITCH-BLOCKING]
@@ -409,6 +412,7 @@ graph LR
 ## §5 Key Insights Cross-Stream (Diagram 4) — top discoveries
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 mindmap
   root((Jetix Sprint Insights<br/>16-19.05))
     🔥 KEYSTONE
@@ -471,6 +475,7 @@ mindmap
 ## §6 Open Decisions (Diagram 5) — что ждёт ack от Ruslan
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 quadrantChart
     title Open Decisions × Priority × Effort
     x-axis Low effort --> High effort
@@ -525,6 +530,7 @@ quadrantChart
 ## §7 Next Steps (Diagram 6) — Master Packaging Roadmap Step 6
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     subgraph "📍 NOW Step 6 unblocked"
         S0[Read 6 K-research Summaries<br/>~60-100 min]

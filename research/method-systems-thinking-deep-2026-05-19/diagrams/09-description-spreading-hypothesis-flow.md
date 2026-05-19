@@ -10,6 +10,7 @@ source: H-MST-26 + text_012 §2.21
 # Description-spreading hypothesis flow (H-MST-26)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     K6[K-6 method articulated<br/>(this artefact)]
 

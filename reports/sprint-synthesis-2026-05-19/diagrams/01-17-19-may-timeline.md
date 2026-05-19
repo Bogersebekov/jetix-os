@@ -9,6 +9,7 @@ diagram_id: 01
 # Diagram 01 — 17-19.05 Sprint Timeline
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title 17-19.05 Sprint Timeline (3-day deep substrate build)
     dateFormat YYYY-MM-DD

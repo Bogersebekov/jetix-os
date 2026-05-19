@@ -9,6 +9,7 @@ diagram_id: 03
 # Diagram 03 — Critical Path 7-14 day Gantt
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title BL-1 Cascade — 7-step Critical Path Steps 0-6
     dateFormat YYYY-MM-DD

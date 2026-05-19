@@ -69,6 +69,7 @@ Sahil Lavingia founded Gumroad (2011, age 18); raised seed; in 2015 Gumroad down
 ### §1.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[Sahil solo founder] --> B[Blog 200+ posts]
   A --> C[Twitter 1M followers]
@@ -127,6 +128,7 @@ Warm-intro chain = ×3-5 conversion lift; Jetix L1 (Karpathy / Musk / Anthropic)
 ### §2.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[a16z partner] --> B[Operator-in-residence]
   B --> C[Portfolio CEO]
@@ -186,6 +188,7 @@ Asymmetric leverage pattern = «content multiplier × niche-density». Jetix «�
 ### §3.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[Naval] --> B[Tweet 280 chars]
   B --> C[Compounding archive 10yr]
@@ -244,6 +247,7 @@ Build-in-public = R12-aligned (transparency = anti-extraction signal). Jetix Wor
 ### §4.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[Pieter solo] --> B[Build-in-public daily log]
   B --> C[Twitter 600K]
@@ -303,6 +307,7 @@ DevRel pattern = «peer-to-peer outreach via competence demonstration, not sales
 ### §5.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[GitHub DevRel] --> B[30 advocates global]
   B --> C[GitHub Universe annual]
@@ -365,6 +370,7 @@ YC funnel mechanism = throughput-discipline + peer cohort substrate transferable
 ### §6.8 Mermaid mini-diagram
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
   A[YC] --> B[Application 10K-20K]
   B --> C[Interview 200-300 accept]

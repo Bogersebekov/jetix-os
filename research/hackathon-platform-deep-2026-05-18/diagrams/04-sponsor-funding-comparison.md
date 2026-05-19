@@ -8,6 +8,7 @@ parent: ../05-sponsor-funding-mechanisms.md
 # Diagram 04 — Sponsor + funding mechanism comparison
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TB
     M[Funding mechanisms]
     QF[QF Quadratic Funding<br/>R12: very high<br/>Setup: med-high<br/>5-50K/event]

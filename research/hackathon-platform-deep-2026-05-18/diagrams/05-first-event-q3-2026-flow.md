@@ -8,6 +8,7 @@ parent: ../06-first-event-Q3-2026-blueprint.md
 # Diagram 05 — First event Q3 2026 operational flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 sequenceDiagram
     participant Ruslan
     participant Jetix

@@ -11,6 +11,7 @@ diagram_subject: Phase 7 — 15 monetization variants × 3 horizons + R12 flow
 ## 15 variants × 3 horizons (breadth NOT selection)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     JETIX[Jetix Substrate<br/>15 monetization variants surfaced]
 
@@ -48,6 +49,7 @@ graph TD
 ## Revenue flow + R12 enforcement
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     SPONSORS[Sponsors Cat 8/16/17/19]
     PARTICIPANTS[Participants Cat 1-22]
@@ -89,6 +91,7 @@ graph LR
 ## Annual revenue trajectory Y1-Y5+ (illustrative)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Annual revenue trajectory Y1-Y5+ (€ illustrative)
     dateFormat YYYY-MM-DD
@@ -113,6 +116,7 @@ gantt
 ## 2-tier value framing (per Ruslan text_010)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     PARTNERS[Partners + Participants]
 

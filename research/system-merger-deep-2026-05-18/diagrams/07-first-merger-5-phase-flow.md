@@ -9,6 +9,7 @@ parent_doc: 06-first-merger-test-case.md §4
 # Diagram 07 — First Merger 5-Phase Flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart TB
     START[Two systems agree to explore merger]
     

@@ -9,6 +9,7 @@ diagram_subject: Phase 3 — Hackathon Tier 1-5 progression Q3 2026 → Q3 2027
 # Diagram 3 — Hackathon Tier 1-5 Progression Gantt (Q3 2026 → Q3 2027)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 gantt
     title Hackathon Tier-Progression Cadence Q3 2026 → Q3 2027
     dateFormat YYYY-MM-DD
@@ -55,6 +56,7 @@ gantt
 ## Cohort flow (compound effect)
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph LR
     POOL[Recruiting pool<br/>Phase 1 22 categories]
     POOL --> T1[T1 cohort<br/>250-500/yr]

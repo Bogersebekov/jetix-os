@@ -11,6 +11,7 @@ diagram_subject: Phase 5 — Jetix organisational role + IP-1 28-entry boundary
 ## 7-role substrate spec
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     JETIX[Jetix Substrate]
 
@@ -33,6 +34,7 @@ graph TD
 ## IP-1 28-Entry Boundary — decision-tree
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 graph TD
     ACT[Proposed action]
     ACT --> CLAS{Action class?}

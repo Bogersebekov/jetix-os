@@ -9,6 +9,7 @@ parent_doc: 04-two-sub-protocols-formalised.md §B
 # Diagram 05 — USB-C порт Translation Flow
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 flowchart LR
     subgraph Incoming_System["Incoming System (native model)"]
         IN_DATA[Native data: User, Project, ...]

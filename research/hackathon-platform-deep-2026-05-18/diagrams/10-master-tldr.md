@@ -8,6 +8,7 @@ parent: ../99-SUMMARY-FOR-RUSLAN.md
 # Diagram 10 — Master TL;DR
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
 mindmap
   root((Jetix Hackathon<br/>Platform Deep Research<br/>2026-05-18))
     Phase 0 FPF lens
