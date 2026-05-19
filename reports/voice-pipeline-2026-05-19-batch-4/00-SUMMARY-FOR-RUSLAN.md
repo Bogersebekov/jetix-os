@@ -54,7 +54,7 @@ Foundation / Pillar C / 8 Octagon LOCK = preserved (read-only). H9 candidate sur
 | 2 | Phase 2 verbatim save + 5-cell breakdown + FPF lens | 6 .md verbatim + 4 batch-4 reports (MASTER-INDEX / per-note 30-cells / fpf-lens / detailed-work-plan) |
 | 3 | Phase 3 8-lenses cross-analysis (48 datapoints) | 03-lens-cross-analysis.md |
 | 4 | Phase 4 3 candidate buckets surface | 05-candidates-3-buckets.md |
-| 5 | Phase 5 §APPEND + 6 wiki Tier A + daily log | Phase 0 inventory §14 + REFLECTION-INBOX §APPEND-2026-05-19 + 6 wiki concepts + _DAILY-LOG-2026-05-19.md |
+| 5 | Phase 5 §APPEND + 6 wiki Tier A + daily log | Phase 0 inventory §14 + REFLECTION-INBOX §APPEND-2026-05-19 + 6 wiki concepts + daily-logs/_DAILY-LOG-2026-05-19.md |
 | 6 | Phase 6 Summary + final push | this file + push origin main |
 
 **Total files**: 6 transcripts + 6 verbatim + 7 batch-4 reports + 1 daily log + 6 wiki concepts = 26 new + 3 modified (inventory / inbox / log).
@@ -187,7 +187,7 @@ Within budget. Cache: Claude Code session caching ≥80%.
 - 6 transcripts (`raw/voice-transcripts/audio_68{2,3,4,5,6,7}*.txt`)
 - 6 verbatim notes (`raw/voice-memos-2026-05-19-batch/audio_68{2,3,4,5,6,7}*.md`)
 - 7 batch-4 reports (`reports/voice-pipeline-2026-05-19-batch-4/` — 00-MASTER-INDEX, 01-per-note, 02-fpf-lens, 03-lens-cross, 04-detailed-work-plan, 05-candidates, 00-SUMMARY)
-- 1 daily log (`_DAILY-LOG-2026-05-19.md`)
+- 1 daily log (`daily-logs/_DAILY-LOG-2026-05-19.md`)
 - 6 wiki concepts (`wiki/concepts/{offline-workspace-6-elements,table-of-hundreds-outreach,two-stage-launch-protocol,numerical-targets-eoy-2026,equal-conditions-hackathon,cascade-150-to-15-amplification}.md`)
 
 **Modified (3)**:

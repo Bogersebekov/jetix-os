@@ -4,7 +4,7 @@ date: 2026-05-18 evening
 session: ml-ai-engineers-deep-research-2026-05-18
 namespace: research/ml-ai-engineers-2026-05-18/
 parent_prompt: prompts/ml-ai-engineers-deep-research-2026-05-18.md
-parent_explain: _EXPLAIN-ml-ai-engineers-deep-research-2026-05-18.md
+parent_explain: prompts/explanations/_EXPLAIN-ml-ai-engineers-deep-research-2026-05-18.md
 status: BRIGADIER-COMPLETE (Phases 0-8) — AWAITING-RUSLAN-REVIEW
 constitutional_posture: R1 + R6 + R11 + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only
 authored_by: brigadier-scribe (ROY swarm; eng/sys/mgmt/inv/phil × 4 modes dispatch)

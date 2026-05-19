@@ -272,7 +272,7 @@ F: F2
 
 85. [LAUNCHERS-STAGE-6.md](LAUNCHERS-STAGE-6.md) — 331 строк — Stage-6 launcher index, ready (pre-Foundation) — **rec: ARCHIVE**
 
-86. [_HANDOFF_to_next_cowork_session_2026-05-06.md](_HANDOFF_to_next_cowork_session_2026-05-06.md) — 198 строк — today's handoff — **rec: KEEP** (today's working doc; archive automatically завтра)
+86. [_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md](_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md) — 198 строк — today's handoff — **rec: KEEP** (today's working doc; archive automatically завтра)
 
 87. [_meta/conventions.md](_meta/conventions.md) — repo conventions — **rec: KEEP active**
 

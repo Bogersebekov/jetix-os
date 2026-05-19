@@ -185,7 +185,7 @@ Sequence to Step 6 closure:
 **Modified (4 — append-only)**:
 - `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md` §17 (6 NCs)
 - `decisions/REFLECTION-INBOX-2026-05-16.md` §APPEND-batch-5 (8 AQX items)
-- `_DAILY-LOG-2026-05-19.md` §8 (Step 6 progress)
+- `daily-logs/_DAILY-LOG-2026-05-19.md` §8 (Step 6 progress)
 - `wiki/log.md` (Tier A promotion entry)
 
 **NOT modified (preserved)**:

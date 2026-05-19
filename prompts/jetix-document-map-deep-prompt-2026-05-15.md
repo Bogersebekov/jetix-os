@@ -93,8 +93,8 @@ Server CC должен прочитать минимум следующие docu
 ### §2.6 Outreach
 - Pitch Doc — [outreach/jetix-mentor-partner-pitch-2026-05-12.md](outreach/jetix-mentor-partner-pitch-2026-05-12.md)
 - Document pool — [outreach/jetix-document-pool-2026-05-12.md](outreach/jetix-document-pool-2026-05-12.md)
-- Video scenario v2 — [_VIDEO-RECORDING-tseren-2026-05-15.md](_VIDEO-RECORDING-tseren-2026-05-15.md)
-- Antigravity checklist — [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)
+- Video scenario v2 — [_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md](_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md)
+- Antigravity checklist — [_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)
 - L1 First Clan profiles — `profiles/l1-first-clan/` (9 имён)
 - Anton call report — [reports/anton-call-report-2026-05-11.md](reports/anton-call-report-2026-05-11.md)
 
@@ -309,8 +309,8 @@ language: russian
 
 1. **canonical/INDEX.md** — добавить указатель на новый MAP в самом верху как «See first: JETIX-DOCUMENT-MAP-2026-05-15.md»
 2. **outreach/jetix-document-pool-2026-05-12.md** — добавить ссылку «Companion: новая карта местности → ...» в frontmatter / §0
-3. **_VIDEO-RECORDING-tseren-2026-05-15.md** Блок 5 — обновить чтобы упомянуть MAP как primary visual вместо отдельных файлов
-4. **_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md** — добавить Tab 0 «JETIX-DOCUMENT-MAP» в самом начале как primary file для screen-share
+3. **_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md** Блок 5 — обновить чтобы упомянуть MAP как primary visual вместо отдельных файлов
+4. **_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md** — добавить Tab 0 «JETIX-DOCUMENT-MAP» в самом начале как primary file для screen-share
 
 ---
 
@@ -348,8 +348,8 @@ Server CC выполняет перед commit:
 git add decisions/JETIX-DOCUMENT-MAP-2026-05-15.md \
         canonical/INDEX.md \
         outreach/jetix-document-pool-2026-05-12.md \
-        _VIDEO-RECORDING-tseren-2026-05-15.md \
-        _VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md
+        _archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md \
+        _archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md
 ```
 
 Commit message convention:
@@ -368,8 +368,8 @@ Commit message convention:
 Side updates:
 - canonical/INDEX.md — pointer to new MAP at top
 - outreach/jetix-document-pool-2026-05-12.md — companion link to MAP
-- _VIDEO-RECORDING-tseren-2026-05-15.md Блок 5 — MAP как primary visual
-- _VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md — Tab 0 MAP
+- _archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md Блок 5 — MAP как primary visual
+- _archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md — Tab 0 MAP
 ```
 
 Затем `git push origin main`.

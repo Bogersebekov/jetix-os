@@ -21,7 +21,7 @@ R: refuted_if_C1-C7_misattributed_OR_R1_violated_by_AI_authoring_final_text
 
 > **Source basis для всех блоков.**
 > - `inbox/levenchuk-tg-2026-05-17.md` — C1-C7 surface
-> - `_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` — Левенчук profile (high content density / low tolerance к pitchy)
+> - `_archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` — Левенчук profile (high content density / low tolerance к pitchy)
 > - Phase A `06-honest-self-audit.md` + `00-SUMMARY-FOR-RUSLAN.md`
 > - Phase B Steps 1-5 outputs
 

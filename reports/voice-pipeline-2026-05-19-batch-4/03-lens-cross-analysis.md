@@ -19,7 +19,7 @@ prose_authored_by: brigadier-scribe
 
 > **8 Lenses (per prompt §0):**
 > L1: FPF Phase 0 inventory (14 + O-21-29) · L2: 5 acked concept docs · L3: 5 deep research outputs ·
-> L4: Master Picture (`_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`) · L5: ML/AI 45-H bank ·
+> L4: Master Picture (`_archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`) · L5: ML/AI 45-H bank ·
 > L6: 8 Octagon LOCKs · L7: vision/00-13 · L8: Daily Log 19.05 (primary lens today)
 
 ---

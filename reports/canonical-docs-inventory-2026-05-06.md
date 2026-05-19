@@ -224,7 +224,7 @@ Per frontmatter scan; status: draft / draft-stage-3 / draft-v2 / draft-synthesiz
 | `README.md` | (small) | — | Repo overview |
 | `ARCHITECTURE-CURRENT.md` | 332 lines | living-doc | Architecture snapshot 2026-04-16 (as-is) [src:frontmatter] |
 | `LAUNCHERS-STAGE-6.md` | 331 lines | ready | Stage-6 launcher index for 6 parallel architect sessions [src:frontmatter] |
-| `_HANDOFF_to_next_cowork_session_2026-05-06.md` | 198 lines | (no frontmatter — header note) | Context for new Cloud Cowork session 2026-05-06 [src:cat _HANDOFF_*] |
+| `_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md` | 198 lines | (no frontmatter — header note) | Context for new Cloud Cowork session 2026-05-06 [src:cat _archive/handoffs/_HANDOFF_*] |
 | `SYSTEM-DESIGN-HUMAN.md` | 2009 lines | v1-beta-FINAL approved-by-ruslan-2026-04-18 (LOCKED via tag) | v1-beta system design for human [see §1.5] |
 
 ### §2.5 Reports — research deliverables
@@ -699,7 +699,7 @@ Outbound `related:`:
 
 **Top-level master config + recent handoffs:**
 - CLAUDE.md (master config; updates to "Foundation Architecture v1.0 (LOCKED)" section frozen at 2026-04-28) → **ACTIVE**
-- _HANDOFF_to_next_cowork_session_2026-05-06.md — created today → **ACTIVE**
+- _archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md — created today → **ACTIVE**
 - HOME.md (dashboard) — frequent commit touches → **ACTIVE**
 
 ### §7.2 Possibly-stale heuristic (objective signal: not referenced from current-canonical AND no commits within 14+ days)
@@ -842,7 +842,7 @@ ls /home/ruslan/jetix-os/shared/schemas/ → 8 .json + 1 .yaml.template
 SYSTEM-DESIGN-HUMAN.md = 2009
 ARCHITECTURE-CURRENT.md = 332
 LAUNCHERS-STAGE-6.md = 331
-_HANDOFF_to_next_cowork_session_2026-05-06.md = 198
+_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md = 198
 HOME.md = 114
 MIGRATION.md = 57
 CLAUDE.md = 423

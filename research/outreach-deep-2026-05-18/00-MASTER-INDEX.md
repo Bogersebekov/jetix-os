@@ -2,7 +2,7 @@
 type: master-index
 session: outreach-system-scalable-deep-research-2026-05-18
 date: 2026-05-18 evening
-parent_explain: _EXPLAIN-outreach-system-scalable-deep-research-2026-05-18.md
+parent_explain: prompts/explanations/_EXPLAIN-outreach-system-scalable-deep-research-2026-05-18.md
 parent_prompt: prompts/outreach-system-scalable-deep-research-2026-05-18.md
 parent_concept: decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md (F2 acked)
 constitutional_posture: R1 + R6 + R11 + R12 anti-extraction + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only

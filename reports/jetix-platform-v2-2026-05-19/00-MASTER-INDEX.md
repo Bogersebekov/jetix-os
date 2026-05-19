@@ -3,7 +3,7 @@ type: master-index
 date: 2026-05-19 noon Berlin
 session: jetix-platform-v2-description-2026-05-19
 status: IN-PROGRESS (Phases 0-9 sequential autonomous run)
-parent_explain: _EXPLAIN-jetix-platform-v2-description-2026-05-19.md
+parent_explain: prompts/explanations/_EXPLAIN-jetix-platform-v2-description-2026-05-19.md
 parent_prompt: prompts/jetix-platform-v2-description-2026-05-19.md
 voice_anchors:
   - raw/voice-memos-2026-05-19-batch/text_010@2026-05-19_noon.md
@@ -74,7 +74,7 @@ Diagrams in `diagrams/`:
 
 ## §4 §APPEND files (additive only)
 
-- `_DAILY-LOG-2026-05-19.md` (§7 platform-v2 entry)
+- `daily-logs/_DAILY-LOG-2026-05-19.md` (§7 platform-v2 entry)
 - `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md` §16 (O-42 / O-43 / O-44 / O-45 candidates)
 
 ---

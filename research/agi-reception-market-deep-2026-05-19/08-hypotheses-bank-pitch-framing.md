@@ -334,7 +334,7 @@ Per memory + ack 2026-05-18 (`swarm/awaiting-approval/r12-programmable-ethereum-
 
 ## §4 C.1 one-pager substrate inventory ⭐
 
-> Cross-link к recommended draft components per `_EXPLAIN-k-2-agi-reception-market-deep-2026-05-19.md` §7 (PITCH-BLOCKING UNBLOCK).
+> Cross-link к recommended draft components per `prompts/explanations/_EXPLAIN-k-2-agi-reception-market-deep-2026-05-19.md` §7 (PITCH-BLOCKING UNBLOCK).
 
 ### §4.1 C.1 recommended structure
 

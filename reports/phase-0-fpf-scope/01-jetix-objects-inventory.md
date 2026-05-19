@@ -1209,7 +1209,7 @@ R1 STRICT (research surface; NO autonomous R13 promotion) + R2 STRICT (Foundatio
 
 ### §19.1 Trigger
 
-K-6 «Method of Systems Thinking / View of World / Approach to Life» comprehensive deep research run (Phases 0-8 + Phase 5.5). Voice anchors: text_012 + text_013 + text_014 (verbatim Ruslan dictation 2026-05-19 afternoon). Per `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` + sibling `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md`.
+K-6 «Method of Systems Thinking / View of World / Approach to Life» comprehensive deep research run (Phases 0-8 + Phase 5.5). Voice anchors: text_012 + text_013 + text_014 (verbatim Ruslan dictation 2026-05-19 afternoon). Per `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` + sibling `prompts/explanations/_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md`.
 
 ### §19.2 7 NCs surfaced
 
@@ -1271,7 +1271,7 @@ R1 STRICT (research surface; NO autonomous promotion of method / sense-of-measur
 
 ### §20.1 Trigger
 
-K-2 «AGI Reception Market Deep» research run (Phases 0-8). Voice anchor: `audio_690@19-05-2026_04-05-57.md` (verbatim Ruslan: «AGI = когда вся система вместе лаконично работает» — system-level NOT computer-level). Per `prompts/k-2-agi-reception-market-deep-2026-05-19.md` + sibling `_EXPLAIN-k-2-agi-reception-market-deep-2026-05-19.md`.
+K-2 «AGI Reception Market Deep» research run (Phases 0-8). Voice anchor: `audio_690@19-05-2026_04-05-57.md` (verbatim Ruslan: «AGI = когда вся система вместе лаконично работает» — system-level NOT computer-level). Per `prompts/k-2-agi-reception-market-deep-2026-05-19.md` + sibling `prompts/explanations/_EXPLAIN-k-2-agi-reception-market-deep-2026-05-19.md`.
 
 ### §20.2 1 NC surfaced
 

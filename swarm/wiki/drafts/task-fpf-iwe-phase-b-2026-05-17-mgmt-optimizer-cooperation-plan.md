@@ -11,7 +11,7 @@ sources:
   - reports/fpf-iwe-distillation-2026-05-17/05-residencies-format.md
   - reports/fpf-iwe-distillation-2026-05-17/02-iwe-deep-v2.md
   - inbox/levenchuk-tg-2026-05-17.md
-  - _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
+  - _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
   - decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md
   - decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md
 provenance_inline: true
@@ -62,7 +62,7 @@ After (proposed 3-tier ladder): structured engagement with measurable KPIs per t
 | **backlog-age-p50** (age of unresolved FPF/IWE questions in Jetix backlog) | Growing (C4 benchmark, I-U2 gap, FPF integration — all open, no path) | -30 days on C4 benchmark (Tier 1 subscription activates IWE access for B2 unblock) | -60 days (Tier 2 exercise resolves 2-3 open gaps via firsthand Tseren observation) | -120 days (Tier 3 advisory closes FPF integration questions) | ↓ |
 | **OKR-confidence per KR** (confidence in FPF-integration KR) | 0.1 (no path forward) | 0.4 (Tier 1 IWE direct access + разборы) | 0.6 (Tier 2 Tseren observes Jetix substrate, gives technical feedback) | 0.8 (Tier 3 Levenchuk reviews Foundation + Tseren co-develops module) | ↑ |
 
-`[src: inbox/levenchuk-tg-2026-05-17.md C3+C7; _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Tseren + §8 Levenchuk]`
+`[src: inbox/levenchuk-tg-2026-05-17.md C3+C7; _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Tseren + §8 Levenchuk]`
 
 ---
 
@@ -111,7 +111,7 @@ Aisystant subscription (price not captured Phase A; estimate: €0-€100/month 
 **Scale.** 1-2 joint sessions; 1 co-authored small artefact; cross-citation. Requires Tier 1 complete OR parallel (Levenchuk track, see §2.3 COMM note above).
 **Entry trigger.** Tier 1 month complete AND circuit breaker NOT fired (§5) AND explicit Ruslan decision to upgrade.
 
-`[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §7 Tseren + §7 Levenchuk (стиль работы / партнёрство)]`
+`[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §7 Tseren + §7 Levenchuk (стиль работы / партнёрство)]`
 
 ### §4.2 GIVES / WANTS / KNOWS / EXIT table
 
@@ -150,7 +150,7 @@ Tier 2 cost beyond Tier 1 subscription: primarily Ruslan time. Sessions online =
 **Scale.** Formal advisory role for Levenchuk (Foundation reviews) + Tseren (substrate co-development); co-developed module possibility; equity-leaning only via explicit HITL.
 **Entry trigger.** Tier 2 complete AND C4 benchmark shows differential Jetix advantage AND Levenchuk/Tseren explicitly indicate interest in deeper engagement AND Ruslan HITL decision.
 
-`[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Levenchuk (Tyson-mentor candidate, Critical path A1.2)]`
+`[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Levenchuk (Tyson-mentor candidate, Critical path A1.2)]`
 
 ### §5.2 GIVES / WANTS / KNOWS / EXIT table
 
@@ -261,7 +261,7 @@ Drucker principle applied: accountability cannot be shared. Each row has a singl
 
 **Scope-wall note on equity.** Any equity/revenue-share row routes to `investor-expert × scalability` per mgmt-expert §1b scope-wall paragraph 4 (out_of_scope: horizon arithmetic → investor-expert). This draft surfaces the slot; does NOT populate it.
 
-`[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Levenchuk (Critical path A1.2, Tyson-mentor pattern)]`
+`[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Levenchuk (Critical path A1.2, Tyson-mentor pattern)]`
 
 ---
 
@@ -290,7 +290,7 @@ Proposed cooperation ladder, if executed to Tier 2, produces these measurable de
 | Jetix L1 relationship strength Levenchuk | 1/10 | Target 3/10 | +2 |
 | Joint artefact count | 0 | 2-3 (C4 benchmark + R12 proposal + разбор log) | +2-3 |
 
-`[src: reports/jetix-vs-iwe-audit-2026-05-17.md §4 (I-U2, I-U4, I-U10); _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §4 Quick-glance comparison table (relationship_strength)]`
+`[src: reports/jetix-vs-iwe-audit-2026-05-17.md §4 (I-U2, I-U4, I-U10); _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §4 Quick-glance comparison table (relationship_strength)]`
 
 ---
 

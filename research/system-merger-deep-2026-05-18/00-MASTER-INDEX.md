@@ -4,7 +4,7 @@ date: 2026-05-18 evening
 session: system-merger-deep-research-2026-05-18
 namespace: research/system-merger-deep-2026-05-18/
 parent_prompt: prompts/system-merger-protocol-deep-research-2026-05-18.md
-parent_explain: _EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md
+parent_explain: prompts/explanations/_EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md
 parent_concept: decisions/strategic/JETIX-SYSTEM-MERGER-PROTOCOL-FPF-2026-05-18.md
 voice_anchor: raw/voice-memos-2026-05-17-batch/text_009@2026-05-18_evening.md (Thread 10 ¶8-9)
 status: BRIGADIER-IN-PROGRESS → COMPLETE per phase commits (final push at Phase 8)
@@ -17,7 +17,7 @@ strategic_q: surfaced 3 options (NOT picked)
 
 # MASTER INDEX — System Merger Protocol Deep Research
 
-> Sibling намерения к `_EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md`. R1 surface only;
+> Sibling намерения к `prompts/explanations/_EXPLAIN-system-merger-protocol-deep-research-2026-05-18.md`. R1 surface only;
 > Ruslan picks Strategic Q. H9 candidate evidence catalog surfaced, NOT promoted к LOCK.
 
 ## §1 Reading order

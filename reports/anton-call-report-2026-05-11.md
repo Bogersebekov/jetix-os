@@ -629,7 +629,7 @@ stateDiagram-v2
 | Toggl breakdown | `reports/toggl_full_history_v2_2026-05-03.json` (months 2026-03 + 2026-04 + 2026-05) |
 | Retrospective context | `reports/timeline-narrative-2025-07_to_2026-05.md` |
 | Action plan + RES.1-3 | `decisions/STRATEGIC-INSIGHT-JETIX-PARTNERSHIP-MODEL-2026-05-10.md` §10.1 |
-| Handoff context | `_HANDOFF_to_next_cowork_session_2026-05-11.md` |
+| Handoff context | `_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-11.md` |
 | Hexagon insights | каждый `decisions/STRATEGIC-INSIGHT-*.md` прочитан в headers |
 
 Constitutional posture preserved. AI = scribe (структурировал факты, не сочинял стратегию). Ruslan = sole strategist (все «verbatim Ruslan» quotes — фактические; все hypothesis / questions — мои, не AI).

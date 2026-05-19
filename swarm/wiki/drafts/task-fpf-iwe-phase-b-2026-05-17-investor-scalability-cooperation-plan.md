@@ -15,7 +15,7 @@ sources:
   - reports/jetix-vs-iwe-audit-2026-05-17.md
   - reports/fpf-iwe-distillation-2026-05-17/02-iwe-deep-v2.md
   - reports/fpf-iwe-distillation-2026-05-17/05-residencies-format.md
-  - _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
+  - _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
   - decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md
   - decisions/JETIX-CORPORATION-2026-05-05.md
 constitutional_posture: R1-scribe; no strategic recommendations; no «следует/лучше»; BOSC-A-T-X 5-gate invariant; dissents preserved per AP-6
@@ -59,7 +59,7 @@ Cooperation tiers defined in Brief: Tier 1 (light, observation) / Tier 2 (medium
 
 `[src: decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md §2.2: PayPal Mafia pattern (200 → Tesla/LinkedIn/YouTube/Palantir downstream); «coordinated professional networks beat single corporations»]`
 
-`[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §1 §3: MIM track record — 3006 Aisystant users; 1200+ completed courses; 11-year partnership Tseren-Levenchuk; sustained cadence without collapse]`
+`[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §1 §3: MIM track record — 3006 Aisystant users; 1200+ completed courses; 11-year partnership Tseren-Levenchuk; sustained cadence without collapse]`
 
 | Gate | Cooperation compound (annual, rough directional) | No-cooperation counterfactual | Delta attribution |
 |------|--------------------------------------------------|-------------------------------|-------------------|
@@ -275,8 +275,8 @@ All 12+ required provenance entries:
 7. `[src: reports/jetix-vs-iwe-audit-2026-05-17.md §4 I-U1: «Jetix cannot ship Jetix-for-domain-X as a forked artefact» — key gap]`
 8. `[src: reports/jetix-vs-iwe-audit-2026-05-17.md §7: Jetix highest lever = R12 (Meadows L2); IWE highest lever = FPF Fallback Chain (Meadows L3); different paradigm anchors]`
 9. `[src: reports/jetix-vs-iwe-audit-2026-05-17.md §8.4: «~25% FPF structural-intelligence» for Jetix current implementation]`
-10. `[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §1 §3: MIM — 3006 Aisystant users; 1200+ completed courses; 11-year partnership; Levenchuk «yearly-updated textbooks»]`
-11. `[src: _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Левенчук: «cold» CRM status; relationship_strength 1/10; «direct timeline — not before June 2026 (after Tseren)»]`
+10. `[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §1 §3: MIM — 3006 Aisystant users; 1200+ completed courses; 11-year partnership; Levenchuk «yearly-updated textbooks»]`
+11. `[src: _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §8 Левенчук: «cold» CRM status; relationship_strength 1/10; «direct timeline — not before June 2026 (after Tseren)»]`
 12. `[src: decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md §8 R-D: «Anti-extraction watered down under external/internal pressure — mitigation: R12 elevation early; fork-and-leave right preserves checks»]`
 13. `[src: decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md §5 M-C: R12 «constitutionally forbidden» techno-feudalism; «members can fork-and-leave without penalty»]`
 14. `[src: decisions/JETIX-CORPORATION-2026-05-05.md §0 TL;DR: «Main moat: network effects via Reed's Law × compound learning × cross-resource synergy — uncopyable за 5-10 лет curated quality + accumulated wisdom»; trajectory €5K → $100K end of summer 2026 → €100M+ ARR 3 years]`

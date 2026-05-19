@@ -13,11 +13,11 @@ parents:
   - reports/phase-0-fpf-scope/01-jetix-objects-inventory.md
   - decisions/strategic/JETIX-*-2026-05-18.md (5 concept docs)
   - research/{hackathon-platform,recursive-engine,system-merger,outreach,education-layer}-deep-2026-05-18/
-  - _MASTER-PICTURE-NEXT-STEPS-2026-05-18.md
+  - _archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md
   - research/ml-ai-engineers-2026-05-18/09-hypotheses-bank-breadth.md
   - decisions/STRATEGIC-INSIGHT-*.md (H1-H8)
   - vision/
-  - _DAILY-LOG-2026-05-19.md
+  - daily-logs/_DAILY-LOG-2026-05-19.md
   - reports/jetix-platform-v2-2026-05-19/ (11 docs)
 prose_authored_by: brigadier-scribe
 ---
@@ -34,11 +34,11 @@ prose_authored_by: brigadier-scribe
 1. **FPF Phase 0 inventory** — `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md` (objects O-1-45)
 2. **5 acked concept docs** — Hackathon Platform / Recursive Engine / System Merger / Outreach Scalable / Education Layer (all `decisions/strategic/JETIX-*-2026-05-18.md`)
 3. **5 deep research outputs** — parallel deep research dirs (`research/{hackathon-platform,recursive-engine,system-merger,outreach,education-layer}-deep-2026-05-18/`)
-4. **Master Picture** — `_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
+4. **Master Picture** — `_archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
 5. **ML/AI 45-H bank** — `research/ml-ai-engineers-2026-05-18/09-hypotheses-bank-breadth.md`
 6. **8 Octagon LOCKs** — `decisions/STRATEGIC-INSIGHT-*.md` (H1-H8)
 7. **vision/** — `vision/00-MASTER + 01-13`
-8. **Daily Log 19.05** — `_DAILY-LOG-2026-05-19.md`
+8. **Daily Log 19.05** — `daily-logs/_DAILY-LOG-2026-05-19.md`
 9. **⭐ NEW: Platform v2 Description** — `reports/jetix-platform-v2-2026-05-19/` (11 docs + 7 mermaid)
 
 ---
@@ -89,11 +89,11 @@ prose_authored_by: brigadier-scribe
 [src: audio_689 §1 + decisions/STRATEGIC-INSIGHT-H6-2026-05-12.md + decisions/STRATEGIC-INSIGHT-H7-2026-05-12.md]
 
 ### Datapoint 13: audio_690 × L4 Master Picture
-**Connection**: AGI-as-system redefinition = Master Picture CORE positioning revision — _MASTER-PICTURE-NEXT-STEPS-2026-05-18.md currently frames Jetix as «hackathon platform + workshop + outreach» (operational). audio_690 elevates positioning к «we are the AGI substrate (collective intelligence orchestration)» — positioning layer above operational layer.
-**Action**: §APPEND-batch-5 §Y к Master Picture document; OR draft companion `_MASTER-PICTURE-NEXT-STEPS-AGI-REVISION-2026-05-19.md`. Surface as RUSLAN decision item — depth of revision (gentle §APPEND vs companion).
+**Connection**: AGI-as-system redefinition = Master Picture CORE positioning revision — _archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md currently frames Jetix as «hackathon platform + workshop + outreach» (operational). audio_690 elevates positioning к «we are the AGI substrate (collective intelligence orchestration)» — positioning layer above operational layer.
+**Action**: §APPEND-batch-5 §Y к Master Picture document; OR draft companion `_archive/meta/_MASTER-PICTURE-NEXT-STEPS-AGI-REVISION-2026-05-19.md`. Surface as RUSLAN decision item — depth of revision (gentle §APPEND vs companion).
 **F-grade**: F3-F4 (substantively claimable; market reception speculative)
 **Cross-link**: blocks pitch deck v1 (Daily Log Step 6 target)
-[src: audio_690 §1 «вам AGI» + _MASTER-PICTURE-NEXT-STEPS-2026-05-18.md current scope]
+[src: audio_690 §1 «вам AGI» + _archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md current scope]
 
 ### Datapoint 15: audio_690 × L6 8 Octagon LOCKs
 **Connection**: Information Substrate Hypothesis = candidate H10 Strategic Insight — philosophical-foundational insight (Wheeler/Wolfram/Floridi lineage). Companion к H1 People-NS-Substrate / H5 (TBD substrate-level) — establishes ontological framing for substrate claims.

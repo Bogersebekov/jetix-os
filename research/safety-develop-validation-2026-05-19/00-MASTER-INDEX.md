@@ -4,7 +4,7 @@ date: 2026-05-19 afternoon
 session: k-5-safety-develop-validation-2026-05-19
 namespace: research/safety-develop-validation-2026-05-19/
 parent_prompt: prompts/k-5-safety-develop-validation-2026-05-19.md
-parent_explain: _EXPLAIN-k-5-safety-develop-validation-2026-05-19.md
+parent_explain: prompts/explanations/_EXPLAIN-k-5-safety-develop-validation-2026-05-19.md
 voice_anchor: raw/voice-memos-2026-05-19-batch/audio_690@19-05-2026_04-05-57.md
 status: BRIGADIER-COMPLETE (Phases 0-8) — AWAITING-RUSLAN-REVIEW
 constitutional_posture: R1 STRICT + R2 STRICT + R6 + R11 + R12 + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only

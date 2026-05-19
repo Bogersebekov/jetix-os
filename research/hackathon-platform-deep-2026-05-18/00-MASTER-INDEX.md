@@ -2,7 +2,7 @@
 type: master-index
 session: hackathon-platform-deep-research-2026-05-18
 date: 2026-05-18 evening
-parent_explain: _EXPLAIN-hackathon-platform-deep-research-2026-05-18.md
+parent_explain: prompts/explanations/_EXPLAIN-hackathon-platform-deep-research-2026-05-18.md
 parent_prompt: prompts/hackathon-platform-deep-research-2026-05-18.md
 parent_concept: decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md (F2 acked)
 constitutional_posture: R1 + R6 + R11 + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only

@@ -16,7 +16,7 @@ constitutional_posture: R1 scribe — NOT authoring strategy; surfacing epistemi
 sources:
   - reports/jetix-vs-iwe-audit-2026-05-17.md
   - inbox/levenchuk-tg-2026-05-17.md
-  - _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
+  - _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md
   - decisions/STRATEGIC-INSIGHT-JETIX-AS-PEOPLE-NETWORK-STATE-2026-05-12.md
   - decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md
   - swarm/wiki/foundations/principles/architecture.md
@@ -185,7 +185,7 @@ These are genuine offers, not marketing claims, because they are backed by (F, C
 
 **Levenchuk's likely read:** Per L1 profile §7 — Levenchuk not yet directly contacted (CRM: cold, relationship_strength: 1/10). Tseren is warm but unacknowledged. Presenting Tier 3 deep integration in a document meant for early-stage outreach creates a mismatch between the relationship state and the ask level. Levenchuk will read it as not understanding the bar.
 
-**Epistemic basis:** _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §7 (Levenchuk anti-patterns) + §8 (outreach state). F2 / G: l1-profiles-applied-now.
+**Epistemic basis:** _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md §7 (Levenchuk anti-patterns) + §8 (outreach state). F2 / G: l1-profiles-applied-now.
 
 **Falsifier:** Risk materialized = Levenchuk does not respond to initial outreach because the document reads as asking for too much too early.
 

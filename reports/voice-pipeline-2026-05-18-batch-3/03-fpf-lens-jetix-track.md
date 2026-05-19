@@ -96,7 +96,7 @@ parents:
 - **FPF primitives:** A.15 (work-as-artefact)
 - **text_008/009 impact:** Daily log 18.05 evening summary (Phase 6).
 - **F-G-R:** F4 / G=daily-log / R=defined
-- **§extension:** `_DAILY-LOG-2026-05-18.md` evening summary.
+- **§extension:** `daily-logs/_DAILY-LOG-2026-05-18.md` evening summary.
 
 ### O-09 Octagon (H1-H8 LOCKED 2026-05-17)
 - **FPF primitives:** A.14 + B.3

@@ -496,7 +496,7 @@ Largest Foundation Parts: Part 6b (1903 lines), Part 6a (1827 lines), Part 8 (15
 | Total lines | 60,421 [src:find prompts/ wc -l] |
 | Earliest creation | 2026-04-16 (notion-auth-check, notion-full-extraction, system-design-sweep) [src:git-log -- prompts/] |
 | Latest update | 2026-05-06 (this prompt: server-cc-history-and-canonical-inventory) [src:cat prompts/] |
-| Handoff files | handoff-chat-2026-04-18 / 04-19 / 04-20-evening, handoff-cloud-cowork-2026-04-26 (4 files) + top-level _HANDOFF_to_next_cowork_session_2026-05-06.md [src:ls + ls top-level] |
+| Handoff files | handoff-chat-2026-04-18 / 04-19 / 04-20-evening, handoff-cloud-cowork-2026-04-26 (4 files) + top-level _archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md [src:ls + ls top-level] |
 | Brigadier launch prompts | swarm-launch-brigadier-* (7 files: ai-consulting-dach-strategy-options, km-materialization, l5-product-deep-dive, l6-community-deep-dive, l7-business-deep-dive, producer-services-strategy-options, system-overview) [src:ls prompts/] |
 
 ### §6.9 Strategic Layer (Pillar A / Bundle 5 / Wave 1 scaffolding)
@@ -639,7 +639,7 @@ All run inside `/home/ruslan/jetix-os/`:
 - `/home/ruslan/jetix-os/SYSTEM-DESIGN-HUMAN.md` (frontmatter — v1-beta-FINAL approved-by-ruslan-2026-04-18)
 - `/home/ruslan/jetix-os/ARCHITECTURE-CURRENT.md` (frontmatter)
 - `/home/ruslan/jetix-os/LAUNCHERS-STAGE-6.md` (frontmatter)
-- `/home/ruslan/jetix-os/_HANDOFF_to_next_cowork_session_2026-05-06.md` (frontmatter)
+- `/home/ruslan/jetix-os/_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md` (frontmatter)
 - `/home/ruslan/jetix-os/decisions/*.md` (70 files — frontmatter status: scan)
 - `/home/ruslan/jetix-os/decisions/strategic/lock-entries/D-01..D-29.md` (29 files — frontmatter scan)
 - `/home/ruslan/jetix-os/decisions/strategic/strategic-insights/*.md` (4 files)
@@ -721,7 +721,7 @@ Per the prompt's §3.3 discipline: this report makes no recommendations about co
 | Prompts | 149 |
 | Agents (per-agent dirs) | 19 |
 | Principles entries | 26 |
-| Top-level *.md | 7 (CLAUDE.md, MIGRATION.md, HOME.md, README.md, SYSTEM-DESIGN-HUMAN.md, ARCHITECTURE-CURRENT.md, LAUNCHERS-STAGE-6.md, _HANDOFF_to_next_cowork_session_2026-05-06.md — actually 8) |
+| Top-level *.md | 7 (CLAUDE.md, MIGRATION.md, HOME.md, README.md, SYSTEM-DESIGN-HUMAN.md, ARCHITECTURE-CURRENT.md, LAUNCHERS-STAGE-6.md, _archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-06.md — actually 8) |
 | Phases identified | 11 (§2) |
 | Document creation events tracked | 103 (§3) |
 | Topical groups | 10 (§6) |

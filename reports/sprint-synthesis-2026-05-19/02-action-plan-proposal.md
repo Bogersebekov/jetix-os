@@ -4,7 +4,7 @@ date: 2026-05-19
 type: sprint-synthesis
 phase: 3
 parent_prompt: prompts/3-docs-sprint-synthesis-2026-05-19.md
-parent_explain: _EXPLAIN-3-docs-sprint-synthesis-2026-05-19.md
+parent_explain: prompts/explanations/_EXPLAIN-3-docs-sprint-synthesis-2026-05-19.md
 sibling_docs:
   - 01-new-info-17-19-may.md
   - 03-state-map-gaps.md

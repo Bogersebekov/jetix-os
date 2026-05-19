@@ -164,7 +164,7 @@ Add to K-6 standalone prompt:
 
 - `raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md` (10 original components)
 - `raw/voice-memos-2026-05-19-batch/text_013@2026-05-19_afternoon.md` (8 first additions)
-- `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (to be updated)
+- `prompts/explanations/_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (to be updated)
 - `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` (to be updated)
 - `decisions/JETIX-WORKSHOP-CONCEPT-2026-04-30.md` (Workshop substrate = exokortex now)
 - `research/deepening-2026-05-18/04-success-engelbart-h-lam-t-mapping.md` (H-LAM/T = exokortex prototype)

@@ -12,7 +12,7 @@ G: letter-base-content-blocks
 R: refuted_if_R1_violated_OR_partner-track_misattributed
 related:
   - outreach/video-script-tseren-2026-05-12.md (предыдущий outreach — video sent 04.05)
-  - _L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md (L1 profiles)
+  - _archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md (L1 profiles)
 ---
 
 # Letter base — ответ Цэрэну
@@ -20,7 +20,7 @@ related:
 > **Это НЕ финальный текст.** Content blocks + структура. Ruslan = final author. AI = scribe.
 
 > **Sources.**
-> - `_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` (Tseren profile)
+> - `_archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` (Tseren profile)
 > - `outreach/video-script-tseren-2026-05-12.md` (video sent 04.05; prior outreach state)
 > - Phase A `00-SUMMARY-FOR-RUSLAN.md` + Phase B Steps 1-5
 

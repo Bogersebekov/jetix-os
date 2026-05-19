@@ -62,7 +62,7 @@ prose_authored_by: claude (scribe)
 - `raw/research/2026-04-28-tseren-tg-export/` — 618 Tseren posts + analysis report
 - `raw/research/2026-04-28-tseren-yt-export/` — 127 + 452 YT video metadata + analysis
 - `profiles/l1-first-clan/{anatoliy-levenchuk,tseren-tserenov}.md` — L1 profiles
-- `_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` — synthesis
+- `_archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` — synthesis
 
 ### §3.2 New (Phase A collected)
 

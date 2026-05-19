@@ -6,7 +6,7 @@ status: IN-PROGRESS (Phase 0 → 8)
 authored_by: brigadier-scribe
 voice_anchor: raw/voice-memos-2026-05-19-batch/audio_690@19-05-2026_04-05-57.md
 parent_prompt: prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md
-parent_explanation: _EXPLAIN-k-1-info-substrate-philosophy-deep-2026-05-19.md
+parent_explanation: prompts/explanations/_EXPLAIN-k-1-info-substrate-philosophy-deep-2026-05-19.md
 constitutional_posture: R1 + R6 + R11 + R12 + IP-1 + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only
 language: russian primary + english (FPF + verbatim source quotes)
 priority: P2

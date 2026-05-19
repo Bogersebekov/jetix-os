@@ -69,7 +69,7 @@ prose_authored_by: brigadier-scribe
   - Step 4: new inventory  
   - Step 5: Phase 1 plan finalization
   - Step 6: master packaging document
-- **Cross-ref**: `_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
+- **Cross-ref**: `_archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
 - **Owner**: Ruslan
 - **Timeline**: 5-7d post-batch-4
 - **Priority**: P1
@@ -221,7 +221,7 @@ prose_authored_by: brigadier-scribe
 ### D-6 Daily Log 19.05 §APPEND (Step 1+2 done)
 - **Source**: Master Picture
 - **Action**: §APPEND Daily Log 19.05 — mark Step 1 (voice processed) ✅ + Step 2 (lens analysis) ✅.
-- **Cross-ref**: `_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
+- **Cross-ref**: `_archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md`
 - **Owner**: brigadier-scribe (Phase 5)
 - **Timeline**: this batch (Phase 5)
 - **Priority**: P2

@@ -4,7 +4,7 @@ date: 2026-05-18 evening
 type: research-master-index
 status: brigadier-research-surface (R1)
 authored_by: brigadier-scribe
-parent: _EXPLAIN-recursive-self-development-engine-deep-research-2026-05-18.md
+parent: prompts/explanations/_EXPLAIN-recursive-self-development-engine-deep-research-2026-05-18.md
 sibling_prompt: prompts/recursive-self-development-engine-deep-research-2026-05-18.md
 concept_parent: decisions/strategic/JETIX-RECURSIVE-SELF-DEVELOPMENT-ENGINE-2026-05-18.md (F2 + IP-1 caveat)
 constitutional_posture: R1 + R2 read-only + R6 + R11 + EP-5 + IP-1 STRICT + breadth-NOT-selection + FPF-lens-FIRST + append-only

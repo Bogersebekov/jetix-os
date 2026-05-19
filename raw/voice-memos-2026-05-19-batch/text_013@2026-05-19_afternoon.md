@@ -83,7 +83,7 @@ processing_hint: |
 **Status:** meta-prompt уже бежит с 5 K (без K-6). Server CC запустился до edit fd53603.
 
 **Plan:** K-6 standalone files (не зависит от текущего meta-run):
-- `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (full 8-section EXPLAIN)
+- `prompts/explanations/_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (full 8-section EXPLAIN)
 - `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` (full deep prompt с 8 phases + K-6 additions из text_013)
 - Launch alongside Week 2 (K-1 + K-4 + K-6) ИЛИ как standalone
 

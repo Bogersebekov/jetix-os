@@ -4,7 +4,7 @@ date: 2026-05-19 afternoon
 session: k-3-society-as-code-stress-test-2026-05-19
 namespace: research/society-as-code-stress-test-2026-05-19/
 parent_prompt: prompts/k-3-society-as-code-stress-test-2026-05-19.md
-parent_explain: _EXPLAIN-k-3-society-as-code-stress-test-2026-05-19.md
+parent_explain: prompts/explanations/_EXPLAIN-k-3-society-as-code-stress-test-2026-05-19.md
 status: BRIGADIER-COMPLETE (Phases 0-8) — AWAITING-RUSLAN-REVIEW
 constitutional_posture: R1 + R6 + R11 + R12 + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only
 authored_by: brigadier-scribe

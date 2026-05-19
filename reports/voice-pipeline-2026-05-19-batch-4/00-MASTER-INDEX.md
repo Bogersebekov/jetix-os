@@ -11,7 +11,7 @@ constitutional_posture: R1 surface + R2 Foundation read-only + R6 provenance + R
 language: russian + english (FPF primitives)
 parents:
   - prompts/voice-batch-4-deep-analysis-2026-05-19.md (this batch trigger)
-  - _EXPLAIN-voice-batch-4-2026-05-19.md (companion explanation, RUSLAN-ACKED)
+  - prompts/explanations/_EXPLAIN-voice-batch-4-2026-05-19.md (companion explanation, RUSLAN-ACKED)
   - reports/voice-pipeline-2026-05-18-batch-3/ (pattern mirror)
   - raw/voice-memos-2026-05-19-batch/audio_682-687 (6 verbatim notes)
 prose_authored_by: brigadier-scribe (analysis); strategic prose carries ruslan-via-voice-dictation+brigadier-structured
@@ -72,7 +72,7 @@ PLUS Phase 5 §APPENDs to existing canonical + Tier A wiki promotions + Daily Lo
 ### Phase 5 §APPENDs append-only (~5):
 - `reports/phase-0-fpf-scope/01-jetix-objects-inventory.md` §APPEND §13 (O-30-41 candidates — 12 new NCs)
 - `decisions/REFLECTION-INBOX-2026-05-16.md` §APPEND-2026-05-19
-- `_DAILY-LOG-2026-05-19.md` §APPEND (Step 1 ✅ + Step 2 ✅)
+- `daily-logs/_DAILY-LOG-2026-05-19.md` §APPEND (Step 1 ✅ + Step 2 ✅)
 - `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md` §APPEND-2026-05-19 (numerical targets + equal-conditions + 6-resources)
 - `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md` §APPEND-2026-05-19 (150→15 cascade + table-of-hundreds + pitch script)
 

@@ -4,7 +4,7 @@ date: 2026-05-19
 type: sprint-synthesis
 phase: 2
 parent_prompt: prompts/3-docs-sprint-synthesis-2026-05-19.md
-parent_explain: _EXPLAIN-3-docs-sprint-synthesis-2026-05-19.md
+parent_explain: prompts/explanations/_EXPLAIN-3-docs-sprint-synthesis-2026-05-19.md
 sibling_docs:
   - 02-action-plan-proposal.md
   - 03-state-map-gaps.md
@@ -114,7 +114,7 @@ What changed: pre-sprint baseline = «Foundation built; substrate complete; no g
 **Substrate work (этим run)**
 - voice-pipeline-2026-05-19-batch-4 (5 reports + SUMMARY): per-note breakdown / FPF lens / lens cross-analysis / work plan / 3 candidate buckets
 - Phase 0 inventory §14 APPEND: 12 NC candidates O-30 to O-41 surfaced
-- **Master Picture / Daily Log 19.05** (`_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md` + `_DAILY-LOG-2026-05-19.md`)
+- **Master Picture / Daily Log 19.05** (`_archive/meta/_MASTER-PICTURE-NEXT-STEPS-2026-05-18.md` + `daily-logs/_DAILY-LOG-2026-05-19.md`)
 - **6 Tier A wiki concepts** auto-promoted: offline-workspace-6-elements / table-of-hundreds-outreach / two-stage-launch-protocol / numerical-targets-eoy-2026 / equal-conditions-hackathon / cascade-150-to-15-amplification
 - **5 Tier B wiki ideas** newly acked этим morning (этот sprint synthesis Phase 1): anti-sisyphus / responsibility-era / brain-extension / 6-resource / 5-step-pizdaty
 - **Promotion package 6 docs** identified (Daily Log 19.05 Step 6): one-pager / pitch deck / technical / vision narrative / onboarding / case study — **NOT YET AUTHORED**

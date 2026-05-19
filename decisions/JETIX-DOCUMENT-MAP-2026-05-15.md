@@ -570,8 +570,8 @@ flowchart TB
 |---|---|---|---|---|---|---|---|
 | 1 | Pitch Doc | DRAFT-pending-Ruslan-revision | [outreach/jetix-mentor-partner-pitch-2026-05-12.md](../outreach/jetix-mentor-partner-pitch-2026-05-12.md) | 12.05.2026 | ~18 min | F2 / outreach-pitch / R-low | `f880053` |
 | 2 | Document pool index | READY | [outreach/jetix-document-pool-2026-05-12.md](../outreach/jetix-document-pool-2026-05-12.md) | 12.05.2026 | ~6 min | F2 / outreach-document-index / R-medium | `f767daf` |
-| 3 | Video scenario v2 | ready-to-record | [_VIDEO-RECORDING-tseren-2026-05-15.md](../_VIDEO-RECORDING-tseren-2026-05-15.md) | 15.05.2026 | ~7 min | F2 / outreach-video-scenario / R-low | `ff6ce06` |
-| 4 | Antigravity checklist | READY | [_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](../_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md) | 15.05.2026 | ~4 min | F2 / outreach-recording-aid / R-low | `77dbcaa` |
+| 3 | Video scenario v2 | ready-to-record | [_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md](../_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md) | 15.05.2026 | ~7 min | F2 / outreach-video-scenario / R-low | `ff6ce06` |
+| 4 | Antigravity checklist | READY | [_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](../_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md) | 15.05.2026 | ~4 min | F2 / outreach-recording-aid / R-low | `77dbcaa` |
 | 5 | L1 First Clan profiles (9 имён) | ACTIVE | [profiles/l1-first-clan/](../profiles/l1-first-clan/) (9 .md files) | varies | ~5-10 min per file | F2 / outreach-profiles / R-medium | per-file |
 
 **L1 profiles** (9 имён): Анатолий Левенчук, Андрей Федорев, Дмитрий «Гуманитарщина», Егор Гиренко, Олег Брагинский, Оскар Хартман, Павел Дуров, Цэрэн Цэрэнов, Владимир Тарасов.
@@ -624,7 +624,7 @@ flowchart TB
 |---|---|---|---|---|
 | 1 | canonical/INDEX.md | ACTIVE | [canonical/INDEX.md](../canonical/INDEX.md) | ~3 min |
 | 2 | CANONICAL-WALKTHROUGH-2026-05-06 | partially stale | [CANONICAL-WALKTHROUGH-2026-05-06.md](../CANONICAL-WALKTHROUGH-2026-05-06.md) | ~13 min |
-| 3 | _HANDOFF latest | latest cowork | [_HANDOFF_to_next_cowork_session_2026-05-11.md](../_HANDOFF_to_next_cowork_session_2026-05-11.md) | ~9 min |
+| 3 | _HANDOFF latest | latest cowork | [_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-11.md](../_archive/handoffs/_HANDOFF_to_next_cowork_session_2026-05-11.md) | ~9 min |
 | 4 | CLAUDE.md | master config | [CLAUDE.md](../CLAUDE.md) (Source of Truth section + Pillar C inlined §4) | ~15 min |
 | 5 | HOME.md / README.md / MIGRATION.md | reference | (root level) | ~5 min each |
 | 6 | archive/INDEX.md | preserved | [archive/INDEX.md](../archive/INDEX.md) (~63 docs pre-Foundation) | ~5 min |
@@ -717,11 +717,11 @@ flowchart TB
 - **Constitutional:** `decisions/JETIX-VISION-FUNDAMENTAL-2026-04-27.md` + `swarm/wiki/foundations/` + `principles/`
 - **Methodology:** `decisions/BASE-MANAGEMENT-SYSTEM-2026-05-04.md` + `decisions/JETIX-CORPORATION-2026-05-05.md`
 - **Heptagon:** `decisions/STRATEGIC-INSIGHT-*.md` (6 files) + `decisions/JETIX-FIRST-CLAN-CHARTER-2026-05-12.md`
-- **Outreach:** `outreach/` + `_VIDEO-*.md` (root) + `profiles/l1-first-clan/`
+- **Outreach:** `outreach/` + `_archive/calls/_VIDEO-*.md` (root) + `profiles/l1-first-clan/`
 - **Monetization (Phase 2+):** `decisions/JETIX-MONETIZATION-*-v0-2026-05-14.md` + `reports/monetization-research-2026-05-14/`
 - **Active drafts:** `swarm/awaiting-approval/` + `decisions/ACTION-PLAN-PHASE-1-NEAR-FUTURE-2026-05-10.md`
-- **Latest handoff:** `_HANDOFF_to_next_cowork_session_*.md`
-- **Latest video prep:** `_VIDEO-RECORDING-tseren-2026-05-15.md` + `_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md`
+- **Latest handoff:** `_archive/handoffs/_HANDOFF_to_next_cowork_session_*.md`
+- **Latest video prep:** `_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md` + `_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md`
 
 **Master config:** `CLAUDE.md` (Source of Truth section + Pillar C Tier-2 inlined в §4)
 
@@ -832,8 +832,8 @@ Per `feedback_breadth_not_selection.md` — открытые вопросы = hy
 - **[outreach/jetix-document-pool-2026-05-12.md](../outreach/jetix-document-pool-2026-05-12.md)** — outreach-focused per-L1 sequence (this MAP companion)
 - **[CANONICAL-WALKTHROUGH-2026-05-06.md](../CANONICAL-WALKTHROUGH-2026-05-06.md)** — 110-doc walkthrough с ack-checklist (partially stale, preserved as historical)
 - **[CLAUDE.md](../CLAUDE.md)** — master configuration (Source of Truth section + Pillar C inlined §4)
-- **[_VIDEO-RECORDING-tseren-2026-05-15.md](../_VIDEO-RECORDING-tseren-2026-05-15.md)** — video scenario v2 (this MAP used in Block 5 as primary visual)
-- **[_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](../_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)** — Antigravity tabs checklist (this MAP added as Tab 0)
+- **[_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md](../_archive/calls/_VIDEO-RECORDING-tseren-2026-05-15.md)** — video scenario v2 (this MAP used in Block 5 as primary visual)
+- **[_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md](../_archive/calls/_VIDEO-ANTIGRAVITY-CHECKLIST-2026-05-15.md)** — Antigravity tabs checklist (this MAP added as Tab 0)
 
 ---
 

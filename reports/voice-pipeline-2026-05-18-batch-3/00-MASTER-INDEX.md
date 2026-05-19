@@ -11,7 +11,7 @@ constitutional_posture: R1 surface + R2 Foundation read-only + R6 provenance + R
 language: russian + english (FPF primitives)
 parents:
   - prompts/text-008-009-hackathon-integration-2026-05-18.md (this batch trigger)
-  - _EXPLAIN-text-008-009-hackathon-integration-2026-05-18.md (companion explanation, RUSLAN-ACKED)
+  - prompts/explanations/_EXPLAIN-text-008-009-hackathon-integration-2026-05-18.md (companion explanation, RUSLAN-ACKED)
   - reports/voice-pipeline-2026-05-18-batch-2/ (pattern mirror)
   - raw/voice-memos-2026-05-17-batch/text_008@2026-05-18_evening.md (meta-directive verbatim)
   - raw/voice-memos-2026-05-17-batch/text_009@2026-05-18_evening.md (13-min strategic narrative verbatim)

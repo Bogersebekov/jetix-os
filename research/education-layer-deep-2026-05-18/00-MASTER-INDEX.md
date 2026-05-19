@@ -2,7 +2,7 @@
 type: master-index
 session: education-layer-system-thinking-deep-research-2026-05-18
 date: 2026-05-18 evening
-parent_explain: _EXPLAIN-education-layer-system-thinking-deep-research-2026-05-18.md
+parent_explain: prompts/explanations/_EXPLAIN-education-layer-system-thinking-deep-research-2026-05-18.md
 parent_prompt: prompts/education-layer-system-thinking-deep-research-2026-05-18.md
 parent_concept: decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md (F2 acked)
 constitutional_posture: R1 + R6 + R11 + R12 + IP-1 (Phase 5) + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + paternalism-mitigation + append-only

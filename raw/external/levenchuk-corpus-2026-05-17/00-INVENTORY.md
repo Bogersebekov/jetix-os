@@ -183,7 +183,7 @@ language: russian + english (sources)
 | 10.17 | Sub-agent E — gap analysis prior art | `raw/research/step-2-2-2-extractions/E-gap-analysis-priorart.md` | ✅ EXISTING |
 | 10.18 | Anatoly Levenchuk L1 profile | `profiles/l1-first-clan/anatoliy-levenchuk.md` | ✅ EXISTING |
 | 10.19 | Tseren Tserenov L1 profile | `profiles/l1-first-clan/tseren-tserenov.md` | ✅ EXISTING |
-| 10.20 | L1 profiles synthesis | `_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` | ✅ EXISTING |
+| 10.20 | L1 profiles synthesis | `_archive/calls/_L1-PROFILES-TSEREN-LEVENCHUK-2026-05-16.md` | ✅ EXISTING |
 | 10.21 | Tseren YT export + analysis | `raw/research/2026-04-28-tseren-yt-export/` (127+452+37 videos metadata + report) | ✅ EXISTING |
 | 10.22 | Tseren TG export + analysis | `raw/research/2026-04-28-tseren-tg-export/` (618 posts + report) | ✅ EXISTING |
 | 10.23 | JETIX-FPF derivative doc (archived) | `archive/design/JETIX-FPF.md` (3762 lines) | ✅ EXISTING (archived 2026-05-06) |
