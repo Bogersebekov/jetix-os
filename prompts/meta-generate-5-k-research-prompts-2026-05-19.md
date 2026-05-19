@@ -27,13 +27,13 @@ ultrathink
 §0 MISSION
 ═══════════════════════════════════════════════════════════
 
-**Цель:** Создать 5 K-research deep prompts + 5 _EXPLAIN + 1 launcher document со sequence-aware launch commands.
+**Цель:** Создать **6 K-research deep prompts** + 6 _EXPLAIN + 1 launcher document со sequence-aware launch commands.
 
 **Pattern parent (gold standard):**
 - `prompts/ml-ai-engineers-deep-research-2026-05-18.md` (14 sections, 8 phases, ultrathink trigger, constitutional posture, halt conditions, acceptance criteria)
 - Existing 5 deep research prompts 18.05 (Hackathon Platform / Recursive Engine / System Merger / Outreach Scalable / Education Layer) — pattern reference
 
-**5 K-researches to generate (per batch-5 §3.3 / Summary-for-Ruslan §7):**
+**6 K-researches to generate (per batch-5 §3.3 + text_012 K-6 addition):**
 
 | # | Research | Priority | Time | Namespace | Critical-path role |
 |---|---|---|---|---|---|
@@ -42,10 +42,11 @@ ultrathink
 | **K-3** | Society-as-Code Stress Test — Toffler/Castells/Lessig + breakdown analysis | P2 | 4-5 days | `research/society-as-code-stress-test-2026-05-19/` | Positioning stress-test |
 | **K-4** | Intellect 12-Component Audit — exhaustiveness + curriculum implications | P2 | 3-4 days | `research/intellect-12-component-audit-2026-05-19/` | Education Layer curriculum |
 | **K-5** | Safety→Develop Cross-Disciplinary Validation — Maslow/SRE/Toyota/Knight/Taleb | P3 | 3 days | `research/safety-develop-validation-2026-05-19/` | Constitutional-grade validation |
+| **K-6** ⭐ | **Method of Systems Thinking Deep** — Meadows/Beer/Ashby/Wiener/Senge/Sterman/Bertalanffy/Boyd/Bateson/Hofstadter — comprehensive meta-method (text_012 anchor) | P2 | 1 week | `research/method-systems-thinking-deep-2026-05-19/` | **Foundational meta-method** для Vision narrative + Education Layer + pitches (per text_012 «потом от этого будут питчи») |
 
 **Launcher sequence:**
 - Week 1 NOW: K-2 (critical) + K-3 (parallel)
-- Week 2: K-1 + K-4 (parallel)
+- Week 2: K-1 + K-4 + **K-6** (3 parallel)
 - Week 3: K-5 (single)
 
 ═══════════════════════════════════════════════════════════
@@ -68,6 +69,7 @@ ultrathink
 - `raw/voice-memos-2026-05-19-batch/audio_689@19-05-2026_03-35-50.md` (society-as-code)
 - `raw/voice-memos-2026-05-19-batch/audio_690@19-05-2026_04-05-57.md` ⭐⭐ KEYSTONE (info-substrate / safety→develop / AGI redefinition / 1-year ambition)
 - `raw/voice-memos-2026-05-19-batch/audio_691@19-05-2026_04-17-11.md` (intellect 12-component addendum)
+- `raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md` ⭐ **NEW K-6 anchor** (Method of Systems Thinking — full meta-method description: систем / информация / sense of measure / cycle / Jetix-describes-method)
 
 ### 1.4 Batch-5 output context:
 - `reports/voice-pipeline-2026-05-19-batch-5/00-SUMMARY-FOR-RUSLAN.md`
@@ -298,7 +300,70 @@ COMMIT 4: `[meta][k-research] Phase 4 K-4 Intellect 12-Component Audit prompt + 
 COMMIT 5: `[meta][k-research] Phase 5 K-5 Safety→Develop Cross-Disciplinary Validation prompt + EXPLAIN`
 
 ═══════════════════════════════════════════════════════════
-§8 PHASE 6 — Launcher document creation
+§7.5 PHASE 6 — Generate K-6 _EXPLAIN + prompt (Method of Systems Thinking) ⭐
+═══════════════════════════════════════════════════════════
+
+### K-6 spec:
+
+**Topic:** Method of Systems Thinking / View of World / Approach to Life — comprehensive meta-method description с cross-disciplinary corroboration
+
+**Voice anchor:** `raw/voice-memos-2026-05-19-batch/text_012@2026-05-19_afternoon.md` (full method description)
+
+**Core method components (text_012):**
+1. ALL = systems (онтология)
+2. ALL = information (substrate)
+3. Methods of processing information
+4. Flow: Input → Process → Output
+5. Strategy / Rules / Values (фундамент) / Direction
+6. **⭐ Sense of Measure (чувство меры)** — critical Foundation principle candidate
+7. Intellect = method of information processing
+8. System self-development cycle: goals → tasks → consume info → plan → train → achieve → iterate
+9. Best-variant selection mechanism
+10. Description-spreading hypothesis (method existed; Jetix описывает → spreads)
+
+**Sources (WebFetch budget allocated):**
+- Donella Meadows «Thinking in Systems» (2008) — primary practical
+- Beer «Brain of the Firm» + «Heart of Enterprise» — VSM (Viable System Model)
+- Ashby «Introduction to Cybernetics» (1956) — requisite variety + law of variety
+- Wiener «Cybernetics» (1948) — original cybernetic foundation
+- Senge «The Fifth Discipline» (1990) — organisational systems thinking
+- Sterman «Business Dynamics» (2000) — systems dynamics modelling
+- Bertalanffy «General Systems Theory» (1968) — original general theory
+- Boyd OODA loop (Observe-Orient-Decide-Act) — military-strategic systems-thinking
+- Bateson «Mind and Nature» (1979) — cross with K-1 info-substrate
+- Hofstadter «Gödel, Escher, Bach» (1979) — strange loops / self-reference
+- Adjacent: NASA SE (cross-link research-deepening direction 12) / Cynefin framework / Pribram Holonomic / Kauffman Self-Organisation
+
+**8 phases:**
+- Phase 0: FPF lens scope + IP-1 boundary (system-as-method vs system-as-thing)
+- Phase 1: Meadows + Ashby + Wiener foundation deep mining (verbatim canonical statements)
+- Phase 2: Beer VSM deep mining (5-system viable model)
+- Phase 3: Senge + Sterman organisational systems thinking deep
+- Phase 4: Bertalanffy + Boyd + Bateson + Hofstadter cross-stream (general theory + OODA + strange loops)
+- Phase 5: Method components synthesis (text_012's 10 components × precedent corroboration)
+- Phase 6: **Sense of Measure (чувство меры)** deep — operational definition + cross-disciplinary precedent (Aristotle phronesis / Confucius zhōngyōng / cybernetic regulation / TPS Jidoka boundary)
+- Phase 7: Hypothesis bank 25-35 H + Jetix positioning options (commit method-description / discreet / pivot)
+- Phase 8: Cross-cutting synthesis + Summary ≤1500w + 8-10 mermaid (method flow / cycle / sense-of-measure / cross-precedent matrix)
+
+**Acceptance criteria:** 10 method components × precedent corroboration + Sense-of-Measure operational spec + 25+ H bank + Vision narrative L3 + Education Layer curriculum + spreading hypothesis test design
+
+**Output namespace:** `research/method-systems-thinking-deep-2026-05-19/`
+
+**Files to create:**
+- `prompts/k-6-method-systems-thinking-deep-2026-05-19.md` (≥14 sections gold standard)
+- `_EXPLAIN-k-6-method-systems-thinking-deep-2026-05-19.md` (8 sections + mermaid)
+
+**Critical-path role:** Foundational meta-method для:
+- Vision narrative L3 (C.4 promotion doc)
+- Education Layer curriculum Tier 1 module foundation
+- Pitches grounding (per text_012 «потом от этого будут питчи»)
+- Recursive Engine cycle formalisation cross-link
+- Cross-link к K-1 (info-substrate philosophy adjacent), K-3 (society-as-code adjacent), K-4 (intellect-as-method-of-info-processing direct)
+
+COMMIT 6: `[meta][k-research] Phase 6 K-6 Method of Systems Thinking prompt + EXPLAIN (foundational meta-method)`
+
+═══════════════════════════════════════════════════════════
+§8 PHASE 7 — Launcher document creation
 ═══════════════════════════════════════════════════════════
 
 Create `_LAUNCH-5-K-RESEARCH-2026-05-19.md` в repo root.
@@ -333,7 +398,7 @@ tmux ls 2>/dev/null || echo "(no existing sessions)" && \
 echo "Ready"
 ```
 
-## §1 Week 1 — Launch K-2 + K-3 NOW (parallel)
+## §1 Week 1 — Launch K-2 + K-3 NOW (2 parallel)
 
 ### Run K-2 (PITCH-BLOCKING; 1 week) ⭐⭐
 
@@ -366,11 +431,11 @@ Detach: Ctrl-b → d
 tmux ls
 ```
 
-## §2 Week 2 — Launch K-1 + K-4 (parallel; after K-2 + K-3 complete)
+## §2 Week 2 — Launch K-1 + K-4 + K-6 (3 parallel; after K-2 + K-3 complete)
 
-[similar tmux + paste blocks для K-1 + K-4]
+[similar tmux + paste blocks для K-1 + K-4 + K-6 — sessions: k1 / k4 / k6]
 
-## §3 Week 3 — Launch K-5 (single; after K-1 + K-4 complete)
+## §3 Week 3 — Launch K-5 (single; after K-1 + K-4 + K-6 complete)
 
 [tmux + paste для K-5]
 
@@ -385,7 +450,8 @@ tmux ls
 - K-1: 1 week / <€3.50
 - K-4: 3-4 days / <€2.50
 - K-5: 3 days / <€2
-- **Total: ~3 weeks wall-clock / <€15**
+- **K-6: 1 week / <€3.50** ⭐ NEW (foundational meta-method)
+- **Total: ~3 weeks wall-clock / <€18.50**
 
 ## §6 Post-completion
 
@@ -413,6 +479,7 @@ gantt
     section Week 2
     K-1 Info-Substrate Philosophy      :k1, after k2, 7d
     K-4 Intellect 12-Component Audit   :k4, after k3, 4d
+    K-6 Method Systems Thinking ⭐      :k6, after k2, 7d
     
     section Week 3
     K-5 Safety→Develop Validation       :k5, after k4, 3d
@@ -424,10 +491,10 @@ gantt
 ```
 ```
 
-COMMIT 6: `[meta][k-research] Phase 6 launcher document _LAUNCH-5-K-RESEARCH-2026-05-19.md + sequence Gantt`
+COMMIT 7: `[meta][k-research] Phase 7 launcher document _LAUNCH-6-K-RESEARCH-2026-05-19.md + sequence Gantt`
 
 ═══════════════════════════════════════════════════════════
-§9 PHASE 7 — Meta summary + push
+§9 PHASE 8 — Meta summary + push
 ═══════════════════════════════════════════════════════════
 
 Create `_META-K-RESEARCH-SUMMARY-FOR-RUSLAN-2026-05-19.md` в repo root:
@@ -442,11 +509,11 @@ Create `_META-K-RESEARCH-SUMMARY-FOR-RUSLAN-2026-05-19.md` в repo root:
 
 Word budget: ≤1500.
 
-COMMIT 7: `[meta][k-research] Phase 7 Meta-summary + final push origin main`
+COMMIT 8: `[meta][k-research] Phase 8 Meta-summary + final push origin main`
 
 `git push origin main`
 
-Final echo: `DONE Phase 7 — N commits / M files / launcher ready / Ruslan: cat _LAUNCH-5-K-RESEARCH-2026-05-19.md`
+Final echo: `DONE Phase 8 — N commits / M files / launcher ready / Ruslan: cat _LAUNCH-6-K-RESEARCH-2026-05-19.md`
 
 ═══════════════════════════════════════════════════════════
 §10 HALT CONDITIONS
@@ -476,18 +543,18 @@ Final echo: `DONE Phase 7 — N commits / M files / launcher ready / Ruslan: cat
 §12 ACCEPTANCE CRITERIA
 ═══════════════════════════════════════════════════════════
 
-- [ ] 5 K-research prompts created в `prompts/` (≥14 sections each)
-- [ ] 5 _EXPLAIN siblings created в repo root (8 sections each + mermaid)
-- [ ] 1 launcher document `_LAUNCH-5-K-RESEARCH-2026-05-19.md`
+- [ ] **6 K-research prompts** created в `prompts/` (≥14 sections each)
+- [ ] **6 _EXPLAIN siblings** created в repo root (8 sections each + mermaid)
+- [ ] 1 launcher document `_LAUNCH-6-K-RESEARCH-2026-05-19.md`
 - [ ] 1 meta-summary `_META-K-RESEARCH-SUMMARY-FOR-RUSLAN-2026-05-19.md`
 - [ ] Each generated prompt: FPF lens FIRST + breadth-NOT-selection + 8 phases + halt conditions + acceptance criteria + R12 alignment + IP-1 STRICT (where applicable)
-- [ ] Launcher document copy-paste-ready
-- [ ] Sequence Gantt mermaid в launcher §7
-- [ ] All commits per-phase (7 commits total)
+- [ ] Launcher document copy-paste-ready (Week 1: K-2 + K-3 / Week 2: K-1 + K-4 + K-6 / Week 3: K-5)
+- [ ] Sequence Gantt mermaid в launcher §7 (включая K-6 в Week 2)
+- [ ] All commits per-phase (**8 commits total**)
 - [ ] Final push origin main
 - [ ] Constitutional posture preserved
-- [ ] 5 K-research prompts ≥ gold standard quality
-- [ ] Cross-link к batch-5 voice anchors (audio_689/690/691) + Platform v2 в each prompt
+- [ ] 6 K-research prompts ≥ gold standard quality
+- [ ] Cross-link к batch-5 voice anchors (audio_689/690/691 + text_012 для K-6) + Platform v2 в each prompt
 
 ═══════════════════════════════════════════════════════════
 §13 ACCEPTANCE TEST (self-check)
