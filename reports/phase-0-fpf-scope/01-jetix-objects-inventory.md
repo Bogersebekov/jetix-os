@@ -1407,16 +1407,16 @@ K-1 info-substrate philosophy deep research run (Phases 0-8). Voice anchor: `raw
 - `research/info-substrate-philosophy-deep-2026-05-19/98-cross-cutting-synthesis.md` + `99-SUMMARY-FOR-RUSLAN.md` (Phase 8)
 - 8 mermaid diagrams в `research/info-substrate-philosophy-deep-2026-05-19/diagrams/`
 
-### §20.5 Status / Ruslan ack pending
+### §21.5 Status / Ruslan ack pending
 
-- Pre-§20: 47 objects (post-§19 K-3)
-- Post-§20: **48 objects** (14 acked + 29 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-52**
+- Pre-§21: 48 objects (post-§20 K-2 with O-60 added)
+- Post-§21: **49 objects** (14 acked + 30 candidates pending + 5 Tier-B Ruslan-acked) — **+1 NC O-52**
 - O-52 = Tier B AWAITING-RUSLAN-REVIEW; positioning A/B/C decision pending + phenomenological mitigation language pending + EU AI Act compliance pathway review pending (H-IS-6 needs legal counsel)
 
-### §20.6 Constitutional posture
+### §21.6 Constitutional posture
 
-R1 STRICT (research surface; brigadier-scribe; NO autonomous positioning recommendation per breadth-NOT-selection memory rule) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCK READ-ONLY throughout K-1 run; cross-link only) + R6 (verbatim primary-source quotes Wheeler/Wolfram/Floridi/Bateson + Shannon/Wiener/vF + retrieved_date per claim; training-knowledge baseline disclosed Phase 0 §5) + R11 (Default-Deny novel actions; only WebFetch/WebSearch built-in tools) + R12 (anti-extraction check Phase 7 §6 PASS ✅ — 4 STRONG + 1 STRONGEST + 1 TENSION + 2 NEUTRAL; NO opponents) + IP-1 STRICT (substrate philosophy = abstract pattern; Jetix instance = RUSLAN-LAYER per executor-binding; per-claim discipline enforced all 8 phases §4.X IP-1 caveats) + EP-5 (F2-F3 per claim; F3 для primary thinker verbatim claims multi-source corroborated) + append-only (new namespace + this §20 §APPEND only) + breadth-NOT-selection (30 H с refutation conditions + 3 positioning options A/B/C parallel + tradeoff matrix balanced) + FPF lens FIRST (Phase 0 set lens before Phase 1+; FPF primitive mapping per phase explicit).
+R1 STRICT (research surface; brigadier-scribe; NO autonomous positioning recommendation per breadth-NOT-selection memory rule) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / 8 Octagon LOCK READ-ONLY throughout K-1 run; cross-link only) + R6 (verbatim primary-source quotes Wheeler/Wolfram/Floridi/Bateson + Shannon/Wiener/vF + retrieved_date per claim; training-knowledge baseline disclosed Phase 0 §5) + R11 (Default-Deny novel actions; only WebFetch/WebSearch built-in tools) + R12 (anti-extraction check Phase 7 §6 PASS ✅ — 4 STRONG + 1 STRONGEST + 1 TENSION + 2 NEUTRAL; NO opponents) + IP-1 STRICT (substrate philosophy = abstract pattern; Jetix instance = RUSLAN-LAYER per executor-binding; per-claim discipline enforced all 8 phases §4.X IP-1 caveats) + EP-5 (F2-F3 per claim; F3 для primary thinker verbatim claims multi-source corroborated) + append-only (new namespace + this §21 §APPEND only) + breadth-NOT-selection (30 H с refutation conditions + 3 positioning options A/B/C parallel + tradeoff matrix balanced) + FPF lens FIRST (Phase 0 set lens before Phase 1+; FPF primitive mapping per phase explicit).
 
 ---
 
-*§20 appended by brigadier-scribe per `prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+*§21 appended by brigadier-scribe per `prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
