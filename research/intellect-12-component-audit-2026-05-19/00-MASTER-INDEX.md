@@ -5,7 +5,7 @@ session: k-4-intellect-12-component-audit-2026-05-19
 namespace: research/intellect-12-component-audit-2026-05-19/
 parent_prompt: prompts/k-4-intellect-12-component-audit-2026-05-19.md
 parent_explain: _EXPLAIN-k-4-intellect-12-component-audit-2026-05-19.md
-status: BRIGADIER-IN-PROGRESS (Phase 0 → 8)
+status: BRIGADIER-COMPLETE (Phases 0-8) — AWAITING-RUSLAN-REVIEW
 constitutional_posture: R1 + R6 + R11 + R12 + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only
 authored_by: brigadier-scribe (ROY swarm)
 language: russian-primary + english-framework-primitives
@@ -54,16 +54,16 @@ sibling_runs:
 |---|---|---|---|---|
 | 0 | `00-MASTER-INDEX.md` | — | (this) | Navigation |
 | 1 | `01-fpf-lens-scope.md` | 0 | ✅ | FPF lens + IP-1 + acceptance predicate |
-| 2 | `02-sternberg-triarchic.md` | 1 | ⏳ | Sternberg Triarchic + WICS + 12-component cross-map |
-| 3 | `03-chc-model.md` | 2 | ⏳ | CHC three-stratum + 10 broad abilities + coverage matrix |
-| 4 | `04-gardner-multiple-intelligences.md` | 3 | ⏳ | Gardner 8+1 intelligences + Waterhouse critique |
-| 5 | `05-modern-ai-capability-ei-deary.md` | 4 | ⏳ | ARC-AGI / HELM / MMLU / EI / Deary |
-| 6 | `06-12-component-audit-gap-analysis.md` ⭐ | 5 | ⏳ | Gap matrix + ≥3 missing components |
-| 7 | `07-curriculum-module-map.md` | 6 | ⏳ | 12 modules + 3 sequencing options |
-| 8 | `08-hypotheses-bank-curriculum-design.md` | 7 | ⏳ | 20-30 H + R12 check + design options |
-| 9 | `98-cross-cutting-synthesis.md` | 8 | ⏳ | 9-12 patterns |
-| 10 | `99-SUMMARY-FOR-RUSLAN.md` | 8 | ⏳ | ≤1500w summary |
-| 11+ | `diagrams/01-08-*.md` | 8 | ⏳ | 6-8 mermaid diagrams |
+| 2 | `02-sternberg-triarchic.md` | 1 | ✅ | Sternberg Triarchic + WICS + 12-component cross-map |
+| 3 | `03-chc-model.md` | 2 | ✅ | CHC three-stratum + 10 broad abilities + coverage matrix |
+| 4 | `04-gardner-multiple-intelligences.md` | 3 | ✅ | Gardner 8+1 intelligences + Waterhouse critique |
+| 5 | `05-modern-ai-capability-ei-deary.md` | 4 | ✅ | ARC-AGI / HELM / MMLU / EI / Deary |
+| 6 | `06-12-component-audit-gap-analysis.md` ⭐ | 5 | ✅ | Gap matrix + 4 missing components surfaced |
+| 7 | `07-curriculum-module-map.md` | 6 | ✅ | 12 modules + 3 sequencing options |
+| 8 | `08-hypotheses-bank-curriculum-design.md` | 7 | ✅ | 30 H + R12 check + 3 design options |
+| 9 | `98-cross-cutting-synthesis.md` | 8 | ✅ | 12 patterns |
+| 10 | `99-SUMMARY-FOR-RUSLAN.md` | 8 | ✅ | ≤1500w summary |
+| 11-18 | `diagrams/01-08-*.md` | 8 | ✅ | 8 mermaid diagrams |
 
 ---
 

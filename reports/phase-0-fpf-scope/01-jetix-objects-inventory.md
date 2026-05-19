@@ -1420,3 +1420,81 @@ R1 STRICT (research surface; brigadier-scribe; NO autonomous positioning recomme
 ---
 
 *§21 appended by brigadier-scribe per `prompts/k-1-info-substrate-philosophy-deep-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*
+
+---
+
+## §22 K-4 Intellect 12-Component Exhaustiveness Audit appendage (2026-05-19 afternoon)
+
+> **Numbering note:** prompt §10.4 specified O-55 candidate for K-4. Parallel K-runs (K-5 §18 → O-56; K-6 §19 → O-52..O-55, O-57..O-59; K-3 §19-dup → O-54; K-2 §20 → O-60; K-1 §20→§21 → O-52-dup) have claimed O-52..O-60 в race condition with overlap. K-4 uses **next sequential available = O-61** to avoid collision.
+
+### §22.1 Trigger
+
+K-4 deep research run executed per `prompts/k-4-intellect-12-component-audit-2026-05-19.md` Ruslan-acked at 2026-05-19 afternoon. Voice anchors: `raw/voice-memos-2026-05-19-batch/audio_690@19-05-2026_04-05-57.md` (6 components — operational substrate) + `audio_691@19-05-2026_04-17-11.md` (6 components — addendum: questions / observation / reasoning / proportion / goals / decomposition) — total 12-component intellect framework articulated.
+
+### §22.2 1 NC candidate surfaced
+
+**O-61 «Intellect 12-Component Curriculum Module Map artifact» (NC candidate)** — Tier B
+
+- Tier candidate: **Tier B** (Ruslan ack required для curriculum design selection from 3 sequencing options A/B/C; OR 3-arm RCT pilot decision)
+- FPF primitive: U.System (intellect holonic) + U.Capability (per-component 4-stage acquisition) + U.MethodDescription (curriculum module = method tactic)
+- Companion к existing O-51 «Intellect 12-Component Spec v1» (Tier A; from voice-pipeline batch-5 Phase 5)
+- Relationship: O-51 = abstract 12-component spec; **O-61 = curriculum module map binding** (M1-M12 + 4-stage acquisition + Karpathy LLM101n parallel + Workshop master-apprentice integration + 3 sequencing options surfaced parallel)
+
+### §22.3 Audit findings (compressed)
+
+- **4 critical missing-components surfaced** (per acceptance predicate ≥3 mandatory):
+  - MC-1 Working memory (CHC Gwm, F4)
+  - MC-5 Long-term retrieval + creativity (CHC Glr, F4)
+  - MC-6+7 Empathy + Social skills (Gardner Interpersonal + Goleman EI, F4)
+  - MC-2 Processing speed / automaticity (CHC Gs + Sternberg automatization, F3)
+- **5 unique contributions vs 6 precedents** (Sternberg+WICS / CHC / Gardner / Goleman EI / AI capability benchmarks / Deary IQ):
+  - UC-1 C2 Safety→Develop ordering as cognitive primitive (NO precedent treats ordering as primitive)
+  - UC-2 C10 Proportion-sense («ощущение меры») as explicit primitive (bridges Aristotelian phronesis + engineering sufficiency)
+  - UC-3 C7 Question-asking as ACTIVE practice (most frameworks treat as passive)
+  - UC-4 C5 vs C6 Tool-use vs Tool-creation as DUAL primitive (precedents bundle)
+  - UC-5 C8 Observation-introduction as DELIBERATE METHOD
+- **3 sequencing options parallel** (R1, NO recommendation): A Foundations-first / B Project-based / C Hackathon-driven
+- **30 hypotheses** (H-IC-1 .. H-IC-30) — 8 framework / 7 gap / 10 design / 5 outcomes
+- **R12 anti-extraction alignment ✅** — open-source curriculum compatible; Mondragón ratio + QF substrate via Pillar C Tier 2 §4.2
+
+### §22.4 Tier classification (proposed by brigadier)
+
+- **O-61** — Tier B (Ruslan ack для curriculum sequencing selection + 13/14/15/16-component expansion decision)
+- **Companion к O-51** — Tier A already-acked (existing concept; preserved per append-only)
+
+### §22.5 Companion artefacts created (this K-4 run)
+
+- `research/intellect-12-component-audit-2026-05-19/00-MASTER-INDEX.md`
+- `research/intellect-12-component-audit-2026-05-19/01-fpf-lens-scope.md` (Phase 0)
+- `research/intellect-12-component-audit-2026-05-19/02-sternberg-triarchic.md` (Phase 1)
+- `research/intellect-12-component-audit-2026-05-19/03-chc-model.md` (Phase 2)
+- `research/intellect-12-component-audit-2026-05-19/04-gardner-multiple-intelligences.md` (Phase 3)
+- `research/intellect-12-component-audit-2026-05-19/05-modern-ai-capability-ei-deary.md` (Phase 4)
+- `research/intellect-12-component-audit-2026-05-19/06-12-component-audit-gap-analysis.md` (Phase 5 ⭐)
+- `research/intellect-12-component-audit-2026-05-19/07-curriculum-module-map.md` (Phase 6)
+- `research/intellect-12-component-audit-2026-05-19/08-hypotheses-bank-curriculum-design.md` (Phase 7)
+- `research/intellect-12-component-audit-2026-05-19/98-cross-cutting-synthesis.md` (Phase 8 — 12 patterns)
+- `research/intellect-12-component-audit-2026-05-19/99-SUMMARY-FOR-RUSLAN.md` (Phase 8 summary ≤1500w)
+- 8 mermaid diagrams в `research/intellect-12-component-audit-2026-05-19/diagrams/`
+- Wiki Tier B candidate: `wiki/concepts/jetix-curriculum-module-map.md` (NEW from this run)
+- Wiki Tier C reference: `wiki/concepts/chc-cattell-horn-carroll.md` (NEW reference from this run)
+- Existing wiki Tier A (NOT modified): `wiki/concepts/intellect-12-component-spec.md` (from voice-pipeline batch-5)
+
+### §22.6 Status / Ruslan ack pending
+
+- **+1 NC O-61** (race-coexisting with parallel K-runs; final object count subject to parallel-run reconciliation)
+- O-61 status = NC candidate Tier B; Ruslan ack pending для:
+  - Curriculum sequencing selection (A / B / C / Hybrid / 3-arm RCT pilot)
+  - 12 → 13/14/15/16-component expansion decision (per 4 missing-component candidates)
+  - Open-source curriculum decision (H-IC-23)
+  - Cohort revenue model (Mondragón + QF per Pillar C Tier 2 §4.2)
+  - Workshop credentialing (degree-equivalent vs signal-only — H-IC-27)
+  - Master-apprentice cascade scale (1:10:100 для 1M user target — H-IC-25)
+
+### §22.7 Constitutional posture
+
+R1 STRICT (brigadier-scribe; 3 sequencing options parallel; NO recommendation) + R2 STRICT (Foundation v1.0 / Pillar C constitutional_never_list / shared/schemas / VISION-FUNDAMENTAL / FPF-Spec / 8 Octagon LOCK READ-ONLY throughout K-4 run) + R6 (verbatim Sternberg/Cattell/Carroll/Schneider-McGrew/Gardner/Goleman/Chollet/Hendrycks/Deary quotes + retrieved_date per claim; training-knowledge baseline disclosed Phase 0 §6) + R11 (Default-Deny; no novel actions executed; no LOCK promotions) + R12 (anti-extraction alignment ✅ Phase 7 §6 — open-source CC-BY-SA compatible + fork-and-leave preserved + Mondragón+QF substrate via Pillar C Tier 2 §4.2 R12 programmable) + IP-1 STRICT (12-component pattern abstract; Jetix curriculum module map = RUSLAN-LAYER instance; per-claim IP-1 caveats enforced all 8 phases) + EP-5 (F-grade F0-F4 explicit per claim; F4 для CHC empirical baseline; F2 для Gardner pedagogical; F0 для untested hypothesis claims) + append-only (this §22 + wiki promotions only; existing intellect-12-component-spec.md NOT modified) + breadth-NOT-selection (4 missing + 5 unique + 3 sequencing options + 30 hypotheses + Hybrid options all parallel) + FPF lens FIRST (Phase 0 lens LOCKED before Phase 1 mining; FPF primitive mapping per phase explicit).
+
+---
+
+*§22 appended by brigadier-scribe per `prompts/k-4-intellect-12-component-audit-2026-05-19.md` Phase 8 closure. R1 + R2 + R6 + R11 + R12 + IP-1 + EP-5 + append-only + breadth-NOT-selection + FPF-lens-FIRST preserved.*

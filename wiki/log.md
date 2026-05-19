@@ -6,6 +6,28 @@ updated: 2026-05-19
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-05-19] [k-4-intellect-audit] Tier B/C 2 concepts (candidates — Ruslan ack pending) | entries: +2
+
+- Per `prompts/k-4-intellect-12-component-audit-2026-05-19.md` Phase 8 closure
+- **2 concept candidates (research-substrate; NOT auto-promoted):**
+  - `wiki/concepts/jetix-curriculum-module-map.md` (Tier B candidate — M1-M12 + 4-stage acquisition + 3 sequencing options; voice anchor audio_690+691)
+  - `wiki/concepts/chc-cattell-horn-carroll.md` (Tier C reference — CHC empirical baseline; supports audit)
+- **Companion artefacts (research namespace):** `research/intellect-12-component-audit-2026-05-19/` (11 docs + 8 mermaid diagrams)
+- **Phase 0 inventory §22 APPEND:** O-61 «Intellect 12-Component Curriculum Module Map artifact» (Tier B candidate; Ruslan-ack required для curriculum design sequencing selection OR 3-arm RCT pilot decision)
+- **Audit findings:** 4 critical missing-component candidates surfaced (Gwm/Glr+creativity/empathy+social/Gs); 5 unique contributions identified (ordering/proportion/active-questions/tool-dual/active-observation); 30 H + R12 alignment ✅
+- Constitutional: R1 + R6 + R11 + R12 alignment ✅ + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only preserved
+
+## [2026-05-19] [k-2-agi-reception] Tier B/C 3 concepts (candidates — Ruslan ack pending) | entries: +3
+
+- Per `prompts/k-2-agi-reception-market-deep-2026-05-19.md` Phase 8 closure
+- **3 concept candidates (research-substrate; NOT auto-promoted):**
+  - `wiki/concepts/agi-collective-substrate-positioning.md` (Tier B candidate — abstract framing; voice anchor audio_690)
+  - `wiki/concepts/l1-l2-l3-audience-reception-pattern.md` (Tier C candidate — audience-tier reception pattern)
+  - `wiki/concepts/competitive-landscape-jetix-vs-plurality.md` (Tier C candidate — per-competitor differentiation)
+- **Companion artefacts (research namespace):** `research/agi-reception-market-deep-2026-05-19/` (11 docs + 10 mermaid)
+- **Phase 0 inventory §20 APPEND:** O-60 «AGI Reception Market Mapping» candidate (F2 surface; Ruslan-ack required для wiki tier promotion ИЛИ Strategic Insight DB entry)
+- Constitutional: R1 + R6 + R11 + R12 alignment STRONG + IP-1 STRICT + EP-5 + breadth-NOT-selection + FPF-lens-FIRST + append-only preserved
+
 ## [2026-05-19] [sprint-synthesis] Tier B 5 ideas promoted (Ruslan ack 2026-05-19) | entries: +5
 
 - Per `prompts/3-docs-sprint-synthesis-2026-05-19.md` §2 (Phase 1) + Ruslan ack 2026-05-19
