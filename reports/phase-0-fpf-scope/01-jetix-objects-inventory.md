@@ -1098,3 +1098,53 @@ R1 surface (candidate registration only) + R2 (Foundation/Pillar C/Octagon LOCK 
 
 *§16 appended by brigadier per `prompts/jetix-platform-v2-description-2026-05-19.md` Phase 9 closure. R1 + R6 + R11 + R12 + IP-1 + EP-5 + append-only preserved.*
 
+
+## §17 APPEND-2026-05-19 — voice-pipeline-2026-05-19-batch-5 (6 NCs O-46 to O-51)
+
+### §17.1 Trigger
+
+- **Source.** `prompts/voice-batch-5-deep-analysis-2026-05-19.md` Phase 5 closure + voice anchors audio_689 + audio_690 + audio_691
+- **Companion artefacts.** `reports/voice-pipeline-2026-05-19-batch-5/` (00-05 reports + 3 verbatim notes)
+- **Constitutional posture.** R1 surface (candidate registration; NOT Tier-promotion); pending Ruslan ack для Tier classification per Tier B 3 candidates
+
+### §17.2 6 NCs surfaced
+
+| O-ID | Title | Source | Description |
+|---|---|---|---|
+| **O-46** | Society-as-Code Metaphor | audio_689 §1 | Positioning frame для Jetix mission — общество = collective opus magnum (programming code) накопивший миллионы багов; Jetix = collective debugger. Engineering-accessible bridge для pitch к L1 engineers + non-engineers (software-brain analog). |
+| **O-47** | Information Substrate Hypothesis | audio_690 §1 | Foundational philosophical anchor — all entities = "info-processing methods"; intellect = specialized info-processor. Aligns Jetix substrate с Wheeler / Wolfram / Floridi / Bateson philosophy-of-information lineage. |
+| **O-48** | Safety→Develop Ordering Discipline | audio_690 §1 | Constitutional-grade discipline — every system должна establish safety baseline before pursuing development. Maps к Part 8 Health Monitoring + Part 6b stage_gate. Pillar C Tier-2 candidate (или Foundation Part 8 enhancement — Ruslan choice). |
+| **O-49** | AGI-as-System-Level Definition ⭐⭐ | audio_690 §1 «вам AGI: вся система lacочно работает» | MAJOR positioning differentiation — Jetix redefines AGI from "artifact built in AI lab" to "emergent property of well-orchestrated collective intelligence (human intellect + AI + all human work + effective protocol for collective think+act)". |
+| **O-50** | Strategy Alignment Matrix | audio_689 §1 | Operational tool — каждый actor описывает свою стратегию + ассесsит alignment с (a) parent system (b) peer systems (c) sub-systems. Personal strategy substrate + project portfolio prioritization. |
+| **O-51** | Intellect 12-Component Spec v1 | audio_690+691 combined | 12-component intellect spec (non-exhaustive disclaimer; v1 working-document). Curriculum substrate для Education Layer (O-26/27); role-capability primitives для Foundation Part 4; agent-capability schema candidate. |
+
+### §17.3 Tier classification (proposed by brigadier)
+
+- **Tier A** (auto-promotion wiki — executed in Phase 5 batch-5): O-46 + O-50 + O-51 = 3 NCs
+- **Tier B** (Ruslan ack needed для Tier classification): O-47 + O-48 + O-49 = 3 NCs
+
+### §17.4 Companion artefacts created (this batch-5 run)
+
+- `reports/voice-pipeline-2026-05-19-batch-5/00-MASTER-INDEX.md`
+- `reports/voice-pipeline-2026-05-19-batch-5/01-per-note-breakdown.md` (15 cell analyses)
+- `reports/voice-pipeline-2026-05-19-batch-5/02-fpf-lens-jetix-track.md` (FPF lens + 6 NCs)
+- `reports/voice-pipeline-2026-05-19-batch-5/03-9-lenses-cross-analysis.md` (27 datapoints)
+- `reports/voice-pipeline-2026-05-19-batch-5/04-detailed-work-plan.md` (21 actions)
+- `reports/voice-pipeline-2026-05-19-batch-5/05-candidates-3-buckets.md` (44 candidates)
+- `raw/voice-memos-2026-05-19-batch/audio_{689,690,691}.md` (3 verbatim notes)
+- 3 wiki Tier A promotions: `wiki/concepts/society-as-code-metaphor.md` + `wiki/concepts/strategy-alignment-matrix.md` + `wiki/concepts/intellect-12-component-spec.md`
+
+### §17.5 Status / Ruslan ack pending
+
+- Pre-§17: 39 objects (14 acked + 20 candidates pending + 5 Tier-B Ruslan-acked-without-Tier-promotion)
+- Post-§17: 45 objects (14 acked + 26 candidates pending + 5 Tier-B Ruslan-acked) — **+6 NCs O-46 / O-47 / O-48 / O-49 / O-50 / O-51**
+- 3 NCs (O-46 / O-50 / O-51) = Tier A auto-promoted к wiki/concepts/
+- 3 NCs (O-47 / O-48 / O-49) = Tier B AWAITING-APPROVAL (packets queued — D-1 + D-2 + C.9 + C.10)
+
+### §17.6 Constitutional posture
+
+R1 surface (candidate registration only — strategic prose = ruslan-via-voice-dictation) + R2 (Foundation/Pillar C/Octagon LOCK content read-only preserved) + R6 (voice anchor citations per NC) + R11 (Default-Deny — Tier B NCs awaiting ack; H9/H10 candidates separately packeted) + R12 (anti-extraction discipline preserved per O-46 explicit «collective opus» boundary + O-49 R12 mechanism reference) + IP-1 STRICT (Jetix substrate; humans decide; pattern ≠ instance) + EP-5 (F-grades explicit per NC) + append-only ✓.
+
+---
+
+*§17 appended by brigadier per `prompts/voice-batch-5-deep-analysis-2026-05-19.md` Phase 5 closure. R1 + R6 + R11 + R12 + IP-1 + EP-5 + append-only preserved.*

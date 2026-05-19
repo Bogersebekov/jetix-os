@@ -213,3 +213,14 @@ Edges: 17. Niches: business (7 ideas), tech (2), meta (2). Conflict: tension edg
 
 ## [2026-04-16] init | wiki-structure-created
 Создана базовая структура wiki/: index.md, log.md, 9 entity type папок, niches/, graph/, _templates/.
+
+## [2026-05-19] tier-a-promote | voice-pipeline-2026-05-19-batch-5
+Tier A auto-promotion 3 concepts из voice batch-5 (audio_689/690/691 ночь):
+- [[concepts/society-as-code-metaphor]] (O-46) — civilization debugging frame; engineering-accessible positioning bridge
+- [[concepts/strategy-alignment-matrix]] (O-50) — personal-strategy operational tool (person × system × meta-system grid)
+- [[concepts/intellect-12-component-spec]] (O-51) — Education Layer curriculum substrate v1 (non-exhaustive disclaimer)
+
+Files: [[raw/voice-memos-2026-05-19-batch/audio_689]], [[raw/voice-memos-2026-05-19-batch/audio_690]],
+[[raw/voice-memos-2026-05-19-batch/audio_691]], [[reports/voice-pipeline-2026-05-19-batch-5/]].
+
+Also surface: O-47 / O-48 / O-49 Tier B candidates pending Ruslan ack (REFLECTION-INBOX AQX-11/12/13/14/15).
