@@ -6,6 +6,17 @@ updated: 2026-05-19
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-05-19] [batch-6-fixation-execute] Tier B 3 wikis O-65/O-70/O-71 + O-62 SKIP-note (Ruslan-acked «фиксируй, O-62 пропускаем») | entries: +3
+
+Tier B promotion 3 wikis per batch-6 fixation execute (Ruslan ack 2026-05-19 evening «фиксируй на всю душняку»):
+- [[concepts/intellect-5-functional-skills]] (O-65) — 5 functional intellect skills (audio_696 claims 1-5); D-3 sub-spec deferred, default independent NC
+- [[concepts/learning-knowledge-understanding-trichotomy]] (O-70) — Trichotomy учеба/знание/понимание (audio_694); Ryle/Polanyi/Schön lit corroboration
+- [[concepts/recursive-supportive-control-pattern]] (O-71) — Multi-tier supportive vs handcuffing (audio_695); Bundle 1 RUSLAN-ACK supplement-2 cross-link; Beer VSM + Argyris double-loop
+
+**O-62 Fund-of-Humanity = SKIPPED everywhere** per Ruslan ack 2026-05-19 evening: «насчёт этого фонда не иби голову пропускаем, никуда не заносим. Похуй этот.» NO wiki / NO Constitutional Pattern doc / NO DR-1 / NO §APPEND mentions in concept docs или Octagon LOCKs или Sprint-Synthesis-v2 или outreach. Preserved per AP-6 dissent rule только в inventory §25.2 + REFLECTION-INBOX §APPEND для append-only audit trail.
+
+[src: prompts/batch-6-fixation-execute-2026-05-19-evening.md + Ruslan voice 2026-05-19 evening]
+
 ## [2026-05-19] [voice-pipeline-batch-6] Tier A 3 concepts/claims (RUSLAN-ACK-IMPLIED per batch-6 prompt §10 acceptance criteria) | entries: +3
 
 Tier A auto-promotion 3 wikis из voice-pipeline-2026-05-19-batch-6 (audio_694-696 day batch):
