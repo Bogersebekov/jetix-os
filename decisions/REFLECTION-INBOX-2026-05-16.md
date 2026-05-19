@@ -741,3 +741,29 @@ Primary content (FPF positioning anchor + mastery formula + intellect skills + F
 ---
 
 *§APPEND-2026-05-19-batch-6 reflection items routed к Self-OS substrate consideration. Per Ruslan focus pivot — notes processing primary, master packaging autopilot. 6 reflection-inbox items surface; Self-OS owner decides integration.*
+
+
+---
+
+## §APPEND-2026-05-19-evening-batch-6-fixation
+
+**Ruslan acks 2026-05-19 evening (post-batch-6 surface):**
+
+| Decision | Ack | Action |
+|---|---|---|
+| D-1 O-62 Fund-of-Humanity | **REJECTED** «похуй пропускаем, никуда не заносим» | SKIP everywhere (no wiki / no doc / no DR / no §APPEND mention) — preserved per AP-6 dissent |
+| D-2 O-63 FPF Tier A ratification | **CONFIRMED** «фиксируй» | No-op (wiki created Phase 5 batch-6) |
+| D-3 O-65 5 functional skills sub-spec vs independent | Не уточнил | **Default: independent NC wiki created** (server-CC may surface later for re-decision) |
+| D-4 Sprint-Synthesis-v2 §APPEND batch-6 inclusion | **CONFIRMED** «фиксируй на всю душняку» | Executed Phase 3 |
+| B.1 outreach extraction | **CONFIRMED** | Executed Phase 1 |
+| B.2 5 concept docs §APPEND | **CONFIRMED** | Executed Phase 2 (Fund-of-Humanity claims SKIPPED) |
+| B.3 Sprint-Synthesis-v2 §APPEND | **CONFIRMED** | Executed Phase 3 (Fund SKIPPED) |
+| B.5 Bundle 1 audio_695 §APPEND | **CONFIRMED** | Executed Phase 3 (supplement-2 — canonical absent) |
+| B.6 4 Octagon LOCKs §APPEND | **CONFIRMED** | Executed Phase 4 (LOCK content untouched) |
+| Tier B wikis create (O-65/O-70/O-71) | **CONFIRMED** «потенциально эти вики» | Executed Phase 5 |
+| Tier B wikis (O-66/O-67/O-68) | Не acked / gates require | Deferred |
+| DR-top-3 deep research scoping | «Потом» | Deferred (DR-1 Fund-Mondragón DROPPED per O-62 SKIP; new top-3 = DR-2 FPF-Field-Test / DR-3 Mastery-Calibration / DR-5 5-Skills-Pedagogy) |
+
+**Next sequenced run:** Левенчук inventory v2 (commit 38b7ec7 already on main).
+
+[src: prompts/batch-6-fixation-execute-2026-05-19-evening.md + Ruslan voice 2026-05-19 evening]

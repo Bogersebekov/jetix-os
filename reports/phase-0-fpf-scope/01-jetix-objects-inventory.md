@@ -1651,3 +1651,29 @@ Per `reports/voice-pipeline-2026-05-19-batch-6/05-candidates-3-buckets.md` §C.2
 ---
 
 *§25 appended 2026-05-19 evening per voice-pipeline-2026-05-19-batch-6. 11 NCs surfaced O-62-O-72; 3 Tier A wikis created Phase 5; 8 NEW deep research candidates surfaced. All claims R1 surface only per R11 Default-Deny.*
+
+
+---
+
+### §25.2 — Batch-6 Fixation Execute 2026-05-19 evening
+
+**Ruslan ack 2026-05-19 evening verbatim:** «всё там зафиксируй на всю душняку, потенциально эти вики и так далее… насчёт этого фонда не иби голову пропускаем, никуда не заносим. Похуй этот.»
+
+**Executed:**
+- ✅ 3 Tier A wikis ratified (D-2 confirm): O-63 / O-64 / O-69 (created Phase 5 batch-6 original)
+- ✅ B.1 outreach extraction: 2 packs updated (Karpathy + Engineer)
+- ✅ B.2 5 concept docs §APPEND-batch-6
+- ✅ B.3 Sprint-Synthesis-v2 Doc 2 §APPEND-batch-6
+- ✅ B.5 Bundle 1 §APPEND audio_695 (supplement-2 used; canonical Bundle 1 ack absent)
+- ✅ B.6 4 Octagon LOCKs §APPEND-batch-6 (H5/H6/H7/H8 — content preserved untouched)
+- ✅ 3 NEW Tier B wikis: O-65 (5 functional skills, D-3 default independent) / O-70 (Trichotomy + Ryle/Polanyi) / O-71 (Supportive control + Bundle 1 cross-link)
+
+**SKIPPED per Ruslan ack «похуй пропускаем»:**
+- ❌ O-62 Fund-of-Humanity — NO wiki / NO Constitutional Pattern doc / NO SD-1 Pillar C review / NO DR-1 deep research scoping / NO §APPEND mentions in concept docs / NO §APPEND in Sprint-Synthesis-v2 / NO outreach mention. **Preserved here per AP-6 dissent rule только для append-only audit trail; no further action.**
+
+**DEFERRED (additional gates required, not Ruslan-acked этим run):**
+- ⏸️ O-66 Triple-win — SD-3 A/B test gate
+- ⏸️ O-67 Здесь-и-сейчас — SD-2 bounded design gate
+- ⏸️ O-68 Multi-Modal Methods — FPF-Steward review gate (BL-3)
+
+**Next phase pointer:** Левенчук inventory v2 (prompt on main `38b7ec7`); then deep FPF research после Ruslan reviews Левенчук output.
