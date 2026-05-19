@@ -246,3 +246,13 @@ Files: [[raw/voice-memos-2026-05-19-batch/audio_689]], [[raw/voice-memos-2026-05
 [[raw/voice-memos-2026-05-19-batch/audio_691]], [[reports/voice-pipeline-2026-05-19-batch-5/]].
 
 Also surface: O-47 / O-48 / O-49 Tier B candidates pending Ruslan ack (REFLECTION-INBOX AQX-11/12/13/14/15).
+
+## [2026-05-19] tier-a-promote | K-6-insights | RUSLAN-ACKED-2026-05-19-evening
+Tier A auto-promotion 3 concepts из K-6 deep research outputs (Method of Systems Thinking):
+- [[concepts/method-systems-thinking]] (O-52 RUSLAN-ACKED) — comprehensive meta-method 31 components synthesised (text_012+013+014 + K-6 deep)
+- [[concepts/jetix-as-exokortex]] (O-56 RUSLAN-ACKED) — ⭐⭐ ontological claim Jetix Workshop = extended mind embodied (Clark+Chalmers/Engelbart/Karpathy lineage); possible Strategic Insight H-candidate
+- [[concepts/sense-of-measure-scientific-approach]] (O-53 RUSLAN-ACKED) — parsimony principle (Aristotle phronesis + Confucius zhōngyōng + Popper + Occam's razor + Lean MVP); Foundation Pillar C Tier 2 rule 14 candidate
+
+Files: [[research/method-systems-thinking-deep-2026-05-19/]] (9 docs + 12 mermaid + K-6 deep research substrate).
+
+Ack via Ruslan «инсайты тоже куда-то зафиксировать» + «всё подтверждают» 2026-05-19 evening.
