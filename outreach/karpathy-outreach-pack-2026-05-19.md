@@ -165,3 +165,38 @@ Per Platform v2 §6 reveal pattern + K-2 L3 investor adaptation:
 ---
 
 *Brigadier-draft 2026-05-19 evening. Ruslan ack-final + strategic prose adaptation required. К-2 reception map applied. R1 + R6 + R12 + IP-1 + EP-5 preserved.*
+
+
+---
+
+## §APPEND-2026-05-19-batch-6 — Voice Substrate Anchors
+
+> Source: voice batch-6 (audio_694/695/696 19.05). Anchors selected per relevance к outreach audience. [src: reports/voice-pipeline-2026-05-19-batch-6/]
+
+### Anchor 1 — FPF positioning (audio_696 claim 11) ⭐⭐
+
+**Verbatim Ruslan voice (2026-05-19 evening):**
+
+> «соответственно FPF просто помогает это эффективно вот информацию передавать создавать и фиксировать ну и вот и потом на основе этой информации как-то вот взаимодействовать вот и все просто вот такой словарь удобный охуенно охуенно»
+
+**Outreach usage:** Frame Jetix-FPF как standardised inter-system vocabulary (engineer-resonant analogy: ISO 9001 / GraphQL schemas / OpenAPI / W3C standards но meta-extended на non-technical inter-org communication). [F2 R-high verbatim anchor]
+
+### Anchor 2 — Mastery Formula (audio_696 claim 8)
+
+**Verbatim Ruslan voice:**
+
+> «мастерство это количество, качество и глубина обработки информации. Ну и соответственно еще метод по которому она обрабатывается. Вот тебе равно мастерство и опыт.»
+
+**Outreach usage:** Concrete mastery formula для engineer cohort selection criteria + Education Layer pedagogy framing. Ericsson 10K hours / Polanyi tacit knowledge corroboration ready. [F3 R-medium]
+
+### Anchor 3 — Persistence>Talent (audio_696 claim 16)
+
+**Verbatim Ruslan voice:**
+
+> «упорство бьёт талант. То есть просто в упорстве человек больше информации накапливает»
+
+**Outreach usage:** Accessible-to-persistence positioning (counters elitist talent-filtering frame); engineer cohort motivational anchor. Dweck mindset + Ericsson literature ready. [F3 R-medium]
+
+---
+
+[src: reports/voice-pipeline-2026-05-19-batch-6/05-candidates-3-buckets.md §B.1 + wiki/concepts/fpf-as-info-transfer-vocabulary.md + wiki/concepts/mastery-formula.md + wiki/claims/persistence-beats-talent.md]
