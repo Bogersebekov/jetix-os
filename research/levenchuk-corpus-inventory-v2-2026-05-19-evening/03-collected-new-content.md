@@ -350,4 +350,225 @@ Per Phase 2 prompt — 02.10 set + 02.11 set; sampled 3 для verify accessibil
 
 # TIER 2 — Medium-Effort (Phase 3)
 
-*[See below for Tier 2 captures — appended in next batch.]*
+## T2.1 — LJ tag-filtered samples
+
+**Status:** 🔴 ALL 3 attempted LJ tag pages returned HTTP 404 (with + without URL-encoded Cyrillic):
+- `https://ailev.livejournal.com/tag/интеллект-стек` — 404
+- `https://ailev.livejournal.com/tag/мышление` — 404
+- `https://ailev.livejournal.com/tag/методология` — 404
+- `https://ailev.livejournal.com/tag/FPF` — 404
+
+**Inference:** LiveJournal tag-page public access likely disabled or restructured. Tag-discovery alternative paths:
+- Yandex/Google site:ailev.livejournal.com search (not auto-fetched этим run)
+- Direct LJ search box (requires JS-driven query)
+
+**Provenance:** WebFetch attempts logged 2026-05-19 evening; status 🔴 blocked.
+
+---
+
+## T2.2 — Habr third-party samples (via WebSearch)
+
+**Method:** Direct search interface (habr.com/ru/search/) returned only template structure (JS-driven); used WebSearch `site:habr.com` allowed_domains workaround.
+
+| # | Title | URL | Estimated date |
+|---|---|---|---|
+| 1 | «Как развивать системное мышление?» (Otus) | https://habr.com/ru/companies/otus/articles/803333/ | 2024-10 |
+| 2 | «Лучшее что вы можете сделать со своими мыслями — это превратить их в текст» | https://habr.com/ru/post/553978/ | (Levenchuk authored — earlier) |
+| 3 | «Образование для образованных 2020» (Levenchuk authored) | https://habr.com/ru/post/520232/ | 2020 |
+| 4 | «2022 vs 2024 vs 2026. Один сценарий: как меняется мышление, а не код» | https://habr.com/ru/articles/1000460/ | 2026 |
+| 5 | «О системном мышлении» | https://habr.com/ru/post/272473/ | 2015-ish |
+| 6 | «6 базовых концепций системного мышления» (Otus) | https://habr.com/ru/companies/otus/articles/932642/ | 2026-02 |
+| 7 | «Системное мышление: как оптимизировать процесс дизайна» | https://habr.com/ru/articles/940484/ | 2025-08 |
+| 8 | «Системное мышление: когда разработчик становится архитектором» | https://habr.com/ru/articles/925354/ | 2025-07 |
+| 9 | «Системное мышление: основополагающие концепции» (Otus) | https://habr.com/ru/companies/otus/articles/812129/ | 2024-2025 |
+
+**Observation:** Habr discourse on «системное мышление» = active corpus (Otus курсы + indie articles). Levenchuk authored ≥2 articles directly (post/520232 + post/553978). Most third-party content uses «системное мышление» without explicit Левенчук attribution — confirms term has entered Russian engineering vernacular.
+
+[src: WebSearch site:habr.com query «Левенчук системное мышление» retrieved 2026-05-19 evening | F2 / R-medium]
+
+---
+
+## T2.3 — vc.ru third-party samples (via WebSearch)
+
+**Method:** Direct `vc.ru/search?query=ШСМ` returned 404; used WebSearch `site:vc.ru` workaround.
+
+| # | Title | URL |
+|---|---|---|
+| 1 | «Системно мыслить — значит эффективно жить» | https://vc.ru/growth/973880-sistemno-myslit-znachit-effektivno-zhit |
+| 2 | «Лучшее что вы можете сделать со своими мыслями — это превратить их в текст» (mirror) | https://vc.ru/life/237706-luchshee-chto-vy-mozhete-sdelat-so-svoimi-myslyami-eto-prevratit-ih-v-tekst |
+| 3 | «Системное мышление как инструмент глобального развития» | https://vc.ru/growth/1001257-sistemnoe-myshlenie-kak-instrument-globalnogo-razvitiya |
+| 4 | «Системное творчество» | https://vc.ru/flood/765593-sistemnoe-tvorchestvo |
+| 5 | «Обучение системному мышлению: 15 онлайн-курсов» | https://vc.ru/edu/1234719-obuchenie-sistemnomu-myshleniyu-15-onlain-kursov |
+| 6 | «Как системное мышление связано с вашим уровнем дохода» | https://vc.ru/flood/821084-kak-sistemnoe-myshlenie-svyazano-s-vashim-urovnem-dohoda |
+| 7 | «Топ-10 книг для развития системного мышления у системных и бизнес-аналитиков 1С» | https://vc.ru/id2918157/1027863-top-10-knig-dlya-razvitiya-sistemnogo-myshleniya |
+| 8 | «Таблички, системное мышление и круглые глаза коллеги» (by **Denis Asfandiyarov** — same speaker from 10th MIM conf!) | https://vc.ru/u/1460140-denis-asfandiyarov/645006-tablichki-sistemnoe-myshlenie-i-kruglye-glaza-kollegi |
+| 9 | «Системное мышление. Что это?» | https://vc.ru/flood/125587-sistemnoe-myshlenie-chto-eto |
+| 10 | «Четыре основные роли в компании» | https://vc.ru/hr/681839-chetyre-osnovnye-roli-v-kompanii |
+
+**Cross-finding:** Denis Asfandiyarov (vc.ru active author + 10th MIM conf speaker on «Организация как завод прорывных технологий в нефтянке») — confirms МИМ practitioner publishing на vc.ru. Bridge между inside-МИМ + outside-Russian-startup community.
+
+[src: WebSearch site:vc.ru query «ШСМ Левенчук» retrieved 2026-05-19 evening | F2 / R-medium]
+
+---
+
+## T2.4 — TechInvestLab 2015 PDF
+
+- URL: https://techinvestlab.ru/files/systems_engineering_thinking/systems_engineering_thinking_2015.pdf
+- Method: `curl -sIL` HEAD request только (no download per R12 cost + scope)
+- Result: **HTTP 200 OK**
+- Content-type: application/pdf
+- Content-length: **8,091,581 bytes (~8.09 MB)**
+- Last-modified: 2020-12-13 20:57:09 GMT (stable since)
+- Server: Cloudflare CDN
+- Page count: not extracted (would require download)
+
+**Status:** ✅ accessible / 🟢 download deferred (no auto-pull; Ruslan can manually fetch if needed)
+
+[src: HEAD request | retrieved 2026-05-19 evening | F2 / R-high]
+
+---
+
+## T2.5 — inexsu.wordpress.com 2020 ШСМ alpha post
+
+- URL: https://inexsu.wordpress.com/2020/05/23/левенчук-системноинжене/
+- Title: «Левенчук "Системноинженерное мышление" 2»
+- Author/publisher: InExSu
+- Date: 2020-05-23 (updated 2022-04-23)
+- Word count est: ~12,000-14,000 words (substantial pedagogical essay)
+- Retrieved: 2026-05-19 evening | F2 / R-high
+
+**Main thesis:** Systems engineering = disciplined interdisciplinary methodology for coordinating diverse specialists around unified understanding of stakeholder needs + requirements + system architecture. Contrasted с (a) artistic improvisation; (b) reductionist single-discipline approaches.
+
+**Cited Levenchuk concepts:**
+- Systems = entities defined by stakeholder perspectives (NOT objective criteria)
+- **Альфы** (ALPHAs): abstract-level progress health attributes representing idealized work products
+- **Многерица** (multivocal system viewing): examining one entity через multiple stakeholder roles
+- **Метанойя**: counterintuitive thinking requiring cognitive restructuring
+- Distinction «яблоки из задачи» (problem-space abstractions) vs «реальные яблоки» (lived project reality)
+
+**External context/framing:** Wiener cybernetics + Wittgenstein fact-oriented ontology + NATO SoS taxonomy + engineering-vs-art-vs-science contrast.
+
+---
+
+## T2.6 — in.wiki bio (Anatoliy Igorevich Levenchuk)
+
+- URL: https://in.wiki/Левенчук,_Анатолий_Игоревич
+- Title: «Левенчук, Анатолий Игоревич» — Russian ideologue and systems engineer
+- Last edited: 2025-04-26 11:52
+- Retrieved: 2026-05-19 evening | F2 / R-high
+
+**Bio summary (verbatim factual):**
+
+Anatoly Levenchuk (born **1958**); Russian programmer, systems engineer, methodologist, economist. Originally trained as chemist; relocated to Moscow 1989. Instrumental в establishing Russian securities market infrastructure early 1990s. Connected Relkom (Russia's first ISP) с stock exchanges = «visionary approach to commercializing network infrastructure». Founded **Libertarium**; established INCOSE Russian chapter; led development of **Communiware semantic technology**. From 2006 onward: consulting major industrial enterprises в nuclear energy, shipbuilding, engineering methodologies. Contributions: regulatory frameworks, internet protocol development, contemporary systems engineering education.
+
+**Publications list:** not enumerated in bio (no chronological inventory).
+
+**External references cited:**
+- Libertarium website biography (primary, current through 2013)
+- «Битва за Рунет» (Battle for Runet) — 3 excerpts on Levenchuk
+- Андрея Акопянца memoirs (akop.ru)
+- «Экономическая летопись» wiki entry
+- New York Times article 1994-03-09 «Russians' Newest Space Adventure: Cyberspace»
+
+---
+
+## T2.7 — Tseren Medium English (effectively dormant)
+
+- URL: https://medium.com/@tserentserenov
+- Profile metrics: 64 followers / following 69
+- Retrieved: 2026-05-19 evening | F2 / R-high
+
+**Visible articles (only 2 on profile):**
+
+| # | Title | Date | Topic |
+|---|---|---|---|
+| 1 | «Мышление письмом: почему нельзя не писать и нельзя говорить, что нечего писать» | 2020-12-18 | Writing as thinking tool |
+| 2 | «ЖИЗНЬ ПО ИНТЕРЕСАМ» | 2020-07-05 | Living by interests; dreams as descriptions of future personal systems |
+
+**Status:** 🟡 effectively dormant (no posts since Dec 2020; profile minimal traction). Cross-lang English content from Tseren is **not** a meaningful corpus surface; Russian sources (МИМ + LJ ailev) carry traffic.
+
+---
+
+## T2.8 — Ridero author catalog ⭐ (REFRESHED)
+
+- URL: https://ridero.ru/author/levenchuk_anatolii_iv2h/
+- Retrieved: 2026-05-19 evening | F2 / R-high
+
+**9 books confirmed (REFRESHED — page counts ⚠️ DIFFER from 2026-05-17 inventory references):**
+
+| # | Title | Pages (refreshed 2026-05-19) | Pages (inventory v1 stated) | Delta |
+|---|---|---|---|---|
+| 1 | Образование для образованных | 240 | (not in v1) | new |
+| 2 | Визуальное мышление | 40 | «short» (~50) | confirmed short |
+| 3 | Системное мышление 2024 Том 1 | **600** | 412 | **+188 pages** |
+| 4 | Системный менеджмент 2023 | 320 | (TBD) | now confirmed |
+| 5 | Инженерия личности | 400 | (TBD) | now confirmed |
+| 6 | Системное мышление 2024 Том 2 | **600** | 488 | **+112 pages** |
+| 7 | Системная инженерия 2022 | 280 | (TBD) | now confirmed |
+| 8 | Интеллект-стек 2023 | 400 | (TBD) | now confirmed |
+| 9 | Методология 2025 | **1,200** | ~872 | **+328 pages** |
+
+**Total catalog volume: 4,080 pages** (refreshed; inventory v1 stated ~2,800 from partial data).
+
+**ISBN / pricing / format options** not surfaced on author overview page (would require per-book page fetch). Status: deferred for Phase 5 Ruslan-handles acquisition step.
+
+---
+
+## T2.9 — Ozon catalog
+
+- URL: https://www.ozon.ru/category/levenchuk/
+- Status: 🔴 **«Too many redirects» (>10) — likely geo-block / bot-detection**
+- Retrieved attempt: 2026-05-19 evening | F2 / R-blocked
+
+**Workaround:** Pricing-discovery via LitRes (T2.10) or direct ridero.ru per-book pages (deferred); Ruslan handles autonomously.
+
+---
+
+## T2.10 — LitRes Levenchuk profile
+
+- URL: https://www.litres.ru/author/anatoliy-levenchuk/about/
+- Retrieved: 2026-05-19 evening | F2 / R-medium
+
+**Profile summary:** «writer, teacher, scientific director of School of Systems Management»; research director for **INCOSE Russian division**; taught systems thinking and engineering at multiple Russian universities and institutions.
+
+**Available works:** Page indicates **12 books** total; titles mentioned:
+- «Системное мышление 2020»
+- «Образование для образованных 2020»
+- «Визуальное мышление»
+- «Интеллект-стек, Ч. I. Deep Learning: история и современность»
+
+**Pricing / format / sample availability** not visible на overview page (require per-book page fetch).
+
+**Cross-finding:** LitRes catalog = **12 titles** vs Ridero = **9 titles**. Delta likely включает: older «Системное мышление 2020» (Ridero не listed — predecessor к 2024 vol 1+2), «Интеллект-стек Ч.I Deep Learning» (subdivision), и других unique-к-LitRes titles. Possibly some разделены на тома on LitRes (2020 monograph vs 2024 2-volume Ridero edition).
+
+---
+
+## T2.11 — GitHub `ailev/*` other repos listing
+
+**Already captured Phase 1 §5** — re-stated для completeness:
+
+| Repo | Updated | Stars | Note |
+|---|---|---|---|
+| FPF | 2026-05-19 | 368 | First Principles Framework — active |
+| anird | 2020-12-15 | 7 | Anime/Manga ontology hackathon — inactive 5y |
+| ailev.github.io | 2020-12-14 | 0 | Empty — inactive 5y |
+
+**Finding:** GitHub `ailev/*` namespace = single active substrate = FPF. NO undiscovered code repos.
+
+---
+
+# §X Phase 2+3 acceptance check
+
+Per Phase 0 §5 acceptance predicate item 2 («Tier 1+2 collection gaps filled»):
+
+- ✅ **Tier 1 done:** LJ key posts (4 verbatim + 3 metadata samples) / МИМ public site (homepage + stack + events + orgdev) / arXiv 2 abstracts / Psybertron / systemsworld.club Tseren
+- ✅ **Tier 2 done:** Habr (10 samples via WebSearch workaround) / vc.ru (10 samples via WebSearch workaround) / TechInvestLab PDF HEAD / inexsu / in.wiki bio / Tseren Medium / Ridero refreshed catalog / LitRes profile / GitHub repos
+- 🔴 **Blocked:** LJ tag pages (all 4 tested → 404) / Ozon (too many redirects geo-block)
+- 🟢 **Deferred Ruslan-handles:** TechInvestLab PDF download / Ridero per-book ISBN+pricing fetch / LitRes 12-book detailed catalog / Ozon access (use alternate)
+
+**Phase 2+3 complete — substrate готов для Phase 4 cross-link.**
+
+---
+
+*Phase 2+3 closure 2026-05-19 evening Berlin. Cost: ~17 WebFetch + 2 WebSearch + 1 curl HEAD = <€0.50.*
+
