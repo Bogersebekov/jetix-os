@@ -227,6 +227,15 @@ Cell dispatch: all 5 cells × 18 components
 
 **Note:** All 28 components MUST be addressed. Components 22-24 = 3-stage throughput model. Component 28 = critical ontological claim requiring дополнительной Phase 5.5 deep dive.
 
+**Additional Society-emergence components (Ruslan addition):**
+
+29. **Society = emergent result of intellect × interaction of large quantity of systems** — «общество = результат intellect-взаимодействия большого количества систем вместе + intellect на определённом уровне»
+30. **Society powerful + with bugs** — нормально / adekvatno для любой системы (no shame in bugs; pattern-recognition for improvement)
+31. **Development → awareness → bug-improvement capability** — by мере развития системы: знает / видит / понимает → может лучше свои баги улучшать → сама развивается → recursive
+32. **Sense of Measure ≈ Scientific approach** — converge as parsimony principle; deep dive Phase 6
+
+**31 components total.** Cross-link к O-46 Society-as-Code (Tier A) — society emergence теперь добавляет к society-as-code metaphor.
+
 Per component (≤300w):
 - Definition (verbatim Ruslan voice anchor citation)
 - Precedent corroboration (which Phase 1-4 thinker addresses)
@@ -299,6 +308,19 @@ Cell: phil × critic + mgmt × integrator
 - **Confucian Doctrine of the Mean** — zhōngyōng (中庸) — equilibrium + harmony + appropriate response
 - **TPS Jidoka** — operational «right amount» / stop-the-line / quality boundary trigger
 
+### ⭐ Scientific approach parallel (per Ruslan addition):
+
+Sense of Measure ≈ scientific approach core principle: «выбрать рабочий вариант для конкретного случая + не тратить ресурсы на дальнейшую доработку которая не нужна»
+
+- **Popper falsifiability** — стop at sufficient empirical adequacy; don't over-test
+- **Kuhn normal science** — paradigm-bounded sufficiency; not over-explore
+- **Feynman «good enough» pragmatism** — operational simplicity preference
+- **Occam's razor / Parsimony principle** — minimum sufficient explanation
+- **Engineering «good enough»** — 80/20 rule / Pareto sufficiency
+- **MVP discipline (Lean Startup)** — minimum viable product = sense of measure operationalised
+
+**Comparison + integration:** describe both sense-of-measure (intuitive boundary wisdom) AND scientific approach (formalised parsimony) as parallel mechanisms; surface convergence — when do they agree, when diverge.
+
 Adjacent:
 - **Cybernetic regulation** (Wiener / Ashby) — homeostat / set-point / corrective feedback
 - **Antifragility** (Taleb) — boundary between fragile / robust / antifragile
@@ -316,9 +338,9 @@ Per source (≤500w):
 - Decision boundary (когда intervene vs let-be)
 - Test design: how do we measure that «sense of measure» preserved в operations?
 
-Output: `07-sense-of-measure-deep.md` (~3000w + cross-precedent matrix mermaid + decision tree mermaid)
+Output: `07-sense-of-measure-deep.md` (~3500w + cross-precedent matrix mermaid + decision tree mermaid + sense-of-measure × scientific-approach convergence diagram)
 
-COMMIT 7: `[k-6][method-systems-thinking] Phase 6 Sense of Measure (чувство меры) operational definition`
+COMMIT 7: `[k-6][method-systems-thinking] Phase 6 Sense of Measure + Scientific Approach parsimony — operational definition + convergence`
 
 ═══════════════════════════════════════════════════════════
 §9 PHASE 7 — Recursive lifecycle 8-step (text_013 recursive cycle)
