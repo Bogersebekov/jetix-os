@@ -176,4 +176,50 @@ Full literature distill: `reports/distribution-plan-research-2026-05-20/02-chann
 
 ---
 
-(§3-§12 continue in subsequent phases — append-only.)
+## §3 Sequence — Дмитрий → Левенчук → cascade 150→15→1M
+
+Per voice anchor audio_697 C25 (sequencing canonical) + literature foundations (Cialdini commitment-consistency / Schein process consultation / DARPA program manager / community-led growth / Reichheld NPS). Full literature distill: `01-outreach-sequencing-research.md`.
+
+### §3.1 5-phase sequence (canonical)
+
+| Phase | Timing | Target | Frame | Channel primary | Cell dispatch |
+|---|---|---|---|---|---|
+| **Phase 1** | Week 1-2 (post-ack) | Дмитрий (humanitarian) | O-86 + O-94 custom pitch + O-75 substrate | Telegram DM / IRL (if Berlin-adjacent) | mgmt × integrator + phil × critic |
+| **Phase 2** | Week 2-3 | Левенчук (methodology) | O-75 + K-6 anchor + O-94 custom | Telegram DM / Aisystant feedback | mgmt × integrator + eng × scalability |
+| **Phase 3** | Week 3+ | Tier-1 cluster (Karpathy / Buterin / Anthropic) | O-83 careful + O-75 + Platform v2 §20 institutional template | Cold email + C.1+C.2 + Twitter passive build | mgmt × integrator + investor × roi-frame |
+| **Phase 4** | Week 4+ | L2 amplifiers daily | O-75 + O-92 info clan | Telegram broadcast + Twitter threads + YouTube link | brigadier daily cadence |
+| **Phase 5** | Q3 2026+ | Mass cohort 150→15→1M | All frames per audience tier | All 6 channels | mgmt × integrator + Workshop founding cohort recruiting |
+
+### §3.2 Sequencing rationale (summary; full в research doc §2.2)
+
+- **Why Дмитрий first:** soft audience → tone calibration + Schein helping-relationship mode practice + risk-controlled learning
+- **Why Левенчук second:** methodology authority + ecosystem amplification potential (~1500+ Russian engineers reach) + K-6 substrate alignment
+- **Why Tier-1 cluster third:** leverage Левенчук intro (warm 4-7× cold reply rate) + accumulated learning + C.1+C.2 ready by Week 4
+- **Why L2 daily then:** scalable per Pillar C max 20 attention budget; cohort effect 10× extension per amplifier
+- **Why mass cohort Q3+:** Workshop founding cohort recruits Wave 2+ recursively; cascade 150→15→1M EOY 2026 KEYSTONE
+
+### §3.3 Phase-gate criteria
+
+| Phase | Gate to proceed |
+|---|---|
+| 1 → 2 | Дмитрий conversation produced ≥1 actionable feedback OR ≥1 ecosystem intro |
+| 2 → 3 | Левенчук substantive engagement (≥30 min call OR substantive written exchange) |
+| 3 → 4 | At least 1 Tier-1 cluster member positive response |
+| 4 → 5 | L2 cadence stable ≥4 weeks с amplification factor ≥3 |
+
+### §3.4 Pivot triggers (per research doc §2.4)
+
+- Phase 1 pivot: O-86 doesn't land → frame revision before Phase 2
+- Phase 2 pivot: Левенчук neutral → defer Tier-1 cluster; strengthen K-6 evidence
+- Phase 3 pivot: all Tier-1 non-responsive → template audit + Twitter passive build extended
+- Phase 4 pivot: cadence <5/day 2+ weeks → burnout signal halt + reflect
+
+### §3.5 Key Actions cross-link
+
+- **KA-02 Дмитрий outreach** = Phase 1 execution trigger (P1 ⭐, batch-7)
+- **KA-01 Левенчук pitch video** = Phase 2 substrate prerequisite (P1, blocked on KA-07 R12 audit — see Phase 4)
+- **KA-03 CRM first-pass 100** = Phase 4 substrate prerequisite (P1, separate prompt launchable parallel)
+
+---
+
+(§4-§12 continue in subsequent phases — append-only.)
