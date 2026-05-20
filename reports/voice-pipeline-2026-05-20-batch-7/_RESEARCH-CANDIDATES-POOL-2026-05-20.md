@@ -154,3 +154,80 @@ Current status all 10 = **POOLED (not launched)**.
 ---
 
 *Research pool established 2026-05-20 per Ruslan ack: «в отдельный документ — потом будем выбирать». 10 items POOLED. Не launched. Cherry-pick when ready.*
+
+---
+
+## §APPEND-batch-8-2026-05-20-evening — +7 DR candidates (DR-18..DR-24)
+
+> Voice batch-8 (6 audio 701-706, 20.05 afternoon) surfaced 7 NEW DR candidates. Per `feedback_research_pool_pattern.md` — appended pool, NOT auto-launched. Pool count: 10 → 17.
+
+### Quick reference batch-8 additions
+
+| ID | Topic | Time est | Why deep | Output value | Cross-link source |
+|---|---|---|---|---|---|
+| DR-18 | SSSR-pattern для education-as-distribution + Platonic «мир идей» philosophical inquiry | 8-10h | Strengthens education positioning + Platonic GAP для C.4 vision narrative L3 | Lessons-learned doc + philosophy-of-mind cross-cite | audio_701/705 + audio_702 |
+| DR-19 | Imagination as explicit intellect component (vs K-4 12 / Левенчук 16 trans-disciplines) | 6-8h | K-4 audit revisit substrate; Левенчук Интеллект-стек integration | K-4 integration proposal | audio_702 + Левенчук Гл. 1+7 |
+| DR-20 | Temporal self-modeling literature scan | 6h | Surfaced GAP-5; potential concept doc | Literature corroboration + concept doc decision | audio_702 |
+| DR-21 | Responsibility ↔ Intellect connection | 4-6h | Surfaced GAP-7; философия + ethics literature | Literature scan + concept doc decision | audio_702 |
+| DR-22 | Левенчук meta-method ↔ Ruslan meta-method formal congruence | 4h | KA-01 pitch hook + Левенчук primary source attribution | Formal mapping note | audio_703 + Левенчук Методология Гл. 4 |
+| DR-23 | Hypothesis tables substrate prior art (PARA / Notion / personal-KB / lab notebooks) | 4-6h | Informs KA-20 architecture decision | Prior art survey + Jetix-fit recommendation | audio_704 |
+| DR-24 | Daily anchor practice scientific basis (habit stacking / behavior science / motivation lit) | 4-6h | O-102 corroboration; C.5 onboarding doc substrate | Literature substrate | audio_706 |
+
+### Per-DR detailed
+
+#### DR-18 — SSSR-pattern + Platonic philosophical inquiry (combined)
+
+- **Scope:** (a) SSSR education-as-distribution: positive lessons (mass literacy, technical training infrastructure, sustained 70-year run) + negative lessons (extraction patterns, ideological capture, post-collapse mechanism failure); applicability к Jetix Education Layer + project-of-humanity positioning. (b) Platonic «мир идей»: philosophy-of-mind cross-cite, Plato/Aristotle/Frege/Popper «World 3» objective knowledge literature, Левенчук критика идеализма, AGI-related collective imagination literature.
+- **Expected output:** ~3500w combined research doc — SSSR section + Platonic section + integration recommendations для Jetix substrate.
+- **What launches:** `prompts/dr-18-sssr-platonic-2026-05-XX.md` + EXPLAIN
+- **Dependency:** none
+- **Priority hint:** P3 — informs C.4 vision narrative L3 + R12 review (HR-1 SSSR-connotation). Could split into 2 separate DRs if scope creep — option.
+
+#### DR-19 — Imagination as explicit intellect component
+
+- **Scope:** Map K-4 12 + Левенчук Интеллект-стек 16 trans-disciplines + cognitive psychology literature (Damasio / Hofstadter imagination + simulation theories) + Левенчук Методология 2025 Гл. 7 «работа с воображением». Decision: extend K-4 → 13 / re-bracket existing / add Левенчук trans-discipline overlay.
+- **Expected output:** ~2000w analysis + integration proposal.
+- **Dependency:** Левенчук distillation v2 substrate (✓ ready 2026-05-20)
+- **Priority hint:** P2 — informs K-4 audit revisit KA-26.
+
+#### DR-20 — Temporal self-modeling
+
+- **Scope:** Literature scan «работа с self из прошлого и будущего» (Bandura self-efficacy, Schacter prospection, Hassabis & Maguire imagination/memory shared substrate, Levenchuk personality engineering).
+- **Expected output:** ~1500w doc — literature scan + concept doc decision (promote / Tier B / preserve).
+- **Priority hint:** P3 — speculative; potential concept doc gain.
+
+#### DR-21 — Responsibility ↔ Intellect
+
+- **Scope:** Philosophy literature на responsibility/agency (Frankfurt cases / Kane libertarian free will / Strawson reactive attitudes) + ethics applied (Aristotle phronesis / Aquinas / virtue ethics) + Левенчук системная этика.
+- **Expected output:** ~1500w doc — literature scan + concept doc decision.
+- **Priority hint:** P3 — surfaces only if Ruslan продолжает inquiry в next batches.
+
+#### DR-22 — Левенчук meta-method ↔ Ruslan meta-method formal congruence
+
+- **Scope:** Map audio_703 verbatim к Левенчук Методология 2025 Гл. 4 «метод как объект 1-го класса» pojo + alpha-machinery OMG Essence 2.0:2024 (Левенчук distillation cross-link finding #1). Formal congruence note + primary source attribution + R6 cross-cite template.
+- **Expected output:** ~1000w formal mapping doc + KA-01 pitch hook material.
+- **Priority hint:** P2 — directly feeds KA-01 Левенчук pitch (Distribution Plan §3 sequence).
+
+#### DR-23 — Hypothesis tables prior art
+
+- **Scope:** Prior art survey personal KB systems with hypothesis-tracking (PARA / Forte BASB, Tiago Forte) + Notion power-user implementations + lab notebook traditions (Feynman / Edison) + agile/Scrum experiment-tracking + Левенчук Методология 2025 hypothesis cycle references.
+- **Expected output:** ~1500w prior-art survey + concrete schema recommendation для Jetix-fit (informs KA-20 architecture decision).
+- **Priority hint:** P3 — launch AFTER KA-20 decision direction known (avoid wasted research).
+
+#### DR-24 — Daily anchor practice scientific basis
+
+- **Scope:** Habit literature (Duhigg «Power of Habit» / Wood/Neal habit science / Clear «Atomic Habits») + motivation science (Deci & Ryan SDT / Carol Dweck mindset) + behavior change literature (Stanford SPARK / BJ Fogg Tiny Habits) + Левенчук Инженерия личности Гл. 8 «жизненное мастерство».
+- **Expected output:** ~1500w doc — scientific basis for daily anchor practice + Jetix-fit recommendation (C.5 onboarding doc substrate).
+- **Priority hint:** P3 — corroborates O-102; useful but not immediate.
+
+### Pool maintenance batch-8 closure
+
+- All 7 batch-8 DRs = POOLED (not launched)
+- Per `feedback_research_pool_pattern.md` — Ruslan cherry-picks; brigadier writes prompt + launches AFTER ack
+- Pool total: 10 + 7 = **17 research items**; estimated total ~60-80h server CC autonomous if all run (~€3-5 cost)
+
+Source: `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md` §C.2
+
+---
+
+*Research pool extended batch-8 2026-05-20 evening. 17 items POOLED total. Не launched. Cherry-pick when ready.*

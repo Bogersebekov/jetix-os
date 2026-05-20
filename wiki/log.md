@@ -6,6 +6,22 @@ updated: 2026-05-20
 
 Append-only хронология. Новые записи сверху.
 
+## [2026-05-20] [voice-pipeline-batch-8] Tier A 0 / pool extensions +8 Tier B + 7 DR | per «без сверхъестественного» ack
+
+Voice batch-8 (6 audio 701-706, 20.05 afternoon) processed autonomously. **Tier A auto-promotion: 0** (per Ruslan ack «без сверхъестественного нового»). All substrate routed к §APPEND existing wikis OR pool extensions.
+
+- **0 Tier A wikis created** — все surfaced concepts route to existing wiki §APPEND (post-D8-3 ack KA-17/18/19)
+- **+8 Tier B candidates** (O-97 Education-funnel / O-98 Meta-method formula / O-99 Hypothesis cycle / O-100 Two-firmware agency / O-101 Imagination intellect / O-102 Daily anchor optimism / O-103 Curriculum hierarchy / O-104 Small-cohort sufficiency) → `reports/voice-pipeline-2026-05-20-batch-7/_TIER-B-CANDIDATES-POOL-2026-05-20.md` §APPEND-batch-8. Pool: 14 → 22.
+- **+7 DR candidates** (DR-18 SSSR+Platonic / DR-19 Imagination / DR-20 Temporal-self / DR-21 Responsibility / DR-22 Meta-method congruence / DR-23 Hypothesis tables prior-art / DR-24 Daily anchor science) → `reports/voice-pipeline-2026-05-20-batch-7/_RESEARCH-CANDIDATES-POOL-2026-05-20.md` §APPEND-batch-8. Pool: 10 → 17.
+- **3 high-risk constitutional flags** preserved AP-6 (HR-1 SSSR R12 / HR-2 extraction reading / HR-3 self-creating system) — flag для Phase 7 §6 risks update
+- **SKIP-list integrity confirmed:** O-62 / O-66 / O-67 / O-68 NOT surfaced batch-8.
+- **14 Key Actions extracted** (KA-17..KA-30); 11 Phase-7-input flagged.
+- **Phase 7 ⭐⭐ OUTPUT:** `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-20-evening.md` synthesizing ALL today substrate (PLAN-OF-DAY + Step 3 Левенчук + Step 4 Distribution Plan + batch-7 + batch-8) → roadmap Week 1 → Week 4+.
+
+[src: `reports/voice-pipeline-2026-05-20-batch-8/00-SUMMARY-FOR-RUSLAN.md` + 9 per-phase commits]
+
+---
+
 ## [2026-05-20] [voice-pipeline-batch-7] Tier A 1 NEW wiki + 2 §APPEND voice corroborations (acceptance criteria met) | entries: +1 / §APPEND ×2
 
 Tier A auto-promotion 1 NEW wiki + 2 §APPEND voice corroborations из voice-pipeline-2026-05-20-batch-7 (9 audio: 5 gap-fill 18-19.05 + 4 fresh 20.05 morning):

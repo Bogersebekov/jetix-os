@@ -1722,4 +1722,35 @@ Voice batch-7 (9 audio: 5 gap-fill 18-19.05 + 4 fresh 20.05) surfaces **24 NEW c
 
 **16 Key Actions extracted ⭐** (PLAN-OF-DAY Step 2 integration) — see `reports/voice-pipeline-2026-05-20-batch-7/06-key-actions-list.md`. 11 actions flagged `step-4-input` substrate для distribution plan + CRM expansion.
 
+---
+
+### §27 — Batch-8 Phase 4 candidates 2026-05-20 evening
+
+Voice batch-8 (6 audio 701-706, 20.05 afternoon 15:58 → 18:13, ~22 min) surfaces **8 NEW Tier B candidate object_ids O-97..O-104** + 7 NEW DR candidates DR-18..DR-24. **Tier A auto-promotion: 0** (per Ruslan ack «без сверхъестественного нового» 2026-05-20 — all substrate routed к §APPEND existing wikis OR pool extensions).
+
+**Tier B ack-pending pool extension (8):**
+- O-97 Education-as-distribution funnel (3-tier учебник + Claude Code + KB → 3-6мес сертификация → проекты) [audio_701 + 705]
+- O-98 Meta-method success formula explicit (quality(meta) × quality(method) × resources) [audio_703]
+- O-99 Hypothesis cycle as system-life signature [audio_704]
+- O-100 Two-firmware agency theory (body + head firmware) [audio_702]
+- O-101 Imagination as primary intellect component [audio_702]
+- O-102 Optimism layer + daily anchor («я тигр») [audio_706]
+- O-103 Curriculum hierarchy (systems thinking → business/automation/engineering) [audio_705]
+- O-104 Small-cohort sufficiency principle [audio_706]
+
+**High-risk constitutional review (3):**
+- HR-1 SSSR-pattern positioning R12 connotation [audio_705] — paired-frame Ruslan voice preserves OK; flag для review
+- HR-2 «всем по бизнесу» extraction reading [audio_701] — paired-frame Ruslan defense preserves OK
+- HR-3 Self-creating system substrate [audio_702] — AP-6 preserve meta-system level (≠ R9 agent self-modification)
+
+**SKIP-list integrity check ✓:** O-62 / O-66 / O-67 / O-68 = NOT surfaced в batch-8 (clean).
+
+**7 NEW DR candidates surfaced:** DR-18 .. DR-24 — full в `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md §C.2`. Per research-pool pattern — appended к `_RESEARCH-CANDIDATES-POOL-2026-05-20.md` (NOT auto-launched). Pool now: 10 → 17 research items.
+
+**14 Key Actions extracted ⭐** (KA-17..KA-30) — see `reports/voice-pipeline-2026-05-20-batch-8/06-key-actions-list.md`. 11 actions flagged `Phase-7-input` для Updated Execution Plan synthesis.
+
+**Phase 7 ⭐⭐ NEW output:** `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-20-evening.md` synthesizing all today's substrate (PLAN-OF-DAY + Step 3 Левенчук + Step 4 Distribution Plan + batch-7 + batch-8) → roadmap Week 1 → Week 4+.
+
+[src: `reports/voice-pipeline-2026-05-20-batch-8/02-fpf-lens-jetix-track.md` §2 + Phase 4 buckets + Phase 5 14 KAs]
+
 [src: `reports/voice-pipeline-2026-05-20-batch-7/02-fpf-lens-jetix-track.md` §2 + voice batch-7 Phase 4 buckets + Phase 5 key actions]

@@ -834,3 +834,54 @@ Surface'нутые researches/templates/candidates → **wiki + pool documents**
 **Next:** Surface higher-level plan status (post-fixation). Pool documents ready для cherry-pick когда Ruslan launches specific items.
 
 [src: Ruslan voice 2026-05-20 walkthrough всех 12 D7-* decisions]
+
+---
+
+## §APPEND-2026-05-20-batch-8-evening
+
+**Voice batch-8** (6 audio 701-706, 20.05 afternoon 15:58 → 18:13, ~22 min) processed autonomously. Cloud Cowork Server CC, 9 phases per-phase commit + push.
+
+### Findings summary
+
+- **Core triad emerged across batch-8** = Jetix offering articulation:
+  1. **Education** (knowledge / curriculum / systems-thinking baseline) — audio_701 + 705
+  2. **Meta-method** (methodology operational substrate / hypothesis cycle) — audio_703 + 704
+  3. **Optimism** (motivation / daily anchor / hope substrate) — audio_706
+
+  audio_702 = meta-cognitive substrate (theory of agency / intellect = imagination / Platonic GAP surface).
+
+- **Top ⭐⭐⭐ findings batch-8:**
+  - audio_703 meta-method = independent re-articulation Левенчук Методология 2025 Гл. 4 «метод как объект 1-го класса»
+  - audio_704 hypothesis-tables = concrete artifact request (executable ask)
+  - audio_702 воображение = primary intellect component (K-4 + Левенчук Интеллект-стек GAP detection)
+
+### Decision queue D8-* (Ruslan ack ≤5 min reflection each)
+
+| ID | Decision | Type | Time-to-ack |
+|---|---|---|---|
+| **D8-1** | Approve 8 Tier B candidates O-97..O-104 pool extension | ack pool | 5 min |
+| **D8-2** | Approve 7 DR candidates DR-18..DR-24 pool extension | ack pool | 5 min |
+| **D8-3** | Approve 4 §APPEND wiki updates (KA-17/18/19 — meta-method + mastery + project-of-humanity) | execute IA | 10 min |
+| **D8-4** ⭐ | KA-20 Hypothesis-tables architecture decision (5 options surfaced) | strategic decision R1 | 15-30 min |
+| **D8-5** | Constitutional review SSSR-pattern R12 + «всем по бизнесу» extraction reading | constitutional review | 30-60 min |
+| **D8-6** ⭐ | KA-22 C.1 one-pager L2 drafting launch ack — Ruslan strategic prose + brigadier substrate compile | execute IA | 2-4h Ruslan |
+| **D8-7** | KA-27 KA-03 CRM compile launch ack (pre-existing prompt saved batch-7) | execute IA | 5 min ack + 6h autonomous |
+| **D8-8** | KA-28 Phase 1 Дмитрий outreach launch (Week 1 Distribution Plan §3) | execute IA Ruslan manual | ack + 2-3h |
+| **D8-9** | Defer / promote O-101 Imagination component pending DR-19 | ack queue | 5 min |
+| **D8-10** | K-4 audit revisit (KA-26) pending DR-19 — defer Week 3+? | ack queue | 5 min |
+
+### Constitutional posture preserved batch-8
+
+- ✅ R1 / R2 / R6 / R11 / R12 / IP-1 / EP-5
+- ✅ AP-6 dissent preserved (HR-1 SSSR / HR-2 extraction / HR-3 self-creating-system / Platonic GAP / optimism-vs-critical)
+- ✅ SKIP-list (O-62/O-66/O-67/O-68) untouched — NOT re-surfaced batch-8
+- ✅ Research-pool pattern preserved (NO auto-launch; 7 DRs appended pool)
+- ✅ Breadth-NOT-selection (14 Key Actions surfaced — Ruslan picks)
+
+### Phase 7 ⭐⭐ output
+
+`daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-20-evening.md` — synthesizes PLAN-OF-DAY + Step 3 Левенчук + Step 4 Distribution Plan + batch-7 + batch-8 → roadmap Week 1 → Week 4+ + dependency graph + risks update.
+
+**Next:** Ruslan reads Summary + Updated Execution Plan → acks D8-* decisions → execute (one-pager drafting / KA-launch / cadence start).
+
+[src: `reports/voice-pipeline-2026-05-20-batch-8/00-SUMMARY-FOR-RUSLAN.md` + Phase 7 Updated Execution Plan + Phase 4 buckets + Phase 5 14 KAs]

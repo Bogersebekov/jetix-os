@@ -196,3 +196,44 @@ status: POOL (not promoted — Ruslan picks)
 ---
 
 *Tier B pool established 2026-05-20 per Ruslan ack: «Тир Б тоже отдельно, всё акаем чтобы не потерять». 14 candidates POOLED. Не promoted. Cherry-pick when ready.*
+
+---
+
+## §APPEND-batch-8-2026-05-20-evening — +8 candidates (O-97..O-104)
+
+> Voice batch-8 (6 audio 701-706, 20.05 afternoon) surfaced 8 NEW Tier B candidates. Per Ruslan ack «без сверхъестественного нового» — all routed к pool extension (NOT new Tier A wikis). Pool count: 14 → 22.
+
+### Quick reference batch-8 additions
+
+| O-id | Title | Source audio | What promotion does | Expected output | Why ack-pending |
+|---|---|---|---|---|---|
+| O-97 | Education-as-distribution funnel (3-tier) | audio_701 + 705 | §APPEND project-of-humanity-positioning wiki + Education Layer concept doc | ~600w substrate addition + cross-link Distribution Plan §3 | Single-batch verbatim; нужна сascade integration design |
+| O-98 | Meta-method success formula (quality(meta) × quality(method) × resources) | audio_703 | §APPEND method-systems-thinking wiki §1 | ~400w explicit functional form + Левенчук Гл. 4 cross-cite | Already direct overlap method-systems-thinking; «без сверхъестественного» → append не new wiki |
+| O-99 | Hypothesis cycle as system-life signature | audio_704 | §APPEND method-systems-thinking + Foundation Part 5 cross-cite | ~500w cycle + system-life criterion | Existing experiments/ schema requires direction (gates KA-20 hypothesis-tables decision) |
+| O-100 | Two-firmware agency theory (body + head firmware) | audio_702 | §APPEND fpf-as-info-transfer-vocabulary + mastery-formula | ~500w theory + Layer A/B articulation | Single-batch; нужна cross-batch corroboration для potential wiki |
+| O-101 | Imagination as primary intellect component | audio_702 | §APPEND mastery-formula + K-4 audit revisit | ~400w + DR-19 dep | Depends DR-19 research; «без сверхъестественного» Tier B until research done |
+| O-102 | Optimism layer + daily anchor («я тигр») | audio_706 | §APPEND mastery-formula + persistence-beats-talent | ~400w daily anchor articulation + RUSLAN-LAYER overlay note | Personal layer overlap RUSLAN-LAYER substrate; «я тигр» = personal anchor |
+| O-103 | Curriculum hierarchy (systems thinking → bus/auto/eng) | audio_705 | §APPEND project-of-humanity-positioning + C.5 onboarding doc substrate | ~400w curriculum tree | Single-batch; SSSR-pattern dep R12 review |
+| O-104 | Small-cohort sufficiency principle | audio_706 | §APPEND existing Distribution Plan substrate corroboration | ~200w (corroboration note, не standalone) | Already canonical в Distribution Plan §3 cascade; this = verbatim corroboration anchor |
+
+### Per-candidate trigger to promote
+
+- **O-97/O-103** — trigger: Ruslan ack «education funnel + curriculum hierarchy = canonical pieces of Education Layer concept doc final version» → §APPEND existing wikis
+- **O-98** — trigger: ready immediately (audio_703 = strong Левенчук cross-overlap independent re-articulation; high R)
+- **O-99** — trigger: KA-20 hypothesis-tables architecture decision done → then §APPEND
+- **O-100** — trigger: cross-batch corroboration (next batch surfaces theory of agency again) OR Ruslan ack direct
+- **O-101** — trigger: DR-19 imagination research complete OR Ruslan ack без research
+- **O-102** — trigger: Ruslan ack daily-anchor articulation as canonical mastery-formula extension
+- **O-104** — trigger: ready immediately (corroboration of existing Distribution Plan canonical)
+
+### High-risk constitutional review (3 — preserved AP-6)
+
+- **HR-1** SSSR-pattern positioning R12 connotation [audio_705] — paired-frame Ruslan voice preserves OK; flag для Phase 7 §6 risks update
+- **HR-2** «всем по бизнесу» extraction reading [audio_701] — paired-frame Ruslan defense preserves OK
+- **HR-3** Self-creating system substrate [audio_702] — AP-6 preserve meta-system level (NOT R9 agent self-modification)
+
+Source: `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md` §A.2 + §A.3
+
+---
+
+*Tier B pool extended batch-8 2026-05-20 evening. 22 candidates POOLED total. Не promoted. Cherry-pick when ready.*
