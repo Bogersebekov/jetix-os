@@ -1,1 +1,104 @@
-id,title,status,category,lifecycle
+id,title,slug,status,_status_dir,category,lifecycle,owner,created,updated,fpf_F,fpf_G,fpf_R,strategic_region,test_method,success_criteria,refutation_criteria,outcome,learning_extracted,alphas,linked_artefacts,linked_hypotheses,_file,cross_cite,resources_needed,test_scope
+H-001,Meta-method (cycle + discipline + output + reflection) applicable cross-domain beyond engineering,meta-method-success-formula-applicable-cross-domain,active,samples,method,long,ruslan,2026-05-20,2026-05-20,F3,jetix-foundation,medium,catallactic,"Применить meta-method (паттерн «cycle defined → discipline → output → reflection»)
+к 3 non-engineering доменам:
+  1. Education domain — построить mini-cycle обучения новому навыку
+  2. Personal-dev domain — построить mini-cycle daily habit
+  3. Pitch development domain — построить mini-cycle iterations of pitch
+Каждый domain получает clean cycle execution + reflection write-up.
+","- Each of 3 domains has working cycle (≥1 full iteration)
+- Reflection write-up identifies common pattern across all 3
+- Pattern matches «cycle defined → discipline → output → reflection» structure
+- Compound learning extracted (1-3 lines per domain)
+","- Pattern fails в ≥2 of 3 domains (cycle breaks; output absent; no reflection possible)
+- Common structure не identifiable across domains
+- Forced fitting required → likely overgeneralization
+",,,"[{alpha: way-of-working, state: foundation_established}, {alpha: work, state: prepared}]","[wiki/concepts/method-systems-thinking.md, research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md]",[H-005],hypotheses/samples/H-001-meta-method-success-formula-applicable-cross-domain.md,"Левенчук Методология 2025 Гл. 4 (MG4 ⭐⭐⭐): «метод как объект 1-го класса +
+alpha-machinery» — meta-method tracking infrastructure. Этот тест проверяет
+whether meta-method itself generalizes как primitive.
+Также: wiki/concepts/method-systems-thinking.md §APPEND batch-8 — initial substrate.","[{estimate: 60-90h spread across 3 domains, resource: R2-time}, {estimate: Левенчук
+      Методология Гл. 4 + meta-method substrate, resource: R5-knowledge}]","Generalization across 3 non-engineering domains. NOT testing universal applicability
+(5+ domain test would require). Bounded к catallactic-region domains.
+"
+H-002,Partnership-frame outperforms cheat-code positioning для L2 outreach,partnership-frame-better-than-cheatcode-l2,active,samples,outreach,medium,ruslan,2026-05-20,2026-05-20,F2,outreach-pipeline,low,catallactic,"A/B test outreach messages к L2 founders/operators:
+  - Frame A («cheat-code»): «I have an AI methodology that gives you cheat-code shortcut»
+  - Frame B («partnership»): «I'd like to explore a co-creation partnership на methodology X»
+Кооперативный split: 10 outreach к sample, 5 каждым frame.
+Measure: reply rate + reply quality (interest level) + meeting conversion.
+","- Frame B reply rate ≥2× Frame A
+- Frame B meeting conversion ≥2× Frame A
+- Qualitative: Frame B replies show higher engagement (longer, more questions)
+","- Frame A wins on reply rate AND meeting conversion (positioning intuition wrong)
+- No significant difference (n too small OR confounds dominate)
+- Frame B triggers «scammy» pushback (over-claim risk)
+",,,"[{alpha: stakeholder, state: recognized}, {alpha: opportunity, state: identified}]","[wiki/concepts/pre-existing-partnership-positioning.md, decisions/REFLECTION-INBOX-2026-05-16.md]",[H-005],hypotheses/samples/H-002-partnership-frame-better-than-cheatcode-l2.md,"wiki/concepts/pre-existing-partnership-positioning.md — substrate concept ack F2.
+Связано с broader thesis: «не cheat-code; не consulting; partnership с pre-existing artefact».","[{estimate: 20-30h outreach + 10h drafts, resource: R2-time}, {estimate: medium —
+      пара intros from existing network, resource: R4-trust}]","L2 founders/operators ≥1 year operating; with existing org infrastructure.
+NOT testing: L1 (different dynamics); cold ICPs (require warmer entry).
+"
+H-003,3-tier funnel (Tier-1 entry workshop → Tier-2 cohort → Tier-3 partner) 3-6 month lifecycle optimal,3tier-funnel-3to6-months-optimal,active,samples,business,long,ruslan,2026-05-20,2026-05-20,F2,jetix-business-model,low,catallactic,"Сконфигурировать 3-tier funnel и запустить 1 cycle:
+  - Tier 1: Engineer Entry Workshop (1-day; €99) — broad funnel entry
+  - Tier 2: Cohort program (4-8 weeks; €499) — deep dive с группой
+  - Tier 3: Partner program (3-6 months; €5000+) — 1-1 methodology co-creation
+Cycle ≥3 месяца для observable conversion.
+Measure: T1→T2 conversion %, T2→T3 conversion %, retention, NPS.
+","- T1→T2 conversion ≥10% (commonly accepted SaaS-cohort benchmark scaled)
+- T2→T3 conversion ≥20% (deeper-funnel typically higher %)
+- NPS ≥30 at T1 close (would-recommend signal)
+- Unit economics positive at end of cycle (no subsidization)
+","- T1→T2 conversion <5% (broad funnel doesn't qualify)
+- T2→T3 conversion <10% (cohort doesn't translate к partner)
+- Negative NPS (rejection signal)
+- Unit economics negative beyond first cycle
+",,,"[{alpha: opportunity, state: solution_needed}, {alpha: requirements, state: bounded},
+  {alpha: stakeholder, state: recognized}]","[wiki/concepts/project-of-humanity-positioning.md, reports/sprint-synthesis-v2-2026-05-19-evening/04-master-packaging-step6-roadmap.md,
+  daily-logs/_EXECUTION-PLAN-FINAL-2026-05-20-evening.md]",[H-002],hypotheses/samples/H-003-3tier-funnel-3to6-months-optimal.md,"Platform v2 §3 32-resource framework + 15 monetization variants — substrate substrate.
+Связано с BL-1 Engineer Workshop ack (19.05 evening Top-5).","[{estimate: 200-300h за 3-6 мес cycle, resource: R2-time}, {estimate: <€2000 marketing,
+    resource: R1-money}, {estimate: Platform v2 §3 32-resources + Левенчук методология,
+    resource: R5-knowledge}]","Single 3-6 month cycle; sample size: ≥30 T1 entries, ≥5 T2 cohort, 1-2 T3 partners.
+NOT testing: 12-month sustainability (would need separate cycle).
+"
+H-004,Imagination as 13th component of intellect-stack (extension к Левенчук 12-component model),imagination-as-intellect-component,active,samples,method,medium,ruslan,2026-05-20,2026-05-20,F2,intellect-stack,low,unknown,"Литературно-критический + empirical hybrid:
+  1. Прочитать Левенчук Интеллект-стек 2023 целиком; map 12 components Левенчук
+  2. Audit моего собственного reasoning workflows за 2 недели — surface where
+     «imagination» distinctly appears (vs other 12 components)
+  3. Если distinct → draft 1-page argument с 5-7 concrete examples
+  4. Cross-check с philosophical / cognitive science sources (Tversky / Penrose / etc.)
+  5. Optional: send draft к philosophy-expert agent для critique
+","- 5-7 concrete examples где imagination distinctly required (не reducible к other 12)
+- Survives philosophy-expert critique (≥3 of 5 reasoning passes)
+- Clear differentiating definition from creativity / fantasy / generation
+- Optional: F4 promotion с Левенчук cross-review
+","- Imagination reducible к existing 12 components (e.g., always = «model-fragment manipulation» + «hypothesis generation»)
+- Cannot define distinctly without circular reference
+- Philosophy critique rejects ≥3 of 5 examples
+",,,"[{alpha: requirements, state: conceived}, {alpha: way-of-working, state: principles_established}]",[daily-logs/_HYPOTHESIS-TABLES-DECISION-2026-05-20.md],[],hypotheses/samples/H-004-imagination-as-intellect-component.md,"Левенчук Интеллект-стек 2023 — 12 functional skills as primary substrate
+K-4 Intellect-12-Component Audit (previous Jetix Tier B research) — informs gap analysis
+daily-logs/_HYPOTHESIS-TABLES-DECISION-2026-05-20.md (where surfaced)","[{estimate: 20-40h reading + 10-20h drafting, resource: R2-time}, {estimate: Левенчук
+      Intellect-stack 2023 + cognitive science basics, resource: R5-knowledge}, {
+    estimate: high — потенциально пишет в FPF↔СМ exchange, resource: R4-trust}]","Intellect-stack scope как defined by Левенчук 2023; NOT extending к general AI
+cognitive architecture. Bounded к humanly-relevant intellect components.
+"
+H-005,Method as 1st-class object enables recursive self-improvement engine (per Левенчук MG4 + Jetix substrate),method-as-1st-class-object-recursive-engine,active,samples,method,long,ruslan,2026-05-20,2026-05-20,F3,jetix-foundation,medium,catallactic,"Existing Jetix substrate уже demonstrates pattern. Test = explicit corroboration:
+  1. Document 3 instances где method-as-1st-class-object enabled recursive improvement:
+     a. Hypothesis substrate itself (recursive — substrate has way-of-working alpha tracking its own maturity)
+     b. FPF lens application к itself (FPF developed using FPF discipline)
+     c. Левенчук distillation method = also recursive (method = its own object)
+  2. Cross-check с Методология 2025 Гл. 4 MG4 предписаниями
+  3. Validate с audio_703 (existing voice memo containing recursive engine framing)
+  4. Validate с wiki/concepts/recursive-supportive-control-pattern.md
+","- 3 instances documented с clear method-object distinction
+- Each instance shows compound improvement (method N → method N+1)
+- Compatible с Методология 2025 Гл. 4 MG4 specifications
+- audio_703 + recursive-supportive-control-pattern cross-validate
+","- Pattern не distinct от «iteration» или «refactoring» (not 1st-class object claim)
+- Метод changes are caused by external triggers, не recursive self-application
+- Audio + wiki pattern divergent от Методология MG4
+",,,"[{alpha: way-of-working, state: foundation_established}, {alpha: software-system,
+    state: demonstrable}, {alpha: work, state: under_control}]","[wiki/concepts/method-systems-thinking.md, wiki/concepts/recursive-supportive-control-pattern.md,
+  research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md]","[H-001, H-003]",hypotheses/samples/H-005-method-as-1st-class-object-recursive-engine.md,"**Primary:** Левенчук Методология 2025 Гл. 4 MG4 ⭐⭐⭐ — «метод как объект 1-го класса».
+**Substrate:** wiki/concepts/method-systems-thinking.md §APPEND batch-8 + audio_703 reference.
+**Pattern:** wiki/concepts/recursive-supportive-control-pattern.md — related broader pattern.
+**Distillation:** research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §2.1.","[{estimate: ongoing — substrate уже under_control; новые apps incremental, resource: R2-time},
+  {estimate: Левенчук Методология 2025 Гл. 4 + Jetix substrate own dogfooding, resource: R5-knowledge}]","Jetix Foundation scope — testing pattern в Jetix substrate own dogfooding.
+NOT testing universal applicability (would need cross-domain replication = H-001's territory).
+"

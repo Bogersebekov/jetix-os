@@ -1754,3 +1754,38 @@ Voice batch-8 (6 audio 701-706, 20.05 afternoon 15:58 → 18:13, ~22 min) surfac
 [src: `reports/voice-pipeline-2026-05-20-batch-8/02-fpf-lens-jetix-track.md` §2 + Phase 4 buckets + Phase 5 14 KAs]
 
 [src: `reports/voice-pipeline-2026-05-20-batch-7/02-fpf-lens-jetix-track.md` §2 + voice batch-7 Phase 4 buckets + Phase 5 key actions]
+
+### §28 — Hypotheses Architecture Launched 2026-05-20 evening
+
+**Autonomous scaffold complete** — 7-layer architecture for hypothesis substrate.
+
+**Triggered by:** Ruslan ack 2026-05-20 evening «ебашь это prompt и пусть уже ебашит всё что только можно». Per `prompts/scaffolding-hypotheses-architecture-2026-05-20.md` + EXPLAIN. Server CC Cloud Cowork autonomous; 9 phases per-phase commit + push.
+
+**Outputs:**
+
+- `hypotheses/` first-class directory created (Layer 1 — 9 schema + 4 templates + 5 status dirs + samples + alphas + tables + docs + _BUILD-LOG)
+- 9 canonical skills `.claude/skills/hypothesis-*.md` (Layer 2 — CRM-analogous pattern): /hypothesis-{add,update,close,dash,search,stuck,link,build-table,alpha-state} + README index + build-views
+- CRM-style overlay (Layer 3) — `tools/build-hypothesis-views.py` + bidirectional `linked_hypotheses` ↔ `linked_artefacts` frontmatter; views в `crm/hypothesis-views/`
+- Inline daily log (Layer 4) — `daily-logs/_PLAN-OF-DAY-template.md` §3 «Active Hypotheses»
+- FPF F-G-R (Layer 5) — mandatory frontmatter triple per `hypotheses/_schema/fgr-triple.yaml` + `docs/fpf-integration.md`
+- **OMG Essence alpha-machinery integrated (Layer 6)** — Левенчук Методология 2025 Гл. 4 cross-cite + 7 alphas + 7 state-graphs + `docs/alpha-machinery-guide.md` + 5 регионов стратегирования mapping (Гл. 6)
+- Excel/CSV table layer (Layer 7) — `hypotheses/tables/_build-table.py` (openpyxl/pandas/PyYAML) + `hypotheses.xlsx` + `.csv` + `alphas-state-graph.xlsx`
+- 5 starter hypotheses H-001..H-005 в `samples/`:
+  - H-001 meta-method-success-formula-applicable-cross-domain (method, F3/medium)
+  - H-002 partnership-frame-better-than-cheatcode-l2 (outreach, F2/low)
+  - H-003 3tier-funnel-3to6-months-optimal (business, F2/low)
+  - H-004 imagination-as-intellect-component (method, F2/low)
+  - H-005 method-as-1st-class-object-recursive-engine (method, F3/medium)
+- 2 mermaid diagrams (architecture + lifecycle)
+- 7 documentation files (architecture-overview, workflow-guide, fpf-integration, alpha-machinery-guide, excel-table-usage, crm-style-overlay, inline-daily-log-integration)
+
+**Closed GAP-1** per `research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §3.1`: OMG Essence alpha-machinery integration в Jetix substrate.
+
+**Migration substrate ready** для 22 Tier B pool candidates + 17 DR pool items conversion к hypothesis records (manual review per Ruslan decision).
+
+**Cross-link:**
+- `wiki/concepts/method-systems-thinking.md` §APPEND batch-8 (meta-method + hypothesis cycle)
+- `research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md` §2.1 (метод) + §2.10 (alphas) + §3.1 (GAP closed)
+- `decisions/REFLECTION-INBOX-2026-05-16.md` §APPEND-2026-05-20-evening-hypothesis-tables-decision
+
+[src: `hypotheses/_BUILD-LOG/00-SUMMARY-FOR-RUSLAN.md` + 9 per-phase commits + `prompts/scaffolding-hypotheses-architecture-2026-05-20.md`]
