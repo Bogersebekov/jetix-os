@@ -280,4 +280,91 @@ KA-07 R12 ethical-surface review of O-83 cheat-code positioning = **BLOCKING pre
 
 ---
 
-(§5-§12 continue in subsequent phases — append-only.)
+## §5 CRM pipeline integration
+
+### §5.1 Per-status action mapping
+
+Per `crm/_schema/statuses.yaml` (13 statuses: draft_from_voice / cold / warm / contacted / discovery_call / proposal / negotiation / closed_won / closed_lost / paused / active / past / + discovered):
+
+| CRM status | Distribution action | Frequency | Template / frame |
+|---|---|---|---|
+| **discovered** | Research → upgrade к cold (verify identity / role / shared connections / public signal) | Once per entry | NO outreach yet — substrate research only |
+| **cold** | First outreach (per template assigned per segmentation tag) | 1 message; defer to warm or contacted | O-75 / O-86 / O-83 + per-audience template (T-01…T-20) |
+| **warm** | Follow-up (relevant content / substrate share / value contribution) | Weekly cadence | O-75 + concrete substrate; not pitch-mode |
+| **contacted** | Conversation pursuit (follow-up if no reply; substantive engagement if reply) | Weekly (max 2 nudges before status pivot) | Custom per-target; O-94 principle |
+| **discovery_call** | Meeting prep (research deep + agenda + ask refinement) | Per-call | C.1 one-pager attached + C.2 deck if applicable |
+| **proposal** | Proposal customisation (per-target deal structure) | Per-deal | Platform v2 §08 V1-V5 monetization variant fit |
+| **negotiation** | Negotiation tactics (R12 anti-extraction discipline preserved; Mondragón ratio cap explicit) | Per-deal | R12 Charter terms reference |
+| **active partner** | Maintenance touches (substrate updates / cohort progress / mutual asks) | Monthly | O-75 ongoing partnership; not transactional |
+| **past** | Quarterly check-in (relationship preservation; no extraction asks) | Quarterly | Brief; respect prior decision |
+| **paused** | Defer; revisit when context changes | Quarterly review | No outreach |
+| **draft_from_voice** | Ruslan promotes manually after review (per CRM voice-pipeline discipline) | Per Ruslan ack | NO auto-overwrite prod |
+
+### §5.2 CRM tag → template mapping
+
+Per `crm/_schema/frontmatter.yaml` segmentation field:
+
+| Segmentation tag | Primary template | Notes |
+|---|---|---|
+| `segmentation: L1-engineer` | O-83 careful + O-75 baseline + Platform v2 T-01/T-02 | STRICT R12; K-6 substrate ready gate |
+| `segmentation: L2-amplifier` | O-75 + Platform v2 T-03/T-12/T-20 | Standard cadence; lighter touch |
+| `segmentation: L3-institutional` | O-86 + Platform v2 T-09/T-15/T-19 institutional | STRICT; formal letter format |
+| `tier: 1` (high-leverage individual) | Per audience type — custom-tailored | O-94 overlay mandatory |
+
+### §5.3 Pipeline flow (canonical)
+
+```
+discovered → researched (research substrate added к entry §1-§14)
+         → cold (first outreach decided + template selected)
+         → contacted (message sent timestamp logged)
+         → warm (response received OR re-engagement signal)
+         → discovery_call (substantive call held)
+         → proposal (formal proposal sent)
+         → negotiation (terms back-and-forth)
+         → closed_won / closed_lost / paused / past
+```
+
+**Stuck detection:** active status + >14d no touch → `/crm-stuck` surfaces.
+
+### §5.4 CRM skill toolchain (existing)
+
+| Skill | Use case в Distribution Plan |
+|---|---|
+| `/crm-add` | New contact discovery; per-batch creation (post KA-03 launch) |
+| `/crm-update` | Status change на каждом touch (cold → contacted → warm → ...) |
+| `/crm-touch` | Logs touch event с timestamp + channel + outcome |
+| `/crm-show` | Pre-touch context refresh (read entry full) |
+| `/crm-list` | Filtered view (e.g., all `status: cold`, all `tier: 1`) |
+| `/crm-search` | Find entries by tag / role / segmentation |
+| `/crm-stuck` | Surfaces stalled active entries (>14d no touch) |
+| `/crm-rebuild-index` | After batch additions; refreshes index.md |
+| `/crm-dash` | Dashboard view — current pipeline state |
+| `/crm-weekly` | Weekly report — touches / responses / pipeline movement |
+
+### §5.5 KA-03 linkage (pending future launch)
+
+`prompts/ka-03-crm-first-pass-100-2026-05-20.md` — SAVED prompt for first-pass 100 Tier-1 contacts compile:
+- Phase 1: Platform v2 §6 22 entries (~1h)
+- Phase 2: Левенчук ecosystem +15-20 entries (~1.5h)
+- Phase 3: К-2 cross-domain bridge candidates (~1h)
+- Phase 4: Sprint batch-7 surface candidates (~1h)
+- Phase 5: Index rebuild + summary (~30min)
+- Total: ~6h brigadier autonomous; <€2; ~100 entries `discovered` status
+
+**Post-KA-03 trigger:** these 100 contacts получают per-status actions per §5.1 mapping; Phase 1 outreach Ruslan executes manually (Дмитрий first → Левенчук → Tier-1 cluster).
+
+### §5.6 CRM tooling deficiency check
+
+Current CRM state (pre-KA-03):
+- `crm/people/` minimal entries
+- `crm/orgs/` minimal entries
+- Schema ready (frontmatter.yaml / roles.yaml / statuses.yaml / strategy-hooks.yaml)
+- 10 skills operational
+
+**Gap:** entries volume insufficient для Phase 1 outreach launch. KA-03 launch fills baseline.
+
+**Mitigation:** Phase 1 outreach (Дмитрий + Левенчук) doesn't depend on KA-03 — these 2-3 contacts можно add manually NOW + initiate. KA-03 fills L1/L2 pipeline для Phase 3-4.
+
+---
+
+(§6-§12 continue in subsequent phases — append-only.)
