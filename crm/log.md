@@ -1,3 +1,57 @@
+## 2026-05-20 — KA-03 first-pass 100 contacts compile
+
+**Brigadier autonomous execution** (~6h estimated; per `prompts/ka-03-crm-first-pass-100-2026-05-20.md`):
+
+- **Phase 1** (22 entries) — Platform v2 §6 Cat 12 luminaries baseline:
+  18 persons (elon-musk demis-hassabis ilya-sutskever yoshua-bengio yann-lecun
+  geoffrey-hinton richard-sutton stuart-russell audrey-tang glen-weyl
+  balaji-srinivasan marc-andreessen peter-thiel nassim-taleb steven-pinker
+  sam-harris mr-beast keith-ferrazzi) + 4 orgs (berlin-senate tu-berlin
+  long-now-foundation open-philanthropy).
+
+- **Phase 2** (20 entries) — Левенчук ecosystem МИМ 10-я конф 2026-04-18/19
+  speakers list (Левенчук + Tseren existing entries preserved):
+  17 persons (ilshat-gabdulin viktor-agroskin anna-lubenchenko pyotr-leontyev
+  danil-shipilov stanislav-sergeev denis-asfandiyarov mikhail-bukharin
+  vladimir-bodrov ilya-burdin yuri-engineer-manager timur-batyrshin
+  yuliya-chaykovskaya stanislav-nedbaylov ivan-podobed liya-sultanova
+  alyona-chaykovskaya) + 3 orgs (mim shsm mipt).
+
+- **Phase 3** (14 entries) — D2 Tier-1 partner defaults + Anthropic team
+  + L1 cohort placeholders:
+  7 persons (andrej-karpathy vitalik-buterin dario-amodei daniela-amodei
+  chris-olah jared-kaplan sam-altman) + 4 orgs (anthropic openai
+  ethereum-foundation google-deepmind) + 3 L1 cohort slots placeholders.
+
+- **Phase 4** (37 entries) — L2 amplifiers + RU community + DACH academia:
+  18 persons + 19 orgs covering RU AI ecosystem (Sber/Yandex/ШАД/МФТИ/etc.),
+  international d/acc + Plurality + Network State + EA + LessWrong + Cat 11
+  podcasters + Cat 14 connectors + Cat 19 foundations + Cat 8 VCs.
+
+**Total NEW: 93 entries (62 persons + 31 orgs).**
+**Index total: 169 contacts (141 people + 28 orgs) — includes pre-existing voice-pipeline drafts.**
+
+- All entries status: **discovered** (canonical pipeline.status: cold + custom status: discovered + segmentation L1-engineer/L2-amplifier/L3-institutional + tier: 1 + batch_origin: ka-03-2026-05-20).
+- **NO automated outreach launched** — discovered status only per prompt §6 + memory `feedback_research_pool_pattern.md`.
+- R12 anti-extraction discipline observed per entry (especially Cat 8 VC + Cat 16 corporate entries — R12 conflict-check pre-engagement flagged).
+- R11 Default-Deny: only `/crm-add`-equivalent ops (manual Write); no external scraping; no spam.
+- Provenance per entry: `source:` field + inline [src: ...].
+- Ruslan ack pending для Tier-1 promotion `cold` → `warm`/`contacted` (per `_KA-03-EXECUTION-LOG.md` ack queue).
+
+**Cross-link к Jetix substrate:**
+- Platform v2 §6 (22 People Categories taxonomy) — 22 Cat 12/14/17/18/19/20 exemplars
+- Платформa v2 §15-§20 (20 outreach templates) — outreach scripts pre-staged
+- HANDOFF §6 D2 RUSLAN-ACK 2026-05-19 — Karpathy + Buterin + Anthropic defaults formalised
+- Левенчук inventory v2 — МИМ ecosystem 18 speakers + 3 orgs
+- batch-7 audio_697 C25 — Дмитрий → Левенчук sequence formalisation
+- H8 Ethereum substrate LOCKED 2026-05-18 — Buterin + Ethereum Foundation entry
+- R12 programmable Ethereum ack 2026-05-18 — Plurality/RxC entries (Tang + Weyl + de Filippi)
+
+Per-phase commits: add1473 (Phase 1) → 7829b17 (Phase 2) → 853fa42 (Phase 3) → 1ffd9ac (Phase 4).
+Final commit + push: this commit.
+
+---
+
 ## 2026-05-13 23:30 — voice-router draft created: oleg-draft-4
   source: voice-memo  intent: add
 
