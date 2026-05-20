@@ -458,4 +458,121 @@ Full literature distill + Jetix adaptation: `03-metrics-frameworks-research.md`.
 
 ---
 
-(§8-§12 continue in subsequent phases — append-only.)
+## §8 Risks + mitigations (7 risks)
+
+### R-1 — R12 paired-frame slippage 🚨 HIGH
+
+**Pattern.** Unilateral asks без explicit offers → R12 violation → reputation damage → cohort recruitment poisoned long-tail.
+
+**Probability.** MEDIUM (template form pre-audit covers most; ad-hoc DMs / cold emails в момент срочности риск slippage).
+
+**Impact.** HIGH (R12 ack 2026-05-12 LOCKED; reputation damage в RU community + AI/EA community).
+
+**Mitigation:**
+1. Per-template audit completed (Phase 4) — 3 NEW frames + sampled Platform v2 §09 → operational rules per audience
+2. **Pre-send checklist** mandatory (8 items per §4.5)
+3. KA-07 R12 ethical-surface review blocker enforced для O-83 use
+4. Weekly Friday reflection audits ad-hoc sends для compliance
+
+### R-2 — Срочность колоссальна → burnout 🚨 HIGH
+
+**Pattern.** audio_681 «срочность колоссальна» + audio_686 1M/$1B/100M KEYSTONE = pressure → daily cadence breach → Manager attention budget violation → burnout cascade.
+
+**Probability.** HIGH (pressure intrinsic к Phase 1 launch period).
+
+**Impact.** HIGH (Ruslan = sole strategist per IP-1; burnout = system-wide capability loss).
+
+**Mitigation:**
+1. Pillar C max 20 attention budget discipline (≤10 active outreach tasks)
+2. Anti-burnout 5-signal monitoring (Phase 6 §5)
+3. Cadence ramp-up Week 1-4 (gradual; sustainable habit-build)
+4. Cohort load-distribution Q3 2026 (Workshop founding cohort accountability)
+5. Weekend тишина discipline (0-3 touches Saturday-Sunday)
+
+### R-3 — Анти-tiered universalism vs Platform v2 segmentation contradiction (AP-6 dissent visible)
+
+**Pattern.** O-88 anti-tiered universalism principle (preserved as AP-6 dissent) vs Platform v2 §02 22-category segmentation operational reality → templates may expose inconsistency if audience reads multiple variants.
+
+**Probability.** LOW-MEDIUM (sophisticated readers могут notice).
+
+**Impact.** MEDIUM (philosophical credibility hit; not immediate reputation damage).
+
+**Mitigation:**
+1. Document distinction в master doc + Phase 4 templates audit: «Platform v2 §6 segmentation = operational mechanism; anti-tiered universalism = ethical north star»
+2. O-88 documented as future-direction (AP-6 preservation; not current operational principle)
+3. Per-template framing: «specific frame for specific audience context» — не «hierarchy of human worth»
+4. If challenged: acknowledge tension honestly + reference long-term Pillar A vision
+
+### R-4 — Aggressive recruiting tone (audio_688 C10-C12) backfire
+
+**Pattern.** Verbatim Ruslan voice anchors preserved per AP-6 dissent rule: «гони ресурсы — я help» / «ебашь плотненько» / «я каждому это запихаю». These work в Ruslan-personal conversation BUT template form requires softening per audience.
+
+**Probability.** MEDIUM (if templates not softened per audience).
+
+**Impact.** MEDIUM (cold audience interprets as aggressive; warm audience interprets as authentic).
+
+**Mitigation:**
+1. Template-form softening per Phase 4 audit (humanitarian softer; engineer can be more direct)
+2. AP-6 dissent preserved at concept-doc level (Ruslan personal voice); operational templates per-audience adapted
+3. First-touch test (Phase 1 Дмитрий) calibrates tone before broader deployment
+
+### R-5 — Cheat-code (O-83) backfire
+
+**Pattern.** «У вас будет cheat code на жизнь» frame может read as snake-oil / manipulation / advantage-asymmetry by careful engineer audience.
+
+**Probability.** MEDIUM-HIGH (engineer audience trained skeptical).
+
+**Impact.** HIGH (если backfires в Karpathy / open-source community — reputation damage).
+
+**Mitigation:**
+1. **R12 paired-frame STRICT enforcement** (Phase 4 §2.3)
+2. **K-6 substrate readiness gate** — actual 31-component method substrate visible BEFORE use
+3. **KA-07 ethical-surface review** blocker pre-template-use
+4. Use ONLY с engineer audience где leverage frame resonates (НЕ humanitarian / institutional)
+5. AP-6 dissent: aggressive tone softened в template form
+
+### R-6 — KA-03 first-pass 100 incomplete / not launched
+
+**Pattern.** L2 daily cadence Phase 4 requires ~300-500 reachable pool. Pre-KA-03 CRM volume insufficient (minimal entries currently). Manual heroism = unsustainable.
+
+**Probability.** MEDIUM (depends on whether Ruslan launches KA-03 prompt).
+
+**Impact.** MEDIUM (Phase 1-2 unaffected — Дмитрий+Левенчук manual ok; Phase 3-4 needs KA-03 substrate).
+
+**Mitigation:**
+1. KA-03 prompt SAVED + ready to launch (`prompts/ka-03-crm-first-pass-100-2026-05-20.md`)
+2. ~6h brigadier autonomous run; <€2; ~100 entries discovered status
+3. DR-14 methodology в research pool ready для scale если manual approach hits ceiling
+4. Phase 1-2 launch не блокируется этим (Дмитрий+Левенчук manual ok)
+
+### R-7 — Левенчук books delay (context enrichment missing)
+
+**Pattern.** Step 3 of PLAN-OF-DAY (Левенчук books distillation) pending material handoff. K-6 substrate strong via inventory v2 + 3 K-6 Tier A wikis BUT books would deepen context.
+
+**Probability.** MEDIUM (depends on Ruslan material availability).
+
+**Impact.** LOW-MEDIUM (Distribution Plan не блокируется; existing K-6 inventory substrate sufficient для Phase 1-2 launch).
+
+**Mitigation:**
+1. Distribution Plan launches без books (existing inventory v2 substrate adequate)
+2. KA-01 Левенчук pitch (Phase 2) can use Левенчук inventory v2 + Левенчук-related wikis without books
+3. Books distillation = ENHANCEMENT, не PREREQUISITE
+4. Track separately via PLAN-OF-DAY Step 3
+
+---
+
+## §9 Constitutional posture (R1/R6/R11/R12/IP-1/EP-5/AP-6/SKIP-list)
+
+- **R1 surface.** Brigadier-scribe draft + research synthesis; strategic prose finalization = Ruslan ack on master doc before any outreach execution. Per Pillar C Tier 2 rule 1 (AI does NOT make strategic decisions).
+- **R2.** No Foundation modifications; new namespace `reports/distribution-plan-research-2026-05-20/` + `decisions/strategic/DISTRIBUTION-PLAN-2026-05-20.md`. Per Pillar C Tier 2 rule 2 (AI does NOT execute architectural changes without gate).
+- **R6 provenance.** Per-claim citation (substrate cross-ref / literature URL / Platform v2 §X). Per FPF B.3.
+- **R11 Default-Deny.** No novel actions launched; this = plan only, execution = separate ack. Per Part 6b §I.2 LOCKED enforcement.
+- **R12 paired-frame.** Anti-extraction discipline enforced во всех templates §4; explicit R12 audit per template variant. Per Pillar C Tier 2 rule 12 (R12 anti-extraction LOCKED 2026-05-12).
+- **EP-5 F-grade.** F2-F3 surface; verbatim Ruslan voice anchors preserved где applicable. Per F-G-R schema.
+- **AP-6 dissent preservation.** O-88 anti-tiered universalism documented as future-direction; current Platform v2 §6 segmentation operational. Aggressive recruiting tone preserved verbatim в concept docs; softened в template form per audience.
+- **IP-1 STRICT.** Roles abstract (brigadier-scribe / Server CC autonomous); executor binding = Ruslan-as-instance (sole strategist). Per FPF IP-1.
+- **SKIP-list integrity.** O-62 / O-66 / O-67 / O-68 НЕ surfaced в master doc. Verified per Phase 0 + Phase 4 audit.
+
+---
+
+(§10-§12 continue in Phase 9-10 — append-only.)
