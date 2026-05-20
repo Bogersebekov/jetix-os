@@ -222,4 +222,62 @@ Per voice anchor audio_697 C25 (sequencing canonical) + literature foundations (
 
 ---
 
-(§4-§12 continue in subsequent phases — append-only.)
+## §4 Templates usage rules per audience + R12 paired-frame audit
+
+Full audit: `04-templates-review-r12-check.md`. Summary here.
+
+### §4.1 Template inventory
+
+| Source | Items | Status |
+|---|---|---|
+| 3 NEW frames (batch-7) | O-75 / O-86 / O-83 | wiki/concepts/* canonical |
+| Platform v2 §09 | T-01 … T-20 (20 templates × 22 categories) | reports/jetix-platform-v2-2026-05-19/09-* |
+| O-94 Custom Pitch principle | Operational overlay, не template | audio_697 C13 anchor |
+
+### §4.2 R12 audit summary (3 NEW frames)
+
+| Frame | R12 status | Operational use |
+|---|---|---|
+| **O-75 Pre-existing Partnership** | ✅ PASS — frame inherently requires offer + ask paired | APPROVED all audiences |
+| **O-86 Project-of-Humanity** | ⚠️ REQUIRES per-template offer/ask added; ⚠️ O-62 boundary check mandatory | APPROVED humanitarian (Дмитрий primary) с conditions |
+| **O-83 Cheat-code** | ⚠️ CONDITIONAL APPROVAL — STRICT discipline mandatory + KA-07 ethical-surface review BLOCKING pre-template-use | Engineer / hacker audience с 5 mitigations enforced |
+
+### §4.3 R12 audit summary (Platform v2 T-01…T-20)
+
+Sampled & verified PASS: T-08 / T-09 / T-11 / T-12 (offer+ask paired explicit).
+Flagged: **T-10 Family Office** — ask scope (6-12mo + board) большой для cold first touch; recommend 2-step (intro first, ask post-conversation).
+Pending review: T-13 / T-14 / T-15 / T-16 / T-17 / T-18 / T-19 / T-20 — Ruslan + brigadier per-template post-ack; likely PASS by pattern consistency but explicit verification required для T-15 AI Major + T-17 Government + T-19 Foundation (high-stakes).
+
+### §4.4 Per-audience template assignment matrix
+
+| Audience type | Primary frame | Secondary frames | R12 discipline level |
+|---|---|---|---|
+| Humanitarian (Дмитрий) | O-86 | O-75 + O-94 | Standard paired offer+ask |
+| Engineer (Karpathy / open-source) | O-83 careful + K-6 anchor | O-75 + O-94 | **STRICT** paired-frame + K-6 substrate ready gate |
+| Methodology (Левенчук) | O-75 + K-6 anchor | O-94 custom | Standard paired offer+ask |
+| Institutional VC / Anthropic | O-86 + Platform v2 T-09/T-15 institutional | O-75 | Standard paired offer+ask |
+| L2 RU community | O-75 | Platform v2 T-03/T-12/T-20 | Standard + light cadence |
+| Family Office (Cat 8) | T-10 + O-86 | O-75 | **STRICT 2-step** (intro first; ask post-conversation) |
+
+### §4.5 Pre-send checklist (8 items)
+
+Перед каждым outreach send Ruslan / brigadier MUST verify:
+
+1. ☐ Offer line explicit + concrete + verifiable substrate-backed?
+2. ☐ Ask line explicit + proportional + minimal first-touch?
+3. ☐ Reversibility implicit OR explicit?
+4. ☐ Pre-existing partnership frame O-75 OR audience-specific frame match?
+5. ☐ SKIP-list items not surfaced (O-62 / O-66 / O-67 / O-68)?
+6. ☐ AP-6 dissent: aggressive recruiting tone softened appropriately в template form?
+7. ☐ Pressure tactics absent (no false scarcity)?
+8. ☐ K-2 PITCH-BLOCKING patterns addressed (AGI redef honest)?
+
+**If any ☐ = REVISE before send.**
+
+### §4.6 KA-07 blocker note
+
+KA-07 R12 ethical-surface review of O-83 cheat-code positioning = **BLOCKING pre-Левенчук+Дмитрий-pitch-template-use**. Per batch-7 Key Actions list. Audit substrate ready (this doc §2.3); Ruslan ack required to release blocker.
+
+---
+
+(§5-§12 continue in subsequent phases — append-only.)
