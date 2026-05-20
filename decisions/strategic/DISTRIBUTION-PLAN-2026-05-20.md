@@ -575,4 +575,120 @@ Full literature distill + Jetix adaptation: `03-metrics-frameworks-research.md`.
 
 ---
 
-(§10-§12 continue in Phase 9-10 — append-only.)
+## §10 Cross-link к substrate
+
+### §10.1 Sprint 16-19.05 substrate (READ-ONLY)
+
+- `decisions/strategic/JETIX-AS-HACKATHON-PLATFORM-2026-05-18.md`
+- `decisions/strategic/JETIX-RECURSIVE-SELF-DEVELOPMENT-ENGINE-2026-05-18.md`
+- `decisions/strategic/JETIX-SYSTEM-MERGER-PROTOCOL-FPF-2026-05-18.md`
+- `decisions/strategic/JETIX-OUTREACH-SYSTEM-SCALABLE-2026-05-18.md`
+- `decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md`
+- `reports/jetix-platform-v2-2026-05-19/` (10 phase docs + Summary; especially §02 / §09 / §08)
+- `research/{agi-reception-market,info-substrate-philosophy,method-systems-thinking}-deep-2026-05-19/`
+- `research/levenchuk-corpus-inventory-v2-2026-05-19-evening/`
+- `reports/sprint-synthesis-v2-2026-05-19-evening/04-master-packaging-step6-roadmap.md`
+
+### §10.2 Wikis (9 Tier A + 3 Tier B)
+
+- `wiki/concepts/pre-existing-partnership-positioning.md` (O-75 ⭐ canonical)
+- `wiki/concepts/project-of-humanity-positioning.md` (O-86 humanitarian)
+- `wiki/ideas/cheat-code-positioning.md` (O-83 Tier B preserved; STRICT R12 use only)
+- `wiki/concepts/method-systems-thinking.md`
+- `wiki/concepts/jetix-as-exokortex.md`
+- `wiki/concepts/sense-of-measure-scientific-approach.md`
+- `wiki/concepts/fpf-as-info-transfer-vocabulary.md`
+- `wiki/concepts/mastery-formula.md`
+- `wiki/claims/persistence-beats-talent.md`
+
+### §10.3 Batch-7 substrate
+
+- `reports/voice-pipeline-2026-05-20-batch-7/06-key-actions-list.md` (16 Key Actions; KA-01 / KA-02 / KA-03 / KA-07 referenced)
+- `reports/voice-pipeline-2026-05-20-batch-7/_FULL-DIGEST-batch-7-2026-05-20.md`
+- `reports/voice-pipeline-2026-05-20-batch-7/_RESEARCH-CANDIDATES-POOL-2026-05-20.md`
+
+### §10.4 Outreach drafts (existing)
+
+- `outreach/karpathy-outreach-pack-2026-05-19.md`
+- `outreach/engineer-cohort-outreach-script-2026-05-19.md`
+- `outreach/levenchuk-response-base-2026-05-17.md`
+- `outreach/tseren-response-base-2026-05-17.md`
+
+### §10.5 KA-03 CRM linkage
+
+- `prompts/ka-03-crm-first-pass-100-2026-05-20.md` (SAVED; launch separately)
+
+### §10.6 Foundation references
+
+- CLAUDE.md §4.1 Tier 2 Constitutional (R12 rule 12 LOCKED 2026-05-12)
+- `swarm/awaiting-approval/r12-anti-extraction-2026-05-12.md` (R12 Charter ack)
+- Platform v2 §07 values + foundation partner framing
+- Part 6b §I.2 Default-Deny enforcement (constitutional_never_list)
+- Part 4 §H hub-and-spoke discipline
+
+---
+
+## §11 Next steps (post-ack)
+
+### §11.1 Immediate (Week 1 post-ack)
+
+1. **Ruslan ack DISTRIBUTION-PLAN-2026-05-20.md** OR request revisions per F-G-R audit
+2. **KA-07 R12 ethical-surface review of O-83** (BLOCKING pre-template-use) — Ruslan ack OR brigadier draft + Ruslan ack
+3. **Phase 1 Дмитрий outreach launch** (manual CRM entry + Telegram DM + O-86 + O-94 custom pitch + paired-frame check)
+4. **KA-01 Левенчук pitch video drafting** (Ruslan strategic prose 2-3h + brigadier substrate compile 1h)
+5. **(Parallel)** KA-03 CRM compile prompt launch (~6h brigadier autonomous; <€2; ~100 entries)
+6. **(Parallel)** C.1 one-pager L2-variant drafting begins (3 days)
+
+### §11.2 Short-term (Week 2-3)
+
+7. Phase 2 Левенчук pitch launch (post-KA-01 video ready)
+8. C.1 L1+L3 variants + C.2 L2-variant drafting
+9. Daily cadence ramp (5-12 touches/day Week 2; 8-15 Week 3)
+
+### §11.3 Mid-term (Week 4+)
+
+10. Phase 3 Tier-1 cluster outreach (Karpathy + Buterin + Anthropic) — requires C.1+C.2 ready
+11. C.3 technical brief + C.4 vision narrative drafting
+12. Phase 4 L2 daily cadence steady-state (15-20 touches/day; per Phase 6 §6.4)
+
+### §11.4 Q3 2026+
+
+13. Workshop founding cohort recruitment (5-15 Wave 1)
+14. First Hackathon launch (Platform v2 §04 5-Tier progression)
+15. C.6 case study drafting (post-traction)
+16. Phase 5 mass cohort cascade execution (target EOY 2026 KEYSTONE 1M / $1B / 100M)
+
+### §11.5 Metrics tracking start
+
+17. CRM dashboard weekly review begins Friday Week 1
+18. `/crm-weekly` skill output reviewed every Friday
+19. Monthly cohort analysis begins End of Month 1
+20. Quarterly cascade health check Q3 2026
+
+---
+
+## §12 4 mermaid diagrams
+
+See `reports/distribution-plan-research-2026-05-20/diagrams/`:
+
+- **Diagram 1** — `01-audience-channel-matrix.md` (4 audience tiers × 6 channels с per-cell tactics + Phase 1 highest-leverage cells)
+- **Diagram 2** — `02-sequence-дмитрий-левенчук-cascade.md` (sequenceDiagram; 5-phase cascade Phase 0 → Phase 5 KEYSTONE)
+- **Diagram 3** — `03-outreach-funnel.md` (8-stage funnel + per-stage conversion benchmarks + pipeline velocity formula)
+- **Diagram 4** — `04-cadence-calendar.md` (gantt Mon-Sun; touch distribution per-tier; Pillar C compliance check)
+
+---
+
+## §13 Closure
+
+**Status:** DRAFT-AWAITING-RUSLAN-ACK.
+
+**Per IP-1 + Pillar C Tier 2 rule 1 (AI does NOT make strategic decisions):**
+- This document = brigadier-scribe substrate draft + research synthesis
+- Strategic prose finalization = Ruslan
+- Outreach execution = separate Ruslan ack required (НЕ auto-launch)
+
+**Distribution Plan ready for review.**
+
+---
+
+*DISTRIBUTION-PLAN closure 2026-05-20 — Server CC autonomous Step 4 execution. ~120-150 min runtime budget; per-phase commit + push cadence preserved. Constitutional posture R1/R2/R6/R11/R12 paired-frame/IP-1/EP-5/AP-6/SKIP-list integrity verified.*
