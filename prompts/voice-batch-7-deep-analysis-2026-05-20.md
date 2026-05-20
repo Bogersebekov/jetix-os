@@ -1,11 +1,15 @@
 ---
-title: Voice Batch-7 Deep Analysis — 5 audio (1 gap-fill 19.05 + 4 new 20.05) + Key Actions extraction embedded
+title: Voice Batch-7 Deep Analysis — 9 audio (4 gap-fill 18-19.05 + 1 gap-fill 19.05 morning + 4 fresh 20.05) + Key Actions extraction embedded
 date: 2026-05-20
 type: autonomous-execution-prompt
 phase_count: 7
 parent_explain: prompts/explanations/_EXPLAIN-voice-batch-7-deep-analysis-2026-05-20.md
 parent_plan: daily-logs/_PLAN-OF-DAY-2026-05-20.md
 inputs:
+  - raw/voice-memos-2026-05-19-batch/audio_680@18-05-2026_02-42-57.ogg
+  - raw/voice-memos-2026-05-19-batch/audio_681@18-05-2026_06-04-03.ogg
+  - raw/voice-memos-2026-05-19-batch/audio_688@19-05-2026_01-43-13.ogg
+  - raw/voice-memos-2026-05-19-batch/audio_692@19-05-2026_04-49-13.ogg
   - raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.ogg
   - raw/voice-memos-2026-05-20-batch/audio_697@20-05-2026_11-18-43.ogg
   - raw/voice-memos-2026-05-20-batch/audio_698@20-05-2026_11-34-20.ogg
@@ -16,8 +20,8 @@ F: F2
 G: voice-batch-7-deep-analysis
 R: refuted_if_audio_misattributed_OR_key_actions_count_lt_10_OR_LOCK_content_modified
 constitutional_posture: R1 + R2-read-only-LOCK + R6 + R11 + R12 + IP-1 STRICT + EP-5 + FPF-lens-FIRST + append-only + AP-6
-estimated_runtime: 75-105 min autonomous
-estimated_cost: <€3.5
+estimated_runtime: 90-130 min autonomous
+estimated_cost: <€4.5
 language: russian primary + verbatim Ruslan voice preservation
 ---
 
@@ -43,19 +47,23 @@ language: russian primary + verbatim Ruslan voice preservation
 
 ---
 
-## §1 5 audio inputs
+## §1 9 audio inputs
 
 | File | Date | Time (Berlin) | Duration ~ | Size | Batch-7 status |
 |---|---|---|---|---|---|
-| `raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.ogg` | 19.05 | 05:35 | ~5.5 min | 1.06 MB | gap-fill (missed batch-5/6) |
+| `raw/voice-memos-2026-05-19-batch/audio_680@18-05-2026_02-42-57.ogg` | 18.05 | 02:42 | ~2 min | 379 KB | gap-fill (pre-batch-4) |
+| `raw/voice-memos-2026-05-19-batch/audio_681@18-05-2026_06-04-03.ogg` | 18.05 | 06:04 | ~14 min ⭐ | 3.00 MB | gap-fill (pre-batch-4) |
+| `raw/voice-memos-2026-05-19-batch/audio_688@19-05-2026_01-43-13.ogg` | 19.05 | 01:43 | ~9 min | 1.90 MB | gap-fill (between batch-4 audio_687 and batch-5 audio_689) |
+| `raw/voice-memos-2026-05-19-batch/audio_692@19-05-2026_04-49-13.ogg` | 19.05 | 04:49 | ~4 min | 859 KB | gap-fill (between batch-5 audio_691 and audio_693) |
+| `raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.ogg` | 19.05 | 05:35 | ~5.5 min | 1.06 MB | gap-fill (between audio_692 and batch-6 audio_694) |
 | `raw/voice-memos-2026-05-20-batch/audio_697@20-05-2026_11-18-43.ogg` | 20.05 | 11:18 | ~14 min ⭐ | 2.89 MB | NEW |
 | `raw/voice-memos-2026-05-20-batch/audio_698@20-05-2026_11-34-20.ogg` | 20.05 | 11:34 | ~4 min | 850 KB | NEW |
 | `raw/voice-memos-2026-05-20-batch/audio_699@20-05-2026_12-25-19.ogg` | 20.05 | 12:25 | ~2 min | 511 KB | NEW |
 | `raw/voice-memos-2026-05-20-batch/audio_700@20-05-2026_12-41-50.ogg` | 20.05 | 12:41 | ~2 min | 459 KB | NEW |
 
-**Total: 5 audio ≈ 27.5 min / 4.8 MB**
+**Total: 9 audio ≈ 56 min / 11.9 MB**
 
-Cross-ref existing batch-6 (PRESERVED untouched): audio_694/695/696 already processed → 3 Tier A wikis (fpf-as-info-transfer-vocabulary / mastery-formula / persistence-beats-talent). НЕ re-process; cross-cite только.
+Cross-ref existing batch-4/5/6 (PRESERVED untouched): audio_682-687 (batch-4) / 689-691 (batch-5) / 694-696 (batch-6) already processed. НЕ re-process; cross-cite только. 3 Tier A wikis уже promoted в batch-6 (fpf-as-info-transfer-vocabulary / mastery-formula / persistence-beats-talent).
 
 ---
 
@@ -72,27 +80,27 @@ Commit: `[voice-pipeline][batch-7] Phase 0 FPF lens scope`
 
 ---
 
-## §3 Phase 1 — Transcribe 5 audio (5-10 min)
+## §3 Phase 1 — Transcribe 9 audio (10-15 min)
 
 **Tool:** `tools/transcribe.py` (Groq Whisper).
 
-**Output:** `raw/voice-transcripts/audio_<NNN>@<date>_<time>.txt` per audio (5 files).
+**Output:** `raw/voice-transcripts/audio_<NNN>@<date>_<time>.txt` per audio (9 files).
 
 ### Steps
-1. Run `PYTHONIOENCODING=utf-8 python3 tools/transcribe.py raw/voice-memos-2026-05-19-batch/audio_693*.ogg` OR batch mode (адаптировать per existing script)
-2. Same для 4 audio в `raw/voice-memos-2026-05-20-batch/`
+1. Run `PYTHONIOENCODING=utf-8 python3 tools/transcribe.py raw/voice-memos-2026-05-19-batch/audio_680*.ogg` (+681, 688, 692, 693)
+2. Same для 4 audio в `raw/voice-memos-2026-05-20-batch/` (697-700)
 3. Verify transcripts non-empty, language=ru
 
-Commit: `[voice-pipeline][batch-7] Phase 1 transcribe 5 audio files`
+Commit: `[voice-pipeline][batch-7] Phase 1 transcribe 9 audio files`
 
 ---
 
 ## §4 Phase 2 — Verbatim + 5-cell + FPF lens per audio (15-20 min)
 
 **Output:**
-- `raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.md` (verbatim + structured)
+- `raw/voice-memos-2026-05-19-batch/audio_680/681/688/692/693@...md` (5 verbatim + structured)
 - `raw/voice-memos-2026-05-20-batch/audio_697..700@...md` (4 files)
-- `reports/voice-pipeline-2026-05-20-batch-7/01-per-note-breakdown.md` (combined 25 cell analyses = 5 audio × 5 cells)
+- `reports/voice-pipeline-2026-05-20-batch-7/01-per-note-breakdown.md` (combined 45 cell analyses = 9 audio × 5 cells)
 - `reports/voice-pipeline-2026-05-20-batch-7/02-fpf-lens-jetix-track.md`
 
 ### Per-audio MD structure (analogous batch-6)
@@ -151,14 +159,14 @@ Commit: `[voice-pipeline][batch-7] Phase 2 verbatim + 5-cell + FPF lens`
 
 ### Per-lens output
 
-Per audio × per lens = 5 × 10 = **50 datapoints**.
+Per audio × per lens = 9 × 10 = **90 datapoints**.
 
 Format per cell:
 ```markdown
 **audio_NNN × L<n>:** [overlap / extension / NEW idea / contradiction / GAP filling] — [brief 1-2 sentence finding] [src: audio_NNN claim N]
 ```
 
-Commit: `[voice-pipeline][batch-7] Phase 3 10-lens cross-analysis (50 datapoints)`
+Commit: `[voice-pipeline][batch-7] Phase 3 10-lens cross-analysis (90 datapoints)`
 
 ---
 

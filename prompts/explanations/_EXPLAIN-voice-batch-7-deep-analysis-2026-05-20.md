@@ -24,14 +24,18 @@ G: voice-batch-7-explain
 - audio_689-691 + text_010-014 (batch-5, 19.05 morning-afternoon) — AGI redefinition + Method-Systems-Thinking + 6 K-research substrate
 - audio_694-696 (batch-6, 19.05 evening) — FPF-vocabulary anchor + Mastery formula + Persistence>Talent (3 Tier A wikis created)
 
-**Vendored этим Cloud Cowork run:**
-- `raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.ogg` (5.5min — gap-fill 19.05; between batch-5 04:17 и batch-6 10:20)
-- `raw/voice-memos-2026-05-20-batch/audio_697@20-05-2026_11-18-43.ogg` (14min) ⭐ LARGEST
+**Vendored этим Cloud Cowork run (9 audio = 5 gap-fill 18-19.05 + 4 fresh 20.05):**
+- `raw/voice-memos-2026-05-19-batch/audio_680@18-05-2026_02-42-57.ogg` (2min — gap-fill pre-batch-4)
+- `raw/voice-memos-2026-05-19-batch/audio_681@18-05-2026_06-04-03.ogg` (14min ⭐ — gap-fill pre-batch-4)
+- `raw/voice-memos-2026-05-19-batch/audio_688@19-05-2026_01-43-13.ogg` (9min — gap-fill between batch-4 audio_687 + batch-5 audio_689)
+- `raw/voice-memos-2026-05-19-batch/audio_692@19-05-2026_04-49-13.ogg` (4min — gap-fill between batch-5 audio_691 + audio_693)
+- `raw/voice-memos-2026-05-19-batch/audio_693@19-05-2026_05-35-29.ogg` (5.5min — gap-fill before batch-6 audio_694)
+- `raw/voice-memos-2026-05-20-batch/audio_697@20-05-2026_11-18-43.ogg` (14min) ⭐
 - `raw/voice-memos-2026-05-20-batch/audio_698@20-05-2026_11-34-20.ogg` (4min)
 - `raw/voice-memos-2026-05-20-batch/audio_699@20-05-2026_12-25-19.ogg` (2min)
 - `raw/voice-memos-2026-05-20-batch/audio_700@20-05-2026_12-41-50.ogg` (2min)
 
-**Total NEW:** 5 audio ≈ 27.5 min / 4.8 MB.
+**Total NEW:** 9 audio ≈ 56 min / 11.9 MB.
 
 **Sprint 16-19.05 substrate cross-link (READ-ONLY):**
 - Foundation v1.0 / Pillar C / 8 Octagon LOCK / shared/schemas / VISION-FUNDAMENTAL
@@ -71,15 +75,15 @@ Server CC автономно: (a) **transcribe** 5 audio через Groq Whisper
 
 | # | Phase | Time | Commit |
 |---|---|---|---|
-| 1 | Transcribe 5 audio via Groq Whisper | 5-10m | `[voice-pipeline][batch-7] Phase 1 transcribe 5 audio files` |
-| 2 | Verbatim + 5-cell + FPF lens per audio | 15-20m | `[voice-pipeline][batch-7] Phase 2 verbatim + 5-cell + FPF lens` |
-| 3 | 10-lens cross-analysis (full sprint substrate) | 15-20m | `[voice-pipeline][batch-7] Phase 3 10-lens cross-analysis` |
+| 1 | Transcribe 9 audio via Groq Whisper | 10-15m | `[voice-pipeline][batch-7] Phase 1 transcribe 9 audio files` |
+| 2 | Verbatim + 5-cell + FPF lens per audio | 20-30m | `[voice-pipeline][batch-7] Phase 2 verbatim + 5-cell + FPF lens` |
+| 3 | 10-lens cross-analysis (full sprint substrate) | 20-25m | `[voice-pipeline][batch-7] Phase 3 10-lens cross-analysis (90 datapoints)` |
 | 4 | 3 candidate buckets (wiki + Phase 1 plan + DR) | 10-15m | `[voice-pipeline][batch-7] Phase 4 3 candidate buckets + NEW DR` |
-| 5 ⭐ | **Key Actions extraction** ≥10 (per PLAN Step 2) — actionable items с per-action metadata | 10-15m | `[voice-pipeline][batch-7] Phase 5 ⭐ key actions ≥10 extracted` |
+| 5 ⭐ | **Key Actions extraction** ≥10 (per PLAN Step 2) — actionable items с per-action metadata | 15-20m | `[voice-pipeline][batch-7] Phase 5 ⭐ key actions ≥10 extracted` |
 | 6 | §APPEND inventory + REFLECTION-INBOX + Tier A wiki auto-promote + Daily Log §APPEND | 10-15m | `[voice-pipeline][batch-7] Phase 6 §APPEND inventory/inbox + wiki Tier A + daily log` |
 | 7 | Summary for Ruslan + final push | 10m | `[voice-pipeline][batch-7] Phase 7 Summary + final push` |
 
-**Total: ~75-105 min server CC autonomous; <€3.5 (vision N/A; audio transcription + analysis).**
+**Total: ~95-130 min server CC autonomous; <€4.5 (vision N/A; audio transcription + analysis).**
 
 ---
 
