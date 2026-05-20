@@ -367,4 +367,60 @@ Current CRM state (pre-KA-03):
 
 ---
 
-(§6-§12 continue in subsequent phases — append-only.)
+## §6 Daily cadence schedule
+
+Full sample week walkthrough: `05-cadence-schedule-sample-week.md`. Summary here.
+
+### §6.1 Cadence rule
+
+- **10-20 touches/day baseline** (per audio_686 + Pillar C max 20 attention budget)
+- Distribution: 60-80% L2 / 15-25% L1 / 5-15% Tier-1
+- Weekend lighter: 3-5 touches Friday; 0-3 Saturday-Sunday (тишина / family / reflection)
+
+### §6.2 Per-touch time budget
+
+| Tier | Time per touch | Daily volume example (12-touch median) | Time consumed |
+|---|---|---|---|
+| Tier-1 partner | 20-30 min | 2 touches | 50 min |
+| L1 engineer | 10-15 min | 3 touches | 36 min |
+| L2 amplifier | 5-8 min | 7 touches | 42 min |
+| Overhead (triage / CRM / reflection) | — | — | 60 min |
+| **Daily outreach budget** | | | **~3 hours** |
+
+Remainder of day = substrate work / Workshop / strategic prose / research / Foundation.
+
+### §6.3 Sample week
+
+| Day | Tier-1 | L1 | L2 | Total |
+|---|---|---|---|---|
+| Monday | 1-2 | 3-5 | 8-12 | 12-19 |
+| Tuesday | 0-1 | 2-4 | 10-15 | 12-20 |
+| Wednesday | 1-2 | 2-3 | 10-15 | 13-20 |
+| Thursday | 0-1 | 3-5 | 8-12 | 11-18 |
+| Friday | 0 | 1-2 | 4-8 | 5-10 (+ reflection ritual) |
+| Saturday | 0 | 0 | 0-3 | 0-3 |
+| Sunday | 0 | 0 | 0-3 | 0-3 |
+| **Week** | | | | **53-93 touches** (sweet spot ~65-75) |
+
+### §6.4 Cadence ramp-up Week 1-4
+
+- Week 1: 2-8 touches/day (Phase 1 — Дмитрий primary; build habit)
+- Week 2: 8-15 touches/day (Phase 2 — Левенчук + L1 batch ramping)
+- Week 3: 12-18 touches/day (Phase 3 — Tier-1 cluster + L2 stable)
+- Week 4+: 15-20 touches/day steady-state
+
+### §6.5 Pillar C max 20 attention budget compliance
+
+- Outreach active contacts (contacted / warm / discovery_call) ≤10 (50% of budget)
+- Remainder = research / drafting / Workshop / Foundation / partner conversations
+- Weekly review during Friday reflection; overflow → halt new initiations
+
+### §6.6 Anti-burnout discipline (5 signals)
+
+Monitor weekly: touches/day declining <10 / response rate stagnant / quality slipping / energy declining / skip days ≥2/week.
+
+If 2+ signals present: halt new initiations → reduce cadence к 5-8/day → 1-2 recovery weeks → resume steady-state.
+
+---
+
+(§7-§12 continue in subsequent phases — append-only.)
