@@ -1,0 +1,80 @@
+# FPF F-G-R triple reference (Layer 5 — Phase 3)
+# Source: raw/external/ailev-FPF/FPF-Spec.md B.3
+# Mandatory frontmatter triple для каждой гипотезы
+
+source: "FPF Spec Part B.3 — F-G-R primitives"
+
+# ---------- F — Formality grade ----------
+fpf_F:
+  F2:
+    name: "Surface observation"
+    description: "Pattern noticed; single observation; pre-conceptual"
+    when_to_use: "Newly surfaced hypothesis; raw signal; just noticed"
+  F3:
+    name: "Conceptual claim with reasoning"
+    description: "Concept with explicit reasoning chain; not yet empirically supported"
+    when_to_use: "Theoretical hypothesis; logical inference; argument-based"
+  F4:
+    name: "Empirically supported"
+    description: "Some empirical evidence supports; not yet replicated"
+    when_to_use: "First successful test; preliminary corroboration"
+  F5:
+    name: "LOCKED foundation primitive"
+    description: "Replicated; cross-context; foundation-level"
+    when_to_use: "Confirmed hypothesis ready для promotion к canonical wiki / foundation"
+  F6:
+    name: "Inter-Foundation consistent"
+    description: "Compatible across multiple foundations; deeply integrated"
+    when_to_use: "Hypothesis confirmed and integrates with Part 5/7/11 substrate"
+  F8:
+    name: "Constitutional / Default-Deny canonical"
+    description: "Highest formality; constitutional invariant"
+    when_to_use: "Reserved для Pillar C Tier-2 grade constitutional claims"
+
+# ---------- G — Group scope ----------
+fpf_G:
+  description: |
+    Scope of the claim — for whom / where it applies.
+    Free-form string; common values listed below as guidance.
+  common_values:
+    - jetix-foundation        # applies к Jetix Foundation Parts 1-11
+    - jetix-platform-v2       # Platform v2 substrate
+    - outreach-pipeline       # outreach-specific
+    - personal-dev            # Ruslan personal development
+    - intellect-stack         # Левенчук Intellect-stack
+    - founding-circle         # Founding circle org form
+    - clan-substrate          # Clan substrate (Network State pattern)
+    - ai-substrate            # AI agent infrastructure
+    - method-systems-thinking # meta-method scope
+    - fpf-extension           # FPF spec extension scope
+
+# ---------- R — Reliability ----------
+fpf_R:
+  low:
+    description: "Speculative / single observation / could easily be wrong"
+    typical_status: "active OR testing (initial test)"
+  medium:
+    description: "Multi-observation / corroborated / could still be wrong but evidence mounting"
+    typical_status: "testing (mid-test) OR confirmed (single-context)"
+  high:
+    description: "Empirically verified / replicated / cross-context corroborated"
+    typical_status: "confirmed (high-R) ready для promotion"
+
+# ---------- TYPICAL TRIPLES PER LIFECYCLE STAGE ----------
+typical_triples:
+  newly_surfaced:
+    fpf_F: F2
+    fpf_R: low
+    note: "Default для /hypothesis-add"
+  conceptual_with_reasoning:
+    fpf_F: F3
+    fpf_R: low
+    note: "Pre-test theoretical hypothesis"
+  preliminary_confirmed:
+    fpf_F: F4
+    fpf_R: medium
+    note: "After first successful test"
+  foundation_promotion_candidate:
+    fpf_F: F5
+    fpf_R: high
+    note: "Ready для wiki promotion / foundation update"

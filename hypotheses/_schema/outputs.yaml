@@ -1,0 +1,39 @@
+# Hypothesis output / deliverable taxonomy
+# Used post-closure для classifying what came из hypothesis testing
+
+output_types:
+  decision:
+    description: "Strategic decision recorded"
+    typical_artefact_path: "decisions/<slug>-YYYY-MM-DD.md"
+    examples: ["funnel structure decision", "outreach channel prioritization"]
+
+  artifact:
+    description: "Document / code / data created"
+    typical_artefact_path: "wiki/concepts/, reports/, tools/, prompts/"
+    examples: ["new wiki concept doc", "Python tool script", "Excel template"]
+
+  learning:
+    description: "Compound learning extracted (Foundation Part 5)"
+    typical_artefact_path: "swarm/learnings/<topic>.md OR wiki/concepts/<topic>.md §APPEND"
+    examples: ["1-line invariant", "method refinement", "anti-pattern identified"]
+
+  pivot:
+    description: "Direction change в upstream work / strategy"
+    typical_artefact_path: "decisions/PIVOT-<slug>-YYYY-MM-DD.md"
+    examples: ["abandoned approach X", "switched from Y to Z platform"]
+
+  validation:
+    description: "Existing direction confirmed empirically (no pivot)"
+    typical_artefact_path: "wiki/<concept>.md §APPEND with validation note"
+    examples: ["pricing hypothesis held", "method scales к 100+ users"]
+
+  null_result:
+    description: "Inconclusive / not enough signal — pause или re-design test"
+    typical_artefact_path: "_log.md entry; hypothesis status=paused"
+    examples: ["test sample too small", "confounders dominated"]
+
+# Per FPF B.3: outcome reliability R-level scales from low (single test) → medium (multi-replicate) → high (corroborated cross-context)
+reliability_calibration:
+  low:    "Single test / observation supports"
+  medium: "Multi-observation / replicated / corroborated"
+  high:   "Cross-context validated / quasi-canonical"

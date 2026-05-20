@@ -1,0 +1,53 @@
+# Resource framework reference
+# Cross-ref: reports/jetix-platform-v2-2026-05-19/ §3 (Platform v2 32-resource framework)
+# Per hypothesis frontmatter: resources_needed: [{resource: R<n>-name, estimate: <amount>}]
+
+source: "Jetix Platform v2 §3 32-resource framework"
+
+# ---------- 32 RESOURCE TYPES (abbreviated reference) ----------
+# Full reference: reports/jetix-platform-v2-2026-05-19/ §3
+# Below = 7 most commonly used; full set extends similar pattern.
+
+resource_types:
+  R1-money:
+    description: "Financial capital (EUR; cost in €)"
+    unit: "€"
+  R2-time:
+    description: "Person-hours (Ruslan + agents)"
+    unit: "hours"
+  R3-attention:
+    description: "Cognitive load slot (Pillar C §4.2 max 20 active task budget)"
+    unit: "slots (1 hypothesis ≈ 1 slot)"
+  R4-trust:
+    description: "Reputation / relationship trust capital"
+    unit: "qualitative (low/medium/high)"
+  R5-knowledge:
+    description: "Domain expertise / Jetix substrate familiarity required"
+    unit: "qualitative + domain tag"
+  R6-method:
+    description: "Process / how-to / methodology required"
+    unit: "list of methods needed"
+  R7-network:
+    description: "Network connections / introductions required"
+    unit: "count of intros needed"
+  R8-tooling:
+    description: "Software / infra / API access"
+    unit: "list of tools"
+
+# ---------- USAGE PATTERN ----------
+# Example hypothesis resources_needed:
+# resources_needed:
+#   - resource: R2-time
+#     estimate: "8h"
+#   - resource: R5-knowledge
+#     estimate: "FPF B.3 + Левенчук Гл. 4"
+#   - resource: R8-tooling
+#     estimate: "openpyxl, Python 3"
+
+# ---------- ATTENTION BUDGET DISCIPLINE ----------
+# Per Pillar C §4.2 RUSLAN-LAYER: manager attention budget max 20 active tasks
+# Hypotheses в status=active OR testing count against this budget
+# /hypothesis-dash surfaces when count > 20
+
+attention_budget_cap: 20
+attention_budget_doc: "swarm/wiki/foundations/principles/architecture.md §4.2"

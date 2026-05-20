@@ -1,0 +1,28 @@
+# Hypothesis categories — 8 primary
+# Cross-ref: hypothesis.schema.yaml enums.category
+
+categories:
+  outreach:
+    description: "Outreach pipeline / pitches / cascade / cold→warm conversion"
+    examples: ["frame X better than Y", "channel Z higher reply", "L2-to-L1 cascade timing"]
+  engineering:
+    description: "Technical / Jetix infrastructure / tooling / agents / pipelines"
+    examples: ["voice pipeline Whisper-better-than-X", "Foundation Part 8 SLI scaling", "agent prompt format Y"]
+  method:
+    description: "Methodology / method-systems-thinking / meta-method / cycle templates"
+    examples: ["meta-method applicable cross-domain", "hypothesis cycle vs OODA", "alpha-machinery state-transition pace"]
+  pitch:
+    description: "Pitch deck / one-pager / promotion docs / story arc"
+    examples: ["3-tier story arc converts L2", "founder story page-1 vs page-3", "metric X resonates"]
+  business:
+    description: "Monetization / org form / partnership economics / pricing"
+    examples: ["3-tier funnel 3-6mo optimal", "Mondragón ratio cap viable", "QF revenue distribution"]
+  personal-dev:
+    description: "Mastery / persistence / daily anchor / habits / energy / focus"
+    examples: ["morning meditation predicts focus quality", "imagination as intellect component", "energy correlates with sleep stage X"]
+  partnership:
+    description: "Specific partner / relationship / collaboration / mentor"
+    examples: ["Левенчук cross-pollination FPF↔СМ", "Balaji NS substrate map readiness", "investor-handle resonates"]
+  fpf-extension:
+    description: "FPF spec extensions / methodology cross-pollination / новые primitives"
+    examples: ["AGI section 6 strategic region", "R12 programmable Ethereum binding", "alpha-machinery FPF integration GAP"]

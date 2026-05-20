@@ -1,0 +1,33 @@
+# Hypothesis ownership types
+# Cross-ref: hypothesis.schema.yaml required_fields.owner
+
+ownership_types:
+  ruslan:
+    description: "Direct Ruslan ownership (R1 strategist)"
+    authority: "Full — author content, decide closure"
+  brigadier:
+    description: "brigadier-scribe autonomous scaffolding (Cloud Cowork)"
+    authority: "Structure only — content prose authored by ruslan or hybrid-with-ack"
+  agent-<id>:
+    description: "Specific ROY agent (e.g., agent-mgmt-expert / agent-systems-expert)"
+    authority: "Draft / surface; promotion via brigadier or Ruslan ack"
+    examples:
+      - agent-mgmt-expert
+      - agent-systems-expert
+      - agent-philosophy-expert
+      - agent-engineering-expert
+      - agent-investor-expert
+  partner-<handle>:
+    description: "External partner / contributor"
+    authority: "Co-author; Ruslan ack required for status transitions"
+    examples:
+      - partner-levenchuk
+      - partner-balaji
+      - partner-karpathy
+
+# Default: ruslan
+default_owner: ruslan
+
+# Hub-and-spoke discipline (per Pillar C §4.2 RUSLAN-LAYER):
+# - Agent hypotheses route through brigadier for status transitions involving Foundation-level claims
+# - Partner hypotheses require Ruslan ack для confirmed/refuted transitions

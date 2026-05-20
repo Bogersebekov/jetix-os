@@ -1,0 +1,56 @@
+# 5 регионов стратегирования
+# Cross-ref: Левенчук Методология 2025 Гл. 6
+# Per hypothesis frontmatter: strategic_region: <region>
+# Default region: catallactic (most common для Jetix outreach/business hypotheses)
+
+source: "Левенчук Методология 2025 Гл. 6 — 5 регионов стратегирования"
+
+strategic_regions:
+
+  robinson:
+    name_ru: "Робинзон Крузо"
+    name_en: "Robinson Crusoe"
+    description: |
+      Изолированный агент; нет других стейкхолдеров; решение
+      зависит только от собственных ресурсов и предпочтений.
+    when_applies: "Solo personal-dev hypothesis, internal method calibration, daily habit experiments"
+    example: "H-XXX: «утренняя медитация улучшает focus в течение дня»"
+
+  catallactic:
+    name_ru: "Каталлактика"
+    name_en: "Catallactics (Mises)"
+    description: |
+      Mises экономический обмен; добровольное взаимодействие mutual-benefit;
+      не zero-sum; стейкхолдеры обмениваются ценностью.
+    when_applies: "Outreach hypothesis, partnership, customer/client interactions, pricing"
+    example: "H-002 partnership-frame; пример работы каталлактической логики в outreach pipeline"
+
+  war:
+    name_ru: "Война"
+    name_en: "War (adversarial)"
+    description: |
+      Adversarial; zero-sum или near-zero-sum; противник имеет
+      противоположные цели; success одного = loss другого.
+    when_applies: "Competitive positioning, defensive moves, anti-pattern avoidance"
+    example: "H-XXX: «competitor X движется на market Y → нам нужна defensive позиция Z»"
+
+  game-theory:
+    name_ru: "Теория игр"
+    name_en: "Game theory (mixed motives)"
+    description: |
+      Strategic interactions с mixed motives — частично cooperative,
+      частично competitive; повторяющиеся игры, equilibrium analysis.
+    when_applies: "Partnership negotiation, equity splits, multi-party coordination"
+    example: "H-XXX: «N-party founding circle stable при ratio cap M:1»"
+
+  unknown:
+    name_ru: "Неизвестное"
+    name_en: "Unknown / genuine novelty"
+    description: |
+      Genuine novelty / exploration; правила игры пока неизвестны;
+      epistemic exploration больше чем strategic optimization.
+    when_applies: "Deep research, FPF extension, novel methodological cross-pollination"
+    example: "H-XXX: «alpha-machinery integration в FPF unlocks new state-tracking primitive»"
+
+# ---------- DEFAULT ----------
+default_region: catallactic

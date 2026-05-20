@@ -1,0 +1,82 @@
+# OMG Essence 2.0:2024 alphas — 7 essential progress dimensions
+# Cross-ref: Левенчук Методология 2025 Гл. 4 (MG4 ⭐⭐⭐)
+# Adapted к Jetix substrate (software-system → Jetix artefacts/content/agents)
+# Per hypothesis frontmatter: alphas: [{alpha: <name>, state: <state>}, ...]
+
+source: "OMG Essence 2.0:2024 + Левенчук Методология 2025 Гл. 4"
+adaptation_note: "software-system alpha обобщён для Jetix substrate: agents / wikis / pipelines / content artefacts"
+
+alphas:
+
+  stakeholder:
+    purpose: "Entities affected by / interested в outcome (people, orgs, agents)"
+    state_graph:
+      - recognized           # known to existence
+      - represented          # есть named representative
+      - involved             # actively participates
+      - in_agreement         # agreed on direction
+      - satisfied_for_deployment   # acceptance criteria met for release
+      - satisfied_in_use     # validated в production / live use
+
+  opportunity:
+    purpose: "Reason for endeavor / problem space / why this matters"
+    state_graph:
+      - identified
+      - solution_needed
+      - value_established
+      - viable
+      - addressed
+      - benefit_accrued
+
+  requirements:
+    purpose: "What outcome must achieve"
+    state_graph:
+      - conceived
+      - bounded
+      - coherent
+      - acceptable
+      - addressed
+      - fulfilled
+
+  software-system:
+    purpose: "Software / artifact / Jetix substrate piece being created"
+    adapted_for_jetix: "Includes wiki concepts, agents, pipelines, decks, docs"
+    state_graph:
+      - architecture_selected
+      - demonstrable
+      - usable
+      - ready
+      - operational
+      - retired
+
+  work:
+    purpose: "Activity being undertaken (cycle / sprint / phase)"
+    state_graph:
+      - initiated
+      - prepared
+      - started
+      - under_control
+      - concluded
+      - closed
+
+  team:
+    purpose: "Group performing работу"
+    state_graph:
+      - seeded
+      - formed
+      - collaborating
+      - performing
+      - adjourned
+
+  way-of-working:
+    purpose: "Practices / methods / tools used"
+    state_graph:
+      - principles_established
+      - foundation_established
+      - in_use
+      - in_place
+      - working_well
+      - retired
+
+# State-graph diagram files: hypotheses/alphas/state-graphs/<alpha>-state-graph.md (mermaid)
+# Skill: /hypothesis-alpha-state H-NNN --alpha <name> --state <state> → appends к alphas/state-graphs/<H-NNN>-alpha-trail.md

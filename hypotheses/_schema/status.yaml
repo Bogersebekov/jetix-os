@@ -1,0 +1,44 @@
+# Hypothesis status lifecycle
+# Cross-ref: hypothesis.schema.yaml enums.status
+
+statuses:
+  active:    "Гипотеза surfaced; test не initiated"
+  testing:   "Test in progress; результаты emerging"
+  confirmed: "Test confirmed гипотезу within scope"
+  refuted:   "Test refuted гипотезу within scope"
+  paused:    "Testing paused; revisit trigger conditions documented"
+
+# Allowed transitions (state machine)
+transitions:
+  active_to_testing:
+    from: active
+    to: testing
+    trigger: "Test method initiated"
+  testing_to_confirmed:
+    from: testing
+    to: confirmed
+    trigger: "Success criteria met"
+    requires: [outcome, learning_extracted]
+  testing_to_refuted:
+    from: testing
+    to: refuted
+    trigger: "Refutation criteria met"
+    requires: [outcome, learning_extracted]
+  testing_to_paused:
+    from: testing
+    to: paused
+    trigger: "Resource / dependency block"
+    requires: [outcome]   # at least: short note WHY paused
+  paused_to_active:
+    from: paused
+    to: active
+    trigger: "Trigger condition met; resume"
+  active_to_paused:
+    from: active
+    to: paused
+    trigger: "Pre-test backlog deprioritization"
+
+# File-system move discipline:
+# When status changes → file moves from hypotheses/<from>/ to hypotheses/<to>/
+# Append _log.md entry per move (timestamp + H-NNN + transition + reason)
+filesystem_move: true
