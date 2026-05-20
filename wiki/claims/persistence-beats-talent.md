@@ -82,3 +82,18 @@ Surface'нуто в audio_696 Ruslan voice dictation 19.05 17:05 как pedagogi
 ## Notes
 
 Tier A auto-promotion 2026-05-19 evening per Ruslan ack (batch-6 prompt §10 acceptance criteria). Pedagogical motivational anchor for Education Layer — counters elitist talent-filtering frame; supports accessible-to-persistence positioning. Future deep research candidate DR-3 Mastery Formula Calibration (Bucket C P2) will strengthen literature corroboration.
+
+---
+
+## §APPEND-2026-05-20-batch-8 — Daily anchor reinforcement (audio_706)
+
+Per Ruslan ack 2026-05-20 evening.
+
+**Daily anchor «я тигр»** (audio_706) = explicit Ruslan practice для self-priming persistence:
+- Каждое утро ритуал-фразa перенастраивает internal state
+- **Mechanism:** persistence не пассивно accumulates — она требует sustained signal через daily renewal
+- **Anti-burnout corollary:** small-cohort sufficiency principle (audio_706) — persistence-без-burnout требует scale guardrail; «небольшое количество с налаженной работой» = достаточно
+
+**Cross-link к mastery-formula** §APPEND batch-8: daily anchor = multiplier для accumulation (quantity factor).
+
+[src: audio_706 (batch-8 2026-05-20 18:13); wiki/concepts/mastery-formula.md §APPEND-2026-05-20-batch-8]

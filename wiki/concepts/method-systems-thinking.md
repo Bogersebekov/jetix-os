@@ -121,3 +121,26 @@ Possible Strategic Insight H-candidate via sibling `jetix-as-exokortex.md`.
 ---
 
 *Promoted 2026-05-19 per Ruslan ack «инсайты тоже куда-то зафиксировать». R1 surface (voice anchors) + R6 + R12 preserved + IP-1 STRICT + append-only.*
+
+---
+
+## §APPEND-2026-05-20-batch-8 — Meta-method + hypothesis cycle (KA-17)
+
+Per Ruslan ack 2026-05-20 evening.
+
+### Meta-method (audio_703 + audio_704)
+
+Independent re-articulation Левенчук Методология 2025 Гл. 4 «метод как объект 1-го класса». Ruslan voice surfaces:
+- Метод = первичный artefact работы (не результат, а способ)
+- Метод имеет состояние (graph of states по OMG Essence)
+- **Success formula:** структура_метода → execution → measurement → revision → next iteration
+- **Hypothesis cycle:** каждая итерация = тест гипотезы; результат → revise method OR proceed
+- **Конкретный artefact request (KA-20):** hypothesis-tables в Jetix substrate — substrate для tracking method-state evolution
+
+### Cross-link к Jetix substrate
+- Direct twin: Foundation Part 4 §H IP-1 (Role≠Executor) + Foundation Part 5 (compound learning)
+- Левенчук Методология 2025 Гл. 4 (MG4 ⭐⭐⭐) — primary literature anchor
+- Recursive Engine concept doc — execution substrate
+- KA-20 strategic decision: hypothesis-tables architecture (5 options surfaced batch-8 Phase 4)
+
+[src: audio_703 + audio_704 (batch-8 2026-05-20 16:53-18:03); Левенчук Методология 2025 Гл. 4 lines 2758-4276; research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §2.1]

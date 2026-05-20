@@ -121,3 +121,55 @@ Frame будет integrated через §APPEND voice substrate в:
 ---
 
 *Frame preserved Tier A per Ruslan ack 2026-05-20. Strict boundary discipline frame ≠ O-62 Fund operational form. Will integrate в outreach venues organically через KA-01/02 + KA-09 §APPEND batch.*
+
+---
+
+## §APPEND-2026-05-20-batch-8 — Education funnel + curriculum hierarchy (KA-19)
+
+Per Ruslan ack 2026-05-20 evening.
+
+### Education-as-distribution funnel (audio_701 + audio_705)
+
+Ruslan voice operationalizes Project-of-Humanity frame через **3-tier education funnel** = primary user-acquisition mechanism:
+
+**Tier 1 — Open materials (broadest)**:
+- Учебник (книга / online text) — free entry; humanity-project frame intro
+- Claude Code on-server / open KB — взаимодействие с AI agent методом
+- Цель: создать первое касание + voluntary opt-in
+
+**Tier 2 — Certification path (3-6 месяцев)**:
+- Структурированная программа obучения method-system-thinking
+- Hypothesis-cycle practice (см. method-systems-thinking §APPEND batch-8)
+- Mastery formula application (см. mastery-formula §APPEND batch-8)
+- Цель: produce certified contributors
+
+**Tier 3 — Real projects (long-term)**:
+- Certified contributors join active Jetix projects
+- Apply method к concrete humanity-project sub-projects
+- Compound learning loop (Foundation Part 5)
+
+### Curriculum hierarchy
+
+- Foundation: systems thinking (Левенчук СМ 2024 + K-6 method)
+- Middle: meta-method / hypothesis cycle (Методология 2025 Гл. 4 / Recursive Engine concept doc)
+- Spec: specific applications (engineering / business / personal development)
+
+### R12 paired-frame discipline (mandatory)
+
+Каждый tier предлагает **explicit offer + ask** (R12 anti-extraction):
+- **Tier 1 offer:** free учебник + Claude Code access
+- **Tier 1 ask:** voluntary engagement (читать / попробовать)
+- **Tier 2 offer:** certification + community
+- **Tier 2 ask:** committed practice + feedback
+- **Tier 3 offer:** real project contribution + payment / equity
+- **Tier 3 ask:** sustained contribution
+
+«Всем по бизнесу» framing (audio_701) — paired-frame защищает от extraction: каждый ученик ВЫБИРАЕТ tier по своему интересу, не coerced.
+
+### Cross-link
+- Education Layer concept doc (`decisions/strategic/JETIX-EDUCATION-LAYER-SYSTEM-THINKING-2026-05-18.md`) — operational venue
+- Distribution Plan §3 sequence (Дмитрий → Левенчук → cascade) — outreach feed → funnel
+- Левенчук Инженерия личности Гл. 1+10 (ISG1 ⭐⭐⭐) — direct prototype с 6 учительских ролей
+- audio_697 C13 «custom pitch per audience» (O-94) — per-tier custom framing
+
+[src: audio_701 (15:58 3-tier funnel) + audio_705 (18:08 curriculum hierarchy); research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §2.5; reports/voice-pipeline-2026-05-20-batch-8/01-per-note-breakdown.md audio_701/705]

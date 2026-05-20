@@ -99,3 +99,24 @@ Connects к Aristotelian phronesis (practical wisdom), Polanyi tacit knowledge, 
 ## Notes
 
 Tier A auto-promotion 2026-05-19 evening per Ruslan ack (batch-6 prompt §10 acceptance criteria). Future deep research candidate DR-3 «Mastery Formula Calibration» (Bucket C P2) will calibrate F-grade F3 → F4-F5 candidate before Education Layer F5 LOCK.
+
+---
+
+## §APPEND-2026-05-20-batch-8 — Initial input + daily anchor + optimism layer (KA-18)
+
+Per Ruslan ack 2026-05-20 evening.
+
+### Initial input expanded (audio_702 + audio_706)
+
+Mastery formula = quantity × quality × depth × method. Batch-8 surfaces **initial input** как 5-й (или underlying) factor:
+- **Imagination как primary intellect component** (audio_702) — без воображения accumulation информации не превращается в mastery; это substrate для всех 4 факторов
+- **Daily anchor practice** (audio_706 «я тигр») — ритуал self-priming, перенастраивает internal state в начале дня → multiplier для всего accumulation
+- **Optimism layer** (audio_706) — explicit Ruslan claim: optimism как сustained signal через daily anchor → small-cohort sufficiency = anti-burnout guardrail
+
+### Cross-link
+- `wiki/claims/persistence-beats-talent.md` — sibling: persistence accumulates; mastery formula = mechanism
+- Левенчук Инженерия личности Гл. 1+8 (ISG1 ⭐⭐⭐) — LXP «интеллект студента как выносная часть» = direct prototype
+- K-4 Intellect 12-Component Audit — imagination as missing component (DR-19 research candidate)
+- Future deep research: DR-19 (imagination as intellect component) + DR-24 (daily anchor scientific basis)
+
+[src: audio_702 (16:35 imagination) + audio_706 (18:13 daily anchor «я тигр»); research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §2.5+§2.6]
