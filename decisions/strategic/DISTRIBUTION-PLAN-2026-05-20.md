@@ -116,4 +116,64 @@ Per `reports/sprint-synthesis-v2-2026-05-19-evening/04-master-packaging-step6-ro
 
 ---
 
-(§2-§12 continue in subsequent phases — append-only.)
+## §2 Audience × Channel matrix
+
+### §2.1 Audience taxonomy (4 tiers)
+
+| Tier | Description | Examples | Sizing Phase 1 |
+|---|---|---|---|
+| **Tier-1 named partners** | Specific high-leverage individuals — direct relationship desired | Karpathy + Buterin + Anthropic principals (Dario / Jared) + Левенчук + Цэрэн + Дмитрий (humanitarian) + Hinton-adjacent + Sutskever-adjacent | ~6-10 named (Platform v2 §02 Tier-1 + voice anchors) |
+| **L1 engineers** | ML/AI researchers + senior engineers + Workshop founding cohort 5-15 candidates | Karpathy lineage / open-source maintainers / ML researchers / Aisystant-adjacent engineers | 30-50 cold candidates → 5-15 Wave 1 cohort |
+| **L2 amplifiers** | RU systems-thinking community + Karpathy YouTube viewers + open-source maintainers + MIM residents + EA-adjacent | RU L2 Telegram channels / Aisystant cohort / Karpathy lineage YouTubers / academic systems-thinking community | ~300-500 reachable pool; daily 10-15 touches/day target |
+| **L3 institutional** | Anthropic principals + MIM + academic dept heads + VCs + foundation leaders | Anthropic principals / MIM admin / VC partners (a16z / Sequoia / European) / Berlin Senate / foundations | ~30-50 named; quarterly touch cadence |
+
+### §2.2 6-channel compatibility matrix
+
+| | Tier-1 | L1 engineer | L2 amplifier | L3 institutional |
+|---|---|---|---|---|
+| **Cold email** | warm intro REQUIRED preferred; if cold → ≤120w + C.1 attached | direct cold OK (≤120w + tech-specific hook) | direct cold OK (≤80w + content hook) | formal letter (≤200w + C.2 deck) |
+| **Twitter** | tag в substantive threads; passive engagement first | tag + DM possible | broadcast threads + tactical replies | broadcast formal |
+| **Telegram DM** | direct ⭐ (если RU-speaker) | direct OK | broadcast в RU community channels | rare — не natural channel |
+| **YouTube video** | pitch link для async high-leverage | pitch link для async | broadcast channel | broadcast formal |
+| **Podcast guest** | invite Ruslan as guest | not applicable | not applicable | invite Ruslan as guest (Anthropic / MIM podcasts) |
+| **IRL event** | key 15-min meet pre-arranged | hackathon / meetup connection | meetup / conference broadcast | conference formal |
+
+**Symbols:** ⭐ = optimal primary channel; warm intro = preferred prerequisite
+
+### §2.3 Per-cell tactics priority (Phase 1 launch focus)
+
+**Highest-leverage cells (Phase 1 prioritization):**
+
+1. **Telegram DM → Tier-1 RU (Левенчук / Цэрэн / Дмитрий)** — 80%+ open rate + personal channel + warm framing pre-existing
+2. **Cold email → Tier-1 EN (Karpathy / Buterin / Anthropic)** + C.1 attachment — requires C.1 ready
+3. **Twitter outbound tactical → Tier-1 EN (Karpathy threads)** — passive familiarity build before cold email
+4. **Telegram DM → L2 RU amplifiers daily batch** — main cadence engine (10-15/day)
+5. **YouTube video — KA-01 Левенчук pitch** — async high-leverage; shared в DM/email
+6. **IRL event → defer Q3 2026** (post Workshop founding cohort established)
+
+**Lower-priority cells (Phase 2-3+):**
+
+- Podcast guest-spot pitches → Week 4+ (после C.1+C.2 ready)
+- L3 institutional formal letters → Week 4+ (после vision narrative L3 C.4 drafted)
+- Broadcast Twitter мегапосты → continuous но не Phase 1 priority
+
+### §2.4 Per-channel R12 paired-frame enforcement
+
+Per `02-channel-tactics-research.md` §8 — universal rule:
+
+- **EVERY template** MUST include explicit offer line + explicit ask line
+- Cold email: offer (substrate / artifact / intro) + ask (15-min call OR specific feedback)
+- Twitter: content provides standalone value + invite engagement (not bait-and-switch)
+- Telegram: offer concrete + ask proportional (20-min OK; «pick your brain» NO)
+- Podcast: audience-value-first (specific story / data) + ask (30-min recording)
+- IRL: pre-event proportional ask (15-min coffee) + verifiable overlap
+
+**Templates missing explicit offer-ask pair → Phase 4 audit flags «requires revision before use».**
+
+### §2.5 Cross-reference к channel-tactics research
+
+Full literature distill: `reports/distribution-plan-research-2026-05-20/02-channel-tactics-research.md` (~1500w; 12 sources cited).
+
+---
+
+(§3-§12 continue in subsequent phases — append-only.)
