@@ -52,16 +52,16 @@ prose_authored_by: brigadier-scribe
 
 ## §2 Deliverables map
 
-| # | File | Purpose |
-|---|---|---|
-| 00 | `00-MASTER-INDEX.md` | This file — orchestration |
-| 0s | `00-SUMMARY-FOR-RUSLAN.md` | ≤1500w summary (Phase 7) |
-| p0 | `phase-0-fpf-lens-scope.md` | FPF lens scope declaration (Phase 0) |
-| 01 | `01-per-note-breakdown.md` | 45 cell analyses (5 cells × 9 notes) |
-| 02 | `02-fpf-lens-jetix-track.md` | FPF lens × Phase 0 + new O-73+ candidates |
-| 03 | `03-10-lenses-cross-analysis.md` | 10-lens × 9-note matrix (90 datapoints) |
-| 05 | `05-candidates-3-buckets.md` | Wiki / Phase 1 plan / NEW deep research candidates |
-| **06** | **`06-key-actions-list.md` ⭐** | **≥10 actions × metadata (PLAN-OF-DAY Step 2)** |
+| # | File | Purpose | Status |
+|---|---|---|---|
+| 00 | `00-MASTER-INDEX.md` | This file — orchestration | ✅ done |
+| 0s | `00-SUMMARY-FOR-RUSLAN.md` | ≤1500w summary (Phase 7) | ✅ done |
+| p0 | `phase-0-fpf-lens-scope.md` | FPF lens scope declaration (Phase 0) | ✅ done |
+| 01 | `01-per-note-breakdown.md` | 45 cell analyses (5 cells × 9 notes) | ✅ done |
+| 02 | `02-fpf-lens-jetix-track.md` | FPF lens × Phase 0 + new O-73+ candidates (24 candidates) | ✅ done |
+| 03 | `03-10-lenses-cross-analysis.md` | 10-lens × 9-note matrix (90 datapoints) | ✅ done |
+| 05 | `05-candidates-3-buckets.md` | Wiki / Phase 1 plan / NEW deep research candidates (9 NEW DR) | ✅ done |
+| **06** | **`06-key-actions-list.md` ⭐** | **16 actions × metadata (PLAN-OF-DAY Step 2)** | ✅ done |
 
 ---
 
