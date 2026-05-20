@@ -801,3 +801,36 @@ Primary content (FPF positioning anchor + mastery formula + intellect skills + F
 **Next sequenced run:** PLAN-OF-DAY Step 4 distribution plan + CRM expansion (KA-06 substrate compile from Phase 5 §4 step-4-input subset).
 
 [src: `reports/voice-pipeline-2026-05-20-batch-7/00-MASTER-INDEX.md` + Ruslan voice 2026-05-20 morning «ебашь плотненько»]
+
+---
+
+## §APPEND-2026-05-20-batch-7-decisions-resolved
+
+**Ruslan walkthrough resolutions 2026-05-20 (12 D7-* decisions):**
+
+| ID | Decision | Resolution | Action taken |
+|---|---|---|---|
+| **D7-1** | O-73 Ethereum §APPEND | ✅ CONFIRMED «эфир подтверждаю» | §APPEND preserved |
+| **D7-2** | O-74 Hackathons-clan-wars §APPEND | ✅ CONFIRMED «хакатон подтверждаю» | §APPEND preserved |
+| **D7-3** ⭐ | O-75 Pre-existing Partnership canonical template integration | ✅ CONFIRMED «везде использовать» | O-75 Tier A; integration P2 organic через KA-01/02 + KA-09 batch |
+| **D7-4** | O-83 Cheat-code R12 review | ✅ PIVOTED — save as wiki idea form «темплейт сохраним, не еби голову» | Created `wiki/ideas/cheat-code-positioning.md` (Tier B idea, R12 paired-frame discipline + AP-6 dissent). DR-13 → research pool (NOT launched) |
+| **D7-5** | O-86 Project-of-Humanity frame boundary check | ✅ CONFIRMED & PROMOTED Tier A «фиксируй везде использовать» | Created `wiki/concepts/project-of-humanity-positioning.md` (Tier A с strict boundary frame ≠ O-62 ops form). Integration P2 organic |
+| **D7-6** | 14 Tier B candidates ack queue | ✅ PIVOTED — fixate as pool document «отдельно — какие промпты надо, что на выходе, в один документ» | Created `reports/voice-pipeline-2026-05-20-batch-7/_TIER-B-CANDIDATES-POOL-2026-05-20.md` — 14 candidates POOLED не promoted |
+| **D7-7** | DR-13 + DR-14 schedule | ✅ PIVOTED — fixate as research pool «в отдельный документ, потом будем выбирать» | Created `reports/voice-pipeline-2026-05-20-batch-7/_RESEARCH-CANDIDATES-POOL-2026-05-20.md` — 10 research items POOLED не launched |
+| **D7-8** | Execution plan authorize | ⏸️ DEFERRED для deep discussion «прямо сейчас обсуждаем глубоко» | Awaiting walkthrough session после fixation batch |
+| **D7-9** | KA-09 §APPEND 6 existing wikis timing | ✅ CONFIRMED defer P2/P3 «снова-таки как на потом» | Execute Week 2-3 per Execution Plan |
+| **D7-10** | O-88 Anti-tiered universalism vs Platform v2 segmentation | ✅ PIVOTED — preserve future-direction option «сейчас не меняем, зафиксируем как один из вариантов» | AP-6 dissent в Tier B pool entry O-88; Platform v2 §6 segmentation NOT modified |
+| **D7-11** | R12 review timing meta | ✅ PIVOTED — add to research pool «отдельно в документ, потом выбирать» | Added к research pool as R-future-1 meta-research item. Не запущено |
+| **D7-12** | KA-03 CRM first-pass 100 authorize | ✅ CONFIRMED prompt save, defer launch «в промпт документ потом запустим» | Created `prompts/ka-03-crm-first-pass-100-2026-05-20.md` + EXPLAIN. SAVED не launched |
+
+**Pattern crystallised:**
+Surface'нутые researches/templates/candidates → **wiki + pool documents** для preservation; **НЕ auto-launch промпты** даже если P1; Ruslan cherry-picks для launch когда ready. Saved в memory `feedback_research_pool_pattern.md`.
+
+**Constitutional posture preserved:**
+- ✅ R1 / R2 / R6 / R11 / R12 / IP-1 / EP-5
+- ✅ AP-6 dissent preserved (O-88 + O-83 tone)
+- ✅ SKIP-list (O-62/O-66/O-67/O-68) untouched
+
+**Next:** Surface higher-level plan status (post-fixation). Pool documents ready для cherry-pick когда Ruslan launches specific items.
+
+[src: Ruslan voice 2026-05-20 walkthrough всех 12 D7-* decisions]
