@@ -767,3 +767,37 @@ Primary content (FPF positioning anchor + mastery formula + intellect skills + F
 **Next sequenced run:** Левенчук inventory v2 (commit 38b7ec7 already on main).
 
 [src: prompts/batch-6-fixation-execute-2026-05-19-evening.md + Ruslan voice 2026-05-19 evening]
+
+---
+
+## §APPEND-2026-05-20-batch-7 — voice-pipeline batch-7 surface
+
+**Run:** voice-pipeline-2026-05-20-batch-7 (9 audio: 5 gap-fill 18-19.05 + 4 fresh 20.05); Ruslan ack «ебашь плотненько, обрабатываем глубоко качественно».
+
+**Decisions surface (Ruslan ack pending):**
+
+| ID | Decision | Status | Ruslan-pending action |
+|---|---|---|---|
+| D7-1 | O-73 Ethereum substrate voice anchor §APPEND `jetix-on-ethereum.md` | **DONE auto** (acceptance criteria met; existing wiki §APPEND) | review §APPEND-2026-05-20-batch-7 section |
+| D7-2 | O-74 Hackathons-as-clan-wars voice §APPEND `clan-wars-hackathon-mode.md` | **DONE auto** (acceptance criteria met) | review §APPEND-2026-05-20-batch-7 section |
+| D7-3 ⭐ | O-75 Pre-existing Partnership Positioning NEW wiki created | **DONE auto** (verbatim × 2 paired + cross-batch) | ratify canonical template integration в Platform v2 §20 (per KA-01/KA-02 dependency) |
+| D7-4 | O-83 Cheat-code Positioning Tier A promotion | **DEMOTED Tier B ack-pending** per R12 ethical-surface review | review DR-13 output → decide promote / reframe / drop |
+| D7-5 | O-86 Project-of-Humanity frame Tier A promotion | **DEMOTED Tier B ack-pending** per O-62 boundary check | confirm frame-vs-ops-form distinction holds; OR collapse to O-62 SKIP |
+| D7-6 | 14 Tier B candidates (O-76, O-78-O-94, O-96 mix) | ack-pending | per-item decision queue (KA-16 P3 governance backlog) |
+| D7-7 | 9 NEW DR candidates DR-9..DR-17 surface | ack-pending | prioritize DR-13 P1 (blocks O-83) + DR-14 P1 (blocks KA-03 expansion); P2/P3 schedule |
+| D7-8 | 16 Key Actions extracted (8 P1 / 5 P2 / 3 P3); 11 step-4-input | acknowledge | distribution plan + CRM Step 4 execution authorization |
+| D7-9 | §APPEND 6 existing Tier A wikis с voice substrate corroborations (per KA-09 P2) | ack-pending — partial done | confirm full Phase 6 §APPEND queue execution (next batch or KA-09 P2 separately) |
+| D7-10 | O-88 anti-tiered universalism vs Platform v2 §6 segmentation contradiction | ack-pending | AP-6 dissent resolution: preserve both / collapse / re-design |
+
+**Constitutional posture preserved:**
+- R1 Ruslan = sole strategist (this section = brigadier-scribe surface only)
+- R2 Foundation read-only (only §APPEND voice substrate)
+- R6 provenance per claim
+- R11 Default-Deny preserved (3 auto-promote acceptance criteria met; R12/R11 conservative demotion x2)
+- R12 anti-extraction (paired-frame discipline in O-75 wiki; ethical-surface review queued for O-83)
+- IP-1 STRICT
+- SKIP-list (O-62/O-66/O-67/O-68) honored
+
+**Next sequenced run:** PLAN-OF-DAY Step 4 distribution plan + CRM expansion (KA-06 substrate compile from Phase 5 §4 step-4-input subset).
+
+[src: `reports/voice-pipeline-2026-05-20-batch-7/00-MASTER-INDEX.md` + Ruslan voice 2026-05-20 morning «ебашь плотненько»]

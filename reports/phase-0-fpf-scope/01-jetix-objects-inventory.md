@@ -1677,3 +1677,49 @@ Per `reports/voice-pipeline-2026-05-19-batch-6/05-candidates-3-buckets.md` §C.2
 - ⏸️ O-68 Multi-Modal Methods — FPF-Steward review gate (BL-3)
 
 **Next phase pointer:** Левенчук inventory v2 (prompt on main `38b7ec7`); then deep FPF research после Ruslan reviews Левенчук output.
+
+---
+
+### §26 — Batch-7 Phase 4 candidates 2026-05-20
+
+Voice batch-7 (9 audio: 5 gap-fill 18-19.05 + 4 fresh 20.05) surfaces **24 NEW candidate object_ids O-73..O-96**.
+
+**Tier A auto-promoted (3):**
+- **O-73** Ethereum-as-Jetix-blockchain-substrate (verbatim audio_680 anchor) → §APPEND `wiki/concepts/jetix-on-ethereum.md` (existing wiki; voice anchor add)
+- **O-74** Hackathons-as-clan-wars gamified-projects platform (verbatim audio_681 C4) → §APPEND `wiki/concepts/clan-wars-hackathon-mode.md` (existing wiki; voice corroboration add)
+- **O-75** ⭐ Pre-existing Partnership Positioning (verbatim audio_688 C3/C7 + audio_697 C8 paired) → NEW wiki `wiki/concepts/pre-existing-partnership-positioning.md`
+
+**Tier B ack-pending (14):**
+- O-76 2-Layer Reality Model (system-base + lens-overlay) [audio_692]
+- O-78 10K + 10K outreach first-pass target list [audio_697 C16]
+- O-79 Mental Simulation Method «what would X do?» [audio_698]
+- O-80 Energy as 3rd Primitive (info + method + energy) [audio_699 — NEW primitive]
+- O-81 Information Exchange = Primitive Layer; higher = overlay [audio_700]
+- O-82 «Промтинг человека = промтинг агента» method collapse [audio_697 C12]
+- O-83 ⭐ Cheat-code Positioning [audio_697 C11] — **R12 ethical-surface review pending (DR-13 blocker)**
+- O-86 Zoom-out Project-of-Humanity frame [audio_688 C1-C2] — **O-62 boundary check pending**
+- O-87 Bidirectional Resource Flow paired offer-ask [audio_688 C8/C11]
+- O-90 Jetix-as-method-embodiment positioning anchor [audio_693 C7]
+- O-92 Information clan recruitment frame [audio_697 C8] — paired с O-75
+- O-93 Open-source as anti-asymmetry posture [audio_697 C18-C20]
+- O-94 Custom pitch per audience [audio_697 C13]
+- O-96 Energy/Attention/Focus 3-tuple primitive [audio_699 + audio_700 paired]
+
+**Tier C / RUSLAN-LAYER (3):**
+- O-84 Snow-ball/racket-launch communication primitive [audio_681 C9] — preserve verbatim, не promote
+- O-85 Outsource-vs-platform-vs-hybrid design open Q [audio_681 C15] — strategic decision item; Ruslan-only
+- O-95 Personal-mastery self-positioning [audio_698 C2-C6] — RUSLAN-LAYER overlay, не Foundation
+
+**High-risk (constitutional review):**
+- O-88 Anti-tiered universalism [audio_688 C9] — design contradiction с Platform v2 §6 segmentation; AP-6 preserve both
+- O-89 Systems-list negotiation primitive (couple) [audio_692 C3] — potential Mondragón overlap
+
+**SKIP-list integrity check ✓:** O-62 / O-66 / O-67 / O-68 = NOT surfaced в batch-7 (clean).
+
+**NB:** O-86 frame distinct from O-62 ops form (frame ≠ operational form). Pre-promoted wiki §7 documents distinction.
+
+**9 NEW DR candidates surfaced:** DR-9 .. DR-17 — full в `reports/voice-pipeline-2026-05-20-batch-7/05-candidates-3-buckets.md §C.2`. P1 DRs: **DR-13** Cheat-code ethical-surface (blocks O-83); **DR-14** 10K target list methodology (blocks KA-03 expansion).
+
+**16 Key Actions extracted ⭐** (PLAN-OF-DAY Step 2 integration) — see `reports/voice-pipeline-2026-05-20-batch-7/06-key-actions-list.md`. 11 actions flagged `step-4-input` substrate для distribution plan + CRM expansion.
+
+[src: `reports/voice-pipeline-2026-05-20-batch-7/02-fpf-lens-jetix-track.md` §2 + voice batch-7 Phase 4 buckets + Phase 5 key actions]

@@ -1,10 +1,26 @@
 ---
 type: log
-updated: 2026-05-19
+updated: 2026-05-20
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-20] [voice-pipeline-batch-7] Tier A 1 NEW wiki + 2 §APPEND voice corroborations (acceptance criteria met) | entries: +1 / §APPEND ×2
+
+Tier A auto-promotion 1 NEW wiki + 2 §APPEND voice corroborations из voice-pipeline-2026-05-20-batch-7 (9 audio: 5 gap-fill 18-19.05 + 4 fresh 20.05 morning):
+
+- [[concepts/pre-existing-partnership-positioning]] (O-75) ⭐ — **NEW Tier A wiki** — verbatim Ruslan voice anchor × 2 paired (audio_688 C3/C7 + audio_697 C8); positioning frame: «мы уже партнёры — by virtue of shared meta-project развития человечества»; cross-batch corroboration к 5 acked concept docs F2 + K-3 + Platform v2 §20; R12 paired-frame discipline mandatory in template form; AP-6 anti-tiered universalism + aggressive recruiting tone preserved
+- [[concepts/jetix-on-ethereum]] §APPEND-2026-05-20-batch-7 — audio_680 verbatim voice anchor (O-73): «эфир гениально… Jetix работает с эфиром… не уровнем ниже» — direct Ethereum substrate confirmation; H8 LOCK 2026-05-18 + R12 programmable Ethereum cross-link
+- [[concepts/clan-wars-hackathon-mode]] §APPEND-2026-05-20-batch-7 — audio_681 verbatim voice anchor (O-74): «хакатоны = клановые войны»; pre-batch-4 substrate для 5 acked concept docs
+
+**24 batch-7 candidates surfaced (O-73..O-96).** Conservative posture: only 3 auto-promote (acceptance criteria strict); 14 Tier B ack-pending; 5 high-risk / Tier C surface; **R12 demotion x2** — O-83 Cheat-code Positioning (ethical-surface review pending DR-13) + O-86 Project-of-Humanity frame (O-62 boundary check pending).
+
+**SKIP-list integrity confirmed:** O-62 / O-66 / O-67 / O-68 NOT surfaced в batch-7 corpus.
+
+**16 Key Actions extracted ⭐** (8 P1 / 5 P2 / 3 P3); 11 actions flagged `step-4-input` substrate для PLAN-OF-DAY Step 4 distribution plan + CRM expansion. **9 NEW DR candidates** (DR-9..DR-17); P1 = DR-13 ethical-surface + DR-14 10K target list methodology.
+
+[src: `reports/voice-pipeline-2026-05-20-batch-7/02-fpf-lens-jetix-track.md` + `05-candidates-3-buckets.md` + `06-key-actions-list.md`]
 
 ## [2026-05-19] [batch-6-fixation-execute] Tier B 3 wikis O-65/O-70/O-71 + O-62 SKIP-note (Ruslan-acked «фиксируй, O-62 пропускаем») | entries: +3
 

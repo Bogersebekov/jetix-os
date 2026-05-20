@@ -152,3 +152,22 @@ Phase 3 (2028+):                 Multi-Clan DAO Federation + 100-holder threshol
 ---
 
 *Brigadier-promoted Tier A 2026-05-18 (per `prompts/text-005-007-blockchain-integration-2026-05-18.md` §1 «Wiki candidates Tier A/B/C») WITH explicit AWAITING-APPROVAL warning. F2 surface only; Phase 2+ implementation requires Ruslan ack on 2 packets. R1 surface + R2 LOCK extension via packets + R6 provenance + EP-5 disclosed. NOT a strategic decision.*
+
+---
+
+## §APPEND-2026-05-20-batch-7 — Verbatim Ruslan voice anchor
+
+Voice batch-7 audio_680 (18.05 02:42 ~2 min) — direct Ethereum substrate confirmation:
+
+> «И батон гений, и батон гений ну однозначно. И третье — это то что вот эту концепцию блокчейна, вот какой нахуй компания-as-code, окей. Но это все на базе блокчейна конечно надо делать… как раз вот эфир. Как раз вот эфир гениально. Как раз вот Jetix работает с эфиром. Конечно ну и не уровнем ниже. Еще раз так бы работали с биткоином — в душе не ебём кто это. Будем работать с биткоином тоже, ну так пока с Виталиком вот всё. Не делать на следующей неделе посмотрим какие результаты получим. Ну и завтра уже описать надо будет детально как именно вот Jetix на вот этот FPF и в целом всю децентрализацию и крипту короче вместе соединить.» [src: audio_680@18-05-2026_02-42-57.ogg claims C4-C7]
+
+**Cross-batch consolidation:**
+- audio_680 (18.05 02:42) — verbatim anchor (this append)
+- audio_681 C4 (18.05 06:04) — «company as code на базе блокчейна» extension
+- H8 LOCK 2026-05-18 — Ethereum substrate decision (canonical)
+- R12 programmable Ethereum ack 2026-05-18 — anti-extraction enforcement Option D Hybrid
+- audio_697 C20 (20.05 11:18) — open-source posture corroboration
+
+**Action item C7 captured:** «завтра описать детально как Jetix на FPF и децентрализацию + крипту соединить» → KA-14 (P3) NEW-doc-4 FPF + Decentralization + Crypto integration architecture (per `reports/voice-pipeline-2026-05-20-batch-7/06-key-actions-list.md`).
+
+[src: `reports/voice-pipeline-2026-05-20-batch-7/01-per-note-breakdown.md §1`]

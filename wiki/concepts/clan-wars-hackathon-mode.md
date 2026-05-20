@@ -63,3 +63,21 @@ R12 anti-extraction (Tier 2 rule 12 LOCKED 2026-05-12) applies к clan-wars reve
 - `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` (R12 enforcement)
 
 [src: text_009 Thread 11 verbatim + Charter §APPEND + Ethereum architecture acked]
+
+---
+
+## §APPEND-2026-05-20-batch-7 — Voice corroboration audio_681
+
+Voice batch-7 audio_681 (18.05 06:04 ~14 min) — explicit «клановые войны» framing для hackathon-mode:
+
+> «Хакатоны будут — это как раз вот эти клановые войны. Как раз вот те проекты которые ну welcome любое можно делать. Соответственно, вот так вот уже можно там для начала аудитории блогеров соединять, снова таки на проекты за которые платят спонсоры — раз. А второе ну которая возможно интересно этим блогерам да для начала самое быстрое. Ну и потом далее уже это развивать и так далее.» [src: audio_681@18-05-2026_06-04-03.ogg claim C4]
+
+Дополнительные элементы из audio_681:
+- C2: «Jetix как такая платформа для проведения качественных, глубоких, интересных марафонов» + 2-hour onboarding через FPF + менторы + tools
+- C8: self-fulfilling prophecy «люди благодарны платформе → улучшают самостоятельно» — multi-rhythm reinforcement
+- C9: snow-ball / ракета launch metaphor — clan-wars compounding mode
+- C19: «чтобы не я это делал — описать систему чтобы люди уже аутрич делали» — auto-amplification compatible с clan-wars rhythm
+
+**Cross-link к Hackathon Platform concept-doc** (`decisions/strategic/JETIX-HACKATHON-PLATFORM-2026-05-18.md`) — audio_681 batch-7 = pre-batch-4 verbatim foundation для всех 5 acked concept docs.
+
+[src: `reports/voice-pipeline-2026-05-20-batch-7/01-per-note-breakdown.md §2`]
