@@ -423,4 +423,39 @@ If 2+ signals present: halt new initiations → reduce cadence к 5-8/day → 1-
 
 ---
 
-(§7-§12 continue in subsequent phases — append-only.)
+## §7 Metrics framework
+
+Full literature distill + Jetix adaptation: `03-metrics-frameworks-research.md`. Summary here.
+
+### §7.1 5-layer metrics architecture
+
+| Layer | Cadence | Examples |
+|---|---|---|
+| **L1 Touch-level** | Daily | Daily touches volume / per-tier distribution / per-channel split / quality flag (R12 pre-send checklist 100%) |
+| **L2 Response** | Weekly | Cold response rate (target 5-15%) / warm intro response rate (30-50%) / per-channel response rate / time-to-first-response |
+| **L3 Conversion** | Weekly / monthly | Cold→warm % / warm→contacted % / contacted→discovery_call % / discovery→proposal % / proposal→closed_won (B2B 17-20%; Jetix target 25%+) + pipeline velocity formula |
+| **L4 Amplification** | Monthly / quarterly | Amplification factor (≥3 Q1; ≥10 Q3 2026) / public NPS proxy / cohort retention / cross-domain diversity / substrate publication output / external citation rate |
+| **L5 KEYSTONE cascade** | Quarterly | 1M users / $1B raised / 100M user-hours EOY 2026; 150→15→1M cascade trajectory |
+
+### §7.2 Measurement protocol (4-cadence stack)
+
+- **Daily** — `/crm-touch` log every touch; end-of-day reflection burnout signals
+- **Weekly** — `/crm-weekly` report; per-channel response rate; pipeline movement; pivot decisions (Friday reflection per Phase 6)
+- **Monthly** — Cohort analysis per audience × per template; amplification factor count; public NPS proxy
+- **Quarterly** — Cascade health check; cohort retention; external citation review; KEYSTONE trajectory adjustment
+
+### §7.3 Anti-vanity-metric discipline
+
+**Avoided:** total followers / total posts / broadcast reach без conversion signal.
+**Preferred:** response RATE / conversion percentages stage-by-stage / amplification factor (organic; hard to game) / cohort retention (long-tail truth).
+
+**R12 alignment:** metrics measure value delivered + relationships built; не extraction maximization.
+
+### §7.4 Tooling
+
+- Existing 10 CRM skills cover daily/weekly aggregation
+- Augmentation needed (future ops): per-channel response rate calculator / amplification factor tracker / pipeline velocity formula automation / KEYSTONE cascade tracker (manual maintenance for now)
+
+---
+
+(§8-§12 continue in subsequent phases — append-only.)
