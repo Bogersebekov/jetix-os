@@ -29,7 +29,9 @@ scope: lightweight planning; NOT full research execution
 2. **Memory:** `feedback_research_pool_pattern.md` + `feedback_constitutional.md` + `feedback_fpf_lens_first.md` + `feedback_prompt_explanation_required.md` + `feedback_breadth_not_selection.md` + `feedback_no_unsolicited_alternatives.md`
 3. **Substrate read** (~15 min before Phase 1):
    - ⭐ `daily-logs/_DAILY-LOG-2026-05-22.md` §APPEND-AI-market-electricity-analogy-dictation
-   - ⭐ `prompts/economic-model-tokenomics-2026-05-21.md` (extends this direction)
+   - ⭐ **`decisions/strategic/ECONOMIC-MODEL-TOKENOMICS-2026-05-21.md` + 3 sub-docs (V10 Hybrid recommended + triple-role partner + recursive partnership)** — DONE deliverable; cross-link Stage 2 token cooperation mechanics
+   - ⭐ `reports/economic-model-tokenomics-2026-05-21/_RECOMMENDATION-MEMO.md` (V10 Hybrid composition: ERC-1155 + ERC-5114 + Moloch RageQuit + Mondragón 5:1 + QF + ERC-20 + ERC-4337)
+   - `decisions/strategic/TRIPLE-ROLE-PARTNER-2026-05-21.md` — beyond-Mondragón innovation; **AI firms can join as triple-role institutional partners**
    - All EXPLAIN §3 substrate sources
 4. **CRITICAL constraint:** Этот Stage 1 = **planning only**. Не выполняй full deep research. Surface scope / structure / questions. Full research = Stage 2 separate prompt later.
 
@@ -120,20 +122,22 @@ Commit: `[ai-analogy-plan] Phase 1 decode thesis`
 15. Jetix value-add per analogy (electrical infrastructure analog)
 16. Jetix talent training thesis (electricians = AI-users professional)
 
-**Topic group E — Token cooperation mechanics:**
-17. Token-based AI firm cooperation variants (5-10 mechanisms)
-18. Acquisition through token mechanism (legal + financial + technical)
-19. Crisis rescue scenarios (when AI firms might want to join)
-20. Cooperative crisis-rescue case studies (Mondragón + parallels)
+**Topic group E — Token cooperation mechanics (BUILDING ON V10 Hybrid from Economic Model deliverable):**
+17. Token-based AI firm cooperation variants (5-10 mechanisms; ALL extending V10 Hybrid composition: ERC-1155 triple-role NFT + ERC-5114 soulbound governance + Moloch RageQuit + Mondragón 5:1 cap + Gitcoin QF + ERC-20 utility)
+18. **AI firm onboarding as triple-role institutional partner** — какие AI firms могут join как worker (compute contribution) + investor (treasury stake) + promoter (network growth) одновременно
+19. Acquisition through token mechanism (legal + financial + technical) — token-based buyout AI firm equity
+20. Crisis rescue scenarios (when AI firms might want to join) — AI capital crunch / regulatory pressure / talent retention
+21. Cooperative crisis-rescue case studies (Mondragón 68y precedent + Caja Laboral + DAO precedents)
+22. **Recursive 3-layer cooperation** — AI firm becomes L1 partner (25% to Jetix) + L2 governance + treasury stake
 
 **Topic group F — Economic effect:**
-21. Token economic flow modeling (token issuance / utility / governance)
-22. Favorable economic effects для Jetix + partners (calculation)
-23. Risk surface (regulatory / antitrust / sovereignty / R12)
+23. Token economic flow modeling (token issuance / utility / governance per V10 Hybrid)
+24. Favorable economic effects для Jetix + partners (calculation using 3-layer recursive 25% from Economic Model)
+25. Risk surface (regulatory / antitrust / sovereignty / R12 — 40 audit checkpoints framework reused)
 
 **Stretch topics:**
-24. Comparable layered platforms (Stripe-on-banking / Shopify-on-commerce / Vercel-on-cloud / etc.)
-25. AI safety + governance overlap с Jetix layered approach
+26. Comparable layered platforms (Stripe-on-banking / Shopify-on-commerce / Vercel-on-cloud / etc.)
+27. AI safety + governance overlap с Jetix layered approach
 
 Commit: `[ai-analogy-plan] Phase 2 scope proposal`
 
@@ -297,7 +301,7 @@ Commit: `[ai-analogy-plan] Phase 5 scope estimate`
 
 4. **Crisis-rescue framing** — pursue actively (positions Jetix as «rescuer» role) или conservatively (just surface possibility)? R12 + AP-6 implications differ.
 
-5. **Token integration depth** — link к Economic Model + Tokenomics deliverable (running concurrent prompt), или independent treatment? Cross-link strongest but adds coordination.
+5. **Token integration depth** — Economic Model + Tokenomics deliverable DONE (V10 Hybrid + triple-role + recursive 25%); cross-link strongest baseline. Stage 2 extends V10 → AI firm cooperation scope. Confirm cross-link approach: extend V10 для AI firms OR design new variant?
 
 6. **Geographic scope** — global AI market OR focus DACH / RU / US / specific region? Different regulatory frames.
 
