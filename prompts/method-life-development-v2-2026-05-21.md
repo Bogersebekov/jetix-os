@@ -327,7 +327,192 @@ Commit: `[method-v2] Phase 4 info consumption + experience`
 **§H Mermaid D9 — OODA loop integration (`stateDiagram-v2`)**
 **§I Mermaid D10 — Method selection decision tree (`graph TD`)**
 
-Commit: `[method-v2] Phase 5 method anatomy + timing`
+---
+
+### §J ⭐⭐ «Метод выбора методов» — meta-method level (NEW per Ruslan voice 21.05 evening)
+
+Ruslan voice verbatim: «это можно еще назвать как метод выбора методов ... перед тем как подумать какой мне метод надо еще раз надо подумать о какой мне метод надо ну то как-то в квадрате».
+
+Это **meta-meta уровень** метода — НЕ просто выбрать метод, а **выбрать метод выбора метода**. Recursion 1 уровень глубже Левенчук MG4 «метод как объект 1-го класса».
+
+**Reframing Jetix:** «Method выбора methods» = одна из самых точных переформулировок canonical one-liner (O-107) «метод по объединению методов по улучшению системы самой себя».
+
+**§J.1 Quadrate logic (метод в квадрате)**
+
+| Уровень | Что происходит | Пример |
+|---|---|---|
+| 0 (raw) | Просто действие | «Поел» |
+| 1 (method) | Метод применяется | «Применил метод приготовления борща» |
+| 2 (method choice) | Выбор метода | «Выбрал готовить борщ vs пасту» |
+| **3 (meta-method)** | **Метод выбора метода** | «Сначала собрал инфо о наличии продуктов / времени / голода → потом выбрал способ выбора (рандом / по любимости / по доступности) → потом выбрал готовить борщ» |
+
+Большинство людей оперируют на уровне 1-2. Jetix-method operates explicitly на уровне 3. **Этот meta-meta уровень = ключевое отличие.**
+
+**§J.2 Recursion logic (зачем quadrate)**
+
+- Если просто «выбрать метод» — выбор зависит от **дефолтных** habits / biases / heuristics
+- Если «выбрать метод выбора метода» — explicit awareness о критериях выбора
+- Это позволяет:
+  - **Заметить когда habit-based выбор не оптимален**
+  - **Адаптировать выбор-стратегию под ситуацию** (Cynefin domain)
+  - **Recursive improvement** — улучшая «как выбираю», улучшаю все будущие выборы (compound!)
+
+**§J.3 Procedural anatomy (Ruslan voice unpacking)**
+
+Ruslan voice: «нужно выбирать вот самый подходящий в нужный момент отталкиваясь вот от ситуации то есть набирая достаточное количество информации о системах которые окружают тебя в данный момент и которые могут повлиять на это решение соответственно собирать у них информацию ... достаточного собирать для действия вот целесообразно собирать информацию потом целесообразно ее обрабатывать ну потом еще ставить цель соответственно да чтобы целесообразно это все делать ну и потом вот выбирать лучший метод».
+
+Step-by-step meta-method:
+
+**Step 1: Identify systems that affect this decision**
+- Окружающие систем (people / contexts / tools / time / resources)
+- Какие из них могут повлиять на исход
+- Какие relevant прямо сейчас
+
+**Step 2: Целесообразно собирать информацию о них**
+- «Целесообразно» = в количестве **достаточном для действия**, не больше
+- Anti-patterns:
+  - Over-research → paralysis by analysis
+  - Under-research → blind decision
+- Градиент достаточности (см. §J.5)
+
+**Step 3: Целесообразно обрабатывать собранную информацию**
+- Что важно / что фоновое
+- Confidence calibration (FPF R-grade applicable)
+- Pattern matching с предыдущим опытом (Phase 4 accumulated experience)
+
+**Step 4: Ставить цель (целесообразно)**
+- Не «что мне хочется» а «что мне НАДО в данный момент для жизни»
+- Цель = выражение priority системы (Phase 3 self-development orientation)
+- Iterative refinement цели по мере того как ситуация развёртывается
+
+**Step 5: Выбрать ЛУЧШИЙ метод (the actual choice)**
+- На основе шагов 1-4
+- Не «первый что приходит в голову»
+- Опираясь на накопленную method library (Phase 5 §C)
+- Если в library нет подходящего → fallback strategies (improvise / consult / learn new)
+
+**Step 6: Apply + measure + adjust**
+- Execute selected method
+- Observe outcome
+- Update method library (compound learning — Phase 4)
+
+**§J.4 «Метод» против «решения сразу» (anti-pattern)**
+
+Ruslan voice: «не просто сразу думать о выборе какой мне метод надо ну то есть перед тем как подумать какой мне метод надо еще раз надо подумать о какой мне метод надо».
+
+**Default human pattern (impulsive):**
+- Возникает ситуация → fast System 1 → выбор метода (biased / habitual)
+- Часто sub-optimal
+
+**Jetix-method pattern (deliberative):**
+- Ситуация → pause (engage System 2) → собрать инфо → выбрать meta-strategy выбора → потом select method → execute
+- Slower но more reliable
+
+**Trade-off:**
+- Pure deliberative = paralysis
+- Pure impulsive = bias-driven mistakes
+- Optimal = **hybrid** — fast System 1 для routine; deliberative для high-stakes; **recognize which is which via meta-method**
+
+**§J.5 «Градиент достаточности» (gradient of sufficiency)**
+
+Ruslan voice: «не то что прям снова-таки на сто процентов нужную здесь как градиент соответственно если достаточно нужную подбираешь в правильном количестве».
+
+- НЕТ требования perfect information / perfect method
+- Есть требование **достаточной** information для конкретного действия в конкретный момент
+- Cross-cite Simon «bounded rationality» — «satisficing» vs «optimizing»
+- Cross-cite Kahneman «WYSIATI» — what you see is all there is (anti-pattern when applied wrong)
+
+**Calibration practice:**
+- «Хватит ли мне инфо для этого решения?»
+- «Что я ещё не знаю, что могло бы радикально изменить выбор?»
+- Если answer = «ничего критичного» → action
+- Если answer = «X / Y / Z неизвестны» → собрать ещё (within time budget)
+
+**§J.6 «Метод выбора метода» как Jetix's defining feature**
+
+Why это критично для Jetix's mission:
+- Большинство education / consulting offerings teach **методам** (level 1)
+- Некоторые teach **how to choose between methods** (level 2)
+- Jetix teaches **how to design your own meta-strategy для choosing methods** (level 3)
+- Это и есть «развитие самой себя» (Phase 3 orientation) operationalised
+- R12-conformant — non-extractive (вы развиваете СВОЙ meta-method, не подчиняетесь Jetix-method)
+
+**§J.7 Concrete examples**
+
+**Example 1: Утром Ruslan решает «писать one-pager или sleep»**
+
+Default (level 1-2): «Усталость / надо писать → выберу sleep / writing на autopilot»
+
+Meta-method (level 3):
+- Шаг 1: Какие системы affect это решение? (тело, energy reserves, дедлайны, family, motivation level)
+- Шаг 2: Сколько инфо нужно? Quick check — последние 12 ч sleep / последний meal / current deadline urgency. Достаточно — не нужно полное self-assessment.
+- Шаг 3: Process — energy moderate, дедлайн one-pager Week 1 (не urgent сегодня), пишу лучше с свежими мозгами утром
+- Шаг 4: Цель — finish one-pager этой неделей, но НЕ ценой burnout (R12 self-extraction anti-pattern)
+- Шаг 5: **Method selected:** sleep сейчас + write завтра утром fresh
+- Шаг 6: Outcome → check завтра реально ли свежее писание
+
+**Example 2: Стратегическое решение (Take rate — DR-26 ack)**
+
+Default (level 1-2): «20-25% звучит хорошо → ack 22.5%»
+
+Meta-method (level 3):
+- Шаг 1: Какие системы affect? (Mondragón precedent / cooperative DAOs / Maven / traditional markets / first-cohort partners / R12 constraints)
+- Шаг 2: DR-26 даёт substantial info — 4 scenarios + sensitivity matrix
+- Шаг 3: Process — recognize per-partnership variation > flat rate; range 10-25% even better
+- Шаг 4: Цель — sustainable Phase 1 launch + R12-conformant + scalable to first-cohort
+- Шаг 5: **Method selected:** range «10-25% per-partnership» — adapts к каждому отдельному партнёру (ack'нуто 21.05)
+- Шаг 6: Outcome → validate when first-cohort actually negotiates
+
+**Example 3: Daily method-selection ritual**
+
+- Утром: «Какой мой meta-method выбора today's methods?»
+- Опции:
+  - Energy-driven (выбираю что хочется по energy levels)
+  - Priority-driven (что наиболее important сейчас)
+  - Calendar-driven (что в graphic)
+  - Substrate-driven (что available — кто-то ждёт мой response / какой prompt loaded)
+- Sometimes mix — first 2h substrate-driven (server CC processing), потом priority-driven
+- **Awareness что meta-strategy = applied** = key win
+
+**§J.8 Variations / interpretations**
+
+- **«Метод выбора методов»** = preferred phrasing (Ruslan voice 21.05)
+- «Meta-method» = academic term
+- «Strategy of strategies» = Western business equivalent
+- «Method-engineering» = Schedrovitsky / ММК tradition
+- «Way-of-working» = OMG Essence alpha (cross-cite Hypothesis arch Layer 6)
+- «Phronesis» = Aristotelian practical wisdom (philosophical lineage)
+- «Recursive self-improvement» = AI safety literature (с caveat — здесь human-centric)
+
+**§J.9 How «logical» does it sound (Ruslan asked это)**
+
+Ruslan voice: «насколько это вообще ну не знаю логично может работать звучать».
+
+**Logical coherence assessment:**
+- ✅ Formally sound — recursion of choice is well-studied (Hofstadter strange loops Phase 12 wikipedia substrate)
+- ✅ Empirically grounded — deliberate practice literature (Ericsson) shows meta-level reflection accelerates skill acquisition
+- ✅ Operationally feasible — humans do this naturally (just usually unconscious); making explicit improves it
+- ⚠️ Caveat — too much meta = paralysis; balance с execution
+- ⚠️ Caveat — meta-method needs base methods to operate on; without library, meta-choice empty
+
+**Verdict:** sound concept. Operational discipline required to avoid pitfalls.
+
+**§J.10 Cross-link к other Jetix substrate**
+
+- **Hypothesis arch (Layer 6)** — alpha-machinery «way-of-working» alpha = meta-method tracking
+- **K-6 31-component method** — explicitly includes «active selection» component
+- **Левенчук Методология MG4** — метод как объект 1-го класса (level 2); MG-mention recursion = level 3 territory
+- **R12 anti-extraction** — meta-method = empowering recipient к выбирать (vs extractive «here's THE method»)
+- **3-tier funnel** — tier 1 учит method (level 1); tier 2 учит choosing (level 2); tier 3 учит meta-choosing (level 3)
+
+**§J.11 Mermaid diagrams Phase 5 §J — meta-method level**
+
+- D11-meta `graph TD` — Quadrate logic 4 уровня (0 raw → 1 method → 2 choice → 3 meta-choice)
+- D12-meta `sequenceDiagram` — Step-by-step procedural (Steps 1-6 with feedback loops)
+- D13-meta `xychart-beta` — Градиент достаточности curve (info amount × decision quality)
+- D14-meta `quadrantChart` — Default vs Meta-method × Routine vs High-stakes (когда what применять)
+
+Commit: `[method-v2] Phase 5 method anatomy + timing + ⭐⭐ метод выбора методов meta-meta`
 
 ---
 
@@ -1083,6 +1268,25 @@ DONE Phase 16 — 17 commits / N files / Main deliverable METHOD-LIFE-DEVELOPMEN
 ---
 
 ## §17 Operational rules
+
+### §17.0 ⭐⭐⭐ CRITICAL IMPORTANCE MANDATE (per Ruslan voice 21.05 evening)
+
+**ЭТОТ DELIVERABLE = САМОЕ ВАЖНОЕ.** Ruslan voice verbatim: «это вот самое важное, сука, этот документ и в целом разработка в его жизни». Method V2 = central artifact for Jetix's life-mission propagation.
+
+**MAX-density mandate — обязательно for brigadier + entire ROY swarm (engineering + investor + mgmt + philosophy + systems experts + 4 sub-brigadiers):**
+
+1. **ROY swarm на 500%** — каждый из 5 experts engages на максимум; brigadier orchestrates parallel; sub-brigadiers выполняют detail work
+2. **Максимально сырая информация переработана** — read entire books (not summaries) where possible; quote primary sources; verify [src: ...]; deep over surface
+3. **Используй MAX доступных токенов × 3** — не экономь; если по smart limits можно процессить больше — процессь больше; depth > brevity для этого deliverable
+4. **Качественное пояснение human-language** — densest possible explanations; multiple angles per concept; не «verification» а «explanation» focus
+5. **Human-language examples** — concrete, vivid, multiple per concept; не abstract
+6. **Плотность всего** — каждая секция должна быть substantive (не bullets-only); each diagram dense (≥10 nodes); each example concrete
+7. **Не stopover at minimum acceptance criteria** — пренебрегай ceilings; produce best work possible regardless of estimated runtime/cost
+8. **Если можно read 1 более книгу — read; если можно add 1 более diagram — add; если можно add 1 более example — add**
+
+**Этот mandate ALSO applies to all future server CC prompts** per memory `feedback_max_density_max_tokens.md` (saved 2026-05-21).
+
+---
 
 - **Per-phase commit + push** mandatory
 - **Tone discipline:** human-language Feynman-style; не architectural jargon predominant
