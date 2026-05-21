@@ -1,7 +1,9 @@
 ---
-title: METHOD DEEP-DESCRIPTION — Jetix как метод (детальное описание)
+title: METHOD DEEP-DESCRIPTION v1 — Jetix как метод (architecture-first; SUPERSEDED by V2 human-language)
 date: 2026-05-21
-type: strategic-method-deep-description
+type: strategic-method-deep-description-v1-reference
+status: REFERENCE-ONLY — superseded by METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
+ruslan_note: «похуй короче мы это все оставляем, оно такое как хорошая интересное но мы сейчас должны сделать новое потому что это чуть не то» — v1 = architecture-first surface; V2 = human-language fundamental-ontology «всё = информация + методы переработки информации» / wikipedia-deep / method жизни / метод развития
 parent_prompt: prompts/method-deep-description-2026-05-21.md
 parent_explain: prompts/explanations/_EXPLAIN-method-deep-description-2026-05-21.md
 authored_by: brigadier-scribe (Cloud Cowork)
