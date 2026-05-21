@@ -154,7 +154,7 @@ Server CC autonomous: (a) **Phase 0 FPF lens + v1 cross-cite reference (read-onl
 
 ---
 
-## §4 16 phases
+## §4 17 phases
 
 | # | Phase | Time | Commit |
 |---|---|---|---|
@@ -170,10 +170,11 @@ Server CC autonomous: (a) **Phase 0 FPF lens + v1 cross-cite reference (read-onl
 | 9 | FPF universal language integration | 1h | `[method-v2] Phase 9 FPF universal language` |
 | 10 | Exocortex + intelligence amplification | 1h | `[method-v2] Phase 10 exocortex + IA` |
 | 11 | Integration synthesis (метод жизни / метод развития) | 1.5h | `[method-v2] Phase 11 integration synthesis` |
-| 12 | Wikipedia-deep external scan synthesis (30+ sources cross-cite) | 2-3h | `[method-v2] Phase 12 wikipedia-deep synthesis` |
-| 13 | Examples / use cases human-language | 1.5h | `[method-v2] Phase 13 examples + use cases` |
-| 14 | Diagrams pass — 25-35 mermaid (everywhere applicable) | 1.5-2h | `[method-v2] Phase 14 mermaid diagrams pass` |
-| 15 | Main deliverable assembly + Summary + final push | 1h | `[method-v2] Phase 15 main deliverable + Summary + push` |
+| **12 ⭐** | **Personal origin + system bootstrap evidence (NEW per Ruslan voice)** | **1.5-2h** | `[method-v2] Phase 12 ⭐ personal origin + system bootstrap` |
+| 13 | Wikipedia-deep external scan synthesis (30+ sources cross-cite) | 2-3h | `[method-v2] Phase 13 wikipedia-deep synthesis` |
+| 14 | Examples / use cases human-language | 1.5h | `[method-v2] Phase 14 examples + use cases` |
+| 15 | Diagrams pass — 25-35 mermaid (everywhere applicable) | 1.5-2h | `[method-v2] Phase 15 mermaid diagrams pass` |
+| 16 | Main deliverable assembly + Summary + final push | 1h | `[method-v2] Phase 16 main deliverable + Summary + push` |
 
 **Total: ~17-22h server CC autonomous; <€5.**
 
@@ -184,8 +185,8 @@ Server CC autonomous: (a) **Phase 0 FPF lens + v1 cross-cite reference (read-onl
 | Type | Path |
 |---|---|
 | Phase 0 FPF + substrate | `reports/method-v2-2026-05-21/phase-0-fpf-lens-scope.md` |
-| Phase 1-13 per-section | `reports/method-v2-2026-05-21/01..13-*.md` |
-| Phase 14 diagrams pass | `reports/method-v2-2026-05-21/diagrams/_INDEX.md` + 25-35 standalone diagrams |
+| Phase 1-14 per-section | `reports/method-v2-2026-05-21/01..14-*.md` (includes Phase 12 ⭐ `12-personal-origin-bootstrap.md`) |
+| Phase 15 diagrams pass | `reports/method-v2-2026-05-21/diagrams/_INDEX.md` + 25-35 standalone diagrams |
 | ⭐ **Main deliverable** | `decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md` (~30K-50K words consolidated) |
 | Summary | `reports/method-v2-2026-05-21/00-SUMMARY-FOR-RUSLAN.md` (≤1500w) |
 
@@ -218,7 +219,7 @@ Server CC autonomous: (a) **Phase 0 FPF lens + v1 cross-cite reference (read-onl
 
 ## §7 Acceptance criteria
 
-- ✅ 16 phases per-phase commit + push
+- ✅ 17 phases per-phase commit + push
 - ✅ Main deliverable ~30K-50K words consolidated (target deep, not short)
 - ✅ 25-35 mermaid diagrams (everywhere applicable)
 - ✅ 30+ external substrate sources cited verifiable [src: ...]

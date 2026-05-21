@@ -2,7 +2,7 @@
 title: Method V2 — Метод жизни / Метод развития (human-language fundamental-ontology deep)
 date: 2026-05-21
 type: autonomous-execution-prompt
-phase_count: 16
+phase_count: 17
 parent_explain: prompts/explanations/_EXPLAIN-method-life-development-v2-2026-05-21.md
 predecessor_v1: decisions/strategic/METHOD-DEEP-DESCRIPTION-2026-05-21.md (REFERENCE-ONLY; architecture-first surface)
 ack_source: Ruslan voice 2026-05-21 evening «ебейший prompt → запустим»
@@ -60,7 +60,7 @@ tone: human-language Feynman-style — explain to curious adult с no Jetix back
 
 - Object: deep human-language description Jetix method as fundamental-ontology («всё = информация + методы переработки»)
 - FPF layer: F2 surface (substrate) + F3 brigadier analysis predominant
-- Acceptance: 16 phases / main deliverable / 25-35 mermaid / 30+ external sources / 5+ everyday analogies / 3+ use cases / human-language tone preserved
+- Acceptance: 17 phases / main deliverable / 25-35 mermaid / 30+ external sources / 5+ everyday analogies / 3+ use cases / human-language tone preserved
 - Substrate inventory matrix: 30+ external sources × method-aspect cell prioritization (per EXPLAIN §3 external substrate list)
 
 Commit: `[method-v2] Phase 0 FPF + substrate inventory`
@@ -652,7 +652,193 @@ Commit: `[method-v2] Phase 11 integration synthesis`
 
 ---
 
-## §13 Phase 12 — Wikipedia-deep external scan synthesis (2-3h)
+## §13 Phase 12 — Personal origin + system bootstrap evidence (1.5-2h) ⭐
+
+**Output:** `reports/method-v2-2026-05-21/12-personal-origin-bootstrap.md` (~3000-4000w)
+
+### Why this Phase exists (per Ruslan voice 21.05 evening explicit ack)
+
+Ruslan voice: «непосредственно о том как я самостоятельно эту систему вот создавал ... как раз вот задался вопросом а как мне развить жизнь да как мне улучшить свою жизнь и так далее и потом ответственно за это взялся пошел прорабатывать искать вот ответы».
+
+Это — **personal genesis story** Jetix system: how Ruslan bootstrapped it solo (с Claude Code multiplier). Anchor для credibility section и foundation для «positive virus» distribution thesis.
+
+### Content (human-language; Russian primary; F2 voice-anchored + F3 brigadier analysis)
+
+**§A Origin question (the seed)**
+- Ruslan voice verbatim: «как мне развить жизнь да как мне улучшить свою жизнь»
+- Universal question — most people stop здесь
+- Ruslan «ответственно за это взялся пошел прорабатывать искать ответы»
+- Connect к Phase 3 self-development orientation: ответственность = base motivation
+
+**§B Foundation work BEFORE system building**
+- Ruslan voice: «чтобы подготовиться к этому оказалось надо разобраться что такое подготовка что такое понимание что такое ... системное мышление ... фундаментальный уровень»
+- Pre-requisites:
+  - Что такое подготовка (preparation as concept)
+  - Что такое понимание (understanding as concept)
+  - Что такое системное мышление (Левенчук Системное мышление Т1+Т2)
+  - Что такое метод (Левенчук Методология Гл. 4 MG4)
+- Этот «фундаментальный уровень» — много месяцев работы перед тем как начал строить систему
+- Cross-cite: Левенчук distillation (5 books) + Schedrovitsky методология
+
+**§C Iterative development pattern**
+- Ruslan voice: «потом снова таки просто планировал далее разработка этой системы вот так вся новая информация появлялась все ее вот как-то улучшал улучшал»
+- The pattern: plan → execute → new info → improve → iterate
+- Compound effect over weeks/months
+- Each iteration adds: wiki entries / concepts / hypothesis / CRM / Foundation parts / Pillar refinements
+
+**§D Claude Code multiplier — quantitative evidence (CRITICAL)**
+
+Ruslan voice: «это есть тысячами вычислений клаудкода ну то есть реально там без которых да если бы это реальные люди делали бы и обдумывали искали и так далее но на это ушло бы реально вот несколько лет ну то есть да там посчитать какие-то адекватные цифры вот посмотреть гидхаб сколько всего запушено конкретные цифры за последнее вот там существование этого сервера сколько сделано».
+
+**MANDATORY: actual quantitative analysis из git history.** Calculate via shell:
+
+```bash
+# Total commits на main с момента создания репо
+git log --oneline | wc -l
+
+# Total commits последних 4 месяцев (Feb-May 2026)
+git log --since="2026-02-01" --oneline | wc -l
+
+# Lines в repo (всего)
+git ls-files | xargs wc -l | tail -1
+
+# Markdown files count
+git ls-files '*.md' | wc -l
+
+# Wiki entries (concepts / topics / etc.)
+ls wiki/concepts/*.md wiki/topics/*.md 2>/dev/null | wc -l
+
+# Foundation parts + Pillar C content
+find swarm/wiki/foundations/ -name '*.md' | wc -l
+
+# Hypothesis substrate
+find hypotheses/ -name '*.md' | wc -l
+
+# CRM entries
+ls crm/people/*.md crm/orgs/*.md 2>/dev/null | wc -l
+
+# Decisions / strategic
+ls decisions/strategic/*.md | wc -l
+
+# Research deep-dives
+ls -d research/* | wc -l
+
+# Total word count main directories
+find wiki/ swarm/wiki/foundations/ decisions/ hypotheses/ research/ -name '*.md' | xargs wc -w | tail -1
+```
+
+**Report concrete numbers** в format:
+- Total commits на server: N
+- Commits последние 4 months: N
+- Total markdown files: N
+- Total words в main substrate: N
+- Wiki concepts + topics: N
+- Foundation parts: 11 LOCKED (cross-cite)
+- Hypothesis substrate files: N
+- CRM entries: 169 (post KA-03 overnight)
+- Strategic decisions: N
+- Deep research dives: N
+
+**Comparison к conventional равноценным outputs:**
+- Average PhD dissertation: ~80K-120K words / 3-5 years
+- Average non-fiction book: ~70K-100K words / 1-2 years per book
+- Startup MVP с full documentation: ~6-12 months team of 3-5
+- Левенчук «Системное мышление» (2 volumes): ~400K words / 10+ years iteration
+
+**Estimated equivalent man-hours / man-years:**
+- Если бы это делала команда 5 человек full-time → ~2-3 years
+- Если solo без Claude Code → ~5-7 years
+- С Claude Code тысячами вычислений + Claude Max subscription: ~3-4 months Ruslan solo
+
+**Effective leverage ratio:** 10x to 20x vs solo without LLM substrate.
+
+**§E Quality factor — why this works**
+- Ruslan voice: «потом реально качество проработки еще этот показать дауд fp в целом вот клаудкода максималках нормально настроенный сохранение информации»
+- Components:
+  - Claude Max subscription (unlimited usage)
+  - Правильно настроенный Claude Code (ROY swarm 5 experts + brigadier + skills)
+  - Сохранение информации discipline (filesystem-authoritative; append-only)
+  - FPF F-G-R discipline (epistemic precision)
+  - Iterative refinement через cycles
+  - Hypothesis arch falsifiability discipline (recent overnight addition)
+  - 12 Tier 2 hard rules R1-R12 (constitutional discipline)
+
+Without ALL of these → significantly weaker output. Это compound discipline stack.
+
+**§F Wisdom hypothesis (Ruslan voice key insight)**
+
+Ruslan voice: «гипотеза дан дальше такая что он имея ... вот эту мудрость что мудрость это как бы просто накопленная информация можно принимать но довольно адекватно ну или не то что адекватно более выгодное решение потому что у тебя процент больше информации о том что ты делаешь как это делаешь».
+
+Formal hypothesis statement:
+- **H-genesis-1:** Wisdom = accumulated information + accumulated methods of processing/using it
+- **H-genesis-2:** More wisdom → higher % of relevant information per decision → more advantageous decisions on average
+- **H-genesis-3:** Compound effect: wisdom₁ → decision₁ → outcome₁ → new information₁ → wisdom₂ > wisdom₁
+
+This is testable. Cross-cite Hypothesis arch (Layer 6 alpha-machinery — «way-of-working» alpha).
+
+**§G «Positive virus» distribution model**
+
+Ruslan voice: «я ее вот настраивал так вернее вот это продвижение системы тоже так настраивал чтобы это оно шло как такой вот этот позитивный вирус который вот распространяется и в целом но вот как то сам а сам потом размножаются но снова таки в ключе развития общества».
+
+The «positive virus» economic loop:
+1. System provides value to users (Workshop / education / community / substrate access)
+2. Users adopt + use
+3. System takes part of resources (per DR-26: 10-25% Foundation institutional share)
+4. Reinvested share helps users manage selves better (Mondragón ratio cap 5:1 ensures fair distribution)
+5. Better-managed users → more effective use → more value generated
+6. More value → more attraction для new users → cascade
+7. R12 anti-extraction keeps virus «positive» — non-extractive at agreed share
+8. Fork-and-leave protection prevents lock-in
+
+**Why это «virus» (positive frame):**
+- Replicates without central force
+- Each adopter becomes carrier
+- Mutation/adaptation per local context
+- BUT key difference vs biological virus: voluntary opt-in + R12 + benefit to host
+
+**Comparable models:**
+- Open source software propagation (Linux / Wikipedia / Git)
+- Cooperative federation expansion (Mondragón replication)
+- Religious / philosophical movements (без extraction caveats)
+
+**§H Core method essence (the takeaway distilled)**
+
+Ruslan voice: «именно сам метод что просто ты как бы можешь реально подобрать для твоей жизни в текущий момент лучшие скажем так методы информацию ну и вот сделать то что тебе надо для жизни и жить в данный момент это ну как бы есть понимание этого метода в какой-то степени то есть просто в нужный момент подбирать нужную методологию да блять и нужную информацию ну или не то что прям снова-таки на сто процентов нужную здесь как градиент соответственно если достаточно нужную подбираешь в правильном количестве и так далее у тебя появляется возможность вот на другие системы и влиять и на свою собственную».
+
+Distilled core:
+1. **«В каждый момент подобрать»** — method timing (Phase 5)
+2. **«Нужные методы и информацию»** — method library + information access (Phase 4 + 5)
+3. **«Сделать что надо для жизни»** — purposeful action (Phase 3 + 5)
+4. **«Жить в данный момент»** — present-moment engagement (Phase 4)
+5. **«Градиент достаточности»** — не 100% но достаточно (anti-perfectionism principle)
+6. **«Влиять на другие системы и свою собственную»** — agency через method (Phase 6 + 8)
+7. **«Интеллектом усиливает»** — exocortex amplification (Phase 10)
+
+Это **operational essence** Method жизни / Method развития.
+
+**§I Personal genesis vs scalability**
+
+Ruslan voice connects: «но просто чтобы реально адекватно это все продумать проработать чтобы ну вот этот план как можно больше шансов сработал ... потому что реально вот шансы есть и в целом но интересная вот задумка но и почему бы это вот него не воплотить это опять еще и настолько элементарно вот уже все ресурсы есть инструменты есть».
+
+Argument structure:
+- Solo origin proves: концепт работает (1 person + Claude Code → 4-month substrate vs 5-7 year solo)
+- Scalability проверка: 10 человек × 4 months = compound (Phase 8 scale plan)
+- Resources уже есть (Claude Max / Foundation built / wiki populated / CRM 169)
+- Tools уже есть (ROY swarm / Hypothesis arch / skills)
+- «Шансы реально есть» — probability of success ↑↑ если scaling executes
+
+**§J Mermaid diagrams Phase 12**
+
+- D-P12-1 `journey` — Personal genesis journey (origin question → foundation work → iterative dev → Claude Code multiplier → current state → scale plan)
+- D-P12-2 `graph LR` — Positive virus economic loop (8 nodes: value → adopt → resources → reinvest → better users → more value → attract → cascade)
+- D-P12-3 `xychart-beta` — Wisdom accumulation curve (time × wisdom; compound exponential)
+- D-P12-4 `quadrantChart` — Origin → scale: solo vs collective × LLM-assisted vs unassisted
+
+Commit: `[method-v2] Phase 12 ⭐ personal origin + system bootstrap evidence`
+
+---
+
+## §14 Phase 13 — Wikipedia-deep external scan synthesis (2-3h)
 
 **Output:** `reports/method-v2-2026-05-21/12-wikipedia-deep-scan.md` (~5000-7000w)
 
@@ -762,11 +948,11 @@ Commit: `[method-v2] Phase 11 integration synthesis`
 **§P Mermaid D23 — Traditions cross-cite map (`mindmap`)** — Jetix center; 12 tradition branches
 **§Q Mermaid D24 — Common patterns across traditions (`graph LR`)**
 
-Commit: `[method-v2] Phase 12 wikipedia-deep synthesis`
+Commit: `[method-v2] Phase 13 wikipedia-deep synthesis`
 
 ---
 
-## §14 Phase 13 — Examples / use cases human-language (1.5h)
+## §15 Phase 14 — Examples / use cases human-language (1.5h)
 
 **Output:** `reports/method-v2-2026-05-21/13-examples-use-cases.md` (~3000w)
 
@@ -821,11 +1007,11 @@ Commit: `[method-v2] Phase 12 wikipedia-deep synthesis`
 **§C Mermaid D26 — Example 2 hypothesis cycle (`sequenceDiagram`)** — full lifecycle
 **§D Mermaid D27 — Example 5 cascade propagation (`graph TD`)** — society-level
 
-Commit: `[method-v2] Phase 13 examples + use cases`
+Commit: `[method-v2] Phase 14 examples + use cases`
 
 ---
 
-## §15 Phase 14 — Diagrams pass (1.5-2h)
+## §16 Phase 15 — Diagrams pass (1.5-2h)
 
 **Output:** `reports/method-v2-2026-05-21/diagrams/_INDEX.md` + 25-35 standalone diagram files
 
@@ -848,11 +1034,11 @@ Commit: `[method-v2] Phase 13 examples + use cases`
 - Each diagram → separate .md file в `diagrams/`
 - For reuse в future docs
 
-Commit: `[method-v2] Phase 14 mermaid diagrams pass`
+Commit: `[method-v2] Phase 15 mermaid diagrams pass`
 
 ---
 
-## §16 Phase 15 — Main deliverable assembly + Summary + final push (1h)
+## §17 Phase 16 — Main deliverable assembly + Summary + final push (1h)
 
 **Outputs:**
 - **⭐ Main deliverable:** `decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md` (~30K-50K words consolidated)
@@ -874,23 +1060,24 @@ Commit: `[method-v2] Phase 14 mermaid diagrams pass`
 ## §9 FPF universal language integration
 ## §10 Exocortex + intelligence amplification
 ## §11 Integration synthesis: метод жизни / метод развития
-## §12 Wikipedia-deep external scan synthesis
-## §13 Examples / use cases human-language
-## §14 Diagrams reference (cross-link к INDEX)
-## §15 Open questions / GAPS / future work
-## §16 Cross-refs
+## §12 Personal origin + system bootstrap evidence ⭐
+## §13 Wikipedia-deep external scan synthesis
+## §14 Examples / use cases human-language
+## §15 Diagrams reference (cross-link к INDEX)
+## §16 Open questions / GAPS / future work
+## §17 Cross-refs
 ```
 
 ### Final push
 ```bash
 git add reports/method-v2-2026-05-21/ decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
-git commit -m "[method-v2] Phase 15 main deliverable + Summary + final push"
+git commit -m "[method-v2] Phase 16 main deliverable + Summary + final push"
 git push origin main
 ```
 
 Final echo:
 ```
-DONE Phase 15 — 16 commits / N files / Main deliverable METHOD-LIFE-DEVELOPMENT-V2 ~30K-50K words / 25-35 mermaid / 30+ external sources / cost ~€X / runtime ~Y h
+DONE Phase 16 — 17 commits / N files / Main deliverable METHOD-LIFE-DEVELOPMENT-V2 ~30K-50K words / 25-35 mermaid / 30+ external sources / cost ~€X / runtime ~Y h
 ```
 
 ---
