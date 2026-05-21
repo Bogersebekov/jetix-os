@@ -2,7 +2,7 @@
 title: Strategic Plan Near-Future (Май-Июль 2026) — detailed substrate для video script + outreach
 date: 2026-05-21
 type: autonomous-execution-prompt
-phase_count: 13
+phase_count: 14
 parent_explain: prompts/explanations/_EXPLAIN-strategic-plan-near-future-2026-05-21.md
 predecessor_method_v2: decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
 ack_source: Ruslan voice 2026-05-21 night explicit «детально проработать план блять очень глубоко много мирмайдов»
@@ -40,7 +40,7 @@ tone: лаконичный для video script readiness + детальный pr
 
 - Object: detailed near-future strategic plan substrate для video script + outreach
 - FPF layer: F2 voice anchored + F3 brigadier analysis
-- Acceptance: 13 phases / main deliverable / 20-30 mermaid / each phase explainable за 30-60 sec в video / concrete numbers everywhere
+- Acceptance: 14 phases / main deliverable / 25-35 mermaid / each phase explainable за 30-60 sec в video / concrete numbers everywhere / 4 conversion scenarios + 8-tier user types pyramid
 
 Commit: `[strategic-plan] Phase 0 FPF + substrate`
 
@@ -437,7 +437,188 @@ Commit: `[strategic-plan] Phase 7 cascade layers`
 
 ---
 
-## §9 Phase 8 — Distribution mechanics (45m)
+## §9 Phase 8 — ⭐⭐ Path to 1M users + user types + conversion scenarios (1.5h)
+
+**Output:** `reports/strategic-plan-near-future-2026-05-21/08-path-to-1m-users.md` (~3500w)
+
+### Content
+
+**§A User types — 8-tier pyramid**
+
+Базовая classification user types (10-25% take rate per partnership applies к tiers L4-L6):
+
+| Tier | Type | Take rate / Pricing | Commitment | Count target (12 mo) |
+|---|---|---|---|---|
+| **L1** | Engineer-builders (fundament) | 10% (lower symbolic) | 6+ mo hands-on | 10-15 |
+| **L2** | Amplifiers / Community (bloggers / РУ AI / МИМ) | Service exchange | Coverage / endorsement | 50-100 |
+| **L3** | Institutional (orgs / foundations / universities) | Custom (per-org) | Strategic | 5-20 orgs |
+| **L4** | Founding partners | 10% (founding stake) | 6+ months | 3-10 |
+| **L5** | Cohort partners | 15-20% | 3+ months | 30-100 |
+| **L6** | Cohort members | 20-25% | 1+ month | 100-1000 |
+| **L7** | Workshop users | €1500/month service fee | Per-engagement | 1000-10K |
+| **L8** | Mass users (educational + free) | Free / educational €100-1000 | Per-product | 10K-1M |
+
+**§B Existing reach baseline (current state)**
+
+Per KA-03 CRM 169 contacts:
+- **L1+L4 candidates** (engineers + partners): 7 L1 ack queue + 14 Tier-1 = ~21 immediate
+- **L2 amplifiers** (KA-03 L2 segment): 35 загружено
+- **L3 institutional**: 51 загружено
+- **Extended pool target Wave 1-3**: ~500 potential (KA-03 expansion)
+
+**Через L2 amplifiers — secondary reach (audience доступная через них):**
+
+| Blogger / amplifier | Estimated audience | Conversion potential |
+|---|---|---|
+| Lex Fridman (если podcast) | ~3M YouTube subs | 0.1-1% conv = 3-30K |
+| Naval Ravikant | ~2M Twitter | 0.1-1% = 2-20K |
+| Andrej Karpathy | ~500K | 0.5-3% = 2.5-15K |
+| Sergey Markov (RU AI) | ~50K | 1-5% = 0.5-2.5K |
+| Grigory Sapunov | ~30K | 1-5% = 0.3-1.5K |
+| Лекс Левенчук audience | ~20K (МИМ) | 5-15% = 1-3K |
+| Цэрэн МИМ | ~10K | 3-10% = 300-1K |
+| **Tier-1 14 names cumulative reach (если все ack)** | **~5-10M reachable** | **per scenario below** |
+
+**§C Conversion math scenarios — 4 cases**
+
+**Assumptions baseline:**
+- Total reachable audience через Wave 1-3 cascade (L2 amplifiers + media): **~10M** (если 5-10 Tier-1 ack)
+- Per-stage funnel: aware → interested → engaged → cohort → paying
+
+**📉 Scenario A — Conservative (1% conversion baseline):**
+
+| Stage | Funnel rate | Count из 10M reachable |
+|---|---|---|
+| Aware (saw video / heard about) | 100% | 10M |
+| Interested (clicked / read materials) | 5% | 500K |
+| Engaged (filled form / DM'ed) | 1% of aware | 100K |
+| Cohort member (signed Charter) | 0.1% of aware | 10K |
+| Paying (Workshop tier+) | 0.01% of aware | 1K |
+
+**Timeline conservative:** 18-24 months к 100K cohort + 10K paying
+
+**📊 Scenario B — Realistic (5-10% mid-funnel conversion):**
+
+| Stage | Funnel rate | Count |
+|---|---|---|
+| Aware | 100% | 10M |
+| Interested | 10% | 1M |
+| Engaged | 1% of aware | 100K |
+| Cohort | 0.5% of aware | 50K |
+| Paying | 0.05% of aware | 5K |
+
+**Timeline realistic:** 12-18 months к 100K cohort + 5K paying; **path к 1M cohort = 24-36 months** при сохранении cascade.
+
+**📈 Scenario C — Aggressive (20-30% conversion + viral coefficient):**
+
+Если **viral coefficient K=1.5** (each user brings 1.5 new):
+- Initial cohort 1000 → 1500 → 2250 → 3375 → ... → 100K за 11-13 cycles
+- Cycle ≈ 1 month → **~12 months к 100K cohort**
+
+Per Scenario C assumptions:
+- 10M reach → 10% interested = 1M
+- 10% engaged = 100K
+- 10% cohort = 10K
+- Viral K=1.5 amplifies → 100K cohort within 12 mo
+- **К 1M cohort = 18-24 months total** при continued cascade
+
+**🚀 Scenario D — Hyper (viral cascade + media moment):**
+
+Если breakout media moment (TED talk / Lex podcast viral / Karpathy endorsement):
+- Reach expand 10M → 100M через single viral event
+- 1% conversion = 1M cohort
+- **К 1M cohort = 6-12 months** (если breakout)
+
+**§D Scenario probability assessment**
+
+| Scenario | Probability | Conditions for hitting |
+|---|---|---|
+| **A Conservative** | 70% likely default | Substrate quality + persistent execution |
+| **B Realistic** | 40% likely | + Tier-1 cluster ack (3-5 names) + decent video reach |
+| **C Aggressive** | 15% likely | + Viral coefficient (substrate genuinely outstanding) + 2-3 amplifier ack |
+| **D Hyper** | 5% likely | + Media breakout event (low probability но high payoff) |
+
+**Combined expected value:** Weighted avg ≈ 50-100K cohort within 12 months / 200-500K cohort within 18 months / **path к 1M = 24-36 months realistic**.
+
+**§E «Что мы можем предложить» — outreach offer tiers (Ruslan voice «инструменты сотрудничества»)**
+
+Per L2 amplifier (blogger / community leader):
+
+1. **Free Workshop access** для blogger + N followers (e.g., 100 spots free)
+2. **Co-creation opportunity** — blogger contributes content; Jetix substrate amplifies
+3. **Revenue share** — affiliate model (% of cohort intake from their audience)
+4. **Tool access** — Hypothesis arch + Wiki v2 + ROY swarm setup для blogger
+5. **Educational product co-branding** — joint course / book / video series
+6. **Mentor / advisor seat** — blogger becomes formal Jetix advisor
+7. **Equity stake** — для committed long-term partners (L4 founding tier eligible)
+
+Per L1 engineer:
+1. **Founding partner equity** (L4)
+2. **Workshop teaching role** (L1 layer fundament)
+3. **Open-source contributor recognition**
+4. **Cohort lead opportunity** (manage L5-L6 sub-cohort)
+
+Per L3 institutional:
+1. **Strategic partnership** (org-level)
+2. **Custom integration** — Jetix substrate adapted к their workflow
+3. **Co-authored research / publications**
+4. **Cohort sponsorship** (org sponsors N cohort members)
+5. **Foundation-level alignment** (joint initiative)
+
+**§F Concrete 12-month trajectory (Realistic scenario)**
+
+| Month | Cohort size | Paying | Revenue (estimate) |
+|---|---|---|---|
+| 1 (Май) | 15 founding | 0 | $0 |
+| 2 (Июнь) | 100 cohort + 15 founding | 5 paying Workshop tier | €7.5K/mo |
+| 3 (Июль) | 500 + viral start | 25 paying | €37.5K/mo |
+| 6 (Октябрь) | 2K + cascade | 100 paying | €150K/mo |
+| 12 (Апрель 2027) | 50K cohort | 1K paying | €1.5M/mo |
+| 18 (Октябрь 2027) | 200K | 5K paying | €7.5M/mo |
+| 24 (Апрель 2028) | 500K | 10K paying | €15M/mo |
+| 36 (Апрель 2029) | **1M cohort** | 25-50K paying | €37-75M/mo |
+
+**Note:** Paying = Workshop tier+ (€1500/mo per acked); cohort = free + educational engagement.
+
+**§G Resource requirements per scenario**
+
+| Stage | Team size | Capital needed | Infrastructure |
+|---|---|---|---|
+| 0-100 cohort (Mo 1-3) | 5 (current plan) | $20-50K bridge | Current infra |
+| 100-2K (Mo 3-6) | 15-20 | $200K-500K seed | Scaled cloud |
+| 2K-50K (Mo 6-12) | 50-100 | $2-5M Series A | Multi-region |
+| 50K-500K (Mo 12-24) | 200-500 | $20-50M Series B | Enterprise infra |
+| 500K-1M (Mo 24-36) | 500-1000 | $100M+ Series C | Global |
+
+**§H Funding path implications**
+- Y1 ($100K target) achievable Mo 4-5 при Realistic scenario
+- Y1 EOY $1M raise discussion warranted при cascade traction
+- Y2 $10-50M Series A / B на scale
+- Y3+ towards $1B trajectory ($1B raise + 1M users) per audio_686 KEYSTONE
+
+**§I Failure modes per scenario**
+
+- **A Conservative fail:** Substrate not delivered → Wave 1 silent → cohort stagnates at 10-50
+- **B Realistic fail:** Tier-1 silent → cascade weak → cohort plateaus at 500-2K
+- **C Aggressive fail:** Viral coefficient < 1 → growth exponential decay → cohort plateaus
+- **D Hyper fail:** Media moment doesn't materialize → fallback к realistic
+- **Cross-scenario risks:** R12 violations / aggressive tone / cheat-code backfire / regulatory issues
+
+**§J Mermaid D17 — User types 8-tier pyramid (`block-beta`)**
+
+**§K Mermaid D18 — Conversion funnel 4 scenarios (`graph TD`)** — 4 separate paths funnel side-by-side с conversion rates
+
+**§L Mermaid D19 — 1M trajectory comparison (`xychart-beta`)** — Time (Mo 1-36) × Cohort size (log scale) с 4 scenario curves
+
+**§M Mermaid D20 — Reach × conversion matrix (`quadrantChart`)** — Reach (low/high) × Conversion rate (low/high); each blogger placed
+
+**§N Mermaid D21 — Funding milestone timeline (`gantt`)** — Mo 1-36 с funding rounds + cohort milestones
+
+Commit: `[strategic-plan] Phase 8 ⭐⭐ path to 1M users + user types + conversion scenarios`
+
+---
+
+## §10 Phase 9 — Distribution mechanics (45m)
 
 **Output:** `reports/strategic-plan-near-future-2026-05-21/08-distribution-mechanics.md` (~1800w)
 
@@ -470,11 +651,11 @@ Commit: `[strategic-plan] Phase 7 cascade layers`
 
 **§F Mermaid D18 — Sales funnel (`journey`)** — Cold contact → engaged → purchase / partnership
 
-Commit: `[strategic-plan] Phase 8 distribution mechanics`
+Commit: `[strategic-plan] Phase 9 distribution mechanics`
 
 ---
 
-## §10 Phase 9 — Key thesis validation (45m)
+## §11 Phase 10 — Key thesis validation (45m)
 
 **Output:** `reports/strategic-plan-near-future-2026-05-21/09-key-thesis.md` (~1800w)
 
@@ -506,11 +687,11 @@ Commit: `[strategic-plan] Phase 8 distribution mechanics`
 
 **§E Mermaid D19 — 4 theses mindmap (`mindmap`)** — Root: Strategic Plan; 4 thesis branches с evidence + test design
 
-Commit: `[strategic-plan] Phase 9 key thesis validation`
+Commit: `[strategic-plan] Phase 10 key thesis validation`
 
 ---
 
-## §11 Phase 10 — ⭐⭐ Mermaid pass (1.5h)
+## §12 Phase 11 — ⭐⭐ Mermaid pass (1.5h)
 
 **Output:** `reports/strategic-plan-near-future-2026-05-21/10-mermaid-pass.md` + `diagrams/_INDEX.md` + standalone diagrams
 
@@ -542,11 +723,11 @@ Commit: `[strategic-plan] Phase 9 key thesis validation`
 - Standalone в `diagrams/` для reuse
 - INDEX cross-link map
 
-Commit: `[strategic-plan] Phase 10 mermaid pass`
+Commit: `[strategic-plan] Phase 11 mermaid pass`
 
 ---
 
-## §12 Phase 11 — Substrate cross-cite synthesis (30m)
+## §13 Phase 12 — Substrate cross-cite synthesis (30m)
 
 **Output:** `reports/strategic-plan-near-future-2026-05-21/11-cross-cite.md` (~1500w)
 
@@ -575,11 +756,11 @@ Commit: `[strategic-plan] Phase 10 mermaid pass`
 
 **§C Mermaid D25 — Substrate convergence map (`mindmap`)** — center: Strategic Plan; substrate sources as branches
 
-Commit: `[strategic-plan] Phase 11 cross-cite synthesis`
+Commit: `[strategic-plan] Phase 12 cross-cite synthesis`
 
 ---
 
-## §13 Phase 12 — Main deliverable assembly + Summary + push (1h)
+## §14 Phase 13 — Main deliverable assembly + Summary + push (1h)
 
 **Outputs:**
 - ⭐ Main deliverable: `decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md` (~15-25K words consolidated)
@@ -597,24 +778,25 @@ Commit: `[strategic-plan] Phase 11 cross-cite synthesis`
 ## §5 MVP Platform June Sprint
 ## §6 Team assembly
 ## §7 Cascade layers (Layer 1 → 2 → 3 → mass July)
-## §8 Distribution mechanics
-## §9 Key thesis validation
-## §10 Diagrams reference (cross-link к INDEX)
-## §11 Substrate cross-cite
-## §12 Open questions / R1 decisions pending
-## §13 Cross-refs
+## §8 ⭐⭐ Path to 1M users + user types + conversion scenarios
+## §9 Distribution mechanics
+## §10 Key thesis validation
+## §11 Diagrams reference (cross-link к INDEX)
+## §12 Substrate cross-cite
+## §13 Open questions / R1 decisions pending
+## §14 Cross-refs
 ```
 
 ### Final push
 ```bash
 git add reports/strategic-plan-near-future-2026-05-21/ decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md
-git commit -m "[strategic-plan] Phase 12 main deliverable + Summary + final push"
+git commit -m "[strategic-plan] Phase 13 main deliverable + Summary + final push"
 git push origin main
 ```
 
 Final echo:
 ```
-DONE Phase 12 — 13 commits / N files / Main deliverable STRATEGIC-PLAN-NEAR-FUTURE ~15-25K words / 20-30 mermaid / cost ~€X / runtime ~Y h
+DONE Phase 13 — 14 commits / N files / Main deliverable STRATEGIC-PLAN-NEAR-FUTURE ~18-28K words / 25-35 mermaid / cost ~€X / runtime ~Y h
 ```
 
 ---
@@ -649,8 +831,10 @@ DONE Phase 12 — 13 commits / N files / Main deliverable STRATEGIC-PLAN-NEAR-FU
 - **R6 provenance** per claim — [src: ...] inline
 - **EP-5 F-grade explicit** — F2 substrate + F3 brigadier analysis
 - **AP-6 dissent preservation** — Wave 1 risks preserved verbatim if surfaced
-- **20-30 mermaid diagrams** mandatory
+- **25-35 mermaid diagrams** mandatory (+5 in Phase 8)
 - **15+ substrate sources** cross-cited
+- **4 conversion scenarios** mandatory в Phase 8 (Conservative / Realistic / Aggressive / Hyper)
+- **8-tier user types pyramid** mandatory в Phase 8
 
 ---
 

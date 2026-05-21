@@ -78,7 +78,7 @@ Server CC autonomous: (a) **Phase 0 FPF lens + substrate inventory** (Method V2 
 
 ---
 
-## §4 13 phases
+## §4 14 phases
 
 | # | Phase | Time | Commit |
 |---|---|---|---|
@@ -90,13 +90,14 @@ Server CC autonomous: (a) **Phase 0 FPF lens + substrate inventory** (Method V2 
 | 5 | MVP Platform June Sprint (May-end + June 1-30) | 1.5h | `[strategic-plan] Phase 5 MVP June Sprint` |
 | 6 | Team assembly (5 ассистентов + budget) | 30m | `[strategic-plan] Phase 6 team assembly` |
 | 7 | Cascade layers (Layer 1 → 2 → 3 → mass July) | 1h | `[strategic-plan] Phase 7 cascade layers` |
-| 8 | Distribution mechanics (блогеры + платформа + educational) | 45m | `[strategic-plan] Phase 8 distribution mechanics` |
-| 9 | Key thesis validation (urgency / installation / method / FPF) | 45m | `[strategic-plan] Phase 9 key thesis validation` |
-| 10 | ⭐⭐ Mermaid pass — 20-30 diagrams | 1.5h | `[strategic-plan] Phase 10 mermaid pass` |
-| 11 | Substrate cross-cite synthesis | 30m | `[strategic-plan] Phase 11 cross-cite synthesis` |
-| 12 | Main deliverable assembly + Summary + push | 1h | `[strategic-plan] Phase 12 main deliverable + push` |
+| **8 ⭐⭐** | **Path to 1M users + user types + 4 conversion scenarios (NEW per Ruslan voice)** | **1.5h** | `[strategic-plan] Phase 8 ⭐⭐ path to 1M users + scenarios` |
+| 9 | Distribution mechanics (блогеры + платформа + educational) | 45m | `[strategic-plan] Phase 9 distribution mechanics` |
+| 10 | Key thesis validation (urgency / installation / method / FPF) | 45m | `[strategic-plan] Phase 10 key thesis validation` |
+| 11 | ⭐⭐ Mermaid pass — 25-35 diagrams | 1.5h | `[strategic-plan] Phase 11 mermaid pass` |
+| 12 | Substrate cross-cite synthesis | 30m | `[strategic-plan] Phase 12 cross-cite synthesis` |
+| 13 | Main deliverable assembly + Summary + push | 1h | `[strategic-plan] Phase 13 main deliverable + push` |
 
-**Total: ~10-14h server CC autonomous; <€4.**
+**Total: ~11-16h server CC autonomous; <€4.**
 
 ---
 
