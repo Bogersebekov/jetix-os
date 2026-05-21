@@ -972,3 +972,36 @@ Surface'нутые researches/templates/candidates → **wiki + pool documents**
 - D9-14 (Левенчук Week 2 substrate-sandwich) — unchanged ack accepted
 
 [src: Ruslan voice 2026-05-21 day post-batch-9-read explicit ack + scope expansion]
+
+---
+
+## §APPEND-2026-05-21-Ruslan-ACK-DR-26-decisions
+
+**Ruslan voice 2026-05-21 day** post-DR-26 + Expanded Docs read:
+
+### R1 decisions ack (provisional Phase 1 lock)
+
+- ✅ **D-R1-1 Take rate** = **range 10-25%** (depends on partner; per-partnership negotiation). NOT fixed 22.5% midpoint. Pitch language: «10-25% Foundation institutional share; per-partnership Charter». Default upper bound 25% Tier-1 partners; lower 10% smaller cohort entries.
+- ✅ **D-R1-3 Mondragón ratio cap** = **5:1** для начала ack (provisional Phase 1; revisit при scale)
+- ✅ **D-R1-5 Workshop pricing baseline** = **€1500/member/month** ack (provisional Phase 1)
+- ✅ **D-R1-6 Foundation grants pursuit** = **DEFER на потом** (не Phase 1 priority; can pursue passively but не active KA)
+- ✅ **Piecewise gradient alternative** = **REJECTED** — flat range 10-25% used everywhere; per-partner variation handles flexibility instead of temporal gradient
+
+### Provisional language pattern для one-pager + pitch (Ruslan-acked baseline)
+
+> «Jetix operates **10-25% Foundation institutional share** (per-partnership Charter at member signup). Cohort members retain 75-90% direct distribution depending on Charter tier. Institutional share funds Workshop scaling reinvestment loop + community matching pool + Foundation operations. **Mondragón-style ratio cap 5:1**. **R12 fork-and-leave protection** — any member exits с preserved contribution history + proportional treasury share + no penalty.»
+
+### Status updates
+
+- **O-108 (Tier B pool)** — status → **PROVISIONAL-ACKED Phase 1**; promote к §APPEND `partnership-baseline` + `monetization-frame` wikis post-one-pager R1
+- **DR-26** memo → READY-FOR-USE as substrate; no further research needed unless Workshop pricing or external matching pool decisions trigger update
+- **Distribution Plan §5.7** §APPEND-DR-26 — needs Charter language refinement к match «10-25% range per-partnership» (next server CC update can fix)
+- **One-pager substrate §9** — currently shows 4 wording options; update to use «10-25% range» pattern для consistency
+
+### Deferred R1 decisions (still pending)
+
+- D-R1-2 First-cohort quantity (3 / 10 / 30 / 100?) — pending
+- D-R1-4 First-cohort selection criteria + onboarding — pending
+- D-R1-7+ остальные 8 D-R1-N items per Development Plan §10 — pending
+
+[src: Ruslan voice 2026-05-21 day post-DR-26 ack «25 процентов / Mondragón 5:1 / полтора косаря / grants на потом / 10-25% range за partner»]
