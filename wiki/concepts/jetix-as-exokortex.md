@@ -112,3 +112,37 @@ Foundation Pillar C Tier 2 rule 9 («AI does NOT self-modify at runtime») = STR
 ---
 
 *Promoted 2026-05-19 per Ruslan ack. R1 surface (text_014 verbatim) + R6 + R12 + IP-1 STRICT + append-only. Critical ontological claim для positioning.*
+
+---
+
+## §APPEND-2026-05-22-O-106-desire-to-live-info-valve
+
+**Voice anchor:** audio_709 batch-9 (2026-05-20 11:39) Ruslan voice verbatim.
+
+**Statement (O-106):** «desire-to-live = primary info-valve» — желание жить = главный клапан обработки информации в exocortex-augmented system.
+
+### §A Что это значит
+
+Exocortex усиливает intellect, но direction усиления зависит от base motivation системы. Если desire-to-live низкое (apathetic / nihilistic / suicidal frame) — никакое количество exocortex amplification не приведёт к growth. Info processing stagnates / dissociates.
+
+Если desire-to-live высокое (engaged / curious / want-to-flourish frame) — exocortex amplification compound'ится в meaningful growth.
+
+### §B Cross-cite
+
+- Method V2 Phase 3 (self-development orientation + motivational dynamics) — connects к Carol Dweck growth mindset + Csikszentmihalyi flow
+- Method V2 Phase 4 (information consumption process) — desire-to-live regulates what information system accepts vs rejects
+- audio_709 verbatim text: «процесс жизни это процесс потребления информации» — life ≡ information processing; gated by desire-to-live
+
+### §C Implication для Jetix-как-exocortex
+
+- Pre-condition для useful exocortex augmentation: user's intact desire-to-live
+- Workshop intake → screening для motivational alignment (R12 paired-frame voluntary opt-in already does this naturally)
+- AP-6 dissent preserved: «жизнь как тягучка» (audio_709 alternative phrasing — captures duality of motivation)
+- Не R12-violating to filter — это exclusion для protection users которые need other interventions first (medical / psychological / spiritual)
+
+### §D Promotion history
+
+- 2026-05-20 batch-9: Surfaced as O-106 (Tier B pool entry; ⭐ candidate)
+- 2026-05-22: **Ruslan R1 ack** TA-1 → §APPEND here (not standalone wiki; integrates с exokortex foundation)
+
+[src: audio_709 + Method V2 Phase 3 §D + REFLECTION-INBOX §APPEND-2026-05-22-Ruslan-ACK-batch-consolidated]

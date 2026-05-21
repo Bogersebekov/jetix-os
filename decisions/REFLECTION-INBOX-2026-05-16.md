@@ -1005,3 +1005,62 @@ Surface'нутые researches/templates/candidates → **wiki + pool documents**
 - D-R1-7+ остальные 8 D-R1-N items per Development Plan §10 — pending
 
 [src: Ruslan voice 2026-05-21 day post-DR-26 ack «25 процентов / Mondragón 5:1 / полтора косаря / grants на потом / 10-25% range за partner»]
+
+---
+
+## §APPEND-2026-05-22-Ruslan-ACK-batch-consolidated (post Method V2 + Strategic Plan + Economic Model + AI Market PLAN)
+
+**Ruslan voice 22.05** consolidated ack batch.
+
+### Block A — Economic Model + Tokenomics top 6 (ALL ACKED)
+
+| # | Decision | Ack |
+|---|---|---|
+| **EM-1** | Primary variant | ✅ **V10 Hybrid** (ERC-1155 triple-role NFT + ERC-5114 soulbound + Moloch RageQuit + Mondragón 5:1 + QF + ERC-20 + ERC-4337) |
+| **EM-2** | Token launch timing | ✅ **Q3 2026** baseline |
+| **EM-3** | Audit budget Phase 1 | ✅ **$100K** (OpenZeppelin + Trail of Bits multi-audit) |
+| **EM-7** | L2 substrate | ✅ **Optimism** (RetroPGF brand alignment) |
+| **EM-9** | L1 take rate lock | ✅ **25%** (per voice; 22.5% Scenario B fallback preserved) |
+| **EM-12** | Bridge funding source | ✅ **Mix: Foundation + Anthropic + personal** |
+
+### Block B — AI Market PLAN Stage 2 (ALL STRETCH ACKED; LAUNCH DEFERRED)
+
+Ruslan voice: «оу стретч 30 firms экстра deep но это снова такие а камни это уже на потом оставляем но просто фиксируй потом».
+
+| # | Question | Ack | Launch |
+|---|---|---|---|
+| Q1 | AI firm scope | ✅ **30+ firms stretch** | ⏳ deferred |
+| Q2 | Electricity depth | ✅ **Extra-deep** | ⏳ deferred |
+| Q3 | Acquisition variants | ✅ **10 variants** | ⏳ deferred |
+| Q4 | Crisis-rescue framing | ✅ **Mixed** | ⏳ deferred |
+| Q5 | Token integration | ✅ **Hybrid V10+V11** | ⏳ deferred |
+| Q6 | Geographic scope | ✅ **Global** | ⏳ deferred |
+| Q7 | Stage 2 timing | ⏳ **DEFER к later** (не сейчас Wave 1) | — |
+| Q8 | Mermaid count | ✅ **40 stretch** | ⏳ deferred |
+
+**Status:** All answers locked. Stage 2 launch DEFERRED. Когда Wave 1 done + time available → unblock launch.
+
+### Block E — Tier A wikis promotions (ALL ACKED)
+
+- ✅ **TA-1: O-106 desire-to-live** → §APPEND `wiki/concepts/jetix-as-exokortex.md`
+- ✅ **TA-2: O-107 canonical one-liner** → **Tier A standalone NEW wiki** `wiki/concepts/method-method-one-liner.md`
+
+### Block W-1 — KA-07 R12 cheat-code O-83 decision (CLEAR = DROP)
+
+Ruslan voice: «забей ты хуй ну да удали нахуй с этого clear чит-код окей можно удалить».
+
+- ✅ **DROP cheat-code positioning** — archive `wiki/ideas/cheat-code-positioning.md` → `_archive/dropped-ideas/`
+- O-83 status → DROPPED in Tier B pool
+- R12 ethical-surface risk closed (no cheat-code positioning anywhere)
+- Pre-existing Partnership (O-75) + Project-of-Humanity (O-86) sole canonical frames remain
+
+### Deferred decisions (Ruslan voice «потом / в ближайшее время»)
+
+- **SP-1 video script R1 prose** — «в ближайшее время»
+- **SP-2 one-pager R1 prose** — «в ближайшее время»
+- **HA-1 hypothesis hands-on** — «потом четко добавим»
+- **W-2: Economic Model остальные 14 acks** — «оставить на потом ну чтобы не потерялись»
+- **W-3: voice ambiguity α/β/γ/δ** — «потом можно»
+- **W-4: AP-6 dissent atoms review** — «в ближайшее время»
+
+[src: Ruslan voice 2026-05-22 consolidated ack «вот все этот тогда фиксируй и тогда посмотрим чё как»]

@@ -16,6 +16,11 @@ status: POOL (not promoted — Ruslan picks)
 >
 > Уже promoted в batch-7 Phase 6 separately (НЕ в этом pool — done): O-73 Ethereum (§APPEND), O-74 Hackathons-clan-wars (§APPEND), O-75 Pre-existing Partnership (NEW Tier A).
 > Уже promoted сегодня 2026-05-20 acks: O-83 Cheat-code (wiki/ideas/), O-86 Project-of-Humanity (wiki/concepts/).
+>
+> **STATUS UPDATE 2026-05-22 Ruslan R1 ack batch-consolidated:**
+> - **O-83 Cheat-code = DROPPED** (Ruslan voice «удали нахуй с этого clear чит-код»). Wiki archived `_archive/dropped-ideas/cheat-code-positioning-DROPPED-2026-05-22.md`. KA-07 R12 ethical-surface review resolved as CLEAR/DROP.
+> - **O-106 desire-to-live = §APPENDED** to `wiki/concepts/jetix-as-exokortex.md` (per ack TA-1).
+> - **O-107 canonical one-liner = PROMOTED Tier A standalone** NEW wiki `wiki/concepts/method-method-one-liner.md` (per ack TA-2).
 
 ---
 
@@ -249,8 +254,8 @@ Source: `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md` �
 | O-id | Title | Source audio | What promotion does | Expected output | Why ack-pending | Hypothesis-cand? |
 |---|---|---|---|---|---|---|
 | **O-105** | Two-tier intellect (external method-density vs internal method-transcendence + sensing/feeling component + embodied intellect) | audio_707 | §APPEND mastery-formula + sense-of-measure + K-4 audit revisit | ~500w substrate + dual-hypothesis preserved | AP-6 dual-hypothesis Ruslan self-flag «их еще разобрать»; DR-25 candidate | H-batch-9-01 |
-| **O-106** | Desire-to-live = primary info-valve («клапан») | audio_709 claim 2 | §APPEND jetix-as-exokortex + mastery-formula initial-input dependency | ~600w substrate + Tier-A-promotion-candidate if cross-batch confirms | Single-batch; needs cross-batch reconfirm | H-batch-9-03 |
-| **O-107** | Canonical one-liner «метод по объединению методов по улучшению системы самой себя» | audio_712 claim 4 | §APPEND method-systems-thinking + Master Packaging Step 6 one-pager substrate | ~200w canonical-line + cross-link Левенчук + audio_703 batch-8 | Ruslan self-flag deferred verdict «звучит — посмотрим» | H-batch-9-08 |
+| **O-106** ✅ **ACKED 2026-05-22 → §APPENDED** | Desire-to-live = primary info-valve («клапан») | audio_709 claim 2 | ✅ §APPEND DONE `wiki/concepts/jetix-as-exokortex.md` per Ruslan R1 ack TA-1 2026-05-22 | ✅ DONE | RESOLVED | H-batch-9-03 |
+| **O-107** ✅ **ACKED 2026-05-22 → TIER A STANDALONE** | Canonical one-liner «метод по объединению методов по улучшению системы самой себя» | audio_712 claim 4 | ✅ NEW Tier A wiki `wiki/concepts/method-method-one-liner.md` per Ruslan R1 ack TA-2 2026-05-22 | ✅ DONE | PROMOTED | H-batch-9-08 |
 | **O-108** | 20-25% take rate explicit ⭐⭐ | audio_710 claim 4 | §APPEND partnership-baseline + Distribution Plan §5 + unit-econ Direction Card | ~400w substrate + 20-25% anchor + reinvestment-loop articulation | Ruslan self-flag «надо математику просчитать»; DR-26 unit-econ required first | H-batch-9-06 |
 | **O-109** | Responsibility-pact bidirectional framework (Jetix↔partner) | audio_710 claim 1, 3 + audio_711 claim 2 | §APPEND partnership-baseline + R12 Tier 2 primitive substrate | ~500w framework + R12 paired-frame anchor | High R; Ruslan ack «promote standalone vs append» needed | supports H-06 |
 | **O-110** | Установка-layer precedes method-selection («ты красавчик + цель + смысл = фундамент») | audio_708 claim 5 | §APPEND method-systems-thinking + Pillar C Tier 2 RUSLAN-LAYER overlay note | ~400w установка-layer articulation | Cross-batch с batch-8 audio_703/706 + batch-9 audio_709 cluster | H-batch-9-02 |
