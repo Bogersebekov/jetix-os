@@ -359,3 +359,77 @@ After §10.1-§10.6 drafting, run §6.4 8-item checklist. Если any fail → 
 ---
 
 *One-pager FPF substrate closure 2026-05-21. Phase 5 deliverable. ~3000w substrate prep. Per memory feedback_constitutional.md + feedback_no_unsolicited_alternatives.md + feedback_fpf_lens_first.md. Next: Phase 6 Summary + final push.*
+
+---
+
+## §APPEND-DR-33 — Styling refinement from DR-33 Communication Best-Practices (2026-05-21 evening)
+
+Per DR-33 9-phase research at `research/communication-best-practices-2026-05-21/`. Phase 8 cross-link mandate. R1 ack pending on 5 D-COMM decisions.
+
+### §APPEND-DR-33.1 Hybrid FPF-natural language layered discipline (per D-COMM-1 recommended Option A+D)
+
+Applies к §10 Ruslan strategic prose slots:
+
+| Slot | Hybrid layering |
+|---|---|
+| §10.1 Hook | Natural language only (System 1 target / Heath Emotional / Aristotle pathos) |
+| §10.2 Problem statement | Natural language + 1 FPF footnote (cite Левенчук distillation specific line offset) |
+| §10.3 Solution synthesis | Natural language + F-grade explicit для O-107 («F2-3 aspirational verbatim»); 3-tier funnel mechanism named concretely |
+| §10.4 Differentiation | Natural language + ≥3 Левенчук cross-cite (line offsets); F4 для substrate-not-vibes claims |
+| §10.5 FPF thesis mention | Self-disclosing primer: «I use a small discipline called Formality-Group-Reliability...» [src: DR-33 Phase 3 §5.3] |
+| §10.6 Offer / Ask R12 paired | Natural language + R-receipt explicit для optional partnership take rate (Option D Mondragón-anchor language) |
+
+### §APPEND-DR-33.2 Self-disclosing FPF primer pattern (R1 recommendation)
+
+When introducing FPF к non-FPF-literate reader:
+
+> «Я использую простую дисциплину Formality-Group-Reliability — F означает насколько solid claim (F2 = personal observation; F5 = replicated cross-context); G — где claim applies; R — что бы refuted claim. Это позволяет honest о confidence levels.»
+
+Place in §10.5 slot. ≤50w. Anti-curse-of-knowledge per Phase 3 §5.3.
+
+### §APPEND-DR-33.3 5 audience variants (per Phase 4 + audience-adaptive Phase 3 §5.2)
+
+Existing §7 already maps 4 audiences (L1 / L2 / L3 / humanitarian); add 5th audience explicit:
+
+**§7.5 RU systems-thinking community (Левенчук + adjacent)**
+- Primary lenses: philosophy + systems [src: EXPERTS-PACK §7.5 implicit; DR-33 Phase 4 §5]
+- Audience profile: Левенчук cluster / Aisystant principals / 16 транс-дисциплин practitioners
+- Emphasis: IP-1 Role≠Executor / 5 регионов стратегирования / 16 транс-дисциплин / графы создания / OMG Essence
+- Hooks priority: All 5 (verbatim cross-cites); audio_703 independent re-articulation hook primary
+- Frame priority: O-75 partnership + 3-tier funnel + ≥3 specific Левенчук line offsets mandatory
+- FPF density: Prominent (RU systems audience rewards F-G-R discipline)
+- Channel preference: Telegram → Aisystant material → 1-on-1 / video
+
+### §APPEND-DR-33.4 R12 × Cialdini audit expansion (per D-COMM-2 recommended Option A)
+
+Expand §6.4 8-item checklist to 15-item adding 7 Cialdini-per-principle items:
+
+(См. `DISTRIBUTION-PLAN-2026-05-20.md` §APPEND-DR-33.4 для full 7-item Cialdini × R12 expansion text.)
+
+### §APPEND-DR-33.5 Pixar 5-beat skeleton применима к C.4 L3 + humanitarian variants
+
+Per Phase 7 R7 recommendation:
+
+**Once upon a time** — «Я был консультантом с Notion и сертификатами»
+**Every day** — «изучал methodology, vouce-логи, K-research substrate»
+**But one day** — «audio_686 1M-EOY-2026 keystone voiced; O-107 canonical one-liner; audio_697 Дмитрий→Левенчук cascade»
+**Because of that** — «Foundation v1.0 LOCKED; ROY swarm; Hypothesis arch; Distribution Plan»
+**Until finally** — «первая cohort 5-15 founding engineers Q3 2026; closed-loop contribution к society»
+
+5-beat applicable specifically к §10.1 Hook + §10.4 Differentiation slots.
+
+### §APPEND-DR-33.6 Pre-send checklist (DR-33-augmented)
+
+Existing 10-item §10.10 final acceptance preserved + new DR-33 items:
+
+- ☐ Self-disclosing FPF primer present (per §APPEND-DR-33.2)?
+- ☐ Hybrid layered discipline applied (per §APPEND-DR-33.1)?
+- ☐ Cialdini × R12 audit passed (per §APPEND-DR-33.4)?
+- ☐ Pixar 5-beat skeleton applied для C.4 L3 + humanitarian variants (per §APPEND-DR-33.5)?
+- ☐ Time-budget × audience cell matched [src: DR-33 Phase 6 §1]?
+- ☐ ≥3 Левенчук cross-cite line offsets (not name-only) [src: DR-33 Phase 7 R4]?
+- ☐ R-batch-9-N3 paraphrase verified [src: DR-33 Phase 4 §3.6 + §4.6]?
+
+---
+
+*§APPEND-DR-33 closure 2026-05-21 evening. Per DR-33 Phase 8 cross-link mandate. R1 ack pending on D-COMM-1..5.*

@@ -775,3 +775,68 @@ See `reports/distribution-plan-research-2026-05-20/diagrams/`:
 ---
 
 *DISTRIBUTION-PLAN closure 2026-05-20 — Server CC autonomous Step 4 execution. ~120-150 min runtime budget; per-phase commit + push cadence preserved. Constitutional posture R1/R2/R6/R11/R12 paired-frame/IP-1/EP-5/AP-6/SKIP-list integrity verified.*
+
+---
+
+## §APPEND-DR-33 — Communication framework section (2026-05-21 evening)
+
+Per `research/communication-best-practices-2026-05-21/` 9-phase research execution; per Phase 8 cross-link mandate. Brigadier-scribe substrate; Ruslan R1 ack pending on 5 D-COMM decisions.
+
+### §APPEND-DR-33.1 Top 5 communication findings
+
+1. **Hybrid FPF-natural language layered discipline** = recommended default. Natural language surface + FPF annotations selective + F-grade explicit для contested claims + R receipts для forecasts. Audience-adaptive [src: DR-33 Phase 3 §5].
+2. **Cialdini × R12 paired-frame audit** mandatory pre-send. Scarcity 🔴 + Commitment 🟡 = manipulation risk; Authority + Liking + Unity + Social Proof + Reciprocity = R12-compatible if authentic [src: DR-33 Phase 2 §6.4].
+3. **≥3 Левенчук cross-cites** per pitch (book + chapter + line offset) — Schramm shared field + Heath Credible + Cialdini Social Proof triple-role [src: DR-33 Phase 1 §3.4 + Phase 4 §5.3].
+4. **R-batch-9-N3 paraphrase mandatory** для L3 institutional + humanitarian materials («one of the systems contributing to convergence», не «сейчас уже должны заниматься такие системы») [src: DR-33 Phase 4 §3.6 + §4.6].
+5. **25-cell time-budget × audience matrix** discipline — match content density к recipient time-budget [src: DR-33 Phase 6 §1-§2].
+
+### §APPEND-DR-33.2 7 application recommendations
+
+| # | Recommendation | DR-33 phase | Applies to |
+|---|---|---|---|
+| R1 | Self-disclosing FPF primer | Phase 7 §2.1 | C.1 / C.4 / C.5 + non-FPF audiences |
+| R2 | R12 × Cialdini audit checklist | Phase 7 §2.2 | All outreach |
+| R3 | Aggressive language paraphrase pre-send | Phase 7 §2.3 | All outbound |
+| R4 | ≥3 Левенчук cross-cites | Phase 7 §2.4 | All pitch materials |
+| R5 | Time-budget cell prep | Phase 7 §2.5 | Tier-1 outreach + cadence |
+| R6 | Hybrid FPF-natural layered | Phase 7 §2.6 | Default communication baseline |
+| R7 | Pixar 5-beat skeleton vision | Phase 7 §2.7 | C.4 + Дмитрий-style pitches |
+
+### §APPEND-DR-33.3 5 R1 decision points (D-COMM-1..5)
+
+См. `research/communication-best-practices-2026-05-21/_RECOMMENDATION-MEMO-COMM.md` для full options:
+- D-COMM-1: FPF density baseline (recommended: A Hybrid + D per-audience customization)
+- D-COMM-2: R12×Cialdini audit checklist integration (recommended: A expand 8→15)
+- D-COMM-3: 25-cell matrix operationalization (recommended: B mental → A CRM schema if validated)
+- D-COMM-4: Phase 2 A/B test launch trigger (recommended: A post-Дмитрий+Левенчук → B Workshop Q3)
+- D-COMM-5: Method Deep-Description integration timing (recommended: A §APPEND now + revisit task)
+
+### §APPEND-DR-33.4 Pre-send checklist expansion (per D-COMM-2 recommended Option A)
+
+If Ruslan ack D-COMM-2 Option A → expand ONE-PAGER §6.4 from 8 items to 15 items добавив:
+
+- ☐ Cialdini Reciprocity 🟢: gift genuine, не payment-trigger?
+- ☐ Cialdini Commitment 🟡: small-to-big progression voluntary opt-in?
+- ☐ Cialdini Social proof 🟢: verifiable (specific cross-cite line offsets)?
+- ☐ Cialdini Authority 🟢: expertise demonstrated с falsifiability invited?
+- ☐ Cialdini Liking 🟢: authentic (shared methodology) или performative?
+- ☐ Cialdini Scarcity 🔴: real (cohort capacity) или manufactured (FOMO)?
+- ☐ Cialdini Unity 🟢: identity authentic или коопtивная extraction frame?
+
+### §APPEND-DR-33.5 25-cell matrix operational handle (per D-COMM-3 recommended Option B)
+
+Per-touch mental checklist:
+1. Identify recipient audience (L1 / L2 / L3 / humanitarian / RU systems)
+2. Identify time-budget cell (30 sec / 5 min / 30 min / 1 h / 1 day)
+3. Look up cell content recommendation [src: DR-33 Phase 6 §2.1-§2.5]
+4. Pre-send: content density matches budget? (no over-deliver / no under-prep)
+
+CRM schema augment (Option A) deferred until Phase 2 A/B tests validate.
+
+### §APPEND-DR-33.6 24 mermaid diagrams indexed
+
+См. `research/communication-best-practices-2026-05-21/diagrams/_INDEX.md` для full catalogue.
+
+---
+
+*§APPEND-DR-33 closure 2026-05-21 evening. Per DR-33 prompt §9 final push mandate. R1 ack pending.*
