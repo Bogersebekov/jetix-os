@@ -399,10 +399,95 @@ DONE Phase 8 — 9 commits / N files / Recommendation memo + Summary / §APPEND 
 - **5+ audiences** mandatory
 - **25-cell time-budget matrix** mandatory
 - **6+ best-practice frameworks** mandatory
+- **⭐ 10-15 mermaid diagrams MANDATORY** (everywhere possible — see §12 diagram requirements)
 
 ---
 
-## §11 If blocked
+## §12 ⭐ Mermaid diagrams — MANDATORY density specification
+
+Per Ruslan voice 21.05 evening: «диаграммы очень плотные, глубокие, интересные, понятные. Везде где только можно».
+
+### Quantitative target
+- **MINIMUM 10 mermaid diagrams** (target 12-15) across all phases
+- Per Phase 1-7 — minimum 1-2 mermaid per phase
+- Density: ≥8 nodes per major diagram (избегай trivial sketches)
+
+### Mandatory diagram types (diverse subset; не только flowchart)
+
+| Type | Use case в DR-33 |
+|---|---|
+| `graph TD/LR` (flowchart) | Communication models / channel flows / framework hierarchies |
+| `sequenceDiagram` | Shannon / Berlo / Schramm message paths / outreach handshake / R12 paired-frame interaction |
+| `mindmap` | Heath SUCCES expansion / Cialdini 7 principles / FPF strengths-weaknesses |
+| `quadrantChart` | FPF vs natural language (cognitive overhead × clarity); audience × channel preference |
+| `journey` | Recipient journey (cold → warm → engaged) per audience |
+| `timeline` | Time-budget breakdown (30sec → 1day formats) |
+| `block-beta` | Time-budget matrix (5 audiences × 5 budgets = 25 cells) |
+| `classDiagram` | Communication theory model structures (SMCR / SUCCES / etc.) |
+| `xychart-beta` | Time-budget × engagement quality |
+| `journey` | TED talk 5-element flow / Pixar 22-rule sequence |
+
+### Per-phase diagram requirements
+
+**Phase 0 (FPF lens + scope):**
+- `graph TD` — Scope refinement flow (Method Deep-Desc inputs → Experts Pack priorities → DR-33 scope)
+
+**Phase 1 (Communication theory baseline):**
+- `sequenceDiagram` — Shannon model (source → encoder → channel → decoder → receiver + noise)
+- `classDiagram` — SMCR Berlo model structure
+- `graph LR` — Schramm interactive cycle
+- `mindmap` — Aristotle ethos/pathos/logos breakdown
+
+**Phase 2 (Best practices synthesis):**
+- `mindmap` — Heath SUCCES (Simple / Unexpected / Concrete / Credible / Emotional / Stories) expanded с sub-techniques per letter
+- `journey` — Pixar 22-rule story arc visualization
+- `graph TD` — TED Anderson 5 elements (Connection / Narration / Explanation / Persuasion / Revelation)
+- `mindmap` — Cialdini 7 principles + R12 compatibility check
+- `classDiagram` — Kahneman dual-process (System 1 vs System 2 + triggers + outputs)
+
+**Phase 3 (FPF-vs-natural language):**
+- `quadrantChart` — FPF vs natural (axes: cognitive overhead × epistemic clarity)
+- `graph TD` — Hybrid approach flow (natural surface + FPF selective annotations)
+- `stateDiagram-v2` — Claim escalation (natural → FPF when contested)
+
+**Phase 4 (Audience styling):**
+- `block-beta` или `graph TD` — 5 audiences с per-audience style/channel/time profile
+- `journey` — Per-audience reader journey (3 audiences × journey diagram = 3 diagrams)
+- `quadrantChart` — Audience preference (channel × time-budget)
+
+**Phase 5 (Mediation channels):**
+- `graph LR` — Channel × audience preference matrix
+- `journey` — Multi-channel sequence (Telegram intro → video → 1-on-1 → workshop)
+
+**Phase 6 (Time-budget optimization):**
+- `block-beta` — 25-cell matrix (5 budgets × 5 audiences) — visualized as colored grid
+- `xychart-beta` — Engagement quality vs time-investment
+
+**Phase 7 (Application к Jetix):**
+- `graph TD` — Recommendation × Jetix material × audience cross-reference
+- `sequenceDiagram` — Дмитрий pitch flow (per R12 paired-frame + Heath SUCCES)
+- `sequenceDiagram` — Левенчук pitch flow (long-form + 5 hooks + verbatim re-articulation)
+- `journey` — First-cohort partner journey from cold contact to enrolled
+
+### Quality criteria per diagram
+
+- ✅ **Dense (≥8 nodes)** — не trivial sketches
+- ✅ **Deep** — actual relationships shown
+- ✅ **Interesting** — color coding / subgraphs / styling
+- ✅ **Clear** — readable layout
+- ✅ **Cross-referenced** — diagrams cite each other где applicable
+- ✅ **Styling consistent** — use `%%{init: ...}%%` block с theme variables
+- ✅ **Annotated** — каждая diagram preceded by 2-3 sentence explainer
+
+### Storage
+
+- Embedded inline в `01..07-*.md` per-phase files
+- Also exported standalone в `research/communication-best-practices-2026-05-21/diagrams/` (one .md file per diagram для reuse)
+- Index: `research/communication-best-practices-2026-05-21/diagrams/_INDEX.md`
+
+---
+
+## §13 If blocked
 
 - Theory citation unverifiable → flag + best-effort summary
 - Audience styling cell ambiguous → preserve dissent AP-6

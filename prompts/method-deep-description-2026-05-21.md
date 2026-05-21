@@ -373,12 +373,99 @@ DONE Phase 9 — 10 commits / N files / Main deliverable METHOD-DEEP-DESCRIPTION
 - **EP-5 F-grade explicit** — F2 substrate + F3 brigadier analysis
 - **AP-6 dissent preservation** — surface dissent atoms если applicable
 - **FPF F-G-R triple** в frontmatter
-- **5+ mermaid diagrams** mandatory (visual substrate)
+- **⭐ 15-25 mermaid diagrams MANDATORY** (everywhere possible — see §13 diagram requirements)
 - **3+ concrete use cases** mandatory (anti-abstract)
 
 ---
 
-## §12 If blocked
+## §13 ⭐ Mermaid diagrams — MANDATORY density specification
+
+Per Ruslan voice 21.05 evening: «диаграммы очень плотные, глубокие, интересные, понятные. Везде где только можно».
+
+### Quantitative target
+- **MINIMUM 15 mermaid diagrams** (target 20-25) across all phases
+- Per Phase 1-8 — minimum 1-3 mermaid per phase
+- Density: ≥10 nodes per major diagram (избегай trivial 3-node sketches)
+
+### Mandatory diagram types (use diverse subset; не только flowchart)
+
+| Type | Use case в Method Deep-Description |
+|---|---|
+| `graph TD/LR` (flowchart) | Layer relationships / component hierarchies / data flow |
+| `stateDiagram-v2` | Hypothesis lifecycle / CRM state machine / AWAITING-APPROVAL gates / alpha-machinery states |
+| `sequenceDiagram` | Voice memo → wiki pipeline / R1 prose authoring flow / Outreach handshake |
+| `classDiagram` | Foundation 11 Parts inheritance / Hypothesis schema / FPF F-G-R triple structure |
+| `erDiagram` | Entity relationships (wiki entities / CRM contacts / hypothesis ↔ artefact bidirectional) |
+| `mindmap` | 31-component breakdown / canonical one-liner unpacking / 8-doc inventory |
+| `quadrantChart` | Method comparison axes (Левенчук / Karpathy / Naval / VSM) |
+| `timeline` | Sprint chronology / Foundation evolution / R12 LOCK milestones |
+| `gitGraph` | Branch/commit pattern для cycle execution |
+| `journey` | User journey through Jetix-method (founding partner / L1 engineer / etc.) |
+| `sankey-beta` | Information flow / value distribution (R12 paired-frame) |
+| `xychart-beta` | DR-26 take-rate scenarios visualization (if cross-cite) |
+| `block-beta` | Architecture block diagrams (Foundation + Pillar layers) |
+| `C4Context` (C4 model) | System context — Jetix interactions с external systems |
+
+### Per-section diagram requirements
+
+**Phase 1 (Canonical definition):**
+- `mindmap` — Canonical one-liner unpacking (метод × объединение × методов × улучшение × системы × самой себя)
+- `graph LR` — 8-doc inventory connecting map (Ruslan audio_709 claim 1)
+
+**Phase 2 (31-component breakdown):**
+- `mindmap` — 31 components grouped по 5 functional areas (root: Jetix Method → 5 branches × 6-7 components each)
+- `classDiagram` или `graph TD` — Component dependency relationships
+
+**Phase 3 (10 layers — MOST IMPORTANT):**
+- `block-beta` или `graph TD` — Full 10-layer stack visualization
+- `classDiagram` — Foundation 11 Parts + 8 Octagon LOCK inheritance
+- `graph LR` — ROY swarm hub-and-spoke routing (brigadier + 5 experts + 4 sub-brigadiers)
+- `erDiagram` — Wiki v2 entity types + edges
+- `stateDiagram-v2` — Hypothesis lifecycle (backlog → active → testing → confirmed/refuted)
+
+**Phase 4 (Mechanics):**
+- `sequenceDiagram` — Voice memo → transcribe → extract → wiki §APPEND pipeline (5-8 actors)
+- `sequenceDiagram` — R1 strategic prose flow (substrate compile → R1 prose → R12 audit → publish)
+- `stateDiagram-v2` — AWAITING-APPROVAL gate flow (Part 6b stage_gate)
+- `sequenceDiagram` — Outreach handshake (R12 paired-frame send / response / follow-up)
+
+**Phase 5 (8-doc inventory):**
+- `graph TD` — 8 docs × audience matrix
+- `journey` — Reader journey через 8 docs (per audience)
+
+**Phase 6 (Comparison):**
+- `quadrantChart` — Method comparison axes (depth vs breadth / abstract vs concrete)
+- `mindmap` — Левенчук substrate cross-cite map (5 books + 6 ⭐⭐⭐ chapters)
+- `classDiagram` — OMG Essence 7 alphas + state-graphs
+
+**Phase 7 (FPF role):**
+- `graph TD` — F2-F8 grade ladder с promotion gates
+- `classDiagram` — F-G-R triple structure (Formality / Group / Reliability fields + validation)
+- `stateDiagram-v2` — Claim promotion lifecycle (F2 → F4 → F5 LOCK)
+
+**Phase 8 (Use cases):**
+- `sequenceDiagram` per use case (3-5 use cases → 3-5 sequence diagrams)
+- `gitGraph` — Cycle commit pattern (per use case demonstrates KM MVP)
+
+### Quality criteria per diagram
+
+- ✅ **Dense (≥10 nodes)** — не trivial 3-node sketches
+- ✅ **Deep** — show actual relationships, not just labels
+- ✅ **Interesting** — use color coding / subgraphs / styling
+- ✅ **Clear** — readable layout; не overlap nodes
+- ✅ **Cross-linked** — referenced from multiple sections где applicable
+- ✅ **Styling consistent** — use `%%{init: ...}%%` block с theme variables (per prior batch diagrams pattern)
+- ✅ **Annotated** — каждая diagram preceded by 2-3 sentence explainer
+
+### Storage
+
+- Embedded inline в `01..08-*.md` per-phase files
+- Also exported standalone в `reports/method-deep-description-2026-05-21/diagrams/` (one .md file per diagram для reuse в future docs)
+- Index: `reports/method-deep-description-2026-05-21/diagrams/_INDEX.md` (list all diagrams + cross-link)
+
+---
+
+## §14 If blocked
 
 - Source document missing details → flag + best-effort from CLAUDE.md / Master Map cross-cite
 - Comparison axis substrate insufficient → flag + brief comparison only
