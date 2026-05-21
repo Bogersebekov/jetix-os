@@ -945,3 +945,30 @@ Surface'нутые researches/templates/candidates → **wiki + pool documents**
 **Next:** Ruslan reads Summary + Updated Execution Plan → acks D9-* decisions → executes (one-pager / pitch deck / DR-26 launch / hypothesis promote / Tier-1 ack queue).
 
 [src: `reports/voice-pipeline-2026-05-21-batch-9/00-SUMMARY-FOR-RUSLAN.md` + Phase 7 Updated Execution Plan + Phase 4 buckets + Phase 5 18 KAs]
+
+---
+
+## §APPEND-2026-05-21-Ruslan-ACK-all-D9 + scope expansion
+
+**Ruslan voice 2026-05-21 day** (post-batch-9 read):
+- ✅ **ACK ALL D9-***: D9-3 (DR-26 launch) + D9-4 (one-pager A-1+A-1b) + D9-6 (promote H-batch-9-06 + H-08 to active hypotheses) + D9-8 (§APPEND batch-9 to 6 wikis). Execute autonomously per ack.
+- ✅ **Scope expanded** beyond one-pager. Target = **«быстрая передача любому человеку колоссальной идеи за 30-60 min через FPF universal language testing thesis»**. 6 documents:
+  1. **One-pager** (на FPF языке + explicit mention что FPF тестируем как universal language for quick conveyance)
+  2. **Questions Pack** — детальный список конкретных вопросов на которые нужны ответы (особенно про % партнерам / кто join first-cohort)
+  3. **Tasks Pack** — все задачи на данный момент описать
+  4. **Development Plan** — план развития отдельно
+  5. **Experts Pack** ⭐ — описание всего по 5 ROY swarm experts; **ПЕРЕД всем — изучить эксперт раздел + перечитать «тело» (corpus) через эксперт lenses**
+  6. **DR-33 NEW «как лучше доносить информацию»** — глубокий research (Ruslan explicit ack launch via «глубокий ещё ресерч сделаем»)
+- ✅ **Order:** Experts Pack FIRST (ROY swarm 5-lens pass через corpus) → Questions / Tasks / Dev Plan compile → One-pager (FPF lang) → DR-33 parallel async
+- ✅ **Записать expanded scope в:** Daily Log 21.05 §APPEND / Hypothesis _log.md (H-batch-9-06 + H-08 promotion) / NEW dedicated plan `daily-logs/_EXPANDED-DOCS-PLAN-2026-05-21.md`
+
+**Server CC autonomous launches queued:**
+- `prompts/dr-26-unit-econ-deep-dive-2026-05-21.md` (D9-3) — runs ~8-12h
+- `prompts/expanded-docs-substrate-2026-05-21.md` (D9-4 + scope expansion + Experts Pack first) — runs ~6-10h
+
+**Deferred decisions:**
+- D9-11 (O-106 + O-107 Tier A standalone) — defer until Experts Pack cross-lens read
+- D9-12 / D9-13 (risk + HR review) — defer weekend reflection
+- D9-14 (Левенчук Week 2 substrate-sandwich) — unchanged ack accepted
+
+[src: Ruslan voice 2026-05-21 day post-batch-9-read explicit ack + scope expansion]

@@ -5,6 +5,36 @@
 
 ---
 
+## 2026-05-21 — Ruslan ACK D9-6 — promote 2 batch-9 hypothesis-candidates → active
+
+**Ack source:** Ruslan voice 2026-05-21 day post-batch-9-read «ack всё».
+
+**Candidates promoted (per Phase 7 Updated Execution Plan §3.3):**
+
+- **H-batch-9-06** «20-25% take rate sustainable + perceived-fair with responsibility-pact»
+  - Source: audio_710 claim 1-3 (Distribution Plan §6 R12 paired-frame)
+  - Status: pool-tagged → **active/** pending Ruslan hands-on `/hypothesis-add` (A-NEW-6 step)
+  - Gates: DR-26 unit-econ deep-dive (concurrent autonomous launch)
+  - Category: business / outreach
+  - F-grade: F2 → F3 progression possible if DR-26 corroborates
+
+- **H-batch-9-08** «"метод по объединению методов по улучшению системы самой себя" one-liner increases pitch conversion vs alternatives»
+  - Source: audio_712 claim canonical one-liner (O-107 Tier B pool entry)
+  - Status: pool-tagged → **active/** pending Ruslan hands-on `/hypothesis-add`
+  - Test design: A/B framing comparison первой Phase 1 outreach batch (Дмитрий + Левенчук + 14 Tier-1 ack queue)
+  - Category: outreach / language
+  - F-grade: F2
+
+**Next steps:**
+1. Ruslan hands-on `/hypothesis-add h-batch-9-06-take-rate-responsibility-pact` + `/hypothesis-add h-batch-9-08-method-method-one-liner` (~30-60 min combined)
+2. Auto-creates `active/H-006-*.md` + `active/H-007-*.md` per Hypothesis arch workflow
+3. First-real-use Hypothesis arch hands-on session (A-NEW-6 from Updated Plan)
+4. Tracking via `/hypothesis-dash` weekly
+
+**Cross-link:** `decisions/REFLECTION-INBOX-2026-05-16.md` §APPEND-2026-05-21-Ruslan-ACK-all-D9 + `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-21.md` §3.3.
+
+---
+
 ## 2026-05-20 — Phase 8 close: 5 starter samples + diagrams + final docs
 
 - 5 sample hypotheses в `samples/`:
