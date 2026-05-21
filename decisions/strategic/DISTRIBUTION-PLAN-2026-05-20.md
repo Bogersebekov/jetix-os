@@ -365,6 +365,89 @@ Current CRM state (pre-KA-03):
 
 **Mitigation:** Phase 1 outreach (Дмитрий + Левенчук) doesn't depend on KA-03 — these 2-3 contacts можно add manually NOW + initiate. KA-03 fills L1/L2 pipeline для Phase 3-4.
 
+### §5.7 Monetization substrate (DR-26 §APPEND 2026-05-21)
+
+> **§APPEND-DR-26-2026-05-21** — fills former placeholder. Substrate authored 2026-05-21 per DR-26 unit-econ deep-dive (Ruslan ack D9-3 explicit). NOT publicly locked; Ruslan R1 final decision pending per Pillar C Tier 2 rule 1.
+
+#### §5.7.1 Take rate band (provisional; per DR-26 recommendation memo)
+
+| Option | Take rate | Sustainability Y5 | R12 compliance | Best fit |
+|---|---|---|---|---|
+| Conservative | 15% | Negative -€465K cumulative | ✅✅ R12-exemplar | если external funding bridge Y1-Y3 secured |
+| **⭐ Ruslan-voiced (recommended default)** | **20-25% (22.5% midpoint)** | **Positive +€55.5K Y5** | **✅ Compliant с normal discipline** | **default operational hypothesis; matches voice anchor** |
+| Aggressive | 30% | Strong positive +€160K Y5 | ⚠️ Strict discipline needed | если substrate-delivery clearly 3-5× standard cohort platform |
+| Piecewise (25→15%) | gradient | Marginal positive Y5 | ✅ Charter-discipline | если cooperative-federation efficiency signal prioritised |
+
+**Full analytical substrate:** `research/unit-econ-deep-dive-2026-05-21/_RECOMMENDATION-MEMO.md`
+
+#### §5.7.2 Take rate split skeleton (per Phase 2 §3 distribution skeleton)
+
+Recommended split (sensitivity-adjustable):
+
+```
+T = R-component (50% of T)  → Workshop scaling reinvestment loop
+  + M-component (25% of T)  → Community matching pool (QF-style)
+  + O-component (25% of T)  → Foundation operations (Ruslan + brigadier + infrastructure)
+```
+
+At T = 22.5%:
+- R-component = 11.25% (Workshop reinvestment)
+- M-component = 5.625% (matching pool)
+- O-component = 5.625% (operations)
+- Member-direct = 77.5%
+
+#### §5.7.3 R12 constitutional anchors
+
+Per Pillar C Tier 2 rule 12 LOCKED 2026-05-12:
+
+- **Charter publishes take rate explicitly** at member signup (Reading A procedural)
+- **Mondragón-style ratio cap 5:1 default** (Reading B Mondragón-functional; Clan-configurable)
+- **Reinvestment loop articulation** + substrate-delivery commitment (Reading C outcome-based)
+- **Fork-and-leave protection** — member exit с preserved contribution + proportional treasury + no penalty
+- **Any take rate change post-ack** requires re-ack + 30-day opt-out window
+
+#### §5.7.4 Smart contract enforcement (Phase 2+ per R12 programmable Option D Hybrid)
+
+Per `swarm/awaiting-approval/r12-programmable-ethereum-2026-05-18.md` ack:
+
+- Mondragón ratio cap enforced programmatically
+- Quadratic Funding (Tang+Weyl) for matching pool distribution
+- RageQuit-style fork-and-leave exit tokens
+- Multi-sig 3-of-5 + 7-day time-lock + DAO quorum для contract upgrade
+- Per-Clan opt-in (each Clan deploys own enforcement contract)
+
+#### §5.7.5 R12 paired-frame language pattern для outreach
+
+Per Distribution Plan §4.5 pre-send checklist + Phase 5 §9:
+
+> «Jetix operates **20-25% Foundation institutional share** (details per Clan Charter); cohort members retain 75-80% direct distribution. Institutional share funds **Workshop scaling reinvestment loop** + **community matching pool** + **Foundation operations**. **Mondragón-style ratio cap 5:1** ensures payout-spread equity. **R12 fork-and-leave protection:** any member can exit с preserved contribution history + proportional treasury share + no penalty.»
+
+**SKIP language:**
+- ❌ «25% is final» numerical lock (Ruslan R1 not yet acked)
+- ❌ Numerical lock без Charter context
+- ❌ Specific EUR amounts (regional + scale-dependent)
+
+#### §5.7.6 Gates на final lock
+
+Per recommendation memo §4:
+- Ruslan R1 strategic decision (sole strategist authority)
+- Workshop pricing decision (Phase 1 baseline R per member)
+- Foundation operations cost reality assessment
+- External matching pool feasibility (Anthropic / Foundation / VC grant Y1-3)
+- A/B test data Phase 2 cascade post-Дмитрий/Левенчук feedback
+- DR-31 governance R12 boundary audit (P3 deferred)
+
+#### §5.7.7 Cross-reference DR-26 phase outputs
+
+- Phase 0: `research/unit-econ-deep-dive-2026-05-21/00-FPF-lens-scope.md`
+- Phase 1: `01-mondragon-cooperative-daos.md` (Mondragón + Gitcoin + RaidGuild + DXdao + Optimism RetroPGF + Aragon + Colony)
+- Phase 2: `02-qf-revenue-distribution.md` (QF mechanics + revenue distribution skeleton + R12 Ethereum compatibility)
+- Phase 3: `03-traditional-comparables.md` (marketplaces / SaaS / consulting / cooperatives / education)
+- Phase 4: `04-member-incentive-r12-edges.md` (member-incentive math + R12 anti-extraction edges)
+- Phase 5: `05-sensitivity-scenarios.md` (4 scenarios + sensitivity tables)
+- ⭐ Recommendation memo: `_RECOMMENDATION-MEMO.md`
+- Summary: `00-SUMMARY-FOR-RUSLAN.md`
+
 ---
 
 ## §6 Daily cadence schedule

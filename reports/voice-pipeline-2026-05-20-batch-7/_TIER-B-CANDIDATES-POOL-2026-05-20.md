@@ -270,6 +270,7 @@ Source: `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md` �
 - **O-106** ⭐ STRONG candidate — trigger: cross-batch reconfirm OR Ruslan direct ack «promote to Tier A standalone concept doc»
 - **O-107** — trigger: Ruslan ack «canonical one-liner ready» (post day-goal-21.05 one-pager incorporation)
 - **O-108** ⭐⭐ HIGH-PRIORITY — trigger: DR-26 unit-econ deep-dive complete (KA-36) → then §APPEND
+  - **STATUS UPDATE 2026-05-21:** DR-26 unit-econ deep-dive ⭐⭐ COMPLETE per Ruslan ack D9-3 explicit (9 phases / 9 commits / cost <€2). Recommendation memo at `research/unit-econ-deep-dive-2026-05-21/_RECOMMENDATION-MEMO.md`. 4 options surfaced (Conservative 15% / **⭐ Ruslan-voiced 20-25% recommended default** / Aggressive 30% / Piecewise 25→15%). Industry-grounded substrate: Mondragón + Gitcoin / RaidGuild / DXdao / Optimism RetroPGF + traditional comparables (Maven 10% / Coursera 50% / Ocean Spray 20%). Phase 5 sensitivity model 5-year. Distribution Plan §5.7 §APPEND-DR-26 fill complete. **READY FOR §APPEND partnership-baseline + unit-econ Direction Card** PENDING Ruslan R1 final lock decision (sole strategist per Pillar C Tier 2 rule 1; recommendation memo §8 surfaces 6 ack questions).
 - **O-109** — trigger: Ruslan ack «promote standalone wiki vs §APPEND partnership-baseline» — recommended §APPEND
 - **O-110** — trigger: ready when ack (cross-batch corroboration solid)
 - **O-111** — trigger: Ruslan ack «closed-loop canonical framing»
