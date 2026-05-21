@@ -254,3 +254,300 @@ Full details + tradeoffs: `reports/ai-market-analogy-PLAN-2026-05-22/06-unknowns
 ---
 
 *PLAN deliverable closure 2026-05-22. Stage 1 complete. Stage 2 = pending Ruslan PLAN review + 8-question ack + prompt update + launch.*
+
+---
+
+## §10 ⭐ Visual overview — 6 mermaid диаграмм (added per Ruslan voice 22.05)
+
+### §10.1 Diagram M1 — 4-block thesis → 6 topic groups → 27 research topics (`graph TD`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+graph TD
+    Voice([🎙️ Ruslan voice 22.05<br/>4-block thesis])
+
+    Voice --> B1[Block 1<br/>AI market state<br/>research]
+    Voice --> B2[Block 2<br/>Electricity analogy<br/>AI = electricity / Jetix = appliances]
+    Voice --> B3[Block 3<br/>Token cooperation<br/>overlay]
+    Voice --> B4[Block 4<br/>Economic effect<br/>favorable Jetix+partners]
+
+    B1 --> GA["📊 Group A<br/>AI market intelligence<br/>5 topics"]
+    B2 --> GB["⚡ Group B<br/>Electricity history<br/>5 topics"]
+    B2 --> GC["🔄 Group C ⭐⭐<br/>Analogy mapping<br/>3 topics"]
+    B2 --> GD["🏗️ Group D<br/>Jetix layering thesis<br/>3 topics"]
+    B3 --> GE["🪙 Group E ⭐⭐⭐<br/>Token cooperation<br/>V10 extension<br/>6 topics"]
+    B4 --> GF["💰 Group F<br/>Economic effect<br/>3 topics"]
+
+    GA --> T15[15-30 firms scan<br/>OpenAI/Anthropic/<br/>Google/Meta/xAI/etc]
+    GB --> TElec[1880-1930 history<br/>Edison/Tesla/Insull<br/>+REA cooperatives]
+    GC --> TMap["1:1 mapping table<br/>compute=electricity<br/>methods=appliances"]
+    GD --> TLay[Methods layer<br/>above compute]
+    GE --> TV10[Extends V10 Hybrid:<br/>ERC-1155 + ERC-5114<br/>+ Moloch + Mondragón]
+    GF --> TRisk[40 audit checkpoints<br/>R12 conformance]
+
+    Voice -.27 topics total + 2 stretch.-> Stretch[+2 stretch<br/>Comparable platforms<br/>AI safety governance]
+
+    style Voice fill:#ffe0a0,color:#000
+    style B2 fill:#d6f0d6,color:#000
+    style GC fill:#ffd6d6,color:#000
+    style GE fill:#ffd6d6,color:#000
+    style TV10 fill:#fff4e6,color:#000
+```
+
+### §10.2 Diagram M2 — 27 topics organized в 6 groups (`mindmap`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5'}}}%%
+mindmap
+  root)**AI Market + Electricity Analogy<br/>27 topics**(
+    **A: AI Market Intelligence** 📊
+      T1 Firm financials 15-30 firms
+      T2 Investment patterns 2023-2026
+      T3 Business models taxonomy
+      T4 Margin economics + unit econ
+      T5 M&A patterns recent
+    **B: Electricity History** ⚡
+      T6 Infrastructure 1880-1930
+      T7 Appliances ecosystem
+      T8 Workforce training IBEW
+      T9 Grid governance + REA
+      T10 Jetix wiki/ scan
+    **C: Analogy Mapping** 🔄⭐⭐
+      T11 One-to-one table
+      T12 Disanalogies + caveats
+      T13 Predictive value
+    **D: Jetix Layering** 🏗️
+      T14 Methods layer above compute
+      T15 Value-add per analogy
+      T16 Talent training analog
+    **E: Token Cooperation** 🪙⭐⭐⭐
+      T17 5-10 mechanisms V10 ext
+      T18 AI firm triple-role partner
+      T19 Acquisition mechanism
+      T20 Crisis rescue scenarios
+      T21 Cooperative case studies
+      T22 Recursive 25% к AI firms
+    **F: Economic Effect** 💰
+      T23 Token economic flow
+      T24 Favorable effects calc
+      T25 Risk surface 40 checkpoints
+    Stretch +2
+      T26 Comparable platforms
+      T27 AI safety governance
+```
+
+### §10.3 Diagram M3 — 18-phase Stage 2 timeline (`gantt`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','sectionBkgColor':'#f0f0f0','sectionBkgColor2':'#e0e0e0','altSectionBkgColor':'#e8e8e8','gridColor':'#cccccc','titleColor':'#000000'}}}%%
+gantt
+    title Stage 2 Full Research — 18-phase ~21-26h timeline (or 33-40h stretch)
+    dateFormat HH:mm
+    axisFormat %H:%M
+
+    section Meta (1h)
+    Phase 0 FPF + 30+ substrate           :p0, 00:00, 30m
+    Phase 1 Voice decode + scope          :p1, after p0, 30m
+
+    section Group A AI Market (6h)
+    Phase 2 Firm financials 15-30         :crit, p2, after p1, 2h
+    Phase 3 Investment patterns           :p3, after p2, 1h
+    Phase 4 Business models taxonomy      :p4, after p3, 1h
+    Phase 5 Margin + unit econ            :p5, after p4, 1h
+    Phase 6 M&A patterns                  :p6, after p5, 1h
+
+    section Group B Electricity (4.25h)
+    Phase 7 History 1880-1930             :p7, after p6, 1.5h
+    Phase 8 Appliances ecosystem          :p8, after p7, 1h
+    Phase 9 Workforce training            :p9, after p8, 45m
+    Phase 10 Grid governance + REA        :p10, after p9, 1h
+
+    section Group C Mapping ⭐⭐ (2h)
+    Phase 11 ⭐⭐ 1:1 analogy mapping       :crit, p11, after p10, 1.5h
+    Phase 12 Disanalogies + caveats       :p12, after p11, 30m
+
+    section Group D Layering (1.5h)
+    Phase 13 Jetix layering thesis        :p13, after p12, 1.5h
+
+    section Group E Token Coop ⭐⭐⭐ (3.5h)
+    Phase 14 Token cooperation variants   :crit, p14, after p13, 2h
+    Phase 15 Acquisition mechanism        :crit, p15, after p14, 1.5h
+
+    section Group F + Synthesis (2h)
+    Phase 16 Risk surface 40 checkpoints  :p16, after p15, 1h
+    Phase 17 Recommendation V11 candidate :crit, p17, after p16, 1h
+
+    section Closure (3h)
+    Phase 18 Mermaid pass 37-40 diagrams  :p18, after p17, 2h
+    Phase 19 Main deliverable + Summary   :crit, p19, after p18, 1h
+```
+
+### §10.4 Diagram M4 — 8 clarifying questions decision tree (`graph TD`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+graph TD
+    Start([🎯 Stage 2 launch<br/>requires 8 acks])
+
+    Start --> Q1{Q1<br/>AI firms<br/>scope?}
+    Q1 -- "Top 15 ⚡fast" --> Q1A[~21-26h baseline]
+    Q1 -- "30+ deep ⭐" --> Q1B[+4-6h]
+
+    Start --> Q2{Q2<br/>Electricity<br/>depth?}
+    Q2 -- "Surface" --> Q2A[baseline -2h]
+    Q2 -- "Deep Wiki ⚡default" --> Q2B[baseline]
+    Q2 -- "Extra-deep ⭐" --> Q2C[+4-6h]
+
+    Start --> Q3{Q3<br/>Acquisition<br/>variants?}
+    Q3 -- "5" --> Q3A[baseline -1h]
+    Q3 -- "7 default" --> Q3B[baseline]
+    Q3 -- "10 ⭐" --> Q3C[+2h]
+
+    Start --> Q4{Q4<br/>Crisis-rescue<br/>framing?}
+    Q4 -- "Conservative" --> Q4A[R12 cleanest]
+    Q4 -- "Mixed ⭐rec" --> Q4B[balanced]
+    Q4 -- "Active rescuer" --> Q4C[AP-6 implication]
+
+    Start --> Q5{Q5<br/>Token<br/>integration?}
+    Q5 -- "Extend V10" --> Q5A[clean continuity]
+    Q5 -- "Hybrid V10+V11 ⭐" --> Q5B[+1-2h | depth]
+    Q5 -- "New V11 only" --> Q5C[isolated]
+
+    Start --> Q6{Q6<br/>Geographic<br/>scope?}
+    Q6 -- "DACH only" --> Q6A[narrow]
+    Q6 -- "US+EU" --> Q6B[default]
+    Q6 -- "Global ⭐" --> Q6C[+1-2h]
+
+    Start --> Q7{Q7<br/>Timing?}
+    Q7 -- "Immediately" --> Q7A[launch ASAP]
+    Q7 -- "After Wave 1 fb" --> Q7B[defer 3-7d]
+
+    Start --> Q8{Q8<br/>Mermaid<br/>count?}
+    Q8 -- "30 min" --> Q8A[baseline -0.5h]
+    Q8 -- "35 default" --> Q8B[baseline]
+    Q8 -- "37-40 ⭐" --> Q8C[+0.5h]
+
+    Q1A & Q1B & Q2A & Q2B & Q2C & Q3A & Q3B & Q3C & Q4A & Q4B & Q4C & Q5A & Q5B & Q5C & Q6A & Q6B & Q6C & Q7A & Q7B & Q8A & Q8B & Q8C --> Launch([🚀 Stage 2 prompt<br/>update + launch])
+
+    Launch -- "All stretch ⭐" --> Stretch[~33-40h / <€10]
+    Launch -- "All defaults" --> Default[~21-26h / <€7]
+
+    style Start fill:#ffe0a0,color:#000
+    style Launch fill:#d6f0d6,color:#000
+    style Stretch fill:#ffd6d6,color:#000
+    style Default fill:#d6e0f0,color:#000
+```
+
+### §10.5 Diagram M5 — Two-stage process flow с положением на critical path (`sequenceDiagram`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5','edgeLabelBackground':'#ffffff'}}}%%
+sequenceDiagram
+    participant R as Ruslan
+    participant CC as Cloud Cowork<br/>(brigadier-scribe)
+    participant SCC as Server CC<br/>(autonomous)
+    participant Out as Deliverables
+
+    Note over R,Out: Stage 1 PLAN (DONE 22.05; 10m runtime)
+    R->>CC: voice dictation 4-block thesis (22.05 утро)
+    CC->>SCC: launch prompts/ai-market-electricity-analogy-PLAN
+    SCC->>SCC: 8 phases execute autonomous
+    SCC->>Out: PLAN deliverable + 7 phase files + Summary
+    Out->>R: 27 topics / 18-phase / 37 diagrams / 8 questions
+
+    Note over R,Out: NOW — Ruslan review window (~15-30 min)
+    R->>R: read PLAN deliverable
+    R->>R: ack 8 clarifying questions (Q1-Q8)
+    R->>CC: voice/text answers → prompt update
+
+    Note over R,Out: Stage 2 prompt build (~10-20 min Cloud Cowork)
+    CC->>CC: update prompt + EXPLAIN с answers
+    CC->>CC: push to main
+    CC->>R: surface launch command
+
+    Note over R,Out: Stage 2 Full Research (~21-40h depending on stretch)
+    R->>SCC: tmux session launch (paste prompt)
+    SCC->>SCC: 18-phase autonomous execution
+    SCC->>Out: Main deliverable ~30-50K words<br/>+ 5 sub-docs<br/>+ 37-40 mermaid<br/>+ 30-48 substrate sources
+    Out->>R: AI-MARKET-ELECTRICITY-ANALOGY consolidated
+
+    Note over R,Out: Critical path — НЕ блокирует Wave 1 outreach
+    R->>R: Wave 1 outreach launches 22.05 (parallel)
+    R->>R: One-pager R1 prose (24-26.05)
+    R->>R: Stage 2 results read когда done
+```
+
+### §10.6 Diagram M6 — V10 Hybrid → V11 candidate extension для AI firms (`classDiagram`)
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': {'primaryTextColor':'#000000','textColor':'#000000','lineColor':'#333333','primaryBorderColor':'#333333','primaryColor':'#fafafa','noteTextColor':'#000000','noteBkgColor':'#fff8d5'}}}%%
+classDiagram
+    class V10_Hybrid {
+        +ERC-1155 Triple-role NFT
+        +ERC-5114 Soulbound governance
+        +Moloch DAO RageQuit
+        +Mondragón 5:1 ratio cap on-chain
+        +Mondragón 60/40 internal routing
+        +Gitcoin QF matching pool
+        +ERC-20 utility token
+        +ERC-4337 account abstraction
+        +Recursive 25% L1/L2/L3
+        +Worker 75% pool
+        +R12 LOCK preserved
+        scope() : individual partners
+    }
+
+    class V11_Candidate_AI_extension {
+        +V10 base inherited
+        +Compute share token NEW
+        +Talent pooling mechanism NEW
+        +Crisis rescue trigger NEW
+        +AI firm acquisition vault NEW
+        +Distressed asset framework NEW
+        +Multi-firm cooperative routing NEW
+        +AI safety governance overlay NEW
+        scope() : AI firms institutional
+    }
+
+    class AI_Firm_Triple_Role {
+        +worker_role: compute_contribution
+        +investor_role: treasury_stake
+        +promoter_role: network_growth
+        +R12_audit_per_class: 4 classes
+        +Mondragón_ratio_check: 5:1
+        +RageQuit_eligible: yes
+        cooperate_with_Jetix() : token-based
+    }
+
+    class Crisis_Rescue_Triggers {
+        +capital_crunch: VC pullback
+        +regulatory_pressure: EU AI Act
+        +talent_retention: poaching
+        +distressed_sales: M&A targets
+        evaluate() : per-firm scoring
+        execute_acquisition() : V11 mechanism
+    }
+
+    class Recursive_25_to_AI {
+        +Layer1: AI_firm 25% → Jetix
+        +Layer2: 25% × system → управленцы
+        +Layer3: 25% × L2 → Ruslan
+        +Effective_Ruslan: 8.33%
+        +Workers_pool: 75%
+        validate_R12() : programmable
+    }
+
+    V10_Hybrid <|-- V11_Candidate_AI_extension : extends
+    V11_Candidate_AI_extension *-- AI_Firm_Triple_Role : implements
+    V11_Candidate_AI_extension *-- Crisis_Rescue_Triggers : monitors
+    V11_Candidate_AI_extension *-- Recursive_25_to_AI : applies
+    AI_Firm_Triple_Role ..> Recursive_25_to_AI : participates
+
+    note for V10_Hybrid "DONE 2026-05-21<br/>Recommended primary direction"
+    note for V11_Candidate_AI_extension "Stage 2 candidate<br/>EXTENDS V10 для AI firm scope"
+    note for AI_Firm_Triple_Role "Beyond-Mondragón innovation<br/>applied к institutional AI firms"
+```
+
+---
+
+*6 mermaid diagrams added 2026-05-22 per Ruslan voice request. Visual overview позволяет grasp Stage 2 scope без full reading. Stage 2 launch pending 8-question ack.*
