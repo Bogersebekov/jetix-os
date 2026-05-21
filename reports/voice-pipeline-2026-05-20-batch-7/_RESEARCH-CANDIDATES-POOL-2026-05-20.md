@@ -231,3 +231,80 @@ Source: `reports/voice-pipeline-2026-05-20-batch-8/05-candidates-3-buckets.md` �
 ---
 
 *Research pool extended batch-8 2026-05-20 evening. 17 items POOLED total. Не launched. Cherry-pick when ready.*
+
+---
+
+## §APPEND-batch-9-2026-05-21 — +8 NEW DR candidates (DR-25..DR-32)
+
+> Voice batch-9 (7 audio 707-713) surfaced 8 NEW research candidates. Per `feedback_research_pool_pattern.md` — POOLED, NOT auto-launched. Ruslan cherry-picks. Pool count: 17 → 25.
+
+#### DR-25 — Sensing/feeling as intellect-component cross-disciplinary scan
+
+- **Scope:** Map cognitive science literature (Damasio somatic markers / Kahneman intuition / Lakoff embodied cognition + Hofstadter strange loops) + Левенчук Интеллект-стек «эстетика»/«риторика» + K-4 12-component audit revisit для 13th component slot consideration + Polanyi tacit knowledge + Dreyfus phenomenology + Tony Hsieh «felt sense».
+- **Expected output:** ~2000w analysis + K-4 13th component slot decision + NDC-2 «embodied intellect» concept doc decision (promote / Tier B / preserve).
+- **Dependency:** None
+- **Priority hint:** P3 — informs NDC-2 + C.3 tech-brief substrate.
+- **Trigger:** Ruslan ack «sensing layer first-class» OR cross-batch corroboration.
+
+#### DR-26 ⭐⭐ — Unit-economics deep-dive — 20-25% take rate validation HIGHEST PRIORITY
+
+- **Scope:** Mondragón ratio (1:6 wage cap; institutional ~30% + reinvestment loop) applied к Jetix substrate detailed math + Y Combinator equity model comparison (~7% baseline; partnership-pact variant); fork-and-leave exit-token mechanism cost analysis (per H8 Ethereum substrate R12 programmable enforcement); sensitivity analysis 15-30% range; cohort intake feedback hypothesis substrate (H-batch-9-06).
+- **Expected output:** ~2500w unit-econ memo + math model + sensitivity range table + recommended Jetix take rate range + fork-and-leave exit-token cost estimate.
+- **Dependency:** Mondragón substrate (✓ ready K-2 + R12 anti-extraction); 8 Octagon LOCK H7/H8 substrate.
+- **Priority hint:** **P1 URGENT** — gates O-108 promotion + C.2 pitch deck monetization paragraph + Distribution Plan §5 fill.
+- **Trigger:** **Ruslan ack «launch DR-26»** — recommend immediate (unblocks day-goal-21.05 monetization paragraph).
+
+#### DR-27 — Closed-loop ecosystem dynamics literature scan
+
+- **Scope:** Systems Thinking literature (Meadows / Senge / Ashby) on positive feedback loops + ecosystem theory (Lovelock Gaia, Tegmark consciousness) + cooperative economics (Mondragón coop-of-coops, Cooperatives UK, Coop Bank) + Network State substrate (Balaji).
+- **Expected output:** ~1500w doc + closed-loop articulation refinement для O-111.
+- **Priority hint:** P3 — informs C.4 vision narrative L3 + O-111 promotion decision.
+- **Trigger:** Ruslan ack «closed-loop framing canonical».
+
+#### DR-28 — Humanity-self-awareness threshold philosophy / futurology scan
+
+- **Scope:** Philosophy of mind (Hofstadter strange-loop / Dennett / Chalmers consciousness) + Anthropic-principle literature (Tegmark Mathematical Universe, Wheeler «It from bit») + futurology (Bostrom Superintelligence, Kurzweil singularity) + Левенчук системная инженерия civilization-scale + Naval Ravikant / Vitalik Buterin substrate on civilization layer.
+- **Expected output:** ~2000w analysis + L3 narrative substrate enhancement for C.4 vision narrative.
+- **Priority hint:** **P2** — directly enhances day-goal-21.05 C.4 vision narrative substrate.
+- **Trigger:** Ruslan ack «launch для C.4 enhancement».
+
+#### DR-29 — Method-creation rate vs information-accumulation timing
+
+- **Scope:** Historical methodology timeline (scientific method evolution: Bacon → Galileo → Newton → Whitehead → Wiener cybernetics → Левенчук Методология 2025); meta-method evolution timeline; «info-accumulation → new-method» causal substrate validation; Kondratieff waves; Schumpeterian innovation cycles.
+- **Expected output:** ~1500w timeline doc + meta-method timing argument validation (corroborate / refute / nuance).
+- **Priority hint:** P3 — long-term substrate; gates timing-argument hubris check (R-batch-9-N3).
+- **Trigger:** Phase 7 risk mitigation prep.
+
+#### DR-30 — Partnership invitation language A/B test substrate
+
+- **Scope:** Outreach copy literature (Cialdini influence / Heath «Made to Stick» / GTD methodology / cohort intake research) + community-building literature (Seth Godin Tribes / Kevin Kelly 1000 true fans) + Mondragón initiation rituals + Y Combinator cohort intake language.
+- **Expected output:** ~1500w + 5 invitation language variants for A/B testing batch-9 «в одном корабле, помогаем, учимся, вносим вклад» language palette.
+- **Priority hint:** P3 — Phase 3 Distribution Plan cascade activation prep.
+- **Trigger:** Ruslan ack «A/B test substrate worth».
+
+#### DR-31 — Governance-layer boundary R12 audit
+
+- **Scope:** Coop governance literature (Ostrom commons / Henry George LVT / Coase «Nature of Firm» / Mondragón coop-of-coops detailed) + Tier 2 R12 anti-extraction primitive boundary case studies + Foundation Part 4 hub-and-spoke + H7 People-NS LOCK + H8 Ethereum substrate.
+- **Expected output:** ~1500w + R12 boundary articulation refinement для O-117.
+- **Priority hint:** P3 — Phase 7 R-batch-9-N4 risk mitigation; Distribution Plan §8 risks update.
+- **Trigger:** Phase 7 risk mitigation prep.
+
+#### DR-32 — Origin-story / bootstrap-credibility pitch A/B substrate
+
+- **Scope:** Pitch literature на «founder story» patterns + Karpathy / Jobs / Musk / Левенчук origin narratives substrate analysis + credibility-signaling theory (Sapir-Spence) + pitch-deck conversion research (Sequoia / Bessemer / a16z templates).
+- **Expected output:** ~1500w + 3 origin-story variants для A/B testing for C.2 pitch deck.
+- **Priority hint:** P3 — C.2 pitch deck refinement post-Phase-3 cascade.
+- **Trigger:** Ruslan ack «origin story variants worth A/B testing».
+
+### Pool maintenance batch-9 closure
+
+- All 8 batch-9 DRs = POOLED (not launched)
+- Per `feedback_research_pool_pattern.md` — Ruslan cherry-picks; brigadier writes prompt + launches AFTER ack
+- **DR-26 ⭐⭐ HIGHEST PRIORITY** recommended for immediate ack-and-launch (unblocks day-goal-21.05 unit-econ paragraph)
+- Pool total: 10 + 7 + 8 = **25 research items**; estimated total ~80-100h server CC autonomous if all run (~€4-6 cost)
+
+Source: `reports/voice-pipeline-2026-05-21-batch-9/05-candidates-3-buckets.md` §C.2
+
+---
+
+*Research pool extended batch-9 2026-05-21. **25 items POOLED total** (17 + 8). Не launched. Cherry-pick when ready. DR-26 ⭐⭐ recommended immediate ack.*

@@ -1789,3 +1789,37 @@ Voice batch-8 (6 audio 701-706, 20.05 afternoon 15:58 → 18:13, ~22 min) surfac
 - `decisions/REFLECTION-INBOX-2026-05-16.md` §APPEND-2026-05-20-evening-hypothesis-tables-decision
 
 [src: `hypotheses/_BUILD-LOG/00-SUMMARY-FOR-RUSLAN.md` + 9 per-phase commits + `prompts/scaffolding-hypotheses-architecture-2026-05-20.md`]
+
+---
+
+### §29 — Batch-9 Phase 4 candidates 2026-05-21
+
+**Voice batch-9** = 7 audio (audio_707..713; 21.05 утро→день 04:56→13:29) ≈ 50-55 min Ruslan dictation post-overnight-builds (Hypothesis arch + KA-03 CRM) + day-of one-pager goal.
+
+**Phase outputs:** 35 cells (7×5) + 98 datapoints 14-lens cross-analysis (L13 Hypothesis arch + L14 KA-03 CRM = 2 NEW lenses) + 15 Tier B candidates O-105..O-119 + 8 NEW DR DR-25..DR-32 + 9 hypothesis-candidates H-batch-9-01..09 + 18 Key Actions KA-30..KA-47.
+
+**Tier A auto-promotions:** ZERO batch-9 — все candidates → Tier B pool extensions OR §APPEND-existing-wiki recommendations (per «без сверхъестественного нового» Ruslan posture batch-9).
+
+**Existing objects strengthened (§APPEND candidates Phase 6):**
+
+- `wiki/concepts/partnership-baseline.md` — §APPEND-batch-9 (O-109 responsibility-pact + O-116 «в одном корабле» invitation + O-117 governance-layering)
+- `wiki/concepts/project-of-humanity-positioning.md` — §APPEND-batch-9 (O-106 desire-to-live + O-111 closed-loop ecosystem)
+- `wiki/concepts/method-systems-thinking.md` — §APPEND-batch-9 (O-107 canonical one-liner «метод по объединению методов» + O-110 установка-precedes-method + O-112 trial-and-error legitimation)
+- `wiki/concepts/jetix-as-exokortex.md` — §APPEND-batch-9 (O-106 desire-to-live + O-118 «тягучка зависимость от жизни» voice phrase)
+- `wiki/concepts/mastery-formula.md` — §APPEND-batch-9 (O-105 two-tier intellect + O-112 trial-and-error + O-119 self-validation bootstrap)
+- `wiki/concepts/sense-of-measure.md` — §APPEND-batch-9 (O-105 sensing-as-intellect-component)
+
+**SKIP-list integrity:** ✅ O-62/O-66/O-67/O-68 NOT re-surfaced batch-9.
+
+**R12 paired-frame audit:** 4/4 R12-relevant claims (audio_708 «запихаю»/audio_710 «20-25%»/audio_711 «управляет смыслами»/audio_712 «могут платить») паrированы verbatim.
+
+**Constitutional posture preserved:** R1/R2/R6/R11/R12/IP-1/EP-5/AP-6/append-only/research-pool-pattern.
+
+**Hypothesis migration:** 2 batch-9 hypotheses promotable via `/hypothesis-add` (H-batch-9-06 take rate + H-batch-9-08 one-liner conversion); 5 pool-tagged in Tier B entries; 2 deferred (frame-level / DR scope).
+
+**Pool counts updated:**
+- Tier B: 22 → **37 candidates** (batch-9 +15)
+- DR pool: 17 → **25 research items** (batch-9 +8; DR-26 ⭐⭐ HIGHEST PRIORITY — unit-econ deep-dive)
+- Hypothesis pool: 5 starter + 7 batch-9-tagged + 2 promotable = **14 hypothesis items**
+
+[src: `reports/voice-pipeline-2026-05-21-batch-9/05-candidates-3-buckets.md` + `06-key-actions-list.md` + per-audio MD `raw/voice-memos-2026-05-21-batch/audio_707..713@*.md` + 8 commits per-phase batch-9]

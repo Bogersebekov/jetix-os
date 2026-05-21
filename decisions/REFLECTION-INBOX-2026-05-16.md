@@ -885,3 +885,63 @@ Surface'нутые researches/templates/candidates → **wiki + pool documents**
 **Next:** Ruslan reads Summary + Updated Execution Plan → acks D8-* decisions → execute (one-pager drafting / KA-launch / cadence start).
 
 [src: `reports/voice-pipeline-2026-05-20-batch-8/00-SUMMARY-FOR-RUSLAN.md` + Phase 7 Updated Execution Plan + Phase 4 buckets + Phase 5 14 KAs]
+
+---
+
+## §APPEND-2026-05-21-batch-9 — Voice Batch-9 Deep Analysis (7 audio 707-713)
+
+**Voice batch-9** = 7 audio (audio_707..713; 21.05 утро→день 04:56→13:29) ≈ 50-55 min Ruslan dictation. Server CC Cloud Cowork autonomous 9-phase deep analysis. Per-phase commit + push.
+
+### Phase outputs batch-9
+
+- ✅ Phase 0 FPF lens scope (14 lenses with L13 Hypothesis arch + L14 KA-03 CRM = 2 NEW)
+- ✅ Phase 1 7 transcripts (Groq Whisper)
+- ✅ Phase 2 7 per-audio MD + 35 cells (7×5) + FPF lens jetix track
+- ✅ Phase 3 14-lens cross-analysis (98 datapoints = 7×14)
+- ✅ Phase 4 3 candidate buckets: ZERO Tier A / 15 Tier B O-105..O-119 / 8 NEW DR DR-25..DR-32 / SKIP-list clean
+- ✅ Phase 5 18 Key Actions KA-30..KA-47 (≥10 minimum exceeded; 13/18 day-goal-21.05 supportive)
+- ✅ Phase 6 §APPEND inventory §29 + REFLECTION-INBOX (this entry) + Daily Log 21.05 + pool extensions
+- ✅ Phase 7 ⭐⭐ Updated Execution Plan `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-21.md` synthesizing FINAL v2 + overnight builds + batch-9 + day-goal-21.05
+- ✅ Phase 8 Summary + final push
+
+### Top 5 ⭐⭐⭐ findings batch-9
+
+1. ⭐⭐⭐ audio_709 explicit 8-doc inventory voiced (claim 1) — direct day-goal-21.05 1:1 map: «метод обработки информации + кто я + наработки + чем занимаюсь + планы корпорации + планы на мир + описание метода + возможности при работе со мной»
+2. ⭐⭐⭐ audio_712 canonical one-liner «метод по объединению методов по улучшению системы самой себя» — pitch-hook ready
+3. ⭐⭐⭐ audio_710 «20-25% take rate» VERBATIM — first unit-econ numeric anchor (R12 paired-frame responsibility-pact intact)
+4. ⭐⭐⭐ audio_709 «desire-to-live = primary info-valve» — Tier A concept-doc candidate (Tier B O-106 pending cross-batch reconfirm)
+5. ⭐⭐⭐ audio_709 «humanity at self-awareness threshold» = Jetix mission L3 frame articulated
+
+### Decision queue D9-* (Ruslan ack ≤5 min reflection each — populated)
+
+| ID | Decision | Type | Time-to-ack |
+|---|---|---|---|
+| **D9-1** | Approve 15 Tier B candidates O-105..O-119 pool extension | ack pool | 5 min |
+| **D9-2** | Approve 8 DR candidates DR-25..DR-32 pool extension | ack pool | 5 min |
+| **D9-3** ⭐ | KA-36 DR-26 unit-econ deep-dive launch (gates O-108 + C.2 pitch + DP §5 monetization) | execute IA URGENT | 5 min ack + 8-12h autonomous |
+| **D9-4** ⭐ | KA-30 one-pager compile launch (day-goal PRIMARY; brigadier 2h + Ruslan 2-4h strategic prose) | execute IA | 5 min ack |
+| **D9-5** | KA-31..KA-34 C.2/C.3/C.4/C.5 детальные документы compile (day-goal-21.05 details) | execute IA after KA-30 | per-doc 5 min ack |
+| **D9-6** ⭐ | KA-35 promote H-batch-9-06 + H-08 to active hypotheses via `/hypothesis-add` (first real hypothesis post-overnight-build) | execute IA | 15-30 min |
+| **D9-7** | KA-37 Tier-1 ack queue review (14 names KA-03) — статусирование | execute IA | 30 min × 14 = 7h batched |
+| **D9-8** | KA-38 §APPEND batch-9 to 6 existing wikis (partnership / project-humanity / method / exokortex / mastery / sense-of-measure) | execute IA mechanical | 5 min ack + 3h |
+| **D9-9** | KA-40 Hypothesis arch hands-on first use (30-60 min session) | execute IA | 5 min ack |
+| **D9-10** | KA-45 use cases C.6 compilation — substrate sparse batch-9; needs additional Ruslan dictation | backlog-ack | depends Ruslan |
+| **D9-11** | Tier A promotion candidates O-106 (desire-to-live) + O-107 (one-liner) — promote standalone vs §APPEND | strategic decision R1 | 15 min |
+| **D9-12** | R-batch-9-N1..N4 risk update accept (unit-econ slippage / self-validation abductive / timing-argument hubris / governance R12 boundary) | constitutional review | 15-30 min |
+| **D9-13** | HR-1..HR-6 batch-9 high-risk items review (aggressive tone backfire substrate vs pitch paraphrase needs) | constitutional review | 15-30 min |
+| **D9-14** | KA-39 Левенчук pitch (Week 2 27.05-2.06) substrate-sandwich integration ack | execute IA Week 2 | 5 min ack |
+
+### Constitutional posture preserved batch-9
+
+- ✅ R1 / R2 / R6 / R11 / R12 / IP-1 / EP-5 / AP-6 / append-only / research-pool-pattern
+- ✅ SKIP-list (O-62/O-66/O-67/O-68) untouched — NOT re-surfaced batch-9
+- ✅ R12 paired-frame audit 4/4 R12-relevant claims paired verbatim
+- ✅ Breadth-NOT-selection (18 KAs surfaced — Ruslan picks)
+
+### Phase 7 ⭐⭐ output
+
+`daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-21.md` — synthesizes Execution Plan FINAL v2 (7 A-actions) + overnight builds (Hypothesis arch + KA-03 CRM) + Daily Log 21.05 goal-of-day (one-pager + детальные документы) + batch-9 findings → updated A-N roadmap.
+
+**Next:** Ruslan reads Summary + Updated Execution Plan → acks D9-* decisions → executes (one-pager / pitch deck / DR-26 launch / hypothesis promote / Tier-1 ack queue).
+
+[src: `reports/voice-pipeline-2026-05-21-batch-9/00-SUMMARY-FOR-RUSLAN.md` + Phase 7 Updated Execution Plan + Phase 4 buckets + Phase 5 18 KAs]
