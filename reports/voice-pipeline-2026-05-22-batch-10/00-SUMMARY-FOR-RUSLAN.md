@@ -205,3 +205,55 @@ R-batch-10 N1-N8 (burnout / monopoly / universal-claim / homo deus / нет пл
 ---
 
 *Phase 8 closure 2026-05-22. Per `feedback_max_density_max_tokens.md` ~1450w. Per `feedback_constitutional.md` R1 — brigadier surfaces, Ruslan strategizes. ✅ 9 phases / 9 commits / ALL preservation invariants PASS / Phase 7 primary value-add ready.*
+
+
+---
+
+## §APPEND-supplement-audio_721 highlights (2026-05-22 lunchtime)
+
+> 6 phases / 6 commits supplement. 1 audio audio_721 (22.05 12:11 ~6-8 min ~1.84 MB).
+
+### Supplement TL;DR (≤150w)
+
+**Primary value-add:** External-system-required-for-self-management cybernetic principle articulated (audio_721 claim 5-6) — direct Ashby Requisite Variety + Beer VSM System 4+5 + Meadows feedback-from-outside analogue. **5 new substrate clusters** added: O-128 cybernetic principle ⭐⭐⭐ / O-129 unified framework (FPF+meta-method+blockchain+company-as-code+life-as-code) / O-130 ученик-учитель pair > single + dynamic role-swap / O-131 20-perspectives pluralism on meta-method base / O-132 recursive 4-layer meta-method. **⭐ Standalone Insights Report** `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md` (2200w + 4 mermaid) ready. **7 D10-supp-* decisions** added к queue (compound с batch-10). **R12 LOCK + 11 acked-LOCKs preserved ✅ PASS.**
+
+### Supplement counts
+
+| Metric | Batch-10 baseline | + Supplement | Total |
+|---|---|---|---|
+| Audio processed | 7 | +1 | 8 |
+| Datapoints (16-lens) | 112 | +16 | 128 |
+| Tier B candidates | +8 | +5 | 50 pool |
+| DR research candidates | +6 | +2 | 33 pool |
+| Hypothesis candidates | +7 | +2 | 23 pool |
+| Key actions | 14 | +5 | 19 |
+| D10-* decision items | 10 | +7 | 17 |
+| Commits | 9 | +6 | 15 |
+| Cost estimate | <€3 | <€1 | <€4 total |
+
+### Top 3 supplement items для immediate
+
+1. **Read** `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md` (2200w + 4 mermaid; ~10 min read)
+2. **Ack D10-supp-1..D10-supp-7** в REFLECTION-INBOX §APPEND-batch-10-supplement
+3. **Optional immediate launch:** DR-40 cybernetic benchmarks (substantiates O-128 ⭐⭐⭐ strongest supplement candidate)
+
+### Critical preservation supplement ✅ ALL PASS
+
+- R12 LOCK verbatim preserved
+- V10 + 25% + $100K + Optimism + Q3 + funding mix LOCKED — voice silent на tokenomics; adjacency cross-link только
+- O-83 cheat-code DROPPED honored — audio_721 «читерство по управлению» context-DISTINCT (3rd batch-10 cheat-code-metaphor instance after audio_720 intellect-cheat-code); pattern preserved as canonical audit-trail note opportunity (KA-54)
+- O-106 §APPENDED не duplicated
+- O-107 PROMOTED Tier A не recreated (PRIMARY §APPEND target via KA-52)
+- SKIP-list O-62/O-66/O-67/O-68 honored
+- AI Market Stage 2 18-phase scope FIXED-DEFERRED preserved
+
+### Where to go next
+
+→ **READ Standalone Insights Report** (primary supplement deliverable)
+→ **READ Updated Plan §APPEND-supplement section** в `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md`
+→ **CONTINUE day-goal-22.05:** one-pager + Дмитрий созвон (supplement substrate enriches narrative w/ external-system + dynamic role-swap dimensions)
+→ **ACK D10-supp-* items** в REFLECTION-INBOX
+
+---
+
+*Supplement closure 2026-05-22. Per `feedback_max_density_max_tokens.md` — Summary supplement ~400w. Per `feedback_constitutional.md` R1 — brigadier surfaces, Ruslan strategizes. ✅ 6 phases / 6 commits / ALL preservation invariants PASS / Standalone Insights Report ready.*

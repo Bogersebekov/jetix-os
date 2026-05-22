@@ -569,3 +569,75 @@ flowchart TD
 ---
 
 *Phase 7 closure 2026-05-22. Per `feedback_max_density_max_tokens.md` — Phase 7 = primary value-add; max density applied (~4200w + 11 mermaid diagrams). Per `feedback_constitutional.md` R1 — brigadier surfaces, не resolves. Phase 8 input ready.*
+
+
+---
+
+## §APPEND-supplement-audio_721 (2026-05-22 lunchtime)
+
+Per voice batch-10 supplement autonomous run (1 audio audio_721 22.05 12:11 ~6-8 min). 6 phases / 6 commits. Augments этот Updated Plan (NOT supersedes).
+
+### Что нового добавилось vs batch-10 baseline
+
+| Layer | Supplement addition | Treatment |
+|---|---|---|
+| L13 Method V2 §J + §H | ⭐⭐⭐ External-system-required cybernetic principle (Ashby Requisite Variety + Beer VSM System 4+5 + Meadows feedback-from-outside) + 4-layer recursive meta-method + 20-perspectives pluralism scaling | PRIMARY §APPEND target — compound с D10-1 batch-10 via KA-51 |
+| O-107 Tier A wiki | Cybernetic principle + 4-layer recursion + pluralism + dynamic role-swap | PRIMARY §APPEND target — compound с D10-3 batch-10 via KA-52 |
+| Foundation Part 4 hub-and-spoke + partnership-baseline | Dynamic role-swap by task-context + competence-based partner-management + sequential expert-rotation life-example | §APPEND via KA-53 |
+| Master Packaging Step 6 «вижу как» | Unified framework: FPF + meta-method + blockchain + company-as-code + life-as-system-as-code | §APPEND opportunity |
+| L14 Phase 7 first-customer narrative | Sequential expert-rotation life-example (psychologist → sales-teacher) substrate | adjacency cross-link |
+| L15 V10 triple-role NFT (LOCK preserved) | Adjacency: competence-based dynamic role mechanism = ERC-1155 worker/manager/holder analog (NOT challenge) | cross-link only |
+| L16 AI Market Stage 1 electricity analogy (LOCK preserved) | AI = «more knowledgeable external system» = electricity analogy substrate strengthened | substantiation only |
+
+### Supplement decision queue additions (compound с batch-10 D10-*)
+
+| ID | Decision | Compound | Priority |
+|---|---|---|---|
+| D10-supp-1 | §APPEND L13 §J cybernetic principle | compound D10-1 batch-10 | P1 ⭐⭐⭐ |
+| D10-supp-2 | §APPEND O-107 Tier A wiki cybernetic + 4-layer + pluralism | compound D10-3 batch-10 | P1 ⭐⭐⭐ |
+| D10-supp-3 | §APPEND partnership-baseline dynamic role-swap | standalone | P2 |
+| D10-supp-4 | O-83 context-distinction CANONICAL audit-trail note (3-instance pattern) | standalone discipline | P2 |
+| D10-supp-5 | DR-40 immediate launch cybernetic benchmarks | pool decision | P2 |
+| D10-supp-6 | Tier B promotion O-128..O-132 (5 candidates) | pool decision | pool |
+| D10-supp-7 | Read Standalone Insights Report | execute today | P1 ⭐⭐ |
+
+### Pools updated supplement
+
+- Tier B: 45 → **50 candidates** (supplement +5; O-128..O-132)
+- DR pool: 31 → **33 research items** (supplement +2; DR-40..DR-41)
+- Hypothesis pool: 21 → **23 hypothesis items** (supplement +2; H-batch-10-supp-08..09)
+- Key actions: 14 → **19 total** (supplement +5; KA-51..55)
+
+### Risks update supplement (3 NEW HR + 1 RECURRENT pattern)
+
+- **HR-1-supp** *[audio_721 claim 8]* «партнёры берут управление основной системой» — R12 paired-frame partial; soften discipline
+- **HR-2-supp** *[audio_721 claim 5]* «не может сама себя адекватно управлять» universal-claim — soften discipline
+- **HR-3-supp** *[audio_721 claim 15]* «читерство по управлению» — 3rd batch-10 cheat-code-metaphor instance; pattern indicates Ruslan free voice-use в substrate ≠ public-positioning; preserve verbatim NOT revive O-83
+
+### R12 LOCK + 11 acked-LOCKs preservation supplement ✅ PASS
+
+ALL preserved. Voice silent on tokenomics. Only adjacency cross-link к V10 triple-role NFT + L16 AI as external system.
+
+### Standalone deliverable supplement
+
+**⭐ `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md`** — 2200w + 4 mermaid; standalone analysis of audio_721 ready for Ruslan post-Дмитрий созвон read.
+
+### Updated Wave 1 immediate-actionable items (supplement compound)
+
+- **W1-A-22-7 (NEW)** ⭐ Read Standalone Insights Report (D10-supp-7; ~10 min)
+- **W1-A-22-8 (NEW)** ⭐ KA-54 O-83 context-distinction audit-trail note (D10-supp-4; 30m)
+- **W1-A-22-9 (NEW)** Optional DR-40 launch (D10-supp-5)
+- **W1-A-22-1..6** preserved (одна-pager + Дмитрий созвон + timeline reconcile + Updated Plan read + §APPEND L13 + §APPEND O-107 + soften pass)
+
+### Supplement commit log
+
+1. Phase 0 transcribe + 5-cell + FPF audio_721 (2f9ab0e)
+2. Phase 1 16-lens cross-analysis (16 new datapoints; total 128) (dcf846b)
+3. Phase 2 candidates + KA update (9d24fe3)
+4. Phase 3 §APPEND inventory/inbox/log/pools (146dd80)
+5. Phase 4 ⭐ Standalone Insights Report (f408d53)
+6. Phase 5 Updated Plan §APPEND + Summary supplement + final push [this commit]
+
+---
+
+*Supplement closure 2026-05-22. Per `feedback_constitutional.md` R1 — brigadier surfaces, не resolves. Per `feedback_max_density_max_tokens.md` — substrate density max applied. Cost <€1.*
