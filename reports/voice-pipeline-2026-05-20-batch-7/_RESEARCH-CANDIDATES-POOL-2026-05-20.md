@@ -380,12 +380,19 @@ Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` 
 
 Per autonomous voice batch-10 supplement run (1 audio audio_721). Per `feedback_research_pool_pattern.md` — POOLED, NOT auto-launched.
 
-#### DR-40 ⭐ — External-system-required cybernetic principle benchmarks
+#### DR-40 ⭐ — External-system-required cybernetic principle benchmarks — **COMPLETED 2026-05-22**
 
 - **Scope:** Cybernetic foundation literature (Ashby «Introduction to Cybernetics» Law of Requisite Variety + W.R. Ashby «Design for a Brain» / Stafford Beer «Brain of the Firm» Viable System Model System 4 intelligence + System 5 policy / Beer «Designing Freedom» / Donella Meadows «Thinking in Systems» feedback-from-outside discipline / Peter Senge «Fifth Discipline» 11 laws / Sutton-Barto «Reinforcement Learning» actor-critic architecture / Andrej Karpathy «teacher-student model distillation» / Michael Polanyi «Personal Knowledge» tacit-knowledge master-apprentice transmission / Lev Vygotsky Zone of Proximal Development).
 - **Expected output:** ~1500w + cybernetic principle validation для O-128 + theoretical grounding для L13 §J external-layer + Ashby Requisite Variety mathematical formalisation + actor-critic RL analogue mapping.
 - **Priority hint:** P2 — substantiates O-128 STRONGEST supplement candidate; foundational substrate; gates promotion.
 - **Trigger:** Ruslan ack D10-supp-5 «DR-40 immediate-launch candidate»; recommended immediate launch.
+- **✅ COMPLETED 2026-05-22.** 11 phases / 49+ sources / 15 mermaid / 28+ dissent atoms; six cybernetic traditions (Ashby+Beer+Maturana-Varela+Meadows+Bateson+Hofstadter) + modern AI (RLHF/MoE/multi-agent debate) substantiate O-128 P1-P5. Three-reading articulation (strong/medium/weak) surfaced per R1.
+- **Outputs:**
+  - Main: `decisions/strategic/DR-40-CYBERNETIC-EXTERNAL-SYSTEM-2026-05-22.md`
+  - Companion deep dive: `decisions/strategic/EXTERNAL-SYSTEM-PRINCIPLE-DEEP-2026-05-22.md`
+  - Phase files: `research/dr-40-cybernetic-external-system-2026-05-22/00-10-*.md` (11 files)
+  - Diagrams INDEX: `research/dr-40-cybernetic-external-system-2026-05-22/diagrams/INDEX.md`
+- **6 open questions surfaced for Ruslan ack** per R1 (articulation choice / Foundation slot / R12 programmable / O-128 promotion / Workshop launch / §APPEND L13 timing).
 
 #### DR-41 — Dynamic expert-rotation by task-context benchmarks
 
