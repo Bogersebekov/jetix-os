@@ -1145,3 +1145,62 @@ Tier B 45 / DR 31 / Hypothesis 21.
 
 [src: `reports/voice-pipeline-2026-05-22-batch-10/` 9 phases]
 
+
+
+---
+
+## §APPEND-batch-10-supplement (2026-05-22 audio_721)
+
+Per voice batch-10 supplement autonomous run (1 audio audio_721@22-05-2026_12-11-58, ~6-8 min ~1.84 MB). 5 NEW key actions (KA-51..55), 5 NEW Tier B (O-128..O-132), 2 NEW DR (DR-40..DR-41), 2 NEW hypothesis. **Primary value-add:** Standalone Insights Report `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md`.
+
+### D10-supp-1 — §APPEND L13 Method V2 §J w/ external-system-required cybernetic principle (compound с D10-1 batch-10) [P1 ⭐⭐⭐]
+
+**Substrate:** audio_721 claim 5-6, 14 — Ashby Requisite Variety analogue + Beer VSM System 4+5 corroboration + Meadows feedback-from-outside + 4-layer recursive meta-method «подход к выбору подхода для разработки подхода» + 20-perspectives pluralism scaling thesis.
+
+**Ack question for Ruslan:** Proceed §APPEND L13 §J w/ supplement substrate compound with batch-10 D10-1?
+
+### D10-supp-2 — §APPEND O-107 Tier A wiki w/ supplement substrate (compound с D10-3 batch-10) [P1 ⭐⭐⭐]
+
+**Substrate:** audio_721 entire cluster extends O-107 canonical with cybernetic principle + 4-layer recursion + pluralism + dynamic role-swap.
+
+**Ack question for Ruslan:** Proceed §APPEND O-107 Tier A wiki w/ supplement compound batch-10 D10-3?
+
+### D10-supp-3 — §APPEND partnership-baseline + Foundation Part 4 hub-and-spoke w/ dynamic role-swap + competence-based partner-management [P2]
+
+**Substrate:** audio_721 claim 7-12 — ученик-учитель pair > single + dynamic role-swap by task-context + sequential expert-rotation life-example (psychologist → sales-teacher).
+
+**Ack question for Ruslan:** Proceed §APPEND partnership-baseline + Foundation Part 4?
+
+### D10-supp-4 — O-83 context-distinction CANONICAL audit-trail note [P2]
+
+**Substrate:** 3 batch-10 instances of cheat-code-related metaphor recurrence (audio_720 intellect-cheat-code + audio_721 management-cheat-code + future-instances pattern). Ruslan free voice-use в substrate ≠ Jetix-as-cheat-code public-positioning.
+
+**Ack question for Ruslan:** Confirm «cheat-code metaphor freely в substrate ≠ public-positioning» — proceed audit-trail note? Future voice instances → preserve verbatim per pattern, NOT revive O-83.
+
+### D10-supp-5 — DR-40 immediate launch cybernetic principle benchmarks (substantiates O-128 ⭐⭐⭐ strongest supplement candidate) [P2 — pool]
+
+**Substrate:** DR-40 substrate (Ashby + Beer VSM + Senge + Meadows + Sutton-Barto + Karpathy + Polanyi). Per pool pattern — POOLED, Ruslan cherry-picks.
+
+**Ack question for Ruslan:** Launch DR-40? Recommended immediate. Default = preserve pool.
+
+### D10-supp-6 — Tier B promotion O-128..O-132 (5 candidates) [pool decision]
+
+**Substrate:** 5 NEW Tier B candidates supplement. O-128 ⭐⭐⭐ strongest (cybernetic principle). Per «без сверхъестественного нового» posture continued.
+
+**Ack question for Ruslan:** Cherry-pick any для Tier A promotion? Default = preserve pool; O-128 first candidate.
+
+### D10-supp-7 — Standalone Insights Report read [PRIMARY P1 ⭐⭐]
+
+**Substrate:** `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md` — standalone deliverable per supplement Phase 4 mandate (~2000w + 4 mermaid).
+
+**Ack question for Ruslan:** Read Insights Report → ack D10-supp-1..D10-supp-6 → pick 1-2 immediate.
+
+### Constitutional summary supplement
+
+R1 / R2 / R6 / R11 / R12 LOCK / IP-1 / EP-5 / AP-6 / append-only / research-pool / SKIP-list / acked-state ALL preserved. NO LOCK content modified. NO strategic prose brigadier-authored. 6 commits per-phase + push.
+
+### Pool counts supplement closure
+
+Tier B 50 / DR 33 / Hypothesis 23.
+
+[src: `reports/voice-pipeline-2026-05-22-batch-10/` supplement Phases 0-5 + `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md`]

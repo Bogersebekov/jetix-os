@@ -1888,3 +1888,64 @@ R1 (brigadier surfaces, Ruslan strategizes) / R2 (LOCK content read-only) / R6 (
 
 [src: `reports/voice-pipeline-2026-05-22-batch-10/` 9 phases + per-audio MD `raw/voice-memos-2026-05-22-batch/audio_714..720@*.md` + 9 commits per-phase batch-10]
 
+
+
+---
+
+## §30-supplement — audio_721 inventory additions (2026-05-22)
+
+Per voice batch-10 supplement (1 audio audio_721@22-05-2026_12-11-58, ~6-8 min ~1.84 MB). 16-lens cross-analysis = 16 NEW datapoints (total 128 batch-10 + supplement).
+
+### NEW substrate adjacencies from audio_721
+
+| Existing object/concept | Supplement extension | Source |
+|---|---|---|
+| L13 Method V2 §J + §H | ⭐⭐⭐ External-system-required-for-self-management cybernetic principle (Ashby/Beer/Meadows) + 4-layer recursive meta-method + 20-perspectives pluralism scaling | audio_721 claim 5-6, 13-14 |
+| L13 Method V2 §I distribution + Foundation Part 4 hub-and-spoke | Dynamic role-swap by task-context + competence-based partner-management + sequential expert-rotation life-example | audio_721 claim 7-12 |
+| Master Packaging Step 6 «вижу как» / North Star fragment | Unified framework FPF + meta-method + blockchain + company-as-code + life-as-system-as-code | audio_721 claim 2 |
+| `wiki/concepts/method-method-one-liner.md` (O-107 Tier A) | Cybernetic principle + 4-layer recursion + pluralism scaling + dynamic role-swap = PRIMARY §APPEND target supplement | audio_721 claim 5-9, 13-14 |
+| `wiki/concepts/method-systems-thinking.md` | External-management cybernetic principle | audio_721 claim 5-6 |
+| `wiki/concepts/jetix-as-exokortex.md` | External system = exocortex extension articulation | audio_721 claim 5 |
+| partnership-baseline draft | Ученик-учитель pair > single + dynamic role-swap + competence-based selection | audio_721 claim 7-12 |
+| company-as-code partD documentation | Unified framework integration + GitHub-push management discipline reaffirmed | audio_721 claim 1-2 |
+| L14 Strategic Plan Phase 4-6 + Phase 7 first-customer narrative | Sequential expert-rotation life-example (psychologist → sales-teacher) substrate | audio_721 claim 10-11 |
+| L15 Economic Model V10 triple-role NFT | LOCK preserved — adjacency ONLY: «партнёры берут управление в areas more knowledgeable» = ERC-1155 worker/manager/holder competence-based dynamic role mechanism (NOT challenge V10) | audio_721 claim 8 indirect |
+| L16 AI Market PLAN Stage 1 electricity analogy | AI = «more knowledgeable external system» (one of many cheap external-management options); strengthens electricity analogy thesis | audio_721 claim 5-9 indirect |
+
+### Tier B pool extensions supplement (5 NEW candidates, NOT promoted)
+
+O-128 ⭐⭐⭐ External-system-required cybernetic principle / O-129 Unified framework FPF+meta-method+blockchain+company-as-code+life-as-code / O-130 Ученик-учитель pair > single + dynamic role-swap / O-131 20-perspectives pluralism on meta-method base / O-132 Recursive 4-layer meta-method.
+
+### Research pool extensions supplement (2 NEW DR, NOT auto-launched)
+
+DR-40 ⭐ External-system-required cybernetic principle benchmarks (Ashby+Beer+Senge+Meadows+Sutton-Barto+Karpathy+Polanyi) / DR-41 Dynamic expert-rotation by task-context benchmarks (Vygotsky ZPD+agile+Holacracy+Spotify squads+situational-leadership).
+
+### Hypothesis candidates supplement (2 NEW H)
+
+H-batch-10-supp-08 «system effectiveness ∝ external-feedback-system diversity × meta-method depth» / H-batch-10-supp-09 «pair (учитель-ученик) learning rate > single learner rate AND > pure executor rate».
+
+### SKIP-list integrity supplement
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored — audio_721 «читерство по управлению» context-DISTINCT (3rd batch-10 cheat-code-metaphor instance after audio_720 intellect-cheat-code); pattern indicates Ruslan free voice-use в substrate ≠ public-positioning; NOT REVIVED O-83.
+
+### R12 paired-frame audit supplement
+
+- audio_721 claim 8 «партнёры берут управление основной системой» — paired-frame partial («более ответственные / более прошарены» competence-based selection PRESENT but not explicit voluntary opt-in clause); soften discipline для public-facing
+- audio_721 claim 5-6 «система не может сама себя адекватно управлять» — universal-claim soften discipline («systems benefit from external feedback layers» softer); cross-link O-117 governance-layer R12 boundary articulation
+- audio_721 claim 7, 9-12 — substrate-only verbatim; pitch reframes drafted
+
+### V10 + 25% + $100K + Optimism + Q3 + funding mix LOCK preservation supplement
+
+✅ ALL LOCKED items preserved unchallenged. Voice silent on tokenomics specifics; only adjacency cross-link к triple-role NFT competence-based dynamic role mechanism (NOT modification).
+
+### Constitutional posture preserved supplement
+
+R1 / R2 / R6 / R11 / R12 LOCK / IP-1 / EP-5 / AP-6 / append-only / research-pool / SKIP-list / acked-state ALL preserved.
+
+### Pool counts updated supplement
+
+- Tier B: 45 → **50 candidates** (supplement +5 — O-128..O-132)
+- DR pool: 31 → **33 research items** (supplement +2 — DR-40..DR-41)
+- Hypothesis pool: 21 → **23 hypothesis items** (supplement +2 — H-batch-10-supp-08..09)
+
+[src: `reports/voice-pipeline-2026-05-22-batch-10/` supplement Phases 0-5 + per-audio MD `raw/voice-memos-2026-05-22-batch/audio_721@22-05-2026_12-11-58.md` + 6 commits supplement]

@@ -372,3 +372,37 @@ Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` 
 
 *Research pool extended batch-10 2026-05-22. **31 items POOLED total** (25 + 6). Не launched. Cherry-pick when ready. DR-38 ⭐⭐ recommended immediate ack.*
 
+
+
+---
+
+## §APPEND batch-10-supplement (2026-05-22) — 2 new DR candidates DR-40..DR-41
+
+Per autonomous voice batch-10 supplement run (1 audio audio_721). Per `feedback_research_pool_pattern.md` — POOLED, NOT auto-launched.
+
+#### DR-40 ⭐ — External-system-required cybernetic principle benchmarks
+
+- **Scope:** Cybernetic foundation literature (Ashby «Introduction to Cybernetics» Law of Requisite Variety + W.R. Ashby «Design for a Brain» / Stafford Beer «Brain of the Firm» Viable System Model System 4 intelligence + System 5 policy / Beer «Designing Freedom» / Donella Meadows «Thinking in Systems» feedback-from-outside discipline / Peter Senge «Fifth Discipline» 11 laws / Sutton-Barto «Reinforcement Learning» actor-critic architecture / Andrej Karpathy «teacher-student model distillation» / Michael Polanyi «Personal Knowledge» tacit-knowledge master-apprentice transmission / Lev Vygotsky Zone of Proximal Development).
+- **Expected output:** ~1500w + cybernetic principle validation для O-128 + theoretical grounding для L13 §J external-layer + Ashby Requisite Variety mathematical formalisation + actor-critic RL analogue mapping.
+- **Priority hint:** P2 — substantiates O-128 STRONGEST supplement candidate; foundational substrate; gates promotion.
+- **Trigger:** Ruslan ack D10-supp-5 «DR-40 immediate-launch candidate»; recommended immediate launch.
+
+#### DR-41 — Dynamic expert-rotation by task-context benchmarks
+
+- **Scope:** Dynamic team-composition literature (Lev Vygotsky Zone of Proximal Development / agile dynamic-team-composition / Holacracy роли + tactical meetings / Spotify Squads + Tribes + Chapters + Guilds organisational model / Hersey-Blanchard Situational Leadership / Belbin team-roles / Project Aristotle Google team-effectiveness research / Hackman-Wageman team-effectiveness theory).
+- **Expected output:** ~1500w + dynamic role-swap pattern validation для O-130 + sequential expert-rotation life-example substrate enrichment + onboarding-pattern operational substrate for L14 Phase 4-6.
+- **Priority hint:** P3 — operationalisation pattern для partnership baseline; informs L14 cohort onboarding.
+- **Trigger:** Ruslan ack; informs partnership-baseline §APPEND substrate.
+
+### Pool maintenance supplement closure
+
+- 2 supplement DRs = POOLED (not launched)
+- Per `feedback_research_pool_pattern.md` — Ruslan cherry-picks
+- **DR-40 ⭐ highest priority supplement** recommended for immediate ack-and-launch (substantiates O-128 strongest supplement candidate)
+- Pool total: 31 + 2 = **33 research items**
+
+Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` §APPEND-supplement §C.2-supp
+
+---
+
+*Research pool extended supplement 2026-05-22. **33 items POOLED total** (31 + 2). Не launched. Cherry-pick when ready. DR-40 ⭐ recommended immediate ack.*

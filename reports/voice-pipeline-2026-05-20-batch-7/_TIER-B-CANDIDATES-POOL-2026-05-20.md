@@ -348,3 +348,42 @@ Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` 
 
 *Tier B pool extended batch-10 2026-05-22. **45 candidates POOLED total** (37 + 8). Не promoted. Cherry-pick when ready. O-121 ⭐⭐⭐ strongest batch-10 candidate.*
 
+
+
+---
+
+## §APPEND batch-10-supplement (2026-05-22) — 5 new Tier B candidates O-128..O-132
+
+Per autonomous voice batch-10 supplement run (1 audio audio_721 ~6-8min). Per «без сверхъестественного нового» posture continued.
+
+### supplement candidates table
+
+| ID | Concept (1-line) | Voice source | §APPEND substrate target | Substrate density | Trigger to promote |
+|---|---|---|---|---|---|
+| **O-128** ⭐⭐⭐ | External-system-required-for-self-management cybernetic principle (Ashby Requisite Variety + Beer VSM System 4+5 + Meadows feedback-from-outside direct analogues) | audio_721 claim 5-6 | ⭐⭐⭐ PRIMARY §APPEND L13 Method V2 §J + §H + O-107 Tier A wiki + Foundation Part 4 hub-and-spoke | ~700w cybernetic principle + Ashby/Beer/Meadows + 4-layer recursion + 20-perspectives pluralism | Ruslan ack D10-supp-1 «promote cybernetic principle к canonical method-method layer» |
+| **O-129** | Unified framework: FPF + meta-method + blockchain + company-as-code + life-as-system-as-code | audio_721 claim 2 | §APPEND Master Packaging Step 6 «вижу как» + L13 §J + company-as-code partD | ~400w unified framework | Ruslan ack «promote unified framework как North Star fragment» |
+| **O-130** | Ученик-учитель / тренер-подопечный pair > single + dynamic role-swap by task-context (sequential expert-rotation life-example psychologist→sales-teacher) | audio_721 claim 7, 9-12 | §APPEND partnership-baseline + Foundation Part 4 hub-and-spoke + L14 Phase 4-6 | ~500w pair-pattern + role-swap + life-example | Ruslan ack «promote relational learning frame» |
+| **O-131** | 20-perspectives pluralism on meta-method base (1 ситуация → 2 мнения → combine → better; scale 20 × 20 methods × millions prior на base meta-method) | audio_721 claim 13 | §APPEND L13 §J + L11 Distribution Plan | ~400w pluralism scaling | Ruslan ack «promote pluralism scaling principle» |
+| **O-132** | Recursive 4-layer meta-method «подход к выбору подхода для разработки подхода» | audio_721 claim 14 | §APPEND L13 §J + O-107 Tier A wiki | ~300w recursive depth | Ruslan ack «promote 4-layer recursion» |
+
+### supplement high-risk (HR-supp) — substrate-only
+
+3 HR items (HR-1-supp + HR-2-supp + HR-3-supp) flagged for pitch-material soften discipline pass. Substrate preserved verbatim в audio_721.md; pitch reframes drafted per KA-45 extended.
+
+### Per-candidate trigger summary supplement
+
+- **O-128** ⭐⭐⭐ — gated by D10-supp-1 (§APPEND L13 §J + cybernetic principle) — STRONGEST supplement candidate
+- **O-129** — gated by Ruslan ack «unified framework как North Star fragment»
+- **O-130** — gated by D10-supp-3 (partnership-baseline + Foundation Part 4)
+- **O-131** — gated by Ruslan ack «pluralism scaling principle»
+- **O-132** — gated by D10-supp-1 (compound с O-128 §J §APPEND)
+
+### SKIP-list integrity check supplement
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored — audio_721 «читерство по управлению» context-DISTINCT (3rd batch-10 instance: management-cheat-code ≠ Jetix-cheat-code framing); NOT REVIVED.
+
+Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` §APPEND-supplement
+
+---
+
+*Tier B pool extended supplement 2026-05-22. **50 candidates POOLED total** (45 + 5). Не promoted. Cherry-pick when ready. O-128 ⭐⭐⭐ strongest supplement candidate.*
