@@ -1,0 +1,1 @@
+decisions/strategic/DMITRIY-CALL-PLAN-2026-05-22.md

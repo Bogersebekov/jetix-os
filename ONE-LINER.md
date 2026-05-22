@@ -1,0 +1,1 @@
+wiki/concepts/method-method-one-liner.md

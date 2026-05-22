@@ -1,0 +1,1 @@
+decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md

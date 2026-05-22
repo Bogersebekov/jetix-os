@@ -1,0 +1,1 @@
+decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
