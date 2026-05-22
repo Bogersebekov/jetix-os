@@ -1204,3 +1204,38 @@ R1 / R2 / R6 / R11 / R12 LOCK / IP-1 / EP-5 / AP-6 / append-only / research-pool
 Tier B 50 / DR 33 / Hypothesis 23.
 
 [src: `reports/voice-pipeline-2026-05-22-batch-10/` supplement Phases 0-5 + `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md`]
+
+---
+
+## §APPEND-2026-05-22-Ruslan-ACK-batch-10-promote-all
+
+**Ruslan voice 22.05 post-batch-10 + supplement.** ACK всё.
+
+### ✅ Top 8 NEW ideas FIXED
+O-121 / O-128 / O-122 / O-124 / O-129 / O-130 / O-131 / O-132 — substrate ready для one-pager + presentation.
+
+### ✅ D10-* batch-10 ACKED (8 of 10; 2 deferred)
+- D10-1/2/3 §APPEND L13 + O-107 → Y proceed
+- D10-5 HR-1..8 pitch soften → Y proceed
+- D10-6 H-batch-10-06 promote → Y proceed
+- D10-7 Tier B O-120..127 → Y (all in heap)
+- D10-8 DR-34..39 → launch 4 (DR-34/37/38/40) отдельными deep prompts
+- D10-10 Updated Plan read → today
+- DEFERRED: D10-4 Timeline AP-6 / D10-9 Frankenstein label
+
+### ✅ D10-supp-1..7 ACKED ALL → макать всё в Википедию
+
+### ✅ Wiki promotions ACKED
+5 NEW Tier A standalone + 3 §APPEND existing.
+
+### ✅ 4 DR launches APPROVED (отдельные глубокие prompts)
+DR-34 AI commoditisation / DR-37 Question-driven inquiry / DR-38 ⭐⭐ 8-component meta-method / DR-40 cybernetic external-system.
+
+### Sequence
+1. Cloud Cowork creates 4 DR prompts + wiki promotions prompt
+2. Push
+3. Ruslan launches 4 DRs + wiki promotions
+4. Brigadier server CC executes
+5. Results → hooks + presentation → one-pager R1 prose
+
+[src: Ruslan voice 22.05 «топ-8 фиксируем / Д10 ебашим / Тир А append / 4 ДР отдельными глубокими / prompt сделай»]
