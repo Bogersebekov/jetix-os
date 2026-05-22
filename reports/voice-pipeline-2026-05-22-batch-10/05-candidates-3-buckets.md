@@ -138,3 +138,81 @@ parent_phase_3: 03-16-lenses-cross-analysis.md
 ---
 
 *Phase 4 closure. Per `feedback_breadth_not_selection.md` — surface ALL. Per `feedback_no_unsolicited_alternatives.md` — Ruslan picks promotion. Phase 5 input ready.*
+
+
+---
+
+## §APPEND-supplement (2026-05-22 audio_721) — supplement candidates
+
+### A.1-supp Tier A auto-promote
+**ZERO Tier A auto-promotions surfaced.** Single-audio supplement; primary §APPEND target = O-107 Tier A wiki existing. Per «без сверхъестественного нового» Ruslan posture continued.
+
+### A.2-supp Tier B ack-pending — continue O-128+
+
+(Tier B pool last entry: O-127 batch-10 closure. Append O-128..O-132 supplement.)
+
+| ID | Concept | Voice source | Treatment | Substrate density | Trigger to promote |
+|---|---|---|---|---|---|
+| **O-128** ⭐⭐⭐ | External-system-required-for-self-management cybernetic principle (система не может сама себя адекватно управлять; нужна управляющая система которая видит больше / в другом направлении в специфических моments / directions) — Ashby/Beer/Meadows direct corroboration | audio_721 claim 5-6 | ⭐⭐⭐ PRIMARY §APPEND L13 Method V2 §J + §H + O-107 Tier A wiki + Foundation Part 4 hub-and-spoke | ~700w cybernetic principle + Ashby/Beer/Meadows substrate | Ruslan ack «promote cybernetic principle к canonical method-method layer» |
+| **O-129** | Unified framework: FPF + meta-method + blockchain + company-as-code + life-as-system-as-code | audio_721 claim 2 | §APPEND Master Packaging Step 6 «вижу как» + L13 §J + company-as-code partD documentation | ~400w unified framework articulation | Ruslan ack «promote unified framework как North Star fragment» |
+| **O-130** | Ученик-учитель / тренер-подопечный pair > single + dynamic role-swap by task-context (sequential expert-rotation life-example psychologist→sales) | audio_721 claim 7, 9-12 | §APPEND partnership-baseline + Foundation Part 4 hub-and-spoke + L14 Phase 4-6 cohort onboarding | ~500w pair-pattern + role-swap + life-example | Ruslan ack «promote relational learning frame» |
+| **O-131** | 20-perspectives pluralism on meta-method base (1 ситуация → 2 мнения → combine → better; scale 20 × 20 methods × millions prior на base meta-method) | audio_721 claim 13 | §APPEND L13 §J + L11 Distribution Plan | ~400w pluralism scaling thesis | Ruslan ack «promote pluralism scaling principle» |
+| **O-132** | Recursive 4-layer meta-method «подход к выбору подхода для разработки подхода» | audio_721 claim 14 | §APPEND L13 §J + O-107 Tier A wiki | ~300w recursive depth | Ruslan ack «promote 4-layer recursion» |
+
+### A.3-supp Tier B/C high-risk
+
+| ID | Concept | Voice source | Risk | Treatment |
+|---|---|---|---|---|
+| **HR-1-supp** | «партнёры берут управление основной системой» extraction signal без voluntary opt-in clause | audio_721 claim 8 | R12 paired-frame partial; «более ответственные / более прошаренные» = competence-based selection PRESENT but not explicit voluntary opt-in | substrate verbatim; pitch reframe «partners with relevant expertise are invited to lead in their domain» softer; flag KA-45 extended |
+| **HR-2-supp** | «система не может сама себя адекватно управлять» universal-claim | audio_721 claim 5 | R-batch-10-supp risk — universal-claim form; potentially condescending toward solo-operators / sole-founders | substrate verbatim; pitch reframe «systems benefit from external feedback layers» softer; flag |
+| **HR-3-supp** ⚠️ | «читерство по отношению к управлению системой» — 3rd batch-10 cheat-code-related metaphor recurrence | audio_721 claim 15 | O-83 RECURRENT context-distinction risk; Ruslan free use в substrate vs dropped public-positioning; clarity surface needed | substrate verbatim; preserve as O-128 context-distinction note; NOT REVIVE O-83; surface для Ruslan «cheat-code metaphor freely в substrate ≠ Jetix-as-cheat-code marketing» clarity |
+
+### A.4-supp Tier C voice-only preserve
+
+| ID | Voice-only artifact | Voice source | Treatment |
+|---|---|---|---|
+| **VC-supp-1** | «но вот как то развиваться с нотки лет open source шняга» | audio_721 claim 3 | preserve verbatim («с нуля лет» typo from Whisper; meaning: «развиваться с нуля let open-source шняга») |
+| **VC-supp-2** | «надо был психолог чтобы непосредственно этот психологические вопросы решить вот с этой блять с головой» | audio_721 claim 10 | preserve verbatim; personal-history substrate для C.2 pitch origin-story |
+| **VC-supp-3** | «адекватным подходом даже к выбору подхода, по которому будет создан подход для разработки» | audio_721 claim 14 | preserve verbatim; ⭐ recursive 4-layer one-liner candidate для pitch material |
+| **VC-supp-4** | «не обманывала себя видела вот более адекватную картину мира» | audio_721 claim 15 | preserve verbatim; honesty-discipline principle phrasing |
+
+### B-supp Phase 1 plan additions
+
+| ID | Phase 1 action | Source | Dependency |
+|---|---|---|---|
+| **P1-supp-01** | §APPEND L13 Method V2 §J + §H w/ external-system-required cybernetic principle + 4-layer recursion + pluralism scaling | audio_721 cluster | Ruslan ack post D10-1 batch-10 + new D10-supp-1 |
+| **P1-supp-02** | §APPEND O-107 Tier A wiki w/ cybernetic principle + 4-layer + pluralism | audio_721 cluster | Ruslan ack |
+| **P1-supp-03** | §APPEND partnership-baseline w/ dynamic role-swap + competence-based partner-management + sequential expert-rotation | audio_721 claim 7-12 | Ruslan ack |
+| **P1-supp-04** | Pitch-material soften pass extended for HR-1-supp + HR-2-supp + HR-3-supp clarity | audio_721 HR cluster | Ruslan ack post D10-5 batch-10 |
+| **P1-supp-05** | O-83 cheat-code context-distinction CANONICAL audit-trail note (3 batch-10 instances: 720 intellect / 721 management / future-instances pattern) | audio_720 + audio_721 | Ruslan ack «cheat-code metaphor freely в substrate ≠ public-positioning» |
+
+### C.1-supp NEW doc proposals
+
+| ID | Doc proposal | Rationale |
+|---|---|---|
+| **NDP-supp-1** | `wiki/concepts/external-system-required-for-self-management.md` (NEW concept-doc для O-128 cybernetic principle) | If Ruslan ack-promotes O-128 ⭐⭐⭐ к Tier A; otherwise §APPEND L13 + O-107 |
+| **NDP-supp-2** | `decisions/strategic/UNIFIED-FRAMEWORK-2026-05-22.md` (Ruslan-authored canonical for O-129 unified framework) | Ruslan-authorship R1 requirement — brigadier surfaces only |
+
+### C.2-supp NEW DR candidates — continue DR-40+
+
+(Research pool last entry: DR-39 batch-10 closure. Append DR-40..DR-41 supplement. NO auto-launch per pattern.)
+
+| ID | Scope | Expected output | Priority hint | Trigger |
+|---|---|---|---|---|
+| **DR-40** ⭐ | External-system-required cybernetic principle benchmarks (Ashby «Introduction to Cybernetics» Law of Requisite Variety / Beer VSM System 4+5 intelligence+policy / Senge 11 laws fifth discipline / Meadows feedback-from-outside / Sutton-Barto actor-critic RL / Karpathy teacher-student distillation / master-apprentice transmission Polanyi tacit knowledge) | ~1500w + cybernetic principle validation для O-128 + theoretical grounding для L13 §J external-layer | P2 — substantiates O-128 strongest supplement candidate; foundational substrate | Ruslan ack «DR-40 immediate-launch candidate» |
+| **DR-41** | Dynamic expert-rotation by task-context benchmarks (Vygotsky ZPD zone-of-proximal-development / agile dynamic-team-composition / Holacracy роли / Spotify squads / fluid-leadership literature / situational-leadership Hersey-Blanchard) | ~1500w + dynamic role-swap pattern validation для O-130 + sequential expert-rotation life-example substrate enrichment | P3 — operationalisation pattern для partnership baseline | Ruslan ack |
+
+### SKIP-list integrity supplement
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced supplement. ✅ O-83 cheat-code DROPPED honored — audio_721 «читерство по управлению» context-DISTINCT (3rd batch-10 instance: management-cheat-code ≠ Jetix-cheat-code framing); NOT REVIVED O-83.
+
+### Constitutional summary supplement
+- **R1 PRESERVED:** brigadier surfaces 5 Tier B + 3 HR + 2 DR; Ruslan picks. NO strategic prose.
+- **R2 PRESERVED:** LOCK content untouched; §APPEND voice substrate only.
+- **R6 PRESERVED:** every claim `[src: audio_721 claim N]` traceable.
+- **R11 PRESERVED:** SKIP-list honored; O-83 NOT revived.
+- **R12 LOCK PRESERVED:** text verbatim untouched; paired-frame discipline flagged для HR-1-supp.
+- **IP-1 / EP-5 / AP-6 / append-only / research-pool / acked-state PRESERVED.**
+
+---
+
+*Supplement closure 2026-05-22. Per `feedback_breadth_not_selection.md` — surface ALL. Per `feedback_no_unsolicited_alternatives.md` — Ruslan picks promotion.*

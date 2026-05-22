@@ -236,3 +236,87 @@ parent_phase_4: 05-candidates-3-buckets.md
 ---
 
 *Phase 5 closure. Per `feedback_breadth_not_selection.md` — surface all 14. Per `feedback_no_unsolicited_alternatives.md` — Ruslan picks execution sequence. Per `feedback_research_pool_pattern.md` — DR-34..DR-39 NOT auto-launched. Phase 6 input ready.*
+
+
+---
+
+## §APPEND-supplement (2026-05-22 audio_721) — 5 new KA
+
+### KA-51 — §APPEND L13 Method V2 §J w/ external-system-required cybernetic principle [P1 ⭐⭐⭐]
+
+- **Source:** audio_721 claim 5-6, 14 — cybernetic principle + 4-layer recursion
+- **Owner:** Cloud Cowork (drafting) + Ruslan R1 ack
+- **Dependency:** Ruslan ack D10-supp-1 (proceed §APPEND); compound с D10-1 batch-10 §J §APPEND
+- **Priority:** P1 — primary §APPEND substrate of supplement
+- **Time estimate:** 1.5h
+- **Cross-link:** L13 §J + §H exocortex; Ashby/Beer/Meadows cybernetic foundation; O-107 Tier A wiki cross-ref
+- **Acceptance:** L13 §J extended w/ (a) external-system-required-for-self-management principle + Ashby Requisite Variety + Beer VSM citation, (b) 4-layer recursive meta-method articulation, (c) 20-perspectives pluralism scaling thesis
+- **Type:** backlog-ack
+- **Day-goal-22.05?:** Indirect — substrate enriches Method V2 narrative для one-pager
+
+### KA-52 — §APPEND O-107 Tier A wiki w/ supplement substrate [P1 ⭐⭐⭐]
+
+- **Source:** audio_721 entire cluster
+- **Owner:** Cloud Cowork + Ruslan R1 ack
+- **Dependency:** Ruslan ack D10-supp-2; compound с D10-3 batch-10 O-107 §APPEND
+- **Priority:** P1
+- **Time estimate:** 1h
+- **Cross-link:** `wiki/concepts/method-method-one-liner.md` (O-107 Tier A); cybernetic foundation
+- **Acceptance:** wiki §APPEND adds cybernetic principle + 4-layer recursion + pluralism scaling + dynamic role-swap operational pattern
+- **Type:** backlog-ack
+- **Day-goal-22.05?:** Indirect
+
+### KA-53 — §APPEND partnership-baseline + Foundation Part 4 hub-and-spoke w/ dynamic role-swap [P2 ⭐]
+
+- **Source:** audio_721 claim 7-12
+- **Owner:** Cloud Cowork + Ruslan R1 ack
+- **Dependency:** Ruslan ack «proceed §APPEND partnership-baseline»
+- **Priority:** P2
+- **Time estimate:** 1h
+- **Cross-link:** partnership-baseline draft; Foundation Part 4; L14 Phase 4-6 cohort onboarding
+- **Acceptance:** partnership-baseline §APPEND adds (a) ученик-учитель pair > single + dynamic role-swap mechanism, (b) competence-based partner-management protocol, (c) sequential expert-rotation life-example (psychologist → sales-teacher) substrate
+- **Type:** backlog-ack
+- **Day-goal-22.05?:** Indirect
+
+### KA-54 — O-83 context-distinction canonical audit-trail note [P2]
+
+- **Source:** audio_720 (intellect-cheat-code) + audio_721 (management-cheat-code) = 3 batch-10 cheat-code-related metaphor instances; pattern emerging
+- **Owner:** Cloud Cowork (audit-trail note draft) + Ruslan R1 ack (clarify discipline)
+- **Dependency:** Ruslan ack «cheat-code metaphor freely в substrate ≠ Jetix-as-cheat-code public-positioning»
+- **Priority:** P2 — preserves DROP discipline while honoring Ruslan voice-pattern
+- **Time estimate:** 30m
+- **Cross-link:** wiki/_archive/dropped-ideas/cheat-code-positioning.md (existing dropped archive); R12 + Ruslan ack 22.05 batch-consolidated
+- **Acceptance:** audit-trail note added confirming substrate-use vs public-positioning distinction; future cheat-code metaphor usage в voice → preserve verbatim per pattern, NOT revive O-83
+- **Type:** immediate-actionable (discipline maintenance)
+- **Day-goal-22.05?:** No
+
+### KA-55 — DR-40 launch if Ruslan acks (substantiates O-128 ⭐⭐⭐) [P2 — pool]
+
+- **Source:** Phase 2 supplement §C.2; cybernetic principle benchmarks
+- **Owner:** Cloud Cowork (research run) IF Ruslan acks
+- **Dependency:** Ruslan ack «launch DR-40»
+- **Priority:** P2 (per pool pattern — NOT auto-launched)
+- **Time estimate:** ~8-12h research run if launched
+- **Cross-link:** DR-40 pool entry; Ashby + Beer + Meadows + Sutton-Barto literature
+- **Acceptance:** Research output ~1500w substantiating cybernetic principle theoretical foundation; gates O-128 promotion
+- **Type:** research-pool-extension (Ruslan cherry-pick)
+- **Day-goal-22.05?:** No
+
+---
+
+## §1-supp Action summary
+
+| Type | Count | IDs |
+|---|---|---|
+| immediate-actionable | 1 | KA-54 |
+| backlog-ack | 3 | KA-51 ⭐⭐⭐ / KA-52 ⭐⭐⭐ / KA-53 |
+| research-pool-extension | 1 | KA-55 |
+
+**Supplement total: 5 NEW key actions** (KA-51..55). Combined batch-10 total: 14 + 5 = **19 key actions** across batch-10 + supplement.
+
+## §2-supp Day-goal-22.05 supplement actions
+None direct; KA-51/52 indirect substrate enrichment.
+
+---
+
+*Supplement Phase 2 closure. Per `feedback_research_pool_pattern.md` — DR-40 NOT auto-launched. Phase 3 supplement input ready.*
