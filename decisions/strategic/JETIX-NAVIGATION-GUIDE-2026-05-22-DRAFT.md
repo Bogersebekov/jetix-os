@@ -8,7 +8,7 @@ parent_method_v2: decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
 parent_strategic_plan: decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md
 parent_economic_model: decisions/strategic/ECONOMIC-MODEL-TOKENOMICS-2026-05-22.md
 parent_partner_offering: PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md
-F: F2-F3 (verbatim voice anchor F2 + structural F3)
+F: F2-F3
 G: jetix-navigation-guide
 R: refuted_if_R1_strategic_prose_authored_OR_LOCK_modified_OR_R12_violation
 constitutional_posture: R1 surface only (DRAFT) + R2 + R6 + R11 + R12 paired-frame + IP-1 STRICT + EP-5 + AP-6 + append-only
@@ -502,7 +502,7 @@ Video: [YouTube unlisted link — Май 23-24 запись]
 
 ## §14 Constitutional posture
 
-- **R1 surface only:** этот doc = substrate compile + verbatim voice anchor; **Ruslan R1 prose pass требуется** для finalisation
+- **R1 surface only:** этот doc = substrate compile; **Ruslan R1 prose pass требуется** для finalisation
 - **R2 LOCK preserved:** все cited docs read-only references
 - **R6 provenance:** cross-cites к parent docs
 - **R11 Default-Deny:** ничего auto-sent; Wave 1 send требует explicit Ruslan ack
