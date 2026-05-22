@@ -80,3 +80,13 @@ inputs:
 ---
 
 *Per `feedback_breadth_not_selection.md` — surface all, не curate. Per `feedback_constitutional.md` R1 — brigadier substrate-only.*
+
+
+---
+
+## §APPEND-supplement (2026-05-22 audio_721)
+
+| audio | Cell 1 NEW idea | Cell 2 Extension | Cell 3 Corroboration | Cell 4 Contradiction/dissent | Cell 5 GAP filled |
+|---|---|---|---|---|---|
+| **721** 22.05 12:11 | ⭐⭐⭐ External-system-required-for-self-management cybernetic principle (Ashby/Beer analogue); unified framework FPF+meta-method+blockchain+company-as-code+life-as-code; ученик-учитель pair > single; partnerships=external feedback + dynamic role-swap; 20-perspectives pluralism on meta-method base; ⭐ recursive 4-layer meta-method «подход к выбору подхода для разработки подхода»; open-source platform from scratch; system-sees-itself + honesty; ⚠️ «читерство по управлению» context-distinct from O-83 (preserve, NOT revive) | ⭐⭐⭐ L13 §J/§H + exocortex; Foundation Part 4 hub-and-spoke; company-as-code KM MVP partD; batch-9 O-109/O-111/O-117 governance; batch-10 audio_717-720 meta-method cluster; O-107 Tier A wiki; L14 Phase 4-6; L15 triple-role substrate (NOT challenge); L16 AI as external system + electricity analogy | ⭐⭐⭐ Ashby Requisite Variety; ⭐⭐⭐ Beer VSM System 4+5; ⭐⭐⭐ Meadows feedback-from-outside; Sutton-Barto actor-critic RL; Karpathy teacher-student distillation; Левенчук Гл.7 «студия инженера»; Polanyi tacit-knowledge master-apprentice; Vygotsky ZPD; Linux/GitHub open-source methodology | ⚠️ O-83 cheat-code RECURRENT context-distinction (3rd batch-10 instance); R-batch-10-supp risk «не может сама себя» universal-claim soften; R12 paired-frame partial «партнёры берут управление» — soften needed; cross-ref O-117 governance-layer R12 boundary | External-system cybernetic principle articulated; unified framework; pair-better-than-single; dynamic role-swap; 20-perspectives pluralism scaling; recursive 4-layer meta-method; sequential expert-rotation life-example (psychologist→sales); O-83 context-distinct preservation note; ⭐ H-batch-10-supp-08+09; ⭐ DR-40+41 |
+
