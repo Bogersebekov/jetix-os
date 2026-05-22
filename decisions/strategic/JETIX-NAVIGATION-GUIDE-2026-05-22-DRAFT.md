@@ -1,11 +1,9 @@
 ---
-title: Jetix Navigation Guide — как изучать систему (DRAFT для Ruslan R1 prose pass)
+title: Jetix Navigation Guide — как изучать систему (DRAFT)
 date: 2026-05-22
 type: navigation-guide-substrate-draft
 audience: Wave 1 recipients (Левенчук + Цэрэн + МИМ inner cluster) — first read orientation
-ack_source: Ruslan voice 22.05 evening dictation (Wispr Flow): «весь этот ёбаный гитхаб скинем но чтобы было видно прям все ... сделаем инструкцию какие там основные документы в каком порядке надо изучать»
-prose_authored_by: brigadier-scribe (Cloud Cowork) — DRAFT substrate compile; Ruslan R1 prose pass pending
-parent_substrate: Ruslan voice 22.05 evening (verbatim §1 ниже)
+prose_authored_by: brigadier-scribe (Cloud Cowork) — DRAFT substrate compile
 parent_method_v2: decisions/strategic/METHOD-LIFE-DEVELOPMENT-V2-2026-05-21.md
 parent_strategic_plan: decisions/strategic/STRATEGIC-PLAN-NEAR-FUTURE-2026-05-21.md
 parent_economic_model: decisions/strategic/ECONOMIC-MODEL-TOKENOMICS-2026-05-22.md
@@ -27,42 +25,6 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 > **Что это:** orientation document для понимания Jetix как системы — история / основная гипотеза / план / срочность / запрос / навигация по документам.
 >
 > **Время на read:** ~10-15 мин для baseline picture; полный repo deep ~10-20 hours по интересу.
-
----
-
-## §0 Verbatim voice anchor (Ruslan dictation 2026-05-22 evening)
-
-> «всё это снова таки мирмать документики несколько по навигации по всей этой теме что только что описал подробно с ссылками тоже на документы ну и тоже мирмать там схемах ... мы прям весь этот ёбаный гитхаб скинем но чтобы было видно прям все ну и сделаем короче инструкцию какие там основные документы в каком порядке вот надо изучать»
->
-> Core thesis dictation:
->
-> «вот этот метод работы с информацией ... есть гипотеза что всё есть информация и как бы методы по её обработке интеллект вот как раз занимается переработкой этой информации и что если вот этот хорошо с ней работать то можно ... выбирать наилучшие методы работы ну и соответственно хорошо как бы развиваться»
->
-> Plan:
->
-> «основной план получается построить вот платформу и потом в целом на базе вот этого вот блокчейна и собрать вот всех таких влиятельных интересных людей соответственно вот собрать их чтобы они поработали потом это дальше вот развитие в целом собрать такую платформу на которой вот люди проекты до управляют проектами и соответственно но как бы коммуницирует между собой и потом вот создают таких вот универсальных уже прокаченных людей общества но и в целом вот двигает в таком вот направлении развития общества именно здоровым»
->
-> Frame:
->
-> «мастерская инженеров-менеджеров и вот Левенчук и Цэрэн как раз вот первые люди одни из первых кому это я всё показываю и соответственно от них нужна обратная связь что можно делать далее»
->
-> Request:
->
-> «мой запрос как раз это всё обсудить потом ещё застратегировать это всё далее и потом ещё несколько раз стратегирование фундамента и потом уже вот ну идти это всё и запускать»
->
-> Urgency:
->
-> «срочность очень важно это всё можно там оформить буквально за один-два месяца и то есть уже кардинально сделать такую систему на которую уже не остановить»
->
-> AGI claim:
->
-> «претендент на AGI вот если это всё информация и методы соответственно чем больше информации и больше методов собрать и вот их наилучшими способами обрабатывать тем как бы это вот лучше работает»
->
-> Society thesis:
->
-> «есть идея как раз эту платформу сделать такой вот библиотека и системой в которой только полезная нужная информация для развития и бизнеса и общества находятся и потом вот как раз эта же система обществом и управляет и создаёт вот людей адекватных обученных для управления сложными системами»
-
-[src: Ruslan voice Wispr Flow 22.05 evening dictation]
 
 ---
 
@@ -106,13 +68,13 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 
 Это **claim на AGI minimal formula** (audio_726 batch-11; O-133 candidate): «system с info+methods accumulated > other system/task на этом domain». То есть AGI определяется **relatively к задаче**, не abstractly — Jetix-lever это curated info-corpus + method-arsenal + meta-method = AGI-equivalent на chosen domains.
 
-### Foundational values (audio_726, signed «Русик в Берлине в трусах 22 мая»; O-138 candidate)
+### Foundational values
 
 - **Жить чтобы жить**
 - **Не умереть**
 - **Развиваться**
 
-Интеллект = tool создан для этих функций. **Welcome-frame** (audio_726; O-144): «кто хочет жить-развиваться — welcome использовать интеллект + поставить в порядок свой собственный».
+Интеллект = tool создан для этих функций. **Welcome-frame:** «кто хочет жить и развиваться — welcome использовать интеллект + поставить в порядок свой собственный».
 
 ---
 
@@ -195,7 +157,7 @@ sibling_explain: prompts/explanations/_EXPLAIN-navigation-guide-deep-2026-05-23.
 
 - AI commoditisation accelerating (DR-34 thesis)
 - 38 days substrate proves leverage works → window для public-launch optimal сейчас
-- Mass-distribution-ready target: **30 Июня 2026** («ебейшая платформа ready» — Ruslan voice phrase)
+- Mass-distribution-ready target: **30 Июня 2026**
 - После этого → mass distribution phase Июль → cohort scaling
 
 **Что значит «не остановить»:**
@@ -424,14 +386,14 @@ gantt
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryTextColor':'#000','textColor':'#000','lineColor':'#333','primaryBorderColor':'#333','primaryColor':'#fafafa'}}}%%
 graph TD
-    Values[Foundational Values<br/>signed «Русик в Берлине в трусах 22 мая»]
+    Values[Foundational Values]
     Values --> V1[Жить чтобы жить]
     Values --> V2[Не умереть]
     Values --> V3[Развиваться]
     V1 --> Intellect[Интеллект<br/>= tool для этих функций]
     V2 --> Intellect
     V3 --> Intellect
-    Intellect --> Welcome[Welcome-frame:<br/>«кто хочет жить-развиваться —<br/>welcome использовать интеллект<br/>+ ставить в порядок свой собственный»]
+    Intellect --> Welcome[Welcome-frame:<br/>кто хочет жить и развиваться —<br/>welcome использовать интеллект<br/>+ ставить в порядок свой собственный]
     Welcome --> R12_compat[R12-compatible<br/>partner-offering primitive:<br/>voluntary opt-in<br/>+ fork-and-leave preserved]
 ```
 
@@ -542,7 +504,7 @@ Video: [YouTube unlisted link — Май 23-24 запись]
 
 - **R1 surface only:** этот doc = substrate compile + verbatim voice anchor; **Ruslan R1 prose pass требуется** для finalisation
 - **R2 LOCK preserved:** все cited docs read-only references
-- **R6 provenance:** verbatim voice anchor §0 + cross-cites
+- **R6 provenance:** cross-cites к parent docs
 - **R11 Default-Deny:** ничего auto-sent; Wave 1 send требует explicit Ruslan ack
 - **R12 paired-frame:** §13 discipline note
 - **IP-1 strict:** Ruslan = sole strategist + sender; brigadier = substrate compile
@@ -560,7 +522,7 @@ Video: [YouTube unlisted link — Май 23-24 запись]
 | **Q1 §11** | GitHub access mode: private+invite / public / selective branch? | (a) private + collaborator read-invite |
 | **Q2** | Send Navigation Guide как 4-th document (вместе с Method V2 + Partner Offering + Video)? | Y — strong orientation primer |
 | **Q3** | Деeper version навigation guide через server CC (`prompts/navigation-guide-deep-2026-05-23.md`) — запускать ПОСЛЕ wiki-promo (~1-2h), или сейчас 4-м (OOM risk)? | После wiki-promo finishes |
-| **Q4** | Ruslan R1 prose pass на §0 verbatim + §2-§8 thesis sections (make it punchy + Ruslan voice) — когда? | После Q1-3 ack |
+| **Q4** | Ruslan R1 prose pass на §2-§8 thesis sections (make it punchy) — когда? | После Q1-3 ack |
 | **Q5** | Этот guide replace или augment Partner Offering как first-read? | Augment (Navigation = orientation; Partner Offering = offer detail) |
 
 ---
