@@ -239,3 +239,71 @@ parent_phase_2: 01-per-note-breakdown.md
 ---
 
 *Phase 3 closure 2026-05-22. 112 datapoints. Per `feedback_constitutional.md` R1 — brigadier surfaces, не resolves. Phase 4 inputs ready.*
+
+
+---
+
+## §APPEND-supplement-audio_721 (2026-05-22) — 16 new datapoints (running total 112 → 128)
+
+> Supplement audio_721 (22.05 12:11 ~6-8 min) × 16 lenses = 16 datapoints. Augments batch-10 baseline 112 datapoints (NOT overwrites). Per supplement prompt §3.
+
+### Lens 1 — FPF Phase 0 corpus inventory
+- **audio_721 × L1:** ⭐⭐⭐ NEW idea — external-system-required-for-self-management cybernetic principle + unified framework (FPF + meta-method + blockchain + company-as-code + life-as-code) + 4-layer recursive meta-method + 20-perspectives pluralism scaling = MAJOR substrate additions inventory §30 supplement target `[src: audio_721 claim 2, 5-6, 13-14]`.
+
+### Lens 2 — 5 acked concept-docs F2 (+ O-107 Tier A PROMOTED)
+- **audio_721 × L2:** ⭐⭐⭐ extension — `wiki/concepts/method-method-one-liner.md` (O-107 Tier A) extended w/ external-system-required principle + 4-layer recursive meta-method + 20-perspectives pluralism; `wiki/concepts/method-systems-thinking.md` extended w/ external-management cybernetic principle; PRIMARY §APPEND substrate `[src: audio_721 claim 5-6, 13-14]`.
+
+### Lens 3 — 5 deep research outputs 18.05 + ML/AI engineers
+- **audio_721 × L3:** extension — actor-critic RL substrate (Sutton-Barto) + teacher-student distillation (Karpathy) = direct ML/AI corroboration of external-system principle; substrate для ML/AI engineers pitch `[src: audio_721 claim 5, 7]`.
+
+### Lens 4 — batch-4..10 cross-refs
+- **audio_721 × L4:** ⭐⭐ extension — batch-9 O-109 (responsibility-pact bidirectional) operationalised via external-management mechanism; batch-9 O-117 (governance-layer R12 boundary) cross-ref для R12 paired-frame check; batch-10 audio_717-720 meta-method cluster deepened к 4-layer recursive; batch-10 audio_716 partnerships cross-ref `[src: audio_721 claim 5-9, 14]`.
+
+### Lens 5 — 4 Octagon LOCKs (H5/H6/H7/H8)
+- **audio_721 × L5:** ⭐ R12 paired-frame check H7 People-NS LOCK — «партнёры берут управление основной системой» = potential extraction signal БЕЗ voluntary opt-in clause; soften discipline + cross-ref O-117 R12 boundary articulation needed `[src: audio_721 claim 8]`.
+
+### Lens 6 — 6 K-research deep K-1..K-6
+- **audio_721 × L6:** extension — K-1 self-management (external feedback layer); K-3 partnership baseline (dynamic role-swap); K-4 strategy (Ashby/Beer cybernetic foundation); K-5 monetisation adjacency (V10 triple-role partner = external management mechanism, NOT V10 challenge); K-6 ICP definition (ученик-учитель fit) `[src: audio_721 claim 5-12]`.
+
+### Lens 7 — 13 Tier A wikis + O-107 PROMOTED + O-106 §APPEND + O-83 DROPPED
+- **audio_721 × L7:** ⭐⭐⭐ PRIMARY §APPEND candidate to `wiki/concepts/method-method-one-liner.md` (O-107 Tier A) + `wiki/concepts/method-systems-thinking.md` + `wiki/concepts/jetix-as-exokortex.md` (external system = exocortex extension) + Foundation Part 4 hub-and-spoke role-rotation; STRONGEST supplement §APPEND target `[src: audio_721 claim 5-9, 12-14]`.
+
+### Lens 8 — Platform v2 + Левенчук inventory v2
+- **audio_721 × L8:** ⭐⭐⭐ extension — DIRECT Ashby Requisite Variety (cybernetic foundation) + Beer VSM System 4+5 (intelligence + policy) + Meadows feedback-from-outside + Левенчук Гл.7 «студия инженера» (externalised feedback workspace) — strongest theoretical corroboration cluster of supplement `[src: audio_721 claim 5-6, 8-9]`.
+
+### Lens 9 — Sprint-Synthesis-v2 + Master Packaging Step 6
+- **audio_721 × L9:** ⭐ extension — Step 6 «вижу как» — unified framework FPF + meta-method + blockchain + company-as-code + life-as-code articulation; Step 6 «как работаю» — external-management discipline + ученик-учитель pair `[src: audio_721 claim 2, 7-9]`.
+
+### Lens 10 — Master Map full state
+- **audio_721 × L10:** ⭐⭐ extension — infrastructure / management architecture track + cybernetic foundation track + dynamic role-swap track + pluralism scaling track `[src: audio_721 claim 5-14]`.
+
+### Lens 11 — Distribution Plan + 5 research docs
+- **audio_721 × L11:** extension — DP §5 partner-vetting questions extended w/ «где партнёр более прошарен» competence-based selection criterion; DP §8 onboarding-pattern extended w/ external-management + role-rotation operational `[src: audio_721 claim 8, 12]`.
+
+### Lens 12 — Левенчук books distillation
+- **audio_721 × L12:** ⭐⭐ extension — Левенчук Методология 2025 Гл.7 «студия инженера» + Гл.11 «стратегирование» direct corroboration of external-feedback discipline + meta-method recursion `[src: audio_721 claim 5-6, 14]`.
+
+### Lens 13 ⭐ — Method V2 main deliverable
+- **audio_721 × L13:** ⭐⭐⭐ PRIMARY EXTENSION — §J meta-method adds external-system-required-for-self-management LAYER + 4-layer recursive depth + 20-perspectives pluralism; §H meta-control + exocortex era — external system = exocortex extension; §I Distribution mechanisms — partner-management dynamic role-swap; **STRONGEST single-audio supplement §APPEND target** `[src: audio_721 claim 5-9, 13-14]`.
+
+### Lens 14 ⭐ — Strategic Plan Near-Future
+- **audio_721 × L14:** extension — Phase 4-6 partner-vetting cohort onboarding pattern enriched w/ dynamic role-swap + competence-based partner-management; Phase 3 Wave 1 cohort intake operational extension; sequential expert-rotation life-example (psychologist → sales-teacher) substrate для Phase 7 first-customer narrative `[src: audio_721 claim 8-12]`.
+
+### Lens 15 ⭐⭐ — NEW Economic Model V10 Hybrid
+- **audio_721 × L15:** adjacency — V10 triple-role NFT partner (ERC-1155 worker/manager/holder) substrate ADJACENCY к «партнёры берут управление в areas more knowledgeable» = competence-based dynamic role mechanism; LOCK preserved NOT challenged; cross-link only `[src: audio_721 claim 8 indirect]`.
+
+### Lens 16 ⭐⭐ — NEW AI Market PLAN Stage 1
+- **audio_721 × L16:** ⭐ extension — AI as one of «more knowledgeable external systems»; AI commoditisation = many external-management systems available cheap = electricity analogy substrate STRENGTHENED; meta-method base + external-system layer + 20-perspectives pluralism = pitch для AI Market Stage 1 thesis articulation `[src: audio_721 claim 5-9, 13]`.
+
+### §APPEND-supplement summary
+
+- **Datapoint count:** 16 new (running total 112 → **128 datapoints batch-10 + supplement**)
+- **Strongest lenses for audio_721:** L8 (cybernetic foundation Ashby/Beer/Meadows), L13 (Method V2 §J), L7 (Tier A wiki O-107 §APPEND), L2 (concept-doc method-method extension)
+- **L15 LOCK preserved:** voice silent on tokenomics specifics; triple-role adjacency only
+- **L16 substantiated:** AI as external-management system strengthens electricity analogy thesis
+- **R12 flag:** L5 + audio_721 claim 8 «партнёры берут управление» soften discipline — paired-frame partial; voluntary opt-in clause needed для public-facing
+- **O-83 RECURRENT context-distinction:** «читерство по управлению» = 3rd batch-10 cheat-code-related metaphor (audio_720 intellect-cheat-code + audio_721 management-cheat-code); ALL context-DISTINCT from O-83 Jetix-positioning; NOT REVIVED
+
+---
+
+*Phase 1 supplement closure 2026-05-22. 128 total datapoints. Per `feedback_constitutional.md` R1 — brigadier surfaces, не resolves. Phase 2 supplement input ready.*
