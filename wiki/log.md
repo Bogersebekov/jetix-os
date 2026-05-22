@@ -1,10 +1,46 @@
 ---
 type: log
-updated: 2026-05-20
+updated: 2026-05-22
 ---
 # Log — Jetix OS Wiki
 
 Append-only хронология. Новые записи сверху.
+
+## [2026-05-22] [wiki-promotions-batch-10] 5 NEW Tier A wikis + 3 §APPEND extensions | per Ruslan R1 ack «макать всё в Википедию + Тир А ебаш + append тоже ебаш»
+
+Wiki promotions batch-10 (autonomous; mechanical substrate compile only; R1 surface). Per Ruslan voice ack 22.05 — 5 Tier A standalone wikis created + 3 §APPEND extensions to existing wikis.
+
+**5 NEW Tier A wikis (concepts/):**
+- [[concepts/meta-method-8-component-composition]] (O-121 ⭐⭐⭐) — Ruslan personal meta-method explicit 8+ component articulation (audio_719); ~800w + mermaid; sibling-pair с frankenstein metaphor
+- [[concepts/external-system-cybernetic-principle]] (O-128 ⭐⭐⭐) — система не может сама себя адекватно управлять; Ashby/Beer/Meadows direct corroboration (audio_721); ~700w + mermaid + 7-source literature table
+- [[concepts/frankenstein-method-collection]] (O-122 ⭐⭐) — pitch-friendly «солянка» / Frankenstein metaphor для composition (audio_719); ~600w + mermaid; anti-cult discipline structural
+- [[concepts/student-teacher-pair-dynamic]] (O-130 ⭐⭐) — relational pair с dynamic role-swap; Vygotsky ZPD / actor-critic cross-cite (audio_721); ~600w + mermaid + sequential expert-rotation life-example
+- [[concepts/unified-framework-jetix-stack]] (O-129 ⭐⭐) — 5-layer Jetix stack (FPF + meta-method + blockchain + company-as-code + life-as-system-as-code); ~800w + mermaid + per-layer R12 audit
+
+**3 §APPEND extensions:**
+- [[concepts/method-method-one-liner]] §APPEND-2026-05-22-batch-10 ← O-121 (8-component substantiation) + O-122 (Frankenstein metaphor) + O-124 (3-question self-check protocol)
+- [[concepts/method-systems-thinking]] §APPEND-2026-05-22-batch-10-supplement ← O-131 (20-perspectives pluralism scaling) + O-132 (recursive 4-layer meta-method depth)
+- [[concepts/jetix-as-exokortex]] §APPEND-2026-05-22-batch-10-supplement ← O-128 reinforcement (exocortex = institutionalised external managing system; cybernetic grounding + unified-stack spans L3-L5 + dynamic role-swap operationalisation + R12 anti-extraction reinforcement)
+
+**Constitutional discipline:**
+- ✅ R1 surface preserved (substrate compile only; brigadier-scribe header; NO strategic prose authored)
+- ✅ R6 provenance per claim ([src: audio_NNN claim N])
+- ✅ R12 paired-frame in all 5 wikis (anti-extraction surface + voluntary opt-in + fork-and-leave)
+- ✅ IP-1 STRICT (Foundation abstract vs RUSLAN-LAYER instantiation distinction)
+- ✅ AP-6 verbatim dissent preservation в §1 substrate; soften discipline только в §5 variations
+- ✅ NO LOCK modifications (V10 LOCK / Foundation 10-Part LOCK / Pillar C Tier 2 LOCK untouched)
+- ⚠️ HR-flags inherited (militarised language audio_719 + extraction-risk audio_721) preserved with soften variations
+- ⚠️ NDP-supp-2 placeholder Ruslan-authored `decisions/strategic/UNIFIED-FRAMEWORK-2026-05-22.md` NOT created (R1 strategic-prose requirement; этот wiki ≠ replacement)
+
+**Cross-batch context:**
+- Predecessor pool: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` A.2 + A.2-supp rows
+- Trigger: Ruslan voice ack 22.05 «макать всё в Википедию» (substrate `prompts/wiki-promotions-batch-10-2026-05-22.md`)
+- 7 commits Phase 1-7 (dafa5bc + eda60a7 + 52b0554 + 3e62e31 + febb6d3 + 10c5e77 + Phase 7 closure)
+- Research pool extension: DR-40 ⭐ (cybernetic benchmarks) + DR-41 (dynamic expert-rotation) Ruslan-ack pending
+
+[src: `prompts/wiki-promotions-batch-10-2026-05-22.md` + 5 NEW Tier A wikis + 3 §APPEND wikis; Ruslan voice 2026-05-22 «макать всё»]
+
+---
 
 ## [2026-05-20] [voice-pipeline-batch-8] Tier A 0 / pool extensions +8 Tier B + 7 DR | per «без сверхъестественного» ack
 

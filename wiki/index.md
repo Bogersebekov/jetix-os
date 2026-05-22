@@ -1,16 +1,25 @@
 ---
 type: index
-updated: 2026-05-11
+updated: 2026-05-22
 regenerated_from: filesystem
 ---
 
 # Index — Jetix OS Wiki
 
 Каталог всех страниц. Auto-regenerated 2026-05-11 от filesystem state.
+Partial manual updates 2026-05-22 для batch-10 wiki promotions (full regeneration via `/lint` pending).
 
-**Total entries:** 551
+**Total entries:** 551+ (pending /lint regen for accurate count post-2026-05-11 additions)
 
-## Concepts (14)
+## Concepts (manual additions 2026-05-22 batch-10 wiki promotions — 5 NEW Tier A)
+
+- [Meta-method 8-component composition (Ruslan personal)](concepts/meta-method-8-component-composition.md) [meta] — O-121 ⭐⭐⭐ Tier A standalone 2026-05-22
+- [External-system-required-for-self-management — cybernetic principle](concepts/external-system-cybernetic-principle.md) [meta] — O-128 ⭐⭐⭐ Tier A standalone 2026-05-22
+- [Frankenstein / солянка method-collection metaphor](concepts/frankenstein-method-collection.md) [meta] — O-122 ⭐⭐ Tier A standalone 2026-05-22
+- [Ученик-учитель / тренер-подопечный pair dynamic](concepts/student-teacher-pair-dynamic.md) [meta] — O-130 ⭐⭐ Tier A standalone 2026-05-22
+- [Unified framework — Jetix stack (5-layer FPF + meta-method + blockchain + company-as-code + life-as-code)](concepts/unified-framework-jetix-stack.md) [meta] — O-129 ⭐⭐ Tier A standalone 2026-05-22
+
+## Concepts (14 — original auto-regenerated baseline 2026-05-11; stale, pending /lint full regen)
 
 - [Affirmation ritual для founder state stability](concepts/affirmation-ritual-founder-state.md) [life]
 - [AI-проектирование psy-led — психологи проектируют AI](concepts/ai-proektirovanie-psy-led.md) [tech]
