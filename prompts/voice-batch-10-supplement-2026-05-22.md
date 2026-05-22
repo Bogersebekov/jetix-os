@@ -2,7 +2,7 @@
 title: Voice Batch-10 Supplement — 1 additional audio (audio_721) integration
 date: 2026-05-22
 type: autonomous-execution-prompt
-phase_count: 5
+phase_count: 6
 parent_batch: prompts/voice-batch-10-deep-analysis-2026-05-22.md
 parent_summary: reports/voice-pipeline-2026-05-22-batch-10/00-SUMMARY-FOR-RUSLAN.md
 parent_updated_plan: daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md
@@ -122,7 +122,83 @@ Commit: `[batch-10-supplement] Phase 3 §APPEND inventory/inbox/log + pool exten
 
 ---
 
-## §6 Phase 4 — Updated Plan 22.05 §APPEND + Summary supplement + final push (5-10m)
+## §6 Phase 4 — ⭐ Standalone Insights Report для audio_721 (15-20m)
+
+Per Ruslan voice 22.05: «отчёт по основным идеям заметкам которые вот он проработал — что нового / что добавить / что как работает / что нового можем сделать + пару mermaid схемок».
+
+**Output:** `decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md` (~1500-2500w + 2-4 mermaid)
+
+### Structure
+
+```markdown
+# AUDIO-721 INSIGHTS REPORT — Standalone deliverable
+
+## §0 TL;DR (≤200w)
+- Audio_721 main ideas (top 3-5)
+- Что фундаментально нового vs existing 4 substrate deliverables
+- Что concretely добавить / сделать
+
+## §1 Voice anchor (verbatim) + key claims
+- Full verbatim Ruslan voice audio_721 (preserve)
+- 5-10 key claims extracted с numbered references
+
+## §2 Что нового vs existing substrate
+Cross-check per substrate deliverable:
+- vs Method V2 — что extends / contradicts / GAP fills
+- vs Strategic Plan Near-Future — Wave 1 / MVP Sprint implications
+- vs Economic Model V10 — tokenomics / triple-role implications
+- vs AI Market PLAN — electricity analogy / AI firm cooperation
+- vs 13 Tier A wikis — new concepts OR §APPEND extensions
+- vs Hypothesis arch — testable claims surfacing
+
+## §3 Что можем добавить (concrete additions)
+- Wiki §APPEND candidates (specific files + content)
+- New concept proposals (Tier B → Tier A trajectory)
+- New DR research candidates
+- New KA action items
+- Hypothesis migration candidates
+
+## §4 Как работает (mechanism explanation)
+- Если audio_721 раскрывает new mechanism — explain step-by-step
+- Diagram-friendly visualization possible
+- Cross-link к Method V2 §3 layers OR Phase 4 mechanics
+
+## §5 Что нового можем сделать (variants / new actions)
+- 3-5 concrete new actions surfaced
+- Per action: time / dependency / impact
+- Priority ranking (P1 / P2 / P3)
+
+## §6 ⭐ Mermaid schemes (2-4 mandatory)
+- Diagram 1: Main idea visualization (`mindmap` OR `graph TD`)
+- Diagram 2: Mechanism flow (`sequenceDiagram` OR `stateDiagram-v2`)
+- Diagram 3 (optional): Cross-link map к existing substrate (`graph LR`)
+- Diagram 4 (optional): Action priority quadrant (`quadrantChart`)
+- All diagrams ≥8 nodes per max-density mandate
+
+## §7 Risk / caveat surface
+- AP-6 dissent atoms if any
+- R12 conformance check (если new ideas have R12 implications)
+- HR-cluster если applicable
+
+## §8 Recommendation (R1 surface only)
+- Top 3 immediate-actionable items
+- Top 3 backlog-ack items
+- Top 3 pool-extension items
+- R1 decision points (что Ruslan acks для unlock)
+
+## §9 Cross-refs
+- batch-10 substrate
+- 4 NEW substrate (Method V2 / Strategic Plan / Economic Model V10 / AI Market PLAN)
+- 13 Tier A wikis
+- pool docs
+- Hypothesis arch
+```
+
+Commit: `[batch-10-supplement] Phase 4 ⭐ standalone audio_721 insights report (2-4 mermaid)`
+
+---
+
+## §7 Phase 5 — Updated Plan 22.05 §APPEND + Summary supplement + final push (5-10m)
 
 **Outputs:**
 - `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md` — §APPEND «supplement audio_721 additions» (что нового добавилось vs batch-10 baseline)
@@ -131,14 +207,14 @@ Commit: `[batch-10-supplement] Phase 3 §APPEND inventory/inbox/log + pool exten
 ### Final push
 
 ```bash
-git add raw/voice-transcripts/audio_721@22-05-2026_12-11-58.txt raw/voice-memos-2026-05-22-batch/audio_721@22-05-2026_12-11-58.md reports/voice-pipeline-2026-05-22-batch-10/ daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md daily-logs/_DAILY-LOG-2026-05-22.md reports/phase-0-fpf-scope/01-jetix-objects-inventory.md decisions/REFLECTION-INBOX-2026-05-16.md reports/voice-pipeline-2026-05-20-batch-7/_RESEARCH-CANDIDATES-POOL-2026-05-20.md reports/voice-pipeline-2026-05-20-batch-7/_TIER-B-CANDIDATES-POOL-2026-05-20.md
-git commit -m "[batch-10-supplement] Phase 4 Summary supplement + Updated Plan §APPEND + final push"
+git add raw/voice-transcripts/audio_721@22-05-2026_12-11-58.txt raw/voice-memos-2026-05-22-batch/audio_721@22-05-2026_12-11-58.md reports/voice-pipeline-2026-05-22-batch-10/ decisions/strategic/AUDIO-721-INSIGHTS-REPORT-2026-05-22.md daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md daily-logs/_DAILY-LOG-2026-05-22.md reports/phase-0-fpf-scope/01-jetix-objects-inventory.md decisions/REFLECTION-INBOX-2026-05-16.md reports/voice-pipeline-2026-05-20-batch-7/_RESEARCH-CANDIDATES-POOL-2026-05-20.md reports/voice-pipeline-2026-05-20-batch-7/_TIER-B-CANDIDATES-POOL-2026-05-20.md
+git commit -m "[batch-10-supplement] Phase 5 Summary supplement + Updated Plan §APPEND + final push"
 git push origin main
 ```
 
 Final echo:
 ```
-DONE batch-10-supplement — 5 commits / audio_721 integrated / 16 new datapoints / N new candidates / cost <€1 / runtime ~Y min
+DONE batch-10-supplement — 6 commits / audio_721 integrated / 16 new datapoints / Insights Report standalone / 2-4 mermaid / N new candidates / cost <€1 / runtime ~Y min
 ```
 
 ---
