@@ -1239,3 +1239,87 @@ DR-34 AI commoditisation / DR-37 Question-driven inquiry / DR-38 ⭐⭐ 8-compon
 5. Results → hooks + presentation → one-pager R1 prose
 
 [src: Ruslan voice 22.05 «топ-8 фиксируем / Д10 ебашим / Тир А append / 4 ДР отдельными глубокими / prompt сделай»]
+
+
+---
+
+## §APPEND-batch-11 (2026-05-22 evening) — voice-pipeline-2026-05-22-batch-11 (11 D11-* decisions)
+
+> Voice batch-11 deep analysis closure (7 audio 722-728, 22.05 16:50→17:40). Per prompt `prompts/voice-batch-11-deep-analysis-2026-05-22.md`. Per «без сверхъестественного нового» Ruslan posture — minimal Tier A; everything в pool. 2 candidate-Tier-A items flagged (O-133 AGI-formula + O-138 Values-declaration) — Ruslan ack required for promotion.
+
+### D11-1 — O-133 ⭐⭐⭐ AGI minimal formula Tier A promotion path? [P1 ⭐⭐⭐]
+
+**Substrate:** audio_726 claim 7-8 — «AGI = система у которой информации и методов накоплено больше чем у другой системы или той задачи». ~800w substrate density. Cross-batch corroboration: batch-10 §J + O-121 + Karpathy software 2.0 + AGI literature (Goertzel/Hutter/Legg). Primary §APPEND L16 AI Market PLAN Stage 1 candidate.
+
+**Ack question for Ruslan:** (a) Promote O-133 к NEW Tier A standalone `wiki/concepts/agi-minimal-formula.md`? (b) OR §APPEND L16 AI Market PLAN Stage 1 only? (c) OR pool Tier B only? (d) Launch DR-43 immediately?
+
+### D11-2 — O-138 ⭐⭐⭐ Foundational-values declaration Tier A promotion path? [P1 ⭐⭐⭐]
+
+**Substrate:** audio_726 claim 10-11 — «жить чтобы жить + не умереть + развиваться» signed «Русик в Берлине в трусах 22 мая». ~600w substrate. Signature element preserves authenticity. Cross-batch corroboration: batch-10 audio_720 + audio_719 «1000% голодный» + Frankl/Aurelius traditions.
+
+**Ack question for Ruslan:** (a) Promote O-138 к NEW Tier A standalone `wiki/values/jetix-foundational-values-declaration.md`? (b) OR §APPEND L14 Strategic Plan §1 vision-level + wiki/jetix-as-exokortex.md? (c) OR pool Tier B only? (d) Preserve «Русик в Берлине» signature OR adapt by audience?
+
+### D11-3 — §APPEND L13 Method V2 §A/§B/§J/§M/§D from batch-11 (compound с D10-1/D10-3 batch-10 ack) [P1]
+
+**Substrate:** Phase 3 §5 §APPEND priority table — audio_722-728 entire к L13 §A/§B/§J/§M/§D + L17 Tier A wikis (O-107/O-121/O-128) + PARTNER-OFFERING. Compound с batch-10 D10-1/D10-3 «§APPEND L13 §J + O-107» already-acked.
+
+**Ack question for Ruslan:** Proceed §APPEND L13 + L17 + PARTNER-OFFERING substrate enrichment from batch-11? Scope confirmation: §A Phase 1 ontology + §B intellect-stack + §J meta-method (PRIMARY) + §M Wikipedia-deep new traditions + §D personal-origin?
+
+### D11-4 — O-135 + O-136 (binary cognition + dual-state values frame) pool disposition [P2]
+
+**Substrate:** audio_722 claim 1-2 — binary да/нет mind hypothesis + dual-state «недоразвитый ↔ развитый» frame.
+
+**Ack question for Ruslan:** (a) Pool Tier B only (default)? (b) §APPEND wiki/all-is-information.md + wiki/mastery-formula.md? (c) Launch DR-42?
+
+### D11-5 — O-137 / O-139 / O-140 / O-141 / O-142 / O-144 / O-145 pool batch [P2]
+
+**Substrate:** Cognitive ontology + 2-question + Welcome-frame + library-bound limit cluster (audio_722-726 secondary candidates).
+
+**Ack question for Ruslan:** Pool Tier B all? Or any specific promotion candidates?
+
+### D11-6 — O-146 + O-147 (info→habit→automation + Claude Code analogy) pool disposition [P2]
+
+**Substrate:** audio_727 claim 2-4 — explicit skill-acquisition mechanic + Claude Code human-cognition analogy.
+
+**Ack question for Ruslan:** (a) Pool Tier B (default)? (b) §APPEND wiki/mastery-formula.md? (c) Claude Code analogy = engineering-thinking project substrate worth dedicated extraction?
+
+### D11-7 — O-148 + O-149 (recursive 3rd-order method + direction-indifference) pool disposition [P2]
+
+**Substrate:** audio_727 claim 4-8 — recursive «методы на методы на методы» + «направление пох» heuristic.
+
+**Ack question for Ruslan:** (a) Pool Tier B (default)? (b) §APPEND L13 §J compound с O-132 batch-10-supp? (c) Preserve direction-indifference vs O-128 dialectic only?
+
+### D11-8 — O-150 ⭐ comparative species cognition + DR-44 launch trigger [P3]
+
+**Substrate:** audio_728 claim 2-4 — ants/dolphins/humans + G5 research direction explicit.
+
+**Ack question for Ruslan:** (a) Launch DR-44 animal cognition benchmarks? (b) Pool Tier B + L13 §M Wikipedia-deep new traditions candidate? (c) Adjacency к L16 AI Market PLAN AI-vs-animal-vs-human triple lens?
+
+### D11-9 — O-151 ⭐ concentration vs exploration tuning + DR-46 [P3]
+
+**Substrate:** audio_728 claim 6 — concentration-trap vs exploration-pinball tradeoff at developmental-cadence layer.
+
+**Ack question for Ruslan:** (a) Launch DR-46? (b) §APPEND wiki/sense-of-measure.md + L13 §J tuning parameter? (c) Preserve dialectic с batch-10 audio_716 «всё бросить» (timescales differ)?
+
+### D11-10 — O-152 / O-154 / O-155 (epistemic compression + unifying-layer + uncertainty-reduction) pool disposition [P3]
+
+**Substrate:** audio_728 claim 1+5+7 — three composite candidates.
+
+**Ack question for Ruslan:** Pool Tier B all? Or §APPEND wiki/jetix-as-exokortex.md (unifying-layer = network) + wiki/all-is-information.md?
+
+### D11-11 — O-153 ⭐⭐ intellect = gate/предохранители Pillar C Tier 2 R11 enrichment candidate [P3 — high-risk]
+
+**Substrate:** audio_728 claim 8 — intellect = gate-function (what-admit / what-reject / what-important) at system-level. Compound с Pillar C R11 Default-Deny.
+
+**Ack question for Ruslan:** ⚠️ Constitutional rule candidate; deep ack required. (a) §APPEND R11 enrichment commentary в Pillar C Tier 2 description (NOT modifying constitutional_never_list count)? (b) NEW Tier 2 candidate rule (high-risk; count change requires deeper review)? (c) Substrate-only preserve in pool (default)? (d) Defer until DR-44 result + further substrate?
+
+### Sequence (compound с batch-10 closure)
+
+1. Ruslan reviews D11-1..D11-11 (30-60 min)
+2. Brigadier (server CC) executes per ack pattern matching batch-10 closure
+3. DR launches (per ack) → server CC autonomous
+4. §APPEND drafts in shadow files (`*-batch-11-additions.md`) → Ruslan reviews → promotes to main docs
+5. KA-46 pitch-soften reframes drafted per ack (compound с KA-45 batch-10)
+6. Updated Plan 22.05 evening already synthesised (Phase 7 этого batch); Ruslan reads for closure
+
+[src: `reports/voice-pipeline-2026-05-22-batch-11/05-candidates-3-buckets.md` + 06-key-actions-list.md + 03-17-lenses-cross-analysis.md + per-audio MDs `raw/voice-memos-2026-05-22-batch-2/audio_722..728@*.md`]

@@ -1949,3 +1949,97 @@ R1 / R2 / R6 / R11 / R12 LOCK / IP-1 / EP-5 / AP-6 / append-only / research-pool
 - Hypothesis pool: 21 → **23 hypothesis items** (supplement +2 — H-batch-10-supp-08..09)
 
 [src: `reports/voice-pipeline-2026-05-22-batch-10/` supplement Phases 0-5 + per-audio MD `raw/voice-memos-2026-05-22-batch/audio_721@22-05-2026_12-11-58.md` + 6 commits supplement]
+
+
+---
+
+## §31 Voice Batch-11 Inventory Extensions (2026-05-22 evening)
+
+> Autonomous voice batch-11 deep analysis closure 2026-05-22 evening (per prompt `prompts/voice-batch-11-deep-analysis-2026-05-22.md`). 9 phases per-phase commit + push. 7 audio (722-728, 22.05 16:50→17:40) ≈ 45-60 min ~9.5 MB.
+
+### Batch-11 corpus inventory
+
+| # | Audio | Time | Theme |
+|---|---|---|---|
+| 1 | audio_722 | 16:50 | Dual-state values + binary cognition hypothesis + intellect-as-selector |
+| 2 | audio_723 | 16:52 | Future modeling + function-tier ≠ method-tier pivot |
+| 3 | audio_724 | 16:55 | 2-question fundamental orientation (Q1 safety + Q2 development) |
+| 4 | audio_725 | 17:04 | Intellect dual purpose (self-management + self-development) |
+| 5 | audio_726 ⭐⭐⭐ | 17:23 | ⭐⭐⭐ AGI minimal formula + Foundational-values declaration «Russik в Берлине в трусах 22 мая» |
+| 6 | audio_727 | 17:32 | Info→habit→automation cycle + Claude Code analogy + recursive methods |
+| 7 | audio_728 | 17:40 | Comparative species cognition + concentration/exploration + closure |
+
+### 17 lenses substrate read
+
+L1-L16 baseline + **L17 ⭐⭐ NEW** Tier A wikis batch-10 (O-107 method-method-one-liner.md / O-121 meta-method-8-component-composition.md / O-128 external-system-cybernetic-principle.md) + PARTNER-OFFERING-HUMAN-LANG-2026-05-22.md.
+
+### Cross-analysis 119 datapoints
+
+7 audio × 17 lenses = 119 datapoints (50 extensions/NEW / 67 overlaps / 2 dialectic preservations). L13 + L17 = primary §APPEND substrate targets (14/14 extensions); L16 audio_726 ⭐⭐⭐ PRIMARY (AGI-formula thesis).
+
+### Tier B pool extensions batch-11 (23 NEW candidates, NOT promoted)
+
+O-133 ⭐⭐⭐ AGI minimal formula / O-134 ⭐⭐ Intellect dual purpose / O-135 ⭐ Binary cognition hypothesis / O-136 Dual-state values frame / O-137 Intellect-as-selector / **O-138 ⭐⭐⭐ Foundational-values declaration signed «Russik в Берлине»** / O-139 Binary key-question / O-140 Inheritance mechanic / O-141 Future-modeling temporal protocol / O-142 Function-tier nuance / O-143 ⭐⭐ Intellect strength triple / O-144 Welcome-frame R12-compatible / O-145 Library-bound limit / O-146 ⭐ Info→habit→automation + Claude Code analogy / O-147 Claude Code analogy / O-148 Recursive 3rd-order method / O-149 Direction-of-development indifference / O-150 ⭐ Comparative species cognition + G5 / O-151 ⭐ Concentration/exploration / O-152 Epistemic compression / **O-153 ⭐⭐ Intellect = gate/предохранители function** / O-154 Intellect-layer unifying-substrate / O-155 World-undefined intellect-uncertainty-reduction.
+
+### Research pool extensions batch-11 (5 NEW DR, NOT auto-launched)
+
+DR-42 Binary computation mind hypothesis / **DR-43 ⭐ AGI minimal formula benchmarks** / **DR-44 ⭐ Animal cognition comparative benchmarks** / DR-45 Foundational-values declarations comparative / DR-46 Concentration vs exploration empirical tradeoff.
+
+### Hypothesis candidates batch-11 (10 NEW H)
+
+H-batch-11-01 binary да/нет at value-tier / H-batch-11-02 brain primary function info-processing-for-life-continuation / H-batch-11-03 Q1+Q2 root predicate / **H-batch-11-04 ⭐⭐⭐ intellect mediates internal-external feedback (resolves O-128 paradox)** / **H-batch-11-05 ⭐⭐⭐ Jetix lever = curated info+methods + meta-method → AGI-equivalent at chosen task domains** / **H-batch-11-06 ⭐⭐⭐ Welcome-frame + put-in-order-own-intellect = R12-compatible public invitation primitive** / H-batch-11-07 skill-acquisition base layer / H-batch-11-08 direction-irrelevance heuristic / H-batch-11-09 three-layer composite (uncertainty/compression/gate) / H-batch-11-10 comparative species 3rd lens for Jetix.
+
+### HR-cluster batch-11 (13 nuance flags)
+
+R-batch-11 N1-N13 (universal-claim soften / profanity-sanitisation / reductionism nuance / hubris check / values-declaration mood preservation). All substrate verbatim preserved; KA-46 pitch-reframes flagged for batch.
+
+### SKIP-list integrity batch-11
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored — audio_722 «как одна из гипотез» = epistemic-honesty, audio_728 «G5 если интеллект это реально так» = inquiry-frame; both context-DISTINCT from cheat-code framing; NOT REVIVED.
+
+### R12 paired-frame audit batch-11
+
+- audio_726 claim 11 «welcome использовать интеллект» — R12-COMPATIBLE voluntary opt-in («ставить в порядок свой собственный» = personal-responsibility); no extraction violation
+- audio_725 claim 5 dialectic preservation с O-128 — preserve via H-batch-11-04 mediation thesis
+- 13 R-batch-11 N1-N13 → pitch-soften discipline для public-facing material (substrate verbatim preserved); KA-46 batch follow-on
+
+### V10 + 25% + $100K + Optimism + Q3 + funding mix + Partner Offering LOCK preservation
+
+✅ ALL LOCKED items preserved unchallenged. audio_726 «общий интеллект социум направленный на развитие» substrate-level compatible (NOT challenge V10). Welcome-frame audio_726 = R12-compatible communication primitive (NOT modify R12 LOCK text).
+
+### Constitutional posture preserved batch-11
+
+R1 / R2 read-only LOCK / R6 / R11 / R12 LOCK / IP-1 strict / EP-5 F2 / AP-6 dissent / append-only / research-pool-pattern / SKIP-list integrity / acked-state preservation ALL preserved.
+
+### Pool counts updated batch-11
+
+- Tier B: 50 → **73 candidates** (batch-11 +23 — O-133..O-155)
+- DR pool: 33 → **38 research items** (batch-11 +5 — DR-42..DR-46)
+- Hypothesis pool: 23 → **33 hypothesis items** (batch-11 +10 — H-batch-11-01..10)
+
+### Commits batch-11 (9 atomic per-phase)
+
+1. Phase 0 FPF lens scope + 17-lens substrate read (bf96d5c)
+2. Phase 1 transcribe 7 audio files (4a2c1f8)
+3. Phase 2 verbatim + 5-cell + FPF lens (7 per-audio + 35-cell matrix + jetix-track) (1df0ead)
+4. Phase 3 17-lens cross-analysis (119 datapoints) (7dab4ea)
+5. Phase 4 candidates + Tier B O-133+ + DR-42+ (8a90099)
+6. Phase 5 key actions ≥10 (14 surfaced) (201f124)
+7. Phase 6 §APPEND inventory/inbox/log + pool extensions [this commit]
+8. Phase 7 ⭐⭐ Updated Execution Plan 22.05 evening synthesis [next]
+9. Phase 8 Summary + final push [next]
+
+### Primary value-add batch-11
+
+- ⭐⭐⭐ **AGI minimal formula** «system with info+methods accumulated > other system/task» (audio_726 claim 7-8) — STRONGEST batch-11 substrate; primary §APPEND L16 candidate
+- ⭐⭐⭐ **Foundational-values declaration** «жить чтобы жить + не умереть + развиваться» signed «Russik в Берлине в трусах 22 мая» (audio_726 claim 10) — STRONGEST values articulation; primary §APPEND L14 §1 vision-level candidate
+- ⭐⭐ **Welcome-frame public-invitation primitive** R12-compatible (audio_726 claim 11) — primary §APPEND PARTNER-OFFERING candidate
+- ⭐⭐ **Intellect dual purpose** (self-management + self-development) (audio_725 claim 5) + H-batch-11-04 dialectic resolution с O-128
+- ⭐⭐ **Intellect = gate/предохранители function** (audio_728 claim 8) — potential Pillar C Tier 2 R11 enrichment (D11-11 ack required)
+- ⭐⭐ **Phase 7 Updated Execution Plan 22.05 evening synthesis** — primary value-add per prompt §0
+
+### Key Ruslan decision queue batch-11
+
+11 D11-* items в REFLECTION-INBOX §APPEND-batch-11. Priority: D11-1 (O-133 AGI-formula Tier A path) + D11-2 (O-138 Values-declaration Tier A path) + D11-3 (§APPEND L13 §A/§B/§J + L17 wikis compound с D10-1/D10-3).
+
+[src: `reports/voice-pipeline-2026-05-22-batch-11/` 9 phases + 9 commits + per-audio MDs `raw/voice-memos-2026-05-22-batch-2/audio_722..728@*.md`]

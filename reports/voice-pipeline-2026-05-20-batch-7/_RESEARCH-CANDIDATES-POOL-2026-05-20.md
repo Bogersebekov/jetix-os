@@ -406,3 +406,61 @@ Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` 
 ---
 
 *Research pool extended supplement 2026-05-22. **33 items POOLED total** (31 + 2). Не launched. Cherry-pick when ready. DR-40 ⭐ recommended immediate ack.*
+
+
+---
+
+## §APPEND batch-11 (2026-05-22 evening) — 5 new DR candidates DR-42..DR-46
+
+Per autonomous voice batch-11 deep analysis (7 audio 722-728). Per `feedback_research_pool_pattern.md` — POOLED, NOT auto-launched.
+
+#### DR-42 — Binary computation mind hypothesis benchmarks
+
+- **Scope:** Binary-cognition literature (Warren McCulloch + Walter Pitts «A Logical Calculus» 1943 / Karl Friston Free Energy Principle predictive coding / Bayesian brain / Hopfield network attractor dynamics / Kahneman System 1+2 / Pearl causal dichotomies / Schmidhuber compression-as-cognition).
+- **Expected output:** ~1500w + binary-да/нет hypothesis benchmarks for H-batch-11-01 substantiation; neuroscience grounding для audio_722 claim 2; pivot к L13 §B/§M new traditions candidates.
+- **Priority hint:** P3 — substrates audio_722 hypothesis; informs L13 §M Wikipedia-deep.
+- **Trigger:** Ruslan ack D11-4; informs O-135 promotion gates.
+
+#### DR-43 ⭐ — AGI minimal formula benchmarks
+
+- **Scope:** AGI definitions literature (Ben Goertzel «Artificial General Intelligence» 2014 / Marcus Hutter «AIXI» / Shane Legg + Marcus Hutter «universal intelligence» 2007 / John Searle Chinese Room / Lex Fridman + Karpathy interviews + OpenAI working definition / Stuart Russell «Human Compatible» / Bostrom «Superintelligence» / Yampolskiy AI safety / Gary Marcus + Yann LeCun debates).
+- **Expected output:** ~1500w + AGI-formula validation для O-133 + theoretical grounding для L16 AI Market PLAN Stage 1 thesis + comparative-formal-definitions mapping.
+- **Priority hint:** P2 — substantiates O-133 STRONGEST batch-11 candidate; gates Tier A promotion candidacy.
+- **Trigger:** Ruslan ack D11-1 «DR-43 immediate-launch candidate»; recommended immediate launch — high priority.
+
+#### DR-44 ⭐ — Animal cognition comparative benchmarks
+
+- **Scope:** Comparative animal cognition literature (Frans de Waal «Are We Smart Enough» 2016 / Irene Pepperberg «Alex Studies» / Wolfgang Köhler «Mentality of Apes» / Donald Griffin «Question of Animal Awareness» / Suzanne Simard «Finding the Mother Tree» / cephalopod intelligence Peter Godfrey-Smith «Other Minds» / dolphin intelligence research / Christof Koch + Marcello Massimini integrated information theory).
+- **Expected output:** ~1500w + comparative species cognition validation для O-150 + G5 research direction substantiation + L13 §M new traditions candidate substantiation.
+- **Priority hint:** P3 — operationalisation direction для O-150 G5; informs L16 AI Market PLAN triple lens.
+- **Trigger:** Ruslan ack D11-8.
+
+#### DR-45 — Foundational-values declarations comparative
+
+- **Scope:** Foundational-values literature comparative (Marcus Aurelius «Meditations» / Viktor Frankl «Man's Search for Meaning» / Friedrich Nietzsche «Wille zur Macht» / Aristotle Nicomachean Ethics eudaimonia / Schopenhauer «Wille zum Leben» / Confucius Analects ren/li / Buddhist śīla / Stoic prokopton / Spinoza Ethics / contemporary positive psychology Seligman PERMA + Csikszentmihalyi flow).
+- **Expected output:** ~1500w + values-declaration tradition mapping для O-138 + L14 Strategic Plan §1 vision-level enrichment + rhetorical-frame analysis (humorous self-deprecating authority establishment).
+- **Priority hint:** P3 — substantiates O-138 STRONGEST values candidate; informs Pillar A North Star fragment promotion.
+- **Trigger:** Ruslan ack D11-2.
+
+#### DR-46 — Concentration vs exploration empirical tradeoff
+
+- **Scope:** Exploration vs exploitation literature (Robbins multi-armed bandit / Sutton-Barto RL / Lattimore + Szepesvári bandit algorithms / Csikszentmihalyi Flow / Cal Newport «Deep Work» / chess opening repertoire research / Polya inquiry heuristics / Boyd OODA loop tempo).
+- **Expected output:** ~1500w + concentration-pinball-vs-exploration empirical tradeoff validation для O-151 + cadence layer operationalisation для L13 §J tuning parameter.
+- **Priority hint:** P3 — operationalisation pattern for meta-method tuning; informs sustainability discipline.
+- **Trigger:** Ruslan ack D11-9.
+
+### Pool maintenance batch-11 closure
+
+- All 5 batch-11 DRs = POOLED (not launched)
+- Per `feedback_research_pool_pattern.md` — Ruslan cherry-picks; brigadier writes prompt + launches AFTER ack
+- **DR-43 ⭐ highest priority** recommended for immediate ack-and-launch (substantiates O-133 STRONGEST batch-11; gates L16 §APPEND)
+- **DR-44 ⭐ second priority** (substantiates O-150 G5 comparative cognition direction)
+- Pool total: 33 (batch-10-supp) + 5 = **38 research items POOLED total**
+
+Recall: 4 DRs APPROVED for launch batch-10 (DR-34/37/38/40) — server execution pending; POOL state preserved overall.
+
+Source: `reports/voice-pipeline-2026-05-22-batch-11/05-candidates-3-buckets.md` §C.2
+
+---
+
+*Research pool extended batch-11 2026-05-22 evening. **38 items POOLED total** (33 + 5). Не launched. Cherry-pick when ready. DR-43 ⭐ recommended immediate ack-launch.*

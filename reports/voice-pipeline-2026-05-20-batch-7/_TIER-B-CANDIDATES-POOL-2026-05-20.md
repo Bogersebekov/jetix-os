@@ -387,3 +387,61 @@ Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` 
 ---
 
 *Tier B pool extended supplement 2026-05-22. **50 candidates POOLED total** (45 + 5). Не promoted. Cherry-pick when ready. O-128 ⭐⭐⭐ strongest supplement candidate.*
+
+
+---
+
+## §APPEND batch-11 (2026-05-22 evening) — 23 new Tier B candidates O-133..O-155
+
+Per autonomous voice batch-11 deep analysis (7 audio 722-728, 22.05 16:50→17:40). Per «без сверхъестественного нового» Ruslan posture continued — minimal Tier A; всё в pool. 2 candidate-Tier-A flagged (O-133 + O-138) but DEFAULT Tier B unless Ruslan promotes via D11-1/D11-2.
+
+### batch-11 candidates table
+
+| ID | Concept (1-line) | Voice source | §APPEND substrate target | Substrate density | Trigger to promote |
+|---|---|---|---|---|---|
+| **O-133** ⭐⭐⭐ | AGI minimal formula «system with info+methods accumulated > other system/task» | audio_726 claim 7-8 | L16 AI Market PLAN Stage 1 PRIMARY + L13 §B/§J + L17 O-107 + potential Tier A standalone `wiki/concepts/agi-minimal-formula.md` | ~800w simple + task-relative refinement | Ruslan ack D11-1; STRONGEST batch-11 candidate |
+| **O-134** ⭐⭐ | Intellect dual purpose (self-management + self-development of same system) | audio_725 claim 5 | L13 §B layer-split + L17 O-128 dialectic resolution H-batch-11-04 | ~500w | Ruslan ack D11-3 |
+| **O-135** ⭐ | Binary-computation mind hypothesis «да/нет много раз» (одна из гипотез) | audio_722 claim 2 | L13 §A Phase 1 + §B + §M (McCulloch-Pitts/Friston/Kahneman) | ~400w + AP-6 «одна из гипотез» self-flag | Ruslan ack D11-4 |
+| **O-136** ⭐ | Dual-state values frame «недоразвитый ↔ развитый» dynamic symbiosis (NOT static) | audio_722 claim 1 | wiki/mastery-formula.md + Pillar C Tier 1 self-honesty | ~300w | Ruslan ack D11-4 |
+| **O-137** | Intellect-as-selector operational definition («выбирать подходящие для развития») | audio_722 claim 4 | L17 O-107 method-method-one-liner §APPEND | ~200w | Ruslan ack D11-5 |
+| **O-138** ⭐⭐⭐ | Foundational-values declaration «жить чтобы жить + не умереть + развиваться» signed «Russik в Берлине в трусах 22 мая» | audio_726 claim 10 | L14 Strategic Plan §1 + wiki/jetix-as-exokortex + L17 PARTNER-OFFERING + potential Tier A standalone `wiki/values/jetix-foundational-values-declaration.md` | ~600w + signature element | Ruslan ack D11-2; STRONGEST values candidate |
+| **O-139** | Binary key-question evaluation primitive «поможет/не поможет развиваться» | audio_724 claim 2 | L13 §B filter + wiki/all-is-information.md | ~200w | Ruslan ack D11-5 |
+| **O-140** | Inheritance mechanic (stronger intellect → survives + passes self forward) | audio_725 claim 2 | L13 §B + evolutionary substrate | ~200w | Ruslan ack D11-5 |
+| **O-141** | Future-modeling = simulation + work-on-self-from-future temporal-coordination protocol | audio_723 claim 1-2 | L13 §A + L17 O-128 (future-self = external-system on temporal axis) | ~400w | Ruslan ack D11-5 |
+| **O-142** | Function-tier ≠ method-tier distinction + «refusal to develop» pathological signal | audio_723 claim 4 + audio_725 claim 6 | L13 §J tier-clarification + Pillar C Tier 1 candidate | ~400w | Ruslan ack D11-5 |
+| **O-143** ⭐⭐ | Intellect strength triple (info + methods + environment-leverage) + multi-factor production function | audio_726 claim 2+4 | wiki/all-is-information PRIMARY + L13 §B + L17 O-121 9-component refinement | ~500w | Ruslan ack D11-3 |
+| **O-144** | Welcome-frame public-invitation primitive («welcome использовать интеллект + ставить в порядок свой собственный»); R12-compatible voluntary opt-in | audio_726 claim 11 | L17 PARTNER-OFFERING §APPEND + Distribution Plan communication primitive | ~400w | Ruslan ack D11-2 (compound с O-138) |
+| **O-145** | Library-bound limit «missing/non-retrievable → cannot solve» + no-absolute-rating context-dependence | audio_726 claim 5-6 | L13 §B + §J (computational-budget-aware selection) | ~300w | Ruslan ack D11-5 |
+| **O-146** ⭐ | Info→habit→automation skill-acquisition cycle (audio_727) + «как Claude Code» analogy | audio_727 claim 2-4 | wiki/mastery-formula PRIMARY + L13 §B + batch-10 audio_717 explanation | ~500w | Ruslan ack D11-6 |
+| **O-147** | Claude Code analogy for human cognition pattern (skill = «папочки + методы на методы») | audio_727 claim 3-4 | L13 §B + L16 AI Market PLAN + engineering-thinking project | ~300w | Ruslan ack D11-6 |
+| **O-148** | Recursive «методы на методы на методы» 3rd-order method | audio_727 claim 4 | L13 §J + L17 O-107 + compound с O-132 4-layer (batch-10-supp) | ~300w | Ruslan ack D11-7 |
+| **O-149** | Direction-of-development indifference («куда — пох; было-есть-будет») + intellect's prime directive «continue itself» | audio_727 claim 6-8 | L13 §J operational defense against analysis-paralysis | ~400w + dialectic с O-128 direction-required | Ruslan ack D11-7 |
+| **O-150** ⭐ | Comparative species cognition (ants/dolphins/humans) + G5 research direction | audio_728 claim 2-4 | L13 §M new traditions (de Waal / Pepperberg / Köhler / Griffin / Godfrey-Smith) + L16 G5 candidate | ~500w | Ruslan ack D11-8 + DR-44 launch trigger |
+| **O-151** ⭐ | Concentration vs exploration tradeoff at developmental-cadence layer | audio_728 claim 6 | L13 §J tuning + wiki/sense-of-measure + dialectic с batch-10 audio_716 preserved | ~300w | Ruslan ack D11-9 |
+| **O-152** | Concepts/ideas = intellect-derived epistemic compression for continued learning | audio_728 claim 7 | L17 O-107 (epistemic compression supporting mechanic) + wiki/method-systems-thinking | ~300w | Ruslan ack D11-10 |
+| **O-153** ⭐⭐ | Intellect = gate/предохранители function (what-admit/what-reject/what-important) | audio_728 claim 8 | Pillar C Tier 2 R11 Default-Deny intellect-tier candidate + L17 O-128 §APPEND | ~400w | Ruslan ack D11-11 — constitutional rule candidate; high-risk |
+| **O-154** | Intellect-layer unifying-information-substrate connecting humans (network analog) | audio_728 claim 5 | wiki/jetix-as-exokortex (network layer) + L17 PARTNER-OFFERING substrate | ~300w | Ruslan ack D11-10 |
+| **O-155** | World-undefined → intellect-uncertainty-reduction as primary task | audio_728 claim 1 | L13 §A Phase 1 + §M (Friston FEP active inference) | ~300w | Ruslan ack D11-10 |
+
+### batch-11 high-risk (R-batch-11 N1-N13) — substrate-only, not Tier B
+
+13 R-batch-11 N-flags surfaced (universal-claim soften / profanity-sanitisation / reductionism nuance / hubris check / values-declaration mood preservation). All substrate-verbatim preserved в audio_722-728.md. KA-46 pitch-reframes batch flagged for ack.
+
+### Per-candidate trigger summary batch-11
+
+- **O-133 ⭐⭐⭐** — gated by D11-1 (potential Tier A; §APPEND L16 + L13 §B/§J + L17 O-107)
+- **O-138 ⭐⭐⭐** — gated by D11-2 (potential Tier A; values-declaration signed signature)
+- **O-143 ⭐⭐ + O-134 ⭐⭐** — gated by D11-3 (compound с D10-1 §J §APPEND)
+- **O-153 ⭐⭐** — gated by D11-11 (Pillar C constitutional addition — deep ack)
+- **O-146 + O-147 + O-148 + O-149 + O-150 + O-151** ⭐ each — gated by D11-6/7/8/9
+- **O-135 / O-136 / O-137 / O-139 / O-140 / O-141 / O-142 / O-144 / O-145 / O-152 / O-154 / O-155** — gated by D11-4/5/10
+
+### SKIP-list integrity check batch-11
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored — audio_722 «как одна из гипотез» = epistemic-honesty + audio_728 «G5 если интеллект это реально так» = inquiry-frame; both context-DISTINCT; NOT REVIVED.
+
+Source: `reports/voice-pipeline-2026-05-22-batch-11/05-candidates-3-buckets.md` §A.2 + §A.3
+
+---
+
+*Tier B pool extended batch-11 2026-05-22 evening. **73 candidates POOLED total** (50 + 23). Не promoted. Cherry-pick when ready. O-133 ⭐⭐⭐ + O-138 ⭐⭐⭐ strongest batch-11 candidates (both potential Tier A; D11-1/D11-2 gated).*
