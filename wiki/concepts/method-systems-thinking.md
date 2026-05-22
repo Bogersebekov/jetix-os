@@ -144,3 +144,67 @@ Independent re-articulation Левенчук Методология 2025 Гл. 4
 - KA-20 strategic decision: hypothesis-tables architecture (5 options surfaced batch-8 Phase 4)
 
 [src: audio_703 + audio_704 (batch-8 2026-05-20 16:53-18:03); Левенчук Методология 2025 Гл. 4 lines 2758-4276; research/levenchuk-books-distillation-2026-05-20/06-cross-link-к-jetix-substrate.md §2.1]
+
+---
+
+## §APPEND-2026-05-22-batch-10-supplement — Pluralism scaling + recursive 4-layer depth (O-131 + O-132)
+
+Per Ruslan R1 ack 2026-05-22 voice «макать всё в Википедию + Тир А ебаш + append тоже ебаш». Этот append extends systems-thinking substrate с pluralism scaling thesis + recursive 4-layer meta-method depth marker (audio_721).
+
+### §A O-131 — 20-perspectives pluralism scaling thesis
+
+**Statement (audio_721 claim 13):** «об одной ситуации. Два мнения, два метода ее решения. И потом, если посмотреть вот эти два метода решения, их можно соединить и можно получить вариант получше. Или же можно даже еще больше сделать, чтобы посмотрели на эту систему с 20 разных сторон, соответственно 20 разных методов предложили, а этих 20 разных методов предложили на основе просто еще миллионов методов, которые использовались, которые изучались вот этими людьми ранее. И все это на базе метода выбора методов»
+
+**Scaling structure:**
+- Layer 0: 1 ситуация (situation)
+- Layer 1: 2 мнения / 2 method-proposals → combine → лучше
+- Layer 2: 20 разных перспектив × 20 разных методов
+- Layer 3: каждый из 20 предложен на основе millions of prior methods (deep precedent library)
+- Layer 4: ВСЁ на base of [[method-method-one-liner]] meta-method (selection discipline)
+
+**Connection к systems-thinking 31-component substrate:**
+- Senge 11 laws fifth-discipline → systems-thinking-as-pluralism-discipline → этот 20-perspectives pattern = explicit operationalisation
+- Ashby Requisite Variety (см. [[external-system-cybernetic-principle]] §2) → controller variety must absorb system variety → 20 perspectives × 20 methods = variety supply
+- Meadows feedback-from-outside → 20 external-system-instances = feedback-network
+
+**Falsifiable hypothesis substrate:** «pluralism scaling improves problem-solution quality at log-rate up to 20 perspectives; diminishing returns beyond». Workshop-cohort empirical test substrate.
+
+[src: audio_721 claim 13 (batch-10-supplement 2026-05-22 12:11); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-131]
+
+### §B O-132 — Recursive 4-layer meta-method articulation
+
+**Statement (audio_721 claim 14):** «все это делается с максимальной продуманностью, ответственностью. Снова-таки адекватным подходом даже к выбору подхода, по которому будет создан подход для разработки этой системе»
+
+**4-layer recursive depth structure:**
+
+| Layer | What | Example |
+|---|---|---|
+| L1 — Work | Подход (method) | Решение конкретной задачи |
+| L2 — Selection | Выбор подхода (method-selection) | Какой метод применить |
+| L3 — Meta-selection | Подход для разработки подхода (method-for-method-design) | Как создать метод когда existing не подходит |
+| L4 — Meta-meta | Адекватный подход к выбору подхода для разработки подхода | Selection criterion of the meta-meta level |
+
+Deeper recursion чем prior 3-layer articulation в batch-8 + batch-9. Substrate для L13 Method V2 §J «Метод выбора методов» recursive-depth-extension.
+
+**Cross-link к sibling Tier A:**
+- [[meta-method-8-component-composition]] §3.5 — «reproducibility protocol» = level-4 recursion explicit
+- [[method-method-one-liner]] §APPEND-batch-10 — operational substantiation (L1-L2 layers)
+- [[unified-framework-jetix-stack]] §3.4 — stack ↔ recursive depth coupling
+
+[src: audio_721 claim 14 (batch-10-supplement 2026-05-22 12:11); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-132]
+
+### §C Cross-links to sibling Tier A wikis (batch-10)
+
+- [[external-system-cybernetic-principle]] — sibling Tier A; Ashby/Beer/Meadows direct corroboration (Phase 2 same batch)
+- [[meta-method-8-component-composition]] — L4 recursive depth = level-3 concrete instance (Phase 1 same batch)
+- [[frankenstein-method-collection]] — 20-perspectives pluralism realised through Frankenstein composition (Phase 3 same batch)
+- [[student-teacher-pair-dynamic]] — pair-dynamic = 2-perspectives base case (scale up к 20-perspectives) (Phase 4 same batch)
+- [[unified-framework-jetix-stack]] — recursive depth = level-4 stack-of-stack property (Phase 5 same batch)
+
+### §D Promotion history append
+
+- **2026-05-22 batch-10-supplement:** O-131 + O-132 surfaced as Tier B supplement pool entries (audio_721)
+- **2026-05-22 batch-10 closure:** Ruslan R1 ack «макать всё в Википедию + Тир А ебаш + append тоже ебаш» → этот §APPEND created
+- **Research pool extension:** DR-40 ⭐ External-system cybernetic benchmarks + DR-41 dynamic expert-rotation benchmarks (both Ruslan-ack pending для launch)
+
+[src: Ruslan voice ack 2026-05-22 «макать всё + append»; `prompts/wiki-promotions-batch-10-2026-05-22.md` Phase 6 §APPEND target]

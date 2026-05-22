@@ -136,3 +136,65 @@ Different phrasings одного концепта:
 ---
 
 *Tier A standalone wiki created 2026-05-22 per Ruslan R1 ack. Canonical articulation Jetix-метода. R12 paired-frame conformant.*
+
+---
+
+## §APPEND-2026-05-22-batch-10 — Operational substantiation (O-121 + O-122 + O-124)
+
+Per Ruslan R1 ack 2026-05-22 voice «макать всё в Википедию + Тир А ебаш». Этот append extends abstract one-liner с operational substantiation surfaced batch-10 (audio_719 + audio_720).
+
+### §A O-121 — 8+ component operational composition
+
+Abstract one-liner («метод по объединению методов по улучшению системы самой себя») gets explicit **8+ component operational articulation** per audio_719 voice anchor:
+
+1. Самая ебейшая проработка (depth)
+2. Самая глубокая (vertical drilling)
+3. Фокус на важных делах (selection discipline)
+4. Отсечение всего неважного (active rejection)
+5. Полная честность с собой (radical self-honesty)
+6. Максимальное использование рычагов (leverage-maximisation)
+7. Развитие системы (system-development orientation)
+8. Досконально изучение system mechanics (узкие горлышки + how-each-part-works)
+
+**State extensions (audio_719 claim 4, 6):** 9-12 = «1000% голодный + ускоренный + развитый + настрой на успех» (state-component overlay; pitch-material soften per [[meta-method-8-component-composition]] §6 HR flags).
+
+Without this 8-component substantiation one-liner remains abstract; with it = applicable + transmittable. Canonical operational instance: [[meta-method-8-component-composition]] (Tier A standalone created same batch).
+
+[src: audio_719 claim 1, 4, 6 (batch-10 2026-05-22 10:19); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-121 ⭐⭐⭐]
+
+### §B O-122 — Frankenstein / солянка metaphor (pitch-friendly substantiation)
+
+Pitch-friendly Russian metaphor для one-liner: «солянка из методов» / «Frankenstein method-collection». Substantiates one-liner через **sub-domain method-list** (language / Claude / team-management / psychotherapy / info-processing / business / platform / communication / company / fundraising) + **personal-method core** (honesty + responsibility + filter).
+
+**Humility-grounding (audio_719 claim 3):** «это даже не открытие нихуя это просто мой личный метод» — Frankenstein label preserves Ruslan voice modesty discipline; anti-cult / anti-guru by design (others compose свою солянку using same composition principles).
+
+Canonical metaphor instance: [[frankenstein-method-collection]] (Tier A standalone created same batch).
+
+[src: audio_719 claim 7, 8, 10 (batch-10 2026-05-22 10:19); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-122 ⭐⭐]
+
+### §C O-124 — 3-question self-check protocol (operational invocation pattern)
+
+Operational invocation pattern для one-liner — **3-question self-check protocol** перед method-execution (audio_720 claim 13):
+
+1. **«Какой у меня метод выбора методов?»** — surface meta-method explicit
+2. **«Почему именно такой?»** — justification check (rationale audit)
+3. **«Какие есть другие / альтернативы?»** — alternatives survey (anti-monomania discipline)
+
+= small re-check самой системы перед action. Operational discipline that turns abstract «meta-method» в action-gated discipline. Cross-link: candidate Pillar C principles addition («pre-execution method-audit» pattern) per `05-candidates-3-buckets.md` O-124 trigger.
+
+[src: audio_720 claim 13 (batch-10 2026-05-22 11:22); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-124]
+
+### §D Cross-links to sibling Tier A wikis (batch-10)
+
+- [[meta-method-8-component-composition]] — O-121 operational instance (Phase 1 same batch)
+- [[frankenstein-method-collection]] — O-122 pitch-friendly metaphor (Phase 3 same batch)
+- [[external-system-cybernetic-principle]] — O-128 external-operand cybernetic principle (Phase 2 same batch)
+- [[student-teacher-pair-dynamic]] — O-130 relational transmission protocol (Phase 4 same batch)
+- [[unified-framework-jetix-stack]] — O-129 5-layer Jetix stack (этот one-liner = L2 abstract layer; Phase 5 same batch)
+
+### §E Promotion history append
+
+- **2026-05-22 batch-10:** O-121 + O-122 + O-124 surfaced as Tier B pool entries (audio_719 + audio_720)
+- **2026-05-22 batch-10 closure:** Ruslan R1 ack «макать всё в Википедию + Тир А ебаш» → этот §APPEND created + 5 sibling Tier A wikis created (Phase 1-5 same batch)
+
+[src: Ruslan voice ack 2026-05-22 «макать всё»; `prompts/wiki-promotions-batch-10-2026-05-22.md` Phase 6 §APPEND target]

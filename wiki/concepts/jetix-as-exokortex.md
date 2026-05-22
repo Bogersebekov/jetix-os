@@ -146,3 +146,69 @@ Exocortex усиливает intellect, но direction усиления зави
 - 2026-05-22: **Ruslan R1 ack** TA-1 → §APPEND here (not standalone wiki; integrates с exokortex foundation)
 
 [src: audio_709 + Method V2 Phase 3 §D + REFLECTION-INBOX §APPEND-2026-05-22-Ruslan-ACK-batch-consolidated]
+
+---
+
+## §APPEND-2026-05-22-batch-10-supplement — O-128 reinforcement: exocortex = institutionalised external managing system
+
+Per Ruslan R1 ack 2026-05-22 voice «макать всё в Википедию + append тоже ебаш». Этот append reinforces exocortex articulation с cybernetic-grounding from audio_721 (O-128).
+
+### §A Reinforcement claim
+
+**Statement (audio_721 claim 5, 12):** «система не может сама себя сам сама собой же адекватно управлять то есть ей должен у этой системы должна быть другая управляющая система которая вот видит возможно больше ну или чуть в другом направлении… в управлении Jetix должна быть похожая ситуация. И как раз это решает вопрос того, что система не может адекватно вокруг себя все видеть»
+
+**Reinforcement interpretation:** exocortex (Jetix-as-exocortex per main wiki) ≡ **institutionalised external managing system** на substrate-level. Не replacement for human brain; не isolated computational extension; а structural implementation cybernetic principle что system cannot self-manage adequately from inside.
+
+### §B Cybernetic grounding (Ashby / Beer / Meadows)
+
+Exocortex articulation gets direct theoretical lineage:
+- **Ashby Requisite Variety (1956)** — main system limited variety; exocortex supplies variety for blind-spot states
+- **Beer Viable System Model (1972)** — exocortex = System 4 (intelligence/scanning) + System 5 (policy/identity) functional layer
+- **Meadows feedback-from-outside (2008)** — exocortex = privileged outsider perspective on leverage points main system can't see
+- **Sutton-Barto actor-critic** — exocortex = critic (improves actor's policy via external feedback)
+- **Karpathy teacher-student distillation** — direct AI/ML analogue (exocortex = teacher; biological brain = student in some directions; pair-dynamic см. [[student-teacher-pair-dynamic]])
+
+Canonical theoretical articulation: [[external-system-cybernetic-principle]] (Tier A standalone created same batch — Phase 2).
+
+### §C Connection к unified Jetix stack (O-129)
+
+Per [[unified-framework-jetix-stack]] §1 stack visualisation — exocortex spans:
+- L3 (substrate) — blockchain enforcement of R12 external-system anti-extraction
+- L4 (operations) — company-as-code git-driven external-feedback transparency
+- L5 (personal) — life-as-system-as-code self-application of external-observer pattern
+
+= exocortex не single-layer; institutionalisation spans 3 layers of unified stack.
+
+### §D Operationalisation: dynamic role-swap
+
+Audio_721 claim 9-12 sequential expert-rotation (psychologist → sales-teacher → next expert) = **operational protocol** для exocortex usage. Каждый expert = temporally-bounded external managing system; exocortex aggregates / sequences these:
+- Phase 1: psych-expert as external observer → main system gains psych capacity
+- Phase 2: sales-expert as external observer → main system gains sales capacity
+- Phase N: AI commoditisation (L16 adjacency) → many cheap external systems available → mass-applicability
+
+Canonical relational operationalisation: [[student-teacher-pair-dynamic]] (Tier A standalone created same batch — Phase 4).
+
+### §E R12 anti-extraction reinforcement
+
+Exocortex as institutionalised external managing system **must NOT extract value beyond agreed share** (R12 LOCK). Reinforcement:
+- Voluntary opt-in clause: «партнёры более прошарены / более ответственны» (audio_721 claim 8) = competence-based selection, not coercion
+- Fork-and-leave preserved: user can switch exocortex / external system any time
+- Role-swap clause: same person teacher в одном domain → student в другом → reciprocity baked in
+
+⚠️ Pitch-material soften discipline applied (per [[external-system-cybernetic-principle]] §6 HR flags): «партнёры берут управление» → «partners with relevant expertise lead в своём domain».
+
+### §F Cross-links to sibling Tier A wikis (batch-10)
+
+- [[external-system-cybernetic-principle]] — parent cybernetic principle (Phase 2 same batch)
+- [[student-teacher-pair-dynamic]] — relational operationalisation (Phase 4 same batch)
+- [[meta-method-8-component-composition]] — exocortex amplifies components 9-12 state-overlay (Phase 1 same batch)
+- [[frankenstein-method-collection]] — Frankenstein method-arsenal optimally usable via exocortex transmission channel (Phase 3 same batch)
+- [[unified-framework-jetix-stack]] — exocortex spans L3-L5 of 5-layer Jetix stack (Phase 5 same batch)
+
+### §G Promotion history append
+
+- **2026-05-22 batch-10-supplement:** O-128 surfaced as Tier B supplement primary entry (audio_721)
+- **2026-05-22 batch-10 closure:** Ruslan R1 ack «макать всё + append тоже ебаш» → этот §APPEND created + [[external-system-cybernetic-principle]] Tier A standalone created
+- **Research pool trigger:** DR-40 ⭐ External-system cybernetic benchmarks (Ashby/Beer/Meadows/Sutton-Barto/Karpathy/Polanyi/Vygotsky) — Ruslan ack pending для launch
+
+[src: audio_721 claim 5, 6, 8, 9-12 (batch-10-supplement 2026-05-22 12:11); `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` O-128 ⭐⭐⭐; `prompts/wiki-promotions-batch-10-2026-05-22.md` Phase 6 §APPEND reinforcement target]
