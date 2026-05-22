@@ -308,3 +308,67 @@ Source: `reports/voice-pipeline-2026-05-21-batch-9/05-candidates-3-buckets.md` �
 ---
 
 *Research pool extended batch-9 2026-05-21. **25 items POOLED total** (17 + 8). Не launched. Cherry-pick when ready. DR-26 ⭐⭐ recommended immediate ack.*
+
+
+---
+
+## §APPEND batch-10 (2026-05-22) — 6 new DR candidates DR-34..DR-39
+
+Per autonomous voice batch-10 deep analysis (7 audio 714-720). Per `feedback_research_pool_pattern.md` — POOLED, NOT auto-launched. Ruslan cherry-picks; brigadier writes prompt + launches AFTER ack.
+
+#### DR-34 — AI commoditisation impact on consulting positioning
+
+- **Scope:** AI commoditisation literature (Andreessen «software eats world» / Brynjolfsson «Second Machine Age» / Karpathy «Software 3.0» / Sundar «AI as electricity») + L16 AI Market PLAN Stage 1 thesis substantiation + consulting positioning under AI commoditisation + specialist obsolescence empirical grounding (audio_715 substrate).
+- **Expected output:** ~1500w + AI commoditisation impact analysis + consulting positioning recommendations + L16 thesis validation.
+- **Priority hint:** P2 — substantiates L16 Stage 1 thesis with empirical grounding; relevant Phase 3 Wave 1 partnership positioning.
+- **Trigger:** Ruslan ack «substrate worth digging»; immediate ack-and-launch candidate.
+
+#### DR-35 — Hackathon-as-platform-build methodology benchmarks
+
+- **Scope:** Hackathon literature (ETHGlobal / ETHDenver / Y Combinator demo days / Devcon / OpenAI hackathons / NASA Space Apps / ConsenSys hackathons) + MVP-via-hackathon pattern + community-bootstrap-via-hackathon model + lightning-method mobilisation literature.
+- **Expected output:** ~1500w + hackathon-as-MVP pattern validation + O-120 recursive hackathon meta-architecture substrate + community-bootstrap timing/scale benchmarks.
+- **Priority hint:** P2 — gates URGENCY-MAX strategic-stance lock; informs Phase 5 MVP Sprint method.
+- **Trigger:** Ruslan ack post-D10-4 reconcile; «substrate worth digging».
+
+#### DR-36 — Sub-daily strategic re-planning cadence benchmarks
+
+- **Scope:** Cadence literature (Boyd OODA loop military command tempo / agile sprint cadence / lean startup MVP iteration / Toyota kaizen continuous improvement / DevOps CI-CD cycle / Sutton «How to Solve It» heuristic loops) + sustainability literature integration + cognitive ergonomics for «every 3 hours» strategic re-planning.
+- **Expected output:** ~1500w + cadence pattern validation для H-batch-10-04 «every 3 hours / ежесекундно» + sustainability/burnout mitigation framework.
+- **Priority hint:** P3 — operationalisation pattern для meta-method; sustainability check important.
+- **Trigger:** Ruslan ack; H-batch-10-04 promotion gates.
+
+#### DR-37 — Question-driven / inquiry-driven research methodology benchmarks
+
+- **Scope:** Question-driven literature (Polya «How to Solve It» / Matuschak «question-stack» / Sapir-Spence inquiry methodology / Heuser inquiry-driven research / Sutton question-decomposition / Lakatos «proofs and refutations» / Andy Matuschak Evergreen Notes question-tracking).
+- **Expected output:** ~1500w + question-pivot operational pattern validation для H-batch-10-05 + question-decomposition heuristic library.
+- **Priority hint:** P3 — operationalisation pattern для meta-method; informs L13 §J §APPEND.
+- **Trigger:** Ruslan ack; D10-1 §J §APPEND substrate enrichment.
+
+#### DR-38 — 8-component meta-method composition benchmarks
+
+- **Scope:** Meta-method composition literature (Aristotle phronesis / Левенчук интеллект-стек 16 trans-disciplines / Karpathy evals methodology / Polya heuristics / Boyd OODA components / Senge 11 laws of fifth discipline / GTD methodology / Stoic discipline / Kahneman System 1+2) + composition validation benchmarks.
+- **Expected output:** ~1500w + 8-component composition validation для O-121 + H-batch-10-06 + Frankenstein method-collection metaphor literature grounding.
+- **Priority hint:** P2 — substantiates O-121 strongest Tier B candidate.
+- **Trigger:** Ruslan ack «DR-38 immediate-launch candidate»; informs L13 §J + O-107 wiki §APPEND.
+
+#### DR-39 — Civilisational transition timing benchmarks
+
+- **Scope:** Civilisational transition literature (Kuhn paradigm shifts / Kondratieff long waves / Schumpeterian innovation cycles / Harari cognitive revolutions / Polanyi great transformations / Strauss-Howe generational theory / Spengler decline of West / Toynbee Study of History / Harari Sapiens cognitive-revolution analysis).
+- **Expected output:** ~1500w + timing-argument validation для H-batch-10-07 + O-123 civilisational transition argument + R-batch-9-N3 + R-batch-10 timing-hubris check.
+- **Priority hint:** P3 — gates timing-argument hubris (R-batch-10 N5-N8 mitigation); long-horizon substrate.
+- **Trigger:** Ruslan ack; D10-2 §M §APPEND enrichment + soften discipline literature.
+
+### Pool maintenance batch-10 closure
+
+- All 6 batch-10 DRs = POOLED (not launched)
+- Per `feedback_research_pool_pattern.md` — Ruslan cherry-picks; brigadier writes prompt + launches AFTER ack
+- **DR-38 ⭐⭐ highest priority** recommended for immediate ack-and-launch (substantiates O-121 strongest batch-10 candidate)
+- **DR-34 ⭐ second priority** (substantiates L16 Stage 1 thesis with empirical grounding)
+- Pool total: 25 + 6 = **31 research items**; estimated total ~100-130h server CC autonomous if all run (~€6-8 cost)
+
+Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` §C.2
+
+---
+
+*Research pool extended batch-10 2026-05-22. **31 items POOLED total** (25 + 6). Не launched. Cherry-pick when ready. DR-38 ⭐⭐ recommended immediate ack.*
+

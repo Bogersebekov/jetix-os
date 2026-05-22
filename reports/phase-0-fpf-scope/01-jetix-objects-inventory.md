@@ -1823,3 +1823,68 @@ Voice batch-8 (6 audio 701-706, 20.05 afternoon 15:58 → 18:13, ~22 min) surfac
 - Hypothesis pool: 5 starter + 7 batch-9-tagged + 2 promotable = **14 hypothesis items**
 
 [src: `reports/voice-pipeline-2026-05-21-batch-9/05-candidates-3-buckets.md` + `06-key-actions-list.md` + per-audio MD `raw/voice-memos-2026-05-21-batch/audio_707..713@*.md` + 8 commits per-phase batch-9]
+
+
+---
+
+## §30 Voice Batch-10 Inventory Extensions (2026-05-22)
+
+Per autonomous voice batch-10 deep analysis (7 audio 714-720, 21.05 14:14 → 22.05 11:22, ≈40-50 min ≈ 6.2 MB). 16-lens cross-analysis = 112 datapoints.
+
+### New substrate adjacencies discovered batch-10
+
+| Existing object/concept | Voice batch-10 extension | Source |
+|---|---|---|
+| L13 Method V2 §J meta-method | Operational cadence «every 3 hours / ежесекундно» + «как» pivot + 8+ component composition + 3-question self-check + Frankenstein method-collection | audio_717-720 cluster ⭐⭐⭐ |
+| L13 Method V2 §A Phase 1 ontology | newborn=biological-info-chunk + intellect-as-evolutionary-cheat-code metaphor (NB context-distinct from O-83 dropped Jetix-cheat-code) | audio_720 claim 1, 6-7 |
+| L13 Method V2 §M Wikipedia-deep | Civilisational transition argument (method-saturation → meta-method shift) | audio_720 claim 9-10 |
+| L14 Strategic Plan Near-Future Phase 8 | Cascade specifics 100→200→2K→100K + end-of-year worldwide timeline AP-6 tension vs May-Jul baseline | audio_716 claim 6, 10 |
+| L11 Distribution Plan | TikTok/YouTube/LinkedIn aggressive channel cluster + engineer-first distribution sequencing + monthly cadence + URGENCY-MAX strategic-stance + recursive hackathon meta-architecture | audio_716 claim 1-10 |
+| `wiki/concepts/method-method-one-liner.md` (O-107 Tier A) | Entire meta-method articulation cluster = primary §APPEND substrate batch-10 (substrate-only, R1 ack pending) | audio_717-720 cluster ⭐⭐⭐ |
+| `wiki/concepts/all-is-information.md` | newborn=info-chunk ontology + dual-position devalue/elevate AP-6 + homo deus reclamation + quality-info-only filter + skills=info=methods equivalence | audio_715, audio_718, audio_720 |
+| `wiki/concepts/jetix-as-exokortex.md` | AI acceleration multiplier + homo deus reclamation alongside existing O-106 desire-to-live §APPEND | audio_715, audio_717 |
+| K-3 partnership baseline draft | «Не ровня + подтягивайтесь» comparative-frame + voluntary opt-in pairing (R12 paired-frame discipline applied) | audio_714 |
+| L16 AI Market PLAN Stage 1 electricity analogy | Specialist obsolescence anxiety + AI multiplier of meta-method + intellect-as-cheat-code (societal-level) substrate adjacencies (Stage 2 LOCK preserved deferred) | audio_715, audio_717, audio_719, audio_720 |
+| L15 Economic Model V10 Hybrid LOCK | LOCK preserved unchallenged — voice silent on tokenomics; only audio_716 investor-mix cross-link (NOT challenge V10) | audio_716 indirect |
+
+### Tier B pool extensions batch-10 (8 new candidates, NOT promoted)
+
+O-120 URGENCY-MAX + recursive hackathon meta-arch / O-121 Meta-method 8+ component composition / O-122 Frankenstein method-collection metaphor / O-123 Civilisational transition argument / O-124 Meta-method 3-question self-check protocol / O-125 Newborn=info-chunk + intellect-cheat-code-context-distinct ontology / O-126 «Не ровня + подтягивайтесь» comparative-frame partnership / O-127 Dual-position devalue/elevate + homo deus reclaim AP-6.
+
+### Research pool extensions batch-10 (6 new DR, NOT auto-launched)
+
+DR-34 AI commoditisation impact on consulting positioning / DR-35 Hackathon-as-platform-build methodology benchmarks / DR-36 Sub-daily strategic re-planning cadence benchmarks / DR-37 Question-driven inquiry methodology benchmarks / DR-38 8-component meta-method composition benchmarks / DR-39 Civilisational transition timing benchmarks.
+
+### Hypothesis candidates batch-10 (7 new H)
+
+H-batch-10-01..07 from per-audio analysis; strongest = H-batch-10-06 «sufficient method-arsenal + meta-level thinking → can solve any task / change any system» [audio_719 claim 11].
+
+### SKIP-list integrity batch-10
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored — audio_720 «intellect-cheat-code» context-DISTINCT (human-vs-animals biological-evolution context ≠ Jetix-as-cheat-code framing); NOT REVIVED O-83.
+
+### R12 paired-frame audit batch-10
+
+- audio_714 «других вариантов нету» — paired-frame partial («не вопрос подтягивайтесь развивайтесь» PRESENT), soften для public-facing
+- audio_716 «никому не переплюнуть» — paired-frame partial («человека на первом месте» PRESENT but weaker than batch-9 language), soften discipline
+- audio_715 «самые ебейшие + homo deus» — substrate-only verbatim; pitch soften
+- audio_719 militarised language («захват + победа + 1000% голодный») — substrate-only verbatim; pitch soften
+- audio_720 «человечество должно перейти» — substrate-only verbatim; pitch soften («societies that have accumulated sufficient method-base may benefit»)
+- audio_717-718 introspective — R12 ok
+
+### V10 + 25% + $100K + Optimism + Q3 + funding mix LOCK preservation batch-10
+
+✅ ALL LOCKED items preserved unchallenged. Only audio_716 timeline AP-6 tension surfaced для Ruslan ack-or-reconcile (NOT modification).
+
+### Constitutional posture preserved batch-10
+
+R1 (brigadier surfaces, Ruslan strategizes) / R2 (LOCK content read-only) / R6 (per-claim provenance) / R11 (Default-Deny SKIP-list honored) / R12 (LOCK verbatim preserved + paired-frame discipline flagged) / IP-1 (Foundation abstract / RUSLAN-LAYER instance) / EP-5 (F2 explicit) / AP-6 (dual-positions preserved verbatim) / append-only (new namespace + §APPEND only) / research-pool pattern (NOT auto-launched).
+
+### Pool counts updated batch-10
+
+- Tier B: 37 → **45 candidates** (batch-10 +8 — O-120..O-127)
+- DR pool: 25 → **31 research items** (batch-10 +6 — DR-34..DR-39)
+- Hypothesis pool: 14 → **21 hypothesis items** (batch-10 +7 — H-batch-10-01..07)
+
+[src: `reports/voice-pipeline-2026-05-22-batch-10/` 9 phases + per-audio MD `raw/voice-memos-2026-05-22-batch/audio_714..720@*.md` + 9 commits per-phase batch-10]
+

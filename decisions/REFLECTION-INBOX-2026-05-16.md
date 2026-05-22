@@ -1064,3 +1064,84 @@ Ruslan voice: «забей ты хуй ну да удали нахуй с это
 - **W-4: AP-6 dissent atoms review** — «в ближайшее время»
 
 [src: Ruslan voice 2026-05-22 consolidated ack «вот все этот тогда фиксируй и тогда посмотрим чё как»]
+
+
+---
+
+## §APPEND-batch-10 (2026-05-22)
+
+Per autonomous voice batch-10 deep analysis. 14 key actions surfaced (KA-37..KA-50). 8 Tier B candidates O-120..O-127. 6 DR candidates DR-34..DR-39. 7 hypothesis candidates H-batch-10-01..07. **Primary value-add:** Phase 7 Updated Execution Plan synthesis 22.05.
+
+### D10-1 — §APPEND L13 Method V2 §J meta-method (cluster 717-720) [PRIMARY P1 ⭐⭐⭐]
+
+**Substrate:** audio_717-720 entire meta-method cluster = primary §APPEND target. (a) Operational cadence «every 3 hours / ежесекундно», (b) «как» pivot pattern, (c) 8+ component composition list, (d) 3-question self-check protocol, (e) Frankenstein method-collection metaphor. Cross-batch corroboration с batch-9 O-105 + O-119.
+
+**Ack question for Ruslan:** Proceed §APPEND L13 §J with batch-10 substrate? Cloud Cowork drafts ~1500w; Ruslan R1 final prose authorship.
+
+### D10-2 — §APPEND L13 Method V2 §A Phase 1 ontology + §M Wikipedia-deep [P1 ⭐⭐]
+
+**Substrate:** audio_720 ontological foundation (newborn=biological-info-chunk + intellect-as-evolutionary-cheat-code) + civilisational transition argument.
+
+**Ack question for Ruslan:** (1) Proceed §APPEND L13 §A + §M? (2) Confirm explicit context-distinction note для intellect-cheat-code (NOT revival of O-83 dropped Jetix-cheat-code framing)?
+
+### D10-3 — §APPEND wiki/concepts/method-method-one-liner.md (O-107 Tier A) [PRIMARY P1 ⭐⭐⭐]
+
+**Substrate:** audio_717-720 cluster = primary §APPEND substrate для existing Tier A canonical concept-doc.
+
+**Ack question for Ruslan:** Proceed §APPEND O-107 wiki w/ batch-10 substrate?
+
+### D10-4 — Reconcile timeline AP-6: audio_716 «end-of-year worldwide» vs L14 Strategic Plan May-Jul baseline [P1 ⭐]
+
+**Substrate:** audio_716 URGENCY-MAX strategic-stance + cascade 100→200→2K→100K + worldwide-by-end-of-year aspiration is MORE AGGRESSIVE than L14 baseline (May-Jul cohort).
+
+**Ack question for Ruslan:** Three options:
+- (A) ADOPT URGENCY-MAX «end-of-year worldwide» → L14 amendment + L11 cascade acceleration
+- (B) PRESERVE L14 May-Jul baseline → audio_716 substrate verbatim preserved only
+- (C) HYBRID — phase-1 May-Jul + phase-2 end-of-year stretch
+
+### D10-5 — Pitch-material soften discipline pass (HR-1..HR-8 reframes) [P2]
+
+**Substrate:** 8 HR items surfaced batch-10 — burnout signal / monopoly hubris / universal-claim partnership / homo deus / 100s-years post-me / militarised language / average-vs-Ruslan elitism / civilisational «человечество должно». Substrate preserved verbatim; pitch reframes needed.
+
+**Ack question for Ruslan:** Proceed soften pass для C.2 pitch deck + Master Packaging Step 6 + one-pager?
+
+### D10-6 — Hypothesis-add H-batch-10-06 canonical promotion [P2]
+
+**Substrate:** «sufficient method-arsenal + meta-level thinking → can solve any task / change any system» [audio_719 claim 11] — strongest hypothesis form of batch-10.
+
+**Ack question for Ruslan:** Promote H-batch-10-06 к canonical hypothesis (hypotheses/ pipeline)?
+
+### D10-7 — Tier B promotion candidates O-120..O-127 (8 items pool-tagged) [pool decision]
+
+**Substrate:** Phase 4 §A.2 — 8 NEW Tier B candidates POOLED, NOT promoted. Per «без сверхъестественного нового» Ruslan posture.
+
+**Ack question for Ruslan:** Cherry-pick any для Tier A promotion? Default = preserve pool.
+
+### D10-8 — DR research candidates DR-34..DR-39 (6 items pool-tagged) [research-pool decision]
+
+**Substrate:** Phase 4 §C.2 — 6 NEW DR candidates POOLED, NOT auto-launched per pattern.
+
+**Ack question for Ruslan:** Cherry-pick any для immediate research run? DR-38 (8-component meta-method benchmarks) likely most useful immediate. Default = preserve pool.
+
+### D10-9 — Day-goal 22.05 substrate readiness [P1 ⭐⭐ DAY-GOAL]
+
+**Substrate:** audio_719 Frankenstein method-collection + 8-component meta-method narrative = strongest concrete-differentiator для one-pager.
+
+**Ack question for Ruslan:** Use Frankenstein-collection metaphor literally OR alt label («методологический подход» / «составной метод») для one-pager?
+
+### D10-10 — Phase 7 Updated Execution Plan 22.05 ready for Ruslan read [PRIMARY P1 ⭐⭐]
+
+**Substrate:** `daily-logs/_UPDATED-EXECUTION-PLAN-2026-05-22.md` — synthesis integrating 4 NEW substrate + batch-10 findings + day-goal 22.05. ~3500-4500w + 10+ mermaid diagrams.
+
+**Ack question for Ruslan:** Read Updated Plan 22.05 → ack D10-1..D10-9 → pick 1-2 immediate Wave 1 actions to continue.
+
+### Constitutional summary batch-10
+
+R1 / R2 / R6 / R11 / R12 LOCK preserved / IP-1 / EP-5 / AP-6 / append-only / research-pool-pattern / SKIP-list integrity. NO LOCK content modified. NO strategic prose brigadier-authored. 9 commits per-phase + push.
+
+### Pool counts batch-10 closure
+
+Tier B 45 / DR 31 / Hypothesis 21.
+
+[src: `reports/voice-pipeline-2026-05-22-batch-10/` 9 phases]
+

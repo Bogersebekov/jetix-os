@@ -302,3 +302,49 @@ Source: `reports/voice-pipeline-2026-05-21-batch-9/05-candidates-3-buckets.md` �
 ---
 
 *Tier B pool extended batch-9 2026-05-21. **37 candidates POOLED total** (22 + 15). Не promoted. Cherry-pick when ready.*
+
+
+---
+
+## §APPEND batch-10 (2026-05-22) — 8 new Tier B candidates O-120..O-127
+
+Per autonomous voice batch-10 deep analysis (7 audio 714-720). Per «без сверхъестественного нового» Ruslan posture (batch-9 closure) — minimal Tier A promotion; всё в pool.
+
+### batch-10 candidates table
+
+| ID | Concept (1-line) | Voice source | §APPEND substrate target | Substrate density | Trigger to promote |
+|---|---|---|---|---|---|
+| **O-120** | URGENCY-MAX strategic-stance + recursive hackathon meta-architecture («самый ебейший хакатон планеты» = platform-build hackathon → enables future hackathons) | audio_716 claim 1-3, 7 | §APPEND L14 Strategic Plan + L11 Distribution Plan; AP-6 timeline tension с May-Jul baseline preserved | ~700w URGENCY frame + recursive arch + cascade specifics | Ruslan ack D10-4 reconcile («adopt URGENCY-MAX OR keep adaptive OR hybrid»); pitch monopoly-hubris soften discipline |
+| **O-121** ⭐⭐⭐ | Meta-method 8+ component composition (самая ебейшая проработка / глубокая / фокус / отсечение / полная честность / максимальное использование рычагов / развитие системы / досконально изучение system mechanics / 1000% голодный / ускоренный / развитый / настрой на успех-захват-победу) | audio_719 claim 1, 4, 6 | ⭐⭐⭐ PRIMARY §APPEND L13 Method V2 §J + O-107 Tier A wiki | ~800w composition list explicit | Ruslan ack D10-1/D10-3; pitch militarised-language soften discipline |
+| **O-122** | Frankenstein / солянка method-collection metaphor + sub-domain method-list (language / Claude / team / psychotherapy / info-processing / business / platform / communication / company / fundraising) | audio_719 claim 7-8, 10 | §APPEND L13 §M + Master Packaging Step 6 «что предлагаю» | ~500w metaphor + sub-domain list | Ruslan ack D10-9 «Frankenstein label OR alt naming для one-pager»; soften discipline |
+| **O-123** | Civilisational transition argument: method-saturation → meta-method shift | audio_720 claim 9-10 | §APPEND L13 §M Wikipedia-deep | ~500w timing-argument + paradigm-shift framing | Ruslan ack D10-2; soften «человечество должно» universal-claim |
+| **O-124** | Meta-method operational 3-question self-check protocol: (1) какой у меня метод выбора методов, (2) почему именно такой, (3) какие альтернативы | audio_720 claim 13 | §APPEND L13 §J + potential Pillar C principles addition | ~400w protocol + invocation pattern | Ruslan ack D10-1 batch §J §APPEND |
+| **O-125** | Newborn=biological-info-chunk + intellect-as-evolutionary-cheat-code ontology (NB: cheat-code context-DISTINCT from O-83 dropped Jetix-cheat-code framing — biological-evolution vs Jetix-positioning) | audio_720 claim 1, 6-7 | §APPEND wiki/concepts/all-is-information.md + L13 §A Phase 1 | ~400w ontology + explicit O-83-context-distinction note | Ruslan ack D10-2 (proceed §APPEND + confirm context-distinction) |
+| **O-126** | «Не ровня» comparative-frame partnership invitation + «подтягивайтесь» voluntary opt-in pairing | audio_714 claim 1-3 | §APPEND partnership-baseline + C.5 onboarding doc substrate | ~400w comparative-frame + paired clause | Ruslan ack «include comparative-frame OR soften для public-facing» — R12 paired-frame discipline |
+| **O-127** | Dual-position devalue/elevate within info-processing ontology + homo deus reclaim + uniqueness/установки differentiation (AP-6 explicit) | audio_715 claim 2-6 | §APPEND wiki/concepts/all-is-information.md + wiki/concepts/jetix-as-exokortex.md + C.2 pitch | ~600w dual-position + homo deus + AP-6 preserved | Ruslan ack «which position primary OR preserve AP-6» — preferred preserve AP-6 |
+
+### batch-10 high-risk (HR-1..HR-8) — substrate-only, not Tier B
+
+8 HR items (R-batch-10 N1-N8) flagged for pitch-material soften discipline. Substrate preserved verbatim в audio_714-720.md; pitch reframes drafted per KA-45.
+
+### Per-candidate trigger summary
+
+- **O-120** — gated by D10-4 timeline AP-6 reconcile
+- **O-121** ⭐⭐⭐ — gated by D10-1 + D10-3 (§APPEND L13 §J + O-107 wiki) — STRONGEST batch-10 candidate
+- **O-122** — gated by D10-9 (one-pager naming choice)
+- **O-123** — gated by D10-2 §APPEND L13 §M + soften discipline
+- **O-124** — gated by D10-1 §APPEND L13 §J
+- **O-125** — gated by D10-2 + context-distinction confirmation
+- **O-126** — Ruslan ack «comparative-frame for partnership-baseline» + R12 discipline
+- **O-127** — Ruslan ack «preserve AP-6 dual-position»
+
+### SKIP-list integrity check batch-10
+
+✅ O-62 / O-66 / O-67 / O-68 NOT re-surfaced. ✅ O-83 cheat-code DROPPED honored (audio_720 «intellect-cheat-code» context-DISTINCT — NOT REVIVED O-83).
+
+Source: `reports/voice-pipeline-2026-05-22-batch-10/05-candidates-3-buckets.md` §A.2 + §A.3
+
+---
+
+*Tier B pool extended batch-10 2026-05-22. **45 candidates POOLED total** (37 + 8). Не promoted. Cherry-pick when ready. O-121 ⭐⭐⭐ strongest batch-10 candidate.*
+
