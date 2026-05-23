@@ -1,0 +1,90 @@
+[
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/dijkstra-short-intro-art-of-programming-1969.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/dijkstra-short-intro-art-of-programming-1969.md",
+    "pages_total": 101,
+    "pages_ocr": 25,
+    "chars": 46905,
+    "runtime_sec": 21.74179196357727
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/schon-educating-reflective-practitioner-1987.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/schon-educating-reflective-practitioner-1987.md",
+    "pages_total": 384,
+    "pages_ocr": 25,
+    "chars": 18138,
+    "runtime_sec": 14.888015747070312
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-trance-formations-1981.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-trance-formations-1981.md",
+    "pages_total": 260,
+    "pages_ocr": 25,
+    "chars": 51494,
+    "runtime_sec": 21.906585693359375
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/dilts-delozier-encyclopedia-of-systemic-nlp-2000.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/dilts-delozier-encyclopedia-of-systemic-nlp-2000.md",
+    "pages_total": 1724,
+    "pages_ocr": 25,
+    "chars": 73398,
+    "runtime_sec": 33.88692092895508
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/bernays-crystallizing-public-opinion-1923.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/bernays-crystallizing-public-opinion-1923.md",
+    "pages_total": 228,
+    "pages_ocr": 25,
+    "chars": 16390,
+    "runtime_sec": 9.288395643234253
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/bernays-propaganda-1928.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/bernays-propaganda-1928.md",
+    "pages_total": 158,
+    "pages_ocr": 25,
+    "chars": 26111,
+    "runtime_sec": 12.465569972991943
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/freud-group-psychology-1921.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/freud-group-psychology-1921.md",
+    "pages_total": 152,
+    "pages_ocr": 25,
+    "chars": 19780,
+    "runtime_sec": 19.288984775543213
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/le-bon-the-crowd-1895.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/le-bon-the-crowd-1895.md",
+    "pages_total": 262,
+    "pages_ocr": 25,
+    "chars": 25484,
+    "runtime_sec": 11.398576498031616
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/goodfellow-deep-learning-2016.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/goodfellow-deep-learning-2016.md",
+    "pages_total": 972,
+    "pages_ocr": 25,
+    "chars": 22057,
+    "runtime_sec": 14.490362167358398
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/hacking-representing-and-intervening-1983.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/hacking-representing-and-intervening-1983.md",
+    "pages_total": 306,
+    "pages_ocr": 25,
+    "chars": 29611,
+    "runtime_sec": 13.123077392578125
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/laudan-progress-and-its-problems-1977.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/laudan-progress-and-its-problems-1977.md",
+    "pages_total": 264,
+    "pages_ocr": 25,
+    "chars": 38000,
+    "runtime_sec": 17.387463808059692
+  }
+]
