@@ -1419,3 +1419,67 @@ DR-34 AI commoditisation / DR-37 Question-driven inquiry / DR-38 ⭐⭐ 8-compon
 All 11 → (a) Pool Tier B (73 → 83 candidates). No wiki promotions. No LOCK modifications. CRM DRAFT-only. Wait next session.
 
 [src: `reports/voice-batch-12-quick-2026-05-23/02-key-ideas-pool-candidates.md` + 03-wiki-promotion-candidates.md + 04-point-b-integration-note.md + per-audio MDs `raw/voice-memos-2026-05-23-batch/audio_729..731@*.md` + transcripts `raw/voice-transcripts/audio_729..731@*.txt`]
+
+---
+
+## §APPEND-2026-05-23-Ruslan-ACK-D12-promote-all (point-b-compact)
+
+**Ack source:** Ruslan voice 2026-05-23 late-evening «все D12-* в Википедию + Точка Б compact (1w/1m/2m) + ёбашь quick не 2 часа залупы».
+
+**Ack decision:** D12-* ack-ALL = explicit promote всех 11 D12-* items в wiki. Default-deny-safe (a) Pool Tier B collapse OVERRIDDEN by explicit ack-all mandate.
+
+### Wiki promotion log (10 wiki actions executed)
+
+| D12-# | Action | Wiki target | Status |
+|---|---|---|---|
+| D12-1 ⭐⭐⭐ (O-160) | NEW Tier A standalone | `wiki/concepts/development-promotion-mode-transition.md` | ✅ created (220 lines) |
+| D12-1 compound | §APPEND L4 | `wiki/concepts/method-method-one-liner.md` §H | ✅ added |
+| D12-2 ⭐⭐ (O-161) | NEW Tier B-plus | `wiki/concepts/cohort-target-profile-ontology.md` (positive profile) | ✅ created (200 lines) |
+| D12-3 ⭐⭐⭐ concern | HR-soften pattern documented | `wiki/concepts/cohort-target-profile-ontology.md` §6.2 (HR-1..HR-5 explicit) | ✅ documented |
+| D12-4 (O-156) | §APPEND drive-layer | `wiki/concepts/method-method-one-liner.md` §F | ✅ added |
+| D12-5 (O-157) wiki side | §APPEND distribution sequence | `wiki/concepts/jetix-as-exokortex.md` §H-§M | ✅ added (55 lines) |
+| D12-5 CRM side | Operational deferred to Plan-of-Day Шаг 6 | CRM voice-pipeline DRAFT-only invariant | ⏸ deferred |
+| D12-6 (O-158) | NEW Tier B-plus | `wiki/concepts/notion-mvp-bypass-pattern.md` | ✅ created (135 lines) |
+| D12-7 (O-159) | §APPEND scale-framing | `wiki/concepts/external-system-cybernetic-principle.md` §H-§J | ✅ added |
+| D12-8 (O-163) | §APPEND testable hypothesis | `wiki/concepts/external-system-cybernetic-principle.md` §K-§P | ✅ added |
+| D12-9 (O-164) | §APPEND self-reframe | `wiki/concepts/method-method-one-liner.md` §G | ✅ added |
+| D12-10 (O-165) | CRM operational deferred to Plan-of-Day Шаг 6 | CRM update + People-NS H7 channels-inventory | ⏸ deferred |
+| D12-11 (O-162) | §APPEND anti-target companion | `wiki/concepts/cohort-target-profile-ontology.md` §3 | ✅ added (bundled с D12-2) |
+
+**Coverage:** 11/11 D12-* items addressed. 9 wiki executions + 2 operational deferrals. 765 lines wiki content delta.
+
+**Tier B pool impact:** 73 → 83 candidates net unchanged (10 items promoted к wiki, не pool).
+
+### Point B COMPACT deliverable created
+
+Master: `decisions/strategic/POINT-B-NEAR-TARGET-2026-05-23.md` (~1100 lines / 3 horizons 1w/1m/2m / 3 perspectives Ruslan/partner/recruit / 8 mermaid).
+
+Phase reports: `reports/point-b-compact-2026-05-23/phase-0..5*.md` + 00-SUMMARY + diagrams INDEX.
+
+### Constitutional posture preserved
+
+- ✅ R1 surface only — substrate compile; Ruslan-only R1 prose authority reserved (future direction-card / Plan-of-Day / Strategic Reflection update slot)
+- ✅ R2 — Foundation paths untouched
+- ✅ R6 — inline [src: ...] per claim
+- ✅ R11 Default-Deny — promotions = explicit Ruslan ack-all (not auto)
+- ✅ R12 paired-frame — explicit во всех 3 perspectives + всех outreach references
+- ✅ IP-1 STRICT — brigadier-scribe ≠ Ruslan; humans as humans; agents as agents
+- ✅ EP-5 — promote via explicit ack
+- ✅ AP-6 — append-only
+- ✅ SKIP-list integrity — O-62/66/67/68 + O-83 не re-surfaced
+- ✅ Acked-state preservation — 13 LOCKED items untouched (Foundation v1.0 + 4 LOCKED canonical + Charter v0 + R12 LOCK + 8 RUSLAN-ACK records)
+- ✅ HR-soften discipline applied per D12-3 (HR-1..HR-5)
+
+### R1 future slots reserved для Ruslan
+
+1. Direction-card / Plan-of-Day 2026-05-24+ update (per O-160 phase-transition operational adoption)
+2. Strategic Reflection (Pillar A doc-type) Ruslan-authored (per O-160 longer-form)
+3. Outreach copy review (KA-pitch-soften pass на Wave 1 package) Monday 26.05
+
+### Sequence dependencies
+
+- 7 commits per-phase + final push (executed)
+- Точка Б Phase 2-4 horizons depend on D12-* promotions Phase 1 (executed first)
+- Plan-of-Day Шаг 2 «Точка Б» — substrate compile complete; Ruslan R1 review pending
+
+[src: `prompts/point-b-compact-2026-05-23-evening.md` §7 D12-* mapping + Ruslan voice ack-all 2026-05-23 evening «все D12-* в Википедию»; `reports/point-b-compact-2026-05-23/phase-1-d12-promotions.md` coverage matrix; `decisions/strategic/POINT-B-NEAR-TARGET-2026-05-23.md` Master deliverable]
