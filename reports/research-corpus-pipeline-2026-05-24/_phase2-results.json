@@ -1,0 +1,596 @@
+[
+  {
+    "path": "./inbox/anthropic/askell-2021-hhh.pdf",
+    "md_path": "./inbox/anthropic/askell-2021-hhh.md",
+    "status": "ok",
+    "pages": 48,
+    "chars": 153596,
+    "approx_tokens": 38399,
+    "elapsed_sec": 0.19669198989868164
+  },
+  {
+    "path": "./inbox/anthropic/bai-2022-cai.pdf",
+    "md_path": "./inbox/anthropic/bai-2022-cai.md",
+    "status": "ok",
+    "pages": 34,
+    "chars": 118881,
+    "approx_tokens": 29720,
+    "elapsed_sec": 0.0879817008972168
+  },
+  {
+    "path": "./inbox/event-sourcing/young-cqrs-2010.pdf",
+    "md_path": "./inbox/event-sourcing/young-cqrs-2010.md",
+    "status": "ok",
+    "pages": 56,
+    "chars": 110121,
+    "approx_tokens": 27530,
+    "elapsed_sec": 0.06437969207763672
+  },
+  {
+    "path": "./inbox/sre/google-sre-book.pdf",
+    "md_path": "./inbox/sre/google-sre-book.md",
+    "status": "ok",
+    "pages": 550,
+    "chars": 1204453,
+    "approx_tokens": 301113,
+    "elapsed_sec": 0.539837121963501
+  },
+  {
+    "path": "./raw/articles/arxiv-2406.07155-qian-scaling-laws.pdf",
+    "md_path": "./raw/articles/arxiv-2406.07155-qian-scaling-laws.md",
+    "status": "ok",
+    "pages": 18,
+    "chars": 74069,
+    "approx_tokens": 18517,
+    "elapsed_sec": 0.08400797843933105
+  },
+  {
+    "path": "./raw/articles/arxiv-2503.13657-cemri-mast-failure-modes.pdf",
+    "md_path": "./raw/articles/arxiv-2503.13657-cemri-mast-failure-modes.md",
+    "status": "ok",
+    "pages": 47,
+    "chars": 135848,
+    "approx_tokens": 33962,
+    "elapsed_sec": 0.09695720672607422
+  },
+  {
+    "path": "./raw/articles/arxiv-2512.08296-kim-multi-agent-scaling.pdf",
+    "md_path": "./raw/articles/arxiv-2512.08296-kim-multi-agent-scaling.md",
+    "status": "ok",
+    "pages": 44,
+    "chars": 142156,
+    "approx_tokens": 35539,
+    "elapsed_sec": 0.13105440139770508
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/17.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/_unknown/17.md",
+    "status": "ok",
+    "pages": 586,
+    "chars": 2093912,
+    "approx_tokens": 523478,
+    "elapsed_sec": 0.8698980808258057
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/formal-15-12-02.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/_unknown/formal-15-12-02.md",
+    "status": "ok",
+    "pages": 308,
+    "chars": 562084,
+    "approx_tokens": 140521,
+    "elapsed_sec": 0.48662257194519043
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/_unknown/visual_toolbox_chapter_1.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/_unknown/visual_toolbox_chapter_1.md",
+    "status": "ok",
+    "pages": 66,
+    "chars": 96349,
+    "approx_tokens": 24087,
+    "elapsed_sec": 1.121170997619629
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/knuth-art-of-computer-programming-vol2-1969.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/knuth-art-of-computer-programming-vol2-1969.md",
+    "status": "ok",
+    "pages": 782,
+    "chars": 2149091,
+    "approx_tokens": 537272,
+    "elapsed_sec": 1.3287732601165771
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/menand-pragmatism-reader-1997.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/menand-pragmatism-reader-1997.md",
+    "status": "ok",
+    "pages": 596,
+    "chars": 1524336,
+    "approx_tokens": 381084,
+    "elapsed_sec": 0.9021694660186768
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/merleau-ponty-structure-of-behaviour-1942.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/merleau-ponty-structure-of-behaviour-1942.md",
+    "status": "ok",
+    "pages": 286,
+    "chars": 756631,
+    "approx_tokens": 189157,
+    "elapsed_sec": 0.3000185489654541
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-personal-knowledge-1958.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-personal-knowledge-1958.md",
+    "status": "ok",
+    "pages": 539,
+    "chars": 1381150,
+    "approx_tokens": 345287,
+    "elapsed_sec": 0.573411226272583
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-tacit-dimension-1966.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/polanyi-tacit-dimension-1966.md",
+    "status": "ok",
+    "pages": 97,
+    "chars": 177035,
+    "approx_tokens": 44258,
+    "elapsed_sec": 0.08883881568908691
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/polya-how-to-solve-it-1945.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/polya-how-to-solve-it-1945.md",
+    "status": "ok",
+    "pages": 280,
+    "chars": 431925,
+    "approx_tokens": 107981,
+    "elapsed_sec": 0.2795994281768799
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/methodology/senge-fifth-discipline-SUMMARY-only.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/methodology/senge-fifth-discipline-SUMMARY-only.md",
+    "status": "ok",
+    "pages": 32,
+    "chars": 44362,
+    "approx_tokens": 11090,
+    "elapsed_sec": 0.045358896255493164
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-faulkner-nlp-new-technology-of-achievement-1996.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-faulkner-nlp-new-technology-of-achievement-1996.md",
+    "status": "ok",
+    "pages": 370,
+    "chars": 654841,
+    "approx_tokens": 163710,
+    "elapsed_sec": 0.3377962112426758
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-heart-of-the-mind-1989.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/andreas-heart-of-the-mind-1989.md",
+    "status": "ok",
+    "pages": 395,
+    "chars": 628569,
+    "approx_tokens": 157142,
+    "elapsed_sec": 0.39211320877075195
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-frogs-into-princes-1979.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-frogs-into-princes-1979.md",
+    "status": "ok",
+    "pages": 209,
+    "chars": 476643,
+    "approx_tokens": 119160,
+    "elapsed_sec": 0.20018768310546875
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-reframing-1982.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-reframing-1982.md",
+    "status": "ok",
+    "pages": 208,
+    "chars": 487151,
+    "approx_tokens": 121787,
+    "elapsed_sec": 0.18801021575927734
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-structure-of-magic-1975.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/bandler-grinder-structure-of-magic-1975.md",
+    "status": "ok",
+    "pages": 212,
+    "chars": 399514,
+    "approx_tokens": 99878,
+    "elapsed_sec": 0.41227245330810547
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/bolton-people-skills-1979.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/bolton-people-skills-1979.md",
+    "status": "ok",
+    "pages": 354,
+    "chars": 705216,
+    "approx_tokens": 176304,
+    "elapsed_sec": 0.4206726551055908
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/dilts-sleight-of-mouth-1999.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/dilts-sleight-of-mouth-1999.md",
+    "status": "ok",
+    "pages": 318,
+    "chars": 466645,
+    "approx_tokens": 116661,
+    "elapsed_sec": 0.20073819160461426
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/oconnor-seymour-introducing-nlp-1990.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/oconnor-seymour-introducing-nlp-1990.md",
+    "status": "ok",
+    "pages": 284,
+    "chars": 504294,
+    "approx_tokens": 126073,
+    "elapsed_sec": 0.20090103149414062
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-awaken-the-giant-within-1991.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-awaken-the-giant-within-1991.md",
+    "status": "ok",
+    "pages": 556,
+    "chars": 1153708,
+    "approx_tokens": 288427,
+    "elapsed_sec": 0.6912600994110107
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-unlimited-power-1986.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/nlp/robbins-unlimited-power-1986.md",
+    "status": "ok",
+    "pages": 185,
+    "chars": 250077,
+    "approx_tokens": 62519,
+    "elapsed_sec": 0.11012649536132812
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/berger-contagious-2013.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/berger-contagious-2013.md",
+    "status": "ok",
+    "pages": 207,
+    "chars": 414435,
+    "approx_tokens": 103608,
+    "elapsed_sec": 0.17087411880493164
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/chomsky-herman-manufacturing-consent-1988.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/chomsky-herman-manufacturing-consent-1988.md",
+    "status": "ok",
+    "pages": 582,
+    "chars": 1284878,
+    "approx_tokens": 321219,
+    "elapsed_sec": 0.8523530960083008
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-influence-psychology-of-persuasion-1984.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-influence-psychology-of-persuasion-1984.md",
+    "status": "ok",
+    "pages": 279,
+    "chars": 663509,
+    "approx_tokens": 165877,
+    "elapsed_sec": 0.6286294460296631
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-pre-suasion-2016.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/cialdini-pre-suasion-2016.md",
+    "status": "ok",
+    "pages": 375,
+    "chars": 836979,
+    "approx_tokens": 209244,
+    "elapsed_sec": 0.5049784183502197
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/ellul-propaganda-1965.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/ellul-propaganda-1965.md",
+    "status": "ok",
+    "pages": 348,
+    "chars": 855714,
+    "approx_tokens": 213928,
+    "elapsed_sec": 1.404496192932129
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-permission-marketing-1999.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-permission-marketing-1999.md",
+    "status": "ok",
+    "pages": 206,
+    "chars": 360121,
+    "approx_tokens": 90030,
+    "elapsed_sec": 0.1448071002960205
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-tribes-2008.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/godin-tribes-2008.md",
+    "status": "ok",
+    "pages": 93,
+    "chars": 180862,
+    "approx_tokens": 45215,
+    "elapsed_sec": 0.11406517028808594
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/greene-48-laws-of-power-1998.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/greene-48-laws-of-power-1998.md",
+    "status": "ok",
+    "pages": 651,
+    "chars": 1284228,
+    "approx_tokens": 321057,
+    "elapsed_sec": 0.560199499130249
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hassan-combating-cult-mind-control-1988.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hassan-combating-cult-mind-control-1988.md",
+    "status": "ok",
+    "pages": 362,
+    "chars": 806603,
+    "approx_tokens": 201650,
+    "elapsed_sec": 0.33854246139526367
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/heath-made-to-stick-2007.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/heath-made-to-stick-2007.md",
+    "status": "ok",
+    "pages": 284,
+    "chars": 569807,
+    "approx_tokens": 142451,
+    "elapsed_sec": 0.2927548885345459
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/henrich-weirdest-people-in-the-world-2020.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/henrich-weirdest-people-in-the-world-2020.md",
+    "status": "ok",
+    "pages": 658,
+    "chars": 1471969,
+    "approx_tokens": 367992,
+    "elapsed_sec": 1.4322965145111084
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hoffer-true-believer-1951.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/hoffer-true-believer-1951.md",
+    "status": "ok",
+    "pages": 378,
+    "chars": 296476,
+    "approx_tokens": 74119,
+    "elapsed_sec": 0.21358680725097656
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/kahneman-thinking-fast-and-slow-2011.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/kahneman-thinking-fast-and-slow-2011.md",
+    "status": "ok",
+    "pages": 533,
+    "chars": 1140637,
+    "approx_tokens": 285159,
+    "elapsed_sec": 0.4151456356048584
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/le-bon-the-crowd-1895.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/le-bon-the-crowd-1895.md",
+    "status": "ok",
+    "pages": 262,
+    "chars": 3463,
+    "approx_tokens": 865,
+    "elapsed_sec": 0.27047204971313477
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lifton-thought-reform-1961.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lifton-thought-reform-1961.md",
+    "status": "ok",
+    "pages": 498,
+    "chars": 1173504,
+    "approx_tokens": 293376,
+    "elapsed_sec": 0.449371337890625
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lippmann-public-opinion-1922.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/lippmann-public-opinion-1922.md",
+    "status": "ok",
+    "pages": 233,
+    "chars": 713558,
+    "approx_tokens": 178389,
+    "elapsed_sec": 0.7087335586547852
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/raymond-cathedral-and-bazaar-1999.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/raymond-cathedral-and-bazaar-1999.md",
+    "status": "ok",
+    "pages": 250,
+    "chars": 449718,
+    "approx_tokens": 112429,
+    "elapsed_sec": 0.20164251327514648
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/srinivasan-the-network-state-2022.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/propaganda-recruitment/srinivasan-the-network-state-2022.md",
+    "status": "ok",
+    "pages": 262,
+    "chars": 735973,
+    "approx_tokens": 183993,
+    "elapsed_sec": 0.28336453437805176
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/chalmers-what-is-this-thing-called-science-1976.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/chalmers-what-is-this-thing-called-science-1976.md",
+    "status": "ok",
+    "pages": 286,
+    "chars": 581791,
+    "approx_tokens": 145447,
+    "elapsed_sec": 0.2804534435272217
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/feyerabend-against-method-1975.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/feyerabend-against-method-1975.md",
+    "status": "ok",
+    "pages": 299,
+    "chars": 749581,
+    "approx_tokens": 187395,
+    "elapsed_sec": 0.34720349311828613
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/huyen-designing-ml-systems-2022.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/huyen-designing-ml-systems-2022.md",
+    "status": "ok",
+    "pages": 461,
+    "chars": 832040,
+    "approx_tokens": 208010,
+    "elapsed_sec": 0.3876941204071045
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/kuhn-structure-of-scientific-revolutions-1962.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/kuhn-structure-of-scientific-revolutions-1962.md",
+    "status": "ok",
+    "pages": 237,
+    "chars": 574737,
+    "approx_tokens": 143684,
+    "elapsed_sec": 0.21923089027404785
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/lakatos-methodology-scientific-research-programmes-1978.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/lakatos-methodology-scientific-research-programmes-1978.md",
+    "status": "ok",
+    "pages": 256,
+    "chars": 865296,
+    "approx_tokens": 216324,
+    "elapsed_sec": 0.3764681816101074
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/longino-fate-of-knowledge-2002.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/longino-fate-of-knowledge-2002.md",
+    "status": "ok",
+    "pages": 274,
+    "chars": 709063,
+    "approx_tokens": 177265,
+    "elapsed_sec": 0.31946301460266113
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/popper-conjectures-and-refutations-1963.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/popper-conjectures-and-refutations-1963.md",
+    "status": "ok",
+    "pages": 782,
+    "chars": 1252530,
+    "approx_tokens": 313132,
+    "elapsed_sec": 0.6763501167297363
+  },
+  {
+    "path": "./raw/external/research-corpus-2026-05-23/sota/popper-logic-of-scientific-discovery-1934.pdf",
+    "md_path": "./raw/external/research-corpus-2026-05-23/sota/popper-logic-of-scientific-discovery-1934.md",
+    "status": "ok",
+    "pages": 545,
+    "chars": 1165569,
+    "approx_tokens": 291392,
+    "elapsed_sec": 0.5657870769500732
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/axelrod-evolution-of-cooperation-1984.pdf",
+    "md_path": "./raw/papers-pdf/gamification/axelrod-evolution-of-cooperation-1984.md",
+    "status": "ok",
+    "pages": 231,
+    "chars": 413639,
+    "approx_tokens": 103409,
+    "elapsed_sec": 0.1840662956237793
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/castronova-synthetic-worlds-2005.pdf",
+    "md_path": "./raw/papers-pdf/gamification/castronova-synthetic-worlds-2005.md",
+    "status": "ok",
+    "pages": 338,
+    "chars": 941405,
+    "approx_tokens": 235351,
+    "elapsed_sec": 0.46971869468688965
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/cialdini-influence-ru-1984.pdf",
+    "md_path": "./raw/papers-pdf/gamification/cialdini-influence-ru-1984.md",
+    "status": "ok",
+    "pages": 407,
+    "chars": 763895,
+    "approx_tokens": 190973,
+    "elapsed_sec": 0.5202021598815918
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/csikszentmihalyi-flow-1990.pdf",
+    "md_path": "./raw/papers-pdf/gamification/csikszentmihalyi-flow-1990.md",
+    "status": "ok",
+    "pages": 314,
+    "chars": 808588,
+    "approx_tokens": 202147,
+    "elapsed_sec": 0.6758406162261963
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/eyal-hooked-2014.pdf",
+    "md_path": "./raw/papers-pdf/gamification/eyal-hooked-2014.md",
+    "status": "ok",
+    "pages": 137,
+    "chars": 282859,
+    "approx_tokens": 70714,
+    "elapsed_sec": 0.18046212196350098
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/koster-theory-of-fun-2004.pdf",
+    "md_path": "./raw/papers-pdf/gamification/koster-theory-of-fun-2004.md",
+    "status": "ok",
+    "pages": 214,
+    "chars": 250504,
+    "approx_tokens": 62626,
+    "elapsed_sec": 0.2046208381652832
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/lehdonvirta-castronova-virtual-economies-2014.pdf",
+    "md_path": "./raw/papers-pdf/gamification/lehdonvirta-castronova-virtual-economies-2014.md",
+    "status": "ok",
+    "pages": 307,
+    "chars": 787946,
+    "approx_tokens": 196986,
+    "elapsed_sec": 0.3911879062652588
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/rogers-level-up-2010.pdf",
+    "md_path": "./raw/papers-pdf/gamification/rogers-level-up-2010.md",
+    "status": "ok",
+    "pages": 516,
+    "chars": 806108,
+    "approx_tokens": 201527,
+    "elapsed_sec": 0.32346367835998535
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/rouse-game-design-theory-and-practice-2004.pdf",
+    "md_path": "./raw/papers-pdf/gamification/rouse-game-design-theory-and-practice-2004.md",
+    "status": "ok",
+    "pages": 724,
+    "chars": 2054995,
+    "approx_tokens": 513748,
+    "elapsed_sec": 0.8665821552276611
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/salen-zimmerman-rules-of-play-2003.pdf",
+    "md_path": "./raw/papers-pdf/gamification/salen-zimmerman-rules-of-play-2003.md",
+    "status": "ok",
+    "pages": 694,
+    "chars": 2008038,
+    "approx_tokens": 502009,
+    "elapsed_sec": 0.8743698596954346
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/schell-art-of-game-design-lenses.pdf",
+    "md_path": "./raw/papers-pdf/gamification/schell-art-of-game-design-lenses.md",
+    "status": "ok",
+    "pages": 518,
+    "chars": 1110728,
+    "approx_tokens": 277682,
+    "elapsed_sec": 1.599602460861206
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/schelling-strategy-of-conflict-1960.pdf",
+    "md_path": "./raw/papers-pdf/gamification/schelling-strategy-of-conflict-1960.md",
+    "status": "ok",
+    "pages": 319,
+    "chars": 685889,
+    "approx_tokens": 171472,
+    "elapsed_sec": 3.0893783569335938
+  },
+  {
+    "path": "./raw/papers-pdf/gamification/varoufakis-technofeudalism-2023.pdf",
+    "md_path": "./raw/papers-pdf/gamification/varoufakis-technofeudalism-2023.md",
+    "status": "ok",
+    "pages": 288,
+    "chars": 515325,
+    "approx_tokens": 128831,
+    "elapsed_sec": 0.25543951988220215
+  }
+]
