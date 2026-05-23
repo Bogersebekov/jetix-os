@@ -1,27 +1,29 @@
 ---
-title: Research Books to Download — 3 buckets (Propaganda+Recruitment / SOTA / Methodology)
+title: Research Books to Download — 4 buckets (Propaganda+Recruitment / SOTA / Methodology / NLP)
 date: 2026-05-23
 type: book-acquisition-list
-authored_by: brigadier-scribe (Cloud Cowork) per Ruslan voice ack 23.05 late-evening
+authored_by: brigadier-scribe (Cloud Cowork) per Ruslan voice ack 23.05 late-evening + NLP addition
 target_corpus: raw/external/research-corpus-2026-05-23/
-buckets: 3 (propaganda-recruitment / sota / methodology)
+buckets: 4 (propaganda-recruitment / sota / methodology / nlp)
 constitutional_posture: R1 surface only + R6
 language: russian primary
 status: ACTIVE — Ruslan скачивает + загружает на сервер
-priority: ⭐⭐⭐ — substrate для 3 parallel research prompts
+priority: ⭐⭐⭐ — substrate для 4 parallel research prompts
 ---
 
 # 📚 Research Books — Список для скачивания
 
-> **3 buckets parallel research:**
+> **4 buckets parallel research:**
 > 1. **Propaganda + Recruitment** — Bernays + Cialdini + классики + modern
 > 2. **SOTA** (State of the Art) — Левенчук + Popper + Kuhn + методология научного прогресса
 > 3. **Методологии** — Левенчук «Методология» + Polya + Polanyi + Schön + ШСМ tradition
+> 4. **NLP** (Neuro-Linguistic Programming) — Bandler + Grinder + Dilts + Robbins + critical reviews
 >
 > **Куда складывать:** `raw/external/research-corpus-2026-05-23/<bucket>/`
 > - `propaganda-recruitment/`
 > - `sota/`
 > - `methodology/`
+> - `nlp/`
 
 ---
 
@@ -162,6 +164,63 @@ priority: ⭐⭐⭐ — substrate для 3 parallel research prompts
 
 ---
 
+---
+
+## 🎯 Bucket 4 — NLP (Neuro-Linguistic Programming)
+
+### ⭐⭐⭐ MUST HAVE (Bandler + Grinder foundational)
+
+| # | Книга | Автор | Год | Почему |
+|---|---|---|---|---|
+| 1 | **The Structure of Magic Volume I** | Bandler + Grinder | 1975 | Foundational text — Meta-model + language patterns |
+| 2 | **The Structure of Magic Volume II** | Bandler + Grinder | 1976 | Follow-up — submodalities + representational systems |
+| 3 | **Frogs into Princes** | Bandler + Grinder | 1979 | Popular intro — accessible NLP |
+| 4 | **Trance-formations** | Bandler + Grinder | 1981 | Milton model + hypnotic patterns |
+| 5 | **Reframing** | Bandler + Grinder | 1982 | Meaning transformation — direct connection R12 framing |
+
+### ⭐⭐ Important (Dilts + applications)
+
+| # | Книга | Автор | Год | Почему |
+|---|---|---|---|---|
+| 6 | **Strategies of Genius (Volumes 1-3)** | Robert Dilts | 1994-1995 | NLP modeling discipline — Aristotle / Disney / Einstein |
+| 7 | **Encyclopedia of Systemic Neuro-Linguistic Programming** | Dilts + DeLozier | 2000 | Comprehensive reference (~1700 pages) |
+| 8 | **Sleight of Mouth** | Robert Dilts | 1999 | Verbal reframing patterns — objection handling |
+| 9 | **NLP: The New Technology of Achievement** | Steve Andreas + Faulkner | 1996 | Practical NLP applications |
+| 10 | **Heart of the Mind** | Steve Andreas + Connirae Andreas | 1989 | NLP for personal change |
+| 11 | **Introducing NLP** | O'Connor + Seymour | 1990 | Popular textbook — best entry point |
+
+### ⭐ Popularizers + Influence (Robbins + adjacent)
+
+| # | Книга | Автор | Год | Почему |
+|---|---|---|---|---|
+| 12 | **Unlimited Power** | Anthony Robbins | 1986 | Popularized NLP — must-read для market literacy |
+| 13 | **Awaken the Giant Within** | Anthony Robbins | 1991 | NLP + life-coaching synthesis |
+| 14 | **People Skills** | Robert Bolton | 1979 | Communication adjacencies |
+
+### ⭐⭐ CRITICAL — Scientific evaluation (mandatory для R12 boundary check)
+
+| # | Книга | Автор | Год | Почему |
+|---|---|---|---|---|
+| 15 | **Thirty-Five Years of Research on Neuro-Linguistic Programming (paper)** | Tomasz Witkowski | 2010 | Critical scientific review — что работает / что не |
+| 16 | **Whispering in the Wind** | Grinder + Bostic St. Clair | 2001 | Co-founder retrospective — context + critique |
+| 17 | **Brain Sex / NLP critical review papers** | Various | — | Empirical evaluation literature |
+
+### Modern coaching adjacencies (где NLP применяется)
+
+| # | Книга | Автор | Год | Почему |
+|---|---|---|---|---|
+| 18 | **Co-Active Coaching** | Whitworth + Kimsey-House | 1998 | Modern coaching methodology |
+| 19 | **The Inner Game of Tennis** | W. Timothy Gallwey | 1974 | Self-talk patterns (related к NLP submodalities) |
+| 20 | **Atomic Habits** | James Clear | 2018 | Behavior change (adjacent — anchoring + cue) |
+
+### Russian NLP literature (if accessible)
+
+- Михаил Гриндер (no relation Grinder Sr.) — переводы NLP textbooks
+- А.А. Плигин — НЛП на русском
+- Различные курсы НЛП-Практик / Master / Trainer (programs documentation)
+
+---
+
 ## 📥 How to download
 
 ### Easiest sources:
@@ -194,10 +253,18 @@ raw/external/research-corpus-2026-05-23/
 │   ├── popper-conjectures-refutations-1963.pdf
 │   ├── kuhn-structure-scientific-revolutions-1962.pdf
 │   └── ...
-└── methodology/
-    ├── levenchuk-metodologiya-2023.pdf
-    ├── polya-how-to-solve-it-1945.pdf
-    ├── senge-fifth-discipline-1990.pdf
+├── methodology/
+│   ├── levenchuk-metodologiya-2023.pdf
+│   ├── polya-how-to-solve-it-1945.pdf
+│   ├── senge-fifth-discipline-1990.pdf
+│   └── ...
+└── nlp/
+    ├── bandler-grinder-structure-of-magic-vol1-1975.pdf
+    ├── bandler-grinder-frogs-into-princes-1979.pdf
+    ├── dilts-sleight-of-mouth-1999.pdf
+    ├── oconnor-seymour-introducing-nlp-1990.pdf
+    ├── robbins-unlimited-power-1986.pdf
+    ├── witkowski-nlp-research-review-2010.pdf
     └── ...
 ```
 
@@ -226,6 +293,14 @@ raw/external/research-corpus-2026-05-23/
 3. Senge «The Fifth Discipline» 1990
 4. Ashby «Introduction to Cybernetics» 1956
 5. Polanyi «Personal Knowledge» 1958
+
+**NLP:**
+1. Bandler + Grinder «The Structure of Magic Vol I» 1975
+2. Bandler + Grinder «Frogs into Princes» 1979
+3. O'Connor + Seymour «Introducing NLP» 1990
+4. Dilts «Sleight of Mouth» 1999
+5. Witkowski «Thirty-Five Years of Research on NLP» 2010 (critical review — mandatory для R12 boundary)
+6. Robbins «Unlimited Power» 1986
 
 ### Tier-2 ⭐⭐ (very important)
 
